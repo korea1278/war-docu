@@ -67,8 +67,8 @@ export const Subtitles: React.FC = () => {
           position: "relative",
           background: "#fff",
           border: `5px solid ${C.subBorder}`,
-          borderRadius: 10,
-          boxShadow: "0 0 0 3px #fff, 0 6px 18px rgba(0,0,0,.45)",
+          borderRadius: 12,
+          boxShadow: "0 6px 18px rgba(0,0,0,.45)",
           padding: "8px 34px 6px",
           fontFamily: F.sub,
           fontSize: 54,
@@ -78,23 +78,10 @@ export const Subtitles: React.FC = () => {
           whiteSpace: "nowrap",
         }}
       >
-        <Notch pos="tl" />
-        <Notch pos="tr" />
-        <Notch pos="bl" />
-        <Notch pos="br" />
         {cur.text}
       </div>
     </div>
   );
-};
-
-const Notch: React.FC<{ pos: "tl" | "tr" | "bl" | "br" }> = ({ pos }) => {
-  const s: React.CSSProperties = { position: "absolute", width: 14, height: 14, background: C.subBorder, borderRadius: 3 };
-  if (pos[0] === "t") s.top = -10;
-  else s.bottom = -10;
-  if (pos[1] === "l") s.left = -10;
-  else s.right = -10;
-  return <div style={{ ...s, transform: "rotate(45deg)", boxShadow: "0 0 0 3px #fff" }} />;
 };
 
 /* ---------------- 우상단 출처 + 라벨 ---------------- */

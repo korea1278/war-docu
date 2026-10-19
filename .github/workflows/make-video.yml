@@ -94,7 +94,9 @@ jobs:
 
       - name: 나레이션 (일레븐랩스)
         if: github.event.inputs.mode != 'free'
-        run: cd pipeline && python tts.py $EP
+        run: |
+          cd pipeline && python tts.py $EP
+          python tighten.py $EP
 
       - name: 효과음 + 배경음악 (일레븐랩스)
         if: github.event.inputs.mode != 'free'
@@ -139,7 +141,7 @@ jobs:
         if: github.event.inputs.mode == 'full'
         run: |
           npx remotion render out/bundle Documentary out/$EP.mp4 \
-            --props="{\"ep\":\"$EP\"}" --concurrency=4 --codec=h264 --crf=23 --x264-preset=medium \
+            --props="{\"ep\":\"$EP\"}" --concurrency=4 --codec=h264 --crf=20 --x264-preset=veryfast \
             --audio-bitrate=192k --log=info
           # 유튜브 기준 음량 맞추기 (-15 LUFS), 영상은 그대로 복사
           ffmpeg -y -v error -i out/$EP.mp4 -c:v copy -af loudnorm=I=-15:TP=-1.5:LRA=11 -c:a aac -b:a 192k out/final.mp4

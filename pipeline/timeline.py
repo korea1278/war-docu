@@ -11,8 +11,9 @@ import sys
 from common import ROOT, ep_dirs, line_say, line_text, load_board, read_json, write_json
 
 FPS = 30
-GAP = 0.55          # 장면 끝 여유
-TEMPO = float(__import__("os").environ.get("NARRATION_TEMPO") or 0.9)  # 나레이션 재생 속도 (피치 유지)
+GAP = 0.32          # 장면 사이 간격 (앞 장면 꼬리 0.08초 + 이 값 ≈ 0.4초)
+MAX_PRE = 0.15      # 장면 앞 무음 상한
+MUSIC_GAIN = 1.33   # 배경음악 +2.5dB
 MAX_SUB = 24        # 자막 한 줄 최대 글자 수
 MOCK_CPS = 6.8      # 목업용 초당 글자 수
 
@@ -97,21 +98,21 @@ def build(ep, mock=False):
         says = [line_say(l) for l in sc["lines"]]
         texts = [line_text(l) for l in sc["lines"]]
         tts_text = sc.get("tts") or " ".join(s.strip() for s in says)
-        meta = None if mock else read_json(out / "tts" / f"{sc['id']}.json")
+        tdir = "tts_fast" if (out / "tts_fast" / f"{sc['id']}.json").exists() else "tts"
+        meta = None if mock else read_json(out / tdir / f"{sc['id']}.json")
         if not sc["lines"]:
             audio, adur, spans = None, 0.0, []
         elif meta:
-            audio = f"ep/{ep}/tts/{sc['id']}.mp3"
-            adur = mp3_dur(out / "tts" / f"{sc['id']}.mp3") / TEMPO
+            audio = f"ep/{ep}/{tdir}/{sc['id']}.mp3"
+            adur = mp3_dur(out / tdir / f"{sc['id']}.mp3")
             spans = line_spans(meta["text"], says)
-            meta = dict(meta, starts=[x / TEMPO for x in meta["starts"]], ends=[x / TEMPO for x in meta["ends"]])
         else:
             audio = None
             adur = len(tts_text) / MOCK_CPS + 0.3 * tts_text.count(",") + 0.5 * tts_text.count("...")
             spans = line_spans(tts_text, says)
             L = len(tts_text)
             meta = {"starts": [i / L * adur for i in range(L)], "ends": [(i + 1) / L * adur for i in range(L)]}
-        pre = sc.get("pauseBefore", 0.15)
+        pre = min(sc.get("pauseBefore", 0.0), MAX_PRE)
         lines = []
         for li, ((a, b), disp, say) in enumerate(zip(spans, texts, says)):
             ls, le = time_at(meta, a), time_at(meta, b - 1, end=True)
@@ -139,7 +140,7 @@ def build(ep, mock=False):
             vis["src"] = f"ep/{ep}/ai/{vis['img']}.jpg" if vis["img"] in ai else None
             vis["credit"] = None
         scenes_out.append({
-            "id": sc["id"], "start": round(t, 3), "dur": round(dur, 3), "audio": audio, "audioAt": pre, "tempo": TEMPO if audio else 1,
+            "id": sc["id"], "start": round(t, 3), "dur": round(dur, 3), "audio": audio, "audioAt": pre, "tempo": 1,
             "lines": lines, "visual": vis, "label": sc.get("label"), "callouts": sc.get("callouts", []),
             "sfx": sc.get("sfx", []), "chapter": sc.get("chapter"), "flash": sc.get("flash", False),
         })
@@ -151,7 +152,7 @@ def build(ep, mock=False):
         start, end = a["start"], b["start"] + b["dur"]
         f = out / "music" / f"{cue['id']}.mp3"
         music.append({"id": cue["id"], "start": round(start, 3), "dur": round(end - start, 3),
-                      "volume": cue["volume"], "src": f"ep/{ep}/music/{cue['id']}.mp3" if f.exists() else None,
+                      "volume": round(cue["volume"] * MUSIC_GAIN, 3), "src": f"ep/{ep}/music/{cue['id']}.mp3" if f.exists() else None,
                       "fileDur": mp3_dur(f) if f.exists() else None})
     sfx_avail = sorted(p.stem for p in (ROOT / "public" / "sfx").glob("*.mp3"))
     tl = {"fps": FPS, "duration": round(t, 3), "title": board["title"], "places": board["places"],

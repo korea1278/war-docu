@@ -122,7 +122,7 @@
  "music": [
   {
    "id": "drone",
-   "from": "s00",
+   "from": "s01",
    "to": "s09",
    "volume": 0.2
   },
@@ -159,68 +159,6 @@
  ],
  "scenes": [
   {
-   "id": "s00",
-   "lines": [],
-   "dur": 5.6,
-   "visual": {
-    "type": "teaser",
-    "items": [
-     {
-      "t": 0.25,
-      "img": "pva_wave",
-      "text": "중공군 3개 사단",
-      "style": "red"
-     },
-     {
-      "t": 1.55,
-      "img": "rok_hold",
-      "text": "국군 1개 사단",
-      "style": "blue"
-     },
-     {
-      "t": 2.85,
-      "img": "night_ridge",
-      "text": "열흘 뒤...",
-      "style": "dark"
-     },
-     {
-      "t": 4.0,
-      "img": "lake_helmet",
-      "text": "오랑캐를 깨뜨린 호수",
-      "style": "yellow"
-     }
-    ]
-   },
-   "sfx": [
-    {
-     "id": "bugle",
-     "at": 0,
-     "volume": 0.28,
-     "sec": 0
-    },
-    {
-     "id": "hit",
-     "sec": 0.25,
-     "volume": 0.39
-    },
-    {
-     "id": "hit",
-     "sec": 1.55,
-     "volume": 0.39
-    },
-    {
-     "id": "heartbeat",
-     "sec": 2.85,
-     "volume": 0.33
-    },
-    {
-     "id": "boom",
-     "sec": 4.0,
-     "volume": 0.41
-    }
-   ]
-  },
-  {
    "id": "s01",
    "lines": [
     {
@@ -244,11 +182,15 @@
     {
      "id": "wind",
      "at": 0,
-     "volume": 0.42
+     "volume": 0.4
+    },
+    {
+     "id": "bugle",
+     "at": 0,
+     "volume": 0.3
     }
    ],
-   "pauseBefore": 0.5,
-   "flash": true
+   "pauseBefore": 0
   },
   {
    "id": "s01b",
