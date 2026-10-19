@@ -32,7 +32,7 @@ jobs:
       EP: ${{ github.event.inputs.episode }}
       ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-      ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
+      ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID || 'ZJCNdZEjYwkOElxugmW2' }}
       ELEVENLABS_MODEL: ${{ vars.ELEVENLABS_MODEL }}
       TTS_SPEED: ${{ vars.TTS_SPEED }}
       OPENAI_IMAGE_MODEL: ${{ vars.OPENAI_IMAGE_MODEL }}
