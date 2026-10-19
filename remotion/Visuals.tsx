@@ -572,7 +572,7 @@ const TeaserV: React.FC = () => {
       {t >= it.t && (
         <AbsoluteFill style={{ transform: `translate(${shake}px, ${shake * 0.6}px)` }}>
           {it.src ? (
-            <Img src={staticFile(it.src)} style={{ width: "100%", height: "100%", objectFit: "cover", transform: `scale(${s})`, filter: "brightness(.55) contrast(1.15)" }} />
+            <Img src={staticFile(it.src)} style={{ width: "100%", height: "100%", objectFit: "cover", transform: `scale(${s})`, filter: "brightness(.85) contrast(1.1)" }} />
           ) : (
             <Slate dim={0.3} />
           )}

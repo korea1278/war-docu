@@ -232,9 +232,9 @@ out geom;"""
         for sg in segs:
             for (x1, y1), (x2, y2) in zip(sg, sg[1:]):
                 length += math.hypot((x2 - x1) * 88.5, (y2 - y1) * 110.6)
-        if length < 12:
+        if length < 30:
             continue
-        rivers.append({"name": nm, "lines": [[list(p) for p in simplify(sg, 0.0003)] for sg in segs]})
+        rivers.append({"len": round(length), "name": nm, "lines": [[list(p) for p in simplify(sg, 0.0003)] for sg in segs]})
     write_json(OUT / "water.json", {"lakes": lakes, "rivers": rivers})
     print(f"  호수/하천면 {len(lakes)}개, 하천선 {len(rivers)}개")
 

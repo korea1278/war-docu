@@ -347,7 +347,8 @@
     {
      "text": "상대: 국군 제6사단",
      "style": "dark",
-     "at": 0
+     "at": 0,
+     "pos": "lower"
     }
    ],
    "flash": true
@@ -1031,7 +1032,8 @@
     {
      "text": "침투 → 포위 → 붕괴",
      "style": "red",
-     "at": 1
+     "at": 1,
+     "pos": "lower"
     }
    ]
   },
@@ -1751,6 +1753,12 @@
     "from": "central",
     "to": "paroho",
     "items": [
+     {
+      "k": "marker",
+      "p": "reservoir",
+      "color": "blue",
+      "at": 0
+     },
      {
       "k": "unit",
       "p": [

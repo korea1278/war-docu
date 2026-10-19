@@ -261,14 +261,19 @@ export const MapView: React.FC<{ tl: Timeline }> = ({ tl }) => {
       .map((r: number[][]) => d(r.map((p) => P(p as LonLat))) + "Z")
       .join(" ");
     const rw = clamp(scaleK / 260, 1.5, 7);
-    const riverD = water.rivers
-      .flatMap((rv: any) => rv.lines)
-      .filter(inView)
-      .map((l: number[][]) => d(l.map((p) => P(p as LonLat))))
-      .join(" ");
+    const riverPath = (pred: (n: number) => boolean) =>
+      water.rivers
+        .filter((rv: any) => pred(rv.len || 50))
+        .flatMap((rv: any) => rv.lines)
+        .filter(inView)
+        .map((l: number[][]) => d(l.map((p) => P(p as LonLat))))
+        .join(" ");
+    const riverD = riverPath((n) => n >= 100);
+    const riverMinor = riverPath((n) => n < 100);
     waterEls = (
       <g>
-        <path d={riverD} stroke={C.water} strokeWidth={rw} fill="none" strokeLinecap="round" strokeLinejoin="round" />
+        <path d={riverMinor} stroke={C.water} strokeWidth={rw * 0.55} strokeOpacity={0.8} fill="none" strokeLinecap="round" strokeLinejoin="round" />
+        <path d={riverD} stroke={C.water} strokeWidth={rw * 1.4} fill="none" strokeLinecap="round" strokeLinejoin="round" />
         <path d={lakeD} fill={C.water} stroke={C.water} strokeWidth={1} />
       </g>
     );

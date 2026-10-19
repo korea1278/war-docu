@@ -72,7 +72,7 @@ def read_json(path: Path, default=None):
 
 
 def env(name: str, default=None, required=False):
-    v = os.environ.get(name, default)
+    v = os.environ.get(name) or default
     if required and not v:
         log_error(f"환경변수 {name} 없음 (GitHub Secrets 확인)")
         sys.exit(f"환경변수 {name} 가 필요합니다 (GitHub Secrets 확인)")
