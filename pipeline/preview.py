@@ -54,4 +54,5 @@ def main(ep, bundle):
 
 
 if __name__ == "__main__":
-    main(sys.argv[1], sys.argv[2] if len(sys.argv) > 2 else "remotion/index.ts")
+    b = sys.argv[2] if len(sys.argv) > 2 else str(ROOT / "remotion" / "index.ts")
+    main(sys.argv[1], str(Path(b).resolve()))
