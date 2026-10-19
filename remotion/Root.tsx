@@ -1,6 +1,7 @@
 import React from "react";
 import { CalculateMetadataFunction, Composition, staticFile } from "remotion";
 import { Documentary } from "./Video";
+import { Thumbnail } from "./Thumbnail";
 import { Timeline } from "./theme";
 
 type Props = { ep: string; tl: Timeline | null };
@@ -16,6 +17,16 @@ const calc: CalculateMetadataFunction<Props> = async ({ props }) => {
 };
 
 export const Root: React.FC = () => (
+  <>
+  <Composition
+    id="Thumbnail"
+    component={Thumbnail as any}
+    width={1280}
+    height={720}
+    fps={30}
+    durationInFrames={1}
+    defaultProps={{ ep: "yongmunsan", variant: "A" }}
+  />
   <Composition
     id="Documentary"
     component={Documentary as any}
@@ -26,4 +37,5 @@ export const Root: React.FC = () => (
     defaultProps={{ ep: "yongmunsan", tl: null } as Props}
     calculateMetadata={calc as any}
   />
+  </>
 );
