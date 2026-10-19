@@ -103,7 +103,7 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add -A
           git commit -m "재료 생성: $EP" || echo "변경 없음"
-          git pull --rebase -q || true
+          git pull --rebase -X theirs -q || (git rebase --abort; git pull --no-rebase -X ours -q --no-edit) || true
           git push
 
       - name: 미리보기 시트
@@ -115,7 +115,7 @@ jobs:
         run: |
           git add -A
           git commit -m "미리보기: $EP" || echo "변경 없음"
-          git pull --rebase -q || true
+          git pull --rebase -X theirs -q || (git rebase --abort; git pull --no-rebase -X ours -q --no-edit) || true
           git push
 
       - name: 최종 렌더링 (MP4)
