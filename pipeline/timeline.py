@@ -11,7 +11,7 @@ import sys
 from common import ROOT, ep_dirs, line_say, line_text, load_board, read_json, write_json
 
 FPS = 30
-GAP = 0.32          # 장면 사이 간격 (앞 장면 꼬리 0.08초 + 이 값 ≈ 0.4초)
+GAP = 0.42          # 장면 사이 간격 (앞 장면 꼬리 0.08초 + 이 값 ≈ 0.4초)
 MAX_PRE = 0.15      # 장면 앞 무음 상한
 MUSIC_GAIN = 1.33   # 배경음악 +2.5dB
 MAX_SUB = 21        # 자막 한 줄 최대 글자 수 (64px 기준)
