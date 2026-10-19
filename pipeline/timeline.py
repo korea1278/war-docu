@@ -12,6 +12,8 @@ from common import ROOT, ep_dirs, line_say, line_text, load_board, read_json, wr
 
 FPS = 30
 GAP = 0.42          # 장면 사이 간격 (앞 장면 꼬리 0.08초 + 이 값 ≈ 0.4초)
+GAP_MIN, GAP_MAX = 0.35, 0.55   # 자동 맞춤 시 장면 간격 허용 범위
+TARGET_SEC = 500    # 목표 러닝타임 8분 20초 (스토리보드 target_sec 로 변경 가능)
 MAX_PRE = 0.15      # 장면 앞 무음 상한
 MUSIC_GAIN = 1.33   # 배경음악 +2.5dB
 MAX_SUB = 21        # 자막 한 줄 최대 글자 수 (64px 기준)
@@ -115,7 +117,8 @@ def time_at(meta, idx, end=False):
     return arr[idx]
 
 
-def build(ep, mock=False):
+def build(ep, mock=False, gap=None):
+    GAP_ = GAP if gap is None else gap
     board = load_board(ep)
     _, out = ep_dirs(ep)
     lang = board.get("lang", "ko")
@@ -161,7 +164,7 @@ def build(ep, mock=False):
                     cs, ce = ls + fa * (le - ls), ls + fb * (le - ls)
                 chunks.append({"text": c, "start": round(pre + cs, 3), "end": round(pre + ce, 3)})
             lines.append({"text": sub, "start": round(pre + ls, 3), "end": round(pre + le, 3), "chunks": chunks})
-        dur = sc["dur"] if not sc["lines"] else pre + adur + GAP + sc.get("tail", 0)
+        dur = sc["dur"] if not sc["lines"] else pre + adur + GAP_ + sc.get("tail", 0)
         def resolve(vis):
             vis = dict(vis)
             if vis.get("q"):
@@ -204,8 +207,12 @@ def build(ep, mock=False):
         a, b = idx[cue["from"]], idx[cue["to"]]
         start, end = a["start"], b["start"] + b["dur"]
         f = aout / "music" / f"{cue['id']}.mp3"
+        src = f"ep/{aep}/music/{cue['id']}.mp3"
+        if not f.exists():  # 공용 BGM 라이브러리 (public/bgm)
+            f = ROOT / "public" / "bgm" / f"{cue['id']}.mp3"
+            src = f"bgm/{cue['id']}.mp3"
         music.append({"id": cue["id"], "start": round(start, 3), "dur": round(end - start, 3),
-                      "volume": round(cue["volume"] * MUSIC_GAIN, 3), "src": f"ep/{aep}/music/{cue['id']}.mp3" if f.exists() else None,
+                      "volume": round(cue["volume"] * MUSIC_GAIN, 3), "src": src if f.exists() else None,
                       "fileDur": mp3_dur(f) if f.exists() else None})
     sfx_avail = sorted(p.stem for p in (ROOT / "public" / "sfx").glob("*.mp3"))
     tl = {"lang": lang, "fps": FPS, "duration": round(t, 3), "title": board["title"], "places": board["places"],
@@ -213,8 +220,24 @@ def build(ep, mock=False):
           "hasWater": (ROOT / "public" / "geo" / "water.json").exists()}
     write_json(out / "timeline.json", tl)
     write_srt(scenes_out, out / f"{ep}.srt")
-    print(f"timeline: {len(scenes_out)}장면, {t / 60:.1f}분")
+    print(f"timeline: {len(scenes_out)}장면, {int(t // 60)}분 {t % 60:.1f}초 (장면 간격 {GAP_:.3f}초)")
+    return t, sum(1 for x in scenes_out if x["lines"]), board.get("target_sec", TARGET_SEC)
+
+
+def fit(ep, mock=False):
+    """러닝타임을 목표(기본 8분 20초)에 가깝게: 장면 간격을 0.35~0.55초 안에서 자동 조정."""
+    t, n, target = build(ep, mock)
+    if mock or not n:
+        return
+    gap = min(GAP_MAX, max(GAP_MIN, GAP + (target - t) / n))
+    if abs(gap - GAP) > 0.001:
+        t, _, _ = build(ep, mock, gap)
+    if abs(t - target) > 10:
+        msg = f"{ep}: 러닝타임 {int(t // 60)}분 {t % 60:.0f}초 — 목표 {int(target // 60)}분 {target % 60:.0f}초와 10초 이상 차이 (대본 분량 조정 필요)"
+        print("  ! " + msg)
+        from common import log_error
+        log_error(msg)
 
 
 if __name__ == "__main__":
-    build(sys.argv[1], mock="--mock" in sys.argv)
+    fit(sys.argv[1], mock="--mock" in sys.argv)
