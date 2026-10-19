@@ -37,13 +37,13 @@ def srt_time(t):
 
 def write_srt(scenes, path):
     """화면 자막과 같은 단위로 SRT 생성 (유튜브 자막 업로드용)."""
-    n, rows = 0, []
-    for sc in scenes:
-        for l in sc["lines"]:
-            for c in l["chunks"]:
-                n += 1
-                a, b = sc["start"] + c["start"], sc["start"] + c["end"] + 0.15
-                rows.append(f"{n}\n{srt_time(max(0, a))} --> {srt_time(b)}\n{c['text']}\n")
+    cues = [(sc["start"] + c["start"], sc["start"] + c["end"] + 0.15, c["text"])
+            for sc in scenes for l in sc["lines"] for c in l["chunks"]]
+    rows = []
+    for n, (a, b, txt) in enumerate(cues, 1):
+        if n < len(cues):
+            b = min(b, cues[n][0] - 0.02)  # 다음 자막과 겹치지 않게
+        rows.append(f"{n}\n{srt_time(max(0, a))} --> {srt_time(max(a + 0.3, b))}\n{txt}\n")
     path.write_text("\n".join(rows), encoding="utf-8")
 
 
