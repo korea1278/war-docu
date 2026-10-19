@@ -37,6 +37,8 @@ def main(ep):
     s = session()
     scenes = board["scenes"]
     for i, sc in enumerate(scenes):
+        if not sc["lines"]:
+            continue
         text = scene_tts_text(sc)
         sig = hashlib.sha1(json.dumps([text, voice, model, settings], ensure_ascii=False).encode()).hexdigest()[:12]
         meta_p = adir / f"{sc['id']}.json"
@@ -44,8 +46,8 @@ def main(ep):
         meta = read_json(meta_p, {})
         if meta.get("sig") == sig and mp3_p.exists():
             continue
-        prev_t = scene_tts_text(scenes[i - 1]) if i > 0 else None
-        next_t = scene_tts_text(scenes[i + 1]) if i + 1 < len(scenes) else None
+        prev_t = scene_tts_text(scenes[i - 1]) if i > 0 and scenes[i - 1]["lines"] else None
+        next_t = scene_tts_text(scenes[i + 1]) if i + 1 < len(scenes) and scenes[i + 1]["lines"] else None
         body = {"text": text, "model_id": model, "voice_settings": settings}
         if prev_t:
             body["previous_text"] = prev_t

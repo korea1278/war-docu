@@ -554,11 +554,48 @@ const QuotesV: React.FC = () => {
   );
 };
 
+/* ---------- 콜드 오픈 몽타주 ---------- */
+const TeaserV: React.FC = () => {
+  const v = useScene().visual;
+  const t = useT();
+  const items: any[] = v.items;
+  let idx = 0;
+  items.forEach((it, i) => {
+    if (t >= it.t) idx = i;
+  });
+  const it = items[idx];
+  const k = (t - it.t) / 0.3;
+  const shake = k < 1 ? Math.sin(t * 90) * 10 * (1 - clamp(k)) : 0;
+  const s = 1.18 - 0.08 * clamp((t - it.t) / 1.3);
+  return (
+    <AbsoluteFill style={{ background: "#000" }}>
+      {t >= it.t && (
+        <AbsoluteFill style={{ transform: `translate(${shake}px, ${shake * 0.6}px)` }}>
+          {it.src ? (
+            <Img src={staticFile(it.src)} style={{ width: "100%", height: "100%", objectFit: "cover", transform: `scale(${s})`, filter: "brightness(.55) contrast(1.15)" }} />
+          ) : (
+            <Slate dim={0.3} />
+          )}
+          <AbsoluteFill style={{ background: "radial-gradient(ellipse at center, rgba(0,0,0,0) 30%, rgba(0,0,0,.75) 100%)" }} />
+          <AbsoluteFill style={{ justifyContent: "center", alignItems: "center" }}>
+            <div style={{ transform: `scale(${1.5 - 0.5 * popIn(k)})`, opacity: clamp(k * 3) }}>
+              <CalloutBox text={it.text} style={it.style} size={124} />
+            </div>
+          </AbsoluteFill>
+          {k < 0.5 && <AbsoluteFill style={{ background: "#fff", opacity: 0.7 * (1 - k * 2) }} />}
+        </AbsoluteFill>
+      )}
+    </AbsoluteFill>
+  );
+};
+
 export const Visual: React.FC<{ tl: Timeline }> = ({ tl }) => {
   const v = useScene().visual;
   switch (v.type) {
     case "map":
       return <MapView tl={tl} />;
+    case "teaser":
+      return <TeaserV />;
     case "photo":
       return <PhotoV />;
     case "ai":

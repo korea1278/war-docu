@@ -23,6 +23,9 @@ def main(ep):
     d.mkdir(exist_ok=True)
     man = read_json(out / "ai.json", {})
     used = {sc["visual"]["img"] for sc in board["scenes"] if sc["visual"]["type"] == "ai"}
+    for sc in board["scenes"]:
+        for it in sc["visual"].get("items", []) if sc["visual"]["type"] == "teaser" else []:
+            used.add(it["img"])
     s = session()
     for name in sorted(used):
         prompt = board["ai_images"][name]

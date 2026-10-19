@@ -22,7 +22,7 @@ const SceneAudio: React.FC<{ tl: Timeline; i: number }> = ({ tl, i }) => {
       {sfx
         .filter((s) => has(s.id))
         .map((s, j) => {
-          const at = (s as any).at < 0 ? 0 : atSec(sc, s.at) + ((s as any)._auto ? 0.1 : 0);
+          const at = (s as any).sec !== undefined ? (s as any).sec : (s as any).at < 0 ? 0 : atSec(sc, s.at) + ((s as any)._auto ? 0.1 : 0);
           return (
             <Sequence key={j} from={Math.max(0, Math.round(at * fps))} layout="none">
               <Audio src={staticFile(`sfx/${s.id}.mp3`)} volume={s.volume ?? 0.5} />
@@ -60,6 +60,12 @@ const Music: React.FC<{ tl: Timeline }> = ({ tl }) => {
   );
 };
 
+const Flash: React.FC = () => {
+  const f = useCurrentFrame();
+  if (f > 7) return null;
+  return <AbsoluteFill style={{ background: "#fff", opacity: 0.85 * (1 - f / 7) }} />;
+};
+
 export const Documentary: React.FC<{ ep: string; tl: Timeline | null }> = ({ tl }) => {
   const frame = useCurrentFrame();
   const { durationInFrames } = useVideoConfig();
@@ -83,6 +89,7 @@ export const Documentary: React.FC<{ ep: string; tl: Timeline | null }> = ({ tl 
               <Callouts />
               <ChapterOverlay />
               {!noSub && <Subtitles />}
+              {(sc as any).flash && <Flash />}
               <SceneAudio tl={tl} i={i} />
             </SceneCtx.Provider>
           </Sequence>

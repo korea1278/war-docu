@@ -97,7 +97,9 @@ def build(ep, mock=False):
         texts = [line_text(l) for l in sc["lines"]]
         tts_text = sc.get("tts") or " ".join(s.strip() for s in says)
         meta = None if mock else read_json(out / "tts" / f"{sc['id']}.json")
-        if meta:
+        if not sc["lines"]:
+            audio, adur, spans = None, 0.0, []
+        elif meta:
             audio = f"ep/{ep}/tts/{sc['id']}.mp3"
             adur = mp3_dur(out / "tts" / f"{sc['id']}.mp3")
             spans = line_spans(meta["text"], says)
@@ -122,20 +124,22 @@ def build(ep, mock=False):
                     cs, ce = ls + fa * (le - ls), ls + fb * (le - ls)
                 chunks.append({"text": c, "start": round(pre + cs, 3), "end": round(pre + ce, 3)})
             lines.append({"text": sub, "start": round(pre + ls, 3), "end": round(pre + le, 3), "chunks": chunks})
-        dur = pre + adur + GAP + sc.get("tail", 0)
+        dur = sc["dur"] if not sc["lines"] else pre + adur + GAP + sc.get("tail", 0)
         vis = dict(sc["visual"])
         if vis.get("q"):
             pk = f"{vis['q']}#{vis.get('alt', 0)}"
             ph = photos.get(pk) or {}
             vis["src"] = f"ep/{ep}/{ph['file']}" if ph.get("file") else None
             vis["credit"] = ph.get("credit")
+        if vis["type"] == "teaser":
+            vis["items"] = [dict(it, src=f"ep/{ep}/ai/{it['img']}.jpg" if it["img"] in ai else None) for it in vis["items"]]
         if vis["type"] == "ai":
             vis["src"] = f"ep/{ep}/ai/{vis['img']}.jpg" if vis["img"] in ai else None
             vis["credit"] = None
         scenes_out.append({
             "id": sc["id"], "start": round(t, 3), "dur": round(dur, 3), "audio": audio, "audioAt": pre,
             "lines": lines, "visual": vis, "label": sc.get("label"), "callouts": sc.get("callouts", []),
-            "sfx": sc.get("sfx", []), "chapter": sc.get("chapter"),
+            "sfx": sc.get("sfx", []), "chapter": sc.get("chapter"), "flash": sc.get("flash", False),
         })
         t += dur
     idx = {s["id"]: s for s in scenes_out}

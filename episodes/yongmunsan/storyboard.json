@@ -115,7 +115,7 @@
  "music": [
   {
    "id": "drone",
-   "from": "s01",
+   "from": "s00",
    "to": "s09",
    "volume": 0.2
   },
@@ -152,13 +152,74 @@
  ],
  "scenes": [
   {
+   "id": "s00",
+   "lines": [],
+   "dur": 5.6,
+   "visual": {
+    "type": "teaser",
+    "items": [
+     {
+      "t": 0.25,
+      "img": "pva_wave",
+      "text": "중공군 3개 사단",
+      "style": "red"
+     },
+     {
+      "t": 1.55,
+      "img": "rok_hold",
+      "text": "국군 1개 사단",
+      "style": "blue"
+     },
+     {
+      "t": 2.85,
+      "img": "night_ridge",
+      "text": "열흘 뒤...",
+      "style": "dark"
+     },
+     {
+      "t": 4.0,
+      "img": "lake_helmet",
+      "text": "오랑캐를 깨뜨린 호수",
+      "style": "yellow"
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "bugle",
+     "at": 0,
+     "volume": 0.5,
+     "sec": 0
+    },
+    {
+     "id": "hit",
+     "sec": 0.25,
+     "volume": 0.7
+    },
+    {
+     "id": "hit",
+     "sec": 1.55,
+     "volume": 0.7
+    },
+    {
+     "id": "heartbeat",
+     "sec": 2.85,
+     "volume": 0.6
+    },
+    {
+     "id": "boom",
+     "sec": 4.0,
+     "volume": 0.75
+    }
+   ]
+  },
+  {
    "id": "s01",
    "lines": [
     {
      "t": "1951년 5월 18일 밤.",
      "say": "천구백오십일 년, 오월 십팔 일 밤."
-    },
-    "경기도 양평, 용문산."
+    }
    ],
    "visual": {
     "type": "ai",
@@ -170,12 +231,6 @@
      "text": "1951. 5. 18 밤",
      "style": "yellow",
      "at": 0
-    },
-    {
-     "text": "경기도 양평 · 용문산",
-     "style": "dark",
-     "at": 1,
-     "pos": "lower"
     }
    ],
    "sfx": [
@@ -183,14 +238,48 @@
      "id": "wind",
      "at": 0,
      "volume": 0.5
+    }
+   ],
+   "pauseBefore": 0.5,
+   "flash": true
+  },
+  {
+   "id": "s01b",
+   "lines": [
+    "경기도 양평, 용문산."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "yongmun",
+    "items": [
+     {
+      "k": "marker",
+      "p": "yongmunsan",
+      "color": "red",
+      "at": 0.4
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "경기도 양평 · 용문산",
+     "style": "dark",
+     "at": 0
+    }
+   ],
+   "sfx": [
+    {
+     "id": "whoosh",
+     "at": 0,
+     "volume": 0.5
     },
     {
      "id": "bugle",
      "at": 0.6,
-     "volume": 0.45
+     "volume": 0.35
     }
-   ],
-   "pauseBefore": 0.8
+   ]
   },
   {
    "id": "s02",
@@ -260,7 +349,8 @@
      "style": "dark",
      "at": 0
     }
-   ]
+   ],
+   "flash": true
   },
   {
    "id": "s05",
@@ -303,7 +393,8 @@
      "at": 0,
      "volume": 0.55
     }
-   ]
+   ],
+   "flash": true
   },
   {
    "id": "s07",
@@ -334,7 +425,8 @@
     "type": "black",
     "text": "그러나 열흘 뒤,\n그들은 호수 앞에 서 있었다"
    },
-   "pauseBefore": 0.6
+   "pauseBefore": 0.6,
+   "flash": true
   },
   {
    "id": "s09",
@@ -354,7 +446,8 @@
      "at": 0,
      "volume": 0.4
     }
-   ]
+   ],
+   "flash": true
   },
   {
    "id": "s10",
@@ -375,7 +468,8 @@
      "at": 1,
      "volume": 0.6
     }
-   ]
+   ],
+   "flash": true
   },
   {
    "id": "s11",
