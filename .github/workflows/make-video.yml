@@ -1,0 +1,136 @@
+name: 영상 만들기
+
+on:
+  workflow_dispatch:
+    inputs:
+      episode:
+        description: "에피소드 폴더 이름 (episodes/ 아래)"
+        default: "yongmunsan"
+        required: true
+      mode:
+        description: "preview = 재료 만들고 미리보기만 / full = 재료 + 최종 MP4"
+        type: choice
+        options: [full, preview]
+        default: full
+      redo:
+        description: "다시 만들 재료 (쉼표로: tts,photos,ai,sfx,music,geo) — 비우면 바뀐 것만"
+        default: ""
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: make-video-${{ github.event.inputs.episode }}
+  cancel-in-progress: false
+
+jobs:
+  make:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    env:
+      EP: ${{ github.event.inputs.episode }}
+      ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
+      ELEVENLABS_MODEL: ${{ vars.ELEVENLABS_MODEL }}
+      TTS_SPEED: ${{ vars.TTS_SPEED }}
+      OPENAI_IMAGE_MODEL: ${{ vars.OPENAI_IMAGE_MODEL }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: 설치
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-cjk ffmpeg > /dev/null
+          pip install -q requests numpy pillow
+          npm ci
+
+      - name: 다시 만들 재료 지우기
+        if: github.event.inputs.redo != ''
+        run: |
+          R="${{ github.event.inputs.redo }}"
+          D=public/ep/$EP
+          [[ $R == *tts* ]] && rm -rf $D/tts || true
+          [[ $R == *photos* ]] && rm -rf $D/photos $D/photos.json || true
+          [[ $R == *ai* ]] && rm -rf $D/ai $D/ai.json || true
+          [[ $R == *sfx* ]] && rm -rf public/sfx || true
+          [[ $R == *music* ]] && rm -rf $D/music || true
+          [[ $R == *geo* ]] && rm -f public/geo/rasters.json || true
+
+      - name: 지도 지형 (최초 1회)
+        run: |
+          if [ ! -f public/geo/rasters.json ]; then cd pipeline && python geo.py; fi
+
+      - name: 사료 사진 (위키미디어)
+        run: cd pipeline && python photos.py $EP
+
+      - name: 재연 일러스트 (OpenAI)
+        run: cd pipeline && python ai_images.py $EP
+
+      - name: 나레이션 (일레븐랩스)
+        run: cd pipeline && python tts.py $EP
+
+      - name: 효과음 + 배경음악 (일레븐랩스)
+        run: |
+          cd pipeline
+          python sfx.py $EP sfx
+          python timeline.py $EP
+          python sfx.py $EP music
+          python timeline.py $EP
+
+      - name: 번들
+        run: npx remotion bundle remotion/index.ts --out-dir=out/bundle --log=error
+
+      - name: 재료 저장 (비용 드는 재료 먼저 보관)
+        if: always()
+        run: |
+          git config user.name "war-docu-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git commit -m "재료 생성: $EP" || echo "변경 없음"
+          git pull --rebase -q || true
+          git push
+
+      - name: 미리보기 시트
+        continue-on-error: true
+        run: |
+          cd pipeline && python preview.py $EP ../out/bundle
+
+      - name: 미리보기 저장
+        run: |
+          git add -A
+          git commit -m "미리보기: $EP" || echo "변경 없음"
+          git pull --rebase -q || true
+          git push
+
+      - name: 최종 렌더링 (MP4)
+        if: github.event.inputs.mode == 'full'
+        run: |
+          npx remotion render out/bundle Documentary out/$EP.mp4 \
+            --props="{\"ep\":\"$EP\"}" --concurrency=4 --codec=h264 --crf=20 \
+            --audio-bitrate=192k --log=info
+
+      - name: 결과물 올리기 (Releases)
+        if: github.event.inputs.mode == 'full'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="$EP-$(date +%Y%m%d-%H%M)"
+          gh release create "$TAG" "out/$EP.mp4" previews/$EP/*.jpg \
+            --title "$EP 완성 영상 ($(date +%m/%d\ %H:%M))" --notes "Actions에서 자동 생성된 영상입니다."
+
+      - name: 결과물 올리기 (Artifacts 백업)
+        if: github.event.inputs.mode == 'full'
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ github.event.inputs.episode }}-video
+          path: out/${{ github.event.inputs.episode }}.mp4
+          retention-days: 14

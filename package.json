@@ -1,0 +1,27 @@
+{
+  "name": "war-docu",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio remotion/index.ts",
+    "render": "remotion render remotion/index.ts Documentary"
+  },
+  "dependencies": {
+    "@fontsource/black-han-sans": "5.2.5",
+    "@fontsource/do-hyeon": "5.2.5",
+    "@fontsource/noto-sans-kr": "5.2.5",
+    "@remotion/cli": "4.0.300",
+    "d3-geo": "3.1.1",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.300",
+    "topojson-client": "3.1.0",
+    "world-atlas": "2.0.2"
+  },
+  "devDependencies": {
+    "@types/d3-geo": "3.1.0",
+    "@types/react": "18.3.12",
+    "@types/topojson-client": "3.1.5",
+    "typescript": "5.6.3"
+  }
+}

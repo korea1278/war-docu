@@ -1,0 +1,159 @@
+"""스토리보드 + TTS 타임스탬프 + 자산 목록 → Remotion용 timeline.json.
+
+python pipeline/timeline.py yongmunsan [--mock]
+--mock : TTS 없이 글자 수로 길이를 추정 (레이아웃 미리보기용)
+"""
+import math
+import re
+import subprocess
+import sys
+
+from common import ROOT, ep_dirs, line_say, line_text, load_board, read_json, write_json
+
+FPS = 30
+GAP = 0.45          # 장면 끝 여유
+MAX_SUB = 24        # 자막 한 줄 최대 글자 수
+MOCK_CPS = 6.8      # 목업용 초당 글자 수
+
+
+def mp3_dur(p):
+    out = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(p)],
+                         capture_output=True, text=True).stdout.strip()
+    return float(out)
+
+
+def clean_sub(t):
+    t = t.replace("...", " ").replace("…", " ")
+    return re.sub(r"\s+", " ", t).strip()
+
+
+def split_chunks(t):
+    """긴 자막을 쉼표/띄어쓰기 기준으로 균등 분할. 반환: [(chunk, start_frac, end_frac)]."""
+    n = len(t)
+    if n <= MAX_SUB:
+        return [(t, 0.0, 1.0)]
+    k = math.ceil(n / MAX_SUB)
+    cuts = [0]
+    for j in range(1, k):
+        target = n * j / k
+        best, bs = None, 1e9
+        for i, ch in enumerate(t):
+            if ch != " " or i <= cuts[-1] + 4:
+                continue
+            score = abs(i - target) - (6 if t[i - 1] in ",." else 0)
+            if score < bs:
+                best, bs = i, score
+        if best is None:
+            break
+        cuts.append(best)
+    cuts.append(n)
+    out = []
+    for a, b in zip(cuts, cuts[1:]):
+        c = t[a:b].strip()
+        if c:
+            out.append((c, a / n, b / n))
+    return out
+
+
+def line_spans(text, says):
+    """tts 전체 텍스트에서 각 줄의 [시작, 끝) 글자 위치."""
+    spans, pos = [], 0
+    for s in says:
+        s = s.strip()
+        i = text.find(s, pos)
+        if i < 0:
+            spans = None
+            break
+        spans.append((i, i + len(s)))
+        pos = i + len(s)
+    if spans:
+        return spans
+    # 사용자 지정 tts 문장: 길이 비율로 배분
+    total = sum(len(s) for s in says)
+    spans, acc = [], 0
+    for s in says:
+        a = round(acc / total * len(text))
+        acc += len(s)
+        spans.append((a, round(acc / total * len(text))))
+    return spans
+
+
+def time_at(meta, idx, end=False):
+    arr = meta["ends"] if end else meta["starts"]
+    idx = max(0, min(idx, len(arr) - 1))
+    return arr[idx]
+
+
+def build(ep, mock=False):
+    board = load_board(ep)
+    _, out = ep_dirs(ep)
+    photos = read_json(out / "photos.json", {})
+    ai = read_json(out / "ai.json", {})
+    rasters = read_json(ROOT / "public" / "geo" / "rasters.json", [])
+    scenes_out = []
+    t = 0.0
+    for sc in board["scenes"]:
+        says = [line_say(l) for l in sc["lines"]]
+        texts = [line_text(l) for l in sc["lines"]]
+        tts_text = sc.get("tts") or " ".join(s.strip() for s in says)
+        meta = None if mock else read_json(out / "tts" / f"{sc['id']}.json")
+        if meta:
+            audio = f"ep/{ep}/tts/{sc['id']}.mp3"
+            adur = mp3_dur(out / "tts" / f"{sc['id']}.mp3")
+            spans = line_spans(meta["text"], says)
+        else:
+            audio = None
+            adur = len(tts_text) / MOCK_CPS + 0.3 * tts_text.count(",") + 0.5 * tts_text.count("...")
+            spans = line_spans(tts_text, says)
+            L = len(tts_text)
+            meta = {"starts": [i / L * adur for i in range(L)], "ends": [(i + 1) / L * adur for i in range(L)]}
+        pre = sc.get("pauseBefore", 0.15)
+        lines = []
+        for li, ((a, b), disp, say) in enumerate(zip(spans, texts, says)):
+            ls, le = time_at(meta, a), time_at(meta, b - 1, end=True)
+            sub = clean_sub(disp)
+            chunks = []
+            exact = disp.strip() == say.strip() and not sc.get("tts")
+            for c, fa, fb in split_chunks(sub):
+                if exact and len(sub) == len(disp.strip()):
+                    cs = time_at(meta, a + int(fa * (b - a)))
+                    ce = time_at(meta, a + max(int(fb * (b - a)) - 1, 0), end=True)
+                else:
+                    cs, ce = ls + fa * (le - ls), ls + fb * (le - ls)
+                chunks.append({"text": c, "start": round(pre + cs, 3), "end": round(pre + ce, 3)})
+            lines.append({"text": sub, "start": round(pre + ls, 3), "end": round(pre + le, 3), "chunks": chunks})
+        dur = pre + adur + GAP + sc.get("tail", 0)
+        vis = dict(sc["visual"])
+        if vis.get("q"):
+            pk = f"{vis['q']}#{vis.get('alt', 0)}"
+            ph = photos.get(pk) or {}
+            vis["src"] = f"ep/{ep}/{ph['file']}" if ph.get("file") else None
+            vis["credit"] = ph.get("credit")
+        if vis["type"] == "ai":
+            vis["src"] = f"ep/{ep}/ai/{vis['img']}.jpg" if vis["img"] in ai else None
+            vis["credit"] = None
+        scenes_out.append({
+            "id": sc["id"], "start": round(t, 3), "dur": round(dur, 3), "audio": audio, "audioAt": pre,
+            "lines": lines, "visual": vis, "label": sc.get("label"), "callouts": sc.get("callouts", []),
+            "sfx": sc.get("sfx", []), "chapter": sc.get("chapter"),
+        })
+        t += dur
+    idx = {s["id"]: s for s in scenes_out}
+    music = []
+    for cue in board.get("music", []):
+        a, b = idx[cue["from"]], idx[cue["to"]]
+        start, end = a["start"], b["start"] + b["dur"]
+        f = out / "music" / f"{cue['id']}.mp3"
+        music.append({"id": cue["id"], "start": round(start, 3), "dur": round(end - start, 3),
+                      "volume": cue["volume"], "src": f"ep/{ep}/music/{cue['id']}.mp3" if f.exists() else None,
+                      "fileDur": mp3_dur(f) if f.exists() else None})
+    sfx_avail = sorted(p.stem for p in (ROOT / "public" / "sfx").glob("*.mp3"))
+    tl = {"fps": FPS, "duration": round(t, 3), "title": board["title"], "places": board["places"],
+          "views": board["views"], "scenes": scenes_out, "music": music, "rasters": rasters, "sfx": sfx_avail,
+          "hasWater": (ROOT / "public" / "geo" / "water.json").exists()}
+    write_json(out / "timeline.json", tl)
+    print(f"timeline: {len(scenes_out)}장면, {t / 60:.1f}분")
+
+
+if __name__ == "__main__":
+    build(sys.argv[1], mock="--mock" in sys.argv)
