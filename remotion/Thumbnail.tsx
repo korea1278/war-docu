@@ -1,6 +1,6 @@
 import React from "react";
 import { AbsoluteFill, Img, staticFile } from "remotion";
-import { C, F } from "./theme";
+import { C, F, setLang } from "./theme";
 
 const big = (size: number, color: string, stroke = "#000", sw = 10): React.CSSProperties => ({
   fontFamily: F.head,
@@ -73,5 +73,50 @@ const ThumbB: React.FC<{ ep: string }> = ({ ep }) => (
   </AbsoluteFill>
 );
 
-export const Thumbnail: React.FC<{ ep: string; variant: "A" | "B" }> = ({ ep, variant }) =>
-  variant === "A" ? <ThumbA ep={ep} /> : <ThumbB ep={ep} />;
+/** 영문 A안: "1 DIVISION vs 3 — AND IT WON" */
+const ThumbA_EN: React.FC<{ ep: string }> = ({ ep }) => (
+  <AbsoluteFill style={{ background: "#0b0b0c", overflow: "hidden" }}>
+    <Img src={staticFile(`ep/${ep}/ai/rok_counter.jpg`)} style={{ position: "absolute", left: -160, top: -40, height: 800, filter: "contrast(1.1) saturate(1.1)" }} />
+    <AbsoluteFill style={{ background: "linear-gradient(90deg, rgba(0,0,0,0) 30%, rgba(8,8,10,.92) 56%, #08080a 100%)" }} />
+    <div style={{ position: "absolute", right: 50, top: 46, textAlign: "right" }}>
+      <Tag text="KOREA · MAY 1951" />
+      <div style={{ ...big(120, "#fff", "#000", 8), marginTop: 22, letterSpacing: 1 }}>1 DIVISION</div>
+      <div style={{ ...big(190, C.red, "#fff", 10), marginTop: -6 }}>VS 3</div>
+      <div style={{ ...big(104, C.yellow, "#000", 8), marginTop: -4 }}>AND IT WON</div>
+    </div>
+    <div style={{ position: "absolute", left: 0, right: 0, bottom: 0, height: 14, background: C.red }} />
+  </AbsoluteFill>
+);
+
+/** 영문 B안: 破虜湖 — "THE LAKE THAT DEFEATED THE INVADERS" */
+const ThumbB_EN: React.FC<{ ep: string }> = ({ ep }) => (
+  <AbsoluteFill style={{ background: "#0b0b0c", overflow: "hidden" }}>
+    <Img src={staticFile(`ep/${ep}/photos/s43_photo_0.jpg`)} style={{ width: "100%", height: "100%", objectFit: "cover", filter: "grayscale(.85) contrast(1.15) brightness(.62)" }} />
+    <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(0,0,0,.15) 0%, rgba(0,0,0,.2) 40%, rgba(0,0,0,.88) 100%)" }} />
+    <Img
+      src={staticFile(`ep/${ep}/photos/s40_photo_0.jpg`)}
+      style={{ position: "absolute", right: 40, top: 40, width: 360, height: 250, objectFit: "cover", border: "8px solid #fff", transform: "rotate(3deg)", filter: "grayscale(1) contrast(1.15)", boxShadow: "0 14px 34px rgba(0,0,0,.6)" }}
+    />
+    <div style={{ position: "absolute", left: 52, top: 56, display: "flex", gap: 14 }}>
+      {["破", "虜", "湖"].map((h, i) => (
+        <div key={h} style={{ width: 170, height: 170, background: i === 1 ? C.red : "#f3f1ea", color: i === 1 ? "#fff" : "#111", fontFamily: "'Noto Serif CJK KR','Noto Serif CJK SC', serif", fontWeight: 900, fontSize: 134, lineHeight: "170px", textAlign: "center", boxShadow: "0 12px 30px rgba(0,0,0,.6)" }}>
+          {h}
+        </div>
+      ))}
+    </div>
+    <div style={{ position: "absolute", left: 52, bottom: 46 }}>
+      <div style={{ ...big(84, "#fff", "#000", 7) }}>THE LAKE THAT</div>
+      <div style={{ ...big(118, C.yellow, "#000", 8), marginTop: -2 }}>DEFEATED</div>
+      <div style={{ ...big(84, "#fff", "#000", 7), marginTop: -2 }}>THE INVADERS</div>
+    </div>
+    <div style={{ position: "absolute", right: 50, bottom: 56 }}>
+      <Tag text="KOREAN WAR · 1951" bg={C.red} fg="#fff" size={40} />
+    </div>
+  </AbsoluteFill>
+);
+
+export const Thumbnail: React.FC<{ ep: string; variant: "A" | "B"; lang?: string }> = ({ ep, variant, lang }) => {
+  setLang(lang);
+  if (lang === "en") return variant === "A" ? <ThumbA_EN ep={ep} /> : <ThumbB_EN ep={ep} />;
+  return variant === "A" ? <ThumbA ep={ep} /> : <ThumbB ep={ep} />;
+};
