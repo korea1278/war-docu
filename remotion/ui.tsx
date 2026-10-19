@@ -27,11 +27,12 @@ export const Slate: React.FC<{ dim?: number }> = ({ dim = 0 }) => (
 );
 
 export const Grain: React.FC = () => {
-  const f = useCurrentFrame();
+  // 4프레임마다만 위치 변경 (압축 효율) — 필름 질감은 유지
+  const f = Math.floor(useCurrentFrame() / 4);
   const x = ((f * 37) % 97) - 48;
   const y = ((f * 53) % 89) - 44;
   return (
-    <AbsoluteFill style={{ pointerEvents: "none", mixBlendMode: "overlay", opacity: 0.16, overflow: "hidden" }}>
+    <AbsoluteFill style={{ pointerEvents: "none", mixBlendMode: "overlay", opacity: 0.09, overflow: "hidden" }}>
       <Img
         src={staticFile("ui/grain.png")}
         style={{ position: "absolute", left: -60 + x, top: -60 + y, width: 2040, height: 1200, imageRendering: "pixelated" }}

@@ -195,28 +195,28 @@
     {
      "id": "bugle",
      "at": 0,
-     "volume": 0.5,
+     "volume": 0.28,
      "sec": 0
     },
     {
      "id": "hit",
      "sec": 0.25,
-     "volume": 0.7
+     "volume": 0.39
     },
     {
      "id": "hit",
      "sec": 1.55,
-     "volume": 0.7
+     "volume": 0.39
     },
     {
      "id": "heartbeat",
      "sec": 2.85,
-     "volume": 0.6
+     "volume": 0.33
     },
     {
      "id": "boom",
      "sec": 4.0,
-     "volume": 0.75
+     "volume": 0.41
     }
    ]
   },
@@ -244,7 +244,7 @@
     {
      "id": "wind",
      "at": 0,
-     "volume": 0.5
+     "volume": 0.42
     }
    ],
    "pauseBefore": 0.5,
@@ -279,12 +279,12 @@
     {
      "id": "whoosh",
      "at": 0,
-     "volume": 0.5
+     "volume": 0.42
     },
     {
      "id": "bugle",
      "at": 0.6,
-     "volume": 0.35
+     "volume": 0.3
     }
    ]
   },
@@ -399,7 +399,7 @@
     {
      "id": "heartbeat",
      "at": 0,
-     "volume": 0.55
+     "volume": 0.47
     }
    ],
    "flash": true
@@ -419,7 +419,7 @@
     {
      "id": "hit",
      "at": 0.2,
-     "volume": 0.6
+     "volume": 0.51
     }
    ]
   },
@@ -452,7 +452,7 @@
     {
      "id": "water",
      "at": 0,
-     "volume": 0.4
+     "volume": 0.34
     }
    ],
    "flash": true
@@ -474,7 +474,7 @@
     {
      "id": "boom",
      "at": 1,
-     "volume": 0.6
+     "volume": 0.51
     }
    ],
    "flash": true
@@ -923,17 +923,17 @@
     {
      "id": "drum",
      "at": 1,
-     "volume": 0.6
+     "volume": 0.51
     },
     {
      "id": "drum",
      "at": 1.3,
-     "volume": 0.6
+     "volume": 0.51
     },
     {
      "id": "drum",
      "at": 1.6,
-     "volume": 0.6
+     "volume": 0.51
     }
    ]
   },
@@ -1078,7 +1078,7 @@
     {
      "id": "artillery_far",
      "at": 0,
-     "volume": 0.4
+     "volume": 0.34
     }
    ]
   },
@@ -1098,17 +1098,17 @@
     {
      "id": "bugle",
      "at": 0,
-     "volume": 0.6
+     "volume": 0.51
     },
     {
      "id": "charge",
      "at": 1,
-     "volume": 0.5
+     "volume": 0.42
     },
     {
      "id": "mg",
      "at": 1.4,
-     "volume": 0.45
+     "volume": 0.38
     }
    ]
   },
@@ -1195,7 +1195,7 @@
     {
      "id": "mg",
      "at": 0,
-     "volume": 0.35
+     "volume": 0.3
     }
    ]
   },
@@ -1213,7 +1213,7 @@
     {
      "id": "hit",
      "at": 0.3,
-     "volume": 0.7
+     "volume": 0.51
     }
    ]
   },
@@ -1251,7 +1251,7 @@
     {
      "id": "mg",
      "at": 0,
-     "volume": 0.4
+     "volume": 0.34
     }
    ]
   },
@@ -1425,7 +1425,7 @@
     {
      "id": "artillery_far",
      "at": 0,
-     "volume": 0.35
+     "volume": 0.3
     }
    ]
   },
@@ -1450,7 +1450,7 @@
     {
      "id": "typewriter",
      "at": 0,
-     "volume": 0.4
+     "volume": 0.34
     }
    ]
   },
@@ -1469,12 +1469,12 @@
     {
      "id": "artillery",
      "at": 0.6,
-     "volume": 0.6
+     "volume": 0.51
     },
     {
      "id": "artillery",
      "at": 2.2,
-     "volume": 0.5
+     "volume": 0.42
     }
    ]
   },
@@ -1510,7 +1510,7 @@
     {
      "id": "clock",
      "at": 0,
-     "volume": 0.45
+     "volume": 0.38
     }
    ]
   },
@@ -1531,7 +1531,7 @@
     {
      "id": "boom",
      "at": 1,
-     "volume": 0.7
+     "volume": 0.51
     }
    ]
   },
@@ -1630,7 +1630,7 @@
     {
      "id": "tank",
      "at": 1,
-     "volume": 0.45
+     "volume": 0.38
     }
    ]
   },
@@ -1830,7 +1830,7 @@
     {
      "id": "water",
      "at": 0,
-     "volume": 0.3
+     "volume": 0.26
     }
    ]
   },
@@ -1886,7 +1886,7 @@
     {
      "id": "hit",
      "at": 0,
-     "volume": 0.4
+     "volume": 0.34
     }
    ]
   },
@@ -1949,7 +1949,7 @@
     {
      "id": "hit",
      "at": 0,
-     "volume": 0.5
+     "volume": 0.42
     }
    ]
   },
@@ -2095,7 +2095,7 @@
     {
      "id": "hit",
      "at": 0,
-     "volume": 0.5
+     "volume": 0.42
     }
    ]
   },
@@ -2137,7 +2137,7 @@
     {
      "id": "artillery",
      "at": 0.5,
-     "volume": 0.45
+     "volume": 0.38
     }
    ]
   },
@@ -2156,7 +2156,7 @@
     {
      "id": "hit",
      "at": 0,
-     "volume": 0.5
+     "volume": 0.42
     }
    ]
   },
@@ -2223,7 +2223,7 @@
     {
      "id": "clock",
      "at": 1,
-     "volume": 0.4
+     "volume": 0.34
     }
    ]
   },
@@ -2408,12 +2408,12 @@
     {
      "id": "birds",
      "at": 0,
-     "volume": 0.4
+     "volume": 0.34
     },
     {
      "id": "water",
      "at": 0,
-     "volume": 0.3
+     "volume": 0.26
     }
    ]
   },
