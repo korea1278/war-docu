@@ -37,6 +37,14 @@ def session() -> requests.Session:
     return s
 
 
+def log_error(msg: str):
+    """오류를 저장소 logs/errors.txt 에 남김 (Actions 로그를 못 볼 때 확인용)."""
+    d = ROOT / "logs"
+    d.mkdir(exist_ok=True)
+    with open(d / "errors.txt", "a", encoding="utf-8") as f:
+        f.write(time.strftime("%Y-%m-%d %H:%M:%S ") + msg.replace("\n", " ")[:600] + "\n")
+
+
 def retry(fn, tries=4, wait=4, label=""):
     last = None
     for i in range(tries):
@@ -45,7 +53,10 @@ def retry(fn, tries=4, wait=4, label=""):
         except Exception as e:  # noqa
             last = e
             print(f"  ! {label} 실패 ({i + 1}/{tries}): {e}", file=sys.stderr)
+            if "401" in str(e) or "404" in str(e) or "quota" in str(e):
+                break
             time.sleep(wait * (i + 1))
+    log_error(f"{label}: {last}")
     raise last
 
 
@@ -63,5 +74,6 @@ def read_json(path: Path, default=None):
 def env(name: str, default=None, required=False):
     v = os.environ.get(name, default)
     if required and not v:
+        log_error(f"환경변수 {name} 없음 (GitHub Secrets 확인)")
         sys.exit(f"환경변수 {name} 가 필요합니다 (GitHub Secrets 확인)")
     return v

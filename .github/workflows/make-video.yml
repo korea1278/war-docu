@@ -10,7 +10,7 @@ on:
       mode:
         description: "full = 최종 MP4 / preview = 재료+미리보기만 / free = 무료 점검(지도·사진만, API 비용 0)"
         type: choice
-        options: [full, preview, free]
+        options: [full, preview, free, check]
         default: full
       redo:
         description: "다시 만들 재료 (쉼표로: tts,photos,ai,sfx,music,geo) — 비우면 바뀐 것만"
@@ -52,6 +52,14 @@ jobs:
           sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-cjk ffmpeg > /dev/null
           pip install -q requests numpy pillow
           npm ci
+
+      - name: API 점검
+        if: github.event.inputs.mode == 'check'
+        run: |
+          cd pipeline && python check_api.py || true
+          cd .. && git config user.name "war-docu-bot" && git config user.email "actions@users.noreply.github.com"
+          git add -A logs && git commit -qm "API 점검 결과" && git push -q
+          exit 1
 
       - name: 다시 만들 재료 지우기
         if: github.event.inputs.redo != ''
