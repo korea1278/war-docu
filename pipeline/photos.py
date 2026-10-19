@@ -32,7 +32,7 @@ def keys_from_board(board):
 def credit_ko(meta):
     txt = " ".join(str(meta.get(k, {}).get("value", "")) for k in ("Artist", "Credit", "ImageDescription"))
     for pat, ko in [
-        ("Marine", "미 해병대"), ("Navy", "미 해군"), ("Air Force", "미 공군"),
+        ("Republic of Korea MND|Defense Media Agency|국방부|국방홍보원", "대한민국 국방부"), ("Marine", "미 해병대"), ("Navy", "미 해군"), ("Air Force", "미 공군"),
         ("Army", "미 육군"), ("NARA|National Archives", "미 국립문서기록관리청"),
     ]:
         if re.search(pat, txt, re.I):

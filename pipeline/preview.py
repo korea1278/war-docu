@@ -32,7 +32,7 @@ def main(ep, bundle):
                         "--scale=0.5", "--log=error", f'--props={{"ep":"{ep}"}}'], cwd=ROOT, check=False)
         return sid, p
 
-    with ThreadPoolExecutor(4) as ex:
+    with ThreadPoolExecutor(2) as ex:
         res = list(ex.map(still, jobs))
     try:
         font = ImageFont.truetype("/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc", 28)

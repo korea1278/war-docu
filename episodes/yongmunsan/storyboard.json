@@ -110,6 +110,13 @@
     38.1
    ],
    "span": 0.62
+  },
+  "summit": {
+   "center": [
+    127.53,
+    37.575
+   ],
+   "span": 0.5
   }
  },
  "music": [
@@ -308,8 +315,8 @@
     "bubbles": [
      {
       "text": "한 달 전 우리가\n무너뜨린 부대다!",
-      "x": 0.3,
-      "y": 0.22,
+      "x": 0.7,
+      "y": 0.2,
       "at": 0
      }
     ]
@@ -719,7 +726,7 @@
     "type": "photo",
     "q": "s15-photo",
     "kb": "up",
-    "bw": true
+    "bw": false
    },
    "label": "중부 전선의 험준한 산악 (1951)",
    "callouts": [
@@ -908,7 +915,8 @@
     {
      "text": "중공군 제63군",
      "style": "red",
-     "at": 0
+     "at": 0,
+     "pos": "lower"
     }
    ],
    "sfx": [
@@ -1032,8 +1040,7 @@
     {
      "text": "침투 → 포위 → 붕괴",
      "style": "red",
-     "at": 1,
-     "pos": "lower"
+     "at": 1
     }
    ]
   },
@@ -1059,9 +1066,10 @@
    "visual": {
     "type": "photo",
     "q": "s22-photo",
-    "kb": "in"
+    "kb": "in",
+    "bw": false
    },
-   "label": "중공군 보병 (한국전쟁)",
+   "label": "야간 조명탄 (1951)",
    "chapter": {
     "num": "PART 2",
     "title": "위기의 사흘"
@@ -1262,7 +1270,7 @@
     "q": "s27-photo",
     "kb": "right"
    },
-   "label": "기관총 진지 (한국전쟁)"
+   "label": "고지 전투 (한국전쟁)"
   },
   {
    "id": "s28",
@@ -1536,7 +1544,7 @@
    "visual": {
     "type": "map",
     "from": "yongmun",
-    "to": "pursuit",
+    "to": "yongmun",
     "items": [
      {
       "k": "line",
@@ -1581,11 +1589,11 @@
        ],
        [
         127.45,
-        37.68
+        37.64
        ],
        [
         127.44,
-        37.78
+        37.7
        ]
       ],
       "color": "blue",
@@ -1601,11 +1609,11 @@
        ],
        [
         127.61,
-        37.68
+        37.64
        ],
        [
         127.62,
-        37.78
+        37.7
        ]
       ],
       "color": "blue",
@@ -2231,8 +2239,7 @@
    "visual": {
     "type": "map",
     "from": "pursuit",
-    "to": "yongmun",
-    "zoom": 1.5,
+    "to": "summit",
     "items": [
      {
       "k": "marker",

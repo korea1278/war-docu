@@ -11,7 +11,8 @@ import sys
 from common import ROOT, ep_dirs, line_say, line_text, load_board, read_json, write_json
 
 FPS = 30
-GAP = 0.45          # 장면 끝 여유
+GAP = 0.55          # 장면 끝 여유
+TEMPO = float(__import__("os").environ.get("NARRATION_TEMPO") or 0.9)  # 나레이션 재생 속도 (피치 유지)
 MAX_SUB = 24        # 자막 한 줄 최대 글자 수
 MOCK_CPS = 6.8      # 목업용 초당 글자 수
 
@@ -101,8 +102,9 @@ def build(ep, mock=False):
             audio, adur, spans = None, 0.0, []
         elif meta:
             audio = f"ep/{ep}/tts/{sc['id']}.mp3"
-            adur = mp3_dur(out / "tts" / f"{sc['id']}.mp3")
+            adur = mp3_dur(out / "tts" / f"{sc['id']}.mp3") / TEMPO
             spans = line_spans(meta["text"], says)
+            meta = dict(meta, starts=[x / TEMPO for x in meta["starts"]], ends=[x / TEMPO for x in meta["ends"]])
         else:
             audio = None
             adur = len(tts_text) / MOCK_CPS + 0.3 * tts_text.count(",") + 0.5 * tts_text.count("...")
@@ -137,7 +139,7 @@ def build(ep, mock=False):
             vis["src"] = f"ep/{ep}/ai/{vis['img']}.jpg" if vis["img"] in ai else None
             vis["credit"] = None
         scenes_out.append({
-            "id": sc["id"], "start": round(t, 3), "dur": round(dur, 3), "audio": audio, "audioAt": pre,
+            "id": sc["id"], "start": round(t, 3), "dur": round(dur, 3), "audio": audio, "audioAt": pre, "tempo": TEMPO if audio else 1,
             "lines": lines, "visual": vis, "label": sc.get("label"), "callouts": sc.get("callouts", []),
             "sfx": sc.get("sfx", []), "chapter": sc.get("chapter"), "flash": sc.get("flash", False),
         })

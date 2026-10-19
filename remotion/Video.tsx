@@ -16,7 +16,7 @@ const SceneAudio: React.FC<{ tl: Timeline; i: number }> = ({ tl, i }) => {
     <>
       {sc.audio && (
         <Sequence from={Math.round(sc.audioAt * fps)} layout="none">
-          <Audio src={staticFile(sc.audio)} />
+          <Audio src={staticFile(sc.audio)} playbackRate={(sc as any).tempo || 1} />
         </Sequence>
       )}
       {sfx

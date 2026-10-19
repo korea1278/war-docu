@@ -257,7 +257,7 @@ export const Bubble: React.FC<{ text: string; x: number; y: number; at: number }
 };
 
 /* ---------------- 켄 번스 이미지 ---------------- */
-export const KenBurns: React.FC<{ src: string; kb?: string; bw?: boolean; fit?: "cover" | "contain" }> = ({ src, kb = "in", bw = true, fit = "cover" }) => {
+export const KenBurns: React.FC<{ src: string; kb?: string; bw?: boolean; fit?: "cover" | "contain"; pos?: string }> = ({ src, kb = "in", bw = true, fit = "cover", pos = "50% 50%" }) => {
   const sc = useScene();
   const t = useT();
   const p = clamp(t / sc.dur);
@@ -278,6 +278,8 @@ export const KenBurns: React.FC<{ src: string; kb?: string; bw?: boolean; fit?: 
           width: "100%",
           height: "100%",
           objectFit: fit,
+          objectPosition: pos,
+          transformOrigin: pos,
           transform: `scale(${s}) translate(${x}%, ${y}%)`,
           filter: bw ? "grayscale(1) contrast(1.12) brightness(.96)" : "saturate(.8) contrast(1.05)",
         }}

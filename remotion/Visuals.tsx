@@ -5,10 +5,10 @@ import { Bubble, CalloutBox, KenBurns, Slate, useScene, useSince, useT } from ".
 import { MapView } from "./MapView";
 
 /** 사진이 없을 때 대체 배경 */
-const PhotoOrSlate: React.FC<{ src?: string | null; kb?: string; bw?: boolean; dim?: number }> = ({ src, kb, bw = true, dim = 0 }) =>
+const PhotoOrSlate: React.FC<{ src?: string | null; kb?: string; bw?: boolean; dim?: number; pos?: string }> = ({ src, kb, bw = true, dim = 0, pos }) =>
   src ? (
     <AbsoluteFill>
-      <KenBurns src={src} kb={kb} bw={bw} />
+      <KenBurns src={src} kb={kb} bw={bw} pos={pos} />
       {dim > 0 && <AbsoluteFill style={{ background: `rgba(0,0,0,${dim})` }} />}
     </AbsoluteFill>
   ) : (
@@ -56,7 +56,7 @@ const AiV: React.FC = () => {
   const v = useScene().visual;
   return (
     <AbsoluteFill>
-      <PhotoOrSlate src={v.src} kb={v.kb} bw={false} />
+      <PhotoOrSlate src={v.src} kb={v.kb} bw={false} pos="50% 22%" />
       {(v.bubbles || []).map((b: any, i: number) => (
         <Bubble key={i} {...b} />
       ))}
@@ -437,11 +437,11 @@ const CompareV: React.FC = () => {
                     </g>
                   );
                 })
-              : [0, 1].map((i) => (
-                  <g key={i} transform={`translate(${30 + i * 140},${40 + i * 40})`} fill={col}>
-                    <rect x="0" y="40" width="110" height="26" rx="6" transform="rotate(-22 0 53)" />
-                    <circle cx="30" cy="80" r="26" />
-                    <rect x="20" y="70" width="90" height="16" />
+              : [0, 1, 2, 3, 4].map((i) => (
+                  <g key={i} transform={`translate(${28 + i * 52},${30 + (i % 2) * 18})`} fill={col}>
+                    <path d="M0 50 C0 18 12 0 20 0 C28 0 40 18 40 50 Z" />
+                    <rect x="0" y="54" width="40" height="70" rx="3" />
+                    <rect x="-3" y="58" width="46" height="8" fill="#fff" opacity=".5" />
                   </g>
                 ))}
           </svg>
@@ -475,12 +475,12 @@ const BarsV: React.FC = () => {
           const s0 = atSec(sc, it.at) + 0.1;
           const k = easeOut((t - s0) / 1.1);
           const col = it.color === "red" ? C.red : C.blue;
-          const w = Math.max(0.02, it.value / max) * 1000 * k;
+          const w = Math.max(0.02, it.value / max) * 820 * k;
           return (
             <div key={i} style={{ display: "flex", alignItems: "center", marginBottom: 56, opacity: clamp((t - s0) * 4) }}>
               <div style={{ width: 380, fontFamily: F.head, fontSize: 52, color: "#fff", textAlign: "right", paddingRight: 30 }}>{it.label}</div>
               <div style={{ height: 92, width: w, background: col, boxShadow: "0 6px 18px rgba(0,0,0,.4)" }} />
-              <div style={{ fontFamily: F.head, fontSize: 64, color: it.color === "red" ? "#ffb3b3" : "#b9cfff", marginLeft: 26, opacity: clamp((t - s0 - 0.6) * 3) }}>{it.display}</div>
+              <div style={{ fontFamily: F.head, fontSize: 64, whiteSpace: "nowrap", color: it.color === "red" ? "#ffb3b3" : "#b9cfff", marginLeft: 26, opacity: clamp((t - s0 - 0.6) * 3) }}>{it.display}</div>
             </div>
           );
         })}

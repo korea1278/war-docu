@@ -125,6 +125,7 @@ jobs:
       - name: 미리보기 시트
         continue-on-error: true
         run: |
+          npx remotion browser ensure
           cd pipeline && python preview.py $EP ../out/bundle
 
       - name: 미리보기 저장
