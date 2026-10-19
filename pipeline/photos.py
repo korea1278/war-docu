@@ -22,10 +22,10 @@ PERSON_TYPES = {"person"}
 def keys_from_board(board):
     out = {}
     for sc in board["scenes"]:
-        v = sc["visual"]
-        if v.get("q"):
-            k = f"{v['q']}#{v.get('alt', 0)}"
-            out.setdefault(k, {"q": v["q"], "alt": v.get("alt", 0), "person": v["type"] in PERSON_TYPES})
+        for v in [sc["visual"], *sc.get("visuals", [])]:
+            if v.get("q"):
+                k = f"{v['q']}#{v.get('alt', 0)}"
+                out.setdefault(k, {"q": v["q"], "alt": v.get("alt", 0), "person": v["type"] in PERSON_TYPES})
     return out
 
 

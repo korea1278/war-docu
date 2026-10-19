@@ -162,9 +162,10 @@
    "id": "s01",
    "lines": [
     {
-     "t": "1951년 5월 18일 밤.",
-     "say": "천구백오십일 년, 오월 십팔 일 밤."
-    }
+     "t": "1951년 5월 18일 밤,",
+     "say": "천구백오십일 년, 오월 십팔 일 밤,"
+    },
+    "경기도 양평, 용문산."
    ],
    "visual": {
     "type": "ai",
@@ -175,7 +176,14 @@
     {
      "text": "1951. 5. 18 밤",
      "style": "yellow",
-     "at": 0
+     "at": 0,
+     "until": 1
+    },
+    {
+     "text": "경기도 양평 · 용문산",
+     "style": "dark",
+     "at": 1,
+     "pos": "top"
     }
    ],
    "sfx": [
@@ -188,45 +196,28 @@
      "id": "bugle",
      "at": 0,
      "volume": 0.3
-    }
-   ],
-   "pauseBefore": 0
-  },
-  {
-   "id": "s01b",
-   "lines": [
-    "경기도 양평, 용문산."
-   ],
-   "visual": {
-    "type": "map",
-    "from": "korea",
-    "to": "yongmun",
-    "items": [
-     {
-      "k": "marker",
-      "p": "yongmunsan",
-      "color": "red",
-      "at": 0.4
-     }
-    ]
-   },
-   "callouts": [
-    {
-     "text": "경기도 양평 · 용문산",
-     "style": "dark",
-     "at": 0
-    }
-   ],
-   "sfx": [
-    {
-     "id": "whoosh",
-     "at": 0,
-     "volume": 0.42
     },
     {
-     "id": "bugle",
-     "at": 0.6,
-     "volume": 0.3
+     "id": "whoosh",
+     "at": 1,
+     "volume": 0.4
+    }
+   ],
+   "pauseBefore": 0,
+   "visuals": [
+    {
+     "atLine": 1,
+     "type": "map",
+     "from": "korea",
+     "to": "yongmun",
+     "items": [
+      {
+       "k": "marker",
+       "p": "yongmunsan",
+       "color": "red",
+       "at": 0.4
+      }
+     ]
     }
    ]
   },
@@ -1198,6 +1189,177 @@
    ]
   },
   {
+   "id": "sA1",
+   "lines": [
+    {
+     "t": "중공군의 파상공세에 제2연대는 순식간에 삼면으로 완전히 포위되었습니다.",
+     "say": "중공군의 파상공세에, 제이연대는 순식간에 삼면으로 완전히 포위되었습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "yongmun",
+    "to": "yongmun",
+    "zoom": 1.2,
+    "items": [
+     {
+      "k": "unit",
+      "p": "fwd",
+      "text": "제2연대",
+      "color": "blue",
+      "at": 0,
+      "pulse": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.4,
+        37.66
+       ],
+       [
+        127.45,
+        37.64
+       ],
+       [
+        127.5,
+        37.628
+       ]
+      ],
+      "color": "red",
+      "at": 0.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.52,
+        37.76
+       ],
+       [
+        127.52,
+        37.7
+       ],
+       [
+        127.52,
+        37.645
+       ]
+      ],
+      "color": "red",
+      "at": 0.25
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.66,
+        37.66
+       ],
+       [
+        127.6,
+        37.64
+       ],
+       [
+        127.545,
+        37.628
+       ]
+      ],
+      "color": "red",
+      "at": 0.4
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "삼면 포위",
+     "style": "red",
+     "at": 0.5
+    }
+   ],
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 0,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "sA2",
+   "lines": [
+    {
+     "t": "교신마저 위태로운 상황 속에서, 연대장 송대후 대령은 사단 사령부에 상상을 초월하는 결단의 무전을 타전합니다.",
+     "say": "교신마저 위태로운 상황 속에서, 연대장 송대후 대령은, 사단 사령부에 상상을 초월하는 결단의 무전을 타전합니다."
+    },
+    "'적에 둘러싸였다. 아군 진지 바로 코앞까지 포탄을 쏟아부어 달라.'"
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "rok_radio",
+    "kb": "in",
+    "bubbles": [
+     {
+      "text": "아군 진지 코앞까지\n포탄을 쏟아부어라!",
+      "x": 0.3,
+      "y": 0.2,
+      "at": 1
+     }
+    ]
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "sA3",
+   "lines": [
+    "아군 피해까지 각오한 결사의 진내 근접 포격 요청이었습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "진내 근접 포격 요청",
+    "style": "red",
+    "sub": "아군 피해까지 각오한 결단"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "sA4",
+   "lines": [
+    {
+     "t": "이에 응답한 미 제9군단 포병대는 용문산 북쪽 능선 전체를 불바다로 만들며 밤새 수만 발의 포탄을 쏟아부었습니다.",
+     "say": "이에 응답한 미 제구군단 포병대는, 용문산 북쪽 능선 전체를 불바다로 만들며, 밤새 수만 발의 포탄을 쏟아부었습니다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "sA4-photo",
+    "kb": "in"
+   },
+   "label": "미군 203mm 곡사포 (한국전쟁)",
+   "sfx": [
+    {
+     "id": "artillery",
+     "at": 0.1,
+     "volume": 0.45
+    },
+    {
+     "id": "artillery",
+     "at": 0.5,
+     "volume": 0.4
+    },
+    {
+     "id": "artillery_far",
+     "at": 0,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
    "id": "s27",
    "lines": [
     "원래라면 일정 시간 버티고 후퇴해야 할 부대였습니다.",
@@ -1787,6 +1949,151 @@
     "kb": "in"
    },
    "label": "국군에 붙잡힌 중공군 포로"
+  },
+  {
+   "id": "sB1",
+   "lines": [
+    {
+     "t": "화천 발전소와 댐을 탈환하기 위해 북상하던 국군 제6사단은, 퇴로가 끊겨 저수지 일대에 갇힌 중공군 병력을 사방에서 압박했습니다.",
+     "say": "화천 발전소와 댐을 탈환하기 위해 북상하던 국군 제육사단은, 퇴로가 끊겨 저수지 일대에 갇힌 중공군 병력을, 사방에서 압박했습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "paroho",
+    "to": "paroho",
+    "items": [
+     {
+      "k": "marker",
+      "p": "reservoir",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": [
+       127.74,
+       38.075
+      ],
+      "text": "중공군",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.6,
+        37.98
+       ],
+       [
+        127.66,
+        38.03
+       ],
+       [
+        127.71,
+        38.065
+       ]
+      ],
+      "color": "blue",
+      "at": 0.3,
+      "width": 1.3
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.8,
+        37.96
+       ],
+       [
+        127.78,
+        38.02
+       ],
+       [
+        127.755,
+        38.06
+       ]
+      ],
+      "color": "blue",
+      "at": 0.45,
+      "width": 1.3
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.58,
+        38.12
+       ],
+       [
+        127.65,
+        38.1
+       ],
+       [
+        127.715,
+        38.085
+       ]
+      ],
+      "color": "blue",
+      "at": 0.6,
+      "width": 1.3
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "사방에서 압박",
+     "style": "dark",
+     "at": 0.3
+    }
+   ]
+  },
+  {
+   "id": "sB2",
+   "lines": [
+    "퇴각하던 적들은 험준한 산악과 차가운 물에 가로막혀 완전히 와해되었고,",
+    {
+     "t": "화천호 일대는 중공군 춘계공세의 종착점이자 거대한 포위망이 되었습니다.",
+     "say": "화천호 일대는, 중공군 춘계공세의 종착점이자, 거대한 포위망이 되었습니다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "sB2-photo",
+    "kb": "left"
+   },
+   "label": "붙잡힌 중공군 (한국전쟁)",
+   "callouts": [
+    {
+     "text": "춘계공세의 종착점",
+     "style": "red",
+     "at": 1
+    }
+   ]
+  },
+  {
+   "id": "sB3",
+   "lines": [
+    "현장을 직접 방문한 이승만 대통령은 사단 장병들의 투혼을 치하하며,",
+    {
+     "t": "'오랑캐를 대파한 호수'라는 뜻의 파로호(破虜湖)라는 이름을 하사하고 직접 친필 휘호를 남겼습니다.",
+     "say": "'오랑캐를 대파한 호수'라는 뜻의, 파로호라는 이름을 하사하고, 직접 친필 휘호를 남겼습니다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "sB3-photo",
+    "kb": "in"
+   },
+   "label": "지방을 시찰하는 이승만 대통령",
+   "callouts": [
+    {
+     "text": "破虜湖",
+     "style": "yellow",
+     "at": 1
+    }
+   ]
   },
   {
    "id": "s41",
@@ -2464,6 +2771,7 @@
   "rok_counter": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag, in 1951 M1 helmets and olive uniforms, advancing forward with fixed bayonets over a mountain ridge at dawn, sunrise light behind them, a taegukgi flag carried by one soldier, heroic low-angle cinematic composition, leaving calm uncluttered dark background area in the top center, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "pva_supply": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an exhausted Chinese People's Volunteer Army soldier whose head is a round ball painted as the red flag of China with yellow stars, sitting in a mountain trench in a dirty quilted khaki uniform, holding an almost empty long cloth rice-bag tube and a few rifle cartridges in his hand, gray dawn light, weary mood, leaving calm uncluttered dark background area in the upper left, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "lake_helmet": "A quiet misty lake at dawn surrounded by forested Korean mountains, an old rusted 1950s steel helmet lying half-buried on the pebble shore in the foreground, soft fog over the water, melancholic, desaturated cinematic realistic painting, film grain, no people, no text.",
-  "paroho_today": "A tranquil wide reservoir lake surrounded by forested mountains in Gangwon-do, South Korea, at early morning, thin mist drifting over calm water, two small wooden fishing boats with anglers far away, soft pastel dawn light, realistic photographic style, peaceful, no text."
+  "paroho_today": "A tranquil wide reservoir lake surrounded by forested mountains in Gangwon-do, South Korea, at early morning, thin mist drifting over calm water, two small wooden fishing boats with anglers far away, soft pastel dawn light, realistic photographic style, peaceful, no text.",
+  "rok_radio": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a South Korean regimental commander whose head is a round ball painted as the South Korean taegukgi flag, wearing a 1951 M1 helmet and olive field uniform, shouting urgently into a field radio handset inside a sandbagged command bunker on a mountain at night, radio operator beside him, flares and explosions visible through the bunker opening, tense cinematic lighting, leaving calm uncluttered dark background area in the upper left, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters."
  }
 }

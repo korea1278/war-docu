@@ -3,7 +3,7 @@
 python pipeline/tighten.py yongmunsan
 입력 : public/ep/<ep>/tts/<id>.mp3 + .json (일레븐랩스 원본, 보존)
 출력 : public/ep/<ep>/tts_fast/<id>.mp3 + .json  (timeline.py 가 우선 사용)
-환경변수: NARRATION_TEMPO(기본 1.1), MAX_PAUSE(기본 0.42초, 배속 전 기준), PAUSE_MIN(기본 0.45초)
+환경변수: NARRATION_TEMPO(기본 1.05), MAX_PAUSE(기본 0.42초, 배속 전 기준), PAUSE_MIN(기본 0.45초)
 """
 import hashlib
 import json
@@ -48,7 +48,7 @@ def silent_runs(x, min_len):
 
 
 def main(ep):
-    tempo = float(env("NARRATION_TEMPO", "1.1"))
+    tempo = float(env("NARRATION_TEMPO", "1.05"))
     max_pause = float(env("MAX_PAUSE", "0.42"))
     pause_min = float(env("PAUSE_MIN", "0.45"))
     _, out = ep_dirs(ep)

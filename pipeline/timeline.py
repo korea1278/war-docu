@@ -14,7 +14,7 @@ FPS = 30
 GAP = 0.32          # 장면 사이 간격 (앞 장면 꼬리 0.08초 + 이 값 ≈ 0.4초)
 MAX_PRE = 0.15      # 장면 앞 무음 상한
 MUSIC_GAIN = 1.33   # 배경음악 +2.5dB
-MAX_SUB = 24        # 자막 한 줄 최대 글자 수
+MAX_SUB = 21        # 자막 한 줄 최대 글자 수 (64px 기준)
 MOCK_CPS = 6.8      # 목업용 초당 글자 수
 
 
@@ -128,6 +128,24 @@ def build(ep, mock=False):
                 chunks.append({"text": c, "start": round(pre + cs, 3), "end": round(pre + ce, 3)})
             lines.append({"text": sub, "start": round(pre + ls, 3), "end": round(pre + le, 3), "chunks": chunks})
         dur = sc["dur"] if not sc["lines"] else pre + adur + GAP + sc.get("tail", 0)
+        def resolve(vis):
+            vis = dict(vis)
+            if vis.get("q"):
+                pk = f"{vis['q']}#{vis.get('alt', 0)}"
+                ph = photos.get(pk) or {}
+                vis["src"] = f"ep/{ep}/{ph['file']}" if ph.get("file") else None
+                vis["credit"] = ph.get("credit")
+            if vis["type"] == "ai":
+                vis["src"] = f"ep/{ep}/ai/{vis['img']}.jpg" if vis["img"] in ai else None
+                vis["credit"] = None
+            return vis
+
+        extra = []
+        for v2 in sc.get("visuals", []):
+            r = resolve(v2)
+            fi = v2["atLine"]
+            r["start"] = round(lines[fi]["start"] - 0.05, 3) if fi < len(lines) else 0
+            extra.append(r)
         vis = dict(sc["visual"])
         if vis.get("q"):
             pk = f"{vis['q']}#{vis.get('alt', 0)}"
@@ -143,6 +161,7 @@ def build(ep, mock=False):
             "id": sc["id"], "start": round(t, 3), "dur": round(dur, 3), "audio": audio, "audioAt": pre, "tempo": 1,
             "lines": lines, "visual": vis, "label": sc.get("label"), "callouts": sc.get("callouts", []),
             "sfx": sc.get("sfx", []), "chapter": sc.get("chapter"), "flash": sc.get("flash", False),
+            "visuals": extra,
         })
         t += dur
     idx = {s["id"]: s for s in scenes_out}

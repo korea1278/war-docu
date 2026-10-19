@@ -22,7 +22,7 @@ def main(ep):
     d = out / "ai"
     d.mkdir(exist_ok=True)
     man = read_json(out / "ai.json", {})
-    used = {sc["visual"]["img"] for sc in board["scenes"] if sc["visual"]["type"] == "ai"}
+    used = {v["img"] for sc in board["scenes"] for v in [sc["visual"], *sc.get("visuals", [])] if v["type"] == "ai"}
     for sc in board["scenes"]:
         for it in sc["visual"].get("items", []) if sc["visual"]["type"] == "teaser" else []:
             used.add(it["img"])

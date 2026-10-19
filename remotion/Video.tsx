@@ -79,13 +79,30 @@ export const Documentary: React.FC<{ ep: string; tl: Timeline | null }> = ({ tl 
         const to = i + 1 < tl.scenes.length ? Math.round(tl.scenes[i + 1].start * fps) : durationInFrames;
         const v = sc.visual;
         const credit = v.type === "ai" ? "AI 생성 이미지" : v.type === "photo" || v.type === "person" ? v.credit : null;
+        const mapNow = v.type === "map" || ((sc as any).visuals || []).some((x: any) => x.type === "map");
         const noSub = false;
         return (
           <Sequence key={sc.id} from={from} durationInFrames={to - from} name={sc.id}>
             <SceneCtx.Provider value={sc}>
               <Visual tl={tl} />
+              {((sc as any).visuals || []).map((v2: any, k: number) => {
+                const off = Math.max(0, Math.round(v2.start * fps));
+                const shifted = {
+                  ...sc,
+                  visual: v2,
+                  dur: sc.dur - v2.start,
+                  lines: sc.lines.map((l) => ({ ...l, start: l.start - v2.start, end: l.end - v2.start })),
+                };
+                return (
+                  <Sequence key={k} from={off} layout="absolute-fill">
+                    <SceneCtx.Provider value={shifted as any}>
+                      <Visual tl={tl} />
+                    </SceneCtx.Provider>
+                  </Sequence>
+                );
+              })}
               <Vignette strength={v.type === "map" ? 0.28 : 0.55} />
-              <LabelBox label={v.type === "map" ? null : sc.label} credit={credit} />
+              <LabelBox label={mapNow ? null : sc.label} credit={mapNow ? null : credit} />
               <Callouts />
               <ChapterOverlay />
               {!noSub && <Subtitles />}

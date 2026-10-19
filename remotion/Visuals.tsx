@@ -338,7 +338,7 @@ const HanjaV: React.FC = () => {
           const s0 = (sc.lines[0]?.start || 0) + i * per;
           const k = popIn((t - s0) / 0.4);
           return (
-            <div key={i} style={{ textAlign: "center", opacity: clamp((t - s0) * 4), transform: `scale(${Math.max(0, k)})` }}>
+            <div key={i} style={{ textAlign: "center", opacity: clamp((t - s0) * 6), transform: `scale(${0.7 + 0.3 * Math.max(0, k)})` }}>
               <div
                 style={{
                   width: 300,
@@ -381,7 +381,7 @@ const FactorsV: React.FC = () => {
         {v.items.map((it: string, i: number) => {
           const k = popIn((t - s0 - i * 0.3) / 0.4);
           return (
-            <div key={i} style={{ flex: 1, background: "rgba(10,10,12,.72)", border: "4px solid #fff", padding: "34px 10px", textAlign: "center", transform: `scale(${Math.max(0, k)})`, opacity: clamp((t - s0 - i * 0.3) * 4) }}>
+            <div key={i} style={{ flex: 1, background: "rgba(10,10,12,.72)", border: "4px solid #fff", padding: "34px 10px", textAlign: "center", transform: `scale(${0.75 + 0.25 * Math.max(0, k)})`, opacity: clamp((t - s0 - i * 0.3) * 6) }}>
               <div style={{ fontFamily: F.head, fontSize: 96, color: C.yellow }}>{i + 1}</div>
               <div style={{ fontFamily: F.head, fontSize: 52, color: "#fff", marginTop: 10 }}>{it}</div>
             </div>
@@ -402,10 +402,10 @@ const ChapterBigV: React.FC = () => {
     <AbsoluteFill>
       <PhotoOrSlate src={v.src} kb="in" dim={0.55} />
       <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", flexDirection: "column", paddingBottom: 100, gap: 26 }}>
-        <div style={{ transform: `scale(${Math.max(0, k)})` }}>
+        <div style={{ transform: `scale(${0.8 + 0.2 * k})`, opacity: clamp(t / 0.12) }}>
           <CalloutBox text={v.num} style="red" size={110} />
         </div>
-        <div style={{ transform: `scale(${Math.max(0, k2)})` }}>
+        <div style={{ transform: `scale(${0.8 + 0.2 * k2})`, opacity: clamp((t - 0.25) / 0.12) }}>
           <CalloutBox text={v.title} style="red" size={110} />
         </div>
       </AbsoluteFill>
@@ -422,7 +422,7 @@ const CompareV: React.FC = () => {
     const k = popIn((t - s0) / 0.45);
     const col = d.color === "red" ? C.red : C.blue;
     return (
-      <div style={{ width: 640, textAlign: "center", opacity: clamp((t - s0) * 3), transform: `scale(${Math.max(0, k)})` }}>
+      <div style={{ width: 640, textAlign: "center", opacity: clamp((t - s0) * 5), transform: `scale(${0.75 + 0.25 * Math.max(0, k)})` }}>
         <div style={{ fontFamily: F.head, fontSize: 60, color: "#fff", marginBottom: 20 }}>{d.title}</div>
         <div style={{ background: "rgba(10,10,12,.7)", border: `6px solid ${col}`, padding: "40px 0" }}>
           <svg width="300" height="200" viewBox="0 0 300 200">

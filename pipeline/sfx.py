@@ -86,9 +86,13 @@ def gen_music(ep):
     d = out / "music"
     d.mkdir(exist_ok=True)
     s = session()
+    no_api = env("NO_MUSIC_API", "1") == "1"  # 기본: 기존 음원만 재사용 (API 호출 금지)
     for cue in tl["music"]:
         p = d / f"{cue['id']}.mp3"
         if p.exists():
+            continue
+        if no_api:
+            print(f"  · 음악 {cue['id']} 파일 없음 — NO_MUSIC_API=1 이므로 생성하지 않음")
             continue
         length = int(min(max(cue["dur"] + 6, 15), 290) * 1000)
         print(f"MUSIC {cue['id']} {length / 1000:.0f}s")

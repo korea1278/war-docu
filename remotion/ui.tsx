@@ -61,7 +61,7 @@ export const Subtitles: React.FC = () => {
   }
   if (!cur) return null;
   return (
-    <div style={{ position: "absolute", left: 0, right: 0, bottom: 52, display: "flex", justifyContent: "center" }}>
+    <div style={{ position: "absolute", left: 0, right: 0, bottom: 46, display: "flex", justifyContent: "center" }}>
       <div
         style={{
           position: "relative",
@@ -69,9 +69,9 @@ export const Subtitles: React.FC = () => {
           border: `5px solid ${C.subBorder}`,
           borderRadius: 12,
           boxShadow: "0 6px 18px rgba(0,0,0,.45)",
-          padding: "8px 34px 6px",
+          padding: "12px 46px 10px",
           fontFamily: F.sub,
-          fontSize: 54,
+          fontSize: 64,
           color: "#111",
           lineHeight: 1.15,
           letterSpacing: 0.5,
@@ -159,7 +159,7 @@ export const Callouts: React.FC = () => {
   const t = useT();
   const shown = sc.callouts
     .map((c, i) => ({ ...c, i, s: atSec(sc, c.at) + 0.1 }))
-    .filter((c) => t >= c.s);
+    .filter((c) => t >= c.s && ((c as any).until === undefined || t < atSec(sc, (c as any).until)));
   // 같은 위치는 마지막 것만
   const byPos = new Map<string, (typeof shown)[number]>();
   const defPos = sc.visual?.type === "map" ? "top" : "center";
