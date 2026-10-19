@@ -116,21 +116,25 @@ def main(ep):
         pin = pins.get(k)
         prev = manifest.get(k)
         fname = f"{slug(k)}.jpg"
-        if prev and prev.get("pin") == pin and (pdir / fname).exists() and prev.get("cands"):
-            review_rows.append((k, prev["cands"]))
+        if prev and prev.get("pin") == pin and (pdir / fname).exists():
             continue
         print(f"PHOTO {k}")
-        cands = search(s, info["q"], info["person"])
-        time.sleep(0.5)
         chosen = None
         if isinstance(pin, str):
-            chosen = file_info(s, pin)
+            cands = []
+            chosen = retry(lambda: file_info(s, pin), label=f"file {pin}")
+        else:
+            cands = search(s, info["q"], info["person"])
+            time.sleep(0.5)
+        if chosen:
+            pass
         elif isinstance(pin, int) and pin < len(cands):
             chosen = cands[pin]
         else:
             alt = info["alt"]
             chosen = cands[alt] if len(cands) > alt else (cands[0] if cands else None)
-        review_rows.append((k, cands[:8]))
+        if cands:
+            review_rows.append((k, cands[:8]))
         if not chosen:
             print(f"  ! '{info['q']}' 결과 없음 — 대체 배경 사용")
             manifest[k] = {"file": None, "cands": [], "pin": pin}

@@ -360,10 +360,10 @@
    ],
    "visual": {
     "type": "photo",
-    "q": "Korean War soldiers retreat 1951",
+    "q": "s05-photo",
     "kb": "left"
    },
-   "label": "후퇴하는 병력 (1951)"
+   "label": "산길을 이동하는 병력 (1951. 2)"
   },
   {
    "id": "s06",
@@ -436,11 +436,11 @@
    ],
    "visual": {
     "type": "photo",
-    "q": "Paroho lake Hwacheon",
+    "q": "s09-photo",
     "kb": "in",
     "bw": true
    },
-   "label": "화천 저수지 (오늘날의 파로호)",
+   "label": "화천댐과 저수지 (1951)",
    "sfx": [
     {
      "id": "water",
@@ -458,7 +458,7 @@
    ],
    "visual": {
     "type": "titlecard",
-    "q": "Korean War infantry mountain 1951",
+    "q": "s10-photo",
     "title": "용문산 전투와 파로호",
     "sub": "1951. 5. 18 ~ 5. 30",
     "at": 1
@@ -717,11 +717,11 @@
    ],
    "visual": {
     "type": "photo",
-    "q": "Yongmunsan mountain Yangpyeong",
+    "q": "s15-photo",
     "kb": "up",
     "bw": true
    },
-   "label": "용문산 (경기도 양평)",
+   "label": "중부 전선의 험준한 산악 (1951)",
    "callouts": [
     {
      "text": "용문산 해발 1,157m",
@@ -738,7 +738,7 @@
    ],
    "visual": {
     "type": "person",
-    "q": "Chang Do-yong",
+    "q": "s16-photo",
     "name": "장도영",
     "years": "1923 - 2012",
     "role": "국군 제6사단장 (준장)"
@@ -1058,10 +1058,10 @@
    ],
    "visual": {
     "type": "photo",
-    "q": "Chinese People's Volunteer Army soldiers attack Korean War",
+    "q": "s22-photo",
     "kb": "in"
    },
-   "label": "공격하는 중공군",
+   "label": "중공군 보병 (한국전쟁)",
    "chapter": {
     "num": "PART 2",
     "title": "위기의 사흘"
@@ -1259,10 +1259,10 @@
    ],
    "visual": {
     "type": "photo",
-    "q": "South Korean soldiers foxhole machine gun Korean War",
+    "q": "s27-photo",
     "kb": "right"
    },
-   "label": "진지를 지키는 국군 (한국전쟁)"
+   "label": "기관총 진지 (한국전쟁)"
   },
   {
    "id": "s28",
@@ -1402,10 +1402,10 @@
    ],
    "visual": {
     "type": "photo",
-    "q": "Korean War hill battle 1951 infantry",
+    "q": "s30-photo",
     "kb": "in"
    },
-   "label": "고지 전투 (1951)",
+   "label": "고지로 향하는 보병 (1951)",
    "callouts": [
     {
      "text": "5. 19 → 5. 20",
@@ -1453,10 +1453,10 @@
    ],
    "visual": {
     "type": "photo",
-    "q": "155 mm howitzer firing Korea 1951",
+    "q": "s32-photo",
     "kb": "in"
    },
-   "label": "사격하는 미군 곡사포 (한국전쟁)",
+   "label": "사격하는 155mm 곡사포 (한국전쟁)",
    "sfx": [
     {
      "id": "artillery",
@@ -1663,10 +1663,10 @@
    ],
    "visual": {
     "type": "photo",
-    "q": "United Nations troops advance Korea May 1951",
+    "q": "s37-photo",
     "kb": "left"
    },
-   "label": "북진하는 유엔군 (1951. 5)"
+   "label": "행군하는 유엔군 (한국전쟁)"
   },
   {
    "id": "s38",
@@ -1833,10 +1833,10 @@
    ],
    "visual": {
     "type": "photo",
-    "q": "Chinese prisoners of war Korean War 1951",
+    "q": "s40-photo",
     "kb": "in"
    },
-   "label": "포로가 된 중공군 (1951)"
+   "label": "국군에 붙잡힌 중공군 포로"
   },
   {
    "id": "s41",
@@ -1846,7 +1846,7 @@
    ],
    "visual": {
     "type": "person",
-    "q": "Syngman Rhee portrait",
+    "q": "s41-photo",
     "name": "이승만",
     "years": "1875 - 1965",
     "role": "대한민국 초대 대통령"
@@ -1889,11 +1889,11 @@
    ],
    "visual": {
     "type": "photo",
-    "q": "Paroho",
+    "q": "s43-photo",
     "kb": "right",
     "bw": false
    },
-   "label": "파로호 (강원도 화천)",
+   "label": "화천 저수지 (1951. 7)",
    "callouts": [
     {
      "text": "破虜湖 — 오랑캐를 깨뜨린 호수",
@@ -1933,7 +1933,7 @@
    ],
    "visual": {
     "type": "chapterbig",
-    "q": "Korean War soldiers ridge trench 1951",
+    "q": "s45-photo",
     "num": "요인 1",
     "title": "전진진지의 기만 효과"
    },
@@ -2067,10 +2067,10 @@
    ],
    "visual": {
     "type": "photo",
-    "q": "Republic of Korea Army soldiers 1951",
+    "q": "s47-photo",
     "kb": "in"
    },
-   "label": "국군 장병 (1951)"
+   "label": "국군 제1사단 장병 (1951)"
   },
   {
    "id": "s48",
@@ -2079,7 +2079,7 @@
    ],
    "visual": {
     "type": "chapterbig",
-    "q": "artillery Korean War 1951 howitzer",
+    "q": "s48-photo",
     "num": "요인 2",
     "title": "화력의 격차"
    },
@@ -2121,10 +2121,10 @@
    ],
    "visual": {
     "type": "photo",
-    "q": "artillery barrage Korean War",
+    "q": "s50-photo",
     "kb": "in"
    },
-   "label": "포격 (한국전쟁)",
+   "label": "포병 사격 (한국전쟁)",
    "sfx": [
     {
      "id": "artillery",
@@ -2140,7 +2140,7 @@
    ],
    "visual": {
     "type": "chapterbig",
-    "q": "Chinese People's Volunteer Army soldiers march Korea",
+    "q": "s51-photo",
     "num": "요인 3",
     "title": "보급의 한계"
    },
@@ -2264,10 +2264,10 @@
    ],
    "visual": {
     "type": "photo",
-    "q": "South Korean infantry Korean War",
+    "q": "s55-photo",
     "kb": "in"
    },
-   "label": "국군 보병 (한국전쟁)"
+   "label": "국군 장병 (한국전쟁)"
   },
   {
    "id": "s56",
@@ -2388,13 +2388,11 @@
     "낚싯배가 떠 있고, 물안개가 피어오르죠."
    ],
    "visual": {
-    "type": "photo",
-    "q": "Paroho lake Hwacheon",
-    "kb": "in",
-    "bw": false,
-    "alt": 1
+    "type": "ai",
+    "img": "paroho_today",
+    "kb": "in"
    },
-   "label": "오늘날의 파로호",
+   "label": "오늘날의 파로호 (재현 이미지)",
    "chapter": {
     "num": "EPILOGUE",
     "title": "호수 아래의 시간"
@@ -2436,11 +2434,11 @@
    ],
    "visual": {
     "type": "photo",
-    "q": "young South Korean soldier 1951",
+    "q": "s61-photo",
     "kb": "in",
     "frame": true
    },
-   "label": "국군 병사 (1951)"
+   "label": "전선으로 향하는 청년들 (1950)"
   },
   {
    "id": "s62",
@@ -2450,12 +2448,11 @@
    ],
    "visual": {
     "type": "photo",
-    "q": "Chinese prisoner of war Korea 1951 soldier",
+    "q": "s62-photo",
     "kb": "in",
-    "frame": true,
-    "alt": 1
+    "frame": true
    },
-   "label": "중공군 포로 (1951)"
+   "label": "포로가 된 병사들 (한국전쟁)"
   },
   {
    "id": "s63",
@@ -2487,11 +2484,11 @@
    ],
    "visual": {
     "type": "photo",
-    "q": "Yongmunsan battle memorial",
+    "q": "s64-photo",
     "kb": "out",
     "bw": true
    },
-   "label": "용문산 전투 전적비"
+   "label": "1951년, 중부 전선"
   },
   {
    "id": "s65",
@@ -2502,7 +2499,7 @@
    "visual": {
     "type": "endcard",
     "title": "1951년 5월, 용문산.\n그리고 파로호.",
-    "q": "Korean War infantry mountain 1951"
+    "q": "s65-photo"
    },
    "pauseBefore": 1.0,
    "tail": 3.0
@@ -2510,13 +2507,14 @@
  ],
  "ai_images": {
   "night_ridge": "A dark mountain ridge in central Korea at night in May 1951, silhouetted pine trees, several red signal flares rising into a cloudy sky, faint moonlight, cinematic wide shot, desaturated almost black-and-white palette with only the red flares in color, painterly realistic digital illustration, film grain, no people visible, no text.",
-  "pva_commander": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a Chinese People's Volunteer Army commander whose head is a round ball painted as the red flag of China with yellow stars, wearing a 1951 khaki quilted PVA uniform and cap, standing in a dim candlelit command bunker and pointing confidently at a large paper military map of mountains on a wooden table, two officers in the background, warm lamp light, night, cinematic composition with empty space in the upper left for a speech bubble, no text, no letters.",
+  "pva_commander": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a Chinese People's Volunteer Army commander whose head is a round ball painted as the red flag of China with yellow stars, wearing a 1951 khaki quilted PVA uniform and cap, standing in a dim candlelit command bunker and pointing confidently at a large paper military map of mountains on a wooden table, two officers in the background, warm lamp light, night, leaving calm uncluttered dark background area in the upper left, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "rok_resolve": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: three South Korean soldiers in 1951 olive drab uniforms and M1 helmets whose heads are round balls painted as the South Korean taegukgi flag, crouched in a trench on a forested mountain ridge at dusk, gripping M1 rifles, determined expressions, rugged Korean mountains behind them, muted cinematic colors, no text, no letters.",
   "pva_wave": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: many Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red flag of China with yellow stars, wearing quilted khaki uniforms, charging up a steep moonlit rocky mountain slope at night, one soldier blowing a bugle, flares illuminating the sky, dramatic low angle, cold blue night palette, no text, no letters.",
-  "rok_hold": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a South Korean soldier whose head is a round ball painted as the South Korean taegukgi flag, wearing a 1951 M1 helmet and olive uniform, firing a Browning machine gun from a sandbagged foxhole on a mountain ridge at night, flares and tracer fire in the sky, a comrade passing ammunition beside him, intense cinematic lighting, empty space in the upper right for a speech bubble, no text, no letters.",
-  "pva_misjudge": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a Chinese People's Volunteer Army commander whose head is a round ball painted as the red flag of China with yellow stars, in a khaki 1951 uniform, slamming his fist on a military map in a dark bunker lit by an oil lamp, staff officers looking on, tense mood, empty space in the upper left for a speech bubble, no text, no letters.",
-  "rok_counter": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag, in 1951 M1 helmets and olive uniforms, advancing forward with fixed bayonets over a mountain ridge at dawn, sunrise light behind them, a taegukgi flag carried by one soldier, heroic low-angle cinematic composition, empty sky at the top center for a speech bubble, no text, no letters.",
-  "pva_supply": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an exhausted Chinese People's Volunteer Army soldier whose head is a round ball painted as the red flag of China with yellow stars, sitting in a mountain trench in a dirty quilted khaki uniform, holding an almost empty long cloth rice-bag tube and a few rifle cartridges in his hand, gray dawn light, weary mood, empty space in the upper left for a speech bubble, no text, no letters.",
-  "lake_helmet": "A quiet misty lake at dawn surrounded by forested Korean mountains, an old rusted 1950s steel helmet lying half-buried on the pebble shore in the foreground, soft fog over the water, melancholic, desaturated cinematic realistic painting, film grain, no people, no text."
+  "rok_hold": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a South Korean soldier whose head is a round ball painted as the South Korean taegukgi flag, wearing a 1951 M1 helmet and olive uniform, firing a Browning machine gun from a sandbagged foxhole on a mountain ridge at night, flares and tracer fire in the sky, a comrade passing ammunition beside him, intense cinematic lighting, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "pva_misjudge": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a Chinese People's Volunteer Army commander whose head is a round ball painted as the red flag of China with yellow stars, in a khaki 1951 uniform, slamming his fist on a military map in a dark bunker lit by an oil lamp, staff officers looking on, tense mood, leaving calm uncluttered dark background area in the upper left, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "rok_counter": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag, in 1951 M1 helmets and olive uniforms, advancing forward with fixed bayonets over a mountain ridge at dawn, sunrise light behind them, a taegukgi flag carried by one soldier, heroic low-angle cinematic composition, leaving calm uncluttered dark background area in the top center, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "pva_supply": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an exhausted Chinese People's Volunteer Army soldier whose head is a round ball painted as the red flag of China with yellow stars, sitting in a mountain trench in a dirty quilted khaki uniform, holding an almost empty long cloth rice-bag tube and a few rifle cartridges in his hand, gray dawn light, weary mood, leaving calm uncluttered dark background area in the upper left, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "lake_helmet": "A quiet misty lake at dawn surrounded by forested Korean mountains, an old rusted 1950s steel helmet lying half-buried on the pebble shore in the foreground, soft fog over the water, melancholic, desaturated cinematic realistic painting, film grain, no people, no text.",
+  "paroho_today": "A tranquil wide reservoir lake surrounded by forested mountains in Gangwon-do, South Korea, at early morning, thin mist drifting over calm water, two small wooden fishing boats with anglers far away, soft pastel dawn light, realistic photographic style, peaceful, no text."
  }
 }
