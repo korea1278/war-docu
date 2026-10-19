@@ -1,0 +1,6 @@
+ELEVENLABS_API_KEY 등록: 예 (길이 51)
+OPENAI_API_KEY 등록: 예
+VOICE_ID: ZJCNdZEjYwkOElxugmW2
+구독 조회 실패 401: {"detail":{"type":"authentication_error","code":"unauthorized","message":"The API key you used is missing the permission user_read to execute this operation.","status":"missing_permissions","request_id":"0f0dcf53da710c91b0787dfe08ad4142"}}
+목소리 조회 200: Hyuk - Cold and Clear
+TTS 시험 200: OK
