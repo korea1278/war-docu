@@ -1,6 +1,6 @@
 import React from "react";
 import { AbsoluteFill, Audio, interpolate, Loop, Sequence, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
-import { atSec, Timeline } from "./theme";
+import { atSec, S, setLang, Timeline } from "./theme";
 import { Callouts, ChapterOverlay, Grain, LabelBox, SceneCtx, Subtitles, Vignette } from "./ui";
 import { Visual } from "./Visuals";
 
@@ -70,6 +70,7 @@ export const Documentary: React.FC<{ ep: string; tl: Timeline | null }> = ({ tl 
   const frame = useCurrentFrame();
   const { durationInFrames } = useVideoConfig();
   if (!tl) return <AbsoluteFill style={{ background: "#000" }} />;
+  setLang(tl.lang);
   const fps = tl.fps;
   const fadeOut = interpolate(frame, [durationInFrames - fps * 1.2, durationInFrames - 1], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   return (
@@ -78,7 +79,7 @@ export const Documentary: React.FC<{ ep: string; tl: Timeline | null }> = ({ tl 
         const from = Math.round(sc.start * fps);
         const to = i + 1 < tl.scenes.length ? Math.round(tl.scenes[i + 1].start * fps) : durationInFrames;
         const v = sc.visual;
-        const credit = v.type === "ai" ? "AI 생성 이미지" : v.type === "photo" || v.type === "person" ? v.credit : null;
+        const credit = v.type === "ai" ? S("ai") : v.type === "photo" || v.type === "person" ? v.credit : null;
         const mapNow = v.type === "map" || ((sc as any).visuals || []).some((x: any) => x.type === "map");
         const noSub = false;
         return (

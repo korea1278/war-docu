@@ -18,6 +18,35 @@ MAX_SUB = 21        # 자막 한 줄 최대 글자 수 (64px 기준)
 MOCK_CPS = 6.8      # 목업용 초당 글자 수
 
 
+CREDIT_EN = [("출처: ", "Source: "), ("미 육군", "U.S. Army"), ("미 해병대", "U.S. Marine Corps"), ("미 공군", "U.S. Air Force"),
+             ("미 해군", "U.S. Navy"), ("미 국립문서기록관리청", "U.S. National Archives"), ("대한민국 국방부", "ROK Ministry of National Defense")]
+
+
+def credit_tr(c, lang):
+    if not c or lang == "ko":
+        return c
+    for a, b in CREDIT_EN:
+        c = c.replace(a, b)
+    return c
+
+
+def srt_time(t):
+    ms = int(round(t * 1000))
+    return f"{ms // 3600000:02d}:{ms // 60000 % 60:02d}:{ms // 1000 % 60:02d},{ms % 1000:03d}"
+
+
+def write_srt(scenes, path):
+    """화면 자막과 같은 단위로 SRT 생성 (유튜브 자막 업로드용)."""
+    n, rows = 0, []
+    for sc in scenes:
+        for l in sc["lines"]:
+            for c in l["chunks"]:
+                n += 1
+                a, b = sc["start"] + c["start"], sc["start"] + c["end"] + 0.15
+                rows.append(f"{n}\n{srt_time(max(0, a))} --> {srt_time(b)}\n{c['text']}\n")
+    path.write_text("\n".join(rows), encoding="utf-8")
+
+
 def mp3_dur(p):
     out = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(p)],
                          capture_output=True, text=True).stdout.strip()
@@ -89,8 +118,13 @@ def time_at(meta, idx, end=False):
 def build(ep, mock=False):
     board = load_board(ep)
     _, out = ep_dirs(ep)
-    photos = read_json(out / "photos.json", {})
-    ai = read_json(out / "ai.json", {})
+    lang = board.get("lang", "ko")
+    aep = board.get("assets_ep") or ep          # 사진·그림·음악 출처 에피소드
+    aout = ROOT / "public" / "ep" / aep
+    photos = read_json(aout / "photos.json", {})
+    ai = read_json(aout / "ai.json", {})
+    global MAX_SUB
+    MAX_SUB = 44 if lang != "ko" else 21
     rasters = read_json(ROOT / "public" / "geo" / "rasters.json", [])
     scenes_out = []
     t = 0.0
@@ -133,10 +167,10 @@ def build(ep, mock=False):
             if vis.get("q"):
                 pk = f"{vis['q']}#{vis.get('alt', 0)}"
                 ph = photos.get(pk) or {}
-                vis["src"] = f"ep/{ep}/{ph['file']}" if ph.get("file") else None
-                vis["credit"] = ph.get("credit")
+                vis["src"] = f"ep/{aep}/{ph['file']}" if ph.get("file") else None
+                vis["credit"] = credit_tr(ph.get("credit"), lang)
             if vis["type"] == "ai":
-                vis["src"] = f"ep/{ep}/ai/{vis['img']}.jpg" if vis["img"] in ai else None
+                vis["src"] = f"ep/{aep}/ai/{vis['img']}.jpg" if vis["img"] in ai else None
                 vis["credit"] = None
             return vis
 
@@ -150,12 +184,12 @@ def build(ep, mock=False):
         if vis.get("q"):
             pk = f"{vis['q']}#{vis.get('alt', 0)}"
             ph = photos.get(pk) or {}
-            vis["src"] = f"ep/{ep}/{ph['file']}" if ph.get("file") else None
-            vis["credit"] = ph.get("credit")
+            vis["src"] = f"ep/{aep}/{ph['file']}" if ph.get("file") else None
+            vis["credit"] = credit_tr(ph.get("credit"), lang)
         if vis["type"] == "teaser":
-            vis["items"] = [dict(it, src=f"ep/{ep}/ai/{it['img']}.jpg" if it["img"] in ai else None) for it in vis["items"]]
+            vis["items"] = [dict(it, src=f"ep/{aep}/ai/{it['img']}.jpg" if it["img"] in ai else None) for it in vis["items"]]
         if vis["type"] == "ai":
-            vis["src"] = f"ep/{ep}/ai/{vis['img']}.jpg" if vis["img"] in ai else None
+            vis["src"] = f"ep/{aep}/ai/{vis['img']}.jpg" if vis["img"] in ai else None
             vis["credit"] = None
         scenes_out.append({
             "id": sc["id"], "start": round(t, 3), "dur": round(dur, 3), "audio": audio, "audioAt": pre, "tempo": 1,
@@ -169,15 +203,16 @@ def build(ep, mock=False):
     for cue in board.get("music", []):
         a, b = idx[cue["from"]], idx[cue["to"]]
         start, end = a["start"], b["start"] + b["dur"]
-        f = out / "music" / f"{cue['id']}.mp3"
+        f = aout / "music" / f"{cue['id']}.mp3"
         music.append({"id": cue["id"], "start": round(start, 3), "dur": round(end - start, 3),
-                      "volume": round(cue["volume"] * MUSIC_GAIN, 3), "src": f"ep/{ep}/music/{cue['id']}.mp3" if f.exists() else None,
+                      "volume": round(cue["volume"] * MUSIC_GAIN, 3), "src": f"ep/{aep}/music/{cue['id']}.mp3" if f.exists() else None,
                       "fileDur": mp3_dur(f) if f.exists() else None})
     sfx_avail = sorted(p.stem for p in (ROOT / "public" / "sfx").glob("*.mp3"))
-    tl = {"fps": FPS, "duration": round(t, 3), "title": board["title"], "places": board["places"],
+    tl = {"lang": lang, "fps": FPS, "duration": round(t, 3), "title": board["title"], "places": board["places"],
           "views": board["views"], "scenes": scenes_out, "music": music, "rasters": rasters, "sfx": sfx_avail,
           "hasWater": (ROOT / "public" / "geo" / "water.json").exists()}
     write_json(out / "timeline.json", tl)
+    write_srt(scenes_out, out / f"{ep}.srt")
     print(f"timeline: {len(scenes_out)}장면, {t / 60:.1f}분")
 
 

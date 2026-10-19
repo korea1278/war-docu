@@ -106,6 +106,9 @@ def slug(k):
 def main(ep):
     src, out = ep_dirs(ep)
     board = load_board(ep)
+    if board.get("assets_ep"):
+        print(f"사진: {board['assets_ep']} 에피소드 것을 재사용")
+        return
     pins = read_json(src / "photo_pins.json", {})
     pdir = out / "photos"
     pdir.mkdir(exist_ok=True)

@@ -81,6 +81,13 @@ jobs:
           [[ $R == *music* ]] && rm -rf $D/music || true
           [[ $R == *geo* ]] && rm -f public/geo/rasters.json || true
 
+      - name: 다국어판 스토리보드 생성 (_en 등)
+        run: |
+          if [ -f episodes/$EP/translation.json ]; then
+            SRC=${EP%_*}; LANG_CODE=${EP##*_}
+            cd pipeline && python make_lang.py $SRC $EP $LANG_CODE
+          fi
+
       - name: 지도 지형 (최초 1회)
         run: |
           if [ ! -f public/geo/rasters.json ]; then cd pipeline && python geo.py; fi
@@ -153,7 +160,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           TAG="$EP-$(date +%Y%m%d-%H%M)"
-          gh release create "$TAG" "out/$EP.mp4" previews/$EP/*.jpg \
+          gh release create "$TAG" "out/$EP.mp4" "public/ep/$EP/$EP.srt" previews/$EP/*.jpg \
             --title "$EP 완성 영상 ($(date +%m/%d\ %H:%M))" --notes "Actions에서 자동 생성된 영상입니다."
 
       - name: 결과물 올리기 (Artifacts 백업)

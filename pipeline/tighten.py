@@ -48,7 +48,9 @@ def silent_runs(x, min_len):
 
 
 def main(ep):
-    tempo = float(env("NARRATION_TEMPO", "1.05"))
+    from common import load_board
+    tempo = float(load_board(ep).get("tempo") or env("NARRATION_TEMPO", "1.05"))
+    print(f"배속: {tempo}")
     max_pause = float(env("MAX_PAUSE", "0.42"))
     pause_min = float(env("PAUSE_MIN", "0.45"))
     _, out = ep_dirs(ep)

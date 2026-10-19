@@ -1,0 +1,684 @@
+{
+ "title": "Battle of Yongmunsan & Lake Paro (1951)",
+ "subtitle": "May 18 – 30, 1951",
+ "voice": "pNInz6obpgDQGcFmaJgB",
+ "tempo": 1.02,
+ "places": {
+  "seoul": "Seoul",
+  "yangpyeong": "Yangpyeong",
+  "yongmunsan": "Mt. Yongmun",
+  "hongcheon": "Hongcheon",
+  "gapyeong": "Gapyeong",
+  "chuncheon": "Chuncheon",
+  "hwacheon": "Hwacheon",
+  "sachang": "Sachang-ri",
+  "reservoir": "Hwacheon Reservoir",
+  "fwd": "2nd Regt Forward Outpost",
+  "d187": "187th Div",
+  "d188": "188th Div",
+  "d189": "189th Div"
+ },
+ "text": {
+  "제2연대 · 전진진지": "2nd Regt - Forward Outpost",
+  "주저항선 · 제7연대 / 제19연대": "Main Defensive Line (7th & 19th Regts)",
+  "제2연대": "2nd Regt",
+  "187사단": "187th Div",
+  "188사단": "188th Div",
+  "189사단": "189th Div",
+  "1951. 4. 사창리 전투": "Apr 1951 · Battle of Sachang-ri",
+  "제7연대 / 제19연대": "7th & 19th Regts",
+  "제7·19연대 — 전력 보존": "7th & 19th Regts — Intact",
+  "중공군": "Chinese Forces",
+  "해발 1,157m": "Elev. 1,157 m"
+ },
+ "scenes": {
+  "s01": {
+   "lines": [
+    "Night of May 18, 1951,",
+    "Yangpyeong, Gyeonggi Province. Mount Yongmun."
+   ],
+   "callouts": [
+    "MAY 18, 1951 · NIGHT",
+    "Yangpyeong · Mt. Yongmun"
+   ]
+  },
+  "s02": {
+   "lines": [
+    "At the headquarters of the Chinese 63rd Army... there was no doubt."
+   ],
+   "label": "Dramatization"
+  },
+  "s03": {
+   "lines": [
+    "\"The enemy ahead is the same division we shattered a month ago.\""
+   ],
+   "label": "Dramatization",
+   "bubbles": [
+    "We broke them\na month ago!"
+   ]
+  },
+  "s04": {
+   "lines": [
+    "They were not wrong.",
+    "Just one month earlier, at Sachang-ri... the ROK 6th Division had collapsed under a Chinese assault."
+   ],
+   "callouts": [
+    "Opponent: ROK 6th Division"
+   ]
+  },
+  "s05": {
+   "lines": [
+    "It abandoned its equipment, fled over the mountains, and scattered."
+   ],
+   "label": "Troops on a mountain road (Feb 1951)"
+  },
+  "s06": {
+   "lines": [
+    "So the Chinese committed three divisions at once.",
+    "Three divisions, against one."
+   ],
+   "left": "1 ROK Division",
+   "right": "3 Chinese Divisions"
+  },
+  "s07": {
+   "lines": [
+    "On paper... it was a battle that would be over in a single night."
+   ],
+   "big": "A Battle Decided in One Night?",
+   "sub": "Force ratio 1 : 3"
+  },
+  "s08": {
+   "lines": [
+    "Yet ten days later,",
+    "it was the Chinese who were on the run."
+   ],
+   "text": "Ten days later,\nthey stood at the edge of a lake"
+  },
+  "s09": {
+   "lines": [
+    "And at the end of that road... a vast lake was waiting."
+   ],
+   "label": "Hwacheon Dam & Reservoir (1951)"
+  },
+  "s10": {
+   "lines": [
+    "This is the story of how a defeated army rose again.",
+    "And how one lake came to be called... 'The Lake That Defeated the Invaders.'"
+   ],
+   "title": "Battle of Yongmunsan & Lake Paro",
+   "sub": "May 18 – 30, 1951"
+  },
+  "s11": {
+   "lines": [
+    "Spring, 1951.",
+    "The Chinese launched what became known as the Spring Offensive."
+   ],
+   "callouts": [
+    "The Chinese Spring Offensive"
+   ],
+   "chapter": [
+    "PART 1",
+    "BACKGROUND"
+   ]
+  },
+  "s12": {
+   "lines": [
+    "The first phase came in April. The second, in mid-May."
+   ],
+   "items": [
+    [
+     "April 22, 1951",
+     "First Phase"
+    ],
+    [
+     "May 16, 1951",
+     "Second Phase"
+    ]
+   ]
+  },
+  "s13": {
+   "lines": [
+    "The objective was clear.",
+    "Drive the United Nations forces off the peninsula.",
+    "At the very least, retake Seoul."
+   ],
+   "callouts": [
+    "Objective: Retake Seoul"
+   ]
+  },
+  "s14": {
+   "lines": [
+    "The ROK 6th Division was attached to the U.S. Ninth Corps.",
+    "Its sector: north of Yangpyeong, around Mount Yongmun."
+   ],
+   "callouts": [
+    "ROK 6th Division (under U.S. IX Corps)"
+   ]
+  },
+  "s15": {
+   "lines": [
+    "A rugged peak rising eleven hundred and fifty-seven meters."
+   ],
+   "label": "Rugged terrain of the central front (1951)",
+   "callouts": [
+    "Mt. Yongmun · 1,157 m"
+   ]
+  },
+  "s16": {
+   "lines": [
+    "The division commander was Brigadier General Chang Do-yong.",
+    "He used this terrain to set up an unusual deployment."
+   ],
+   "name": "Chang Do-yong",
+   "role": "Commander, ROK 6th Division (Brig. Gen.)"
+  },
+  "s17": {
+   "lines": [
+    "Forward, he placed a single unit, the 2nd Regiment, as an outpost.",
+    "Behind it, on the main line of resistance, the 7th and 19th Regiments."
+   ]
+  },
+  "s18": {
+   "lines": [
+    "A forward outpost exists to warn of the enemy's approach and to buy time.",
+    "It is not meant to fight a decisive battle."
+   ],
+   "callouts": [
+    "Outpost = Early Warning + Time"
+   ]
+  },
+  "s19": {
+   "lines": [
+    "On the other side stood the Chinese 63rd Army.",
+    "The 187th, 188th, and 189th Divisions."
+   ],
+   "callouts": [
+    "Chinese 63rd Army (187th, 188th, 189th Divs)"
+   ]
+  },
+  "s20": {
+   "lines": [
+    "Their plan was simple.",
+    "Infiltrate by night, encircle, and break the line.",
+    "Just as they had done at Sachang-ri."
+   ],
+   "callouts": [
+    "Infiltrate → Encircle → Collapse"
+   ]
+  },
+  "s21": {
+   "lines": [
+    "But the Chinese did not know one thing.",
+    "What the men of the 6th Division had sworn to themselves in that month."
+   ],
+   "label": "Dramatization"
+  },
+  "s22": {
+   "lines": [
+    "The night of May 18th.",
+    "The Chinese attack began."
+   ],
+   "label": "Night flares (1951)",
+   "chapter": [
+    "PART 2",
+    "72 HOURS UNDER SIEGE"
+   ]
+  },
+  "s23": {
+   "lines": [
+    "Bugles sounded in the darkness...",
+    "and hundreds, then thousands, climbed the ridgelines."
+   ],
+   "label": "Dramatization"
+  },
+  "s24": {
+   "lines": [
+    "They ran straight into the 2nd Regiment.",
+    "The forward outpost."
+   ]
+  },
+  "s25": {
+   "lines": [
+    "And here came the first reversal."
+   ],
+   "big": "The First Reversal"
+  },
+  "s26": {
+   "lines": [
+    "The 2nd Regiment did not fall back."
+   ],
+   "label": "Dramatization",
+   "callouts": [
+    "Col. Song Dae-hoo — \"Hold the Line\""
+   ],
+   "bubbles": [
+    "Not one\nstep back!"
+   ]
+  },
+  "sA1": {
+   "lines": [
+    "Under wave after wave of attacks, the 2nd Regiment was quickly encircled on three sides."
+   ],
+   "callouts": [
+    "Encircled on Three Sides"
+   ]
+  },
+  "sA2": {
+   "lines": [
+    "With communications barely holding, Colonel Song Dae-hoo and his men refused to yield, and fought to the last."
+   ],
+   "label": "Dramatization",
+   "callouts": [
+    "Fight to the Last"
+   ],
+   "bubbles": [
+    "Hold\nthe line!"
+   ]
+  },
+  "sA4": {
+   "lines": [
+    "In response, U.S. Ninth Corps artillery and supporting units laid down an unprecedented barrage, right in front of the friendly positions,",
+    "and the northern ridges of Mount Yongmun were pounded through the night."
+   ],
+   "label": "U.S. 203mm howitzer (Korean War)",
+   "callouts": [
+    "Close-In Defensive Barrage"
+   ]
+  },
+  "s27": {
+   "lines": [
+    "This was a unit expected to hold briefly, then withdraw.",
+    "But the 2nd Regiment held its ground.",
+    "Surrounded, running low on ammunition... it held."
+   ],
+   "label": "Hill fighting (Korean War)"
+  },
+  "s28": {
+   "lines": [
+    "And so the Chinese command made a fatal misjudgment.",
+    "\"They're holding this hard... this must be the main line.\""
+   ],
+   "label": "Dramatization",
+   "bubbles": [
+    "This is\ntheir main line!"
+   ]
+  },
+  "s29": {
+   "lines": [
+    "The Chinese kept pouring three divisions into this one small position."
+   ],
+   "callouts": [
+    "3 Divisions → 1 Regiment"
+   ]
+  },
+  "s30": {
+   "lines": [
+    "May 19th, and on into the 20th.",
+    "Each night they surged in like waves. Each dawn they fell back, leaving only their dead."
+   ],
+   "label": "Infantry advancing on a hill (1951)",
+   "callouts": [
+    "May 19 → May 20"
+   ]
+  },
+  "s31": {
+   "lines": [
+    "The 6th Division's records report the slopes in front of the position covered with Chinese dead."
+   ],
+   "head": "AFTER-ACTION REPORT",
+   "org": "ROK 6th Division",
+   "rows": [
+    "DATE    : May 19 – 20, 1951",
+    "PLACE   : 2nd Regt position, N. of Mt. Yongmun",
+    "SUMMARY : Numerous enemy dead on forward slopes",
+    "          Position held"
+   ],
+   "note": "Summary · reconstructed from records"
+  },
+  "s32": {
+   "lines": [
+    "And behind that position... American artillery fired without pause."
+   ],
+   "label": "155mm howitzer firing (Korean War)"
+  },
+  "s33": {
+   "lines": [
+    "Three days.",
+    "For the three days the 2nd Regiment held, the Chinese were wearing down.",
+    "Out of rations, out of ammunition... and out of time."
+   ],
+   "big": "72 HOURS",
+   "items": [
+    "Rations",
+    "Ammunition",
+    "Time"
+   ]
+  },
+  "s34": {
+   "lines": [
+    "Then came May 21st.",
+    "The 6th Division was ordered to counterattack."
+   ],
+   "text": "MAY 21, 1951",
+   "accent": "COUNTERATTACK"
+  },
+  "s35": {
+   "lines": [
+    "The 7th and 19th Regiments, waiting on the main line,",
+    "moved forward together."
+   ],
+   "chapter": [
+    "PART 3",
+    "COUNTEROFFENSIVE & LAKE PARO"
+   ]
+  },
+  "s36": {
+   "lines": [
+    "In that moment, the attacker became the hunted."
+   ],
+   "label": "Dramatization",
+   "callouts": [
+    "May 21, 1951 — 6th Division Counterattack"
+   ],
+   "bubbles": [
+    "Counter-\nattack!"
+   ]
+  },
+  "s37": {
+   "lines": [
+    "The exhausted Chinese began to break.",
+    "The retreat soon became a rout...",
+    "and the 6th Division gave chase without stopping."
+   ],
+   "label": "UN troops on the march (Korean War)"
+  },
+  "s38": {
+   "lines": [
+    "Past Gapyeong, along the Bukhan River, northward.",
+    "And at the end of that road... the Hwacheon Reservoir."
+   ],
+   "callouts": [
+    "Gapyeong → Bukhan River → Hwacheon"
+   ]
+  },
+  "s39": {
+   "lines": [
+    "Cut off, the Chinese forces were driven to the water's edge.",
+    "Deep water ahead. ROK and UN forces closing from behind."
+   ],
+   "callouts": [
+    "Trapped Against the Lake"
+   ]
+  },
+  "s40": {
+   "lines": [
+    "Many fell here, drowned, or were taken prisoner."
+   ],
+   "label": "Chinese POWs captured by ROK forces"
+  },
+  "sB1": {
+   "lines": [
+    "Pushing north to retake the Hwacheon power plant and dam, the ROK 6th Division pressed in from all sides on the Chinese troops trapped around the reservoir."
+   ],
+   "callouts": [
+    "Pressure From All Sides"
+   ]
+  },
+  "sB2": {
+   "lines": [
+    "Blocked by rugged mountains and cold water, the retreating enemy's command structure collapsed entirely,",
+    "and the Hwacheon area became the final graveyard of the Chinese Spring Offensive."
+   ],
+   "label": "Captured Chinese soldiers (Korean War)",
+   "callouts": [
+    "The Graveyard of the Spring Offensive"
+   ]
+  },
+  "s41": {
+   "lines": [
+    "Years later, President Syngman Rhee gave this lake a new name.",
+    "Lake Paro."
+   ],
+   "name": "Syngman Rhee",
+   "role": "First President, Republic of Korea"
+  },
+  "s42": {
+   "lines": [
+    "Pa, to destroy. Ro, the invaders. Ho, the lake."
+   ],
+   "hanja": [
+    "Destroy",
+    "Invaders",
+    "Lake"
+   ]
+  },
+  "s43": {
+   "lines": [
+    "The division defeated just a month earlier... had renamed a lake."
+   ],
+   "label": "Hwacheon Reservoir (July 1951)",
+   "callouts": [
+    "Lake Paro: \"The Lake That Defeated the Invaders\""
+   ]
+  },
+  "s44": {
+   "lines": [
+    "So how did one division hold off three?",
+    "Let's break it down into four factors."
+   ],
+   "chapter": [
+    "PART 4",
+    "4 DECIDING FACTORS"
+   ],
+   "items": [
+    "Outpost Deception",
+    "Asymmetric Firepower",
+    "Logistical Collapse",
+    "Terrain & Morale"
+   ]
+  },
+  "s45": {
+   "lines": [
+    "First, the deception of the forward outpost."
+   ],
+   "num": "Factor 1",
+   "title": "Forward Outpost Deception"
+  },
+  "s46": {
+   "lines": [
+    "Because the 2nd Regiment held far longer than expected, the Chinese misjudged the main axis of the defense.",
+    "With their forces massed in one place, the two regiments behind it prepared a counterattack almost untouched."
+   ]
+  },
+  "s47": {
+   "lines": [
+    "Intended or not... this was the first move that decided the battle."
+   ],
+   "label": "ROK 1st Division soldiers (1951)"
+  },
+  "s48": {
+   "lines": [
+    "Second, firepower."
+   ],
+   "num": "Factor 2",
+   "title": "Asymmetric Firepower"
+  },
+  "s49": {
+   "lines": [
+    "The Chinese relied on mass, the so-called human wave.",
+    "Behind the 6th Division stood American artillery and air support."
+   ],
+   "left": [
+    "Chinese Forces",
+    "MANPOWER"
+   ],
+   "right": [
+    "ROK + U.S.",
+    "FIREPOWER"
+   ]
+  },
+  "s50": {
+   "lines": [
+    "And the denser the waves climbing the slopes... the heavier the toll the shells would take."
+   ],
+   "label": "Artillery fire (Korean War)"
+  },
+  "s51": {
+   "lines": [
+    "Third, supply."
+   ],
+   "num": "Factor 3",
+   "title": "Logistical Collapse"
+  },
+  "s52": {
+   "lines": [
+    "Chinese soldiers fought with the food and ammunition they carried on their backs.",
+    "That was enough for roughly one week."
+   ],
+   "label": "Dramatization",
+   "callouts": [
+    "Supply limit ≈ 7 days"
+   ],
+   "bubbles": [
+    "This is all\nthe food left..."
+   ]
+  },
+  "s53": {
+   "lines": [
+    "UN forces called it 'the one-week offensive.'",
+    "By the time the 2nd Regiment had held for three days... the Chinese clock had all but run out."
+   ],
+   "title": "'The One-Week Offensive'",
+   "markText": "May 21 · ROK Counterattack",
+   "holdText": "2nd Regt Holds",
+   "days": [
+    "5/16",
+    "5/17",
+    "5/18",
+    "5/19",
+    "5/20",
+    "5/21",
+    "5/22"
+   ]
+  },
+  "s54": {
+   "lines": [
+    "Fourth, terrain and morale.",
+    "Rising above eleven hundred meters, Mount Yongmun favored the defender."
+   ],
+   "chapter": [
+    "Factor 4",
+    "Terrain & Morale"
+   ]
+  },
+  "s55": {
+   "lines": [
+    "And above all... the 6th Division carried the scar of Sachang-ri.",
+    "The memory of that defeat, and the vow never to retreat again, held the line."
+   ],
+   "label": "ROK soldiers (Korean War)"
+  },
+  "s56": {
+   "lines": [
+    "Official South Korean histories credit this series of battles with more than seventeen thousand Chinese killed and over two thousand captured.",
+    "The 6th Division's own losses... numbered in the hundreds."
+   ],
+   "note": "Per official South Korean war history",
+   "bars": [
+    [
+     "Chinese KIA",
+     "17,177"
+    ],
+    [
+     "Chinese POW",
+     "2,183"
+    ],
+    [
+     "ROK Losses",
+     "Hundreds"
+    ]
+   ]
+  },
+  "s57": {
+   "lines": [
+    "Of course, wartime figures are prone to exaggeration.",
+    "Claims that 'tens of thousands drowned' at Lake Paro are treated with caution by historians."
+   ],
+   "big": "'Tens of thousands drowned'?",
+   "sub": "Wartime counts · possible exaggeration"
+  },
+  "s58": {
+   "lines": [
+    "But one fact is clear.",
+    "After this battle, the Chinese Spring Offensive... could go no further."
+   ],
+   "callouts": [
+    "Spring Offensive — Ended"
+   ]
+  },
+  "s59": {
+   "lines": [
+    "Today, Lake Paro is quiet.",
+    "Fishing boats drift, and mist rises off the water."
+   ],
+   "label": "Lake Paro today (illustration)",
+   "chapter": [
+    "EPILOGUE",
+    "BENEATH THE QUIET WATERS"
+   ]
+  },
+  "s60": {
+   "lines": [
+    "But beneath that water...",
+    "lie the lost years of countless young men who never came home."
+   ]
+  },
+  "s61": {
+   "lines": [
+    "The men of the 2nd Regiment who held the ridges of Mount Yongmun.",
+    "Most of them were around twenty years old.",
+    "Ordinary young men who had left their parents at home."
+   ],
+   "label": "Young men heading to the front (1950)"
+  },
+  "s62": {
+   "lines": [
+    "And the Chinese soldiers who fell by the lake...",
+    "were, for the most part, young men too, sent to a foreign land."
+   ],
+   "label": "Prisoners of war (Korean War)"
+  },
+  "s63": {
+   "lines": [
+    "The lesson of Yongmunsan is simple.",
+    "A single defeat does not decide the fate of an army.",
+    "And in war, the real weapon... is not numbers alone."
+   ],
+   "quotes": [
+    "One defeat does not decide an army's fate",
+    "The real weapon is not numbers alone"
+   ],
+   "quoteTitle": "The Lesson of Yongmunsan"
+  },
+  "s64": {
+   "lines": [
+    "In one month, from a defeated division to a victorious one.",
+    "And in between... were the men who decided to stand again."
+   ],
+   "label": "The central front, 1951"
+  },
+  "s65": {
+   "lines": [
+    "If this story meant something to you, please subscribe and like the video.",
+    "We'll continue to bring the forgotten records of war to light."
+   ],
+   "title": "May 1951. Mount Yongmun.\nAnd Lake Paro."
+  }
+ },
+ "callout_pos": {
+  "s19": "top"
+ },
+ "callout_until": {
+  "s19": 1
+ }
+}

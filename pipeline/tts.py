@@ -21,8 +21,10 @@ def scene_tts_text(sc):
 
 def main(ep):
     key = env("ELEVENLABS_API_KEY", required=True)
-    voice = env("ELEVENLABS_VOICE_ID") or DEFAULT_VOICE
+    board = load_board(ep)
+    voice = board.get("voice") or env("ELEVENLABS_VOICE_ID") or DEFAULT_VOICE
     model = env("ELEVENLABS_MODEL") or "eleven_multilingual_v2"
+    print(f"목소리: {voice} / 모델: {model}")
     settings = {
         "stability": float(env("TTS_STABILITY", "0.55")),
         "similarity_boost": float(env("TTS_SIMILARITY", "0.8")),
@@ -30,7 +32,6 @@ def main(ep):
         "use_speaker_boost": True,
         "speed": float(env("TTS_SPEED", "1.0")),
     }
-    board = load_board(ep)
     _, out = ep_dirs(ep)
     adir = out / "tts"
     adir.mkdir(exist_ok=True)

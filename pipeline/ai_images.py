@@ -18,6 +18,9 @@ def main(ep):
     model = env("OPENAI_IMAGE_MODEL") or "gpt-image-1"
     quality = env("OPENAI_IMAGE_QUALITY") or "high"
     board = load_board(ep)
+    if board.get("assets_ep"):
+        print(f"AI 이미지: {board['assets_ep']} 에피소드 것을 재사용")
+        return
     _, out = ep_dirs(ep)
     d = out / "ai"
     d.mkdir(exist_ok=True)

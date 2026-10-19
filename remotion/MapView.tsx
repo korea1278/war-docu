@@ -4,7 +4,7 @@ import { geoMercator, geoPath, GeoProjection } from "d3-geo";
 import { feature } from "topojson-client";
 // @ts-ignore
 import countries10m from "world-atlas/countries-10m.json";
-import { atSec, C, clamp, easeInOut, easeOut, F, popIn, Timeline } from "./theme";
+import { atSec, C, clamp, easeInOut, easeOut, F, popIn, S, Timeline } from "./theme";
 import { useScene, useT } from "./ui";
 
 type LonLat = [number, number];
@@ -297,7 +297,7 @@ export const MapView: React.FC<{ tl: Timeline }> = ({ tl }) => {
       </svg>
       {html}
       <div style={{ position: "absolute", top: 14, right: 22, fontFamily: F.body, fontWeight: 500, fontSize: 20, color: "rgba(20,20,20,.75)", textShadow: "0 0 4px #fff" }}>
-        지도: Natural Earth · OpenStreetMap · SRTM
+        {S("map")}
       </div>
     </AbsoluteFill>
   );

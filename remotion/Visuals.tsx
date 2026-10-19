@@ -1,6 +1,6 @@
 import React from "react";
 import { AbsoluteFill, Img, staticFile } from "remotion";
-import { atSec, C, clamp, easeInOut, easeOut, F, popIn, Timeline } from "./theme";
+import { atSec, C, clamp, easeInOut, easeOut, F, popIn, S, Timeline } from "./theme";
 import { Bubble, CalloutBox, KenBurns, Slate, useScene, useSince, useT } from "./ui";
 import { MapView } from "./MapView";
 
@@ -111,7 +111,7 @@ const TitleCardV: React.FC = () => {
       {k > 0 && (
         <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", flexDirection: "column", paddingBottom: 90 }}>
           <div style={{ width: 900 * easeOut(k), height: 5, background: C.yellow, marginBottom: 30 }} />
-          <div style={{ fontFamily: F.head, fontSize: 150, color: "#fff", opacity: clamp(k * 1.5), textShadow: "0 8px 40px rgba(0,0,0,.8)", letterSpacing: 2 }}>
+          <div style={{ fontFamily: F.head, fontSize: v.title.length > 18 ? 112 : 150, color: "#fff", opacity: clamp(k * 1.5), textShadow: "0 8px 40px rgba(0,0,0,.8)", letterSpacing: 2, textAlign: "center", maxWidth: 1700, lineHeight: 1.1 }}>
             {v.title}
           </div>
           <div style={{ fontFamily: F.head, fontSize: 56, color: C.yellow, marginTop: 14, opacity: clamp(k - 0.4) }}>{v.sub}</div>
@@ -134,8 +134,8 @@ const EndCardV: React.FC = () => {
         <div style={{ fontFamily: F.head, fontSize: 104, color: "#fff", opacity: k, textAlign: "center", whiteSpace: "pre-line", lineHeight: 1.25 }}>{v.title}</div>
         {t > 2.5 && (
           <div style={{ display: "flex", gap: 30, marginTop: 60, transform: `scale(${btn})` }}>
-            <div style={{ background: C.red, color: "#fff", fontFamily: F.head, fontSize: 56, padding: "14px 46px 8px", borderRadius: 14 }}>구독</div>
-            <div style={{ background: "#fff", color: "#111", fontFamily: F.head, fontSize: 56, padding: "14px 46px 8px", borderRadius: 14 }}>좋아요 👍</div>
+            <div style={{ background: C.red, color: "#fff", fontFamily: F.head, fontSize: 56, padding: "14px 46px 8px", borderRadius: 14 }}>{S("sub")}</div>
+            <div style={{ background: "#fff", color: "#111", fontFamily: F.head, fontSize: 56, padding: "14px 46px 8px", borderRadius: 14 }}>{S("like")}</div>
           </div>
         )}
       </AbsoluteFill>
@@ -280,10 +280,10 @@ const DocumentV: React.FC = () => {
       >
         <div style={{ display: "flex", justifyContent: "space-between", fontSize: 30, fontWeight: 700 }}>
           <span>{v.org}</span>
-          <span style={{ border: "4px solid #a3261f", color: "#a3261f", padding: "2px 14px", transform: "rotate(-6deg)", fontFamily: F.head }}>軍 秘</span>
+          <span style={{ border: "4px solid #a3261f", color: "#a3261f", padding: "2px 14px", transform: "rotate(-6deg)", fontFamily: F.head }}>{v.stamp || S("stamp")}</span>
         </div>
-        <div style={{ textAlign: "center", fontSize: 76, fontWeight: 900, letterSpacing: 18, margin: "36px 0 40px", borderBottom: "3px double #2a241a", paddingBottom: 20 }}>{v.head}</div>
-        <div style={{ whiteSpace: "pre-wrap", fontSize: 40, lineHeight: 1.75, fontFamily: "'Courier New', 'Noto Sans KR', monospace", fontWeight: 700 }}>
+        <div style={{ textAlign: "center", fontSize: v.head.length > 8 ? 58 : 76, fontWeight: 900, letterSpacing: v.head.length > 8 ? 6 : 18, whiteSpace: "nowrap", margin: "36px 0 40px", borderBottom: "3px double #2a241a", paddingBottom: 20 }}>{v.head}</div>
+        <div style={{ whiteSpace: "pre", fontSize: all.length > 120 ? 30 : 40, lineHeight: 1.75, fontFamily: "'Courier New', 'Noto Sans KR', monospace", fontWeight: 700 }}>
           {all.slice(0, shown)}
           <span style={{ opacity: Math.floor(t * 3) % 2 ? 1 : 0 }}>▌</span>
         </div>
@@ -311,8 +311,8 @@ const GaugesV: React.FC = () => {
         const k = t - s0;
         const level = 1 - 0.82 * easeInOut(clamp((t - 0.3) / Math.max(2, sc.dur - 1)));
         return (
-          <div key={i} style={{ position: "absolute", left: 360, top: 420 + i * 120, display: "flex", alignItems: "center", gap: 40, opacity: clamp(k * 3) }}>
-            <div style={{ width: 190, fontFamily: F.head, fontSize: 64, color: "#fff", textAlign: "right" }}>{it.label}</div>
+          <div key={i} style={{ position: "absolute", left: 220, top: 420 + i * 120, display: "flex", alignItems: "center", gap: 40, opacity: clamp(k * 3) }}>
+            <div style={{ width: 330, fontFamily: F.head, fontSize: 60, color: "#fff", textAlign: "right", whiteSpace: "nowrap" }}>{it.label}</div>
             <div style={{ width: 900, height: 58, background: "rgba(0,0,0,.45)", border: "4px solid #fff", position: "relative" }}>
               <div style={{ position: "absolute", left: 0, top: 0, bottom: 0, width: `${level * 100}%`, background: level < 0.35 ? C.red : C.yellow }} />
             </div>
@@ -374,7 +374,7 @@ const FactorsV: React.FC = () => {
       <Slate />
       <div style={{ position: "absolute", top: 110, left: 0, right: 0, textAlign: "center" }}>
         <Appear pop at={0}>
-          <CalloutBox text="1개 사단 vs 3개 사단 — 왜?" style="dark" size={76} />
+          <CalloutBox text={v.head || S("factors")} style="dark" size={76} />
         </Appear>
       </div>
       <div style={{ position: "absolute", top: 380, left: 140, right: 140, display: "flex", gap: 40 }}>
@@ -542,7 +542,7 @@ const QuotesV: React.FC = () => {
       <Slate dim={0.15} />
       <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", flexDirection: "column", gap: 56, paddingBottom: 140 }}>
         <Appear at={0}>
-          <div style={{ fontFamily: F.head, fontSize: 64, color: C.yellow }}>용문산 전투가 남긴 교훈</div>
+          <div style={{ fontFamily: F.head, fontSize: 64, color: C.yellow }}>{v.title || S("lesson")}</div>
         </Appear>
         {v.items.map((q: any, i: number) => (
           <Appear key={i} at={q.at} extra={0.2}>

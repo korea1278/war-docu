@@ -3,6 +3,10 @@ import "@fontsource/do-hyeon/400.css";
 import "@fontsource/noto-sans-kr/500.css";
 import "@fontsource/noto-sans-kr/700.css";
 import "@fontsource/noto-sans-kr/900.css";
+import "@fontsource/oswald/600.css";
+import "@fontsource/oswald/700.css";
+import "@fontsource/roboto-condensed/600.css";
+import "@fontsource/roboto-condensed/700.css";
 
 export const W = 1920;
 export const H = 1080;
@@ -28,6 +32,26 @@ export const F = {
   body: "'Noto Sans KR', sans-serif",
 };
 
+/** 언어별 글꼴·고정 문구 (렌더 시작 시 setLang 호출) */
+export let LANG: "ko" | "en" = "ko";
+export const setLang = (l?: string) => {
+  LANG = l === "en" ? "en" : "ko";
+  if (LANG === "en") {
+    F.head = "'Oswald', 'Black Han Sans', sans-serif";
+    F.sub = "'Roboto Condensed', 'Do Hyeon', sans-serif";
+    F.body = "'Roboto Condensed', 'Noto Sans KR', sans-serif";
+  } else {
+    F.head = "'Black Han Sans', 'Noto Sans KR', sans-serif";
+    F.sub = "'Do Hyeon', 'Noto Sans KR', sans-serif";
+    F.body = "'Noto Sans KR', sans-serif";
+  }
+};
+const STR = {
+  ko: { map: "지도: Natural Earth · OpenStreetMap · SRTM", ai: "AI 생성 이미지", factors: "1개 사단 vs 3개 사단 — 왜?", lesson: "용문산 전투가 남긴 교훈", stamp: "軍 秘", sub: "구독", like: "좋아요 👍" },
+  en: { map: "Map: Natural Earth · OpenStreetMap · SRTM", ai: "AI-generated image", factors: "1 Division vs 3 — Why?", lesson: "The Lesson of Yongmunsan", stamp: "DECLASSIFIED", sub: "SUBSCRIBE", like: "LIKE 👍" },
+};
+export const S = (k: keyof (typeof STR)["ko"]) => STR[LANG][k];
+
 export type Line = { text: string; start: number; end: number; chunks: { text: string; start: number; end: number }[] };
 
 export type Scene = {
@@ -45,6 +69,7 @@ export type Scene = {
 };
 
 export type Timeline = {
+  lang?: string;
   fps: number;
   duration: number;
   title: string;
