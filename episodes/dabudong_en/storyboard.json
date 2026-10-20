@@ -89,8 +89,8 @@
   },
   "perimeter": {
    "center": [
-    128.7,
-    35.75
+    128.75,
+    35.55
    ],
    "span": 2.5
   },
@@ -970,7 +970,7 @@
     "q": "s13b-photo",
     "kb": "right"
    },
-   "label": "ROK soldiers (Sep 1950)"
+   "label": "ROK 1st Div, 11th Regiment (Aug 1950)"
   },
   {
    "id": "s14",
@@ -1148,7 +1148,8 @@
      "text": "Gen. Paik Sun-yup · August 1950",
      "style": "dark",
      "at": 0,
-     "pos": "lower"
+     "pos": "lower",
+     "until": 0
     }
    ]
   },
@@ -1601,7 +1602,8 @@
     {
      "text": "The Valley Becomes a Trap",
      "style": "red",
-     "at": 1
+     "at": 1,
+     "pos": "lower"
     }
    ],
    "sfx": [
