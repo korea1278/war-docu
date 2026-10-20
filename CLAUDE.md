@@ -59,6 +59,12 @@
    - 고친 뒤 `mode=full`, `english=true` (한 번 실행으로 한국어판 → 영문판 순서대로, 약 70분)
    - 이 세션에서는 GraphQL이 막혀 `gh workflow run` 불가 → REST로 실행:
      `gh api -X POST repos/korea1278/war-docu/actions/workflows/make-video.yml/dispatches -f ref=main -f 'inputs[episode]=<ep>' -f 'inputs[mode]=full' -f 'inputs[english]=true'`
+   - **렌더링 요청(dispatch)이 접수된 직후 보내는 사용자 답변의 맨 첫 줄**에, 다른 설명보다 먼저 아래 안내를 그대로 출력할 것 (사용자가 PC방 컴퓨터를 끌 수 있게):
+     ```
+     ## 🛑 [안내] GitHub Actions 렌더링이 서버에 안착했습니다. 이제 피시방 컴퓨터를 끄셔도 됩니다!
+     - 실행된 워크플로우: <에피소드명>
+     - 진행 상태: In progress (클라우드 연산 중)
+     ```
 8. **검증 (필수)** — 릴리스 MP4를 REST API로 받아서
    - `curl -L -H "Authorization: token $(gh auth token)" -H "Accept: application/octet-stream" https://api.github.com/repos/korea1278/war-docu/releases/assets/<id>`
    - 길이 8:15~8:30(영문판 +10초까지 허용), 음량 -15 LUFS ±1 (`ffmpeg -af ebur128`), 장면 샘플 프레임 육안 확인, SRT 확인
