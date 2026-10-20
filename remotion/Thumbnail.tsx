@@ -227,8 +227,41 @@ const BaengmaB: React.FC<{ ep: string; en?: boolean }> = ({ ep, en }) => {
   );
 };
 
+/** '격전의 지도' CTR 규칙 썸네일 (EP04~): 실사풍 전용 그림 + 한글 5~7자 1~2줄, 좌측 상단, 우측 하단 비움 */
+const ctrText = (size: number, color: string): React.CSSProperties => ({
+  fontFamily: "'Black Han Sans', sans-serif",
+  fontSize: size,
+  lineHeight: 1.0,
+  color,
+  WebkitTextStroke: "18px #000",
+  paintOrder: "stroke fill",
+  textShadow: "0 10px 30px rgba(0,0,0,.75)",
+  whiteSpace: "nowrap",
+  letterSpacing: -2,
+});
+const CtrThumb: React.FC<{ img: string; lines: [string, string?]; pos?: string; en?: boolean }> = ({ img, lines, pos = "50% 40%", en }) => (
+  <AbsoluteFill style={{ background: "#05070c", overflow: "hidden" }}>
+    <Img src={staticFile(img)} style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: pos, filter: "contrast(1.18) saturate(1.3) brightness(1.08)" }} />
+    {/* 좌상단 글자 가독성 + 우하단(재생시간 박스) 쪽은 어둡게 */}
+    <AbsoluteFill style={{ background: "radial-gradient(ellipse at 18% 18%, rgba(0,0,0,.55) 0%, rgba(0,0,0,0) 45%), linear-gradient(315deg, rgba(0,0,0,.55) 0%, rgba(0,0,0,0) 30%)" }} />
+    <div style={{ position: "absolute", left: 44, top: 34 }}>
+      <div style={{ ...ctrText(en ? 150 : 178, C.yellow), ...(en ? { fontFamily: "'Oswald', sans-serif", WebkitTextStroke: "14px #000", letterSpacing: 0 } : {}) }}>{lines[0]}</div>
+      {lines[1] && <div style={{ ...ctrText(en ? 150 : 178, "#fff"), marginTop: 6, ...(en ? { fontFamily: "'Oswald', sans-serif", WebkitTextStroke: "14px #000", letterSpacing: 0 } : {}) }}>{lines[1]}</div>}
+    </div>
+  </AbsoluteFill>
+);
+
 export const Thumbnail: React.FC<{ ep: string; variant: "A" | "B"; lang?: string }> = ({ ep, variant, lang }) => {
   setLang(lang);
+  if (ep.startsWith("jipyeong")) {
+    const a = ep.replace(/_en$/, "");
+    const en = lang === "en";
+    return variant === "A" ? (
+      <CtrThumb img={`ep/${a}/ai/thumb_a.jpg`} lines={en ? ["NO WAY", "OUT"] : ["퇴로는", "없었다"]} pos="35% 35%" en={en} />
+    ) : (
+      <CtrThumb img={`ep/${a}/ai/thumb_b.jpg`} lines={en ? ["SURROUNDED", "ON ALL SIDES"] : ["사방이", "적이었다"]} en={en} />
+    );
+  }
   if (ep.startsWith("baengma")) return variant === "A" ? <BaengmaA ep={ep} en={lang === "en"} /> : <BaengmaB ep={ep} en={lang === "en"} />;
   if (ep.startsWith("dabudong")) return variant === "A" ? <DabuA ep={ep} en={lang === "en"} /> : <DabuB ep={ep} en={lang === "en"} />;
   if (lang === "en") return variant === "A" ? <ThumbA_EN ep={ep} /> : <ThumbB_EN ep={ep} />;

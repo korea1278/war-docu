@@ -29,6 +29,7 @@ def main(ep):
     for sc in board["scenes"]:
         for it in sc["visual"].get("items", []) if sc["visual"]["type"] == "teaser" else []:
             used.add(it["img"])
+    used |= {k for k in board.get("ai_images", {}) if k.startswith("thumb_")}  # 썸네일 전용 그림
     s = session()
     for name in sorted(used):
         prompt = board["ai_images"][name]

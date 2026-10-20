@@ -70,7 +70,12 @@
    - 길이 8:15~8:30(영문판 +10초까지 허용), 음량 -15 LUFS ±1 (`ffmpeg -af ebur128`), 장면 샘플 프레임 육안 확인, SRT 확인
    - `logs/errors.txt`에 경고가 있으면 원인 해결 후 재실행
 9. **썸네일** — `remotion/Thumbnail.tsx`에 에피소드별 A/B 디자인 추가 (`ep.startsWith("<ep>")`로 분기, `lang="en"`이면 영문)
-   - A안: 핵심 인물 발언·숫자 대결 / B안: 결정적 장면·미스터리
+   - **한국 채널 '격전의 지도' 썸네일 규칙 (CTR 극대화, 엄격 적용, EP04부터)**
+     1. 텍스트: **한글 카피만 5~7자, 1~2줄**. 영어·긴 설명·태그 문구 금지. Black Han Sans 초대형, 노랑/흰 글자 + 두꺼운 검은 외곽선
+     2. 비주얼: 포탄 화염, 결연한 눈빛의 병사 클로즈업 등 극한 긴장감. 볼 캐릭터 대신 **실사풍 정통 군사 다큐 회화** 전용 그림 `thumb_a`/`thumb_b` (스토리보드 `ai_images`에 `thumb_` 접두사로 넣으면 `ai_images.py`가 자동 생성)
+     3. 대비: 화염 오렌지·붉은 탄막 vs 차가운 푸른 톤 고대비(다크모드에서도 튀게). **메인 요소는 중앙·좌측 상단**, 우측 하단(재생시간 박스) 비워 둘 것
+     4. 전달 시 시각 연출 프롬프트 2개 + 카피 후보 3개를 함께 제시
+   - 영문판(Tactical Map)은 기존 방식 유지 (A안: 숫자·발언 / B안: 결정적 장면·미스터리)
    - 렌더링은 세션 안에서: `npx remotion bundle remotion/index.ts --out-dir=/tmp/claude-0/bundle` →
      `npx remotion still /tmp/claude-0/bundle Thumbnail out.png --props='{"ep":"<ep>","variant":"A","lang":"ko"}' --browser-executable=/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell`
    - 1280×720, 시니어 가독성 큰 글씨, 어두운 밤 일러스트는 밝기 올리거나 밝은 그림으로 교체, 영문 문구가 화면 밖으로 나가지 않게
