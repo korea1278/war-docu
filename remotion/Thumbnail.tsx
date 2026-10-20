@@ -115,8 +115,59 @@ const ThumbB_EN: React.FC<{ ep: string }> = ({ ep }) => (
   </AbsoluteFill>
 );
 
+
+/** EP02 다부동 — A안: 백선엽 "내가 물러서면 나를 쏴라" */
+const DabuA: React.FC<{ ep: string; en?: boolean }> = ({ ep, en }) => (
+  <AbsoluteFill style={{ background: "#0b0b0c", overflow: "hidden" }}>
+    <Img src={staticFile(`ep/${ep}/ai/rok_paik.jpg`)} style={{ position: "absolute", left: -140, top: -40, height: 800, filter: "contrast(1.1) saturate(1.05)" }} />
+    <AbsoluteFill style={{ background: "linear-gradient(90deg, rgba(0,0,0,0) 28%, rgba(8,8,10,.9) 55%, #08080a 100%)" }} />
+    <div style={{ position: "absolute", right: 46, top: 50, textAlign: "right" }}>
+      <Tag text={en ? "DABU-DONG · AUG 1950" : "1950 다부동 전투"} />
+      {en ? (
+        <>
+          <div style={{ ...big(112, "#fff", "#000", 8), marginTop: 24 }}>"IF I RETREAT,</div>
+          <div style={{ ...big(176, C.red, "#fff", 10), marginTop: -4 }}>SHOOT</div>
+          <div style={{ ...big(112, C.yellow, "#000", 8), marginTop: -4 }}>ME."</div>
+        </>
+      ) : (
+        <>
+          <div style={{ ...big(104, "#fff"), marginTop: 26 }}>"내가 물러서면</div>
+          <div style={{ ...big(170, C.red, "#fff", 12), marginTop: 6 }}>나를 쏴라"</div>
+          <div style={{ ...big(76, C.yellow), marginTop: 18 }}>대구까지 남은 20km</div>
+        </>
+      )}
+    </div>
+    <div style={{ position: "absolute", left: 0, right: 0, bottom: 0, height: 14, background: C.red }} />
+  </AbsoluteFill>
+);
+
+/** EP02 다부동 — B안: 볼링장 전차전 */
+const DabuB: React.FC<{ ep: string; en?: boolean }> = ({ ep, en }) => (
+  <AbsoluteFill style={{ background: "#0b0b0c", overflow: "hidden" }}>
+    <Img src={staticFile(`ep/${ep}/ai/t34_column.jpg`)} style={{ width: "100%", height: "100%", objectFit: "cover", filter: "contrast(1.15) brightness(.78)" }} />
+    <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(0,0,0,.55) 0%, rgba(0,0,0,.05) 40%, rgba(0,0,0,.88) 100%)" }} />
+    <div style={{ position: "absolute", left: 52, top: 46 }}>
+      <Tag text={en ? "KOREAN WAR · 1950" : "6·25 낙동강 최후 방어선"} bg={C.red} fg="#fff" />
+    </div>
+    <div style={{ position: "absolute", left: 52, bottom: 48 }}>
+      {en ? (
+        <>
+          <div style={{ ...big(84, "#fff", "#000", 7) }}>NIGHT TANK BATTLE IN</div>
+          <div style={{ ...big(150, C.yellow, "#000", 9), marginTop: -2 }}>"THE BOWLING ALLEY"</div>
+        </>
+      ) : (
+        <>
+          <div style={{ ...big(84, "#fff") }}>계곡이 함정이 된 밤</div>
+          <div style={{ ...big(156, C.yellow), marginTop: 6 }}>'볼링장' 전차전</div>
+        </>
+      )}
+    </div>
+  </AbsoluteFill>
+);
+
 export const Thumbnail: React.FC<{ ep: string; variant: "A" | "B"; lang?: string }> = ({ ep, variant, lang }) => {
   setLang(lang);
+  if (ep.startsWith("dabudong")) return variant === "A" ? <DabuA ep={ep} en={lang === "en"} /> : <DabuB ep={ep} en={lang === "en"} />;
   if (lang === "en") return variant === "A" ? <ThumbA_EN ep={ep} /> : <ThumbB_EN ep={ep} />;
   return variant === "A" ? <ThumbA ep={ep} /> : <ThumbB ep={ep} />;
 };
