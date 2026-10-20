@@ -91,7 +91,7 @@ def main(src, dst, lang):
                     it["r"] = x
             elif ty == "factors":
                 v["items"] = t["items"]
-                v["head"] = "1 Division vs 3 — Why?"
+                v["head"] = t.get("head", "1 Division vs 3 — Why?")
             elif ty == "chapterbig":
                 v["num"], v["title"] = t["num"], t["title"]
             elif ty == "compare":

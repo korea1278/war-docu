@@ -1,0 +1,579 @@
+{
+ "title": "Battle of Dabu-dong (1950): The Stand at the Pusan Perimeter",
+ "subtitle": "Aug 1 – Sep 24, 1950",
+ "voice": "pNInz6obpgDQGcFmaJgB",
+ "tempo": 1.02,
+ "places": {
+  "seoul": "Seoul",
+  "daegu": "Taegu",
+  "busan": "Pusan",
+  "dabu": "Dabu-dong",
+  "yuhak": "Mt. Yuhak",
+  "gasan": "Mt. Ka",
+  "waegwan": "Waegwan",
+  "sangju": "Sangju",
+  "nk13": "NK 13th Div",
+  "nk1": "NK 1st Div",
+  "nk3": "NK 3rd Div",
+  "us27": "US 27th Inf",
+  "rokw": "ROK",
+  "roke": "ROK",
+  "nkt": "T-34"
+ },
+ "text": {
+  "다부동": "Dabu-dong",
+  "국군 1사단 · 낙동강": "ROK 1st Div · Naktong",
+  "8. 12 다부동 배치": "Aug 12 · To Dabu-dong",
+  "유학산 837m": "Mt. Yuhak 837 m",
+  "가산 902m": "Mt. Ka 902 m",
+  "대구 진입 관문": "Gateway to Taegu",
+  "국군 1사단": "ROK 1st Div",
+  "북한군 13사단": "NK 13th Div",
+  "북한군 1사단": "NK 1st Div",
+  "북한군 3사단": "NK 3rd Div",
+  "8. 21 유학산 탈환": "Aug 21 · Mt. Yuhak Retaken",
+  "미 27연대": "US 27th Inf",
+  "미 27연대 · 전차": "US 27th Inf · Tanks",
+  "북한군 13사단 · T-34": "NK 13th Div · T-34s",
+  "T-34 대열": "T-34 Column",
+  "병목": "Chokepoint"
+ },
+ "scenes": {
+  "s01": {
+   "lines": [
+    "August 1950. Dabu-dong, North Gyeongsang Province.",
+    "From here, the city of Taegu lay barely twenty kilometers away."
+   ],
+   "callouts": [
+    "AUGUST 1950 · DABU-DONG",
+    "20 km to Taegu"
+   ]
+  },
+  "s02": {
+   "lines": [
+    "The North Koreans were certain.",
+    "\"Cross this pass, and Taegu is ours.\""
+   ],
+   "label": "Dramatization",
+   "bubbles": [
+    "Over this pass\nlies Taegu!"
+   ]
+  },
+  "s02b": {
+   "lines": [
+    "For more than a month since the war began, the ROK Army had known only defeat and retreat.",
+    "This time, the outcome seemed already decided."
+   ],
+   "label": "Troops on the move (Aug 1950)"
+  },
+  "s03": {
+   "lines": [
+    "If Taegu fell, the entire Naktong line would collapse.",
+    "And after that... Pusan, and the sea."
+   ],
+   "callouts": [
+    "Taegu Falls = Perimeter Collapses"
+   ]
+  },
+  "s04": {
+   "lines": [
+    "Holding this final gate were the ROK 1st Division and the U.S. 27th Infantry Regiment.",
+    "They were outnumbered more than two to one."
+   ],
+   "callouts": [
+    "Per South Korean records"
+   ],
+   "left": "ROK + U.S. ~8,200",
+   "right": "North Korean ~21,000"
+  },
+  "s05": {
+   "lines": [
+    "Yet fifty-five days later,",
+    "it was the North Korean army that broke."
+   ],
+   "text": "Fifty-five days later,\nthe road to Taegu was still closed"
+  },
+  "s06": {
+   "lines": [
+    "Where hilltops changed hands several times a day,",
+    "and tanks traded fire through the night in the valley below.",
+    "This is the story of the last line on the Naktong: the Battle of Dabu-dong."
+   ],
+   "title": "Battle of Dabu-dong",
+   "sub": "The Stand at the Pusan Perimeter · 1950"
+  },
+  "s07": {
+   "lines": [
+    "June 25th, 1950. One month into the war,",
+    "ROK and UN forces had been pushed south without pause."
+   ],
+   "chapter": [
+    "PART 1",
+    "THE LAST LINE"
+   ]
+  },
+  "s08": {
+   "lines": [
+    "By early August, all that remained was a small corner in the southeast of the peninsula.",
+    "A line drawn along the Naktong River: the Pusan Perimeter."
+   ],
+   "callouts": [
+    "The Naktong Line (Pusan Perimeter)"
+   ]
+  },
+  "s09": {
+   "lines": [
+    "To break it, the North Koreans drove five divisions toward Taegu.",
+    "And the tip of that spear pointed at Dabu-dong."
+   ],
+   "callouts": [
+    "5 NK Divisions → Taegu"
+   ]
+  },
+  "s09b": {
+   "lines": [
+    "In early August, the ROK 1st Division first held the Naktong riverbank for nine days, blocking every crossing.",
+    "Then, on August 12th, it moved to a new front: Dabu-dong."
+   ]
+  },
+  "s10": {
+   "lines": [
+    "Why Dabu-dong?",
+    "Because the main road from Sangju to Taegu funnels into this one narrow valley."
+   ],
+   "callouts": [
+    "Sangju → Dabu-dong → Taegu"
+   ]
+  },
+  "s11": {
+   "lines": [
+    "To the west, Mount Yuhak, eight hundred thirty-seven meters high.",
+    "To the east, Mount Ka, at nine hundred and two.",
+    "The single road between them was the last gate into Taegu."
+   ]
+  },
+  "s12": {
+   "lines": [
+    "The ROK 1st Division was commanded by Brigadier General Paik Sun-yup, not yet thirty years old.",
+    "His division drew the final line in front of that gate."
+   ],
+   "name": "Paik Sun-yup",
+   "role": "Commander, ROK 1st Division (Brig. Gen.)"
+  },
+  "s13": {
+   "lines": [
+    "Facing him were the North Korean 13th, 1st, and 3rd Divisions.",
+    "Tank-led units that had won battle after battle since the invasion began."
+   ],
+   "callouts": [
+    "3 NK Divisions · ~21,000 men"
+   ]
+  },
+  "s13b": {
+   "lines": [
+    "The ROK 1st Division, by contrast, had retreated for over a month from the Imjin River, losing much of its men and equipment.",
+    "Now its exhausted soldiers faced the heaviest task of all."
+   ],
+   "label": "ROK soldiers (Sep 1950)"
+  },
+  "s14": {
+   "lines": [
+    "In mid-August, the main assault began.",
+    "The North Koreans seized the summit of Mount Yuhak first."
+   ],
+   "label": "The Naktong front (Aug 1950)",
+   "chapter": [
+    "PART 2",
+    "THE BLOODY HILLS OF YUHAK"
+   ]
+  },
+  "s15": {
+   "lines": [
+    "For the ROK troops below, the summit was all but impregnable.",
+    "Every climb up the rock face was met with a rain of grenades."
+   ],
+   "label": "Dramatization"
+  },
+  "s15b": {
+   "lines": [
+    "Shelling by day. Hand-to-hand fighting by night.",
+    "Survivors recall that when the ammunition ran out, they fought with bayonets and rocks."
+   ],
+   "label": "Police who fought at Dabu-dong (Sep 1950)"
+  },
+  "s16": {
+   "lines": [
+    "The heaviest losses fell on Hill 837.",
+    "And Hill 328 changed hands fifteen times in twelve days."
+   ],
+   "big": "Hill 328 · Changed Hands 15 Times",
+   "sub": "A 12-day struggle"
+  },
+  "s17": {
+   "lines": [
+    "On the hilltops, water and rice balls rarely arrived on time.",
+    "The ammunition and food that did make it up were carried on the backs of local villagers with wooden A-frames."
+   ],
+   "label": "Dramatization"
+  },
+  "s18": {
+   "lines": [
+    "August 18th.",
+    "North Korean shells landed near Taegu Station."
+   ],
+   "text": "AUGUST 18, 1950",
+   "accent": "TAEGU UNDER FIRE"
+  },
+  "s19": {
+   "lines": [
+    "The government relocated to Pusan, and Taegu filled with refugees.",
+    "It was, quite literally, the edge of the cliff."
+   ],
+   "label": "Refugees (1950)"
+  },
+  "s20": {
+   "lines": [
+    "Around this time, ROK soldiers defending the hills began abandoning their positions, one by one.",
+    "Then the division commander, Paik Sun-yup, stepped forward himself."
+   ],
+   "label": "Dramatization"
+  },
+  "s21": {
+   "lines": [
+    "\"We have nowhere left to retreat. If we are pushed back here, we will be driven into the sea.\"",
+    "\"If I fall back in fear, then you shoot me.\""
+   ],
+   "label": "Dramatization",
+   "callouts": [
+    "Gen. Paik Sun-yup · August 1950"
+   ],
+   "bubbles": [
+    "If I fall back,\nshoot me!"
+   ]
+  },
+  "s22": {
+   "lines": [
+    "With their commander charging at the front, the men who had been falling back surged up the hill again.",
+    "The crumbling line held once more."
+   ],
+   "label": "Soldiers moving up (Aug 1950)"
+  },
+  "s23": {
+   "lines": [
+    "On the night of August 21st, the ROK 12th Regiment launched a night raid and finally retook Mount Yuhak."
+   ]
+  },
+  "s24": {
+   "lines": [
+    "Meanwhile, the road through the valley north of Dabu-dong.",
+    "It was held by the U.S. 27th Infantry Regiment, the 'Wolfhounds', committed on August 17th."
+   ],
+   "chapter": [
+    "PART 3",
+    "THE BOWLING ALLEY"
+   ]
+  },
+  "s24b": {
+   "lines": [
+    "Their commander was Colonel John Michaelis.",
+    "An elite Eighth Army regiment, rushed like a fire brigade to every crisis on the line."
+   ],
+   "label": "U.S. 27th Infantry on the Pusan Perimeter (Sep 1950)"
+  },
+  "s25": {
+   "lines": [
+    "ROK troops held the ridges on either side, while American tanks and infantry blocked the valley floor.",
+    "At dusk, the Americans laid two belts of mines and trip flares across the road."
+   ],
+   "callouts": [
+    "Ridges: ROK / Valley: U.S."
+   ]
+  },
+  "s26": {
+   "lines": [
+    "Then came the night of August 21st.",
+    "Out of the darkness, the roar of tank engines began to rise."
+   ],
+   "label": "Dramatization"
+  },
+  "s27": {
+   "lines": [
+    "The North Korean 13th Division was pushing down the valley, led by T-34 tanks and self-propelled guns."
+   ],
+   "callouts": [
+    "T-34 Tanks + SP Guns"
+   ]
+  },
+  "s28": {
+   "lines": [
+    "The American tanks held their fire until the last moment.",
+    "When the enemy armor was almost on top of them, they opened up all at once."
+   ],
+   "label": "Dramatization"
+  },
+  "s28b": {
+   "lines": [
+    "With the lead tank knocked out, the vehicles behind it were trapped on the narrow road.",
+    "In an instant, the valley became a giant trap."
+   ],
+   "callouts": [
+    "The Valley Becomes a Trap"
+   ]
+  },
+  "s29": {
+   "lines": [
+    "Shells streaking low along the dark valley floor.",
+    "To the men watching, it looked like bowling balls rolling toward the pins."
+   ],
+   "big": "'THE BOWLING ALLEY'",
+   "sub": "Dabu-dong valley · August 1950"
+  },
+  "s29b": {
+   "lines": [
+    "The attacks did not end that night.",
+    "For several more nights, the North Koreans came down the same valley."
+   ],
+   "label": "Dramatization"
+  },
+  "s30": {
+   "lines": [
+    "The fighting raged for nearly five hours.",
+    "When dawn broke, only burned-out tanks remained in the valley."
+   ],
+   "label": "Knocked-out North Korean T-34 (Sep 1950)"
+  },
+  "s31": {
+   "lines": [
+    "From August 18th to 25th, U.S. records list North Korean losses as",
+    "thirteen T-34 tanks, six self-propelled guns, and twenty-three trucks."
+   ],
+   "note": "Per U.S. records (Aug 18 – 25, 1950)",
+   "bars": [
+    [
+     "T-34 Tanks",
+     "13"
+    ],
+    [
+     "SU-76 SP Guns",
+     "6"
+    ],
+    [
+     "Trucks",
+     "23"
+    ]
+   ]
+  },
+  "s31b": {
+   "lines": [
+    "In the same period, American losses were eight killed.",
+    "But the ROK troops holding the ridges on both sides lost an estimated two thousand three hundred men."
+   ],
+   "note": "Per U.S. records (Aug 18 – 25, 1950)",
+   "bars": [
+    [
+     "U.S. KIA",
+     "8"
+    ],
+    [
+     "ROK KIA (est.)",
+     "~2,300"
+    ]
+   ]
+  },
+  "s32": {
+   "lines": [
+    "The North Korean 13th Division lost some three thousand men in this fight alone, and with them, its ability to attack."
+   ],
+   "label": "North Korean POWs (Sep 1950)",
+   "callouts": [
+    "NK 13th Div Losses ~3,000"
+   ]
+  },
+  "s33": {
+   "lines": [
+    "Around then, the division's artillery commander, Lieutenant Colonel Jeong Bong-uk, defected to the ROK lines.",
+    "A sign that the North Korean army was beginning to crack from within."
+   ],
+   "label": "Lt. Col. Jeong Bong-uk (1950)"
+  },
+  "s34": {
+   "lines": [
+    "So how did Dabu-dong hold for fifty-five days?",
+    "Let's break it down into four factors."
+   ],
+   "chapter": [
+    "PART 4",
+    "4 DECIDING FACTORS"
+   ],
+   "items": [
+    "Chokepoint Terrain",
+    "ROK-U.S. Combined Ops",
+    "Overwhelming Firepower",
+    "Command Resolve"
+   ],
+   "head": "8,200 vs 21,000 — How?"
+  },
+  "s35": {
+   "lines": [
+    "First, terrain."
+   ],
+   "num": "Factor 1",
+   "title": "Chokepoint Terrain"
+  },
+  "s36": {
+   "lines": [
+    "The narrow valley between Mount Yuhak and Mount Ka was a chokepoint no large army could push through all at once.",
+    "In this gorge, the advantage of numbers simply disappeared."
+   ],
+   "callouts": [
+    "Chokepoint = Numbers Neutralized"
+   ]
+  },
+  "s37": {
+   "lines": [
+    "Second, combined ROK-U.S. operations."
+   ],
+   "num": "Factor 2",
+   "title": "ROK-U.S. Combined Ops"
+  },
+  "s38": {
+   "lines": [
+    "The ROK held the ridgelines; the Americans held the valley road.",
+    "Infantry, armor, and artillery moved as a single, interlocking line of defense."
+   ],
+   "left": [
+    "ROK 1st Division",
+    "RIDGES"
+   ],
+   "right": [
+    "U.S. 27th Infantry",
+    "VALLEY"
+   ]
+  },
+  "s38b": {
+   "lines": [
+    "In this battle, Paik found himself directing the American 27th Regiment at the front as well.",
+    "A rare moment: a Korean general in command of a U.S. regiment."
+   ],
+   "label": "Gen. Paik with U.S. officers (Oct 1950)"
+  },
+  "s39": {
+   "lines": [
+    "Third, firepower."
+   ],
+   "num": "Factor 3",
+   "title": "Overwhelming Firepower"
+  },
+  "s40": {
+   "lines": [
+    "On August 16th, ninety-eight B-29 bombers dropped some nine hundred sixty tons of bombs around Waegwan.",
+    "In the Bowling Alley fight, a single U.S. artillery battery fired sixteen hundred and sixty-one 105-millimeter rounds."
+   ],
+   "label": "B-29 bombing (1950)",
+   "callouts": [
+    "98 B-29s · ~960 Tons",
+    "1,661 × 105mm Rounds (One Battery)"
+   ]
+  },
+  "s41": {
+   "lines": [
+    "Fourth, the resolve of command."
+   ],
+   "num": "Factor 4",
+   "title": "Command Resolve"
+  },
+  "s42": {
+   "lines": [
+    "A unit whose general stands at the very front does not break easily.",
+    "And that resolve built trust between Korean and American troops fighting side by side for the first time."
+   ],
+   "label": "Dramatization"
+  },
+  "s43": {
+   "lines": [
+    "According to South Korean records, friendly casualties in this period numbered around ten thousand.",
+    "North Korean casualties reached some seventeen thousand five hundred."
+   ],
+   "note": "Per South Korean records (Aug 1 – Sep 24, 1950)",
+   "bars": [
+    [
+     "Friendly Casualties",
+     "~10,000"
+    ],
+    [
+     "NK Casualties",
+     "~17,500"
+    ]
+   ]
+  },
+  "s44": {
+   "lines": [
+    "Fifty-five desperate days that numbers alone cannot capture."
+   ],
+   "big": "55 DAYS",
+   "sub": "Aug 1 – Sep 24, 1950"
+  },
+  "s45": {
+   "lines": [
+    "While Dabu-dong held, the United Nations was preparing its counterstroke.",
+    "September 15th, 1950: the Inchon landing."
+   ],
+   "label": "Inchon landing (Sep 15, 1950)",
+   "chapter": [
+    "EPILOGUE",
+    "WHAT DABU-DONG SAVED"
+   ]
+  },
+  "s46": {
+   "lines": [
+    "The next day, ROK and UN forces along the Naktong launched a general counteroffensive.",
+    "Dabu-dong became the starting line of the breakout."
+   ],
+   "callouts": [
+    "Sep 16, 1950 · Naktong Breakout"
+   ]
+  },
+  "s46b": {
+   "lines": [
+    "Today, a war memorial stands at Dabu-dong, honoring that sacrifice every year."
+   ],
+   "label": "Memorial ceremony at Dabu-dong"
+  },
+  "s47": {
+   "lines": [
+    "Even now, the remains of Korean War dead are still being recovered on Mount Yuhak."
+   ]
+  },
+  "s48": {
+   "lines": [
+    "Young men who fell on these ridges, many without even leaving a name.",
+    "Most of them were barely twenty."
+   ],
+   "label": "ROK recruits (1950)"
+  },
+  "s48b": {
+   "lines": [
+    "And among those who fought on this mountain were villagers who carried A-frames instead of rifles."
+   ],
+   "label": "Dramatization"
+  },
+  "s49": {
+   "lines": [
+    "The last twenty kilometers to Taegu.",
+    "In the end, what held that road was people who refused to step back."
+   ],
+   "quotes": [
+    "The last 20 km to Taegu",
+    "Held by those who would not step back"
+   ],
+   "quoteTitle": "What Dabu-dong Left Behind"
+  },
+  "s50": {
+   "lines": [
+    "If this story meant something to you, please subscribe and like the video.",
+    "We'll continue to bring the forgotten records of war to light."
+   ],
+   "title": "August 1950. Dabu-dong.\nThe Last Gate to Taegu."
+  }
+ }
+}

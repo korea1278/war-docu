@@ -1,0 +1,2356 @@
+{
+ "title": "다부동 전투",
+ "subtitle": "1950. 8. 1 ~ 9. 24",
+ "target_sec": 510,
+ "places": {
+  "seoul": [
+   126.978,
+   37.566,
+   "서울"
+  ],
+  "daegu": [
+   128.601,
+   35.871,
+   "대구"
+  ],
+  "busan": [
+   129.075,
+   35.18,
+   "부산"
+  ],
+  "dabu": [
+   128.555,
+   36.045,
+   "다부동"
+  ],
+  "yuhak": [
+   128.5,
+   36.062,
+   "유학산"
+  ],
+  "gasan": [
+   128.632,
+   36.08,
+   "가산"
+  ],
+  "waegwan": [
+   128.398,
+   35.99,
+   "왜관"
+  ],
+  "sangju": [
+   128.159,
+   36.411,
+   "상주"
+  ],
+  "nk13": [
+   128.57,
+   36.18,
+   "북한군 13사단"
+  ],
+  "nk1": [
+   128.47,
+   36.15,
+   "북한군 1사단"
+  ],
+  "nk3": [
+   128.36,
+   36.07,
+   "북한군 3사단"
+  ],
+  "us27": [
+   128.565,
+   36.075,
+   "미 27연대"
+  ],
+  "rokw": [
+   128.535,
+   36.08,
+   "국군"
+  ],
+  "roke": [
+   128.6,
+   36.08,
+   "국군"
+  ],
+  "nkt": [
+   128.575,
+   36.125,
+   "T-34"
+  ]
+ },
+ "views": {
+  "korea": {
+   "center": [
+    127.8,
+    36.6
+   ],
+   "span": 9.0
+  },
+  "perimeter": {
+   "center": [
+    128.7,
+    35.75
+   ],
+   "span": 2.5
+  },
+  "dabu_wide": {
+   "center": [
+    128.52,
+    35.98
+   ],
+   "span": 0.9
+  },
+  "dabu": {
+   "center": [
+    128.56,
+    36.05
+   ],
+   "span": 0.42
+  },
+  "alley": {
+   "center": [
+    128.567,
+    36.1
+   ],
+   "span": 0.2
+  }
+ },
+ "music": [
+  {
+   "id": "drone",
+   "from": "s01",
+   "to": "s06",
+   "volume": 0.2
+  },
+  {
+   "id": "theme",
+   "from": "s07",
+   "to": "s13",
+   "volume": 0.16
+  },
+  {
+   "id": "tension",
+   "from": "s14",
+   "to": "s23",
+   "volume": 0.17
+  },
+  {
+   "id": "march",
+   "from": "s24",
+   "to": "s33",
+   "volume": 0.15
+  },
+  {
+   "id": "analysis",
+   "from": "s34",
+   "to": "s44",
+   "volume": 0.13
+  },
+  {
+   "id": "somber",
+   "from": "s45",
+   "to": "s50",
+   "volume": 0.17
+  }
+ ],
+ "scenes": [
+  {
+   "id": "s01",
+   "lines": [
+    {
+     "t": "1950년 8월, 경북 칠곡 다부동.",
+     "say": "천구백오십 년 팔월, 경북 칠곡 다부동."
+    },
+    {
+     "t": "이곳에서 대구까지는, 불과 20여 킬로미터였습니다.",
+     "say": "이곳에서 대구까지는, 불과 이십여 킬로미터였습니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "dabu_night",
+    "kb": "in"
+   },
+   "visuals": [
+    {
+     "atLine": 1,
+     "type": "map",
+     "from": "korea",
+     "to": "dabu_wide",
+     "items": [
+      {
+       "k": "marker",
+       "p": "dabu",
+       "color": "red",
+       "at": 0.3
+      },
+      {
+       "k": "marker",
+       "p": "daegu",
+       "color": "blue",
+       "at": 0.5
+      },
+      {
+       "k": "line",
+       "path": [
+        [
+         128.555,
+         36.045
+        ],
+        [
+         128.575,
+         35.96
+        ],
+        [
+         128.601,
+         35.871
+        ]
+       ],
+       "color": "red",
+       "at": 0.6
+      }
+     ]
+    }
+   ],
+   "callouts": [
+    {
+     "text": "1950. 8 · 경북 칠곡 다부동",
+     "style": "yellow",
+     "at": 0,
+     "until": 1
+    },
+    {
+     "text": "대구까지 20여 km",
+     "style": "red",
+     "at": 1,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0,
+     "volume": 0.4
+    },
+    {
+     "id": "artillery_far",
+     "at": 0,
+     "volume": 0.3
+    },
+    {
+     "id": "whoosh",
+     "at": 1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "lines": [
+    "북한군은 확신하고 있었습니다.",
+    "\"이 고개만 넘으면, 대구다.\""
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "nk_commander",
+    "kb": "in",
+    "bubbles": [
+     {
+      "text": "이 고개만 넘으면\n대구다!",
+      "x": 0.7,
+      "y": 0.2,
+      "at": 1
+     }
+    ]
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s02b",
+   "lines": [
+    "개전 이후 한 달 넘게, 패배와 후퇴만 거듭해 온 국군.",
+    "이번에도 결과는, 이미 정해진 것처럼 보였습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s02b-photo",
+    "kb": "left"
+   },
+   "label": "이동하는 병력 (1950. 8)"
+  },
+  {
+   "id": "s03",
+   "lines": [
+    "대구가 무너지면, 낙동강 방어선 전체가 무너집니다.",
+    "그 다음은... 부산, 그리고 바다였죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "dabu_wide",
+    "to": "perimeter",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.8,
+        36.45
+       ],
+       [
+        128.65,
+        36.25
+       ],
+       [
+        128.56,
+        36.08
+       ],
+       [
+        128.4,
+        35.99
+       ],
+       [
+        128.37,
+        35.8
+       ],
+       [
+        128.4,
+        35.62
+       ],
+       [
+        128.43,
+        35.48
+       ],
+       [
+        128.42,
+        35.33
+       ],
+       [
+        128.38,
+        35.18
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "daegu",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.62,
+        35.86
+       ],
+       [
+        128.85,
+        35.5
+       ],
+       [
+        129.06,
+        35.22
+       ]
+      ],
+      "color": "red",
+      "at": 1,
+      "dur": 1.6
+     },
+     {
+      "k": "marker",
+      "p": "busan",
+      "color": "blue",
+      "at": 1.2
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "대구 함락 = 방어선 붕괴",
+     "style": "red",
+     "at": 0
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "lines": [
+    "이 마지막 관문을 지킨 건, 국군 제1사단과 미 제27연대.",
+    "병력은, 상대의 절반에도 못 미쳤습니다."
+   ],
+   "visual": {
+    "type": "versus",
+    "left": {
+     "n": 1,
+     "label": "한·미 약 8,200명",
+     "color": "blue"
+    },
+    "right": {
+     "n": 3,
+     "label": "북한군 약 21,000명",
+     "color": "red"
+    },
+    "at": 1
+   },
+   "callouts": [
+    {
+     "text": "한국 측 기록 기준",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "lines": [
+    {
+     "t": "그런데 55일 뒤.",
+     "say": "그런데 오십오 일 뒤."
+    },
+    "무너진 쪽은, 북한군이었습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "그러나 55일 뒤,\n대구로 가는 길은 끝내 열리지 않았다"
+   },
+   "pauseBefore": 0.4
+  },
+  {
+   "id": "s06",
+   "lines": [
+    "고지의 주인이 하루에도 몇 번씩 바뀌고,",
+    "계곡에서는 전차들이 밤새 포탄을 주고받았던 곳.",
+    "오늘은 낙동강 최후 방어선, 다부동 전투 이야기입니다."
+   ],
+   "visual": {
+    "type": "titlecard",
+    "q": "s06-photo",
+    "title": "다부동 전투",
+    "sub": "낙동강 최후 방어선과 유학산의 혈투 · 1950",
+    "at": 2
+   },
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 2,
+     "volume": 0.5
+    }
+   ],
+   "flash": true
+  },
+  {
+   "id": "s07",
+   "lines": [
+    {
+     "t": "1950년 6월 25일, 전쟁이 시작되고 한 달.",
+     "say": "천구백오십 년 유월 이십오 일, 전쟁이 시작되고 한 달."
+    },
+    "국군과 유엔군은 쉬지 않고 남쪽으로 밀려 내려갔습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "korea",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.9,
+        37.9
+       ],
+       [
+        127.1,
+        36.9
+       ],
+       [
+        127.6,
+        36.2
+       ]
+      ],
+      "color": "red",
+      "at": 1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.3,
+        37.7
+       ],
+       [
+        128.5,
+        36.9
+       ],
+       [
+        128.6,
+        36.4
+       ]
+      ],
+      "color": "red",
+      "at": 1.2
+     }
+    ]
+   },
+   "chapter": {
+    "num": "PART 1",
+    "title": "낙동강 최후 방어선"
+   }
+  },
+  {
+   "id": "s08",
+   "lines": [
+    {
+     "t": "8월 초, 남은 땅은 한반도 남동쪽의 작은 귀퉁이.",
+     "say": "팔월 초, 남은 땅은 한반도 남동쪽의 작은 귀퉁이."
+    },
+    "낙동강을 따라 그어진, 이른바 '낙동강 방어선'이었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "perimeter",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.8,
+        36.45
+       ],
+       [
+        128.65,
+        36.25
+       ],
+       [
+        128.56,
+        36.08
+       ],
+       [
+        128.4,
+        35.99
+       ],
+       [
+        128.37,
+        35.8
+       ],
+       [
+        128.4,
+        35.62
+       ],
+       [
+        128.43,
+        35.48
+       ],
+       [
+        128.42,
+        35.33
+       ],
+       [
+        128.38,
+        35.18
+       ]
+      ],
+      "at": 0.3
+     },
+     {
+      "k": "marker",
+      "p": "daegu",
+      "color": "blue",
+      "at": 1
+     },
+     {
+      "k": "marker",
+      "p": "busan",
+      "color": "blue",
+      "at": 1.2
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "낙동강 방어선 (부산 교두보)",
+     "style": "dark",
+     "at": 1
+    }
+   ]
+  },
+  {
+   "id": "s09",
+   "lines": [
+    "북한군은 이 방어선을 깨기 위해, 다섯 개 사단을 대구 쪽으로 몰아넣습니다.",
+    "그 칼끝이 겨눈 곳이 바로, 다부동이었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "perimeter",
+    "to": "dabu_wide",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.8,
+        36.45
+       ],
+       [
+        128.65,
+        36.25
+       ],
+       [
+        128.56,
+        36.08
+       ],
+       [
+        128.4,
+        35.99
+       ],
+       [
+        128.37,
+        35.8
+       ],
+       [
+        128.4,
+        35.62
+       ],
+       [
+        128.43,
+        35.48
+       ],
+       [
+        128.42,
+        35.33
+       ],
+       [
+        128.38,
+        35.18
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.2,
+        36.4
+       ],
+       [
+        128.42,
+        36.2
+       ],
+       [
+        128.55,
+        36.07
+       ]
+      ],
+      "color": "red",
+      "at": 0.3
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.0,
+        36.1
+       ],
+       [
+        128.25,
+        36.0
+       ],
+       [
+        128.39,
+        35.99
+       ]
+      ],
+      "color": "red",
+      "at": 0.5
+     },
+     {
+      "k": "unit",
+      "p": "dabu",
+      "text": "다부동",
+      "color": "blue",
+      "at": 1,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "북한군 5개 사단 → 대구",
+     "style": "red",
+     "at": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s09b",
+   "lines": [
+    {
+     "t": "8월 초, 국군 제1사단은 먼저 낙동강 강변에서 9일 동안 북한군의 도하를 막아냈습니다.",
+     "say": "팔월 초, 국군 제일사단은 먼저 낙동강 강변에서, 구 일 동안 북한군의 도하를 막아냈습니다."
+    },
+    {
+     "t": "그리고 8월 12일, 새로운 전선 다부동으로 자리를 옮깁니다.",
+     "say": "그리고 팔월 십이 일, 새로운 전선 다부동으로 자리를 옮깁니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "dabu_wide",
+    "to": "dabu_wide",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.8,
+        36.45
+       ],
+       [
+        128.65,
+        36.25
+       ],
+       [
+        128.56,
+        36.08
+       ],
+       [
+        128.4,
+        35.99
+       ],
+       [
+        128.37,
+        35.8
+       ],
+       [
+        128.4,
+        35.62
+       ],
+       [
+        128.43,
+        35.48
+       ],
+       [
+        128.42,
+        35.33
+       ],
+       [
+        128.38,
+        35.18
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "waegwan",
+      "text": "국군 1사단 · 낙동강",
+      "color": "blue",
+      "at": 0.2
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.4,
+        35.99
+       ],
+       [
+        128.48,
+        36.02
+       ],
+       [
+        128.55,
+        36.045
+       ]
+      ],
+      "color": "blue",
+      "at": 1,
+      "width": 1.2
+     },
+     {
+      "k": "badge",
+      "p": "dabu",
+      "text": "8. 12 다부동 배치",
+      "color": "blue",
+      "at": 1.3,
+      "dy": -70
+     }
+    ]
+   }
+  },
+  {
+   "id": "s10",
+   "lines": [
+    "왜 하필 다부동이었을까요?",
+    "상주에서 대구로 내려오는 큰길이, 이 좁은 계곡 하나로 모이기 때문입니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "dabu_wide",
+    "to": "dabu",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.45,
+        36.25
+       ],
+       [
+        128.53,
+        36.14
+       ],
+       [
+        128.565,
+        36.08
+       ],
+       [
+        128.555,
+        36.045
+       ],
+       [
+        128.575,
+        35.96
+       ],
+       [
+        128.601,
+        35.871
+       ]
+      ],
+      "at": 1
+     },
+     {
+      "k": "marker",
+      "p": "dabu",
+      "color": "red",
+      "at": 1.2
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "상주 → 다부동 → 대구",
+     "style": "dark",
+     "at": 1
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "lines": [
+    {
+     "t": "서쪽에는 해발 837미터의 유학산.",
+     "say": "서쪽에는 해발 팔백삼십칠 미터의 유학산."
+    },
+    {
+     "t": "동쪽에는 902미터의 가산.",
+     "say": "동쪽에는 구백이 미터의 가산."
+    },
+    "그 사이로 난 길 하나가, 대구로 들어가는 마지막 관문이었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "dabu",
+    "to": "dabu",
+    "items": [
+     {
+      "k": "marker",
+      "p": "yuhak",
+      "color": "dark",
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "yuhak",
+      "text": "유학산 837m",
+      "color": "dark",
+      "at": 0.2,
+      "dy": -70
+     },
+     {
+      "k": "marker",
+      "p": "gasan",
+      "color": "dark",
+      "at": 1
+     },
+     {
+      "k": "badge",
+      "p": "gasan",
+      "text": "가산 902m",
+      "color": "dark",
+      "at": 1.2,
+      "dy": -70
+     },
+     {
+      "k": "unit",
+      "p": "dabu",
+      "text": "대구 진입 관문",
+      "color": "red",
+      "at": 2,
+      "pulse": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "s12",
+   "lines": [
+    {
+     "t": "국군 제1사단장은, 서른 살도 채 안 된 백선엽 준장.",
+     "say": "국군 제일사단장은, 서른 살도 채 안 된, 백선엽 준장."
+    },
+    "그의 사단이, 이 관문 앞에 마지막 선을 그었습니다."
+   ],
+   "visual": {
+    "type": "person",
+    "q": "s12-photo",
+    "name": "백선엽",
+    "years": "1920 - 2020",
+    "role": "국군 제1사단장 (준장)"
+   }
+  },
+  {
+   "id": "s13",
+   "lines": [
+    {
+     "t": "맞서는 북한군은 제13사단과 제1사단, 제3사단.",
+     "say": "맞서는 북한군은, 제십삼사단과 제일사단, 제삼사단."
+    },
+    "전차를 앞세워, 개전 이후 줄곧 승리해 온 부대들이었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "dabu",
+    "to": "dabu_wide",
+    "items": [
+     {
+      "k": "unit",
+      "p": "dabu",
+      "text": "국군 1사단",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "nk13",
+      "text": "북한군 13사단",
+      "color": "red",
+      "at": 0.2
+     },
+     {
+      "k": "unit",
+      "p": "nk1",
+      "text": "북한군 1사단",
+      "color": "red",
+      "at": 0.45
+     },
+     {
+      "k": "unit",
+      "p": "nk3",
+      "text": "북한군 3사단",
+      "color": "red",
+      "at": 0.7
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "북한군 3개 사단 · 약 21,000명",
+     "style": "red",
+     "at": 1,
+     "pos": "lower"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "drum",
+     "at": 0.2,
+     "volume": 0.5
+    },
+    {
+     "id": "drum",
+     "at": 0.45,
+     "volume": 0.5
+    },
+    {
+     "id": "drum",
+     "at": 0.7,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s13b",
+   "lines": [
+    "반면 국군 제1사단은, 임진강에서부터 한 달 넘게 후퇴를 거듭하며 병력과 장비를 크게 잃은 상태였습니다.",
+    "지친 병사들 앞에, 가장 무거운 임무가 떨어진 것이죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s13b-photo",
+    "kb": "right"
+   },
+   "label": "국군 장병 (1950. 9)"
+  },
+  {
+   "id": "s14",
+   "lines": [
+    "8월 중순, 본격적인 공격이 시작됩니다.",
+    "북한군은 먼저, 유학산 정상을 차지했습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s14-photo",
+    "kb": "in"
+   },
+   "label": "낙동강 전선 (1950. 8)",
+   "chapter": {
+    "num": "PART 2",
+    "title": "유학산의 혈투"
+   },
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "lines": [
+    "아래에서 올려다봐야 하는 국군에게, 정상은 난공불락이었죠.",
+    "암벽을 기어오르면, 위에서 수류탄이 쏟아졌습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "rok_cliff",
+    "kb": "up"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s15b",
+   "lines": [
+    "낮에는 포격, 밤에는 백병전.",
+    "탄약이 떨어지면 총검과 돌멩이로 싸웠다는 증언이, 지금도 남아 있습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s15b-photo",
+    "kb": "in"
+   },
+   "label": "다부동 전투에 참가한 경찰 대원들 (1950. 9)",
+   "sfx": [
+    {
+     "id": "charge",
+     "at": 0,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s16",
+   "lines": [
+    {
+     "t": "가장 많은 희생이 난 곳은 837고지.",
+     "say": "가장 많은 희생이 난 곳은, 팔백삼십칠 고지."
+    },
+    {
+     "t": "그리고 328고지는, 12일 동안 주인이 열다섯 번이나 바뀌었습니다.",
+     "say": "그리고 삼백이십팔 고지는, 십이 일 동안, 주인이 열다섯 번이나 바뀌었습니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "328고지 · 주인이 15번 바뀌다",
+    "style": "red",
+    "sub": "12일간의 쟁탈전",
+    "subAt": 1
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 1,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s17",
+   "lines": [
+    "고지 위에는 물도, 주먹밥도 제때 올라오지 않았습니다.",
+    "탄약과 식량을 등에 지고 그 산길을 오른 건, 지게를 멘 주민들이었죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "jige_porters",
+    "kb": "up"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s18",
+   "lines": [
+    {
+     "t": "8월 18일.",
+     "say": "팔월 십팔 일."
+    },
+    "북한군의 포탄이, 대구역 부근에 떨어집니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "1950. 8. 18",
+    "accent": "대구 피격",
+    "accentAt": 1
+   },
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 1,
+     "volume": 0.55
+    }
+   ]
+  },
+  {
+   "id": "s19",
+   "lines": [
+    "정부는 부산으로 자리를 옮겼고, 대구 시내는 피란민으로 가득 찼습니다.",
+    "말 그대로, 벼랑 끝이었습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s19-photo",
+    "kb": "left"
+   },
+   "label": "피란민 (1950)"
+  },
+  {
+   "id": "s20",
+   "lines": [
+    "그 무렵, 고지를 지키던 국군 병사들이 하나둘 진지를 버리고 내려오기 시작합니다.",
+    "그때, 사단장 백선엽이 직접 앞으로 나섭니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "rok_paik",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s21",
+   "lines": [
+    "\"이제 우리는 물러설 곳이 없다. 여기서 밀리면, 바다에 빠져야 한다.\"",
+    "\"내가 두려움에 물러서면, 너희가 나를 쏴라.\""
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "rok_paik",
+    "kb": "in2",
+    "bubbles": [
+     {
+      "text": "내가 물러서면\n나를 쏴라!",
+      "x": 0.3,
+      "y": 0.2,
+      "at": 1
+     }
+    ]
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "백선엽 사단장 · 1950년 8월",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s22",
+   "lines": [
+    "사단장이 맨 앞에서 돌격하자, 내려오던 병사들이 다시 고지로 뛰어올랐습니다.",
+    "무너지던 전선이, 다시 이어졌죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s22-photo",
+    "kb": "right"
+   },
+   "label": "반격에 나서는 병사들 (1950. 8)",
+   "sfx": [
+    {
+     "id": "charge",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s23",
+   "lines": [
+    {
+     "t": "8월 21일 밤에는 제12연대가 야간 기습으로, 마침내 유학산을 되찾습니다.",
+     "say": "팔월 이십일 일 밤에는, 제십이연대가 야간 기습으로, 마침내 유학산을 되찾습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "dabu",
+    "to": "dabu",
+    "zoom": 1.2,
+    "items": [
+     {
+      "k": "marker",
+      "p": "yuhak",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.49,
+        36.0
+       ],
+       [
+        128.495,
+        36.03
+       ],
+       [
+        128.5,
+        36.055
+       ]
+      ],
+      "color": "blue",
+      "at": 0.2,
+      "width": 1.3
+     },
+     {
+      "k": "badge",
+      "p": "yuhak",
+      "text": "8. 21 유학산 탈환",
+      "color": "blue",
+      "at": 0.6,
+      "dy": -70
+     }
+    ]
+   }
+  },
+  {
+   "id": "s24",
+   "lines": [
+    "한편, 다부동 북쪽 계곡의 도로.",
+    {
+     "t": "이곳을 맡은 건 8월 17일 투입된 미 제27연대, '울프하운드'였습니다.",
+     "say": "이곳을 맡은 건, 팔월 십칠 일 투입된 미 제이십칠연대, 울프하운드였습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "dabu",
+    "to": "alley",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.575,
+        36.16
+       ],
+       [
+        128.57,
+        36.12
+       ],
+       [
+        128.565,
+        36.085
+       ],
+       [
+        128.555,
+        36.045
+       ],
+       [
+        128.575,
+        35.96
+       ],
+       [
+        128.601,
+        35.871
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "us27",
+      "text": "미 27연대",
+      "color": "blue",
+      "at": 1
+     }
+    ]
+   },
+   "chapter": {
+    "num": "PART 3",
+    "title": "볼링장 전투"
+   }
+  },
+  {
+   "id": "s24b",
+   "lines": [
+    "연대장은 존 마이켈리스 대령.",
+    "위기에 빠진 전선마다 '소방대'처럼 불려 다니던, 미 제8군의 정예 부대였죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s24b-photo",
+    "kb": "in"
+   },
+   "label": "낙동강 방어선의 미 제27연대 (1950. 9)"
+  },
+  {
+   "id": "s25",
+   "lines": [
+    "도로 양옆의 능선은 국군이, 계곡 바닥은 미군 전차와 보병이 막았습니다.",
+    "해 질 무렵, 미군은 도로 앞에 두 겹의 지뢰와 조명 지뢰를 깔아 두었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "alley",
+    "to": "alley",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.575,
+        36.16
+       ],
+       [
+        128.57,
+        36.12
+       ],
+       [
+        128.565,
+        36.085
+       ],
+       [
+        128.555,
+        36.045
+       ],
+       [
+        128.575,
+        35.96
+       ],
+       [
+        128.601,
+        35.871
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "us27",
+      "text": "미 27연대 · 전차",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "rokw",
+      "text": "국군 1사단",
+      "color": "blue",
+      "at": 0.3
+     },
+     {
+      "k": "unit",
+      "p": "roke",
+      "text": "국군 1사단",
+      "color": "blue",
+      "at": 0.4
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        128.552,
+        36.087
+       ],
+       [
+        128.566,
+        36.088
+       ],
+       [
+        128.58,
+        36.089
+       ]
+      ],
+      "color": "#d98b2b",
+      "at": 1.2
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "능선: 국군 / 계곡: 미군",
+     "style": "dark",
+     "at": 0
+    }
+   ]
+  },
+  {
+   "id": "s26",
+   "lines": [
+    {
+     "t": "그리고 8월 21일 밤.",
+     "say": "그리고 팔월 이십일 일 밤."
+    },
+    "어둠 속에서, 전차의 굉음이 들려오기 시작합니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "t34_column",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "tank",
+     "at": 0.5,
+     "volume": 0.5
+    }
+   ],
+   "pauseBefore": 0.4
+  },
+  {
+   "id": "s27",
+   "lines": [
+    {
+     "t": "북한군 제13사단이, T-34 전차와 자주포를 앞세워 계곡을 따라 밀고 내려온 겁니다.",
+     "say": "북한군 제십삼사단이, 티 삼십사 전차와 자주포를 앞세워, 계곡을 따라 밀고 내려온 겁니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "alley",
+    "to": "alley",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.575,
+        36.16
+       ],
+       [
+        128.57,
+        36.12
+       ],
+       [
+        128.565,
+        36.085
+       ],
+       [
+        128.555,
+        36.045
+       ],
+       [
+        128.575,
+        35.96
+       ],
+       [
+        128.601,
+        35.871
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "us27",
+      "text": "미 27연대",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.575,
+        36.14
+       ],
+       [
+        128.57,
+        36.115
+       ],
+       [
+        128.567,
+        36.095
+       ]
+      ],
+      "color": "red",
+      "at": 0.1,
+      "width": 1.4,
+      "dur": 2.5
+     },
+     {
+      "k": "unit",
+      "p": "nkt",
+      "text": "북한군 13사단 · T-34",
+      "color": "red",
+      "at": 0.3
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "T-34 전차 + 자주포",
+     "style": "red",
+     "at": 0.3
+    }
+   ],
+   "sfx": [
+    {
+     "id": "tank",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s28",
+   "lines": [
+    "미군 전차들은 끝까지 기다렸습니다.",
+    "적 전차가 코앞까지 다가온 순간, 일제히 불을 뿜었죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "us_tank",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "artillery",
+     "at": 1,
+     "volume": 0.55
+    },
+    {
+     "id": "boom",
+     "at": 1.3,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s28b",
+   "lines": [
+    "선두 전차가 멈춰 서자, 뒤따르던 전차들은 좁은 도로 위에서 오도 가도 못하게 됩니다.",
+    "계곡은 순식간에, 거대한 덫이 되었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "alley",
+    "to": "alley",
+    "zoom": 1.3,
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.575,
+        36.16
+       ],
+       [
+        128.57,
+        36.12
+       ],
+       [
+        128.565,
+        36.085
+       ],
+       [
+        128.555,
+        36.045
+       ],
+       [
+        128.575,
+        35.96
+       ],
+       [
+        128.601,
+        35.871
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "us27",
+      "text": "미 27연대",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "nkt",
+      "text": "T-34 대열",
+      "color": "red",
+      "at": 0,
+      "pulse": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.566,
+        36.078
+       ],
+       [
+        128.568,
+        36.09
+       ],
+       [
+        128.571,
+        36.11
+       ]
+      ],
+      "color": "blue",
+      "at": 0.2,
+      "width": 0.8,
+      "dur": 0.6
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "계곡 = 덫",
+     "style": "red",
+     "at": 1
+    }
+   ],
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0.2,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s29",
+   "lines": [
+    "어두운 계곡 바닥을 따라 미끄러지듯 날아가는 포탄.",
+    "병사들은 그 모습이, 볼링공이 핀을 향해 굴러가는 것 같았다고 했습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "'볼링장 전투'",
+    "style": "yellow",
+    "sub": "Bowling Alley · 1950. 8"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0.2,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s29b",
+   "lines": [
+    "공격은 그날 밤 한 번으로 끝나지 않았습니다.",
+    "북한군은 그 뒤로도 며칠 밤 동안, 같은 계곡으로 밀고 내려왔죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "t34_column",
+    "kb": "out"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s30",
+   "lines": [
+    "전투는 다섯 시간 가까이 이어졌습니다.",
+    "날이 밝았을 때, 계곡에는 불탄 전차들만 남아 있었습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s30-photo",
+    "kb": "in"
+   },
+   "label": "파괴된 북한군 T-34 (1950. 9)"
+  },
+  {
+   "id": "s31",
+   "lines": [
+    {
+     "t": "8월 18일부터 25일까지, 미군 기록에 남은 북한군의 손실은",
+     "say": "팔월 십팔 일부터 이십오 일까지, 미군 기록에 남은 북한군의 손실은,"
+    },
+    {
+     "t": "T-34 전차 13대, 자주포 6대, 트럭 23대.",
+     "say": "티 삼십사 전차 열세 대, 자주포 여섯 대, 트럭 스물세 대."
+    }
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "미군 기록 기준 (1950. 8. 18 ~ 25)",
+    "items": [
+     {
+      "label": "T-34 전차",
+      "value": 13,
+      "display": "13대",
+      "color": "red",
+      "at": 1
+     },
+     {
+      "label": "SU-76 자주포",
+      "value": 6,
+      "display": "6대",
+      "color": "red",
+      "at": 1.3
+     },
+     {
+      "label": "트럭",
+      "value": 23,
+      "display": "23대",
+      "color": "red",
+      "at": 1.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "s31b",
+   "lines": [
+    "같은 기간, 미군 전사자는 8명이었습니다.",
+    {
+     "t": "하지만 양쪽 능선을 지킨 국군은, 약 2천3백 명이 전사했습니다.",
+     "say": "하지만 양쪽 능선을 지킨 국군은, 약 이천삼백 명이 전사했습니다."
+    }
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "미군 기록 기준 (1950. 8. 18 ~ 25)",
+    "items": [
+     {
+      "label": "미군 전사",
+      "value": 8,
+      "display": "8명",
+      "color": "blue",
+      "at": 0.2
+     },
+     {
+      "label": "국군 전사 (추정)",
+      "value": 2300,
+      "display": "약 2,300명",
+      "color": "blue",
+      "at": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s32",
+   "lines": [
+    {
+     "t": "북한군 제13사단은 이 싸움에서만 3천여 명을 잃고, 더 이상 공격할 힘을 잃었습니다.",
+     "say": "북한군 제십삼사단은 이 싸움에서만 삼천여 명을 잃고, 더 이상 공격할 힘을 잃었습니다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s32-photo",
+    "kb": "in"
+   },
+   "label": "북한군 포로 (1950. 9)",
+   "callouts": [
+    {
+     "text": "북한군 13사단 손실 3,000여 명",
+     "style": "red",
+     "at": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s33",
+   "lines": [
+    "그 무렵, 이 사단의 포병연대장 정봉욱 중좌가 국군 진영으로 넘어옵니다.",
+    "북한군 내부가, 흔들리고 있다는 신호였죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s33-photo",
+    "kb": "in",
+    "frame": true
+   },
+   "label": "정봉욱 중좌 (1950)"
+  },
+  {
+   "id": "s34",
+   "lines": [
+    {
+     "t": "그렇다면 다부동은, 어떻게 55일을 버텨냈을까요?",
+     "say": "그렇다면 다부동은, 어떻게 오십오 일을 버텨냈을까요?"
+    },
+    "네 가지로 정리해 보겠습니다."
+   ],
+   "visual": {
+    "type": "factors",
+    "items": [
+     "병목 지형",
+     "한·미 합동 작전",
+     "압도적 화력",
+     "지휘관의 결단"
+    ],
+    "head": "8,200 vs 21,000 — 어떻게?",
+    "at": 1
+   },
+   "chapter": {
+    "num": "PART 4",
+    "title": "승패를 가른 4가지"
+   }
+  },
+  {
+   "id": "s35",
+   "lines": [
+    "첫째, 지형입니다."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s35-photo",
+    "num": "요인 1",
+    "title": "병목 지형"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s36",
+   "lines": [
+    "유학산과 가산 사이의 좁은 계곡은, 대군이 한꺼번에 밀고 들어올 수 없는 병목이었습니다.",
+    "수가 많은 쪽의 장점이, 이 협곡에서 사라진 것이죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "dabu",
+    "to": "dabu",
+    "zoom": 1.1,
+    "items": [
+     {
+      "k": "marker",
+      "p": "yuhak",
+      "color": "dark",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "gasan",
+      "color": "dark",
+      "at": 0
+     },
+     {
+      "k": "front",
+      "path": [
+       [
+        128.575,
+        36.16
+       ],
+       [
+        128.57,
+        36.12
+       ],
+       [
+        128.565,
+        36.085
+       ],
+       [
+        128.555,
+        36.045
+       ],
+       [
+        128.575,
+        35.96
+       ],
+       [
+        128.601,
+        35.871
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "dabu",
+      "text": "병목",
+      "color": "red",
+      "at": 0.4,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "병목 = 병력 우세 무력화",
+     "style": "yellow",
+     "at": 1
+    }
+   ]
+  },
+  {
+   "id": "s37",
+   "lines": [
+    "둘째, 한미 합동 작전입니다."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s37-photo",
+    "num": "요인 2",
+    "title": "한·미 합동 작전"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s38",
+   "lines": [
+    "국군은 능선의 고지를, 미군은 계곡의 도로를.",
+    "보병과 전차, 포병이 하나의 방어선처럼 맞물려 움직였습니다."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "국군 제1사단",
+     "big": "능선",
+     "icon": "crowd",
+     "color": "blue"
+    },
+    "right": {
+     "title": "미 제27연대",
+     "big": "계곡",
+     "icon": "cannon",
+     "color": "blue",
+     "at": 0.5
+    }
+   }
+  },
+  {
+   "id": "s38b",
+   "lines": [
+    "백선엽은 이 전투에서, 전선의 미 제27연대까지 함께 지휘하는 위치에 섰습니다.",
+    "국군 장군이 미군 연대를 지휘한, 보기 드문 장면이었죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s38b-photo",
+    "kb": "in"
+   },
+   "label": "백선엽 장군과 미군 장교들 (1950. 10)"
+  },
+  {
+   "id": "s39",
+   "lines": [
+    "셋째, 화력입니다."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s39-photo",
+    "num": "요인 3",
+    "title": "압도적 화력"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s40",
+   "lines": [
+    {
+     "t": "8월 16일, B-29 폭격기 98대가 왜관 일대에 약 960톤의 폭탄을 쏟아부었습니다.",
+     "say": "팔월 십육 일, 비 이십구 폭격기 아흔여덟 대가, 왜관 일대에 약 구백육십 톤의 폭탄을 쏟아부었습니다."
+    },
+    {
+     "t": "볼링장 전투에서는 미군 포병 한 개 포대가 쏜 105밀리 포탄만, 1,661발이었죠.",
+     "say": "볼링장 전투에서는, 미군 포병 한 개 포대가 쏜 백오 밀리 포탄만, 천육백육십일 발이었죠."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s40-photo",
+    "kb": "in"
+   },
+   "label": "B-29 폭격 (1950)",
+   "callouts": [
+    {
+     "text": "B-29 98대 · 약 960톤",
+     "style": "red",
+     "at": 0,
+     "until": 1
+    },
+    {
+     "text": "105mm 1,661발 (1개 포대)",
+     "style": "yellow",
+     "at": 1
+    }
+   ],
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s41",
+   "lines": [
+    "넷째, 지휘관의 결단입니다."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s41-photo",
+    "num": "요인 4",
+    "title": "지휘관의 결단"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s42",
+   "lines": [
+    "사단장이 맨 앞에 선 부대는, 쉽게 무너지지 않았습니다.",
+    "그 결단은, 처음 함께 싸우는 한국군과 미군 사이에 신뢰를 만들었죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "rok_us",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s43",
+   "lines": [
+    {
+     "t": "한국 측 기록에 따르면, 이 기간 아군 사상자는 1만여 명.",
+     "say": "한국 측 기록에 따르면, 이 기간 아군 사상자는, 만여 명."
+    },
+    {
+     "t": "북한군 사상자는 1만 7천5백여 명에 이릅니다.",
+     "say": "북한군 사상자는, 만 칠천 오백여 명에 이릅니다."
+    }
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "한국 측 기록 기준 (1950. 8. 1 ~ 9. 24)",
+    "items": [
+     {
+      "label": "아군 사상자",
+      "value": 10000,
+      "display": "1만여 명",
+      "color": "blue",
+      "at": 0.3
+     },
+     {
+      "label": "북한군 사상자",
+      "value": 17500,
+      "display": "1만 7,500여 명",
+      "color": "red",
+      "at": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s44",
+   "lines": [
+    {
+     "t": "숫자만으로는 다 담을 수 없는, 처절한 55일이었습니다.",
+     "say": "숫자만으로는 다 담을 수 없는, 처절한 오십오 일이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "55일",
+    "style": "dark",
+    "sub": "1950. 8. 1 ~ 9. 24"
+   }
+  },
+  {
+   "id": "s45",
+   "lines": [
+    "다부동이 버텨낸 그 시간 동안, 유엔군은 반격을 준비하고 있었습니다.",
+    {
+     "t": "1950년 9월 15일, 인천상륙작전.",
+     "say": "천구백오십 년 구월 십오 일, 인천상륙작전."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s45-photo",
+    "kb": "in"
+   },
+   "label": "인천상륙작전 (1950. 9. 15)",
+   "chapter": {
+    "num": "EPILOGUE",
+    "title": "다부동이 지켜낸 것"
+   }
+  },
+  {
+   "id": "s46",
+   "lines": [
+    "그리고 다음 날, 낙동강 전선의 국군과 유엔군도 일제히 반격에 나섭니다.",
+    "다부동은, 반격이 시작된 출발선이 되었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "perimeter",
+    "to": "korea",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.8,
+        36.45
+       ],
+       [
+        128.65,
+        36.25
+       ],
+       [
+        128.56,
+        36.08
+       ],
+       [
+        128.4,
+        35.99
+       ],
+       [
+        128.37,
+        35.8
+       ],
+       [
+        128.4,
+        35.62
+       ],
+       [
+        128.43,
+        35.48
+       ],
+       [
+        128.42,
+        35.33
+       ],
+       [
+        128.38,
+        35.18
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.56,
+        36.08
+       ],
+       [
+        128.3,
+        36.6
+       ],
+       [
+        127.9,
+        37.2
+       ]
+      ],
+      "color": "blue",
+      "at": 0.3,
+      "width": 1.5
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.9,
+        36.15
+       ],
+       [
+        128.9,
+        36.8
+       ],
+       [
+        128.7,
+        37.4
+       ]
+      ],
+      "color": "blue",
+      "at": 0.45,
+      "width": 1.5
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1950. 9. 16 · 낙동강 전선 총반격",
+     "style": "blue",
+     "at": 0
+    }
+   ]
+  },
+  {
+   "id": "s46b",
+   "lines": [
+    "오늘 다부동에는 전적기념관이 세워져, 해마다 그날의 희생을 기리고 있습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s46b-photo",
+    "kb": "in",
+    "bw": false
+   },
+   "label": "다부동에서 열린 추모식"
+  },
+  {
+   "id": "s47",
+   "lines": [
+    {
+     "t": "지금도 유학산 일대에서는, 6·25 전사자의 유해 발굴이 이어지고 있습니다.",
+     "say": "지금도 유학산 일대에서는, 육이오 전사자의 유해 발굴이 이어지고 있습니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "yuhak_dawn",
+    "kb": "in"
+   }
+  },
+  {
+   "id": "s48",
+   "lines": [
+    "이름도 남기지 못한 채, 이 능선에 잠든 청년들.",
+    "그들 대부분은, 스무 살 안팎의 나이였습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s48-photo",
+    "kb": "in",
+    "frame": true
+   },
+   "label": "국군 신병 (1950)"
+  },
+  {
+   "id": "s48b",
+   "lines": [
+    "그리고 이 산에서 싸운 이들 중에는, 총 대신 지게를 졌던 주민들도 있었습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "jige_porters",
+    "kb": "out"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s49",
+   "lines": [
+    {
+     "t": "대구로 가는 마지막 20킬로미터.",
+     "say": "대구로 가는 마지막 이십 킬로미터."
+    },
+    "그 길을 끝까지 지켜낸 것은, 그 자리에서 물러서지 않은 사람들이었습니다."
+   ],
+   "visual": {
+    "type": "quotes",
+    "title": "다부동이 남긴 것",
+    "items": [
+     {
+      "text": "대구로 가는 마지막 20km",
+      "at": 0
+     },
+     {
+      "text": "그 길을 지킨 것은 물러서지 않은 사람들",
+      "at": 1
+     }
+    ]
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s50",
+   "lines": [
+    "이 이야기가 의미 있으셨다면, 구독과 좋아요로 함께해 주십시오.",
+    "잊혀 가는 전쟁의 기록을... 다음 영상에서도 이어가겠습니다."
+   ],
+   "visual": {
+    "type": "endcard",
+    "title": "1950년 8월, 다부동.\n대구로 가는 마지막 관문.",
+    "q": "s50-photo"
+   },
+   "tail": 3.0
+  }
+ ],
+ "ai_images": {
+  "dabu_night": "A narrow mountain valley road in Korea at night in August 1950, steep forested ridges on both sides, orange artillery flashes on the distant ridgeline, flares hanging in a smoky sky, silhouette of a lone road leading south, cinematic wide shot, dark desaturated palette with orange glow, painterly realistic digital illustration, film grain, no people visible, no text.",
+  "nk_commander": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a North Korean People's Army commander whose head is a round ball painted as the North Korean flag (red with blue stripes and a white circle with a red star), wearing a 1950 khaki KPA uniform and peaked cap, confidently pointing at a paper military map showing a valley road toward a city, in a dim tent lit by a lantern, staff officers behind him, night, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "rok_cliff": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag, wearing 1950 M1 helmets and olive uniforms, climbing a steep rocky granite cliff on a Korean mountain in summer under fire, grenades exploding above them, smoke and dust, dramatic low-angle shot, harsh sunlight, desperate struggle, no text, no letters.",
+  "jige_porters": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Korean civilian porters whose heads are round balls painted as the South Korean taegukgi flag, wearing white 1950 hanbok work clothes, carrying wooden A-frame backpacks (jige) loaded with ammunition boxes and rice sacks up a steep mountain trail in summer heat, soldiers above on the ridge, sweat and determination, cinematic, no text, no letters.",
+  "rok_paik": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a young South Korean division commander whose head is a round ball painted as the South Korean taegukgi flag, wearing a 1950 M1 helmet with general's star and olive uniform, standing in front of retreating soldiers on a mountain slope, raising a pistol forward and leading them back up the hill, soldiers turning to follow him, dramatic heroic composition, dusk light, smoke, leaving calm uncluttered dark background area in the upper left, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "t34_column": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a column of Soviet-made T-34 tanks with North Korean soldiers whose heads are round balls painted as the North Korean flag (red with blue stripes and a white circle with a red star) as tank commanders in the hatches, advancing down a narrow valley road at night, headlights off, moonlight, exhaust smoke, infantry following, ominous, low angle, cold blue night palette, no text, no letters.",
+  "us_tank": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an American M26 Pershing tank crewed by American soldiers whose heads are round balls painted as the United States flag, wearing 1950 M1 helmets and olive uniforms, firing its 90mm gun at night down a valley road, muzzle flash lighting the scene, glowing tracer shell flying low along the road like a bowling ball, infantry in foxholes beside the road, dramatic cinematic lighting, no text, no letters.",
+  "rok_us": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a South Korean soldier whose head is a round ball painted as the South Korean taegukgi flag and an American soldier whose head is a round ball painted as the United States flag, both in 1950 uniforms and M1 helmets, side by side in a hilltop trench, sharing a canteen and looking at the valley below at dawn, comradeship, warm light, no text, no letters.",
+  "yuhak_dawn": "A misty forested Korean mountain ridge at dawn in summer, rocky granite outcrops, wild flowers, an old rusted 1950s steel helmet and a weathered canteen lying among the rocks in the foreground, soft golden light through fog, melancholic, desaturated cinematic realistic painting, film grain, no people, no text."
+ }
+}
