@@ -554,6 +554,204 @@ const QuotesV: React.FC = () => {
   );
 };
 
+/* ---------- 3D 지형 단면 (+ 포격 침식) ---------- */
+type PPt = [number, number];
+const sampleProfile = (pts: PPt[], x: number) => {
+  if (x <= pts[0][0]) return pts[0][1];
+  for (let i = 1; i < pts.length; i++) {
+    if (x <= pts[i][0]) {
+      const [x0, y0] = pts[i - 1];
+      const [x1, y1] = pts[i];
+      const r = (x - x0) / (x1 - x0 || 1);
+      const s = (1 - Math.cos(r * Math.PI)) / 2; // 부드러운 능선
+      return y0 + (y1 - y0) * s;
+    }
+  }
+  return pts[pts.length - 1][1];
+};
+const mixHex = (a: string, b: string, k: number) => {
+  const p = (h: string) => [1, 3, 5].map((i) => parseInt(h.slice(i, i + 2), 16));
+  const A = p(a),
+    B = p(b);
+  return `rgb(${A.map((v, i) => Math.round(v + (B[i] - v) * clamp(k))).join(",")})`;
+};
+const rnd = (n: number) => {
+  const x = Math.sin(n * 127.1 + 311.7) * 43758.5453;
+  return x - Math.floor(x);
+};
+
+const ProfileV: React.FC = () => {
+  const sc = useScene();
+  const v = sc.visual;
+  const t = useT();
+  const N = 160;
+  const X0 = 170,
+    X1 = 1650,
+    BASE = 800;
+  const yMin = v.yMin ?? 150,
+    yMax = v.yMax ?? 450;
+  const Y = (e: number) => BASE - ((e - yMin) / (yMax - yMin)) * 470;
+  const before: PPt[] = v.pts;
+  const after: PPt[] = v.pts2 || v.pts;
+  const eS = v.erodeAt !== undefined ? atSec(sc, v.erodeAt) : 1e9;
+  const eK = v.pts2 ? easeInOut((t - eS) / (v.erodeDur || 3.2)) : 0;
+  const elev = (x: number) => sampleProfile(before, x) * (1 - eK) + sampleProfile(after, x) * eK;
+  const reveal = easeOut(t / 1.3);
+  const LAYERS = 9,
+    DX = 15,
+    DY = -10;
+  const layerPath = (li: number) => {
+    const pts: string[] = [];
+    for (let i = 0; i <= N; i++) {
+      const x = i / N;
+      const wob = li ? (Math.sin(x * 23 + li * 1.7) * 6 + Math.sin(x * 51 + li) * 3) * (1 - li / (LAYERS + 3)) : 0;
+      const e = (elev(x) - yMin) * (1 - li * 0.035) + yMin + wob;
+      pts.push(`${(X0 + (X1 - X0) * x + li * DX).toFixed(1)},${(Y(e) + li * DY).toFixed(1)}`);
+    }
+    return pts;
+  };
+  const cK = v.bare ? 1 : eK; // bare: 처음부터 벗겨진 산
+  const forest = mixHex("#3f5b2c", "#e9e4d6", cK);
+  const forestDark = mixHex("#24361a", "#bdb6a4", cK);
+  const front = layerPath(0);
+  const clipW = (X1 - X0 + LAYERS * DX + 40) * reveal;
+  // 포격 섬광
+  const bursts: React.ReactNode[] = [];
+  if (v.pts2 && t > eS - 0.3) {
+    for (let j = 0; j < 26; j++) {
+      const bt = eS - 0.2 + j * ((v.erodeDur || 3.2) / 20);
+      const age = t - bt;
+      if (age < 0 || age > 0.55) continue;
+      const bx = (v.burstFrom ?? 0.32) + rnd(j) * ((v.burstTo ?? 0.62) - (v.burstFrom ?? 0.32));
+      const li = Math.floor(rnd(j + 50) * 5);
+      const x = X0 + (X1 - X0) * bx + li * DX;
+      const y = Y(elev(bx)) + li * DY;
+      const k = age / 0.55;
+      bursts.push(
+        <g key={j} opacity={1 - k}>
+          <circle cx={x} cy={y - 10} r={18 + 70 * k} fill="#ffb347" opacity={0.55} />
+          <circle cx={x} cy={y - 10} r={8 + 30 * k} fill="#fff4c2" />
+          <circle cx={x} cy={y - 40 - 60 * k} r={30 + 40 * k} fill="rgba(70,60,50,.55)" />
+        </g>
+      );
+    }
+  }
+  const grid = (v.grid || [200, 300, 400]).map((g: number) => (
+    <g key={g}>
+      <line x1={X0} x2={X1 + LAYERS * DX} y1={Y(g)} y2={Y(g)} stroke="rgba(255,255,255,.18)" strokeWidth={2} strokeDasharray="10 10" />
+      <text x={X0 - 18} y={Y(g) + 10} textAnchor="end" fontFamily={F.body} fontWeight={700} fontSize={28} fill="rgba(255,255,255,.7)">
+        {g}m
+      </text>
+    </g>
+  ));
+  return (
+    <AbsoluteFill>
+      <Slate dim={0.35} />
+      <svg width={1920} height={1080} style={{ position: "absolute", inset: 0 }}>
+        <defs>
+          <linearGradient id="pf-soil" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stopColor="#8a6a45" />
+            <stop offset="0.35" stopColor="#6d5233" />
+            <stop offset="1" stopColor="#2e2217" />
+          </linearGradient>
+          <clipPath id="pf-clip">
+            <rect x={X0 - 10} y={0} width={clipW} height={1080} />
+          </clipPath>
+        </defs>
+        {grid}
+        <g clipPath="url(#pf-clip)">
+          {Array.from({ length: LAYERS })
+            .map((_, i) => LAYERS - i)
+            .map((li) => {
+              const p = layerPath(li);
+              const last = p[p.length - 1].split(",");
+              const first = p[0].split(",");
+              const shade = 1 - li / (LAYERS + 2);
+              return (
+                <path
+                  key={li}
+                  d={`M${first[0]},${BASE + li * DY} L${p.join(" L")} L${last[0]},${BASE + li * DY} Z`}
+                  fill={li % 2 ? forest : forestDark}
+                  opacity={0.35 + 0.55 * shade}
+                  stroke="rgba(0,0,0,.35)"
+                  strokeWidth={1.5}
+                />
+              );
+            })}
+          {/* 앞 단면 (지층) */}
+          <path d={`M${X0},${BASE + 60} L${front.join(" L")} L${X1},${BASE + 60} Z`} fill="url(#pf-soil)" stroke="#1a120b" strokeWidth={3} />
+          <path d={`M${front.join(" L")}`} fill="none" stroke={mixHex("#7fa35a", "#ffffff", cK)} strokeWidth={9} strokeLinejoin="round" />
+          {/* 지층선 */}
+          {[0.25, 0.5, 0.75].map((f) => (
+            <path
+              key={f}
+              d={`M${Array.from({ length: N + 1 })
+                .map((_, i) => {
+                  const x = i / N;
+                  const top = Y(elev(x));
+                  return `${(X0 + (X1 - X0) * x).toFixed(1)},${(top + (BASE + 60 - top) * f).toFixed(1)}`;
+                })
+                .join(" L")}`}
+              fill="none"
+              stroke="rgba(0,0,0,.22)"
+              strokeWidth={3}
+            />
+          ))}
+          {bursts}
+        </g>
+        {(v.arrows || []).map((a: any, i: number) => {
+          const s0 = atSec(sc, a.at);
+          const k = easeOut((t - s0) / (a.dur || 1.3));
+          if (k <= 0) return null;
+          const xa = a.from + (a.to - a.from) * k;
+          const pts: string[] = [];
+          for (let j = 0; j <= 40; j++) {
+            const x = a.from + ((xa - a.from) * j) / 40;
+            pts.push(`${(X0 + (X1 - X0) * x).toFixed(1)},${(Y(elev(x)) - (a.lift ?? 70)).toFixed(1)}`);
+          }
+          const col = a.color === "red" ? C.red : C.blue;
+          const tip = pts[pts.length - 1].split(",").map(Number);
+          const dir = Math.sign(a.to - a.from);
+          return (
+            <g key={i}>
+              <path d={`M${pts.join(" L")}`} fill="none" stroke="rgba(0,0,0,.35)" strokeWidth={26} strokeLinecap="round" />
+              <path d={`M${pts.join(" L")}`} fill="none" stroke={col} strokeWidth={18} strokeLinecap="round" />
+              <path d={`M${tip[0] + dir * 34},${tip[1]} L${tip[0] - dir * 6},${tip[1] - 26} L${tip[0] - dir * 6},${tip[1] + 26} Z`} fill={col} />
+            </g>
+          );
+        })}
+      </svg>
+      {(v.marks || []).map((m: any, i: number) => {
+        const s0 = atSec(sc, m.at) + 0.1;
+        const k = popIn((t - s0) / 0.4);
+        if (t < s0) return null;
+        const x = X0 + (X1 - X0) * m.x;
+        const y = Y(elev(m.x)) - (m.lift ?? 120);
+        return (
+          <div key={i} style={{ position: "absolute", left: x, top: y, transform: `translate(-50%,-100%) scale(${Math.max(0, k)})`, transformOrigin: "bottom center", textAlign: "center" }}>
+            <CalloutBox text={m.text} style={m.style || "yellow"} size={m.size || 54} />
+            <div style={{ width: 4, height: (m.lift ?? 120) - 16, background: "rgba(255,255,255,.85)", margin: "0 auto" }} />
+          </div>
+        );
+      })}
+      {v.left && (
+        <div style={{ position: "absolute", left: X0 + 10, top: Y(elev(0.02)) - 78, fontFamily: F.head, fontSize: 40, color: "#fff", textShadow: "0 3px 10px rgba(0,0,0,.8)", opacity: clamp(t * 2) }}>{v.left}</div>
+      )}
+      {v.right && (
+        <div style={{ position: "absolute", right: 1920 - X1, top: Y(elev(0.98)) - 78, fontFamily: F.head, fontSize: 40, color: "#fff", textShadow: "0 3px 10px rgba(0,0,0,.8)", opacity: clamp(t * 2) }}>{v.right}</div>
+      )}
+      {v.title && (
+        <div style={{ position: "absolute", top: 70, left: 0, right: 0, textAlign: "center" }}>
+          <Appear at={0}>
+            <CalloutBox text={v.title} style="dark" size={58} />
+          </Appear>
+        </div>
+      )}
+      {v.note && <div style={{ position: "absolute", left: X0, top: 160, fontFamily: F.body, fontWeight: 700, fontSize: 26, color: "rgba(255,255,255,.7)" }}>※ {v.note}</div>}
+    </AbsoluteFill>
+  );
+};
+
 /* ---------- 콜드 오픈 몽타주 ---------- */
 const TeaserV: React.FC = () => {
   const v = useScene().visual;
@@ -632,6 +830,8 @@ export const Visual: React.FC<{ tl: Timeline }> = ({ tl }) => {
       return <WeekBarV />;
     case "quotes":
       return <QuotesV />;
+    case "profile":
+      return <ProfileV />;
     default:
       return <Slate />;
   }

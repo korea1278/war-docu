@@ -108,6 +108,12 @@ def main(src, dst, lang):
                 for it, x in zip(v["items"], t["quotes"]):
                     it["text"] = x
                 v["title"] = t.get("quoteTitle")
+            elif ty == "profile":
+                for k in ("title", "note", "left", "right"):
+                    if k in v:
+                        v[k] = t[k]
+                for it, x in zip(v.get("marks", []), t.get("marks", [])):
+                    it["text"] = x
             elif ty == "endcard":
                 v["title"] = t["title"]
     if missing:

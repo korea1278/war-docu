@@ -1,0 +1,578 @@
+{
+ "title": "Battle of White Horse Hill (1952): 10 Days, 24 Changes of Hands",
+ "subtitle": "Oct 6 – 15, 1952",
+ "voice": "pNInz6obpgDQGcFmaJgB",
+ "tempo": 1.02,
+ "places": {
+  "seoul": "Seoul",
+  "pmj": "Panmunjom",
+  "cheorwon": "Cheorwon",
+  "kimhwa": "Kimhwa",
+  "pyonggang": "Pyonggang",
+  "baengma": "Hill 395",
+  "arrow281": "Hill 281",
+  "nakta": "Camel Ridge",
+  "bongnae": "Pongnae Res.",
+  "flood": "Yokkok Stream",
+  "c38a": "Chinese 38th Army",
+  "c38b": "Chinese",
+  "r28": "28th Regt",
+  "r29": "29th Regt",
+  "r30": "30th Regt"
+ },
+ "text": {
+  "395고지": "Hill 395",
+  "국군 9사단": "ROK 9th Div",
+  "중공군 38군": "Chinese 38th Army",
+  "3개 사단": "3 Divisions",
+  "봉래호 수문 개방": "Pongnae Floodgates Opened",
+  "역곡천 범람": "Yokkok Stream Flooded",
+  "프랑스 대대": "French Bn",
+  "28연대": "28th Regt",
+  "29연대": "29th Regt",
+  "30연대": "30th Regt",
+  "주봉 · 중공군": "Main Peak · Chinese",
+  "30연대 1대대": "1st Bn, 30th Regt",
+  "주봉": "Main Peak",
+  "낙타 능선": "Camel Ridge",
+  "10. 14 10:40 확보": "Oct 14 · 10:40 Secured",
+  "백마고지": "White Horse Hill"
+ },
+ "scenes": {
+  "s01": {
+   "lines": [
+    "October 1952. Cheorwon, Gangwon Province.",
+    "On a nameless hill just 395 meters high, two armies staked everything."
+   ],
+   "callouts": [
+    "OCTOBER 1952 · CHEORWON"
+   ]
+  },
+  "s02": {
+   "lines": [
+    "The Chinese command's math was simple.",
+    "Three times the men. Push hard, and the hill falls."
+   ],
+   "label": "Dramatization",
+   "bubbles": [
+    "Three to one.\nPush them off!"
+   ]
+  },
+  "s03": {
+   "lines": [
+    "In ten days, about 280,000 shells from both sides fell on this one hill.",
+    "The forest burned away, and the ridgeline was stripped bare and white."
+   ],
+   "callouts": [
+    "~280,000 SHELLS · ROK RECORDS"
+   ],
+   "note": "Schematic cross-section (vertical exaggeration)"
+  },
+  "s04": {
+   "lines": [
+    "In that time, the hill is said to have changed hands twenty-four times."
+   ],
+   "big": "A Hill That Changed Hands 24 Times",
+   "sub": "Oct 6 – 15, 1952"
+  },
+  "s05": {
+   "lines": [
+    "On one side, the ROK 9th Infantry Division. On the other, the elite Chinese 38th Army.",
+    "The attackers outnumbered the defenders more than three to one."
+   ],
+   "callouts": [
+    "Per South Korean records"
+   ],
+   "left": "ROK 9th Div ~12,000",
+   "right": "Chinese 38th Army · 3 Divs"
+  },
+  "s06": {
+   "lines": [
+    "And ten days later,",
+    "the men still standing on that hill were South Korean."
+   ],
+   "text": "Ten days later,\nwho still held the hill?"
+  },
+  "s07": {
+   "lines": [
+    "When the smoke cleared, the hill looked like a white horse lying on its side.",
+    "This is the battle that decided the fate of the Cheorwon plain: the Battle of White Horse Hill."
+   ],
+   "title": "Battle of White Horse Hill",
+   "sub": "10 Days, 24 Changes of Hands · 1952"
+  },
+  "s08": {
+   "lines": [
+    "By 1952, the war was entering its third year.",
+    "The front had stalled near the 38th Parallel, as truce talks dragged on at Panmunjom."
+   ],
+   "chapter": [
+    "PART 1",
+    "KEY TO THE CHEORWON PLAIN"
+   ]
+  },
+  "s09": {
+   "lines": [
+    "Where the ceasefire line would be drawn depended on who held which ground.",
+    "So both sides poured blood into every single hill."
+   ],
+   "callouts": [
+    "Every Hill = a Bargaining Chip"
+   ]
+  },
+  "s10": {
+   "lines": [
+    "At the center lay the so-called Iron Triangle, linking Cheorwon, Kimhwa, and Pyonggang.",
+    "The heart of the central front, where every major road met."
+   ],
+   "callouts": [
+    "THE IRON TRIANGLE"
+   ]
+  },
+  "s11": {
+   "lines": [
+    "And northwest of the Cheorwon plain, a lone ridge looked down over the flatland.",
+    "On the maps, it carried only a number: Hill 395."
+   ]
+  },
+  "s12": {
+   "lines": [
+    "The plain around it sat at roughly 200 meters above sea level.",
+    "From this solitary peak, the entire Cheorwon area lay open below."
+   ],
+   "title": "Hill 395 · Terrain Cross-Section",
+   "note": "North–south schematic (vertical exaggeration)",
+   "left": "N · Chinese Lines",
+   "right": "S · Cheorwon Plain",
+   "marks": [
+    "Plain ~200 m",
+    "395 m",
+    "Yokkok Stream"
+   ]
+  },
+  "s13": {
+   "lines": [
+    "If it fell, the U.S. IX Corps would have to give up the Cheorwon area.",
+    "For the Chinese, it would open a road leading south."
+   ],
+   "callouts": [
+    "Hill 395 = Key to Cheorwon"
+   ]
+  },
+  "s14": {
+   "lines": [
+    "The hill was entrusted to Major General Kim Jong-oh, commander of the ROK 9th Division.",
+    "On the first day of the war, he had held the North Koreans at Chuncheon for three days."
+   ],
+   "label": "Maj. Gen. Kim Jong-oh (left) · 1954"
+  },
+  "s15": {
+   "lines": [
+    "In 1951, the 9th Division had been rebuilt through a grueling retraining program.",
+    "Now, about 12,000 of its men faced their true test."
+   ],
+   "label": "ROK troops training in U.S. style (Feb 1952)"
+  },
+  "s16": {
+   "lines": [
+    "Their opponent was the Chinese 38th Army.",
+    "In the winter of 1950, Peng Dehuai was said to have hailed it with the words 'Long live the 38th Army.'"
+   ]
+  },
+  "s17": {
+   "lines": [
+    "On October 3rd, a Chinese officer crossed over to the South Korean lines.",
+    "What he revealed was alarming: a full-scale assault on this hill was coming soon."
+   ],
+   "label": "Dramatization",
+   "bubbles": [
+    "The big attack\nis coming!"
+   ]
+  },
+  "s18": {
+   "lines": [
+    "The 9th Division ringed the hill with tanks, anti-aircraft guns, and searchlights.",
+    "Flares to turn night into day were piled high."
+   ],
+   "label": "M46 tank with searchlight (Korean War)"
+  },
+  "s19": {
+   "lines": [
+    "October 6th, 1952.",
+    "Chinese shells began to blanket Hill 395."
+   ],
+   "chapter": [
+    "PART 2",
+    "TEN DAYS OF STRUGGLE"
+   ],
+   "text": "OCT 6, 1952",
+   "accent": "ASSAULT BEGINS"
+  },
+  "s20": {
+   "lines": [
+    "At the same time, the Chinese blew open the floodgates of the Pongnae reservoir to the north.",
+    "The swollen Yokkok Stream cut off the hill's rear, so ROK reinforcements could not cross."
+   ]
+  },
+  "s21": {
+   "lines": [
+    "As night fell, Chinese infantry swarmed the slopes to the sound of bugles and whistles.",
+    "When the front rank fell, the next rank climbed right over them."
+   ],
+   "label": "Dramatization"
+  },
+  "s22": {
+   "lines": [
+    "South Korean and American artillery laid a barrage in front of the hill with eighty-one guns.",
+    "On the first night alone, an estimated five hundred Chinese soldiers fell."
+   ],
+   "label": "155mm howitzer firing · near Kumhwa (Jun 1952)",
+   "callouts": [
+    "81 GUNS · U.S. RECORDS"
+   ]
+  },
+  "s23": {
+   "lines": [
+    "Around the same time, Chinese troops also massed against Hill 281, 'Arrowhead,' to the southeast.",
+    "The French Battalion holding it threw back every assault."
+   ],
+   "callouts": [
+    "Hill 281 (Arrowhead)"
+   ]
+  },
+  "s24": {
+   "lines": [
+    "Control of the hill flipped between night and day.",
+    "By night the Chinese took it; by morning the South Koreans took it back."
+   ],
+   "label": "Dramatization"
+  },
+  "s24b": {
+   "lines": [
+    "When ammunition ran out in the trenches, men fought hand to hand with bayonets and rifle butts.",
+    "Day by day, the soil on the hill turned the color of blood."
+   ],
+   "label": "Wounded ROK soldier carried through a trench · Capital Hill (Sep 1952)"
+  },
+  "s25": {
+   "lines": [
+    "On October 10th, at 4:30 in the morning, the hill was lost again.",
+    "But at 8:15 that same morning, South Korean troops took it back once more."
+   ],
+   "items": [
+    [
+     "OCT 10 · 04:30",
+     "LOST"
+    ],
+    [
+     "OCT 10 · 08:15",
+     "RETAKEN"
+    ]
+   ]
+  },
+  "s26": {
+   "lines": [
+    "At the Hwarang Hill outpost, 23-year-old platoon leader 2nd Lt. Lee Seong-deok fought on, surrounded.",
+    "Out of ammunition and water, he held to the end, and was killed on October 7th."
+   ],
+   "label": "Dramatization",
+   "callouts": [
+    "2nd Lt. Lee Seong-deok · 30th Regt"
+   ]
+  },
+  "s27": {
+   "lines": [
+    "General Kim rotated his regiments into the fight, one after another.",
+    "When the 28th Regiment was spent, in went the 29th, and then the 30th."
+   ],
+   "callouts": [
+    "Rotating the Reserves"
+   ]
+  },
+  "s28": {
+   "lines": [
+    "Most counterattacks came at night.",
+    "Under the glare of flares, small platoons crawled up the ridgeline with grenades in hand."
+   ],
+   "label": "Dramatization"
+  },
+  "s29": {
+   "lines": [
+    "At first light, American fighter-bombers came screaming down from the sky.",
+    "More than 358 napalm bombs alone fell on and around the hill."
+   ],
+   "label": "Napalm strike (Oct 1952)",
+   "callouts": [
+    "U.S. 5th AF · 745 SORTIES",
+    "358+ NAPALM BOMBS"
+   ]
+  },
+  "s30": {
+   "lines": [
+    "October 12th.",
+    "The 1st Battalion, 30th Regiment, moved out against the main peak, once again in Chinese hands."
+   ],
+   "chapter": [
+    "PART 3",
+    "OCT 12 · RETAKING THE PEAK"
+   ]
+  },
+  "s31": {
+   "lines": [
+    "First, U.S. artillery fired a 'Time on Target' strike, many batteries hitting one point at once.",
+    "Two Chinese battalions forming up to attack were wiped out where they stood."
+   ],
+   "label": "155mm 'Long Tom' firing at night (Korean War)",
+   "callouts": [
+    "TIME ON TARGET"
+   ]
+  },
+  "s32": {
+   "lines": [
+    "But just below the summit, a single Chinese machine-gun bunker blocked the way.",
+    "Again and again, 1st Company's charges broke against it."
+   ],
+   "label": "Dramatization"
+  },
+  "s33": {
+   "lines": [
+    "Then platoon leader 2nd Lt. Kang Seung-woo and two soldiers, Oh Gyu-bong and Ahn Young-kwon, stepped forward.",
+    "Clutching explosives and grenades, they threw themselves at the machine-gun nest."
+   ],
+   "label": "Dramatization"
+  },
+  "s34": {
+   "lines": [
+    "The bunker collapsed in a thunderous blast,",
+    "and the three men never came back."
+   ],
+   "text": "OCT 12, 1952"
+  },
+  "s35": {
+   "lines": [
+    "In that opening, 1st Company charged all at once.",
+    "At 1:20 p.m., the main peak of Hill 395 was back in South Korean hands."
+   ],
+   "left": "N",
+   "right": "S",
+   "marks": [
+    "OCT 12 · 13:20 PEAK RETAKEN"
+   ]
+  },
+  "s36": {
+   "lines": [
+    "In later years, they would be remembered as the 'Three Heroes of White Horse Hill.'"
+   ],
+   "big": "The Three Heroes",
+   "sub": "2nd Lt. Kang Seung-woo · Oh Gyu-bong · Ahn Young-kwon"
+  },
+  "s37": {
+   "lines": [
+    "What remained was Camel Ridge, northwest of the peak.",
+    "On the morning of October 14th, the 29th Regiment finally seized that ridge as well."
+   ]
+  },
+  "s38": {
+   "lines": [
+    "That night, the Chinese 38th Army finally pulled back.",
+    "Ten days of fighting for the hill had come to an end."
+   ],
+   "callouts": [
+    "OCT 14 NIGHT · 38TH ARMY WITHDRAWS"
+   ]
+  },
+  "s39": {
+   "lines": [
+    "As the smoke lifted, people were stunned by what was left of the hill.",
+    "The forest was gone, and the stripped ridge looked like a white horse lying down."
+   ],
+   "label": "Dramatization"
+  },
+  "s40": {
+   "lines": [
+    "And so it got its name: 'Baengma-goji,' White Horse Hill."
+   ],
+   "hanja": [
+    "Baek · White",
+    "Ma · Horse",
+    "Go · High",
+    "Ji · Ground"
+   ]
+  },
+  "s41": {
+   "lines": [
+    "Against an enemy three times its size, how did the ROK Army hold this hill?",
+    "Let's break it down into four factors."
+   ],
+   "chapter": [
+    "PART 4",
+    "4 DECIDING FACTORS"
+   ],
+   "items": [
+    "Advance Warning",
+    "Overwhelming Firepower",
+    "Reserve Rotation",
+    "A Reborn Army"
+   ],
+   "head": "1 Division vs 3 — How?"
+  },
+  "s42": {
+   "lines": [
+    "First, they knew the attack was coming."
+   ],
+   "num": "Factor 1",
+   "title": "Advance Warning"
+  },
+  "s43": {
+   "lines": [
+    "Thanks to the defector's warning, the 9th Division had three days to fortify the hill.",
+    "What might have been a surprise attack walked straight into a prepared trap."
+   ],
+   "label": "4.2-inch mortar position west of Chorwon (May 1952)"
+  },
+  "s44": {
+   "lines": [
+    "Second, firepower."
+   ],
+   "num": "Factor 2",
+   "title": "Overwhelming Firepower"
+  },
+  "s45": {
+   "lines": [
+    "South Korean and UN guns fired more than 185,000 rounds.",
+    "The Chinese fired about 55,000."
+   ],
+   "note": "Shells fired · per ROK and U.S. records",
+   "bars": [
+    [
+     "ROK & UN",
+     "185,000+"
+    ],
+    [
+     "Chinese",
+     "~55,000"
+    ]
+   ]
+  },
+  "s46": {
+   "lines": [
+    "Third, a commander's instinct for handling his reserves."
+   ],
+   "num": "Factor 3",
+   "title": "Reserve Rotation"
+  },
+  "s47": {
+   "lines": [
+    "General Kim sent in a fresh regiment before the one in the line could collapse.",
+    "He never gave the Chinese a moment to catch their breath."
+   ],
+   "left": [
+    "Spent Regiment",
+    "REFIT"
+   ],
+   "right": [
+    "Fresh Regiment",
+    "COUNTERATTACK"
+   ]
+  },
+  "s48": {
+   "lines": [
+    "Fourth, a South Korean army that had remade itself."
+   ],
+   "num": "Factor 4",
+   "title": "A Reborn Army"
+  },
+  "s49": {
+   "lines": [
+    "Barely a year earlier, ROK units had often crumbled before Chinese offensives.",
+    "Now, after intense retraining, that same army stopped the elite 38th Army head-on."
+   ],
+   "label": "ROK troops in training (Jan 1952)"
+  },
+  "s50": {
+   "lines": [
+    "According to South Korean records, the 9th Division suffered 3,422 casualties.",
+    "Chinese casualties are put at over 14,000, though Chinese sources give a figure of 6,700."
+   ],
+   "note": "Casualties · by reporting side (Oct 6 – 15, 1952)",
+   "bars": [
+    [
+     "ROK 9th Div",
+     "3,422"
+    ],
+    [
+     "Chinese (ROK est.)",
+     "14,332"
+    ],
+    [
+     "Chinese (PRC figure)",
+     "6,700"
+    ]
+   ]
+  },
+  "s51": {
+   "lines": [
+    "Behind every one of those numbers was someone's son, someone's brother."
+   ],
+   "big": "TEN DAYS",
+   "sub": "Oct 6 – 15, 1952"
+  },
+  "s52": {
+   "lines": [
+    "After this battle, the ROK 9th Division earned a new name: the 'White Horse Division.'",
+    "That name remains the symbol of the division to this day."
+   ],
+   "label": "ROK 9th Division today (2008)",
+   "chapter": [
+    "EPILOGUE",
+    "IN THE NAME OF THE WHITE HORSE"
+   ]
+  },
+  "s53": {
+   "lines": [
+    "Then, on July 27th, 1953, the Armistice Agreement was signed.",
+    "White Horse Hill was left just as it was, inside the Demilitarized Zone."
+   ],
+   "callouts": [
+    "JULY 27, 1953 · ARMISTICE"
+   ]
+  },
+  "s54": {
+   "lines": [
+    "South of the hill, a battlefield memorial and monument now honor the sacrifices of those days."
+   ],
+   "label": "White Horse Hill battle memorial"
+  },
+  "s55": {
+   "lines": [
+    "Even today, the remains of the war dead are still being recovered in this area."
+   ],
+   "label": "Recovering remains at White Horse Hill · ROK MND"
+  },
+  "s56": {
+   "lines": [
+    "A hill just 395 meters high.",
+    "Beneath that number, thousands of young lives lie at rest."
+   ],
+   "label": "ROK soldier (Mar 1952)"
+  },
+  "s57": {
+   "lines": [
+    "A mountain stripped as white as a horse.",
+    "And those who held it to the very end were the ones who would not step back."
+   ],
+   "quotes": [
+    "A hill stripped white as a horse",
+    "Held by those who would not step back"
+   ],
+   "quoteTitle": "What White Horse Hill Left Behind"
+  },
+  "s58": {
+   "lines": [
+    "If this story meant something to you, please subscribe and like the video.",
+    "We'll continue to bring the forgotten records of war to light."
+   ],
+   "title": "October 1952. Cheorwon.\nHill 395 Became a White Horse."
+  }
+ }
+}

@@ -1,0 +1,2382 @@
+{
+ "title": "Battle of White Horse Hill (1952): 10 Days, 24 Changes of Hands",
+ "subtitle": "Oct 6 – 15, 1952",
+ "target_sec": 510,
+ "places": {
+  "seoul": [
+   126.978,
+   37.566,
+   "Seoul"
+  ],
+  "pmj": [
+   126.677,
+   37.956,
+   "Panmunjom"
+  ],
+  "cheorwon": [
+   127.212,
+   38.248,
+   "Cheorwon"
+  ],
+  "kimhwa": [
+   127.435,
+   38.272,
+   "Kimhwa"
+  ],
+  "pyonggang": [
+   127.29,
+   38.41,
+   "Pyonggang"
+  ],
+  "baengma": [
+   127.197,
+   38.296,
+   "Hill 395"
+  ],
+  "arrow281": [
+   127.226,
+   38.283,
+   "Hill 281"
+  ],
+  "nakta": [
+   127.183,
+   38.307,
+   "Camel Ridge"
+  ],
+  "bongnae": [
+   127.265,
+   38.385,
+   "Pongnae Res."
+  ],
+  "flood": [
+   127.225,
+   38.282,
+   "Yokkok Stream"
+  ],
+  "c38a": [
+   127.17,
+   38.345,
+   "Chinese 38th Army"
+  ],
+  "c38b": [
+   127.235,
+   38.355,
+   "Chinese"
+  ],
+  "r28": [
+   127.165,
+   38.272,
+   "28th Regt"
+  ],
+  "r29": [
+   127.192,
+   38.262,
+   "29th Regt"
+  ],
+  "r30": [
+   127.222,
+   38.27,
+   "30th Regt"
+  ]
+ },
+ "views": {
+  "korea": {
+   "center": [
+    127.6,
+    37.55
+   ],
+   "span": 6.0
+  },
+  "front": {
+   "center": [
+    127.4,
+    38.1
+   ],
+   "span": 2.4
+  },
+  "triangle": {
+   "center": [
+    127.3,
+    38.31
+   ],
+   "span": 0.62
+  },
+  "baengma": {
+   "center": [
+    127.205,
+    38.3
+   ],
+   "span": 0.17
+  },
+  "near": {
+   "center": [
+    127.198,
+    38.292
+   ],
+   "span": 0.095
+  }
+ },
+ "music": [
+  {
+   "id": "drone",
+   "from": "s01",
+   "to": "s07",
+   "volume": 0.2
+  },
+  {
+   "id": "theme",
+   "from": "s08",
+   "to": "s18",
+   "volume": 0.16
+  },
+  {
+   "id": "tension",
+   "from": "s19",
+   "to": "s29",
+   "volume": 0.17
+  },
+  {
+   "id": "march",
+   "from": "s30",
+   "to": "s40",
+   "volume": 0.15
+  },
+  {
+   "id": "analysis",
+   "from": "s41",
+   "to": "s51",
+   "volume": 0.13
+  },
+  {
+   "id": "somber",
+   "from": "s52",
+   "to": "s58",
+   "volume": 0.17
+  }
+ ],
+ "scenes": [
+  {
+   "id": "s01",
+   "lines": [
+    "October 1952. Cheorwon, Gangwon Province.",
+    "On a nameless hill just 395 meters high, two armies staked everything."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "hill_night",
+    "kb": "in"
+   },
+   "visuals": [
+    {
+     "atLine": 1,
+     "type": "map",
+     "from": "korea",
+     "to": "triangle",
+     "items": [
+      {
+       "k": "marker",
+       "p": "cheorwon",
+       "color": "dark",
+       "at": 0.3
+      },
+      {
+       "k": "unit",
+       "p": "baengma",
+       "text": "Hill 395",
+       "color": "red",
+       "at": 0.7,
+       "pulse": true
+      }
+     ]
+    }
+   ],
+   "callouts": [
+    {
+     "text": "OCTOBER 1952 · CHEORWON",
+     "style": "yellow",
+     "at": 0,
+     "until": 0
+    }
+   ],
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0,
+     "volume": 0.4
+    },
+    {
+     "id": "artillery_far",
+     "at": 0,
+     "volume": 0.35
+    },
+    {
+     "id": "whoosh",
+     "at": 1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "lines": [
+    "The Chinese command's math was simple.",
+    "Three times the men. Push hard, and the hill falls."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "pva_commander",
+    "kb": "in",
+    "bubbles": [
+     {
+      "text": "Three to one.\nPush them off!",
+      "x": 0.7,
+      "y": 0.2,
+      "at": 1
+     }
+    ]
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s03",
+   "lines": [
+    "In ten days, about 280,000 shells from both sides fell on this one hill.",
+    "The forest burned away, and the ridgeline was stripped bare and white."
+   ],
+   "visual": {
+    "type": "profile",
+    "pts": [
+     [
+      0,
+      214
+     ],
+     [
+      0.1,
+      222
+     ],
+     [
+      0.18,
+      242
+     ],
+     [
+      0.26,
+      282
+     ],
+     [
+      0.33,
+      345
+     ],
+     [
+      0.39,
+      384
+     ],
+     [
+      0.43,
+      395
+     ],
+     [
+      0.47,
+      382
+     ],
+     [
+      0.52,
+      342
+     ],
+     [
+      0.57,
+      272
+     ],
+     [
+      0.62,
+      206
+     ],
+     [
+      0.66,
+      188
+     ],
+     [
+      0.7,
+      198
+     ],
+     [
+      0.8,
+      210
+     ],
+     [
+      0.9,
+      214
+     ],
+     [
+      1,
+      216
+     ]
+    ],
+    "pts2": [
+     [
+      0,
+      214
+     ],
+     [
+      0.1,
+      222
+     ],
+     [
+      0.18,
+      240
+     ],
+     [
+      0.26,
+      276
+     ],
+     [
+      0.3,
+      318
+     ],
+     [
+      0.33,
+      334
+     ],
+     [
+      0.355,
+      352
+     ],
+     [
+      0.37,
+      346
+     ],
+     [
+      0.39,
+      372
+     ],
+     [
+      0.41,
+      360
+     ],
+     [
+      0.43,
+      389
+     ],
+     [
+      0.45,
+      368
+     ],
+     [
+      0.47,
+      374
+     ],
+     [
+      0.5,
+      340
+     ],
+     [
+      0.52,
+      330
+     ],
+     [
+      0.55,
+      284
+     ],
+     [
+      0.57,
+      266
+     ],
+     [
+      0.62,
+      204
+     ],
+     [
+      0.66,
+      188
+     ],
+     [
+      0.7,
+      198
+     ],
+     [
+      0.8,
+      210
+     ],
+     [
+      0.9,
+      214
+     ],
+     [
+      1,
+      216
+     ]
+    ],
+    "erodeAt": 0.2,
+    "erodeDur": 4.5,
+    "grid": [
+     200,
+     300,
+     400
+    ],
+    "marks": [
+     {
+      "x": 0.43,
+      "text": "395고지",
+      "style": "yellow",
+      "at": 0,
+      "lift": 130
+     }
+    ],
+    "note": "Schematic cross-section (vertical exaggeration)"
+   },
+   "callouts": [
+    {
+     "text": "~280,000 SHELLS · ROK RECORDS",
+     "style": "red",
+     "at": 0.6,
+     "pos": "lower"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "artillery",
+     "at": 0.3,
+     "volume": 0.5
+    },
+    {
+     "id": "boom",
+     "at": 0.8,
+     "volume": 0.45
+    },
+    {
+     "id": "artillery_far",
+     "at": 1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "lines": [
+    "In that time, the hill is said to have changed hands twenty-four times."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "A Hill That Changed Hands 24 Times",
+    "style": "red",
+    "sub": "Oct 6 – 15, 1952",
+    "subAt": 0
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0.4,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "lines": [
+    "On one side, the ROK 9th Infantry Division. On the other, the elite Chinese 38th Army.",
+    "The attackers outnumbered the defenders more than three to one."
+   ],
+   "visual": {
+    "type": "versus",
+    "left": {
+     "n": 1,
+     "label": "ROK 9th Div ~12,000",
+     "color": "blue"
+    },
+    "right": {
+     "n": 3,
+     "label": "Chinese 38th Army · 3 Divs",
+     "color": "red"
+    },
+    "at": 1
+   },
+   "callouts": [
+    {
+     "text": "Per South Korean records",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s06",
+   "lines": [
+    "And ten days later,",
+    "the men still standing on that hill were South Korean."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "Ten days later,\nwho still held the hill?"
+   },
+   "pauseBefore": 0.4
+  },
+  {
+   "id": "s07",
+   "lines": [
+    "When the smoke cleared, the hill looked like a white horse lying on its side.",
+    "This is the battle that decided the fate of the Cheorwon plain: the Battle of White Horse Hill."
+   ],
+   "visual": {
+    "type": "titlecard",
+    "q": "s07-photo",
+    "title": "Battle of White Horse Hill",
+    "sub": "10 Days, 24 Changes of Hands · 1952",
+    "at": 1
+   },
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 1,
+     "volume": 0.5
+    }
+   ],
+   "flash": true
+  },
+  {
+   "id": "s08",
+   "lines": [
+    "By 1952, the war was entering its third year.",
+    "The front had stalled near the 38th Parallel, as truce talks dragged on at Panmunjom."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "korea",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.65,
+        37.75
+       ],
+       [
+        126.68,
+        37.95
+       ],
+       [
+        126.95,
+        38.12
+       ],
+       [
+        127.15,
+        38.26
+       ],
+       [
+        127.2,
+        38.3
+       ],
+       [
+        127.45,
+        38.33
+       ],
+       [
+        127.8,
+        38.3
+       ],
+       [
+        128.05,
+        38.3
+       ],
+       [
+        128.25,
+        38.45
+       ],
+       [
+        128.37,
+        38.62
+       ]
+      ],
+      "at": 0.3
+     },
+     {
+      "k": "marker",
+      "p": "pmj",
+      "color": "dark",
+      "at": 1.4
+     }
+    ]
+   },
+   "chapter": {
+    "num": "PART 1",
+    "title": "KEY TO THE CHEORWON PLAIN"
+   }
+  },
+  {
+   "id": "s09",
+   "lines": [
+    "Where the ceasefire line would be drawn depended on who held which ground.",
+    "So both sides poured blood into every single hill."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "front",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.65,
+        37.75
+       ],
+       [
+        126.68,
+        37.95
+       ],
+       [
+        126.95,
+        38.12
+       ],
+       [
+        127.15,
+        38.26
+       ],
+       [
+        127.2,
+        38.3
+       ],
+       [
+        127.45,
+        38.33
+       ],
+       [
+        127.8,
+        38.3
+       ],
+       [
+        128.05,
+        38.3
+       ],
+       [
+        128.25,
+        38.45
+       ],
+       [
+        128.37,
+        38.62
+       ]
+      ],
+      "at": 0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "Every Hill = a Bargaining Chip",
+     "style": "yellow",
+     "at": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "lines": [
+    "At the center lay the so-called Iron Triangle, linking Cheorwon, Kimhwa, and Pyonggang.",
+    "The heart of the central front, where every major road met."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "front",
+    "to": "triangle",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.65,
+        37.75
+       ],
+       [
+        126.68,
+        37.95
+       ],
+       [
+        126.95,
+        38.12
+       ],
+       [
+        127.15,
+        38.26
+       ],
+       [
+        127.2,
+        38.3
+       ],
+       [
+        127.45,
+        38.33
+       ],
+       [
+        127.8,
+        38.3
+       ],
+       [
+        128.05,
+        38.3
+       ],
+       [
+        128.25,
+        38.45
+       ],
+       [
+        128.37,
+        38.62
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.212,
+        38.248
+       ],
+       [
+        127.435,
+        38.272
+       ],
+       [
+        127.29,
+        38.41
+       ],
+       [
+        127.212,
+        38.248
+       ]
+      ],
+      "color": "#d98b2b",
+      "at": 0.3
+     },
+     {
+      "k": "marker",
+      "p": "cheorwon",
+      "color": "dark",
+      "at": 0.2
+     },
+     {
+      "k": "marker",
+      "p": "kimhwa",
+      "color": "dark",
+      "at": 0.3
+     },
+     {
+      "k": "marker",
+      "p": "pyonggang",
+      "color": "red",
+      "at": 0.4
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "THE IRON TRIANGLE",
+     "style": "dark",
+     "at": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "lines": [
+    "And northwest of the Cheorwon plain, a lone ridge looked down over the flatland.",
+    "On the maps, it carried only a number: Hill 395."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "triangle",
+    "to": "baengma",
+    "items": [
+     {
+      "k": "marker",
+      "p": "cheorwon",
+      "color": "dark",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "baengma",
+      "text": "Hill 395",
+      "color": "red",
+      "at": 1,
+      "pulse": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "s12",
+   "lines": [
+    "The plain around it sat at roughly 200 meters above sea level.",
+    "From this solitary peak, the entire Cheorwon area lay open below."
+   ],
+   "visual": {
+    "type": "profile",
+    "pts": [
+     [
+      0,
+      214
+     ],
+     [
+      0.1,
+      222
+     ],
+     [
+      0.18,
+      242
+     ],
+     [
+      0.26,
+      282
+     ],
+     [
+      0.33,
+      345
+     ],
+     [
+      0.39,
+      384
+     ],
+     [
+      0.43,
+      395
+     ],
+     [
+      0.47,
+      382
+     ],
+     [
+      0.52,
+      342
+     ],
+     [
+      0.57,
+      272
+     ],
+     [
+      0.62,
+      206
+     ],
+     [
+      0.66,
+      188
+     ],
+     [
+      0.7,
+      198
+     ],
+     [
+      0.8,
+      210
+     ],
+     [
+      0.9,
+      214
+     ],
+     [
+      1,
+      216
+     ]
+    ],
+    "grid": [
+     200,
+     300,
+     400
+    ],
+    "title": "Hill 395 · Terrain Cross-Section",
+    "note": "North–south schematic (vertical exaggeration)",
+    "left": "N · Chinese Lines",
+    "right": "S · Cheorwon Plain",
+    "marks": [
+     {
+      "x": 0.85,
+      "text": "Plain ~200 m",
+      "style": "dark",
+      "at": 0,
+      "lift": 90,
+      "size": 44
+     },
+     {
+      "x": 0.43,
+      "text": "395 m",
+      "style": "yellow",
+      "at": 1,
+      "lift": 130
+     },
+     {
+      "x": 0.66,
+      "text": "Yokkok Stream",
+      "style": "blue",
+      "at": 1.5,
+      "lift": 80,
+      "size": 40
+     }
+    ]
+   }
+  },
+  {
+   "id": "s13",
+   "lines": [
+    "If it fell, the U.S. IX Corps would have to give up the Cheorwon area.",
+    "For the Chinese, it would open a road leading south."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "baengma",
+    "to": "triangle",
+    "items": [
+     {
+      "k": "unit",
+      "p": "baengma",
+      "text": "Hill 395",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.19,
+        38.33
+       ],
+       [
+        127.2,
+        38.26
+       ],
+       [
+        127.18,
+        38.15
+       ],
+       [
+        127.12,
+        38.05
+       ]
+      ],
+      "color": "red",
+      "at": 1,
+      "dur": 1.8
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "Hill 395 = Key to Cheorwon",
+     "style": "yellow",
+     "at": 0
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "lines": [
+    "The hill was entrusted to Major General Kim Jong-oh, commander of the ROK 9th Division.",
+    "On the first day of the war, he had held the North Koreans at Chuncheon for three days."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s14-photo",
+    "kb": "in",
+    "frame": true
+   },
+   "label": "Maj. Gen. Kim Jong-oh (left) · 1954"
+  },
+  {
+   "id": "s15",
+   "lines": [
+    "In 1951, the 9th Division had been rebuilt through a grueling retraining program.",
+    "Now, about 12,000 of its men faced their true test."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s15-photo",
+    "kb": "left"
+   },
+   "label": "ROK troops training in U.S. style (Feb 1952)"
+  },
+  {
+   "id": "s16",
+   "lines": [
+    "Their opponent was the Chinese 38th Army.",
+    "In the winter of 1950, Peng Dehuai was said to have hailed it with the words 'Long live the 38th Army.'"
+   ],
+   "visual": {
+    "type": "map",
+    "from": "triangle",
+    "to": "baengma",
+    "zoom": 0.6,
+    "items": [
+     {
+      "k": "unit",
+      "p": "baengma",
+      "text": "ROK 9th Div",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "c38a",
+      "text": "Chinese 38th Army",
+      "color": "red",
+      "at": 0.3
+     },
+     {
+      "k": "unit",
+      "p": "c38b",
+      "text": "3 Divisions",
+      "color": "red",
+      "at": 0.6
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "drum",
+     "at": 0.3,
+     "volume": 0.5
+    },
+    {
+     "id": "drum",
+     "at": 0.6,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s17",
+   "lines": [
+    "On October 3rd, a Chinese officer crossed over to the South Korean lines.",
+    "What he revealed was alarming: a full-scale assault on this hill was coming soon."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "defector",
+    "kb": "in",
+    "bubbles": [
+     {
+      "text": "The big attack\nis coming!",
+      "x": 0.68,
+      "y": 0.2,
+      "at": 1
+     }
+    ]
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 1,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s18",
+   "lines": [
+    "The 9th Division ringed the hill with tanks, anti-aircraft guns, and searchlights.",
+    "Flares to turn night into day were piled high."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s18-photo",
+    "kb": "right"
+   },
+   "label": "M46 tank with searchlight (Korean War)",
+   "sfx": [
+    {
+     "id": "tank",
+     "at": 0,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s19",
+   "lines": [
+    "October 6th, 1952.",
+    "Chinese shells began to blanket Hill 395."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "OCT 6, 1952",
+    "accent": "ASSAULT BEGINS",
+    "accentAt": 1
+   },
+   "chapter": {
+    "num": "PART 2",
+    "title": "TEN DAYS OF STRUGGLE"
+   },
+   "sfx": [
+    {
+     "id": "artillery",
+     "at": 1,
+     "volume": 0.55
+    }
+   ]
+  },
+  {
+   "id": "s20",
+   "lines": [
+    "At the same time, the Chinese blew open the floodgates of the Pongnae reservoir to the north.",
+    "The swollen Yokkok Stream cut off the hill's rear, so ROK reinforcements could not cross."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "triangle",
+    "to": "baengma",
+    "zoom": 0.75,
+    "items": [
+     {
+      "k": "unit",
+      "p": "baengma",
+      "text": "Hill 395",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.26,
+        38.39
+       ],
+       [
+        127.245,
+        38.34
+       ],
+       [
+        127.235,
+        38.3
+       ]
+      ],
+      "color": "#4f86d8",
+      "at": 0.3,
+      "dur": 1.8
+     },
+     {
+      "k": "badge",
+      "p": "bongnae",
+      "text": "Pongnae Floodgates Opened",
+      "color": "#2e66d8",
+      "at": 0.3,
+      "dy": -60
+     },
+     {
+      "k": "unit",
+      "p": "flood",
+      "text": "Yokkok Stream Flooded",
+      "color": "#2e66d8",
+      "at": 1,
+      "pulse": true
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "water",
+     "at": 0.3,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s21",
+   "lines": [
+    "As night fell, Chinese infantry swarmed the slopes to the sound of bugles and whistles.",
+    "When the front rank fell, the next rank climbed right over them."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "human_wave",
+    "kb": "up"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "bugle",
+     "at": 0,
+     "volume": 0.4
+    },
+    {
+     "id": "charge",
+     "at": 1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s22",
+   "lines": [
+    "South Korean and American artillery laid a barrage in front of the hill with eighty-one guns.",
+    "On the first night alone, an estimated five hundred Chinese soldiers fell."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s22-photo",
+    "kb": "in"
+   },
+   "label": "155mm howitzer firing · near Kumhwa (Jun 1952)",
+   "callouts": [
+    {
+     "text": "81 GUNS · U.S. RECORDS",
+     "style": "yellow",
+     "at": 0,
+     "until": 0
+    }
+   ],
+   "sfx": [
+    {
+     "id": "artillery",
+     "at": 0,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s23",
+   "lines": [
+    "Around the same time, Chinese troops also massed against Hill 281, 'Arrowhead,' to the southeast.",
+    "The French Battalion holding it threw back every assault."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "baengma",
+    "to": "baengma",
+    "items": [
+     {
+      "k": "unit",
+      "p": "baengma",
+      "text": "ROK 9th Div",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "arrow281",
+      "text": "French Bn",
+      "color": "blue",
+      "at": 0.3
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.24,
+        38.33
+       ],
+       [
+        127.235,
+        38.305
+       ],
+       [
+        127.228,
+        38.29
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 0.9
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "Hill 281 (Arrowhead)",
+     "style": "dark",
+     "at": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s24",
+   "lines": [
+    "Control of the hill flipped between night and day.",
+    "By night the Chinese took it; by morning the South Koreans took it back."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "human_wave",
+    "kb": "out"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 0.5,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s24b",
+   "lines": [
+    "When ammunition ran out in the trenches, men fought hand to hand with bayonets and rifle butts.",
+    "Day by day, the soil on the hill turned the color of blood."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s24b-photo",
+    "kb": "left"
+   },
+   "label": "Wounded ROK soldier carried through a trench · Capital Hill (Sep 1952)",
+   "sfx": [
+    {
+     "id": "charge",
+     "at": 0,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s25",
+   "lines": [
+    "On October 10th, at 4:30 in the morning, the hill was lost again.",
+    "But at 8:15 that same morning, South Korean troops took it back once more."
+   ],
+   "visual": {
+    "type": "timeline",
+    "items": [
+     {
+      "date": "OCT 10 · 04:30",
+      "text": "LOST",
+      "at": 0
+     },
+     {
+      "date": "OCT 10 · 08:15",
+      "text": "RETAKEN",
+      "at": 1
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "clock",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s26",
+   "lines": [
+    "At the Hwarang Hill outpost, 23-year-old platoon leader 2nd Lt. Lee Seong-deok fought on, surrounded.",
+    "Out of ammunition and water, he held to the end, and was killed on October 7th."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "outpost",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "callouts": [
+    {
+     "text": "2nd Lt. Lee Seong-deok · 30th Regt",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower",
+     "until": 0
+    }
+   ],
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s27",
+   "lines": [
+    "General Kim rotated his regiments into the fight, one after another.",
+    "When the 28th Regiment was spent, in went the 29th, and then the 30th."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "baengma",
+    "to": "near",
+    "items": [
+     {
+      "k": "unit",
+      "p": "baengma",
+      "text": "Hill 395",
+      "color": "red",
+      "at": 0,
+      "pulse": true
+     },
+     {
+      "k": "badge",
+      "p": "r28",
+      "text": "28th Regt",
+      "color": "blue",
+      "at": 1,
+      "dy": 0
+     },
+     {
+      "k": "badge",
+      "p": "r29",
+      "text": "29th Regt",
+      "color": "blue",
+      "at": 1.35,
+      "dy": 0
+     },
+     {
+      "k": "badge",
+      "p": "r30",
+      "text": "30th Regt",
+      "color": "blue",
+      "at": 1.7,
+      "dy": 0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "Rotating the Reserves",
+     "style": "yellow",
+     "at": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s28",
+   "lines": [
+    "Most counterattacks came at night.",
+    "Under the glare of flares, small platoons crawled up the ridgeline with grenades in hand."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "night_counter",
+    "kb": "up"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 1,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s29",
+   "lines": [
+    "At first light, American fighter-bombers came screaming down from the sky.",
+    "More than 358 napalm bombs alone fell on and around the hill."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s29-photo",
+    "kb": "in"
+   },
+   "label": "Napalm strike (Oct 1952)",
+   "callouts": [
+    {
+     "text": "U.S. 5th AF · 745 SORTIES",
+     "style": "red",
+     "at": 0,
+     "until": 0
+    },
+    {
+     "text": "358+ NAPALM BOMBS",
+     "style": "red",
+     "at": 1
+    }
+   ],
+   "sfx": [
+    {
+     "id": "whoosh",
+     "at": 0.3,
+     "volume": 0.45
+    },
+    {
+     "id": "boom",
+     "at": 1,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s30",
+   "lines": [
+    "October 12th.",
+    "The 1st Battalion, 30th Regiment, moved out against the main peak, once again in Chinese hands."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "baengma",
+    "to": "near",
+    "items": [
+     {
+      "k": "unit",
+      "p": "baengma",
+      "text": "Main Peak · Chinese",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.205,
+        38.268
+       ],
+       [
+        127.203,
+        38.282
+       ],
+       [
+        127.198,
+        38.293
+       ]
+      ],
+      "color": "blue",
+      "at": 1,
+      "width": 1.2,
+      "dur": 1.8
+     },
+     {
+      "k": "badge",
+      "p": "r30",
+      "text": "1st Bn, 30th Regt",
+      "color": "blue",
+      "at": 1,
+      "dy": 0
+     }
+    ]
+   },
+   "chapter": {
+    "num": "PART 3",
+    "title": "OCT 12 · RETAKING THE PEAK"
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s31",
+   "lines": [
+    "First, U.S. artillery fired a 'Time on Target' strike, many batteries hitting one point at once.",
+    "Two Chinese battalions forming up to attack were wiped out where they stood."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s31-photo",
+    "kb": "left"
+   },
+   "label": "155mm 'Long Tom' firing at night (Korean War)",
+   "callouts": [
+    {
+     "text": "TIME ON TARGET",
+     "style": "yellow",
+     "at": 0
+    }
+   ],
+   "sfx": [
+    {
+     "id": "artillery",
+     "at": 0.6,
+     "volume": 0.55
+    },
+    {
+     "id": "boom",
+     "at": 1,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s32",
+   "lines": [
+    "But just below the summit, a single Chinese machine-gun bunker blocked the way.",
+    "Again and again, 1st Company's charges broke against it."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "mg_nest",
+    "kb": "up"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 0,
+     "volume": 0.5
+    },
+    {
+     "id": "mg",
+     "at": 1,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s33",
+   "lines": [
+    "Then platoon leader 2nd Lt. Kang Seung-woo and two soldiers, Oh Gyu-bong and Ahn Young-kwon, stepped forward.",
+    "Clutching explosives and grenades, they threw themselves at the machine-gun nest."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "three_heroes",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.5
+    },
+    {
+     "id": "charge",
+     "at": 1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s34",
+   "lines": [
+    "The bunker collapsed in a thunderous blast,",
+    "and the three men never came back."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "OCT 12, 1952"
+   },
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0,
+     "volume": 0.6
+    }
+   ],
+   "pauseBefore": 0.4
+  },
+  {
+   "id": "s35",
+   "lines": [
+    "In that opening, 1st Company charged all at once.",
+    "At 1:20 p.m., the main peak of Hill 395 was back in South Korean hands."
+   ],
+   "visual": {
+    "type": "profile",
+    "pts": [
+     [
+      0,
+      214
+     ],
+     [
+      0.1,
+      222
+     ],
+     [
+      0.18,
+      240
+     ],
+     [
+      0.26,
+      276
+     ],
+     [
+      0.3,
+      318
+     ],
+     [
+      0.33,
+      334
+     ],
+     [
+      0.355,
+      352
+     ],
+     [
+      0.37,
+      346
+     ],
+     [
+      0.39,
+      372
+     ],
+     [
+      0.41,
+      360
+     ],
+     [
+      0.43,
+      389
+     ],
+     [
+      0.45,
+      368
+     ],
+     [
+      0.47,
+      374
+     ],
+     [
+      0.5,
+      340
+     ],
+     [
+      0.52,
+      330
+     ],
+     [
+      0.55,
+      284
+     ],
+     [
+      0.57,
+      266
+     ],
+     [
+      0.62,
+      204
+     ],
+     [
+      0.66,
+      188
+     ],
+     [
+      0.7,
+      198
+     ],
+     [
+      0.8,
+      210
+     ],
+     [
+      0.9,
+      214
+     ],
+     [
+      1,
+      216
+     ]
+    ],
+    "bare": true,
+    "grid": [
+     200,
+     300,
+     400
+    ],
+    "left": "N",
+    "right": "S",
+    "arrows": [
+     {
+      "from": 0.93,
+      "to": 0.47,
+      "color": "blue",
+      "at": 0,
+      "dur": 2.2,
+      "lift": 60
+     }
+    ],
+    "marks": [
+     {
+      "x": 0.43,
+      "text": "OCT 12 · 13:20 PEAK RETAKEN",
+      "style": "blue",
+      "at": 1,
+      "lift": 150
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "charge",
+     "at": 0,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s36",
+   "lines": [
+    "In later years, they would be remembered as the 'Three Heroes of White Horse Hill.'"
+   ],
+   "visual": {
+    "type": "text",
+    "big": "The Three Heroes",
+    "style": "yellow",
+    "sub": "2nd Lt. Kang Seung-woo · Oh Gyu-bong · Ahn Young-kwon",
+    "subAt": 0
+   }
+  },
+  {
+   "id": "s37",
+   "lines": [
+    "What remained was Camel Ridge, northwest of the peak.",
+    "On the morning of October 14th, the 29th Regiment finally seized that ridge as well."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "near",
+    "to": "near",
+    "items": [
+     {
+      "k": "unit",
+      "p": "baengma",
+      "text": "Main Peak",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "nakta",
+      "text": "Camel Ridge",
+      "color": "red",
+      "at": 0.2
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.199,
+        38.292
+       ],
+       [
+        127.192,
+        38.3
+       ],
+       [
+        127.183,
+        38.307
+       ]
+      ],
+      "color": "blue",
+      "at": 1,
+      "width": 1.1
+     },
+     {
+      "k": "badge",
+      "p": "nakta",
+      "text": "Oct 14 · 10:40 Secured",
+      "color": "blue",
+      "at": 1.4,
+      "dy": -70
+     }
+    ]
+   }
+  },
+  {
+   "id": "s38",
+   "lines": [
+    "That night, the Chinese 38th Army finally pulled back.",
+    "Ten days of fighting for the hill had come to an end."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "near",
+    "to": "baengma",
+    "items": [
+     {
+      "k": "unit",
+      "p": "baengma",
+      "text": "ROK 9th Div",
+      "color": "blue",
+      "at": 0,
+      "pulse": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.19,
+        38.31
+       ],
+       [
+        127.19,
+        38.33
+       ],
+       [
+        127.2,
+        38.355
+       ]
+      ],
+      "color": "red",
+      "at": 0.1,
+      "width": 0.9
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.215,
+        38.305
+       ],
+       [
+        127.225,
+        38.325
+       ],
+       [
+        127.24,
+        38.35
+       ]
+      ],
+      "color": "red",
+      "at": 0.3,
+      "width": 0.9
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "OCT 14 NIGHT · 38TH ARMY WITHDRAWS",
+     "style": "dark",
+     "at": 0
+    }
+   ]
+  },
+  {
+   "id": "s39",
+   "lines": [
+    "As the smoke lifted, people were stunned by what was left of the hill.",
+    "The forest was gone, and the stripped ridge looked like a white horse lying down."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "hill_dawn",
+    "kb": "out"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s40",
+   "lines": [
+    "And so it got its name: 'Baengma-goji,' White Horse Hill."
+   ],
+   "visual": {
+    "type": "hanja",
+    "items": [
+     {
+      "h": "白",
+      "r": "Baek · White"
+     },
+     {
+      "h": "馬",
+      "r": "Ma · Horse"
+     },
+     {
+      "h": "高",
+      "r": "Go · High"
+     },
+     {
+      "h": "地",
+      "r": "Ji · Ground"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s41",
+   "lines": [
+    "Against an enemy three times its size, how did the ROK Army hold this hill?",
+    "Let's break it down into four factors."
+   ],
+   "visual": {
+    "type": "factors",
+    "items": [
+     "Advance Warning",
+     "Overwhelming Firepower",
+     "Reserve Rotation",
+     "A Reborn Army"
+    ],
+    "head": "1 Division vs 3 — How?",
+    "at": 1
+   },
+   "chapter": {
+    "num": "PART 4",
+    "title": "4 DECIDING FACTORS"
+   }
+  },
+  {
+   "id": "s42",
+   "lines": [
+    "First, they knew the attack was coming."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s42-photo",
+    "num": "Factor 1",
+    "title": "Advance Warning"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s43",
+   "lines": [
+    "Thanks to the defector's warning, the 9th Division had three days to fortify the hill.",
+    "What might have been a surprise attack walked straight into a prepared trap."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s43-photo",
+    "kb": "in"
+   },
+   "label": "4.2-inch mortar position west of Chorwon (May 1952)"
+  },
+  {
+   "id": "s44",
+   "lines": [
+    "Second, firepower."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s44-photo",
+    "num": "Factor 2",
+    "title": "Overwhelming Firepower"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s45",
+   "lines": [
+    "South Korean and UN guns fired more than 185,000 rounds.",
+    "The Chinese fired about 55,000."
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "Shells fired · per ROK and U.S. records",
+    "items": [
+     {
+      "label": "ROK & UN",
+      "value": 185000,
+      "display": "185,000+",
+      "color": "blue",
+      "at": 0.2
+     },
+     {
+      "label": "Chinese",
+      "value": 55000,
+      "display": "~55,000",
+      "color": "red",
+      "at": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s46",
+   "lines": [
+    "Third, a commander's instinct for handling his reserves."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s46-photo",
+    "num": "Factor 3",
+    "title": "Reserve Rotation"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s47",
+   "lines": [
+    "General Kim sent in a fresh regiment before the one in the line could collapse.",
+    "He never gave the Chinese a moment to catch their breath."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "Spent Regiment",
+     "big": "REFIT",
+     "icon": "crowd",
+     "color": "blue"
+    },
+    "right": {
+     "title": "Fresh Regiment",
+     "big": "COUNTERATTACK",
+     "icon": "crowd",
+     "color": "blue",
+     "at": 0.5
+    }
+   }
+  },
+  {
+   "id": "s48",
+   "lines": [
+    "Fourth, a South Korean army that had remade itself."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s48-photo",
+    "num": "Factor 4",
+    "title": "A Reborn Army"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s49",
+   "lines": [
+    "Barely a year earlier, ROK units had often crumbled before Chinese offensives.",
+    "Now, after intense retraining, that same army stopped the elite 38th Army head-on."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s49-photo",
+    "kb": "right"
+   },
+   "label": "ROK troops in training (Jan 1952)"
+  },
+  {
+   "id": "s50",
+   "lines": [
+    "According to South Korean records, the 9th Division suffered 3,422 casualties.",
+    "Chinese casualties are put at over 14,000, though Chinese sources give a figure of 6,700."
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "Casualties · by reporting side (Oct 6 – 15, 1952)",
+    "items": [
+     {
+      "label": "ROK 9th Div",
+      "value": 3422,
+      "display": "3,422",
+      "color": "blue",
+      "at": 0.3
+     },
+     {
+      "label": "Chinese (ROK est.)",
+      "value": 14332,
+      "display": "14,332",
+      "color": "red",
+      "at": 1
+     },
+     {
+      "label": "Chinese (PRC figure)",
+      "value": 6700,
+      "display": "6,700",
+      "color": "red",
+      "at": 1.5
+     }
+    ]
+   }
+  },
+  {
+   "id": "s51",
+   "lines": [
+    "Behind every one of those numbers was someone's son, someone's brother."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "TEN DAYS",
+    "style": "dark",
+    "sub": "Oct 6 – 15, 1952"
+   }
+  },
+  {
+   "id": "s52",
+   "lines": [
+    "After this battle, the ROK 9th Division earned a new name: the 'White Horse Division.'",
+    "That name remains the symbol of the division to this day."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s52-photo",
+    "kb": "in",
+    "bw": false
+   },
+   "label": "ROK 9th Division today (2008)",
+   "chapter": {
+    "num": "EPILOGUE",
+    "title": "IN THE NAME OF THE WHITE HORSE"
+   }
+  },
+  {
+   "id": "s53",
+   "lines": [
+    "Then, on July 27th, 1953, the Armistice Agreement was signed.",
+    "White Horse Hill was left just as it was, inside the Demilitarized Zone."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "front",
+    "to": "triangle",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.65,
+        37.75
+       ],
+       [
+        126.68,
+        37.95
+       ],
+       [
+        126.95,
+        38.12
+       ],
+       [
+        127.15,
+        38.26
+       ],
+       [
+        127.2,
+        38.3
+       ],
+       [
+        127.45,
+        38.33
+       ],
+       [
+        127.8,
+        38.3
+       ],
+       [
+        128.05,
+        38.3
+       ],
+       [
+        128.25,
+        38.45
+       ],
+       [
+        128.37,
+        38.62
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "baengma",
+      "text": "White Horse Hill",
+      "color": "blue",
+      "at": 1,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "JULY 27, 1953 · ARMISTICE",
+     "style": "dark",
+     "at": 0
+    }
+   ]
+  },
+  {
+   "id": "s54",
+   "lines": [
+    "South of the hill, a battlefield memorial and monument now honor the sacrifices of those days."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s54-photo",
+    "kb": "in",
+    "bw": false
+   },
+   "label": "White Horse Hill battle memorial"
+  },
+  {
+   "id": "s55",
+   "lines": [
+    "Even today, the remains of the war dead are still being recovered in this area."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s55-photo",
+    "kb": "in",
+    "bw": false
+   },
+   "label": "Recovering remains at White Horse Hill · ROK MND"
+  },
+  {
+   "id": "s56",
+   "lines": [
+    "A hill just 395 meters high.",
+    "Beneath that number, thousands of young lives lie at rest."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s56-photo",
+    "kb": "in",
+    "frame": true
+   },
+   "label": "ROK soldier (Mar 1952)"
+  },
+  {
+   "id": "s57",
+   "lines": [
+    "A mountain stripped as white as a horse.",
+    "And those who held it to the very end were the ones who would not step back."
+   ],
+   "visual": {
+    "type": "quotes",
+    "title": "What White Horse Hill Left Behind",
+    "items": [
+     {
+      "text": "A hill stripped white as a horse",
+      "at": 0
+     },
+     {
+      "text": "Held by those who would not step back",
+      "at": 1
+     }
+    ]
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s58",
+   "lines": [
+    "If this story meant something to you, please subscribe and like the video.",
+    "We'll continue to bring the forgotten records of war to light."
+   ],
+   "visual": {
+    "type": "endcard",
+    "title": "October 1952. Cheorwon.\nHill 395 Became a White Horse.",
+    "q": "s58-photo"
+   },
+   "tail": 3.0
+  }
+ ],
+ "ai_images": {
+  "hill_night": "A lone bare rocky hill rising above a flat dark valley plain in Korea at night in October 1952, parachute flares hanging in a smoky sky casting harsh white light, orange artillery explosions bursting on the hill crest, shattered tree stumps, cinematic wide shot, dark desaturated palette with orange and white glow, painterly realistic digital illustration, film grain, no people visible, no text, no letters.",
+  "pva_commander": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a Chinese People's Volunteer Army commander whose head is a round ball painted as the red Chinese flag with yellow stars, wearing a 1952 khaki PVA uniform and cap, confidently pointing at a paper military map pinned to a log wall inside a dim underground bunker lit by an oil lamp, staff officers behind him, night, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "defector": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a lone Chinese People's Volunteer Army officer whose head is a round ball painted as the red Chinese flag with yellow stars, hands raised, walking through autumn grass at dusk toward a sandbagged trench where South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag, wearing 1952 M1 helmets and olive drab uniforms aim rifles at him cautiously, tense atmosphere, cold blue dusk light, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "human_wave": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a massive wave of Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red Chinese flag with yellow stars, wearing 1952 quilted khaki uniforms and fur-flap caps charging up a barren shell-cratered hillside at night, blowing bugles and whistles, under parachute flares and searchlight beams, explosions and smoke, dramatic low-angle shot, cold white light and orange fire, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "outpost": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a young South Korean platoon leader, head a round ball painted as the South Korean taegukgi flag, 1952 M1 helmet, shouting and rallying his surrounded men in a shattered hilltop trench, South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag, wearing 1952 M1 helmets and olive drab uniforms firing rifles, smoke, empty ammunition boxes, dusk, desperate last stand, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "night_counter": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag, wearing 1952 M1 helmets and olive drab uniforms, a small platoon crawling up a steep rocky ridge at night with grenades in hand, under the harsh white light of hanging parachute flares, tracer fire streaking overhead, tense and determined, dramatic low-angle shot, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "mg_nest": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a Chinese machine gun bunker made of logs and sandbags on a barren hilltop spitting long muzzle flashes downhill, Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red Chinese flag with yellow stars, wearing 1952 quilted khaki uniforms and fur-flap caps manning it, seen from below where South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag, wearing 1952 M1 helmets and olive drab uniforms are pinned down behind rocks, smoke and dust, daytime, overcast grey sky, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "three_heroes": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: three South Korean soldiers, heads round balls painted as the South Korean taegukgi flag, wearing 1952 M1 helmets and olive drab uniforms seen from behind, charging uphill together clutching bundles of explosives and grenades toward a smoking enemy log bunker on the crest, heroic and tragic mood, dust and smoke, golden afternoon light breaking through clouds, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "hill_dawn": "A bare whitish hill ridge stripped of all trees by bombardment, in Korea at dawn, mist over a flat valley plain with a small river, autumn wild grass and silver reeds in the foreground, an old rusted 1950s steel helmet lying among the stones, soft golden light, quiet and mournful, painterly realistic digital illustration, film grain, no people, no text, no letters."
+ },
+ "lang": "en",
+ "assets_ep": "baengma",
+ "voice": "pNInz6obpgDQGcFmaJgB",
+ "tempo": 1.02
+}
