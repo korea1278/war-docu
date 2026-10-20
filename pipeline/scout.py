@@ -26,10 +26,13 @@ QUERIES = [
 ]
 
 
-def run():
+def run(ep=None):
     s = session()
+    queries = QUERIES
+    if ep and (ROOT / "episodes" / ep / "scout_queries.json").exists():
+        queries = json.loads((ROOT / "episodes" / ep / "scout_queries.json").read_text(encoding="utf-8"))
     seen, cat = set(), []
-    for q in QUERIES:
+    for q in queries:
         try:
             r = s.get(API, params={
                 "action": "query", "format": "json", "generator": "search",
@@ -54,7 +57,7 @@ def run():
                         "license": meta.get("LicenseShortName", {}).get("value", ""), "credit": credit_ko(meta),
                         "desc": desc[:200]})
         time.sleep(0.3)
-    out = ROOT / "previews" / "scout"
+    out = ROOT / "previews" / (f"scout_{ep}" if ep else "scout")
     out.mkdir(parents=True, exist_ok=True)
     write_json(out / "catalog.json", cat)
     try:
@@ -82,4 +85,4 @@ def run():
 
 if __name__ == "__main__":
     sys.path.insert(0, str(ROOT / "pipeline"))
-    run()
+    run(sys.argv[1] if len(sys.argv) > 1 else None)

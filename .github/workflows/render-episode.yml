@@ -52,7 +52,7 @@ jobs:
       - name: 사진 후보 수집
         if: inputs.mode == 'scout'
         run: |
-          cd pipeline && python scout.py || true
+          cd pipeline && python scout.py $EP || true
           cd .. && git config user.name "war-docu-bot" && git config user.email "actions@users.noreply.github.com"
           git add -A previews && git commit -qm "사진 후보" && git pull --rebase -X theirs -q; git push -q
           exit 1
@@ -76,9 +76,8 @@ jobs:
             cd pipeline && python make_lang.py $SRC $EP $LANG_CODE
           fi
 
-      - name: 지도 지형 (최초 1회)
-        run: |
-          if [ ! -f public/geo/rasters.json ]; then cd pipeline && python geo.py; fi
+      - name: 지도 지형·하천 (새 권역만 추가 생성)
+        run: cd pipeline && python geo.py auto
 
       - name: 사료 사진 (위키미디어)
         run: cd pipeline && python photos.py $EP

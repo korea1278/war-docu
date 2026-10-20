@@ -23,6 +23,10 @@ RASTERS = [
     ("korea", [122.5, 32.0, 132.5, 44.0], 8, 3.2, 0),
     ("central", [125.9, 36.9, 129.2, 39.0], 11, 1.7, 48),
     ("detail", [127.2, 37.38, 128.2, 38.32], 12, 1.35, 64),
+    # EP02 낙동강·대구 권역
+    ("south", [127.6, 34.9, 129.7, 36.8], 11, 1.7, 48),
+    ("south_detail", [128.2, 35.82, 128.9, 36.3], 12, 1.35, 64),
+    ("dabu_zoom", [128.42, 35.97, 128.72, 36.16], 13, 1.15, 64),
 ]
 
 
@@ -105,7 +109,7 @@ def build_raster(s, name, bbox, z, exag, feather):
 # ---------------- 하천 / 호수 (OpenStreetMap Overpass) ----------------
 OVERPASS = ["https://overpass-api.de/api/interpreter", "https://overpass.kumi.systems/api/interpreter",
             "https://maps.mail.ru/osm/tools/overpass/api/interpreter"]
-WBOX = (37.0, 126.3, 38.75, 128.9)
+WBOX = (34.9, 126.3, 38.75, 129.6)
 
 
 def overpass(s, q):
@@ -190,7 +194,7 @@ def join_ways(ways):
 def build_water(s):
     s_, w_, n_, e_ = WBOX
     bb = f"({s_},{w_},{n_},{e_})"
-    q = f"""[out:json][timeout:240];
+    q = f"""[out:json][timeout:600][maxsize:1073741824];
 (
  way["natural"="water"]{bb};
  relation["natural"="water"]{bb};
@@ -211,7 +215,7 @@ out geom;"""
         else:
             continue
         for r in rings:
-            if ring_area_km2(r) < 0.25:
+            if ring_area_km2(r) < 0.4:
                 continue
             lakes.append([list(p) for p in simplify([tuple(p) for p in r], 0.00025)])
     q2 = f"""[out:json][timeout:240];
@@ -235,16 +239,23 @@ out geom;"""
         if length < 30:
             continue
         rivers.append({"len": round(length), "name": nm, "lines": [[list(p) for p in simplify(sg, 0.0003)] for sg in segs]})
-    write_json(OUT / "water.json", {"lakes": lakes, "rivers": rivers})
+    write_json(OUT / "water.json", {"bbox": list(WBOX), "lakes": lakes, "rivers": rivers})
     print(f"  호수/하천면 {len(lakes)}개, 하천선 {len(rivers)}개")
 
 
 def main(what="all"):
     OUT.mkdir(parents=True, exist_ok=True)
     s = session()
-    if what in ("all", "terrain"):
-        meta = [build_raster(s, *r) for r in RASTERS]
+    if what in ("all", "terrain", "auto"):
+        # 이미 만든 래스터는 재사용, 새로 추가된 권역만 생성
+        import json as _j
+        old = {m["name"]: m for m in (_j.loads((OUT / "rasters.json").read_text()) if (OUT / "rasters.json").exists() else [])}
+        meta = [old[r[0]] if r[0] in old and (OUT / f"{r[0]}.webp").exists() else build_raster(s, *r) for r in RASTERS]
         write_json(OUT / "rasters.json", meta)
+    if what == "auto":  # 하천 데이터 범위가 바뀌었을 때만 다시 받기
+        import json as _j
+        w = _j.loads((OUT / "water.json").read_text()) if (OUT / "water.json").exists() else {}
+        what = "water" if w.get("bbox") != list(WBOX) else "none"
     if what in ("all", "water"):
         try:
             build_water(s)
