@@ -12,8 +12,9 @@
 |---|---|---|---|---|
 | 01 용문산 전투·파로호 (1951) | `yongmunsan` | 약 3,300자 · 70장면 | 8:18.6 | 8:20.1 |
 | 02 다부동 전투 (1950) | `dabudong` | 3,367자 · 61장면 · target_sec 510 | 8:30.1 · -15.2 LUFS | 8:38.2 · -15.1 LUFS |
+| 03 백마고지 전투 (1952) | `baengma` | 3,352자 · 59장면 · target_sec 510 | 8:30.1 · -15.4 LUFS | 8:36.3 · -15.4 LUFS (영문 7,113자) |
 
-→ 영문판은 한국어판보다 0~8초 길어진다. 영문판까지 8:30 안에 넣으려면 한국어 3,300자 안팎으로 맞출 것.
+→ 영문판은 한국어판보다 0~8초 길어진다. 영문 번역은 7,100자 안팎이면 +6초 수준 (7,200자는 +13초로 경고). 영문판까지 8:30 안에 넣으려면 한국어 3,300자 안팎으로 맞출 것.
 
 ---
 
@@ -26,7 +27,8 @@
    - 사실은 웹 검색으로 확인. 확정 못 한 것(발언 날짜, 직함, 증언성 표현, 좌표 등)은 목록으로 남겨 전달 때 사용자에게 알린다
    - 수치는 "한국 측 기록 기준" / "미군 기록 기준 (기간)"처럼 화면(`note`·콜아웃)과 설명글에 출처 병기
 2. **스토리보드** — `episodes/<ep>/storyboard.json` (형식: `episodes/dabudong/storyboard.json`)
-   - 장면 = 나레이션 1~3줄 + 화면 1개. 화면 종류: map / photo / ai / person / text / black / titlecard / chapterbig / versus / compare / bars / timeline / weekbar / gauges / document / hanja / factors / quotes / endcard
+   - 장면 = 나레이션 1~3줄 + 화면 1개. 화면 종류: map / photo / ai / person / text / black / titlecard / chapterbig / versus / compare / bars / timeline / weekbar / gauges / document / hanja / factors / quotes / endcard / profile
+   - `profile`(EP03 추가): 3D 지형 단면 모식도. `pts`=[[x 0~1, 고도m]…], `pts2`+`erodeAt`/`erodeDur`=포격 침식(숲→흰 산), `bare`=처음부터 벗겨진 색, `marks`(x·text·style·lift), `arrows`(from·to·color), `left`/`right`/`title`/`note`. 번역 필드: title·note·left·right·marks
    - **0초부터 바로 나레이션** (무음 오프닝 카드 금지, 첫 장면엔 flash 금지)
    - 숫자·부대명은 `{"t": "자막", "say": "읽을 발음"}`으로 발음 지정 (예: 1950년 6월 25일 → "천구백오십 년 유월 이십오 일")
    - 한 문장 안에서 화면을 바꾸려면 `visuals: [{"atLine": 1, ...}]` (`from`은 지도 시작 뷰 키라 쓰지 말 것)
