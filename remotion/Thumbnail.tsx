@@ -144,8 +144,8 @@ const DabuA: React.FC<{ ep: string; en?: boolean }> = ({ ep, en }) => (
 /** EP02 다부동 — B안: 볼링장 전차전 */
 const DabuB: React.FC<{ ep: string; en?: boolean }> = ({ ep, en }) => (
   <AbsoluteFill style={{ background: "#0b0b0c", overflow: "hidden" }}>
-    <Img src={staticFile(`ep/${ep}/ai/t34_column.jpg`)} style={{ width: "100%", height: "100%", objectFit: "cover", filter: "contrast(1.15) brightness(.78)" }} />
-    <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(0,0,0,.55) 0%, rgba(0,0,0,.05) 40%, rgba(0,0,0,.88) 100%)" }} />
+    <Img src={staticFile(`ep/${ep}/ai/us_tank.jpg`)} style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 30%", filter: "contrast(1.15) brightness(1.25) saturate(1.1)" }} />
+    <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(0,0,0,.35) 0%, rgba(0,0,0,0) 35%, rgba(0,0,0,.85) 100%)" }} />
     <div style={{ position: "absolute", left: 52, top: 46 }}>
       <Tag text={en ? "KOREAN WAR · 1950" : "6·25 낙동강 최후 방어선"} bg={C.red} fg="#fff" />
     </div>
@@ -153,7 +153,7 @@ const DabuB: React.FC<{ ep: string; en?: boolean }> = ({ ep, en }) => (
       {en ? (
         <>
           <div style={{ ...big(84, "#fff", "#000", 7) }}>NIGHT TANK BATTLE IN</div>
-          <div style={{ ...big(150, C.yellow, "#000", 9), marginTop: -2 }}>"THE BOWLING ALLEY"</div>
+          <div style={{ ...big(124, C.yellow, "#000", 9), marginTop: -2 }}>"THE BOWLING ALLEY"</div>
         </>
       ) : (
         <>
