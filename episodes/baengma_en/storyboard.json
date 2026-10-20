@@ -55,27 +55,27 @@
   ],
   "c38a": [
    127.17,
-   38.345,
+   38.328,
    "Chinese 38th Army"
   ],
   "c38b": [
    127.235,
-   38.355,
+   38.332,
    "Chinese"
   ],
   "r28": [
-   127.165,
-   38.272,
+   127.181,
+   38.283,
    "28th Regt"
   ],
   "r29": [
-   127.192,
-   38.262,
+   127.197,
+   38.278,
    "29th Regt"
   ],
   "r30": [
-   127.222,
-   38.27,
+   127.213,
+   38.283,
    "30th Regt"
   ]
  },
@@ -112,6 +112,13 @@
    "center": [
     127.198,
     38.292
+   ],
+   "span": 0.095
+  },
+  "nakta": {
+   "center": [
+    127.19,
+    38.299
    ],
    "span": 0.095
   }
@@ -520,7 +527,7 @@
   {
    "id": "s07",
    "lines": [
-    "When the smoke cleared, the hill looked like a white horse lying on its side.",
+    "When the smoke cleared, the hill looked like a white horse lying down.",
     "This is the battle that decided the fate of the Cheorwon plain: the Battle of White Horse Hill."
    ],
    "visual": {
@@ -612,7 +619,7 @@
   {
    "id": "s09",
    "lines": [
-    "Where the ceasefire line would be drawn depended on who held which ground.",
+    "Where the ceasefire line fell depended on who held the ground.",
     "So both sides poured blood into every single hill."
    ],
    "visual": {
@@ -1618,7 +1625,7 @@
   {
    "id": "s33",
    "lines": [
-    "Then platoon leader 2nd Lt. Kang Seung-woo and two soldiers, Oh Gyu-bong and Ahn Young-kwon, stepped forward.",
+    "Then 2nd Lt. Kang Seung-woo and two soldiers, Oh Gyu-bong and Ahn Young-kwon, stepped forward.",
     "Clutching explosives and grenades, they threw themselves at the machine-gun nest."
    ],
    "visual": {
@@ -1800,7 +1807,7 @@
   {
    "id": "s36",
    "lines": [
-    "In later years, they would be remembered as the 'Three Heroes of White Horse Hill.'"
+    "They are remembered as the 'Three Heroes of White Horse Hill.'"
    ],
    "visual": {
     "type": "text",
@@ -1819,7 +1826,7 @@
    "visual": {
     "type": "map",
     "from": "near",
-    "to": "near",
+    "to": "nakta",
     "items": [
      {
       "k": "unit",
@@ -1861,7 +1868,7 @@
       "text": "Oct 14 · 10:40 Secured",
       "color": "blue",
       "at": 1.4,
-      "dy": -70
+      "dy": 75
      }
     ]
    }
@@ -1938,7 +1945,7 @@
   {
    "id": "s39",
    "lines": [
-    "As the smoke lifted, people were stunned by what was left of the hill.",
+    "As the smoke lifted, people were stunned by what was left.",
     "The forest was gone, and the stripped ridge looked like a white horse lying down."
    ],
    "visual": {
@@ -2110,7 +2117,7 @@
     },
     "right": {
      "title": "Fresh Regiment",
-     "big": "COUNTERATTACK",
+     "big": "ATTACK",
      "icon": "crowd",
      "color": "blue",
      "at": 0.5
@@ -2167,16 +2174,16 @@
       "at": 0.3
      },
      {
-      "label": "Chinese (ROK est.)",
+      "label": "ROK estimate",
       "value": 14332,
-      "display": "14,332",
+      "display": "Chinese 14,332",
       "color": "red",
       "at": 1
      },
      {
-      "label": "Chinese (PRC figure)",
+      "label": "PRC figure",
       "value": 6700,
-      "display": "6,700",
+      "display": "Chinese 6,700",
       "color": "red",
       "at": 1.5
      }
@@ -2291,7 +2298,7 @@
   {
    "id": "s54",
    "lines": [
-    "South of the hill, a battlefield memorial and monument now honor the sacrifices of those days."
+    "South of the hill, a memorial now honors the sacrifices of those days."
    ],
    "visual": {
     "type": "photo",

@@ -95,7 +95,7 @@
   },
   "s07": {
    "lines": [
-    "When the smoke cleared, the hill looked like a white horse lying on its side.",
+    "When the smoke cleared, the hill looked like a white horse lying down.",
     "This is the battle that decided the fate of the Cheorwon plain: the Battle of White Horse Hill."
    ],
    "title": "Battle of White Horse Hill",
@@ -113,7 +113,7 @@
   },
   "s09": {
    "lines": [
-    "Where the ceasefire line would be drawn depended on who held which ground.",
+    "Where the ceasefire line fell depended on who held the ground.",
     "So both sides poured blood into every single hill."
    ],
    "callouts": [
@@ -336,7 +336,7 @@
   },
   "s33": {
    "lines": [
-    "Then platoon leader 2nd Lt. Kang Seung-woo and two soldiers, Oh Gyu-bong and Ahn Young-kwon, stepped forward.",
+    "Then 2nd Lt. Kang Seung-woo and two soldiers, Oh Gyu-bong and Ahn Young-kwon, stepped forward.",
     "Clutching explosives and grenades, they threw themselves at the machine-gun nest."
    ],
    "label": "Dramatization"
@@ -361,7 +361,7 @@
   },
   "s36": {
    "lines": [
-    "In later years, they would be remembered as the 'Three Heroes of White Horse Hill.'"
+    "They are remembered as the 'Three Heroes of White Horse Hill.'"
    ],
    "big": "The Three Heroes",
    "sub": "2nd Lt. Kang Seung-woo · Oh Gyu-bong · Ahn Young-kwon"
@@ -383,7 +383,7 @@
   },
   "s39": {
    "lines": [
-    "As the smoke lifted, people were stunned by what was left of the hill.",
+    "As the smoke lifted, people were stunned by what was left.",
     "The forest was gone, and the stripped ridge looked like a white horse lying down."
    ],
    "label": "Dramatization"
@@ -472,7 +472,7 @@
    ],
    "right": [
     "Fresh Regiment",
-    "COUNTERATTACK"
+    "ATTACK"
    ]
   },
   "s48": {
@@ -501,12 +501,12 @@
      "3,422"
     ],
     [
-     "Chinese (ROK est.)",
-     "14,332"
+     "ROK estimate",
+     "Chinese 14,332"
     ],
     [
-     "Chinese (PRC figure)",
-     "6,700"
+     "PRC figure",
+     "Chinese 6,700"
     ]
    ]
   },
@@ -539,7 +539,7 @@
   },
   "s54": {
    "lines": [
-    "South of the hill, a battlefield memorial and monument now honor the sacrifices of those days."
+    "South of the hill, a memorial now honors the sacrifices of those days."
    ],
    "label": "White Horse Hill battle memorial"
   },
