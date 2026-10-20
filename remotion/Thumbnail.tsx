@@ -165,8 +165,71 @@ const DabuB: React.FC<{ ep: string; en?: boolean }> = ({ ep, en }) => (
   </AbsoluteFill>
 );
 
+/** EP03 백마고지 — A안: 숫자 "주인이 24번 바뀐 고지" */
+const BaengmaA: React.FC<{ ep: string; en?: boolean }> = ({ ep, en }) => {
+  const a = ep.replace(/_en$/, "");
+  return (
+    <AbsoluteFill style={{ background: "#0b0b0c", overflow: "hidden" }}>
+      <Img src={staticFile(`ep/${a}/ai/human_wave.jpg`)} style={{ position: "absolute", left: -170, top: -40, height: 800, filter: "contrast(1.1) brightness(1.3) saturate(1.1)" }} />
+      <AbsoluteFill style={{ background: "linear-gradient(90deg, rgba(0,0,0,0) 26%, rgba(8,8,10,.9) 54%, #08080a 100%)" }} />
+      <div style={{ position: "absolute", right: 46, top: 46, textAlign: "right" }}>
+        <Tag text={en ? "WHITE HORSE HILL · 1952" : "1952 백마고지 전투"} />
+        {en ? (
+          <>
+            <div style={{ ...big(92, "#fff", "#000", 7), marginTop: 22 }}>ONE HILL CHANGED</div>
+            <div style={{ ...big(92, "#fff", "#000", 7), marginTop: 0 }}>HANDS</div>
+            <div style={{ ...big(200, C.red, "#fff", 10), marginTop: -8 }}>24 TIMES</div>
+          </>
+        ) : (
+          <>
+            <div style={{ ...big(96, "#fff"), marginTop: 22 }}>고지의 주인이</div>
+            <div style={{ ...big(230, C.red, "#fff", 12), marginTop: -6 }}>24번</div>
+            <div style={{ ...big(96, C.yellow), marginTop: -6 }}>바뀌었다</div>
+          </>
+        )}
+      </div>
+      <div style={{ position: "absolute", left: 0, right: 0, bottom: 0, height: 14, background: C.red }} />
+    </AbsoluteFill>
+  );
+};
+
+/** EP03 백마고지 — B안: 미스터리 "白馬 — 28만 발이 산을 흰 말로" */
+const BaengmaB: React.FC<{ ep: string; en?: boolean }> = ({ ep, en }) => {
+  const a = ep.replace(/_en$/, "");
+  return (
+    <AbsoluteFill style={{ background: "#0b0b0c", overflow: "hidden" }}>
+      <Img src={staticFile(`ep/${a}/ai/hill_dawn.jpg`)} style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 40%", filter: "contrast(1.1) brightness(1.15)" }} />
+      <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(0,0,0,.25) 0%, rgba(0,0,0,0) 30%, rgba(0,0,0,.88) 100%)" }} />
+      <div style={{ position: "absolute", left: 52, top: 48, display: "flex", gap: 14 }}>
+        {["白", "馬"].map((h, i) => (
+          <div key={h} style={{ width: 180, height: 180, background: i === 1 ? C.red : "#f3f1ea", color: i === 1 ? "#fff" : "#111", fontFamily: "'Noto Serif CJK KR','Noto Serif CJK SC', serif", fontWeight: 900, fontSize: 140, lineHeight: "180px", textAlign: "center", boxShadow: "0 12px 30px rgba(0,0,0,.6)" }}>
+            {h}
+          </div>
+        ))}
+      </div>
+      <div style={{ position: "absolute", right: 46, top: 60 }}>
+        <Tag text={en ? "KOREAN WAR · OCT 1952" : "6·25 철원 395고지"} bg={C.red} fg="#fff" size={40} />
+      </div>
+      <div style={{ position: "absolute", left: 52, bottom: 46 }}>
+        {en ? (
+          <>
+            <div style={{ ...big(120, C.yellow, "#000", 8) }}>280,000 SHELLS</div>
+            <div style={{ ...big(78, "#fff", "#000", 7), marginTop: 0 }}>TURNED A HILL INTO A WHITE HORSE</div>
+          </>
+        ) : (
+          <>
+            <div style={{ ...big(82, "#fff") }}>포탄 28만 발이</div>
+            <div style={{ ...big(116, C.yellow), marginTop: 6 }}>산을 흰 말로 만들었다</div>
+          </>
+        )}
+      </div>
+    </AbsoluteFill>
+  );
+};
+
 export const Thumbnail: React.FC<{ ep: string; variant: "A" | "B"; lang?: string }> = ({ ep, variant, lang }) => {
   setLang(lang);
+  if (ep.startsWith("baengma")) return variant === "A" ? <BaengmaA ep={ep} en={lang === "en"} /> : <BaengmaB ep={ep} en={lang === "en"} />;
   if (ep.startsWith("dabudong")) return variant === "A" ? <DabuA ep={ep} en={lang === "en"} /> : <DabuB ep={ep} en={lang === "en"} />;
   if (lang === "en") return variant === "A" ? <ThumbA_EN ep={ep} /> : <ThumbB_EN ep={ep} />;
   return variant === "A" ? <ThumbA ep={ep} /> : <ThumbB ep={ep} />;
