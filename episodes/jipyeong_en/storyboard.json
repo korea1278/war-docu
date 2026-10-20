@@ -858,7 +858,7 @@
      "text": "Roads + Railway = Key to the Central Front",
      "style": "yellow",
      "at": 0.6,
-     "pos": "top"
+     "pos": "lower"
     }
    ]
   },
@@ -1012,7 +1012,8 @@
     {
      "text": "Withdraw → Hold",
      "style": "yellow",
-     "at": 1
+     "at": 1,
+     "pos": "lower"
     }
    ]
   },
@@ -1026,7 +1027,7 @@
     "type": "map",
     "from": "jp_wide",
     "to": "jp_wide",
-    "zoom": 1.4,
+    "zoom": 1.15,
     "items": [
      {
       "k": "unit",
@@ -1952,7 +1953,8 @@
     {
      "text": "24 AIRDROPS · U.S. RECORDS",
      "style": "yellow",
-     "at": 1
+     "at": 1,
+     "pos": "lower"
     }
    ],
    "sfx": [
@@ -2441,7 +2443,8 @@
     {
      "text": "TASK FORCE CROMBEZ · 23 TANKS",
      "style": "blue",
-     "at": 1
+     "at": 1,
+     "pos": "lower"
     }
    ],
    "sfx": [
