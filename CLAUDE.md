@@ -77,7 +77,10 @@
      3. 배경: 2D·볼 캐릭터 배제. **흑백 다큐 아카이브 질감 + 붉은/오렌지 화염·포연만 컬러**인 거친 실사풍 전장 극화 → 스토리보드 `ai_images.thumb_ref` 프롬프트 (주제는 중앙·좌상단, 우하단은 어둡게 비우라는 문구 포함)
      4. 생성·렌더: Actions `mode=thumb` (그림 생성 → `thumbnails/<ep>_ko_A.png`, `_ko_B.png` 렌더 → 커밋). 영상 재렌더 없음
      5. B안은 이전 디자인을 A/B 테스트용으로 유지. 카피 수치는 대본·화면 수치와 일치하는지 확인하고 다르면 전달 때 알릴 것
-   - 영문판(Tactical Map)은 기존 방식 유지 (A안: 숫자·발언 / B안: 결정적 장면·미스터리)
+   - **영문판 A안도 같은 배경(`thumb_ref`) 재사용 + [압축 영문 공식]** (2026-10-21) — `REF_EN` 표에 한 줄 추가
+     - 폰트 Bebas Neue(좁고 두꺼운 고대비), 태그 `MAP OF WAR EP 0X`, 'Battle of' 전면 제외, 지명·직관적 숫자/단어만
+     - 중단 2색 카피(빨강 강조 + 시안/흰색), 하단 지명 키워드(red/stone/yellow 크랙 질감). 예: EP01 YONGMUNSAN / EP02 TABU-DONG / EP03 WHITE HORSE / EP04 CHIPYONG-NI
+     - 영문 B안은 기존 디자인 유지. `mode=thumb`가 `_en_A.png`도 함께 렌더
    - 렌더링은 세션 안에서: `npx remotion bundle remotion/index.ts --out-dir=/tmp/claude-0/bundle` →
      `npx remotion still /tmp/claude-0/bundle Thumbnail out.png --props='{"ep":"<ep>","variant":"A","lang":"ko"}' --browser-executable=/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell`
    - 1280×720, 시니어 가독성 큰 글씨, 어두운 밤 일러스트는 밝기 올리거나 밝은 그림으로 교체, 영문 문구가 화면 밖으로 나가지 않게

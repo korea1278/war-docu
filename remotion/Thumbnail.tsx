@@ -1,5 +1,6 @@
 import React from "react";
 import { AbsoluteFill, Img, staticFile } from "remotion";
+import "@fontsource/bebas-neue/400.css";
 import { C, F, setLang } from "./theme";
 
 const big = (size: number, color: string, stroke = "#000", sw = 10): React.CSSProperties => ({
@@ -254,7 +255,15 @@ const CtrThumb: React.FC<{ img: string; lines: [string, string?]; pos?: string; 
 /* ===== '격전의 지도' 레퍼런스 디자인 시스템 (3단 텍스트 계층) — 한국어판 A안 ===== */
 type Seg = [string, "w" | "s" | "r"];
 const SEG_COLOR = { w: "#ffffff", s: "#8fd6ff", r: "#ff2a2a" };
-const REF: Record<string, { ep: string; mid: Seg[][]; key: string; keyStyle: "red" | "stone" | "yellow"; pos?: string }> = {
+type RefDef = { ep: string; mid: Seg[][]; key: string; keyStyle: "red" | "stone" | "yellow"; pos?: string };
+/** 영문판(EN) — 압축 영문 공식: 'Battle of' 제외, 지명 + 숫자/핵심 단어만, Bebas Neue */
+const REF_EN: Record<string, RefDef> = {
+  yongmunsan: { ep: "01", mid: [[["1 REGIMENT", "s"], [" DESTROYED", "w"]], [["3 DIVISIONS", "r"]]], key: "YONGMUNSAN", keyStyle: "red" },
+  dabudong: { ep: "02", mid: [[["STAND OR DIE:", "r"]], [["55 DAYS OF HELL", "s"]]], key: "TABU-DONG", keyStyle: "stone" },
+  baengma: { ep: "03", mid: [[["LOST AND RETAKEN", "w"]], [["24 TIMES", "r"]]], key: "WHITE HORSE", keyStyle: "red" },
+  jipyeong: { ep: "04", mid: [[["360° SURROUNDED", "r"]], [["BY ", "w"], ["4 DIVISIONS", "s"]]], key: "CHIPYONG-NI", keyStyle: "yellow" },
+};
+const REF: Record<string, RefDef> = {
   yongmunsan: { ep: "01", mid: [[["중공군 ", "w"], ["3개 사단", "r"], [" 격멸,", "w"]], [["1개 연대의 기적", "s"]]], key: "용문산 전투", keyStyle: "red" },
   dabudong: { ep: "02", mid: [[["대구 함락 직전", "r"], [",", "w"]], [["55일간의 결사항전", "s"]]], key: "다부동 전투", keyStyle: "stone" },
   baengma: { ep: "03", mid: [[["주인이 ", "w"], ["24번", "r"], [" 바뀐", "w"]], [["지옥의 능선", "s"]]], key: "백마고지", keyStyle: "red" },
@@ -282,31 +291,32 @@ const CrackDefs: React.FC = () => (
     </defs>
   </svg>
 );
-const KeyWord: React.FC<{ text: string; style: "red" | "stone" | "yellow"; size: number }> = ({ text, style, size }) => {
-  const base: React.CSSProperties = { fontFamily: "'Black Han Sans', sans-serif", fontSize: size, lineHeight: 1, whiteSpace: "nowrap", letterSpacing: -3 };
-  const parts = style === "yellow" ? text.split(" ") : [text];
+const KeyWord: React.FC<{ text: string; style: "red" | "stone" | "yellow"; size: number; en?: boolean }> = ({ text, style, size, en }) => {
+  const base: React.CSSProperties = { fontFamily: en ? "'Bebas Neue', 'Oswald', sans-serif" : "'Black Han Sans', sans-serif", fontSize: size, lineHeight: 1, whiteSpace: "nowrap", letterSpacing: en ? 1 : -3 };
+  const parts = style === "yellow" ? (en ? text.replace("-", " -").split(" ") : text.split(" ")) : [text];
   const fill = (i: number) => (style === "red" ? "#e3161d" : style === "stone" ? "#f1efe8" : i === 0 ? "#ffd21f" : "#ffffff");
   return (
     <div style={{ position: "relative", display: "inline-block" }}>
       {/* 1층: 두꺼운 검은 외곽선 + 그림자 (균열 사이로 비치는 바탕) */}
       <div style={{ ...base, color: "#0a0a0a", WebkitTextStroke: "22px #000", paintOrder: "stroke fill", textShadow: "0 12px 34px rgba(0,0,0,.9), 0 0 3px #000" }}>
         {parts.map((p, i) => (
-          <span key={i}>{i ? " " : ""}{p}</span>
+          <span key={i}>{i && !p.startsWith("-") ? " " : ""}{p}</span>
         ))}
       </div>
       {/* 2층: 색 면 + 크랙/스톤 질감 */}
       <div style={{ ...base, position: "absolute", left: 0, top: 0, filter: "url(#crack)" }}>
         {parts.map((p, i) => (
-          <span key={i} style={{ color: fill(i) }}>{i ? " " : ""}{p}</span>
+          <span key={i} style={{ color: fill(i) }}>{i && !p.startsWith("-") ? " " : ""}{p}</span>
         ))}
       </div>
     </div>
   );
 };
-const RefThumb: React.FC<{ ep: string }> = ({ ep }) => {
+const RefThumb: React.FC<{ ep: string; en?: boolean }> = ({ ep, en }) => {
   const a = ep.replace(/_en$/, "");
-  const d = REF[a];
-  const keySize = d.key.length <= 4 ? 200 : 168;
+  const d = (en ? REF_EN : REF)[a];
+  const keySize = en ? Math.min(230, Math.floor(900 / (d.key.length * 0.46))) : d.key.length <= 4 ? 200 : 168;
+  const head = en ? "'Bebas Neue', 'Oswald', sans-serif" : "'Black Han Sans', sans-serif";
   return (
     <AbsoluteFill style={{ background: "#050505", overflow: "hidden" }}>
       <CrackDefs />
@@ -317,13 +327,13 @@ const RefThumb: React.FC<{ ep: string }> = ({ ep }) => {
       <AbsoluteFill style={{ background: "linear-gradient(315deg, rgba(0,0,0,.6) 0%, rgba(0,0,0,0) 28%)" }} />
       <div style={{ position: "absolute", left: 40, top: 30, right: 360 }}>
         {/* 상단: 회색 박스 태그 */}
-        <div style={{ display: "inline-block", background: "rgba(225,225,225,.92)", color: "#111", fontFamily: "'Black Han Sans', sans-serif", fontSize: 34, padding: "6px 18px 2px", border: "3px solid #fff", boxShadow: "0 6px 16px rgba(0,0,0,.6)", letterSpacing: 1 }}>
-          격전의 지도 EP {d.ep}
+        <div style={{ display: "inline-block", background: "rgba(225,225,225,.92)", color: "#111", fontFamily: head, fontSize: en ? 40 : 34, padding: "6px 18px 2px", border: "3px solid #fff", boxShadow: "0 6px 16px rgba(0,0,0,.6)", letterSpacing: 1 }}>
+          {en ? `MAP OF WAR EP ${d.ep}` : `격전의 지도 EP ${d.ep}`}
         </div>
         {/* 중단: 2색 분할 위기 카피 */}
         <div style={{ marginTop: 18 }}>
           {d.mid.map((line, i) => (
-            <div key={i} style={{ fontFamily: "'Black Han Sans', sans-serif", fontSize: 66, lineHeight: 1.12, whiteSpace: "nowrap", WebkitTextStroke: "12px #000", paintOrder: "stroke fill", textShadow: "0 6px 18px rgba(0,0,0,.85)" }}>
+            <div key={i} style={{ fontFamily: head, fontSize: en ? 84 : 66, lineHeight: en ? 1.0 : 1.12, letterSpacing: en ? 1 : 0, whiteSpace: "nowrap", WebkitTextStroke: "12px #000", paintOrder: "stroke fill", textShadow: "0 6px 18px rgba(0,0,0,.85)" }}>
               {line.map(([t, c], j) => (
                 <span key={j} style={{ color: SEG_COLOR[c] }}>{t}</span>
               ))}
@@ -333,7 +343,7 @@ const RefThumb: React.FC<{ ep: string }> = ({ ep }) => {
       </div>
       {/* 하단: 초대형 메인 키워드 (좌측, 우하단 25% 비움) */}
       <div style={{ position: "absolute", left: 30, bottom: 34 }}>
-        <KeyWord text={d.key} style={d.keyStyle} size={keySize} />
+        <KeyWord text={d.key} style={d.keyStyle} size={keySize} en={en} />
       </div>
     </AbsoluteFill>
   );
@@ -342,7 +352,7 @@ const RefThumb: React.FC<{ ep: string }> = ({ ep }) => {
 export const Thumbnail: React.FC<{ ep: string; variant: "A" | "B"; lang?: string }> = ({ ep, variant, lang }) => {
   setLang(lang);
   const refKey = ep.replace(/_en$/, "");
-  if (lang !== "en" && variant === "A" && REF[refKey]) return <RefThumb ep={ep} />;
+  if (variant === "A" && (lang === "en" ? REF_EN : REF)[refKey]) return <RefThumb ep={ep} en={lang === "en"} />;
   if (ep.startsWith("jipyeong")) {
     const a = ep.replace(/_en$/, "");
     const en = lang === "en";

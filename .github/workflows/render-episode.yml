@@ -66,6 +66,7 @@ jobs:
           for V in A B; do
             npx remotion still out/bundle Thumbnail thumbnails/${EP}_ko_${V}.png --props="{\"ep\":\"$EP\",\"variant\":\"$V\",\"lang\":\"ko\"}" --log=error
           done
+          npx remotion still out/bundle Thumbnail thumbnails/${EP}_en_A.png --props="{\"ep\":\"$EP\",\"variant\":\"A\",\"lang\":\"en\"}" --log=error
           git config user.name "war-docu-bot" && git config user.email "actions@users.noreply.github.com"
           git add -A public/ep/$EP thumbnails && git commit -qm "썸네일: $EP" || echo "변경 없음"
           git pull --rebase -X theirs -q || true
