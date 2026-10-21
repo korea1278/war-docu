@@ -1,7 +1,7 @@
 {
  "title": "Battle of Chuncheon (1950): The Defense That Saved South Korea",
  "subtitle": "Jun 25 – 30, 1950",
- "target_sec": 495,
+ "target_sec": 500,
  "places": {
   "seoul": [
    126.978,
@@ -97,6 +97,20 @@
     37.895
    ],
    "span": 0.2
+  },
+  "hc": {
+   "center": [
+    127.93,
+    37.8
+   ],
+   "span": 0.6
+  },
+  "dn": {
+   "center": [
+    127.55,
+    37.15
+   ],
+   "span": 1.4
   }
  },
  "music": [
@@ -893,7 +907,7 @@
      "text": "~10 SP GUNS · ROK RECORDS",
      "style": "red",
      "at": 0.2,
-     "pos": "top"
+     "pos": "lower"
     }
    ],
    "sfx": [
@@ -916,6 +930,27 @@
     "kb": "in"
    },
    "label": "NK SU-76 destroyed north of Chuncheon (Apr 1951)"
+  },
+  {
+   "id": "s16b",
+   "lines": [
+    "The North Korean vehicle was the SU-76.",
+    "A Soviet-built armored vehicle carrying a 76mm gun, it looked no different from a tank to the South Korean soldiers."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "SU-76 Self-Propelled Gun",
+    "style": "red",
+    "sub": "76mm gun · Soviet-built · NK main armor",
+    "subAt": 1
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
   },
   {
    "id": "s17",
@@ -1187,6 +1222,19 @@
    ]
   },
   {
+   "id": "s24b",
+   "lines": [
+    "Along the riverbank, the North Koreans reportedly left behind the equipment of units that never made it across.",
+    "It was the first major setback the North Korean army had faced since the invasion began."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "river_hold",
+    "kb": "out"
+   },
+   "label": "Dramatization"
+  },
+  {
    "id": "s25",
    "lines": [
     "Remarkably, even a North Korean novel portrays this moment as a defeat.",
@@ -1216,7 +1264,7 @@
    "visual": {
     "type": "map",
     "from": "cc_wide",
-    "to": "cc_wide",
+    "to": "hc",
     "items": [
      {
       "k": "unit",
@@ -1676,7 +1724,7 @@
   {
    "id": "s39",
    "lines": [
-    "Fourth, the men who refused to fall back."
+    "Fourth, the men who held to the end."
    ],
    "visual": {
     "type": "chapterbig",
@@ -1793,7 +1841,7 @@
       "text": "Encirclement Failed",
       "color": "red",
       "at": 0.5,
-      "dy": 70
+      "dy": -70
      },
      {
       "k": "arrow",
@@ -1844,8 +1892,7 @@
    "visual": {
     "type": "map",
     "from": "central",
-    "to": "korea",
-    "zoom": 1.6,
+    "to": "dn",
     "items": [
      {
       "k": "marker",

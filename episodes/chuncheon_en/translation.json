@@ -205,6 +205,14 @@
    ],
    "label": "NK SU-76 destroyed north of Chuncheon (Apr 1951)"
   },
+  "s16b": {
+   "lines": [
+    "The North Korean vehicle was the SU-76.",
+    "A Soviet-built armored vehicle carrying a 76mm gun, it looked no different from a tank to the South Korean soldiers."
+   ],
+   "big": "SU-76 Self-Propelled Gun",
+   "sub": "76mm gun · Soviet-built · NK main armor"
+  },
   "s17": {
    "lines": [
     "Then the gunners at Chuncheon made a bold call.",
@@ -276,6 +284,13 @@
    "lines": [
     "Under South Korean fire from the heights, the river became a death trap.",
     "Reportedly, only about one company actually made it across."
+   ],
+   "label": "Dramatization"
+  },
+  "s24b": {
+   "lines": [
+    "Along the riverbank, the North Koreans reportedly left behind the equipment of units that never made it across.",
+    "It was the first major setback the North Korean army had faced since the invasion began."
    ],
    "label": "Dramatization"
   },
@@ -414,7 +429,7 @@
   },
   "s39": {
    "lines": [
-    "Fourth, the men who refused to fall back."
+    "Fourth, the men who held to the end."
    ],
    "num": "Factor 4",
    "title": "Men Who Held"
