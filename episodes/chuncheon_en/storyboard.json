@@ -1,0 +1,1945 @@
+{
+ "title": "Battle of Chuncheon (1950): The Defense That Saved South Korea",
+ "subtitle": "Jun 25 – 30, 1950",
+ "target_sec": 495,
+ "places": {
+  "seoul": [
+   126.978,
+   37.566,
+   "Seoul"
+  ],
+  "suwon": [
+   127.03,
+   37.27,
+   "Suwon"
+  ],
+  "chuncheon": [
+   127.73,
+   37.875,
+   "Chuncheon"
+  ],
+  "hongcheon": [
+   127.888,
+   37.697,
+   "Hongcheon"
+  ],
+  "wonju": [
+   127.92,
+   37.342,
+   "Wonju"
+  ],
+  "inje": [
+   128.17,
+   38.07,
+   "Inje"
+  ],
+  "oksanpo": [
+   127.703,
+   37.915,
+   "Oksan-po"
+  ],
+  "bongui": [
+   127.735,
+   37.889,
+   "Bongui Mt."
+  ],
+  "wonchang": [
+   127.78,
+   37.81,
+   "Wonchang Pass"
+  ],
+  "malgogae": [
+   127.87,
+   37.77,
+   "Malgogae Pass"
+  ],
+  "dongnak": [
+   127.62,
+   36.98,
+   "Dongnak-ri"
+  ],
+  "nk2": [
+   127.68,
+   38.04,
+   "NK 2nd Div"
+  ],
+  "nk7": [
+   127.98,
+   38.04,
+   "NK 7th Div"
+  ]
+ },
+ "views": {
+  "korea": {
+   "center": [
+    127.6,
+    37.6
+   ],
+   "span": 5.5
+  },
+  "central": {
+   "center": [
+    127.4,
+    37.6
+   ],
+   "span": 1.5
+  },
+  "cc_wide": {
+   "center": [
+    127.8,
+    37.86
+   ],
+   "span": 0.6
+  },
+  "cc": {
+   "center": [
+    127.725,
+    37.895
+   ],
+   "span": 0.2
+  }
+ },
+ "music": [
+  {
+   "id": "drone",
+   "from": "s01",
+   "to": "s06",
+   "volume": 0.2
+  },
+  {
+   "id": "theme",
+   "from": "s07",
+   "to": "s13",
+   "volume": 0.16
+  },
+  {
+   "id": "tension",
+   "from": "s14",
+   "to": "s22",
+   "volume": 0.17
+  },
+  {
+   "id": "march",
+   "from": "s23",
+   "to": "s31",
+   "volume": 0.15
+  },
+  {
+   "id": "analysis",
+   "from": "s32",
+   "to": "s41",
+   "volume": 0.13
+  },
+  {
+   "id": "somber",
+   "from": "s42",
+   "to": "s47",
+   "volume": 0.17
+  }
+ ],
+ "scenes": [
+  {
+   "id": "s01",
+   "lines": [
+    "Dawn, June 25th, 1950. Rain was falling on Chuncheon, Gangwon Province.",
+    "From beyond the 38th Parallel, North Korean shells began to rain down."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "dawn_rain",
+    "kb": "in"
+   },
+   "visuals": [
+    {
+     "atLine": 1,
+     "type": "map",
+     "from": "korea",
+     "to": "cc_wide",
+     "items": [
+      {
+       "k": "line",
+       "path": [
+        [
+         126.65,
+         37.95
+        ],
+        [
+         127.0,
+         38.0
+        ],
+        [
+         127.5,
+         38.0
+        ],
+        [
+         128.0,
+         38.0
+        ],
+        [
+         128.6,
+         38.0
+        ]
+       ],
+       "color": "#888888",
+       "at": 0
+      },
+      {
+       "k": "unit",
+       "p": "chuncheon",
+       "text": "Chuncheon",
+       "color": "blue",
+       "at": 0.4,
+       "pulse": true
+      }
+     ]
+    }
+   ],
+   "callouts": [
+    {
+     "text": "JUNE 25, 1950 · CHUNCHEON",
+     "style": "yellow",
+     "at": 0,
+     "until": 0
+    }
+   ],
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0,
+     "volume": 0.4
+    },
+    {
+     "id": "artillery_far",
+     "at": 0.6,
+     "volume": 0.45
+    },
+    {
+     "id": "whoosh",
+     "at": 1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "lines": [
+    "The North Korean plan was bold.",
+    "Take Chuncheon on day one, then swing southwest and encircle Seoul from behind."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "nk_plan",
+    "kb": "in",
+    "bubbles": [
+     {
+      "text": "Chuncheon today,\nthen Seoul!",
+      "x": 0.7,
+      "y": 0.2,
+      "at": 1
+     }
+    ]
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s03",
+   "lines": [
+    "If it worked, the main South Korean army in Seoul would be trapped within three days."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "cc_wide",
+    "to": "central",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.65,
+        37.95
+       ],
+       [
+        127.0,
+        38.0
+       ],
+       [
+        127.5,
+        38.0
+       ],
+       [
+        128.0,
+        38.0
+       ],
+       [
+        128.6,
+        38.0
+       ]
+      ],
+      "color": "#888888",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.73,
+        38.05
+       ],
+       [
+        127.73,
+        37.88
+       ],
+       [
+        127.45,
+        37.5
+       ],
+       [
+        127.03,
+        37.27
+       ]
+      ],
+      "color": "red",
+      "at": 0,
+      "width": 1.4,
+      "dur": 2.2
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.9,
+        38.05
+       ],
+       [
+        126.95,
+        37.75
+       ],
+       [
+        126.98,
+        37.6
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 1.4
+     },
+     {
+      "k": "unit",
+      "p": "seoul",
+      "text": "Encircle Seoul",
+      "color": "red",
+      "at": 0.6,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "NK PLAN · SEOUL ENCIRCLED IN 3 DAYS",
+     "style": "red",
+     "at": 0.3,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "drum",
+     "at": 0.2,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "lines": [
+    "But the plan began to fall apart on the very first day.",
+    "At Chuncheon, a single division stood in the way of an entire North Korean corps."
+   ],
+   "visual": {
+    "type": "versus",
+    "left": {
+     "n": 1,
+     "label": "ROK 6th Division",
+     "color": "blue"
+    },
+    "right": {
+     "n": 3,
+     "label": "NK II Corps",
+     "color": "red"
+    },
+    "at": 1
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "lines": [
+    "On the first day of the war, as the front collapsed all along the 38th Parallel,",
+    "only one place held: Chuncheon."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "Day one of the war —\nthe only line that held"
+   },
+   "pauseBefore": 0.4
+  },
+  {
+   "id": "s06",
+   "lines": [
+    "An underdog defense that bought three precious days.",
+    "This is the story of the Battle of Chuncheon, the fight that wrecked the plan to encircle Seoul."
+   ],
+   "visual": {
+    "type": "titlecard",
+    "q": "s06-photo",
+    "title": "Battle of Chuncheon",
+    "sub": "The Defense That Saved South Korea · 1950",
+    "at": 1
+   },
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 1,
+     "volume": 0.5
+    }
+   ],
+   "flash": true
+  },
+  {
+   "id": "s07",
+   "lines": [
+    "In June 1950, the 38th Parallel was strangely quiet.",
+    "With the weekend coming, many South Korean units let their men go on pass and leave."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s07-photo",
+    "kb": "left"
+   },
+   "label": "Seoul streets just before the war (Jun 1950)",
+   "chapter": {
+    "num": "PART 1",
+    "title": "CHUNCHEON BEFORE THE STORM"
+   }
+  },
+  {
+   "id": "s08",
+   "lines": [
+    "The central front around Chuncheon and Hongcheon belonged to the ROK 6th Division.",
+    "The 7th Regiment held Chuncheon, the 2nd held Hongcheon, and the 19th waited in reserve at Wonju."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "central",
+    "to": "cc_wide",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.65,
+        37.95
+       ],
+       [
+        127.0,
+        38.0
+       ],
+       [
+        127.5,
+        38.0
+       ],
+       [
+        128.0,
+        38.0
+       ],
+       [
+        128.6,
+        38.0
+       ]
+      ],
+      "color": "#888888",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "chuncheon",
+      "text": "7th Regt · Chuncheon",
+      "color": "blue",
+      "at": 0.2
+     },
+     {
+      "k": "unit",
+      "p": "hongcheon",
+      "text": "2nd Regt · Hongcheon",
+      "color": "blue",
+      "at": 1
+     },
+     {
+      "k": "unit",
+      "p": "wonju",
+      "text": "19th Regt · Wonju",
+      "color": "blue",
+      "at": 1.3
+     }
+    ]
+   }
+  },
+  {
+   "id": "s09",
+   "lines": [
+    "Its commander, Colonel Kim Jong-oh, had been in charge for barely two weeks.",
+    "From captured infiltrators and defectors, he sensed that something was wrong."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s09-photo",
+    "kb": "in",
+    "frame": true
+   },
+   "label": "Kim Jong-oh (later as Maj. Gen., 1954)"
+  },
+  {
+   "id": "s09b",
+   "lines": [
+    "Two years later, he would lead the 9th Division at White Horse Hill against China's elite 38th Army.",
+    "His first real test came right here, at Chuncheon."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "Colonel Kim Jong-oh",
+    "style": "yellow",
+    "sub": "Commander, ROK 6th Division (Jun 1950)",
+    "subAt": 0
+   }
+  },
+  {
+   "id": "s10",
+   "lines": [
+    "Kim cancelled passes and overnight leave, and put his men on alert.",
+    "Trenches were re-dug, and his artillery was pulled in toward the town."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "kim_alert",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s11",
+   "lines": [
+    "Chuncheon sits in a basin wrapped by the Soyang River.",
+    "North of the river lay the open fields of Oksan-po; south of it, Bongui Mountain, 301 meters high, looked down over the town."
+   ],
+   "visual": {
+    "type": "profile",
+    "pts": [
+     [
+      0,
+      330
+     ],
+     [
+      0.07,
+      290
+     ],
+     [
+      0.14,
+      180
+     ],
+     [
+      0.22,
+      100
+     ],
+     [
+      0.3,
+      88
+     ],
+     [
+      0.38,
+      84
+     ],
+     [
+      0.44,
+      74
+     ],
+     [
+      0.5,
+      80
+     ],
+     [
+      0.56,
+      150
+     ],
+     [
+      0.61,
+      260
+     ],
+     [
+      0.645,
+      301
+     ],
+     [
+      0.68,
+      250
+     ],
+     [
+      0.74,
+      120
+     ],
+     [
+      0.8,
+      92
+     ],
+     [
+      0.88,
+      160
+     ],
+     [
+      0.94,
+      330
+     ],
+     [
+      1,
+      380
+     ]
+    ],
+    "grid": [
+     100,
+     200,
+     300
+    ],
+    "yMin": 40,
+    "yMax": 400,
+    "title": "Chuncheon Basin · Cross-Section",
+    "note": "North–south schematic (vertical exaggeration)",
+    "left": "N · toward 38th Parallel",
+    "right": "S",
+    "marks": [
+     {
+      "x": 0.3,
+      "text": "Oksan-po Fields",
+      "style": "dark",
+      "at": 1,
+      "lift": 90,
+      "size": 44
+     },
+     {
+      "x": 0.44,
+      "text": "Soyang River",
+      "style": "blue",
+      "at": 1.2,
+      "lift": 70,
+      "size": 42
+     },
+     {
+      "x": 0.645,
+      "text": "Bongui Mt. 301 m",
+      "style": "yellow",
+      "at": 1.5,
+      "lift": 100,
+      "size": 46
+     }
+    ]
+   }
+  },
+  {
+   "id": "s12",
+   "lines": [
+    "To reach Chuncheon, an attacker had to cross open fields and then the Soyang River.",
+    "And every step of that route could be seen from the top of Bongui Mountain."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "cc_wide",
+    "to": "cc",
+    "items": [
+     {
+      "k": "marker",
+      "p": "oksanpo",
+      "color": "dark",
+      "at": 0.2
+     },
+     {
+      "k": "marker",
+      "p": "bongui",
+      "color": "blue",
+      "at": 0.4
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.69,
+        37.98
+       ],
+       [
+        127.7,
+        37.94
+       ],
+       [
+        127.71,
+        37.91
+       ]
+      ],
+      "color": "red",
+      "at": 1,
+      "width": 1.0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "Fields + River = Natural Barrier",
+     "style": "yellow",
+     "at": 1,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "lines": [
+    "Facing them was the North Korean II Corps.",
+    "Its 2nd Division aimed at Chuncheon, its 7th Division at Hongcheon, led by Soviet-built self-propelled guns."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "cc_wide",
+    "to": "cc_wide",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.65,
+        37.95
+       ],
+       [
+        127.0,
+        38.0
+       ],
+       [
+        127.5,
+        38.0
+       ],
+       [
+        128.0,
+        38.0
+       ],
+       [
+        128.6,
+        38.0
+       ]
+      ],
+      "color": "#888888",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "nk2",
+      "text": "NK 2nd Div",
+      "color": "red",
+      "at": 0.3
+     },
+     {
+      "k": "unit",
+      "p": "nk7",
+      "text": "NK 7th Div",
+      "color": "red",
+      "at": 1
+     },
+     {
+      "k": "unit",
+      "p": "chuncheon",
+      "text": "ROK 6th Div",
+      "color": "blue",
+      "at": 0
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "drum",
+     "at": 0.3,
+     "volume": 0.5
+    },
+    {
+     "id": "drum",
+     "at": 1,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s13b",
+   "lines": [
+    "Under the North Korean plan, II Corps was to take Chuncheon on the first day.",
+    "Then it would drive through Hongcheon and Icheon to Suwon, cutting in behind Seoul."
+   ],
+   "visual": {
+    "type": "document",
+    "org": "NK II Corps",
+    "head": "OPERATIONS PLAN (SUMMARY)",
+    "rows": [
+     "DAY 1   Take Chuncheon",
+     "THEN    Hongcheon → Icheon → Suwon",
+     "GOAL    Cut off & encircle Seoul"
+    ],
+    "note": "Summary per ROK official history · reconstructed",
+    "stamp": "DECLASSIFIED"
+   },
+   "sfx": [
+    {
+     "id": "typewriter",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "lines": [
+    "Dawn, June 25th.",
+    "After a thirty-minute barrage, North Korean troops poured across the 38th Parallel."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "JUNE 25, 1950 · DAWN",
+    "accent": "THE INVASION BEGINS",
+    "accentAt": 1
+   },
+   "chapter": {
+    "num": "PART 2",
+    "title": "GUNS AT OKSAN-PO"
+   },
+   "sfx": [
+    {
+     "id": "artillery",
+     "at": 0.5,
+     "volume": 0.55
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "lines": [
+    "Breaking through the outposts, the North Koreans rolled onto the Oksan-po fields behind some ten self-propelled guns.",
+    "The South Korean soldiers had never seen armored monsters like these."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "su76_advance",
+    "kb": "up"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "tank",
+     "at": 0,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s15b",
+   "lines": [
+    "Shells fell nonstop among the rain-soaked rice paddies.",
+    "The 1st Battalion, 7th Regiment, guarding Oksan-po, faced that armored column with almost nothing."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "cc",
+    "to": "cc",
+    "zoom": 1.15,
+    "items": [
+     {
+      "k": "unit",
+      "p": "oksanpo",
+      "text": "1st Bn, 7th Regt",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.68,
+        37.97
+       ],
+       [
+        127.69,
+        37.945
+       ],
+       [
+        127.698,
+        37.922
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 1.2,
+      "dur": 1.6
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "~10 SP GUNS · ROK RECORDS",
+     "style": "red",
+     "at": 0.2,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "tank",
+     "at": 0.2,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s16",
+   "lines": [
+    "The South Korean army had no tanks and no real anti-tank weapons.",
+    "All it had were 57mm anti-tank guns and a few bazookas."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s16-photo",
+    "kb": "in"
+   },
+   "label": "NK SU-76 destroyed north of Chuncheon (Apr 1951)"
+  },
+  {
+   "id": "s17",
+   "lines": [
+    "Then the gunners at Chuncheon made a bold call.",
+    "They lowered the barrels of their 105mm howitzers and fired straight at the oncoming guns."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "direct_fire",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "artillery",
+     "at": 1,
+     "volume": 0.55
+    },
+    {
+     "id": "boom",
+     "at": 1.3,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s18",
+   "lines": [
+    "A howitzer is meant to lob shells over hills.",
+    "They turned it into a gun aimed at armor right in front of them."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s18-photo",
+    "kb": "left"
+   },
+   "label": "105mm howitzer firing (Aug 1950)"
+  },
+  {
+   "id": "s19",
+   "lines": [
+    "And in the middle of the fields, a young officer moved forward.",
+    "He was Second Lieutenant Shim Il, an anti-tank platoon leader of the 7th Regiment."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "2nd Lt. Shim Il",
+    "style": "yellow",
+    "sub": "Anti-tank platoon leader, 7th Regt, ROK 6th Division",
+    "subAt": 1
+   }
+  },
+  {
+   "id": "s20",
+   "lines": [
+    "When shells failed, he and his men crawled toward the guns with grenades and Molotov cocktails.",
+    "They reportedly got close enough to drop grenades through the hatches."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "shim_team",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.5
+    },
+    {
+     "id": "boom",
+     "at": 1,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s21",
+   "lines": [
+    "According to official records, his platoon stopped several of the self-propelled guns.",
+    "Word that the armored monsters could be destroyed spread quickly along the front."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "cc",
+    "to": "cc",
+    "zoom": 1.0,
+    "items": [
+     {
+      "k": "unit",
+      "p": "oksanpo",
+      "text": "Oksan-po",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.69,
+        37.95
+       ],
+       [
+        127.695,
+        37.93
+       ],
+       [
+        127.7,
+        37.915
+       ]
+      ],
+      "color": "red",
+      "at": 0,
+      "width": 1.0
+     },
+     {
+      "k": "badge",
+      "p": "oksanpo",
+      "text": "SP Guns Knocked Out",
+      "color": "blue",
+      "at": 0.5,
+      "dy": 80
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "ROK'S FIRST ANTI-ARMOR SUCCESS",
+     "style": "yellow",
+     "at": 1,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s22",
+   "lines": [
+    "His feat was later questioned as exaggerated,",
+    "but in 2017 a Ministry of National Defense review panel concluded it was true."
+   ],
+   "visual": {
+    "type": "document",
+    "org": "ROK MND Review Panel",
+    "head": "SHIM IL RECORD REVIEW",
+    "rows": [
+     "Jul 2016   Doubts raised",
+     "Apr 2017   Record upheld"
+    ],
+    "note": "Summary per press reports",
+    "stamp": "DECLASSIFIED"
+   },
+   "sfx": [
+    {
+     "id": "typewriter",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s23",
+   "lines": [
+    "On June 26th, the North Koreans tried to cross the Soyang River."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "cc",
+    "to": "cc",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.7,
+        37.93
+       ],
+       [
+        127.71,
+        37.915
+       ],
+       [
+        127.72,
+        37.903
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 1.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.75,
+        37.93
+       ],
+       [
+        127.745,
+        37.915
+       ],
+       [
+        127.742,
+        37.904
+       ]
+      ],
+      "color": "red",
+      "at": 0.4,
+      "width": 1.1
+     },
+     {
+      "k": "unit",
+      "p": "bongui",
+      "text": "Bongui Mt. · 7th Regt",
+      "color": "blue",
+      "at": 0
+     }
+    ]
+   },
+   "chapter": {
+    "num": "PART 3",
+    "title": "THREE DAYS ON THE SOYANG"
+   }
+  },
+  {
+   "id": "s23b",
+   "lines": [
+    "From the top of Bongui Mountain, observers called every North Korean move along the riverbank down to the artillery.",
+    "Shells landed exactly where the enemy tried to cross."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s23b-photo",
+    "kb": "right"
+   },
+   "label": "ROK divisional artillery (Sep 1950)",
+   "sfx": [
+    {
+     "id": "artillery",
+     "at": 0.6,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s24",
+   "lines": [
+    "Under South Korean fire from the heights, the river became a death trap.",
+    "Reportedly, only about one company actually made it across."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "river_hold",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "water",
+     "at": 0,
+     "volume": 0.4
+    },
+    {
+     "id": "mg",
+     "at": 0.5,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s25",
+   "lines": [
+    "Remarkably, even a North Korean novel portrays this moment as a defeat.",
+    "It says a battalion collapsed within minutes under a storm of unseen bullets."
+   ],
+   "visual": {
+    "type": "quotes",
+    "title": "North Korean novel 'Immortal History' (summary)",
+    "items": [
+     {
+      "text": "A storm of unseen bullets",
+      "at": 0
+     },
+     {
+      "text": "The battalion collapsed within minutes",
+      "at": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s26",
+   "lines": [
+    "Meanwhile at Hongcheon, the 2nd Regiment was holding back the North Korean 7th Division.",
+    "On the narrow Malgogae pass, North Korean tanks ground to a halt one by one."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "cc_wide",
+    "to": "cc_wide",
+    "items": [
+     {
+      "k": "unit",
+      "p": "hongcheon",
+      "text": "2nd Regt · Hongcheon",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.05,
+        37.98
+       ],
+       [
+        127.95,
+        37.85
+       ],
+       [
+        127.88,
+        37.78
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 1.2
+     },
+     {
+      "k": "badge",
+      "p": "malgogae",
+      "text": "Malgogae Pass",
+      "color": "dark",
+      "at": 1,
+      "dy": -70
+     }
+    ]
+   }
+  },
+  {
+   "id": "s27",
+   "lines": [
+    "Stalled at Chuncheon, the North Koreans changed their plan.",
+    "They diverted troops heading toward Inje and poured their firepower onto Chuncheon."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "cc_wide",
+    "to": "cc_wide",
+    "items": [
+     {
+      "k": "unit",
+      "p": "chuncheon",
+      "text": "ROK 6th Div",
+      "color": "blue",
+      "at": 0,
+      "pulse": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.1,
+        38.05
+       ],
+       [
+        127.95,
+        38.0
+       ],
+       [
+        127.79,
+        37.93
+       ]
+      ],
+      "color": "red",
+      "at": 0.6,
+      "width": 1.3,
+      "dur": 1.8
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "REINFORCEMENTS DIVERTED TO CHUNCHEON",
+     "style": "red",
+     "at": 0.6,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.5,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s28",
+   "lines": [
+    "On June 27th, the North Koreans finally crossed the Soyang River.",
+    "The 7th Regiment fell back to the Wonchang Pass south of town and blocked the road again."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "cc",
+    "to": "cc_wide",
+    "zoom": 1.6,
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.72,
+        37.91
+       ],
+       [
+        127.735,
+        37.88
+       ],
+       [
+        127.75,
+        37.85
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 1.1
+     },
+     {
+      "k": "unit",
+      "p": "wonchang",
+      "text": "Wonchang Pass · 7th Regt",
+      "color": "blue",
+      "at": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s29",
+   "lines": [
+    "But by then, the western front had already collapsed.",
+    "On June 28th, Seoul fell."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s29-photo",
+    "kb": "in"
+   },
+   "label": "NK tanks entering Seoul (Jun 1950)"
+  },
+  {
+   "id": "s29b",
+   "lines": [
+    "After taking Seoul, the North Korean army halted there for three days.",
+    "Some historians argue it was because II Corps, which was meant to close the trap, had not yet arrived."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "Three Days in Seoul",
+    "style": "red",
+    "sub": "When the North Koreans did not cross the Han",
+    "subAt": 1
+   }
+  },
+  {
+   "id": "s30",
+   "lines": [
+    "To avoid being cut off, the 6th Division now had to pull back.",
+    "It did not collapse; it withdrew south in good order."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "withdraw",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s31",
+   "lines": [
+    "Even after losing Hongcheon on June 30th,",
+    "the 6th Division fought its way back toward Wonju and Chungju, and kept itself together as a fighting unit."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "cc_wide",
+    "to": "central",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.73,
+        37.86
+       ],
+       [
+        127.88,
+        37.69
+       ],
+       [
+        127.92,
+        37.35
+       ],
+       [
+        127.93,
+        37.0
+       ]
+      ],
+      "color": "blue",
+      "at": 0,
+      "width": 1.3,
+      "dur": 2.4
+     },
+     {
+      "k": "marker",
+      "p": "wonju",
+      "color": "dark",
+      "at": 0.8
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "6-DAY DELAYING ACTION (JUN 25 – 30)",
+     "style": "blue",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s32",
+   "lines": [
+    "So how did one division hold up an entire corps?",
+    "Let's break it down into four factors."
+   ],
+   "visual": {
+    "type": "factors",
+    "items": [
+     "Ready in Advance",
+     "River & Mountain",
+     "Direct-Fire Artillery",
+     "Men Who Held"
+    ],
+    "head": "1 Division vs 1 Corps — How?",
+    "at": 1
+   },
+   "chapter": {
+    "num": "PART 4",
+    "title": "4 DECIDING FACTORS"
+   }
+  },
+  {
+   "id": "s33",
+   "lines": [
+    "First, they were ready in advance."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s33-photo",
+    "num": "Factor 1",
+    "title": "Ready in Advance"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s34",
+   "lines": [
+    "One decision to cancel passes meant the 6th Division's men were at their posts that morning.",
+    "Many other units were caught half-empty."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "Many Other Units",
+     "big": "ON PASS",
+     "icon": "crowd",
+     "color": "red"
+    },
+    "right": {
+     "title": "ROK 6th Division",
+     "big": "ALL ON ALERT",
+     "icon": "crowd",
+     "color": "blue",
+     "at": 1
+    }
+   }
+  },
+  {
+   "id": "s35",
+   "lines": [
+    "Second, the river and the mountain."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s35-photo",
+    "num": "Factor 2",
+    "title": "River & Mountain"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s36",
+   "lines": [
+    "Open fields, the Soyang River, and Bongui Mountain.",
+    "The attackers had nowhere to hide, while the defenders could see everything."
+   ],
+   "visual": {
+    "type": "profile",
+    "pts": [
+     [
+      0,
+      330
+     ],
+     [
+      0.07,
+      290
+     ],
+     [
+      0.14,
+      180
+     ],
+     [
+      0.22,
+      100
+     ],
+     [
+      0.3,
+      88
+     ],
+     [
+      0.38,
+      84
+     ],
+     [
+      0.44,
+      74
+     ],
+     [
+      0.5,
+      80
+     ],
+     [
+      0.56,
+      150
+     ],
+     [
+      0.61,
+      260
+     ],
+     [
+      0.645,
+      301
+     ],
+     [
+      0.68,
+      250
+     ],
+     [
+      0.74,
+      120
+     ],
+     [
+      0.8,
+      92
+     ],
+     [
+      0.88,
+      160
+     ],
+     [
+      0.94,
+      330
+     ],
+     [
+      1,
+      380
+     ]
+    ],
+    "grid": [
+     100,
+     200,
+     300
+    ],
+    "yMin": 40,
+    "yMax": 400,
+    "left": "N",
+    "right": "S",
+    "arrows": [
+     {
+      "from": 0.05,
+      "to": 0.42,
+      "color": "red",
+      "at": 0,
+      "dur": 1.6,
+      "lift": 50
+     }
+    ],
+    "marks": [
+     {
+      "x": 0.645,
+      "text": "ROK Observation & Fire",
+      "style": "blue",
+      "at": 0.5,
+      "lift": 100,
+      "size": 46
+     }
+    ]
+   }
+  },
+  {
+   "id": "s37",
+   "lines": [
+    "Third, artillery firing over open sights."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s37-photo",
+    "num": "Factor 3",
+    "title": "Direct-Fire Artillery"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s38",
+   "lines": [
+    "An army without anti-tank weapons used its howitzers as anti-tank guns.",
+    "Massing the artillery at Chuncheon paid off at the decisive moment."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "direct_fire",
+    "kb": "out"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s39",
+   "lines": [
+    "Fourth, the men who refused to fall back."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s39-photo",
+    "num": "Factor 4",
+    "title": "Men Who Held"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s40",
+   "lines": [
+    "According to the U.S. Army history, the North Korean 2nd Division lost about 40 percent of its strength.",
+    "Within days of the invasion, North Korea had to replace its corps and division commanders."
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "NK 2nd Division losses · per U.S. Army history (Appleman)",
+    "items": [
+     {
+      "label": "Remaining",
+      "value": 60,
+      "display": "~60%",
+      "color": "blue",
+      "at": 0.2
+     },
+     {
+      "label": "Lost",
+      "value": 40,
+      "display": "~40%",
+      "color": "red",
+      "at": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "s40b",
+   "lines": [
+    "Even Shtykov, the Soviet ambassador in Pyongyang, described the causes in his report:",
+    "rugged terrain, and the unexpectedly courageous defense of the 6th Division."
+   ],
+   "visual": {
+    "type": "document",
+    "org": "Soviet Ambassador to DPRK",
+    "head": "SHTYKOV REPORT",
+    "rows": [
+     "CAUSE 1. Rugged terrain",
+     "CAUSE 2. Unexpectedly brave ROK 6th Div"
+    ],
+    "note": "Summary of Wilson Center documents",
+    "stamp": "DECLASSIFIED"
+   },
+   "sfx": [
+    {
+     "id": "typewriter",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s41",
+   "lines": [
+    "More important than any number was the time they bought."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "SIX DAYS",
+    "style": "dark",
+    "sub": "Jun 25 – 30, 1950"
+   }
+  },
+  {
+   "id": "s42",
+   "lines": [
+    "While II Corps was pinned down at Chuncheon, the plan to encircle Seoul from behind fell apart.",
+    "Much of the South Korean army was able to escape south of the Han River."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "central",
+    "to": "central",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.73,
+        37.88
+       ],
+       [
+        127.45,
+        37.5
+       ],
+       [
+        127.03,
+        37.27
+       ]
+      ],
+      "color": "#888888",
+      "at": 0,
+      "width": 1.2
+     },
+     {
+      "k": "badge",
+      "p": "suwon",
+      "text": "Encirclement Failed",
+      "color": "red",
+      "at": 0.5,
+      "dy": 70
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.98,
+        37.6
+       ],
+       [
+        127.0,
+        37.45
+       ],
+       [
+        127.05,
+        37.3
+       ]
+      ],
+      "color": "blue",
+      "at": 1,
+      "width": 1.3
+     }
+    ]
+   },
+   "chapter": {
+    "num": "EPILOGUE",
+    "title": "THE TIME THEY BOUGHT"
+   }
+  },
+  {
+   "id": "s43",
+   "lines": [
+    "And on that borrowed time, UN forces began arriving in Korea.",
+    "It was the first step toward the Pusan Perimeter and the Inchon landing."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s43-photo",
+    "kb": "in"
+   },
+   "label": "Inchon landing (Sep 15, 1950)"
+  },
+  {
+   "id": "s43b",
+   "lines": [
+    "The 6th Division's fight did not end at Chuncheon.",
+    "A week later at Dongnak-ri, the 7th Regiment ambushed a North Korean regiment and dealt it a heavy blow."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "central",
+    "to": "korea",
+    "zoom": 1.6,
+    "items": [
+     {
+      "k": "marker",
+      "p": "dongnak",
+      "color": "blue",
+      "at": 0.3
+     },
+     {
+      "k": "badge",
+      "p": "dongnak",
+      "text": "Jul 1950 · Dongnak-ri",
+      "color": "blue",
+      "at": 1,
+      "dy": -70
+     }
+    ]
+   }
+  },
+  {
+   "id": "s44",
+   "lines": [
+    "Today, a memorial in Chuncheon honors the battle.",
+    "Every June, the city commemorates what Koreans call the 'Great Victory at Chuncheon.'"
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s44-photo",
+    "kb": "in",
+    "bw": false
+   },
+   "label": "Chuncheon Battle Memorial Hall"
+  },
+  {
+   "id": "s45",
+   "lines": [
+    "The Soyang River still flows just as it did then."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "soyang_dawn",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s46",
+   "lines": [
+    "On the first day of the war, as everything collapsed, one division did not.",
+    "What they defended was not just a city, but time for an entire nation."
+   ],
+   "visual": {
+    "type": "quotes",
+    "title": "What Chuncheon Left Behind",
+    "items": [
+     {
+      "text": "One division held as everything collapsed",
+      "at": 0
+     },
+     {
+      "text": "They defended a nation's time",
+      "at": 1
+     }
+    ]
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s47",
+   "lines": [
+    "If this story meant something to you, please subscribe and like the video.",
+    "We'll continue to bring the forgotten records of war to light."
+   ],
+   "visual": {
+    "type": "endcard",
+    "title": "June 1950. Chuncheon.\nThe Days That Saved Seoul's Army.",
+    "q": "s47-photo"
+   },
+   "tail": 3.0
+  }
+ ],
+ "ai_images": {
+  "dawn_rain": "A rainy grey dawn on 25 June 1950 over a river basin town in Korea surrounded by green summer mountains, a wide river and a single steel bridge, low clouds, artillery flashes lighting the northern ridge, puddles and wet paddy fields, cinematic wide shot, desaturated cold palette with orange muzzle flashes, painterly realistic digital illustration, film grain, no people visible, no text, no letters.",
+  "nk_plan": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a confident North Korean corps commander whose head is a round ball painted as the North Korean flag, wearing a 1950 khaki KPA uniform with shoulder boards, slamming his fist on a large paper map showing a thick red arrow sweeping south and then west around a capital city, officers smiling behind him, inside a candle-lit tent at night, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "kim_alert": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a stern South Korean division commander whose head is a round ball painted as the South Korean taegukgi flag, wearing a 1950 M1 helmet and field uniform, inspecting freshly dug trenches and sandbagged gun pits on a green hillside above a river town under a cloudy sky, soldiers saluting and digging, determined preparation before war, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "su76_advance": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a column of Soviet-made SU-76 self-propelled guns with North Korean People's Army soldiers whose heads are round balls painted as the North Korean flag (red with blue stripes and a white circle with a red star), wearing 1950 khaki uniforms and side caps riding on top, rolling through flooded rice paddies toward a river town at dawn in the rain, explosions in the fields, mud splashing, dramatic low-angle shot, ominous, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "direct_fire": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag, wearing 1950 M1 helmets and olive drab uniforms manning an American 105mm M3 howitzer with its barrel lowered almost flat, firing point-blank across a rainy field at approaching enemy armored vehicles, huge muzzle blast, empty shell casings, gritted determination, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "shim_team": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a young South Korean second lieutenant and four soldiers whose heads are round balls painted as the South Korean taegukgi flag, wearing 1950 M1 helmets, crawling through a muddy roadside ditch clutching hand grenades and glass bottles with burning rags, closing in on a halted SU-76 self-propelled gun, rain and smoke, tense and brave, close-up, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "river_hold": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: North Korean People's Army soldiers whose heads are round balls painted as the North Korean flag (red with blue stripes and a white circle with a red star), wearing 1950 khaki uniforms and side caps trying to wade across a wide river under a hail of machine-gun and artillery fire, water exploding around them, South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag, wearing 1950 M1 helmets and olive drab uniforms firing from trenches on the green hillside above, dramatic wide shot, summer haze, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "withdraw": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag, wearing 1950 M1 helmets and olive drab uniforms withdrawing in good order along a muddy mountain road at dusk, carrying wounded comrades and towing a howitzer with a truck, exhausted but disciplined, looking back at smoke rising over a distant town, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "soyang_dawn": "A calm wide river in Korea at sunrise with mist over the water, green summer mountains, a quiet modern city skyline faintly in the distance, an old rusted 1950s M1 steel helmet resting on a riverside stone in the foreground among wildflowers, soft golden light, peaceful and mournful, painterly realistic digital illustration, film grain, no people, no text, no letters.",
+  "thumb_ref": "A rainy dawn in June 1950 on the flat fields north of Chuncheon, Korea: in the left foreground South Korean artillerymen in M1 helmets fire a 105mm howitzer point-blank with its barrel lowered, an enormous orange-red muzzle blast; across the field Soviet SU-76 self-propelled guns burn and explode, a steep rocky mountain behind, rain and smoke, gritty photorealistic war painting styled as a black-and-white 1950s documentary archive photograph, heavy film grain, scratches and dust, desaturated monochrome except the fire, explosions and smoke glow in vivid red and orange (selective color), extreme high contrast, serious military documentary mood, no cartoon, no 2D characters, no countryball, composition: the main subject in the center and upper-left, the bottom-right quarter of the frame kept dark, empty and plain, top area slightly darker for text, no text, no letters, no logos, no watermark."
+ },
+ "lang": "en",
+ "assets_ep": "chuncheon",
+ "voice": "pNInz6obpgDQGcFmaJgB",
+ "tempo": 1.02
+}

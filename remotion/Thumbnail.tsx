@@ -262,12 +262,14 @@ const REF_EN: Record<string, RefDef> = {
   dabudong: { ep: "02", mid: [[["STAND OR DIE:", "r"]], [["55 DAYS OF HELL", "s"]]], key: "TABU-DONG", keyStyle: "stone" },
   baengma: { ep: "03", mid: [[["LOST AND RETAKEN", "w"]], [["24 TIMES", "r"]]], key: "WHITE HORSE", keyStyle: "red" },
   jipyeong: { ep: "04", mid: [[["360° SURROUNDED", "r"]], [["BY ", "w"], ["4 DIVISIONS", "s"]]], key: "CHIPYONG-NI", keyStyle: "yellow" },
+  chuncheon: { ep: "05", mid: [[["THE ONLY VICTORY", "w"]], [["ON DAY 1", "r"]]], key: "CHUNCHEON", keyStyle: "red" },
 };
 const REF: Record<string, RefDef> = {
   yongmunsan: { ep: "01", mid: [[["중공군 ", "w"], ["3개 사단", "r"], [" 격멸,", "w"]], [["1개 연대의 기적", "s"]]], key: "용문산 전투", keyStyle: "red" },
   dabudong: { ep: "02", mid: [[["대구 함락 직전", "r"], [",", "w"]], [["55일간의 결사항전", "s"]]], key: "다부동 전투", keyStyle: "stone" },
   baengma: { ep: "03", mid: [[["주인이 ", "w"], ["24번", "r"], [" 바뀐", "w"]], [["지옥의 능선", "s"]]], key: "백마고지", keyStyle: "red" },
   jipyeong: { ep: "04", mid: [[["중공군 4개 사단", "r"], [" 완전 포위,", "w"]], [["퇴로는 없다", "s"]]], key: "지평리 전투", keyStyle: "yellow" },
+  chuncheon: { ep: "05", mid: [[["개전 첫날 유일한 승리", "r"], [",", "w"]], [["3일간의 기적", "s"]]], key: "춘천 전투", keyStyle: "red" },
 };
 const CrackDefs: React.FC = () => (
   <svg width={0} height={0} style={{ position: "absolute" }}>

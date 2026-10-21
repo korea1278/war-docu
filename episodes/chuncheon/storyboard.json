@@ -1,0 +1,1990 @@
+{
+ "title": "춘천 전투",
+ "subtitle": "1950. 6. 25 ~ 30",
+ "target_sec": 495,
+ "places": {
+  "seoul": [
+   126.978,
+   37.566,
+   "서울"
+  ],
+  "suwon": [
+   127.03,
+   37.27,
+   "수원"
+  ],
+  "chuncheon": [
+   127.73,
+   37.875,
+   "춘천"
+  ],
+  "hongcheon": [
+   127.888,
+   37.697,
+   "홍천"
+  ],
+  "wonju": [
+   127.92,
+   37.342,
+   "원주"
+  ],
+  "inje": [
+   128.17,
+   38.07,
+   "인제"
+  ],
+  "oksanpo": [
+   127.703,
+   37.915,
+   "옥산포"
+  ],
+  "bongui": [
+   127.735,
+   37.889,
+   "봉의산"
+  ],
+  "wonchang": [
+   127.78,
+   37.81,
+   "원창고개"
+  ],
+  "malgogae": [
+   127.87,
+   37.77,
+   "말고개"
+  ],
+  "dongnak": [
+   127.62,
+   36.98,
+   "동락리"
+  ],
+  "nk2": [
+   127.68,
+   38.04,
+   "북한군 2사단"
+  ],
+  "nk7": [
+   127.98,
+   38.04,
+   "북한군 7사단"
+  ]
+ },
+ "views": {
+  "korea": {
+   "center": [
+    127.6,
+    37.6
+   ],
+   "span": 5.5
+  },
+  "central": {
+   "center": [
+    127.4,
+    37.6
+   ],
+   "span": 1.5
+  },
+  "cc_wide": {
+   "center": [
+    127.8,
+    37.86
+   ],
+   "span": 0.6
+  },
+  "cc": {
+   "center": [
+    127.725,
+    37.895
+   ],
+   "span": 0.2
+  }
+ },
+ "music": [
+  {
+   "id": "drone",
+   "from": "s01",
+   "to": "s06",
+   "volume": 0.2
+  },
+  {
+   "id": "theme",
+   "from": "s07",
+   "to": "s13",
+   "volume": 0.16
+  },
+  {
+   "id": "tension",
+   "from": "s14",
+   "to": "s22",
+   "volume": 0.17
+  },
+  {
+   "id": "march",
+   "from": "s23",
+   "to": "s31",
+   "volume": 0.15
+  },
+  {
+   "id": "analysis",
+   "from": "s32",
+   "to": "s41",
+   "volume": 0.13
+  },
+  {
+   "id": "somber",
+   "from": "s42",
+   "to": "s47",
+   "volume": 0.17
+  }
+ ],
+ "scenes": [
+  {
+   "id": "s01",
+   "lines": [
+    {
+     "t": "1950년 6월 25일 새벽, 비가 내리던 강원도 춘천.",
+     "say": "천구백오십 년 유월 이십오 일 새벽, 비가 내리던 강원도 춘천."
+    },
+    "38선 너머에서, 북한군의 포탄이 쏟아지기 시작합니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "dawn_rain",
+    "kb": "in"
+   },
+   "visuals": [
+    {
+     "atLine": 1,
+     "type": "map",
+     "from": "korea",
+     "to": "cc_wide",
+     "items": [
+      {
+       "k": "line",
+       "path": [
+        [
+         126.65,
+         37.95
+        ],
+        [
+         127.0,
+         38.0
+        ],
+        [
+         127.5,
+         38.0
+        ],
+        [
+         128.0,
+         38.0
+        ],
+        [
+         128.6,
+         38.0
+        ]
+       ],
+       "color": "#888888",
+       "at": 0
+      },
+      {
+       "k": "unit",
+       "p": "chuncheon",
+       "text": "춘천",
+       "color": "blue",
+       "at": 0.4,
+       "pulse": true
+      }
+     ]
+    }
+   ],
+   "callouts": [
+    {
+     "text": "1950. 6. 25 · 강원 춘천",
+     "style": "yellow",
+     "at": 0,
+     "until": 0
+    }
+   ],
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0,
+     "volume": 0.4
+    },
+    {
+     "id": "artillery_far",
+     "at": 0.6,
+     "volume": 0.45
+    },
+    {
+     "id": "whoosh",
+     "at": 1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "lines": [
+    "북한군 지휘부의 계획은 대담했습니다.",
+    "첫날 춘천을 점령하고, 남서쪽으로 돌아 서울을 뒤에서 포위한다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "nk_plan",
+    "kb": "in",
+    "bubbles": [
+     {
+      "text": "오늘 춘천,\n그다음은 서울!",
+      "x": 0.7,
+      "y": 0.2,
+      "at": 1
+     }
+    ]
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s03",
+   "lines": [
+    "계획대로라면, 서울의 국군 주력은 사흘 만에 독 안에 갇히게 됩니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "cc_wide",
+    "to": "central",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.65,
+        37.95
+       ],
+       [
+        127.0,
+        38.0
+       ],
+       [
+        127.5,
+        38.0
+       ],
+       [
+        128.0,
+        38.0
+       ],
+       [
+        128.6,
+        38.0
+       ]
+      ],
+      "color": "#888888",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.73,
+        38.05
+       ],
+       [
+        127.73,
+        37.88
+       ],
+       [
+        127.45,
+        37.5
+       ],
+       [
+        127.03,
+        37.27
+       ]
+      ],
+      "color": "red",
+      "at": 0,
+      "width": 1.4,
+      "dur": 2.2
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.9,
+        38.05
+       ],
+       [
+        126.95,
+        37.75
+       ],
+       [
+        126.98,
+        37.6
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 1.4
+     },
+     {
+      "k": "unit",
+      "p": "seoul",
+      "text": "서울 포위",
+      "color": "red",
+      "at": 0.6,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "북한군 계획 · 3일 만의 서울 포위",
+     "style": "red",
+     "at": 0.3,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "drum",
+     "at": 0.2,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "lines": [
+    "그런데 이 계획은, 첫날부터 무너졌습니다.",
+    "춘천에서 한 사단이, 북한군 군단 전체를 막아섰기 때문입니다."
+   ],
+   "visual": {
+    "type": "versus",
+    "left": {
+     "n": 1,
+     "label": "국군 제6사단",
+     "color": "blue"
+    },
+    "right": {
+     "n": 3,
+     "label": "북한군 제2군단",
+     "color": "red"
+    },
+    "at": 1
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "lines": [
+    "개전 첫날, 38선 전역에서 전선이 무너질 때.",
+    "단 한 곳, 춘천만은 버티고 있었습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "개전 첫날,\n무너지지 않은 단 한 곳"
+   },
+   "pauseBefore": 0.4
+  },
+  {
+   "id": "s06",
+   "lines": [
+    "사흘의 시간을 번 언더독의 방어전.",
+    "오늘은 서울 포위를 무산시킨, 춘천 전투 이야기입니다."
+   ],
+   "visual": {
+    "type": "titlecard",
+    "q": "s06-photo",
+    "title": "춘천 전투",
+    "sub": "개전 3일 만의 서울 포위를 무산시킨 기적 · 1950",
+    "at": 1
+   },
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 1,
+     "volume": 0.5
+    }
+   ],
+   "flash": true
+  },
+  {
+   "id": "s07",
+   "lines": [
+    {
+     "t": "1950년 6월, 38선은 이상할 만큼 조용했습니다.",
+     "say": "천구백오십 년 유월, 삼팔선은 이상할 만큼 조용했습니다."
+    },
+    "주말을 맞아, 많은 국군 부대가 장병들의 외출과 휴가를 허락했죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s07-photo",
+    "kb": "left"
+   },
+   "label": "개전 직전 서울 거리 (1950. 6)",
+   "chapter": {
+    "num": "PART 1",
+    "title": "폭풍 전의 춘천"
+   }
+  },
+  {
+   "id": "s08",
+   "lines": [
+    {
+     "t": "중부 전선의 춘천과 홍천을 맡은 건, 국군 제6사단.",
+     "say": "중부 전선의 춘천과 홍천을 맡은 건, 국군 제육사단."
+    },
+    {
+     "t": "제7연대는 춘천, 제2연대는 홍천, 제19연대는 예비로 원주에 있었습니다.",
+     "say": "제칠연대는 춘천, 제이연대는 홍천, 제십구연대는 예비로 원주에 있었습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "central",
+    "to": "cc_wide",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.65,
+        37.95
+       ],
+       [
+        127.0,
+        38.0
+       ],
+       [
+        127.5,
+        38.0
+       ],
+       [
+        128.0,
+        38.0
+       ],
+       [
+        128.6,
+        38.0
+       ]
+      ],
+      "color": "#888888",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "chuncheon",
+      "text": "7연대 · 춘천",
+      "color": "blue",
+      "at": 0.2
+     },
+     {
+      "k": "unit",
+      "p": "hongcheon",
+      "text": "2연대 · 홍천",
+      "color": "blue",
+      "at": 1
+     },
+     {
+      "k": "unit",
+      "p": "wonju",
+      "text": "19연대 · 원주",
+      "color": "blue",
+      "at": 1.3
+     }
+    ]
+   }
+  },
+  {
+   "id": "s09",
+   "lines": [
+    "사단장은, 부임한 지 2주밖에 안 된 김종오 대령.",
+    "그는 붙잡힌 무장공비와 귀순자의 말에서, 심상치 않은 기운을 읽어 냅니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s09-photo",
+    "kb": "in",
+    "frame": true
+   },
+   "label": "김종오 (훗날 소장 시절, 1954)"
+  },
+  {
+   "id": "s09b",
+   "lines": [
+    "2년 뒤 백마고지에서 제9사단을 이끌고, 중공군 정예 38군을 막아 내는 바로 그 지휘관이죠.",
+    "그의 첫 시험대가, 바로 이 춘천이었습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "김종오 대령",
+    "style": "yellow",
+    "sub": "국군 제6사단장 (1950. 6)",
+    "subAt": 0
+   }
+  },
+  {
+   "id": "s10",
+   "lines": [
+    "김종오는 장병들의 외출과 외박을 막고, 경계를 강화합니다.",
+    "참호를 다시 파고, 포병 진지를 춘천 시내 쪽으로 끌어당겼죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "kim_alert",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s11",
+   "lines": [
+    "춘천은 소양강이 감싸고 흐르는 분지.",
+    {
+     "t": "강 북쪽엔 넓은 들판 옥산포, 강 남쪽엔 시내를 굽어보는 해발 301미터의 봉의산이 있었습니다.",
+     "say": "강 북쪽엔 넓은 들판 옥산포, 강 남쪽엔 시내를 굽어보는 해발 삼백일 미터의 봉의산이 있었습니다."
+    }
+   ],
+   "visual": {
+    "type": "profile",
+    "pts": [
+     [
+      0,
+      330
+     ],
+     [
+      0.07,
+      290
+     ],
+     [
+      0.14,
+      180
+     ],
+     [
+      0.22,
+      100
+     ],
+     [
+      0.3,
+      88
+     ],
+     [
+      0.38,
+      84
+     ],
+     [
+      0.44,
+      74
+     ],
+     [
+      0.5,
+      80
+     ],
+     [
+      0.56,
+      150
+     ],
+     [
+      0.61,
+      260
+     ],
+     [
+      0.645,
+      301
+     ],
+     [
+      0.68,
+      250
+     ],
+     [
+      0.74,
+      120
+     ],
+     [
+      0.8,
+      92
+     ],
+     [
+      0.88,
+      160
+     ],
+     [
+      0.94,
+      330
+     ],
+     [
+      1,
+      380
+     ]
+    ],
+    "grid": [
+     100,
+     200,
+     300
+    ],
+    "yMin": 40,
+    "yMax": 400,
+    "title": "춘천 분지 지형 단면",
+    "note": "북→남 단면 모식도 (높이 과장)",
+    "left": "북 · 38선 방향",
+    "right": "남",
+    "marks": [
+     {
+      "x": 0.3,
+      "text": "옥산포 들판",
+      "style": "dark",
+      "at": 1,
+      "lift": 90,
+      "size": 44
+     },
+     {
+      "x": 0.44,
+      "text": "소양강",
+      "style": "blue",
+      "at": 1.2,
+      "lift": 70,
+      "size": 42
+     },
+     {
+      "x": 0.645,
+      "text": "봉의산 301m",
+      "style": "yellow",
+      "at": 1.5,
+      "lift": 100,
+      "size": 46
+     }
+    ]
+   }
+  },
+  {
+   "id": "s12",
+   "lines": [
+    "적이 춘천에 들어오려면, 탁 트인 들판을 지나 소양강을 건너야 합니다.",
+    "그리고 그 모든 길이, 봉의산 위에서 훤히 내려다보였죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "cc_wide",
+    "to": "cc",
+    "items": [
+     {
+      "k": "marker",
+      "p": "oksanpo",
+      "color": "dark",
+      "at": 0.2
+     },
+     {
+      "k": "marker",
+      "p": "bongui",
+      "color": "blue",
+      "at": 0.4
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.69,
+        37.98
+       ],
+       [
+        127.7,
+        37.94
+       ],
+       [
+        127.71,
+        37.91
+       ]
+      ],
+      "color": "red",
+      "at": 1,
+      "width": 1.0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "들판 + 강 = 천연 방어선",
+     "style": "yellow",
+     "at": 1,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "lines": [
+    {
+     "t": "맞선 북한군은 제2군단.",
+     "say": "맞선 북한군은, 제이군단."
+    },
+    {
+     "t": "제2사단이 춘천을, 제7사단이 홍천을 노리고, 그 앞에는 소련제 자주포들이 있었습니다.",
+     "say": "제이사단이 춘천을, 제칠사단이 홍천을 노리고, 그 앞에는 소련제 자주포들이 있었습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "cc_wide",
+    "to": "cc_wide",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.65,
+        37.95
+       ],
+       [
+        127.0,
+        38.0
+       ],
+       [
+        127.5,
+        38.0
+       ],
+       [
+        128.0,
+        38.0
+       ],
+       [
+        128.6,
+        38.0
+       ]
+      ],
+      "color": "#888888",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "nk2",
+      "text": "북한군 2사단",
+      "color": "red",
+      "at": 0.3
+     },
+     {
+      "k": "unit",
+      "p": "nk7",
+      "text": "북한군 7사단",
+      "color": "red",
+      "at": 1
+     },
+     {
+      "k": "unit",
+      "p": "chuncheon",
+      "text": "국군 6사단",
+      "color": "blue",
+      "at": 0
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "drum",
+     "at": 0.3,
+     "volume": 0.5
+    },
+    {
+     "id": "drum",
+     "at": 1,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s13b",
+   "lines": [
+    "북한군 계획에 따르면, 2군단은 개전 당일 춘천을 손에 넣어야 했습니다.",
+    "그다음 홍천과 이천을 거쳐 수원으로, 서울의 등 뒤를 노리는 것이었죠."
+   ],
+   "visual": {
+    "type": "document",
+    "org": "북한군 제2군단",
+    "head": "작전 계획 (요약)",
+    "rows": [
+     "제1일  춘천 점령",
+     "이후  홍천 → 이천 → 수원",
+     "목표  서울 남쪽 차단·포위"
+    ],
+    "note": "한국 측 전사 기술 기준 요약 · 재구성 화면"
+   },
+   "sfx": [
+    {
+     "id": "typewriter",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "lines": [
+    {
+     "t": "6월 25일 새벽.",
+     "say": "유월 이십오 일 새벽."
+    },
+    "30분간의 포격이 끝나자, 북한군이 38선을 넘어 밀려옵니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "1950. 6. 25  새벽",
+    "accent": "남침 개시",
+    "accentAt": 1
+   },
+   "chapter": {
+    "num": "PART 2",
+    "title": "옥산포의 자주포"
+   },
+   "sfx": [
+    {
+     "id": "artillery",
+     "at": 0.5,
+     "volume": 0.55
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "lines": [
+    "경계 진지를 뚫은 북한군은, 자주포 10여 대를 앞세워 옥산포 들판으로 들어섭니다.",
+    "국군 병사들은 이런 철갑 괴물을, 처음 보았습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "su76_advance",
+    "kb": "up"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "tank",
+     "at": 0,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s15b",
+   "lines": [
+    "비에 젖은 논두렁 사이로, 포탄이 쉴 새 없이 떨어졌습니다.",
+    "옥산포를 지키던 제7연대 1대대는, 맨몸으로 그 철갑 대열과 마주 섰습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "cc",
+    "to": "cc",
+    "zoom": 1.15,
+    "items": [
+     {
+      "k": "unit",
+      "p": "oksanpo",
+      "text": "7연대 1대대",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.68,
+        37.97
+       ],
+       [
+        127.69,
+        37.945
+       ],
+       [
+        127.698,
+        37.922
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 1.2,
+      "dur": 1.6
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "자주포 10여 대 · 한국 측 기록",
+     "style": "red",
+     "at": 0.2,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "tank",
+     "at": 0.2,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s16",
+   "lines": [
+    "당시 국군에게는 전차도, 제대로 된 대전차 무기도 없었습니다.",
+    {
+     "t": "가진 건 57밀리 대전차포와 바주카 정도였죠.",
+     "say": "가진 건, 오십칠 밀리 대전차포와 바주카 정도였죠."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s16-photo",
+    "kb": "in"
+   },
+   "label": "춘천 북쪽에서 파괴된 북한군 SU-76 (1951. 4)"
+  },
+  {
+   "id": "s17",
+   "lines": [
+    "그때, 춘천의 포병들이 결단을 내립니다.",
+    {
+     "t": "105밀리 곡사포의 포신을 낮춰, 다가오는 자주포를 직접 조준해 쏘기 시작한 겁니다.",
+     "say": "백오 밀리 곡사포의 포신을 낮춰, 다가오는 자주포를 직접 조준해 쏘기 시작한 겁니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "direct_fire",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "artillery",
+     "at": 1,
+     "volume": 0.55
+    },
+    {
+     "id": "boom",
+     "at": 1.3,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s18",
+   "lines": [
+    "곡사포는 원래 산 너머로 포탄을 띄워 보내는 무기.",
+    "그 포를, 눈앞의 철갑 차량을 노리는 대포로 바꿔 쓴 것이죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s18-photo",
+    "kb": "left"
+   },
+   "label": "105mm 곡사포 사격 (1950. 8)"
+  },
+  {
+   "id": "s19",
+   "lines": [
+    "그리고 들판 한가운데서, 한 젊은 장교가 움직입니다.",
+    {
+     "t": "제7연대 대전차포 소대장, 심일 소위였습니다.",
+     "say": "제칠연대 대전차포 소대장, 심일 소위였습니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "심일 소위",
+    "style": "yellow",
+    "sub": "국군 제6사단 제7연대 대전차포 소대장",
+    "subAt": 1
+   }
+  },
+  {
+   "id": "s20",
+   "lines": [
+    "포탄이 통하지 않자, 그는 부하들과 함께 수류탄과 화염병을 들고 자주포로 기어갔습니다.",
+    "가까이 다가가 해치 안으로 수류탄을 던져 넣었다고 전해지죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "shim_team",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.5
+    },
+    {
+     "id": "boom",
+     "at": 1,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s21",
+   "lines": [
+    "공식 기록에 따르면, 그의 소대는 자주포 여러 대를 멈춰 세웠습니다.",
+    "철갑 괴물도 부술 수 있다는 소문이, 순식간에 전선에 퍼졌죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "cc",
+    "to": "cc",
+    "zoom": 1.0,
+    "items": [
+     {
+      "k": "unit",
+      "p": "oksanpo",
+      "text": "옥산포",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.69,
+        37.95
+       ],
+       [
+        127.695,
+        37.93
+       ],
+       [
+        127.7,
+        37.915
+       ]
+      ],
+      "color": "red",
+      "at": 0,
+      "width": 1.0
+     },
+     {
+      "k": "badge",
+      "p": "oksanpo",
+      "text": "자주포 격파",
+      "color": "blue",
+      "at": 0.5,
+      "dy": 80
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "국군의 첫 대전차 전과",
+     "style": "yellow",
+     "at": 1,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s22",
+   "lines": [
+    "다만 그 공적은 훗날 과장 논란에 휩싸였고,",
+    {
+     "t": "2017년 국방부 검증위원회가 사실로 결론을 내렸습니다.",
+     "say": "이천십칠 년, 국방부 검증위원회가 사실로 결론을 내렸습니다."
+    }
+   ],
+   "visual": {
+    "type": "document",
+    "org": "국방부 검증위원회",
+    "head": "심일 공적 검증",
+    "rows": [
+     "2016. 7  과장 의혹 제기",
+     "2017. 4  공적 사실 결론"
+    ],
+    "note": "언론 보도 기준 요약"
+   },
+   "sfx": [
+    {
+     "id": "typewriter",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s23",
+   "lines": [
+    {
+     "t": "6월 26일, 북한군은 소양강을 건너려 합니다.",
+     "say": "유월 이십육 일, 북한군은 소양강을 건너려 합니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "cc",
+    "to": "cc",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.7,
+        37.93
+       ],
+       [
+        127.71,
+        37.915
+       ],
+       [
+        127.72,
+        37.903
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 1.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.75,
+        37.93
+       ],
+       [
+        127.745,
+        37.915
+       ],
+       [
+        127.742,
+        37.904
+       ]
+      ],
+      "color": "red",
+      "at": 0.4,
+      "width": 1.1
+     },
+     {
+      "k": "unit",
+      "p": "bongui",
+      "text": "봉의산 · 7연대",
+      "color": "blue",
+      "at": 0
+     }
+    ]
+   },
+   "chapter": {
+    "num": "PART 3",
+    "title": "소양강의 사흘"
+   }
+  },
+  {
+   "id": "s23b",
+   "lines": [
+    "봉의산 꼭대기의 관측병들은, 강가로 몰려드는 북한군의 움직임을 하나하나 포병에게 불러 주었습니다.",
+    "포탄은, 강을 건너려는 바로 그 지점에 떨어졌죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s23b-photo",
+    "kb": "right"
+   },
+   "label": "국군 사단 포병 (1950. 9)",
+   "sfx": [
+    {
+     "id": "artillery",
+     "at": 0.6,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s24",
+   "lines": [
+    "하지만 봉의산 위에서 내려다보는 국군의 화력 앞에서, 강물은 함정이 되었습니다.",
+    "강을 건넌 북한군은, 사실상 한 개 중대뿐이었다고 하죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "river_hold",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "water",
+     "at": 0,
+     "volume": 0.4
+    },
+    {
+     "id": "mg",
+     "at": 0.5,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s25",
+   "lines": [
+    "흥미롭게도, 북한이 펴낸 소설조차 이 장면을 패배로 그리고 있습니다.",
+    "보이지 않는 탄알의 소나기에, 대대가 몇 분 만에 무너졌다고요."
+   ],
+   "visual": {
+    "type": "quotes",
+    "title": "북한 소설 『불멸의 역사』 中 (요약)",
+    "items": [
+     {
+      "text": "보이지 않는 탄알의 소나기",
+      "at": 0
+     },
+     {
+      "text": "대대는 몇 분 만에 무너졌다",
+      "at": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s26",
+   "lines": [
+    "같은 시각 홍천에서는, 제2연대가 북한군 제7사단을 막고 있었습니다.",
+    "말고개의 좁은 고갯길에서, 북한군 전차들이 하나둘 멈춰 섭니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "cc_wide",
+    "to": "cc_wide",
+    "items": [
+     {
+      "k": "unit",
+      "p": "hongcheon",
+      "text": "2연대 · 홍천",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.05,
+        37.98
+       ],
+       [
+        127.95,
+        37.85
+       ],
+       [
+        127.88,
+        37.78
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 1.2
+     },
+     {
+      "k": "badge",
+      "p": "malgogae",
+      "text": "말고개",
+      "color": "dark",
+      "at": 1,
+      "dy": -70
+     }
+    ]
+   }
+  },
+  {
+   "id": "s27",
+   "lines": [
+    "춘천에서 막힌 북한군은 계획을 바꿉니다.",
+    "인제 쪽으로 가던 병력까지 춘천으로 돌려, 화력을 쏟아붓죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "cc_wide",
+    "to": "cc_wide",
+    "items": [
+     {
+      "k": "unit",
+      "p": "chuncheon",
+      "text": "국군 6사단",
+      "color": "blue",
+      "at": 0,
+      "pulse": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.1,
+        38.05
+       ],
+       [
+        127.95,
+        38.0
+       ],
+       [
+        127.79,
+        37.93
+       ]
+      ],
+      "color": "red",
+      "at": 0.6,
+      "width": 1.3,
+      "dur": 1.8
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "증원 병력까지 춘천으로",
+     "style": "red",
+     "at": 0.6,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.5,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s28",
+   "lines": [
+    {
+     "t": "6월 27일, 북한군은 마침내 소양강을 건넙니다.",
+     "say": "유월 이십칠 일, 북한군은 마침내 소양강을 건넙니다."
+    },
+    "제7연대는 춘천 남쪽 원창고개로 물러나, 다시 길을 막아섰죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "cc",
+    "to": "cc_wide",
+    "zoom": 1.6,
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.72,
+        37.91
+       ],
+       [
+        127.735,
+        37.88
+       ],
+       [
+        127.75,
+        37.85
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 1.1
+     },
+     {
+      "k": "unit",
+      "p": "wonchang",
+      "text": "원창고개 · 7연대",
+      "color": "blue",
+      "at": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s29",
+   "lines": [
+    "하지만 그 사이, 서쪽 전선은 이미 무너져 있었습니다.",
+    {
+     "t": "6월 28일, 서울이 함락됩니다.",
+     "say": "유월 이십팔 일, 서울이 함락됩니다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s29-photo",
+    "kb": "in"
+   },
+   "label": "서울에 들어온 북한군 전차 (1950. 6)"
+  },
+  {
+   "id": "s29b",
+   "lines": [
+    "서울을 점령한 북한군은, 그곳에서 사흘을 머뭅니다.",
+    "포위망을 닫아 줄 춘천의 2군단이, 아직 도착하지 못했기 때문이라는 분석도 있죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "서울의 사흘",
+    "style": "red",
+    "sub": "북한군이 한강을 넘지 못한 시간",
+    "subAt": 1
+   }
+  },
+  {
+   "id": "s30",
+   "lines": [
+    "6사단이 고립되지 않으려면, 이제 물러나야 했습니다.",
+    "사단은 무너지지 않고, 질서 있게 남쪽으로 후퇴합니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "withdraw",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s31",
+   "lines": [
+    {
+     "t": "6월 30일, 홍천마저 내준 뒤에도",
+     "say": "유월 삼십 일, 홍천마저 내준 뒤에도"
+    },
+    "6사단은 원주와 충주 방면으로 싸우며 물러섰고, 사단의 형태를 끝까지 지켰습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "cc_wide",
+    "to": "central",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.73,
+        37.86
+       ],
+       [
+        127.88,
+        37.69
+       ],
+       [
+        127.92,
+        37.35
+       ],
+       [
+        127.93,
+        37.0
+       ]
+      ],
+      "color": "blue",
+      "at": 0,
+      "width": 1.3,
+      "dur": 2.4
+     },
+     {
+      "k": "marker",
+      "p": "wonju",
+      "color": "dark",
+      "at": 0.8
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "6일간의 지연전 (6. 25 ~ 30)",
+     "style": "blue",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s32",
+   "lines": [
+    "그렇다면 6사단은, 어떻게 군단 전체를 붙잡아 둘 수 있었을까요?",
+    "네 가지로 정리해 보겠습니다."
+   ],
+   "visual": {
+    "type": "factors",
+    "items": [
+     "미리 한 대비",
+     "강과 산의 지형",
+     "포병의 직접 사격",
+     "물러서지 않은 병사"
+    ],
+    "head": "1개 사단 vs 1개 군단 — 어떻게?",
+    "at": 1
+   },
+   "chapter": {
+    "num": "PART 4",
+    "title": "승패를 가른 4가지"
+   }
+  },
+  {
+   "id": "s33",
+   "lines": [
+    "첫째, 미리 한 대비입니다."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s33-photo",
+    "num": "요인 1",
+    "title": "미리 한 대비"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s34",
+   "lines": [
+    "외출과 외박을 막은 단 한 번의 결단으로, 6사단 장병들은 그날 아침 제자리에 있었습니다.",
+    "많은 부대가 텅 빈 채 기습을 맞은 것과는, 정반대였죠."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "다른 많은 부대",
+     "big": "외출·휴가",
+     "icon": "crowd",
+     "color": "red"
+    },
+    "right": {
+     "title": "국군 제6사단",
+     "big": "전원 대기",
+     "icon": "crowd",
+     "color": "blue",
+     "at": 1
+    }
+   }
+  },
+  {
+   "id": "s35",
+   "lines": [
+    "둘째, 강과 산의 지형입니다."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s35-photo",
+    "num": "요인 2",
+    "title": "강과 산의 지형"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s36",
+   "lines": [
+    "탁 트인 들판과 소양강, 그리고 봉의산.",
+    "공격하는 쪽은 숨을 곳이 없었고, 지키는 쪽은 모든 것을 내려다봤습니다."
+   ],
+   "visual": {
+    "type": "profile",
+    "pts": [
+     [
+      0,
+      330
+     ],
+     [
+      0.07,
+      290
+     ],
+     [
+      0.14,
+      180
+     ],
+     [
+      0.22,
+      100
+     ],
+     [
+      0.3,
+      88
+     ],
+     [
+      0.38,
+      84
+     ],
+     [
+      0.44,
+      74
+     ],
+     [
+      0.5,
+      80
+     ],
+     [
+      0.56,
+      150
+     ],
+     [
+      0.61,
+      260
+     ],
+     [
+      0.645,
+      301
+     ],
+     [
+      0.68,
+      250
+     ],
+     [
+      0.74,
+      120
+     ],
+     [
+      0.8,
+      92
+     ],
+     [
+      0.88,
+      160
+     ],
+     [
+      0.94,
+      330
+     ],
+     [
+      1,
+      380
+     ]
+    ],
+    "grid": [
+     100,
+     200,
+     300
+    ],
+    "yMin": 40,
+    "yMax": 400,
+    "left": "북",
+    "right": "남",
+    "arrows": [
+     {
+      "from": 0.05,
+      "to": 0.42,
+      "color": "red",
+      "at": 0,
+      "dur": 1.6,
+      "lift": 50
+     }
+    ],
+    "marks": [
+     {
+      "x": 0.645,
+      "text": "국군 관측·화력",
+      "style": "blue",
+      "at": 0.5,
+      "lift": 100,
+      "size": 46
+     }
+    ]
+   }
+  },
+  {
+   "id": "s37",
+   "lines": [
+    "셋째, 포병의 직접 사격입니다."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s37-photo",
+    "num": "요인 3",
+    "title": "포병의 직접 사격"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s38",
+   "lines": [
+    "대전차 무기가 없던 군대가, 곡사포를 대전차포처럼 썼습니다.",
+    "포병을 춘천에 모아 둔 판단이, 결정적인 순간에 빛을 본 것이죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "direct_fire",
+    "kb": "out"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s39",
+   "lines": [
+    "넷째, 물러서지 않은 병사들입니다."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s39-photo",
+    "num": "요인 4",
+    "title": "물러서지 않은 병사"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s40",
+   "lines": [
+    {
+     "t": "미군 전사에 따르면, 춘천을 공격한 북한군 제2사단은 병력의 약 40%를 잃었습니다.",
+     "say": "미군 전사에 따르면, 춘천을 공격한 북한군 제이사단은, 병력의 약 사십 퍼센트를 잃었습니다."
+    },
+    "북한은 군단장과 사단장들을, 개전 며칠 만에 교체해야 했죠."
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "북한군 제2사단 손실 · 미군 전사(Appleman) 기준",
+    "items": [
+     {
+      "label": "남은 병력",
+      "value": 60,
+      "display": "약 60%",
+      "color": "blue",
+      "at": 0.2
+     },
+     {
+      "label": "잃은 병력",
+      "value": 40,
+      "display": "약 40%",
+      "color": "red",
+      "at": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "s40b",
+   "lines": [
+    "당시 평양 주재 소련 대사 슈티코프도, 보고서에서 그 원인을 이렇게 적었습니다.",
+    "험한 지형, 그리고 6사단의 예상치 못한 용감한 방어."
+   ],
+   "visual": {
+    "type": "document",
+    "org": "주북한 소련 대사 보고",
+    "head": "슈티코프 보고",
+    "rows": [
+     "실패 원인 1. 험한 지형",
+     "실패 원인 2. 6사단의 예상 밖 용감한 방어"
+    ],
+    "note": "윌슨센터 공개 자료 요약",
+    "stamp": "СЕКРЕТНО"
+   },
+   "sfx": [
+    {
+     "id": "typewriter",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s41",
+   "lines": [
+    "숫자보다 중요한 것은, 그들이 벌어 준 시간이었습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "6일",
+    "style": "dark",
+    "sub": "1950. 6. 25 ~ 30"
+   }
+  },
+  {
+   "id": "s42",
+   "lines": [
+    "춘천에서 발이 묶인 사이, 서울을 뒤에서 포위한다는 북한군의 계획은 틀어졌습니다.",
+    "국군 주력의 상당수는, 한강 남쪽으로 빠져나올 수 있었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "central",
+    "to": "central",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.73,
+        37.88
+       ],
+       [
+        127.45,
+        37.5
+       ],
+       [
+        127.03,
+        37.27
+       ]
+      ],
+      "color": "#888888",
+      "at": 0,
+      "width": 1.2
+     },
+     {
+      "k": "badge",
+      "p": "suwon",
+      "text": "포위 실패",
+      "color": "red",
+      "at": 0.5,
+      "dy": 70
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.98,
+        37.6
+       ],
+       [
+        127.0,
+        37.45
+       ],
+       [
+        127.05,
+        37.3
+       ]
+      ],
+      "color": "blue",
+      "at": 1,
+      "width": 1.3
+     }
+    ]
+   },
+   "chapter": {
+    "num": "EPILOGUE",
+    "title": "벌어 준 시간"
+   }
+  },
+  {
+   "id": "s43",
+   "lines": [
+    "그리고 그 시간 위에서, 유엔군이 한반도에 도착하기 시작합니다.",
+    "낙동강 방어선과 인천상륙작전으로 이어지는, 반격의 첫 단추였습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s43-photo",
+    "kb": "in"
+   },
+   "label": "인천상륙작전 (1950. 9. 15)"
+  },
+  {
+   "id": "s43b",
+   "lines": [
+    "6사단의 싸움은 춘천에서 끝나지 않았습니다.",
+    "일주일 뒤 충북 음성 동락리에서, 제7연대는 북한군 연대 하나를 기습해 큰 전과를 올리죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "central",
+    "to": "korea",
+    "zoom": 1.6,
+    "items": [
+     {
+      "k": "marker",
+      "p": "dongnak",
+      "color": "blue",
+      "at": 0.3
+     },
+     {
+      "k": "badge",
+      "p": "dongnak",
+      "text": "1950. 7 동락리 전투",
+      "color": "blue",
+      "at": 1,
+      "dy": -70
+     }
+    ]
+   }
+  },
+  {
+   "id": "s44",
+   "lines": [
+    "오늘 춘천에는 그날의 싸움을 기리는 전적비가 서 있습니다.",
+    "해마다 6월이면, '춘천대첩'을 기념하는 행사가 열리죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s44-photo",
+    "kb": "in",
+    "bw": false
+   },
+   "label": "춘천지구 전적기념관"
+  },
+  {
+   "id": "s45",
+   "lines": [
+    "소양강은 지금도 그때처럼 흐르고 있습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "soyang_dawn",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s46",
+   "lines": [
+    "개전 첫날, 모두가 무너질 때 무너지지 않은 한 사단.",
+    "그들이 지킨 것은 도시 하나가 아니라, 나라 전체의 시간이었습니다."
+   ],
+   "visual": {
+    "type": "quotes",
+    "title": "춘천이 남긴 것",
+    "items": [
+     {
+      "text": "모두가 무너질 때 무너지지 않은 한 사단",
+      "at": 0
+     },
+     {
+      "text": "그들이 지킨 것은 나라의 시간",
+      "at": 1
+     }
+    ]
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s47",
+   "lines": [
+    "이 이야기가 의미 있으셨다면, 구독과 좋아요로 함께해 주십시오.",
+    "잊혀 가는 전쟁의 기록을... 다음 영상에서도 이어가겠습니다."
+   ],
+   "visual": {
+    "type": "endcard",
+    "title": "1950년 6월, 춘천.\n서울 포위를 막아 낸 사흘.",
+    "q": "s47-photo"
+   },
+   "tail": 3.0
+  }
+ ],
+ "ai_images": {
+  "dawn_rain": "A rainy grey dawn on 25 June 1950 over a river basin town in Korea surrounded by green summer mountains, a wide river and a single steel bridge, low clouds, artillery flashes lighting the northern ridge, puddles and wet paddy fields, cinematic wide shot, desaturated cold palette with orange muzzle flashes, painterly realistic digital illustration, film grain, no people visible, no text, no letters.",
+  "nk_plan": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a confident North Korean corps commander whose head is a round ball painted as the North Korean flag, wearing a 1950 khaki KPA uniform with shoulder boards, slamming his fist on a large paper map showing a thick red arrow sweeping south and then west around a capital city, officers smiling behind him, inside a candle-lit tent at night, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "kim_alert": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a stern South Korean division commander whose head is a round ball painted as the South Korean taegukgi flag, wearing a 1950 M1 helmet and field uniform, inspecting freshly dug trenches and sandbagged gun pits on a green hillside above a river town under a cloudy sky, soldiers saluting and digging, determined preparation before war, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "su76_advance": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a column of Soviet-made SU-76 self-propelled guns with North Korean People's Army soldiers whose heads are round balls painted as the North Korean flag (red with blue stripes and a white circle with a red star), wearing 1950 khaki uniforms and side caps riding on top, rolling through flooded rice paddies toward a river town at dawn in the rain, explosions in the fields, mud splashing, dramatic low-angle shot, ominous, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "direct_fire": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag, wearing 1950 M1 helmets and olive drab uniforms manning an American 105mm M3 howitzer with its barrel lowered almost flat, firing point-blank across a rainy field at approaching enemy armored vehicles, huge muzzle blast, empty shell casings, gritted determination, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "shim_team": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a young South Korean second lieutenant and four soldiers whose heads are round balls painted as the South Korean taegukgi flag, wearing 1950 M1 helmets, crawling through a muddy roadside ditch clutching hand grenades and glass bottles with burning rags, closing in on a halted SU-76 self-propelled gun, rain and smoke, tense and brave, close-up, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "river_hold": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: North Korean People's Army soldiers whose heads are round balls painted as the North Korean flag (red with blue stripes and a white circle with a red star), wearing 1950 khaki uniforms and side caps trying to wade across a wide river under a hail of machine-gun and artillery fire, water exploding around them, South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag, wearing 1950 M1 helmets and olive drab uniforms firing from trenches on the green hillside above, dramatic wide shot, summer haze, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "withdraw": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag, wearing 1950 M1 helmets and olive drab uniforms withdrawing in good order along a muddy mountain road at dusk, carrying wounded comrades and towing a howitzer with a truck, exhausted but disciplined, looking back at smoke rising over a distant town, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "soyang_dawn": "A calm wide river in Korea at sunrise with mist over the water, green summer mountains, a quiet modern city skyline faintly in the distance, an old rusted 1950s M1 steel helmet resting on a riverside stone in the foreground among wildflowers, soft golden light, peaceful and mournful, painterly realistic digital illustration, film grain, no people, no text, no letters.",
+  "thumb_ref": "A rainy dawn in June 1950 on the flat fields north of Chuncheon, Korea: in the left foreground South Korean artillerymen in M1 helmets fire a 105mm howitzer point-blank with its barrel lowered, an enormous orange-red muzzle blast; across the field Soviet SU-76 self-propelled guns burn and explode, a steep rocky mountain behind, rain and smoke, gritty photorealistic war painting styled as a black-and-white 1950s documentary archive photograph, heavy film grain, scratches and dust, desaturated monochrome except the fire, explosions and smoke glow in vivid red and orange (selective color), extreme high contrast, serious military documentary mood, no cartoon, no 2D characters, no countryball, composition: the main subject in the center and upper-left, the bottom-right quarter of the frame kept dark, empty and plain, top area slightly darker for text, no text, no letters, no logos, no watermark."
+ }
+}

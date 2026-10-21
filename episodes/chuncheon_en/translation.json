@@ -1,0 +1,514 @@
+{
+ "title": "Battle of Chuncheon (1950): The Defense That Saved South Korea",
+ "subtitle": "Jun 25 – 30, 1950",
+ "voice": "pNInz6obpgDQGcFmaJgB",
+ "tempo": 1.02,
+ "places": {
+  "seoul": "Seoul",
+  "suwon": "Suwon",
+  "chuncheon": "Chuncheon",
+  "hongcheon": "Hongcheon",
+  "wonju": "Wonju",
+  "inje": "Inje",
+  "oksanpo": "Oksan-po",
+  "bongui": "Bongui Mt.",
+  "wonchang": "Wonchang Pass",
+  "malgogae": "Malgogae Pass",
+  "nk2": "NK 2nd Div",
+  "nk7": "NK 7th Div",
+  "dongnak": "Dongnak-ri"
+ },
+ "text": {
+  "1950. 7 동락리 전투": "Jul 1950 · Dongnak-ri",
+  "19연대 · 원주": "19th Regt · Wonju",
+  "2연대 · 홍천": "2nd Regt · Hongcheon",
+  "7연대 1대대": "1st Bn, 7th Regt",
+  "7연대 · 춘천": "7th Regt · Chuncheon",
+  "국군 6사단": "ROK 6th Div",
+  "말고개": "Malgogae Pass",
+  "봉의산 · 7연대": "Bongui Mt. · 7th Regt",
+  "북한군 2사단": "NK 2nd Div",
+  "북한군 7사단": "NK 7th Div",
+  "서울 포위": "Encircle Seoul",
+  "옥산포": "Oksan-po",
+  "원창고개 · 7연대": "Wonchang Pass · 7th Regt",
+  "자주포 격파": "SP Guns Knocked Out",
+  "춘천": "Chuncheon",
+  "포위 실패": "Encirclement Failed"
+ },
+ "scenes": {
+  "s01": {
+   "lines": [
+    "Dawn, June 25th, 1950. Rain was falling on Chuncheon, Gangwon Province.",
+    "From beyond the 38th Parallel, North Korean shells began to rain down."
+   ],
+   "callouts": [
+    "JUNE 25, 1950 · CHUNCHEON"
+   ]
+  },
+  "s02": {
+   "lines": [
+    "The North Korean plan was bold.",
+    "Take Chuncheon on day one, then swing southwest and encircle Seoul from behind."
+   ],
+   "label": "Dramatization",
+   "bubbles": [
+    "Chuncheon today,\nthen Seoul!"
+   ]
+  },
+  "s03": {
+   "lines": [
+    "If it worked, the main South Korean army in Seoul would be trapped within three days."
+   ],
+   "callouts": [
+    "NK PLAN · SEOUL ENCIRCLED IN 3 DAYS"
+   ]
+  },
+  "s04": {
+   "lines": [
+    "But the plan began to fall apart on the very first day.",
+    "At Chuncheon, a single division stood in the way of an entire North Korean corps."
+   ],
+   "left": "ROK 6th Division",
+   "right": "NK II Corps"
+  },
+  "s05": {
+   "lines": [
+    "On the first day of the war, as the front collapsed all along the 38th Parallel,",
+    "only one place held: Chuncheon."
+   ],
+   "text": "Day one of the war —\nthe only line that held"
+  },
+  "s06": {
+   "lines": [
+    "An underdog defense that bought three precious days.",
+    "This is the story of the Battle of Chuncheon, the fight that wrecked the plan to encircle Seoul."
+   ],
+   "title": "Battle of Chuncheon",
+   "sub": "The Defense That Saved South Korea · 1950"
+  },
+  "s07": {
+   "lines": [
+    "In June 1950, the 38th Parallel was strangely quiet.",
+    "With the weekend coming, many South Korean units let their men go on pass and leave."
+   ],
+   "label": "Seoul streets just before the war (Jun 1950)",
+   "chapter": [
+    "PART 1",
+    "CHUNCHEON BEFORE THE STORM"
+   ]
+  },
+  "s08": {
+   "lines": [
+    "The central front around Chuncheon and Hongcheon belonged to the ROK 6th Division.",
+    "The 7th Regiment held Chuncheon, the 2nd held Hongcheon, and the 19th waited in reserve at Wonju."
+   ]
+  },
+  "s09": {
+   "lines": [
+    "Its commander, Colonel Kim Jong-oh, had been in charge for barely two weeks.",
+    "From captured infiltrators and defectors, he sensed that something was wrong."
+   ],
+   "label": "Kim Jong-oh (later as Maj. Gen., 1954)"
+  },
+  "s09b": {
+   "lines": [
+    "Two years later, he would lead the 9th Division at White Horse Hill against China's elite 38th Army.",
+    "His first real test came right here, at Chuncheon."
+   ],
+   "big": "Colonel Kim Jong-oh",
+   "sub": "Commander, ROK 6th Division (Jun 1950)"
+  },
+  "s10": {
+   "lines": [
+    "Kim cancelled passes and overnight leave, and put his men on alert.",
+    "Trenches were re-dug, and his artillery was pulled in toward the town."
+   ],
+   "label": "Dramatization"
+  },
+  "s11": {
+   "lines": [
+    "Chuncheon sits in a basin wrapped by the Soyang River.",
+    "North of the river lay the open fields of Oksan-po; south of it, Bongui Mountain, 301 meters high, looked down over the town."
+   ],
+   "title": "Chuncheon Basin · Cross-Section",
+   "note": "North–south schematic (vertical exaggeration)",
+   "left": "N · toward 38th Parallel",
+   "right": "S",
+   "marks": [
+    "Oksan-po Fields",
+    "Soyang River",
+    "Bongui Mt. 301 m"
+   ]
+  },
+  "s12": {
+   "lines": [
+    "To reach Chuncheon, an attacker had to cross open fields and then the Soyang River.",
+    "And every step of that route could be seen from the top of Bongui Mountain."
+   ],
+   "callouts": [
+    "Fields + River = Natural Barrier"
+   ]
+  },
+  "s13": {
+   "lines": [
+    "Facing them was the North Korean II Corps.",
+    "Its 2nd Division aimed at Chuncheon, its 7th Division at Hongcheon, led by Soviet-built self-propelled guns."
+   ]
+  },
+  "s13b": {
+   "lines": [
+    "Under the North Korean plan, II Corps was to take Chuncheon on the first day.",
+    "Then it would drive through Hongcheon and Icheon to Suwon, cutting in behind Seoul."
+   ],
+   "head": "OPERATIONS PLAN (SUMMARY)",
+   "org": "NK II Corps",
+   "rows": [
+    "DAY 1   Take Chuncheon",
+    "THEN    Hongcheon → Icheon → Suwon",
+    "GOAL    Cut off & encircle Seoul"
+   ],
+   "note": "Summary per ROK official history · reconstructed"
+  },
+  "s14": {
+   "lines": [
+    "Dawn, June 25th.",
+    "After a thirty-minute barrage, North Korean troops poured across the 38th Parallel."
+   ],
+   "chapter": [
+    "PART 2",
+    "GUNS AT OKSAN-PO"
+   ],
+   "text": "JUNE 25, 1950 · DAWN",
+   "accent": "THE INVASION BEGINS"
+  },
+  "s15": {
+   "lines": [
+    "Breaking through the outposts, the North Koreans rolled onto the Oksan-po fields behind some ten self-propelled guns.",
+    "The South Korean soldiers had never seen armored monsters like these."
+   ],
+   "label": "Dramatization"
+  },
+  "s15b": {
+   "lines": [
+    "Shells fell nonstop among the rain-soaked rice paddies.",
+    "The 1st Battalion, 7th Regiment, guarding Oksan-po, faced that armored column with almost nothing."
+   ],
+   "callouts": [
+    "~10 SP GUNS · ROK RECORDS"
+   ]
+  },
+  "s16": {
+   "lines": [
+    "The South Korean army had no tanks and no real anti-tank weapons.",
+    "All it had were 57mm anti-tank guns and a few bazookas."
+   ],
+   "label": "NK SU-76 destroyed north of Chuncheon (Apr 1951)"
+  },
+  "s17": {
+   "lines": [
+    "Then the gunners at Chuncheon made a bold call.",
+    "They lowered the barrels of their 105mm howitzers and fired straight at the oncoming guns."
+   ],
+   "label": "Dramatization"
+  },
+  "s18": {
+   "lines": [
+    "A howitzer is meant to lob shells over hills.",
+    "They turned it into a gun aimed at armor right in front of them."
+   ],
+   "label": "105mm howitzer firing (Aug 1950)"
+  },
+  "s19": {
+   "lines": [
+    "And in the middle of the fields, a young officer moved forward.",
+    "He was Second Lieutenant Shim Il, an anti-tank platoon leader of the 7th Regiment."
+   ],
+   "big": "2nd Lt. Shim Il",
+   "sub": "Anti-tank platoon leader, 7th Regt, ROK 6th Division"
+  },
+  "s20": {
+   "lines": [
+    "When shells failed, he and his men crawled toward the guns with grenades and Molotov cocktails.",
+    "They reportedly got close enough to drop grenades through the hatches."
+   ],
+   "label": "Dramatization"
+  },
+  "s21": {
+   "lines": [
+    "According to official records, his platoon stopped several of the self-propelled guns.",
+    "Word that the armored monsters could be destroyed spread quickly along the front."
+   ],
+   "callouts": [
+    "ROK'S FIRST ANTI-ARMOR SUCCESS"
+   ]
+  },
+  "s22": {
+   "lines": [
+    "His feat was later questioned as exaggerated,",
+    "but in 2017 a Ministry of National Defense review panel concluded it was true."
+   ],
+   "head": "SHIM IL RECORD REVIEW",
+   "org": "ROK MND Review Panel",
+   "rows": [
+    "Jul 2016   Doubts raised",
+    "Apr 2017   Record upheld"
+   ],
+   "note": "Summary per press reports"
+  },
+  "s23": {
+   "lines": [
+    "On June 26th, the North Koreans tried to cross the Soyang River."
+   ],
+   "chapter": [
+    "PART 3",
+    "THREE DAYS ON THE SOYANG"
+   ]
+  },
+  "s23b": {
+   "lines": [
+    "From the top of Bongui Mountain, observers called every North Korean move along the riverbank down to the artillery.",
+    "Shells landed exactly where the enemy tried to cross."
+   ],
+   "label": "ROK divisional artillery (Sep 1950)"
+  },
+  "s24": {
+   "lines": [
+    "Under South Korean fire from the heights, the river became a death trap.",
+    "Reportedly, only about one company actually made it across."
+   ],
+   "label": "Dramatization"
+  },
+  "s25": {
+   "lines": [
+    "Remarkably, even a North Korean novel portrays this moment as a defeat.",
+    "It says a battalion collapsed within minutes under a storm of unseen bullets."
+   ],
+   "quotes": [
+    "A storm of unseen bullets",
+    "The battalion collapsed within minutes"
+   ],
+   "quoteTitle": "North Korean novel 'Immortal History' (summary)"
+  },
+  "s26": {
+   "lines": [
+    "Meanwhile at Hongcheon, the 2nd Regiment was holding back the North Korean 7th Division.",
+    "On the narrow Malgogae pass, North Korean tanks ground to a halt one by one."
+   ]
+  },
+  "s27": {
+   "lines": [
+    "Stalled at Chuncheon, the North Koreans changed their plan.",
+    "They diverted troops heading toward Inje and poured their firepower onto Chuncheon."
+   ],
+   "callouts": [
+    "REINFORCEMENTS DIVERTED TO CHUNCHEON"
+   ]
+  },
+  "s28": {
+   "lines": [
+    "On June 27th, the North Koreans finally crossed the Soyang River.",
+    "The 7th Regiment fell back to the Wonchang Pass south of town and blocked the road again."
+   ]
+  },
+  "s29": {
+   "lines": [
+    "But by then, the western front had already collapsed.",
+    "On June 28th, Seoul fell."
+   ],
+   "label": "NK tanks entering Seoul (Jun 1950)"
+  },
+  "s29b": {
+   "lines": [
+    "After taking Seoul, the North Korean army halted there for three days.",
+    "Some historians argue it was because II Corps, which was meant to close the trap, had not yet arrived."
+   ],
+   "big": "Three Days in Seoul",
+   "sub": "When the North Koreans did not cross the Han"
+  },
+  "s30": {
+   "lines": [
+    "To avoid being cut off, the 6th Division now had to pull back.",
+    "It did not collapse; it withdrew south in good order."
+   ],
+   "label": "Dramatization"
+  },
+  "s31": {
+   "lines": [
+    "Even after losing Hongcheon on June 30th,",
+    "the 6th Division fought its way back toward Wonju and Chungju, and kept itself together as a fighting unit."
+   ],
+   "callouts": [
+    "6-DAY DELAYING ACTION (JUN 25 – 30)"
+   ]
+  },
+  "s32": {
+   "lines": [
+    "So how did one division hold up an entire corps?",
+    "Let's break it down into four factors."
+   ],
+   "chapter": [
+    "PART 4",
+    "4 DECIDING FACTORS"
+   ],
+   "items": [
+    "Ready in Advance",
+    "River & Mountain",
+    "Direct-Fire Artillery",
+    "Men Who Held"
+   ],
+   "head": "1 Division vs 1 Corps — How?"
+  },
+  "s33": {
+   "lines": [
+    "First, they were ready in advance."
+   ],
+   "num": "Factor 1",
+   "title": "Ready in Advance"
+  },
+  "s34": {
+   "lines": [
+    "One decision to cancel passes meant the 6th Division's men were at their posts that morning.",
+    "Many other units were caught half-empty."
+   ],
+   "left": [
+    "Many Other Units",
+    "ON PASS"
+   ],
+   "right": [
+    "ROK 6th Division",
+    "ALL ON ALERT"
+   ]
+  },
+  "s35": {
+   "lines": [
+    "Second, the river and the mountain."
+   ],
+   "num": "Factor 2",
+   "title": "River & Mountain"
+  },
+  "s36": {
+   "lines": [
+    "Open fields, the Soyang River, and Bongui Mountain.",
+    "The attackers had nowhere to hide, while the defenders could see everything."
+   ],
+   "left": "N",
+   "right": "S",
+   "marks": [
+    "ROK Observation & Fire"
+   ]
+  },
+  "s37": {
+   "lines": [
+    "Third, artillery firing over open sights."
+   ],
+   "num": "Factor 3",
+   "title": "Direct-Fire Artillery"
+  },
+  "s38": {
+   "lines": [
+    "An army without anti-tank weapons used its howitzers as anti-tank guns.",
+    "Massing the artillery at Chuncheon paid off at the decisive moment."
+   ],
+   "label": "Dramatization"
+  },
+  "s39": {
+   "lines": [
+    "Fourth, the men who refused to fall back."
+   ],
+   "num": "Factor 4",
+   "title": "Men Who Held"
+  },
+  "s40": {
+   "lines": [
+    "According to the U.S. Army history, the North Korean 2nd Division lost about 40 percent of its strength.",
+    "Within days of the invasion, North Korea had to replace its corps and division commanders."
+   ],
+   "note": "NK 2nd Division losses · per U.S. Army history (Appleman)",
+   "bars": [
+    [
+     "Remaining",
+     "~60%"
+    ],
+    [
+     "Lost",
+     "~40%"
+    ]
+   ]
+  },
+  "s40b": {
+   "lines": [
+    "Even Shtykov, the Soviet ambassador in Pyongyang, described the causes in his report:",
+    "rugged terrain, and the unexpectedly courageous defense of the 6th Division."
+   ],
+   "head": "SHTYKOV REPORT",
+   "org": "Soviet Ambassador to DPRK",
+   "rows": [
+    "CAUSE 1. Rugged terrain",
+    "CAUSE 2. Unexpectedly brave ROK 6th Div"
+   ],
+   "note": "Summary of Wilson Center documents"
+  },
+  "s41": {
+   "lines": [
+    "More important than any number was the time they bought."
+   ],
+   "big": "SIX DAYS",
+   "sub": "Jun 25 – 30, 1950"
+  },
+  "s42": {
+   "lines": [
+    "While II Corps was pinned down at Chuncheon, the plan to encircle Seoul from behind fell apart.",
+    "Much of the South Korean army was able to escape south of the Han River."
+   ],
+   "chapter": [
+    "EPILOGUE",
+    "THE TIME THEY BOUGHT"
+   ]
+  },
+  "s43": {
+   "lines": [
+    "And on that borrowed time, UN forces began arriving in Korea.",
+    "It was the first step toward the Pusan Perimeter and the Inchon landing."
+   ],
+   "label": "Inchon landing (Sep 15, 1950)"
+  },
+  "s43b": {
+   "lines": [
+    "The 6th Division's fight did not end at Chuncheon.",
+    "A week later at Dongnak-ri, the 7th Regiment ambushed a North Korean regiment and dealt it a heavy blow."
+   ]
+  },
+  "s44": {
+   "lines": [
+    "Today, a memorial in Chuncheon honors the battle.",
+    "Every June, the city commemorates what Koreans call the 'Great Victory at Chuncheon.'"
+   ],
+   "label": "Chuncheon Battle Memorial Hall"
+  },
+  "s45": {
+   "lines": [
+    "The Soyang River still flows just as it did then."
+   ],
+   "label": "Dramatization"
+  },
+  "s46": {
+   "lines": [
+    "On the first day of the war, as everything collapsed, one division did not.",
+    "What they defended was not just a city, but time for an entire nation."
+   ],
+   "quotes": [
+    "One division held as everything collapsed",
+    "They defended a nation's time"
+   ],
+   "quoteTitle": "What Chuncheon Left Behind"
+  },
+  "s47": {
+   "lines": [
+    "If this story meant something to you, please subscribe and like the video.",
+    "We'll continue to bring the forgotten records of war to light."
+   ],
+   "title": "June 1950. Chuncheon.\nThe Days That Saved Seoul's Army."
+  }
+ }
+}
