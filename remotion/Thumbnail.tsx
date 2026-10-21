@@ -251,8 +251,98 @@ const CtrThumb: React.FC<{ img: string; lines: [string, string?]; pos?: string; 
   </AbsoluteFill>
 );
 
+/* ===== '격전의 지도' 레퍼런스 디자인 시스템 (3단 텍스트 계층) — 한국어판 A안 ===== */
+type Seg = [string, "w" | "s" | "r"];
+const SEG_COLOR = { w: "#ffffff", s: "#8fd6ff", r: "#ff2a2a" };
+const REF: Record<string, { ep: string; mid: Seg[][]; key: string; keyStyle: "red" | "stone" | "yellow"; pos?: string }> = {
+  yongmunsan: { ep: "01", mid: [[["중공군 ", "w"], ["3개 사단", "r"], [" 격멸,", "w"]], [["1개 연대의 기적", "s"]]], key: "용문산 전투", keyStyle: "red" },
+  dabudong: { ep: "02", mid: [[["대구 함락 직전", "r"], [",", "w"]], [["55일간의 결사항전", "s"]]], key: "다부동 전투", keyStyle: "stone" },
+  baengma: { ep: "03", mid: [[["주인이 ", "w"], ["24번", "r"], [" 바뀐", "w"]], [["지옥의 능선", "s"]]], key: "백마고지", keyStyle: "red" },
+  jipyeong: { ep: "04", mid: [[["중공군 4개 사단", "r"], [" 완전 포위,", "w"]], [["퇴로는 없다", "s"]]], key: "지평리 전투", keyStyle: "yellow" },
+};
+const CrackDefs: React.FC = () => (
+  <svg width={0} height={0} style={{ position: "absolute" }}>
+    <defs>
+      {/* 갈라진 돌 질감: 거친 노이즈로 글자 면을 부분적으로 깎아 균열·얼룩을 만든다 */}
+      <filter id="crack" x="-5%" y="-5%" width="110%" height="110%" colorInterpolationFilters="sRGB">
+        {/* 가는 균열선: turbulence 값이 0에 가까운 주름만 투명하게 */}
+        <feTurbulence type="turbulence" baseFrequency="0.018 0.03" numOctaves={2} seed={7} result="t" />
+        <feColorMatrix in="t" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  14 0 0 0 -0.35" result="veins" />
+        {/* 잔 점박이 마모 */}
+        <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves={2} seed={3} result="g" />
+        <feColorMatrix in="g" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  9 0 0 0 -2.2" result="speck" />
+        <feComposite in="veins" in2="speck" operator="in" result="mask" />
+        <feComposite in="SourceGraphic" in2="mask" operator="in" result="cut" />
+        {/* 돌 표면 얼룩 */}
+        <feTurbulence type="fractalNoise" baseFrequency="0.12" numOctaves={3} seed={11} result="shade" />
+        <feColorMatrix in="shade" type="matrix" values="0.45 0 0 0 0.55  0.45 0 0 0 0.55  0.45 0 0 0 0.55  0 0 0 0 1" result="shadeC" />
+        <feBlend in="cut" in2="shadeC" mode="multiply" result="sh" />
+        <feComposite in="sh" in2="cut" operator="in" />
+      </filter>
+    </defs>
+  </svg>
+);
+const KeyWord: React.FC<{ text: string; style: "red" | "stone" | "yellow"; size: number }> = ({ text, style, size }) => {
+  const base: React.CSSProperties = { fontFamily: "'Black Han Sans', sans-serif", fontSize: size, lineHeight: 1, whiteSpace: "nowrap", letterSpacing: -3 };
+  const parts = style === "yellow" ? text.split(" ") : [text];
+  const fill = (i: number) => (style === "red" ? "#e3161d" : style === "stone" ? "#f1efe8" : i === 0 ? "#ffd21f" : "#ffffff");
+  return (
+    <div style={{ position: "relative", display: "inline-block" }}>
+      {/* 1층: 두꺼운 검은 외곽선 + 그림자 (균열 사이로 비치는 바탕) */}
+      <div style={{ ...base, color: "#0a0a0a", WebkitTextStroke: "22px #000", paintOrder: "stroke fill", textShadow: "0 12px 34px rgba(0,0,0,.9), 0 0 3px #000" }}>
+        {parts.map((p, i) => (
+          <span key={i}>{i ? " " : ""}{p}</span>
+        ))}
+      </div>
+      {/* 2층: 색 면 + 크랙/스톤 질감 */}
+      <div style={{ ...base, position: "absolute", left: 0, top: 0, filter: "url(#crack)" }}>
+        {parts.map((p, i) => (
+          <span key={i} style={{ color: fill(i) }}>{i ? " " : ""}{p}</span>
+        ))}
+      </div>
+    </div>
+  );
+};
+const RefThumb: React.FC<{ ep: string }> = ({ ep }) => {
+  const a = ep.replace(/_en$/, "");
+  const d = REF[a];
+  const keySize = d.key.length <= 4 ? 200 : 168;
+  return (
+    <AbsoluteFill style={{ background: "#050505", overflow: "hidden" }}>
+      <CrackDefs />
+      <Img src={staticFile(`ep/${a}/ai/thumb_ref.jpg`)} style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: d.pos || "50% 45%", filter: "contrast(1.25) saturate(1.25) brightness(1.02)" }} />
+      {/* 아카이브 질감: 비네트 + 좌측·상단 글자 가독성 + 우하단 타임스탬프 영역 어둡게 */}
+      <AbsoluteFill style={{ background: "radial-gradient(ellipse at 40% 45%, rgba(0,0,0,0) 35%, rgba(0,0,0,.6) 100%)" }} />
+      <AbsoluteFill style={{ background: "linear-gradient(90deg, rgba(0,0,0,.7) 0%, rgba(0,0,0,.25) 45%, rgba(0,0,0,0) 70%)" }} />
+      <AbsoluteFill style={{ background: "linear-gradient(315deg, rgba(0,0,0,.6) 0%, rgba(0,0,0,0) 28%)" }} />
+      <div style={{ position: "absolute", left: 40, top: 30, right: 360 }}>
+        {/* 상단: 회색 박스 태그 */}
+        <div style={{ display: "inline-block", background: "rgba(225,225,225,.92)", color: "#111", fontFamily: "'Black Han Sans', sans-serif", fontSize: 34, padding: "6px 18px 2px", border: "3px solid #fff", boxShadow: "0 6px 16px rgba(0,0,0,.6)", letterSpacing: 1 }}>
+          격전의 지도 EP {d.ep}
+        </div>
+        {/* 중단: 2색 분할 위기 카피 */}
+        <div style={{ marginTop: 18 }}>
+          {d.mid.map((line, i) => (
+            <div key={i} style={{ fontFamily: "'Black Han Sans', sans-serif", fontSize: 66, lineHeight: 1.12, whiteSpace: "nowrap", WebkitTextStroke: "12px #000", paintOrder: "stroke fill", textShadow: "0 6px 18px rgba(0,0,0,.85)" }}>
+              {line.map(([t, c], j) => (
+                <span key={j} style={{ color: SEG_COLOR[c] }}>{t}</span>
+              ))}
+            </div>
+          ))}
+        </div>
+      </div>
+      {/* 하단: 초대형 메인 키워드 (좌측, 우하단 25% 비움) */}
+      <div style={{ position: "absolute", left: 30, bottom: 34 }}>
+        <KeyWord text={d.key} style={d.keyStyle} size={keySize} />
+      </div>
+    </AbsoluteFill>
+  );
+};
+
 export const Thumbnail: React.FC<{ ep: string; variant: "A" | "B"; lang?: string }> = ({ ep, variant, lang }) => {
   setLang(lang);
+  const refKey = ep.replace(/_en$/, "");
+  if (lang !== "en" && variant === "A" && REF[refKey]) return <RefThumb ep={ep} />;
   if (ep.startsWith("jipyeong")) {
     const a = ep.replace(/_en$/, "");
     const en = lang === "en";

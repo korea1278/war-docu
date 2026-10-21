@@ -9,9 +9,9 @@ on:
         default: "yongmunsan"
         required: true
       mode:
-        description: "full = 최종 MP4 / preview = 재료+미리보기만 / free = 무료 점검 / check = API 점검 / scout = 사진 후보 수집"
+        description: "full = 최종 MP4 / preview = 재료+미리보기만 / free = 무료 점검 / check = API 점검 / scout = 사진 후보 수집 / thumb = 썸네일 그림 생성+렌더링만"
         type: choice
-        options: [full, preview, free, check, scout]
+        options: [full, preview, free, check, scout, thumb]
         default: full
       english:
         description: "영문판(_en)도 이어서 렌더링"
