@@ -119,7 +119,7 @@
 - `public/` geo(지형·하천, 한 번 생성 후 재사용) · bgm · sfx · ui · ep/<ep>/(사진·일러스트·TTS, 저장소에 커밋되어 재사용)
 - `previews/` scout_<ep>/ (사진 후보 시트) · <ep>/ (미리보기 시트)
 - `thumbnails/` 에피소드별 썸네일 PNG
-- Actions: `make-video.yml`(실행용, 한→영. 입력: episode, mode=full/preview/free/check/scout, english, redo) → `render-episode.yml`(에피소드 1개 렌더)
+- Actions: `make-video.yml`(실행용, 한→영. 입력: episode, mode=full/preview/free/check/scout/thumb, english, redo) → `render-episode.yml`(에피소드 1개 렌더)
 - 결과: Releases `<ep>-<날짜>` 태그에 `<ep>.mp4`, `<ep>.srt`, 미리보기 시트
 
 ## 4. 주의
