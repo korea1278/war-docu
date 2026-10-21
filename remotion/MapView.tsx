@@ -102,9 +102,10 @@ const Pill: React.FC<{ x: number; y: number; text: string; bg: string; fg?: stri
         fontWeight: 900,
         fontSize: size,
         padding: "6px 22px 7px",
-        borderRadius: 999,
+        borderRadius: 8,
+        border: "1.5px solid rgba(255,255,255,0.4)",
         whiteSpace: "nowrap",
-        boxShadow: "0 4px 12px rgba(0,0,0,.35)",
+        boxShadow: "0 8px 24px rgba(0,0,0,0.65), 0 2px 6px rgba(0,0,0,0.5)",
         opacity: clamp(s * 2),
       }}
     >
@@ -129,6 +130,8 @@ export const MapView: React.FC<{ tl: Timeline }> = ({ tl }) => {
   const toSpan = to.span / zoom;
   const span = Math.exp(Math.log(from.span) + (Math.log(toSpan) - Math.log(from.span)) * k) / drift;
   const center: LonLat = [from.center[0] + (to.center[0] - from.center[0]) * k, from.center[1] + (to.center[1] - from.center[1]) * k];
+
+  // 1920x1080 기준 투영
   const proj: GeoProjection = geoMercator()
     .center(center)
     .scale(1920 / ((span * Math.PI) / 180))
@@ -144,7 +147,7 @@ export const MapView: React.FC<{ tl: Timeline }> = ({ tl }) => {
     ]);
   const path = geoPath(clipProj);
 
-  // 지형 래스터 (화면 폭 기준 너무 커지면 생략)
+  // 지형 래스터
   const rasters = tl.rasters
     .map((r) => {
       const [x0, y0] = P([r.west, r.north]);
@@ -155,7 +158,7 @@ export const MapView: React.FC<{ tl: Timeline }> = ({ tl }) => {
 
   const landD = LAND.map((f) => path(f) || "").join(" ");
   const foreignD = FOREIGN.map((f) => path(f) || "").join(" ");
-  const scaleK = 1920 / span; // px per degree
+  const scaleK = 1920 / span;
   const detail = span < 4;
 
   const items: any[] = v.items || [];
@@ -172,39 +175,38 @@ export const MapView: React.FC<{ tl: Timeline }> = ({ tl }) => {
       const kk = easeOut(since / dur);
       const pts = smooth((it.path as LonLat[]).map(P));
       const part = partial(pts, kk);
-      const w = 15 * (it.width || 1);
+      const w = 16 * (it.width || 1);
       const tip = part[part.length - 1];
       const prev = part[Math.max(0, part.length - 3)];
       const ang = Math.atan2(tip[1] - prev[1], tip[0] - prev[0]);
       const hl = w * 2.6,
         hw = w * 1.7;
-      // 화살촉 길이만큼 몸통 줄이기
       const body = partial(pts, Math.max(0, kk - hl / (pts.reduce((a, p, j) => (j ? a + Math.hypot(p[0] - pts[j - 1][0], p[1] - pts[j - 1][1]) : 0), 0) || 1)));
       const head = `M${tip[0] + Math.cos(ang) * 4},${tip[1] + Math.sin(ang) * 4} L${tip[0] - Math.cos(ang) * hl + Math.cos(ang + Math.PI / 2) * hw},${
         tip[1] - Math.sin(ang) * hl + Math.sin(ang + Math.PI / 2) * hw
       } L${tip[0] - Math.cos(ang) * hl - Math.cos(ang + Math.PI / 2) * hw},${tip[1] - Math.sin(ang) * hl - Math.sin(ang + Math.PI / 2) * hw} Z`;
       svgItems.push(
-        <g key={i} opacity={clamp(since * 6)}>
-          <path d={d(body)} stroke="rgba(0,0,0,.28)" strokeWidth={w + 8} fill="none" strokeLinecap="round" strokeLinejoin="round" />
+        <g key={i} opacity={clamp(since * 6)} filter="url(#tacticalGlow)">
+          <path d={d(body)} stroke="rgba(0,0,0,0.6)" strokeWidth={w + 10} fill="none" strokeLinecap="round" strokeLinejoin="round" />
           <path d={d(body)} stroke={col} strokeWidth={w} fill="none" strokeLinecap="round" strokeLinejoin="round" />
-          {kk > 0.04 && <path d={head} fill={col} stroke="rgba(0,0,0,.28)" strokeWidth={3} strokeLinejoin="round" />}
+          {kk > 0.04 && <path d={head} fill={col} stroke="rgba(0,0,0,0.6)" strokeWidth={3} strokeLinejoin="round" />}
         </g>
       );
     } else if (it.k === "front") {
       const pts = smooth((it.path as LonLat[]).map(P), 10);
       const part = partial(pts, easeOut(since / 1.2));
       svgItems.push(
-        <g key={i}>
-          <path d={d(part)} stroke="rgba(255,255,255,.7)" strokeWidth={10} fill="none" strokeLinecap="round" />
-          <path d={d(part)} stroke="#1a1a1a" strokeWidth={5} fill="none" strokeDasharray="18 12" />
+        <g key={i} filter="url(#tacticalShadow)">
+          <path d={d(part)} stroke="rgba(255,255,255,.9)" strokeWidth={11} fill="none" strokeLinecap="round" />
+          <path d={d(part)} stroke="#0a0a0a" strokeWidth={5} fill="none" strokeDasharray="18 12" />
         </g>
       );
     } else if (it.k === "line") {
       const pts = smooth((it.path as LonLat[]).map(P), 10);
       const part = partial(pts, easeOut(since / 1.0));
       svgItems.push(
-        <g key={i}>
-          {it.glow && <path d={d(part)} stroke={col} strokeOpacity={0.35 + 0.15 * Math.sin(t * 5)} strokeWidth={40} fill="none" strokeLinecap="round" />}
+        <g key={i} filter="url(#tacticalGlow)">
+          {it.glow && <path d={d(part)} stroke={col} strokeOpacity={0.4 + 0.2 * Math.sin(t * 5)} strokeWidth={44} fill="none" strokeLinecap="round" />}
           <path d={d(part)} stroke="#fff" strokeWidth={20} fill="none" strokeLinecap="round" />
           <path d={d(part)} stroke={col} strokeWidth={13} fill="none" strokeLinecap="round" />
         </g>
@@ -214,7 +216,7 @@ export const MapView: React.FC<{ tl: Timeline }> = ({ tl }) => {
       const s = popIn(since / 0.35);
       const name = typeof it.p === "string" ? tl.places[it.p][2] : it.text;
       svgItems.push(
-        <g key={i} transform={`translate(${x},${y}) scale(${s})`}>
+        <g key={i} transform={`translate(${x},${y}) scale(${s})`} filter="url(#tacticalShadow)">
           <circle r={14} fill={col} stroke="#fff" strokeWidth={5} />
         </g>
       );
@@ -226,11 +228,11 @@ export const MapView: React.FC<{ tl: Timeline }> = ({ tl }) => {
       if (it.pulse) {
         for (let r = 0; r < 2; r++) {
           const ph = ((t * 0.9 + r * 0.5) % 1 + 1) % 1;
-          svgItems.push(<circle key={`p${i}${r}`} cx={x} cy={y} r={20 + ph * 90} fill="none" stroke={col} strokeWidth={6} opacity={0.7 * (1 - ph)} />);
+          svgItems.push(<circle key={`p${i}${r}`} cx={x} cy={y} r={20 + ph * 90} fill="none" stroke={col} strokeWidth={5} opacity={0.8 * (1 - ph)} />);
         }
       }
       svgItems.push(
-        <g key={i} transform={`translate(${x},${y}) scale(${s})`}>
+        <g key={i} transform={`translate(${x},${y}) scale(${s})`} filter="url(#tacticalShadow)">
           <rect x={-22} y={-15} width={44} height={30} rx={4} fill={col} stroke="#fff" strokeWidth={4} />
           <path d="M-22,-15 L22,15 M22,-15 L-22,15" stroke="#fff" strokeWidth={3} />
         </g>
@@ -242,7 +244,7 @@ export const MapView: React.FC<{ tl: Timeline }> = ({ tl }) => {
       const dy = it.dy || -70;
       html.push(
         <div key={"b" + i} style={{ position: "absolute", left: x, top: y + dy, transform: `translate(-50%,-50%) scale(${s})`, opacity: clamp(s * 2) }}>
-          <div style={{ background: col, color: "#fff", fontFamily: F.head, fontSize: 40, padding: "8px 24px 4px", border: "3px solid #fff", boxShadow: "0 6px 16px rgba(0,0,0,.4)", whiteSpace: "nowrap" }}>
+          <div style={{ background: col, color: "#fff", fontFamily: F.head, fontSize: 40, padding: "8px 24px 4px", border: "3px solid #fff", boxShadow: "0 8px 25px rgba(0,0,0,0.7)", whiteSpace: "nowrap" }}>
             {it.text}
           </div>
         </div>
@@ -279,24 +281,82 @@ export const MapView: React.FC<{ tl: Timeline }> = ({ tl }) => {
     );
   }
 
+  // 120px 간격 전술 격자망(MGRS Military Grid) 생성
+  const gridLines: React.ReactNode[] = [];
+  for (let gx = 120; gx < 1920; gx += 240) {
+    gridLines.push(<line key={`gx-${gx}`} x1={gx} y1={0} x2={gx} y2={1080} stroke="rgba(255,255,255,0.06)" strokeWidth={1} strokeDasharray="4 8" />);
+  }
+  for (let gy = 120; gy < 1080; gy += 240) {
+    gridLines.push(<line key={`gy-${gy}`} x1={0} y1={gy} x2={1920} y2={gy} stroke="rgba(255,255,255,0.06)" strokeWidth={1} strokeDasharray="4 8" />);
+  }
+
   return (
-    <AbsoluteFill style={{ background: C.land, overflow: "hidden" }}>
-      {rasters.map((r) => (
-        <Img
-          key={r.name}
-          src={staticFile(r.file)}
-          style={{ position: "absolute", left: r.x0, top: r.y0, width: r.w, height: r.h, maxWidth: "none" }}
-        />
-      ))}
-      <svg width={1920} height={1080} style={{ position: "absolute", inset: 0 }}>
-        <path d={`M-10,-10H1930V1090H-10Z ${landD}`} fill={C.sea} fillRule="evenodd" />
-        <path d={foreignD} fill={C.foreign} opacity={0.88} />
-        <path d={landD} fill="none" stroke="rgba(40,40,40,.35)" strokeWidth={1.5} />
-        {waterEls}
-        {svgItems}
-      </svg>
-      {html}
-      <div style={{ position: "absolute", top: 14, right: 22, fontFamily: F.body, fontWeight: 500, fontSize: 20, color: "rgba(20,20,20,.75)", textShadow: "0 0 4px #fff" }}>
+    <AbsoluteFill style={{ background: "#0b0f14", overflow: "hidden" }}>
+      {/* 3D 틸트 원근 컨테이너: 지도를 비스듬히 눕혀 깊이감 형성 */}
+      <div
+        style={{
+          position: "absolute",
+          inset: -120, // 틸트 시 외곽 잘림 방지용 여백
+          transform: "perspective(1400px) rotateX(16deg) scale(1.08)",
+          transformOrigin: "50% 55%",
+        }}
+      >
+        {/* 지형 래스터 레이어 */}
+        {rasters.map((r) => (
+          <Img
+            key={r.name}
+            src={staticFile(r.file)}
+            style={{ position: "absolute", left: r.x0 + 120, top: r.y0 + 120, width: r.w, height: r.h, maxWidth: "none" }}
+          />
+        ))}
+
+        {/* SVG 벡터 및 전술 렌더링 */}
+        <svg width={2160} height={1320} style={{ position: "absolute", left: 0, top: 0 }}>
+          <defs>
+            {/* 네온 발광 필터 */}
+            <filter id="tacticalGlow" x="-20%" y="-20%" width="140%" height="140%">
+              <feDropShadow dx="0" dy="2" stdDeviation="6" floodColor="#000" floodOpacity="0.7" />
+              <feDropShadow dx="0" dy="0" stdDeviation="4" floodColor="#fff" floodOpacity="0.3" />
+            </filter>
+            {/* 묵직한 그림자 필터 */}
+            <filter id="tacticalShadow" x="-30%" y="-30%" width="160%" height="160%">
+              <feDropShadow dx="0" dy="6" stdDeviation="8" floodColor="#000" floodOpacity="0.8" />
+            </filter>
+          </defs>
+
+          <g transform="translate(120, 120)">
+            <path d={`M-10,-10H1930V1090H-10Z ${landD}`} fill={C.sea} fillRule="evenodd" />
+            <path d={foreignD} fill={C.foreign} opacity={0.88} />
+            <path d={landD} fill="none" stroke="rgba(40,40,40,.4)" strokeWidth={1.5} />
+            {waterEls}
+            {gridLines}
+            {svgItems}
+          </g>
+        </svg>
+
+        {/* HTML 텍스트/뱃지 레이어 (오프셋 보정) */}
+        <div style={{ position: "absolute", left: 120, top: 120, width: 1920, height: 1080, pointerEvents: "none" }}>
+          {html}
+        </div>
+      </div>
+
+      {/* 시네마틱 비네팅 레이어 (가장자리 어둡게 처리하여 화면 중심 집중) */}
+      <div
+        style={{
+          position: "absolute",
+          inset: 0,
+          background: "radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(10,14,20,0.55) 80%, rgba(5,7,10,0.92) 100%)",
+          pointerEvents: "none",
+        }}
+      />
+
+      {/* 군용 전술 HUD 모서리 표식 */}
+      <div style={{ position: "absolute", top: 20, left: 24, fontFamily: F.body, fontSize: 13, color: "rgba(255,255,255,0.4)", letterSpacing: 2 }}>
+        GRID: 38°N 127°E // TACTICAL MAP
+      </div>
+
+      {/* 우측 상단 지역명 */}
+      <div style={{ position: "absolute", top: 16, right: 24, fontFamily: F.head, fontWeight: 700, fontSize: 22, color: "#fff", textShadow: "0 2px 8px rgba(0,0,0,0.8)" }}>
         {S("map")}
       </div>
     </AbsoluteFill>
