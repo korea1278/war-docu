@@ -4,3 +4,5 @@
 2026-10-22 00:26:04 image wave_snow: 429 {   "error": {     "message": "You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",     "type": "insufficient_quota",     "param": null,     "code": "credit_balance_exhausted"   } }
 2026-10-22 00:31:58 하천 데이터(북쪽 띠) 갱신 실패(기존 유지): 504 Server Error: Gateway Timeout for url: https://maps.mail.ru/osm/tools/overpass/api/interpreter
 2026-10-22 00:43:45 하천 데이터(북쪽 띠) 갱신 실패(기존 유지): 504 Server Error: Gateway Timeout for url: https://maps.mail.ru/osm/tools/overpass/api/interpreter
+2026-10-22 00:58:41 하천 데이터(chosin) 실패(기존 유지): 504 Server Error: Gateway Timeout for url: https://maps.mail.ru/osm/tools/overpass/api/interpreter
+2026-10-22 01:01:56 하천 데이터(hamhung) 실패(기존 유지): 504 Server Error: Gateway Timeout for url: https://maps.mail.ru/osm/tools/overpass/api/interpreter
