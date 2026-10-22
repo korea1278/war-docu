@@ -13,7 +13,7 @@ from PIL import Image
 from common import ep_dirs, env, load_board, read_json, retry, session, write_json
 
 
-def main(ep):
+def main(ep, thumb=False):
     key = env("OPENAI_API_KEY", required=True)
     model = env("OPENAI_IMAGE_MODEL") or "gpt-image-1"
     quality = env("OPENAI_IMAGE_QUALITY") or "high"
@@ -37,6 +37,8 @@ def main(ep):
         p = d / f"{name}.jpg"
         if man.get(name) == sig and p.exists():
             continue
+        if name.startswith("thumb_") and p.exists() and not thumb:
+            continue  # 썸네일 배경은 thumb 모드에서만 다시 그림 (영상 렌더 중 과금·실패 방지)
         print(f"AI IMG {name}")
 
         def call():
@@ -59,4 +61,4 @@ def main(ep):
 
 
 if __name__ == "__main__":
-    main(sys.argv[1])
+    main(sys.argv[1], thumb="--thumb" in sys.argv)

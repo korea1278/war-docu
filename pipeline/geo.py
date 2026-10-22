@@ -202,8 +202,9 @@ def join_ways(ways):
     return rings
 
 
-def build_water(s):
-    s_, w_, n_, e_ = WBOX
+def build_water(s, box=WBOX, base=None):
+    """box 범위의 하천·호수를 받아 water.json 저장. base가 있으면 기존 데이터에 이어 붙임 (북쪽 띠만 추가)."""
+    s_, w_, n_, e_ = box
     bb = f"({s_},{w_},{n_},{e_})"
     q = f"""[out:json][timeout:600][maxsize:1073741824];
 (
@@ -250,6 +251,9 @@ out geom;"""
         if length < 30:
             continue
         rivers.append({"len": round(length), "name": nm, "lines": [[list(p) for p in simplify(sg, 0.0003)] for sg in segs]})
+    if base:
+        lakes = base.get("lakes", []) + lakes
+        rivers = base.get("rivers", []) + rivers
     write_json(OUT / "water.json", {"bbox": list(WBOX), "lakes": lakes, "rivers": rivers})
     print(f"  호수/하천면 {len(lakes)}개, 하천선 {len(rivers)}개")
 
@@ -267,6 +271,17 @@ def main(what="all"):
         import json as _j
         w = _j.loads((OUT / "water.json").read_text()) if (OUT / "water.json").exists() else {}
         what = "water" if w.get("bbox") != list(WBOX) else "none"
+        ob = w.get("bbox")
+        # 남·서·동 경계가 같고 북쪽만 늘어난 경우: 늘어난 띠만 받아 이어 붙임 (큰 요청 타임아웃 방지)
+        if what == "water" and ob and ob[0] == WBOX[0] and ob[1] == WBOX[1] and ob[3] == WBOX[3] and ob[2] < WBOX[2]:
+            what = "band"
+    if what == "band":
+        try:
+            build_water(s, (ob[2], WBOX[1], WBOX[2], WBOX[3]), base=w)
+        except Exception as e:
+            print(f"  ! 하천 띠 실패 — 기존 water.json 유지: {e}")
+            from common import log_error
+            log_error(f"하천 데이터(북쪽 띠) 갱신 실패(기존 유지): {e}")
     if what in ("all", "water"):
         try:
             build_water(s)

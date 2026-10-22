@@ -60,7 +60,7 @@ jobs:
       - name: 썸네일만 (thumb 모드)
         if: inputs.mode == 'thumb'
         run: |
-          cd pipeline && python ai_images.py $EP && cd ..
+          cd pipeline && python ai_images.py $EP --thumb && cd ..
           npx remotion browser ensure
           npx remotion bundle remotion/index.ts --out-dir=out/bundle --log=error
           npx remotion still out/bundle Thumbnail thumbnails/${EP}_ko_A.png --props="{\"ep\":\"$EP\",\"variant\":\"A\",\"lang\":\"ko\"}" --log=error
