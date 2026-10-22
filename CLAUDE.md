@@ -131,6 +131,7 @@
 ## 4. 주의
 
 - Actions 실행 중에는 재료 파일(`public/ep`, `episodes`, `previews`)을 push 하지 말 것 (재료 커밋 충돌). 코드·썸네일처럼 겹치지 않는 파일은 괜찮지만 가급적 실행 후에
-- 이 세션 환경에서는 ElevenLabs·OpenAI·위키미디어 직접 접속 불가 → 해당 작업은 전부 Actions에서. `gh` CLI는 GraphQL 불가, REST(`gh api`)만 사용
+- **이미지 엔진 (2026-10-22 변경)**: OpenAI 크레딧 소진 → **Gemini 2.5 Flash Image**(`GEMINI_API_KEY`, AI Studio 선불·Tier 1, 장당 약 55원)가 기본. `ai_images.py`가 GEMINI → Cloudflare(`CF_ACCOUNT_ID`/`CF_API_TOKEN`) → Pollinations(무료, 품질 낮아 썸네일 불가) 순으로 자동 선택, `vars.IMAGE_PROVIDER`로 고정 가능. 기존 그림 서명은 예전 공식 유지(엔진 바꿔도 재생성 없음). 썸네일 배경(`thumb_*`)은 `mode=thumb`에서만 다시 그림. 키·잔액 확인은 `mode=check`(episode는 렌더 중이 아닌 것으로 — 같은 에피소드는 대기열에 묶임) → `logs/api_check.txt`
+- 이 세션 환경에서는 ElevenLabs·OpenAI·Gemini·위키미디어 직접 접속 불가 → 해당 작업은 전부 Actions에서. `gh` CLI는 GraphQL 불가, REST(`gh api`)만 사용
 - 비용: 일레븐랩스 문자 크레딧(한+영 1편 ≈ 1만 자), OpenAI 이미지 장당 과금 — 재생성은 꼭 필요할 때만 (`redo` 입력). 장면 위치·콜아웃·사진 핀 수정은 TTS·그림 재생성 없이 반영됨
 - API 키는 GitHub Secrets(`ELEVENLABS_API_KEY`, `OPENAI_API_KEY`)에만. 대화에 키를 적지 말 것
