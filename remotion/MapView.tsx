@@ -325,7 +325,7 @@ export const MapView: React.FC<{ tl: Timeline }> = ({ tl }) => {
           </defs>
 
           <g transform="translate(120, 120)">
-            <path d={`M-10,-10H1930V1090H-10Z ${landD}`} fill={C.sea} fillRule="evenodd" />
+            <path d={`M-400,-400H2320V1480H-400Z ${landD}`} fill={C.sea} fillRule="evenodd" />
             <path d={foreignD} fill={C.foreign} opacity={0.88} />
             <path d={landD} fill="none" stroke="rgba(40,40,40,.4)" strokeWidth={1.5} />
             {waterEls}
