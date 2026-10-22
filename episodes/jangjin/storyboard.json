@@ -107,6 +107,20 @@
     40.25
    ],
    "span": 0.2
+  },
+  "pass2": {
+   "center": [
+    127.345,
+    40.225
+   ],
+   "span": 0.3
+  },
+  "south": {
+   "center": [
+    127.28,
+    40.32
+   ],
+   "span": 0.34
   }
  },
  "music": [
@@ -665,7 +679,7 @@
     "yMin": 0,
     "yMax": 1450,
     "title": "유담리 → 흥남 보급로 고도 단면",
-    "note": "도로 고도 모식도 (높이 과장)",
+    "note": "모식도 (높이 과장)",
     "left": "유담리",
     "right": "흥남",
     "marks": [
@@ -814,8 +828,7 @@
     {
      "text": "중공군 제9병단 · 12개 사단",
      "style": "red",
-     "at": 1,
-     "pos": "lower"
+     "at": 1
     }
    ],
    "sfx": [
@@ -1385,7 +1398,7 @@
    "visual": {
     "type": "map",
     "from": "chosin",
-    "to": "chosin",
+    "to": "south",
     "items": [
      {
       "k": "arrow",
@@ -1496,7 +1509,7 @@
     "q": "s27-photo",
     "kb": "in"
    },
-   "label": "해병 코르세어의 네이팜 근접 지원 (1950)",
+   "label": "하갈우리 방어선에서 지켜본 코르세어의 네이팜 공격 (1950. 12)",
    "sfx": [
     {
      "id": "whoosh",
@@ -1519,7 +1532,7 @@
    "visual": {
     "type": "map",
     "from": "chosin",
-    "to": "pass",
+    "to": "pass2",
     "items": [
      {
       "k": "line",
@@ -1676,19 +1689,11 @@
     }
    ],
    "visual": {
-    "type": "ai",
-    "img": "bridge_drop",
+    "type": "photo",
+    "q": "s30-photo",
     "kb": "in"
    },
-   "label": "재연 일러스트",
-   "visuals": [
-    {
-     "atLine": 1,
-     "type": "photo",
-     "q": "s30-photo",
-     "kb": "in"
-    }
-   ],
+   "label": "C-119에서 투하되는 다리 조각 · 고토리 상공 (1950. 12)",
    "callouts": [
     {
      "text": "C-119 8대 · 다리 조각 8개 · 미 공군 기록",
@@ -1773,9 +1778,8 @@
    ],
    "visual": {
     "type": "map",
-    "from": "pass",
-    "to": "pass",
-    "zoom": 1.2,
+    "from": "pass2",
+    "to": "pass2",
     "items": [
      {
       "k": "unit",

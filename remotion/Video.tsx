@@ -80,7 +80,6 @@ export const Documentary: React.FC<{ ep: string; tl: Timeline | null }> = ({ tl 
         const to = i + 1 < tl.scenes.length ? Math.round(tl.scenes[i + 1].start * fps) : durationInFrames;
         const v = sc.visual;
         const credit = v.type === "ai" ? S("ai") : v.type === "photo" || v.type === "person" ? v.credit : null;
-        const mapNow = v.type === "map" || ((sc as any).visuals || []).some((x: any) => x.type === "map");
         const noSub = false;
         return (
           <Sequence key={sc.id} from={from} durationInFrames={to - from} name={sc.id}>
@@ -94,16 +93,26 @@ export const Documentary: React.FC<{ ep: string; tl: Timeline | null }> = ({ tl 
                   dur: sc.dur - v2.start,
                   lines: sc.lines.map((l) => ({ ...l, start: l.start - v2.start, end: l.end - v2.start })),
                 };
+                const isMap2 = v2.type === "map";
+                const credit2 = v2.type === "ai" ? S("ai") : v2.type === "photo" || v2.type === "person" ? v2.credit : null;
                 return (
                   <Sequence key={k} from={off} layout="absolute-fill">
                     <SceneCtx.Provider value={shifted as any}>
                       <Visual tl={tl} />
                     </SceneCtx.Provider>
+                    {!isMap2 && <LabelBox label={v2.label ?? sc.label} credit={credit2} />}
                   </Sequence>
                 );
               })}
               <Vignette strength={v.type === "map" ? 0.28 : 0.55} />
-              <LabelBox label={mapNow ? null : sc.label} credit={mapNow ? null : credit} />
+              {v.type !== "map" && (
+                <Sequence
+                  durationInFrames={Math.max(1, Math.round((((sc as any).visuals || [])[0]?.start ?? sc.dur + 5) * fps))}
+                  layout="absolute-fill"
+                >
+                  <LabelBox label={sc.label} credit={credit} />
+                </Sequence>
+              )}
               <Callouts />
               <ChapterOverlay />
               {!noSub && <Subtitles />}

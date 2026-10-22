@@ -22,6 +22,10 @@ jobs:
       ELEVENLABS_MODEL: ${{ vars.ELEVENLABS_MODEL }}
       TTS_SPEED: ${{ vars.TTS_SPEED }}
       OPENAI_IMAGE_MODEL: ${{ vars.OPENAI_IMAGE_MODEL }}
+      IMAGE_PROVIDER: ${{ vars.IMAGE_PROVIDER }}
+      CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+      CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+      POLLINATIONS_TOKEN: ${{ secrets.POLLINATIONS_TOKEN }}
     steps:
       - uses: actions/checkout@v4
         with:

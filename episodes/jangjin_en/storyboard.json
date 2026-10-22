@@ -107,6 +107,20 @@
     40.25
    ],
    "span": 0.2
+  },
+  "pass2": {
+   "center": [
+    127.345,
+    40.225
+   ],
+   "span": 0.3
+  },
+  "south": {
+   "center": [
+    127.28,
+    40.32
+   ],
+   "span": 0.34
   }
  },
  "music": [
@@ -650,7 +664,7 @@
     "yMin": 0,
     "yMax": 1450,
     "title": "Yudam-ni → Hungnam · Road Elevation",
-    "note": "Road elevation schematic (vertical exaggeration)",
+    "note": "Schematic (vertical exaggeration)",
     "left": "Yudam-ni",
     "right": "Hungnam",
     "marks": [
@@ -796,8 +810,7 @@
     {
      "text": "Chinese 9th Army Group · 12 Divisions",
      "style": "red",
-     "at": 1,
-     "pos": "lower"
+     "at": 1
     }
    ],
    "sfx": [
@@ -1349,7 +1362,7 @@
    "visual": {
     "type": "map",
     "from": "chosin",
-    "to": "chosin",
+    "to": "south",
     "items": [
      {
       "k": "arrow",
@@ -1457,7 +1470,7 @@
     "q": "s27-photo",
     "kb": "in"
    },
-   "label": "Marine Corsair napalm close air support (1950)",
+   "label": "Corsairs drop napalm, seen from the Hagaru-ri perimeter (Dec 1950)",
    "sfx": [
     {
      "id": "whoosh",
@@ -1480,7 +1493,7 @@
    "visual": {
     "type": "map",
     "from": "chosin",
-    "to": "pass",
+    "to": "pass2",
     "items": [
      {
       "k": "line",
@@ -1631,19 +1644,11 @@
     "On December 7th, eight C-119 transports parachuted 1.3-ton steel bridge sections onto Koto-ri."
    ],
    "visual": {
-    "type": "ai",
-    "img": "bridge_drop",
+    "type": "photo",
+    "q": "s30-photo",
     "kb": "in"
    },
-   "label": "Dramatization",
-   "visuals": [
-    {
-     "atLine": 1,
-     "type": "photo",
-     "q": "s30-photo",
-     "kb": "in"
-    }
-   ],
+   "label": "Bridge section dropped from a C-119 over Koto-ri (Dec 1950)",
    "callouts": [
     {
      "text": "8 C-119s · 8 BRIDGE SECTIONS · USAF RECORDS",
@@ -1722,9 +1727,8 @@
    ],
    "visual": {
     "type": "map",
-    "from": "pass",
-    "to": "pass",
-    "zoom": 1.2,
+    "from": "pass2",
+    "to": "pass2",
     "items": [
      {
       "k": "unit",

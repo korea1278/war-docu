@@ -120,7 +120,12 @@ def build_raster(s, name, bbox, z, exag, feather):
 # ---------------- 하천 / 호수 (OpenStreetMap Overpass) ----------------
 OVERPASS = ["https://overpass-api.de/api/interpreter", "https://overpass.kumi.systems/api/interpreter",
             "https://maps.mail.ru/osm/tools/overpass/api/interpreter"]
-WBOX = (34.9, 126.3, 40.7, 129.6)   # EP06: 장진호까지 북쪽 확장
+WBOX = (34.9, 126.3, 38.75, 129.6)  # 남한·중부 (큰 범위 — 한 번만 받음)
+# 범위 밖 전장은 작은 상자로 따로 받아 이어 붙임 (큰 요청은 Overpass 타임아웃)
+WEXTRA = {
+    "chosin": (39.85, 126.95, 40.65, 127.65),   # EP06 장진호·하갈우리·고토리·황초령
+    "hamhung": (39.6, 127.3, 40.0, 127.8),      # EP06 흥남·함흥
+}
 
 
 def overpass(s, q):
@@ -251,10 +256,9 @@ out geom;"""
         if length < 30:
             continue
         rivers.append({"len": round(length), "name": nm, "lines": [[list(p) for p in simplify(sg, 0.0003)] for sg in segs]})
-    if base:
-        lakes = base.get("lakes", []) + lakes
-        rivers = base.get("rivers", []) + rivers
-    write_json(OUT / "water.json", {"bbox": list(WBOX), "lakes": lakes, "rivers": rivers})
+    if base is not None:
+        return lakes, rivers
+    write_json(OUT / "water.json", {"bbox": list(WBOX), "lakes": lakes, "rivers": rivers, "extra": []})
     print(f"  호수/하천면 {len(lakes)}개, 하천선 {len(rivers)}개")
 
 
@@ -271,17 +275,19 @@ def main(what="all"):
         import json as _j
         w = _j.loads((OUT / "water.json").read_text()) if (OUT / "water.json").exists() else {}
         what = "water" if w.get("bbox") != list(WBOX) else "none"
-        ob = w.get("bbox")
-        # 남·서·동 경계가 같고 북쪽만 늘어난 경우: 늘어난 띠만 받아 이어 붙임 (큰 요청 타임아웃 방지)
-        if what == "water" and ob and ob[0] == WBOX[0] and ob[1] == WBOX[1] and ob[3] == WBOX[3] and ob[2] < WBOX[2]:
-            what = "band"
-    if what == "band":
-        try:
-            build_water(s, (ob[2], WBOX[1], WBOX[2], WBOX[3]), base=w)
-        except Exception as e:
-            print(f"  ! 하천 띠 실패 — 기존 water.json 유지: {e}")
-            from common import log_error
-            log_error(f"하천 데이터(북쪽 띠) 갱신 실패(기존 유지): {e}")
+        for name, box in WEXTRA.items():
+            if what != "none" or name in w.get("extra", []):
+                continue
+            try:
+                lk, rv = build_water(s, box, base=w)
+                w["lakes"] = w.get("lakes", []) + lk
+                w["rivers"] = w.get("rivers", []) + rv
+                w["extra"] = w.get("extra", []) + [name]
+                write_json(OUT / "water.json", w)
+                print(f"  추가 하천 {name}: 호수 {len(lk)} 하천 {len(rv)}")
+            except Exception as e:
+                from common import log_error
+                log_error(f"하천 데이터({name}) 실패(기존 유지): {e}")
     if what in ("all", "water"):
         try:
             build_water(s)

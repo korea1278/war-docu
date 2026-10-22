@@ -154,7 +154,7 @@ export const MapView: React.FC<{ tl: Timeline }> = ({ tl }) => {
       const [x1, y1] = P([r.east, r.south]);
       return { ...r, x0, y0, w: x1 - x0, h: y1 - y0 };
     })
-    .filter((r) => r.w < 14000 && r.x0 < 1920 && r.x0 + r.w > 0 && r.y0 < 1080 && r.y0 + r.h > 0);
+    .filter((r) => r.w < 40000 && r.x0 < 2160 && r.x0 + r.w > -240 && r.y0 < 1320 && r.y0 + r.h > -240); // 틸트 여백까지 포함, 확대 시 넓은 래스터도 바탕으로 유지
 
   const landD = LAND.map((f) => path(f) || "").join(" ");
   const foreignD = FOREIGN.map((f) => path(f) || "").join(" ");

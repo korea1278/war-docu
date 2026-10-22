@@ -1,22 +1,89 @@
-"""OpenAI 이미지 생성 (재연 일러스트).
+"""재연 일러스트·썸네일 배경 이미지 생성.
 
-python pipeline/ai_images.py yongmunsan
-환경변수: OPENAI_API_KEY, OPENAI_IMAGE_MODEL(기본 gpt-image-1), OPENAI_IMAGE_QUALITY(기본 high)
+python pipeline/ai_images.py yongmunsan [--thumb]
+
+이미지 엔진 (환경변수 IMAGE_PROVIDER, 기본 auto):
+  auto        → Cloudflare 키가 있으면 cloudflare, 없으면 pollinations (둘 다 무료)
+  cloudflare  → Cloudflare Workers AI FLUX.1 schnell (무료 하루 1만 뉴런 ≈ 그림 150장 이상)
+                CF_ACCOUNT_ID, CF_API_TOKEN 필요
+  pollinations→ Pollinations.ai FLUX (가입·키 없이 무료, 15초에 1장). POLLINATIONS_TOKEN 있으면 사용
+  openai      → OpenAI gpt-image-1 (유료). OPENAI_API_KEY, OPENAI_IMAGE_MODEL, OPENAI_IMAGE_QUALITY
+
+이미 만든 그림은 프롬프트가 같으면 엔진과 상관없이 그대로 재사용한다 (서명 공식 고정).
 """
 import base64
 import hashlib
 import io
 import sys
+import time
+import urllib.parse
 
 from PIL import Image
 
 from common import ep_dirs, env, load_board, read_json, retry, session, write_json
 
+W, H = 1536, 1024
+
+
+def fit(img):
+    """3:2 (1536x1024)로 가운데 잘라 맞춤."""
+    img = img.convert("RGB")
+    w, h = img.size
+    if abs(w / h - W / H) > 0.01:
+        if w / h > W / H:
+            nw = int(h * W / H)
+            img = img.crop(((w - nw) // 2, 0, (w - nw) // 2 + nw, h))
+        else:
+            nh = int(w * H / W)
+            top = int((h - nh) * 0.4)  # 위쪽(하늘·얼굴) 조금 더 남김
+            img = img.crop((0, top, w, top + nh))
+    return img.resize((W, H), Image.LANCZOS)
+
+
+def gen_openai(s, prompt):
+    key = env("OPENAI_API_KEY", required=True)
+    r = s.post(
+        "https://api.openai.com/v1/images/generations",
+        headers={"Authorization": f"Bearer {key}"},
+        json={"model": env("OPENAI_IMAGE_MODEL") or "gpt-image-1", "prompt": prompt, "size": "1536x1024",
+              "quality": env("OPENAI_IMAGE_QUALITY") or "high", "n": 1},
+        timeout=300,
+    )
+    if r.status_code >= 400:
+        raise RuntimeError(f"{r.status_code} {r.text[:300]}")
+    return Image.open(io.BytesIO(base64.b64decode(r.json()["data"][0]["b64_json"])))
+
+
+def gen_cloudflare(s, prompt):
+    acc, tok = env("CF_ACCOUNT_ID", required=True), env("CF_API_TOKEN", required=True)
+    r = s.post(
+        f"https://api.cloudflare.com/client/v4/accounts/{acc}/ai/run/@cf/black-forest-labs/flux-1-schnell",
+        headers={"Authorization": f"Bearer {tok}"},
+        json={"prompt": prompt[:2000], "steps": 8},
+        timeout=180,
+    )
+    if r.status_code >= 400:
+        raise RuntimeError(f"{r.status_code} {r.text[:300]}")
+    return Image.open(io.BytesIO(base64.b64decode(r.json()["result"]["image"])))
+
+
+def gen_pollinations(s, prompt, seed):
+    url = "https://image.pollinations.ai/prompt/" + urllib.parse.quote(prompt[:1800], safe="")
+    q = {"width": W, "height": H, "model": "flux", "nologo": "true", "enhance": "false", "seed": seed}
+    hdr = {}
+    if env("POLLINATIONS_TOKEN"):
+        hdr["Authorization"] = f"Bearer {env('POLLINATIONS_TOKEN')}"
+    r = s.get(url, params=q, headers=hdr, timeout=300)
+    if r.status_code >= 400 or not r.headers.get("content-type", "").startswith("image"):
+        raise RuntimeError(f"{r.status_code} {r.headers.get('content-type')} {r.text[:200]}")
+    time.sleep(16)  # 무료 등급 속도 제한 (15초에 1장)
+    return Image.open(io.BytesIO(r.content))
+
 
 def main(ep, thumb=False):
-    key = env("OPENAI_API_KEY", required=True)
-    model = env("OPENAI_IMAGE_MODEL") or "gpt-image-1"
-    quality = env("OPENAI_IMAGE_QUALITY") or "high"
+    prov = (env("IMAGE_PROVIDER") or "auto").lower()
+    if prov == "auto":
+        prov = "cloudflare" if env("CF_ACCOUNT_ID") and env("CF_API_TOKEN") else "pollinations"
     board = load_board(ep)
     if board.get("assets_ep"):
         print(f"AI 이미지: {board['assets_ep']} 에피소드 것을 재사용")
@@ -31,30 +98,26 @@ def main(ep, thumb=False):
             used.add(it["img"])
     used |= {k for k in board.get("ai_images", {}) if k.startswith("thumb_")}  # 썸네일 전용 그림
     s = session()
+    print(f"이미지 엔진: {prov}")
     for name in sorted(used):
         prompt = board["ai_images"][name]
-        sig = hashlib.sha1(f"{model}|{quality}|{prompt}".encode()).hexdigest()[:12]
+        # 서명은 예전 공식 그대로 (엔진을 바꿔도 이미 만든 그림을 다시 그리지 않도록)
+        sig = hashlib.sha1(f"gpt-image-1|high|{prompt}".encode()).hexdigest()[:12]
         p = d / f"{name}.jpg"
         if man.get(name) == sig and p.exists():
             continue
         if name.startswith("thumb_") and p.exists() and not thumb:
             continue  # 썸네일 배경은 thumb 모드에서만 다시 그림 (영상 렌더 중 과금·실패 방지)
-        print(f"AI IMG {name}")
-
-        def call():
-            r = s.post(
-                "https://api.openai.com/v1/images/generations",
-                headers={"Authorization": f"Bearer {key}"},
-                json={"model": model, "prompt": prompt, "size": "1536x1024", "quality": quality, "n": 1},
-                timeout=300,
-            )
-            if r.status_code >= 400:
-                raise RuntimeError(f"{r.status_code} {r.text[:300]}")
-            return r.json()
-
-        data = retry(call, tries=3, wait=8, label=f"image {name}")
-        img = Image.open(io.BytesIO(base64.b64decode(data["data"][0]["b64_json"]))).convert("RGB")
-        img.save(p, quality=92)
+        print(f"AI IMG {name} ({prov})")
+        seed = int(sig[:6], 16)
+        if prov == "openai":
+            call = lambda: gen_openai(s, prompt)  # noqa: E731
+        elif prov == "cloudflare":
+            call = lambda: gen_cloudflare(s, prompt)  # noqa: E731
+        else:
+            call = lambda: gen_pollinations(s, prompt, seed)  # noqa: E731
+        img = retry(call, tries=4, wait=20, label=f"image {name}")
+        fit(img).save(p, quality=92)
         man[name] = sig
         write_json(out / "ai.json", man)
     print("AI 이미지 완료")
