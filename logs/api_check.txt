@@ -1,7 +1,7 @@
 ELEVENLABS_API_KEY 등록: 예 (길이 51)
 OPENAI_API_KEY 등록: 예
 VOICE_ID: ZJCNdZEjYwkOElxugmW2
-구독 조회 실패 401: {"detail":{"type":"authentication_error","code":"unauthorized","message":"The API key you used is missing the permission user_read to execute this operation.","status":"missing_permissions","request_id":"534f6a7476529aa7587ee8e7022f0b7b"}}
+구독 조회 실패 401: {"detail":{"type":"authentication_error","code":"unauthorized","message":"The API key you used is missing the permission user_read to execute this operation.","status":"missing_permissions","request_id":"c22a977a824886bb01eef7aa17bfa0a8"}}
 목소리 조회 200: Hyuk - Cold and Clear
 TTS 시험 200: OK
 OpenAI 키 계정: kmc860323@gmail.com / 조직: Personal(org-wVeFKwQF7Bgla9k4JldBSGKP)
@@ -14,3 +14,8 @@ OpenAI 과금 시험(약 0.0001원) 429: {
     }
 }
 
+GEMINI_API_KEY 등록: 예 (길이 53)
+Gemini 그림 시험 실패: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex
