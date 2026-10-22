@@ -71,8 +71,10 @@ jobs:
           npx remotion still out/bundle Thumbnail thumbnails/${EP}_en_A.png --props="{\"ep\":\"$EP\",\"variant\":\"A\",\"lang\":\"en\"}" --log=error
           git config user.name "war-docu-bot" && git config user.email "actions@users.noreply.github.com"
           git add -A public/ep/$EP thumbnails && git commit -qm "썸네일: $EP" || echo "변경 없음"
-          git pull --rebase -X theirs -q || true
-          git push -q
+          for i in 1 2 3 4 5; do
+            git pull --rebase -X theirs -q && git push -q && break
+            sleep $((RANDOM % 20 + 10))
+          done
 
       - name: 다시 만들 재료 지우기
         if: inputs.redo != '' && inputs.mode != 'thumb'
