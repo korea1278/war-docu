@@ -1,0 +1,2240 @@
+{
+ "title": "장진호 전투",
+ "subtitle": "1950. 11. 27 ~ 12. 13",
+ "target_sec": 540,
+ "places": {
+  "seoul": [
+   126.978,
+   37.566,
+   "서울"
+  ],
+  "yudam": [
+   127.12,
+   40.48,
+   "유담리"
+  ],
+  "toktong": [
+   127.18,
+   40.43,
+   "덕동 고개"
+  ],
+  "hagaru": [
+   127.25,
+   40.38,
+   "하갈우리"
+  ],
+  "kotori": [
+   127.3,
+   40.29,
+   "고토리"
+  ],
+  "bridge": [
+   127.33,
+   40.24,
+   "수문교"
+  ],
+  "chinhung": [
+   127.37,
+   40.19,
+   "진흥리"
+  ],
+  "hamhung": [
+   127.54,
+   39.92,
+   "함흥"
+  ],
+  "hungnam": [
+   127.62,
+   39.83,
+   "흥남"
+  ],
+  "sinhung": [
+   127.31,
+   40.45,
+   "신흥리"
+  ],
+  "h1081": [
+   127.365,
+   40.222,
+   "1081고지"
+  ],
+  "c1": [
+   127.05,
+   40.52,
+   "중공군"
+  ],
+  "c2": [
+   127.2,
+   40.5,
+   "중공군"
+  ],
+  "c3": [
+   127.15,
+   40.36,
+   "중공군"
+  ],
+  "c4": [
+   127.36,
+   40.33,
+   "중공군"
+  ]
+ },
+ "views": {
+  "korea": {
+   "center": [
+    127.3,
+    38.6
+   ],
+   "span": 7.0
+  },
+  "route": {
+   "center": [
+    127.38,
+    40.15
+   ],
+   "span": 1.0
+  },
+  "chosin": {
+   "center": [
+    127.22,
+    40.4
+   ],
+   "span": 0.42
+  },
+  "pass": {
+   "center": [
+    127.33,
+    40.25
+   ],
+   "span": 0.2
+  }
+ },
+ "music": [
+  {
+   "id": "drone",
+   "from": "s01",
+   "to": "s06",
+   "volume": 0.2
+  },
+  {
+   "id": "theme",
+   "from": "s07",
+   "to": "s13",
+   "volume": 0.16
+  },
+  {
+   "id": "tension",
+   "from": "s14",
+   "to": "s20",
+   "volume": 0.17
+  },
+  {
+   "id": "march",
+   "from": "s21",
+   "to": "s34",
+   "volume": 0.15
+  },
+  {
+   "id": "analysis",
+   "from": "s35",
+   "to": "s44",
+   "volume": 0.13
+  },
+  {
+   "id": "somber",
+   "from": "s45",
+   "to": "s51",
+   "volume": 0.17
+  }
+ ],
+ "scenes": [
+  {
+   "id": "s01",
+   "lines": [
+    {
+     "t": "1950년 11월 27일 밤, 북한 개마고원의 장진호.",
+     "say": "천구백오십 년 십일월 이십칠 일 밤, 북한 개마고원의 장진호."
+    },
+    {
+     "t": "기온은 영하 30도 아래로 떨어졌고, 소총의 기름마저 얼어붙었습니다.",
+     "say": "기온은 영하 삼십 도 아래로 떨어졌고, 소총의 기름마저 얼어붙었습니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "snow_column",
+    "kb": "in"
+   },
+   "visuals": [
+    {
+     "atLine": 1,
+     "type": "map",
+     "from": "korea",
+     "to": "chosin",
+     "items": [
+      {
+       "k": "unit",
+       "p": "hagaru",
+       "text": "장진호",
+       "color": "blue",
+       "at": 0.3,
+       "pulse": true
+      }
+     ]
+    }
+   ],
+   "callouts": [
+    {
+     "text": "1950. 11. 27 · 북한 장진호",
+     "style": "yellow",
+     "at": 0,
+     "until": 0
+    }
+   ],
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0,
+     "volume": 0.55
+    },
+    {
+     "id": "artillery_far",
+     "at": 0.8,
+     "volume": 0.3
+    },
+    {
+     "id": "whoosh",
+     "at": 1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "lines": [
+    "그 순간, 주변의 모든 산에서 나팔 소리가 울립니다.",
+    "중공군 제9병단, 약 12만 명이 미 해병 제1사단을 겹겹이 둘러싸고 있었죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "pva_ambush",
+    "kb": "in",
+    "bubbles": [
+     {
+      "text": "이 길 하나만\n끊으면 끝이다!",
+      "x": 0.7,
+      "y": 0.2,
+      "at": 1
+     }
+    ]
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "bugle",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "lines": [
+    "해병대가 빠져나갈 길은, 단 하나.",
+    {
+     "t": "얼어붙은 협곡을 따라 바다까지 이어진, 약 126킬로미터의 비포장 산길이었습니다.",
+     "say": "얼어붙은 협곡을 따라 바다까지 이어진, 약 백이십육 킬로미터의 비포장 산길이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "chosin",
+    "to": "route",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.12,
+        40.48
+       ],
+       [
+        127.17,
+        40.44
+       ],
+       [
+        127.21,
+        40.41
+       ],
+       [
+        127.25,
+        40.38
+       ],
+       [
+        127.27,
+        40.34
+       ],
+       [
+        127.3,
+        40.29
+       ],
+       [
+        127.32,
+        40.25
+       ],
+       [
+        127.34,
+        40.22
+       ],
+       [
+        127.37,
+        40.19
+       ],
+       [
+        127.43,
+        40.08
+       ],
+       [
+        127.54,
+        39.92
+       ],
+       [
+        127.62,
+        39.83
+       ]
+      ],
+      "color": "#d98b2b",
+      "at": 0.3
+     },
+     {
+      "k": "marker",
+      "p": "yudam",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "hungnam",
+      "color": "dark",
+      "at": 1
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "단 하나의 길 · 약 126km",
+     "style": "yellow",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "lines": [
+    "미 해병 1개 사단 남짓 약 3만 명, 그리고 그 네 배의 중공군.",
+    "역사상 가장 혹독한 포위전이 시작됩니다."
+   ],
+   "visual": {
+    "type": "versus",
+    "left": {
+     "n": 1,
+     "label": "유엔군 약 30,000명",
+     "color": "blue"
+    },
+    "right": {
+     "n": 4,
+     "label": "중공군 약 120,000명",
+     "color": "red"
+    },
+    "at": 1
+   },
+   "callouts": [
+    {
+     "text": "미군 기록 기준 · 중공군 병력은 6만~12만 추정",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "lines": [
+    "그런데 2주 뒤.",
+    "해병대는 무너지지 않고, 장비와 부상자, 전사자까지 이끌고 바다에 닿았습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "2주 뒤,\n그들은 모두를 데리고 바다에 닿았다"
+   },
+   "pauseBefore": 0.4
+  },
+  {
+   "id": "s06",
+   "lines": [
+    "후퇴가 아니라, 다른 방향으로의 진격이었다는 철수전.",
+    "오늘은 얼어붙은 협곡의 기적, 장진호 전투 이야기입니다."
+   ],
+   "visual": {
+    "type": "titlecard",
+    "q": "s06-photo",
+    "title": "장진호 전투",
+    "sub": "영하 40도 고립, 포위망을 찢고 퇴각한 해병대 · 1950",
+    "at": 1
+   },
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 1,
+     "volume": 0.5
+    }
+   ],
+   "flash": true
+  },
+  {
+   "id": "s07",
+   "lines": [
+    {
+     "t": "1950년 10월, 인천상륙작전 이후 유엔군은 북쪽으로 진격하고 있었습니다.",
+     "say": "천구백오십 년 시월, 인천상륙작전 이후 유엔군은 북쪽으로 진격하고 있었습니다."
+    },
+    "모두가 크리스마스 전에 전쟁이 끝날 거라고 믿었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "korea",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.7,
+        37.6
+       ],
+       [
+        126.2,
+        38.8
+       ],
+       [
+        125.9,
+        39.8
+       ],
+       [
+        125.5,
+        40.6
+       ]
+      ],
+      "color": "blue",
+      "at": 0.2,
+      "width": 1.4
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.6,
+        37.9
+       ],
+       [
+        127.6,
+        39.2
+       ],
+       [
+        127.5,
+        39.9
+       ],
+       [
+        127.25,
+        40.4
+       ]
+      ],
+      "color": "blue",
+      "at": 0.4,
+      "width": 1.4
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "\"크리스마스엔 집으로\"",
+     "style": "yellow",
+     "at": 1
+    }
+   ],
+   "chapter": {
+    "num": "PART 1",
+    "title": "개마고원의 함정"
+   }
+  },
+  {
+   "id": "s08",
+   "lines": [
+    "미 제10군단 소속 해병 제1사단은 동부 전선에서 압록강을 향해 북진합니다.",
+    "목표는 개마고원 깊숙한 곳, 장진호 서쪽 너머였습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s08-photo",
+    "kb": "left"
+   },
+   "label": "방한 장비를 갖추고 북진하는 해병 7연대 (1950)"
+  },
+  {
+   "id": "s09",
+   "lines": [
+    "사단장 올리버 스미스 소장은 이 진격이 불안했습니다.",
+    "부대가 산길을 따라 너무 길게 늘어지고 있었기 때문이죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s09-photo",
+    "kb": "in",
+    "frame": true
+   },
+   "label": "올리버 P. 스미스"
+  },
+  {
+   "id": "s09b",
+   "lines": [
+    "그는 태평양 전쟁의 펠렐리우와 오키나와에서, 섬 하나를 두고 벌어진 혈전을 겪은 지휘관이었습니다.",
+    "적지 깊숙이 길게 뻗은 부대가 얼마나 위험한지, 누구보다 잘 알고 있었죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "올리버 P. 스미스",
+    "style": "yellow",
+    "sub": "미 해병 제1사단장 (소장)",
+    "subAt": 0
+   }
+  },
+  {
+   "id": "s10",
+   "lines": [
+    "스미스는 일부러 진격 속도를 늦춥니다.",
+    "하갈우리에 보급품을 쌓고, 비행장을 닦고, 길목마다 병력을 남겨 두었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "chosin",
+    "to": "chosin",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.12,
+        40.48
+       ],
+       [
+        127.17,
+        40.44
+       ],
+       [
+        127.21,
+        40.41
+       ],
+       [
+        127.25,
+        40.38
+       ],
+       [
+        127.27,
+        40.34
+       ],
+       [
+        127.3,
+        40.29
+       ],
+       [
+        127.32,
+        40.25
+       ]
+      ],
+      "color": "#d98b2b",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "hagaru",
+      "text": "하갈우리 · 보급기지·비행장",
+      "color": "blue",
+      "at": 0.6
+     },
+     {
+      "k": "unit",
+      "p": "kotori",
+      "text": "고토리",
+      "color": "blue",
+      "at": 1.2
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "느린 진격 = 대비",
+     "style": "yellow",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "lines": [
+    "이 길을 고도로 펼쳐 보면, 왜 이곳이 함정이었는지 알 수 있습니다.",
+    {
+     "t": "해발 1천 미터가 넘는 고원에서 시작해, 수문교 고개를 지나면 바다까지 단숨에 떨어지죠.",
+     "say": "해발 천 미터가 넘는 고원에서 시작해, 수문교 고개를 지나면 바다까지 단숨에 떨어지죠."
+    }
+   ],
+   "visual": {
+    "type": "profile",
+    "pts": [
+     [
+      0,
+      1100
+     ],
+     [
+      0.06,
+      1200
+     ],
+     [
+      0.12,
+      1300
+     ],
+     [
+      0.18,
+      1180
+     ],
+     [
+      0.25,
+      1100
+     ],
+     [
+      0.33,
+      1150
+     ],
+     [
+      0.42,
+      1180
+     ],
+     [
+      0.47,
+      1120
+     ],
+     [
+      0.52,
+      980
+     ],
+     [
+      0.57,
+      650
+     ],
+     [
+      0.62,
+      420
+     ],
+     [
+      0.72,
+      200
+     ],
+     [
+      0.85,
+      30
+     ],
+     [
+      1,
+      0
+     ]
+    ],
+    "bare": true,
+    "grid": [
+     400,
+     800,
+     1200
+    ],
+    "yMin": 0,
+    "yMax": 1450,
+    "title": "유담리 → 흥남 보급로 고도 단면",
+    "note": "도로 고도 모식도 (높이 과장)",
+    "left": "유담리",
+    "right": "흥남",
+    "marks": [
+     {
+      "x": 0.12,
+      "text": "덕동 고개",
+      "style": "dark",
+      "at": 0.5,
+      "lift": 55,
+      "size": 40
+     },
+     {
+      "x": 0.25,
+      "text": "하갈우리",
+      "style": "blue",
+      "at": 0.8,
+      "lift": 120,
+      "size": 40
+     },
+     {
+      "x": 0.4,
+      "text": "고토리",
+      "style": "blue",
+      "at": 1.0,
+      "lift": 55,
+      "size": 40
+     },
+     {
+      "x": 0.54,
+      "text": "수문교",
+      "style": "red",
+      "at": 1.3,
+      "lift": 150,
+      "size": 44
+     }
+    ]
+   }
+  },
+  {
+   "id": "s12",
+   "lines": [
+    "양옆은 깎아지른 산, 길은 트럭 한 대가 겨우 지나는 폭.",
+    "적이 고개 하나만 막아도, 사단 전체가 갇히는 구조였습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "snow_column",
+    "kb": "out"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "lines": [
+    "그리고 산속에는, 이미 중공군이 숨어 있었습니다.",
+    {
+     "t": "쑹스룬이 이끄는 제9병단, 12개 사단이 해병대가 깊숙이 들어오기만을 기다리고 있었죠.",
+     "say": "쑹스룬이 이끄는 제구병단, 열두 개 사단이, 해병대가 깊숙이 들어오기만을 기다리고 있었죠."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "chosin",
+    "to": "chosin",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.12,
+        40.48
+       ],
+       [
+        127.17,
+        40.44
+       ],
+       [
+        127.21,
+        40.41
+       ],
+       [
+        127.25,
+        40.38
+       ],
+       [
+        127.27,
+        40.34
+       ],
+       [
+        127.3,
+        40.29
+       ],
+       [
+        127.32,
+        40.25
+       ]
+      ],
+      "color": "#d98b2b",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "yudam",
+      "text": "해병 5·7연대",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "c1",
+      "text": "중공군",
+      "color": "red",
+      "at": 0.3
+     },
+     {
+      "k": "unit",
+      "p": "c2",
+      "text": "중공군",
+      "color": "red",
+      "at": 0.5
+     },
+     {
+      "k": "unit",
+      "p": "c3",
+      "text": "중공군",
+      "color": "red",
+      "at": 0.7
+     },
+     {
+      "k": "unit",
+      "p": "c4",
+      "text": "중공군",
+      "color": "red",
+      "at": 0.9
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "중공군 제9병단 · 12개 사단",
+     "style": "red",
+     "at": 1,
+     "pos": "lower"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "drum",
+     "at": 0.3,
+     "volume": 0.45
+    },
+    {
+     "id": "drum",
+     "at": 0.7,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s13b",
+   "lines": [
+    "중공군이 이미 참전했다는 징후는 10월부터 나타났습니다.",
+    "하지만 유엔군 사령부는, 대규모 개입은 없을 거라고 판단했죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s13b-photo",
+    "kb": "in"
+   },
+   "label": "국군이 붙잡은 첫 중공군 포로 (1950. 10)"
+  },
+  {
+   "id": "s14",
+   "lines": [
+    {
+     "t": "11월 27일 밤.",
+     "say": "십일월 이십칠 일 밤."
+    },
+    "유담리의 해병대 진지에 중공군이 사방에서 몰려듭니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "1950. 11. 27  밤",
+    "accent": "포위 공격 개시",
+    "accentAt": 1
+   },
+   "chapter": {
+    "num": "PART 2",
+    "title": "영하 40도의 포위망"
+   },
+   "sfx": [
+    {
+     "id": "bugle",
+     "at": 0.5,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "lines": [
+    "같은 시각, 중공군은 하갈우리와 고토리 사이의 길까지 끊어 놓습니다.",
+    "해병대는 순식간에, 여러 토막으로 잘린 섬이 되었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "chosin",
+    "to": "chosin",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.12,
+        40.48
+       ],
+       [
+        127.17,
+        40.44
+       ],
+       [
+        127.21,
+        40.41
+       ],
+       [
+        127.25,
+        40.38
+       ],
+       [
+        127.27,
+        40.34
+       ],
+       [
+        127.3,
+        40.29
+       ],
+       [
+        127.32,
+        40.25
+       ]
+      ],
+      "color": "#d98b2b",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "yudam",
+      "text": "유담리",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "hagaru",
+      "text": "하갈우리",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "kotori",
+      "text": "고토리",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.08,
+        40.42
+       ],
+       [
+        127.13,
+        40.44
+       ],
+       [
+        127.16,
+        40.445
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 0.9
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.36,
+        40.36
+       ],
+       [
+        127.3,
+        40.35
+       ],
+       [
+        127.27,
+        40.345
+       ]
+      ],
+      "color": "red",
+      "at": 0.4,
+      "width": 0.9
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.2,
+        40.3
+       ],
+       [
+        127.25,
+        40.31
+       ],
+       [
+        127.285,
+        40.315
+       ]
+      ],
+      "color": "red",
+      "at": 0.6,
+      "width": 0.9
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "보급로 3곳 차단",
+     "style": "red",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s16",
+   "lines": [
+    "적보다 무서운 것은 추위였습니다.",
+    "수통의 물은 얼음덩이가 되고, 모르핀 주사액마저 얼어 군의관들은 앰풀을 입에 물고 녹였다고 하죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "frozen_night",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s17",
+   "lines": [
+    "밤이면 중공군의 파도 같은 공격이, 낮이면 끝없는 추위가 이어졌습니다.",
+    "얇은 솜옷 차림의 중공군은 더 많은 병사를, 동상으로 잃어 갔죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "wave_snow",
+    "kb": "up"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "charge",
+     "at": 0,
+     "volume": 0.4
+    },
+    {
+     "id": "mg",
+     "at": 1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s17b",
+   "lines": [
+    "중공군 병사들도 같은 추위 속에 있었습니다.",
+    "운동화에 가까운 신발, 얼어붙은 주먹밥. 많은 병사가 총을 쥔 채 참호에서 얼어 숨졌다고 하죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s17b-photo",
+    "kb": "in"
+   },
+   "label": "고토리 남쪽의 중공군 포로들 · 운동화 차림 (1950. 12)"
+  },
+  {
+   "id": "s18",
+   "lines": [
+    "장진호 동쪽에서는, 미 육군 제31연대 전투단이 고립됩니다.",
+    {
+     "t": "약 2,500명 가운데, 하갈우리까지 살아 돌아온 것은 1천여 명뿐이었습니다.",
+     "say": "약 이천오백 명 가운데, 하갈우리까지 살아 돌아온 것은, 천여 명뿐이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "chosin",
+    "to": "chosin",
+    "zoom": 1.1,
+    "items": [
+     {
+      "k": "unit",
+      "p": "sinhung",
+      "text": "미 육군 31연대 전투단",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.3,
+        40.44
+       ],
+       [
+        127.29,
+        40.41
+       ],
+       [
+        127.26,
+        40.385
+       ]
+      ],
+      "color": "blue",
+      "at": 0.8,
+      "width": 0.8,
+      "dur": 1.6
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "약 2,500명 → 1,050명 귀환 · 미군 기록",
+     "style": "red",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s19",
+   "lines": [
+    "그리고 유담리와 하갈우리 사이, 덕동 고개.",
+    {
+     "t": "이 고개를 지키던 해병 F중대 240여 명은, 닷새 밤낮을 포위된 채 버팁니다.",
+     "say": "이 고개를 지키던 해병 에프중대 이백사십여 명은, 닷새 밤낮을 포위된 채 버팁니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "fox_hill",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "덕동 고개 · 해병 F중대",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower",
+     "until": 0
+    }
+   ],
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 0.5,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s20",
+   "lines": [
+    "다리에 총상을 입은 중대장 바버 대위는, 들것에 실린 채 지휘를 이어 갔습니다.",
+    "이 고개가 무너졌다면, 유담리의 두 연대는 돌아올 길을 잃었을 겁니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "chosin",
+    "to": "chosin",
+    "zoom": 1.5,
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.12,
+        40.48
+       ],
+       [
+        127.17,
+        40.44
+       ],
+       [
+        127.21,
+        40.41
+       ],
+       [
+        127.25,
+        40.38
+       ]
+      ],
+      "color": "#d98b2b",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "toktong",
+      "text": "F중대 · 덕동 고개",
+      "color": "blue",
+      "at": 0,
+      "pulse": true
+     },
+     {
+      "k": "unit",
+      "p": "yudam",
+      "text": "해병 5·7연대",
+      "color": "blue",
+      "at": 0.6
+     },
+     {
+      "k": "unit",
+      "p": "hagaru",
+      "text": "하갈우리",
+      "color": "blue",
+      "at": 0.8
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "5일간 고수",
+     "style": "yellow",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s20b",
+   "lines": [
+    "중대원 대부분이 죽거나 다쳤지만, F중대는 끝내 고개를 내주지 않았습니다.",
+    "바버 대위는 훗날, 미군 최고 훈장인 명예훈장을 받습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "폭스 힐 (Fox Hill)",
+    "style": "yellow",
+    "sub": "해병 F중대 · 덕동 고개 · 5일",
+    "subAt": 0
+   }
+  },
+  {
+   "id": "s21",
+   "lines": [
+    {
+     "t": "12월 1일, 유담리의 해병 두 연대가 하갈우리를 향해 돌파를 시작합니다.",
+     "say": "십이월 일 일, 유담리의 해병 두 연대가, 하갈우리를 향해 돌파를 시작합니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "chosin",
+    "to": "chosin",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.12,
+        40.48
+       ],
+       [
+        127.17,
+        40.44
+       ],
+       [
+        127.21,
+        40.41
+       ],
+       [
+        127.25,
+        40.38
+       ]
+      ],
+      "color": "blue",
+      "at": 0.1,
+      "width": 1.3,
+      "dur": 2.2
+     },
+     {
+      "k": "unit",
+      "p": "toktong",
+      "text": "F중대",
+      "color": "blue",
+      "at": 0
+     }
+    ]
+   },
+   "chapter": {
+    "num": "PART 3",
+    "title": "다른 방향으로의 진격"
+   },
+   "sfx": [
+    {
+     "id": "drum",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s22",
+   "lines": [
+    "산 능선을 따라 눈길을 헤치며 걸어간 끝에, 사흘 만에 하갈우리에 닿습니다.",
+    "그들은 부상자를 트럭에 싣고, 전사자의 시신까지 함께 데려왔습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "carry_dead",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s23",
+   "lines": [
+    "하갈우리에는, 해병대가 미리 닦아 둔 비행장이 있었습니다.",
+    {
+     "t": "수송기들이 얼어붙은 활주로를 오가며, 부상자 4천여 명을 후방으로 실어 날랐죠.",
+     "say": "수송기들이 얼어붙은 활주로를 오가며, 부상자 사천여 명을 후방으로 실어 날랐죠."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "airstrip",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "하갈우리 비행장 · 부상자 공수",
+     "style": "blue",
+     "at": 1,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s24",
+   "lines": [
+    "사단 전체를 비행기로 빼내자는 제안도 있었습니다.",
+    "하지만 스미스는 거절합니다. 장비를 버리지 않고, 걸어서 나가겠다고요."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s24-photo",
+    "kb": "left"
+   },
+   "label": "유담리~하갈우리 사이의 해병대 (1950. 12)"
+  },
+  {
+   "id": "s25",
+   "lines": [
+    "이때 기자들 앞에서, 스미스가 했다고 전해지는 말이 있습니다.",
+    "\"우리는 후퇴하는 것이 아니다. 다른 방향으로 진격하고 있을 뿐이다.\""
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "smith_quote",
+    "kb": "in",
+    "bubbles": [
+     {
+      "text": "후퇴가 아니다.\n다른 방향으로 진격할 뿐!",
+      "x": 0.68,
+      "y": 0.2,
+      "at": 1
+     }
+    ]
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "올리버 스미스 소장 · 1950. 12 (전언)",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s26",
+   "lines": [
+    {
+     "t": "12월 6일, 해병대는 하갈우리를 떠나 고토리로 향합니다.",
+     "say": "십이월 육 일, 해병대는 하갈우리를 떠나 고토리로 향합니다."
+    },
+    "길 양쪽 능선에서는, 밤새 중공군의 사격이 쏟아졌죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "chosin",
+    "to": "chosin",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.25,
+        40.38
+       ],
+       [
+        127.27,
+        40.34
+       ],
+       [
+        127.3,
+        40.29
+       ],
+       [
+        127.32,
+        40.25
+       ]
+      ],
+      "color": "blue",
+      "at": 0.1,
+      "width": 1.3,
+      "dur": 2.0
+     },
+     {
+      "k": "unit",
+      "p": "kotori",
+      "text": "고토리",
+      "color": "blue",
+      "at": 0.5
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.2,
+        40.33
+       ],
+       [
+        127.24,
+        40.335
+       ],
+       [
+        127.27,
+        40.335
+       ]
+      ],
+      "color": "red",
+      "at": 1,
+      "width": 0.8
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.36,
+        40.33
+       ],
+       [
+        127.32,
+        40.325
+       ],
+       [
+        127.29,
+        40.32
+       ]
+      ],
+      "color": "red",
+      "at": 1.2,
+      "width": 0.8
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s26b",
+   "lines": [
+    {
+     "t": "하갈우리에서 고토리까지는 약 18킬로미터.",
+     "say": "하갈우리에서 고토리까지는 약 십팔 킬로미터."
+    },
+    "수천 대의 차량과 병력이 이 길을 빠져나가는 데, 꼬박 하루가 넘게 걸렸습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s26b-photo",
+    "kb": "right"
+   },
+   "label": "하갈우리 남쪽의 해병 7연대 (1950. 12. 6)"
+  },
+  {
+   "id": "s27",
+   "lines": [
+    "하늘에서는 해병 항공대의 코르세어 전폭기들이, 능선을 쉬지 않고 두들겼습니다.",
+    "지상의 병사들이 부르면, 몇 분 만에 날아와 네이팜을 떨어뜨렸죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s27-photo",
+    "kb": "in"
+   },
+   "label": "해병 코르세어의 네이팜 근접 지원 (1950)",
+   "sfx": [
+    {
+     "id": "whoosh",
+     "at": 0.5,
+     "volume": 0.45
+    },
+    {
+     "id": "boom",
+     "at": 1,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s28",
+   "lines": [
+    "그런데 고토리 남쪽, 수문교 고개에서 최악의 소식이 들려옵니다.",
+    "중공군이 협곡 위 다리를 폭파해, 길이 끊긴 겁니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "chosin",
+    "to": "pass",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.3,
+        40.29
+       ],
+       [
+        127.32,
+        40.25
+       ],
+       [
+        127.34,
+        40.22
+       ],
+       [
+        127.37,
+        40.19
+       ],
+       [
+        127.43,
+        40.08
+       ]
+      ],
+      "color": "#d98b2b",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "kotori",
+      "text": "고토리 · 해병 1사단",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "bridge",
+      "text": "수문교 폭파",
+      "color": "red",
+      "at": 1,
+      "dy": 70
+     }
+    ]
+   },
+   "visuals": [
+    {
+     "atLine": 1,
+     "type": "photo",
+     "q": "s28-photo",
+     "kb": "in"
+    }
+   ],
+   "label": "폭파된 수문교 다리 (1950. 12)",
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 1,
+     "volume": 0.55
+    }
+   ]
+  },
+  {
+   "id": "s29",
+   "lines": [
+    {
+     "t": "끊긴 틈은 약 5미터, 아래는 깎아지른 낭떠러지.",
+     "say": "끊긴 틈은 약 오 미터, 아래는 깎아지른 낭떠러지."
+    },
+    "다리가 없으면 트럭도, 대포도, 부상자도 건널 수 없었습니다."
+   ],
+   "visual": {
+    "type": "profile",
+    "pts": [
+     [
+      0,
+      1150
+     ],
+     [
+      0.2,
+      1130
+     ],
+     [
+      0.38,
+      1110
+     ],
+     [
+      0.44,
+      1100
+     ],
+     [
+      0.46,
+      880
+     ],
+     [
+      0.5,
+      860
+     ],
+     [
+      0.54,
+      880
+     ],
+     [
+      0.56,
+      1080
+     ],
+     [
+      0.7,
+      1060
+     ],
+     [
+      1,
+      1000
+     ]
+    ],
+    "bare": true,
+    "grid": [
+     900,
+     1000,
+     1100
+    ],
+    "yMin": 820,
+    "yMax": 1180,
+    "title": "수문교 협곡 단면",
+    "note": "모식도 (높이 과장)",
+    "left": "고토리 방향",
+    "right": "진흥리 방향",
+    "marks": [
+     {
+      "x": 0.5,
+      "text": "폭파된 다리 · 틈 약 5m",
+      "style": "red",
+      "at": 0.3,
+      "lift": 260,
+      "size": 44
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s30",
+   "lines": [
+    "해병대가 꺼낸 해법은, 하늘에서 다리를 떨어뜨리는 것이었습니다.",
+    {
+     "t": "12월 7일, C-119 수송기 8대가 무게 1.3톤의 강철 다리 조각을 낙하산에 매달아 고토리에 투하합니다.",
+     "say": "십이월 칠 일, 씨 백십구 수송기 여덟 대가, 무게 일 점 삼 톤의 강철 다리 조각을 낙하산에 매달아 고토리에 투하합니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "bridge_drop",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "visuals": [
+    {
+     "atLine": 1,
+     "type": "photo",
+     "q": "s30-photo",
+     "kb": "in"
+    }
+   ],
+   "callouts": [
+    {
+     "text": "C-119 8대 · 다리 조각 8개 · 미 공군 기록",
+     "style": "blue",
+     "at": 1,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "whoosh",
+     "at": 1,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s31",
+   "lines": [
+    "하나는 땅에 부딪혀 부서지고, 하나는 중공군 진지 쪽으로 떨어졌지만,",
+    "필요한 네 조각은 무사했습니다."
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "투하된 다리 조각 · 미 공군 기록 (1950. 12. 7)",
+    "items": [
+     {
+      "label": "투하",
+      "value": 8,
+      "display": "8개",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "label": "온전히 회수",
+      "value": 6,
+      "display": "6개",
+      "color": "blue",
+      "at": 0.6
+     },
+     {
+      "label": "필요한 수",
+      "value": 4,
+      "display": "4개",
+      "color": "red",
+      "at": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s32",
+   "lines": [
+    {
+     "t": "12월 9일, 공병대는 혹한 속에서 협곡 위에 다리를 놓습니다.",
+     "say": "십이월 구 일, 공병대는 혹한 속에서 협곡 위에 다리를 놓습니다."
+    },
+    "해병대의 기나긴 행렬이, 마침내 낭떠러지를 건너기 시작하죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s32-photo",
+    "kb": "in"
+   },
+   "label": "수문교에 놓인 다리 (1950. 12. 9)",
+   "sfx": [
+    {
+     "id": "tank",
+     "at": 0.5,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s32b",
+   "lines": [
+    {
+     "t": "그 사이 해병 제1연대 1대대는, 다리 옆을 내려다보는 1081고지를 눈보라 속에서 먼저 점령했습니다.",
+     "say": "그 사이 해병 제일연대 일대대는, 다리 옆을 내려다보는 천팔십일 고지를 눈보라 속에서 먼저 점령했습니다."
+    },
+    "다리를 놓는 공병들을, 위에서 지켜 주기 위해서였죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "pass",
+    "to": "pass",
+    "zoom": 1.2,
+    "items": [
+     {
+      "k": "unit",
+      "p": "bridge",
+      "text": "수문교",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "h1081",
+      "text": "1081고지 · 해병 1연대 1대대",
+      "color": "blue",
+      "at": 0.4,
+      "pulse": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.37,
+        40.2
+       ],
+       [
+        127.36,
+        40.215
+       ],
+       [
+        127.35,
+        40.228
+       ]
+      ],
+      "color": "blue",
+      "at": 0.3,
+      "width": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "id": "s33",
+   "lines": [
+    "고개를 내려오는 길에서도, 그들은 전사자를 버리지 않았습니다.",
+    "트럭 위에, 포 위에, 얼어붙은 전우의 시신을 싣고 걸었죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s33-photo",
+    "kb": "right"
+   },
+   "label": "수문교 고개~진흥리 사이의 해병대 (1950. 12)"
+  },
+  {
+   "id": "s34",
+   "lines": [
+    {
+     "t": "12월 11일, 마지막 부대가 함흥 평야에 닿습니다.",
+     "say": "십이월 십일 일, 마지막 부대가 함흥 평야에 닿습니다."
+    },
+    "포위된 지 2주 만에, 해병 제1사단은 바다에 도착한 것이죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "pass",
+    "to": "route",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.3,
+        40.29
+       ],
+       [
+        127.32,
+        40.25
+       ],
+       [
+        127.34,
+        40.22
+       ],
+       [
+        127.37,
+        40.19
+       ],
+       [
+        127.43,
+        40.08
+       ],
+       [
+        127.54,
+        39.92
+       ],
+       [
+        127.62,
+        39.83
+       ]
+      ],
+      "color": "blue",
+      "at": 0,
+      "width": 1.4,
+      "dur": 2.4
+     },
+     {
+      "k": "unit",
+      "p": "hungnam",
+      "text": "흥남",
+      "color": "blue",
+      "at": 1,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1950. 12. 11 · 함흥 도착",
+     "style": "blue",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s35",
+   "lines": [
+    "포위된 사단이, 어떻게 네 배의 적과 혹한을 뚫고 나올 수 있었을까요?",
+    "네 가지로 정리해 보겠습니다."
+   ],
+   "visual": {
+    "type": "factors",
+    "items": [
+     "느린 진격",
+     "하늘의 지원",
+     "단결과 규율",
+     "적의 혹한 피해"
+    ],
+    "head": "3만 vs 12만 — 어떻게?",
+    "at": 1
+   },
+   "chapter": {
+    "num": "PART 4",
+    "title": "승패를 가른 4가지"
+   }
+  },
+  {
+   "id": "s36",
+   "lines": [
+    "첫째, 스미스의 느린 진격입니다."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s36-photo",
+    "num": "요인 1",
+    "title": "느린 진격"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s37",
+   "lines": [
+    "상부의 재촉에도 그는 보급품을 쌓고, 비행장을 닦고, 길목을 지켰습니다.",
+    "그 준비가 없었다면, 하갈우리는 구조의 기지가 될 수 없었죠."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "상부의 지시",
+     "big": "빠른 진격",
+     "icon": "crowd",
+     "color": "red"
+    },
+    "right": {
+     "title": "스미스의 선택",
+     "big": "기지·비행장",
+     "icon": "cannon",
+     "color": "blue",
+     "at": 1
+    }
+   }
+  },
+  {
+   "id": "s38",
+   "lines": [
+    "둘째, 하늘의 지원입니다."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s38-photo",
+    "num": "요인 2",
+    "title": "하늘의 지원"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s39",
+   "lines": [
+    "전폭기의 근접 지원, 수송기의 보급 투하, 부상자 공수.",
+    "그리고 하늘에서 떨어진 다리 하나가, 사단을 구했습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s39-photo",
+    "kb": "in"
+   },
+   "label": "유담리 보급품 공중 투하 (1950. 11. 29)"
+  },
+  {
+   "id": "s40",
+   "lines": [
+    "셋째, 단결과 규율입니다."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s40-photo",
+    "num": "요인 3",
+    "title": "단결과 규율"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s41",
+   "lines": [
+    "부대는 끝까지 대오를 유지했고, 전우를 버리지 않았습니다.",
+    "그 규율이, 공포 속에서도 행렬이 무너지지 않게 한 힘이었죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "carry_dead",
+    "kb": "out"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s42",
+   "lines": [
+    "넷째, 중공군이 입은 혹한의 피해입니다."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s42-photo",
+    "num": "요인 4",
+    "title": "적의 혹한 피해"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s43",
+   "lines": [
+    {
+     "t": "중국 측 집계로도 전투 사상자는 2만 1천여 명, 동상 등 비전투 손실은 3만여 명에 이릅니다.",
+     "say": "중국 측 집계로도, 전투 사상자는 이만 일천여 명, 동상 등 비전투 손실은 삼만여 명에 이릅니다."
+    },
+    {
+     "t": "해병 제1사단도, 전투 사상자 외에 7천여 명이 동상과 질병에 쓰러졌죠.",
+     "say": "해병 제일사단도, 전투 사상자 외에 칠천여 명이 동상과 질병에 쓰러졌죠."
+    }
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "사상자 · 기록 주체별 (1950. 11. 27 ~ 12. 13)",
+    "items": [
+     {
+      "label": "중공군 전투",
+      "value": 21366,
+      "display": "21,366명",
+      "color": "red",
+      "at": 0.2
+     },
+     {
+      "label": "중공군 비전투",
+      "value": 30732,
+      "display": "30,732명",
+      "color": "red",
+      "at": 0.6
+     },
+     {
+      "label": "해병 1사단 비전투",
+      "value": 7338,
+      "display": "7,338명",
+      "color": "blue",
+      "at": 1.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "s44",
+   "lines": [
+    "중공군 제9병단은 이후 석 달 가까이, 전투를 치를 수 없는 상태가 되었습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "제9병단 · 3개월 공백",
+    "style": "dark",
+    "sub": "중공군 측 피해 분석 기준",
+    "subAt": 0
+   }
+  },
+  {
+   "id": "s45",
+   "lines": [
+    "해병대가 지켜 낸 흥남 항구에서는, 또 하나의 기적이 시작됩니다.",
+    {
+     "t": "12월 24일까지 군인 10만 5천 명, 그리고 피란민 9만 8천 명이 배에 올랐죠.",
+     "say": "십이월 이십사 일까지, 군인 십만 오천 명, 그리고 피란민 구만 팔천 명이 배에 올랐죠."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "hungnam_ship",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "chapter": {
+    "num": "EPILOGUE",
+    "title": "흥남의 크리스마스"
+   }
+  },
+  {
+   "id": "s46",
+   "lines": [
+    {
+     "t": "화물선 메러디스 빅토리호 한 척에만, 피란민 1만 4천여 명이 탔습니다.",
+     "say": "화물선 메러디스 빅토리호 한 척에만, 피란민 만 사천여 명이 탔습니다."
+    },
+    "훗날 '한 척의 배로 가장 많은 생명을 구한 구조'로 기록되죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s46-photo",
+    "kb": "in"
+   },
+   "label": "메러디스 빅토리호 갑판의 피란민 (1950. 12)",
+   "callouts": [
+    {
+     "text": "메러디스 빅토리호 · 피란민 약 14,000명",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s47",
+   "lines": [
+    "마지막 배가 떠난 뒤, 흥남 부두는 폭파되었습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s47-photo",
+    "kb": "in"
+   },
+   "label": "흥남 부두 폭파 (1950. 12. 24)",
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0.3,
+     "volume": 0.55
+    }
+   ]
+  },
+  {
+   "id": "s48",
+   "lines": [
+    "장진호에서 살아 돌아온 이들은, 스스로를 '초신 퓨', 장진호의 소수라 불렀습니다.",
+    "미국에는 지금도, 그들을 기리는 기념비가 곳곳에 서 있죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s48-photo",
+    "kb": "in",
+    "bw": false
+   },
+   "label": "장진호 전투 기념비 헌정식"
+  },
+  {
+   "id": "s49",
+   "lines": [
+    "그리고 그들이 지켜 낸 바다 위의 피란민 가운데에는, 오늘 우리의 부모와 조부모가 있었습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s49-photo",
+    "kb": "in",
+    "frame": true
+   },
+   "label": "LST와 어선에 오른 흥남의 피란민 (1950. 12)"
+  },
+  {
+   "id": "s50",
+   "lines": [
+    "얼어붙은 협곡, 단 하나의 길.",
+    "그 길을 끝까지 걸어 나온 것은, 전우를 버리지 않은 사람들이었습니다."
+   ],
+   "visual": {
+    "type": "quotes",
+    "title": "장진호가 남긴 것",
+    "items": [
+     {
+      "text": "얼어붙은 협곡, 단 하나의 길",
+      "at": 0
+     },
+     {
+      "text": "전우를 버리지 않은 사람들",
+      "at": 1
+     }
+    ]
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s51",
+   "lines": [
+    "이 이야기가 의미 있으셨다면, 구독과 좋아요로 함께해 주십시오.",
+    "잊혀 가는 전쟁의 기록을... 다음 영상에서도 이어가겠습니다."
+   ],
+   "visual": {
+    "type": "endcard",
+    "title": "1950년 12월, 장진호.\n얼어붙은 협곡의 기적.",
+    "q": "s51-photo"
+   },
+   "tail": 3.0
+  }
+ ],
+ "ai_images": {
+  "snow_column": "A long column of trucks and soldiers moving through a narrow frozen mountain gorge in North Korea in December 1950, deep snow, blizzard, steep icy cliffs on both sides, distant orange muzzle flashes on the ridgelines, cold blue night with harsh white parachute flare light, cinematic wide shot, desaturated icy palette with orange glow, painterly realistic digital illustration, film grain, no text, no letters.",
+  "pva_ambush": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a Chinese People's Volunteer Army commander whose head is a round ball painted as the red Chinese flag with yellow stars, wearing a padded winter uniform and fur cap, smiling coldly while pointing at a paper map showing a single mountain road surrounded by many red circles, inside a snow-covered dugout lit by an oil lamp, officers behind him, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "frozen_night": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American Marines whose heads are round balls painted as the United States flag, wearing 1950 M1 helmets with fur-lined parkas, frost on their gear, huddled in shallow snow foxholes on a frozen ridge at night, breath freezing in the air, icicles on their helmets, one Marine trying to thaw a frozen rifle under his parka, blizzard, extreme cold, tense waiting, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "wave_snow": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a wave of Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red Chinese flag with yellow stars, wearing thin padded cotton uniforms and fur-flap caps, covered in snow charging up a snowy ridge at night blowing bugles and whistles, under parachute flares, American Marines whose heads are round balls painted as the United States flag, wearing 1950 M1 helmets with fur-lined parkas, frost on their gear firing from the ridgeline, tracers and explosions in the snow, dramatic low-angle shot, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "fox_hill": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a small company of American Marines whose heads are round balls painted as the United States flag, wearing 1950 M1 helmets with fur-lined parkas, frost on their gear holding a lonely snowy hilltop above a narrow mountain pass, surrounded on all sides, firing machine guns at night, a determined captain on crutches directing them, ammunition crates dropped by parachute lying in the snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "smith_quote": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a calm, grey-haired American Marine major general whose head is a round ball painted as the United States flag, wearing a fur-lined parka and helmet, standing in a snowy command tent beside a field map, speaking firmly to war correspondents, quiet determination, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "airstrip": "A rough airstrip carved into a frozen valley at Hagaru-ri, North Korea, December 1950, a C-47 transport plane taking off through falling snow while stretcher bearers carry wounded soldiers toward another plane, tents and supply dumps, frozen reservoir in the background, cold blue dawn light, painterly realistic digital illustration, film grain, no text, no letters.",
+  "bridge_drop": "Eight C-119 Flying Boxcar transport planes flying low over a snowy mountain pass in North Korea, December 1950, dropping huge steel bridge sections under giant parachutes, a destroyed concrete bridge over a deep gorge below, steep icy cliffs, overcast sky, dramatic wide shot, painterly realistic digital illustration, film grain, no text, no letters.",
+  "carry_dead": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American Marines whose heads are round balls painted as the United States flag, wearing 1950 M1 helmets with fur-lined parkas, frost on their gear walking in a long column down a frozen mountain road, carrying wounded comrades on stretchers and laying fallen comrades with covered faces on the hoods of trucks, snow falling, exhausted but unbroken, solemn and heroic, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "hungnam_ship": "A large cargo ship anchored in Hungnam harbor, North Korea, December 1950, packed with thousands of Korean refugees on deck, small boats ferrying more people, a burning port and huge explosions on the shore behind, snow falling, cold grey sea, painterly realistic digital illustration, film grain, no text, no letters.",
+  "thumb_ref": "Extreme close-up of a frost-covered American Marine in December 1950 at the Chosin Reservoir, ice on his eyebrows and stubble, steel helmet crusted with snow, piercing determined eyes staring straight at the viewer, a raging blizzard behind him, a frozen mountain gorge with a column of trucks, and on the ridges blazing red-orange explosions and tracer fire glowing through the snow, gritty photorealistic war painting styled as a black-and-white 1950s documentary archive photograph, heavy film grain, scratches and dust, desaturated monochrome except the fire, explosions and tracers glow in vivid red and orange (selective color), icy blue-white snow, extreme high contrast, serious military documentary mood, no cartoon, no 2D characters, no countryball, composition: the face in the left-center of the frame, the bottom-right quarter of the frame kept dark, empty and plain, top area slightly darker for text, no text, no letters, no logos, no watermark."
+ }
+}

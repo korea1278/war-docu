@@ -255,7 +255,7 @@ const CtrThumb: React.FC<{ img: string; lines: [string, string?]; pos?: string; 
 /* ===== '격전의 지도' 레퍼런스 디자인 시스템 (3단 텍스트 계층) — 한국어판 A안 ===== */
 type Seg = [string, "w" | "s" | "r"];
 const SEG_COLOR = { w: "#ffffff", s: "#8fd6ff", r: "#ff2a2a" };
-type RefDef = { ep: string; mid: Seg[][]; key: string; keyStyle: "red" | "stone" | "yellow"; pos?: string };
+type RefDef = { ep: string; mid: Seg[][]; key: string; keyStyle: "red" | "stone" | "yellow" | "ice"; pos?: string };
 /** 영문판(EN) — 압축 영문 공식: 'Battle of' 제외, 지명 + 숫자/핵심 단어만, Bebas Neue */
 const REF_EN: Record<string, RefDef> = {
   yongmunsan: { ep: "01", mid: [[["1 REGIMENT", "s"], [" DESTROYED", "w"]], [["3 DIVISIONS", "r"]]], key: "YONGMUNSAN", keyStyle: "red" },
@@ -263,6 +263,7 @@ const REF_EN: Record<string, RefDef> = {
   baengma: { ep: "03", mid: [[["LOST AND RETAKEN", "w"]], [["24 TIMES", "r"]]], key: "WHITE HORSE", keyStyle: "red" },
   jipyeong: { ep: "04", mid: [[["360° SURROUNDED", "r"]], [["BY ", "w"], ["4 DIVISIONS", "s"]]], key: "CHIPYONG-NI", keyStyle: "yellow" },
   chuncheon: { ep: "05", mid: [[["THE ONLY VICTORY", "w"]], [["ON DAY 1", "r"]]], key: "CHUNCHEON", keyStyle: "red" },
+  jangjin: { ep: "06", mid: [[["-40°F FREEZE:", "s"]], [["BREAKING ", "w"], ["120,000 ENEMY", "r"]]], key: "CHOSIN RESERVOIR", keyStyle: "ice" },
 };
 const REF: Record<string, RefDef> = {
   yongmunsan: { ep: "01", mid: [[["중공군 ", "w"], ["3개 사단", "r"], [" 격멸,", "w"]], [["1개 연대의 기적", "s"]]], key: "용문산 전투", keyStyle: "red" },
@@ -270,6 +271,7 @@ const REF: Record<string, RefDef> = {
   baengma: { ep: "03", mid: [[["주인이 ", "w"], ["24번", "r"], [" 바뀐", "w"]], [["지옥의 능선", "s"]]], key: "백마고지", keyStyle: "red" },
   jipyeong: { ep: "04", mid: [[["중공군 4개 사단", "r"], [" 완전 포위,", "w"]], [["퇴로는 없다", "s"]]], key: "지평리 전투", keyStyle: "yellow" },
   chuncheon: { ep: "05", mid: [[["개전 첫날 유일한 승리", "r"], [",", "w"]], [["3일간의 기적", "s"]]], key: "춘천 전투", keyStyle: "red" },
+  jangjin: { ep: "06", mid: [[["영하 40도", "s"], [" 고립,", "w"]], [["12만 포위망", "r"], ["을 찢다", "w"]]], key: "장진호 전투", keyStyle: "ice" },
 };
 const CrackDefs: React.FC = () => (
   <svg width={0} height={0} style={{ position: "absolute" }}>
@@ -293,10 +295,10 @@ const CrackDefs: React.FC = () => (
     </defs>
   </svg>
 );
-const KeyWord: React.FC<{ text: string; style: "red" | "stone" | "yellow"; size: number; en?: boolean }> = ({ text, style, size, en }) => {
+const KeyWord: React.FC<{ text: string; style: "red" | "stone" | "yellow" | "ice"; size: number; en?: boolean }> = ({ text, style, size, en }) => {
   const base: React.CSSProperties = { fontFamily: en ? "'Bebas Neue', 'Oswald', sans-serif" : "'Black Han Sans', sans-serif", fontSize: size, lineHeight: 1, whiteSpace: "nowrap", letterSpacing: en ? 1 : -3 };
   const parts = style === "yellow" ? (en ? text.replace("-", " -").split(" ") : text.split(" ")) : [text];
-  const fill = (i: number) => (style === "red" ? "#e3161d" : style === "stone" ? "#f1efe8" : i === 0 ? "#ffd21f" : "#ffffff");
+  const fill = (i: number) => (style === "red" ? "#e3161d" : style === "stone" ? "#f1efe8" : style === "ice" ? "#cdeeff" : i === 0 ? "#ffd21f" : "#ffffff");
   return (
     <div style={{ position: "relative", display: "inline-block" }}>
       {/* 1층: 두꺼운 검은 외곽선 + 그림자 (균열 사이로 비치는 바탕) */}

@@ -35,6 +35,9 @@ RASTERS = [
     ("jipyeong_zoom", [127.57, 37.43, 127.7, 37.52], 13, 1.15, 64),
     # EP05 춘천 분지
     ("chuncheon_zoom", [127.62, 37.83, 127.84, 37.98], 13, 1.15, 64),
+    # EP06 장진호·개마고원 (북한)
+    ("chosin", [126.85, 39.7, 127.85, 40.65], 11, 1.5, 48),
+    ("chosin_zoom", [127.03, 40.15, 127.45, 40.53], 12, 1.25, 64),
 ]
 
 
@@ -117,7 +120,7 @@ def build_raster(s, name, bbox, z, exag, feather):
 # ---------------- 하천 / 호수 (OpenStreetMap Overpass) ----------------
 OVERPASS = ["https://overpass-api.de/api/interpreter", "https://overpass.kumi.systems/api/interpreter",
             "https://maps.mail.ru/osm/tools/overpass/api/interpreter"]
-WBOX = (34.9, 126.3, 38.75, 129.6)
+WBOX = (34.9, 126.3, 40.7, 129.6)   # EP06: 장진호까지 북쪽 확장
 
 
 def overpass(s, q):
@@ -268,8 +271,12 @@ def main(what="all"):
         try:
             build_water(s)
         except Exception as e:
-            print(f"  ! 하천 데이터 실패(지도에서 생략): {e}")
-            write_json(OUT / "water.json", {"lakes": [], "rivers": []})
+            # 실패해도 기존 하천 데이터는 지우지 않음 (이전 에피소드 지도 보호)
+            print(f"  ! 하천 데이터 실패 — 기존 water.json 유지: {e}")
+            from common import log_error
+            log_error(f"하천 데이터 갱신 실패(기존 유지): {e}")
+            if not (OUT / "water.json").exists():
+                write_json(OUT / "water.json", {"lakes": [], "rivers": []})
 
 
 if __name__ == "__main__":

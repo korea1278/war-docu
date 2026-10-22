@@ -1,0 +1,2178 @@
+{
+ "title": "Battle of Chosin Reservoir (1950): The Frozen Breakthrough",
+ "subtitle": "Nov 27 – Dec 13, 1950",
+ "target_sec": 540,
+ "places": {
+  "seoul": [
+   126.978,
+   37.566,
+   "Seoul"
+  ],
+  "yudam": [
+   127.12,
+   40.48,
+   "Yudam-ni"
+  ],
+  "toktong": [
+   127.18,
+   40.43,
+   "Toktong Pass"
+  ],
+  "hagaru": [
+   127.25,
+   40.38,
+   "Hagaru-ri"
+  ],
+  "kotori": [
+   127.3,
+   40.29,
+   "Koto-ri"
+  ],
+  "bridge": [
+   127.33,
+   40.24,
+   "Funchilin Bridge"
+  ],
+  "chinhung": [
+   127.37,
+   40.19,
+   "Chinhung-ni"
+  ],
+  "hamhung": [
+   127.54,
+   39.92,
+   "Hamhung"
+  ],
+  "hungnam": [
+   127.62,
+   39.83,
+   "Hungnam"
+  ],
+  "sinhung": [
+   127.31,
+   40.45,
+   "Sinhung-ni"
+  ],
+  "h1081": [
+   127.365,
+   40.222,
+   "Hill 1081"
+  ],
+  "c1": [
+   127.05,
+   40.52,
+   "Chinese"
+  ],
+  "c2": [
+   127.2,
+   40.5,
+   "Chinese"
+  ],
+  "c3": [
+   127.15,
+   40.36,
+   "Chinese"
+  ],
+  "c4": [
+   127.36,
+   40.33,
+   "Chinese"
+  ]
+ },
+ "views": {
+  "korea": {
+   "center": [
+    127.3,
+    38.6
+   ],
+   "span": 7.0
+  },
+  "route": {
+   "center": [
+    127.38,
+    40.15
+   ],
+   "span": 1.0
+  },
+  "chosin": {
+   "center": [
+    127.22,
+    40.4
+   ],
+   "span": 0.42
+  },
+  "pass": {
+   "center": [
+    127.33,
+    40.25
+   ],
+   "span": 0.2
+  }
+ },
+ "music": [
+  {
+   "id": "drone",
+   "from": "s01",
+   "to": "s06",
+   "volume": 0.2
+  },
+  {
+   "id": "theme",
+   "from": "s07",
+   "to": "s13",
+   "volume": 0.16
+  },
+  {
+   "id": "tension",
+   "from": "s14",
+   "to": "s20",
+   "volume": 0.17
+  },
+  {
+   "id": "march",
+   "from": "s21",
+   "to": "s34",
+   "volume": 0.15
+  },
+  {
+   "id": "analysis",
+   "from": "s35",
+   "to": "s44",
+   "volume": 0.13
+  },
+  {
+   "id": "somber",
+   "from": "s45",
+   "to": "s51",
+   "volume": 0.17
+  }
+ ],
+ "scenes": [
+  {
+   "id": "s01",
+   "lines": [
+    "The night of November 27th, 1950. The Chosin Reservoir, high on North Korea's Kaema Plateau.",
+    "Temperatures plunged below minus 30 degrees Celsius, and even the oil in the rifles froze."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "snow_column",
+    "kb": "in"
+   },
+   "visuals": [
+    {
+     "atLine": 1,
+     "type": "map",
+     "from": "korea",
+     "to": "chosin",
+     "items": [
+      {
+       "k": "unit",
+       "p": "hagaru",
+       "text": "Chosin Reservoir",
+       "color": "blue",
+       "at": 0.3,
+       "pulse": true
+      }
+     ]
+    }
+   ],
+   "callouts": [
+    {
+     "text": "NOV 27, 1950 · CHOSIN RESERVOIR",
+     "style": "yellow",
+     "at": 0,
+     "until": 0
+    }
+   ],
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0,
+     "volume": 0.55
+    },
+    {
+     "id": "artillery_far",
+     "at": 0.8,
+     "volume": 0.3
+    },
+    {
+     "id": "whoosh",
+     "at": 1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "lines": [
+    "Then, from every surrounding mountain, bugles sounded.",
+    "The Chinese 9th Army Group, some 120,000 men, had encircled the 1st Marine Division."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "pva_ambush",
+    "kb": "in",
+    "bubbles": [
+     {
+      "text": "Cut this one road\nand it's over!",
+      "x": 0.7,
+      "y": 0.2,
+      "at": 1
+     }
+    ]
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "bugle",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "lines": [
+    "The Marines had only one way out:",
+    "a single unpaved mountain road running about 126 kilometers through frozen gorges to the sea."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "chosin",
+    "to": "route",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.12,
+        40.48
+       ],
+       [
+        127.17,
+        40.44
+       ],
+       [
+        127.21,
+        40.41
+       ],
+       [
+        127.25,
+        40.38
+       ],
+       [
+        127.27,
+        40.34
+       ],
+       [
+        127.3,
+        40.29
+       ],
+       [
+        127.32,
+        40.25
+       ],
+       [
+        127.34,
+        40.22
+       ],
+       [
+        127.37,
+        40.19
+       ],
+       [
+        127.43,
+        40.08
+       ],
+       [
+        127.54,
+        39.92
+       ],
+       [
+        127.62,
+        39.83
+       ]
+      ],
+      "color": "#d98b2b",
+      "at": 0.3
+     },
+     {
+      "k": "marker",
+      "p": "yudam",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "hungnam",
+      "color": "dark",
+      "at": 1
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "ONE ROAD · ~126 KM",
+     "style": "yellow",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "lines": [
+    "About 30,000 UN troops, built around one Marine division, against four times as many Chinese.",
+    "One of history's most brutal encirclements was about to begin."
+   ],
+   "visual": {
+    "type": "versus",
+    "left": {
+     "n": 1,
+     "label": "UN ~30,000",
+     "color": "blue"
+    },
+    "right": {
+     "n": 4,
+     "label": "Chinese ~120,000",
+     "color": "red"
+    },
+    "at": 1
+   },
+   "callouts": [
+    {
+     "text": "Per U.S. records · Chinese strength est. 60,000–120,000",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "lines": [
+    "And yet two weeks later,",
+    "the Marines reached the sea unbroken, bringing their equipment, their wounded, and even their dead."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "Two weeks later,\nthey brought everyone out"
+   },
+   "pauseBefore": 0.4
+  },
+  {
+   "id": "s06",
+   "lines": [
+    "A withdrawal that its commander called not a retreat, but an attack in another direction.",
+    "This is the miracle of the frozen gorge: the Battle of Chosin Reservoir."
+   ],
+   "visual": {
+    "type": "titlecard",
+    "q": "s06-photo",
+    "title": "Battle of Chosin Reservoir",
+    "sub": "The Frozen Breakthrough · 1950",
+    "at": 1
+   },
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 1,
+     "volume": 0.5
+    }
+   ],
+   "flash": true
+  },
+  {
+   "id": "s07",
+   "lines": [
+    "In October 1950, after the Inchon landing, UN forces were driving north.",
+    "Everyone believed the war would be over by Christmas."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "korea",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.7,
+        37.6
+       ],
+       [
+        126.2,
+        38.8
+       ],
+       [
+        125.9,
+        39.8
+       ],
+       [
+        125.5,
+        40.6
+       ]
+      ],
+      "color": "blue",
+      "at": 0.2,
+      "width": 1.4
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.6,
+        37.9
+       ],
+       [
+        127.6,
+        39.2
+       ],
+       [
+        127.5,
+        39.9
+       ],
+       [
+        127.25,
+        40.4
+       ]
+      ],
+      "color": "blue",
+      "at": 0.4,
+      "width": 1.4
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "\"HOME BY CHRISTMAS\"",
+     "style": "yellow",
+     "at": 1
+    }
+   ],
+   "chapter": {
+    "num": "PART 1",
+    "title": "THE TRAP ON THE PLATEAU"
+   }
+  },
+  {
+   "id": "s08",
+   "lines": [
+    "Under X Corps, the 1st Marine Division advanced north on the eastern front toward the Yalu River.",
+    "Its objective lay deep in the Kaema Plateau, beyond the west side of the Chosin Reservoir."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s08-photo",
+    "kb": "left"
+   },
+   "label": "7th Marines advance north in cold-weather gear (1950)"
+  },
+  {
+   "id": "s09",
+   "lines": [
+    "The division commander, Major General Oliver Smith, was uneasy about this advance.",
+    "His units were being strung out far too thinly along a mountain road."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s09-photo",
+    "kb": "in",
+    "frame": true
+   },
+   "label": "Oliver P. Smith"
+  },
+  {
+   "id": "s09b",
+   "lines": [
+    "He had fought through the bloody island battles of Peleliu and Okinawa in the Pacific War.",
+    "He knew better than anyone how dangerous a long column deep in enemy country could be."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "Oliver P. Smith",
+    "style": "yellow",
+    "sub": "Commanding General, 1st Marine Division (Maj. Gen.)",
+    "subAt": 0
+   }
+  },
+  {
+   "id": "s10",
+   "lines": [
+    "Smith deliberately slowed the advance.",
+    "He stockpiled supplies at Hagaru-ri, built an airstrip, and left troops to guard every key point on the road."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "chosin",
+    "to": "chosin",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.12,
+        40.48
+       ],
+       [
+        127.17,
+        40.44
+       ],
+       [
+        127.21,
+        40.41
+       ],
+       [
+        127.25,
+        40.38
+       ],
+       [
+        127.27,
+        40.34
+       ],
+       [
+        127.3,
+        40.29
+       ],
+       [
+        127.32,
+        40.25
+       ]
+      ],
+      "color": "#d98b2b",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "hagaru",
+      "text": "Hagaru-ri · Supply Base & Airstrip",
+      "color": "blue",
+      "at": 0.6
+     },
+     {
+      "k": "unit",
+      "p": "kotori",
+      "text": "Koto-ri",
+      "color": "blue",
+      "at": 1.2
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "Slow Advance = Preparation",
+     "style": "yellow",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "lines": [
+    "Lay this road out by altitude, and you can see why it was a trap.",
+    "It starts on a plateau over 1,000 meters high, then drops almost straight to the sea past Funchilin Pass."
+   ],
+   "visual": {
+    "type": "profile",
+    "pts": [
+     [
+      0,
+      1100
+     ],
+     [
+      0.06,
+      1200
+     ],
+     [
+      0.12,
+      1300
+     ],
+     [
+      0.18,
+      1180
+     ],
+     [
+      0.25,
+      1100
+     ],
+     [
+      0.33,
+      1150
+     ],
+     [
+      0.42,
+      1180
+     ],
+     [
+      0.47,
+      1120
+     ],
+     [
+      0.52,
+      980
+     ],
+     [
+      0.57,
+      650
+     ],
+     [
+      0.62,
+      420
+     ],
+     [
+      0.72,
+      200
+     ],
+     [
+      0.85,
+      30
+     ],
+     [
+      1,
+      0
+     ]
+    ],
+    "bare": true,
+    "grid": [
+     400,
+     800,
+     1200
+    ],
+    "yMin": 0,
+    "yMax": 1450,
+    "title": "Yudam-ni → Hungnam · Road Elevation",
+    "note": "Road elevation schematic (vertical exaggeration)",
+    "left": "Yudam-ni",
+    "right": "Hungnam",
+    "marks": [
+     {
+      "x": 0.12,
+      "text": "Toktong Pass",
+      "style": "dark",
+      "at": 0.5,
+      "lift": 55,
+      "size": 40
+     },
+     {
+      "x": 0.25,
+      "text": "Hagaru-ri",
+      "style": "blue",
+      "at": 0.8,
+      "lift": 120,
+      "size": 40
+     },
+     {
+      "x": 0.4,
+      "text": "Koto-ri",
+      "style": "blue",
+      "at": 1.0,
+      "lift": 55,
+      "size": 40
+     },
+     {
+      "x": 0.54,
+      "text": "Funchilin Bridge",
+      "style": "red",
+      "at": 1.3,
+      "lift": 150,
+      "size": 44
+     }
+    ]
+   }
+  },
+  {
+   "id": "s12",
+   "lines": [
+    "Sheer mountains on both sides, and a road barely wide enough for one truck.",
+    "Block a single pass, and the entire division would be trapped."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "snow_column",
+    "kb": "out"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "lines": [
+    "And in those mountains, the Chinese were already hiding.",
+    "Song Shilun's 9th Army Group, twelve divisions strong, was waiting for the Marines to come deep enough."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "chosin",
+    "to": "chosin",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.12,
+        40.48
+       ],
+       [
+        127.17,
+        40.44
+       ],
+       [
+        127.21,
+        40.41
+       ],
+       [
+        127.25,
+        40.38
+       ],
+       [
+        127.27,
+        40.34
+       ],
+       [
+        127.3,
+        40.29
+       ],
+       [
+        127.32,
+        40.25
+       ]
+      ],
+      "color": "#d98b2b",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "yudam",
+      "text": "5th & 7th Marines",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "c1",
+      "text": "Chinese",
+      "color": "red",
+      "at": 0.3
+     },
+     {
+      "k": "unit",
+      "p": "c2",
+      "text": "Chinese",
+      "color": "red",
+      "at": 0.5
+     },
+     {
+      "k": "unit",
+      "p": "c3",
+      "text": "Chinese",
+      "color": "red",
+      "at": 0.7
+     },
+     {
+      "k": "unit",
+      "p": "c4",
+      "text": "Chinese",
+      "color": "red",
+      "at": 0.9
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "Chinese 9th Army Group · 12 Divisions",
+     "style": "red",
+     "at": 1,
+     "pos": "lower"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "drum",
+     "at": 0.3,
+     "volume": 0.45
+    },
+    {
+     "id": "drum",
+     "at": 0.7,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s13b",
+   "lines": [
+    "Signs that China had entered the war appeared as early as October.",
+    "But UN headquarters judged that no large-scale intervention would come."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s13b-photo",
+    "kb": "in"
+   },
+   "label": "First Chinese prisoners taken by ROK forces (Oct 1950)"
+  },
+  {
+   "id": "s14",
+   "lines": [
+    "The night of November 27th.",
+    "Chinese troops swarmed the Marine positions at Yudam-ni from every direction."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "NOV 27, 1950 · NIGHT",
+    "accent": "THE ASSAULT BEGINS",
+    "accentAt": 1
+   },
+   "chapter": {
+    "num": "PART 2",
+    "title": "ENCIRCLED AT MINUS 40"
+   },
+   "sfx": [
+    {
+     "id": "bugle",
+     "at": 0.5,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "lines": [
+    "At the same time, the Chinese cut the road between Hagaru-ri and Koto-ri.",
+    "In an instant, the Marines were chopped into isolated islands."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "chosin",
+    "to": "chosin",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.12,
+        40.48
+       ],
+       [
+        127.17,
+        40.44
+       ],
+       [
+        127.21,
+        40.41
+       ],
+       [
+        127.25,
+        40.38
+       ],
+       [
+        127.27,
+        40.34
+       ],
+       [
+        127.3,
+        40.29
+       ],
+       [
+        127.32,
+        40.25
+       ]
+      ],
+      "color": "#d98b2b",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "yudam",
+      "text": "Yudam-ni",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "hagaru",
+      "text": "Hagaru-ri",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "kotori",
+      "text": "Koto-ri",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.08,
+        40.42
+       ],
+       [
+        127.13,
+        40.44
+       ],
+       [
+        127.16,
+        40.445
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 0.9
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.36,
+        40.36
+       ],
+       [
+        127.3,
+        40.35
+       ],
+       [
+        127.27,
+        40.345
+       ]
+      ],
+      "color": "red",
+      "at": 0.4,
+      "width": 0.9
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.2,
+        40.3
+       ],
+       [
+        127.25,
+        40.31
+       ],
+       [
+        127.285,
+        40.315
+       ]
+      ],
+      "color": "red",
+      "at": 0.6,
+      "width": 0.9
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "MAIN SUPPLY ROUTE CUT IN 3 PLACES",
+     "style": "red",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s16",
+   "lines": [
+    "Worse than the enemy was the cold.",
+    "Canteens froze solid, and medics reportedly thawed frozen morphine syrettes in their mouths."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "frozen_night",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s17",
+   "lines": [
+    "By night came wave after wave of Chinese attacks; by day, endless cold.",
+    "In thin cotton uniforms, the Chinese lost even more men to frostbite."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "wave_snow",
+    "kb": "up"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "charge",
+     "at": 0,
+     "volume": 0.4
+    },
+    {
+     "id": "mg",
+     "at": 1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s17b",
+   "lines": [
+    "The Chinese soldiers endured the same cold.",
+    "Canvas shoes like sneakers, frozen rice balls. Many reportedly froze to death in their foxholes, still gripping their rifles."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s17b-photo",
+    "kb": "in"
+   },
+   "label": "Chinese POWs south of Koto-ri in canvas sneakers (Dec 1950)"
+  },
+  {
+   "id": "s18",
+   "lines": [
+    "East of the reservoir, the U.S. Army's 31st Regimental Combat Team was cut off.",
+    "Of about 2,500 men, only around 1,050 made it back to Hagaru-ri."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "chosin",
+    "to": "chosin",
+    "zoom": 1.1,
+    "items": [
+     {
+      "k": "unit",
+      "p": "sinhung",
+      "text": "U.S. Army RCT-31",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.3,
+        40.44
+       ],
+       [
+        127.29,
+        40.41
+       ],
+       [
+        127.26,
+        40.385
+       ]
+      ],
+      "color": "blue",
+      "at": 0.8,
+      "width": 0.8,
+      "dur": 1.6
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "~2,500 → 1,050 RETURNED · U.S. RECORDS",
+     "style": "red",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s19",
+   "lines": [
+    "And between Yudam-ni and Hagaru-ri lay Toktong Pass.",
+    "Holding it, about 240 men of Fox Company held out, surrounded, for five days and nights."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "fox_hill",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "callouts": [
+    {
+     "text": "Toktong Pass · Fox Company",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower",
+     "until": 0
+    }
+   ],
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 0.5,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s20",
+   "lines": [
+    "Wounded in the leg, company commander Captain William Barber kept directing the fight from a stretcher.",
+    "Had the pass fallen, the two regiments at Yudam-ni would have lost their way home."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "chosin",
+    "to": "chosin",
+    "zoom": 1.5,
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.12,
+        40.48
+       ],
+       [
+        127.17,
+        40.44
+       ],
+       [
+        127.21,
+        40.41
+       ],
+       [
+        127.25,
+        40.38
+       ]
+      ],
+      "color": "#d98b2b",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "toktong",
+      "text": "Fox Co. · Toktong Pass",
+      "color": "blue",
+      "at": 0,
+      "pulse": true
+     },
+     {
+      "k": "unit",
+      "p": "yudam",
+      "text": "5th & 7th Marines",
+      "color": "blue",
+      "at": 0.6
+     },
+     {
+      "k": "unit",
+      "p": "hagaru",
+      "text": "Hagaru-ri",
+      "color": "blue",
+      "at": 0.8
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "HELD FOR 5 DAYS",
+     "style": "yellow",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s20b",
+   "lines": [
+    "Most of the company was killed or wounded, but Fox Company never gave up the pass.",
+    "Captain Barber was later awarded the Medal of Honor, America's highest decoration."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "Fox Hill",
+    "style": "yellow",
+    "sub": "Fox Company · Toktong Pass · 5 days",
+    "subAt": 0
+   }
+  },
+  {
+   "id": "s21",
+   "lines": [
+    "On December 1st, the two Marine regiments at Yudam-ni began their breakout toward Hagaru-ri."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "chosin",
+    "to": "chosin",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.12,
+        40.48
+       ],
+       [
+        127.17,
+        40.44
+       ],
+       [
+        127.21,
+        40.41
+       ],
+       [
+        127.25,
+        40.38
+       ]
+      ],
+      "color": "blue",
+      "at": 0.1,
+      "width": 1.3,
+      "dur": 2.2
+     },
+     {
+      "k": "unit",
+      "p": "toktong",
+      "text": "Fox Co.",
+      "color": "blue",
+      "at": 0
+     }
+    ]
+   },
+   "chapter": {
+    "num": "PART 3",
+    "title": "ATTACKING IN ANOTHER DIRECTION"
+   },
+   "sfx": [
+    {
+     "id": "drum",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s22",
+   "lines": [
+    "After three days of fighting through snow along the ridgelines, they reached Hagaru-ri.",
+    "They loaded their wounded onto trucks and brought out their dead as well."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "carry_dead",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s23",
+   "lines": [
+    "At Hagaru-ri, there was the airstrip the Marines had prepared in advance.",
+    "Transports shuttled across the frozen runway, flying out more than 4,000 wounded."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "airstrip",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "callouts": [
+    {
+     "text": "Hagaru-ri Airstrip · Casualty Airlift",
+     "style": "blue",
+     "at": 1,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s24",
+   "lines": [
+    "There was even an offer to fly the whole division out.",
+    "But Smith refused. They would walk out, and they would not abandon their equipment."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s24-photo",
+    "kb": "left"
+   },
+   "label": "Marines between Yudam-ni and Hagaru-ri (Dec 1950)"
+  },
+  {
+   "id": "s25",
+   "lines": [
+    "It was then that Smith is said to have told reporters:",
+    "\"We are not retreating. We are merely attacking in another direction.\""
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "smith_quote",
+    "kb": "in",
+    "bubbles": [
+     {
+      "text": "Not a retreat —\nattacking in another direction!",
+      "x": 0.68,
+      "y": 0.2,
+      "at": 1
+     }
+    ]
+   },
+   "label": "Dramatization",
+   "callouts": [
+    {
+     "text": "Maj. Gen. Oliver Smith · Dec 1950 (as reported)",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s26",
+   "lines": [
+    "On December 6th, the Marines left Hagaru-ri for Koto-ri.",
+    "All night, Chinese fire poured down from the ridges on both sides of the road."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "chosin",
+    "to": "chosin",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.25,
+        40.38
+       ],
+       [
+        127.27,
+        40.34
+       ],
+       [
+        127.3,
+        40.29
+       ],
+       [
+        127.32,
+        40.25
+       ]
+      ],
+      "color": "blue",
+      "at": 0.1,
+      "width": 1.3,
+      "dur": 2.0
+     },
+     {
+      "k": "unit",
+      "p": "kotori",
+      "text": "Koto-ri",
+      "color": "blue",
+      "at": 0.5
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.2,
+        40.33
+       ],
+       [
+        127.24,
+        40.335
+       ],
+       [
+        127.27,
+        40.335
+       ]
+      ],
+      "color": "red",
+      "at": 1,
+      "width": 0.8
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.36,
+        40.33
+       ],
+       [
+        127.32,
+        40.325
+       ],
+       [
+        127.29,
+        40.32
+       ]
+      ],
+      "color": "red",
+      "at": 1.2,
+      "width": 0.8
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s26b",
+   "lines": [
+    "From Hagaru-ri to Koto-ri was about 18 kilometers.",
+    "Getting thousands of vehicles and men through took more than a full day."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s26b-photo",
+    "kb": "right"
+   },
+   "label": "7th Marines just south of Hagaru-ri (Dec 6, 1950)"
+  },
+  {
+   "id": "s27",
+   "lines": [
+    "Overhead, Marine Corsair fighter-bombers hammered the ridgelines without pause.",
+    "When the troops below called, they arrived within minutes and dropped napalm."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s27-photo",
+    "kb": "in"
+   },
+   "label": "Marine Corsair napalm close air support (1950)",
+   "sfx": [
+    {
+     "id": "whoosh",
+     "at": 0.5,
+     "volume": 0.45
+    },
+    {
+     "id": "boom",
+     "at": 1,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s28",
+   "lines": [
+    "Then, south of Koto-ri at Funchilin Pass, came the worst news of all.",
+    "The Chinese had blown the bridge over the gorge. The road was cut."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "chosin",
+    "to": "pass",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.3,
+        40.29
+       ],
+       [
+        127.32,
+        40.25
+       ],
+       [
+        127.34,
+        40.22
+       ],
+       [
+        127.37,
+        40.19
+       ],
+       [
+        127.43,
+        40.08
+       ]
+      ],
+      "color": "#d98b2b",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "kotori",
+      "text": "Koto-ri · 1st MarDiv",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "bridge",
+      "text": "Bridge Blown",
+      "color": "red",
+      "at": 1,
+      "dy": 70
+     }
+    ]
+   },
+   "visuals": [
+    {
+     "atLine": 1,
+     "type": "photo",
+     "q": "s28-photo",
+     "kb": "in"
+    }
+   ],
+   "label": "Blown bridge at Funchilin Pass (Dec 1950)",
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 1,
+     "volume": 0.55
+    }
+   ]
+  },
+  {
+   "id": "s29",
+   "lines": [
+    "The gap was about five meters, above a sheer drop.",
+    "Without a bridge, no truck, gun, or wounded man could get across."
+   ],
+   "visual": {
+    "type": "profile",
+    "pts": [
+     [
+      0,
+      1150
+     ],
+     [
+      0.2,
+      1130
+     ],
+     [
+      0.38,
+      1110
+     ],
+     [
+      0.44,
+      1100
+     ],
+     [
+      0.46,
+      880
+     ],
+     [
+      0.5,
+      860
+     ],
+     [
+      0.54,
+      880
+     ],
+     [
+      0.56,
+      1080
+     ],
+     [
+      0.7,
+      1060
+     ],
+     [
+      1,
+      1000
+     ]
+    ],
+    "bare": true,
+    "grid": [
+     900,
+     1000,
+     1100
+    ],
+    "yMin": 820,
+    "yMax": 1180,
+    "title": "Funchilin Gorge · Cross-Section",
+    "note": "Schematic (vertical exaggeration)",
+    "left": "toward Koto-ri",
+    "right": "toward Chinhung-ni",
+    "marks": [
+     {
+      "x": 0.5,
+      "text": "Blown bridge · ~5 m gap",
+      "style": "red",
+      "at": 0.3,
+      "lift": 260,
+      "size": 44
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s30",
+   "lines": [
+    "The Marines' answer was to drop a bridge from the sky.",
+    "On December 7th, eight C-119 transports parachuted 1.3-ton steel bridge sections onto Koto-ri."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "bridge_drop",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "visuals": [
+    {
+     "atLine": 1,
+     "type": "photo",
+     "q": "s30-photo",
+     "kb": "in"
+    }
+   ],
+   "callouts": [
+    {
+     "text": "8 C-119s · 8 BRIDGE SECTIONS · USAF RECORDS",
+     "style": "blue",
+     "at": 1,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "whoosh",
+     "at": 1,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s31",
+   "lines": [
+    "One was smashed on landing, and one drifted toward Chinese lines,",
+    "but the four sections they needed came down intact."
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "Bridge sections dropped · USAF records (Dec 7, 1950)",
+    "items": [
+     {
+      "label": "Dropped",
+      "value": 8,
+      "display": "8",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "label": "Recovered intact",
+      "value": 6,
+      "display": "6",
+      "color": "blue",
+      "at": 0.6
+     },
+     {
+      "label": "Needed",
+      "value": 4,
+      "display": "4",
+      "color": "red",
+      "at": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s32",
+   "lines": [
+    "On December 9th, engineers laid the bridge across the gorge in brutal cold.",
+    "At last, the Marines' long column began to cross the chasm."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s32-photo",
+    "kb": "in"
+   },
+   "label": "Treadway bridge in place at Funchilin Pass (Dec 9, 1950)",
+   "sfx": [
+    {
+     "id": "tank",
+     "at": 0.5,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s32b",
+   "lines": [
+    "Meanwhile, the 1st Battalion, 1st Marines, fought through a blizzard to seize Hill 1081 overlooking the bridge.",
+    "Its job was to protect the engineers from above."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "pass",
+    "to": "pass",
+    "zoom": 1.2,
+    "items": [
+     {
+      "k": "unit",
+      "p": "bridge",
+      "text": "Funchilin Bridge",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "h1081",
+      "text": "Hill 1081 · 1/1 Marines",
+      "color": "blue",
+      "at": 0.4,
+      "pulse": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.37,
+        40.2
+       ],
+       [
+        127.36,
+        40.215
+       ],
+       [
+        127.35,
+        40.228
+       ]
+      ],
+      "color": "blue",
+      "at": 0.3,
+      "width": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "id": "s33",
+   "lines": [
+    "Even on the way down the pass, they did not leave their dead behind.",
+    "They carried their frozen comrades on trucks and on guns as they marched."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s33-photo",
+    "kb": "right"
+   },
+   "label": "Marines between Funchilin Pass and Chinhung-ni (Dec 1950)"
+  },
+  {
+   "id": "s34",
+   "lines": [
+    "On December 11th, the last units reached the plain of Hamhung.",
+    "Two weeks after being surrounded, the 1st Marine Division had reached the sea."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "pass",
+    "to": "route",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.3,
+        40.29
+       ],
+       [
+        127.32,
+        40.25
+       ],
+       [
+        127.34,
+        40.22
+       ],
+       [
+        127.37,
+        40.19
+       ],
+       [
+        127.43,
+        40.08
+       ],
+       [
+        127.54,
+        39.92
+       ],
+       [
+        127.62,
+        39.83
+       ]
+      ],
+      "color": "blue",
+      "at": 0,
+      "width": 1.4,
+      "dur": 2.4
+     },
+     {
+      "k": "unit",
+      "p": "hungnam",
+      "text": "Hungnam",
+      "color": "blue",
+      "at": 1,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "DEC 11, 1950 · REACHED HAMHUNG",
+     "style": "blue",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s35",
+   "lines": [
+    "How did a surrounded division break through four times its number, and the cold?",
+    "Let's break it down into four factors."
+   ],
+   "visual": {
+    "type": "factors",
+    "items": [
+     "The Slow Advance",
+     "Support from the Air",
+     "Cohesion & Discipline",
+     "The Cold Hit Harder"
+    ],
+    "head": "30,000 vs 120,000 — How?",
+    "at": 1
+   },
+   "chapter": {
+    "num": "PART 4",
+    "title": "4 DECIDING FACTORS"
+   }
+  },
+  {
+   "id": "s36",
+   "lines": [
+    "First, Smith's slow advance."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s36-photo",
+    "num": "Factor 1",
+    "title": "The Slow Advance"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s37",
+   "lines": [
+    "Despite pressure from above, he built up supplies, cut an airstrip, and held the road.",
+    "Without that preparation, Hagaru-ri could never have become a base for rescue."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "Orders from Above",
+     "big": "ADVANCE FAST",
+     "icon": "crowd",
+     "color": "red"
+    },
+    "right": {
+     "title": "Smith's Choice",
+     "big": "BASE & AIRSTRIP",
+     "icon": "cannon",
+     "color": "blue",
+     "at": 1
+    }
+   }
+  },
+  {
+   "id": "s38",
+   "lines": [
+    "Second, support from the air."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s38-photo",
+    "num": "Factor 2",
+    "title": "Support from the Air"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s39",
+   "lines": [
+    "Close air support, supply drops, and casualty airlifts.",
+    "And a bridge dropped from the sky saved the division."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s39-photo",
+    "kb": "in"
+   },
+   "label": "Supply airdrop at Yudam-ni (Nov 29, 1950)"
+  },
+  {
+   "id": "s40",
+   "lines": [
+    "Third, cohesion and discipline."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s40-photo",
+    "num": "Factor 3",
+    "title": "Cohesion & Discipline"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s41",
+   "lines": [
+    "The units held formation to the end and never abandoned their comrades.",
+    "That discipline kept the column from breaking, even in the grip of fear."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "carry_dead",
+    "kb": "out"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s42",
+   "lines": [
+    "Fourth, the cold hit the Chinese even harder."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s42-photo",
+    "num": "Factor 4",
+    "title": "The Cold Hit Harder"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s43",
+   "lines": [
+    "Even by Chinese count, combat casualties exceeded 21,000, with over 30,000 more lost to frostbite and other causes.",
+    "The 1st Marine Division also lost more than 7,000 men to frostbite and illness, on top of its battle casualties."
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "Casualties · by reporting side (Nov 27 – Dec 13, 1950)",
+    "items": [
+     {
+      "label": "Chinese combat",
+      "value": 21366,
+      "display": "21,366",
+      "color": "red",
+      "at": 0.2
+     },
+     {
+      "label": "Chinese non-combat",
+      "value": 30732,
+      "display": "30,732",
+      "color": "red",
+      "at": 0.6
+     },
+     {
+      "label": "1st MarDiv non-combat",
+      "value": 7338,
+      "display": "7,338",
+      "color": "blue",
+      "at": 1.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "s44",
+   "lines": [
+    "The Chinese 9th Army Group was unable to fight for nearly three months afterward."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "9th Army Group · 3 Months Out",
+    "style": "dark",
+    "sub": "Per analysis of Chinese losses",
+    "subAt": 0
+   }
+  },
+  {
+   "id": "s45",
+   "lines": [
+    "At Hungnam, the port the Marines had fought to reach, another miracle began.",
+    "By December 24th, 105,000 troops and 98,000 refugees had been taken aboard ships."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "hungnam_ship",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "chapter": {
+    "num": "EPILOGUE",
+    "title": "CHRISTMAS AT HUNGNAM"
+   }
+  },
+  {
+   "id": "s46",
+   "lines": [
+    "The freighter SS Meredith Victory alone carried about 14,000 refugees.",
+    "It would later be recognized as the greatest rescue ever made by a single ship."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s46-photo",
+    "kb": "in"
+   },
+   "label": "Refugees on the deck of SS Meredith Victory (Dec 1950)",
+   "callouts": [
+    {
+     "text": "SS MEREDITH VICTORY · ~14,000 REFUGEES",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s47",
+   "lines": [
+    "After the last ship sailed, the docks at Hungnam were blown up."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s47-photo",
+    "kb": "in"
+   },
+   "label": "Demolition of Hungnam port (Dec 24, 1950)",
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0.3,
+     "volume": 0.55
+    }
+   ]
+  },
+  {
+   "id": "s48",
+   "lines": [
+    "Those who came back from Chosin called themselves 'The Chosin Few.'",
+    "Across America, memorials to them still stand today."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s48-photo",
+    "kb": "in",
+    "bw": false
+   },
+   "label": "Chosin Few Memorial dedication"
+  },
+  {
+   "id": "s49",
+   "lines": [
+    "And among the refugees they carried to safety were the parents and grandparents of many Koreans living today."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s49-photo",
+    "kb": "in",
+    "frame": true
+   },
+   "label": "Hungnam refugees aboard an LST and fishing boats (Dec 1950)"
+  },
+  {
+   "id": "s50",
+   "lines": [
+    "A frozen gorge, and a single road.",
+    "Those who walked it to the end were the ones who never left a comrade behind."
+   ],
+   "visual": {
+    "type": "quotes",
+    "title": "What Chosin Left Behind",
+    "items": [
+     {
+      "text": "A frozen gorge, a single road",
+      "at": 0
+     },
+     {
+      "text": "They never left a comrade behind",
+      "at": 1
+     }
+    ]
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s51",
+   "lines": [
+    "If this story meant something to you, please subscribe and like the video.",
+    "We'll continue to bring the forgotten records of war to light."
+   ],
+   "visual": {
+    "type": "endcard",
+    "title": "December 1950. Chosin.\nThe Miracle of the Frozen Gorge.",
+    "q": "s51-photo"
+   },
+   "tail": 3.0
+  }
+ ],
+ "ai_images": {
+  "snow_column": "A long column of trucks and soldiers moving through a narrow frozen mountain gorge in North Korea in December 1950, deep snow, blizzard, steep icy cliffs on both sides, distant orange muzzle flashes on the ridgelines, cold blue night with harsh white parachute flare light, cinematic wide shot, desaturated icy palette with orange glow, painterly realistic digital illustration, film grain, no text, no letters.",
+  "pva_ambush": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a Chinese People's Volunteer Army commander whose head is a round ball painted as the red Chinese flag with yellow stars, wearing a padded winter uniform and fur cap, smiling coldly while pointing at a paper map showing a single mountain road surrounded by many red circles, inside a snow-covered dugout lit by an oil lamp, officers behind him, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "frozen_night": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American Marines whose heads are round balls painted as the United States flag, wearing 1950 M1 helmets with fur-lined parkas, frost on their gear, huddled in shallow snow foxholes on a frozen ridge at night, breath freezing in the air, icicles on their helmets, one Marine trying to thaw a frozen rifle under his parka, blizzard, extreme cold, tense waiting, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "wave_snow": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a wave of Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red Chinese flag with yellow stars, wearing thin padded cotton uniforms and fur-flap caps, covered in snow charging up a snowy ridge at night blowing bugles and whistles, under parachute flares, American Marines whose heads are round balls painted as the United States flag, wearing 1950 M1 helmets with fur-lined parkas, frost on their gear firing from the ridgeline, tracers and explosions in the snow, dramatic low-angle shot, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "fox_hill": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a small company of American Marines whose heads are round balls painted as the United States flag, wearing 1950 M1 helmets with fur-lined parkas, frost on their gear holding a lonely snowy hilltop above a narrow mountain pass, surrounded on all sides, firing machine guns at night, a determined captain on crutches directing them, ammunition crates dropped by parachute lying in the snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "smith_quote": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a calm, grey-haired American Marine major general whose head is a round ball painted as the United States flag, wearing a fur-lined parka and helmet, standing in a snowy command tent beside a field map, speaking firmly to war correspondents, quiet determination, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "airstrip": "A rough airstrip carved into a frozen valley at Hagaru-ri, North Korea, December 1950, a C-47 transport plane taking off through falling snow while stretcher bearers carry wounded soldiers toward another plane, tents and supply dumps, frozen reservoir in the background, cold blue dawn light, painterly realistic digital illustration, film grain, no text, no letters.",
+  "bridge_drop": "Eight C-119 Flying Boxcar transport planes flying low over a snowy mountain pass in North Korea, December 1950, dropping huge steel bridge sections under giant parachutes, a destroyed concrete bridge over a deep gorge below, steep icy cliffs, overcast sky, dramatic wide shot, painterly realistic digital illustration, film grain, no text, no letters.",
+  "carry_dead": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American Marines whose heads are round balls painted as the United States flag, wearing 1950 M1 helmets with fur-lined parkas, frost on their gear walking in a long column down a frozen mountain road, carrying wounded comrades on stretchers and laying fallen comrades with covered faces on the hoods of trucks, snow falling, exhausted but unbroken, solemn and heroic, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "hungnam_ship": "A large cargo ship anchored in Hungnam harbor, North Korea, December 1950, packed with thousands of Korean refugees on deck, small boats ferrying more people, a burning port and huge explosions on the shore behind, snow falling, cold grey sea, painterly realistic digital illustration, film grain, no text, no letters.",
+  "thumb_ref": "Extreme close-up of a frost-covered American Marine in December 1950 at the Chosin Reservoir, ice on his eyebrows and stubble, steel helmet crusted with snow, piercing determined eyes staring straight at the viewer, a raging blizzard behind him, a frozen mountain gorge with a column of trucks, and on the ridges blazing red-orange explosions and tracer fire glowing through the snow, gritty photorealistic war painting styled as a black-and-white 1950s documentary archive photograph, heavy film grain, scratches and dust, desaturated monochrome except the fire, explosions and tracers glow in vivid red and orange (selective color), icy blue-white snow, extreme high contrast, serious military documentary mood, no cartoon, no 2D characters, no countryball, composition: the face in the left-center of the frame, the bottom-right quarter of the frame kept dark, empty and plain, top area slightly darker for text, no text, no letters, no logos, no watermark."
+ },
+ "lang": "en",
+ "assets_ep": "jangjin",
+ "voice": "pNInz6obpgDQGcFmaJgB",
+ "tempo": 1.02
+}
