@@ -33,6 +33,17 @@ if ok_:
     r = s.post("https://api.openai.com/v1/chat/completions", headers=h, timeout=60,
                json={"model": "gpt-4o-mini", "messages": [{"role": "user", "content": "ok"}], "max_tokens": 1})
     out.append(f"OpenAI 과금 시험(약 0.0001원) {r.status_code}: {'OK — 크레딧 있음' if r.ok else r.text[:300]}")
+gk = os.environ.get("GEMINI_API_KEY", "")
+out.append(f"GEMINI_API_KEY 등록: {'예' if gk else '아니오'} (길이 {len(gk)})")
+if gk:
+    import sys as _s
+    _s.path.insert(0, str(ROOT / "pipeline"))
+    try:
+        from ai_images import gen_gemini
+        img = gen_gemini(s, "A small watercolor of a snowy mountain pass at dawn, no text")
+        out.append(f"Gemini 그림 시험: OK — {img.size[0]}x{img.size[1]} (약 50원)")
+    except Exception as e:  # noqa
+        out.append(f"Gemini 그림 시험 실패: {str(e)[:400]}")
 (ROOT / "logs").mkdir(exist_ok=True)
 (ROOT / "logs" / "api_check.txt").write_text("\n".join(out) + "\n", encoding="utf-8")
 print("\n".join(out))
