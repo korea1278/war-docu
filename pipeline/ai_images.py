@@ -3,7 +3,9 @@
 python pipeline/ai_images.py yongmunsan [--thumb]
 
 이미지 엔진 (환경변수 IMAGE_PROVIDER, 기본 auto):
-  auto        → Cloudflare 키가 있으면 cloudflare, 없으면 pollinations (둘 다 무료)
+  auto        → GEMINI_API_KEY 있으면 gemini, 아니면 Cloudflare 키가 있으면 cloudflare, 없으면 pollinations
+  gemini      → Google Gemini 2.5 Flash Image (Nano Banana). Google AI Pro 구독의 월 $10 Cloud 크레딧으로 결제
+                GEMINI_API_KEY (Cloud Billing 연결된 프로젝트의 키), GEMINI_IMAGE_MODEL(기본 gemini-2.5-flash-image)
   cloudflare  → Cloudflare Workers AI FLUX.1 schnell (무료 하루 1만 뉴런 ≈ 그림 150장 이상)
                 CF_ACCOUNT_ID, CF_API_TOKEN 필요
   pollinations→ Pollinations.ai FLUX (가입·키 없이 무료, 15초에 1장). POLLINATIONS_TOKEN 있으면 사용
@@ -54,6 +56,26 @@ def gen_openai(s, prompt):
     return Image.open(io.BytesIO(base64.b64decode(r.json()["data"][0]["b64_json"])))
 
 
+def gen_gemini(s, prompt):
+    key = env("GEMINI_API_KEY", required=True)
+    model = env("GEMINI_IMAGE_MODEL") or "gemini-2.5-flash-image"
+    r = s.post(
+        f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
+        headers={"x-goog-api-key": key},
+        json={"contents": [{"parts": [{"text": prompt}]}],
+              "generationConfig": {"responseModalities": ["IMAGE"], "imageConfig": {"aspectRatio": "3:2"}}},
+        timeout=300,
+    )
+    if r.status_code >= 400:
+        raise RuntimeError(f"{r.status_code} {r.text[:300]}")
+    for c in r.json().get("candidates", []):
+        for part in c.get("content", {}).get("parts", []):
+            data = (part.get("inlineData") or part.get("inline_data") or {}).get("data")
+            if data:
+                return Image.open(io.BytesIO(base64.b64decode(data)))
+    raise RuntimeError(f"그림 없음: {r.text[:300]}")
+
+
 def gen_cloudflare(s, prompt):
     acc, tok = env("CF_ACCOUNT_ID", required=True), env("CF_API_TOKEN", required=True)
     r = s.post(
@@ -83,7 +105,8 @@ def gen_pollinations(s, prompt, seed):
 def main(ep, thumb=False):
     prov = (env("IMAGE_PROVIDER") or "auto").lower()
     if prov == "auto":
-        prov = "cloudflare" if env("CF_ACCOUNT_ID") and env("CF_API_TOKEN") else "pollinations"
+        prov = ("gemini" if env("GEMINI_API_KEY") else
+                "cloudflare" if env("CF_ACCOUNT_ID") and env("CF_API_TOKEN") else "pollinations")
     board = load_board(ep)
     if board.get("assets_ep"):
         print(f"AI 이미지: {board['assets_ep']} 에피소드 것을 재사용")
@@ -112,6 +135,8 @@ def main(ep, thumb=False):
         seed = int(sig[:6], 16)
         if prov == "openai":
             call = lambda: gen_openai(s, prompt)  # noqa: E731
+        elif prov == "gemini":
+            call = lambda: gen_gemini(s, prompt)  # noqa: E731
         elif prov == "cloudflare":
             call = lambda: gen_cloudflare(s, prompt)  # noqa: E731
         else:
