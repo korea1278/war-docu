@@ -69,8 +69,8 @@
    "Chinese"
   ],
   "c3": [
-   127.15,
-   40.36,
+   127.11,
+   40.405,
    "Chinese"
   ],
   "c4": [
@@ -111,9 +111,9 @@
   "pass2": {
    "center": [
     127.345,
-    40.225
+    40.24
    ],
-   "span": 0.3
+   "span": 0.42
   },
   "south": {
    "center": [
@@ -810,7 +810,8 @@
     {
      "text": "Chinese 9th Army Group · 12 Divisions",
      "style": "red",
-     "at": 1
+     "at": 1,
+     "pos": "lower"
     }
    ],
    "sfx": [
