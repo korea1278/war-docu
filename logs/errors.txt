@@ -2,3 +2,4 @@
 2026-10-20 05:40:13 baengma_en: 러닝타임 8분 43초 — 목표 8분 30초와 10초 이상 차이 (대본 분량 조정 필요)
 2026-10-22 00:13:17 하천 데이터 갱신 실패(기존 유지): 504 Server Error: Gateway Time-out for url: https://maps.mail.ru/osm/tools/overpass/api/interpreter
 2026-10-22 00:26:04 image wave_snow: 429 {   "error": {     "message": "You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",     "type": "insufficient_quota",     "param": null,     "code": "credit_balance_exhausted"   } }
+2026-10-22 00:31:58 하천 데이터(북쪽 띠) 갱신 실패(기존 유지): 504 Server Error: Gateway Timeout for url: https://maps.mail.ru/osm/tools/overpass/api/interpreter
