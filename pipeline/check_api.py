@@ -22,6 +22,17 @@ if ek:
     r = s.post(f"https://api.elevenlabs.io/v1/text-to-speech/{vid}/with-timestamps",
                headers={"xi-api-key": ek}, json={"text": "점검입니다.", "model_id": "eleven_multilingual_v2"}, timeout=60)
     out.append(f"TTS 시험 {r.status_code}: {'OK' if r.ok else r.text[:400]}")
+ok_ = os.environ.get("OPENAI_API_KEY", "")
+if ok_:
+    h = {"Authorization": f"Bearer {ok_}"}
+    r = s.get("https://api.openai.com/v1/me", headers=h, timeout=30)
+    if r.ok:
+        j = r.json()
+        orgs = [f"{o.get('title') or o.get('name')}({o.get('id')})" for o in j.get("orgs", {}).get("data", [])]
+        out.append(f"OpenAI 키 계정: {j.get('email', '?')} / 조직: {', '.join(orgs) or '?'}")
+    r = s.post("https://api.openai.com/v1/chat/completions", headers=h, timeout=60,
+               json={"model": "gpt-4o-mini", "messages": [{"role": "user", "content": "ok"}], "max_tokens": 1})
+    out.append(f"OpenAI 과금 시험(약 0.0001원) {r.status_code}: {'OK — 크레딧 있음' if r.ok else r.text[:300]}")
 (ROOT / "logs").mkdir(exist_ok=True)
 (ROOT / "logs" / "api_check.txt").write_text("\n".join(out) + "\n", encoding="utf-8")
 print("\n".join(out))
