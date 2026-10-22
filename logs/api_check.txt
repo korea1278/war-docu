@@ -1,7 +1,7 @@
 ELEVENLABS_API_KEY 등록: 예 (길이 51)
 OPENAI_API_KEY 등록: 예
 VOICE_ID: ZJCNdZEjYwkOElxugmW2
-구독 조회 실패 401: {"detail":{"type":"authentication_error","code":"unauthorized","message":"The API key you used is missing the permission user_read to execute this operation.","status":"missing_permissions","request_id":"a79c4cb0ff11c440b5fdbb45a860c76e"}}
+구독 조회 실패 401: {"detail":{"type":"authentication_error","code":"unauthorized","message":"The API key you used is missing the permission user_read to execute this operation.","status":"missing_permissions","request_id":"ca7d355c3a0989be07a7b701af1b3db6"}}
 목소리 조회 200: Hyuk - Cold and Clear
 TTS 시험 200: OK
 OpenAI 키 계정: kmc860323@gmail.com / 조직: Personal(org-wVeFKwQF7Bgla9k4JldBSGKP)
@@ -15,11 +15,4 @@ OpenAI 과금 시험(약 0.0001원) 429: {
 }
 
 GEMINI_API_KEY 등록: 예 (길이 53)
-Gemini 그림 시험 실패: 402 {
-  "error": {
-    "code": 402,
-    "message": "Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ",
-    "status": "RESOURCE_EXHAUSTED"
-  }
-}
-
+Gemini 그림 시험: OK — 1248x832 (약 50원)
