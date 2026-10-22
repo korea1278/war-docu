@@ -63,9 +63,11 @@ jobs:
           cd pipeline && python ai_images.py $EP && cd ..
           npx remotion browser ensure
           npx remotion bundle remotion/index.ts --out-dir=out/bundle --log=error
-          for V in A B; do
-            npx remotion still out/bundle Thumbnail thumbnails/${EP}_ko_${V}.png --props="{\"ep\":\"$EP\",\"variant\":\"$V\",\"lang\":\"ko\"}" --log=error
-          done
+          npx remotion still out/bundle Thumbnail thumbnails/${EP}_ko_A.png --props="{\"ep\":\"$EP\",\"variant\":\"A\",\"lang\":\"ko\"}" --log=error
+          # B안은 전용 디자인이 이미 있는 에피소드만 갱신
+          if [ -f thumbnails/${EP}_ko_B.png ]; then
+            npx remotion still out/bundle Thumbnail thumbnails/${EP}_ko_B.png --props="{\"ep\":\"$EP\",\"variant\":\"B\",\"lang\":\"ko\"}" --log=error
+          fi
           npx remotion still out/bundle Thumbnail thumbnails/${EP}_en_A.png --props="{\"ep\":\"$EP\",\"variant\":\"A\",\"lang\":\"en\"}" --log=error
           git config user.name "war-docu-bot" && git config user.email "actions@users.noreply.github.com"
           git add -A public/ep/$EP thumbnails && git commit -qm "썸네일: $EP" || echo "변경 없음"

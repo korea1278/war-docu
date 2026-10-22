@@ -266,12 +266,12 @@ const REF_EN: Record<string, RefDef> = {
   jangjin: { ep: "06", mid: [[["-40°F FREEZE:", "s"]], [["BREAKING ", "w"], ["120,000 ENEMY", "r"]]], key: "CHOSIN RESERVOIR", keyStyle: "ice" },
 };
 const REF: Record<string, RefDef> = {
-  yongmunsan: { ep: "01", mid: [[["중공군 ", "w"], ["3개 사단", "r"], [" 격멸,", "w"]], [["1개 연대의 기적", "s"]]], key: "용문산 전투", keyStyle: "red" },
+  yongmunsan: { ep: "01", mid: [[["중공군 ", "w"], ["3개 사단", "r"], [" 격멸,", "w"]], [["1개 연대의 기적", "s"]]], key: "용문산 전투", keyStyle: "yellow" },
   dabudong: { ep: "02", mid: [[["대구 함락 직전", "r"], [",", "w"]], [["55일간의 결사항전", "s"]]], key: "다부동 전투", keyStyle: "stone" },
-  baengma: { ep: "03", mid: [[["주인이 ", "w"], ["24번", "r"], [" 바뀐", "w"]], [["지옥의 능선", "s"]]], key: "백마고지", keyStyle: "red" },
+  baengma: { ep: "03", mid: [[["주인이 ", "w"], ["24번", "r"], [" 바뀐", "w"]], [["지옥의 능선", "s"]]], key: "백마고지", keyStyle: "stone" },
   jipyeong: { ep: "04", mid: [[["중공군 4개 사단", "r"], [" 완전 포위,", "w"]], [["퇴로는 없다", "s"]]], key: "지평리 전투", keyStyle: "yellow" },
-  chuncheon: { ep: "05", mid: [[["개전 첫날 유일한 승리", "r"], [",", "w"]], [["3일간의 기적", "s"]]], key: "춘천 전투", keyStyle: "red" },
-  jangjin: { ep: "06", mid: [[["영하 40도", "s"], [" 고립,", "w"]], [["12만 포위망", "r"], ["을 찢다", "w"]]], key: "장진호 전투", keyStyle: "ice" },
+  chuncheon: { ep: "05", mid: [[["개전 첫날 유일한 승리", "r"], [",", "w"]], [["3일간의 기적", "s"]]], key: "춘천 전투", keyStyle: "yellow" },
+  jangjin: { ep: "06", mid: [[["영하 40도", "s"], [" 고립,", "w"]], [["12만 포위망", "r"], ["을 찢다", "w"]]], key: "장진호 전투", keyStyle: "stone" },
 };
 const CrackDefs: React.FC = () => (
   <svg width={0} height={0} style={{ position: "absolute" }}>
@@ -288,7 +288,7 @@ const CrackDefs: React.FC = () => (
         <feComposite in="SourceGraphic" in2="mask" operator="in" result="cut" />
         {/* 돌 표면 얼룩 */}
         <feTurbulence type="fractalNoise" baseFrequency="0.12" numOctaves={3} seed={11} result="shade" />
-        <feColorMatrix in="shade" type="matrix" values="0.45 0 0 0 0.55  0.45 0 0 0 0.55  0.45 0 0 0 0.55  0 0 0 0 1" result="shadeC" />
+        <feColorMatrix in="shade" type="matrix" values="0.3 0 0 0 0.7  0.3 0 0 0 0.7  0.3 0 0 0 0.7  0 0 0 0 1" result="shadeC" />
         <feBlend in="cut" in2="shadeC" mode="multiply" result="sh" />
         <feComposite in="sh" in2="cut" operator="in" />
       </filter>
@@ -298,7 +298,7 @@ const CrackDefs: React.FC = () => (
 const KeyWord: React.FC<{ text: string; style: "red" | "stone" | "yellow" | "ice"; size: number; en?: boolean }> = ({ text, style, size, en }) => {
   const base: React.CSSProperties = { fontFamily: en ? "'Bebas Neue', 'Oswald', sans-serif" : "'Black Han Sans', sans-serif", fontSize: size, lineHeight: 1, whiteSpace: "nowrap", letterSpacing: en ? 1 : -3 };
   const parts = style === "yellow" ? (en ? text.replace("-", " -").split(" ") : text.split(" ")) : [text];
-  const fill = (i: number) => (style === "red" ? "#e3161d" : style === "stone" ? "#f1efe8" : style === "ice" ? "#cdeeff" : i === 0 ? "#ffd21f" : "#ffffff");
+  const fill = (i: number) => (style === "red" ? "#e3161d" : style === "stone" ? "#ffffff" : style === "ice" ? "#cdeeff" : i === 0 ? "#ffd000" : "#ffffff");
   return (
     <div style={{ position: "relative", display: "inline-block" }}>
       {/* 1층: 두꺼운 검은 외곽선 + 그림자 (균열 사이로 비치는 바탕) */}
@@ -324,11 +324,13 @@ const RefThumb: React.FC<{ ep: string; en?: boolean }> = ({ ep, en }) => {
   return (
     <AbsoluteFill style={{ background: "#050505", overflow: "hidden" }}>
       <CrackDefs />
-      <Img src={staticFile(`ep/${a}/ai/thumb_ref.jpg`)} style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: d.pos || "50% 45%", filter: "contrast(1.25) saturate(1.25) brightness(1.02)" }} />
-      {/* 아카이브 질감: 비네트 + 좌측·상단 글자 가독성 + 우하단 타임스탬프 영역 어둡게 */}
-      <AbsoluteFill style={{ background: "radial-gradient(ellipse at 40% 45%, rgba(0,0,0,0) 35%, rgba(0,0,0,.6) 100%)" }} />
-      <AbsoluteFill style={{ background: "linear-gradient(90deg, rgba(0,0,0,.7) 0%, rgba(0,0,0,.25) 45%, rgba(0,0,0,0) 70%)" }} />
-      <AbsoluteFill style={{ background: "linear-gradient(315deg, rgba(0,0,0,.6) 0%, rgba(0,0,0,0) 28%)" }} />
+      <Img src={staticFile(`ep/${a}/ai/thumb_ref.jpg`)} style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: d.pos || "50% 45%", filter: "brightness(1.2) contrast(1.2) saturate(1.2)" }} />
+      {/* 순흑 제거: 포연·안개 톤으로 암부를 들어올림 (screen) */}
+      <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(120,128,140,.30) 0%, rgba(95,100,110,.22) 55%, rgba(80,84,92,.18) 100%)", mixBlendMode: "screen" }} />
+      {/* 가벼운 비네트 + 글자 쪽만 살짝 어둡게 (블랙 크러시 없이) */}
+      <AbsoluteFill style={{ background: "radial-gradient(ellipse at 40% 45%, rgba(0,0,0,0) 45%, rgba(10,12,16,.32) 100%)" }} />
+      <AbsoluteFill style={{ background: "linear-gradient(90deg, rgba(10,12,16,.42) 0%, rgba(10,12,16,.12) 45%, rgba(0,0,0,0) 70%)" }} />
+      <AbsoluteFill style={{ background: "linear-gradient(315deg, rgba(10,12,16,.3) 0%, rgba(0,0,0,0) 26%)" }} />
       <div style={{ position: "absolute", left: 40, top: 30, right: 360 }}>
         {/* 상단: 회색 박스 태그 */}
         <div style={{ display: "inline-block", background: "rgba(225,225,225,.92)", color: "#111", fontFamily: head, fontSize: en ? 40 : 34, padding: "6px 18px 2px", border: "3px solid #fff", boxShadow: "0 6px 16px rgba(0,0,0,.6)", letterSpacing: 1 }}>
