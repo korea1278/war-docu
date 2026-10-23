@@ -80,10 +80,10 @@
   },
   "s06b": {
    "lines": [
-    "For nearly two years, the front had barely moved.",
+    "For nearly two years, the front line had barely moved at all.",
     "All along the line, hills changed hands again and again."
    ],
-   "label": "Shell-torn ground around Outpost Boulder City (Jul 1953)"
+   "label": "155mm howitzer knocked out in the Chinese offensive, Capital Div. sector (Jul 1953)"
   },
   "s07": {
    "lines": [
@@ -169,7 +169,7 @@
   "s14": {
    "lines": [
     "Trenches caved in, and the phone line to the rear was cut.",
-    "In an instant, the hill became an island across the river."
+    "In an instant, the little hill became an island, cut off on the far side of the river."
    ],
    "label": "ROK Capital Div. soldier wounded in the Chinese July offensive (Jul 15, 1953)"
   },
@@ -307,14 +307,14 @@
     "Korean records count 314 Chinese killed and an estimated 450 wounded.",
     "Numbers hard to believe for a single platoon."
    ],
-   "note": "Per ROK records · friendly losses vary by source",
+   "note": "Per ROK records · wounded estimated · friendly losses vary by source",
    "bars": [
     [
      "Chinese killed",
      "314"
     ],
     [
-     "Chinese wounded (est.)",
+     "Chinese wounded",
      "450"
     ],
     [
@@ -424,19 +424,22 @@
     "For this battle, Kim received Korea's Taeguk Order of Military Merit and the U.S. Distinguished Service Cross.",
     "The DSC is the U.S. Army's highest award for valor after the Medal of Honor."
    ],
-   "big": "Taeguk Order · Distinguished Service Cross",
-   "sub": "For the Battle of Outpost Betty",
+   "callouts": [
+    "TAEGUK ORDER · DISTINGUISHED SERVICE CROSS"
+   ],
    "chapter": [
     "EPILOGUE",
     "WHAT CAME AFTER"
-   ]
+   ],
+   "label": "Taeguk Order of Military Merit"
   },
   "s38b": {
    "lines": [
     "In 1956, a film about his story, 'Repulse,' was even made.",
     "A bust of him still stands in Paju's Unification Park."
    ],
-   "label": "Taeguk Order of Military Merit"
+   "big": "The Film 'Repulse' (1956)",
+   "sub": "Paju Unification Park · Bust of Kim Man-sul"
   },
   "s39": {
    "lines": [
@@ -474,9 +477,17 @@
    ],
    "label": "The Imjin River along the DMZ (2012)"
   },
+  "s42b": {
+   "lines": [
+    "More than seventy years have passed since that night.",
+    "Few people today still remember the names of the thirty-four men who held that hill."
+   ],
+   "text": "More than 70 years",
+   "accent": "34 MEN TO REMEMBER"
+  },
   "s43": {
    "lines": [
-    "Thirty-four men, and one night.",
+    "Thirty-four men, and one long night.",
     "On that night, less than two weeks before the armistice, what they held was a sliver of their country."
    ],
    "quotes": [

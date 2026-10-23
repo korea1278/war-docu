@@ -371,7 +371,7 @@
   {
    "id": "s06b",
    "lines": [
-    "For nearly two years, the front had barely moved.",
+    "For nearly two years, the front line had barely moved at all.",
     "All along the line, hills changed hands again and again."
    ],
    "visual": {
@@ -379,7 +379,7 @@
     "q": "s06b-photo",
     "kb": "right"
    },
-   "label": "Shell-torn ground around Outpost Boulder City (Jul 1953)"
+   "label": "155mm howitzer knocked out in the Chinese offensive, Capital Div. sector (Jul 1953)"
   },
   {
    "id": "s07",
@@ -770,7 +770,7 @@
    "id": "s14",
    "lines": [
     "Trenches caved in, and the phone line to the rear was cut.",
-    "In an instant, the hill became an island across the river."
+    "In an instant, the little hill became an island, cut off on the far side of the river."
    ],
    "visual": {
     "type": "photo",
@@ -1305,7 +1305,7 @@
    ],
    "visual": {
     "type": "bars",
-    "note": "Per ROK records · friendly losses vary by source",
+    "note": "Per ROK records · wounded estimated · friendly losses vary by source",
     "items": [
      {
       "label": "Chinese killed",
@@ -1315,7 +1315,7 @@
       "at": 0
      },
      {
-      "label": "Chinese wounded (est.)",
+      "label": "Chinese wounded",
       "value": 450,
       "display": "450",
       "color": "red",
@@ -1607,12 +1607,20 @@
     "The DSC is the U.S. Army's highest award for valor after the Medal of Honor."
    ],
    "visual": {
-    "type": "text",
-    "big": "Taeguk Order · Distinguished Service Cross",
-    "style": "yellow",
-    "sub": "For the Battle of Outpost Betty",
-    "subAt": 0
+    "type": "photo",
+    "q": "s38-photo",
+    "kb": "in",
+    "bw": false
    },
+   "label": "Taeguk Order of Military Merit",
+   "callouts": [
+    {
+     "text": "TAEGUK ORDER · DISTINGUISHED SERVICE CROSS",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
    "chapter": {
     "num": "EPILOGUE",
     "title": "WHAT CAME AFTER"
@@ -1625,12 +1633,12 @@
     "A bust of him still stands in Paju's Unification Park."
    ],
    "visual": {
-    "type": "photo",
-    "q": "s38b-photo",
-    "kb": "in",
-    "bw": false
-   },
-   "label": "Taeguk Order of Military Merit"
+    "type": "text",
+    "big": "The Film 'Repulse' (1956)",
+    "style": "yellow",
+    "sub": "Paju Unification Park · Bust of Kim Man-sul",
+    "subAt": 1
+   }
   },
   {
    "id": "s39",
@@ -1694,9 +1702,23 @@
    "label": "The Imjin River along the DMZ (2012)"
   },
   {
+   "id": "s42b",
+   "lines": [
+    "More than seventy years have passed since that night.",
+    "Few people today still remember the names of the thirty-four men who held that hill."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "More than 70 years",
+    "accent": "34 MEN TO REMEMBER",
+    "accentAt": 1
+   },
+   "pauseBefore": 0.3
+  },
+  {
    "id": "s43",
    "lines": [
-    "Thirty-four men, and one night.",
+    "Thirty-four men, and one long night.",
     "On that night, less than two weeks before the armistice, what they held was a sliver of their country."
    ],
    "visual": {
