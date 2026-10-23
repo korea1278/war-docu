@@ -1,0 +1,1747 @@
+{
+ "title": "Battle of Outpost Betty (1953): 34 Men vs a Full Battalion",
+ "subtitle": "July 15 – 16, 1953",
+ "target_sec": 495,
+ "places": {
+  "pva1": [
+   126.938,
+   38.166,
+   "Chinese positions"
+  ],
+  "seoul": [
+   126.978,
+   37.566,
+   "Seoul"
+  ],
+  "panmun": [
+   126.677,
+   37.956,
+   "Panmunjom"
+  ],
+  "kumsong": [
+   127.48,
+   38.4,
+   "Kumsong"
+  ],
+  "yeoncheon": [
+   127.074,
+   38.096,
+   "Yeoncheon"
+  ],
+  "mlr": [
+   126.9732,
+   38.1305,
+   "Main Line"
+  ],
+  "betty": [
+   126.957,
+   38.142,
+   "Outpost Betty"
+  ]
+ },
+ "views": {
+  "korea": {
+   "center": [
+    127.3,
+    38.3
+   ],
+   "span": 6.0
+  },
+  "front": {
+   "center": [
+    127.1,
+    38.2
+   ],
+   "span": 1.4
+  },
+  "imjin": {
+   "center": [
+    126.965,
+    38.135
+   ],
+   "span": 0.2
+  },
+  "betty": {
+   "center": [
+    126.96,
+    38.141
+   ],
+   "span": 0.11
+  }
+ },
+ "music": [
+  {
+   "id": "drone",
+   "from": "s01",
+   "to": "s05",
+   "volume": 0.2
+  },
+  {
+   "id": "theme",
+   "from": "s06",
+   "to": "s12",
+   "volume": 0.16
+  },
+  {
+   "id": "tension",
+   "from": "s13",
+   "to": "s20",
+   "volume": 0.17
+  },
+  {
+   "id": "march",
+   "from": "s21",
+   "to": "s28",
+   "volume": 0.15
+  },
+  {
+   "id": "analysis",
+   "from": "s29",
+   "to": "s37",
+   "volume": 0.13
+  },
+  {
+   "id": "somber",
+   "from": "s38",
+   "to": "s44",
+   "volume": 0.17
+  }
+ ],
+ "scenes": [
+  {
+   "id": "s01",
+   "lines": [
+    "The night of July 15th, 1953. North of the Imjin River, in Yeoncheon, Korea.",
+    "Just twelve days remained before the guns would fall silent."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "outpost_night",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "visuals": [
+    {
+     "atLine": 1,
+     "type": "map",
+     "from": "korea",
+     "to": "front",
+     "items": [
+      {
+       "k": "line",
+       "path": [
+        [
+         126.1,
+         37.73
+        ],
+        [
+         126.45,
+         37.92
+        ],
+        [
+         126.68,
+         37.97
+        ],
+        [
+         126.85,
+         38.05
+        ],
+        [
+         126.96,
+         38.15
+        ],
+        [
+         127.15,
+         38.24
+        ],
+        [
+         127.45,
+         38.3
+        ],
+        [
+         127.75,
+         38.33
+        ],
+        [
+         128.05,
+         38.42
+        ],
+        [
+         128.35,
+         38.6
+        ]
+       ],
+       "color": "#c0392b",
+       "at": 0.2
+      },
+      {
+       "k": "unit",
+       "p": "betty",
+       "text": "Outpost Betty",
+       "color": "blue",
+       "at": 0.6,
+       "pulse": true
+      }
+     ]
+    }
+   ],
+   "callouts": [
+    {
+     "text": "JULY 15, 1953 · YEONCHEON",
+     "style": "yellow",
+     "at": 0,
+     "until": 0
+    }
+   ],
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.3,
+     "volume": 0.35
+    },
+    {
+     "id": "whoosh",
+     "at": 1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "lines": [
+    "On a small hill across the river, Outpost Betty, a single South Korean platoon held on.",
+    "And in the darkness, Chinese troops were crawling up its slopes."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "pva_climb",
+    "kb": "up"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 1,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "lines": [
+    "Thirty-four South Korean soldiers, against a Chinese force of battalion strength.",
+    "Their platoon leader, Kim Man-sul, decided he would not abandon the position."
+   ],
+   "visual": {
+    "type": "versus",
+    "left": {
+     "n": 1,
+     "label": "ROK Platoon · 34",
+     "color": "blue"
+    },
+    "right": {
+     "n": 4,
+     "label": "Chinese · Battalion+",
+     "color": "red"
+    },
+    "at": 0
+   },
+   "callouts": [
+    {
+     "text": "ROK records: 2 Chinese battalions · platoon size 34–36 by source",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "lines": [
+    "A night-long grenade battle, and shells called down on their own heads.",
+    "When dawn came, South Korean soldiers were still standing on the hill."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "A night of blood,\nand at dawn the hill was"
+   },
+   "pauseBefore": 0.4
+  },
+  {
+   "id": "s05",
+   "lines": [
+    "One last stand for a sliver of ground, on the eve of the armistice.",
+    "This is the story of the Battle of Outpost Betty."
+   ],
+   "visual": {
+    "type": "titlecard",
+    "q": "s05-photo",
+    "title": "Outpost Betty",
+    "sub": "34 Men vs a Full Battalion · 1953",
+    "at": 1
+   },
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 1,
+     "volume": 0.5
+    }
+   ],
+   "flash": true
+  },
+  {
+   "id": "s06",
+   "lines": [
+    "By the summer of 1953, two years of armistice talks were nearing their end.",
+    "Both sides launched final attacks across the front, fighting for every last foot of ground."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "korea",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.1,
+        37.73
+       ],
+       [
+        126.45,
+        37.92
+       ],
+       [
+        126.68,
+        37.97
+       ],
+       [
+        126.85,
+        38.05
+       ],
+       [
+        126.96,
+        38.15
+       ],
+       [
+        127.15,
+        38.24
+       ],
+       [
+        127.45,
+        38.3
+       ],
+       [
+        127.75,
+        38.33
+       ],
+       [
+        128.05,
+        38.42
+       ],
+       [
+        128.35,
+        38.6
+       ]
+      ],
+      "color": "#c0392b",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "panmun",
+      "color": "dark",
+      "at": 0.6
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "ARMISTICE TALKS · PANMUNJOM",
+     "style": "yellow",
+     "at": 0.6,
+     "pos": "top"
+    }
+   ],
+   "chapter": {
+    "num": "PART 1",
+    "title": "THE LAST FRONT LINE"
+   }
+  },
+  {
+   "id": "s06b",
+   "lines": [
+    "For nearly two years, the front had barely moved.",
+    "All along the line, hills changed hands again and again."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s06b-photo",
+    "kb": "right"
+   },
+   "label": null
+  },
+  {
+   "id": "s07",
+   "lines": [
+    "On July 13th, the Chinese launched a massive offensive around Kumsong on the central front.",
+    "At the same time, attacks hit outposts across the western front as well."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "front",
+    "to": "front",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.1,
+        37.73
+       ],
+       [
+        126.45,
+        37.92
+       ],
+       [
+        126.68,
+        37.97
+       ],
+       [
+        126.85,
+        38.05
+       ],
+       [
+        126.96,
+        38.15
+       ],
+       [
+        127.15,
+        38.24
+       ],
+       [
+        127.45,
+        38.3
+       ],
+       [
+        127.75,
+        38.33
+       ],
+       [
+        128.05,
+        38.42
+       ],
+       [
+        128.35,
+        38.6
+       ]
+      ],
+      "color": "#c0392b",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.5,
+        38.55
+       ],
+       [
+        127.5,
+        38.42
+       ],
+       [
+        127.48,
+        38.32
+       ]
+      ],
+      "color": "red",
+      "at": 0.1,
+      "width": 1.4
+     },
+     {
+      "k": "unit",
+      "p": "kumsong",
+      "text": "Kumsong Offensive",
+      "color": "red",
+      "at": 0.3
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.9,
+        38.3
+       ],
+       [
+        126.94,
+        38.22
+       ],
+       [
+        126.955,
+        38.16
+       ]
+      ],
+      "color": "red",
+      "at": 1,
+      "width": 0.9
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "JULY 13, 1953 · CHINA'S FINAL OFFENSIVE",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s08",
+   "lines": [
+    "In Yeoncheon, held by the ROK 1st Division, the Imjin River makes a great bend.",
+    "Across the river from the main line, a lone outpost hill jutted out."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "front",
+    "to": "imjin",
+    "items": [
+     {
+      "k": "unit",
+      "p": "mlr",
+      "text": "ROK Main Line",
+      "color": "blue",
+      "at": 0.4
+     },
+     {
+      "k": "unit",
+      "p": "betty",
+      "text": "Outpost Betty",
+      "color": "blue",
+      "at": 1,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "ROK 1st Division sector · Imjin River bend",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s08b",
+   "lines": [
+    "Betty stood about one kilometer forward of the main line, an eye watching the enemy.",
+    "Lose it, and the positions south of the river would lie exposed."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "imjin",
+    "to": "betty",
+    "items": [
+     {
+      "k": "unit",
+      "p": "mlr",
+      "text": "Main Line",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "betty",
+      "text": "Outpost Betty",
+      "color": "blue",
+      "at": 0.3,
+      "pulse": true
+     },
+     {
+      "k": "text",
+      "p": "pva1",
+      "text": "Chinese positions",
+      "color": "red",
+      "at": 1
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "~1 KM FORWARD OF THE MAIN LINE",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s09",
+   "lines": [
+    "It was barely over a hundred meters high, but steep on every side.",
+    "Chinese positions in front, the Imjin behind. There was nowhere to fall back."
+   ],
+   "visual": {
+    "type": "profile",
+    "pts": [
+     [
+      0,
+      190
+     ],
+     [
+      0.1,
+      175
+     ],
+     [
+      0.2,
+      110
+     ],
+     [
+      0.28,
+      70
+     ],
+     [
+      0.36,
+      90
+     ],
+     [
+      0.43,
+      125
+     ],
+     [
+      0.48,
+      140
+     ],
+     [
+      0.53,
+      128
+     ],
+     [
+      0.58,
+      70
+     ],
+     [
+      0.63,
+      38
+     ],
+     [
+      0.72,
+      36
+     ],
+     [
+      0.78,
+      80
+     ],
+     [
+      0.86,
+      190
+     ],
+     [
+      0.93,
+      250
+     ],
+     [
+      1,
+      264
+     ]
+    ],
+    "grid": [
+     100,
+     200
+    ],
+    "yMin": 0,
+    "yMax": 300,
+    "title": "Outpost Betty · Terrain Profile",
+    "note": "Schematic (vertical exaggeration)",
+    "left": "N · Chinese positions",
+    "right": "S · ROK main line",
+    "marks": [
+     {
+      "x": 0.48,
+      "text": "Outpost Betty",
+      "style": "blue",
+      "at": 0,
+      "lift": 90,
+      "size": 44
+     },
+     {
+      "x": 0.675,
+      "text": "Imjin River",
+      "style": "dark",
+      "at": 0.6,
+      "lift": 60,
+      "size": 38
+     }
+    ],
+    "arrows": [
+     {
+      "from": 0.12,
+      "to": 0.42,
+      "color": "red",
+      "at": 1.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "s10",
+   "lines": [
+    "It was held by 2nd Platoon, 6th Company, 2nd Battalion, 11th Regiment, ROK 1st Division.",
+    "Its leader, Kim Man-sul, had enlisted in 1947 and fought from Tabu-dong to Pyongyang."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "Kim Man-sul",
+    "style": "yellow",
+    "sub": "Platoon Leader · 2nd Plt, 6th Co., 11th Regt, ROK 1st Div",
+    "subAt": 0
+   }
+  },
+  {
+   "id": "s11",
+   "lines": [
+    "Just a day before the battle, he passed his battlefield commissioning exam.",
+    "So Korean records list him as a second lieutenant, and U.S. records as a master sergeant.",
+    "Whatever his rank, that night he was the leader of this small platoon."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "ROK Records",
+     "big": "2nd LT",
+     "icon": "none",
+     "color": "blue"
+    },
+    "right": {
+     "title": "U.S. Records",
+     "big": "MSGT",
+     "icon": "none",
+     "color": "blue",
+     "at": 1
+    }
+   }
+  },
+  {
+   "id": "s12",
+   "lines": [
+    "On the evening of July 15th, he led his men up Betty and took over the position.",
+    "A small platoon, recorded as 34, 35, or 36 men depending on the source."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s12-photo",
+    "kb": "left"
+   },
+   "label": null
+  },
+  {
+   "id": "s13",
+   "lines": [
+    "That night, the shelling began.",
+    "Chinese artillery and mortar rounds rained down on the tiny hilltop."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "shelling",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "chapter": {
+    "num": "PART 2",
+    "title": "THE NIGHT AT BETTY"
+   },
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0,
+     "volume": 0.5
+    },
+    {
+     "id": "artillery_far",
+     "at": 1,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "lines": [
+    "Trenches caved in, and the phone line to the rear was cut.",
+    "In an instant, the hill became an island across the river."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s14-photo",
+    "kb": "in"
+   },
+   "label": null
+  },
+  {
+   "id": "s15",
+   "lines": [
+    "Then Chinese infantry began climbing the slopes from several directions.",
+    "U.S. records say a battalion; Korean records say two battalions."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "betty",
+    "to": "betty",
+    "items": [
+     {
+      "k": "unit",
+      "p": "betty",
+      "text": "Kim's Platoon",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.935,
+        38.168
+       ],
+       [
+        126.945,
+        38.156
+       ],
+       [
+        126.953,
+        38.146
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 0.8
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.925,
+        38.146
+       ],
+       [
+        126.938,
+        38.144
+       ],
+       [
+        126.95,
+        38.142
+       ]
+      ],
+      "color": "red",
+      "at": 0.4,
+      "width": 0.8
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.958,
+        38.172
+       ],
+       [
+        126.959,
+        38.158
+       ],
+       [
+        126.958,
+        38.147
+       ]
+      ],
+      "color": "red",
+      "at": 0.6,
+      "width": 0.8
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "U.S.: BATTALION-SIZE · ROK: 2 BATTALIONS",
+     "style": "red",
+     "at": 1,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "bugle",
+     "at": 0.3,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s15b",
+   "lines": [
+    "Blowing bugles and whistles, the Chinese surged forward in the dark.",
+    "Every time a flare burst, the slopes were full of shadows."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "pva_climb",
+    "kb": "out"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "bugle",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s16",
+   "lines": [
+    "As the enemy reached the edge of the trenches, a grenade battle broke out.",
+    "Grenades flew back and forth at a distance where faces could be seen."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "grenade_fight",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0.5,
+     "volume": 0.45
+    },
+    {
+     "id": "boom",
+     "at": 1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s17",
+   "lines": [
+    "Kim ran along the trench line, throwing grenades himself.",
+    "His U.S. award citation records that his grenades killed six of the enemy."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "kim_grenade",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "callouts": [
+    {
+     "text": "U.S. DISTINGUISHED SERVICE CROSS CITATION",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s17b",
+   "lines": [
+    "It states that he fought the enemy hand to hand through the night and stopped the position from being overrun."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s17b-photo",
+    "kb": "in"
+   },
+   "label": null
+  },
+  {
+   "id": "s18",
+   "lines": [
+    "The enemy pulled back, then came again.",
+    "The attacks went on all night, five to nineteen times, depending on the record."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "They fell back, and came again",
+    "accent": "WAVE AFTER WAVE, ALL NIGHT",
+    "accentAt": 1
+   },
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 0.5,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s19",
+   "lines": [
+    "To restore communications, Staff Sergeant Lee Kang-ro reportedly ran through the shellfire to headquarters.",
+    "In trenches out of ammunition, men fought with bayonets and rifle butts."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s19-photo",
+    "kb": "in"
+   },
+   "label": null,
+   "sfx": [
+    {
+     "id": "charge",
+     "at": 1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s20",
+   "lines": [
+    "One by one, the platoon's men fell.",
+    "The survivors gathered the ammunition of the fallen and took their places again.",
+    "Still, Kim would not give up the hill."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "outpost_night",
+    "kb": "out"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s21",
+   "lines": [
+    "As dawn approached, the enemy finally broke into the trenches.",
+    "Kim seized the radio and made an almost unthinkable request."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "radio_call",
+    "kb": "in",
+    "bubbles": [
+     {
+      "text": "Fire on\nour position!",
+      "x": 0.7,
+      "y": 0.2,
+      "at": 1
+     }
+    ]
+   },
+   "label": "Dramatization",
+   "chapter": {
+    "num": "PART 3",
+    "title": "FIRE ON OUR HEADS"
+   }
+  },
+  {
+   "id": "s22",
+   "lines": [
+    "He asked his own artillery to drop shells right on top of his position.",
+    "Fire on a hill where friend and foe were tangled together: fire on his own lines."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "Fire on Our Position",
+    "style": "red",
+    "sub": "Artillery called onto your own lines when the enemy breaks in",
+    "subAt": 0
+   }
+  },
+  {
+   "id": "s22b",
+   "lines": [
+    "Shells bursting overhead could kill his own men too.",
+    "Even so, he chose that risk over losing the hill."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s22b-photo",
+    "kb": "in"
+   },
+   "label": null,
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.5,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s23",
+   "lines": [
+    "The soldiers pressed themselves flat at the bottom of their trenches.",
+    "Above them, friendly shells swept the Chinese off the slopes and the hilltop."
+   ],
+   "visual": {
+    "type": "profile",
+    "pts": [
+     [
+      0,
+      190
+     ],
+     [
+      0.1,
+      175
+     ],
+     [
+      0.2,
+      110
+     ],
+     [
+      0.28,
+      70
+     ],
+     [
+      0.36,
+      90
+     ],
+     [
+      0.43,
+      125
+     ],
+     [
+      0.48,
+      140
+     ],
+     [
+      0.53,
+      128
+     ],
+     [
+      0.58,
+      70
+     ],
+     [
+      0.63,
+      38
+     ],
+     [
+      0.72,
+      36
+     ],
+     [
+      0.78,
+      80
+     ],
+     [
+      0.86,
+      190
+     ],
+     [
+      0.93,
+      250
+     ],
+     [
+      1,
+      264
+     ]
+    ],
+    "grid": [
+     100,
+     200
+    ],
+    "yMin": 0,
+    "yMax": 300,
+    "title": "Fire on Our Position",
+    "note": "Schematic (vertical exaggeration)",
+    "left": "N · Chinese positions",
+    "right": "S · ROK artillery",
+    "pts2": [
+     [
+      0,
+      190
+     ],
+     [
+      0.1,
+      175
+     ],
+     [
+      0.2,
+      110
+     ],
+     [
+      0.28,
+      70
+     ],
+     [
+      0.36,
+      90
+     ],
+     [
+      0.43,
+      111
+     ],
+     [
+      0.48,
+      126
+     ],
+     [
+      0.53,
+      114
+     ],
+     [
+      0.58,
+      70
+     ],
+     [
+      0.63,
+      38
+     ],
+     [
+      0.72,
+      36
+     ],
+     [
+      0.78,
+      80
+     ],
+     [
+      0.86,
+      190
+     ],
+     [
+      0.93,
+      250
+     ],
+     [
+      1,
+      264
+     ]
+    ],
+    "erodeAt": 0.3,
+    "erodeDur": 2.5,
+    "marks": [
+     {
+      "x": 0.48,
+      "text": "Betty · ROK in trenches",
+      "style": "blue",
+      "at": 0,
+      "lift": 90,
+      "size": 40
+     },
+     {
+      "x": 0.27,
+      "text": "Friendly shells",
+      "style": "red",
+      "at": 0.4,
+      "lift": 170,
+      "size": 40
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "whoosh",
+     "at": 0.3,
+     "volume": 0.45
+    },
+    {
+     "id": "boom",
+     "at": 1,
+     "volume": 0.6
+    }
+   ]
+  },
+  {
+   "id": "s24",
+   "lines": [
+    "When the barrage lifted, the survivors charged out of their trenches.",
+    "They drove the remaining enemy back down the slopes.",
+    "As dawn broke, Outpost Betty was once again in South Korean hands."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "friendly_fire",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "charge",
+     "at": 0.3,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s25",
+   "lines": [
+    "Morning, July 16th.",
+    "The night-long battle was over."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "JULY 16, 1953 · MORNING",
+    "accent": "THE HILL HELD",
+    "accentAt": 1
+   }
+  },
+  {
+   "id": "s26",
+   "lines": [
+    "A few exhausted soldiers stood on the hill.",
+    "Their uniforms were caked with blood and dirt.",
+    "Of the 34, only about twelve, including their leader, are said to have survived."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "dawn_hill",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s27",
+   "lines": [
+    "Korean records count 314 Chinese killed and an estimated 450 wounded.",
+    "Numbers hard to believe for a single platoon."
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "Per ROK records · friendly losses vary by source",
+    "items": [
+     {
+      "label": "Chinese killed",
+      "value": 314,
+      "display": "314",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "label": "Chinese wounded (est.)",
+      "value": 450,
+      "display": "450",
+      "color": "red",
+      "at": 0.5
+     },
+     {
+      "label": "ROK platoon",
+      "value": 34,
+      "display": "34",
+      "color": "blue",
+      "at": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s28",
+   "lines": [
+    "Eleven days later, on July 27th, the armistice was signed.",
+    "Betty ended up inside the Demilitarized Zone, between North and South.",
+    "The ground they held to the last moment remains there to this day."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s28-photo",
+    "kb": "in"
+   },
+   "label": null
+  },
+  {
+   "id": "s29",
+   "lines": [
+    "How could one platoon hold off a battalion-size force all night?",
+    "Let's break it down into four factors."
+   ],
+   "visual": {
+    "type": "factors",
+    "items": [
+     "Steep Ground",
+     "Grenade Fight",
+     "Fire on Own Position",
+     "A Leader Who Stayed"
+    ],
+    "head": "34 Men vs a Battalion — How?",
+    "at": 1
+   },
+   "chapter": {
+    "num": "PART 4",
+    "title": "4 DECIDING FACTORS"
+   }
+  },
+  {
+   "id": "s30",
+   "lines": [
+    "First, steep ground."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s30-photo",
+    "num": "Factor 1",
+    "title": "Steep Ground"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s31",
+   "lines": [
+    "The enemy had to climb steep slopes, on a narrow front.",
+    "The terrain kept large numbers from attacking at once.",
+    "And with the Imjin at their backs, there was no road of retreat."
+   ],
+   "visual": {
+    "type": "profile",
+    "pts": [
+     [
+      0,
+      190
+     ],
+     [
+      0.1,
+      175
+     ],
+     [
+      0.2,
+      110
+     ],
+     [
+      0.28,
+      70
+     ],
+     [
+      0.36,
+      90
+     ],
+     [
+      0.43,
+      125
+     ],
+     [
+      0.48,
+      140
+     ],
+     [
+      0.53,
+      128
+     ],
+     [
+      0.58,
+      70
+     ],
+     [
+      0.63,
+      38
+     ],
+     [
+      0.72,
+      36
+     ],
+     [
+      0.78,
+      80
+     ],
+     [
+      0.86,
+      190
+     ],
+     [
+      0.93,
+      250
+     ],
+     [
+      1,
+      264
+     ]
+    ],
+    "grid": [
+     100,
+     200
+    ],
+    "yMin": 0,
+    "yMax": 300,
+    "title": "A Narrow Front",
+    "note": "Schematic (vertical exaggeration)",
+    "left": "N · Chinese positions",
+    "right": "S · ROK main line",
+    "marks": [
+     {
+      "x": 0.48,
+      "text": "Outpost Betty",
+      "style": "blue",
+      "at": 0,
+      "lift": 90,
+      "size": 44
+     }
+    ],
+    "arrows": [
+     {
+      "from": 0.1,
+      "to": 0.4,
+      "color": "red",
+      "at": 0.3
+     },
+     {
+      "from": 0.2,
+      "to": 0.43,
+      "color": "red",
+      "at": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "id": "s32",
+   "lines": [
+    "Second, the grenade fight."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s32-photo",
+    "num": "Factor 2",
+    "title": "The Grenade Fight"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s33",
+   "lines": [
+    "In darkness and on steep slopes, the grenade was the deadliest weapon.",
+    "The side throwing downhill had the clear advantage."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "grenade_fight",
+    "kb": "out"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s34",
+   "lines": [
+    "Third, fire on his own position."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s34-photo",
+    "num": "Factor 3",
+    "title": "Fire on Own Position"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s35",
+   "lines": [
+    "The men flat in their trenches survived, while the enemy in the open took the full blast.",
+    "Making himself the target was the decision that won the hill back."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "ROK in Trenches",
+     "big": "SURVIVED",
+     "icon": "crowd",
+     "color": "blue"
+    },
+    "right": {
+     "title": "Chinese on Slopes",
+     "big": "EXPOSED",
+     "icon": "crowd",
+     "color": "red",
+     "at": 1
+    }
+   }
+  },
+  {
+   "id": "s36",
+   "lines": [
+    "Fourth, a leader who stayed."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s36-photo",
+    "num": "Factor 4",
+    "title": "A Leader Who Stayed"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s37",
+   "lines": [
+    "Kim led his platoon from the most dangerous spot, throwing grenades himself.",
+    "He was first to grab a grenade, and last to leave the trench.",
+    "That is what kept even the last few men fighting."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "kim_grenade",
+    "kb": "out"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s38",
+   "lines": [
+    "For this battle, Kim received Korea's Taeguk Order of Military Merit and the U.S. Distinguished Service Cross.",
+    "The DSC is the U.S. Army's highest award for valor after the Medal of Honor."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "Taeguk Order · Distinguished Service Cross",
+    "style": "yellow",
+    "sub": "For the Battle of Outpost Betty",
+    "subAt": 0
+   },
+   "chapter": {
+    "num": "EPILOGUE",
+    "title": "WHAT CAME AFTER"
+   }
+  },
+  {
+   "id": "s38b",
+   "lines": [
+    "In 1956, a film about his story, 'Repulse,' was even made.",
+    "A bust of him still stands in Paju's Unification Park."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s38b-photo",
+    "kb": "in",
+    "bw": false
+   },
+   "label": null
+  },
+  {
+   "id": "s39",
+   "lines": [
+    "U.S. Army General Orders No. 35, dated May 13th, 1954.",
+    "On the citation, his name is written as 'Man Soul Kim.'"
+   ],
+   "visual": {
+    "type": "document",
+    "org": "U.S. Army General Orders No. 35",
+    "head": "DSC CITATION",
+    "stamp": "DECLASSIFIED",
+    "rows": [
+     "Man Soul Kim · Master Sergeant",
+     "11th Regt, ROK 1st Inf Div",
+     "Outpost \"Betty\" · 15-16 July 1953",
+     "Repelled battalion-size attacks"
+    ],
+    "note": "Summary of U.S. Army citation · reconstructed"
+   }
+  },
+  {
+   "id": "s40",
+   "lines": [
+    "After the war, a training accident in 1958 left him paralyzed from the waist down.",
+    "Retiring as a captain, he founded a school and cared for disabled veterans."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s40-photo",
+    "kb": "in"
+   },
+   "label": null
+  },
+  {
+   "id": "s41",
+   "lines": [
+    "In 1991, his wartime wounds flared up again, and he passed away.",
+    "Today he rests in Seoul National Cemetery."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s41-photo",
+    "kb": "in",
+    "bw": false
+   },
+   "label": null
+  },
+  {
+   "id": "s42",
+   "lines": [
+    "Today, from the Taepung Observatory in Yeoncheon, you can see Outpost Betty across the Imjin, inside the DMZ.",
+    "So close you could almost touch it, yet still a place no one can enter."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s42-photo",
+    "kb": "in",
+    "bw": false
+   },
+   "label": null
+  },
+  {
+   "id": "s43",
+   "lines": [
+    "Thirty-four men, and one night.",
+    "On that night, less than two weeks before the armistice, what they held was a sliver of their country."
+   ],
+   "visual": {
+    "type": "quotes",
+    "title": "What Betty Left Behind",
+    "items": [
+     {
+      "text": "34 men, and one night",
+      "at": 0
+     },
+     {
+      "text": "A sliver of ground, held to the end",
+      "at": 1
+     }
+    ]
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s44",
+   "lines": [
+    "If this story meant something to you, please subscribe and like the video.",
+    "We'll continue to bring the forgotten records of war to light."
+   ],
+   "visual": {
+    "type": "endcard",
+    "title": "July 1953. Outpost Betty.\nThe Last Night of 34 Men.",
+    "q": "s44-photo"
+   },
+   "tail": 3.0
+  }
+ ],
+ "ai_images": {
+  "outpost_night": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean flag (white with the red and blue taegeuk circle and black trigrams), wearing 1953 M1 steel helmets and olive drab summer field uniforms, crouching in sandbagged trenches on a small, steep, bare hilltop outpost at night in July 1953, a wide river curving behind the hill, distant dark hills ahead, a parachute flare lighting the scene in pale green-white light, tense silence before battle, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "pva_climb": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red Chinese flag with yellow stars, wearing khaki summer uniforms and soft caps, stick grenades on their belts silently climbing a steep grassy slope in the dark toward a small hilltop outpost ringed with sandbags, crawling in long lines, flare light from above casting long shadows, summer night 1953, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "shelling": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean flag (white with the red and blue taegeuk circle and black trigrams), wearing 1953 M1 steel helmets and olive drab summer field uniforms pressed flat against the bottom of collapsing sandbagged trenches as artillery and mortar shells explode across a small hilltop at night, dirt and smoke flying, a broken field telephone wire, orange fire light, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "grenade_fight": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean flag (white with the red and blue taegeuk circle and black trigrams), wearing 1953 M1 steel helmets and olive drab summer field uniforms and Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red Chinese flag with yellow stars, wearing khaki summer uniforms and soft caps, stick grenades on their belts throwing hand grenades at each other at point-blank range across a narrow trench line on a steep hilltop at night, grenades in mid-air, explosions, flare light, chaos and smoke, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "kim_grenade": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a battle-hardened South Korean platoon leader whose head is a round ball painted as the South Korean flag, wearing an M1 helmet with a chin strap, sleeves rolled up, sweat and dirt on his uniform, grenade pouches on his belt, leaning out of a sandbagged trench and throwing a hand grenade down a steep slope at night with fierce determination, flare light on his face, his soldiers firing rifles beside him, smoke and sparks, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "radio_call": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a battle-hardened South Korean platoon leader whose head is a round ball painted as the South Korean flag, wearing an M1 helmet with a chin strap, sleeves rolled up, sweat and dirt on his uniform, grenade pouches on his belt, crouching in a smoke-filled trench at night pressing a field radio handset to his ear and shouting an order, enemy silhouettes appearing on the trench rim behind him, flare light, desperate decisive moment, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "friendly_fire": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a small steep hilltop outpost at night being blanketed by friendly artillery shells exploding in the air above it, South Korean soldiers whose heads are round balls painted as the South Korean flag (white with the red and blue taegeuk circle and black trigrams), wearing 1953 M1 steel helmets and olive drab summer field uniforms lying flat at the bottom of deep trenches covering their helmets, enemy soldiers on the open slope being swept away by the blasts, huge orange airbursts, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "dawn_hill": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a handful of exhausted, wounded South Korean soldiers whose heads are round balls painted as the South Korean flag (white with the red and blue taegeuk circle and black trigrams), wearing 1953 M1 steel helmets and olive drab summer field uniforms standing on a shattered, smoking hilltop at dawn in July 1953, torn sandbags and broken rifles around them, the misty river below glowing in the early morning light, quiet, solemn and proud, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "thumb_ref": "A lone South Korean platoon leader in July 1953, M1 steel helmet, sweat and dirt on his face, fierce determined eyes, mid-motion throwing a hand grenade from a sandbagged trench on a small steep hilltop at night, behind him on the slope a mass of Chinese soldiers climbing up through smoke, blazing red-orange grenade explosions and parachute flares lighting the scene, a river curving below the hill, gritty photorealistic war painting styled as a black-and-white 1950s documentary archive photograph, heavy film grain, scratches and dust, desaturated monochrome except the fire, explosions and flares glow in vivid red and orange (selective color), extreme high contrast, serious military documentary mood, no cartoon, no 2D characters, no countryball, lighting: NO crushed pure-black areas anywhere — thick battlefield smoke, fog and haze glowing with backlight fill the shadows (lifted shadows, brighter mid-tones, overall about 20 percent brighter and higher contrast), strong rim light / backlight sharply outlining the soldier's helmet, face and shoulders and the climbing enemy silhouettes, composition: the soldier in the center and upper-center of the frame, the bottom-right quarter of the frame kept plain and uncluttered (soft smoky haze, no subject), top area calm for text, no text, no letters, no logos, no watermark."
+ },
+ "lang": "en",
+ "assets_ep": "betty",
+ "voice": "pNInz6obpgDQGcFmaJgB",
+ "tempo": 1.02
+}
