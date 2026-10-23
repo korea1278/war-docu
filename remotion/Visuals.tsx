@@ -425,7 +425,7 @@ const CompareV: React.FC = () => {
       <div style={{ width: 640, textAlign: "center", opacity: clamp((t - s0) * 5), transform: `scale(${0.75 + 0.25 * Math.max(0, k)})` }}>
         <div style={{ fontFamily: F.head, fontSize: 60, color: "#fff", marginBottom: 20 }}>{d.title}</div>
         <div style={{ background: "rgba(10,10,12,.7)", border: `6px solid ${col}`, padding: "40px 0" }}>
-          <svg width="300" height="200" viewBox="0 0 300 200">
+          {d.icon !== "none" && <svg width="300" height="200" viewBox="0 0 300 200">
             {d.icon === "crowd"
               ? Array.from({ length: 15 }).map((_, i) => {
                   const x = 30 + (i % 5) * 60,
@@ -444,8 +444,8 @@ const CompareV: React.FC = () => {
                     <rect x="-3" y="58" width="46" height="8" fill="#fff" opacity=".5" />
                   </g>
                 ))}
-          </svg>
-          <div style={{ fontFamily: F.head, fontSize: 110, color: col }}>{d.big}</div>
+          </svg>}
+          <div style={{ fontFamily: F.head, fontSize: d.icon === "none" ? 160 : 110, color: col }}>{d.big}</div>
         </div>
       </div>
     );

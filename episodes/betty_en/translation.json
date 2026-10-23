@@ -1,0 +1,486 @@
+{
+ "title": "Battle of Outpost Betty (1953): 34 Men vs a Full Battalion",
+ "subtitle": "July 15 – 16, 1953",
+ "voice": "pNInz6obpgDQGcFmaJgB",
+ "tempo": 1.02,
+ "places": {
+  "seoul": "Seoul",
+  "panmun": "Panmunjom",
+  "kumsong": "Kumsong",
+  "yeoncheon": "Yeoncheon",
+  "mlr": "Main Line",
+  "betty": "Outpost Betty",
+  "pva1": "Chinese positions"
+ },
+ "text": {
+  "베티고지": "Outpost Betty",
+  "금성 공세": "Kumsong Offensive",
+  "국군 주저항선": "ROK Main Line",
+  "주저항선": "Main Line",
+  "베티고지 · 전초": "Outpost Betty",
+  "중공군 진지": "Chinese positions",
+  "김만술 소대": "Kim's Platoon"
+ },
+ "scenes": {
+  "s01": {
+   "lines": [
+    "The night of July 15th, 1953. North of the Imjin River, in Yeoncheon, Korea.",
+    "Just twelve days remained before the guns would fall silent."
+   ],
+   "label": "Dramatization",
+   "callouts": [
+    "JULY 15, 1953 · YEONCHEON"
+   ]
+  },
+  "s02": {
+   "lines": [
+    "On a small hill across the river, Outpost Betty, a single South Korean platoon held on.",
+    "And in the darkness, Chinese troops were crawling up its slopes."
+   ],
+   "label": "Dramatization"
+  },
+  "s03": {
+   "lines": [
+    "Thirty-four South Korean soldiers, against a Chinese force of battalion strength.",
+    "Their platoon leader, Kim Man-sul, decided he would not abandon the position."
+   ],
+   "left": "ROK Platoon · 34",
+   "right": "Chinese · Battalion+",
+   "callouts": [
+    "ROK records: 2 Chinese battalions · platoon size 34–36 by source"
+   ]
+  },
+  "s04": {
+   "lines": [
+    "A night-long grenade battle, and shells called down on their own heads.",
+    "When dawn came, South Korean soldiers were still standing on the hill."
+   ],
+   "text": "A night of blood,\nand at dawn the hill was"
+  },
+  "s05": {
+   "lines": [
+    "One last stand for a sliver of ground, on the eve of the armistice.",
+    "This is the story of the Battle of Outpost Betty."
+   ],
+   "title": "Outpost Betty",
+   "sub": "34 Men vs a Full Battalion · 1953"
+  },
+  "s06": {
+   "lines": [
+    "By the summer of 1953, two years of armistice talks were nearing their end.",
+    "Both sides launched final attacks across the front, fighting for every last foot of ground."
+   ],
+   "callouts": [
+    "ARMISTICE TALKS · PANMUNJOM"
+   ],
+   "chapter": [
+    "PART 1",
+    "THE LAST FRONT LINE"
+   ]
+  },
+  "s06b": {
+   "lines": [
+    "For nearly two years, the front had barely moved.",
+    "All along the line, hills changed hands again and again."
+   ]
+  },
+  "s07": {
+   "lines": [
+    "On July 13th, the Chinese launched a massive offensive around Kumsong on the central front.",
+    "At the same time, attacks hit outposts across the western front as well."
+   ],
+   "callouts": [
+    "JULY 13, 1953 · CHINA'S FINAL OFFENSIVE"
+   ]
+  },
+  "s08": {
+   "lines": [
+    "In Yeoncheon, held by the ROK 1st Division, the Imjin River makes a great bend.",
+    "Across the river from the main line, a lone outpost hill jutted out."
+   ],
+   "callouts": [
+    "ROK 1st Division sector · Imjin River bend"
+   ]
+  },
+  "s08b": {
+   "lines": [
+    "Betty stood about one kilometer forward of the main line, an eye watching the enemy.",
+    "Lose it, and the positions south of the river would lie exposed."
+   ],
+   "callouts": [
+    "~1 KM FORWARD OF THE MAIN LINE"
+   ]
+  },
+  "s09": {
+   "lines": [
+    "It was barely over a hundred meters high, but steep on every side.",
+    "Chinese positions in front, the Imjin behind. There was nowhere to fall back."
+   ],
+   "title": "Outpost Betty · Terrain Profile",
+   "note": "Schematic (vertical exaggeration)",
+   "left": "N · Chinese positions",
+   "right": "S · ROK main line",
+   "marks": [
+    "Outpost Betty",
+    "Imjin River"
+   ]
+  },
+  "s10": {
+   "lines": [
+    "It was held by 2nd Platoon, 6th Company, 2nd Battalion, 11th Regiment, ROK 1st Division.",
+    "Its leader, Kim Man-sul, had enlisted in 1947 and fought from Tabu-dong to Pyongyang."
+   ],
+   "big": "Kim Man-sul",
+   "sub": "Platoon Leader · 2nd Plt, 6th Co., 11th Regt, ROK 1st Div"
+  },
+  "s11": {
+   "lines": [
+    "Just a day before the battle, he passed his battlefield commissioning exam.",
+    "So Korean records list him as a second lieutenant, and U.S. records as a master sergeant.",
+    "Whatever his rank, that night he was the leader of this small platoon."
+   ],
+   "left": [
+    "ROK Records",
+    "2nd LT"
+   ],
+   "right": [
+    "U.S. Records",
+    "MSGT"
+   ]
+  },
+  "s12": {
+   "lines": [
+    "On the evening of July 15th, he led his men up Betty and took over the position.",
+    "A small platoon, recorded as 34, 35, or 36 men depending on the source."
+   ]
+  },
+  "s13": {
+   "lines": [
+    "That night, the shelling began.",
+    "Chinese artillery and mortar rounds rained down on the tiny hilltop."
+   ],
+   "label": "Dramatization",
+   "chapter": [
+    "PART 2",
+    "THE NIGHT AT BETTY"
+   ]
+  },
+  "s14": {
+   "lines": [
+    "Trenches caved in, and the phone line to the rear was cut.",
+    "In an instant, the hill became an island across the river."
+   ]
+  },
+  "s15": {
+   "lines": [
+    "Then Chinese infantry began climbing the slopes from several directions.",
+    "U.S. records say a battalion; Korean records say two battalions."
+   ],
+   "callouts": [
+    "U.S.: BATTALION-SIZE · ROK: 2 BATTALIONS"
+   ]
+  },
+  "s15b": {
+   "lines": [
+    "Blowing bugles and whistles, the Chinese surged forward in the dark.",
+    "Every time a flare burst, the slopes were full of shadows."
+   ],
+   "label": "Dramatization"
+  },
+  "s16": {
+   "lines": [
+    "As the enemy reached the edge of the trenches, a grenade battle broke out.",
+    "Grenades flew back and forth at a distance where faces could be seen."
+   ],
+   "label": "Dramatization"
+  },
+  "s17": {
+   "lines": [
+    "Kim ran along the trench line, throwing grenades himself.",
+    "His U.S. award citation records that his grenades killed six of the enemy."
+   ],
+   "label": "Dramatization",
+   "callouts": [
+    "U.S. DISTINGUISHED SERVICE CROSS CITATION"
+   ]
+  },
+  "s17b": {
+   "lines": [
+    "It states that he fought the enemy hand to hand through the night and stopped the position from being overrun."
+   ]
+  },
+  "s18": {
+   "lines": [
+    "The enemy pulled back, then came again.",
+    "The attacks went on all night, five to nineteen times, depending on the record."
+   ],
+   "text": "They fell back, and came again",
+   "accent": "WAVE AFTER WAVE, ALL NIGHT"
+  },
+  "s19": {
+   "lines": [
+    "To restore communications, Staff Sergeant Lee Kang-ro reportedly ran through the shellfire to headquarters.",
+    "In trenches out of ammunition, men fought with bayonets and rifle butts."
+   ]
+  },
+  "s20": {
+   "lines": [
+    "One by one, the platoon's men fell.",
+    "The survivors gathered the ammunition of the fallen and took their places again.",
+    "Still, Kim would not give up the hill."
+   ],
+   "label": "Dramatization"
+  },
+  "s21": {
+   "lines": [
+    "As dawn approached, the enemy finally broke into the trenches.",
+    "Kim seized the radio and made an almost unthinkable request."
+   ],
+   "label": "Dramatization",
+   "bubbles": [
+    "Fire on\nour position!"
+   ],
+   "chapter": [
+    "PART 3",
+    "FIRE ON OUR HEADS"
+   ]
+  },
+  "s22": {
+   "lines": [
+    "He asked his own artillery to drop shells right on top of his position.",
+    "Fire on a hill where friend and foe were tangled together: fire on his own lines."
+   ],
+   "big": "Fire on Our Position",
+   "sub": "Artillery called onto your own lines when the enemy breaks in"
+  },
+  "s22b": {
+   "lines": [
+    "Shells bursting overhead could kill his own men too.",
+    "Even so, he chose that risk over losing the hill."
+   ]
+  },
+  "s23": {
+   "lines": [
+    "The soldiers pressed themselves flat at the bottom of their trenches.",
+    "Above them, friendly shells swept the Chinese off the slopes and the hilltop."
+   ],
+   "title": "Fire on Our Position",
+   "note": "Schematic (vertical exaggeration)",
+   "left": "N · Chinese positions",
+   "right": "S · ROK artillery",
+   "marks": [
+    "Betty · ROK in trenches",
+    "Friendly shells"
+   ]
+  },
+  "s24": {
+   "lines": [
+    "When the barrage lifted, the survivors charged out of their trenches.",
+    "They drove the remaining enemy back down the slopes.",
+    "As dawn broke, Outpost Betty was once again in South Korean hands."
+   ],
+   "label": "Dramatization"
+  },
+  "s25": {
+   "lines": [
+    "Morning, July 16th.",
+    "The night-long battle was over."
+   ],
+   "text": "JULY 16, 1953 · MORNING",
+   "accent": "THE HILL HELD"
+  },
+  "s26": {
+   "lines": [
+    "A few exhausted soldiers stood on the hill.",
+    "Their uniforms were caked with blood and dirt.",
+    "Of the 34, only about twelve, including their leader, are said to have survived."
+   ],
+   "label": "Dramatization"
+  },
+  "s27": {
+   "lines": [
+    "Korean records count 314 Chinese killed and an estimated 450 wounded.",
+    "Numbers hard to believe for a single platoon."
+   ],
+   "note": "Per ROK records · friendly losses vary by source",
+   "bars": [
+    [
+     "Chinese killed",
+     "314"
+    ],
+    [
+     "Chinese wounded (est.)",
+     "450"
+    ],
+    [
+     "ROK platoon",
+     "34"
+    ]
+   ]
+  },
+  "s28": {
+   "lines": [
+    "Eleven days later, on July 27th, the armistice was signed.",
+    "Betty ended up inside the Demilitarized Zone, between North and South.",
+    "The ground they held to the last moment remains there to this day."
+   ]
+  },
+  "s29": {
+   "lines": [
+    "How could one platoon hold off a battalion-size force all night?",
+    "Let's break it down into four factors."
+   ],
+   "chapter": [
+    "PART 4",
+    "4 DECIDING FACTORS"
+   ],
+   "items": [
+    "Steep Ground",
+    "Grenade Fight",
+    "Fire on Own Position",
+    "A Leader Who Stayed"
+   ],
+   "head": "34 Men vs a Battalion — How?"
+  },
+  "s30": {
+   "lines": [
+    "First, steep ground."
+   ],
+   "num": "Factor 1",
+   "title": "Steep Ground"
+  },
+  "s31": {
+   "lines": [
+    "The enemy had to climb steep slopes, on a narrow front.",
+    "The terrain kept large numbers from attacking at once.",
+    "And with the Imjin at their backs, there was no road of retreat."
+   ],
+   "title": "A Narrow Front",
+   "note": "Schematic (vertical exaggeration)",
+   "left": "N · Chinese positions",
+   "right": "S · ROK main line",
+   "marks": [
+    "Outpost Betty"
+   ]
+  },
+  "s32": {
+   "lines": [
+    "Second, the grenade fight."
+   ],
+   "num": "Factor 2",
+   "title": "The Grenade Fight"
+  },
+  "s33": {
+   "lines": [
+    "In darkness and on steep slopes, the grenade was the deadliest weapon.",
+    "The side throwing downhill had the clear advantage."
+   ],
+   "label": "Dramatization"
+  },
+  "s34": {
+   "lines": [
+    "Third, fire on his own position."
+   ],
+   "num": "Factor 3",
+   "title": "Fire on Own Position"
+  },
+  "s35": {
+   "lines": [
+    "The men flat in their trenches survived, while the enemy in the open took the full blast.",
+    "Making himself the target was the decision that won the hill back."
+   ],
+   "left": [
+    "ROK in Trenches",
+    "SURVIVED"
+   ],
+   "right": [
+    "Chinese on Slopes",
+    "EXPOSED"
+   ]
+  },
+  "s36": {
+   "lines": [
+    "Fourth, a leader who stayed."
+   ],
+   "num": "Factor 4",
+   "title": "A Leader Who Stayed"
+  },
+  "s37": {
+   "lines": [
+    "Kim led his platoon from the most dangerous spot, throwing grenades himself.",
+    "He was first to grab a grenade, and last to leave the trench.",
+    "That is what kept even the last few men fighting."
+   ],
+   "label": "Dramatization"
+  },
+  "s38": {
+   "lines": [
+    "For this battle, Kim received Korea's Taeguk Order of Military Merit and the U.S. Distinguished Service Cross.",
+    "The DSC is the U.S. Army's highest award for valor after the Medal of Honor."
+   ],
+   "big": "Taeguk Order · Distinguished Service Cross",
+   "sub": "For the Battle of Outpost Betty",
+   "chapter": [
+    "EPILOGUE",
+    "WHAT CAME AFTER"
+   ]
+  },
+  "s38b": {
+   "lines": [
+    "In 1956, a film about his story, 'Repulse,' was even made.",
+    "A bust of him still stands in Paju's Unification Park."
+   ]
+  },
+  "s39": {
+   "lines": [
+    "U.S. Army General Orders No. 35, dated May 13th, 1954.",
+    "On the citation, his name is written as 'Man Soul Kim.'"
+   ],
+   "org": "U.S. Army General Orders No. 35",
+   "head": "DSC CITATION",
+   "rows": [
+    "Man Soul Kim · Master Sergeant",
+    "11th Regt, ROK 1st Inf Div",
+    "Outpost \"Betty\" · 15-16 July 1953",
+    "Repelled battalion-size attacks"
+   ],
+   "note": "Summary of U.S. Army citation · reconstructed"
+  },
+  "s40": {
+   "lines": [
+    "After the war, a training accident in 1958 left him paralyzed from the waist down.",
+    "Retiring as a captain, he founded a school and cared for disabled veterans."
+   ]
+  },
+  "s41": {
+   "lines": [
+    "In 1991, his wartime wounds flared up again, and he passed away.",
+    "Today he rests in Seoul National Cemetery."
+   ]
+  },
+  "s42": {
+   "lines": [
+    "Today, from the Taepung Observatory in Yeoncheon, you can see Outpost Betty across the Imjin, inside the DMZ.",
+    "So close you could almost touch it, yet still a place no one can enter."
+   ]
+  },
+  "s43": {
+   "lines": [
+    "Thirty-four men, and one night.",
+    "On that night, less than two weeks before the armistice, what they held was a sliver of their country."
+   ],
+   "quotes": [
+    "34 men, and one night",
+    "A sliver of ground, held to the end"
+   ],
+   "quoteTitle": "What Betty Left Behind"
+  },
+  "s44": {
+   "lines": [
+    "If this story meant something to you, please subscribe and like the video.",
+    "We'll continue to bring the forgotten records of war to light."
+   ],
+   "title": "July 1953. Outpost Betty.\nThe Last Night of 34 Men."
+  }
+ }
+}

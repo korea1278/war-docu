@@ -264,6 +264,7 @@ const REF_EN: Record<string, RefDef> = {
   jipyeong: { ep: "04", mid: [[["360° SURROUNDED", "r"]], [["BY ", "w"], ["4 DIVISIONS", "s"]]], key: "CHIPYONG-NI", keyStyle: "yellow" },
   chuncheon: { ep: "05", mid: [[["THE ONLY VICTORY", "w"]], [["ON DAY 1", "r"]]], key: "CHUNCHEON", keyStyle: "yellow" },
   jangjin: { ep: "06", mid: [[["-40°F FREEZE:", "s"]], [["BREAKING ", "w"], ["120,000 ENEMY", "r"]]], key: "CHOSIN RESERVOIR", keyStyle: "ice" },
+  betty: { ep: "07", mid: [[["34 MEN", "r"], [" VS ", "w"], ["A BATTALION", "r"]], [["12 DAYS BEFORE THE ARMISTICE", "s"]]], key: "OUTPOST BETTY", keyStyle: "stone" },
 };
 const REF: Record<string, RefDef> = {
   yongmunsan: { ep: "01", mid: [[["중공군 ", "w"], ["3개 사단", "r"], [" 격멸,", "w"]], [["1개 연대의 기적", "s"]]], key: "용문산 전투", keyStyle: "yellow" },
@@ -272,6 +273,7 @@ const REF: Record<string, RefDef> = {
   jipyeong: { ep: "04", mid: [[["중공군 4개 사단", "r"], [" 완전 포위,", "w"]], [["퇴로는 없다", "s"]]], key: "지평리 전투", keyStyle: "yellow" },
   chuncheon: { ep: "05", mid: [[["개전 첫날 유일한 승리", "r"], [",", "w"]], [["3일간의 기적", "s"]]], key: "춘천 전투", keyStyle: "yellow" },
   jangjin: { ep: "06", mid: [[["영하 40도", "s"], [" 고립,", "w"]], [["12만 포위망", "r"], ["을 찢다", "w"]]], key: "장진호 전투", keyStyle: "stone" },
+  betty: { ep: "07", mid: [[["소대원 ", "w"], ["34명", "r"], [" vs ", "w"], ["중공군 대대", "r"]], [["휴전 12일 전의 혈전", "s"]]], key: "베티고지 전투", keyStyle: "yellow" },
 };
 const CrackDefs: React.FC = () => (
   <svg width={0} height={0} style={{ position: "absolute" }}>
