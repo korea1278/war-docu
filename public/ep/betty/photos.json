@@ -12,13 +12,13 @@
  },
  "s06b-photo#0": {
   "file": "photos/s06b_photo_0.jpg",
-  "title": "File:Boulder City outpost Korea July 1953.png",
-  "credit": "출처: 미 해병대 / Wikimedia Commons",
+  "title": "File:Knocked out US truck and 155mm howitzer in Korea HA-SN-98-07083.JPG",
+  "credit": "출처: Wikimedia Commons",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Boulder_City_outpost_Korea_July_1953.png",
-  "w": 729,
-  "h": 441,
-  "pin": "File:Boulder City outpost Korea July 1953.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Knocked_out_US_truck_and_155mm_howitzer_in_Korea_HA-SN-98-07083.JPG",
+  "w": 1920,
+  "h": 1504,
+  "pin": "File:Knocked out US truck and 155mm howitzer in Korea HA-SN-98-07083.JPG",
   "cands": []
  },
  "s10-photo#0": {
@@ -195,6 +195,17 @@
   "w": 1800,
   "h": 1200,
   "pin": "File:Korea-Imjin River-01.jpg",
+  "cands": []
+ },
+ "s38-photo#0": {
+  "file": "photos/s38_photo_0.jpg",
+  "title": "File:태극무공훈장2.jpg",
+  "credit": "출처: Wikimedia Commons",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:%ED%83%9C%EA%B7%B9%EB%AC%B4%EA%B3%B5%ED%9B%88%EC%9E%A52.jpg",
+  "w": 1920,
+  "h": 1920,
+  "pin": "File:태극무공훈장2.jpg",
   "cands": []
  }
 }
