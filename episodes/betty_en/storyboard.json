@@ -379,7 +379,7 @@
     "q": "s06b-photo",
     "kb": "right"
    },
-   "label": null
+   "label": "Shell-torn ground around Outpost Boulder City (Jul 1953)"
   },
   {
    "id": "s07",
@@ -693,12 +693,12 @@
     "Its leader, Kim Man-sul, had enlisted in 1947 and fought from Tabu-dong to Pyongyang."
    ],
    "visual": {
-    "type": "text",
-    "big": "Kim Man-sul",
-    "style": "yellow",
-    "sub": "Platoon Leader · 2nd Plt, 6th Co., 11th Regt, ROK 1st Div",
-    "subAt": 0
-   }
+    "type": "photo",
+    "q": "s10-photo",
+    "kb": "in",
+    "frame": true
+   },
+   "label": "Kim Man-sul (1929–1991)"
   },
   {
    "id": "s11",
@@ -735,7 +735,7 @@
     "q": "s12-photo",
     "kb": "left"
    },
-   "label": null
+   "label": "ROK platoon leader briefs his platoon sergeant, 9th Div (May 1953)"
   },
   {
    "id": "s13",
@@ -777,7 +777,7 @@
     "q": "s14-photo",
     "kb": "in"
    },
-   "label": null
+   "label": "ROK Capital Div. soldier wounded in the Chinese July offensive (Jul 15, 1953)"
   },
   {
    "id": "s15",
@@ -951,7 +951,7 @@
     "q": "s17b-photo",
     "kb": "in"
    },
-   "label": null
+   "label": "9th ROK Div. soldiers wounded fighting the Chinese, White Horse (Oct 1952)"
   },
   {
    "id": "s18",
@@ -984,7 +984,7 @@
     "q": "s19-photo",
     "kb": "in"
    },
-   "label": null,
+   "label": "Wounded ROK soldier carried through a trench, Capital Hill (Sep 1952)",
    "sfx": [
     {
      "id": "charge",
@@ -1064,7 +1064,7 @@
     "q": "s22b-photo",
     "kb": "in"
    },
-   "label": null,
+   "label": "ROK artilleryman checks aiming data, 2nd Div (Feb 1953)",
    "sfx": [
     {
      "id": "artillery_far",
@@ -1343,7 +1343,7 @@
     "q": "s28-photo",
     "kb": "in"
    },
-   "label": null
+   "label": "Signing of the Korean Armistice, Panmunjom (Jul 27, 1953)"
   },
   {
    "id": "s29",
@@ -1630,7 +1630,7 @@
     "kb": "in",
     "bw": false
    },
-   "label": null
+   "label": "Taeguk Order of Military Merit"
   },
   {
    "id": "s39",
@@ -1663,7 +1663,7 @@
     "q": "s40-photo",
     "kb": "in"
    },
-   "label": null
+   "label": "Korean War memorial statue, Yeoncheon"
   },
   {
    "id": "s41",
@@ -1677,7 +1677,7 @@
     "kb": "in",
     "bw": false
    },
-   "label": null
+   "label": "Seoul National Cemetery"
   },
   {
    "id": "s42",
@@ -1691,7 +1691,7 @@
     "kb": "in",
     "bw": false
    },
-   "label": null
+   "label": "The Imjin River along the DMZ (2012)"
   },
   {
    "id": "s43",
