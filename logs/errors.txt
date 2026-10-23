@@ -8,3 +8,5 @@
 2026-10-22 01:01:56 하천 데이터(hamhung) 실패(기존 유지): 504 Server Error: Gateway Timeout for url: https://maps.mail.ru/osm/tools/overpass/api/interpreter
 2026-10-22 01:09:12 하천 데이터(hamhung) 실패(기존 유지): 504 Server Error: Gateway Timeout for url: https://maps.mail.ru/osm/tools/overpass/api/interpreter
 2026-10-22 01:15:26 하천 데이터(hamhung) 실패(기존 유지): 504 Server Error: Gateway Time-out for url: https://maps.mail.ru/osm/tools/overpass/api/interpreter
+2026-10-23 01:43:24 betty_en: 러닝타임 8분 2초 — 목표 8분 15초와 10초 이상 차이 (대본 분량 조정 필요)
+2026-10-23 01:43:30 betty_en: 러닝타임 8분 2초 — 목표 8분 15초와 10초 이상 차이 (대본 분량 조정 필요)
