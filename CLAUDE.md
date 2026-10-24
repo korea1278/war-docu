@@ -78,18 +78,39 @@
    - **한국 채널 '격전의 지도' 썸네일 디자인 시스템 (2026-10-21 확정, EP01~ 전체 적용 · 한국어 A안)** — `remotion/Thumbnail.tsx`의 `REF` 표에 에피소드 한 줄 추가로 적용
      1. 3단 텍스트 계층: 상단 `격전의 지도 EP 0X` 회색/흰 박스 태그 → 중단 2색 위기 카피 2줄(흰색/하늘색, **핵심 수치·위기어는 빨강**) → 하단 초대형 메인 키워드(크랙/스톤 질감 굵은 글자, 스타일 red / stone(흰 돌) / yellow(옐로·화이트))
      2. 우측 하단 25%는 재생시간 영역으로 비움 (글자·인물 금지)
-     3. 배경: 2D·볼 캐릭터 배제. **흑백 다큐 아카이브 질감 + 붉은/오렌지 화염·포연만 컬러**인 거친 실사풍 전장 극화 → 스토리보드 `ai_images.thumb_ref` 프롬프트 (주제는 중앙·좌상단, 우하단은 어둡게 비우라는 문구 포함)
+     3. 배경: 2D·볼 캐릭터 배제. **흑백 다큐 아카이브 질감 + 붉은/오렌지 화염·포연만 컬러**인 거친 실사풍 전장 극화 → 스토리보드 `ai_images.thumb_ref` 프롬프트 (주제는 중앙~중앙 왼쪽에 전신·얼굴이 보이게 — 아래 `split` 구도 참고)
      4. 생성·렌더: Actions `mode=thumb` (그림 생성 → `thumbnails/<ep>_ko_A.png`, `_ko_B.png` 렌더 → 커밋). 영상 재렌더 없음
      5. B안은 이전 디자인을 A/B 테스트용으로 유지. 카피 수치는 대본·화면 수치와 일치하는지 확인하고 다르면 전달 때 알릴 것
      6. **(2026-10-22 수정) 하단 메인 타이틀 색: 다크 레드 전면 금지** → 머스터드 옐로 `#FFD000`(keyStyle `yellow`, 지명 노랑·'전투' 흰색) 또는 스톤 화이트 `#FFFFFF`(keyStyle `stone`)만 사용 (red·ice 금지)
      7. **(2026-10-22 수정) 배경 밝기**: 순흑(#000) 금지. `thumb_ref` 프롬프트에 "NO crushed pure-black areas, smoke/fog/haze backlit, lifted shadows ~20% brighter, strong rim light outlining soldiers/vehicles" 필수, 우하단은 '어둡게'가 아니라 '안개 낀 빈 공간'으로. 합성 단계도 밝기·대비 +20%(`brightness(1.2) contrast(1.2)`), screen 안개 레이어로 암부 들어올림, 비네트 약하게
-   - **(2026-10-25 추가) 좌우 분할 레이아웃 `split`** — 글자가 인물을 가리면 `REF`/`REF_EN` 항목에 `split: { imgX, midSize, keys: [{text, style, size}…] }`를 넣는다. 오른쪽 약 58%에 선명한 그림(인물 얼굴이 오른쪽 중앙에 오도록 `imgX`로 가로 위치 조정), 왼쪽은 같은 그림을 흐리고 어둡게 깐 포연 패널(순흑 아님) 위에 태그 → 위기 카피 → 메인 키워드를 2줄로 쌓는다. 키워드는 균열 틈을 흐린 같은 색으로 채운 `soft` 질감(시니어 가독성). EP08 영천부터 적용, 사용자 반응이 좋으면 다음 편도 이 레이아웃을 기본으로
+   - **★ 기본 썸네일 = 좌우 분할 레이아웃 `split` (2026-10-25 사용자 확정 — EP08부터 모든 새 에피소드 A안의 기본, 새 세션에서도 그대로 적용)**
+     - 기준 결과물: `thumbnails/yeongcheon_ko_A.png`, `thumbnails/yeongcheon_en_A.png` — 새 편은 이 두 장과 같은 모양으로 만든다
+     - 이유: 전체 화면 위에 글자를 얹으면 인물 얼굴을 가린다 (사용자 지적). 그림과 글자를 좌우로 나눠 둘 다 살린다
+     - 적용법: `REF`/`REF_EN` 항목에 `split`을 꼭 넣는다 (없으면 예전 겹침 레이아웃이 나옴)
+       ```
+       yeongcheon: { ep: "08", mid: [...], key: "영천 대역전", keyStyle: "yellow",
+         split: { imgX: "22%", midSize: 72, keys: [{ text: "영천", style: "stone", size: 128 }, { text: "대역전", style: "yellow", size: 205 }] } },
+       // 영문
+       yeongcheon: { ep: "08", mid: [[["THE LAST LINE:", "r"]], [["SAVING THE", "w"]], [["PUSAN PERIMETER", "s"]]], key: "BATTLE OF YEONGCHEON", keyStyle: "stone",
+         split: { imgX: "22%", midSize: 78, keys: [{ text: "BATTLE OF", style: "stone", size: 100 }, { text: "YEONGCHEON", style: "yellow", size: 160 }] } },
+       ```
+     - 화면 구성
+       1. **오른쪽 약 60% = 선명한 그림 전용** (글자 금지). 인물 얼굴이 오른쪽 중앙(x≈760~860)에 오도록 `imgX`(그림 가로 위치, 0%=왼쪽 끝)를 조정. 왼쪽 가장자리는 부드럽게 녹아듦
+       2. **왼쪽 = 같은 그림을 크게 흐리고 어둡게 깐 포연 패널** (순흑 금지, 왼쪽 아래 붉은 기운) 위에 글자만
+       3. 글자 순서(위→아래): 회색 박스 태그 → 위기 카피(한국어 2줄 72px / 영문 3줄 78px, 핵심 위기어 빨강·지명 하늘색) → **하단 키워드 2줄**
+       4. **하단 키워드 2줄 공식 (한·영 동일)**: 위 줄 = 흰 돌(`stone`) 작게(한 128px / 영 100px), **맨 아래 줄 = 머스터드 옐로(`yellow`, #FFD000) 가장 크게(한 205px / 영 160px)**. 맨 아래 줄이 반드시 가장 크고 노랑이어야 함 (위 줄이 더 크면 어색하다는 사용자 지적)
+          - 한국어 예: `영천`(흰) / `대역전`(노랑). 지명 + 사건 핵심어(대역전·혈전·사수 등) 2~3자 단어로 나눠 쌓기. 맨 아래 줄은 3~4자 이내로 패널 폭 안에 들어가게
+          - 영문 예: `BATTLE OF`(흰) / `YEONGCHEON`(노랑). 분할 레이아웃에서는 'Battle of'를 위 줄로 넣어도 됨 (사용자가 자연스럽다고 확인). 지명이 10자를 넘으면 size를 줄여 x 700 안쪽에 맞출 것
+       5. 키워드 질감은 `soft`(균열 틈을 흐린 같은 색으로 채움, 시니어 가독성) — `SplitThumb`에서 자동 적용
+       6. 우측 하단 25%(x>960, y>540)에는 글자 없음 (재생시간 자리). 그림 쪽 인물 다리·땅이 와도 됨, 얼굴은 금지
+     - `thumb_ref` 프롬프트 구도: "the main soldier and vehicle in the center / center-left of the frame, full figure, face clearly visible" — 렌더 시 오른쪽 60%로 잘라 쓰므로 주제가 화면 가장자리에 붙지 않게. 밝기·림 라이트 문구(위 7번)는 그대로 필수
+     - 렌더 후 반드시 PNG를 직접 열어 확인: 얼굴 가림 없음, 맨 아래 줄이 가장 크고 노랑, 글자가 패널 밖(x>700)으로 넘치지 않음
    - **영문판 A안도 같은 배경(`thumb_ref`) 재사용 + [압축 영문 공식]** (2026-10-21) — `REF_EN` 표에 한 줄 추가
-     - 폰트 Bebas Neue(좁고 두꺼운 고대비), 태그 `MAP OF WAR EP 0X`, 'Battle of' 전면 제외, 지명·직관적 숫자/단어만
+     - 폰트 Bebas Neue(좁고 두꺼운 고대비), 태그 `MAP OF WAR EP 0X`, 'Battle of' 전면 제외, 지명·직관적 숫자/단어만 (※ 'Battle of' 제외는 예전 겹침 레이아웃 기준 — 지금 기본인 `split`에서는 위 하단 키워드 2줄 공식이 우선)
      - 중단 2색 카피(빨강 강조 + 시안/흰색), 하단 지명 키워드(red/stone/yellow 크랙 질감). 예: EP01 YONGMUNSAN / EP02 TABU-DONG / EP03 WHITE HORSE / EP04 CHIPYONG-NI
      - 영문 B안은 기존 디자인 유지. `mode=thumb`가 `_en_A.png`도 함께 렌더
    - 렌더링은 세션 안에서: `npx remotion bundle remotion/index.ts --out-dir=/tmp/claude-0/bundle` →
-     `npx remotion still /tmp/claude-0/bundle Thumbnail out.png --props='{"ep":"<ep>","variant":"A","lang":"ko"}' --browser-executable=/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell`
+     `npx remotion still /tmp/claude-0/bundle Thumbnail out.png --props='{"ep":"<ep>","variant":"A","lang":"ko"}' --browser-executable=<브라우저>` (브라우저 경로는 `ls -d /opt/pw-browsers/*/`로 확인 — 2026-10-25 기준 `/opt/pw-browsers/chromium-1243/chrome-linux64/chrome`)
    - 1280×720, 시니어 가독성 큰 글씨, 어두운 밤 일러스트는 밝기 올리거나 밝은 그림으로 교체, 영문 문구가 화면 밖으로 나가지 않게
    - 결과는 `thumbnails/<ep>_<ko|en>_<A|B>.png`로 커밋
 10. **전달** — 사용자에게 한 번에:
