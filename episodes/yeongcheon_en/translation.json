@@ -1,0 +1,497 @@
+{
+ "title": "Battle of Yeongcheon (1950): The Turning Point at the Perimeter",
+ "subtitle": "September 5 – 13, 1950",
+ "voice": "pNInz6obpgDQGcFmaJgB",
+ "tempo": 1.02,
+ "places": {
+  "seoul": "Seoul",
+  "inchon": "Inchon",
+  "daegu": "Taegu",
+  "busan": "Pusan",
+  "pohang": "Pohang",
+  "gyeongju": "Gyeongju",
+  "uiseong": "Uiseong",
+  "dabudong": "Dabu-dong",
+  "yeongcheon": "Yeongcheon",
+  "bohyeon": "Mt. Bohyeon",
+  "giryong": "Mt. Giryong",
+  "geumho": "Geumho River",
+  "nk15": "NK 15th Div",
+  "rok8": "ROK 8th Div",
+  "roadblock": "Enemy Roadblock",
+  "r11": "1st Div · 11th Regt",
+  "r19": "6th Div · 19th Regt",
+  "r5": "7th Div · 5th Regt",
+  "supply": "Enemy Supply Column",
+  "nk15c": "NK 15th Div",
+  "cut": "Escape Cut Off"
+ },
+ "text": {
+  "영천": "Yeongcheon",
+  "영천 삼거리": "Yeongcheon Junction",
+  "영천 읍내": "Yeongcheon Town",
+  "금호강": "Geumho River",
+  "북한군 15사단": "NK 15th Div",
+  "국군 8사단": "ROK 8th Div",
+  "영천 함락": "Yeongcheon Falls",
+  "적 차단선": "Enemy Roadblock",
+  "1사단 11연대": "1st Div · 11th Regt",
+  "6사단 19연대": "6th Div · 19th Regt",
+  "7사단 5연대": "7th Div · 5th Regt",
+  "적 보급부대": "Enemy Supply Column",
+  "영천 탈환": "Yeongcheon Retaken",
+  "퇴로 차단": "Escape Cut Off"
+ },
+ "scenes": {
+  "s01": {
+   "lines": [
+    "1 a.m., September 5th, 1950. A mountain valley north of Yeongcheon.",
+    "In the pouring rain, five North Korean tanks began rolling south."
+   ],
+   "label": "Dramatization",
+   "callouts": [
+    "SEPT 5, 1950 · YEONGCHEON"
+   ]
+  },
+  "s02": {
+   "lines": [
+    "Yeongcheon was a crossroads: the Taegu–Pohang road met the road south to Gyeongju.",
+    "If it broke here, the waist of the Naktong line would be cut clean through."
+   ],
+   "callouts": [
+    "TAEGU – YEONGCHEON – POHANG · YEONGCHEON – GYEONGJU – PUSAN"
+   ]
+  },
+  "s03": {
+   "lines": [
+    "Turn west, and the troops fighting at Dabu-dong would be hit from behind.",
+    "Push south to Gyeongju, and almost nothing stood between the enemy and Pusan."
+   ]
+  },
+  "s04": {
+   "lines": [
+    "Then, on September 6th, North Korean troops entered the town of Yeongcheon.",
+    "The waist of the Naktong line had finally been pierced."
+   ],
+   "text": "SEPT 6, 1950\nYeongcheon falls"
+  },
+  "s05": {
+   "lines": [
+    "Yet one week later, the North Korean division that took Yeongcheon would vanish from the map.",
+    "This is the Battle of Yeongcheon, the hidden reversal that held the line."
+   ],
+   "title": "Battle of Yeongcheon",
+   "sub": "The Turning Point at the Perimeter · 1950"
+  },
+  "s06": {
+   "lines": [
+    "By August 1950, South Korean and UN forces had been pushed back to the Naktong River.",
+    "From Masan through Waegwan to Yeongdeok, it was their last line of defense."
+   ],
+   "callouts": [
+    "PUSAN PERIMETER (APPROX.)"
+   ],
+   "chapter": [
+    "PART 1",
+    "THE WAIST OF THE LAST LINE"
+   ]
+  },
+  "s07": {
+   "lines": [
+    "All through August, the North Koreans went for Taegu, and were stopped at Dabu-dong.",
+    "So in September, they turned their eyes east."
+   ],
+   "label": "ROK soldiers on the Naktong line (Aug 1950)"
+  },
+  "s08": {
+   "lines": [
+    "The attack fell to the North Korean 15th Division.",
+    "It came down through Uiseong and over the ridges of Mount Bohyeon, heading south for Yeongcheon."
+   ]
+  },
+  "s09": {
+   "lines": [
+    "North of Yeongcheon lies rugged high ground, Mount Bohyeon at 1,124 meters, and Mount Giryong.",
+    "Come down off those mountains, and a wide basin opens up along the Geumho River."
+   ],
+   "title": "Yeongcheon · North–South Terrain Profile",
+   "note": "Schematic (vertical exaggeration)",
+   "left": "N · Bohyeon highlands",
+   "right": "S · Toward Gyeongju",
+   "marks": [
+    "Mt. Bohyeon",
+    "Mt. Giryong",
+    "Yeongcheon · Geumho"
+   ]
+  },
+  "s10": {
+   "lines": [
+    "The town of Yeongcheon sat in the middle of that basin, on the banks of the Geumho.",
+    "For an enemy that had crossed the mountains, no terrain was left to stop him."
+   ]
+  },
+  "s11": {
+   "lines": [
+    "Holding the line here was the ROK 8th Division.",
+    "Worn out, it had fought its way south through the central mountains since day one."
+   ],
+   "label": "ROK soldiers on the march (1950)"
+  },
+  "s12": {
+   "lines": [
+    "The North Korean 15th Division attacked behind its tanks.",
+    "The South Korean division did not have a single tank of its own."
+   ],
+   "left": "ROK 8th Div · No tanks",
+   "right": "NK 15th Div · Tank-led",
+   "callouts": [
+    "ROK records: 5 tanks led the attack"
+   ]
+  },
+  "s12b": {
+   "lines": [
+    "Meanwhile, the North Koreans were attacking along the entire Naktong front.",
+    "Masan, Waegwan, Dabu-dong, Pohang. Nowhere could the defenders spare a single man."
+   ],
+   "callouts": [
+    "SEPT 1950 · NK GREAT OFFENSIVE"
+   ]
+  },
+  "s13": {
+   "lines": [
+    "On the night of September 2nd, the North Korean attack began.",
+    "By dawn the next day, the positions of the ROK 16th Regiment had collapsed."
+   ],
+   "label": "Dramatization",
+   "chapter": [
+    "PART 2",
+    "THE LINE BREAKS"
+   ]
+  },
+  "s14": {
+   "lines": [
+    "The 8th Division fell back to the Giryong ridge and dug a new line.",
+    "But before dawn on September 5th, the enemy struck from three directions at once."
+   ],
+   "callouts": [
+    "SEPT 5, 1 A.M. · ATTACK FROM 3 DIRECTIONS"
+   ]
+  },
+  "s15": {
+   "lines": [
+    "The tanks led the way through the rain.",
+    "When an enemy tank swung in behind the line, an entire ROK regiment scattered in moments."
+   ],
+   "label": "Dramatization",
+   "callouts": [
+    "U.S. Army official history"
+   ]
+  },
+  "s15b": {
+   "lines": [
+    "Korean officers and American advisors rounded up the scattered men.",
+    "Regrouped, the 8th Division turned to face Yeongcheon once more."
+   ],
+   "label": "ROK soldier on watch in a trench (1950)"
+  },
+  "s16": {
+   "lines": [
+    "On September 6th, the North Koreans pushed into the town of Yeongcheon.",
+    "The road linking Taegu and Pohang had fallen into enemy hands."
+   ],
+   "callouts": [
+    "SEPT 6, 1950 · YEONGCHEON FALLS"
+   ]
+  },
+  "s17": {
+   "lines": [
+    "South of town the enemy set a roadblock and cut the road to Gyeongju.",
+    "By Korean records, the road between Yeongcheon and Gyeongju stayed closed for five days."
+   ],
+   "callouts": [
+    "YEONGCHEON–GYEONGJU ROAD CUT 5 DAYS · ROK RECORDS"
+   ]
+  },
+  "s18": {
+   "lines": [
+    "Then ROK Army headquarters and the U.S. Eighth Army made an urgent call.",
+    "Pull regiments out of other sectors, and send them to Yeongcheon."
+   ],
+   "label": "Dramatization"
+  },
+  "s19": {
+   "lines": [
+    "The 1st Division's 11th Regiment, the 6th's 19th, and the new 7th Division's 5th.",
+    "Regiments from across the front raced to Yeongcheon by truck."
+   ],
+   "callouts": [
+    "COMMITTED UNDER ROK II CORPS"
+   ]
+  },
+  "s20": {
+   "lines": [
+    "Command went to the ROK II Corps commander, General Yu Jae-hung.",
+    "A platoon of American tanks came too, but the heart of the fight was South Korean infantry."
+   ],
+   "label": "ROK troops moving by truck (1950)",
+   "callouts": [
+    "ROK records: 1 U.S. tank platoon (5 tanks)"
+   ]
+  },
+  "s21": {
+   "lines": [
+    "From the afternoon of September 6th, the town changed hands in a seesaw fight.",
+    "Each time the ROK troops retook it, fresh enemy units pushed back in."
+   ],
+   "label": "Dramatization"
+  },
+  "s21b": {
+   "lines": [
+    "On September 7th, the 19th Regiment ambushed an enemy supply column, wrecking some thirty trucks.",
+    "The enemy's forward infantry was being cut off from the supplies behind it."
+   ],
+   "callouts": [
+    "SEPT 7 · ~30 ENEMY TRUCKS DESTROYED (ROK RECORDS)"
+   ]
+  },
+  "s22": {
+   "lines": [
+    "Then, at 2:45 p.m. on September 8th,",
+    "South Korean troops finally took the town of Yeongcheon back."
+   ],
+   "callouts": [
+    "SEPT 8, 2:45 P.M. · ROK RECORDS"
+   ]
+  },
+  "s23": {
+   "lines": [
+    "Now the hunter and the hunted traded places.",
+    "The enemy deep in Yeongcheon was now trapped among South Korean forces."
+   ],
+   "big": "Counter-Encirclement",
+   "sub": "The enemy that broke in, surrounded in turn",
+   "chapter": [
+    "PART 3",
+    "THE HUNTER BECOMES THE HUNTED"
+   ]
+  },
+  "s24": {
+   "lines": [
+    "The 15th Division's artillery had run ahead of its infantry, and was out of shells.",
+    "Korean records say on September 9th, the ROK 5th Regiment overran an enemy artillery regiment hiding in a tunnel."
+   ],
+   "label": "Dramatization"
+  },
+  "s25": {
+   "lines": [
+    "On September 10th, ROK II Corps launched its general counterattack.",
+    "It reopened the Gyeongju road and closed in from the south, west and north."
+   ],
+   "callouts": [
+    "SEPT 10, 1950 · ROK II CORPS COUNTERATTACK"
+   ]
+  },
+  "s26": {
+   "lines": [
+    "The 21st and 19th Regiments blocked the paths back into the mountains.",
+    "The enemy that had come down to Yeongcheon now had no way home."
+   ],
+   "callouts": [
+    "SEPT 11 · 21ST & 19TH REGTS CUT ESCAPE (ROK RECORDS)"
+   ]
+  },
+  "s27": {
+   "lines": [
+    "Prisoner interrogations revealed the location of the enemy division headquarters.",
+    "On September 11th, ROK troops struck it at Daeui-dong, north of Yeongcheon."
+   ],
+   "label": "North Korean prisoners taken by ROK troops (Sep 1950)"
+  },
+  "s28": {
+   "lines": [
+    "South Korean shells rained down on the headquarters hidden in an apple orchard.",
+    "U.S. records say the division's chief of staff, Colonel Kim Yon, was killed around then."
+   ],
+   "label": "Dramatization",
+   "callouts": [
+    "U.S. Army history: Chief of Staff Col. Kim Yon KIA (Sep 9–10)"
+   ]
+  },
+  "s29": {
+   "lines": [
+    "Its commander, Pak Song-chol, had reportedly already been relieved for the delay.",
+    "Leaderless, the enemy abandoned tanks and guns and scattered into the hills.",
+    "That same Pak Song-chol would later become premier of North Korea."
+   ],
+   "label": "Dramatization"
+  },
+  "s30": {
+   "lines": [
+    "On September 12th, the 8th Division restored its broken line.",
+    "And by September 13th, the threat to Yeongcheon was gone."
+   ],
+   "label": "Dramatization"
+  },
+  "s31": {
+   "lines": [
+    "By Korean records, 3,799 North Koreans killed and 309 captured.",
+    "Five tanks destroyed, and 85 vehicles and 2,327 small arms captured."
+   ],
+   "note": "Per ROK records (Sep 5–13, 1950)",
+   "bars": [
+    [
+     "NK killed",
+     "3,799"
+    ],
+    [
+     "NK captured",
+     "309"
+    ],
+    [
+     "Small arms captured",
+     "2,327"
+    ]
+   ]
+  },
+  "s32": {
+   "lines": [
+    "The North Korean 15th Division had effectively ceased to exist as a division.",
+    "A rare victory: a South Korean-led counterattack broke an entire enemy division."
+   ],
+   "label": "Abandoned North Korean T-34 tank (1950)"
+  },
+  "s33": {
+   "lines": [
+    "How could a South Korean force without tanks destroy an entire enemy division?",
+    "Let's break it down into four factors."
+   ],
+   "chapter": [
+    "PART 4",
+    "4 DECIDING FACTORS"
+   ],
+   "items": [
+    "Rapid Redeployment",
+    "Enemy Supply Collapse",
+    "Counter-Encirclement",
+    "Artillery Strike"
+   ],
+   "head": "No Tanks vs Tank-Led Enemy — How?"
+  },
+  "s34": {
+   "lines": [
+    "First, rapid redeployment."
+   ],
+   "num": "Factor 1",
+   "title": "Rapid Redeployment"
+  },
+  "s35": {
+   "lines": [
+    "Regiments were pulled from across the front and massed at Yeongcheon within a day or two.",
+    "The very afternoon the enemy entered town, they were already arriving.",
+    "The U.S. Army's official history called it a notable command achievement."
+   ]
+  },
+  "s36": {
+   "lines": [
+    "Second, the collapse of enemy supply."
+   ],
+   "num": "Factor 2",
+   "title": "Enemy Supply Collapse"
+  },
+  "s37": {
+   "lines": [
+    "The enemy had crossed rugged mountains and gone too far; shells and food could not keep up.",
+    "Even after taking the town, he had no strength left for the next step."
+   ],
+   "left": [
+    "NK 15th Div",
+    "SUPPLY CUT"
+   ],
+   "right": [
+    "ROK II Corps",
+    "REINFORCED"
+   ]
+  },
+  "s38": {
+   "lines": [
+    "Third, counter-encirclement."
+   ],
+   "num": "Factor 3",
+   "title": "Counter-Encirclement"
+  },
+  "s39": {
+   "lines": [
+    "The ROK troops didn't just plug the gap; they swung behind the enemy and cut his escape.",
+    "A battle to hold became a battle to trap."
+   ]
+  },
+  "s40": {
+   "lines": [
+    "Fourth, the artillery strike."
+   ],
+   "num": "Factor 4",
+   "title": "Artillery Strike"
+  },
+  "s41": {
+   "lines": [
+    "South Korean artillery first silenced the enemy's guns,",
+    "then hit the orchard where the enemy headquarters was hiding."
+   ],
+   "label": "ROK artillery in action (1950)"
+  },
+  "s42": {
+   "lines": [
+    "Two days after the battle, on September 15th, UN forces landed at Inchon.",
+    "Because the Naktong line held, the door to the counteroffensive swung open."
+   ],
+   "callouts": [
+    "SEPT 15, 1950 · INCHON LANDING"
+   ],
+   "chapter": [
+    "EPILOGUE",
+    "THE DOOR TO VICTORY"
+   ]
+  },
+  "s43": {
+   "lines": [
+    "On September 16th, the forces on the Naktong front broke out as well.",
+    "After nearly three months of retreat, the tide of the war turned for the first time."
+   ],
+   "label": "UN forces landing at Inchon (Sep 15, 1950)"
+  },
+  "s44": {
+   "lines": [
+    "Today, a battle monument and a memorial park stand in Yeongcheon.",
+    "And nearby, at the Yeongcheon National Cemetery, countless veterans lie at rest."
+   ],
+   "label": "Yeongcheon National Cemetery"
+  },
+  "s45": {
+   "lines": [
+    "More than seventy years have passed since then.",
+    "Few remember Yeongcheon the way they remember Dabu-dong or Inchon.",
+    "Yet without those nine days, the September counteroffensive might never have come."
+   ],
+   "text": "Over 70 years",
+   "accent": "A forgotten name: Yeongcheon"
+  },
+  "s46": {
+   "lines": [
+    "Nine days that held the waist of the Naktong line, at its most dangerous moment.",
+    "Yeongcheon was where the great counteroffensive began."
+   ],
+   "quotes": [
+    "9 days that held the line",
+    "Where the counteroffensive began"
+   ],
+   "quoteTitle": "What Yeongcheon Left Behind"
+  },
+  "s47": {
+   "lines": [
+    "If this story meant something to you, please subscribe and like the video.",
+    "We'll continue to bring the forgotten records of war to light."
+   ],
+   "title": "September 1950. Yeongcheon.\nNine Days That Held the Line."
+  }
+ }
+}

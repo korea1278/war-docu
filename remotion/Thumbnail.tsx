@@ -255,7 +255,7 @@ const CtrThumb: React.FC<{ img: string; lines: [string, string?]; pos?: string; 
 /* ===== '격전의 지도' 레퍼런스 디자인 시스템 (3단 텍스트 계층) — 한국어판 A안 ===== */
 type Seg = [string, "w" | "s" | "r"];
 const SEG_COLOR = { w: "#ffffff", s: "#8fd6ff", r: "#ff2a2a" };
-type RefDef = { ep: string; mid: Seg[][]; key: string; keyStyle: "red" | "stone" | "yellow" | "ice"; pos?: string };
+type RefDef = { ep: string; mid: Seg[][]; key: string; keyStyle: "red" | "stone" | "yellow" | "ice"; pos?: string; keySize?: number };
 /** 영문판(EN) — 압축 영문 공식: 'Battle of' 제외, 지명 + 숫자/핵심 단어만, Bebas Neue */
 const REF_EN: Record<string, RefDef> = {
   yongmunsan: { ep: "01", mid: [[["1 REGIMENT", "s"], [" DESTROYED", "w"]], [["3 DIVISIONS", "r"]]], key: "YONGMUNSAN", keyStyle: "yellow" },
@@ -265,6 +265,7 @@ const REF_EN: Record<string, RefDef> = {
   chuncheon: { ep: "05", mid: [[["THE ONLY VICTORY", "w"]], [["ON DAY 1", "r"]]], key: "CHUNCHEON", keyStyle: "yellow" },
   jangjin: { ep: "06", mid: [[["-40°F FREEZE:", "s"]], [["BREAKING ", "w"], ["120,000 ENEMY", "r"]]], key: "CHOSIN RESERVOIR", keyStyle: "ice" },
   betty: { ep: "07", mid: [[["34 MEN", "r"], [" VS", "w"]], [["A BATTALION", "s"]]], key: "OUTPOST BETTY", keyStyle: "stone" },
+  yeongcheon: { ep: "08", mid: [[["THE LAST LINE:", "r"]], [["SAVING THE ", "w"], ["PUSAN PERIMETER", "s"]]], key: "BATTLE OF YEONGCHEON", keyStyle: "stone", keySize: 120 },
 };
 const REF: Record<string, RefDef> = {
   yongmunsan: { ep: "01", mid: [[["중공군 ", "w"], ["3개 사단", "r"], [" 격멸,", "w"]], [["1개 연대의 기적", "s"]]], key: "용문산 전투", keyStyle: "yellow" },
@@ -274,6 +275,7 @@ const REF: Record<string, RefDef> = {
   chuncheon: { ep: "05", mid: [[["개전 첫날 유일한 승리", "r"], [",", "w"]], [["3일간의 기적", "s"]]], key: "춘천 전투", keyStyle: "yellow" },
   jangjin: { ep: "06", mid: [[["영하 40도", "s"], [" 고립,", "w"]], [["12만 포위망", "r"], ["을 찢다", "w"]]], key: "장진호 전투", keyStyle: "stone" },
   betty: { ep: "07", mid: [[["소대원 ", "w"], ["34명", "r"], [" vs ", "w"], ["중공군 대대", "r"]], [["휴전 12일 전의 혈전", "s"]]], key: "베티고지 전투", keyStyle: "yellow" },
+  yeongcheon: { ep: "08", mid: [[["영천이 ", "w"], ["뚫리면", "r"], [",", "w"]], [["부산이 ", "s"], ["끝장난다", "r"]]], key: "영천 대역전", keyStyle: "yellow" },
 };
 const CrackDefs: React.FC = () => (
   <svg width={0} height={0} style={{ position: "absolute" }}>
@@ -321,7 +323,7 @@ const KeyWord: React.FC<{ text: string; style: "red" | "stone" | "yellow" | "ice
 const RefThumb: React.FC<{ ep: string; en?: boolean }> = ({ ep, en }) => {
   const a = ep.replace(/_en$/, "");
   const d = (en ? REF_EN : REF)[a];
-  const keySize = en ? Math.min(230, Math.floor(900 / (d.key.length * 0.46))) : d.key.length <= 4 ? 200 : 168;
+  const keySize = d.keySize || (en ? Math.min(230, Math.floor(900 / (d.key.length * 0.46))) : d.key.length <= 4 ? 200 : 168);
   const head = en ? "'Bebas Neue', 'Oswald', sans-serif" : "'Black Han Sans', sans-serif";
   return (
     <AbsoluteFill style={{ background: "#050505", overflow: "hidden" }}>

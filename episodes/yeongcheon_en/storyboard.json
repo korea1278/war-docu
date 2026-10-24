@@ -1,0 +1,2687 @@
+{
+ "title": "Battle of Yeongcheon (1950): The Turning Point at the Perimeter",
+ "subtitle": "September 5 – 13, 1950",
+ "target_sec": 510,
+ "places": {
+  "seoul": [
+   126.978,
+   37.566,
+   "Seoul"
+  ],
+  "inchon": [
+   126.62,
+   37.47,
+   "Inchon"
+  ],
+  "daegu": [
+   128.601,
+   35.871,
+   "Taegu"
+  ],
+  "busan": [
+   129.075,
+   35.18,
+   "Pusan"
+  ],
+  "pohang": [
+   129.343,
+   36.019,
+   "Pohang"
+  ],
+  "gyeongju": [
+   129.211,
+   35.856,
+   "Gyeongju"
+  ],
+  "uiseong": [
+   128.697,
+   36.353,
+   "Uiseong"
+  ],
+  "dabudong": [
+   128.555,
+   36.045,
+   "Dabu-dong"
+  ],
+  "yeongcheon": [
+   128.938,
+   35.973,
+   "Yeongcheon"
+  ],
+  "bohyeon": [
+   128.973,
+   36.163,
+   "Mt. Bohyeon"
+  ],
+  "giryong": [
+   129.04,
+   36.075,
+   "Mt. Giryong"
+  ],
+  "geumho": [
+   128.86,
+   35.95,
+   "Geumho River"
+  ],
+  "nk15": [
+   128.8,
+   36.3,
+   "NK 15th Div"
+  ],
+  "rok8": [
+   128.97,
+   36.09,
+   "ROK 8th Div"
+  ],
+  "roadblock": [
+   128.99,
+   35.93,
+   "Enemy Roadblock"
+  ],
+  "r11": [
+   128.66,
+   36.06,
+   "1st Div · 11th Regt"
+  ],
+  "r19": [
+   128.74,
+   36.15,
+   "6th Div · 19th Regt"
+  ],
+  "r5": [
+   129.15,
+   35.95,
+   "7th Div · 5th Regt"
+  ],
+  "supply": [
+   128.965,
+   36.1,
+   "Enemy Supply Column"
+  ],
+  "nk15c": [
+   128.955,
+   36.04,
+   "NK 15th Div"
+  ],
+  "cut": [
+   128.97,
+   36.125,
+   "Escape Cut Off"
+  ]
+ },
+ "views": {
+  "korea": {
+   "center": [
+    127.8,
+    36.6
+   ],
+   "span": 9.0
+  },
+  "perimeter": {
+   "center": [
+    128.75,
+    35.6
+   ],
+   "span": 2.4
+  },
+  "region": {
+   "center": [
+    128.92,
+    36.07
+   ],
+   "span": 1.2
+  },
+  "yc": {
+   "center": [
+    128.95,
+    36.05
+   ],
+   "span": 0.42
+  },
+  "city": {
+   "center": [
+    128.94,
+    35.985
+   ],
+   "span": 0.2
+  }
+ },
+ "music": [
+  {
+   "id": "drone",
+   "from": "s01",
+   "to": "s05",
+   "volume": 0.2
+  },
+  {
+   "id": "theme",
+   "from": "s06",
+   "to": "s12",
+   "volume": 0.16
+  },
+  {
+   "id": "tension",
+   "from": "s13",
+   "to": "s22",
+   "volume": 0.17
+  },
+  {
+   "id": "march",
+   "from": "s23",
+   "to": "s32",
+   "volume": 0.15
+  },
+  {
+   "id": "analysis",
+   "from": "s33",
+   "to": "s41",
+   "volume": 0.13
+  },
+  {
+   "id": "somber",
+   "from": "s42",
+   "to": "s47",
+   "volume": 0.17
+  }
+ ],
+ "ai_images": {
+  "rain_attack": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: North Korean soldiers whose heads are round balls painted as the North Korean flag (blue, thin white and wide red stripes with a red star in a white circle), wearing khaki 1950 uniforms and soft caps, advancing at night in heavy rain down a muddy mountain road in Korea in September 1950 behind a column of T-34/85 tanks with headlights off, steep dark forested mountains on both sides, rain streaks and puddles, tense ominous mood, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "tank_break": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a North Korean T-34/85 tank smashing through behind a line of hillside foxholes, South Korean soldiers whose heads are round balls painted as the South Korean flag (white with the red and blue taegeuk circle and black trigrams), wearing 1950 M1 steel helmets and olive drab summer field uniforms scattering in shock and confusion, mud and rain, smoke from a burning truck, September 1950 Korea, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "town_fight": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean flag (white with the red and blue taegeuk circle and black trigrams), wearing 1950 M1 steel helmets and olive drab summer field uniforms retaking a small 1950 Korean market town of tile-roofed and thatched houses beside a wide shallow river, firing rifles around a stone wall, North Korean soldiers whose heads are round balls painted as the North Korean flag (blue, thin white and wide red stripes with a red star in a white circle), wearing khaki 1950 uniforms and soft caps falling back down the street, smoke and fires, daylight after rain, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "tunnel_raid": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean flag (white with the red and blue taegeuk circle and black trigrams), wearing 1950 M1 steel helmets and olive drab summer field uniforms storming the mouth of an old railway tunnel in the Korean hills where North Korean soldiers whose heads are round balls painted as the North Korean flag (blue, thin white and wide red stripes with a red star in a white circle), wearing khaki 1950 uniforms and soft caps artillerymen are hiding with towed field guns and empty ammunition crates, rifle fire and grenade flashes, September 1950, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "orchard_hq": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: artillery shells exploding over an apple orchard on a hillside near a Korean town, North Korean soldiers whose heads are round balls painted as the North Korean flag (blue, thin white and wide red stripes with a red star in a white circle), wearing khaki 1950 uniforms and soft caps officers running from a hidden command post tent with maps and field telephones, red apples on the trees, smoke and blasts, September 1950, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "nk_retreat": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: North Korean soldiers whose heads are round balls painted as the North Korean flag (blue, thin white and wide red stripes with a red star in a white circle), wearing khaki 1950 uniforms and soft caps abandoning a damaged T-34/85 tank and a field gun on a mountain road and fleeing up into the steep forested hills, exhausted and scattered, smoke rising behind them, overcast September 1950 Korea, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "trucks": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean flag (white with the red and blue taegeuk circle and black trigrams), wearing 1950 M1 steel helmets and olive drab summer field uniforms riding in the backs of 1950 army trucks in a long column along a dusty Korean country road between rice paddies, rifles in hand, determined faces, hurrying to the front, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "dawn_victory": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean flag (white with the red and blue taegeuk circle and black trigrams), wearing 1950 M1 steel helmets and olive drab summer field uniforms standing on a hilltop at dawn looking down on a small Korean town beside a river with wisps of smoke rising, tired but relieved, golden morning light, September 1950, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "thumb_ref": "A South Korean infantryman in September 1950, M1 steel helmet, rain-soaked uniform, fierce determined eyes, charging forward with his rifle across a muddy road beside a burning North Korean T-34/85 tank, behind him more soldiers advancing through smoke toward a small Korean town by a river, blazing red-orange fire and explosions, gritty photorealistic war painting styled as a black-and-white 1950s documentary archive photograph, heavy film grain, scratches and dust, desaturated monochrome except the fire and explosions glow in vivid red and orange (selective color), extreme high contrast, serious military documentary mood, no cartoon, no 2D characters, no countryball, lighting: NO crushed pure-black areas anywhere — thick battlefield smoke, fog and haze glowing with backlight fill the shadows (lifted shadows, brighter mid-tones, overall about 20 percent brighter and higher contrast), strong rim light / backlight sharply outlining the soldier's helmet, face and shoulders and the tank silhouette, composition: the soldier and the burning tank in the center and upper-left of the frame, the bottom-right quarter of the frame kept plain and uncluttered (soft smoky haze, no subject), top area calm for text, no text, no letters, no logos, no watermark."
+ },
+ "scenes": [
+  {
+   "id": "s01",
+   "lines": [
+    "1 a.m., September 5th, 1950. A mountain valley north of Yeongcheon.",
+    "In the pouring rain, five North Korean tanks began rolling south."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "rain_attack",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "visuals": [
+    {
+     "atLine": 1,
+     "type": "map",
+     "to": "region",
+     "items": [
+      {
+       "k": "front",
+       "path": [
+        [
+         128.43,
+         35.08
+        ],
+        [
+         128.45,
+         35.35
+        ],
+        [
+         128.4,
+         35.6
+        ],
+        [
+         128.4,
+         35.8
+        ],
+        [
+         128.39,
+         35.99
+        ],
+        [
+         128.55,
+         36.1
+        ],
+        [
+         128.78,
+         36.13
+        ],
+        [
+         128.98,
+         36.14
+        ],
+        [
+         129.2,
+         36.12
+        ],
+        [
+         129.38,
+         36.1
+        ]
+       ],
+       "at": 0.1
+      },
+      {
+       "k": "arrow",
+       "path": [
+        [
+         128.697,
+         36.353
+        ],
+        [
+         128.85,
+         36.25
+        ],
+        [
+         128.98,
+         36.15
+        ],
+        [
+         128.96,
+         36.06
+        ],
+        [
+         128.94,
+         35.985
+        ]
+       ],
+       "color": "red",
+       "at": 0.4,
+       "width": 1.2
+      },
+      {
+       "k": "unit",
+       "p": "yeongcheon",
+       "text": "Yeongcheon",
+       "color": "blue",
+       "at": 0.8,
+       "pulse": true
+      }
+     ],
+     "from": "korea"
+    }
+   ],
+   "callouts": [
+    {
+     "text": "SEPT 5, 1950 · YEONGCHEON",
+     "style": "yellow",
+     "at": 0,
+     "until": 0
+    }
+   ],
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.3,
+     "volume": 0.35
+    },
+    {
+     "id": "whoosh",
+     "at": 1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "lines": [
+    "Yeongcheon was a crossroads: the Taegu–Pohang road met the road south to Gyeongju.",
+    "If it broke here, the waist of the Naktong line would be cut clean through."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "region",
+    "to": "region",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.43,
+        35.08
+       ],
+       [
+        128.45,
+        35.35
+       ],
+       [
+        128.4,
+        35.6
+       ],
+       [
+        128.4,
+        35.8
+       ],
+       [
+        128.39,
+        35.99
+       ],
+       [
+        128.55,
+        36.1
+       ],
+       [
+        128.78,
+        36.13
+       ],
+       [
+        128.98,
+        36.14
+       ],
+       [
+        129.2,
+        36.12
+       ],
+       [
+        129.38,
+        36.1
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        128.601,
+        35.871
+       ],
+       [
+        128.73,
+        35.93
+       ],
+       [
+        128.85,
+        35.962
+       ],
+       [
+        128.938,
+        35.973
+       ],
+       [
+        129.05,
+        35.99
+       ],
+       [
+        129.2,
+        36.005
+       ],
+       [
+        129.343,
+        36.019
+       ]
+      ],
+      "color": "#f4c430",
+      "at": 0.1
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        128.938,
+        35.973
+       ],
+       [
+        129.0,
+        35.93
+       ],
+       [
+        129.1,
+        35.885
+       ],
+       [
+        129.211,
+        35.856
+       ]
+      ],
+      "color": "#f4c430",
+      "at": 0.4
+     },
+     {
+      "k": "marker",
+      "p": "daegu",
+      "color": "blue",
+      "at": 0.2
+     },
+     {
+      "k": "marker",
+      "p": "pohang",
+      "color": "blue",
+      "at": 0.3
+     },
+     {
+      "k": "marker",
+      "p": "gyeongju",
+      "color": "blue",
+      "at": 0.5
+     },
+     {
+      "k": "unit",
+      "p": "yeongcheon",
+      "text": "Yeongcheon Junction",
+      "color": "blue",
+      "at": 0.6,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "TAEGU – YEONGCHEON – POHANG · YEONGCHEON – GYEONGJU – PUSAN",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "lines": [
+    "Turn west, and the troops fighting at Dabu-dong would be hit from behind.",
+    "Push south to Gyeongju, and almost nothing stood between the enemy and Pusan."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "region",
+    "to": "perimeter",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.43,
+        35.08
+       ],
+       [
+        128.45,
+        35.35
+       ],
+       [
+        128.4,
+        35.6
+       ],
+       [
+        128.4,
+        35.8
+       ],
+       [
+        128.39,
+        35.99
+       ],
+       [
+        128.55,
+        36.1
+       ],
+       [
+        128.78,
+        36.13
+       ],
+       [
+        128.98,
+        36.14
+       ],
+       [
+        129.2,
+        36.12
+       ],
+       [
+        129.38,
+        36.1
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "yeongcheon",
+      "text": "Yeongcheon",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.92,
+        35.98
+       ],
+       [
+        128.75,
+        35.97
+       ],
+       [
+        128.6,
+        36.0
+       ]
+      ],
+      "color": "red",
+      "at": 0.1,
+      "width": 1.1
+     },
+     {
+      "k": "marker",
+      "p": "dabudong",
+      "color": "blue",
+      "at": 0.3
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.938,
+        35.973
+       ],
+       [
+        129.0,
+        35.93
+       ],
+       [
+        129.1,
+        35.885
+       ],
+       [
+        129.211,
+        35.856
+       ],
+       [
+        129.2,
+        35.6
+       ],
+       [
+        129.15,
+        35.35
+       ],
+       [
+        129.06,
+        35.15
+       ]
+      ],
+      "color": "red",
+      "at": 1,
+      "width": 1.2,
+      "dur": 1.8
+     },
+     {
+      "k": "marker",
+      "p": "busan",
+      "color": "blue",
+      "at": 1.3
+     }
+    ]
+   }
+  },
+  {
+   "id": "s04",
+   "lines": [
+    "Then, on September 6th, North Korean troops entered the town of Yeongcheon.",
+    "The waist of the Naktong line had finally been pierced."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "SEPT 6, 1950\nYeongcheon falls"
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s05",
+   "lines": [
+    "Yet one week later, the North Korean division that took Yeongcheon would vanish from the map.",
+    "This is the Battle of Yeongcheon, the hidden reversal that held the line."
+   ],
+   "visual": {
+    "type": "titlecard",
+    "q": "s05-photo",
+    "title": "Battle of Yeongcheon",
+    "sub": "The Turning Point at the Perimeter · 1950",
+    "at": 1
+   },
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 1,
+     "volume": 0.5
+    }
+   ],
+   "flash": true
+  },
+  {
+   "id": "s06",
+   "lines": [
+    "By August 1950, South Korean and UN forces had been pushed back to the Naktong River.",
+    "From Masan through Waegwan to Yeongdeok, it was their last line of defense."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "perimeter",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.43,
+        35.08
+       ],
+       [
+        128.45,
+        35.35
+       ],
+       [
+        128.4,
+        35.6
+       ],
+       [
+        128.4,
+        35.8
+       ],
+       [
+        128.39,
+        35.99
+       ],
+       [
+        128.55,
+        36.1
+       ],
+       [
+        128.78,
+        36.13
+       ],
+       [
+        128.98,
+        36.14
+       ],
+       [
+        129.2,
+        36.12
+       ],
+       [
+        129.38,
+        36.1
+       ]
+      ],
+      "at": 0.3
+     },
+     {
+      "k": "marker",
+      "p": "daegu",
+      "color": "blue",
+      "at": 1
+     },
+     {
+      "k": "marker",
+      "p": "busan",
+      "color": "blue",
+      "at": 1.2
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "PUSAN PERIMETER (APPROX.)",
+     "style": "blue",
+     "at": 0.3,
+     "pos": "top"
+    }
+   ],
+   "chapter": {
+    "num": "PART 1",
+    "title": "THE WAIST OF THE LAST LINE"
+   }
+  },
+  {
+   "id": "s07",
+   "lines": [
+    "All through August, the North Koreans went for Taegu, and were stopped at Dabu-dong.",
+    "So in September, they turned their eyes east."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s07-photo",
+    "kb": "right"
+   },
+   "label": "ROK soldiers on the Naktong line (Aug 1950)"
+  },
+  {
+   "id": "s08",
+   "lines": [
+    "The attack fell to the North Korean 15th Division.",
+    "It came down through Uiseong and over the ridges of Mount Bohyeon, heading south for Yeongcheon."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "region",
+    "to": "region",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.43,
+        35.08
+       ],
+       [
+        128.45,
+        35.35
+       ],
+       [
+        128.4,
+        35.6
+       ],
+       [
+        128.4,
+        35.8
+       ],
+       [
+        128.39,
+        35.99
+       ],
+       [
+        128.55,
+        36.1
+       ],
+       [
+        128.78,
+        36.13
+       ],
+       [
+        128.98,
+        36.14
+       ],
+       [
+        129.2,
+        36.12
+       ],
+       [
+        129.38,
+        36.1
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "nk15",
+      "text": "NK 15th Div",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "uiseong",
+      "color": "dark",
+      "at": 0.6
+     },
+     {
+      "k": "marker",
+      "p": "bohyeon",
+      "color": "dark",
+      "at": 0.9
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.697,
+        36.353
+       ],
+       [
+        128.85,
+        36.25
+       ],
+       [
+        128.98,
+        36.15
+       ],
+       [
+        128.96,
+        36.06
+       ],
+       [
+        128.94,
+        35.985
+       ]
+      ],
+      "color": "red",
+      "at": 1,
+      "width": 1.2,
+      "dur": 1.6
+     },
+     {
+      "k": "marker",
+      "p": "yeongcheon",
+      "color": "blue",
+      "at": 1.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "s09",
+   "lines": [
+    "North of Yeongcheon lies rugged high ground, Mount Bohyeon at 1,124 meters, and Mount Giryong.",
+    "Come down off those mountains, and a wide basin opens up along the Geumho River."
+   ],
+   "visual": {
+    "type": "profile",
+    "pts": [
+     [
+      0,
+      900
+     ],
+     [
+      0.08,
+      1124
+     ],
+     [
+      0.16,
+      820
+     ],
+     [
+      0.24,
+      560
+     ],
+     [
+      0.32,
+      760
+     ],
+     [
+      0.38,
+      961
+     ],
+     [
+      0.45,
+      640
+     ],
+     [
+      0.52,
+      320
+     ],
+     [
+      0.6,
+      140
+     ],
+     [
+      0.68,
+      100
+     ],
+     [
+      0.74,
+      90
+     ],
+     [
+      0.8,
+      120
+     ],
+     [
+      0.88,
+      260
+     ],
+     [
+      0.95,
+      380
+     ],
+     [
+      1,
+      420
+     ]
+    ],
+    "grid": [
+     500,
+     1000
+    ],
+    "yMin": 0,
+    "yMax": 1200,
+    "title": "Yeongcheon · North–South Terrain Profile",
+    "note": "Schematic (vertical exaggeration)",
+    "left": "N · Bohyeon highlands",
+    "right": "S · Toward Gyeongju",
+    "marks": [
+     {
+      "x": 0.08,
+      "text": "Mt. Bohyeon",
+      "style": "dark",
+      "at": 0,
+      "lift": 70,
+      "size": 38
+     },
+     {
+      "x": 0.38,
+      "text": "Mt. Giryong",
+      "style": "dark",
+      "at": 0.3,
+      "lift": 70,
+      "size": 38
+     },
+     {
+      "x": 0.7,
+      "text": "Yeongcheon · Geumho",
+      "style": "blue",
+      "at": 1,
+      "lift": 160,
+      "size": 42
+     }
+    ],
+    "arrows": [
+     {
+      "from": 0.1,
+      "to": 0.62,
+      "color": "red",
+      "at": 1.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "s10",
+   "lines": [
+    "The town of Yeongcheon sat in the middle of that basin, on the banks of the Geumho.",
+    "For an enemy that had crossed the mountains, no terrain was left to stop him."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "region",
+    "to": "yc",
+    "items": [
+     {
+      "k": "unit",
+      "p": "yeongcheon",
+      "text": "Yeongcheon Town",
+      "color": "blue",
+      "at": 0.3
+     },
+     {
+      "k": "badge",
+      "p": "geumho",
+      "text": "Geumho River",
+      "color": "#2a3a55",
+      "at": 0.6,
+      "dy": 0
+     },
+     {
+      "k": "marker",
+      "p": "giryong",
+      "color": "dark",
+      "at": 1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.99,
+        36.14
+       ],
+       [
+        128.97,
+        36.06
+       ],
+       [
+        128.945,
+        35.99
+       ]
+      ],
+      "color": "red",
+      "at": 1.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "s11",
+   "lines": [
+    "Holding the line here was the ROK 8th Division.",
+    "Worn out, it had fought its way south through the central mountains since day one."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s11-photo",
+    "kb": "left"
+   },
+   "label": "ROK soldiers on the march (1950)"
+  },
+  {
+   "id": "s12",
+   "lines": [
+    "The North Korean 15th Division attacked behind its tanks.",
+    "The South Korean division did not have a single tank of its own."
+   ],
+   "visual": {
+    "type": "versus",
+    "left": {
+     "n": 1,
+     "label": "ROK 8th Div · No tanks",
+     "color": "blue"
+    },
+    "right": {
+     "n": 3,
+     "label": "NK 15th Div · Tank-led",
+     "color": "red"
+    },
+    "at": 0
+   },
+   "callouts": [
+    {
+     "text": "ROK records: 5 tanks led the attack",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s12b",
+   "lines": [
+    "Meanwhile, the North Koreans were attacking along the entire Naktong front.",
+    "Masan, Waegwan, Dabu-dong, Pohang. Nowhere could the defenders spare a single man."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "perimeter",
+    "to": "perimeter",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.43,
+        35.08
+       ],
+       [
+        128.45,
+        35.35
+       ],
+       [
+        128.4,
+        35.6
+       ],
+       [
+        128.4,
+        35.8
+       ],
+       [
+        128.39,
+        35.99
+       ],
+       [
+        128.55,
+        36.1
+       ],
+       [
+        128.78,
+        36.13
+       ],
+       [
+        128.98,
+        36.14
+       ],
+       [
+        129.2,
+        36.12
+       ],
+       [
+        129.38,
+        36.1
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.1,
+        35.25
+       ],
+       [
+        128.3,
+        35.22
+       ],
+       [
+        128.43,
+        35.2
+       ]
+      ],
+      "color": "red",
+      "at": 0.1,
+      "width": 0.9
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.15,
+        36.0
+       ],
+       [
+        128.28,
+        35.99
+       ],
+       [
+        128.39,
+        35.99
+       ]
+      ],
+      "color": "red",
+      "at": 0.3,
+      "width": 0.9
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.5,
+        36.3
+       ],
+       [
+        128.53,
+        36.17
+       ],
+       [
+        128.55,
+        36.08
+       ]
+      ],
+      "color": "red",
+      "at": 0.5,
+      "width": 0.9
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        129.3,
+        36.35
+       ],
+       [
+        129.33,
+        36.2
+       ],
+       [
+        129.34,
+        36.06
+       ]
+      ],
+      "color": "red",
+      "at": 0.7,
+      "width": 0.9
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.697,
+        36.353
+       ],
+       [
+        128.85,
+        36.25
+       ],
+       [
+        128.98,
+        36.15
+       ],
+       [
+        128.96,
+        36.06
+       ],
+       [
+        128.94,
+        35.985
+       ]
+      ],
+      "color": "red",
+      "at": 1,
+      "width": 1.2
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "SEPT 1950 · NK GREAT OFFENSIVE",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "lines": [
+    "On the night of September 2nd, the North Korean attack began.",
+    "By dawn the next day, the positions of the ROK 16th Regiment had collapsed."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "rain_attack",
+    "kb": "out"
+   },
+   "label": "Dramatization",
+   "chapter": {
+    "num": "PART 2",
+    "title": "THE LINE BREAKS"
+   },
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0,
+     "volume": 0.5
+    },
+    {
+     "id": "mg",
+     "at": 1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "lines": [
+    "The 8th Division fell back to the Giryong ridge and dug a new line.",
+    "But before dawn on September 5th, the enemy struck from three directions at once."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "yc",
+    "to": "yc",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.8,
+        36.08
+       ],
+       [
+        128.9,
+        36.085
+       ],
+       [
+        129.0,
+        36.075
+       ],
+       [
+        129.1,
+        36.08
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "rok8",
+      "text": "ROK 8th Div",
+      "color": "blue",
+      "at": 0.2
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.86,
+        36.2
+       ],
+       [
+        128.88,
+        36.12
+       ],
+       [
+        128.91,
+        36.05
+       ]
+      ],
+      "color": "red",
+      "at": 1,
+      "width": 0.9
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.99,
+        36.2
+       ],
+       [
+        128.97,
+        36.12
+       ],
+       [
+        128.95,
+        36.04
+       ]
+      ],
+      "color": "red",
+      "at": 1.2,
+      "width": 0.9
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        129.1,
+        36.19
+       ],
+       [
+        129.05,
+        36.11
+       ],
+       [
+        128.99,
+        36.04
+       ]
+      ],
+      "color": "red",
+      "at": 1.4,
+      "width": 0.9
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "SEPT 5, 1 A.M. · ATTACK FROM 3 DIRECTIONS",
+     "style": "red",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "lines": [
+    "The tanks led the way through the rain.",
+    "When an enemy tank swung in behind the line, an entire ROK regiment scattered in moments."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "tank_break",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "callouts": [
+    {
+     "text": "U.S. Army official history",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0.3,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s15b",
+   "lines": [
+    "Korean officers and American advisors rounded up the scattered men.",
+    "Regrouped, the 8th Division turned to face Yeongcheon once more."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s15b-photo",
+    "kb": "in"
+   },
+   "label": "ROK soldier on watch in a trench (1950)"
+  },
+  {
+   "id": "s16",
+   "lines": [
+    "On September 6th, the North Koreans pushed into the town of Yeongcheon.",
+    "The road linking Taegu and Pohang had fallen into enemy hands."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "yc",
+    "to": "city",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.601,
+        35.871
+       ],
+       [
+        128.73,
+        35.93
+       ],
+       [
+        128.85,
+        35.962
+       ],
+       [
+        128.938,
+        35.973
+       ],
+       [
+        129.05,
+        35.99
+       ],
+       [
+        129.2,
+        36.005
+       ],
+       [
+        129.343,
+        36.019
+       ]
+      ],
+      "color": "#f4c430",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.96,
+        36.06
+       ],
+       [
+        128.95,
+        36.02
+       ],
+       [
+        128.94,
+        35.98
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 1.2
+     },
+     {
+      "k": "unit",
+      "p": "yeongcheon",
+      "text": "Yeongcheon Falls",
+      "color": "red",
+      "at": 0.6,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "SEPT 6, 1950 · YEONGCHEON FALLS",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s17",
+   "lines": [
+    "South of town the enemy set a roadblock and cut the road to Gyeongju.",
+    "By Korean records, the road between Yeongcheon and Gyeongju stayed closed for five days."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "city",
+    "to": "region",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.938,
+        35.973
+       ],
+       [
+        129.0,
+        35.93
+       ],
+       [
+        129.1,
+        35.885
+       ],
+       [
+        129.211,
+        35.856
+       ]
+      ],
+      "color": "#f4c430",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "roadblock",
+      "text": "Enemy Roadblock",
+      "color": "red",
+      "at": 0.3
+     },
+     {
+      "k": "marker",
+      "p": "gyeongju",
+      "color": "blue",
+      "at": 0.6
+     },
+     {
+      "k": "marker",
+      "p": "daegu",
+      "color": "blue",
+      "at": 0.8
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "YEONGCHEON–GYEONGJU ROAD CUT 5 DAYS · ROK RECORDS",
+     "style": "red",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s18",
+   "lines": [
+    "Then ROK Army headquarters and the U.S. Eighth Army made an urgent call.",
+    "Pull regiments out of other sectors, and send them to Yeongcheon."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "trucks",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s19",
+   "lines": [
+    "The 1st Division's 11th Regiment, the 6th's 19th, and the new 7th Division's 5th.",
+    "Regiments from across the front raced to Yeongcheon by truck."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "region",
+    "to": "region",
+    "items": [
+     {
+      "k": "unit",
+      "p": "yeongcheon",
+      "text": "Yeongcheon",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.55,
+        36.05
+       ],
+       [
+        128.7,
+        36.0
+       ],
+       [
+        128.88,
+        35.97
+       ]
+      ],
+      "color": "blue",
+      "at": 0,
+      "width": 1.0
+     },
+     {
+      "k": "badge",
+      "p": "r11",
+      "text": "1st Div · 11th Regt",
+      "color": "blue",
+      "at": 0.1,
+      "dy": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.7,
+        36.12
+       ],
+       [
+        128.8,
+        36.06
+       ],
+       [
+        128.9,
+        36.0
+       ]
+      ],
+      "color": "blue",
+      "at": 0.4,
+      "width": 1.0
+     },
+     {
+      "k": "badge",
+      "p": "r19",
+      "text": "6th Div · 19th Regt",
+      "color": "blue",
+      "at": 0.5,
+      "dy": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        129.2,
+        35.9
+       ],
+       [
+        129.08,
+        35.95
+       ],
+       [
+        128.98,
+        35.97
+       ]
+      ],
+      "color": "blue",
+      "at": 0.8,
+      "width": 1.0
+     },
+     {
+      "k": "badge",
+      "p": "r5",
+      "text": "7th Div · 5th Regt",
+      "color": "blue",
+      "at": 0.9,
+      "dy": 0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "COMMITTED UNDER ROK II CORPS",
+     "style": "blue",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s20",
+   "lines": [
+    "Command went to the ROK II Corps commander, General Yu Jae-hung.",
+    "A platoon of American tanks came too, but the heart of the fight was South Korean infantry."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s20-photo",
+    "kb": "in"
+   },
+   "label": "ROK troops moving by truck (1950)",
+   "callouts": [
+    {
+     "text": "ROK records: 1 U.S. tank platoon (5 tanks)",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s21",
+   "lines": [
+    "From the afternoon of September 6th, the town changed hands in a seesaw fight.",
+    "Each time the ROK troops retook it, fresh enemy units pushed back in."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "town_fight",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 0.3,
+     "volume": 0.4
+    },
+    {
+     "id": "boom",
+     "at": 1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s21b",
+   "lines": [
+    "On September 7th, the 19th Regiment ambushed an enemy supply column, wrecking some thirty trucks.",
+    "The enemy's forward infantry was being cut off from the supplies behind it."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "yc",
+    "to": "yc",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.96,
+        36.15
+       ],
+       [
+        128.965,
+        36.08
+       ],
+       [
+        128.95,
+        36.02
+       ]
+      ],
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "supply",
+      "text": "Enemy Supply Column",
+      "color": "red",
+      "at": 0.2
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.85,
+        36.11
+       ],
+       [
+        128.9,
+        36.1
+       ],
+       [
+        128.95,
+        36.095
+       ]
+      ],
+      "color": "blue",
+      "at": 0.5,
+      "width": 1.0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "SEPT 7 · ~30 ENEMY TRUCKS DESTROYED (ROK RECORDS)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s22",
+   "lines": [
+    "Then, at 2:45 p.m. on September 8th,",
+    "South Korean troops finally took the town of Yeongcheon back."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "city",
+    "to": "city",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.86,
+        35.96
+       ],
+       [
+        128.9,
+        35.97
+       ],
+       [
+        128.93,
+        35.973
+       ]
+      ],
+      "color": "blue",
+      "at": 0.2,
+      "width": 1.2
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        129.02,
+        35.95
+       ],
+       [
+        128.98,
+        35.965
+       ],
+       [
+        128.945,
+        35.972
+       ]
+      ],
+      "color": "blue",
+      "at": 0.4,
+      "width": 1.2
+     },
+     {
+      "k": "unit",
+      "p": "yeongcheon",
+      "text": "Yeongcheon Retaken",
+      "color": "blue",
+      "at": 1,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "SEPT 8, 2:45 P.M. · ROK RECORDS",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "charge",
+     "at": 1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s23",
+   "lines": [
+    "Now the hunter and the hunted traded places.",
+    "The enemy deep in Yeongcheon was now trapped among South Korean forces."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "Counter-Encirclement",
+    "style": "yellow",
+    "sub": "The enemy that broke in, surrounded in turn",
+    "subAt": 1
+   },
+   "chapter": {
+    "num": "PART 3",
+    "title": "THE HUNTER BECOMES THE HUNTED"
+   }
+  },
+  {
+   "id": "s24",
+   "lines": [
+    "The 15th Division's artillery had run ahead of its infantry, and was out of shells.",
+    "Korean records say on September 9th, the ROK 5th Regiment overran an enemy artillery regiment hiding in a tunnel."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "tunnel_raid",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "charge",
+     "at": 1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s25",
+   "lines": [
+    "On September 10th, ROK II Corps launched its general counterattack.",
+    "It reopened the Gyeongju road and closed in from the south, west and north."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "yc",
+    "to": "yc",
+    "items": [
+     {
+      "k": "unit",
+      "p": "nk15c",
+      "text": "NK 15th Div",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.95,
+        35.9
+       ],
+       [
+        128.95,
+        35.96
+       ],
+       [
+        128.95,
+        36.0
+       ]
+      ],
+      "color": "blue",
+      "at": 0.6,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.8,
+        35.99
+       ],
+       [
+        128.87,
+        36.0
+       ],
+       [
+        128.92,
+        36.02
+       ]
+      ],
+      "color": "blue",
+      "at": 0.9,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        129.02,
+        36.12
+       ],
+       [
+        128.99,
+        36.08
+       ],
+       [
+        128.965,
+        36.045
+       ]
+      ],
+      "color": "blue",
+      "at": 1.2,
+      "width": 1.0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "SEPT 10, 1950 · ROK II CORPS COUNTERATTACK",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s26",
+   "lines": [
+    "The 21st and 19th Regiments blocked the paths back into the mountains.",
+    "The enemy that had come down to Yeongcheon now had no way home."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "yc",
+    "to": "yc",
+    "items": [
+     {
+      "k": "unit",
+      "p": "nk15c",
+      "text": "NK 15th Div",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        128.88,
+        36.07
+       ],
+       [
+        128.93,
+        36.1
+       ],
+       [
+        129.0,
+        36.1
+       ],
+       [
+        129.05,
+        36.07
+       ]
+      ],
+      "color": "blue",
+      "at": 0.2
+     },
+     {
+      "k": "badge",
+      "p": "cut",
+      "text": "Escape Cut Off",
+      "color": "blue",
+      "at": 0.5,
+      "dy": 0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "SEPT 11 · 21ST & 19TH REGTS CUT ESCAPE (ROK RECORDS)",
+     "style": "blue",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s27",
+   "lines": [
+    "Prisoner interrogations revealed the location of the enemy division headquarters.",
+    "On September 11th, ROK troops struck it at Daeui-dong, north of Yeongcheon."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s27-photo",
+    "kb": "in"
+   },
+   "label": "North Korean prisoners taken by ROK troops (Sep 1950)"
+  },
+  {
+   "id": "s28",
+   "lines": [
+    "South Korean shells rained down on the headquarters hidden in an apple orchard.",
+    "U.S. records say the division's chief of staff, Colonel Kim Yon, was killed around then."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "orchard_hq",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "callouts": [
+    {
+     "text": "U.S. Army history: Chief of Staff Col. Kim Yon KIA (Sep 9–10)",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "whoosh",
+     "at": 0,
+     "volume": 0.4
+    },
+    {
+     "id": "boom",
+     "at": 0.3,
+     "volume": 0.6
+    }
+   ]
+  },
+  {
+   "id": "s29",
+   "lines": [
+    "Its commander, Pak Song-chol, had reportedly already been relieved for the delay.",
+    "Leaderless, the enemy abandoned tanks and guns and scattered into the hills.",
+    "That same Pak Song-chol would later become premier of North Korea."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "nk_retreat",
+    "kb": "out"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s30",
+   "lines": [
+    "On September 12th, the 8th Division restored its broken line.",
+    "And by September 13th, the threat to Yeongcheon was gone."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "dawn_victory",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s31",
+   "lines": [
+    "By Korean records, 3,799 North Koreans killed and 309 captured.",
+    "Five tanks destroyed, and 85 vehicles and 2,327 small arms captured."
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "Per ROK records (Sep 5–13, 1950)",
+    "items": [
+     {
+      "label": "NK killed",
+      "value": 3799,
+      "display": "3,799",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "label": "NK captured",
+      "value": 309,
+      "display": "309",
+      "color": "red",
+      "at": 0.4
+     },
+     {
+      "label": "Small arms captured",
+      "value": 2327,
+      "display": "2,327",
+      "color": "blue",
+      "at": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s32",
+   "lines": [
+    "The North Korean 15th Division had effectively ceased to exist as a division.",
+    "A rare victory: a South Korean-led counterattack broke an entire enemy division."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s32-photo",
+    "kb": "in"
+   },
+   "label": "Abandoned North Korean T-34 tank (1950)"
+  },
+  {
+   "id": "s33",
+   "lines": [
+    "How could a South Korean force without tanks destroy an entire enemy division?",
+    "Let's break it down into four factors."
+   ],
+   "visual": {
+    "type": "factors",
+    "items": [
+     "Rapid Redeployment",
+     "Enemy Supply Collapse",
+     "Counter-Encirclement",
+     "Artillery Strike"
+    ],
+    "head": "No Tanks vs Tank-Led Enemy — How?",
+    "at": 1
+   },
+   "chapter": {
+    "num": "PART 4",
+    "title": "4 DECIDING FACTORS"
+   }
+  },
+  {
+   "id": "s34",
+   "lines": [
+    "First, rapid redeployment."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s34-photo",
+    "num": "Factor 1",
+    "title": "Rapid Redeployment"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s35",
+   "lines": [
+    "Regiments were pulled from across the front and massed at Yeongcheon within a day or two.",
+    "The very afternoon the enemy entered town, they were already arriving.",
+    "The U.S. Army's official history called it a notable command achievement."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "region",
+    "to": "region",
+    "items": [
+     {
+      "k": "unit",
+      "p": "yeongcheon",
+      "text": "Yeongcheon",
+      "color": "blue",
+      "at": 0,
+      "pulse": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.55,
+        36.05
+       ],
+       [
+        128.7,
+        36.0
+       ],
+       [
+        128.88,
+        35.97
+       ]
+      ],
+      "color": "blue",
+      "at": 0.2,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.7,
+        36.12
+       ],
+       [
+        128.8,
+        36.06
+       ],
+       [
+        128.9,
+        36.0
+       ]
+      ],
+      "color": "blue",
+      "at": 0.4,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        129.2,
+        35.9
+       ],
+       [
+        129.08,
+        35.95
+       ],
+       [
+        128.98,
+        35.97
+       ]
+      ],
+      "color": "blue",
+      "at": 0.6,
+      "width": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "s36",
+   "lines": [
+    "Second, the collapse of enemy supply."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s36-photo",
+    "num": "Factor 2",
+    "title": "Enemy Supply Collapse"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s37",
+   "lines": [
+    "The enemy had crossed rugged mountains and gone too far; shells and food could not keep up.",
+    "Even after taking the town, he had no strength left for the next step."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "NK 15th Div",
+     "big": "SUPPLY CUT",
+     "icon": "none",
+     "color": "red"
+    },
+    "right": {
+     "title": "ROK II Corps",
+     "big": "REINFORCED",
+     "icon": "none",
+     "color": "blue",
+     "at": 1
+    }
+   }
+  },
+  {
+   "id": "s38",
+   "lines": [
+    "Third, counter-encirclement."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s38-photo",
+    "num": "Factor 3",
+    "title": "Counter-Encirclement"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s39",
+   "lines": [
+    "The ROK troops didn't just plug the gap; they swung behind the enemy and cut his escape.",
+    "A battle to hold became a battle to trap."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "yc",
+    "to": "yc",
+    "items": [
+     {
+      "k": "unit",
+      "p": "nk15c",
+      "text": "NK 15th Div",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.95,
+        35.9
+       ],
+       [
+        128.95,
+        35.96
+       ],
+       [
+        128.95,
+        36.0
+       ]
+      ],
+      "color": "blue",
+      "at": 0.2,
+      "width": 0.9
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.8,
+        35.99
+       ],
+       [
+        128.87,
+        36.0
+       ],
+       [
+        128.92,
+        36.02
+       ]
+      ],
+      "color": "blue",
+      "at": 0.4,
+      "width": 0.9
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        128.88,
+        36.07
+       ],
+       [
+        128.93,
+        36.1
+       ],
+       [
+        129.0,
+        36.1
+       ],
+       [
+        129.05,
+        36.07
+       ]
+      ],
+      "color": "blue",
+      "at": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "s40",
+   "lines": [
+    "Fourth, the artillery strike."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s40-photo",
+    "num": "Factor 4",
+    "title": "Artillery Strike"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s41",
+   "lines": [
+    "South Korean artillery first silenced the enemy's guns,",
+    "then hit the orchard where the enemy headquarters was hiding."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s41-photo",
+    "kb": "in"
+   },
+   "label": "ROK artillery in action (1950)",
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.3,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s42",
+   "lines": [
+    "Two days after the battle, on September 15th, UN forces landed at Inchon.",
+    "Because the Naktong line held, the door to the counteroffensive swung open."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "perimeter",
+    "to": "korea",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.43,
+        35.08
+       ],
+       [
+        128.45,
+        35.35
+       ],
+       [
+        128.4,
+        35.6
+       ],
+       [
+        128.4,
+        35.8
+       ],
+       [
+        128.39,
+        35.99
+       ],
+       [
+        128.55,
+        36.1
+       ],
+       [
+        128.78,
+        36.13
+       ],
+       [
+        128.98,
+        36.14
+       ],
+       [
+        129.2,
+        36.12
+       ],
+       [
+        129.38,
+        36.1
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "inchon",
+      "color": "blue",
+      "at": 0.5
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        125.9,
+        37.3
+       ],
+       [
+        126.3,
+        37.42
+       ],
+       [
+        126.6,
+        37.47
+       ]
+      ],
+      "color": "blue",
+      "at": 0.6,
+      "width": 1.4
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "SEPT 15, 1950 · INCHON LANDING",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "chapter": {
+    "num": "EPILOGUE",
+    "title": "THE DOOR TO VICTORY"
+   }
+  },
+  {
+   "id": "s43",
+   "lines": [
+    "On September 16th, the forces on the Naktong front broke out as well.",
+    "After nearly three months of retreat, the tide of the war turned for the first time."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s43-photo",
+    "kb": "in"
+   },
+   "label": "UN forces landing at Inchon (Sep 15, 1950)"
+  },
+  {
+   "id": "s44",
+   "lines": [
+    "Today, a battle monument and a memorial park stand in Yeongcheon.",
+    "And nearby, at the Yeongcheon National Cemetery, countless veterans lie at rest."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s44-photo",
+    "kb": "in",
+    "bw": false
+   },
+   "label": "Yeongcheon National Cemetery"
+  },
+  {
+   "id": "s45",
+   "lines": [
+    "More than seventy years have passed since then.",
+    "Few remember Yeongcheon the way they remember Dabu-dong or Inchon.",
+    "Yet without those nine days, the September counteroffensive might never have come."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "Over 70 years",
+    "accent": "A forgotten name: Yeongcheon",
+    "accentAt": 1
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s46",
+   "lines": [
+    "Nine days that held the waist of the Naktong line, at its most dangerous moment.",
+    "Yeongcheon was where the great counteroffensive began."
+   ],
+   "visual": {
+    "type": "quotes",
+    "title": "What Yeongcheon Left Behind",
+    "items": [
+     {
+      "text": "9 days that held the line",
+      "at": 0
+     },
+     {
+      "text": "Where the counteroffensive began",
+      "at": 1
+     }
+    ]
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s47",
+   "lines": [
+    "If this story meant something to you, please subscribe and like the video.",
+    "We'll continue to bring the forgotten records of war to light."
+   ],
+   "visual": {
+    "type": "endcard",
+    "title": "September 1950. Yeongcheon.\nNine Days That Held the Line.",
+    "q": "s47-photo"
+   },
+   "tail": 3.0
+  }
+ ],
+ "lang": "en",
+ "assets_ep": "yeongcheon",
+ "voice": "pNInz6obpgDQGcFmaJgB",
+ "tempo": 1.02
+}

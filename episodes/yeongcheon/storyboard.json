@@ -1,0 +1,2794 @@
+{
+ "title": "영천 전투",
+ "subtitle": "1950. 9. 5 ~ 13",
+ "target_sec": 510,
+ "places": {
+  "seoul": [
+   126.978,
+   37.566,
+   "서울"
+  ],
+  "inchon": [
+   126.62,
+   37.47,
+   "인천"
+  ],
+  "daegu": [
+   128.601,
+   35.871,
+   "대구"
+  ],
+  "busan": [
+   129.075,
+   35.18,
+   "부산"
+  ],
+  "pohang": [
+   129.343,
+   36.019,
+   "포항"
+  ],
+  "gyeongju": [
+   129.211,
+   35.856,
+   "경주"
+  ],
+  "uiseong": [
+   128.697,
+   36.353,
+   "의성"
+  ],
+  "dabudong": [
+   128.555,
+   36.045,
+   "다부동"
+  ],
+  "yeongcheon": [
+   128.938,
+   35.973,
+   "영천"
+  ],
+  "bohyeon": [
+   128.973,
+   36.163,
+   "보현산"
+  ],
+  "giryong": [
+   129.04,
+   36.075,
+   "기룡산"
+  ],
+  "geumho": [
+   128.86,
+   35.95,
+   "금호강"
+  ],
+  "nk15": [
+   128.8,
+   36.3,
+   "북한군 15사단"
+  ],
+  "rok8": [
+   128.97,
+   36.09,
+   "국군 8사단"
+  ],
+  "roadblock": [
+   128.99,
+   35.93,
+   "적 차단선"
+  ],
+  "r11": [
+   128.66,
+   36.06,
+   "1사단 11연대"
+  ],
+  "r19": [
+   128.74,
+   36.15,
+   "6사단 19연대"
+  ],
+  "r5": [
+   129.15,
+   35.95,
+   "7사단 5연대"
+  ],
+  "supply": [
+   128.965,
+   36.1,
+   "적 보급부대"
+  ],
+  "nk15c": [
+   128.955,
+   36.04,
+   "북한군 15사단"
+  ],
+  "cut": [
+   128.97,
+   36.125,
+   "퇴로 차단"
+  ]
+ },
+ "views": {
+  "korea": {
+   "center": [
+    127.8,
+    36.6
+   ],
+   "span": 9.0
+  },
+  "perimeter": {
+   "center": [
+    128.75,
+    35.6
+   ],
+   "span": 2.4
+  },
+  "region": {
+   "center": [
+    128.92,
+    36.07
+   ],
+   "span": 1.2
+  },
+  "yc": {
+   "center": [
+    128.95,
+    36.05
+   ],
+   "span": 0.42
+  },
+  "city": {
+   "center": [
+    128.94,
+    35.985
+   ],
+   "span": 0.2
+  }
+ },
+ "music": [
+  {
+   "id": "drone",
+   "from": "s01",
+   "to": "s05",
+   "volume": 0.2
+  },
+  {
+   "id": "theme",
+   "from": "s06",
+   "to": "s12",
+   "volume": 0.16
+  },
+  {
+   "id": "tension",
+   "from": "s13",
+   "to": "s22",
+   "volume": 0.17
+  },
+  {
+   "id": "march",
+   "from": "s23",
+   "to": "s32",
+   "volume": 0.15
+  },
+  {
+   "id": "analysis",
+   "from": "s33",
+   "to": "s41",
+   "volume": 0.13
+  },
+  {
+   "id": "somber",
+   "from": "s42",
+   "to": "s47",
+   "volume": 0.17
+  }
+ ],
+ "ai_images": {
+  "rain_attack": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: North Korean soldiers whose heads are round balls painted as the North Korean flag (blue, thin white and wide red stripes with a red star in a white circle), wearing khaki 1950 uniforms and soft caps, advancing at night in heavy rain down a muddy mountain road in Korea in September 1950 behind a column of T-34/85 tanks with headlights off, steep dark forested mountains on both sides, rain streaks and puddles, tense ominous mood, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "tank_break": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a North Korean T-34/85 tank smashing through behind a line of hillside foxholes, South Korean soldiers whose heads are round balls painted as the South Korean flag (white with the red and blue taegeuk circle and black trigrams), wearing 1950 M1 steel helmets and olive drab summer field uniforms scattering in shock and confusion, mud and rain, smoke from a burning truck, September 1950 Korea, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "town_fight": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean flag (white with the red and blue taegeuk circle and black trigrams), wearing 1950 M1 steel helmets and olive drab summer field uniforms retaking a small 1950 Korean market town of tile-roofed and thatched houses beside a wide shallow river, firing rifles around a stone wall, North Korean soldiers whose heads are round balls painted as the North Korean flag (blue, thin white and wide red stripes with a red star in a white circle), wearing khaki 1950 uniforms and soft caps falling back down the street, smoke and fires, daylight after rain, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "tunnel_raid": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean flag (white with the red and blue taegeuk circle and black trigrams), wearing 1950 M1 steel helmets and olive drab summer field uniforms storming the mouth of an old railway tunnel in the Korean hills where North Korean soldiers whose heads are round balls painted as the North Korean flag (blue, thin white and wide red stripes with a red star in a white circle), wearing khaki 1950 uniforms and soft caps artillerymen are hiding with towed field guns and empty ammunition crates, rifle fire and grenade flashes, September 1950, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "orchard_hq": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: artillery shells exploding over an apple orchard on a hillside near a Korean town, North Korean soldiers whose heads are round balls painted as the North Korean flag (blue, thin white and wide red stripes with a red star in a white circle), wearing khaki 1950 uniforms and soft caps officers running from a hidden command post tent with maps and field telephones, red apples on the trees, smoke and blasts, September 1950, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "nk_retreat": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: North Korean soldiers whose heads are round balls painted as the North Korean flag (blue, thin white and wide red stripes with a red star in a white circle), wearing khaki 1950 uniforms and soft caps abandoning a damaged T-34/85 tank and a field gun on a mountain road and fleeing up into the steep forested hills, exhausted and scattered, smoke rising behind them, overcast September 1950 Korea, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "trucks": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean flag (white with the red and blue taegeuk circle and black trigrams), wearing 1950 M1 steel helmets and olive drab summer field uniforms riding in the backs of 1950 army trucks in a long column along a dusty Korean country road between rice paddies, rifles in hand, determined faces, hurrying to the front, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "dawn_victory": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean flag (white with the red and blue taegeuk circle and black trigrams), wearing 1950 M1 steel helmets and olive drab summer field uniforms standing on a hilltop at dawn looking down on a small Korean town beside a river with wisps of smoke rising, tired but relieved, golden morning light, September 1950, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "thumb_ref": "A South Korean infantryman in September 1950, M1 steel helmet, rain-soaked uniform, fierce determined eyes, charging forward with his rifle across a muddy road beside a burning North Korean T-34/85 tank, behind him more soldiers advancing through smoke toward a small Korean town by a river, blazing red-orange fire and explosions, gritty photorealistic war painting styled as a black-and-white 1950s documentary archive photograph, heavy film grain, scratches and dust, desaturated monochrome except the fire and explosions glow in vivid red and orange (selective color), extreme high contrast, serious military documentary mood, no cartoon, no 2D characters, no countryball, lighting: NO crushed pure-black areas anywhere — thick battlefield smoke, fog and haze glowing with backlight fill the shadows (lifted shadows, brighter mid-tones, overall about 20 percent brighter and higher contrast), strong rim light / backlight sharply outlining the soldier's helmet, face and shoulders and the tank silhouette, composition: the soldier and the burning tank in the center and upper-left of the frame, the bottom-right quarter of the frame kept plain and uncluttered (soft smoky haze, no subject), top area calm for text, no text, no letters, no logos, no watermark."
+ },
+ "scenes": [
+  {
+   "id": "s01",
+   "lines": [
+    {
+     "t": "1950년 9월 5일 새벽 1시, 경상북도 영천 북쪽의 산골짜기.",
+     "say": "천구백오십 년 구월 오 일 새벽 한 시, 경상북도 영천 북쪽의 산골짜기."
+    },
+    {
+     "t": "쏟아지는 빗속에서, 북한군 전차 5대가 앞장서 내려오기 시작했습니다.",
+     "say": "쏟아지는 빗속에서, 북한군 전차 다섯 대가 앞장서 내려오기 시작했습니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "rain_attack",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "visuals": [
+    {
+     "atLine": 1,
+     "type": "map",
+     "to": "region",
+     "items": [
+      {
+       "k": "front",
+       "path": [
+        [
+         128.43,
+         35.08
+        ],
+        [
+         128.45,
+         35.35
+        ],
+        [
+         128.4,
+         35.6
+        ],
+        [
+         128.4,
+         35.8
+        ],
+        [
+         128.39,
+         35.99
+        ],
+        [
+         128.55,
+         36.1
+        ],
+        [
+         128.78,
+         36.13
+        ],
+        [
+         128.98,
+         36.14
+        ],
+        [
+         129.2,
+         36.12
+        ],
+        [
+         129.38,
+         36.1
+        ]
+       ],
+       "at": 0.1
+      },
+      {
+       "k": "arrow",
+       "path": [
+        [
+         128.697,
+         36.353
+        ],
+        [
+         128.85,
+         36.25
+        ],
+        [
+         128.98,
+         36.15
+        ],
+        [
+         128.96,
+         36.06
+        ],
+        [
+         128.94,
+         35.985
+        ]
+       ],
+       "color": "red",
+       "at": 0.4,
+       "width": 1.2
+      },
+      {
+       "k": "unit",
+       "p": "yeongcheon",
+       "text": "영천",
+       "color": "blue",
+       "at": 0.8,
+       "pulse": true
+      }
+     ],
+     "from": "korea"
+    }
+   ],
+   "callouts": [
+    {
+     "text": "1950. 9. 5 · 경북 영천",
+     "style": "yellow",
+     "at": 0,
+     "until": 0
+    }
+   ],
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.3,
+     "volume": 0.35
+    },
+    {
+     "id": "whoosh",
+     "at": 1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "lines": [
+    "영천은 대구와 포항을 잇는 길, 그리고 경주로 내려가는 길이 만나는 삼거리였습니다.",
+    "이곳이 뚫리면, 낙동강 방어선의 허리가 그대로 끊어지는 것이죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "region",
+    "to": "region",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.43,
+        35.08
+       ],
+       [
+        128.45,
+        35.35
+       ],
+       [
+        128.4,
+        35.6
+       ],
+       [
+        128.4,
+        35.8
+       ],
+       [
+        128.39,
+        35.99
+       ],
+       [
+        128.55,
+        36.1
+       ],
+       [
+        128.78,
+        36.13
+       ],
+       [
+        128.98,
+        36.14
+       ],
+       [
+        129.2,
+        36.12
+       ],
+       [
+        129.38,
+        36.1
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        128.601,
+        35.871
+       ],
+       [
+        128.73,
+        35.93
+       ],
+       [
+        128.85,
+        35.962
+       ],
+       [
+        128.938,
+        35.973
+       ],
+       [
+        129.05,
+        35.99
+       ],
+       [
+        129.2,
+        36.005
+       ],
+       [
+        129.343,
+        36.019
+       ]
+      ],
+      "color": "#f4c430",
+      "at": 0.1
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        128.938,
+        35.973
+       ],
+       [
+        129.0,
+        35.93
+       ],
+       [
+        129.1,
+        35.885
+       ],
+       [
+        129.211,
+        35.856
+       ]
+      ],
+      "color": "#f4c430",
+      "at": 0.4
+     },
+     {
+      "k": "marker",
+      "p": "daegu",
+      "color": "blue",
+      "at": 0.2
+     },
+     {
+      "k": "marker",
+      "p": "pohang",
+      "color": "blue",
+      "at": 0.3
+     },
+     {
+      "k": "marker",
+      "p": "gyeongju",
+      "color": "blue",
+      "at": 0.5
+     },
+     {
+      "k": "unit",
+      "p": "yeongcheon",
+      "text": "영천 삼거리",
+      "color": "blue",
+      "at": 0.6,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "대구 – 영천 – 포항 · 영천 – 경주 – 부산",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "lines": [
+    "적이 서쪽으로 돌면, 다부동에서 싸우던 국군과 미군이 등 뒤를 찔리고,",
+    "남쪽 경주로 내려가면, 부산까지 막아설 부대가 거의 없었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "region",
+    "to": "perimeter",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.43,
+        35.08
+       ],
+       [
+        128.45,
+        35.35
+       ],
+       [
+        128.4,
+        35.6
+       ],
+       [
+        128.4,
+        35.8
+       ],
+       [
+        128.39,
+        35.99
+       ],
+       [
+        128.55,
+        36.1
+       ],
+       [
+        128.78,
+        36.13
+       ],
+       [
+        128.98,
+        36.14
+       ],
+       [
+        129.2,
+        36.12
+       ],
+       [
+        129.38,
+        36.1
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "yeongcheon",
+      "text": "영천",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.92,
+        35.98
+       ],
+       [
+        128.75,
+        35.97
+       ],
+       [
+        128.6,
+        36.0
+       ]
+      ],
+      "color": "red",
+      "at": 0.1,
+      "width": 1.1
+     },
+     {
+      "k": "marker",
+      "p": "dabudong",
+      "color": "blue",
+      "at": 0.3
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.938,
+        35.973
+       ],
+       [
+        129.0,
+        35.93
+       ],
+       [
+        129.1,
+        35.885
+       ],
+       [
+        129.211,
+        35.856
+       ],
+       [
+        129.2,
+        35.6
+       ],
+       [
+        129.15,
+        35.35
+       ],
+       [
+        129.06,
+        35.15
+       ]
+      ],
+      "color": "red",
+      "at": 1,
+      "width": 1.2,
+      "dur": 1.8
+     },
+     {
+      "k": "marker",
+      "p": "busan",
+      "color": "blue",
+      "at": 1.3
+     }
+    ]
+   }
+  },
+  {
+   "id": "s04",
+   "lines": [
+    {
+     "t": "그리고 9월 6일, 영천 읍내에 북한군이 들어옵니다.",
+     "say": "그리고 구월 육 일, 영천 읍내에 북한군이 들어옵니다."
+    },
+    "낙동강 방어선의 허리가, 마침내 뚫린 것이죠."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "1950. 9. 6\n영천, 적의 손에"
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s05",
+   "lines": [
+    "그런데 일주일 뒤, 영천에 들어온 북한군 사단 하나가 지도에서 사라집니다.",
+    "낙동강 방어선의 허리를 지켜 낸 대역전, 오늘은 영천 전투 이야기입니다."
+   ],
+   "visual": {
+    "type": "titlecard",
+    "q": "s05-photo",
+    "title": "영천 전투",
+    "sub": "낙동강 방어선의 허리를 지켜낸 숨겨진 대역전 · 1950",
+    "at": 1
+   },
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 1,
+     "volume": 0.5
+    }
+   ],
+   "flash": true
+  },
+  {
+   "id": "s06",
+   "lines": [
+    {
+     "t": "1950년 8월, 국군과 유엔군은 낙동강까지 밀려 내려와 있었습니다.",
+     "say": "천구백오십 년 팔월, 국군과 유엔군은 낙동강까지 밀려 내려와 있었습니다."
+    },
+    "마산에서 왜관을 지나 영덕까지, 이어진 마지막 방어선이었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "perimeter",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.43,
+        35.08
+       ],
+       [
+        128.45,
+        35.35
+       ],
+       [
+        128.4,
+        35.6
+       ],
+       [
+        128.4,
+        35.8
+       ],
+       [
+        128.39,
+        35.99
+       ],
+       [
+        128.55,
+        36.1
+       ],
+       [
+        128.78,
+        36.13
+       ],
+       [
+        128.98,
+        36.14
+       ],
+       [
+        129.2,
+        36.12
+       ],
+       [
+        129.38,
+        36.1
+       ]
+      ],
+      "at": 0.3
+     },
+     {
+      "k": "marker",
+      "p": "daegu",
+      "color": "blue",
+      "at": 1
+     },
+     {
+      "k": "marker",
+      "p": "busan",
+      "color": "blue",
+      "at": 1.2
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "낙동강 방어선 (개략)",
+     "style": "blue",
+     "at": 0.3,
+     "pos": "top"
+    }
+   ],
+   "chapter": {
+    "num": "PART 1",
+    "title": "마지막 방어선의 허리"
+   }
+  },
+  {
+   "id": "s07",
+   "lines": [
+    {
+     "t": "북한군은 8월 내내 대구를 노렸지만, 다부동에서 끝내 막혔습니다.",
+     "say": "북한군은 팔월 내내 대구를 노렸지만, 다부동에서 끝내 막혔습니다."
+    },
+    {
+     "t": "그러자 9월, 적은 눈을 동쪽으로 돌립니다.",
+     "say": "그러자 구월, 적은 눈을 동쪽으로 돌립니다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s07-photo",
+    "kb": "right"
+   },
+   "label": "낙동강 방어선의 국군 병사들 (1950. 8)"
+  },
+  {
+   "id": "s08",
+   "lines": [
+    {
+     "t": "공격을 맡은 것은 북한군 제15사단.",
+     "say": "공격을 맡은 것은 북한군 제십오 사단."
+    },
+    "의성을 거쳐 보현산 줄기를 넘어, 영천을 향해 남쪽으로 내려왔죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "region",
+    "to": "region",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.43,
+        35.08
+       ],
+       [
+        128.45,
+        35.35
+       ],
+       [
+        128.4,
+        35.6
+       ],
+       [
+        128.4,
+        35.8
+       ],
+       [
+        128.39,
+        35.99
+       ],
+       [
+        128.55,
+        36.1
+       ],
+       [
+        128.78,
+        36.13
+       ],
+       [
+        128.98,
+        36.14
+       ],
+       [
+        129.2,
+        36.12
+       ],
+       [
+        129.38,
+        36.1
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "nk15",
+      "text": "북한군 15사단",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "uiseong",
+      "color": "dark",
+      "at": 0.6
+     },
+     {
+      "k": "marker",
+      "p": "bohyeon",
+      "color": "dark",
+      "at": 0.9
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.697,
+        36.353
+       ],
+       [
+        128.85,
+        36.25
+       ],
+       [
+        128.98,
+        36.15
+       ],
+       [
+        128.96,
+        36.06
+       ],
+       [
+        128.94,
+        35.985
+       ]
+      ],
+      "color": "red",
+      "at": 1,
+      "width": 1.2,
+      "dur": 1.6
+     },
+     {
+      "k": "marker",
+      "p": "yeongcheon",
+      "color": "blue",
+      "at": 1.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "s09",
+   "lines": [
+    {
+     "t": "영천 북쪽은 높이 1,124미터의 보현산과 기룡산이 버티는 험한 산지입니다.",
+     "say": "영천 북쪽은 높이 천백이십사 미터의 보현산과 기룡산이 버티는 험한 산지입니다."
+    },
+    "그 산을 내려서면, 금호강이 흐르는 넓은 분지가 펼쳐지죠."
+   ],
+   "visual": {
+    "type": "profile",
+    "pts": [
+     [
+      0,
+      900
+     ],
+     [
+      0.08,
+      1124
+     ],
+     [
+      0.16,
+      820
+     ],
+     [
+      0.24,
+      560
+     ],
+     [
+      0.32,
+      760
+     ],
+     [
+      0.38,
+      961
+     ],
+     [
+      0.45,
+      640
+     ],
+     [
+      0.52,
+      320
+     ],
+     [
+      0.6,
+      140
+     ],
+     [
+      0.68,
+      100
+     ],
+     [
+      0.74,
+      90
+     ],
+     [
+      0.8,
+      120
+     ],
+     [
+      0.88,
+      260
+     ],
+     [
+      0.95,
+      380
+     ],
+     [
+      1,
+      420
+     ]
+    ],
+    "grid": [
+     500,
+     1000
+    ],
+    "yMin": 0,
+    "yMax": 1200,
+    "title": "영천 남북 지형 단면",
+    "note": "모식도 (높이 과장)",
+    "left": "북 · 보현산 산지",
+    "right": "남 · 경주 방면",
+    "marks": [
+     {
+      "x": 0.08,
+      "text": "보현산",
+      "style": "dark",
+      "at": 0,
+      "lift": 70,
+      "size": 38
+     },
+     {
+      "x": 0.38,
+      "text": "기룡산",
+      "style": "dark",
+      "at": 0.3,
+      "lift": 70,
+      "size": 38
+     },
+     {
+      "x": 0.7,
+      "text": "영천 · 금호강",
+      "style": "blue",
+      "at": 1,
+      "lift": 160,
+      "size": 42
+     }
+    ],
+    "arrows": [
+     {
+      "from": 0.1,
+      "to": 0.62,
+      "color": "red",
+      "at": 1.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "s10",
+   "lines": [
+    "영천 읍내는 그 분지 한가운데, 금호강 가에 자리 잡고 있었습니다.",
+    "산을 넘어온 적에게는, 더 이상 앞을 가로막을 지형이 없었던 셈이죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "region",
+    "to": "yc",
+    "items": [
+     {
+      "k": "unit",
+      "p": "yeongcheon",
+      "text": "영천 읍내",
+      "color": "blue",
+      "at": 0.3
+     },
+     {
+      "k": "badge",
+      "p": "geumho",
+      "text": "금호강",
+      "color": "#2a3a55",
+      "at": 0.6,
+      "dy": 0
+     },
+     {
+      "k": "marker",
+      "p": "giryong",
+      "color": "dark",
+      "at": 1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.99,
+        36.14
+       ],
+       [
+        128.97,
+        36.06
+       ],
+       [
+        128.945,
+        35.99
+       ]
+      ],
+      "color": "red",
+      "at": 1.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "s11",
+   "lines": [
+    {
+     "t": "이 앞을 지킨 것은 국군 제8사단.",
+     "say": "이 앞을 지킨 것은 국군 제팔 사단."
+    },
+    "개전 첫날부터 중부 산악을 따라 싸우며 밀려 내려온, 지칠 대로 지친 부대였습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s11-photo",
+    "kb": "left"
+   },
+   "label": "행군하는 국군 병사들 (1950)"
+  },
+  {
+   "id": "s12",
+   "lines": [
+    {
+     "t": "북한군 제15사단은 전차를 앞세웠습니다.",
+     "say": "북한군 제십오 사단은 전차를 앞세웠습니다."
+    },
+    "반면 국군 사단에는, 자기 전차가 한 대도 없었죠."
+   ],
+   "visual": {
+    "type": "versus",
+    "left": {
+     "n": 1,
+     "label": "국군 제8사단 · 전차 없음",
+     "color": "blue"
+    },
+    "right": {
+     "n": 3,
+     "label": "북한군 제15사단 · 전차 앞세움",
+     "color": "red"
+    },
+    "at": 0
+   },
+   "callouts": [
+    {
+     "text": "한국 측 기록: 공격 선두 전차 5대",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s12b",
+   "lines": [
+    {
+     "t": "같은 무렵 북한군은, 낙동강 전선 전체에서 9월 대공세를 벌이고 있었습니다.",
+     "say": "같은 무렵 북한군은, 낙동강 전선 전체에서 구월 대공세를 벌이고 있었습니다."
+    },
+    "마산과 왜관, 다부동과 포항까지. 국군과 유엔군은 어디서도 병력을 뺄 여유가 없었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "perimeter",
+    "to": "perimeter",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.43,
+        35.08
+       ],
+       [
+        128.45,
+        35.35
+       ],
+       [
+        128.4,
+        35.6
+       ],
+       [
+        128.4,
+        35.8
+       ],
+       [
+        128.39,
+        35.99
+       ],
+       [
+        128.55,
+        36.1
+       ],
+       [
+        128.78,
+        36.13
+       ],
+       [
+        128.98,
+        36.14
+       ],
+       [
+        129.2,
+        36.12
+       ],
+       [
+        129.38,
+        36.1
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.1,
+        35.25
+       ],
+       [
+        128.3,
+        35.22
+       ],
+       [
+        128.43,
+        35.2
+       ]
+      ],
+      "color": "red",
+      "at": 0.1,
+      "width": 0.9
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.15,
+        36.0
+       ],
+       [
+        128.28,
+        35.99
+       ],
+       [
+        128.39,
+        35.99
+       ]
+      ],
+      "color": "red",
+      "at": 0.3,
+      "width": 0.9
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.5,
+        36.3
+       ],
+       [
+        128.53,
+        36.17
+       ],
+       [
+        128.55,
+        36.08
+       ]
+      ],
+      "color": "red",
+      "at": 0.5,
+      "width": 0.9
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        129.3,
+        36.35
+       ],
+       [
+        129.33,
+        36.2
+       ],
+       [
+        129.34,
+        36.06
+       ]
+      ],
+      "color": "red",
+      "at": 0.7,
+      "width": 0.9
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.697,
+        36.353
+       ],
+       [
+        128.85,
+        36.25
+       ],
+       [
+        128.98,
+        36.15
+       ],
+       [
+        128.96,
+        36.06
+       ],
+       [
+        128.94,
+        35.985
+       ]
+      ],
+      "color": "red",
+      "at": 1,
+      "width": 1.2
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1950. 9 · 북한군 9월 대공세",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "lines": [
+    {
+     "t": "9월 2일 밤, 북한군의 공격이 시작됩니다.",
+     "say": "구월 이 일 밤, 북한군의 공격이 시작됩니다."
+    },
+    {
+     "t": "다음 날 새벽, 국군 제16연대의 진지가 무너졌죠.",
+     "say": "다음 날 새벽, 국군 제십육 연대의 진지가 무너졌죠."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "rain_attack",
+    "kb": "out"
+   },
+   "label": "재연 일러스트",
+   "chapter": {
+    "num": "PART 2",
+    "title": "뚫린 허리"
+   },
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0,
+     "volume": 0.5
+    },
+    {
+     "id": "mg",
+     "at": 1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "lines": [
+    {
+     "t": "8사단은 영천 북쪽 기룡산 능선까지 물러나, 새 방어선을 칩니다.",
+     "say": "팔 사단은 영천 북쪽 기룡산 능선까지 물러나, 새 방어선을 칩니다."
+    },
+    {
+     "t": "하지만 9월 5일 새벽, 적은 세 방향에서 한꺼번에 밀고 내려왔습니다.",
+     "say": "하지만 구월 오 일 새벽, 적은 세 방향에서 한꺼번에 밀고 내려왔습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "yc",
+    "to": "yc",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.8,
+        36.08
+       ],
+       [
+        128.9,
+        36.085
+       ],
+       [
+        129.0,
+        36.075
+       ],
+       [
+        129.1,
+        36.08
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "rok8",
+      "text": "국군 8사단",
+      "color": "blue",
+      "at": 0.2
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.86,
+        36.2
+       ],
+       [
+        128.88,
+        36.12
+       ],
+       [
+        128.91,
+        36.05
+       ]
+      ],
+      "color": "red",
+      "at": 1,
+      "width": 0.9
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.99,
+        36.2
+       ],
+       [
+        128.97,
+        36.12
+       ],
+       [
+        128.95,
+        36.04
+       ]
+      ],
+      "color": "red",
+      "at": 1.2,
+      "width": 0.9
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        129.1,
+        36.19
+       ],
+       [
+        129.05,
+        36.11
+       ],
+       [
+        128.99,
+        36.04
+       ]
+      ],
+      "color": "red",
+      "at": 1.4,
+      "width": 0.9
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1950. 9. 5 새벽 1시 · 세 방향 공격",
+     "style": "red",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "lines": [
+    "빗속을 뚫고 전차가 앞장섰습니다.",
+    "적 전차가 진지 뒤로 돌아 들어오자, 국군 연대 하나가 순식간에 흩어졌죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "tank_break",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "미 육군 공간사 기록",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0.3,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s15b",
+   "lines": [
+    "흩어진 병사들을 다시 모은 것은, 국군 장교들과 미 군사고문단이었습니다.",
+    {
+     "t": "무너진 대열을 추슬러, 8사단은 영천 앞에서 다시 총구를 겨눕니다.",
+     "say": "무너진 대열을 추슬러, 팔 사단은 영천 앞에서 다시 총구를 겨눕니다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s15b-photo",
+    "kb": "in"
+   },
+   "label": "참호에서 경계하는 국군 병사 (1950)"
+  },
+  {
+   "id": "s16",
+   "lines": [
+    {
+     "t": "9월 6일, 북한군이 영천 읍내로 밀고 들어옵니다.",
+     "say": "구월 육 일, 북한군이 영천 읍내로 밀고 들어옵니다."
+    },
+    "대구와 포항을 잇는 도로가, 적의 손에 떨어진 것이죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "yc",
+    "to": "city",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.601,
+        35.871
+       ],
+       [
+        128.73,
+        35.93
+       ],
+       [
+        128.85,
+        35.962
+       ],
+       [
+        128.938,
+        35.973
+       ],
+       [
+        129.05,
+        35.99
+       ],
+       [
+        129.2,
+        36.005
+       ],
+       [
+        129.343,
+        36.019
+       ]
+      ],
+      "color": "#f4c430",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.96,
+        36.06
+       ],
+       [
+        128.95,
+        36.02
+       ],
+       [
+        128.94,
+        35.98
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 1.2
+     },
+     {
+      "k": "unit",
+      "p": "yeongcheon",
+      "text": "영천 함락",
+      "color": "red",
+      "at": 0.6,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1950. 9. 6 · 영천 읍내 함락",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s17",
+   "lines": [
+    "적은 영천 남쪽에 길목을 세우고, 경주로 가는 도로까지 끊었습니다.",
+    "한국 측 기록으로, 영천과 경주 사이 길은 닷새 동안 막혀 있었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "city",
+    "to": "region",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.938,
+        35.973
+       ],
+       [
+        129.0,
+        35.93
+       ],
+       [
+        129.1,
+        35.885
+       ],
+       [
+        129.211,
+        35.856
+       ]
+      ],
+      "color": "#f4c430",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "roadblock",
+      "text": "적 차단선",
+      "color": "red",
+      "at": 0.3
+     },
+     {
+      "k": "marker",
+      "p": "gyeongju",
+      "color": "blue",
+      "at": 0.6
+     },
+     {
+      "k": "marker",
+      "p": "daegu",
+      "color": "blue",
+      "at": 0.8
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "영천 – 경주 도로 5일간 차단 · 한국 측 기록",
+     "style": "red",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s18",
+   "lines": [
+    "그때 국군 육군본부와 미8군은, 다급한 결단을 내립니다.",
+    "다른 전선에서 싸우던 연대를 빼내, 영천으로 돌리기로 한 것이죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "trucks",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s19",
+   "lines": [
+    {
+     "t": "제1사단의 11연대, 제6사단의 19연대, 그리고 새로 꾸린 제7사단의 5연대.",
+     "say": "제일 사단의 십일 연대, 제육 사단의 십구 연대, 그리고 새로 꾸린 제칠 사단의 오 연대."
+    },
+    "흩어져 싸우던 연대들이, 트럭을 타고 영천으로 모여들었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "region",
+    "to": "region",
+    "items": [
+     {
+      "k": "unit",
+      "p": "yeongcheon",
+      "text": "영천",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.55,
+        36.05
+       ],
+       [
+        128.7,
+        36.0
+       ],
+       [
+        128.88,
+        35.97
+       ]
+      ],
+      "color": "blue",
+      "at": 0,
+      "width": 1.0
+     },
+     {
+      "k": "badge",
+      "p": "r11",
+      "text": "1사단 11연대",
+      "color": "blue",
+      "at": 0.1,
+      "dy": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.7,
+        36.12
+       ],
+       [
+        128.8,
+        36.06
+       ],
+       [
+        128.9,
+        36.0
+       ]
+      ],
+      "color": "blue",
+      "at": 0.4,
+      "width": 1.0
+     },
+     {
+      "k": "badge",
+      "p": "r19",
+      "text": "6사단 19연대",
+      "color": "blue",
+      "at": 0.5,
+      "dy": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        129.2,
+        35.9
+       ],
+       [
+        129.08,
+        35.95
+       ],
+       [
+        128.98,
+        35.97
+       ]
+      ],
+      "color": "blue",
+      "at": 0.8,
+      "width": 1.0
+     },
+     {
+      "k": "badge",
+      "p": "r5",
+      "text": "7사단 5연대",
+      "color": "blue",
+      "at": 0.9,
+      "dy": 0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "국군 제2군단 지휘 아래 투입",
+     "style": "blue",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s20",
+   "lines": [
+    {
+     "t": "지휘는 국군 제2군단장 유재흥 장군이 맡습니다.",
+     "say": "지휘는 국군 제이 군단장 유재흥 장군이 맡습니다."
+    },
+    "미군 전차 한 개 소대가 함께 왔지만, 싸움의 주역은 국군 보병이었죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s20-photo",
+    "kb": "in"
+   },
+   "label": "트럭으로 이동하는 국군 병력 (1950)",
+   "callouts": [
+    {
+     "text": "한국 측 기록: 미군 전차 1개 소대(5대) 지원",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s21",
+   "lines": [
+    {
+     "t": "9월 6일 오후부터, 영천 읍내를 두고 뺏고 뺏기는 싸움이 벌어집니다.",
+     "say": "구월 육 일 오후부터, 영천 읍내를 두고 뺏고 뺏기는 싸움이 벌어집니다."
+    },
+    "국군이 읍내를 되찾으면, 적의 후속 부대가 다시 밀고 들어왔죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "town_fight",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 0.3,
+     "volume": 0.4
+    },
+    {
+     "id": "boom",
+     "at": 1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s21b",
+   "lines": [
+    {
+     "t": "9월 7일, 19연대는 적의 보급부대를 기습해 차량 30여 대를 부숩니다.",
+     "say": "구월 칠 일, 십구 연대는 적의 보급부대를 기습해 차량 삼십여 대를 부숩니다."
+    },
+    "앞으로 나간 적 보병과, 뒤따르던 보급이 끊어지기 시작한 것이죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "yc",
+    "to": "yc",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.96,
+        36.15
+       ],
+       [
+        128.965,
+        36.08
+       ],
+       [
+        128.95,
+        36.02
+       ]
+      ],
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "supply",
+      "text": "적 보급부대",
+      "color": "red",
+      "at": 0.2
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.85,
+        36.11
+       ],
+       [
+        128.9,
+        36.1
+       ],
+       [
+        128.95,
+        36.095
+       ]
+      ],
+      "color": "blue",
+      "at": 0.5,
+      "width": 1.0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1950. 9. 7 · 적 차량 30여 대 파괴 (한국 측 기록)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s22",
+   "lines": [
+    {
+     "t": "그리고 9월 8일 오후 2시 45분.",
+     "say": "그리고 구월 팔 일, 오후 두 시 사십오 분."
+    },
+    "국군은 마침내, 영천 읍내를 다시 손에 넣습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "city",
+    "to": "city",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.86,
+        35.96
+       ],
+       [
+        128.9,
+        35.97
+       ],
+       [
+        128.93,
+        35.973
+       ]
+      ],
+      "color": "blue",
+      "at": 0.2,
+      "width": 1.2
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        129.02,
+        35.95
+       ],
+       [
+        128.98,
+        35.965
+       ],
+       [
+        128.945,
+        35.972
+       ]
+      ],
+      "color": "blue",
+      "at": 0.4,
+      "width": 1.2
+     },
+     {
+      "k": "unit",
+      "p": "yeongcheon",
+      "text": "영천 탈환",
+      "color": "blue",
+      "at": 1,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1950. 9. 8 오후 2시 45분 · 한국 측 기록",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "charge",
+     "at": 1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s23",
+   "lines": [
+    "이제 공격하는 쪽과 막는 쪽이 바뀝니다.",
+    "영천 깊숙이 들어온 적은, 오히려 국군 한가운데 갇힌 꼴이 되었죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "역포위",
+    "style": "yellow",
+    "sub": "뚫고 들어온 적을, 거꾸로 에워싸다",
+    "subAt": 1
+   },
+   "chapter": {
+    "num": "PART 3",
+    "title": "사냥꾼이 사냥감이 되다"
+   }
+  },
+  {
+   "id": "s24",
+   "lines": [
+    {
+     "t": "적 15사단의 포병은 보병보다 앞서 내려왔다가, 포탄이 바닥나 있었습니다.",
+     "say": "적 십오 사단의 포병은 보병보다 앞서 내려왔다가, 포탄이 바닥나 있었습니다."
+    },
+    {
+     "t": "한국 측 기록으로 9월 9일, 국군 5연대는 터널에 숨은 적 포병 연대를 덮칩니다.",
+     "say": "한국 측 기록으로 구월 구 일, 국군 오 연대는 터널에 숨은 적 포병 연대를 덮칩니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "tunnel_raid",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "charge",
+     "at": 1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s25",
+   "lines": [
+    {
+     "t": "9월 10일, 국군 제2군단의 총반격이 시작됩니다.",
+     "say": "구월 십 일, 국군 제이 군단의 총반격이 시작됩니다."
+    },
+    "경주 가는 길을 되찾고, 남쪽과 서쪽, 북쪽 세 방향에서 적을 조여 들어갔죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "yc",
+    "to": "yc",
+    "items": [
+     {
+      "k": "unit",
+      "p": "nk15c",
+      "text": "북한군 15사단",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.95,
+        35.9
+       ],
+       [
+        128.95,
+        35.96
+       ],
+       [
+        128.95,
+        36.0
+       ]
+      ],
+      "color": "blue",
+      "at": 0.6,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.8,
+        35.99
+       ],
+       [
+        128.87,
+        36.0
+       ],
+       [
+        128.92,
+        36.02
+       ]
+      ],
+      "color": "blue",
+      "at": 0.9,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        129.02,
+        36.12
+       ],
+       [
+        128.99,
+        36.08
+       ],
+       [
+        128.965,
+        36.045
+       ]
+      ],
+      "color": "blue",
+      "at": 1.2,
+      "width": 1.0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1950. 9. 10 · 국군 제2군단 총반격",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s26",
+   "lines": [
+    {
+     "t": "21연대와 19연대는, 적이 산으로 빠져나갈 길목을 끊었습니다.",
+     "say": "이십일 연대와 십구 연대는, 적이 산으로 빠져나갈 길목을 끊었습니다."
+    },
+    "영천으로 내려온 적은, 이제 돌아갈 길이 없었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "yc",
+    "to": "yc",
+    "items": [
+     {
+      "k": "unit",
+      "p": "nk15c",
+      "text": "북한군 15사단",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        128.88,
+        36.07
+       ],
+       [
+        128.93,
+        36.1
+       ],
+       [
+        129.0,
+        36.1
+       ],
+       [
+        129.05,
+        36.07
+       ]
+      ],
+      "color": "blue",
+      "at": 0.2
+     },
+     {
+      "k": "badge",
+      "p": "cut",
+      "text": "퇴로 차단",
+      "color": "blue",
+      "at": 0.5,
+      "dy": 0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "9. 11 · 21연대·19연대 퇴로 차단 (한국 측 기록)",
+     "style": "blue",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s27",
+   "lines": [
+    "포로를 심문해, 적 사단 사령부의 위치가 드러납니다.",
+    {
+     "t": "9월 11일, 국군은 영천 북쪽 대의동의 적 사령부를 덮치죠.",
+     "say": "구월 십일 일, 국군은 영천 북쪽 대의동의 적 사령부를 덮치죠."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s27-photo",
+    "kb": "in"
+   },
+   "label": "국군에 붙잡힌 북한군 포로 (1950. 9)"
+  },
+  {
+   "id": "s28",
+   "lines": [
+    "사과밭에 숨어 있던 적 사령부 위로, 국군의 포탄이 쏟아졌습니다.",
+    "미군 기록에는, 적 사단 참모장 김연 대좌도 이 무렵 전사했다고 적혀 있죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "orchard_hq",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "미 육군 공간사: 참모장 김연 대좌 전사 (9. 9~10)",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "whoosh",
+     "at": 0,
+     "volume": 0.4
+    },
+    {
+     "id": "boom",
+     "at": 0.3,
+     "volume": 0.6
+    }
+   ]
+  },
+  {
+   "id": "s29",
+   "lines": [
+    "사단장 박성철은 영천 공격이 늦어진 책임을 지고 이미 교체된 뒤였다고 전해집니다.",
+    "지휘부가 무너진 적은, 전차와 대포를 버리고 산속으로 흩어졌죠.",
+    "영천에서 물러난 그 박성철은, 훗날 북한의 총리 자리에까지 오르게 됩니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "nk_retreat",
+    "kb": "out"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s30",
+   "lines": [
+    {
+     "t": "9월 12일, 8사단은 무너졌던 방어선을 되찾습니다.",
+     "say": "구월 십이 일, 팔 사단은 무너졌던 방어선을 되찾습니다."
+    },
+    {
+     "t": "그리고 9월 13일, 영천을 노리던 위협은 완전히 사라졌죠.",
+     "say": "그리고 구월 십삼 일, 영천을 노리던 위협은 완전히 사라졌죠."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "dawn_victory",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s31",
+   "lines": [
+    {
+     "t": "한국 측 기록으로, 북한군 사살 3,799명, 포로 309명.",
+     "say": "한국 측 기록으로, 북한군 사살 삼천칠백구십구 명, 포로 삼백구 명."
+    },
+    {
+     "t": "전차 5대가 부서지고, 차량 85대와 각종 소화기 2,327정이 노획됐습니다.",
+     "say": "전차 다섯 대가 부서지고, 차량 팔십오 대와 각종 소화기 이천삼백이십칠 정이 노획됐습니다."
+    }
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "한국 측 기록 기준 (1950. 9. 5~13)",
+    "items": [
+     {
+      "label": "북한군 사살",
+      "value": 3799,
+      "display": "3,799명",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "label": "북한군 포로",
+      "value": 309,
+      "display": "309명",
+      "color": "red",
+      "at": 0.4
+     },
+     {
+      "label": "노획 소화기",
+      "value": 2327,
+      "display": "2,327정",
+      "color": "blue",
+      "at": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s32",
+   "lines": [
+    {
+     "t": "북한군 제15사단은, 사실상 사단으로서의 모습을 잃었습니다.",
+     "say": "북한군 제십오 사단은, 사실상 사단으로서의 모습을 잃었습니다."
+    },
+    "국군이 주도한 반격으로 적 사단 하나를 무너뜨린, 보기 드문 승리였죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s32-photo",
+    "kb": "in"
+   },
+   "label": "버려진 북한군 T-34 전차 (1950)"
+  },
+  {
+   "id": "s33",
+   "lines": [
+    "전차도 없던 국군이, 어떻게 적 사단 하나를 무너뜨릴 수 있었을까요?",
+    "네 가지로 정리해 보겠습니다."
+   ],
+   "visual": {
+    "type": "factors",
+    "items": [
+     "빠른 병력 전환",
+     "바닥난 적 보급",
+     "역포위 기동",
+     "포병의 일격"
+    ],
+    "head": "전차 없는 국군 vs 전차 앞세운 적",
+    "at": 1
+   },
+   "chapter": {
+    "num": "PART 4",
+    "title": "승패를 가른 4가지"
+   }
+  },
+  {
+   "id": "s34",
+   "lines": [
+    "첫째, 빠른 병력 전환입니다."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s34-photo",
+    "num": "요인 1",
+    "title": "빠른 병력 전환"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s35",
+   "lines": [
+    "여러 전선에서 연대 하나씩을 빼내, 하루 이틀 만에 영천으로 모았습니다.",
+    "적이 영천에 들어온 바로 그날 오후, 반격할 연대들이 이미 도착하고 있었죠.",
+    "미 육군 공간사도, 이 빠른 이동을 눈에 띄는 지휘의 성과로 꼽았습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "region",
+    "to": "region",
+    "items": [
+     {
+      "k": "unit",
+      "p": "yeongcheon",
+      "text": "영천",
+      "color": "blue",
+      "at": 0,
+      "pulse": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.55,
+        36.05
+       ],
+       [
+        128.7,
+        36.0
+       ],
+       [
+        128.88,
+        35.97
+       ]
+      ],
+      "color": "blue",
+      "at": 0.2,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.7,
+        36.12
+       ],
+       [
+        128.8,
+        36.06
+       ],
+       [
+        128.9,
+        36.0
+       ]
+      ],
+      "color": "blue",
+      "at": 0.4,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        129.2,
+        35.9
+       ],
+       [
+        129.08,
+        35.95
+       ],
+       [
+        128.98,
+        35.97
+       ]
+      ],
+      "color": "blue",
+      "at": 0.6,
+      "width": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "s36",
+   "lines": [
+    "둘째, 바닥난 적의 보급입니다."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s36-photo",
+    "num": "요인 2",
+    "title": "바닥난 적의 보급"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s37",
+   "lines": [
+    "적은 험한 산을 넘어 너무 멀리 들어왔고, 포탄과 식량이 뒤따라오지 못했습니다.",
+    "영천 읍내를 차지하고도, 다음 걸음을 뗄 힘이 남아 있지 않았던 것이죠."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "북한군 15사단",
+     "big": "보급 끊김",
+     "icon": "none",
+     "color": "red"
+    },
+    "right": {
+     "title": "국군 제2군단",
+     "big": "연대 증원",
+     "icon": "none",
+     "color": "blue",
+     "at": 1
+    }
+   }
+  },
+  {
+   "id": "s38",
+   "lines": [
+    "셋째, 역포위 기동입니다."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s38-photo",
+    "num": "요인 3",
+    "title": "역포위 기동"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s39",
+   "lines": [
+    "국군은 뚫린 곳을 막는 데 그치지 않고, 들어온 적의 뒤로 돌아 퇴로를 끊었습니다.",
+    "막는 싸움이, 가두는 싸움으로 바뀐 것이죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "yc",
+    "to": "yc",
+    "items": [
+     {
+      "k": "unit",
+      "p": "nk15c",
+      "text": "북한군 15사단",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.95,
+        35.9
+       ],
+       [
+        128.95,
+        35.96
+       ],
+       [
+        128.95,
+        36.0
+       ]
+      ],
+      "color": "blue",
+      "at": 0.2,
+      "width": 0.9
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.8,
+        35.99
+       ],
+       [
+        128.87,
+        36.0
+       ],
+       [
+        128.92,
+        36.02
+       ]
+      ],
+      "color": "blue",
+      "at": 0.4,
+      "width": 0.9
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        128.88,
+        36.07
+       ],
+       [
+        128.93,
+        36.1
+       ],
+       [
+        129.0,
+        36.1
+       ],
+       [
+        129.05,
+        36.07
+       ]
+      ],
+      "color": "blue",
+      "at": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "s40",
+   "lines": [
+    "넷째, 포병의 일격입니다."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s40-photo",
+    "num": "요인 4",
+    "title": "포병의 일격"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s41",
+   "lines": [
+    "국군 포병은 먼저 적의 포병을 침묵시키고,",
+    "적 사령부가 숨은 사과밭까지 정확히 포탄을 떨어뜨렸습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s41-photo",
+    "kb": "in"
+   },
+   "label": "포격하는 국군 포병 (1950)",
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.3,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s42",
+   "lines": [
+    {
+     "t": "영천 전투가 끝나고 이틀 뒤인 9월 15일, 유엔군이 인천에 상륙합니다.",
+     "say": "영천 전투가 끝나고 이틀 뒤인 구월 십오 일, 유엔군이 인천에 상륙합니다."
+    },
+    "낙동강 방어선이 버텨 준 덕분에, 반격의 문이 열린 것이죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "perimeter",
+    "to": "korea",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.43,
+        35.08
+       ],
+       [
+        128.45,
+        35.35
+       ],
+       [
+        128.4,
+        35.6
+       ],
+       [
+        128.4,
+        35.8
+       ],
+       [
+        128.39,
+        35.99
+       ],
+       [
+        128.55,
+        36.1
+       ],
+       [
+        128.78,
+        36.13
+       ],
+       [
+        128.98,
+        36.14
+       ],
+       [
+        129.2,
+        36.12
+       ],
+       [
+        129.38,
+        36.1
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "inchon",
+      "color": "blue",
+      "at": 0.5
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        125.9,
+        37.3
+       ],
+       [
+        126.3,
+        37.42
+       ],
+       [
+        126.6,
+        37.47
+       ]
+      ],
+      "color": "blue",
+      "at": 0.6,
+      "width": 1.4
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1950. 9. 15 · 인천상륙작전",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "chapter": {
+    "num": "EPILOGUE",
+    "title": "반격의 문"
+   }
+  },
+  {
+   "id": "s43",
+   "lines": [
+    {
+     "t": "9월 16일, 낙동강 전선의 국군과 유엔군도 일제히 반격에 나섭니다.",
+     "say": "구월 십육 일, 낙동강 전선의 국군과 유엔군도 일제히 반격에 나섭니다."
+    },
+    "석 달 가까이 밀리기만 하던 전쟁의 흐름이, 처음으로 뒤집혔죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s43-photo",
+    "kb": "in"
+   },
+   "label": "인천에 상륙하는 유엔군 (1950. 9. 15)"
+  },
+  {
+   "id": "s44",
+   "lines": [
+    "오늘 영천에는, 그날의 전투를 기리는 전적비와 기념공원이 서 있습니다.",
+    "가까운 국립영천호국원에는, 수많은 참전용사들이 잠들어 있죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s44-photo",
+    "kb": "in",
+    "bw": false
+   },
+   "label": "국립영천호국원"
+  },
+  {
+   "id": "s45",
+   "lines": [
+    {
+     "t": "그날로부터, 70년이 넘는 세월이 흘렀습니다.",
+     "say": "그날로부터, 칠십 년이 넘는 세월이 흘렀습니다."
+    },
+    "다부동이나 인천만큼, 영천의 이름을 기억하는 사람은 많지 않습니다.",
+    {
+     "t": "하지만 그 9일이 없었다면, 9월의 대반격도 없었을지 모릅니다.",
+     "say": "하지만 그 아흐레가 없었다면, 구월의 대반격도 없었을지 모릅니다."
+    }
+   ],
+   "visual": {
+    "type": "black",
+    "text": "70년이 넘는 세월",
+    "accent": "잊힌 이름, 영천",
+    "accentAt": 1
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s46",
+   "lines": [
+    {
+     "t": "가장 위태로운 순간, 낙동강 방어선의 허리를 지켜 낸 9일.",
+     "say": "가장 위태로운 순간, 낙동강 방어선의 허리를 지켜 낸 아흐레."
+    },
+    "영천은, 대반격이 시작된 자리였습니다."
+   ],
+   "visual": {
+    "type": "quotes",
+    "title": "영천이 남긴 것",
+    "items": [
+     {
+      "text": "허리를 지켜 낸 9일",
+      "at": 0
+     },
+     {
+      "text": "대반격이 시작된 자리",
+      "at": 1
+     }
+    ]
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s47",
+   "lines": [
+    "이 이야기가 의미 있으셨다면, 구독과 좋아요로 함께해 주십시오.",
+    "잊혀 가는 전쟁의 기록을... 다음 영상에서도 이어가겠습니다."
+   ],
+   "visual": {
+    "type": "endcard",
+    "title": "1950년 9월, 영천.\n방어선의 허리를 지킨 9일.",
+    "q": "s47-photo"
+   },
+   "tail": 3.0
+  }
+ ]
+}
