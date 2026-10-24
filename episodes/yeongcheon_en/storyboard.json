@@ -59,8 +59,8 @@
    "Mt. Giryong"
   ],
   "geumho": [
-   128.86,
-   35.95,
+   128.99,
+   35.965,
    "Geumho River"
   ],
   "nk15": [
@@ -104,8 +104,8 @@
    "NK 15th Div"
   ],
   "cut": [
-   128.97,
-   36.125,
+   128.965,
+   36.108,
    "Escape Cut Off"
   ]
  },
@@ -119,10 +119,10 @@
   },
   "perimeter": {
    "center": [
-    128.75,
-    35.6
+    128.85,
+    35.52
    ],
-   "span": 2.4
+   "span": 2.7
   },
   "region": {
    "center": [
@@ -144,6 +144,13 @@
     35.985
    ],
    "span": 0.2
+  },
+  "yc_s": {
+   "center": [
+    128.95,
+    36.0
+   ],
+   "span": 0.42
   }
  },
  "music": [
@@ -929,7 +936,7 @@
      1000
     ],
     "yMin": 0,
-    "yMax": 1200,
+    "yMax": 1500,
     "title": "Yeongcheon · North–South Terrain Profile",
     "note": "Schematic (vertical exaggeration)",
     "left": "N · Bohyeon highlands",
@@ -979,7 +986,7 @@
    "visual": {
     "type": "map",
     "from": "region",
-    "to": "yc",
+    "to": "yc_s",
     "items": [
      {
       "k": "unit",
@@ -1512,7 +1519,8 @@
    "id": "s17",
    "lines": [
     "South of town the enemy set a roadblock and cut the road to Gyeongju.",
-    "By Korean records, the road between Yeongcheon and Gyeongju stayed closed for five days."
+    "By Korean records, the road between Yeongcheon and Gyeongju stayed closed for five days.",
+    "The whole supply line from Taegu through Gyeongju to Pusan was now at risk."
    ],
    "visual": {
     "type": "map",
@@ -1931,7 +1939,8 @@
    "id": "s25",
    "lines": [
     "On September 10th, ROK II Corps launched its general counterattack.",
-    "It reopened the Gyeongju road and closed in from the south, west and north."
+    "It reopened the Gyeongju road and closed in from the south, west and north.",
+    "The enemy who had pushed south was now being surrounded from every side."
    ],
    "visual": {
     "type": "map",
@@ -2355,7 +2364,7 @@
     },
     "right": {
      "title": "ROK II Corps",
-     "big": "REINFORCED",
+     "big": "FRESH TROOPS",
      "icon": "none",
      "color": "blue",
      "at": 1
