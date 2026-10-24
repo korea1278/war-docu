@@ -268,7 +268,7 @@ const REF_EN: Record<string, RefDef> = {
   jangjin: { ep: "06", mid: [[["-40°F FREEZE:", "s"]], [["BREAKING ", "w"], ["120,000 ENEMY", "r"]]], key: "CHOSIN RESERVOIR", keyStyle: "ice" },
   betty: { ep: "07", mid: [[["34 MEN", "r"], [" VS", "w"]], [["A BATTALION", "s"]]], key: "OUTPOST BETTY", keyStyle: "stone" },
   yeongcheon: { ep: "08", mid: [[["THE LAST LINE:", "r"]], [["SAVING THE", "w"]], [["PUSAN PERIMETER", "s"]]], key: "BATTLE OF YEONGCHEON", keyStyle: "stone",
-    split: { imgX: "22%", midSize: 70, keys: [{ text: "BATTLE OF", style: "stone", size: 92 }, { text: "YEONGCHEON", style: "stone", size: 150 }] } },
+    split: { imgX: "22%", midSize: 78, keys: [{ text: "BATTLE OF", style: "stone", size: 100 }, { text: "YEONGCHEON", style: "yellow", size: 160 }] } },
 };
 const REF: Record<string, RefDef> = {
   yongmunsan: { ep: "01", mid: [[["중공군 ", "w"], ["3개 사단", "r"], [" 격멸,", "w"]], [["1개 연대의 기적", "s"]]], key: "용문산 전투", keyStyle: "yellow" },
@@ -279,7 +279,7 @@ const REF: Record<string, RefDef> = {
   jangjin: { ep: "06", mid: [[["영하 40도", "s"], [" 고립,", "w"]], [["12만 포위망", "r"], ["을 찢다", "w"]]], key: "장진호 전투", keyStyle: "stone" },
   betty: { ep: "07", mid: [[["소대원 ", "w"], ["34명", "r"], [" vs ", "w"], ["중공군 대대", "r"]], [["휴전 12일 전의 혈전", "s"]]], key: "베티고지 전투", keyStyle: "yellow" },
   yeongcheon: { ep: "08", mid: [[["영천이 ", "w"], ["뚫리면", "r"], [",", "w"]], [["부산이 ", "s"], ["끝장난다", "r"]]], key: "영천 대역전", keyStyle: "yellow",
-    split: { imgX: "22%", midSize: 66, keys: [{ text: "영천", style: "yellow", size: 236 }, { text: "대역전", style: "stone", size: 172 }] } },
+    split: { imgX: "22%", midSize: 72, keys: [{ text: "영천", style: "stone", size: 128 }, { text: "대역전", style: "yellow", size: 205 }] } },
 };
 const CrackDefs: React.FC = () => (
   <svg width={0} height={0} style={{ position: "absolute" }}>
@@ -402,7 +402,7 @@ const SplitThumb: React.FC<{ a: string; d: RefDef; en?: boolean }> = ({ a, d, en
           ))}
         </div>
       </div>
-      <div style={{ position: "absolute", left: 30, bottom: 26, display: "flex", flexDirection: "column", alignItems: "flex-start", gap: en ? 0 : 6 }}>
+      <div style={{ position: "absolute", left: 30, bottom: 26, display: "flex", flexDirection: "column", alignItems: "flex-start", gap: en ? 0 : 2 }}>
         {sp.keys.map((k, i) => (
           <KeyWord key={i} text={k.text} style={k.style} size={k.size} en={en} soft />
         ))}
