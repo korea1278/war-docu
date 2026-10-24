@@ -148,5 +148,25 @@
   "south": 38.06539235133249,
   "w": 1024,
   "h": 1024
+ },
+ {
+  "name": "yeongcheon",
+  "file": "geo/yeongcheon.webp",
+  "west": 128.583984375,
+  "east": 129.375,
+  "north": 36.45663601159621,
+  "south": 35.74651225991851,
+  "w": 2304,
+  "h": 2560
+ },
+ {
+  "name": "yeongcheon_zoom",
+  "file": "geo/yeongcheon_zoom.webp",
+  "west": 128.759765625,
+  "east": 129.1552734375,
+  "north": 36.208823092837115,
+  "south": 35.8534396195918,
+  "w": 2304,
+  "h": 2560
  }
 ]
