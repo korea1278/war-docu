@@ -83,6 +83,7 @@
      5. B안은 이전 디자인을 A/B 테스트용으로 유지. 카피 수치는 대본·화면 수치와 일치하는지 확인하고 다르면 전달 때 알릴 것
      6. **(2026-10-22 수정) 하단 메인 타이틀 색: 다크 레드 전면 금지** → 머스터드 옐로 `#FFD000`(keyStyle `yellow`, 지명 노랑·'전투' 흰색) 또는 스톤 화이트 `#FFFFFF`(keyStyle `stone`)만 사용 (red·ice 금지)
      7. **(2026-10-22 수정) 배경 밝기**: 순흑(#000) 금지. `thumb_ref` 프롬프트에 "NO crushed pure-black areas, smoke/fog/haze backlit, lifted shadows ~20% brighter, strong rim light outlining soldiers/vehicles" 필수, 우하단은 '어둡게'가 아니라 '안개 낀 빈 공간'으로. 합성 단계도 밝기·대비 +20%(`brightness(1.2) contrast(1.2)`), screen 안개 레이어로 암부 들어올림, 비네트 약하게
+   - **(2026-10-25 추가) 좌우 분할 레이아웃 `split`** — 글자가 인물을 가리면 `REF`/`REF_EN` 항목에 `split: { imgX, midSize, keys: [{text, style, size}…] }`를 넣는다. 오른쪽 약 58%에 선명한 그림(인물 얼굴이 오른쪽 중앙에 오도록 `imgX`로 가로 위치 조정), 왼쪽은 같은 그림을 흐리고 어둡게 깐 포연 패널(순흑 아님) 위에 태그 → 위기 카피 → 메인 키워드를 2줄로 쌓는다. 키워드는 균열 틈을 흐린 같은 색으로 채운 `soft` 질감(시니어 가독성). EP08 영천부터 적용, 사용자 반응이 좋으면 다음 편도 이 레이아웃을 기본으로
    - **영문판 A안도 같은 배경(`thumb_ref`) 재사용 + [압축 영문 공식]** (2026-10-21) — `REF_EN` 표에 한 줄 추가
      - 폰트 Bebas Neue(좁고 두꺼운 고대비), 태그 `MAP OF WAR EP 0X`, 'Battle of' 전면 제외, 지명·직관적 숫자/단어만
      - 중단 2색 카피(빨강 강조 + 시안/흰색), 하단 지명 키워드(red/stone/yellow 크랙 질감). 예: EP01 YONGMUNSAN / EP02 TABU-DONG / EP03 WHITE HORSE / EP04 CHIPYONG-NI

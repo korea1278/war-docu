@@ -255,7 +255,9 @@ const CtrThumb: React.FC<{ img: string; lines: [string, string?]; pos?: string; 
 /* ===== '격전의 지도' 레퍼런스 디자인 시스템 (3단 텍스트 계층) — 한국어판 A안 ===== */
 type Seg = [string, "w" | "s" | "r"];
 const SEG_COLOR = { w: "#ffffff", s: "#8fd6ff", r: "#ff2a2a" };
-type RefDef = { ep: string; mid: Seg[][]; key: string; keyStyle: "red" | "stone" | "yellow" | "ice"; pos?: string; keySize?: number };
+/** 좌우 분할 레이아웃: 오른쪽 = 선명한 그림(인물 얼굴 가리지 않음), 왼쪽 = 같은 그림을 흐리게 어둡게 깐 연기 패널 위에 글자 */
+type SplitDef = { imgX: string; midSize: number; keys: { text: string; style: "stone" | "yellow"; size: number }[] };
+type RefDef = { ep: string; mid: Seg[][]; key: string; keyStyle: "red" | "stone" | "yellow" | "ice"; pos?: string; keySize?: number; split?: SplitDef };
 /** 영문판(EN) — 압축 영문 공식: 'Battle of' 제외, 지명 + 숫자/핵심 단어만, Bebas Neue */
 const REF_EN: Record<string, RefDef> = {
   yongmunsan: { ep: "01", mid: [[["1 REGIMENT", "s"], [" DESTROYED", "w"]], [["3 DIVISIONS", "r"]]], key: "YONGMUNSAN", keyStyle: "yellow" },
@@ -265,7 +267,8 @@ const REF_EN: Record<string, RefDef> = {
   chuncheon: { ep: "05", mid: [[["THE ONLY VICTORY", "w"]], [["ON DAY 1", "r"]]], key: "CHUNCHEON", keyStyle: "yellow" },
   jangjin: { ep: "06", mid: [[["-40°F FREEZE:", "s"]], [["BREAKING ", "w"], ["120,000 ENEMY", "r"]]], key: "CHOSIN RESERVOIR", keyStyle: "ice" },
   betty: { ep: "07", mid: [[["34 MEN", "r"], [" VS", "w"]], [["A BATTALION", "s"]]], key: "OUTPOST BETTY", keyStyle: "stone" },
-  yeongcheon: { ep: "08", mid: [[["THE LAST LINE:", "r"]], [["SAVING THE ", "w"], ["PUSAN PERIMETER", "s"]]], key: "BATTLE OF YEONGCHEON", keyStyle: "stone", keySize: 120 },
+  yeongcheon: { ep: "08", mid: [[["THE LAST LINE:", "r"]], [["SAVING THE", "w"]], [["PUSAN PERIMETER", "s"]]], key: "BATTLE OF YEONGCHEON", keyStyle: "stone",
+    split: { imgX: "22%", midSize: 70, keys: [{ text: "BATTLE OF", style: "stone", size: 92 }, { text: "YEONGCHEON", style: "stone", size: 150 }] } },
 };
 const REF: Record<string, RefDef> = {
   yongmunsan: { ep: "01", mid: [[["중공군 ", "w"], ["3개 사단", "r"], [" 격멸,", "w"]], [["1개 연대의 기적", "s"]]], key: "용문산 전투", keyStyle: "yellow" },
@@ -275,7 +278,8 @@ const REF: Record<string, RefDef> = {
   chuncheon: { ep: "05", mid: [[["개전 첫날 유일한 승리", "r"], [",", "w"]], [["3일간의 기적", "s"]]], key: "춘천 전투", keyStyle: "yellow" },
   jangjin: { ep: "06", mid: [[["영하 40도", "s"], [" 고립,", "w"]], [["12만 포위망", "r"], ["을 찢다", "w"]]], key: "장진호 전투", keyStyle: "stone" },
   betty: { ep: "07", mid: [[["소대원 ", "w"], ["34명", "r"], [" vs ", "w"], ["중공군 대대", "r"]], [["휴전 12일 전의 혈전", "s"]]], key: "베티고지 전투", keyStyle: "yellow" },
-  yeongcheon: { ep: "08", mid: [[["영천이 ", "w"], ["뚫리면", "r"], [",", "w"]], [["부산이 ", "s"], ["끝장난다", "r"]]], key: "영천 대역전", keyStyle: "yellow" },
+  yeongcheon: { ep: "08", mid: [[["영천이 ", "w"], ["뚫리면", "r"], [",", "w"]], [["부산이 ", "s"], ["끝장난다", "r"]]], key: "영천 대역전", keyStyle: "yellow",
+    split: { imgX: "22%", midSize: 66, keys: [{ text: "영천", style: "yellow", size: 236 }, { text: "대역전", style: "stone", size: 172 }] } },
 };
 const CrackDefs: React.FC = () => (
   <svg width={0} height={0} style={{ position: "absolute" }}>
@@ -299,7 +303,7 @@ const CrackDefs: React.FC = () => (
     </defs>
   </svg>
 );
-const KeyWord: React.FC<{ text: string; style: "red" | "stone" | "yellow" | "ice"; size: number; en?: boolean }> = ({ text, style, size, en }) => {
+const KeyWord: React.FC<{ text: string; style: "red" | "stone" | "yellow" | "ice"; size: number; en?: boolean; soft?: boolean }> = ({ text, style, size, en, soft }) => {
   const base: React.CSSProperties = { fontFamily: en ? "'Bebas Neue', 'Oswald', sans-serif" : "'Black Han Sans', sans-serif", fontSize: size, lineHeight: 1, whiteSpace: "nowrap", letterSpacing: en ? 1 : -3 };
   const parts = style === "yellow" ? (en ? text.replace("-", " -").split(" ") : text.split(" ")) : [text];
   const fill = (i: number) => (style === "red" ? "#e3161d" : style === "stone" ? "#ffffff" : style === "ice" ? "#cdeeff" : i === 0 ? "#ffd000" : "#ffffff");
@@ -311,6 +315,14 @@ const KeyWord: React.FC<{ text: string; style: "red" | "stone" | "yellow" | "ice
           <span key={i}>{i && !p.startsWith("-") ? " " : ""}{p}</span>
         ))}
       </div>
+      {/* (soft) 균열 틈을 검정 대신 흐린 같은 색으로 채워 가독성 유지 */}
+      {soft && (
+        <div style={{ ...base, position: "absolute", left: 0, top: 0, opacity: 0.62 }}>
+          {parts.map((p, i) => (
+            <span key={i} style={{ color: fill(i) }}>{i && !p.startsWith("-") ? " " : ""}{p}</span>
+          ))}
+        </div>
+      )}
       {/* 2층: 색 면 + 크랙/스톤 질감 */}
       <div style={{ ...base, position: "absolute", left: 0, top: 0, filter: "url(#crack)" }}>
         {parts.map((p, i) => (
@@ -359,9 +371,51 @@ const RefThumb: React.FC<{ ep: string; en?: boolean }> = ({ ep, en }) => {
   );
 };
 
+const SplitThumb: React.FC<{ a: string; d: RefDef; en?: boolean }> = ({ a, d, en }) => {
+  const sp = d.split!;
+  const src = staticFile(`ep/${a}/ai/thumb_ref.jpg`);
+  const head = en ? "'Bebas Neue', 'Oswald', sans-serif" : "'Black Han Sans', sans-serif";
+  const PANEL = 540; // 왼쪽 글자 패널 폭
+  return (
+    <AbsoluteFill style={{ background: "#1b1d22", overflow: "hidden" }}>
+      <CrackDefs />
+      {/* 왼쪽: 같은 그림을 크게 흐리고 어둡게 → 순흑이 아닌 포연 질감 */}
+      <Img src={src} style={{ position: "absolute", left: -80, top: -60, width: 1440, height: 840, objectFit: "cover", filter: "blur(22px) brightness(.42) contrast(1.1) saturate(1.1)" }} />
+      <AbsoluteFill style={{ background: "radial-gradient(ellipse at 15% 85%, rgba(200,60,30,.22) 0%, rgba(0,0,0,0) 45%)" }} />
+      {/* 오른쪽: 선명한 그림, 왼쪽 가장자리만 부드럽게 녹임 */}
+      <div style={{ position: "absolute", left: PANEL - 120, top: 0, width: 1280 - PANEL + 120, height: 720, WebkitMaskImage: "linear-gradient(90deg, transparent 0px, #000 170px)", maskImage: "linear-gradient(90deg, transparent 0px, #000 170px)" }}>
+        <Img src={src} style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: `${sp.imgX} 50%`, filter: "brightness(1.2) contrast(1.2) saturate(1.25)" }} />
+        <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(120,128,140,.16) 0%, rgba(80,84,92,.10) 100%)", mixBlendMode: "screen" }} />
+      </div>
+      {/* 왼쪽 글자 */}
+      <div style={{ position: "absolute", left: 40, top: 28, width: PANEL - 30 }}>
+        <div style={{ display: "inline-block", background: "rgba(225,225,225,.94)", color: "#111", fontFamily: head, fontSize: en ? 38 : 32, padding: "6px 16px 2px", border: "3px solid #fff", boxShadow: "0 6px 16px rgba(0,0,0,.6)", letterSpacing: 1 }}>
+          {en ? `MAP OF WAR EP ${d.ep}` : `격전의 지도 EP ${d.ep}`}
+        </div>
+        <div style={{ marginTop: 14 }}>
+          {d.mid.map((line, i) => (
+            <div key={i} style={{ fontFamily: head, fontSize: sp.midSize, lineHeight: en ? 0.98 : 1.14, letterSpacing: en ? 1 : -1, whiteSpace: "nowrap", WebkitTextStroke: "10px #000", paintOrder: "stroke fill", textShadow: "0 6px 18px rgba(0,0,0,.85)" }}>
+              {line.map(([t, c], j) => (
+                <span key={j} style={{ color: SEG_COLOR[c] }}>{t}</span>
+              ))}
+            </div>
+          ))}
+        </div>
+      </div>
+      <div style={{ position: "absolute", left: 30, bottom: 26, display: "flex", flexDirection: "column", alignItems: "flex-start", gap: en ? 0 : 6 }}>
+        {sp.keys.map((k, i) => (
+          <KeyWord key={i} text={k.text} style={k.style} size={k.size} en={en} soft />
+        ))}
+      </div>
+    </AbsoluteFill>
+  );
+};
+
 export const Thumbnail: React.FC<{ ep: string; variant: "A" | "B"; lang?: string }> = ({ ep, variant, lang }) => {
   setLang(lang);
   const refKey = ep.replace(/_en$/, "");
+  const refD = (lang === "en" ? REF_EN : REF)[refKey];
+  if (variant === "A" && refD?.split) return <SplitThumb a={refKey} d={refD} en={lang === "en"} />;
   if (variant === "A" && (lang === "en" ? REF_EN : REF)[refKey]) return <RefThumb ep={ep} en={lang === "en"} />;
   if (ep.startsWith("jipyeong")) {
     const a = ep.replace(/_en$/, "");
