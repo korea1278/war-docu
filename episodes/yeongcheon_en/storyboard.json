@@ -738,7 +738,7 @@
     "q": "s07-photo",
     "kb": "right"
    },
-   "label": "ROK soldiers on the Naktong line (Aug 1950)"
+   "label": "Food bearers carry rations to ROK troops south of Andong (Aug 1950)"
   },
   {
    "id": "s08",
@@ -1035,7 +1035,7 @@
     "q": "s11-photo",
     "kb": "left"
    },
-   "label": "ROK soldiers on the march (1950)"
+   "label": "Newly equipped ROK soldiers marching to the front (Aug 1950)"
   },
   {
    "id": "s12",
@@ -1421,7 +1421,7 @@
     "q": "s15b-photo",
     "kb": "in"
    },
-   "label": "ROK soldier on watch in a trench (1950)"
+   "label": "KMAG adviser confers with an ROK regimental commander (Aug 1950)"
   },
   {
    "id": "s16",
@@ -1709,7 +1709,7 @@
     "q": "s20-photo",
     "kb": "in"
    },
-   "label": "ROK troops moving by truck (1950)",
+   "label": "ROK troops loaded on a truck east of Uiseong (Jul 1950)",
    "callouts": [
     {
      "text": "ROK records: 1 U.S. tank platoon (5 tanks)",
@@ -2087,7 +2087,7 @@
     "q": "s27-photo",
     "kb": "in"
    },
-   "label": "North Korean prisoners taken by ROK troops (Sep 1950)"
+   "label": "Interrogating NK prisoners who surrendered to the ROK 11th Regt (Sep 1950)"
   },
   {
    "id": "s28",
@@ -2194,7 +2194,7 @@
     "q": "s32-photo",
     "kb": "in"
    },
-   "label": "Abandoned North Korean T-34 tank (1950)"
+   "label": "Knocked-out North Korean T-34 tank (Sep 1950)"
   },
   {
    "id": "s33",
@@ -2495,7 +2495,7 @@
     "q": "s41-photo",
     "kb": "in"
    },
-   "label": "ROK artillery in action (1950)",
+   "label": "ROK 1st Div artillery firing north of Taegu (Sep 1950)",
    "sfx": [
     {
      "id": "artillery_far",
@@ -2613,7 +2613,7 @@
     "q": "s43-photo",
     "kb": "in"
    },
-   "label": "UN forces landing at Inchon (Sep 15, 1950)"
+   "label": "First-wave landing craft head for Inchon (Sep 15, 1950)"
   },
   {
    "id": "s44",
@@ -2627,7 +2627,7 @@
     "kb": "in",
     "bw": false
    },
-   "label": "Yeongcheon National Cemetery"
+   "label": "The Geumho River in Yeongcheon today"
   },
   {
    "id": "s45",
