@@ -1,9 +1,9 @@
 /**
  * '격전의 지도' 공통 썸네일 표준 (2026-10-25 확정, EP09부터 모든 새 에피소드 A안 기본)
  * 1920×1080 · 6개 레이어:
- *  1 흑백 3D 지형(채도 0 · 대비 +25% · 밝기 -20%)  2 작전선(전선 점선·거점 핀·진격 화살표)
- *  3 인물 흑백 누끼(우측 40~45%, 화이트/오렌지 림 라이트)  4 붉은 사각 스탬프(-6~-8deg, 4px #D32F2F)
- *  5 하단 40% 블랙 그라데이션  6 하단 좌측 2줄 질문형 카피(Line1 흰 72~76px / Line2 #FFD000 88~94px)
+ *  1 흑백 3D 지형(채도 0 · brightness 0.45 · contrast 1.2)  2 작전선(전선 점선·거점 핀·진격 화살표)
+ *  3 인물 흑백 누끼(우측 40~45%, 흰 림 라이트, 하단은 블랙 판 속으로 마스킹)  4 붉은 사각 스탬프(-6~-8deg, 4px #D32F2F)
+ *  5 하단 38% 솔리드 블랙 판(#000, 경계 35px 페이드)  6 블랙 판 위 2줄 질문형 카피(좌 60px · Line1 흰 82px / Line2 #FFD000 105px)
  * 에피소드는 MAPT 표에 한 줄 추가 → `mode=thumb`가 _ko_A / _en_A를 렌더.
  */
 import React, { useEffect, useState } from "react";
@@ -51,6 +51,7 @@ export const MAPT: Record<string, MapThumbDef> = {
 
 const W = 1920;
 const H = 1080;
+const PANEL_TOP = Math.round(H * 0.62); // 하단 38% 솔리드 블랙 판 시작 (y≈670)
 const STAMP_RED = "#D32F2F";
 const YELLOW = "#FFD000";
 const merc = (lat: number) => Math.log(Math.tan(Math.PI / 4 + (lat * Math.PI) / 360));
@@ -91,8 +92,9 @@ export const MapThumb: React.FC<{ a: string; d: MapThumbDef; en?: boolean }> = (
   const P = ([lon, lat]: LL) => `${X(lon).toFixed(1)},${Y(lat).toFixed(1)}`;
   const r = meta?.find((m) => m.name === d.raster);
   const head = en ? "'Anton', 'Bebas Neue', sans-serif" : "'Black Han Sans', sans-serif";
-  const l1 = fit(c.line1, !!en, 76, 60, 1180);
-  const l2 = fit(c.line2, !!en, 94, 72, 1240);
+  // 하단 솔리드 블랙 판 위 2줄: Line1 82px / Line2 105px (가로 90% = 1,728px를 넘을 때만 자동 축소)
+  const l1 = fit(c.line1, !!en, 82, 64, W * 0.9);
+  const l2 = fit(c.line2, !!en, 105, 80, W * 0.9);
   const st = d.stampPos || { x: 760, y: 120, rot: -7 };
   const sx = d.subjectX ?? 1500;
   const col = (k?: string) => (k === "blue" ? "#4f8cff" : "#ff3b30");
@@ -108,7 +110,7 @@ export const MapThumb: React.FC<{ a: string; d: MapThumbDef; en?: boolean }> = (
             top: Y(r.north),
             width: X(r.east) - X(r.west),
             height: Y(r.south) - Y(r.north),
-            filter: "grayscale(1) contrast(1.25) brightness(0.8)",
+            filter: "grayscale(1) brightness(0.45) contrast(1.2)",
           }}
         />
       )}
@@ -150,17 +152,18 @@ export const MapThumb: React.FC<{ a: string; d: MapThumbDef; en?: boolean }> = (
           </div>
         ) : null,
       )}
-      {/* Layer 3: 인물 흑백 누끼 (우측 40~45%) + 림 라이트 */}
+      {/* Layer 3: 인물 흑백 누끼 (우측 40~45%) — 흰 림 라이트만(주황 글로우 없음), 하단은 블랙 판 속으로 마스킹 */}
       <Img
         src={staticFile(`ep/${a}/ai/thumb_subject.png`)}
         style={{
           position: "absolute",
-          height: 1080,
-          top: 20,
+          height: 900,
+          top: 10,
           left: sx,
           transform: "translateX(-50%)",
-          filter:
-            "grayscale(1) contrast(1.2) brightness(1.05) drop-shadow(0 0 3px rgba(255,255,255,.95)) drop-shadow(0 0 10px rgba(255,255,255,.55)) drop-shadow(0 0 26px rgba(255,140,40,.85))",
+          WebkitMaskImage: "linear-gradient(to bottom, black 70%, transparent 100%)",
+          maskImage: "linear-gradient(to bottom, black 70%, transparent 100%)",
+          filter: "grayscale(1) contrast(1.2) brightness(1.05) drop-shadow(0 0 3px rgba(255,255,255,.9)) drop-shadow(0 0 10px rgba(255,255,255,.4))",
         }}
       />
       {/* Layer 4: 붉은 사각 스탬프 */}
@@ -177,7 +180,7 @@ export const MapThumb: React.FC<{ a: string; d: MapThumbDef; en?: boolean }> = (
           padding: "10px 26px 6px",
           color: STAMP_RED,
           fontFamily: head,
-          fontWeight: 900,
+          fontWeight: 400, /* Black Han Sans·Anton은 단일 굵기의 최중량 서체 — 900 지정 시 가짜 볼드로 글자 속이 메워짐 */
           fontSize: en ? 52 : 50,
           letterSpacing: en ? 3 : 2,
           whiteSpace: "nowrap",
@@ -186,14 +189,16 @@ export const MapThumb: React.FC<{ a: string; d: MapThumbDef; en?: boolean }> = (
       >
         {c.stamp}
       </div>
-      {/* Layer 5: 하단 40% 블랙 그라데이션 */}
-      <div style={{ position: "absolute", left: 0, right: 0, bottom: 0, height: H * 0.4, background: "linear-gradient(to top, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.7) 60%, transparent 100%)" }} />
-      {/* Layer 6: 하단 좌측 2줄 질문형 카피 */}
-      <div style={{ position: "absolute", left: 80, bottom: 70 }}>
-        <div style={{ fontFamily: head, fontSize: l1, lineHeight: 1.12, color: "#FFFFFF", whiteSpace: "nowrap", letterSpacing: en ? 1 : -1, textShadow: "0 4px 12px rgba(0,0,0,0.8)" }}>{c.line1}</div>
+      {/* Layer 5: 하단 38% 솔리드 블랙 판(불투명 100%) + 경계 35px 페이드 — 지형·작전선·인물이 글자 뒤로 비치지 않게 */}
+      <div style={{ position: "absolute", left: 0, right: 0, top: PANEL_TOP - 35, height: 35, background: "linear-gradient(to bottom, rgba(0,0,0,0) 0%, #000000 100%)" }} />
+      <div style={{ position: "absolute", left: 0, right: 0, top: PANEL_TOP, bottom: 0, background: "#000000" }} />
+      {/* Layer 6: 블랙 판 위 2줄 질문형 카피 (좌측 60px부터 가로로 크게) */}
+      <div style={{ position: "absolute", left: 60, right: 60, top: PANEL_TOP, bottom: 0, display: "flex", flexDirection: "column", justifyContent: "center" }}>
+        <div style={{ fontFamily: head, fontWeight: 400, /* Black Han Sans·Anton은 단일 굵기의 최중량 서체 — 900 지정 시 가짜 볼드로 글자 속이 메워짐 */ fontSize: l1, lineHeight: 1.12, color: "#FFFFFF", whiteSpace: "nowrap", letterSpacing: en ? 1 : -1, textShadow: "0 4px 12px rgba(0,0,0,0.8)" }}>{c.line1}</div>
         <div
           style={{
             fontFamily: head,
+            fontWeight: 400, /* Black Han Sans·Anton은 단일 굵기의 최중량 서체 — 900 지정 시 가짜 볼드로 글자 속이 메워짐 */
             fontSize: l2,
             lineHeight: 1.12,
             marginTop: 8,

@@ -78,26 +78,27 @@
 9. **썸네일** — ★ **공통 썸네일 표준 (2026-10-25 사용자 확정 · EP09부터 모든 새 에피소드 A안 기본, 새 세션에서도 그대로 적용)**
    - 구현: `remotion/MapThumb.tsx`의 `MAPT` 표에 에피소드 한 줄 추가 → `Thumbnail`이 A안을 이 표준으로 렌더(`Root.tsx`가 자동으로 **1920×1080**). 기준 결과물: `thumbnails/bloodyridge_ko_A.png`, `_en_A.png`
    - **레이어 구조 (1920×1080)**
-     1. 배경: 흑백 3D 지형 — 에피소드 지형 래스터(`public/geo/<raster>.webp`, 보통 `<ep>_zoom`)를 `grayscale(1) contrast(1.25) brightness(0.8)` (채도 0 · 대비 +25% · 밝기 -20%). `view.span`은 래스터가 2배 넘게 확대되지 않게(질감 뭉개짐) 0.2 안팎
+     1. 배경: 흑백 3D 지형 — 에피소드 지형 래스터(`public/geo/<raster>.webp`, 보통 `<ep>_zoom`)를 `grayscale(1) brightness(0.45) contrast(1.2)` (2026-10-26 수정: 지도 밝기 대폭 하향). `view.span`은 래스터가 2배 넘게 확대되지 않게(질감 뭉개짐) 0.2 안팎
      2. 작전선: 전선 흰 점선(`front`), 핵심 능선·목표(`ridge`), 거점 핀(`pin`, 라벨 겹치면 `lift`), 진격 화살표(`arrow`, red/blue) — 좌표는 스토리보드와 동일하게
-     3. 피사체: 전장 핵심 지휘관 또는 상징적 인물 **흑백 누끼**를 우측 40~45% 영역(`subjectX` 기본 1500)에, 외곽 화이트+오렌지 림 라이트(`drop-shadow`). 실존 인물은 저작권·초상 문제가 없는 공개 사진만, 아니면 상징적 병사를 AI로
+     3. 피사체: 전장 핵심 지휘관 또는 상징적 인물 **흑백 누끼**를 우측 40~45% 영역(`subjectX` 기본 1500, 높이 900)에, 외곽은 흰 림 라이트만(**주황 글로우 금지**, 2026-10-26). 인물 하단은 `mask-image: linear-gradient(to bottom, black 70%, transparent 100%)`로 블랙 판 속으로 사라지게. 실존 인물은 저작권·초상 문제가 없는 공개 사진만, 아니면 상징적 병사를 AI로
         - 그림: 스토리보드 `ai_images.thumb_subject` 프롬프트 — "photorealistic black-and-white, waist-up, face clearly visible and turned slightly toward the left of the frame, isolated on a plain pure white background, no shadows on the background, no text"
         - `mode=thumb`가 그림 생성 후 `rembg`로 배경 제거 → `public/ep/<ep>/ai/thumb_subject.png` (rembg 실패 시 흰 배경 알파로 자동 대체)
      4. 스탬프: 승패의 결정적 요인을 암시하는 붉은 사각 스탬프 — `rotate(-6~-8deg)`, `border: 4px solid #D32F2F`, 글자 48~54px 굵게 `#D32F2F`(또는 머스터드 옐로). 중앙 또는 인물 측면(`stampPos`, 중심 좌표 기준), 핀·화살표·얼굴과 겹치지 않게
-     5. 하단 암부: 하단 40% `linear-gradient(to top, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.7) 60%, transparent 100%)`
-     6. 텍스트: 하단 좌측 정렬 2줄 질문형 카피 (left 80 · bottom 70)
+     5. **하단 솔리드 블랙 판 (2026-10-26 수정, 레퍼런스 '역사 사랑방' 구조)**: 캔버스 하단 38%(y≈670~1080)를 불투명 100% `#000000`으로 완전 차단 — 지형·작전선·인물이 글자 뒤로 비치지 않게. 지도와 경계는 35px 페이드로만 연결 (반투명 그라데이션 방식 폐지)
+     6. 텍스트: 블랙 판 안에서 세로 가운데, 좌측 60px부터 2줄 질문형 카피 (구석 정렬 금지)
    - **타이포그래피·색**
      - 폰트: 한국어 `Black Han Sans`(Pretendard Black 대체 가능) / 영문 `Anton`(@fontsource/anton)
-     - Line 1 (상황·전제): 72~76px, 스톤 화이트 `#FFFFFF`, `text-shadow: 0 4px 12px rgba(0,0,0,0.8)`
-     - Line 2 (호기심 질문): 88~94px(Line 1의 약 120%), 머스터드 옐로 `#FFD000`, `-webkit-text-stroke: 3px #000` + 강한 그림자
-     - 길면 지정 범위 안에서 자동 축소(`fit`) — 글자가 인물 얼굴을 덮지 않게 Line 2는 약 1,240px 안쪽
+     - Line 1 (상황·전제): **82px**, 스톤 화이트 `#FFFFFF`, `text-shadow: 0 4px 12px rgba(0,0,0,0.8)`
+     - Line 2 (호기심 질문): **105px**(Line 1보다 크게), 머스터드 옐로 `#FFD000`, `-webkit-text-stroke: 3px #000` + 강한 그림자
+     - 가로 폭 목표 85~90%. 그보다 길면 자동 축소(`fit`, 최대 가로 90%)
+     - ⚠️ 굵기: Black Han Sans·Anton은 **단일 굵기(최중량) 서체** → `font-weight: 400`으로 둘 것. 900을 주면 브라우저 가짜 볼드로 한글 받침·빈 공간이 메워져 뭉개짐 (2026-10-26 확인)
    - **카피 자동 생성 공식 (Curiosity-Gap)** — 새 에피소드 대본·파이프라인을 만들 때 썸네일 카피를 이 공식으로 함께 도출해 `MAPT`에 넣는다
      - 스탬프: [승패를 가른 결정적 요인 2~4단어]
      - Line 1: [압도적 우위·유리했던 상황] + "~하고도 왜"
      - Line 2: [충격적인 패배/승리 결과 질문] + "~했을까?"
      - 영문은 같은 뜻의 질문형 2줄(WHY ... / ...?)
      - ⚠️ **카피·스탬프의 수치는 대본·화면에 쓴 사료 확인 수치만** 사용. 확인 안 된 숫자(예: EP09 제안 '포탄 36만 발' — 출처 미확인)는 넣지 말고, 확인된 사실(결정적 요인 등)로 대체한 뒤 전달 때 알릴 것
-   - 생성·렌더: Actions `mode=thumb` → `thumbnails/<ep>_ko_A.png`, `_en_A.png` (영상 재렌더 없음). PNG가 1.9MB를 넘으면 업로드용 `.jpg`(유튜브 2MB 한도)도 자동 생성 — 그 경우 전달은 JPG로. 렌더 후 PNG를 직접 열어 확인: 얼굴 가림 없음, 스탬프·핀·화살표 겹침 없음, Line 2가 가장 크고 노랑
+   - 생성·렌더: Actions `mode=thumb` → `thumbnails/<ep>_ko_A.png`, `_en_A.png` (영상 재렌더 없음). PNG가 1.9MB를 넘으면 업로드용 `.jpg`(유튜브 2MB 한도)도 자동 생성 — 그 경우 전달은 JPG로 (블랙 판 도입 후 EP09는 약 1.2MB로 PNG 그대로 업로드 가능). 렌더 후 PNG를 직접 열어 확인: 얼굴 가림 없음, 스탬프·핀·화살표 겹침 없음, 블랙 판 뒤로 아무것도 비치지 않음, Line 2가 가장 크고 노랑, 한글 글자 속이 뭉개지지 않음
    - 아래 '격전의 지도 디자인 시스템'·`split` 레이아웃은 **이전 표준(EP01~08 기록용)** — 새 에피소드에는 쓰지 않는다 (`MAPT`에 항목이 있으면 A안은 항상 새 표준이 우선)
    - (이전 표준 · EP01~08) **한국 채널 '격전의 지도' 썸네일 디자인 시스템 (2026-10-21 확정, 한국어 A안)** — `remotion/Thumbnail.tsx`의 `REF` 표에 에피소드 한 줄 추가로 적용
      1. 3단 텍스트 계층: 상단 `격전의 지도 EP 0X` 회색/흰 박스 태그 → 중단 2색 위기 카피 2줄(흰색/하늘색, **핵심 수치·위기어는 빨강**) → 하단 초대형 메인 키워드(크랙/스톤 질감 굵은 글자, 스타일 red / stone(흰 돌) / yellow(옐로·화이트))
