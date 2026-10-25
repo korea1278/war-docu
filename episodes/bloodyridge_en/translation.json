@@ -45,7 +45,7 @@
  "scenes": {
   "s01": {
    "lines": [
-    "August 1951. A nameless ridge north of Yanggu, in the mountains of eastern Korea.",
+    "August 1951. A nameless ridge north of Yanggu, deep in the mountains of eastern Korea.",
     "After days and nights of shelling, not a single tree was left standing on its crest."
    ],
    "label": "Dramatization",
@@ -69,7 +69,7 @@
   },
   "s04": {
    "lines": [
-    "For this one ridge, South Korean and UN casualties would climb past 2,800.",
+    "For this one ridge alone, South Korean and UN casualties would climb past two thousand eight hundred.",
     "An American military newspaper gave it a chilling name."
    ],
    "text": "AUG 18 – SEP 5, 1951\nOver 2,800 casualties"
@@ -85,7 +85,7 @@
   "s06": {
    "lines": [
     "By the summer of 1951, the war had ground to a halt near the 38th Parallel.",
-    "On July 10th, truce talks finally opened at Kaesong."
+    "On July 10th, truce talks finally opened at Kaesong, an old city near the front line."
    ],
    "callouts": [
     "JULY 10, 1951 · TRUCE TALKS OPEN AT KAESONG"
@@ -154,7 +154,7 @@
   },
   "s12": {
    "lines": [
-    "Hill 983, the highest, looked straight down on the UN lines to the south.",
+    "Hill 983, the highest of the three, looked straight down on the UN lines to the south.",
     "The ridge was knife-edge narrow, with sheer slopes falling away on both sides."
    ]
   },
@@ -262,7 +262,7 @@
     "On August 30th, the 9th Infantry hit Hill 940, in the center, head-on.",
     "They got within a few hundred yards of the crest before bunker machine guns stopped them again."
    ],
-   "label": "US infantry climbing a steep slope (1951)"
+   "label": "A soldier climbing a steep slope (1951)"
   },
   "s24": {
    "lines": [
@@ -286,7 +286,7 @@
   "s26": {
    "lines": [
     "On August 28th, the new X Corps commander, General Clovis Byers, changed the plan.",
-    "Instead of hammering one ridge, the whole corps front would push forward at once."
+    "Instead of hammering one ridge, the whole corps front would push forward at once, starting August 31st."
    ],
    "callouts": [
     "FROM AUG 31 · CORPS-WIDE LIMITED OFFENSIVE"
@@ -347,7 +347,7 @@
   "s33": {
    "lines": [
     "The North Koreans had already slipped away to the north.",
-    "Left behind on the ridge were abandoned supplies and more than five hundred enemy dead."
+    "Left behind on the ridge were abandoned supplies and more than five hundred enemy dead, lying where they fell."
    ],
    "label": "Dramatization"
   },
@@ -360,7 +360,7 @@
    "note": "US Army history · ROK records (enemy: 2nd Div estimate)",
    "bars": [
     [
-     "ROK & UN casualties",
+     "ROK & UN",
      "2,800+"
     ],
     [
@@ -439,7 +439,7 @@
     "Men climbing in single file walked straight into the bunkers' fire.",
     "Some platoons went into the attack made up mostly of replacements who had only just arrived."
    ],
-   "label": "US infantry advancing uphill through smoke (1951)"
+   "label": "Troops advancing uphill through smoke (1951)"
   },
   "s42": {
    "lines": [
@@ -456,7 +456,7 @@
   },
   "s44": {
    "lines": [
-    "But the North Koreans had fallen back only a few miles, to another ridge to the north.",
+    "But the North Koreans had fallen back only a few miles, to fortified positions on another ridge to the north.",
     "And on September 13th, the 2nd Division went on the attack again, toward that ridge."
    ],
    "callouts": [
@@ -485,7 +485,7 @@
   "s47": {
    "lines": [
     "A single line on the negotiating table cost thousands of lives on this ridge.",
-    "The ground they held is today's Yanggu, south of the armistice line."
+    "The ground they held is today's Yanggu, just south of the armistice line that still divides Korea."
    ],
    "text": "One line on the table",
    "accent": "Thousands of lives"
