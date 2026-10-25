@@ -31,7 +31,7 @@ export type MapThumbDef = {
 export const MAPT: Record<string, MapThumbDef> = {
   bloodyridge: {
     raster: "bloody_zoom",
-    view: { center: [128.07, 38.238], span: 0.2 },
+    view: { center: [128.08, 38.236], span: 0.21 },
     items: [
       { k: "front", path: [[127.97, 38.214], [128.0, 38.221], [128.03, 38.224], [128.06, 38.226], [128.1, 38.232], [128.14, 38.238]] },
       { k: "ridge", path: [[128.012, 38.249], [128.022, 38.252], [128.031, 38.254], [128.04, 38.255], [128.046, 38.253], [128.051, 38.252], [128.058, 38.25]] },
@@ -42,7 +42,7 @@ export const MAPT: Record<string, MapThumbDef> = {
       { k: "pin", p: [128.04, 38.255], text: { ko: "940고지", en: "HILL 940" }, color: "red", lift: 70 },
       { k: "pin", p: [128.051, 38.252], text: { ko: "773고지", en: "HILL 773" }, color: "red" },
     ],
-    stampPos: { x: 985, y: 545, rot: -7 },
+    stampPos: { x: 790, y: 520, rot: -7 },
     // ※ 사용자 제안 '포탄 36만 발'은 사료 확인 불가 → 확인된 결정적 요인으로 대체 (출처 확인 시 아래 3줄만 교체)
     ko: { stamp: "땅속 벙커", line1: "압도적 포격을 쏟아붓고도 왜", line2: "3주 동안 뚫지 못했을까?" },
     en: { stamp: "UNDERGROUND BUNKERS", line1: "WHY COULDN'T THEY BREACH IT", line2: "AFTER 3 WEEKS OF SHELLING?" },
@@ -51,7 +51,6 @@ export const MAPT: Record<string, MapThumbDef> = {
 
 const W = 1920;
 const H = 1080;
-const PANEL_TOP = Math.round(H * 0.62); // 하단 38% 솔리드 블랙 판 시작 (y≈670)
 const STAMP_RED = "#D32F2F";
 const YELLOW = "#FFD000";
 const merc = (lat: number) => Math.log(Math.tan(Math.PI / 4 + (lat * Math.PI) / 360));
@@ -67,6 +66,24 @@ const estW = (t: string, en: boolean) =>
   }, 0);
 const fit = (t: string, en: boolean, max: number, min: number, width: number) =>
   Math.max(min, Math.min(max, Math.floor(width / Math.max(1, estW(t, en)))));
+
+/** 글꼴을 실제로 불러온 뒤 canvas로 100px 기준 폭을 잰다 → 화면 폭에 맞는 글자 크기 계산용 (em 단위 폭 반환) */
+const useMeasured = (texts: string[], font: string): number[] => {
+  const [w, setW] = useState<number[]>([]);
+  const [hd] = useState(() => delayRender("measure-text"));
+  useEffect(() => {
+    const fam = font.split(",")[0];
+    Promise.all([document.fonts.load(`100px ${fam}`, texts.join("")), document.fonts.ready])
+      .then(() => {
+        const ctx = document.createElement("canvas").getContext("2d")!;
+        ctx.font = `100px ${font}`;
+        setW(texts.map((t) => ctx.measureText(t).width / 100));
+      })
+      .catch(() => setW([]))
+      .finally(() => continueRender(hd));
+  }, [texts.join("|"), font]);
+  return w;
+};
 
 type RasterMeta = { name: string; file: string; west: number; east: number; north: number; south: number };
 let RASTERS: RasterMeta[] | null = null;
@@ -92,11 +109,16 @@ export const MapThumb: React.FC<{ a: string; d: MapThumbDef; en?: boolean }> = (
   const P = ([lon, lat]: LL) => `${X(lon).toFixed(1)},${Y(lat).toFixed(1)}`;
   const r = meta?.find((m) => m.name === d.raster);
   const head = en ? "'Anton', 'Bebas Neue', sans-serif" : "'Black Han Sans', sans-serif";
-  // 하단 솔리드 블랙 판 위 2줄: Line1 82px / Line2 105px (가로 90% = 1,728px를 넘을 때만 자동 축소)
-  const l1 = fit(c.line1, !!en, 82, 64, W * 0.9);
-  const l2 = fit(c.line2, !!en, 105, 80, W * 0.9);
+  // 하단 2줄은 실제 글꼴로 폭을 재서 가로를 꽉 채운다 (레퍼런스 '역사 사랑방': 글자가 화면 폭의 약 90%)
+  const [m1, m2] = useMeasured([c.line1, c.line2], head);
+  let l2 = Math.min(190, Math.floor((W * 0.92) / m2));
+  let l1 = Math.min(160, Math.floor((W * 0.88) / m1));
+  if (l1 > l2 / 1.12) l1 = Math.floor(l2 / 1.12); // Line 2가 항상 더 크게
+  if (!m1 || !m2) { l1 = fit(c.line1, !!en, 120, 64, W * 0.88); l2 = fit(c.line2, !!en, 140, 80, W * 0.92); }
+  const PAD = 26;
+  const panelTop = Math.round(H - (PAD * 2 + l1 * 1.06 + l2 * 1.06 + 6));
   const st = d.stampPos || { x: 760, y: 120, rot: -7 };
-  const sx = d.subjectX ?? 1500;
+  const sx = d.subjectX ?? 1460;
   const col = (k?: string) => (k === "blue" ? "#4f8cff" : "#ff3b30");
   return (
     <AbsoluteFill style={{ background: "#2a2c30", overflow: "hidden" }}>
@@ -157,8 +179,8 @@ export const MapThumb: React.FC<{ a: string; d: MapThumbDef; en?: boolean }> = (
         src={staticFile(`ep/${a}/ai/thumb_subject.png`)}
         style={{
           position: "absolute",
-          height: 900,
-          top: 10,
+          height: 1100,
+          top: -20,
           left: sx,
           transform: "translateX(-50%)",
           WebkitMaskImage: "linear-gradient(to bottom, black 70%, transparent 100%)",
@@ -171,17 +193,17 @@ export const MapThumb: React.FC<{ a: string; d: MapThumbDef; en?: boolean }> = (
         style={{
           position: "absolute",
           left: st.x,
-          top: st.y,
+          top: Math.min(st.y, panelTop - 80),
           transform: `translate(-50%,-50%) rotate(${st.rot ?? -7}deg)`,
-          border: `4px solid ${STAMP_RED}`,
-          outline: `2px solid ${STAMP_RED}`,
-          outlineOffset: 6,
-          background: "rgba(10,10,12,.55)",
-          padding: "10px 26px 6px",
+          border: `6px solid ${STAMP_RED}`,
+          outline: `3px solid ${STAMP_RED}`,
+          outlineOffset: 8,
+          background: "rgba(10,10,12,.6)",
+          padding: "8px 30px 4px",
           color: STAMP_RED,
           fontFamily: head,
           fontWeight: 400, /* Black Han Sans·Anton은 단일 굵기의 최중량 서체 — 900 지정 시 가짜 볼드로 글자 속이 메워짐 */
-          fontSize: en ? 52 : 50,
+          fontSize: en ? 62 : 86,
           letterSpacing: en ? 3 : 2,
           whiteSpace: "nowrap",
           textShadow: "0 2px 6px rgba(0,0,0,.7)",
@@ -190,21 +212,21 @@ export const MapThumb: React.FC<{ a: string; d: MapThumbDef; en?: boolean }> = (
         {c.stamp}
       </div>
       {/* Layer 5: 하단 38% 솔리드 블랙 판(불투명 100%) + 경계 35px 페이드 — 지형·작전선·인물이 글자 뒤로 비치지 않게 */}
-      <div style={{ position: "absolute", left: 0, right: 0, top: PANEL_TOP - 35, height: 35, background: "linear-gradient(to bottom, rgba(0,0,0,0) 0%, #000000 100%)" }} />
-      <div style={{ position: "absolute", left: 0, right: 0, top: PANEL_TOP, bottom: 0, background: "#000000" }} />
+      <div style={{ position: "absolute", left: 0, right: 0, top: panelTop - 35, height: 35, background: "linear-gradient(to bottom, rgba(0,0,0,0) 0%, #000000 100%)" }} />
+      <div style={{ position: "absolute", left: 0, right: 0, top: panelTop, bottom: 0, background: "#000000" }} />
       {/* Layer 6: 블랙 판 위 2줄 질문형 카피 (좌측 60px부터 가로로 크게) */}
-      <div style={{ position: "absolute", left: 60, right: 60, top: PANEL_TOP, bottom: 0, display: "flex", flexDirection: "column", justifyContent: "center" }}>
-        <div style={{ fontFamily: head, fontWeight: 400, /* Black Han Sans·Anton은 단일 굵기의 최중량 서체 — 900 지정 시 가짜 볼드로 글자 속이 메워짐 */ fontSize: l1, lineHeight: 1.12, color: "#FFFFFF", whiteSpace: "nowrap", letterSpacing: en ? 1 : -1, textShadow: "0 4px 12px rgba(0,0,0,0.8)" }}>{c.line1}</div>
+      <div style={{ position: "absolute", left: 60, right: 0, top: panelTop, bottom: 0, display: "flex", flexDirection: "column", justifyContent: "center" }}>
+        <div style={{ fontFamily: head, fontWeight: 400, /* Black Han Sans·Anton은 단일 굵기의 최중량 서체 — 900 지정 시 가짜 볼드로 글자 속이 메워짐 */ fontSize: l1, lineHeight: 1.06, color: "#FFFFFF", whiteSpace: "nowrap", letterSpacing: 0, textShadow: "0 4px 12px rgba(0,0,0,0.8)" }}>{c.line1}</div>
         <div
           style={{
             fontFamily: head,
             fontWeight: 400, /* Black Han Sans·Anton은 단일 굵기의 최중량 서체 — 900 지정 시 가짜 볼드로 글자 속이 메워짐 */
             fontSize: l2,
-            lineHeight: 1.12,
-            marginTop: 8,
+            lineHeight: 1.06,
+            marginTop: 6,
             color: YELLOW,
             whiteSpace: "nowrap",
-            letterSpacing: en ? 1 : -1,
+            letterSpacing: 0,
             WebkitTextStroke: "3px #000000",
             paintOrder: "stroke fill",
             textShadow: "0 6px 18px rgba(0,0,0,0.95), 0 2px 4px rgba(0,0,0,0.9)",
