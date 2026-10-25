@@ -84,15 +84,15 @@
         - 그림: 스토리보드 `ai_images.thumb_subject` 프롬프트 — "photorealistic black-and-white, waist-up, face clearly visible and turned slightly toward the left of the frame, isolated on a plain pure white background, no shadows on the background, no text"
         - `mode=thumb`가 그림 생성 후 `rembg`로 배경 제거 → `public/ep/<ep>/ai/thumb_subject.png` (rembg 실패 시 흰 배경 알파로 자동 대체)
      4. 스탬프: 승패의 결정적 요인을 암시하는 붉은 사각 스탬프 — `rotate(-6~-8deg)`, **큼직하게**(2026-10-26: 테두리 6px + 바깥선 3px `#D32F2F`, 글자 한 86px / 영 62px). 지도 위 인물 왼쪽(`stampPos`, 중심 좌표 기준 — EP09는 x 790·y 520). **인물 얼굴·입을 절대 가리지 말 것** (얼굴 옆에 두면 영문처럼 긴 스탬프가 입을 덮음), 블랙 판보다 80px 이상 위에 자동 고정
-     5. **하단 솔리드 블랙 판 (2026-10-26 수정, 레퍼런스 '역사 사랑방' 구조)**: 불투명 100% `#000000` — 지형·작전선·인물이 글자 뒤로 비치지 않게. 판 높이는 글자 크기에 맞춰 자동(글자 2줄 + 위아래 26px 여백, EP09는 약 38%). 지도와 경계는 35px 페이드로만 연결 (반투명 그라데이션 방식 폐지)
-     6. 텍스트: 블랙 판 안에서 세로 가운데, 좌측 60px부터 2줄 질문형 카피 (구석 정렬 금지)
+     5. **하단 구조 = 레퍼런스 '역사 사랑방'과 같은 형태 (2026-10-26 확정)**: **Line 2만** 맨 아래 솔리드 블랙 바(불투명 100% `#000000`, 높이는 Line 2 크기 + 위아래 18px로 자동) 위에. **Line 1은 그 바로 위 사진(지도·인물) 위에** 얹고, Line 1 뒤에만 어두운 띠(`transparent → rgba(0,0,0,.72) → .88`)를 깐다
+     6. 텍스트: 좌측 56px부터 2줄 질문형 카피 (구석 정렬 금지). Line 1이 인물 어깨·가슴에 겹치는 것은 레퍼런스와 같아서 OK — 얼굴만 피할 것
    - **타이포그래피·색**
-     - 폰트: 한국어 `Black Han Sans`(Pretendard Black 대체 가능) / 영문 `Anton`(@fontsource/anton)
-     - ★ **꽉 찬 글자 (2026-10-26 사용자 요청 — '꽉 차 보이게, 누르고 싶게')**: 글자 크기는 고정 px가 아니라 **실제 글꼴 폭을 재서 가로를 꽉 채우도록 자동 계산**(`useMeasured`). Line 1 = 화면 폭 88%, Line 2 = 92% (상한 160/190px). Line 2는 항상 Line 1보다 12% 이상 크게. EP09 결과: 한 Line 1 약 140px · Line 2 약 160px
-     - Line 1 (상황·전제): 스톤 화이트 `#FFFFFF`, `text-shadow: 0 4px 12px rgba(0,0,0,0.8)`
-     - Line 2 (호기심 질문): 머스터드 옐로 `#FFD000`, `-webkit-text-stroke: 3px #000` + 강한 그림자
-     - 줄 간격 1.06, 자간 0 (빈틈 없이 빽빽하게). 카피가 짧을수록 글자가 커지므로 Line 2는 10~14자 안팎이 적당
-     - ⚠️ 굵기: Black Han Sans·Anton은 **단일 굵기(최중량) 서체** → `font-weight: 400`으로 둘 것. 900을 주면 브라우저 가짜 볼드로 한글 받침·빈 공간이 메워져 뭉개짐 (2026-10-26 확인)
+     - 폰트 (2026-10-26 변경 — '눈에 확 띄게'): 한국어 **Pretendard Black(900)** (`public/fonts/Pretendard-Black.woff2`, SIL OFL) / 영문 **Montserrat Black(900)** (@fontsource/montserrat). 둘 다 실제 900 굵기 파일이라 `font-weight: 900` 그대로 사용. 자간 -0.02em. 핀 라벨·스탬프도 같은 글꼴
+     - ★ **꽉 찬 글자 (2026-10-26 사용자 요청 — '꽉 차 보이게, 누르고 싶게')**: 글자 크기는 고정 px가 아니라 **실제 글꼴 폭을 재서 가로를 꽉 채우도록 자동 계산**(`useMeasured`). Line 1 = 화면 폭 90%, Line 2 = 92% (상한 150/170px). Line 2는 항상 Line 1보다 8% 이상 크게
+     - Line 1 (상황·전제): 스톤 화이트 `#FFFFFF`, 사진 위라서 **굵은 검정 외곽선**(글자 크기의 9%, `paint-order: stroke fill`) + 그림자
+     - Line 2 (호기심 질문): 머스터드 옐로 `#FFD000`, 블랙 바 위라 외곽선 없이 깔끔하게
+     - 빈틈 없이 빽빽하게. 카피가 짧을수록 글자가 커지므로 Line 2는 10~14자 안팎이 적당
+     - ⚠️ 굵기: 예전 글꼴 Black Han Sans·Anton은 단일 굵기 서체라 900을 주면 가짜 볼드로 뭉개짐 — 다시 쓸 일이 있으면 `font-weight: 400`으로
    - **카피 자동 생성 공식 (Curiosity-Gap)** — 새 에피소드 대본·파이프라인을 만들 때 썸네일 카피를 이 공식으로 함께 도출해 `MAPT`에 넣는다
      - 스탬프: [승패를 가른 결정적 요인 2~4단어]
      - Line 1: [압도적 우위·유리했던 상황] + "~하고도 왜"

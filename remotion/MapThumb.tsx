@@ -3,12 +3,14 @@
  * 1920×1080 · 6개 레이어:
  *  1 흑백 3D 지형(채도 0 · brightness 0.45 · contrast 1.2)  2 작전선(전선 점선·거점 핀·진격 화살표)
  *  3 인물 흑백 누끼(우측 40~45%, 흰 림 라이트, 하단은 블랙 판 속으로 마스킹)  4 붉은 사각 스탬프(-6~-8deg, 4px #D32F2F)
- *  5 하단 38% 솔리드 블랙 판(#000, 경계 35px 페이드)  6 블랙 판 위 2줄 질문형 카피(좌 60px · Line1 흰 82px / Line2 #FFD000 105px)
+ *  5 맨 아래 솔리드 블랙 바(Line 2 전용) + Line 1 뒤 어두운 띠  6 2줄 질문형 카피 — Line1 흰색은 사진 위(굵은 검정 외곽선),
+ *    Line2 #FFD000은 블랙 바 위. 글꼴 한 Pretendard Black / 영 Montserrat Black, 실측 폭으로 가로를 꽉 채움 (레퍼런스 '역사 사랑방')
  * 에피소드는 MAPT 표에 한 줄 추가 → `mode=thumb`가 _ko_A / _en_A를 렌더.
  */
 import React, { useEffect, useState } from "react";
 import { AbsoluteFill, continueRender, delayRender, Img, staticFile } from "remotion";
 import "@fontsource/anton/400.css";
+import "@fontsource/montserrat/900.css";
 
 type LL = [number, number];
 type Item =
@@ -73,10 +75,11 @@ const useMeasured = (texts: string[], font: string): number[] => {
   const [hd] = useState(() => delayRender("measure-text"));
   useEffect(() => {
     const fam = font.split(",")[0];
-    Promise.all([document.fonts.load(`100px ${fam}`, texts.join("")), document.fonts.ready])
+    Promise.all([document.fonts.load(`900 100px ${fam}`, texts.join("")), document.fonts.ready])
       .then(() => {
         const ctx = document.createElement("canvas").getContext("2d")!;
-        ctx.font = `100px ${font}`;
+        ctx.font = `900 100px ${font}`;
+        (ctx as any).letterSpacing = "-2px"; // 화면 자간(-0.02em)과 같게
         setW(texts.map((t) => ctx.measureText(t).width / 100));
       })
       .catch(() => setW([]))
@@ -108,20 +111,24 @@ export const MapThumb: React.FC<{ a: string; d: MapThumbDef; en?: boolean }> = (
   const Y = (lat: number) => H / 2 - (merc(lat) - merc(center[1])) * ppr;
   const P = ([lon, lat]: LL) => `${X(lon).toFixed(1)},${Y(lat).toFixed(1)}`;
   const r = meta?.find((m) => m.name === d.raster);
-  const head = en ? "'Anton', 'Bebas Neue', sans-serif" : "'Black Han Sans', sans-serif";
-  // 하단 2줄은 실제 글꼴로 폭을 재서 가로를 꽉 채운다 (레퍼런스 '역사 사랑방': 글자가 화면 폭의 약 90%)
+  // 글꼴: 한국어 Pretendard Black(900) / 영문 Montserrat Black(900) — 실제 900 굵기 파일이라 가짜 볼드 없음
+  const head = en ? "'Montserrat', 'Anton', sans-serif" : "'Pretendard', 'Black Han Sans', sans-serif";
+  // 2줄은 실제 글꼴 폭을 재서 가로를 꽉 채운다 (레퍼런스 '역사 사랑방': 글자가 화면 폭의 약 90%)
   const [m1, m2] = useMeasured([c.line1, c.line2], head);
-  let l2 = Math.min(190, Math.floor((W * 0.92) / m2));
-  let l1 = Math.min(160, Math.floor((W * 0.88) / m1));
-  if (l1 > l2 / 1.12) l1 = Math.floor(l2 / 1.12); // Line 2가 항상 더 크게
-  if (!m1 || !m2) { l1 = fit(c.line1, !!en, 120, 64, W * 0.88); l2 = fit(c.line2, !!en, 140, 80, W * 0.92); }
-  const PAD = 26;
-  const panelTop = Math.round(H - (PAD * 2 + l1 * 1.06 + l2 * 1.06 + 6));
+  let l2 = Math.min(170, Math.floor((W * 0.92) / m2));
+  let l1 = Math.min(150, Math.floor((W * 0.9) / m1));
+  if (l1 > l2 / 1.08) l1 = Math.floor(l2 / 1.08); // Line 2가 항상 더 크게
+  if (!m1 || !m2) { l1 = fit(c.line1, !!en, 110, 64, W * 0.9); l2 = fit(c.line2, !!en, 130, 80, W * 0.92); }
+  // 레퍼런스 구조: Line 2만 솔리드 블랙 바 위, Line 1은 바로 위 사진 위(어두운 띠 + 굵은 검정 외곽선)
+  const PAD = 18;
+  const panelTop = Math.round(H - (PAD * 2 + l2 * 1.02)); // 솔리드 블랙 바 시작
+  const line1Top = Math.round(panelTop - l1 * 1.12 - 6); // Line 1 위치 (사진 위)
   const st = d.stampPos || { x: 760, y: 120, rot: -7 };
   const sx = d.subjectX ?? 1460;
   const col = (k?: string) => (k === "blue" ? "#4f8cff" : "#ff3b30");
   return (
     <AbsoluteFill style={{ background: "#2a2c30", overflow: "hidden" }}>
+      <style>{`@font-face{font-family:'Pretendard';font-weight:900;font-style:normal;src:url(${staticFile("fonts/Pretendard-Black.woff2")}) format('woff2');}`}</style>
       {/* Layer 1: 흑백 3D 지형 */}
       {r && (
         <Img
@@ -168,7 +175,7 @@ export const MapThumb: React.FC<{ a: string; d: MapThumbDef; en?: boolean }> = (
       {d.items.map((it, i) =>
         it.k === "pin" ? (
           <div key={i} style={{ position: "absolute", left: X(it.p[0]), top: Y(it.p[1]), transform: "translate(-50%,-100%)", textAlign: "center" }}>
-            <div style={{ background: col(it.color), color: "#fff", fontFamily: head, fontSize: en ? 34 : 32, padding: "4px 14px 2px", whiteSpace: "nowrap", boxShadow: "0 4px 12px rgba(0,0,0,.6)", letterSpacing: en ? 1 : 0 }}>{en ? it.text.en : it.text.ko}</div>
+            <div style={{ background: "#0b0b0b", color: "#fff", fontFamily: head, fontWeight: 900, fontSize: en ? 32 : 36, padding: "6px 16px 5px", whiteSpace: "nowrap", border: "2px solid rgba(255,255,255,.85)", borderRadius: 8, boxShadow: "0 4px 12px rgba(0,0,0,.6)", letterSpacing: "-0.01em" }}>{en ? it.text.en : it.text.ko}</div>
             <div style={{ width: 4, height: 26 + (it.lift || 0), background: "#fff", margin: "0 auto" }} />
             <div style={{ width: 22, height: 22, borderRadius: 11, background: col(it.color), border: "4px solid #fff", margin: "-4px auto 0", transform: "translateY(11px)" }} />
           </div>
@@ -183,8 +190,8 @@ export const MapThumb: React.FC<{ a: string; d: MapThumbDef; en?: boolean }> = (
           top: -20,
           left: sx,
           transform: "translateX(-50%)",
-          WebkitMaskImage: "linear-gradient(to bottom, black 70%, transparent 100%)",
-          maskImage: "linear-gradient(to bottom, black 70%, transparent 100%)",
+          WebkitMaskImage: "linear-gradient(to bottom, black 72%, transparent 96%)",
+          maskImage: "linear-gradient(to bottom, black 72%, transparent 96%)",
           filter: "grayscale(1) contrast(1.2) brightness(1.05) drop-shadow(0 0 3px rgba(255,255,255,.9)) drop-shadow(0 0 10px rgba(255,255,255,.4))",
         }}
       />
@@ -193,7 +200,7 @@ export const MapThumb: React.FC<{ a: string; d: MapThumbDef; en?: boolean }> = (
         style={{
           position: "absolute",
           left: st.x,
-          top: Math.min(st.y, panelTop - 80),
+          top: Math.min(st.y, line1Top - 70),
           transform: `translate(-50%,-50%) rotate(${st.rot ?? -7}deg)`,
           border: `6px solid ${STAMP_RED}`,
           outline: `3px solid ${STAMP_RED}`,
@@ -202,39 +209,22 @@ export const MapThumb: React.FC<{ a: string; d: MapThumbDef; en?: boolean }> = (
           padding: "8px 30px 4px",
           color: STAMP_RED,
           fontFamily: head,
-          fontWeight: 400, /* Black Han Sans·Anton은 단일 굵기의 최중량 서체 — 900 지정 시 가짜 볼드로 글자 속이 메워짐 */
-          fontSize: en ? 62 : 86,
-          letterSpacing: en ? 3 : 2,
+          fontWeight: 900,
+          fontSize: en ? 56 : 84,
+          letterSpacing: en ? 1 : "-0.02em",
           whiteSpace: "nowrap",
           textShadow: "0 2px 6px rgba(0,0,0,.7)",
         }}
       >
         {c.stamp}
       </div>
-      {/* Layer 5: 하단 38% 솔리드 블랙 판(불투명 100%) + 경계 35px 페이드 — 지형·작전선·인물이 글자 뒤로 비치지 않게 */}
-      <div style={{ position: "absolute", left: 0, right: 0, top: panelTop - 35, height: 35, background: "linear-gradient(to bottom, rgba(0,0,0,0) 0%, #000000 100%)" }} />
+      {/* Layer 5: 레퍼런스 구조 — Line 1 뒤만 어두운 띠(사진이 살짝 비침) + 맨 아래 Line 2용 솔리드 블랙 바(불투명 100%) */}
+      <div style={{ position: "absolute", left: 0, right: 0, top: line1Top - 90, height: panelTop - line1Top + 90, background: "linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,.72) 45%, rgba(0,0,0,.88) 100%)" }} />
       <div style={{ position: "absolute", left: 0, right: 0, top: panelTop, bottom: 0, background: "#000000" }} />
-      {/* Layer 6: 블랙 판 위 2줄 질문형 카피 (좌측 60px부터 가로로 크게) */}
-      <div style={{ position: "absolute", left: 60, right: 0, top: panelTop, bottom: 0, display: "flex", flexDirection: "column", justifyContent: "center" }}>
-        <div style={{ fontFamily: head, fontWeight: 400, /* Black Han Sans·Anton은 단일 굵기의 최중량 서체 — 900 지정 시 가짜 볼드로 글자 속이 메워짐 */ fontSize: l1, lineHeight: 1.06, color: "#FFFFFF", whiteSpace: "nowrap", letterSpacing: 0, textShadow: "0 4px 12px rgba(0,0,0,0.8)" }}>{c.line1}</div>
-        <div
-          style={{
-            fontFamily: head,
-            fontWeight: 400, /* Black Han Sans·Anton은 단일 굵기의 최중량 서체 — 900 지정 시 가짜 볼드로 글자 속이 메워짐 */
-            fontSize: l2,
-            lineHeight: 1.06,
-            marginTop: 6,
-            color: YELLOW,
-            whiteSpace: "nowrap",
-            letterSpacing: 0,
-            WebkitTextStroke: "3px #000000",
-            paintOrder: "stroke fill",
-            textShadow: "0 6px 18px rgba(0,0,0,0.95), 0 2px 4px rgba(0,0,0,0.9)",
-          }}
-        >
-          {c.line2}
-        </div>
-      </div>
+      {/* Layer 6-1: Line 1 (흰색, 사진 위, 굵은 검정 외곽선) */}
+      <div style={{ position: "absolute", left: 56, top: line1Top, fontFamily: head, fontWeight: 900, fontSize: l1, lineHeight: 1.1, color: "#FFFFFF", whiteSpace: "nowrap", letterSpacing: "-0.02em", WebkitTextStroke: `${Math.round(l1 * 0.09)}px #000000`, paintOrder: "stroke fill", textShadow: "0 6px 16px rgba(0,0,0,0.9)" }}>{c.line1}</div>
+      {/* Layer 6-2: Line 2 (머스터드 옐로, 솔리드 블랙 바 위, 가장 크게) */}
+      <div style={{ position: "absolute", left: 56, top: panelTop, height: H - panelTop, display: "flex", alignItems: "center", fontFamily: head, fontWeight: 900, fontSize: l2, lineHeight: 1, color: YELLOW, whiteSpace: "nowrap", letterSpacing: "-0.02em" }}>{c.line2}</div>
     </AbsoluteFill>
   );
 };
