@@ -7,6 +7,7 @@
     "render": "remotion render remotion/index.ts Documentary"
   },
   "dependencies": {
+    "@fontsource/anton": "^5.3.0",
     "@fontsource/bebas-neue": "5.2.7",
     "@fontsource/black-han-sans": "5.2.5",
     "@fontsource/do-hyeon": "5.2.5",

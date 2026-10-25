@@ -2,6 +2,7 @@ import React from "react";
 import { AbsoluteFill, Img, staticFile } from "remotion";
 import "@fontsource/bebas-neue/400.css";
 import { C, F, setLang } from "./theme";
+import { MAPT, MapThumb } from "./MapThumb";
 
 const big = (size: number, color: string, stroke = "#000", sw = 10): React.CSSProperties => ({
   fontFamily: F.head,
@@ -419,6 +420,8 @@ export const Thumbnail: React.FC<{ ep: string; variant: "A" | "B"; lang?: string
   setLang(lang);
   const refKey = ep.replace(/_en$/, "");
   const refD = (lang === "en" ? REF_EN : REF)[refKey];
+  // 공통 썸네일 표준(MAPT, 1920×1080)이 있는 에피소드는 A안을 이 표준으로
+  if (variant === "A" && MAPT[refKey]) return <MapThumb a={refKey} d={MAPT[refKey]} en={lang === "en"} />;
   if (variant === "A" && refD?.split) return <SplitThumb a={refKey} d={refD} en={lang === "en"} />;
   if (variant === "A" && (lang === "en" ? REF_EN : REF)[refKey]) return <RefThumb ep={ep} en={lang === "en"} />;
   if (ep.startsWith("jipyeong")) {

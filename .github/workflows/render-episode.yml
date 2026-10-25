@@ -66,6 +66,7 @@ jobs:
       - name: 썸네일만 (thumb 모드)
         if: inputs.mode == 'thumb'
         run: |
+          pip install -q "rembg[cpu]" || echo "rembg 설치 실패 — 대체 누끼 사용"
           cd pipeline && python ai_images.py $EP --thumb && cd ..
           npx remotion browser ensure
           npx remotion bundle remotion/index.ts --out-dir=out/bundle --log=error
@@ -75,6 +76,14 @@ jobs:
             npx remotion still out/bundle Thumbnail thumbnails/${EP}_ko_B.png --props="{\"ep\":\"$EP\",\"variant\":\"B\",\"lang\":\"ko\"}" --log=error
           fi
           npx remotion still out/bundle Thumbnail thumbnails/${EP}_en_A.png --props="{\"ep\":\"$EP\",\"variant\":\"A\",\"lang\":\"en\"}" --log=error
+          # 유튜브 썸네일 한도 2MB: 1.9MB 넘는 PNG는 업로드용 JPG를 함께 만든다
+          python3 -c "
+import glob,os
+from PIL import Image
+for p in glob.glob('thumbnails/${EP}_*_A.png'):
+    if os.path.getsize(p) > 1900000:
+        Image.open(p).convert('RGB').save(p[:-4]+'.jpg', quality=90, optimize=True); print('JPG', p)
+"
           git config user.name "war-docu-bot" && git config user.email "actions@users.noreply.github.com"
           git add -A public/ep/$EP thumbnails && git commit -qm "썸네일: $EP" || echo "변경 없음"
           for i in 1 2 3 4 5; do

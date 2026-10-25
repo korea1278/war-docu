@@ -145,7 +145,30 @@ def main(ep, thumb=False):
         fit(img).save(p, quality=92)
         man[name] = sig
         write_json(out / "ai.json", man)
+    if "thumb_subject" in used and (thumb or not (d / "thumb_subject.png").exists()):
+        cutout(d / "thumb_subject.jpg", d / "thumb_subject.png")
     print("AI 이미지 완료")
+
+
+def cutout(src, dst):
+    """썸네일 표준 Layer 3: 인물 누끼(배경 제거) PNG. rembg가 있으면 사용, 없거나 실패하면 흰 배경 기준 알파로 대체."""
+    from PIL import ImageFilter, ImageOps
+    img = Image.open(src).convert("RGB")
+    try:
+        from rembg import remove
+        out = remove(img)
+        print("  누끼: rembg")
+    except Exception as e:  # noqa: BLE001
+        print(f"  누끼: rembg 사용 불가({e}) → 흰 배경 알파로 대체")
+        g = ImageOps.grayscale(img)
+        a = g.point(lambda v: 255 if v < 225 else int((255 - v) * 255 / 30))
+        a = a.filter(ImageFilter.MaxFilter(3)).filter(ImageFilter.GaussianBlur(2))
+        out = img.copy()
+        out.putalpha(a)
+    bbox = out.getchannel("A").point(lambda v: 255 if v > 20 else 0).getbbox()
+    if bbox:
+        out = out.crop(bbox)
+    out.save(dst)
 
 
 if __name__ == "__main__":

@@ -74,8 +74,31 @@
    - `curl -L -H "Authorization: token $(gh auth token)" -H "Accept: application/octet-stream" https://api.github.com/repos/korea1278/war-docu/releases/assets/<id>`
    - 길이 8:15~8:30(영문판 +10초까지 허용), 음량 -15 LUFS ±1 (`ffmpeg -af ebur128`), 장면 샘플 프레임 육안 확인, SRT 확인
    - `logs/errors.txt`에 경고가 있으면 원인 해결 후 재실행
-9. **썸네일** — `remotion/Thumbnail.tsx`에 에피소드별 A/B 디자인 추가 (`ep.startsWith("<ep>")`로 분기, `lang="en"`이면 영문)
-   - **한국 채널 '격전의 지도' 썸네일 디자인 시스템 (2026-10-21 확정, EP01~ 전체 적용 · 한국어 A안)** — `remotion/Thumbnail.tsx`의 `REF` 표에 에피소드 한 줄 추가로 적용
+9. **썸네일** — ★ **공통 썸네일 표준 (2026-10-25 사용자 확정 · EP09부터 모든 새 에피소드 A안 기본, 새 세션에서도 그대로 적용)**
+   - 구현: `remotion/MapThumb.tsx`의 `MAPT` 표에 에피소드 한 줄 추가 → `Thumbnail`이 A안을 이 표준으로 렌더(`Root.tsx`가 자동으로 **1920×1080**). 기준 결과물: `thumbnails/bloodyridge_ko_A.png`, `_en_A.png`
+   - **레이어 구조 (1920×1080)**
+     1. 배경: 흑백 3D 지형 — 에피소드 지형 래스터(`public/geo/<raster>.webp`, 보통 `<ep>_zoom`)를 `grayscale(1) contrast(1.25) brightness(0.8)` (채도 0 · 대비 +25% · 밝기 -20%). `view.span`은 래스터가 2배 넘게 확대되지 않게(질감 뭉개짐) 0.2 안팎
+     2. 작전선: 전선 흰 점선(`front`), 핵심 능선·목표(`ridge`), 거점 핀(`pin`, 라벨 겹치면 `lift`), 진격 화살표(`arrow`, red/blue) — 좌표는 스토리보드와 동일하게
+     3. 피사체: 전장 핵심 지휘관 또는 상징적 인물 **흑백 누끼**를 우측 40~45% 영역(`subjectX` 기본 1500)에, 외곽 화이트+오렌지 림 라이트(`drop-shadow`). 실존 인물은 저작권·초상 문제가 없는 공개 사진만, 아니면 상징적 병사를 AI로
+        - 그림: 스토리보드 `ai_images.thumb_subject` 프롬프트 — "photorealistic black-and-white, waist-up, face clearly visible and turned slightly toward the left of the frame, isolated on a plain pure white background, no shadows on the background, no text"
+        - `mode=thumb`가 그림 생성 후 `rembg`로 배경 제거 → `public/ep/<ep>/ai/thumb_subject.png` (rembg 실패 시 흰 배경 알파로 자동 대체)
+     4. 스탬프: 승패의 결정적 요인을 암시하는 붉은 사각 스탬프 — `rotate(-6~-8deg)`, `border: 4px solid #D32F2F`, 글자 48~54px 굵게 `#D32F2F`(또는 머스터드 옐로). 중앙 또는 인물 측면(`stampPos`, 중심 좌표 기준), 핀·화살표·얼굴과 겹치지 않게
+     5. 하단 암부: 하단 40% `linear-gradient(to top, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.7) 60%, transparent 100%)`
+     6. 텍스트: 하단 좌측 정렬 2줄 질문형 카피 (left 80 · bottom 70)
+   - **타이포그래피·색**
+     - 폰트: 한국어 `Black Han Sans`(Pretendard Black 대체 가능) / 영문 `Anton`(@fontsource/anton)
+     - Line 1 (상황·전제): 72~76px, 스톤 화이트 `#FFFFFF`, `text-shadow: 0 4px 12px rgba(0,0,0,0.8)`
+     - Line 2 (호기심 질문): 88~94px(Line 1의 약 120%), 머스터드 옐로 `#FFD000`, `-webkit-text-stroke: 3px #000` + 강한 그림자
+     - 길면 지정 범위 안에서 자동 축소(`fit`) — 글자가 인물 얼굴을 덮지 않게 Line 2는 약 1,240px 안쪽
+   - **카피 자동 생성 공식 (Curiosity-Gap)** — 새 에피소드 대본·파이프라인을 만들 때 썸네일 카피를 이 공식으로 함께 도출해 `MAPT`에 넣는다
+     - 스탬프: [승패를 가른 결정적 요인 2~4단어]
+     - Line 1: [압도적 우위·유리했던 상황] + "~하고도 왜"
+     - Line 2: [충격적인 패배/승리 결과 질문] + "~했을까?"
+     - 영문은 같은 뜻의 질문형 2줄(WHY ... / ...?)
+     - ⚠️ **카피·스탬프의 수치는 대본·화면에 쓴 사료 확인 수치만** 사용. 확인 안 된 숫자(예: EP09 제안 '포탄 36만 발' — 출처 미확인)는 넣지 말고, 확인된 사실(결정적 요인 등)로 대체한 뒤 전달 때 알릴 것
+   - 생성·렌더: Actions `mode=thumb` → `thumbnails/<ep>_ko_A.png`, `_en_A.png` (영상 재렌더 없음). PNG가 1.9MB를 넘으면 업로드용 `.jpg`(유튜브 2MB 한도)도 자동 생성 — 그 경우 전달은 JPG로. 렌더 후 PNG를 직접 열어 확인: 얼굴 가림 없음, 스탬프·핀·화살표 겹침 없음, Line 2가 가장 크고 노랑
+   - 아래 '격전의 지도 디자인 시스템'·`split` 레이아웃은 **이전 표준(EP01~08 기록용)** — 새 에피소드에는 쓰지 않는다 (`MAPT`에 항목이 있으면 A안은 항상 새 표준이 우선)
+   - (이전 표준 · EP01~08) **한국 채널 '격전의 지도' 썸네일 디자인 시스템 (2026-10-21 확정, 한국어 A안)** — `remotion/Thumbnail.tsx`의 `REF` 표에 에피소드 한 줄 추가로 적용
      1. 3단 텍스트 계층: 상단 `격전의 지도 EP 0X` 회색/흰 박스 태그 → 중단 2색 위기 카피 2줄(흰색/하늘색, **핵심 수치·위기어는 빨강**) → 하단 초대형 메인 키워드(크랙/스톤 질감 굵은 글자, 스타일 red / stone(흰 돌) / yellow(옐로·화이트))
      2. 우측 하단 25%는 재생시간 영역으로 비움 (글자·인물 금지)
      3. 배경: 2D·볼 캐릭터 배제. **흑백 다큐 아카이브 질감 + 붉은/오렌지 화염·포연만 컬러**인 거친 실사풍 전장 극화 → 스토리보드 `ai_images.thumb_ref` 프롬프트 (주제는 중앙~중앙 왼쪽에 전신·얼굴이 보이게 — 아래 `split` 구도 참고)
@@ -83,7 +106,7 @@
      5. B안은 이전 디자인을 A/B 테스트용으로 유지. 카피 수치는 대본·화면 수치와 일치하는지 확인하고 다르면 전달 때 알릴 것
      6. **(2026-10-22 수정) 하단 메인 타이틀 색: 다크 레드 전면 금지** → 머스터드 옐로 `#FFD000`(keyStyle `yellow`, 지명 노랑·'전투' 흰색) 또는 스톤 화이트 `#FFFFFF`(keyStyle `stone`)만 사용 (red·ice 금지)
      7. **(2026-10-22 수정) 배경 밝기**: 순흑(#000) 금지. `thumb_ref` 프롬프트에 "NO crushed pure-black areas, smoke/fog/haze backlit, lifted shadows ~20% brighter, strong rim light outlining soldiers/vehicles" 필수, 우하단은 '어둡게'가 아니라 '안개 낀 빈 공간'으로. 합성 단계도 밝기·대비 +20%(`brightness(1.2) contrast(1.2)`), screen 안개 레이어로 암부 들어올림, 비네트 약하게
-   - **★ 기본 썸네일 = 좌우 분할 레이아웃 `split` (2026-10-25 사용자 확정 — EP08부터 모든 새 에피소드 A안의 기본, 새 세션에서도 그대로 적용)**
+   - (이전 표준 · EP08) **좌우 분할 레이아웃 `split`** — EP09부터는 위 공통 썸네일 표준으로 대체
      - 기준 결과물: `thumbnails/yeongcheon_ko_A.png`, `thumbnails/yeongcheon_en_A.png` — 새 편은 이 두 장과 같은 모양으로 만든다
      - 이유: 전체 화면 위에 글자를 얹으면 인물 얼굴을 가린다 (사용자 지적). 그림과 글자를 좌우로 나눠 둘 다 살린다
      - 적용법: `REF`/`REF_EN` 항목에 `split`을 꼭 넣는다 (없으면 예전 겹침 레이아웃이 나옴)
@@ -105,16 +128,16 @@
        6. 우측 하단 25%(x>960, y>540)에는 글자 없음 (재생시간 자리). 그림 쪽 인물 다리·땅이 와도 됨, 얼굴은 금지
      - `thumb_ref` 프롬프트 구도: "the main soldier and vehicle in the center / center-left of the frame, full figure, face clearly visible" — 렌더 시 오른쪽 60%로 잘라 쓰므로 주제가 화면 가장자리에 붙지 않게. 밝기·림 라이트 문구(위 7번)는 그대로 필수
      - 렌더 후 반드시 PNG를 직접 열어 확인: 얼굴 가림 없음, 맨 아래 줄이 가장 크고 노랑, 글자가 패널 밖(x>700)으로 넘치지 않음
-   - **영문판 A안도 같은 배경(`thumb_ref`) 재사용 + [압축 영문 공식]** (2026-10-21) — `REF_EN` 표에 한 줄 추가
+   - (이전 표준) **영문판 A안도 같은 배경(`thumb_ref`) 재사용 + [압축 영문 공식]** (2026-10-21) — `REF_EN` 표에 한 줄 추가
      - 폰트 Bebas Neue(좁고 두꺼운 고대비), 태그 `MAP OF WAR EP 0X`, 'Battle of' 전면 제외, 지명·직관적 숫자/단어만 (※ 'Battle of' 제외는 예전 겹침 레이아웃 기준 — 지금 기본인 `split`에서는 위 하단 키워드 2줄 공식이 우선)
      - 중단 2색 카피(빨강 강조 + 시안/흰색), 하단 지명 키워드(red/stone/yellow 크랙 질감). 예: EP01 YONGMUNSAN / EP02 TABU-DONG / EP03 WHITE HORSE / EP04 CHIPYONG-NI
      - 영문 B안은 기존 디자인 유지. `mode=thumb`가 `_en_A.png`도 함께 렌더
    - 렌더링은 세션 안에서: `npx remotion bundle remotion/index.ts --out-dir=/tmp/claude-0/bundle` →
      `npx remotion still /tmp/claude-0/bundle Thumbnail out.png --props='{"ep":"<ep>","variant":"A","lang":"ko"}' --browser-executable=<브라우저>` (브라우저 경로는 `ls -d /opt/pw-browsers/*/`로 확인 — 2026-10-25 기준 `/opt/pw-browsers/chromium-1243/chrome-linux64/chrome`)
-   - 1280×720, 시니어 가독성 큰 글씨, 어두운 밤 일러스트는 밝기 올리거나 밝은 그림으로 교체, 영문 문구가 화면 밖으로 나가지 않게
+   - 이전 표준은 1280×720 / 새 표준은 1920×1080. 시니어 가독성 큰 글씨, 어두운 밤 일러스트는 밝기 올리거나 밝은 그림으로 교체, 영문 문구가 화면 밖으로 나가지 않게
    - 결과는 `thumbnails/<ep>_<ko|en>_<A|B>.png`로 커밋
 10. **전달** — 사용자에게 한 번에:
-    - 한국어판·영문판 Releases 링크 (MP4 500MB 초과 → 링크로), SRT 2개, 썸네일 4장 (SendUserFile)
+    - 한국어판·영문판 Releases 링크 (MP4 500MB 초과 → 링크로), SRT 2개, 썸네일 (새 표준: _ko_A·_en_A 2장 / 이전 에피소드는 A·B 4장) (SendUserFile)
     - 한국어 제목 후보 3개(썸네일 A/B용 표시), 설명글, 태그(쉼표 구분), 카테고리 '교육'
     - 영문판 제목 3개·설명·태그
     - 설명글 규칙: 채널명·인사말 넣지 말 것, 시니어 시청자가 읽기 쉽게 자세히, **목차 타임스탬프는 SRT에서 각 부 첫 줄의 실제 시각**, 참고 자료 목록, 수치 출처·재연 일러스트 고지, 해시태그 3개
