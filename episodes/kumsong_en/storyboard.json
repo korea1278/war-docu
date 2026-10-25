@@ -79,8 +79,8 @@
    "ROK 5th Div"
   ],
   "d11": [
-   127.56,
-   38.275,
+   127.565,
+   38.255,
    "ROK 11th Div"
   ],
   "d8b": [
@@ -195,8 +195,8 @@
   {
    "id": "s01",
    "lines": [
-    "July 13th, 1953. A mountain front south of Kumsong, central Korea.",
-    "As darkness fell, the whole ridgeline to the north erupted in fire."
+    "The night of July 13th, 1953. A mountain front south of Kumsong, in central Korea.",
+    "As darkness fell, the entire ridgeline to the north erupted in fire."
    ],
    "visual": {
     "type": "ai",
@@ -227,8 +227,8 @@
   {
    "id": "s02",
    "lines": [
-    "Before the guns even slackened, Chinese troops poured down every valley.",
-    "By midnight, some had pushed a thousand meters inside South Korean lines."
+    "Before the guns even slackened, Chinese troops came pouring down every valley.",
+    "By midnight, in some places, they were already a thousand meters inside the South Korean lines."
    ],
    "visual": {
     "type": "ai",
@@ -277,7 +277,7 @@
    "id": "s04",
    "lines": [
     "The Battle of Kumsong.",
-    "The final battle of the war, fought over the last stretch of today's armistice line."
+    "This is the story of the war's final battle, fought over the last stretch of today's armistice line."
    ],
    "visual": {
     "type": "titlecard",
@@ -405,8 +405,8 @@
   {
    "id": "s06",
    "lines": [
-    "But President Syngman Rhee bitterly opposed a truce that left Korea divided.",
-    "On June 18th, he abruptly freed some twenty-seven thousand anti-communist prisoners."
+    "But South Korean President Syngman Rhee bitterly opposed any truce that left Korea divided.",
+    "On June 18th, he suddenly set free some twenty-seven thousand anti-communist prisoners who had refused repatriation."
    ],
    "visual": {
     "type": "person",
@@ -428,7 +428,7 @@
    "id": "s07",
    "lines": [
     "The communists were furious.",
-    "Before signing, they resolved to teach the South Korean army a hard lesson.",
+    "And before signing any truce, they resolved to teach the South Korean army a hard lesson.",
     "General Mark Clark believed a main aim was to give the ROK Army a bloody nose."
    ],
    "visual": {
@@ -631,8 +631,8 @@
   {
    "id": "s10",
    "lines": [
-    "ROK II Corps was led by Lieutenant General Chung Il-kwon.",
-    "Already pushed back once in June, his corps now faced a far bigger storm."
+    "ROK II Corps was commanded by Lieutenant General Chung Il-kwon.",
+    "His corps had already been pushed back once in June, and a far bigger storm was gathering."
    ],
    "visual": {
     "type": "person",
@@ -782,8 +782,8 @@
   {
    "id": "s12",
    "lines": [
-    "This time, the enemy had more men and more guns.",
-    "It was a final gamble to draw the line even one meter farther south."
+    "In men and in firepower, this time the enemy held the advantage.",
+    "It was a final gamble to draw the line even one meter farther south before the truce."
    ],
    "visual": {
     "type": "compare",
@@ -1205,7 +1205,7 @@
    "id": "s20",
    "lines": [
     "The enemy's next objective lay south: the Hwachon Reservoir.",
-    "Lose it, and even the power plant lighting Seoul would be in danger."
+    "If it fell, even the Hwachon power plant that sent electricity to Seoul would be in danger."
    ],
    "visual": {
     "type": "map",
@@ -1310,8 +1310,8 @@
   {
    "id": "s21",
    "lines": [
-    "Behind the broken front, the South Koreans built a new line along the high ridges.",
-    "It ran from Chokkun-san, through Chupa Pass, to Paegam-san."
+    "Behind the broken front, the South Koreans stitched together a new line along the high ridges.",
+    "It ran from Chokkun-san in the west, through Chupa Pass, to Paegam-san in the east."
    ],
    "visual": {
     "type": "map",
@@ -2183,8 +2183,8 @@
   {
    "id": "s31",
    "lines": [
-    "That ridgeline, retaken in blood, became this stretch of today's armistice line.",
-    "A few kilometers farther south, and the map of Hwachon might look very different."
+    "The ridgeline south of the Kumsong River, retaken in blood, became this stretch of today's armistice line.",
+    "Had it lain just a few kilometers farther south, the map of Hwachon might look very different today."
    ],
    "visual": {
     "type": "map",
@@ -2469,8 +2469,8 @@
   {
    "id": "s37",
    "lines": [
-    "The South Koreans redrew their line on peaks over a thousand meters high.",
-    "Holding the heights, they could stand with far fewer men."
+    "The South Koreans did not fall back to open ground, but redrew their line on peaks over a thousand meters high.",
+    "Holding the heights, they could stand firm with far fewer men."
    ],
    "visual": {
     "type": "ai",
@@ -2508,13 +2508,13 @@
     "type": "compare",
     "left": {
      "title": "ROK II CORPS",
-     "big": "11TH DIV IN",
+     "big": "11TH DIV",
      "icon": "none",
      "color": "blue"
     },
     "right": {
-     "title": "EIGHTH ARMY",
-     "big": "3RD DIV & 187TH",
+     "title": "US 3RD DIV & 187TH",
+     "big": "RUSHED IN",
      "icon": "none",
      "color": "blue",
      "at": 1
@@ -2557,8 +2557,8 @@
   {
    "id": "s42",
    "lines": [
-    "A decade after the war, a young platoon leader served near Paegam-san.",
-    "In those hills, he found nameless graves marked only by wooden stakes."
+    "About a decade after the war, a young officer was serving as a platoon leader near Paegam-san.",
+    "In those mountains, he came across nameless graves marked by nothing but a wooden stake."
    ],
    "visual": {
     "type": "ai",

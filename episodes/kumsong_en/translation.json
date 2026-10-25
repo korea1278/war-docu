@@ -44,8 +44,8 @@
  "scenes": {
   "s01": {
    "lines": [
-    "July 13th, 1953. A mountain front south of Kumsong, central Korea.",
-    "As darkness fell, the whole ridgeline to the north erupted in fire."
+    "The night of July 13th, 1953. A mountain front south of Kumsong, in central Korea.",
+    "As darkness fell, the entire ridgeline to the north erupted in fire."
    ],
    "label": "Dramatization",
    "callouts": [
@@ -54,8 +54,8 @@
   },
   "s02": {
    "lines": [
-    "Before the guns even slackened, Chinese troops poured down every valley.",
-    "By midnight, some had pushed a thousand meters inside South Korean lines."
+    "Before the guns even slackened, Chinese troops came pouring down every valley.",
+    "By midnight, in some places, they were already a thousand meters inside the South Korean lines."
    ],
    "label": "Dramatization",
    "callouts": [
@@ -73,7 +73,7 @@
   "s04": {
    "lines": [
     "The Battle of Kumsong.",
-    "The final battle of the war, fought over the last stretch of today's armistice line."
+    "This is the story of the war's final battle, fought over the last stretch of today's armistice line."
    ],
    "title": "Battle of Kumsong",
    "sub": "The Last Offensive · 1953"
@@ -94,8 +94,8 @@
   },
   "s06": {
    "lines": [
-    "But President Syngman Rhee bitterly opposed a truce that left Korea divided.",
-    "On June 18th, he abruptly freed some twenty-seven thousand anti-communist prisoners."
+    "But South Korean President Syngman Rhee bitterly opposed any truce that left Korea divided.",
+    "On June 18th, he suddenly set free some twenty-seven thousand anti-communist prisoners who had refused repatriation."
    ],
    "name": "Syngman Rhee",
    "role": "President, Republic of Korea",
@@ -106,7 +106,7 @@
   "s07": {
    "lines": [
     "The communists were furious.",
-    "Before signing, they resolved to teach the South Korean army a hard lesson.",
+    "And before signing any truce, they resolved to teach the South Korean army a hard lesson.",
     "General Mark Clark believed a main aim was to give the ROK Army a bloody nose."
    ],
    "label": "Anti-communist ex-POWs arriving in Seoul after release (1953)"
@@ -131,8 +131,8 @@
   },
   "s10": {
    "lines": [
-    "ROK II Corps was led by Lieutenant General Chung Il-kwon.",
-    "Already pushed back once in June, his corps now faced a far bigger storm."
+    "ROK II Corps was commanded by Lieutenant General Chung Il-kwon.",
+    "His corps had already been pushed back once in June, and a far bigger storm was gathering."
    ],
    "name": "Chung Il-kwon",
    "role": "Commander, ROK II Corps"
@@ -149,8 +149,8 @@
   },
   "s12": {
    "lines": [
-    "This time, the enemy had more men and more guns.",
-    "It was a final gamble to draw the line even one meter farther south."
+    "In men and in firepower, this time the enemy held the advantage.",
+    "It was a final gamble to draw the line even one meter farther south before the truce."
    ],
    "left": [
     "ROK & UN",
@@ -231,7 +231,7 @@
   "s20": {
    "lines": [
     "The enemy's next objective lay south: the Hwachon Reservoir.",
-    "Lose it, and even the power plant lighting Seoul would be in danger."
+    "If it fell, even the Hwachon power plant that sent electricity to Seoul would be in danger."
    ],
    "callouts": [
     "DEEPEST CHINESE ADVANCE (APPROX.)"
@@ -239,8 +239,8 @@
   },
   "s21": {
    "lines": [
-    "Behind the broken front, the South Koreans built a new line along the high ridges.",
-    "It ran from Chokkun-san, through Chupa Pass, to Paegam-san."
+    "Behind the broken front, the South Koreans stitched together a new line along the high ridges.",
+    "It ran from Chokkun-san in the west, through Chupa Pass, to Paegam-san in the east."
    ],
    "callouts": [
     "NEW LINE · CHOKKUN-SAN – CHUPA PASS – PAEGAM-SAN (APPROX.)"
@@ -332,8 +332,8 @@
   },
   "s31": {
    "lines": [
-    "That ridgeline, retaken in blood, became this stretch of today's armistice line.",
-    "A few kilometers farther south, and the map of Hwachon might look very different."
+    "The ridgeline south of the Kumsong River, retaken in blood, became this stretch of today's armistice line.",
+    "Had it lain just a few kilometers farther south, the map of Hwachon might look very different today."
    ],
    "callouts": [
     "SOUTH OF KUMSONG RIVER ≈ TODAY'S DEMARCATION LINE (APPROX.)"
@@ -395,8 +395,8 @@
   },
   "s37": {
    "lines": [
-    "The South Koreans redrew their line on peaks over a thousand meters high.",
-    "Holding the heights, they could stand with far fewer men."
+    "The South Koreans did not fall back to open ground, but redrew their line on peaks over a thousand meters high.",
+    "Holding the heights, they could stand firm with far fewer men."
    ],
    "label": "Dramatization"
   },
@@ -414,11 +414,11 @@
    ],
    "left": [
     "ROK II CORPS",
-    "11TH DIV IN"
+    "11TH DIV"
    ],
    "right": [
-    "EIGHTH ARMY",
-    "3RD DIV & 187TH"
+    "US 3RD DIV & 187TH",
+    "RUSHED IN"
    ]
   },
   "s40": {
@@ -438,8 +438,8 @@
   },
   "s42": {
    "lines": [
-    "A decade after the war, a young platoon leader served near Paegam-san.",
-    "In those hills, he found nameless graves marked only by wooden stakes."
+    "About a decade after the war, a young officer was serving as a platoon leader near Paegam-san.",
+    "In those mountains, he came across nameless graves marked by nothing but a wooden stake."
    ],
    "label": "Dramatization",
    "chapter": [
