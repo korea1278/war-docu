@@ -1,0 +1,2662 @@
+{
+ "title": "Battle of Kumsong (1953): The Last Offensive of the Korean War",
+ "subtitle": "July 13 – July 27, 1953",
+ "target_sec": 510,
+ "places": {
+  "seoul": [
+   126.978,
+   37.566,
+   "Seoul"
+  ],
+  "panmunjom": [
+   126.677,
+   37.956,
+   "Panmunjom"
+  ],
+  "kumhwa": [
+   127.43,
+   38.285,
+   "Kumhwa"
+  ],
+  "kumsong": [
+   127.585,
+   38.445,
+   "Kumsong"
+  ],
+  "hwacheon": [
+   127.708,
+   38.106,
+   "Hwachon"
+  ],
+  "hwares": [
+   127.82,
+   38.125,
+   "Hwachon Reservoir"
+  ],
+  "jeokgeun": [
+   127.535,
+   38.29,
+   "Chokkun-san"
+  ],
+  "jupa": [
+   127.6,
+   38.3,
+   "Chupa Pass"
+  ],
+  "baegam": [
+   127.675,
+   38.293,
+   "Paegam-san"
+  ],
+  "ccf": [
+   127.62,
+   38.5,
+   "Chinese Forces"
+  ],
+  "d_cap": [
+   127.47,
+   38.37,
+   "ROK Capital Div"
+  ],
+  "d6": [
+   127.545,
+   38.405,
+   "ROK 6th Div"
+  ],
+  "d8": [
+   127.615,
+   38.41,
+   "ROK 8th Div"
+  ],
+  "d3": [
+   127.69,
+   38.395,
+   "ROK 3rd Div"
+  ],
+  "d5": [
+   127.765,
+   38.36,
+   "ROK 5th Div"
+  ],
+  "d11": [
+   127.56,
+   38.275,
+   "ROK 11th Div"
+  ],
+  "d8b": [
+   127.625,
+   38.28,
+   "ROK 8th Div"
+  ],
+  "d5b": [
+   127.705,
+   38.255,
+   "ROK 5th Div"
+  ],
+  "us3": [
+   127.45,
+   38.255,
+   "US 3rd Div"
+  ],
+  "r7": [
+   127.66,
+   38.33,
+   "7th Regt, ROK 6th Div"
+  ]
+ },
+ "views": {
+  "korea": {
+   "center": [
+    127.4,
+    37.85
+   ],
+   "span": 4.0
+  },
+  "central": {
+   "center": [
+    127.62,
+    38.3
+   ],
+   "span": 1.1
+  },
+  "salient": {
+   "center": [
+    127.62,
+    38.36
+   ],
+   "span": 0.5
+  },
+  "south": {
+   "center": [
+    127.64,
+    38.27
+   ],
+   "span": 0.62
+  },
+  "ridge": {
+   "center": [
+    127.61,
+    38.32
+   ],
+   "span": 0.34
+  }
+ },
+ "music": [
+  {
+   "id": "drone",
+   "from": "s01",
+   "to": "s04",
+   "volume": 0.2
+  },
+  {
+   "id": "theme",
+   "from": "s05",
+   "to": "s12",
+   "volume": 0.16
+  },
+  {
+   "id": "tension",
+   "from": "s13",
+   "to": "s20",
+   "volume": 0.17
+  },
+  {
+   "id": "march",
+   "from": "s21",
+   "to": "s32",
+   "volume": 0.15
+  },
+  {
+   "id": "analysis",
+   "from": "s33",
+   "to": "s41",
+   "volume": 0.13
+  },
+  {
+   "id": "somber",
+   "from": "s42",
+   "to": "s47",
+   "volume": 0.17
+  }
+ ],
+ "ai_images": {
+  "night_barrage": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a massive night artillery barrage erupting along a long mountain ridge line in central Korea in July 1953, orange blasts and tracer arcs lighting low monsoon clouds, in the foreground South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1953 M1 steel helmets and olive drab summer field uniforms crouching in a muddy sandbagged trench, staring north at the flashes, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "chinese_wave": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a huge wave of Chinese People's Volunteer soldiers whose heads are round balls painted as the flag of the People's Republic of China (red with five yellow stars), wearing quilted khaki 1953 summer uniforms and soft caps pouring down a dark wooded mountain valley at night in July 1953, lit by drifting parachute flares, bugles and submachine guns in hand, hundreds of figures fading into the mist behind, leaving calm uncluttered dark background area in the upper left, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "cp_raid": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: chaos at a South Korean regimental command post dug into a hillside at night in July 1953, South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1953 M1 steel helmets and olive drab summer field uniforms grabbing rifles beside a field telephone and a map table lit by a hanging lantern, muzzle flashes and shadowy enemy figures on the slope outside, no gore, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "retreat_rain": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: pouring monsoon rain on a muddy mountain road in central Korea in July 1953, exhausted South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1953 M1 steel helmets and olive drab summer field uniforms withdrawing south in a long column with ponchos, stretchers and a stuck jeep, swollen stream beside the road, grey mist, leaving calm uncluttered dark background area in the upper left, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "baegam_line": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: dawn after heavy rain on a high rocky mountain ridge over 1,000 meters tall in Hwacheon, Korea, July 1953, South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1953 M1 steel helmets and olive drab summer field uniforms digging new foxholes and stringing barbed wire along the crest, an officer pointing north with binoculars, clouds below the ridge, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "counterattack": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1953 M1 steel helmets and olive drab summer field uniforms charging up a steep muddy slope with fixed bayonets in July 1953, friendly artillery bursting on the hilltop above, smoke and drizzle, determined poses, leaving calm uncluttered dark background area in the upper left, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "river_line": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: dusk over a winding river valley in central Korea in July 1953, South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1953 M1 steel helmets and olive drab summer field uniforms in a hilltop trench on the south bank looking across the river to dark enemy-held hills, a tattered taegukgi flag on a pole, quiet tension, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "armistice_quiet": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: the night of July 27, 1953 on a Korean mountain front line: the guns fall silent, South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1953 M1 steel helmets and olive drab summer field uniforms standing up slowly in their trench, helmets in hand, looking at the last fading flare in a starry sky, leaving calm uncluttered dark background area in the upper left, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "wooden_marker": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a lonely unmarked soldier's grave on a misty Korean mountain slope in the 1960s: a small mound of stones with a weathered wooden stake as its only marker, wild flowers and tall grass, soft morning light through pine trees, a young South Korean officer whose head is a round ball painted as the taegukgi flag standing silently nearby in a 1960s uniform, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "thumb_subject": "Photorealistic black-and-white 1953 Korean War documentary portrait of a battle-hardened South Korean infantryman, M1 steel helmet with net and chin strap loose, rain- and mud-streaked face, grim determined eyes, wet torn olive drab field uniform, M1 rifle held across his chest, a hand grenade clipped to his webbing, waist-up, face clearly visible and turned slightly toward the left of the frame, sharp studio-like detail, high contrast monochrome, isolated on a plain pure white background, no shadows on the background, no scenery, no text, no letters, no logos, no watermark."
+ },
+ "scenes": [
+  {
+   "id": "s01",
+   "lines": [
+    "July 13th, 1953. A mountain front south of Kumsong, central Korea.",
+    "As darkness fell, the whole ridgeline to the north erupted in fire."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "night_barrage",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "callouts": [
+    {
+     "text": "JULY 13, 1953 · KUMSONG SALIENT, KOREA",
+     "style": "yellow",
+     "at": 0
+    }
+   ],
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.2,
+     "volume": 0.4
+    },
+    {
+     "id": "boom",
+     "at": 1,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "lines": [
+    "Before the guns even slackened, Chinese troops poured down every valley.",
+    "By midnight, some had pushed a thousand meters inside South Korean lines."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "chinese_wave",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "callouts": [
+    {
+     "text": "US Army history: up to 1,000 m by midnight",
+     "style": "red",
+     "at": 1,
+     "pos": "lower"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "charge",
+     "at": 0.3,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "lines": [
+    "The armistice would be signed in just fourteen days.",
+    "And with two weeks left, the last great offensive of the Korean War had begun."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "Armistice signing in",
+    "accent": "14 DAYS",
+    "accentAt": 0.5
+   },
+   "pauseBefore": 0.3,
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "lines": [
+    "The Battle of Kumsong.",
+    "The final battle of the war, fought over the last stretch of today's armistice line."
+   ],
+   "visual": {
+    "type": "titlecard",
+    "q": "s04-photo",
+    "title": "Battle of Kumsong",
+    "sub": "The Last Offensive · 1953",
+    "at": 0
+   },
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0,
+     "volume": 0.5
+    }
+   ],
+   "flash": true
+  },
+  {
+   "id": "s05",
+   "lines": [
+    "By June 1953, the truce talks at Panmunjom were nearly done.",
+    "After two years of deadlock over prisoners, both sides finally agreed.",
+    "On June 8th, the prisoner exchange deal was signed. Peace seemed days away."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "korea",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.68,
+        37.77
+       ],
+       [
+        126.95,
+        37.95
+       ],
+       [
+        127.1,
+        38.2
+       ],
+       [
+        127.3,
+        38.27
+       ],
+       [
+        127.44,
+        38.31
+       ],
+       [
+        127.51,
+        38.39
+       ],
+       [
+        127.56,
+        38.425
+       ],
+       [
+        127.62,
+        38.43
+       ],
+       [
+        127.68,
+        38.415
+       ],
+       [
+        127.74,
+        38.38
+       ],
+       [
+        127.8,
+        38.33
+       ],
+       [
+        127.85,
+        38.3
+       ],
+       [
+        128.1,
+        38.32
+       ],
+       [
+        128.3,
+        38.45
+       ],
+       [
+        128.37,
+        38.61
+       ]
+      ],
+      "at": 0.2
+     },
+     {
+      "k": "marker",
+      "p": "seoul",
+      "color": "blue",
+      "at": 0.6
+     },
+     {
+      "k": "unit",
+      "p": "panmunjom",
+      "text": "Panmunjom Truce Talks",
+      "color": "dark",
+      "at": 1,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "JUNE 1953 · FINAL STAGE OF TRUCE TALKS",
+     "style": "yellow",
+     "at": 1,
+     "pos": "top"
+    }
+   ],
+   "chapter": {
+    "num": "PART 1",
+    "title": "A GAMBLE BEFORE THE TRUCE"
+   }
+  },
+  {
+   "id": "s06",
+   "lines": [
+    "But President Syngman Rhee bitterly opposed a truce that left Korea divided.",
+    "On June 18th, he abruptly freed some twenty-seven thousand anti-communist prisoners."
+   ],
+   "visual": {
+    "type": "person",
+    "q": "s06-photo",
+    "name": "Syngman Rhee",
+    "years": "1875 - 1965",
+    "role": "President, Republic of Korea"
+   },
+   "callouts": [
+    {
+     "text": "JUNE 18, 1953 · ~27,000 PRISONERS RELEASED",
+     "style": "red",
+     "at": 1,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s07",
+   "lines": [
+    "The communists were furious.",
+    "Before signing, they resolved to teach the South Korean army a hard lesson.",
+    "General Mark Clark believed a main aim was to give the ROK Army a bloody nose."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s07-photo",
+    "kb": "in"
+   },
+   "label": "(label after photo selection)"
+  },
+  {
+   "id": "s08",
+   "lines": [
+    "They chose a bulge in the central front, pushing north toward the town of Kumsong.",
+    "It was called the Kumsong salient."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "salient",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.42,
+        38.29
+       ],
+       [
+        127.47,
+        38.34
+       ],
+       [
+        127.51,
+        38.39
+       ],
+       [
+        127.56,
+        38.425
+       ],
+       [
+        127.62,
+        38.43
+       ],
+       [
+        127.68,
+        38.415
+       ],
+       [
+        127.74,
+        38.38
+       ],
+       [
+        127.8,
+        38.33
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "kumhwa",
+      "color": "dark",
+      "at": 0.6
+     },
+     {
+      "k": "unit",
+      "p": "kumsong",
+      "text": "Kumsong",
+      "color": "red",
+      "at": 1,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "KUMSONG SALIENT (APPROX.)",
+     "style": "blue",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s09",
+   "lines": [
+    "It was held by the ROK Capital Division and the divisions of ROK II Corps.",
+    "Open to the enemy on three sides, it favored the attacker."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "salient",
+    "to": "salient",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.42,
+        38.29
+       ],
+       [
+        127.47,
+        38.34
+       ],
+       [
+        127.51,
+        38.39
+       ],
+       [
+        127.56,
+        38.425
+       ],
+       [
+        127.62,
+        38.43
+       ],
+       [
+        127.68,
+        38.415
+       ],
+       [
+        127.74,
+        38.38
+       ],
+       [
+        127.8,
+        38.33
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "d_cap",
+      "text": "ROK Capital Div",
+      "color": "blue",
+      "at": 0.1,
+      "dy": 0
+     },
+     {
+      "k": "badge",
+      "p": "d6",
+      "text": "ROK 6th Div",
+      "color": "blue",
+      "at": 0.3,
+      "dy": 0
+     },
+     {
+      "k": "badge",
+      "p": "d8",
+      "text": "ROK 8th Div",
+      "color": "blue",
+      "at": 0.5,
+      "dy": 0
+     },
+     {
+      "k": "badge",
+      "p": "d3",
+      "text": "ROK 3rd Div",
+      "color": "blue",
+      "at": 0.7,
+      "dy": 0
+     },
+     {
+      "k": "badge",
+      "p": "d5",
+      "text": "ROK 5th Div",
+      "color": "blue",
+      "at": 0.9,
+      "dy": 0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "5 ROK DIVISIONS · WEST → EAST (APPROX.)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "lines": [
+    "ROK II Corps was led by Lieutenant General Chung Il-kwon.",
+    "Already pushed back once in June, his corps now faced a far bigger storm."
+   ],
+   "visual": {
+    "type": "person",
+    "q": "s10-photo",
+    "name": "Chung Il-kwon",
+    "years": "1917 - 1994",
+    "role": "Commander, ROK II Corps"
+   }
+  },
+  {
+   "id": "s11",
+   "lines": [
+    "To the north, five Chinese armies, some two hundred forty thousand men, were massing.",
+    "Behind them stood about thirteen hundred sixty guns.",
+    "After the prisoner release, Mao reportedly ordered a heavier blow."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "salient",
+    "to": "central",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.42,
+        38.29
+       ],
+       [
+        127.47,
+        38.34
+       ],
+       [
+        127.51,
+        38.39
+       ],
+       [
+        127.56,
+        38.425
+       ],
+       [
+        127.62,
+        38.43
+       ],
+       [
+        127.68,
+        38.415
+       ],
+       [
+        127.74,
+        38.38
+       ],
+       [
+        127.8,
+        38.33
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "ccf",
+      "text": "5 Chinese Armies",
+      "color": "red",
+      "at": 0.3,
+      "pulse": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.5,
+        38.62
+       ],
+       [
+        127.52,
+        38.52
+       ],
+       [
+        127.53,
+        38.45
+       ]
+      ],
+      "color": "red",
+      "at": 0.7,
+      "width": 0.9
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.62,
+        38.66
+       ],
+       [
+        127.62,
+        38.56
+       ],
+       [
+        127.62,
+        38.47
+       ]
+      ],
+      "color": "red",
+      "at": 0.8,
+      "width": 0.9
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.76,
+        38.6
+       ],
+       [
+        127.74,
+        38.5
+       ],
+       [
+        127.72,
+        38.43
+       ]
+      ],
+      "color": "red",
+      "at": 0.9,
+      "width": 0.9
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "~240,000 TROOPS · 1,360 GUNS",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "lines": [
+    "This time, the enemy had more men and more guns.",
+    "It was a final gamble to draw the line even one meter farther south."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "ROK & UN",
+     "big": "~187,000",
+     "icon": "none",
+     "color": "blue"
+    },
+    "right": {
+     "title": "COMMUNIST",
+     "big": "~240,000",
+     "icon": "none",
+     "color": "red",
+     "at": 1
+    }
+   }
+  },
+  {
+   "id": "s13",
+   "lines": [
+    "On July 13th, as the sun went down, the communist guns opened fire all at once.",
+    "In moments, the South Korean positions were engulfed in flames."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "night_barrage",
+    "kb": "out"
+   },
+   "label": "Dramatization",
+   "callouts": [
+    {
+     "text": "JULY 13, 1953 · AFTER DARK · OFFENSIVE BEGINS",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "chapter": {
+    "num": "PART 2",
+    "title": "THE SALIENT COLLAPSES"
+   },
+   "sfx": [
+    {
+     "id": "artillery",
+     "at": 0,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "lines": [
+    "From July 11th, in ten days, the communists fired about one hundred ninety-seven thousand shells.",
+    "It was the heaviest ten-day bombardment of the war."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "197,550 ROUNDS",
+    "style": "red",
+    "sub": "Communist artillery, July 11–20, 1953 · 10-day record of the war (US Army history)",
+    "subAt": 1
+   },
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "lines": [
+    "Then the Chinese drove like wedges into both shoulders of the salient.",
+    "The Capital Division in the west and the ROK 3rd Division in the east broke in turn."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "salient",
+    "to": "salient",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.42,
+        38.29
+       ],
+       [
+        127.47,
+        38.34
+       ],
+       [
+        127.51,
+        38.39
+       ],
+       [
+        127.56,
+        38.425
+       ],
+       [
+        127.62,
+        38.43
+       ],
+       [
+        127.68,
+        38.415
+       ],
+       [
+        127.74,
+        38.38
+       ],
+       [
+        127.8,
+        38.33
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.44,
+        38.4
+       ],
+       [
+        127.47,
+        38.35
+       ],
+       [
+        127.5,
+        38.305
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 1.2
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.76,
+        38.43
+       ],
+       [
+        127.72,
+        38.36
+       ],
+       [
+        127.69,
+        38.29
+       ]
+      ],
+      "color": "red",
+      "at": 0.5,
+      "width": 1.2
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.6,
+        38.5
+       ],
+       [
+        127.6,
+        38.4
+       ],
+       [
+        127.61,
+        38.32
+       ]
+      ],
+      "color": "red",
+      "at": 1,
+      "width": 1.0
+     },
+     {
+      "k": "badge",
+      "p": "d_cap",
+      "text": "ROK Capital Div",
+      "color": "blue",
+      "at": 0,
+      "dy": 0
+     },
+     {
+      "k": "badge",
+      "p": "d3",
+      "text": "ROK 3rd Div",
+      "color": "blue",
+      "at": 0,
+      "dy": 0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "CHINESE WEDGE ATTACKS (APPROX.)",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "charge",
+     "at": 0.2,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s16",
+   "lines": [
+    "In the dark, the enemy slipped behind the lines and struck command posts.",
+    "Colonel Yuk Geun-su of the Capital Division was killed trying to rescue his surrounded 1st Regiment."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "cp_raid",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "callouts": [
+    {
+     "text": "NIGHT OF JULY 14 · COL. YUK GEUN-SU KILLED",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 0.4,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s17",
+   "lines": [
+    "In the center, four enemy battalions surrounded a battalion of the ROK 6th Division.",
+    "Phone lines were cut. No one knew which positions still held."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "chinese_wave",
+    "kb": "out"
+   },
+   "label": "Dramatization",
+   "callouts": [
+    {
+     "text": "US Army history · ROK 19th Regiment front",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s18",
+   "lines": [
+    "On July 14th, Eighth Army commander General Maxwell Taylor made a hard decision.",
+    "Give up the salient, fall back south of the Kumsong River, and rebuild the line."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "salient",
+    "to": "salient",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.42,
+        38.29
+       ],
+       [
+        127.47,
+        38.34
+       ],
+       [
+        127.51,
+        38.39
+       ],
+       [
+        127.56,
+        38.425
+       ],
+       [
+        127.62,
+        38.43
+       ],
+       [
+        127.68,
+        38.415
+       ],
+       [
+        127.74,
+        38.38
+       ],
+       [
+        127.8,
+        38.33
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "kumsong",
+      "text": "Kumsong",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.45,
+        38.3
+       ],
+       [
+        127.5,
+        38.325
+       ],
+       [
+        127.55,
+        38.345
+       ],
+       [
+        127.6,
+        38.36
+       ],
+       [
+        127.64,
+        38.36
+       ],
+       [
+        127.68,
+        38.35
+       ],
+       [
+        127.72,
+        38.328
+       ],
+       [
+        127.77,
+        38.322
+       ],
+       [
+        127.82,
+        38.31
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "color": "blue",
+      "at": 1
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "JULY 14, 1953 · WITHDRAW SOUTH OF KUMSONG RIVER",
+     "style": "blue",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s19",
+   "lines": [
+    "But in the rain and confusion, the withdrawal began to fall apart.",
+    "Some units retreated across the river and far beyond the line they had been ordered to hold."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "retreat_rain",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "water",
+     "at": 0,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s20",
+   "lines": [
+    "The enemy's next objective lay south: the Hwachon Reservoir.",
+    "Lose it, and even the power plant lighting Seoul would be in danger."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "salient",
+    "to": "south",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.45,
+        38.285
+       ],
+       [
+        127.5,
+        38.3
+       ],
+       [
+        127.55,
+        38.305
+       ],
+       [
+        127.6,
+        38.31
+       ],
+       [
+        127.645,
+        38.3
+       ],
+       [
+        127.68,
+        38.275
+       ],
+       [
+        127.72,
+        38.29
+       ],
+       [
+        127.77,
+        38.305
+       ],
+       [
+        127.82,
+        38.305
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.66,
+        38.3
+       ],
+       [
+        127.72,
+        38.22
+       ],
+       [
+        127.79,
+        38.15
+       ]
+      ],
+      "color": "red",
+      "at": 0.3,
+      "width": 1.1
+     },
+     {
+      "k": "unit",
+      "p": "hwares",
+      "text": "Hwachon Reservoir",
+      "color": "blue",
+      "at": 0.6,
+      "pulse": true
+     },
+     {
+      "k": "marker",
+      "p": "hwacheon",
+      "color": "dark",
+      "at": 0.8
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "DEEPEST CHINESE ADVANCE (APPROX.)",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s21",
+   "lines": [
+    "Behind the broken front, the South Koreans built a new line along the high ridges.",
+    "It ran from Chokkun-san, through Chupa Pass, to Paegam-san."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "south",
+    "to": "ridge",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.45,
+        38.285
+       ],
+       [
+        127.5,
+        38.3
+       ],
+       [
+        127.55,
+        38.305
+       ],
+       [
+        127.6,
+        38.31
+       ],
+       [
+        127.645,
+        38.3
+       ],
+       [
+        127.68,
+        38.275
+       ],
+       [
+        127.72,
+        38.29
+       ],
+       [
+        127.77,
+        38.305
+       ],
+       [
+        127.82,
+        38.305
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.5,
+        38.29
+       ],
+       [
+        127.535,
+        38.293
+       ],
+       [
+        127.6,
+        38.3
+       ],
+       [
+        127.64,
+        38.298
+       ],
+       [
+        127.675,
+        38.293
+       ]
+      ],
+      "color": "blue",
+      "at": 0.3
+     },
+     {
+      "k": "unit",
+      "p": "jeokgeun",
+      "text": "Chokkun-san",
+      "color": "blue",
+      "at": 1
+     },
+     {
+      "k": "marker",
+      "p": "jupa",
+      "color": "dark",
+      "at": 1.2
+     },
+     {
+      "k": "unit",
+      "p": "baegam",
+      "text": "Paegam-san",
+      "color": "blue",
+      "at": 1.4,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "NEW LINE · CHOKKUN-SAN – CHUPA PASS – PAEGAM-SAN (APPROX.)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "chapter": {
+    "num": "PART 3",
+    "title": "FROM PAEGAM-SAN TO THE RIVER"
+   },
+   "sfx": [
+    {
+     "id": "drum",
+     "at": 0,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s22",
+   "lines": [
+    "Chokkun-san rises one thousand seventy-three meters. Paegam-san, one thousand one hundred seventy-nine.",
+    "Lose these peaks, and there were no high mountains left between the enemy and Hwachon."
+   ],
+   "visual": {
+    "type": "profile",
+    "pts": [
+     [
+      0,
+      520
+     ],
+     [
+      0.08,
+      700
+     ],
+     [
+      0.18,
+      1073
+     ],
+     [
+      0.27,
+      820
+     ],
+     [
+      0.36,
+      640
+     ],
+     [
+      0.45,
+      600
+     ],
+     [
+      0.53,
+      680
+     ],
+     [
+      0.62,
+      860
+     ],
+     [
+      0.72,
+      1179
+     ],
+     [
+      0.82,
+      900
+     ],
+     [
+      0.92,
+      650
+     ],
+     [
+      1,
+      520
+     ]
+    ],
+    "grid": [
+     600,
+     800,
+     1000
+    ],
+    "yMin": 300,
+    "yMax": 1300,
+    "title": "Chokkun-san – Paegam-san · West–East Profile",
+    "note": "Schematic (vertical exaggeration)",
+    "left": "W · Toward Kumhwa",
+    "right": "E · Pukhan River",
+    "marks": [
+     {
+      "x": 0.18,
+      "text": "Chokkun-san 1,073 m",
+      "style": "blue",
+      "at": 0,
+      "lift": 80,
+      "size": 40
+     },
+     {
+      "x": 0.45,
+      "text": "Chupa Pass",
+      "style": "dark",
+      "at": 0.6,
+      "lift": 80,
+      "size": 36
+     },
+     {
+      "x": 0.72,
+      "text": "Paegam-san 1,179 m",
+      "style": "blue",
+      "at": 0.9,
+      "lift": 80,
+      "size": 40
+     }
+    ]
+   }
+  },
+  {
+   "id": "s23",
+   "lines": [
+    "General Chung brought up the reserve 11th Division and pulled the battered 6th and 3rd back to regroup.",
+    "In the west, the US 3rd Division and the airlifted 187th Airborne rushed in."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "ridge",
+    "to": "south",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.45,
+        38.285
+       ],
+       [
+        127.5,
+        38.3
+       ],
+       [
+        127.55,
+        38.305
+       ],
+       [
+        127.6,
+        38.31
+       ],
+       [
+        127.645,
+        38.3
+       ],
+       [
+        127.68,
+        38.275
+       ],
+       [
+        127.72,
+        38.29
+       ],
+       [
+        127.77,
+        38.305
+       ],
+       [
+        127.82,
+        38.305
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "d11",
+      "text": "ROK 11th Div",
+      "color": "blue",
+      "at": 0.2,
+      "dy": 0
+     },
+     {
+      "k": "badge",
+      "p": "us3",
+      "text": "US 3rd Div",
+      "color": "blue",
+      "at": 1,
+      "dy": 0
+     },
+     {
+      "k": "unit",
+      "p": "jeokgeun",
+      "text": "Chokkun-san",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "baegam",
+      "text": "Paegam-san",
+      "color": "blue",
+      "at": 0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "JULY 14–15 · ROK 11TH DIV COMMITTED · US 3RD DIV & 187TH ABN",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s24",
+   "lines": [
+    "Meanwhile, torrential rain forced the Chinese to halt and catch their breath.",
+    "It gave the South Koreans one chance to strike back."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "baegam_line",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "water",
+     "at": 0,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s25",
+   "lines": [
+    "On July 16th, ROK II Corps counterattacked with the 11th, 8th, and 5th Divisions abreast.",
+    "Their objective was simple: retake the high ground south of the Kumsong River."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "ridge",
+    "to": "ridge",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.45,
+        38.285
+       ],
+       [
+        127.5,
+        38.3
+       ],
+       [
+        127.55,
+        38.305
+       ],
+       [
+        127.6,
+        38.31
+       ],
+       [
+        127.645,
+        38.3
+       ],
+       [
+        127.68,
+        38.275
+       ],
+       [
+        127.72,
+        38.29
+       ],
+       [
+        127.77,
+        38.305
+       ],
+       [
+        127.82,
+        38.305
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.56,
+        38.29
+       ],
+       [
+        127.565,
+        38.32
+       ],
+       [
+        127.57,
+        38.35
+       ]
+      ],
+      "color": "blue",
+      "at": 0.2,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.625,
+        38.295
+       ],
+       [
+        127.625,
+        38.325
+       ],
+       [
+        127.625,
+        38.357
+       ]
+      ],
+      "color": "blue",
+      "at": 0.4,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.7,
+        38.27
+       ],
+       [
+        127.705,
+        38.305
+       ],
+       [
+        127.71,
+        38.333
+       ]
+      ],
+      "color": "blue",
+      "at": 0.6,
+      "width": 1.0
+     },
+     {
+      "k": "badge",
+      "p": "d11",
+      "text": "ROK 11th Div",
+      "color": "blue",
+      "at": 0.3,
+      "dy": 0
+     },
+     {
+      "k": "badge",
+      "p": "d8b",
+      "text": "ROK 8th Div",
+      "color": "blue",
+      "at": 0.5,
+      "dy": 0
+     },
+     {
+      "k": "badge",
+      "p": "d5b",
+      "text": "ROK 5th Div",
+      "color": "blue",
+      "at": 0.7,
+      "dy": 0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "JULY 16, 1953 · ROK II CORPS COUNTERATTACK",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "charge",
+     "at": 0.3,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s26",
+   "lines": [
+    "Climbing slopes slick with mud, the soldiers took back the hills one by one.",
+    "Night after night, the enemy struck back hard to keep what it had won."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "counterattack",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0.5,
+     "volume": 0.45
+    },
+    {
+     "id": "mg",
+     "at": 1,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s27",
+   "lines": [
+    "Among the fiercest fights was Paegam-san, lost to the Chinese.",
+    "With the 5th Division stopped, the attached 7th Regiment swung in from the north and retook the summit.",
+    "Around Paegam-san alone, some five hundred seventy South Koreans were killed or missing."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "ridge",
+    "to": "ridge",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.45,
+        38.285
+       ],
+       [
+        127.5,
+        38.3
+       ],
+       [
+        127.55,
+        38.305
+       ],
+       [
+        127.6,
+        38.31
+       ],
+       [
+        127.645,
+        38.3
+       ],
+       [
+        127.68,
+        38.275
+       ],
+       [
+        127.72,
+        38.29
+       ],
+       [
+        127.77,
+        38.305
+       ],
+       [
+        127.82,
+        38.305
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "baegam",
+      "text": "Paegam-san",
+      "color": "red",
+      "at": 0,
+      "pulse": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.7,
+        38.26
+       ],
+       [
+        127.69,
+        38.278
+       ],
+       [
+        127.68,
+        38.288
+       ]
+      ],
+      "color": "blue",
+      "at": 0.3,
+      "width": 0.9
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.63,
+        38.29
+       ],
+       [
+        127.645,
+        38.315
+       ],
+       [
+        127.67,
+        38.31
+       ],
+       [
+        127.677,
+        38.298
+       ]
+      ],
+      "color": "blue",
+      "at": 1,
+      "width": 1.0
+     },
+     {
+      "k": "badge",
+      "p": "r7",
+      "text": "7th Regt, ROK 6th Div",
+      "color": "blue",
+      "at": 1.1,
+      "dy": 0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "PAEGAM-SAN RETAKEN · 7TH REGT, ROK 6TH DIV",
+     "style": "blue",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s28",
+   "lines": [
+    "On July 19th, the South Koreans finally stood on the high ground south of the Kumsong River.",
+    "But efforts to retake the old positions across the river had to be abandoned after the 20th."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "ridge",
+    "to": "salient",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.45,
+        38.285
+       ],
+       [
+        127.5,
+        38.3
+       ],
+       [
+        127.55,
+        38.305
+       ],
+       [
+        127.6,
+        38.31
+       ],
+       [
+        127.645,
+        38.3
+       ],
+       [
+        127.68,
+        38.275
+       ],
+       [
+        127.72,
+        38.29
+       ],
+       [
+        127.77,
+        38.305
+       ],
+       [
+        127.82,
+        38.305
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.45,
+        38.3
+       ],
+       [
+        127.5,
+        38.325
+       ],
+       [
+        127.55,
+        38.345
+       ],
+       [
+        127.6,
+        38.36
+       ],
+       [
+        127.64,
+        38.36
+       ],
+       [
+        127.68,
+        38.35
+       ],
+       [
+        127.72,
+        38.328
+       ],
+       [
+        127.77,
+        38.322
+       ],
+       [
+        127.82,
+        38.31
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "color": "blue",
+      "at": 0.2
+     },
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.42,
+        38.29
+       ],
+       [
+        127.47,
+        38.34
+       ],
+       [
+        127.51,
+        38.39
+       ],
+       [
+        127.56,
+        38.425
+       ],
+       [
+        127.62,
+        38.43
+       ],
+       [
+        127.68,
+        38.415
+       ],
+       [
+        127.74,
+        38.38
+       ],
+       [
+        127.8,
+        38.33
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 1
+     },
+     {
+      "k": "unit",
+      "p": "kumsong",
+      "text": "Kumsong",
+      "color": "red",
+      "at": 1.2
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "JULY 19, 1953 · RIDGELINE SOUTH OF THE RIVER SECURED",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s29",
+   "lines": [
+    "For the final week of the war, ROK II Corps held this Kumsong River line.",
+    "And on July 27th, the armistice was signed at Panmunjom."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "river_line",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s30",
+   "lines": [
+    "At ten o'clock that night, the guns at last fell silent.",
+    "The armistice line was drawn along the very ground where the two sides stood at that moment."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s30-photo",
+    "kb": "in"
+   },
+   "label": "(label after photo selection)"
+  },
+  {
+   "id": "s31",
+   "lines": [
+    "That ridgeline, retaken in blood, became this stretch of today's armistice line.",
+    "A few kilometers farther south, and the map of Hwachon might look very different."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "salient",
+    "to": "south",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.45,
+        38.3
+       ],
+       [
+        127.5,
+        38.325
+       ],
+       [
+        127.55,
+        38.345
+       ],
+       [
+        127.6,
+        38.36
+       ],
+       [
+        127.64,
+        38.36
+       ],
+       [
+        127.68,
+        38.35
+       ],
+       [
+        127.72,
+        38.328
+       ],
+       [
+        127.77,
+        38.322
+       ],
+       [
+        127.82,
+        38.31
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "baegam",
+      "text": "Paegam-san",
+      "color": "blue",
+      "at": 0.3
+     },
+     {
+      "k": "unit",
+      "p": "jeokgeun",
+      "text": "Chokkun-san",
+      "color": "blue",
+      "at": 0.4
+     },
+     {
+      "k": "marker",
+      "p": "hwacheon",
+      "color": "dark",
+      "at": 1
+     },
+     {
+      "k": "unit",
+      "p": "hwares",
+      "text": "Hwachon Reservoir",
+      "color": "blue",
+      "at": 1.2
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "SOUTH OF KUMSONG RIVER ≈ TODAY'S DEMARCATION LINE (APPROX.)",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s32",
+   "lines": [
+    "The salient itself was lost, about one hundred seventy square kilometers.",
+    "By South Korean counts, some fourteen thousand ROK soldiers were killed, wounded, or missing. Eighth Army estimated over twenty-eight thousand Chinese casualties."
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "ROK: South Korean counts (sources vary) · Chinese: Eighth Army estimate",
+    "items": [
+     {
+      "label": "ROK killed, wounded & missing",
+      "value": 14000,
+      "display": "~14,000",
+      "color": "blue",
+      "at": 1
+     },
+     {
+      "label": "Chinese casualties (est.)",
+      "value": 28000,
+      "display": "28,000+",
+      "color": "red",
+      "at": 1.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "s33",
+   "lines": [
+    "So why could two hundred forty thousand troops never break through to Hwachon?",
+    "Let's look at four reasons."
+   ],
+   "visual": {
+    "type": "factors",
+    "items": [
+     "The Salient Trap",
+     "Mountain Defense Line",
+     "Reserves & Reinforcements",
+     "Counterattack in the Rain"
+    ],
+    "head": "240,000-Man Offensive vs the Last Line",
+    "at": 1
+   },
+   "chapter": {
+    "num": "PART 4",
+    "title": "4 DECIDING FACTORS"
+   }
+  },
+  {
+   "id": "s34",
+   "lines": [
+    "First, the salient trap."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s34-photo",
+    "num": "Factor 1",
+    "title": "The Salient Trap"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s35",
+   "lines": [
+    "Touching the enemy on three sides, the salient's shoulders were its weak points from the start.",
+    "Once a shoulder broke, every unit inside was at risk of being surrounded."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "salient",
+    "to": "salient",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.42,
+        38.29
+       ],
+       [
+        127.47,
+        38.34
+       ],
+       [
+        127.51,
+        38.39
+       ],
+       [
+        127.56,
+        38.425
+       ],
+       [
+        127.62,
+        38.43
+       ],
+       [
+        127.68,
+        38.415
+       ],
+       [
+        127.74,
+        38.38
+       ],
+       [
+        127.8,
+        38.33
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.44,
+        38.4
+       ],
+       [
+        127.47,
+        38.35
+       ],
+       [
+        127.5,
+        38.305
+       ]
+      ],
+      "color": "red",
+      "at": 0.3,
+      "width": 1.2
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.76,
+        38.43
+       ],
+       [
+        127.72,
+        38.36
+       ],
+       [
+        127.69,
+        38.29
+       ]
+      ],
+      "color": "red",
+      "at": 0.5,
+      "width": 1.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "s36",
+   "lines": [
+    "Second, the mountain defense line."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s36-photo",
+    "num": "Factor 2",
+    "title": "Mountain Defense Line"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s37",
+   "lines": [
+    "The South Koreans redrew their line on peaks over a thousand meters high.",
+    "Holding the heights, they could stand with far fewer men."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "baegam_line",
+    "kb": "left"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s38",
+   "lines": [
+    "Third, reserves and reinforcements."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s38-photo",
+    "num": "Factor 3",
+    "title": "Reserves & Reinforcements"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s39",
+   "lines": [
+    "The corps pulled out its shattered divisions and threw the reserve 11th Division straight in.",
+    "With American reinforcements arriving within a day or two, the gap never widened."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "ROK II CORPS",
+     "big": "11TH DIV IN",
+     "icon": "none",
+     "color": "blue"
+    },
+    "right": {
+     "title": "EIGHTH ARMY",
+     "big": "3RD DIV & 187TH",
+     "icon": "none",
+     "color": "blue",
+     "at": 1
+    }
+   }
+  },
+  {
+   "id": "s40",
+   "lines": [
+    "Fourth, the counterattack in the rain."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s40-photo",
+    "num": "Factor 4",
+    "title": "Counterattack in the Rain"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s41",
+   "lines": [
+    "The South Koreans did not waste the days when the enemy paused for breath.",
+    "When the side being pushed back struck first, the enemy's final breakthrough lost its momentum.",
+    "After July 20th, the Chinese advanced no farther south."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s41-photo",
+    "kb": "in"
+   },
+   "label": "(label after photo selection)"
+  },
+  {
+   "id": "s42",
+   "lines": [
+    "A decade after the war, a young platoon leader served near Paegam-san.",
+    "In those hills, he found nameless graves marked only by wooden stakes."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "wooden_marker",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "chapter": {
+    "num": "EPILOGUE",
+    "title": "THE WOODEN MARKER"
+   },
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s43",
+   "lines": [
+    "That officer, Han Myung-hee, wrote the Korean art song Bimok, The Wooden Marker.",
+    "The deep valley in that song was these very mountains."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "BIMOK · THE WOODEN MARKER",
+    "style": "dark",
+    "sub": "Lyrics by Han Myung-hee · inspired by nameless graves near Paegam-san",
+    "subAt": 1
+   }
+  },
+  {
+   "id": "s44",
+   "lines": [
+    "In autumn 2025, remains were recovered from a nameless hill in Cheorwon.",
+    "They were Sergeant Kim Sun-sik of the ROK 6th Division, killed at Kumsong eight days before the truce."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "Sgt. Kim Sun-sik · Killed July 19, 1953",
+    "accent": "Remains recovered, autumn 2025",
+    "accentAt": 0
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s45",
+   "lines": [
+    "This May, after seventy-three years, he finally came home to his family.",
+    "The line south of the Kumsong River is still drawn over the names of men like him."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "armistice_quiet",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s46",
+   "lines": [
+    "Fourteen days before the truce, a final offensive by two hundred forty thousand men.",
+    "The line that refused to break before it is today's armistice line."
+   ],
+   "visual": {
+    "type": "quotes",
+    "title": "What Kumsong Left Behind",
+    "items": [
+     {
+      "text": "The great offensive, 14 days before the truce",
+      "at": 0
+     },
+     {
+      "text": "The last line, held with blood",
+      "at": 1
+     }
+    ]
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s47",
+   "lines": [
+    "If this story meant something to you, please subscribe and like this video.",
+    "We'll continue the record of a forgotten war... in the next episode."
+   ],
+   "visual": {
+    "type": "endcard",
+    "title": "July 1953. Kumsong.\nThe Last Stretch of the Line.",
+    "q": "s47-photo"
+   },
+   "tail": 3.0
+  }
+ ],
+ "lang": "en",
+ "assets_ep": "kumsong",
+ "voice": "pNInz6obpgDQGcFmaJgB",
+ "tempo": 1.02
+}

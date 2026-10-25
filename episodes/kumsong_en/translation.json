@@ -1,0 +1,492 @@
+{
+ "title": "Battle of Kumsong (1953): The Last Offensive of the Korean War",
+ "subtitle": "July 13 – July 27, 1953",
+ "voice": "pNInz6obpgDQGcFmaJgB",
+ "tempo": 1.02,
+ "places": {
+  "seoul": "Seoul",
+  "panmunjom": "Panmunjom",
+  "kumhwa": "Kumhwa",
+  "kumsong": "Kumsong",
+  "hwacheon": "Hwachon",
+  "hwares": "Hwachon Reservoir",
+  "jeokgeun": "Chokkun-san",
+  "jupa": "Chupa Pass",
+  "baegam": "Paegam-san",
+  "ccf": "Chinese Forces",
+  "d_cap": "ROK Capital Div",
+  "d6": "ROK 6th Div",
+  "d8": "ROK 8th Div",
+  "d3": "ROK 3rd Div",
+  "d5": "ROK 5th Div",
+  "d11": "ROK 11th Div",
+  "d8b": "ROK 8th Div",
+  "d5b": "ROK 5th Div",
+  "us3": "US 3rd Div",
+  "r7": "7th Regt, ROK 6th Div"
+ },
+ "text": {
+  "판문점 휴전회담": "Panmunjom Truce Talks",
+  "금성": "Kumsong",
+  "수도사단": "ROK Capital Div",
+  "6사단": "ROK 6th Div",
+  "8사단": "ROK 8th Div",
+  "3사단": "ROK 3rd Div",
+  "5사단": "ROK 5th Div",
+  "중공군 5개 군단": "5 Chinese Armies",
+  "화천저수지": "Hwachon Reservoir",
+  "적근산": "Chokkun-san",
+  "백암산": "Paegam-san",
+  "11사단": "ROK 11th Div",
+  "미 3사단": "US 3rd Div",
+  "6사단 7연대": "7th Regt, ROK 6th Div"
+ },
+ "scenes": {
+  "s01": {
+   "lines": [
+    "July 13th, 1953. A mountain front south of Kumsong, central Korea.",
+    "As darkness fell, the whole ridgeline to the north erupted in fire."
+   ],
+   "label": "Dramatization",
+   "callouts": [
+    "JULY 13, 1953 · KUMSONG SALIENT, KOREA"
+   ]
+  },
+  "s02": {
+   "lines": [
+    "Before the guns even slackened, Chinese troops poured down every valley.",
+    "By midnight, some had pushed a thousand meters inside South Korean lines."
+   ],
+   "label": "Dramatization",
+   "callouts": [
+    "US Army history: up to 1,000 m by midnight"
+   ]
+  },
+  "s03": {
+   "lines": [
+    "The armistice would be signed in just fourteen days.",
+    "And with two weeks left, the last great offensive of the Korean War had begun."
+   ],
+   "text": "Armistice signing in",
+   "accent": "14 DAYS"
+  },
+  "s04": {
+   "lines": [
+    "The Battle of Kumsong.",
+    "The final battle of the war, fought over the last stretch of today's armistice line."
+   ],
+   "title": "Battle of Kumsong",
+   "sub": "The Last Offensive · 1953"
+  },
+  "s05": {
+   "lines": [
+    "By June 1953, the truce talks at Panmunjom were nearly done.",
+    "After two years of deadlock over prisoners, both sides finally agreed.",
+    "On June 8th, the prisoner exchange deal was signed. Peace seemed days away."
+   ],
+   "callouts": [
+    "JUNE 1953 · FINAL STAGE OF TRUCE TALKS"
+   ],
+   "chapter": [
+    "PART 1",
+    "A GAMBLE BEFORE THE TRUCE"
+   ]
+  },
+  "s06": {
+   "lines": [
+    "But President Syngman Rhee bitterly opposed a truce that left Korea divided.",
+    "On June 18th, he abruptly freed some twenty-seven thousand anti-communist prisoners."
+   ],
+   "name": "Syngman Rhee",
+   "role": "President, Republic of Korea",
+   "callouts": [
+    "JUNE 18, 1953 · ~27,000 PRISONERS RELEASED"
+   ]
+  },
+  "s07": {
+   "lines": [
+    "The communists were furious.",
+    "Before signing, they resolved to teach the South Korean army a hard lesson.",
+    "General Mark Clark believed a main aim was to give the ROK Army a bloody nose."
+   ],
+   "label": "(label after photo selection)"
+  },
+  "s08": {
+   "lines": [
+    "They chose a bulge in the central front, pushing north toward the town of Kumsong.",
+    "It was called the Kumsong salient."
+   ],
+   "callouts": [
+    "KUMSONG SALIENT (APPROX.)"
+   ]
+  },
+  "s09": {
+   "lines": [
+    "It was held by the ROK Capital Division and the divisions of ROK II Corps.",
+    "Open to the enemy on three sides, it favored the attacker."
+   ],
+   "callouts": [
+    "5 ROK DIVISIONS · WEST → EAST (APPROX.)"
+   ]
+  },
+  "s10": {
+   "lines": [
+    "ROK II Corps was led by Lieutenant General Chung Il-kwon.",
+    "Already pushed back once in June, his corps now faced a far bigger storm."
+   ],
+   "name": "Chung Il-kwon",
+   "role": "Commander, ROK II Corps"
+  },
+  "s11": {
+   "lines": [
+    "To the north, five Chinese armies, some two hundred forty thousand men, were massing.",
+    "Behind them stood about thirteen hundred sixty guns.",
+    "After the prisoner release, Mao reportedly ordered a heavier blow."
+   ],
+   "callouts": [
+    "~240,000 TROOPS · 1,360 GUNS"
+   ]
+  },
+  "s12": {
+   "lines": [
+    "This time, the enemy had more men and more guns.",
+    "It was a final gamble to draw the line even one meter farther south."
+   ],
+   "left": [
+    "ROK & UN",
+    "~187,000"
+   ],
+   "right": [
+    "COMMUNIST",
+    "~240,000"
+   ]
+  },
+  "s13": {
+   "lines": [
+    "On July 13th, as the sun went down, the communist guns opened fire all at once.",
+    "In moments, the South Korean positions were engulfed in flames."
+   ],
+   "label": "Dramatization",
+   "callouts": [
+    "JULY 13, 1953 · AFTER DARK · OFFENSIVE BEGINS"
+   ],
+   "chapter": [
+    "PART 2",
+    "THE SALIENT COLLAPSES"
+   ]
+  },
+  "s14": {
+   "lines": [
+    "From July 11th, in ten days, the communists fired about one hundred ninety-seven thousand shells.",
+    "It was the heaviest ten-day bombardment of the war."
+   ],
+   "big": "197,550 ROUNDS",
+   "sub": "Communist artillery, July 11–20, 1953 · 10-day record of the war (US Army history)"
+  },
+  "s15": {
+   "lines": [
+    "Then the Chinese drove like wedges into both shoulders of the salient.",
+    "The Capital Division in the west and the ROK 3rd Division in the east broke in turn."
+   ],
+   "callouts": [
+    "CHINESE WEDGE ATTACKS (APPROX.)"
+   ]
+  },
+  "s16": {
+   "lines": [
+    "In the dark, the enemy slipped behind the lines and struck command posts.",
+    "Colonel Yuk Geun-su of the Capital Division was killed trying to rescue his surrounded 1st Regiment."
+   ],
+   "label": "Dramatization",
+   "callouts": [
+    "NIGHT OF JULY 14 · COL. YUK GEUN-SU KILLED"
+   ]
+  },
+  "s17": {
+   "lines": [
+    "In the center, four enemy battalions surrounded a battalion of the ROK 6th Division.",
+    "Phone lines were cut. No one knew which positions still held."
+   ],
+   "label": "Dramatization",
+   "callouts": [
+    "US Army history · ROK 19th Regiment front"
+   ]
+  },
+  "s18": {
+   "lines": [
+    "On July 14th, Eighth Army commander General Maxwell Taylor made a hard decision.",
+    "Give up the salient, fall back south of the Kumsong River, and rebuild the line."
+   ],
+   "callouts": [
+    "JULY 14, 1953 · WITHDRAW SOUTH OF KUMSONG RIVER"
+   ]
+  },
+  "s19": {
+   "lines": [
+    "But in the rain and confusion, the withdrawal began to fall apart.",
+    "Some units retreated across the river and far beyond the line they had been ordered to hold."
+   ],
+   "label": "Dramatization"
+  },
+  "s20": {
+   "lines": [
+    "The enemy's next objective lay south: the Hwachon Reservoir.",
+    "Lose it, and even the power plant lighting Seoul would be in danger."
+   ],
+   "callouts": [
+    "DEEPEST CHINESE ADVANCE (APPROX.)"
+   ]
+  },
+  "s21": {
+   "lines": [
+    "Behind the broken front, the South Koreans built a new line along the high ridges.",
+    "It ran from Chokkun-san, through Chupa Pass, to Paegam-san."
+   ],
+   "callouts": [
+    "NEW LINE · CHOKKUN-SAN – CHUPA PASS – PAEGAM-SAN (APPROX.)"
+   ],
+   "chapter": [
+    "PART 3",
+    "FROM PAEGAM-SAN TO THE RIVER"
+   ]
+  },
+  "s22": {
+   "lines": [
+    "Chokkun-san rises one thousand seventy-three meters. Paegam-san, one thousand one hundred seventy-nine.",
+    "Lose these peaks, and there were no high mountains left between the enemy and Hwachon."
+   ],
+   "title": "Chokkun-san – Paegam-san · West–East Profile",
+   "note": "Schematic (vertical exaggeration)",
+   "left": "W · Toward Kumhwa",
+   "right": "E · Pukhan River",
+   "marks": [
+    "Chokkun-san 1,073 m",
+    "Chupa Pass",
+    "Paegam-san 1,179 m"
+   ]
+  },
+  "s23": {
+   "lines": [
+    "General Chung brought up the reserve 11th Division and pulled the battered 6th and 3rd back to regroup.",
+    "In the west, the US 3rd Division and the airlifted 187th Airborne rushed in."
+   ],
+   "callouts": [
+    "JULY 14–15 · ROK 11TH DIV COMMITTED · US 3RD DIV & 187TH ABN"
+   ]
+  },
+  "s24": {
+   "lines": [
+    "Meanwhile, torrential rain forced the Chinese to halt and catch their breath.",
+    "It gave the South Koreans one chance to strike back."
+   ],
+   "label": "Dramatization"
+  },
+  "s25": {
+   "lines": [
+    "On July 16th, ROK II Corps counterattacked with the 11th, 8th, and 5th Divisions abreast.",
+    "Their objective was simple: retake the high ground south of the Kumsong River."
+   ],
+   "callouts": [
+    "JULY 16, 1953 · ROK II CORPS COUNTERATTACK"
+   ]
+  },
+  "s26": {
+   "lines": [
+    "Climbing slopes slick with mud, the soldiers took back the hills one by one.",
+    "Night after night, the enemy struck back hard to keep what it had won."
+   ],
+   "label": "Dramatization"
+  },
+  "s27": {
+   "lines": [
+    "Among the fiercest fights was Paegam-san, lost to the Chinese.",
+    "With the 5th Division stopped, the attached 7th Regiment swung in from the north and retook the summit.",
+    "Around Paegam-san alone, some five hundred seventy South Koreans were killed or missing."
+   ],
+   "callouts": [
+    "PAEGAM-SAN RETAKEN · 7TH REGT, ROK 6TH DIV"
+   ]
+  },
+  "s28": {
+   "lines": [
+    "On July 19th, the South Koreans finally stood on the high ground south of the Kumsong River.",
+    "But efforts to retake the old positions across the river had to be abandoned after the 20th."
+   ],
+   "callouts": [
+    "JULY 19, 1953 · RIDGELINE SOUTH OF THE RIVER SECURED"
+   ]
+  },
+  "s29": {
+   "lines": [
+    "For the final week of the war, ROK II Corps held this Kumsong River line.",
+    "And on July 27th, the armistice was signed at Panmunjom."
+   ],
+   "label": "Dramatization"
+  },
+  "s30": {
+   "lines": [
+    "At ten o'clock that night, the guns at last fell silent.",
+    "The armistice line was drawn along the very ground where the two sides stood at that moment."
+   ],
+   "label": "(label after photo selection)"
+  },
+  "s31": {
+   "lines": [
+    "That ridgeline, retaken in blood, became this stretch of today's armistice line.",
+    "A few kilometers farther south, and the map of Hwachon might look very different."
+   ],
+   "callouts": [
+    "SOUTH OF KUMSONG RIVER ≈ TODAY'S DEMARCATION LINE (APPROX.)"
+   ]
+  },
+  "s32": {
+   "lines": [
+    "The salient itself was lost, about one hundred seventy square kilometers.",
+    "By South Korean counts, some fourteen thousand ROK soldiers were killed, wounded, or missing. Eighth Army estimated over twenty-eight thousand Chinese casualties."
+   ],
+   "note": "ROK: South Korean counts (sources vary) · Chinese: Eighth Army estimate",
+   "bars": [
+    [
+     "ROK killed, wounded & missing",
+     "~14,000"
+    ],
+    [
+     "Chinese casualties (est.)",
+     "28,000+"
+    ]
+   ]
+  },
+  "s33": {
+   "lines": [
+    "So why could two hundred forty thousand troops never break through to Hwachon?",
+    "Let's look at four reasons."
+   ],
+   "chapter": [
+    "PART 4",
+    "4 DECIDING FACTORS"
+   ],
+   "items": [
+    "The Salient Trap",
+    "Mountain Defense Line",
+    "Reserves & Reinforcements",
+    "Counterattack in the Rain"
+   ],
+   "head": "240,000-Man Offensive vs the Last Line"
+  },
+  "s34": {
+   "lines": [
+    "First, the salient trap."
+   ],
+   "num": "Factor 1",
+   "title": "The Salient Trap"
+  },
+  "s35": {
+   "lines": [
+    "Touching the enemy on three sides, the salient's shoulders were its weak points from the start.",
+    "Once a shoulder broke, every unit inside was at risk of being surrounded."
+   ]
+  },
+  "s36": {
+   "lines": [
+    "Second, the mountain defense line."
+   ],
+   "num": "Factor 2",
+   "title": "Mountain Defense Line"
+  },
+  "s37": {
+   "lines": [
+    "The South Koreans redrew their line on peaks over a thousand meters high.",
+    "Holding the heights, they could stand with far fewer men."
+   ],
+   "label": "Dramatization"
+  },
+  "s38": {
+   "lines": [
+    "Third, reserves and reinforcements."
+   ],
+   "num": "Factor 3",
+   "title": "Reserves & Reinforcements"
+  },
+  "s39": {
+   "lines": [
+    "The corps pulled out its shattered divisions and threw the reserve 11th Division straight in.",
+    "With American reinforcements arriving within a day or two, the gap never widened."
+   ],
+   "left": [
+    "ROK II CORPS",
+    "11TH DIV IN"
+   ],
+   "right": [
+    "EIGHTH ARMY",
+    "3RD DIV & 187TH"
+   ]
+  },
+  "s40": {
+   "lines": [
+    "Fourth, the counterattack in the rain."
+   ],
+   "num": "Factor 4",
+   "title": "Counterattack in the Rain"
+  },
+  "s41": {
+   "lines": [
+    "The South Koreans did not waste the days when the enemy paused for breath.",
+    "When the side being pushed back struck first, the enemy's final breakthrough lost its momentum.",
+    "After July 20th, the Chinese advanced no farther south."
+   ],
+   "label": "(label after photo selection)"
+  },
+  "s42": {
+   "lines": [
+    "A decade after the war, a young platoon leader served near Paegam-san.",
+    "In those hills, he found nameless graves marked only by wooden stakes."
+   ],
+   "label": "Dramatization",
+   "chapter": [
+    "EPILOGUE",
+    "THE WOODEN MARKER"
+   ]
+  },
+  "s43": {
+   "lines": [
+    "That officer, Han Myung-hee, wrote the Korean art song Bimok, The Wooden Marker.",
+    "The deep valley in that song was these very mountains."
+   ],
+   "big": "BIMOK · THE WOODEN MARKER",
+   "sub": "Lyrics by Han Myung-hee · inspired by nameless graves near Paegam-san"
+  },
+  "s44": {
+   "lines": [
+    "In autumn 2025, remains were recovered from a nameless hill in Cheorwon.",
+    "They were Sergeant Kim Sun-sik of the ROK 6th Division, killed at Kumsong eight days before the truce."
+   ],
+   "text": "Sgt. Kim Sun-sik · Killed July 19, 1953",
+   "accent": "Remains recovered, autumn 2025"
+  },
+  "s45": {
+   "lines": [
+    "This May, after seventy-three years, he finally came home to his family.",
+    "The line south of the Kumsong River is still drawn over the names of men like him."
+   ],
+   "label": "Dramatization"
+  },
+  "s46": {
+   "lines": [
+    "Fourteen days before the truce, a final offensive by two hundred forty thousand men.",
+    "The line that refused to break before it is today's armistice line."
+   ],
+   "quotes": [
+    "The great offensive, 14 days before the truce",
+    "The last line, held with blood"
+   ],
+   "quoteTitle": "What Kumsong Left Behind"
+  },
+  "s47": {
+   "lines": [
+    "If this story meant something to you, please subscribe and like this video.",
+    "We'll continue the record of a forgotten war... in the next episode."
+   ],
+   "title": "July 1953. Kumsong.\nThe Last Stretch of the Line."
+  }
+ }
+}
