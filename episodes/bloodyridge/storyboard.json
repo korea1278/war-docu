@@ -1,0 +1,2832 @@
+{
+ "title": "피의 능선 전투",
+ "subtitle": "1951. 8. 18 ~ 9. 5",
+ "target_sec": 520,
+ "places": {
+  "seoul": [
+   126.978,
+   37.566,
+   "서울"
+  ],
+  "kaesong": [
+   126.554,
+   37.971,
+   "개성"
+  ],
+  "yanggu": [
+   127.99,
+   38.106,
+   "양구"
+  ],
+  "inje": [
+   128.17,
+   38.07,
+   "인제"
+  ],
+  "punchbowl": [
+   128.14,
+   38.285,
+   "펀치볼"
+  ],
+  "h983": [
+   128.022,
+   38.252,
+   "983고지"
+  ],
+  "h940": [
+   128.04,
+   38.255,
+   "940고지"
+  ],
+  "h773": [
+   128.051,
+   38.252,
+   "773고지"
+  ],
+  "h1179": [
+   128.078,
+   38.262,
+   "대우산 (1179고지)"
+  ],
+  "heartbreak": [
+   128.017,
+   38.3,
+   "단장의 능선"
+  ],
+  "us2": [
+   128.035,
+   38.212,
+   "미 2사단"
+  ],
+  "nkobs": [
+   128.03,
+   38.253,
+   "적 관측소"
+  ],
+  "rok36": [
+   128.012,
+   38.232,
+   "국군 36연대"
+  ],
+  "r9": [
+   128.046,
+   38.232,
+   "미 9연대"
+  ],
+  "r23": [
+   127.975,
+   38.258,
+   "미 23연대"
+  ],
+  "r38": [
+   128.1,
+   38.248,
+   "미 38연대"
+  ],
+  "rok5": [
+   128.11,
+   38.31,
+   "국군 5사단"
+  ],
+  "usmc": [
+   128.2,
+   38.31,
+   "미 해병 1사단"
+  ],
+  "rok7": [
+   127.92,
+   38.26,
+   "국군 7사단"
+  ]
+ },
+ "views": {
+  "korea": {
+   "center": [
+    127.6,
+    37.75
+   ],
+   "span": 4.2
+  },
+  "east": {
+   "center": [
+    128.07,
+    38.22
+   ],
+   "span": 0.9
+  },
+  "ridge_wide": {
+   "center": [
+    128.05,
+    38.255
+   ],
+   "span": 0.32
+  },
+  "ridge": {
+   "center": [
+    128.038,
+    38.248
+   ],
+   "span": 0.13
+  },
+  "north": {
+   "center": [
+    128.035,
+    38.272
+   ],
+   "span": 0.22
+  }
+ },
+ "music": [
+  {
+   "id": "drone",
+   "from": "s01",
+   "to": "s05",
+   "volume": 0.2
+  },
+  {
+   "id": "theme",
+   "from": "s06",
+   "to": "s14",
+   "volume": 0.16
+  },
+  {
+   "id": "tension",
+   "from": "s15",
+   "to": "s25",
+   "volume": 0.17
+  },
+  {
+   "id": "march",
+   "from": "s26",
+   "to": "s34",
+   "volume": 0.15
+  },
+  {
+   "id": "analysis",
+   "from": "s35",
+   "to": "s43",
+   "volume": 0.13
+  },
+  {
+   "id": "somber",
+   "from": "s44",
+   "to": "s49",
+   "volume": 0.17
+  }
+ ],
+ "ai_images": {
+  "ridge_barrage": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a massive night artillery barrage exploding along a narrow knife-edge mountain ridge in the Korean highlands in August 1951, the ridge already stripped bare of trees, shattered tree stumps and white churned earth lit by orange blasts, in the foreground American soldiers whose heads are round balls painted as the United States flag, wearing 1951 M1 steel helmets and olive drab summer fatigues and South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1951 M1 steel helmets and olive drab summer field uniforms crouching in a sandbagged trench below watching the shelling, smoke drifting across the valley, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "bunker_inside": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: North Korean soldiers whose heads are round balls painted as the North Korean flag (blue, thin white and wide red stripes with a red star in a white circle), wearing khaki 1951 uniforms and soft caps crouching inside a dim underground bunker built of thick logs covered with rocks and earth on a Korean mountain ridge in August 1951, dust and pebbles falling from the log ceiling as artillery shells explode outside, a machine gun pointed through a narrow firing slit, crates of hand grenades stacked along the wall, a narrow communication trench leading away, tense waiting faces lit by thin light through the slit, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "grenade_climb": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1951 M1 steel helmets and olive drab summer field uniforms and American soldiers whose heads are round balls painted as the United States flag, wearing 1951 M1 steel helmets and olive drab summer fatigues crawling and climbing up a very steep bare shell-cratered mountain slope toward a log bunker on the crest, enemy hand grenades rolling and bouncing down the slope toward them, one soldier pulling the pin of his own grenade, dirt explosions, smoke, harsh afternoon light, August 1951 Korea, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "rok_fog_attack": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1951 M1 steel helmets and olive drab summer field uniforms advancing in a long line through thick morning fog up a forested Korean mountain ridge in August 1951, bayonets fixed, officers waving them forward, distant flashes of explosions on the ridge crest above, grim determined faces, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "broken_line": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: exhausted and wounded South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1951 M1 steel helmets and olive drab summer field uniforms stumbling back down a steep bare Korean ridge in confusion under mortar fire, some helping wounded comrades, an officer trying to rally them, American soldiers whose heads are round balls painted as the United States flag, wearing 1951 M1 steel helmets and olive drab summer fatigues climbing up the same trail looking alarmed, smoke and dust, late August 1951, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "fo_command": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a young American artillery forward observer lieutenant whose head is a round ball painted as the United States flag, wearing a 1951 M1 helmet with a field radio on his back, taking command of a battered infantry company pinned down just below a bare rocky ridge crest, American soldiers whose heads are round balls painted as the United States flag, wearing 1951 M1 steel helmets and olive drab summer fatigues lying behind rocks and shell craters, enemy machine gun tracers from a bunker above, August 1951 Korea, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "bunker_grenade": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an American infantry platoon leader whose head is a round ball painted as the United States flag, wearing a 1951 M1 helmet, throwing a hand grenade into the firing slit of a log-and-earth bunker on a bare Korean ridge, his broken radio dropped beside him, American soldiers whose heads are round balls painted as the United States flag, wearing 1951 M1 steel helmets and olive drab summer fatigues covering him from behind rocks, explosion flash inside the bunker, smoke, early September 1951, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "napalm_strike": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American fighter-bombers dropping napalm on a bare shell-cratered Korean mountain ridge in September 1951, huge rolling orange fireballs and black smoke along the crest, in the foreground American soldiers whose heads are round balls painted as the United States flag, wearing 1951 M1 steel helmets and olive drab summer fatigues watching from a slope below, waiting to attack, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "empty_crest": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American soldiers whose heads are round balls painted as the United States flag, wearing 1951 M1 steel helmets and olive drab summer fatigues standing on a silent bare ridge crest at dawn in September 1951, among smashed log bunkers, abandoned enemy ammunition boxes and equipment, stunned and exhausted, morning mist in the valleys below and further dark mountain ridges to the north, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "thumb_ref": "A South Korean infantryman in August 1951, M1 steel helmet, torn sweat-soaked uniform, fierce determined eyes, face clearly visible and lit, climbing a very steep bare knife-edge mountain ridge with a hand grenade in his fist, behind him more soldiers crawling up the slope as silhouettes, artillery shells exploding along the ridge crest above with blazing red-orange fire, shattered tree stumps and churned earth, gritty photorealistic war painting styled as a black-and-white 1950s documentary archive photograph, heavy film grain, scratches and dust, desaturated monochrome except the fire and explosions glow in vivid red and orange (selective color), extreme high contrast, serious military documentary mood, no cartoon, no 2D characters, no countryball, lighting: NO crushed pure-black areas anywhere — thick battlefield smoke, fog and haze glowing with backlight fill the shadows (lifted shadows, brighter mid-tones, overall about 20 percent brighter and higher contrast), strong rim light / backlight sharply outlining the soldier's helmet, face and shoulders and the ridge silhouette, composition: the main soldier in the center / center-left of the frame, full figure, face clearly visible, not touching the frame edges, the bottom-right quarter of the frame kept plain and uncluttered (soft smoky haze, no subject), no text, no letters, no logos, no watermark."
+ },
+ "scenes": [
+  {
+   "id": "s01",
+   "lines": [
+    {
+     "t": "1951년 8월, 강원도 양구 북쪽의 이름 없는 능선.",
+     "say": "천구백오십일 년 팔월, 강원도 양구 북쪽의 이름 없는 능선."
+    },
+    "며칠 밤낮 쏟아진 포탄에, 능선 위의 나무는 한 그루도 남지 않았습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "ridge_barrage",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "1951. 8 · 강원도 양구 북방",
+     "style": "yellow",
+     "at": 0
+    }
+   ],
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.2,
+     "volume": 0.4
+    },
+    {
+     "id": "boom",
+     "at": 1,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "lines": [
+    "그런데 포격이 멈추면, 벌거숭이 산속에서 적의 기관총이 다시 불을 뿜었죠.",
+    "땅속 깊이 파묻힌 벙커들이, 그 포격을 견뎌 낸 겁니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "bunker_inside",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 0.5,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "lines": [
+    "결국 병사들은 수류탄과 소총만 쥐고, 가파른 비탈을 기어올라야 했습니다.",
+    "벙커 하나를 부술 때마다, 누군가는 그 비탈에 쓰러졌죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "grenade_climb",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0.6,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "lines": [
+    {
+     "t": "능선 하나를 두고, 한국군과 유엔군의 사상자는 2,800명을 넘어섭니다.",
+     "say": "능선 하나를 두고, 한국군과 유엔군의 사상자는 이천팔백 명을 넘어섭니다."
+    },
+    "미군 신문은 이 능선에, 섬뜩한 이름을 붙였죠."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "1951. 8. 18 ~ 9. 5\n사상자 2,800여 명"
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s05",
+   "lines": [
+    "블러디 릿지, 피의 능선.",
+    {
+     "t": "오늘은 휴전회담 뒤편에서 벌어진, 그 3주간의 고지전 이야기입니다.",
+     "say": "오늘은 휴전회담 뒤편에서 벌어진, 그 삼 주간의 고지전 이야기입니다."
+    }
+   ],
+   "visual": {
+    "type": "titlecard",
+    "q": "s05-photo",
+    "title": "피의 능선 전투",
+    "sub": "능선 전체가 피로 물든 3주간의 고지 지옥 · 1951",
+    "at": 0
+   },
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0,
+     "volume": 0.5
+    }
+   ],
+   "flash": true
+  },
+  {
+   "id": "s06",
+   "lines": [
+    {
+     "t": "1951년 여름, 전쟁은 38선 부근에서 멈춰 서 있었습니다.",
+     "say": "천구백오십일 년 여름, 전쟁은 삼팔선 부근에서 멈춰 서 있었습니다."
+    },
+    {
+     "t": "7월 10일, 개성에서는 마침내 휴전회담이 시작됐죠.",
+     "say": "칠월 십 일, 개성에서는 마침내 휴전회담이 시작됐죠."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "korea",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.68,
+        37.78
+       ],
+       [
+        126.95,
+        37.98
+       ],
+       [
+        127.25,
+        38.12
+       ],
+       [
+        127.55,
+        38.08
+       ],
+       [
+        127.8,
+        38.13
+       ],
+       [
+        127.97,
+        38.2
+       ],
+       [
+        128.06,
+        38.222
+       ],
+       [
+        128.25,
+        38.28
+       ],
+       [
+        128.45,
+        38.4
+       ],
+       [
+        128.58,
+        38.45
+       ]
+      ],
+      "at": 0.2
+     },
+     {
+      "k": "marker",
+      "p": "seoul",
+      "color": "blue",
+      "at": 0.6
+     },
+     {
+      "k": "unit",
+      "p": "kaesong",
+      "text": "개성 휴전회담",
+      "color": "dark",
+      "at": 1,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1951. 7. 10 · 개성 휴전회담 개시",
+     "style": "yellow",
+     "at": 1,
+     "pos": "top"
+    }
+   ],
+   "chapter": {
+    "num": "PART 1",
+    "title": "협상 테이블 뒤의 전쟁"
+   }
+  },
+  {
+   "id": "s07",
+   "lines": [
+    "하지만 회담장의 줄다리기가 길어지는 동안, 전선의 총성은 멈추지 않았습니다.",
+    "한 뼘의 땅이라도 더 쥐고 있어야, 협상에서 밀리지 않았기 때문이죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s07-photo",
+    "kb": "in"
+   },
+   "label": "개성 휴전회담 (1951)"
+  },
+  {
+   "id": "s08",
+   "lines": [
+    "유엔군의 주 방어선은, 캔자스선이라 불렸습니다.",
+    {
+     "t": "그 동쪽, 양구 북방의 험한 산악 지대를 미 제2사단이 지키고 있었죠.",
+     "say": "그 동쪽, 양구 북방의 험한 산악 지대를 미 제이 사단이 지키고 있었죠."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "east",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.68,
+        37.78
+       ],
+       [
+        126.95,
+        37.98
+       ],
+       [
+        127.25,
+        38.12
+       ],
+       [
+        127.55,
+        38.08
+       ],
+       [
+        127.8,
+        38.13
+       ],
+       [
+        127.97,
+        38.2
+       ],
+       [
+        128.06,
+        38.222
+       ],
+       [
+        128.25,
+        38.28
+       ],
+       [
+        128.45,
+        38.4
+       ],
+       [
+        128.58,
+        38.45
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "yanggu",
+      "color": "dark",
+      "at": 0.8
+     },
+     {
+      "k": "marker",
+      "p": "punchbowl",
+      "color": "dark",
+      "at": 1
+     },
+     {
+      "k": "badge",
+      "p": "us2",
+      "text": "미 2사단",
+      "color": "blue",
+      "at": 1.2,
+      "dy": 0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "캔자스선 (개략)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s09",
+   "lines": [
+    "문제는 진지 바로 북쪽의 한 능선이었습니다.",
+    "그 위에 숨은 북한군 관측병이, 아군 진지로 정확하게 포격을 불러들이고 있었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "east",
+    "to": "ridge_wide",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.97,
+        38.214
+       ],
+       [
+        128.0,
+        38.221
+       ],
+       [
+        128.03,
+        38.224
+       ],
+       [
+        128.06,
+        38.226
+       ],
+       [
+        128.1,
+        38.232
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "us2",
+      "text": "미 2사단",
+      "color": "blue",
+      "at": 0,
+      "dy": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        128.012,
+        38.249
+       ],
+       [
+        128.022,
+        38.252
+       ],
+       [
+        128.031,
+        38.254
+       ],
+       [
+        128.04,
+        38.255
+       ],
+       [
+        128.046,
+        38.253
+       ],
+       [
+        128.051,
+        38.252
+       ],
+       [
+        128.058,
+        38.25
+       ]
+      ],
+      "color": "red",
+      "at": 0.3
+     },
+     {
+      "k": "unit",
+      "p": "nkobs",
+      "text": "적 관측소",
+      "color": "red",
+      "at": 0.5,
+      "pulse": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.03,
+        38.25
+       ],
+       [
+        128.033,
+        38.236
+       ],
+       [
+        128.035,
+        38.222
+       ]
+      ],
+      "color": "red",
+      "at": 1,
+      "width": 1.0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "적 관측소 → 아군 진지 포격 유도",
+     "style": "red",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "lines": [
+    "미8군 사령관 밴 플리트 장군은, 이 능선을 빼앗으라고 지시합니다.",
+    "적의 눈을 없애고, 국군 부대에 실전 경험을 쌓게 하려는 뜻도 있었죠."
+   ],
+   "visual": {
+    "type": "person",
+    "q": "s10-photo",
+    "name": "제임스 밴 플리트",
+    "years": "1892 - 1992",
+    "role": "미8군 사령관"
+   }
+  },
+  {
+   "id": "s10b",
+   "lines": [
+    {
+     "t": "7월 말, 미 38연대는 동쪽 1179고지, 대우산에 미리 거점을 마련해 두었습니다.",
+     "say": "칠월 말, 미 삼십팔 연대는 동쪽 천백칠십구 고지, 대우산에 미리 거점을 마련해 두었습니다."
+    },
+    {
+     "t": "하지만 거센 장맛비에 길이 끊겨, 본격적인 공격은 8월 중순까지 미뤄졌죠.",
+     "say": "하지만 거센 장맛비에 길이 끊겨, 본격적인 공격은 팔월 중순까지 미뤄졌죠."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "ridge_wide",
+    "to": "ridge_wide",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.97,
+        38.214
+       ],
+       [
+        128.0,
+        38.221
+       ],
+       [
+        128.03,
+        38.224
+       ],
+       [
+        128.06,
+        38.226
+       ],
+       [
+        128.1,
+        38.232
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "h1179",
+      "text": "대우산 (1179고지)",
+      "color": "blue",
+      "at": 0.2,
+      "pulse": true
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        128.012,
+        38.249
+       ],
+       [
+        128.022,
+        38.252
+       ],
+       [
+        128.031,
+        38.254
+       ],
+       [
+        128.04,
+        38.255
+       ],
+       [
+        128.046,
+        38.253
+       ],
+       [
+        128.051,
+        38.252
+       ],
+       [
+        128.058,
+        38.25
+       ]
+      ],
+      "color": "red",
+      "at": 1
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1951. 7월 말 · 미 38연대 거점",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "water",
+     "at": 1,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "lines": [
+    "목표는 동서로 뻗은 능선 위의 세 봉우리.",
+    {
+     "t": "서쪽부터 983고지, 940고지, 그리고 773고지였습니다.",
+     "say": "서쪽부터 구백팔십삼 고지, 구백사십 고지, 그리고 칠백칠십삼 고지였습니다."
+    }
+   ],
+   "visual": {
+    "type": "profile",
+    "pts": [
+     [
+      0,
+      610
+     ],
+     [
+      0.07,
+      720
+     ],
+     [
+      0.14,
+      880
+     ],
+     [
+      0.2,
+      983
+     ],
+     [
+      0.27,
+      900
+     ],
+     [
+      0.34,
+      860
+     ],
+     [
+      0.42,
+      905
+     ],
+     [
+      0.5,
+      940
+     ],
+     [
+      0.57,
+      860
+     ],
+     [
+      0.64,
+      790
+     ],
+     [
+      0.7,
+      755
+     ],
+     [
+      0.76,
+      773
+     ],
+     [
+      0.84,
+      690
+     ],
+     [
+      0.92,
+      600
+     ],
+     [
+      1,
+      540
+     ]
+    ],
+    "grid": [
+     600,
+     800,
+     1000
+    ],
+    "yMin": 300,
+    "yMax": 1150,
+    "title": "피의 능선 동서 단면",
+    "note": "모식도 (높이 과장)",
+    "left": "서",
+    "right": "동 · 펀치볼 방면",
+    "marks": [
+     {
+      "x": 0.2,
+      "text": "983고지",
+      "style": "red",
+      "at": 0,
+      "lift": 80,
+      "size": 40
+     },
+     {
+      "x": 0.5,
+      "text": "940고지",
+      "style": "red",
+      "at": 0.6,
+      "lift": 80,
+      "size": 40
+     },
+     {
+      "x": 0.76,
+      "text": "773고지",
+      "style": "red",
+      "at": 1.2,
+      "lift": 80,
+      "size": 40
+     }
+    ]
+   }
+  },
+  {
+   "id": "s12",
+   "lines": [
+    {
+     "t": "가장 높은 983고지는, 남쪽의 아군 진지를 한눈에 내려다보는 자리였죠.",
+     "say": "가장 높은 구백팔십삼 고지는, 남쪽의 아군 진지를 한눈에 내려다보는 자리였죠."
+    },
+    "칼날처럼 좁은 능선의 양옆은, 깎아지른 비탈이었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "ridge_wide",
+    "to": "ridge",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.012,
+        38.249
+       ],
+       [
+        128.022,
+        38.252
+       ],
+       [
+        128.031,
+        38.254
+       ],
+       [
+        128.04,
+        38.255
+       ],
+       [
+        128.046,
+        38.253
+       ],
+       [
+        128.051,
+        38.252
+       ],
+       [
+        128.058,
+        38.25
+       ]
+      ],
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "h983",
+      "color": "red",
+      "at": 0.2
+     },
+     {
+      "k": "marker",
+      "p": "h940",
+      "color": "red",
+      "at": 0.4
+     },
+     {
+      "k": "marker",
+      "p": "h773",
+      "color": "red",
+      "at": 0.6
+     },
+     {
+      "k": "front",
+      "path": [
+       [
+        127.97,
+        38.214
+       ],
+       [
+        128.0,
+        38.221
+       ],
+       [
+        128.03,
+        38.224
+       ],
+       [
+        128.06,
+        38.226
+       ],
+       [
+        128.1,
+        38.232
+       ]
+      ],
+      "at": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "id": "s13",
+   "lines": [
+    "북한군은 이 능선에, 통나무를 엮고 흙과 돌을 두껍게 덮은 벙커를 촘촘히 지어 두었습니다.",
+    {
+     "t": "미군 기록으로, 큰 벙커 하나에는 60명까지 들어갔다고 하죠.",
+     "say": "미군 기록으로, 큰 벙커 하나에는 육십 명까지 들어갔다고 하죠."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "bunker_inside",
+    "kb": "out"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "미군 기록: 큰 벙커 1개에 최대 60명",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "lines": [
+    "벙커와 벙커 사이는 교통호로 이어졌고, 그 앞에는 지뢰밭이 깔려 있었습니다.",
+    "포격이 오면 숨었다가, 포격이 그치면 다시 총구를 내미는 요새였죠."
+   ],
+   "visual": {
+    "type": "document",
+    "org": "미 육군 기록 요약",
+    "head": "북한군 능선 방어진지",
+    "rows": [
+     "벙커  통나무 + 흙·돌 여러 겹",
+     "연결  교통호로 벙커 사이 이동",
+     "전방  지뢰밭",
+     "무기  자동화기·수류탄 다수"
+    ],
+    "note": "미 육군 공간사·전투 기록 요약 · 재구성 화면"
+   },
+   "sfx": [
+    {
+     "id": "typewriter",
+     "at": 0,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "lines": [
+    {
+     "t": "1951년 8월 18일, 첫 공격에 나선 것은 국군 제5사단 36연대였습니다.",
+     "say": "천구백오십일 년 팔월 십팔 일, 첫 공격에 나선 것은 국군 제오 사단 삼십육 연대였습니다."
+    },
+    {
+     "t": "미 제2사단에 배속된, 한국군 연대였죠.",
+     "say": "미 제이 사단에 배속된, 한국군 연대였죠."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "rok_fog_attack",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "1951. 8. 18 공격 개시 (한국 측 기록 8. 17)",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "chapter": {
+    "num": "PART 2",
+    "title": "뺏고, 빼앗기고"
+   },
+   "sfx": [
+    {
+     "id": "charge",
+     "at": 1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s16",
+   "lines": [
+    "공격에 앞서, 유엔군 포병이 능선을 두들겼습니다.",
+    "포병 여러 개 대대에 박격포와 전차까지, 쏟아부을 수 있는 화력은 모두 동원됐죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s16-photo",
+    "kb": "in"
+   },
+   "label": "포격하는 미군 포병 (1951)",
+   "sfx": [
+    {
+     "id": "artillery",
+     "at": 0,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s17",
+   "lines": [
+    "며칠 동안 이어진 포격에, 푸르던 능선은 허연 맨흙으로 변해 갔습니다.",
+    "그런데 포격이 멈추자, 땅속에서 적의 기관총이 되살아났죠."
+   ],
+   "visual": {
+    "type": "profile",
+    "pts": [
+     [
+      0,
+      610
+     ],
+     [
+      0.07,
+      720
+     ],
+     [
+      0.14,
+      880
+     ],
+     [
+      0.2,
+      983
+     ],
+     [
+      0.27,
+      900
+     ],
+     [
+      0.34,
+      860
+     ],
+     [
+      0.42,
+      905
+     ],
+     [
+      0.5,
+      940
+     ],
+     [
+      0.57,
+      860
+     ],
+     [
+      0.64,
+      790
+     ],
+     [
+      0.7,
+      755
+     ],
+     [
+      0.76,
+      773
+     ],
+     [
+      0.84,
+      690
+     ],
+     [
+      0.92,
+      600
+     ],
+     [
+      1,
+      540
+     ]
+    ],
+    "pts2": [
+     [
+      0,
+      610
+     ],
+     [
+      0.07,
+      716
+     ],
+     [
+      0.14,
+      868
+     ],
+     [
+      0.17,
+      940
+     ],
+     [
+      0.2,
+      975
+     ],
+     [
+      0.23,
+      950
+     ],
+     [
+      0.27,
+      890
+     ],
+     [
+      0.34,
+      846
+     ],
+     [
+      0.38,
+      872
+     ],
+     [
+      0.42,
+      896
+     ],
+     [
+      0.46,
+      912
+     ],
+     [
+      0.5,
+      932
+     ],
+     [
+      0.54,
+      900
+     ],
+     [
+      0.57,
+      852
+     ],
+     [
+      0.64,
+      782
+     ],
+     [
+      0.7,
+      748
+     ],
+     [
+      0.76,
+      766
+     ],
+     [
+      0.8,
+      738
+     ],
+     [
+      0.84,
+      684
+     ],
+     [
+      0.92,
+      600
+     ],
+     [
+      1,
+      540
+     ]
+    ],
+    "erodeAt": 0.1,
+    "erodeDur": 4.5,
+    "grid": [
+     600,
+     800,
+     1000
+    ],
+    "yMin": 300,
+    "yMax": 1150,
+    "note": "포격 전후 모식도 (높이 과장)",
+    "left": "서",
+    "right": "동",
+    "marks": [
+     {
+      "x": 0.5,
+      "text": "벙커는 그대로",
+      "style": "red",
+      "at": 1,
+      "lift": 110,
+      "size": 42
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0,
+     "volume": 0.45
+    },
+    {
+     "id": "mg",
+     "at": 1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s18",
+   "lines": [
+    "적은 비탈을 오르는 병사들 머리 위로, 수류탄을 던지고 굴려 내렸습니다.",
+    "한 걸음 오를 때마다, 위에서 수류탄이 쏟아져 내려온 것이죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "grenade_climb",
+    "kb": "out"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0.3,
+     "volume": 0.45
+    },
+    {
+     "id": "boom",
+     "at": 1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s19",
+   "lines": [
+    "닷새 동안 정면 공격을 되풀이한 끝에, 36연대는 마침내 능선에 올라섭니다.",
+    "하지만 적의 거센 역습에, 결국 능선을 다시 내주고 말았죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "ridge",
+    "to": "ridge",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.012,
+        38.249
+       ],
+       [
+        128.022,
+        38.252
+       ],
+       [
+        128.031,
+        38.254
+       ],
+       [
+        128.04,
+        38.255
+       ],
+       [
+        128.046,
+        38.253
+       ],
+       [
+        128.051,
+        38.252
+       ],
+       [
+        128.058,
+        38.25
+       ]
+      ],
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.018,
+        38.226
+       ],
+       [
+        128.02,
+        38.24
+       ],
+       [
+        128.022,
+        38.25
+       ]
+      ],
+      "color": "blue",
+      "at": 0.1,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.038,
+        38.228
+       ],
+       [
+        128.039,
+        38.243
+       ],
+       [
+        128.04,
+        38.253
+       ]
+      ],
+      "color": "blue",
+      "at": 0.3,
+      "width": 1.0
+     },
+     {
+      "k": "badge",
+      "p": "rok36",
+      "text": "국군 36연대",
+      "color": "blue",
+      "at": 0.2,
+      "dy": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.03,
+        38.268
+       ],
+       [
+        128.03,
+        38.258
+       ],
+       [
+        128.029,
+        38.246
+       ]
+      ],
+      "color": "red",
+      "at": 1,
+      "width": 1.2
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "한국 측 기록: 8. 25 점령 → 8. 26 피탈",
+     "style": "red",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s20",
+   "lines": [
+    "사상자가 쌓여 가면서, 지친 병사들의 사기도 무너지기 시작했습니다.",
+    {
+     "t": "8월 27일, 36연대 일부 부대가 끝내 버티지 못하고 무너져 내렸죠.",
+     "say": "팔월 이십칠 일, 삼십육 연대 일부 부대가 끝내 버티지 못하고 무너져 내렸죠."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "broken_line",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s21",
+   "lines": [
+    {
+     "t": "그 혼란은, 지원하러 올라온 미 9연대 일부에까지 번졌습니다.",
+     "say": "그 혼란은, 지원하러 올라온 미 구 연대 일부에까지 번졌습니다."
+    },
+    {
+     "t": "같은 날 미 9연대 2대대도 983고지를 쳤지만, 끝내 물러나야 했죠.",
+     "say": "같은 날 미 구 연대 이 대대도 구백팔십삼 고지를 쳤지만, 끝내 물러나야 했죠."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "ridge",
+    "to": "ridge",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.012,
+        38.249
+       ],
+       [
+        128.022,
+        38.252
+       ],
+       [
+        128.031,
+        38.254
+       ],
+       [
+        128.04,
+        38.255
+       ],
+       [
+        128.046,
+        38.253
+       ],
+       [
+        128.051,
+        38.252
+       ],
+       [
+        128.058,
+        38.25
+       ]
+      ],
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "h983",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "r9",
+      "text": "미 9연대 2대대",
+      "color": "blue",
+      "at": 0.6,
+      "dy": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.026,
+        38.226
+       ],
+       [
+        128.024,
+        38.238
+       ],
+       [
+        128.022,
+        38.246
+       ]
+      ],
+      "color": "blue",
+      "at": 1,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.022,
+        38.246
+       ],
+       [
+        128.024,
+        38.236
+       ],
+       [
+        128.027,
+        38.226
+       ]
+      ],
+      "color": "red",
+      "at": 1.5,
+      "width": 0.9
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1951. 8. 27 · 미 9연대 2대대 983고지 공격 실패",
+     "style": "red",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s22",
+   "lines": [
+    {
+     "t": "다음 날엔 3대대가 동쪽 773고지로 향했다가, 밤중 기습에 밀려납니다.",
+     "say": "다음 날엔 삼 대대가 동쪽 칠백칠십삼 고지로 향했다가, 밤중 기습에 밀려납니다."
+    },
+    "공격하는 쪽이, 오히려 하나씩 지쳐 가고 있었던 것이죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "ridge",
+    "to": "ridge",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.012,
+        38.249
+       ],
+       [
+        128.022,
+        38.252
+       ],
+       [
+        128.031,
+        38.254
+       ],
+       [
+        128.04,
+        38.255
+       ],
+       [
+        128.046,
+        38.253
+       ],
+       [
+        128.051,
+        38.252
+       ],
+       [
+        128.058,
+        38.25
+       ]
+      ],
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "h773",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.058,
+        38.228
+       ],
+       [
+        128.055,
+        38.24
+       ],
+       [
+        128.052,
+        38.248
+       ]
+      ],
+      "color": "blue",
+      "at": 0.3,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.052,
+        38.248
+       ],
+       [
+        128.055,
+        38.238
+       ],
+       [
+        128.058,
+        38.229
+       ]
+      ],
+      "color": "red",
+      "at": 0.8,
+      "width": 0.9
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1951. 8. 28 · 미 9연대 3대대 773고지",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s23",
+   "lines": [
+    {
+     "t": "8월 30일, 미 9연대는 가운데 940고지를 정면으로 들이칩니다.",
+     "say": "팔월 삼십 일, 미 구 연대는 가운데 구백사십 고지를 정면으로 들이칩니다."
+    },
+    "정상 수백 미터 앞까지 올랐지만, 벙커의 기관총에 다시 멈춰 섰죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s23-photo",
+    "kb": "in"
+   },
+   "label": "미 제2보병사단 병사들 (1951)",
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s24",
+   "lines": [
+    "A중대는 병력이 절반으로 줄었고, 중대장 던 중위도 전사합니다.",
+    "곁에 있던 포병 관측장교 모로 중위가, 그 자리에서 중대 지휘를 넘겨받았죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "fo_command",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "미군 전투 기록 · 940고지 (8. 30)",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s25",
+   "lines": [
+    "능선은 그렇게, 양쪽 병사들의 피로 물들어 갔습니다.",
+    "미군 신문 성조지는, 이곳을 블러디 릿지, 피의 능선이라 불렀죠.",
+    "다만 보안 때문에 장소를 밝히지 않아, 정작 싸우던 병사들은 자기들 이야기인 줄 몰랐다고 합니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "BLOODY RIDGE",
+    "style": "red",
+    "sub": "미군 신문 '성조지(Stars and Stripes)'가 붙인 이름",
+    "subAt": 1
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s26",
+   "lines": [
+    {
+     "t": "8월 28일, 새로 부임한 미 10군단장 바이어스 장군은 방식을 바꿉니다.",
+     "say": "팔월 이십팔 일, 새로 부임한 미 십 군단장 바이어스 장군은 방식을 바꿉니다."
+    },
+    "능선 하나만 두드리지 말고, 군단 전선 전체에서 한꺼번에 밀어붙이기로 한 것이죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "ridge_wide",
+    "to": "east",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.68,
+        37.78
+       ],
+       [
+        126.95,
+        37.98
+       ],
+       [
+        127.25,
+        38.12
+       ],
+       [
+        127.55,
+        38.08
+       ],
+       [
+        127.8,
+        38.13
+       ],
+       [
+        127.97,
+        38.2
+       ],
+       [
+        128.06,
+        38.222
+       ],
+       [
+        128.25,
+        38.28
+       ],
+       [
+        128.45,
+        38.4
+       ],
+       [
+        128.58,
+        38.45
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.88,
+        38.2
+       ],
+       [
+        127.9,
+        38.24
+       ],
+       [
+        127.93,
+        38.27
+       ]
+      ],
+      "color": "blue",
+      "at": 0.6,
+      "width": 0.9
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.03,
+        38.22
+       ],
+       [
+        128.035,
+        38.24
+       ],
+       [
+        128.038,
+        38.255
+       ]
+      ],
+      "color": "blue",
+      "at": 0.8,
+      "width": 0.9
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.12,
+        38.24
+       ],
+       [
+        128.12,
+        38.27
+       ],
+       [
+        128.12,
+        38.3
+       ]
+      ],
+      "color": "blue",
+      "at": 1,
+      "width": 0.9
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.2,
+        38.25
+       ],
+       [
+        128.19,
+        38.28
+       ],
+       [
+        128.18,
+        38.31
+       ]
+      ],
+      "color": "blue",
+      "at": 1.2,
+      "width": 0.9
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "8. 31부터 · 군단 전 전선 제한 공격",
+     "style": "blue",
+     "at": 1,
+     "pos": "top"
+    }
+   ],
+   "chapter": {
+    "num": "PART 3",
+    "title": "양 날개로 조여라"
+   }
+  },
+  {
+   "id": "s27",
+   "lines": [
+    {
+     "t": "국군 제5사단과 미 해병 1사단은 펀치볼 쪽으로, 국군 제7사단은 능선 서쪽으로 나아갑니다.",
+     "say": "국군 제오 사단과 미 해병 일 사단은 펀치볼 쪽으로, 국군 제칠 사단은 능선 서쪽으로 나아갑니다."
+    },
+    "적이 화력과 예비대를, 한곳에 모으지 못하게 만든 겁니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "east",
+    "to": "east",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.68,
+        37.78
+       ],
+       [
+        126.95,
+        37.98
+       ],
+       [
+        127.25,
+        38.12
+       ],
+       [
+        127.55,
+        38.08
+       ],
+       [
+        127.8,
+        38.13
+       ],
+       [
+        127.97,
+        38.2
+       ],
+       [
+        128.06,
+        38.222
+       ],
+       [
+        128.25,
+        38.28
+       ],
+       [
+        128.45,
+        38.4
+       ],
+       [
+        128.58,
+        38.45
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "punchbowl",
+      "color": "dark",
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "rok5",
+      "text": "국군 5사단",
+      "color": "blue",
+      "at": 0.1,
+      "dy": 0
+     },
+     {
+      "k": "badge",
+      "p": "usmc",
+      "text": "미 해병 1사단",
+      "color": "blue",
+      "at": 0.3,
+      "dy": 0
+     },
+     {
+      "k": "badge",
+      "p": "rok7",
+      "text": "국군 7사단",
+      "color": "blue",
+      "at": 0.6,
+      "dy": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        128.012,
+        38.249
+       ],
+       [
+        128.022,
+        38.252
+       ],
+       [
+        128.031,
+        38.254
+       ],
+       [
+        128.04,
+        38.255
+       ],
+       [
+        128.046,
+        38.253
+       ],
+       [
+        128.051,
+        38.252
+       ],
+       [
+        128.058,
+        38.25
+       ]
+      ],
+      "color": "red",
+      "at": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s28",
+   "lines": [
+    {
+     "t": "8월 31일, 해병대는 큰 저항 없이 펀치볼 북쪽 테두리로 올라섭니다.",
+     "say": "팔월 삼십일 일, 해병대는 큰 저항 없이 펀치볼 북쪽 테두리로 올라섭니다."
+    },
+    "능선을 지키던 북한군의 옆구리가, 서서히 드러나기 시작했죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s28-photo",
+    "kb": "in"
+   },
+   "label": "펀치볼 일대의 미 해병대 (1951)"
+  },
+  {
+   "id": "s29",
+   "lines": [
+    {
+     "t": "그사이 미 9연대 1대대는, 773고지의 벙커를 하나씩 부숴 나갔습니다.",
+     "say": "그사이 미 구 연대 일 대대는, 칠백칠십삼 고지의 벙커를 하나씩 부숴 나갔습니다."
+    },
+    "무전기가 끊긴 한 소대장은, 수류탄만으로 벙커를 빼앗기도 했죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "bunker_grenade",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 1,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s30",
+   "lines": [
+    {
+     "t": "9월 3일, 네이팜탄과 폭탄이 능선을 덮은 뒤 다시 공격이 이어집니다.",
+     "say": "구월 삼 일, 네이팜탄과 폭탄이 능선을 덮은 뒤 다시 공격이 이어집니다."
+    },
+    {
+     "t": "85명 남짓이던 C중대는, 이 싸움 끝에 30명 남짓만 남았죠.",
+     "say": "팔십오 명 남짓이던 씨 중대는, 이 싸움 끝에 삼십 명 남짓만 남았죠."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "napalm_strike",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "미군 기록: C중대 약 85명 → 약 30명",
+     "style": "red",
+     "at": 1,
+     "pos": "lower"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "whoosh",
+     "at": 0,
+     "volume": 0.4
+    },
+    {
+     "id": "boom",
+     "at": 0.3,
+     "volume": 0.55
+    }
+   ]
+  },
+  {
+   "id": "s31",
+   "lines": [
+    {
+     "t": "그리고 미 23연대와 38연대가, 능선 양옆으로 크게 돌아 들어갑니다.",
+     "say": "그리고 미 이십삼 연대와 삼십팔 연대가, 능선 양옆으로 크게 돌아 들어갑니다."
+    },
+    {
+     "t": "정면의 9연대와 함께, 세 방향에서 조여 드는 양익 포위였죠.",
+     "say": "정면의 구 연대와 함께, 세 방향에서 조여 드는 양익 포위였죠."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "ridge",
+    "to": "ridge_wide",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.012,
+        38.249
+       ],
+       [
+        128.022,
+        38.252
+       ],
+       [
+        128.031,
+        38.254
+       ],
+       [
+        128.04,
+        38.255
+       ],
+       [
+        128.046,
+        38.253
+       ],
+       [
+        128.051,
+        38.252
+       ],
+       [
+        128.058,
+        38.25
+       ]
+      ],
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.99,
+        38.22
+       ],
+       [
+        127.99,
+        38.25
+       ],
+       [
+        128.0,
+        38.268
+       ],
+       [
+        128.02,
+        38.268
+       ]
+      ],
+      "color": "blue",
+      "at": 0.2,
+      "width": 1.1
+     },
+     {
+      "k": "badge",
+      "p": "r23",
+      "text": "미 23연대",
+      "color": "blue",
+      "at": 0.4,
+      "dy": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.08,
+        38.225
+       ],
+       [
+        128.085,
+        38.25
+       ],
+       [
+        128.07,
+        38.266
+       ],
+       [
+        128.05,
+        38.264
+       ]
+      ],
+      "color": "blue",
+      "at": 0.6,
+      "width": 1.1
+     },
+     {
+      "k": "badge",
+      "p": "r38",
+      "text": "미 38연대",
+      "color": "blue",
+      "at": 0.8,
+      "dy": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.04,
+        38.226
+       ],
+       [
+        128.04,
+        38.24
+       ],
+       [
+        128.04,
+        38.25
+       ]
+      ],
+      "color": "blue",
+      "at": 1,
+      "width": 1.0
+     },
+     {
+      "k": "badge",
+      "p": "r9",
+      "text": "미 9연대",
+      "color": "blue",
+      "at": 1.1,
+      "dy": 0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "양익 포위 · 미 23연대·38연대",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "drum",
+     "at": 0,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s32",
+   "lines": [
+    {
+     "t": "9월 4일에서 5일, 미 제2사단은 마침내 능선 위로 올라섭니다.",
+     "say": "구월 사 일에서 오 일, 미 제이 사단은 마침내 능선 위로 올라섭니다."
+    },
+    "그런데 정상은, 이상할 만큼 조용했습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "ridge_wide",
+    "to": "ridge",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.012,
+        38.249
+       ],
+       [
+        128.022,
+        38.252
+       ],
+       [
+        128.031,
+        38.254
+       ],
+       [
+        128.04,
+        38.255
+       ],
+       [
+        128.046,
+        38.253
+       ],
+       [
+        128.051,
+        38.252
+       ],
+       [
+        128.058,
+        38.25
+       ]
+      ],
+      "color": "blue",
+      "at": 0.2
+     },
+     {
+      "k": "unit",
+      "p": "h983",
+      "text": "983고지",
+      "color": "blue",
+      "at": 0.4
+     },
+     {
+      "k": "unit",
+      "p": "h940",
+      "text": "940고지",
+      "color": "blue",
+      "at": 0.6
+     },
+     {
+      "k": "unit",
+      "p": "h773",
+      "text": "773고지",
+      "color": "blue",
+      "at": 0.8,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1951. 9. 4~5 · 능선 점령",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 1,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s33",
+   "lines": [
+    "북한군은 이미, 밤사이 북쪽으로 물러난 뒤였죠.",
+    {
+     "t": "능선 위에는 버려진 보급품과, 500구가 넘는 적의 시신만 남아 있었습니다.",
+     "say": "능선 위에는 버려진 보급품과, 오백 구가 넘는 적의 시신만 남아 있었습니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "empty_crest",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s34",
+   "lines": [
+    {
+     "t": "미 육군 공간사 기준, 한국군과 유엔군의 사상자는 2,800여 명.",
+     "say": "미 육군 공간사 기준, 한국군과 유엔군의 사상자는 이천팔백여 명."
+    },
+    {
+     "t": "한국 측 기록으로, 국군 36연대 한 곳에서만 1,000명이 넘게 쓰러졌죠.",
+     "say": "한국 측 기록으로, 국군 삼십육 연대 한 곳에서만 천 명이 넘게 쓰러졌죠."
+    },
+    {
+     "t": "미 제2사단은, 북한군의 피해를 1만 5천 명이 넘는다고 추정했습니다.",
+     "say": "미 제이 사단은, 북한군의 피해를 만 오천 명이 넘는다고 추정했습니다."
+    }
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "미 육군 공간사·한국 측 기록 (북한군은 미 2사단 추정)",
+    "items": [
+     {
+      "label": "한·유엔군 사상자",
+      "value": 2800,
+      "display": "2,800여 명",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "label": "국군 36연대",
+      "value": 1000,
+      "display": "1,000명 이상",
+      "color": "blue",
+      "at": 1
+     },
+     {
+      "label": "북한군 (추정)",
+      "value": 15000,
+      "display": "15,000명 이상",
+      "color": "red",
+      "at": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": "s35",
+   "lines": [
+    "왜 이 능선 하나에, 이렇게 많은 피가 필요했을까요?",
+    "네 가지로 짚어 보겠습니다."
+   ],
+   "visual": {
+    "type": "factors",
+    "items": [
+     "땅속 요새",
+     "포격의 한계",
+     "정면 공격의 대가",
+     "양익 포위"
+    ],
+    "head": "압도적 화력 vs 땅속 요새",
+    "at": 1
+   },
+   "chapter": {
+    "num": "PART 4",
+    "title": "승패를 가른 4가지"
+   }
+  },
+  {
+   "id": "s36",
+   "lines": [
+    "첫째, 땅속 요새입니다."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s36-photo",
+    "num": "요인 1",
+    "title": "땅속 요새"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s37",
+   "lines": [
+    "벙커는 굵은 통나무 위에, 흙과 돌을 여러 겹 쌓아 올린 것이었습니다.",
+    "무거운 포탄이 정확히 내리꽂히지 않으면, 좀처럼 무너지지 않았죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "bunker_inside",
+    "kb": "left"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s38",
+   "lines": [
+    "둘째, 포격의 한계입니다."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s38-photo",
+    "num": "요인 2",
+    "title": "포격의 한계"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s39",
+   "lines": [
+    "유엔군은 하늘과 포병을 모두 쥐고 있었습니다.",
+    {
+     "t": "벙커를 부수는 데 가장 효과적이던 155밀리 롱 톰 포는, 그 수가 많지 않았습니다.",
+     "say": "벙커를 부수는 데 가장 효과적이던 백오십오 밀리 롱 톰 포는, 그 수가 많지 않았습니다."
+    },
+    "벙커에 숨은 적을 끌어내는 일은, 결국 보병의 몫이었죠."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "유엔군",
+     "big": "포병·항공",
+     "icon": "none",
+     "color": "blue"
+    },
+    "right": {
+     "title": "북한군",
+     "big": "땅속 대기",
+     "icon": "none",
+     "color": "red",
+     "at": 1
+    }
+   }
+  },
+  {
+   "id": "s40",
+   "lines": [
+    "셋째, 정면 공격의 대가입니다."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s40-photo",
+    "num": "요인 3",
+    "title": "정면 공격의 대가"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s41",
+   "lines": [
+    "좁은 능선 위에서는, 병력을 넓게 펼칠 자리가 없었습니다.",
+    "한 줄로 비탈을 오르는 병사들은, 고스란히 벙커의 총구 앞에 놓였죠.",
+    "갓 도착한 보충병이 대부분인 소대가, 그대로 공격에 나서기도 했습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s41-photo",
+    "kb": "in"
+   },
+   "label": "고지를 오르는 보병 (1951)"
+  },
+  {
+   "id": "s42",
+   "lines": [
+    "넷째, 양익 포위입니다."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s42-photo",
+    "num": "요인 4",
+    "title": "양익 포위"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s43",
+   "lines": [
+    "결국 능선을 연 것은 정면이 아니라, 양옆이었습니다.",
+    "군단 전체의 압박과 양익 포위 앞에서, 적은 스스로 능선을 내주었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "ridge_wide",
+    "to": "ridge_wide",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.012,
+        38.249
+       ],
+       [
+        128.022,
+        38.252
+       ],
+       [
+        128.031,
+        38.254
+       ],
+       [
+        128.04,
+        38.255
+       ],
+       [
+        128.046,
+        38.253
+       ],
+       [
+        128.051,
+        38.252
+       ],
+       [
+        128.058,
+        38.25
+       ]
+      ],
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.99,
+        38.22
+       ],
+       [
+        127.99,
+        38.25
+       ],
+       [
+        128.0,
+        38.268
+       ],
+       [
+        128.02,
+        38.268
+       ]
+      ],
+      "color": "blue",
+      "at": 0.3,
+      "width": 1.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.08,
+        38.225
+       ],
+       [
+        128.085,
+        38.25
+       ],
+       [
+        128.07,
+        38.266
+       ],
+       [
+        128.05,
+        38.264
+       ]
+      ],
+      "color": "blue",
+      "at": 0.5,
+      "width": 1.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.03,
+        38.258
+       ],
+       [
+        128.03,
+        38.272
+       ],
+       [
+        128.025,
+        38.29
+       ]
+      ],
+      "color": "red",
+      "at": 1,
+      "width": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "s44",
+   "lines": [
+    "그런데 북한군이 물러난 곳은, 불과 몇 킬로미터 북쪽의 또 다른 능선이었습니다.",
+    {
+     "t": "그리고 9월 13일, 미 제2사단은 그 능선을 향해 다시 공격에 나서죠.",
+     "say": "그리고 구월 십삼 일, 미 제이 사단은 그 능선을 향해 다시 공격에 나서죠."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "ridge_wide",
+    "to": "north",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.012,
+        38.249
+       ],
+       [
+        128.022,
+        38.252
+       ],
+       [
+        128.031,
+        38.254
+       ],
+       [
+        128.04,
+        38.255
+       ],
+       [
+        128.046,
+        38.253
+       ],
+       [
+        128.051,
+        38.252
+       ],
+       [
+        128.058,
+        38.25
+       ]
+      ],
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.03,
+        38.258
+       ],
+       [
+        128.026,
+        38.275
+       ],
+       [
+        128.02,
+        38.292
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 1.0
+     },
+     {
+      "k": "unit",
+      "p": "heartbreak",
+      "text": "단장의 능선",
+      "color": "red",
+      "at": 0.6,
+      "pulse": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.04,
+        38.262
+       ],
+       [
+        128.035,
+        38.278
+       ],
+       [
+        128.025,
+        38.293
+       ]
+      ],
+      "color": "blue",
+      "at": 1.2,
+      "width": 1.0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1951. 9. 13 · 다음 능선으로",
+     "style": "red",
+     "at": 1,
+     "pos": "top"
+    }
+   ],
+   "chapter": {
+    "num": "EPILOGUE",
+    "title": "다음 능선으로"
+   }
+  },
+  {
+   "id": "s45",
+   "lines": [
+    "그곳은 훗날, 단장의 능선이라 불리게 됩니다.",
+    "피의 능선은, 더 길고 처절한 고지전의 시작에 불과했던 것이죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "단장의 능선",
+    "style": "red",
+    "sub": "Heartbreak Ridge · 1951. 9. 13 ~ 10. 15",
+    "subAt": 1
+   }
+  },
+  {
+   "id": "s46",
+   "lines": [
+    "오늘 양구군 동면 월운리에는, 피의 능선 전투를 기리는 전적비가 서 있습니다.",
+    "그 능선 일대에서는, 돌아오지 못한 이들의 유해를 찾는 발굴이 이어져 왔죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s46-photo",
+    "kb": "in",
+    "bw": false
+   },
+   "label": "피의 능선 전투 전적비 · 양구"
+  },
+  {
+   "id": "s47",
+   "lines": [
+    "협상 테이블 위의 선 하나가, 이 능선 위에서는 수천 명의 목숨이었습니다.",
+    "그렇게 지켜 낸 땅이, 지금 휴전선 남쪽의 양구입니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "협상 테이블 위의 선 하나",
+    "accent": "수천 명의 목숨",
+    "accentAt": 1
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s48",
+   "lines": [
+    "양구 북방, 이름 없던 능선.",
+    "그 이름은 지금도, 피의 능선으로 남아 있습니다."
+   ],
+   "visual": {
+    "type": "quotes",
+    "title": "피의 능선이 남긴 것",
+    "items": [
+     {
+      "text": "협상 뒤편의 3주",
+      "at": 0
+     },
+     {
+      "text": "피로 지킨 능선",
+      "at": 1
+     }
+    ]
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s49",
+   "lines": [
+    "이 이야기가 의미 있으셨다면, 구독과 좋아요로 함께해 주십시오.",
+    "잊혀 가는 전쟁의 기록을... 다음 영상에서도 이어가겠습니다."
+   ],
+   "visual": {
+    "type": "endcard",
+    "title": "1951년 8월, 양구.\n피로 물든 능선의 3주.",
+    "q": "s49-photo"
+   },
+   "tail": 3.0
+  }
+ ]
+}

@@ -1,0 +1,512 @@
+{
+ "title": "Battle of Bloody Ridge (1951): The Meatgrinder of the East",
+ "subtitle": "August 18 – September 5, 1951",
+ "voice": "pNInz6obpgDQGcFmaJgB",
+ "tempo": 1.02,
+ "places": {
+  "seoul": "Seoul",
+  "kaesong": "Kaesong",
+  "yanggu": "Yanggu",
+  "inje": "Inje",
+  "punchbowl": "Punchbowl",
+  "h983": "Hill 983",
+  "h940": "Hill 940",
+  "h773": "Hill 773",
+  "h1179": "Taeu-san (Hill 1179)",
+  "heartbreak": "Heartbreak Ridge",
+  "us2": "US 2nd Div",
+  "nkobs": "Enemy OP",
+  "rok36": "ROK 36th Regt",
+  "r9": "US 9th Inf",
+  "r23": "US 23rd Inf",
+  "r38": "US 38th Inf",
+  "rok5": "ROK 5th Div",
+  "usmc": "1st Marine Div",
+  "rok7": "ROK 7th Div"
+ },
+ "text": {
+  "개성 휴전회담": "Kaesong Truce Talks",
+  "미 2사단": "US 2nd Div",
+  "적 관측소": "Enemy OP",
+  "대우산 (1179고지)": "Taeu-san (Hill 1179)",
+  "국군 36연대": "ROK 36th Regt",
+  "미 9연대 2대대": "2/9th Infantry",
+  "국군 5사단": "ROK 5th Div",
+  "미 해병 1사단": "1st Marine Div",
+  "국군 7사단": "ROK 7th Div",
+  "미 23연대": "US 23rd Inf",
+  "미 38연대": "US 38th Inf",
+  "미 9연대": "US 9th Inf",
+  "983고지": "Hill 983",
+  "940고지": "Hill 940",
+  "773고지": "Hill 773",
+  "단장의 능선": "Heartbreak Ridge"
+ },
+ "scenes": {
+  "s01": {
+   "lines": [
+    "August 1951. A nameless ridge north of Yanggu, in the mountains of eastern Korea.",
+    "After days and nights of shelling, not a single tree was left standing on its crest."
+   ],
+   "label": "Dramatization",
+   "callouts": [
+    "AUG 1951 · NORTH OF YANGGU, KOREA"
+   ]
+  },
+  "s02": {
+   "lines": [
+    "Yet the moment the guns fell silent, enemy machine guns opened up again from the bare earth.",
+    "Bunkers buried deep in the ridge had ridden out the entire bombardment."
+   ],
+   "label": "Dramatization"
+  },
+  "s03": {
+   "lines": [
+    "In the end, men had to crawl up the slopes with rifles and grenades.",
+    "For every bunker they destroyed, someone fell on that slope."
+   ],
+   "label": "Dramatization"
+  },
+  "s04": {
+   "lines": [
+    "For this one ridge, South Korean and UN casualties would climb past 2,800.",
+    "An American military newspaper gave it a chilling name."
+   ],
+   "text": "AUG 18 – SEP 5, 1951\nOver 2,800 casualties"
+  },
+  "s05": {
+   "lines": [
+    "Bloody Ridge.",
+    "This is the story of a three-week battle fought in the shadow of the truce talks."
+   ],
+   "title": "Battle of Bloody Ridge",
+   "sub": "The Meatgrinder of the East · 1951"
+  },
+  "s06": {
+   "lines": [
+    "By the summer of 1951, the war had ground to a halt near the 38th Parallel.",
+    "On July 10th, truce talks finally opened at Kaesong."
+   ],
+   "callouts": [
+    "JULY 10, 1951 · TRUCE TALKS OPEN AT KAESONG"
+   ],
+   "chapter": [
+    "PART 1",
+    "WAR BEHIND THE TABLE"
+   ]
+  },
+  "s07": {
+   "lines": [
+    "But while the negotiators haggled, the guns at the front never stopped.",
+    "Every yard of ground held was leverage at the table."
+   ],
+   "label": "Kaesong truce talks (1951)"
+  },
+  "s08": {
+   "lines": [
+    "The UN's main line of resistance was called the Kansas Line.",
+    "In the rugged mountains north of Yanggu, the US 2nd Infantry Division held the line."
+   ],
+   "callouts": [
+    "KANSAS LINE (APPROX.)"
+   ]
+  },
+  "s09": {
+   "lines": [
+    "The problem was a ridge just to the north.",
+    "North Korean observers hidden on it were calling down accurate artillery fire on UN positions."
+   ],
+   "callouts": [
+    "ENEMY OBSERVATION POSTS → ARTILLERY ON UN LINES"
+   ]
+  },
+  "s10": {
+   "lines": [
+    "Eighth Army commander General James Van Fleet ordered the ridge taken.",
+    "He wanted the enemy's eyes put out, and South Korean units seasoned in battle."
+   ],
+   "name": "James A. Van Fleet",
+   "role": "Commander, US Eighth Army"
+  },
+  "s10b": {
+   "lines": [
+    "In late July, the US 38th Infantry had set up a patrol base on Hill 1179, Taeu-san, to the east.",
+    "But heavy monsoon rains washed out the roads, and the main attack was put off until mid-August."
+   ],
+   "callouts": [
+    "LATE JULY 1951 · 38TH INF PATROL BASE"
+   ]
+  },
+  "s11": {
+   "lines": [
+    "The objective: three peaks on a ridge running east to west.",
+    "From west to east, Hills 983, 940, and 773."
+   ],
+   "title": "Bloody Ridge · West–East Profile",
+   "note": "Schematic (vertical exaggeration)",
+   "left": "W",
+   "right": "E · Toward the Punchbowl",
+   "marks": [
+    "Hill 983",
+    "Hill 940",
+    "Hill 773"
+   ]
+  },
+  "s12": {
+   "lines": [
+    "Hill 983, the highest, looked straight down on the UN lines to the south.",
+    "The ridge was knife-edge narrow, with sheer slopes falling away on both sides."
+   ]
+  },
+  "s13": {
+   "lines": [
+    "The North Koreans had studded the ridge with log bunkers buried under earth and rock.",
+    "US records say the largest could hold as many as sixty men."
+   ],
+   "label": "Dramatization",
+   "callouts": [
+    "US records: largest bunkers held up to 60 men"
+   ]
+  },
+  "s14": {
+   "lines": [
+    "Trenches linked bunker to bunker, and minefields covered the approaches.",
+    "When the shells came, they took cover; when the shelling lifted, the guns came back out."
+   ],
+   "org": "US Army records (summary)",
+   "head": "NKPA Ridge Defenses",
+   "rows": [
+    "Bunkers  Heavy logs + earth & rock",
+    "Links  Trenches between bunkers",
+    "Front  Minefields",
+    "Arms  Automatic weapons, grenades"
+   ],
+   "note": "Summary of US Army histories · Reconstructed"
+  },
+  "s15": {
+   "lines": [
+    "On August 18th, 1951, the ROK 36th Regiment of the 5th Division led the first assault.",
+    "It was a South Korean regiment attached to the US 2nd Division."
+   ],
+   "label": "Dramatization",
+   "callouts": [
+    "AUG 18, 1951 (ROK RECORDS: AUG 17)"
+   ],
+   "chapter": [
+    "PART 2",
+    "TAKEN AND LOST"
+   ]
+  },
+  "s16": {
+   "lines": [
+    "Before the assault, UN artillery pounded the ridge.",
+    "Several artillery battalions, heavy mortars, and tanks: every gun in range was brought to bear."
+   ],
+   "label": "US artillery firing in Korea (1951)"
+  },
+  "s17": {
+   "lines": [
+    "Days of shelling turned the green ridge into bare, pale earth.",
+    "But when the barrage lifted, the enemy guns came back to life underground."
+   ],
+   "note": "Before / after shelling · Schematic",
+   "left": "W",
+   "right": "E",
+   "marks": [
+    "Bunkers survive"
+   ]
+  },
+  "s18": {
+   "lines": [
+    "As the attackers climbed, the defenders threw and rolled grenades down on their heads.",
+    "With every step upward, more grenades came tumbling down."
+   ],
+   "label": "Dramatization"
+  },
+  "s19": {
+   "lines": [
+    "After five days of repeated frontal assaults, the 36th Regiment finally stood on the ridge.",
+    "But a fierce counterattack threw them back off it."
+   ],
+   "callouts": [
+    "ROK records: taken Aug 25 → lost Aug 26"
+   ]
+  },
+  "s20": {
+   "lines": [
+    "As casualties mounted, the exhausted men's morale began to crack.",
+    "On August 27th, some units of the 36th Regiment broke and fell back."
+   ],
+   "label": "Dramatization"
+  },
+  "s21": {
+   "lines": [
+    "The panic spread to elements of the US 9th Infantry, sent up in support.",
+    "That same day, the 9th's 2nd Battalion struck at Hill 983, and it too was forced back."
+   ],
+   "callouts": [
+    "AUG 27, 1951 · 2/9TH INFANTRY FAILS AT HILL 983"
+   ]
+  },
+  "s22": {
+   "lines": [
+    "The next day, the 3rd Battalion went for Hill 773, and was driven off by a night attack.",
+    "It was the attackers who were being worn down, one battalion at a time."
+   ],
+   "callouts": [
+    "AUG 28, 1951 · 3/9TH INFANTRY · HILL 773"
+   ]
+  },
+  "s23": {
+   "lines": [
+    "On August 30th, the 9th Infantry hit Hill 940, in the center, head-on.",
+    "They got within a few hundred yards of the crest before bunker machine guns stopped them again."
+   ],
+   "label": "US 2nd Infantry Division troops (1951)"
+  },
+  "s24": {
+   "lines": [
+    "Company A was cut to half strength, and its commander, Lieutenant Dunn, was killed.",
+    "Lieutenant Morrow, the artillery observer beside him, took command on the spot."
+   ],
+   "label": "Dramatization",
+   "callouts": [
+    "US records · Hill 940, Aug 30"
+   ]
+  },
+  "s25": {
+   "lines": [
+    "And so the ridge was soaked in the blood of both sides.",
+    "The military newspaper Stars and Stripes called it Bloody Ridge.",
+    "For security it never named the place, so the men fighting there didn't know it was them."
+   ],
+   "big": "BLOODY RIDGE",
+   "sub": "Named by Stars and Stripes"
+  },
+  "s26": {
+   "lines": [
+    "On August 28th, the new X Corps commander, General Clovis Byers, changed the plan.",
+    "Instead of hammering one ridge, the whole corps front would push forward at once."
+   ],
+   "callouts": [
+    "FROM AUG 31 · CORPS-WIDE LIMITED OFFENSIVE"
+   ],
+   "chapter": [
+    "PART 3",
+    "CLOSE IN FROM BOTH SIDES"
+   ]
+  },
+  "s27": {
+   "lines": [
+    "The ROK 5th and 1st Marine Divisions drove on the Punchbowl; the ROK 7th, west of the ridge.",
+    "The enemy could no longer mass his guns and reserves in one place."
+   ]
+  },
+  "s28": {
+   "lines": [
+    "On August 31st, the Marines met little resistance and reached the Punchbowl's northern rim.",
+    "The flank of the North Koreans on the ridge was slowly being laid bare."
+   ],
+   "label": "US Marines near the Punchbowl (1951)"
+  },
+  "s29": {
+   "lines": [
+    "Meanwhile, the 1st Battalion, 9th Infantry, broke the bunkers on Hill 773 one by one.",
+    "One platoon leader, his radio dead, took a bunker with nothing but grenades."
+   ],
+   "label": "Dramatization"
+  },
+  "s30": {
+   "lines": [
+    "On September 3rd, after napalm and bombs swept the ridge, the attack went in again.",
+    "Company C, about eighty-five men strong, came out of it with about thirty."
+   ],
+   "label": "Dramatization",
+   "callouts": [
+    "US records: Co. C ~85 → ~30 men"
+   ]
+  },
+  "s31": {
+   "lines": [
+    "Then the US 23rd and 38th Infantry swung wide around both ends of the ridge.",
+    "With the 9th still pressing the front, it was a double envelopment closing from three sides."
+   ],
+   "callouts": [
+    "DOUBLE ENVELOPMENT · 23RD & 38TH INFANTRY"
+   ]
+  },
+  "s32": {
+   "lines": [
+    "On September 4th and 5th, the 2nd Division finally reached the top of the ridge.",
+    "But the crest was strangely quiet."
+   ],
+   "callouts": [
+    "SEP 4–5, 1951 · RIDGE TAKEN"
+   ]
+  },
+  "s33": {
+   "lines": [
+    "The North Koreans had already slipped away to the north.",
+    "Left behind on the ridge were abandoned supplies and more than five hundred enemy dead."
+   ],
+   "label": "Dramatization"
+  },
+  "s34": {
+   "lines": [
+    "Per the US Army official history, South Korean and UN casualties topped 2,800.",
+    "By Korean records, the ROK 36th Regiment alone lost more than a thousand men.",
+    "The 2nd Division estimated enemy losses at over fifteen thousand."
+   ],
+   "note": "US Army history · ROK records (enemy: 2nd Div estimate)",
+   "bars": [
+    [
+     "ROK & UN casualties",
+     "2,800+"
+    ],
+    [
+     "ROK 36th Regt",
+     "1,000+"
+    ],
+    [
+     "Enemy (est.)",
+     "15,000+"
+    ]
+   ]
+  },
+  "s35": {
+   "lines": [
+    "Why did one ridge cost so much blood?",
+    "Let's break it down into four factors."
+   ],
+   "chapter": [
+    "PART 4",
+    "4 DECIDING FACTORS"
+   ],
+   "items": [
+    "Underground Fortress",
+    "Limits of Firepower",
+    "Price of Frontal Assault",
+    "Double Envelopment"
+   ],
+   "head": "Overwhelming Firepower vs Underground Fortress"
+  },
+  "s36": {
+   "lines": [
+    "First, the underground fortress."
+   ],
+   "num": "Factor 1",
+   "title": "Underground Fortress"
+  },
+  "s37": {
+   "lines": [
+    "The bunkers were heavy timbers piled with layer upon layer of earth and stone.",
+    "Unless a heavy shell landed squarely on top, they would not collapse."
+   ],
+   "label": "Dramatization"
+  },
+  "s38": {
+   "lines": [
+    "Second, the limits of firepower."
+   ],
+   "num": "Factor 2",
+   "title": "Limits of Firepower"
+  },
+  "s39": {
+   "lines": [
+    "The UN owned the sky and the artillery.",
+    "The 155-millimeter Long Tom was the best bunker-buster, but there were few of them.",
+    "Digging the enemy out of his bunkers was, in the end, a job for the infantry."
+   ],
+   "left": [
+    "UN FORCES",
+    "GUNS & AIR"
+   ],
+   "right": [
+    "NORTH KOREANS",
+    "DUG IN"
+   ]
+  },
+  "s40": {
+   "lines": [
+    "Third, the price of the frontal assault."
+   ],
+   "num": "Factor 3",
+   "title": "Price of Frontal Assault"
+  },
+  "s41": {
+   "lines": [
+    "On a ridge that narrow, there was no room to spread out.",
+    "Men climbing in single file walked straight into the bunkers' fire.",
+    "Some platoons went into the attack made up mostly of replacements who had only just arrived."
+   ],
+   "label": "Infantry on a Korean ridge (1951)"
+  },
+  "s42": {
+   "lines": [
+    "Fourth, the double envelopment."
+   ],
+   "num": "Factor 4",
+   "title": "Double Envelopment"
+  },
+  "s43": {
+   "lines": [
+    "In the end, the ridge was opened not from the front, but from the flanks.",
+    "Squeezed along the whole front and from both flanks, the enemy gave it up himself."
+   ]
+  },
+  "s44": {
+   "lines": [
+    "But the North Koreans had fallen back only a few miles, to another ridge to the north.",
+    "And on September 13th, the 2nd Division went on the attack again, toward that ridge."
+   ],
+   "callouts": [
+    "SEP 13, 1951 · ON TO THE NEXT RIDGE"
+   ],
+   "chapter": [
+    "EPILOGUE",
+    "THE NEXT RIDGE"
+   ]
+  },
+  "s45": {
+   "lines": [
+    "That place would come to be called Heartbreak Ridge.",
+    "Bloody Ridge was only the beginning of a longer, harsher war for the hills."
+   ],
+   "big": "HEARTBREAK RIDGE",
+   "sub": "Sep 13 – Oct 15, 1951"
+  },
+  "s46": {
+   "lines": [
+    "Today, a memorial to the Battle of Bloody Ridge stands in Worun-ri, Yanggu County.",
+    "On those slopes, the search for those who never came home has gone on for years."
+   ],
+   "label": "Bloody Ridge battle memorial · Yanggu"
+  },
+  "s47": {
+   "lines": [
+    "A single line on the negotiating table cost thousands of lives on this ridge.",
+    "The ground they held is today's Yanggu, south of the armistice line."
+   ],
+   "text": "One line on the table",
+   "accent": "Thousands of lives"
+  },
+  "s48": {
+   "lines": [
+    "A nameless ridge north of Yanggu.",
+    "To this day, its name remains Bloody Ridge."
+   ],
+   "quotes": [
+    "Three weeks behind the talks",
+    "A ridge held with blood"
+   ],
+   "quoteTitle": "What Bloody Ridge Left Behind"
+  },
+  "s49": {
+   "lines": [
+    "If this story meant something to you, please subscribe and like the video.",
+    "We'll continue to bring the forgotten records of war to light."
+   ],
+   "title": "August 1951. Yanggu.\nThree Weeks on Bloody Ridge."
+  }
+ }
+}

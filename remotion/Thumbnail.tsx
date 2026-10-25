@@ -269,6 +269,8 @@ const REF_EN: Record<string, RefDef> = {
   betty: { ep: "07", mid: [[["34 MEN", "r"], [" VS", "w"]], [["A BATTALION", "s"]]], key: "OUTPOST BETTY", keyStyle: "stone" },
   yeongcheon: { ep: "08", mid: [[["THE LAST LINE:", "r"]], [["SAVING THE", "w"]], [["PUSAN PERIMETER", "s"]]], key: "BATTLE OF YEONGCHEON", keyStyle: "stone",
     split: { imgX: "22%", midSize: 78, keys: [{ text: "BATTLE OF", style: "stone", size: 100 }, { text: "YEONGCHEON", style: "yellow", size: 160 }] } },
+  bloodyridge: { ep: "09", mid: [[["THE MEATGRINDER:", "r"]], [["3 WEEKS OF HELL", "s"]]], key: "BLOODY RIDGE", keyStyle: "stone",
+    split: { imgX: "22%", midSize: 78, keys: [{ text: "BATTLE OF", style: "stone", size: 100 }, { text: "BLOODY RIDGE", style: "yellow", size: 136 }] } },
 };
 const REF: Record<string, RefDef> = {
   yongmunsan: { ep: "01", mid: [[["중공군 ", "w"], ["3개 사단", "r"], [" 격멸,", "w"]], [["1개 연대의 기적", "s"]]], key: "용문산 전투", keyStyle: "yellow" },
@@ -280,6 +282,8 @@ const REF: Record<string, RefDef> = {
   betty: { ep: "07", mid: [[["소대원 ", "w"], ["34명", "r"], [" vs ", "w"], ["중공군 대대", "r"]], [["휴전 12일 전의 혈전", "s"]]], key: "베티고지 전투", keyStyle: "yellow" },
   yeongcheon: { ep: "08", mid: [[["영천이 ", "w"], ["뚫리면", "r"], [",", "w"]], [["부산이 ", "s"], ["끝장난다", "r"]]], key: "영천 대역전", keyStyle: "yellow",
     split: { imgX: "22%", midSize: 72, keys: [{ text: "영천", style: "stone", size: 128 }, { text: "대역전", style: "yellow", size: 205 }] } },
+  bloodyridge: { ep: "09", mid: [[["능선이 피로 물든,", "r"]], [["3주간의 고지 지옥", "s"]]], key: "피의 능선", keyStyle: "yellow",
+    split: { imgX: "22%", midSize: 72, keys: [{ text: "피의", style: "stone", size: 128 }, { text: "능선", style: "yellow", size: 205 }] } },
 };
 const CrackDefs: React.FC = () => (
   <svg width={0} height={0} style={{ position: "absolute" }}>

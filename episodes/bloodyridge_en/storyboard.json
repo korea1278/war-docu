@@ -1,0 +1,2738 @@
+{
+ "title": "Battle of Bloody Ridge (1951): The Meatgrinder of the East",
+ "subtitle": "August 18 – September 5, 1951",
+ "target_sec": 520,
+ "places": {
+  "seoul": [
+   126.978,
+   37.566,
+   "Seoul"
+  ],
+  "kaesong": [
+   126.554,
+   37.971,
+   "Kaesong"
+  ],
+  "yanggu": [
+   127.99,
+   38.106,
+   "Yanggu"
+  ],
+  "inje": [
+   128.17,
+   38.07,
+   "Inje"
+  ],
+  "punchbowl": [
+   128.14,
+   38.285,
+   "Punchbowl"
+  ],
+  "h983": [
+   128.022,
+   38.252,
+   "Hill 983"
+  ],
+  "h940": [
+   128.04,
+   38.255,
+   "Hill 940"
+  ],
+  "h773": [
+   128.051,
+   38.252,
+   "Hill 773"
+  ],
+  "h1179": [
+   128.078,
+   38.262,
+   "Taeu-san (Hill 1179)"
+  ],
+  "heartbreak": [
+   128.017,
+   38.3,
+   "Heartbreak Ridge"
+  ],
+  "us2": [
+   128.035,
+   38.212,
+   "US 2nd Div"
+  ],
+  "nkobs": [
+   128.03,
+   38.253,
+   "Enemy OP"
+  ],
+  "rok36": [
+   128.012,
+   38.232,
+   "ROK 36th Regt"
+  ],
+  "r9": [
+   128.046,
+   38.232,
+   "US 9th Inf"
+  ],
+  "r23": [
+   127.975,
+   38.258,
+   "US 23rd Inf"
+  ],
+  "r38": [
+   128.1,
+   38.248,
+   "US 38th Inf"
+  ],
+  "rok5": [
+   128.11,
+   38.31,
+   "ROK 5th Div"
+  ],
+  "usmc": [
+   128.2,
+   38.31,
+   "1st Marine Div"
+  ],
+  "rok7": [
+   127.92,
+   38.26,
+   "ROK 7th Div"
+  ]
+ },
+ "views": {
+  "korea": {
+   "center": [
+    127.6,
+    37.75
+   ],
+   "span": 4.2
+  },
+  "east": {
+   "center": [
+    128.07,
+    38.22
+   ],
+   "span": 0.9
+  },
+  "ridge_wide": {
+   "center": [
+    128.05,
+    38.255
+   ],
+   "span": 0.32
+  },
+  "ridge": {
+   "center": [
+    128.038,
+    38.248
+   ],
+   "span": 0.13
+  },
+  "north": {
+   "center": [
+    128.035,
+    38.272
+   ],
+   "span": 0.22
+  }
+ },
+ "music": [
+  {
+   "id": "drone",
+   "from": "s01",
+   "to": "s05",
+   "volume": 0.2
+  },
+  {
+   "id": "theme",
+   "from": "s06",
+   "to": "s14",
+   "volume": 0.16
+  },
+  {
+   "id": "tension",
+   "from": "s15",
+   "to": "s25",
+   "volume": 0.17
+  },
+  {
+   "id": "march",
+   "from": "s26",
+   "to": "s34",
+   "volume": 0.15
+  },
+  {
+   "id": "analysis",
+   "from": "s35",
+   "to": "s43",
+   "volume": 0.13
+  },
+  {
+   "id": "somber",
+   "from": "s44",
+   "to": "s49",
+   "volume": 0.17
+  }
+ ],
+ "ai_images": {
+  "ridge_barrage": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a massive night artillery barrage exploding along a narrow knife-edge mountain ridge in the Korean highlands in August 1951, the ridge already stripped bare of trees, shattered tree stumps and white churned earth lit by orange blasts, in the foreground American soldiers whose heads are round balls painted as the United States flag, wearing 1951 M1 steel helmets and olive drab summer fatigues and South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1951 M1 steel helmets and olive drab summer field uniforms crouching in a sandbagged trench below watching the shelling, smoke drifting across the valley, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "bunker_inside": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: North Korean soldiers whose heads are round balls painted as the North Korean flag (blue, thin white and wide red stripes with a red star in a white circle), wearing khaki 1951 uniforms and soft caps crouching inside a dim underground bunker built of thick logs covered with rocks and earth on a Korean mountain ridge in August 1951, dust and pebbles falling from the log ceiling as artillery shells explode outside, a machine gun pointed through a narrow firing slit, crates of hand grenades stacked along the wall, a narrow communication trench leading away, tense waiting faces lit by thin light through the slit, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "grenade_climb": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1951 M1 steel helmets and olive drab summer field uniforms and American soldiers whose heads are round balls painted as the United States flag, wearing 1951 M1 steel helmets and olive drab summer fatigues crawling and climbing up a very steep bare shell-cratered mountain slope toward a log bunker on the crest, enemy hand grenades rolling and bouncing down the slope toward them, one soldier pulling the pin of his own grenade, dirt explosions, smoke, harsh afternoon light, August 1951 Korea, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "rok_fog_attack": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1951 M1 steel helmets and olive drab summer field uniforms advancing in a long line through thick morning fog up a forested Korean mountain ridge in August 1951, bayonets fixed, officers waving them forward, distant flashes of explosions on the ridge crest above, grim determined faces, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "broken_line": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: exhausted and wounded South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1951 M1 steel helmets and olive drab summer field uniforms stumbling back down a steep bare Korean ridge in confusion under mortar fire, some helping wounded comrades, an officer trying to rally them, American soldiers whose heads are round balls painted as the United States flag, wearing 1951 M1 steel helmets and olive drab summer fatigues climbing up the same trail looking alarmed, smoke and dust, late August 1951, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "fo_command": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a young American artillery forward observer lieutenant whose head is a round ball painted as the United States flag, wearing a 1951 M1 helmet with a field radio on his back, taking command of a battered infantry company pinned down just below a bare rocky ridge crest, American soldiers whose heads are round balls painted as the United States flag, wearing 1951 M1 steel helmets and olive drab summer fatigues lying behind rocks and shell craters, enemy machine gun tracers from a bunker above, August 1951 Korea, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "bunker_grenade": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an American infantry platoon leader whose head is a round ball painted as the United States flag, wearing a 1951 M1 helmet, throwing a hand grenade into the firing slit of a log-and-earth bunker on a bare Korean ridge, his broken radio dropped beside him, American soldiers whose heads are round balls painted as the United States flag, wearing 1951 M1 steel helmets and olive drab summer fatigues covering him from behind rocks, explosion flash inside the bunker, smoke, early September 1951, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "napalm_strike": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American fighter-bombers dropping napalm on a bare shell-cratered Korean mountain ridge in September 1951, huge rolling orange fireballs and black smoke along the crest, in the foreground American soldiers whose heads are round balls painted as the United States flag, wearing 1951 M1 steel helmets and olive drab summer fatigues watching from a slope below, waiting to attack, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "empty_crest": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American soldiers whose heads are round balls painted as the United States flag, wearing 1951 M1 steel helmets and olive drab summer fatigues standing on a silent bare ridge crest at dawn in September 1951, among smashed log bunkers, abandoned enemy ammunition boxes and equipment, stunned and exhausted, morning mist in the valleys below and further dark mountain ridges to the north, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "thumb_ref": "A South Korean infantryman in August 1951, M1 steel helmet, torn sweat-soaked uniform, fierce determined eyes, face clearly visible and lit, climbing a very steep bare knife-edge mountain ridge with a hand grenade in his fist, behind him more soldiers crawling up the slope as silhouettes, artillery shells exploding along the ridge crest above with blazing red-orange fire, shattered tree stumps and churned earth, gritty photorealistic war painting styled as a black-and-white 1950s documentary archive photograph, heavy film grain, scratches and dust, desaturated monochrome except the fire and explosions glow in vivid red and orange (selective color), extreme high contrast, serious military documentary mood, no cartoon, no 2D characters, no countryball, lighting: NO crushed pure-black areas anywhere — thick battlefield smoke, fog and haze glowing with backlight fill the shadows (lifted shadows, brighter mid-tones, overall about 20 percent brighter and higher contrast), strong rim light / backlight sharply outlining the soldier's helmet, face and shoulders and the ridge silhouette, composition: the main soldier in the center / center-left of the frame, full figure, face clearly visible, not touching the frame edges, the bottom-right quarter of the frame kept plain and uncluttered (soft smoky haze, no subject), no text, no letters, no logos, no watermark."
+ },
+ "scenes": [
+  {
+   "id": "s01",
+   "lines": [
+    "August 1951. A nameless ridge north of Yanggu, in the mountains of eastern Korea.",
+    "After days and nights of shelling, not a single tree was left standing on its crest."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "ridge_barrage",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "callouts": [
+    {
+     "text": "AUG 1951 · NORTH OF YANGGU, KOREA",
+     "style": "yellow",
+     "at": 0
+    }
+   ],
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.2,
+     "volume": 0.4
+    },
+    {
+     "id": "boom",
+     "at": 1,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "lines": [
+    "Yet the moment the guns fell silent, enemy machine guns opened up again from the bare earth.",
+    "Bunkers buried deep in the ridge had ridden out the entire bombardment."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "bunker_inside",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 0.5,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "lines": [
+    "In the end, men had to crawl up the slopes with rifles and grenades.",
+    "For every bunker they destroyed, someone fell on that slope."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "grenade_climb",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0.6,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "lines": [
+    "For this one ridge, South Korean and UN casualties would climb past 2,800.",
+    "An American military newspaper gave it a chilling name."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "AUG 18 – SEP 5, 1951\nOver 2,800 casualties"
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s05",
+   "lines": [
+    "Bloody Ridge.",
+    "This is the story of a three-week battle fought in the shadow of the truce talks."
+   ],
+   "visual": {
+    "type": "titlecard",
+    "q": "s05-photo",
+    "title": "Battle of Bloody Ridge",
+    "sub": "The Meatgrinder of the East · 1951",
+    "at": 0
+   },
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0,
+     "volume": 0.5
+    }
+   ],
+   "flash": true
+  },
+  {
+   "id": "s06",
+   "lines": [
+    "By the summer of 1951, the war had ground to a halt near the 38th Parallel.",
+    "On July 10th, truce talks finally opened at Kaesong."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "korea",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.68,
+        37.78
+       ],
+       [
+        126.95,
+        37.98
+       ],
+       [
+        127.25,
+        38.12
+       ],
+       [
+        127.55,
+        38.08
+       ],
+       [
+        127.8,
+        38.13
+       ],
+       [
+        127.97,
+        38.2
+       ],
+       [
+        128.06,
+        38.222
+       ],
+       [
+        128.25,
+        38.28
+       ],
+       [
+        128.45,
+        38.4
+       ],
+       [
+        128.58,
+        38.45
+       ]
+      ],
+      "at": 0.2
+     },
+     {
+      "k": "marker",
+      "p": "seoul",
+      "color": "blue",
+      "at": 0.6
+     },
+     {
+      "k": "unit",
+      "p": "kaesong",
+      "text": "Kaesong Truce Talks",
+      "color": "dark",
+      "at": 1,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "JULY 10, 1951 · TRUCE TALKS OPEN AT KAESONG",
+     "style": "yellow",
+     "at": 1,
+     "pos": "top"
+    }
+   ],
+   "chapter": {
+    "num": "PART 1",
+    "title": "WAR BEHIND THE TABLE"
+   }
+  },
+  {
+   "id": "s07",
+   "lines": [
+    "But while the negotiators haggled, the guns at the front never stopped.",
+    "Every yard of ground held was leverage at the table."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s07-photo",
+    "kb": "in"
+   },
+   "label": "Kaesong truce talks (1951)"
+  },
+  {
+   "id": "s08",
+   "lines": [
+    "The UN's main line of resistance was called the Kansas Line.",
+    "In the rugged mountains north of Yanggu, the US 2nd Infantry Division held the line."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "east",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.68,
+        37.78
+       ],
+       [
+        126.95,
+        37.98
+       ],
+       [
+        127.25,
+        38.12
+       ],
+       [
+        127.55,
+        38.08
+       ],
+       [
+        127.8,
+        38.13
+       ],
+       [
+        127.97,
+        38.2
+       ],
+       [
+        128.06,
+        38.222
+       ],
+       [
+        128.25,
+        38.28
+       ],
+       [
+        128.45,
+        38.4
+       ],
+       [
+        128.58,
+        38.45
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "yanggu",
+      "color": "dark",
+      "at": 0.8
+     },
+     {
+      "k": "marker",
+      "p": "punchbowl",
+      "color": "dark",
+      "at": 1
+     },
+     {
+      "k": "badge",
+      "p": "us2",
+      "text": "US 2nd Div",
+      "color": "blue",
+      "at": 1.2,
+      "dy": 0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "KANSAS LINE (APPROX.)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s09",
+   "lines": [
+    "The problem was a ridge just to the north.",
+    "North Korean observers hidden on it were calling down accurate artillery fire on UN positions."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "east",
+    "to": "ridge_wide",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.97,
+        38.214
+       ],
+       [
+        128.0,
+        38.221
+       ],
+       [
+        128.03,
+        38.224
+       ],
+       [
+        128.06,
+        38.226
+       ],
+       [
+        128.1,
+        38.232
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "us2",
+      "text": "US 2nd Div",
+      "color": "blue",
+      "at": 0,
+      "dy": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        128.012,
+        38.249
+       ],
+       [
+        128.022,
+        38.252
+       ],
+       [
+        128.031,
+        38.254
+       ],
+       [
+        128.04,
+        38.255
+       ],
+       [
+        128.046,
+        38.253
+       ],
+       [
+        128.051,
+        38.252
+       ],
+       [
+        128.058,
+        38.25
+       ]
+      ],
+      "color": "red",
+      "at": 0.3
+     },
+     {
+      "k": "unit",
+      "p": "nkobs",
+      "text": "Enemy OP",
+      "color": "red",
+      "at": 0.5,
+      "pulse": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.03,
+        38.25
+       ],
+       [
+        128.033,
+        38.236
+       ],
+       [
+        128.035,
+        38.222
+       ]
+      ],
+      "color": "red",
+      "at": 1,
+      "width": 1.0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "ENEMY OBSERVATION POSTS → ARTILLERY ON UN LINES",
+     "style": "red",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "lines": [
+    "Eighth Army commander General James Van Fleet ordered the ridge taken.",
+    "He wanted the enemy's eyes put out, and South Korean units seasoned in battle."
+   ],
+   "visual": {
+    "type": "person",
+    "q": "s10-photo",
+    "name": "James A. Van Fleet",
+    "years": "1892 - 1992",
+    "role": "Commander, US Eighth Army"
+   }
+  },
+  {
+   "id": "s10b",
+   "lines": [
+    "In late July, the US 38th Infantry had set up a patrol base on Hill 1179, Taeu-san, to the east.",
+    "But heavy monsoon rains washed out the roads, and the main attack was put off until mid-August."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "ridge_wide",
+    "to": "ridge_wide",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.97,
+        38.214
+       ],
+       [
+        128.0,
+        38.221
+       ],
+       [
+        128.03,
+        38.224
+       ],
+       [
+        128.06,
+        38.226
+       ],
+       [
+        128.1,
+        38.232
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "h1179",
+      "text": "Taeu-san (Hill 1179)",
+      "color": "blue",
+      "at": 0.2,
+      "pulse": true
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        128.012,
+        38.249
+       ],
+       [
+        128.022,
+        38.252
+       ],
+       [
+        128.031,
+        38.254
+       ],
+       [
+        128.04,
+        38.255
+       ],
+       [
+        128.046,
+        38.253
+       ],
+       [
+        128.051,
+        38.252
+       ],
+       [
+        128.058,
+        38.25
+       ]
+      ],
+      "color": "red",
+      "at": 1
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "LATE JULY 1951 · 38TH INF PATROL BASE",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "water",
+     "at": 1,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "lines": [
+    "The objective: three peaks on a ridge running east to west.",
+    "From west to east, Hills 983, 940, and 773."
+   ],
+   "visual": {
+    "type": "profile",
+    "pts": [
+     [
+      0,
+      610
+     ],
+     [
+      0.07,
+      720
+     ],
+     [
+      0.14,
+      880
+     ],
+     [
+      0.2,
+      983
+     ],
+     [
+      0.27,
+      900
+     ],
+     [
+      0.34,
+      860
+     ],
+     [
+      0.42,
+      905
+     ],
+     [
+      0.5,
+      940
+     ],
+     [
+      0.57,
+      860
+     ],
+     [
+      0.64,
+      790
+     ],
+     [
+      0.7,
+      755
+     ],
+     [
+      0.76,
+      773
+     ],
+     [
+      0.84,
+      690
+     ],
+     [
+      0.92,
+      600
+     ],
+     [
+      1,
+      540
+     ]
+    ],
+    "grid": [
+     600,
+     800,
+     1000
+    ],
+    "yMin": 300,
+    "yMax": 1150,
+    "title": "Bloody Ridge · West–East Profile",
+    "note": "Schematic (vertical exaggeration)",
+    "left": "W",
+    "right": "E · Toward the Punchbowl",
+    "marks": [
+     {
+      "x": 0.2,
+      "text": "Hill 983",
+      "style": "red",
+      "at": 0,
+      "lift": 80,
+      "size": 40
+     },
+     {
+      "x": 0.5,
+      "text": "Hill 940",
+      "style": "red",
+      "at": 0.6,
+      "lift": 80,
+      "size": 40
+     },
+     {
+      "x": 0.76,
+      "text": "Hill 773",
+      "style": "red",
+      "at": 1.2,
+      "lift": 80,
+      "size": 40
+     }
+    ]
+   }
+  },
+  {
+   "id": "s12",
+   "lines": [
+    "Hill 983, the highest, looked straight down on the UN lines to the south.",
+    "The ridge was knife-edge narrow, with sheer slopes falling away on both sides."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "ridge_wide",
+    "to": "ridge",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.012,
+        38.249
+       ],
+       [
+        128.022,
+        38.252
+       ],
+       [
+        128.031,
+        38.254
+       ],
+       [
+        128.04,
+        38.255
+       ],
+       [
+        128.046,
+        38.253
+       ],
+       [
+        128.051,
+        38.252
+       ],
+       [
+        128.058,
+        38.25
+       ]
+      ],
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "h983",
+      "color": "red",
+      "at": 0.2
+     },
+     {
+      "k": "marker",
+      "p": "h940",
+      "color": "red",
+      "at": 0.4
+     },
+     {
+      "k": "marker",
+      "p": "h773",
+      "color": "red",
+      "at": 0.6
+     },
+     {
+      "k": "front",
+      "path": [
+       [
+        127.97,
+        38.214
+       ],
+       [
+        128.0,
+        38.221
+       ],
+       [
+        128.03,
+        38.224
+       ],
+       [
+        128.06,
+        38.226
+       ],
+       [
+        128.1,
+        38.232
+       ]
+      ],
+      "at": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "id": "s13",
+   "lines": [
+    "The North Koreans had studded the ridge with log bunkers buried under earth and rock.",
+    "US records say the largest could hold as many as sixty men."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "bunker_inside",
+    "kb": "out"
+   },
+   "label": "Dramatization",
+   "callouts": [
+    {
+     "text": "US records: largest bunkers held up to 60 men",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "lines": [
+    "Trenches linked bunker to bunker, and minefields covered the approaches.",
+    "When the shells came, they took cover; when the shelling lifted, the guns came back out."
+   ],
+   "visual": {
+    "type": "document",
+    "org": "US Army records (summary)",
+    "head": "NKPA Ridge Defenses",
+    "rows": [
+     "Bunkers  Heavy logs + earth & rock",
+     "Links  Trenches between bunkers",
+     "Front  Minefields",
+     "Arms  Automatic weapons, grenades"
+    ],
+    "note": "Summary of US Army histories · Reconstructed",
+    "stamp": "DECLASSIFIED"
+   },
+   "sfx": [
+    {
+     "id": "typewriter",
+     "at": 0,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "lines": [
+    "On August 18th, 1951, the ROK 36th Regiment of the 5th Division led the first assault.",
+    "It was a South Korean regiment attached to the US 2nd Division."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "rok_fog_attack",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "callouts": [
+    {
+     "text": "AUG 18, 1951 (ROK RECORDS: AUG 17)",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "chapter": {
+    "num": "PART 2",
+    "title": "TAKEN AND LOST"
+   },
+   "sfx": [
+    {
+     "id": "charge",
+     "at": 1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s16",
+   "lines": [
+    "Before the assault, UN artillery pounded the ridge.",
+    "Several artillery battalions, heavy mortars, and tanks: every gun in range was brought to bear."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s16-photo",
+    "kb": "in"
+   },
+   "label": "US artillery firing in Korea (1951)",
+   "sfx": [
+    {
+     "id": "artillery",
+     "at": 0,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s17",
+   "lines": [
+    "Days of shelling turned the green ridge into bare, pale earth.",
+    "But when the barrage lifted, the enemy guns came back to life underground."
+   ],
+   "visual": {
+    "type": "profile",
+    "pts": [
+     [
+      0,
+      610
+     ],
+     [
+      0.07,
+      720
+     ],
+     [
+      0.14,
+      880
+     ],
+     [
+      0.2,
+      983
+     ],
+     [
+      0.27,
+      900
+     ],
+     [
+      0.34,
+      860
+     ],
+     [
+      0.42,
+      905
+     ],
+     [
+      0.5,
+      940
+     ],
+     [
+      0.57,
+      860
+     ],
+     [
+      0.64,
+      790
+     ],
+     [
+      0.7,
+      755
+     ],
+     [
+      0.76,
+      773
+     ],
+     [
+      0.84,
+      690
+     ],
+     [
+      0.92,
+      600
+     ],
+     [
+      1,
+      540
+     ]
+    ],
+    "pts2": [
+     [
+      0,
+      610
+     ],
+     [
+      0.07,
+      716
+     ],
+     [
+      0.14,
+      868
+     ],
+     [
+      0.17,
+      940
+     ],
+     [
+      0.2,
+      975
+     ],
+     [
+      0.23,
+      950
+     ],
+     [
+      0.27,
+      890
+     ],
+     [
+      0.34,
+      846
+     ],
+     [
+      0.38,
+      872
+     ],
+     [
+      0.42,
+      896
+     ],
+     [
+      0.46,
+      912
+     ],
+     [
+      0.5,
+      932
+     ],
+     [
+      0.54,
+      900
+     ],
+     [
+      0.57,
+      852
+     ],
+     [
+      0.64,
+      782
+     ],
+     [
+      0.7,
+      748
+     ],
+     [
+      0.76,
+      766
+     ],
+     [
+      0.8,
+      738
+     ],
+     [
+      0.84,
+      684
+     ],
+     [
+      0.92,
+      600
+     ],
+     [
+      1,
+      540
+     ]
+    ],
+    "erodeAt": 0.1,
+    "erodeDur": 4.5,
+    "grid": [
+     600,
+     800,
+     1000
+    ],
+    "yMin": 300,
+    "yMax": 1150,
+    "note": "Before / after shelling · Schematic",
+    "left": "W",
+    "right": "E",
+    "marks": [
+     {
+      "x": 0.5,
+      "text": "Bunkers survive",
+      "style": "red",
+      "at": 1,
+      "lift": 110,
+      "size": 42
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0,
+     "volume": 0.45
+    },
+    {
+     "id": "mg",
+     "at": 1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s18",
+   "lines": [
+    "As the attackers climbed, the defenders threw and rolled grenades down on their heads.",
+    "With every step upward, more grenades came tumbling down."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "grenade_climb",
+    "kb": "out"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0.3,
+     "volume": 0.45
+    },
+    {
+     "id": "boom",
+     "at": 1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s19",
+   "lines": [
+    "After five days of repeated frontal assaults, the 36th Regiment finally stood on the ridge.",
+    "But a fierce counterattack threw them back off it."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "ridge",
+    "to": "ridge",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.012,
+        38.249
+       ],
+       [
+        128.022,
+        38.252
+       ],
+       [
+        128.031,
+        38.254
+       ],
+       [
+        128.04,
+        38.255
+       ],
+       [
+        128.046,
+        38.253
+       ],
+       [
+        128.051,
+        38.252
+       ],
+       [
+        128.058,
+        38.25
+       ]
+      ],
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.018,
+        38.226
+       ],
+       [
+        128.02,
+        38.24
+       ],
+       [
+        128.022,
+        38.25
+       ]
+      ],
+      "color": "blue",
+      "at": 0.1,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.038,
+        38.228
+       ],
+       [
+        128.039,
+        38.243
+       ],
+       [
+        128.04,
+        38.253
+       ]
+      ],
+      "color": "blue",
+      "at": 0.3,
+      "width": 1.0
+     },
+     {
+      "k": "badge",
+      "p": "rok36",
+      "text": "ROK 36th Regt",
+      "color": "blue",
+      "at": 0.2,
+      "dy": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.03,
+        38.268
+       ],
+       [
+        128.03,
+        38.258
+       ],
+       [
+        128.029,
+        38.246
+       ]
+      ],
+      "color": "red",
+      "at": 1,
+      "width": 1.2
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "ROK records: taken Aug 25 → lost Aug 26",
+     "style": "red",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s20",
+   "lines": [
+    "As casualties mounted, the exhausted men's morale began to crack.",
+    "On August 27th, some units of the 36th Regiment broke and fell back."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "broken_line",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s21",
+   "lines": [
+    "The panic spread to elements of the US 9th Infantry, sent up in support.",
+    "That same day, the 9th's 2nd Battalion struck at Hill 983, and it too was forced back."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "ridge",
+    "to": "ridge",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.012,
+        38.249
+       ],
+       [
+        128.022,
+        38.252
+       ],
+       [
+        128.031,
+        38.254
+       ],
+       [
+        128.04,
+        38.255
+       ],
+       [
+        128.046,
+        38.253
+       ],
+       [
+        128.051,
+        38.252
+       ],
+       [
+        128.058,
+        38.25
+       ]
+      ],
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "h983",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "r9",
+      "text": "2/9th Infantry",
+      "color": "blue",
+      "at": 0.6,
+      "dy": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.026,
+        38.226
+       ],
+       [
+        128.024,
+        38.238
+       ],
+       [
+        128.022,
+        38.246
+       ]
+      ],
+      "color": "blue",
+      "at": 1,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.022,
+        38.246
+       ],
+       [
+        128.024,
+        38.236
+       ],
+       [
+        128.027,
+        38.226
+       ]
+      ],
+      "color": "red",
+      "at": 1.5,
+      "width": 0.9
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "AUG 27, 1951 · 2/9TH INFANTRY FAILS AT HILL 983",
+     "style": "red",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s22",
+   "lines": [
+    "The next day, the 3rd Battalion went for Hill 773, and was driven off by a night attack.",
+    "It was the attackers who were being worn down, one battalion at a time."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "ridge",
+    "to": "ridge",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.012,
+        38.249
+       ],
+       [
+        128.022,
+        38.252
+       ],
+       [
+        128.031,
+        38.254
+       ],
+       [
+        128.04,
+        38.255
+       ],
+       [
+        128.046,
+        38.253
+       ],
+       [
+        128.051,
+        38.252
+       ],
+       [
+        128.058,
+        38.25
+       ]
+      ],
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "h773",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.058,
+        38.228
+       ],
+       [
+        128.055,
+        38.24
+       ],
+       [
+        128.052,
+        38.248
+       ]
+      ],
+      "color": "blue",
+      "at": 0.3,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.052,
+        38.248
+       ],
+       [
+        128.055,
+        38.238
+       ],
+       [
+        128.058,
+        38.229
+       ]
+      ],
+      "color": "red",
+      "at": 0.8,
+      "width": 0.9
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "AUG 28, 1951 · 3/9TH INFANTRY · HILL 773",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s23",
+   "lines": [
+    "On August 30th, the 9th Infantry hit Hill 940, in the center, head-on.",
+    "They got within a few hundred yards of the crest before bunker machine guns stopped them again."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s23-photo",
+    "kb": "in"
+   },
+   "label": "US 2nd Infantry Division troops (1951)",
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s24",
+   "lines": [
+    "Company A was cut to half strength, and its commander, Lieutenant Dunn, was killed.",
+    "Lieutenant Morrow, the artillery observer beside him, took command on the spot."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "fo_command",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "callouts": [
+    {
+     "text": "US records · Hill 940, Aug 30",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s25",
+   "lines": [
+    "And so the ridge was soaked in the blood of both sides.",
+    "The military newspaper Stars and Stripes called it Bloody Ridge.",
+    "For security it never named the place, so the men fighting there didn't know it was them."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "BLOODY RIDGE",
+    "style": "red",
+    "sub": "Named by Stars and Stripes",
+    "subAt": 1
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s26",
+   "lines": [
+    "On August 28th, the new X Corps commander, General Clovis Byers, changed the plan.",
+    "Instead of hammering one ridge, the whole corps front would push forward at once."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "ridge_wide",
+    "to": "east",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.68,
+        37.78
+       ],
+       [
+        126.95,
+        37.98
+       ],
+       [
+        127.25,
+        38.12
+       ],
+       [
+        127.55,
+        38.08
+       ],
+       [
+        127.8,
+        38.13
+       ],
+       [
+        127.97,
+        38.2
+       ],
+       [
+        128.06,
+        38.222
+       ],
+       [
+        128.25,
+        38.28
+       ],
+       [
+        128.45,
+        38.4
+       ],
+       [
+        128.58,
+        38.45
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.88,
+        38.2
+       ],
+       [
+        127.9,
+        38.24
+       ],
+       [
+        127.93,
+        38.27
+       ]
+      ],
+      "color": "blue",
+      "at": 0.6,
+      "width": 0.9
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.03,
+        38.22
+       ],
+       [
+        128.035,
+        38.24
+       ],
+       [
+        128.038,
+        38.255
+       ]
+      ],
+      "color": "blue",
+      "at": 0.8,
+      "width": 0.9
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.12,
+        38.24
+       ],
+       [
+        128.12,
+        38.27
+       ],
+       [
+        128.12,
+        38.3
+       ]
+      ],
+      "color": "blue",
+      "at": 1,
+      "width": 0.9
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.2,
+        38.25
+       ],
+       [
+        128.19,
+        38.28
+       ],
+       [
+        128.18,
+        38.31
+       ]
+      ],
+      "color": "blue",
+      "at": 1.2,
+      "width": 0.9
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "FROM AUG 31 · CORPS-WIDE LIMITED OFFENSIVE",
+     "style": "blue",
+     "at": 1,
+     "pos": "top"
+    }
+   ],
+   "chapter": {
+    "num": "PART 3",
+    "title": "CLOSE IN FROM BOTH SIDES"
+   }
+  },
+  {
+   "id": "s27",
+   "lines": [
+    "The ROK 5th and 1st Marine Divisions drove on the Punchbowl; the ROK 7th, west of the ridge.",
+    "The enemy could no longer mass his guns and reserves in one place."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "east",
+    "to": "east",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.68,
+        37.78
+       ],
+       [
+        126.95,
+        37.98
+       ],
+       [
+        127.25,
+        38.12
+       ],
+       [
+        127.55,
+        38.08
+       ],
+       [
+        127.8,
+        38.13
+       ],
+       [
+        127.97,
+        38.2
+       ],
+       [
+        128.06,
+        38.222
+       ],
+       [
+        128.25,
+        38.28
+       ],
+       [
+        128.45,
+        38.4
+       ],
+       [
+        128.58,
+        38.45
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "punchbowl",
+      "color": "dark",
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "rok5",
+      "text": "ROK 5th Div",
+      "color": "blue",
+      "at": 0.1,
+      "dy": 0
+     },
+     {
+      "k": "badge",
+      "p": "usmc",
+      "text": "1st Marine Div",
+      "color": "blue",
+      "at": 0.3,
+      "dy": 0
+     },
+     {
+      "k": "badge",
+      "p": "rok7",
+      "text": "ROK 7th Div",
+      "color": "blue",
+      "at": 0.6,
+      "dy": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        128.012,
+        38.249
+       ],
+       [
+        128.022,
+        38.252
+       ],
+       [
+        128.031,
+        38.254
+       ],
+       [
+        128.04,
+        38.255
+       ],
+       [
+        128.046,
+        38.253
+       ],
+       [
+        128.051,
+        38.252
+       ],
+       [
+        128.058,
+        38.25
+       ]
+      ],
+      "color": "red",
+      "at": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s28",
+   "lines": [
+    "On August 31st, the Marines met little resistance and reached the Punchbowl's northern rim.",
+    "The flank of the North Koreans on the ridge was slowly being laid bare."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s28-photo",
+    "kb": "in"
+   },
+   "label": "US Marines near the Punchbowl (1951)"
+  },
+  {
+   "id": "s29",
+   "lines": [
+    "Meanwhile, the 1st Battalion, 9th Infantry, broke the bunkers on Hill 773 one by one.",
+    "One platoon leader, his radio dead, took a bunker with nothing but grenades."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "bunker_grenade",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 1,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s30",
+   "lines": [
+    "On September 3rd, after napalm and bombs swept the ridge, the attack went in again.",
+    "Company C, about eighty-five men strong, came out of it with about thirty."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "napalm_strike",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "callouts": [
+    {
+     "text": "US records: Co. C ~85 → ~30 men",
+     "style": "red",
+     "at": 1,
+     "pos": "lower"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "whoosh",
+     "at": 0,
+     "volume": 0.4
+    },
+    {
+     "id": "boom",
+     "at": 0.3,
+     "volume": 0.55
+    }
+   ]
+  },
+  {
+   "id": "s31",
+   "lines": [
+    "Then the US 23rd and 38th Infantry swung wide around both ends of the ridge.",
+    "With the 9th still pressing the front, it was a double envelopment closing from three sides."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "ridge",
+    "to": "ridge_wide",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.012,
+        38.249
+       ],
+       [
+        128.022,
+        38.252
+       ],
+       [
+        128.031,
+        38.254
+       ],
+       [
+        128.04,
+        38.255
+       ],
+       [
+        128.046,
+        38.253
+       ],
+       [
+        128.051,
+        38.252
+       ],
+       [
+        128.058,
+        38.25
+       ]
+      ],
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.99,
+        38.22
+       ],
+       [
+        127.99,
+        38.25
+       ],
+       [
+        128.0,
+        38.268
+       ],
+       [
+        128.02,
+        38.268
+       ]
+      ],
+      "color": "blue",
+      "at": 0.2,
+      "width": 1.1
+     },
+     {
+      "k": "badge",
+      "p": "r23",
+      "text": "US 23rd Inf",
+      "color": "blue",
+      "at": 0.4,
+      "dy": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.08,
+        38.225
+       ],
+       [
+        128.085,
+        38.25
+       ],
+       [
+        128.07,
+        38.266
+       ],
+       [
+        128.05,
+        38.264
+       ]
+      ],
+      "color": "blue",
+      "at": 0.6,
+      "width": 1.1
+     },
+     {
+      "k": "badge",
+      "p": "r38",
+      "text": "US 38th Inf",
+      "color": "blue",
+      "at": 0.8,
+      "dy": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.04,
+        38.226
+       ],
+       [
+        128.04,
+        38.24
+       ],
+       [
+        128.04,
+        38.25
+       ]
+      ],
+      "color": "blue",
+      "at": 1,
+      "width": 1.0
+     },
+     {
+      "k": "badge",
+      "p": "r9",
+      "text": "US 9th Inf",
+      "color": "blue",
+      "at": 1.1,
+      "dy": 0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "DOUBLE ENVELOPMENT · 23RD & 38TH INFANTRY",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "drum",
+     "at": 0,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s32",
+   "lines": [
+    "On September 4th and 5th, the 2nd Division finally reached the top of the ridge.",
+    "But the crest was strangely quiet."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "ridge_wide",
+    "to": "ridge",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.012,
+        38.249
+       ],
+       [
+        128.022,
+        38.252
+       ],
+       [
+        128.031,
+        38.254
+       ],
+       [
+        128.04,
+        38.255
+       ],
+       [
+        128.046,
+        38.253
+       ],
+       [
+        128.051,
+        38.252
+       ],
+       [
+        128.058,
+        38.25
+       ]
+      ],
+      "color": "blue",
+      "at": 0.2
+     },
+     {
+      "k": "unit",
+      "p": "h983",
+      "text": "Hill 983",
+      "color": "blue",
+      "at": 0.4
+     },
+     {
+      "k": "unit",
+      "p": "h940",
+      "text": "Hill 940",
+      "color": "blue",
+      "at": 0.6
+     },
+     {
+      "k": "unit",
+      "p": "h773",
+      "text": "Hill 773",
+      "color": "blue",
+      "at": 0.8,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "SEP 4–5, 1951 · RIDGE TAKEN",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 1,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s33",
+   "lines": [
+    "The North Koreans had already slipped away to the north.",
+    "Left behind on the ridge were abandoned supplies and more than five hundred enemy dead."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "empty_crest",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s34",
+   "lines": [
+    "Per the US Army official history, South Korean and UN casualties topped 2,800.",
+    "By Korean records, the ROK 36th Regiment alone lost more than a thousand men.",
+    "The 2nd Division estimated enemy losses at over fifteen thousand."
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "US Army history · ROK records (enemy: 2nd Div estimate)",
+    "items": [
+     {
+      "label": "ROK & UN casualties",
+      "value": 2800,
+      "display": "2,800+",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "label": "ROK 36th Regt",
+      "value": 1000,
+      "display": "1,000+",
+      "color": "blue",
+      "at": 1
+     },
+     {
+      "label": "Enemy (est.)",
+      "value": 15000,
+      "display": "15,000+",
+      "color": "red",
+      "at": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": "s35",
+   "lines": [
+    "Why did one ridge cost so much blood?",
+    "Let's break it down into four factors."
+   ],
+   "visual": {
+    "type": "factors",
+    "items": [
+     "Underground Fortress",
+     "Limits of Firepower",
+     "Price of Frontal Assault",
+     "Double Envelopment"
+    ],
+    "head": "Overwhelming Firepower vs Underground Fortress",
+    "at": 1
+   },
+   "chapter": {
+    "num": "PART 4",
+    "title": "4 DECIDING FACTORS"
+   }
+  },
+  {
+   "id": "s36",
+   "lines": [
+    "First, the underground fortress."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s36-photo",
+    "num": "Factor 1",
+    "title": "Underground Fortress"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s37",
+   "lines": [
+    "The bunkers were heavy timbers piled with layer upon layer of earth and stone.",
+    "Unless a heavy shell landed squarely on top, they would not collapse."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "bunker_inside",
+    "kb": "left"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s38",
+   "lines": [
+    "Second, the limits of firepower."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s38-photo",
+    "num": "Factor 2",
+    "title": "Limits of Firepower"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s39",
+   "lines": [
+    "The UN owned the sky and the artillery.",
+    "The 155-millimeter Long Tom was the best bunker-buster, but there were few of them.",
+    "Digging the enemy out of his bunkers was, in the end, a job for the infantry."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "UN FORCES",
+     "big": "GUNS & AIR",
+     "icon": "none",
+     "color": "blue"
+    },
+    "right": {
+     "title": "NORTH KOREANS",
+     "big": "DUG IN",
+     "icon": "none",
+     "color": "red",
+     "at": 1
+    }
+   }
+  },
+  {
+   "id": "s40",
+   "lines": [
+    "Third, the price of the frontal assault."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s40-photo",
+    "num": "Factor 3",
+    "title": "Price of Frontal Assault"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s41",
+   "lines": [
+    "On a ridge that narrow, there was no room to spread out.",
+    "Men climbing in single file walked straight into the bunkers' fire.",
+    "Some platoons went into the attack made up mostly of replacements who had only just arrived."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s41-photo",
+    "kb": "in"
+   },
+   "label": "Infantry on a Korean ridge (1951)"
+  },
+  {
+   "id": "s42",
+   "lines": [
+    "Fourth, the double envelopment."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s42-photo",
+    "num": "Factor 4",
+    "title": "Double Envelopment"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s43",
+   "lines": [
+    "In the end, the ridge was opened not from the front, but from the flanks.",
+    "Squeezed along the whole front and from both flanks, the enemy gave it up himself."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "ridge_wide",
+    "to": "ridge_wide",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.012,
+        38.249
+       ],
+       [
+        128.022,
+        38.252
+       ],
+       [
+        128.031,
+        38.254
+       ],
+       [
+        128.04,
+        38.255
+       ],
+       [
+        128.046,
+        38.253
+       ],
+       [
+        128.051,
+        38.252
+       ],
+       [
+        128.058,
+        38.25
+       ]
+      ],
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.99,
+        38.22
+       ],
+       [
+        127.99,
+        38.25
+       ],
+       [
+        128.0,
+        38.268
+       ],
+       [
+        128.02,
+        38.268
+       ]
+      ],
+      "color": "blue",
+      "at": 0.3,
+      "width": 1.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.08,
+        38.225
+       ],
+       [
+        128.085,
+        38.25
+       ],
+       [
+        128.07,
+        38.266
+       ],
+       [
+        128.05,
+        38.264
+       ]
+      ],
+      "color": "blue",
+      "at": 0.5,
+      "width": 1.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.03,
+        38.258
+       ],
+       [
+        128.03,
+        38.272
+       ],
+       [
+        128.025,
+        38.29
+       ]
+      ],
+      "color": "red",
+      "at": 1,
+      "width": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "s44",
+   "lines": [
+    "But the North Koreans had fallen back only a few miles, to another ridge to the north.",
+    "And on September 13th, the 2nd Division went on the attack again, toward that ridge."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "ridge_wide",
+    "to": "north",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.012,
+        38.249
+       ],
+       [
+        128.022,
+        38.252
+       ],
+       [
+        128.031,
+        38.254
+       ],
+       [
+        128.04,
+        38.255
+       ],
+       [
+        128.046,
+        38.253
+       ],
+       [
+        128.051,
+        38.252
+       ],
+       [
+        128.058,
+        38.25
+       ]
+      ],
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.03,
+        38.258
+       ],
+       [
+        128.026,
+        38.275
+       ],
+       [
+        128.02,
+        38.292
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 1.0
+     },
+     {
+      "k": "unit",
+      "p": "heartbreak",
+      "text": "Heartbreak Ridge",
+      "color": "red",
+      "at": 0.6,
+      "pulse": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.04,
+        38.262
+       ],
+       [
+        128.035,
+        38.278
+       ],
+       [
+        128.025,
+        38.293
+       ]
+      ],
+      "color": "blue",
+      "at": 1.2,
+      "width": 1.0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "SEP 13, 1951 · ON TO THE NEXT RIDGE",
+     "style": "red",
+     "at": 1,
+     "pos": "top"
+    }
+   ],
+   "chapter": {
+    "num": "EPILOGUE",
+    "title": "THE NEXT RIDGE"
+   }
+  },
+  {
+   "id": "s45",
+   "lines": [
+    "That place would come to be called Heartbreak Ridge.",
+    "Bloody Ridge was only the beginning of a longer, harsher war for the hills."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "HEARTBREAK RIDGE",
+    "style": "red",
+    "sub": "Sep 13 – Oct 15, 1951",
+    "subAt": 1
+   }
+  },
+  {
+   "id": "s46",
+   "lines": [
+    "Today, a memorial to the Battle of Bloody Ridge stands in Worun-ri, Yanggu County.",
+    "On those slopes, the search for those who never came home has gone on for years."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s46-photo",
+    "kb": "in",
+    "bw": false
+   },
+   "label": "Bloody Ridge battle memorial · Yanggu"
+  },
+  {
+   "id": "s47",
+   "lines": [
+    "A single line on the negotiating table cost thousands of lives on this ridge.",
+    "The ground they held is today's Yanggu, south of the armistice line."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "One line on the table",
+    "accent": "Thousands of lives",
+    "accentAt": 1
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s48",
+   "lines": [
+    "A nameless ridge north of Yanggu.",
+    "To this day, its name remains Bloody Ridge."
+   ],
+   "visual": {
+    "type": "quotes",
+    "title": "What Bloody Ridge Left Behind",
+    "items": [
+     {
+      "text": "Three weeks behind the talks",
+      "at": 0
+     },
+     {
+      "text": "A ridge held with blood",
+      "at": 1
+     }
+    ]
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s49",
+   "lines": [
+    "If this story meant something to you, please subscribe and like the video.",
+    "We'll continue to bring the forgotten records of war to light."
+   ],
+   "visual": {
+    "type": "endcard",
+    "title": "August 1951. Yanggu.\nThree Weeks on Bloody Ridge.",
+    "q": "s49-photo"
+   },
+   "tail": 3.0
+  }
+ ],
+ "lang": "en",
+ "assets_ep": "bloodyridge",
+ "voice": "pNInz6obpgDQGcFmaJgB",
+ "tempo": 1.02
+}
