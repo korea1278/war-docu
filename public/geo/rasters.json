@@ -210,24 +210,24 @@
   "h": 2304
  },
  {
-  "name": "incheon",
-  "file": "geo/incheon.webp",
-  "west": 126.298828125,
+  "name": "incheon_sea",
+  "file": "geo/incheon_sea.webp",
+  "west": 125.947265625,
   "east": 127.177734375,
-  "north": 37.71859032558813,
-  "south": 37.16031654673676,
-  "w": 2560,
-  "h": 2048
+  "north": 37.78808138412046,
+  "south": 37.020098201368114,
+  "w": 3584,
+  "h": 2816
  },
  {
-  "name": "incheon_zoom",
-  "file": "geo/incheon_zoom.webp",
-  "west": 126.54052734375,
+  "name": "incheon_zoom_sea",
+  "file": "geo/incheon_zoom_sea.webp",
+  "west": 126.5185546875,
   "east": 126.6943359375,
-  "north": 37.50972584293751,
-  "south": 37.42252593456306,
-  "w": 1792,
-  "h": 1280
+  "north": 37.52715361723378,
+  "south": 37.40507375017693,
+  "w": 2048,
+  "h": 1792
  },
  {
   "name": "seoul_zoom",
