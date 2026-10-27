@@ -610,6 +610,10 @@ const ProfileV: React.FC = () => {
     }
     return pts;
   };
+  // 조수 (EP11): 수위가 from → to(m)로 at(줄 번호)부터 dur초 동안 변함
+  const tide = v.tide;
+  const tideK = tide ? easeInOut((t - atSec(sc, tide.at ?? 0)) / (tide.dur || 4)) : 0;
+  const tideLv = tide ? tide.from + (tide.to - tide.from) * tideK : 0;
   const cK = v.bare ? 1 : eK; // bare: 처음부터 벗겨진 산
   const forest = mixHex("#3f5b2c", "#e9e4d6", cK);
   const forestDark = mixHex("#24361a", "#bdb6a4", cK);
@@ -660,7 +664,8 @@ const ProfileV: React.FC = () => {
         </defs>
         {grid}
         <g clipPath="url(#pf-clip)">
-          {Array.from({ length: LAYERS })
+          {/* 조수 단면은 뒤쪽 산 레이어 없이 앞 단면만 (뒤 레이어가 물 위로 솟아 보이는 문제) */}
+          {Array.from({ length: tide ? 0 : LAYERS })
             .map((_, i) => LAYERS - i)
             .map((li) => {
               const p = layerPath(li);
@@ -678,6 +683,13 @@ const ProfileV: React.FC = () => {
                 />
               );
             })}
+          {/* 조수(바닷물) — EP11 추가: tide {from, to, at, dur} 수위(m)가 시간에 따라 오르내림. 지형보다 먼저 그려 땅이 물을 가린다 */}
+          {tide && (
+            <g>
+              <rect x={X0} y={Y(tideLv)} width={X1 - X0} height={BASE + 60 - Y(tideLv)} fill="rgba(46,110,160,.78)" />
+              <line x1={X0} x2={X1} y1={Y(tideLv)} y2={Y(tideLv)} stroke="#bfe3ff" strokeWidth={4} />
+            </g>
+          )}
           {/* 앞 단면 (지층) */}
           <path d={`M${X0},${BASE + 60} L${front.join(" L")} L${X1},${BASE + 60} Z`} fill="url(#pf-soil)" stroke="#1a120b" strokeWidth={3} />
           <path d={`M${front.join(" L")}`} fill="none" stroke={mixHex("#7fa35a", "#ffffff", cK)} strokeWidth={9} strokeLinejoin="round" />
@@ -745,6 +757,11 @@ const ProfileV: React.FC = () => {
           <Appear at={0}>
             <CalloutBox text={v.title} style="dark" size={58} />
           </Appear>
+        </div>
+      )}
+      {tide && (
+        <div style={{ position: "absolute", left: X0 + 24, top: Y(tideLv) + 14, fontFamily: F.head, fontSize: 40, color: "#bfe3ff", textShadow: "0 2px 8px rgba(0,0,0,.9)", whiteSpace: "nowrap" }}>
+          {tideK < 0.5 ? (tide.from > tide.to ? tide.hiText : tide.loText) : tide.from > tide.to ? tide.loText : tide.hiText}
         </div>
       )}
       {v.note && <div style={{ position: "absolute", left: X0, top: 160, fontFamily: F.body, fontWeight: 700, fontSize: 26, color: "rgba(255,255,255,.7)" }}>※ {v.note}</div>}

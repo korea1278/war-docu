@@ -145,7 +145,17 @@ def main(ep, thumb=False):
         fit(img).save(p, quality=92)
         man[name] = sig
         write_json(out / "ai.json", man)
-    if "thumb_subject" in used and (thumb or not (d / "thumb_subject.png").exists()):
+    # 실존 인물(EP11 맥아더 등)은 AI로 그리지 않고 공개 사진(위키미디어, 미 정부 저작물)을 받아 누끼 — 스토리보드 "thumb_photo"
+    tp = board.get("thumb_photo")
+    if tp and (thumb or not (d / "thumb_subject.png").exists()):
+        from photos import fetch_img, file_info
+        info = retry(lambda: file_info(s, tp), label=f"thumb photo {tp}")
+        fetch_img(s, info["url"]).save(d / "thumb_subject.jpg", quality=95)
+        man["thumb_subject"] = f"photo:{tp}"
+        write_json(out / "ai.json", man)
+        print(f"  썸네일 인물 사진: {tp} ({info.get('license')})")
+        cutout(d / "thumb_subject.jpg", d / "thumb_subject.png")
+    elif "thumb_subject" in used and (thumb or not (d / "thumb_subject.png").exists()):
         cutout(d / "thumb_subject.jpg", d / "thumb_subject.png")
     print("AI 이미지 완료")
 

@@ -131,6 +131,7 @@ jobs:
           python timeline.py $EP
           python sfx.py $EP music
           python timeline.py $EP
+          python midroll.py $EP || true   # 20분 장편: 목차·미드롤 광고 위치 → logs/midroll_<ep>.txt
 
       - name: 무료 점검용 타임라인
         if: inputs.mode == 'free'

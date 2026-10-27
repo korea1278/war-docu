@@ -114,6 +114,8 @@ def main(src, dst, lang):
                         v[k] = t[k]
                 for it, x in zip(v.get("marks", []), t.get("marks", [])):
                     it["text"] = x
+                if v.get("tide") and t.get("tide"):  # EP11 조수 단면 라벨
+                    v["tide"]["hiText"], v["tide"]["loText"] = t["tide"]
             elif ty == "endcard":
                 v["title"] = t["title"]
     if missing:
