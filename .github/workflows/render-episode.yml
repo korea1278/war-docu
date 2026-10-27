@@ -176,9 +176,18 @@ jobs:
       - name: 최종 렌더링 (MP4)
         if: inputs.mode == 'full'
         run: |
-          npx remotion render out/bundle Documentary out/$EP.mp4 \
+          # 20분 장편 대비: 디스크 확보 + 실패 원인을 저장소(logs/)에 남김 (세션에서 Actions 로그 직접 열람 불가)
+          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL || true
+          df -h . | tail -1
+          set -o pipefail
+          if ! npx remotion render out/bundle Documentary out/$EP.mp4 \
             --props="{\"ep\":\"$EP\"}" --concurrency=4 --codec=h264 --crf=20 --x264-preset=veryfast \
-            --audio-bitrate=192k --log=info
+            --audio-bitrate=192k --timeout=120000 --log=info 2>&1 | tee out/render.log; then
+            { echo "== $EP 렌더 실패 $(date -u)"; df -h . | tail -1; free -m | head -2; tail -80 out/render.log; } > logs/render_fail_$EP.txt
+            git config user.name "war-docu-bot"; git config user.email "actions@users.noreply.github.com"
+            git add logs/render_fail_$EP.txt && git commit -qm "렌더 실패 로그: $EP" && git pull --rebase -X theirs -q && git push -q || true
+            exit 1
+          fi
           # 유튜브 기준 음량 맞추기 (-15 LUFS), 영상은 그대로 복사
           ffmpeg -y -v error -i out/$EP.mp4 -c:v copy -af loudnorm=I=-15:TP=-1.5:LRA=11 -c:a aac -b:a 192k out/final.mp4
           mv out/final.mp4 out/$EP.mp4
