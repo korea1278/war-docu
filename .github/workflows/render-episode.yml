@@ -179,6 +179,8 @@ jobs:
           # 20분 장편 대비: 디스크 확보 + 실패 원인을 저장소(logs/)에 남김 (세션에서 Actions 로그 직접 열람 불가)
           sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL || true
           df -h . | tail -1
+          # 러너의 /tmp는 용량 한도가 따로 있어 20분 오디오 믹싱(구간별 wav 수백 MB) 중 'Disk quota exceeded'로 실패 (EP11) → 작업 폴더 디스크로 돌림
+          export TMPDIR=$PWD/out/tmp && mkdir -p $TMPDIR && df -h /tmp | tail -1
           set -o pipefail
           if ! npx remotion render out/bundle Documentary out/$EP.mp4 \
             --props="{\"ep\":\"$EP\"}" --concurrency=4 --codec=h264 --crf=20 --x264-preset=veryfast \
