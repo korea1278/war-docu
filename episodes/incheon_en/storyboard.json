@@ -1,0 +1,4245 @@
+{
+ "title": "Operation Chromite & the Recapture of Seoul (1950): The 5,000-to-1 Gamble",
+ "subtitle": "September 15 – 28, 1950",
+ "target_sec": 1290,
+ "midrolls": [
+  "s28",
+  "s45",
+  "s66"
+ ],
+ "places": {
+  "seoul": [
+   126.978,
+   37.566,
+   "Seoul"
+  ],
+  "busan": [
+   129.04,
+   35.15,
+   "Pusan"
+  ],
+  "daegu": [
+   128.6,
+   35.87,
+   "Taegu"
+  ],
+  "pyongyang": [
+   125.75,
+   39.03,
+   "Pyongyang"
+  ],
+  "tokyo_dir": [
+   128.9,
+   34.6,
+   "To Tokyo"
+  ],
+  "inchon": [
+   126.63,
+   37.47,
+   "Inchon"
+  ],
+  "wolmi": [
+   126.598,
+   37.476,
+   "Wolmi-do"
+  ],
+  "palmido": [
+   126.511,
+   37.358,
+   "Palmi-do"
+  ],
+  "yeongheung": [
+   126.48,
+   37.255,
+   "Yonghung-do"
+  ],
+  "green": [
+   126.593,
+   37.479,
+   "Green Beach"
+  ],
+  "red": [
+   126.613,
+   37.48,
+   "Red Beach"
+  ],
+  "blue": [
+   126.638,
+   37.452,
+   "Blue Beach"
+  ],
+  "ascom": [
+   126.712,
+   37.505,
+   "Ascom City"
+  ],
+  "kimpo": [
+   126.795,
+   37.558,
+   "Kimpo Airfield"
+  ],
+  "haengju": [
+   126.828,
+   37.592,
+   "Haengju"
+  ],
+  "hill125": [
+   126.84,
+   37.586,
+   "Hill 125"
+  ],
+  "ydp": [
+   126.905,
+   37.517,
+   "Yongdungpo"
+  ],
+  "ansan": [
+   126.945,
+   37.578,
+   "Hill 296"
+  ],
+  "yonhui": [
+   126.932,
+   37.566,
+   "Hill 104"
+  ],
+  "wausan": [
+   126.928,
+   37.551,
+   "Wau-san"
+  ],
+  "namsan": [
+   126.988,
+   37.551,
+   "Namsan"
+  ],
+  "capitol": [
+   126.977,
+   37.577,
+   "Capitol"
+  ],
+  "sinsa": [
+   127.02,
+   37.53,
+   "Sinsa-ri"
+  ],
+  "mapo": [
+   126.946,
+   37.536,
+   "Mapo"
+  ],
+  "osan": [
+   127.07,
+   37.15,
+   "Osan"
+  ],
+  "kunsan": [
+   126.71,
+   35.98,
+   "Kunsan"
+  ]
+ },
+ "views": {
+  "korea": {
+   "center": [
+    127.7,
+    36.35
+   ],
+   "span": 5.0
+  },
+  "perimeter": {
+   "center": [
+    128.75,
+    35.75
+   ],
+   "span": 1.9
+  },
+  "bay": {
+   "center": [
+    126.53,
+    37.365
+   ],
+   "span": 0.65
+  },
+  "channel": {
+   "center": [
+    126.54,
+    37.4
+   ],
+   "span": 0.32
+  },
+  "incheon": {
+   "center": [
+    126.618,
+    37.464
+   ],
+   "span": 0.12
+  },
+  "wolmi": {
+   "center": [
+    126.603,
+    37.476
+   ],
+   "span": 0.055
+  },
+  "corridor": {
+   "center": [
+    126.8,
+    37.53
+   ],
+   "span": 0.5
+  },
+  "ascom": {
+   "center": [
+    126.72,
+    37.505
+   ],
+   "span": 0.12
+  },
+  "han": {
+   "center": [
+    126.87,
+    37.56
+   ],
+   "span": 0.26
+  },
+  "haengju": {
+   "center": [
+    126.835,
+    37.585
+   ],
+   "span": 0.09
+  },
+  "seoul": {
+   "center": [
+    126.955,
+    37.555
+   ],
+   "span": 0.17
+  },
+  "west": {
+   "center": [
+    126.94,
+    37.564
+   ],
+   "span": 0.085
+  },
+  "core": {
+   "center": [
+    126.975,
+    37.558
+   ],
+   "span": 0.11
+  }
+ },
+ "music": [
+  {
+   "id": "drone",
+   "from": "s01",
+   "to": "s07",
+   "volume": 0.2
+  },
+  {
+   "id": "theme",
+   "from": "s08",
+   "to": "s27",
+   "volume": 0.16
+  },
+  {
+   "id": "tension",
+   "from": "s28",
+   "to": "s44",
+   "volume": 0.17
+  },
+  {
+   "id": "march",
+   "from": "s45",
+   "to": "s65",
+   "volume": 0.15
+  },
+  {
+   "id": "tension",
+   "from": "s66",
+   "to": "s75",
+   "volume": 0.17
+  },
+  {
+   "id": "analysis",
+   "from": "s76",
+   "to": "s89",
+   "volume": 0.13
+  },
+  {
+   "id": "somber",
+   "from": "s90",
+   "to": "s93",
+   "volume": 0.17
+  }
+ ],
+ "ai_images": {
+  "tide_dawn": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a vast invasion fleet of 1950 US Navy warships, cruisers, destroyers and LSTs lying in the dark grey sea off Inchon harbor, Korea, at dawn on 15 September 1950, a small rocky fortified island (Wolmi-do) wreathed in smoke ahead, huge glistening mudflats exposed between the ships and the shore, first pale light on the horizon, ominous and tense, leaving calm uncluttered dark background area in the upper left, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "yeongheung_spies": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: night on a small Korean island in the Yellow Sea in early September 1950, a few South Korean naval intelligence men whose heads are round balls painted as the taegukgi flag, in dark civilian fishermen's clothes, crouching on a muddy shore beside a small wooden fishing boat, one measuring water depth with a weighted line, another sketching on a notepad under a shaded lantern, distant harbor lights of Inchon across the water, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "yeongheung_last": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: pre-dawn on a rocky Korean island shore in September 1950, two South Korean naval intelligence men whose heads are round balls painted as the taegukgi flag, in dark civilian clothes, firing rifles from behind rocks to cover a small boat escaping across the water, North Korean soldiers' rifle flashes in the dark hills behind, solemn heroic last stand mood, leaving calm uncluttered dark background area in the upper left, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "lighthouse_night": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a small white stone lighthouse on the summit of a dark rocky island (Palmi-do) off Inchon, Korea, at midnight 15 September 1950, its lamp just switched on and sweeping a bright beam across a black sea, the silhouettes of a long column of warships following the beam through a narrow channel, a few Korean guerrillas whose heads are round balls painted as the taegukgi flag standing by the lighthouse door, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "bombardment_wolmi": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: dawn naval bombardment of a small fortified rocky island (Wolmi-do) at Inchon, Korea, 15 September 1950, US Navy cruisers and destroyers firing broadsides, Marine Corsair fighter planes diving with rockets, the island erupting in fire and black smoke, orange flashes reflected on the grey water, leaving calm uncluttered dark background area in the upper left, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "green_beach": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: US Marines landing at dawn on a small beach of a burning rocky island (Wolmi-do, Green Beach) at Inchon, 15 September 1950, American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1950 US Marine Corps M1 steel helmets with camouflage covers and olive drab herringbone utilities, jumping from landing craft and charging up the sand behind M26 Pershing tanks, smoke and shattered trenches ahead, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "mudflat_wait": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: midday on 15 September 1950, a few American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1950 US Marine Corps M1 steel helmets with camouflage covers and olive drab herringbone utilities sitting in captured trenches on a rocky island (Wolmi-do), looking out across endless shining grey mudflats where the sea has drained away, landing craft stranded far out in the distance, a long empty stone causeway leading to the city of Inchon, anxious waiting mood, leaving calm uncluttered background area in the upper left sky, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "seawall_ladders": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: late afternoon assault on a tall stone seawall at Red Beach, Inchon, 15 September 1950, American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1950 US Marine Corps M1 steel helmets with camouflage covers and olive drab herringbone utilities, climbing wooden scaling ladders from landing craft pressed against the wall, the first men going over the top under machine-gun fire, smoke and orange sunset light, high tide water slapping the wall, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "red_beach_fight": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: dusk on 15 September 1950, American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1950 US Marine Corps M1 steel helmets with camouflage covers and olive drab herringbone utilities fighting up a scrubby hill (Cemetery Hill) above the Inchon waterfront just beyond the seawall, rifles and a light machine gun firing, North Korean defenders fleeing, burning harbor buildings and LST ships beached behind, leaving calm uncluttered dark background area in the upper left, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "t34_dawn": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: foggy dawn on 17 September 1950 on a road through low hills near Bupyeong between Inchon and Seoul, a column of six North Korean T-34/85 tanks carrying infantry rolling into an ambush, the lead tank exploding, American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1950 US Marine Corps M1 steel helmets with camouflage covers and olive drab herringbone utilities firing bazookas and recoilless rifles from a roadside knoll, an M26 Pershing tank firing from the side, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "yeongdeungpo_night": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: night of 21 September 1950 in Yeongdeungpo on the southern edge of Seoul, a company of American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1950 US Marine Corps M1 steel helmets with camouflage covers and olive drab herringbone utilities dug in along a raised dike beside a road, firing bazookas at a T-34 tank emerging from the darkness, burning factory buildings, flares hanging in the sky, leaving calm uncluttered dark background area in the upper left, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "lvt_crossing": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: dawn on 20 September 1950, a line of US Marine LVT amphibious tractors churning across the wide Han River near Haengju toward a steep wooded bank, American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1950 US Marine Corps M1 steel helmets with camouflage covers and olive drab herringbone utilities crouched inside, enemy machine-gun tracers and mortar splashes around them, mist on the river, leaving calm uncluttered background area in the upper right sky, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "yonhui_assault": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: 22-25 September 1950 on a rocky pine-covered hill ridge (Yonhui ridge) on the western edge of Seoul, South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1950 M1 steel helmets and olive drab uniforms and American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1950 US Marine Corps M1 steel helmets with camouflage covers and olive drab herringbone utilities assaulting uphill through smoke against North Korean bunkers and machine-gun nests, mortar bursts, the burning city of Seoul in the hazy background, leaving calm uncluttered dark background area in the upper left, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "barricade": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a wide street in Seoul in late September 1950, a high barricade of stacked rice bags filled with earth blocking the boulevard, a North Korean anti-tank gun and machine gun behind it manned by North Korean soldiers whose heads are round balls painted as the North Korean flag (blue, thin white stripes, wide red band, white circle with red star), wearing 1950 khaki uniforms and soft caps, American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1950 US Marine Corps M1 steel helmets with camouflage covers and olive drab herringbone utilities and an M26 Pershing tank advancing through smoke, burning buildings with tiled roofs on both sides, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "barricade_breach": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an M26 Pershing tank smashing through a rice-bag barricade on a Seoul street in September 1950, Marine combat engineers carefully lifting anti-tank mines from the road in front, American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1950 US Marine Corps M1 steel helmets with camouflage covers and olive drab herringbone utilities moving building to building behind, thick smoke and fire, leaving calm uncluttered dark background area in the upper left, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "capitol_flag": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: dawn on 27 September 1950, the large domed stone capitol building (the old Government-General Building) in Seoul, a few South Korean marines whose heads are round balls painted as the taegukgi flag, wearing 1950 M1 helmets and olive uniforms, raising a large South Korean taegukgi flag on a pole on the rooftop by the dome, smoke drifting over the city, golden morning light, triumphant mood, leaving calm uncluttered background area in the upper right sky, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "seoul_after": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: early autumn 1950 in a ruined Seoul street, Korean civilians whose heads are round balls painted as the taegukgi flag, in white hanbok and simple 1950 clothes, coming out of the rubble waving small South Korean flags, a few tired American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1950 US Marine Corps M1 steel helmets with camouflage covers and olive drab herringbone utilities walking past, burnt tiled-roof buildings and smoke, bittersweet mood, leaving calm uncluttered background area in the upper left sky, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "macarthur_conf": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a tense military conference room in Tokyo in August 1950, a large wall map of Korea with Inchon circled, an older American general whose head is a round ball painted as the United States flag, wearing a crushed peaked cap and khaki uniform and holding a corncob pipe, standing and speaking passionately to a table of seated American admirals and generals whose heads are United States flag balls in navy and army uniforms, cigarette smoke, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters."
+ },
+ "scenes": [
+  {
+   "id": "s01",
+   "lines": [
+    "Dawn, September 15th, 1950. The sea off Inchon, Korea.",
+    "In the darkness, more than two hundred and sixty ships lay waiting in silence, their crews holding their breath."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "tide_dawn",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "callouts": [
+    {
+     "text": "SEPT. 15, 1950 · DAWN OFF INCHON",
+     "style": "yellow",
+     "at": 0
+    }
+   ],
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.3,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "lines": [
+    "But this was a strange and treacherous sea. A sea that vanished twice a day.",
+    "When the tide went out, up to four kilometers of mudflats lay bare in front of the shore."
+   ],
+   "visual": {
+    "type": "profile",
+    "pts": [
+     [
+      0,
+      -6
+     ],
+     [
+      0.3,
+      -4
+     ],
+     [
+      0.55,
+      -1.5
+     ],
+     [
+      0.74,
+      0.3
+     ],
+     [
+      0.8,
+      1.2
+     ],
+     [
+      0.84,
+      5
+     ],
+     [
+      0.86,
+      11.5
+     ],
+     [
+      0.92,
+      13
+     ],
+     [
+      1,
+      14
+     ]
+    ],
+    "grid": [
+     0,
+     5,
+     10
+    ],
+    "yMin": -8,
+    "yMax": 16,
+    "bare": true,
+    "title": "Wolmi-do Tidal Cross-Section",
+    "note": "Schematic (heights exaggerated)",
+    "left": "Seaward",
+    "right": "Seawall · Inchon",
+    "tide": {
+     "from": 9.5,
+     "to": 0.2,
+     "at": 0.4,
+     "dur": 4.5,
+     "hiText": "HIGH TIDE",
+     "loText": "LOW TIDE"
+    },
+    "marks": [
+     {
+      "x": 0.5,
+      "text": "Mudflats up to 4 km",
+      "style": "yellow",
+      "at": 1,
+      "lift": 90,
+      "size": 44
+     }
+    ]
+   }
+  },
+  {
+   "id": "s03",
+   "lines": [
+    "Ships could reach the shore only for two or three hours around high tide.",
+    "Miss that window, and the landing force would be stranded on the mud."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "Window to land",
+    "accent": "TWICE A DAY · 2–3 HRS",
+    "accentAt": 0.4
+   },
+   "pauseBefore": 0.3,
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "lines": [
+    "The man who pushed for this operation: Douglas MacArthur, Commander-in-Chief of the United Nations Command.",
+    "It was a gamble so risky it came to be called a five-thousand-to-one shot."
+   ],
+   "visual": {
+    "type": "person",
+    "q": "s04-photo",
+    "name": "Douglas MacArthur",
+    "years": "1880 - 1964",
+    "role": "Commander-in-Chief, UN Command"
+   },
+   "callouts": [
+    {
+     "text": "'A 5,000-TO-1 GAMBLE' (AS TOLD)",
+     "style": "red",
+     "at": 1,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "lines": [
+    "And the gamble paid off in a single day.",
+    "Yet something strange followed. From Inchon to Seoul was barely thirty kilometers.",
+    "And retaking Seoul would take thirteen full days."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "Inchon → Seoul ~30 km",
+    "accent": "13 DAYS",
+    "accentAt": 2
+   },
+   "pauseBefore": 0.2,
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 2,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s06",
+   "lines": [
+    "For the Marines who crossed the sea, the real hell was waiting in Seoul."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "barricade",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0.5,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s07",
+   "lines": [
+    "The Inchon Landing and the Recapture of Seoul.",
+    "This is the story of a five-thousand-to-one gamble, and thirteen days of street fighting."
+   ],
+   "visual": {
+    "type": "titlecard",
+    "q": "s07-photo",
+    "title": "Inchon & the Recapture of Seoul",
+    "sub": "The 5,000-to-1 Gamble · 1950",
+    "at": 0
+   },
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0,
+     "volume": 0.5
+    }
+   ],
+   "flash": true
+  },
+  {
+   "id": "s08",
+   "lines": [
+    "June 25th, 1950. A surprise North Korean invasion began the war.",
+    "Seoul fell in just three days, and South Korean and American troops were pushed south, and further south, week after week.",
+    "By August, all that remained was a narrow corner east of the Naktong River."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "korea",
+    "items": [
+     {
+      "k": "unit",
+      "p": "seoul",
+      "text": "Seoul Falls · Jun 28",
+      "color": "red",
+      "at": 1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.0,
+        37.5
+       ],
+       [
+        127.3,
+        36.9
+       ],
+       [
+        127.8,
+        36.4
+       ],
+       [
+        128.2,
+        36.0
+       ]
+      ],
+      "color": "red",
+      "at": 1.2,
+      "width": 1.1
+     },
+     {
+      "k": "front",
+      "path": [
+       [
+        128.45,
+        35.17
+       ],
+       [
+        128.43,
+        35.32
+       ],
+       [
+        128.46,
+        35.48
+       ],
+       [
+        128.4,
+        35.63
+       ],
+       [
+        128.41,
+        35.8
+       ],
+       [
+        128.4,
+        35.98
+       ],
+       [
+        128.37,
+        36.15
+       ],
+       [
+        128.45,
+        36.24
+       ],
+       [
+        128.62,
+        36.23
+       ],
+       [
+        128.8,
+        36.17
+       ],
+       [
+        129.0,
+        36.13
+       ],
+       [
+        129.2,
+        36.1
+       ],
+       [
+        129.4,
+        36.08
+       ]
+      ],
+      "at": 2
+     },
+     {
+      "k": "marker",
+      "p": "busan",
+      "color": "blue",
+      "at": 2.4
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "AUG. 1950 · DRIVEN BACK TO THE NAKTONG",
+     "style": "yellow",
+     "at": 2,
+     "pos": "top"
+    }
+   ],
+   "chapter": {
+    "num": "PART 1",
+    "title": "DECISION AT THE BRINK"
+   }
+  },
+  {
+   "id": "s09",
+   "lines": [
+    "This last line, with its back to Pusan, was called the Pusan Perimeter.",
+    "By late August, North Korea was preparing a final all-out offensive to break it.",
+    "One more breach, and South Korea would be pushed into the sea."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "perimeter",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.45,
+        35.17
+       ],
+       [
+        128.43,
+        35.32
+       ],
+       [
+        128.46,
+        35.48
+       ],
+       [
+        128.4,
+        35.63
+       ],
+       [
+        128.41,
+        35.8
+       ],
+       [
+        128.4,
+        35.98
+       ],
+       [
+        128.37,
+        36.15
+       ],
+       [
+        128.45,
+        36.24
+       ],
+       [
+        128.62,
+        36.23
+       ],
+       [
+        128.8,
+        36.17
+       ],
+       [
+        129.0,
+        36.13
+       ],
+       [
+        129.2,
+        36.1
+       ],
+       [
+        129.4,
+        36.08
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "daegu",
+      "color": "blue",
+      "at": 0.3
+     },
+     {
+      "k": "marker",
+      "p": "busan",
+      "color": "blue",
+      "at": 0.5
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.1,
+        35.9
+       ],
+       [
+        128.3,
+        35.88
+       ],
+       [
+        128.45,
+        35.86
+       ]
+      ],
+      "color": "red",
+      "at": 1.2,
+      "width": 1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.2,
+        35.4
+       ],
+       [
+        128.35,
+        35.4
+       ],
+       [
+        128.5,
+        35.42
+       ]
+      ],
+      "color": "red",
+      "at": 1.4,
+      "width": 1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.75,
+        36.45
+       ],
+       [
+        128.78,
+        36.3
+       ],
+       [
+        128.8,
+        36.12
+       ]
+      ],
+      "color": "red",
+      "at": 1.6,
+      "width": 1
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "PUSAN PERIMETER (APPROX.)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "lines": [
+    "On September 1st, North Korea struck along the entire Naktong front.",
+    "From Yongsan to Tabu-dong, from Yongchon to Pohang, the line began to crack.",
+    "The defenders survived only by rushing their last reserves from one breach to the next, day and night."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "perimeter",
+    "to": "perimeter",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.45,
+        35.17
+       ],
+       [
+        128.43,
+        35.32
+       ],
+       [
+        128.46,
+        35.48
+       ],
+       [
+        128.4,
+        35.63
+       ],
+       [
+        128.41,
+        35.8
+       ],
+       [
+        128.4,
+        35.98
+       ],
+       [
+        128.37,
+        36.15
+       ],
+       [
+        128.45,
+        36.24
+       ],
+       [
+        128.62,
+        36.23
+       ],
+       [
+        128.8,
+        36.17
+       ],
+       [
+        129.0,
+        36.13
+       ],
+       [
+        129.2,
+        36.1
+       ],
+       [
+        129.4,
+        36.08
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.2,
+        35.5
+       ],
+       [
+        128.35,
+        35.52
+       ],
+       [
+        128.5,
+        35.53
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.35,
+        36.12
+       ],
+       [
+        128.45,
+        36.05
+       ],
+       [
+        128.55,
+        36.0
+       ]
+      ],
+      "color": "red",
+      "at": 0.5,
+      "width": 1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.85,
+        36.3
+       ],
+       [
+        128.92,
+        36.15
+       ],
+       [
+        128.95,
+        36.02
+       ]
+      ],
+      "color": "red",
+      "at": 0.8,
+      "width": 1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        129.3,
+        36.3
+       ],
+       [
+        129.33,
+        36.17
+       ],
+       [
+        129.35,
+        36.05
+       ]
+      ],
+      "color": "red",
+      "at": 1.1,
+      "width": 1
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "SEPT. 1, 1950 · NORTH KOREAN OFFENSIVE (APPROX.)",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "lines": [
+    "Meanwhile, at UN headquarters in Tokyo, a very different plan was taking shape.",
+    "Land a massive force far behind enemy lines, at the port of Inchon, the gateway to Seoul.",
+    "Its name was Operation Chromite."
+   ],
+   "visual": {
+    "type": "document",
+    "org": "GHQ, FAR EAST COMMAND",
+    "head": "OPERATION CHROMITE",
+    "rows": [
+     "OBJECTIVE: LAND AT INCHON, RETAKE SEOUL",
+     "FORCE: U.S. X CORPS",
+     "  - 1ST MARINE DIV · 7TH INFANTRY DIV",
+     "  - ROK MARINES · ROK 17TH REGT",
+     "D-DAY: 15 SEPTEMBER 1950"
+    ],
+    "note": "Summary reconstruction",
+    "stamp": "DECLASSIFIED"
+   }
+  },
+  {
+   "id": "s12",
+   "lines": [
+    "MacArthur reportedly first imagined this plan just four days into the war.",
+    "Watching Seoul burn from a hill south of the Han, he pictured a blow to the enemy's rear.",
+    "A landing planned in July had to be shelved for lack of troops, but he never let go of Inchon."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s12-photo",
+    "kb": "in"
+   },
+   "label": "MacArthur inspecting the Korean front (1950)"
+  },
+  {
+   "id": "s13",
+   "lines": [
+    "The idea was simple.",
+    "Every North Korean supply line ran south through Seoul.",
+    "Cut that lifeline, and the entire enemy army fighting at the Naktong would be trapped, with no food, no ammunition, and no way home."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "perimeter",
+    "to": "korea",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.45,
+        35.17
+       ],
+       [
+        128.43,
+        35.32
+       ],
+       [
+        128.46,
+        35.48
+       ],
+       [
+        128.4,
+        35.63
+       ],
+       [
+        128.41,
+        35.8
+       ],
+       [
+        128.4,
+        35.98
+       ],
+       [
+        128.37,
+        36.15
+       ],
+       [
+        128.45,
+        36.24
+       ],
+       [
+        128.62,
+        36.23
+       ],
+       [
+        128.8,
+        36.17
+       ],
+       [
+        129.0,
+        36.13
+       ],
+       [
+        129.2,
+        36.1
+       ],
+       [
+        129.4,
+        36.08
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        126.9,
+        38.4
+       ],
+       [
+        126.98,
+        37.57
+       ],
+       [
+        127.2,
+        37.0
+       ],
+       [
+        127.7,
+        36.45
+       ],
+       [
+        128.25,
+        36.0
+       ]
+      ],
+      "color": "red",
+      "at": 0.8
+     },
+     {
+      "k": "unit",
+      "p": "seoul",
+      "text": "Supply Hub · Seoul",
+      "color": "red",
+      "at": 1.2,
+      "pulse": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        129.0,
+        35.0
+       ],
+       [
+        127.6,
+        34.3
+       ],
+       [
+        126.1,
+        34.6
+       ],
+       [
+        125.7,
+        36.2
+       ],
+       [
+        126.25,
+        37.25
+       ],
+       [
+        126.6,
+        37.46
+       ]
+      ],
+      "color": "blue",
+      "at": 2,
+      "width": 1.1,
+      "dur": 2.2
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "HAMMER AND ANVIL · INCHON CONCEPT (APPROX.)",
+     "style": "blue",
+     "at": 2,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "lines": [
+    "But Washington's response was cold.",
+    "On August 23rd, the Army and Navy chiefs of staff flew to Tokyo for a conference.",
+    "One by one, Navy officers reported that Inchon had nearly every natural condition that makes an amphibious landing fail."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s14-photo",
+    "kb": "in"
+   },
+   "label": "MacArthur and his staff (1950)",
+   "callouts": [
+    {
+     "text": "AUG. 23, 1950 · TOKYO CONFERENCE",
+     "style": "yellow",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "lines": [
+    "Tides, mudflats, a narrow channel, a fortress island, and high seawalls.",
+    "Some even proposed a safer landing farther south, on the open beaches near Kunsan."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "NAVY OBJECTIONS",
+     "big": "WORST CONDITIONS",
+     "icon": "none",
+     "color": "red"
+    },
+    "right": {
+     "title": "MACARTHUR",
+     "big": "SO: SURPRISE",
+     "icon": "none",
+     "color": "blue",
+     "at": 1
+    }
+   }
+  },
+  {
+   "id": "s16",
+   "lines": [
+    "MacArthur answered with a long, passionate speech.",
+    "Because everyone believed a landing there was impossible, he argued, the enemy would never be ready for it.",
+    "The room fell silent, and the operation was approved.",
+    "D-Day was September 15th. Barely three weeks away."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "macarthur_conf",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s17",
+   "lines": [
+    "Why was Inchon so dangerous? The map tells the story.",
+    "From the open sea to Inchon harbor, there was only one narrow channel between islands and shoals.",
+    "Its name: Flying Fish Channel."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "bay",
+    "zoom": 1,
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.38,
+        37.22
+       ],
+       [
+        126.46,
+        37.3
+       ],
+       [
+        126.505,
+        37.35
+       ],
+       [
+        126.54,
+        37.4
+       ],
+       [
+        126.57,
+        37.44
+       ],
+       [
+        126.592,
+        37.468
+       ]
+      ],
+      "color": "blue",
+      "at": 1,
+      "glow": true
+     },
+     {
+      "k": "marker",
+      "p": "palmido",
+      "color": "dark",
+      "at": 1.5
+     },
+     {
+      "k": "unit",
+      "p": "wolmi",
+      "text": "Wolmi-do",
+      "color": "red",
+      "at": 1.6
+     },
+     {
+      "k": "marker",
+      "p": "yeongheung",
+      "color": "dark",
+      "at": 2
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "FLYING FISH CHANNEL (APPROX.)",
+     "style": "blue",
+     "at": 1,
+     "pos": "top"
+    }
+   ],
+   "chapter": {
+    "num": "PART 2",
+    "title": "THE 5,000-TO-1 ODDS"
+   }
+  },
+  {
+   "id": "s18",
+   "lines": [
+    "Currents reached up to eight knots, nearly fifteen kilometers an hour.",
+    "One sunken ship or a single mine in that channel could leave the whole fleet behind it stranded and helpless."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "bay",
+    "to": "channel",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.38,
+        37.22
+       ],
+       [
+        126.46,
+        37.3
+       ],
+       [
+        126.505,
+        37.35
+       ],
+       [
+        126.54,
+        37.4
+       ],
+       [
+        126.57,
+        37.44
+       ],
+       [
+        126.592,
+        37.468
+       ]
+      ],
+      "color": "blue",
+      "at": 0,
+      "glow": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.44,
+        37.28
+       ],
+       [
+        126.49,
+        37.335
+       ],
+       [
+        126.53,
+        37.39
+       ]
+      ],
+      "color": "red",
+      "at": 0.3,
+      "width": 0.8
+     },
+     {
+      "k": "marker",
+      "p": "palmido",
+      "color": "dark",
+      "at": 0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "CURRENTS 3–8 KNOTS (SOURCES VARY)",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s19",
+   "lines": [
+    "But the greatest enemy was the sea itself. The tidal range reached about nine meters.",
+    "That's like the height of a three-story building, rising and falling twice a day.",
+    "At low tide, landing craft stuck fast in the mud, and the men inside became easy targets on open ground."
+   ],
+   "visual": {
+    "type": "profile",
+    "pts": [
+     [
+      0,
+      -6
+     ],
+     [
+      0.3,
+      -4
+     ],
+     [
+      0.55,
+      -1.5
+     ],
+     [
+      0.74,
+      0.3
+     ],
+     [
+      0.8,
+      1.2
+     ],
+     [
+      0.84,
+      5
+     ],
+     [
+      0.86,
+      11.5
+     ],
+     [
+      0.92,
+      13
+     ],
+     [
+      1,
+      14
+     ]
+    ],
+    "grid": [
+     0,
+     5,
+     10
+    ],
+    "yMin": -8,
+    "yMax": 16,
+    "bare": true,
+    "title": "Inchon Tidal Cross-Section",
+    "note": "Schematic · range: ~9 m (Korean sources) / Sept. 15 predicted high tide 31.5 ft (USMC)",
+    "left": "Seaward",
+    "right": "Seawall",
+    "tide": {
+     "from": 0.2,
+     "to": 9.2,
+     "at": 0,
+     "dur": 5,
+     "hiText": "HIGH TIDE",
+     "loText": "LOW TIDE"
+    },
+    "marks": [
+     {
+      "x": 0.5,
+      "text": "Tidal range up to ~9 m",
+      "style": "yellow",
+      "at": 1,
+      "lift": 130,
+      "size": 44
+     }
+    ]
+   }
+  },
+  {
+   "id": "s20",
+   "lines": [
+    "Only a few days a month brought tides high enough to reach the seawalls.",
+    "Miss September 15th, and the next chance came in mid-October, when the cold was setting in."
+   ],
+   "visual": {
+    "type": "timeline",
+    "items": [
+     {
+      "date": "Around Sep 15",
+      "text": "D-DAY",
+      "at": 0
+     },
+     {
+      "date": "Mid-October",
+      "text": "NEXT CHANCE",
+      "at": 1
+     },
+     {
+      "date": "Early November",
+      "text": "AFTER THAT",
+      "at": 1.5
+     }
+    ]
+   }
+  },
+  {
+   "id": "s21",
+   "lines": [
+    "And right in front of the harbor stood a fortress island: Wolmi-do.",
+    "Unless Wolmi-do fell first, the main force would expose its flank the moment it entered the port."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "channel",
+    "to": "incheon",
+    "items": [
+     {
+      "k": "unit",
+      "p": "wolmi",
+      "text": "Wolmi-do",
+      "color": "red",
+      "at": 0.3,
+      "pulse": true
+     },
+     {
+      "k": "marker",
+      "p": "inchon",
+      "color": "dark",
+      "at": 0.6
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "WOLMI-DO · NORTH KOREAN BATTERIES (APPROX.)",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s22",
+   "lines": [
+    "But between the attack on Wolmi-do and the main landing, the ebb tide left a gap of nearly twelve hours.",
+    "Wolmi-do would be taken on the morning tide, and the main force would land only on the evening tide.",
+    "That was more than enough time for the enemy to guess exactly where the main landing would come, and to rush in reinforcements."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "~12-HOUR GAP",
+    "style": "red",
+    "sub": "Morning tide → Wolmi-do · Evening tide → Inchon beaches",
+    "subAt": 1
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s23",
+   "lines": [
+    "Deceiving the enemy mattered just as much.",
+    "UN forces bombed and shelled Kunsan and the east coast, faking landings elsewhere.",
+    "Two days before the landing, destroyers sailed right up to Wolmi-do to draw the enemy's fire.",
+    "The moment those guns fired back, their carefully hidden positions were revealed, and the warships destroyed them."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "bay",
+    "items": [
+     {
+      "k": "marker",
+      "p": "kunsan",
+      "color": "dark",
+      "at": 0.6
+     },
+     {
+      "k": "unit",
+      "p": "wolmi",
+      "text": "Wolmi-do",
+      "color": "red",
+      "at": 2,
+      "pulse": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.45,
+        37.33
+       ],
+       [
+        126.52,
+        37.39
+       ],
+       [
+        126.575,
+        37.455
+       ]
+      ],
+      "color": "blue",
+      "at": 2.2,
+      "width": 0.8
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "FEINTS · DESTROYERS AS BAIT (APPROX.)",
+     "style": "blue",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s24",
+   "lines": [
+    "So before the landing, someone had to go into those waters first.",
+    "In mid-August, South Korean naval intelligence agents, disguised as fishermen, slipped onto Yonghung-do island.",
+    "Water depth, mud firmness, gun positions, seawall heights. They measured it all by hand."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "yeongheung_spies",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "callouts": [
+    {
+     "text": "AUG.–SEPT. 1950 · YONGHUNG-DO INTELLIGENCE MISSION",
+     "style": "yellow",
+     "at": 1
+    }
+   ]
+  },
+  {
+   "id": "s25",
+   "lines": [
+    "From September 1st, U.S. Navy Lieutenant Eugene Clark's team also operated from the island.",
+    "Night after night, their reports filled in Tokyo's invasion maps, piece by piece, and the plan took shape."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "bay",
+    "to": "bay",
+    "items": [
+     {
+      "k": "unit",
+      "p": "yeongheung",
+      "text": "Yonghung-do Spy Base",
+      "color": "blue",
+      "at": 0,
+      "pulse": true
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        126.38,
+        37.22
+       ],
+       [
+        126.46,
+        37.3
+       ],
+       [
+        126.505,
+        37.35
+       ],
+       [
+        126.54,
+        37.4
+       ],
+       [
+        126.57,
+        37.44
+       ],
+       [
+        126.592,
+        37.468
+       ]
+      ],
+      "color": "blue",
+      "at": 0.5
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.49,
+        37.27
+       ],
+       [
+        126.53,
+        37.36
+       ],
+       [
+        126.585,
+        37.465
+       ]
+      ],
+      "color": "blue",
+      "at": 1,
+      "width": 0.7
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "YONGHUNG-DO → INCHON RECON (APPROX.)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s26",
+   "lines": [
+    "But on September 14th, one day before the landing, North Korean troops raided Yonghung-do.",
+    "Lieutenant Im Byeong-rae and Petty Officer Hong Si-uk stayed behind to cover their comrades' escape.",
+    "Refusing to be taken prisoner, both men met their end on that island."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "yeongheung_last",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "callouts": [
+    {
+     "text": "SEPT. 14, 1950 · LT. IM BYEONG-RAE & PO HONG SI-UK KILLED",
+     "style": "red",
+     "at": 1
+    }
+   ]
+  },
+  {
+   "id": "s27",
+   "lines": [
+    "Then, around midnight on September 15th, the dark Palmi-do lighthouse blazed to life.",
+    "Agents had climbed the island and relit it, and its beam guided the fleet into the narrow channel.",
+    "Now, the hour of no return was approaching."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "lighthouse_night",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "callouts": [
+    {
+     "text": "~MIDNIGHT, SEPT. 15 · PALMI-DO LIGHTHOUSE RELIT",
+     "style": "yellow",
+     "at": 0
+    }
+   ],
+   "tail": 0.4
+  },
+  {
+   "id": "s28",
+   "lines": [
+    "At dawn on September 15th, the fleet's guns opened up on Wolmi-do.",
+    "After several days of bombing and napalm, the little island was already a burning mountain of shattered rock.",
+    "Cruisers, destroyers, and Marine Corsair fighters took turns pounding it."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "bombardment_wolmi",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "callouts": [
+    {
+     "text": "DAWN, SEPT. 15 · WOLMI-DO BOMBARDMENT",
+     "style": "red",
+     "at": 0
+    }
+   ],
+   "chapter": {
+    "num": "PART 3",
+    "title": "WOLMI-DO, 06:33"
+   },
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0,
+     "volume": 0.45
+    },
+    {
+     "id": "boom",
+     "at": 0.8,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s29",
+   "lines": [
+    "On the bridge of the flagship Mount McKinley stood the seventy-year-old MacArthur.",
+    "Watching through his binoculars, he knew the first card of his great gamble was about to be played."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s29-photo",
+    "kb": "in"
+   },
+   "label": "MacArthur aboard USS Mount McKinley (Sept. 1950)"
+  },
+  {
+   "id": "s30",
+   "lines": [
+    "At 6:33 a.m., the 3rd Battalion, 5th Marines, landed on Wolmi-do's northwest shore.",
+    "On the invasion maps, it was marked in green: Green Beach.",
+    "Nine M26 Pershing tanks came ashore with them."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "incheon",
+    "to": "wolmi",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.575,
+        37.492
+       ],
+       [
+        126.585,
+        37.485
+       ],
+       [
+        126.592,
+        37.48
+       ]
+      ],
+      "color": "blue",
+      "at": 0.1,
+      "width": 1.1
+     },
+     {
+      "k": "unit",
+      "p": "green",
+      "text": "Green Beach",
+      "color": "blue",
+      "at": 0.6,
+      "pulse": true
+     },
+     {
+      "k": "badge",
+      "p": [
+       126.6,
+       37.4745
+      ],
+      "text": "3rd Bn, 5th Marines",
+      "color": "blue",
+      "at": 1,
+      "dy": 70
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "06:33 · GREEN BEACH LANDING",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "charge",
+     "at": 0.2,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s31",
+   "lines": [
+    "Stunned by the bombardment, the North Korean positions collapsed faster than expected.",
+    "At 6:55, just twenty-two minutes after landing, Marines planted the Stars and Stripes on the summit."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "green_beach",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "callouts": [
+    {
+     "text": "06:55 · SUMMIT TAKEN",
+     "style": "blue",
+     "at": 1
+    }
+   ]
+  },
+  {
+   "id": "s32",
+   "lines": [
+    "By about eight o'clock, Wolmi-do was completely in Marine hands.",
+    "Over a hundred North Koreans were killed and a hundred thirty-six captured. Not a single Marine was killed."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "MARINES KILLED",
+     "big": "0",
+     "icon": "none",
+     "color": "blue"
+    },
+    "right": {
+     "title": "NK PRISONERS",
+     "big": "136",
+     "icon": "none",
+     "color": "red",
+     "at": 1
+    }
+   }
+  },
+  {
+   "id": "s33",
+   "lines": [
+    "Prisoners revealed the island had been held by a coastal artillery regiment and part of a marine regiment.",
+    "The defenders of Inchon itself appeared to number fewer than two thousand.",
+    "And the enemy still wasn't even sure whether this was the real landing, or just another feint."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s33-photo",
+    "kb": "in"
+   },
+   "label": "North Korean prisoners at Inchon (Sept. 1950)"
+  },
+  {
+   "id": "s34",
+   "lines": [
+    "But the triumph was brief. The sea began draining away fast.",
+    "Between Wolmi-do and the harbor, an endless plain of mud appeared."
+   ],
+   "visual": {
+    "type": "profile",
+    "pts": [
+     [
+      0,
+      -6
+     ],
+     [
+      0.3,
+      -4
+     ],
+     [
+      0.55,
+      -1.5
+     ],
+     [
+      0.74,
+      0.3
+     ],
+     [
+      0.8,
+      1.2
+     ],
+     [
+      0.84,
+      5
+     ],
+     [
+      0.86,
+      11.5
+     ],
+     [
+      0.92,
+      13
+     ],
+     [
+      1,
+      14
+     ]
+    ],
+    "grid": [
+     0,
+     5,
+     10
+    ],
+    "yMin": -8,
+    "yMax": 16,
+    "bare": true,
+    "title": "Morning → Noon · Ebb Tide",
+    "note": "Schematic · heights exaggerated",
+    "left": "Wolmi-do side",
+    "right": "Inchon seawall",
+    "tide": {
+     "from": 9.2,
+     "to": 0.2,
+     "at": 0,
+     "dur": 5,
+     "hiText": "HIGH TIDE",
+     "loText": "LOW TIDE"
+    }
+   }
+  },
+  {
+   "id": "s35",
+   "lines": [
+    "The Marine battalion on the island was now cut off, alone, without the main force.",
+    "Had the enemy rolled tanks across the causeway, they could have been trapped.",
+    "And so began the long, long wait for the evening tide."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "mudflat_wait",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s36",
+   "lines": [
+    "In the afternoon, the sea began rising again.",
+    "Around 5:30 p.m., landing craft raced toward the Inchon shore in two waves.",
+    "The 5th Marines at Red Beach to the north, the 1st Marines at Blue Beach to the south."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "wolmi",
+    "to": "incheon",
+    "items": [
+     {
+      "k": "unit",
+      "p": "wolmi",
+      "text": "Wolmi-do",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.6,
+        37.492
+       ],
+       [
+        126.607,
+        37.487
+       ],
+       [
+        126.612,
+        37.482
+       ]
+      ],
+      "color": "blue",
+      "at": 1,
+      "width": 1.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.6,
+        37.44
+       ],
+       [
+        126.62,
+        37.446
+       ],
+       [
+        126.635,
+        37.451
+       ]
+      ],
+      "color": "blue",
+      "at": 1.2,
+      "width": 1.1
+     },
+     {
+      "k": "badge",
+      "p": "red",
+      "text": "Red Beach · 5th Marines",
+      "color": "red",
+      "at": 2,
+      "dy": -70
+     },
+     {
+      "k": "badge",
+      "p": "blue",
+      "text": "Blue Beach · 1st Marines",
+      "color": "blue",
+      "at": 2.3,
+      "dy": 70
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "~17:30, SEPT. 15 · MAIN LANDING",
+     "style": "yellow",
+     "at": 1,
+     "pos": "top"
+    }
+   ],
+   "chapter": {
+    "num": "PART 4",
+    "title": "OVER THE TIDAL WALL"
+   },
+   "sfx": [
+    {
+     "id": "charge",
+     "at": 1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s37",
+   "lines": [
+    "Red Beach was no beach at all. It was a stone seawall taller than a man.",
+    "The Marines had to throw ladders against it from their boats and climb.",
+    "And just beyond that wall, North Korean machine guns and grenades were waiting for them."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "seawall_ladders",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s38",
+   "lines": [
+    "This photograph was actually taken at Red Beach that day.",
+    "The man going over the wall at the top of the ladder is platoon leader, First Lieutenant Baldomero Lopez.",
+    "Minutes later, wounded and unable to throw a grenade, he smothered it with his own body to save his men."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s38-photo",
+    "kb": "in"
+   },
+   "label": "Lt. Lopez scaling the Red Beach seawall (Sept. 15, 1950)",
+   "callouts": [
+    {
+     "text": "1ST LT. LOPEZ · MEDAL OF HONOR (POSTHUMOUS)",
+     "style": "dark",
+     "at": 2,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s39",
+   "lines": [
+    "Before sunset, the Marines took Cemetery Hill and Observatory Hill behind the beach.",
+    "By nightfall, a solid beachhead stood atop the seawall, and more men and guns were pouring ashore."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "red_beach_fight",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s40",
+   "lines": [
+    "South Korean Marines were also at Red Beach.",
+    "Back to reclaim their homeland, they swept into Inchon's streets, hunting down hidden enemy troops.",
+    "Their fight, begun on this shore, would carry them into the heart of Seoul thirteen days later."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s40-photo",
+    "kb": "in"
+   },
+   "label": "ROK Marines in the Inchon landing (Sept. 1950)"
+  },
+  {
+   "id": "s41",
+   "lines": [
+    "At Blue Beach to the south, the Marines met a different enemy.",
+    "Smoke, darkness, and mud that gripped their ankles.",
+    "Some boats landed in the wrong places, but the 1st Marines fought their way ashore."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "incheon",
+    "to": "incheon",
+    "zoom": 1.4,
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.6,
+        37.44
+       ],
+       [
+        126.62,
+        37.446
+       ],
+       [
+        126.635,
+        37.451
+       ]
+      ],
+      "color": "blue",
+      "at": 0,
+      "width": 1.1
+     },
+     {
+      "k": "unit",
+      "p": "blue",
+      "text": "Blue Beach",
+      "color": "blue",
+      "at": 0.3,
+      "pulse": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.638,
+        37.452
+       ],
+       [
+        126.65,
+        37.46
+       ],
+       [
+        126.665,
+        37.468
+       ]
+      ],
+      "color": "blue",
+      "at": 2,
+      "width": 0.9
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "BLUE BEACH · 1ST MARINES (COL. PULLER)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s42",
+   "lines": [
+    "That evening, eight big LST landing ships deliberately ran aground at Red Beach.",
+    "Knowing the ebb tide would trap them in the mud, they unloaded ammunition and gear all night."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s42-photo",
+    "kb": "in"
+   },
+   "label": "LSTs beached at Inchon (Sept. 1950)"
+  },
+  {
+   "id": "s43",
+   "lines": [
+    "On the first day, twenty-one UN troops were killed.",
+    "Far fewer than the planners had feared for such a dangerous landing. Almost unbelievably few."
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "Sept. 15 only · Korean sources (figures vary)",
+    "items": [
+     {
+      "label": "Killed",
+      "value": 21,
+      "display": "21",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "label": "Missing",
+      "value": 1,
+      "display": "1",
+      "color": "red",
+      "at": 0.3
+     },
+     {
+      "label": "Wounded",
+      "value": 174,
+      "display": "174",
+      "color": "blue",
+      "at": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "s44",
+   "lines": [
+    "The next day, September 16th, ROK Marines cleared the last enemy troops from Inchon.",
+    "In just one day, the five-thousand-to-one gamble had turned the tide of the entire war.",
+    "But the road ahead to Seoul would prove far rougher, and far bloodier, than the sea."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "incheon",
+    "to": "corridor",
+    "items": [
+     {
+      "k": "unit",
+      "p": "inchon",
+      "text": "Inchon Secured · Sep 16",
+      "color": "blue",
+      "at": 0.2
+     },
+     {
+      "k": "unit",
+      "p": "seoul",
+      "text": "Seoul",
+      "color": "red",
+      "at": 2,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "SEPT. 16, 1950 · INCHON SECURED",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "tail": 0.4
+  },
+  {
+   "id": "s45",
+   "lines": [
+    "From Inchon, two roads led to Seoul.",
+    "The 5th Marines headed north to Kimpo Airfield. The 1st Marines drove down the highway toward Yongdungpo.",
+    "They had to reach the Han River before North Korea could reinforce the defenses of Seoul."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "corridor",
+    "to": "corridor",
+    "items": [
+     {
+      "k": "marker",
+      "p": "inchon",
+      "color": "dark",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.65,
+        37.48
+       ],
+       [
+        126.7,
+        37.51
+       ],
+       [
+        126.75,
+        37.54
+       ],
+       [
+        126.79,
+        37.556
+       ]
+      ],
+      "color": "blue",
+      "at": 1,
+      "width": 1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.65,
+        37.47
+       ],
+       [
+        126.72,
+        37.495
+       ],
+       [
+        126.8,
+        37.505
+       ],
+       [
+        126.895,
+        37.515
+       ]
+      ],
+      "color": "blue",
+      "at": 1.3,
+      "width": 1
+     },
+     {
+      "k": "unit",
+      "p": "kimpo",
+      "text": "Kimpo Airfield",
+      "color": "red",
+      "at": 1.6
+     },
+     {
+      "k": "unit",
+      "p": "ydp",
+      "text": "Yongdungpo",
+      "color": "red",
+      "at": 1.8
+     },
+     {
+      "k": "marker",
+      "p": "ascom",
+      "color": "dark",
+      "at": 1.4
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "INCHON → ASCOM CITY → YONGDUNGPO (APPROX.)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "chapter": {
+    "num": "PART 5",
+    "title": "BLOOD ON THE SEOUL HIGHWAY"
+   }
+  },
+  {
+   "id": "s46",
+   "lines": [
+    "Dawn, September 17th. A pass near Ascom City.",
+    "Out of the fog came six North Korean T-34 tanks, carrying infantry.",
+    "They had no idea that Marines were lying in wait on the low hill just ahead of them."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "t34_dawn",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "callouts": [
+    {
+     "text": "DAWN, SEPT. 17 · NEAR ASCOM CITY",
+     "style": "red",
+     "at": 0
+    }
+   ],
+   "sfx": [
+    {
+     "id": "tank",
+     "at": 0.6,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s47",
+   "lines": [
+    "The Marines waited until the tanks were right on top of them.",
+    "Then bazookas, recoilless rifles, and the Pershings' 90-millimeter guns all fired at once.",
+    "Within minutes, all six T-34s were in flames."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "corridor",
+    "to": "ascom",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.77,
+        37.52
+       ],
+       [
+        126.745,
+        37.512
+       ],
+       [
+        126.72,
+        37.506
+       ]
+      ],
+      "color": "red",
+      "at": 0,
+      "width": 1
+     },
+     {
+      "k": "unit",
+      "p": "ascom",
+      "text": "Dog Co., 5th Marines Ambush",
+      "color": "blue",
+      "at": 0.5,
+      "pulse": true
+     },
+     {
+      "k": "badge",
+      "p": [
+       126.73,
+       37.508
+      ],
+      "text": "6 T-34s Destroyed",
+      "color": "red",
+      "at": 2,
+      "dy": -80
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "AMBUSH AT ASCOM CITY (APPROX.)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 1.2,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s48",
+   "lines": [
+    "About two hundred North Korean infantry fell with them, while the records list just one Marine wounded."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "6 T-34s DESTROYED",
+    "style": "red",
+    "sub": "Dawn, Sept. 17 · ~200 NK infantry (USMC records)",
+    "subAt": 0
+   }
+  },
+  {
+   "id": "s49",
+   "lines": [
+    "That day, MacArthur came ashore at Inchon to see the front himself.",
+    "Standing on that still-smoking road beside the burnt-out tanks, he urged a faster drive on Seoul."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s49-photo",
+    "kb": "in"
+   },
+   "label": "MacArthur and Col. Puller at the front (Sept. 17, 1950)"
+  },
+  {
+   "id": "s50",
+   "lines": [
+    "On the morning of September 18th, the 5th Marines took Kimpo Airfield.",
+    "Transport planes began landing almost at once, opening a supply route to Seoul by air."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "corridor",
+    "to": "han",
+    "items": [
+     {
+      "k": "unit",
+      "p": "kimpo",
+      "text": "Kimpo Secured",
+      "color": "blue",
+      "at": 0.3,
+      "pulse": true
+     },
+     {
+      "k": "unit",
+      "p": "ydp",
+      "text": "Yongdungpo",
+      "color": "red",
+      "at": 1
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "SEPT. 18, 1950 · KIMPO SECURED",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s51",
+   "lines": [
+    "The North Koreans didn't give up easily.",
+    "Through that night and dawn, they launched counterattack after counterattack to retake the runway.",
+    "But the Marines threw back every one from their foxholes, and the enemy fell back toward the Han."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "han",
+    "to": "han",
+    "zoom": 1.4,
+    "items": [
+     {
+      "k": "unit",
+      "p": "kimpo",
+      "text": "Kimpo Airfield",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.78,
+        37.6
+       ],
+       [
+        126.787,
+        37.58
+       ],
+       [
+        126.792,
+        37.565
+       ]
+      ],
+      "color": "red",
+      "at": 1,
+      "width": 0.9
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.82,
+        37.545
+       ],
+       [
+        126.808,
+        37.552
+       ],
+       [
+        126.799,
+        37.557
+       ]
+      ],
+      "color": "red",
+      "at": 1.3,
+      "width": 0.9
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "SEPT. 17–18 · KIMPO COUNTERATTACKS REPULSED",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s52",
+   "lines": [
+    "Meanwhile, on the highway, the 1st Marines were stopped in front of Yongdungpo.",
+    "Yongdungpo was Seoul's southern gateway, and the enemy had made it a fortress.",
+    "Across the stream dikes, fierce fighting raged for more than two days."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "han",
+    "to": "han",
+    "zoom": 1.5,
+    "items": [
+     {
+      "k": "unit",
+      "p": "ydp",
+      "text": "Yongdungpo",
+      "color": "red",
+      "at": 0,
+      "pulse": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.82,
+        37.5
+       ],
+       [
+        126.85,
+        37.508
+       ],
+       [
+        126.88,
+        37.513
+       ]
+      ],
+      "color": "blue",
+      "at": 0.6,
+      "width": 1
+     },
+     {
+      "k": "badge",
+      "p": [
+       126.86,
+       37.495
+      ],
+      "text": "1st Marines",
+      "color": "blue",
+      "at": 0.8,
+      "dy": 70
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "SEPT. 20–22 · BATTLE OF YONGDUNGPO",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s53",
+   "lines": [
+    "On September 21st, Captain Robert Barrow's Able Company slipped through a gap into the heart of Yongdungpo.",
+    "That night, five T-34 tanks rolled toward them.",
+    "Cut off, the company fought back with bazookas and beat off five assaults through the night."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "yeongdeungpo_night",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "callouts": [
+    {
+     "text": "NIGHT, SEPT. 21 · A CO., 1ST MARINES",
+     "style": "blue",
+     "at": 0
+    }
+   ],
+   "sfx": [
+    {
+     "id": "tank",
+     "at": 1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s54",
+   "lines": [
+    "At daybreak, some two hundred North Korean dead lay in front of their position.",
+    "On September 22nd, Yongdungpo finally fell to the Marines.",
+    "Now only one great obstacle stood between the Marines and Seoul: the wide Han River."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "han",
+    "to": "seoul",
+    "items": [
+     {
+      "k": "unit",
+      "p": "ydp",
+      "text": "Yongdungpo Taken · Sep 22",
+      "color": "blue",
+      "at": 1
+     },
+     {
+      "k": "unit",
+      "p": "seoul",
+      "text": "Seoul",
+      "color": "red",
+      "at": 2,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "SEPT. 22, 1950 · YONGDUNGPO TAKEN",
+     "style": "blue",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s55",
+   "lines": [
+    "Most of the Han River bridges had been destroyed early in the war.",
+    "The only way into the capital was straight across the water, under the enemy's guns."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "seoul",
+    "to": "han",
+    "items": [
+     {
+      "k": "unit",
+      "p": "seoul",
+      "text": "Seoul",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "haengju",
+      "color": "dark",
+      "at": 1
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "HAN RIVER · MOST BRIDGES DOWN",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "chapter": {
+    "num": "PART 6",
+    "title": "CROSSING THE HAN"
+   }
+  },
+  {
+   "id": "s56",
+   "lines": [
+    "On the night of September 19th, Marine reconnaissance swimmers crossed first near Haengju.",
+    "But machine guns opened up from the far bank, and the scouts had to pull back."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "han",
+    "to": "haengju",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.815,
+        37.578
+       ],
+       [
+        126.825,
+        37.586
+       ],
+       [
+        126.832,
+        37.592
+       ]
+      ],
+      "color": "blue",
+      "at": 0.2,
+      "width": 0.8
+     },
+     {
+      "k": "unit",
+      "p": "hill125",
+      "text": "Hill 125",
+      "color": "red",
+      "at": 1,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "NIGHT, SEPT. 19 · RECON CROSSING FAILS",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s57",
+   "lines": [
+    "The next morning at 6:45, the 5th Marines climbed into LVT amphibious tractors.",
+    "The same vehicles that had crossed the sea at Inchon now charged across the river.",
+    "During the crossing, the tractors took more than two hundred hits."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "lvt_crossing",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "callouts": [
+    {
+     "text": "06:45, SEPT. 20 · 5TH MARINES CROSS BY LVT",
+     "style": "blue",
+     "at": 0
+    }
+   ],
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 1.5,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s58",
+   "lines": [
+    "The Marines stormed Hill 125 across the river and took it by 9:40 a.m.",
+    "Taking that one hill cost a single company forty-three casualties.",
+    "By that afternoon, a solid bridgehead stood firmly on the north bank of the Han."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "haengju",
+    "to": "han",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.815,
+        37.575
+       ],
+       [
+        126.83,
+        37.585
+       ],
+       [
+        126.84,
+        37.586
+       ]
+      ],
+      "color": "blue",
+      "at": 0,
+      "width": 1.1
+     },
+     {
+      "k": "unit",
+      "p": "hill125",
+      "text": "Hill 125 Taken",
+      "color": "blue",
+      "at": 0.5
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.845,
+        37.588
+       ],
+       [
+        126.88,
+        37.585
+       ],
+       [
+        126.915,
+        37.578
+       ]
+      ],
+      "color": "blue",
+      "at": 2,
+      "width": 1
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "09:40 · HILL 125 TAKEN",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s59",
+   "lines": [
+    "ROK Marine battalions crossed alongside the 5th Marines.",
+    "On the 21st, the newly arrived 7th Marines landed at Inchon and rushed to the front.",
+    "Day by day, the bridgehead north of the Han grew."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "han",
+    "to": "han",
+    "items": [
+     {
+      "k": "unit",
+      "p": "hill125",
+      "text": "North Bank Bridgehead",
+      "color": "blue",
+      "at": 0,
+      "pulse": true
+     },
+     {
+      "k": "badge",
+      "p": [
+       126.86,
+       37.6
+      ],
+      "text": "5th Marines · ROK Marines",
+      "color": "blue",
+      "at": 0.3,
+      "dy": -70
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.66,
+        37.48
+       ],
+       [
+        126.73,
+        37.53
+       ],
+       [
+        126.8,
+        37.575
+       ],
+       [
+        126.83,
+        37.59
+       ]
+      ],
+      "color": "blue",
+      "at": 1,
+      "width": 0.9
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "SEPT. 20–21 · BRIDGEHEAD EXPANDS (APPROX.)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s60",
+   "lines": [
+    "But at Seoul's western edge, the enemy was waiting.",
+    "A chain of low hills ran from Ansan through Yonhui to Wau-san.",
+    "Along this ridge, North Korea dug in and built its last line of defense for the capital."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "han",
+    "to": "west",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.946,
+        37.586
+       ],
+       [
+        126.944,
+        37.577
+       ],
+       [
+        126.937,
+        37.571
+       ],
+       [
+        126.932,
+        37.566
+       ],
+       [
+        126.929,
+        37.559
+       ],
+       [
+        126.928,
+        37.551
+       ],
+       [
+        126.931,
+        37.543
+       ]
+      ],
+      "color": "red",
+      "at": 0.5,
+      "glow": true
+     },
+     {
+      "k": "unit",
+      "p": "ansan",
+      "text": "Ansan (Hill 296)",
+      "color": "red",
+      "at": 1
+     },
+     {
+      "k": "unit",
+      "p": "yonhui",
+      "text": "Yonhui Ridge (Hill 104)",
+      "color": "red",
+      "at": 1.3
+     },
+     {
+      "k": "unit",
+      "p": "wausan",
+      "text": "Wau-san",
+      "color": "red",
+      "at": 1.6
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "NK WESTERN DEFENSE LINE OF SEOUL (APPROX.)",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s61",
+   "lines": [
+    "At first, Seoul's defenders were thought to number around five thousand.",
+    "But with the 18th Division turned back from the Naktong, they swelled to over twenty thousand."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "PRE-LANDING ESTIMATE",
+     "big": "~5,000",
+     "icon": "none",
+     "color": "blue"
+    },
+    "right": {
+     "title": "AFTER REINFORCEMENT",
+     "big": "20,000+",
+     "icon": "none",
+     "color": "red",
+     "at": 1
+    }
+   }
+  },
+  {
+   "id": "s62",
+   "lines": [
+    "Ansan, the highest, stood two hundred ninety-six meters. Yonhui Ridge below it, one hundred four.",
+    "They were not high, but they looked down over open rice paddies and streets below. A natural fortress."
+   ],
+   "visual": {
+    "type": "profile",
+    "pts": [
+     [
+      0,
+      30
+     ],
+     [
+      0.12,
+      60
+     ],
+     [
+      0.25,
+      296
+     ],
+     [
+      0.38,
+      150
+     ],
+     [
+      0.5,
+      104
+     ],
+     [
+      0.6,
+      70
+     ],
+     [
+      0.72,
+      95
+     ],
+     [
+      0.85,
+      45
+     ],
+     [
+      1,
+      20
+     ]
+    ],
+    "grid": [
+     100,
+     200,
+     300
+    ],
+    "yMin": 0,
+    "yMax": 340,
+    "title": "Seoul Western Ridge Cross-Section",
+    "note": "Schematic (heights exaggerated)",
+    "left": "N · Muak Pass",
+    "right": "S · Han River",
+    "marks": [
+     {
+      "x": 0.25,
+      "text": "Ansan 296 m",
+      "style": "red",
+      "at": 0,
+      "lift": 80,
+      "size": 40
+     },
+     {
+      "x": 0.5,
+      "text": "Yonhui 104 m",
+      "style": "red",
+      "at": 0.5,
+      "lift": 90,
+      "size": 40
+     },
+     {
+      "x": 0.72,
+      "text": "Wau-san",
+      "style": "dark",
+      "at": 1,
+      "lift": 80,
+      "size": 36
+     }
+    ],
+    "arrows": [
+     {
+      "from": 0.98,
+      "to": 0.62,
+      "color": "blue",
+      "at": 1,
+      "lift": 70
+     }
+    ]
+   }
+  },
+  {
+   "id": "s63",
+   "lines": [
+    "From September 22nd, U.S. and South Korean Marines hit this ridge head-on.",
+    "Bunkers laced with machine guns and mortars changed hands again and again.",
+    "The ROK Marines' 1st Battalion, assigned to Hill 104, paid a heavy price."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "yonhui_assault",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "callouts": [
+    {
+     "text": "SEPT. 22–25 · BATTLE OF YONHUI RIDGE",
+     "style": "red",
+     "at": 0
+    }
+   ],
+   "sfx": [
+    {
+     "id": "charge",
+     "at": 0.3,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s64",
+   "lines": [
+    "On September 24th alone, the 1st Marine Division suffered two hundred eighty-five casualties.",
+    "It was the bloodiest single day of the entire battle for Seoul."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "285 IN ONE DAY",
+    "style": "red",
+    "sub": "Sept. 24, 1950 · 1st Marine Division casualties (highest of the Seoul battle)",
+    "subAt": 0
+   }
+  },
+  {
+   "id": "s65",
+   "lines": [
+    "After three days and nights of slaughter, the hills along the ridge fell one by one.",
+    "The western gate to Seoul was finally starting to open."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "west",
+    "to": "seoul",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.946,
+        37.586
+       ],
+       [
+        126.944,
+        37.577
+       ],
+       [
+        126.937,
+        37.571
+       ],
+       [
+        126.932,
+        37.566
+       ],
+       [
+        126.929,
+        37.559
+       ],
+       [
+        126.928,
+        37.551
+       ],
+       [
+        126.931,
+        37.543
+       ]
+      ],
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.93,
+        37.57
+       ],
+       [
+        126.95,
+        37.572
+       ],
+       [
+        126.97,
+        37.575
+       ]
+      ],
+      "color": "blue",
+      "at": 1,
+      "width": 1
+     },
+     {
+      "k": "unit",
+      "p": "capitol",
+      "text": "Capitol",
+      "color": "red",
+      "at": 1.5
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "SEPT. 25, 1950 · WESTERN RIDGE BROKEN",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "tail": 0.4
+  },
+  {
+   "id": "s66",
+   "lines": [
+    "On September 24th, the 1st Marines also crossed the Han into southwest Seoul.",
+    "Before dawn the next day, the U.S. 32nd Infantry and ROK 17th Regiment crossed farther east.",
+    "And at 3 p.m., the 32nd seized Namsan, in the very heart of Seoul."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "seoul",
+    "to": "core",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.93,
+        37.525
+       ],
+       [
+        126.94,
+        37.533
+       ],
+       [
+        126.95,
+        37.545
+       ]
+      ],
+      "color": "blue",
+      "at": 0,
+      "width": 1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.03,
+        37.515
+       ],
+       [
+        127.02,
+        37.532
+       ],
+       [
+        127.0,
+        37.545
+       ],
+       [
+        126.99,
+        37.55
+       ]
+      ],
+      "color": "blue",
+      "at": 1,
+      "width": 1
+     },
+     {
+      "k": "badge",
+      "p": "sinsa",
+      "text": "US 32nd · ROK 17th Regt",
+      "color": "blue",
+      "at": 1.2,
+      "dy": 70
+     },
+     {
+      "k": "unit",
+      "p": "namsan",
+      "text": "Namsan Taken",
+      "color": "blue",
+      "at": 2,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "SEPT. 24–25 · SEOUL ENCIRCLED",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "chapter": {
+    "num": "PART 7",
+    "title": "STREETS OF BARRICADES"
+   }
+  },
+  {
+   "id": "s67",
+   "lines": [
+    "That night, X Corps commander Major General Edward Almond announced that Seoul had been liberated.",
+    "It was September 25th, exactly three months after the war began.",
+    "Yet even as he spoke, gunfire still echoed through the streets of the city."
+   ],
+   "visual": {
+    "type": "person",
+    "q": "s67-photo",
+    "name": "Edward Almond",
+    "years": "1892 - 1979",
+    "role": "Commander, U.S. X Corps"
+   },
+   "callouts": [
+    {
+     "text": "SEPT. 25 · 'SEOUL LIBERATED' ANNOUNCED",
+     "style": "red",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s68",
+   "lines": [
+    "North Korea had blocked every major street in Seoul with barricades.",
+    "Rice bags filled with earth, stacked higher than a man.",
+    "Behind them hid anti-tank guns and machine guns. In front, the road was mined."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "barricade",
+    "kb": "out"
+   },
+   "label": "Dramatization",
+   "callouts": [
+    {
+     "text": "SEOUL · BATTLE OF THE BARRICADES",
+     "style": "red",
+     "at": 0
+    }
+   ],
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.5,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s69",
+   "lines": [
+    "On the main boulevards, a wall like this appeared every two to three hundred meters.",
+    "Each took forty-five minutes on average to break, as the Marines retook Seoul block by block."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "ONE EVERY 200–300 M",
+    "style": "red",
+    "sub": "Main boulevards · ~45 min to clear each (USMC records)",
+    "subAt": 1
+   }
+  },
+  {
+   "id": "s70",
+   "lines": [
+    "And in the middle of those streets were the people of Seoul.",
+    "More than a million residents are thought to have been unable to flee three months earlier.",
+    "Hiding in cellars and air raid shelters, they listened to the shells passing overhead and waited, hoping to survive until liberation."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s70-photo",
+    "kb": "in"
+   },
+   "label": "Seoul streets during the fighting (Sept. 1950)"
+  },
+  {
+   "id": "s71",
+   "lines": [
+    "First, aircraft and mortars pounded the wall. Then tanks moved up to knock out the anti-tank guns.",
+    "Engineers cleared the mines, and infantry advanced, searching every building.",
+    "Snipers could be hiding behind any roof or window, so no one could relax for a single step.",
+    "Meanwhile, street after street of the old capital was swallowed by fire and smoke."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "barricade_breach",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "tank",
+     "at": 0.4,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s72",
+   "lines": [
+    "Before dawn on September 26th, about a thousand North Korean troops counterattacked Namsan.",
+    "The 32nd Infantry held, keeping the high ground in the heart of the city."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "core",
+    "to": "core",
+    "items": [
+     {
+      "k": "unit",
+      "p": "namsan",
+      "text": "Namsan",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.975,
+        37.575
+       ],
+       [
+        126.982,
+        37.563
+       ],
+       [
+        126.986,
+        37.555
+       ]
+      ],
+      "color": "red",
+      "at": 0.3,
+      "width": 1
+     },
+     {
+      "k": "badge",
+      "p": [
+       126.995,
+       37.548
+      ],
+      "text": "US 32nd Infantry",
+      "color": "blue",
+      "at": 1,
+      "dy": 70
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "DAWN, SEPT. 26 · NAMSAN COUNTERATTACK REPULSED",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s73",
+   "lines": [
+    "Then, at dawn on September 27th, the Marines finally reached the Capitol.",
+    "The old Japanese Government-General Building, where South Korea's government had sat.",
+    "ROK Marine platoon leader Park Jeong-mo and his men tore down the North Korean flag and raised the Taegukgi."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "capitol_flag",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "callouts": [
+    {
+     "text": "DAWN, SEPT. 27 · TAEGUKGI RAISED OVER THE CAPITOL (ROK MARINES)",
+     "style": "yellow",
+     "at": 2
+    }
+   ]
+  },
+  {
+   "id": "s74",
+   "lines": [
+    "Three months after Seoul fell, the South Korean flag flew there once more.",
+    "That same day, U.S. Marines raised the Stars and Stripes over the old American and Soviet embassies."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s74-photo",
+    "kb": "in"
+   },
+   "label": "Seoul just after its recapture (Sept. 1950)"
+  },
+  {
+   "id": "s75",
+   "lines": [
+    "On September 28th, the Marines took the last hills north of Seoul.",
+    "Thirteen days after the Inchon landing, Seoul was fully back in friendly hands."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "core",
+    "to": "seoul",
+    "items": [
+     {
+      "k": "unit",
+      "p": "capitol",
+      "text": "Capitol",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "namsan",
+      "text": "Namsan",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.975,
+        37.58
+       ],
+       [
+        126.98,
+        37.595
+       ],
+       [
+        126.99,
+        37.605
+       ]
+      ],
+      "color": "blue",
+      "at": 0.5,
+      "width": 1
+     },
+     {
+      "k": "unit",
+      "p": "seoul",
+      "text": "Seoul Secured · Sep 28",
+      "color": "blue",
+      "at": 1.2,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "SEPT. 28, 1950 · SEOUL FULLY SECURED",
+     "style": "yellow",
+     "at": 1,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "drum",
+     "at": 1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s76",
+   "lines": [
+    "At noon the next day, September 29th, a ceremony restoring the capital was held at the Capitol.",
+    "MacArthur told President Syngman Rhee he was returning Seoul to him.",
+    "Glass from the shell-shattered roof fell throughout his speech."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s76-photo",
+    "kb": "in"
+   },
+   "label": "MacArthur and Syngman Rhee at the Seoul ceremony (Sept. 29, 1950)",
+   "callouts": [
+    {
+     "text": "SEPT. 29, 1950 · CAPITAL RESTORED",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "chapter": {
+    "num": "PART 8",
+    "title": "WHAT THE 13 DAYS MEANT"
+   }
+  },
+  {
+   "id": "s77",
+   "lines": [
+    "With Seoul gone, the North Korean army on the Naktong was suddenly cut off.",
+    "The U.S. Eighth Army and ROK forces, attacking from September 16th, drove north in just ten days.",
+    "On September 26th, near Osan, UN forces from north and south finally linked up."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "seoul",
+    "to": "korea",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.45,
+        35.17
+       ],
+       [
+        128.43,
+        35.32
+       ],
+       [
+        128.46,
+        35.48
+       ],
+       [
+        128.4,
+        35.63
+       ],
+       [
+        128.41,
+        35.8
+       ],
+       [
+        128.4,
+        35.98
+       ],
+       [
+        128.37,
+        36.15
+       ],
+       [
+        128.45,
+        36.24
+       ],
+       [
+        128.62,
+        36.23
+       ],
+       [
+        128.8,
+        36.17
+       ],
+       [
+        129.0,
+        36.13
+       ],
+       [
+        129.2,
+        36.1
+       ],
+       [
+        129.4,
+        36.08
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.4,
+        35.95
+       ],
+       [
+        128.0,
+        36.4
+       ],
+       [
+        127.5,
+        36.8
+       ],
+       [
+        127.1,
+        37.12
+       ]
+      ],
+      "color": "blue",
+      "at": 1,
+      "width": 1.1,
+      "dur": 2
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.98,
+        37.55
+       ],
+       [
+        127.02,
+        37.35
+       ],
+       [
+        127.06,
+        37.17
+       ]
+      ],
+      "color": "blue",
+      "at": 1.3,
+      "width": 1
+     },
+     {
+      "k": "unit",
+      "p": "osan",
+      "text": "Link-up near Osan · Sep 26",
+      "color": "blue",
+      "at": 2,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "SUPPLY LINE CUT → NAKTONG FRONT COLLAPSES (APPROX.)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s78",
+   "lines": [
+    "Without supplies or a road home, North Korean troops threw down their weapons by the thousands and fled into the hills.",
+    "From Inchon to Seoul, UN and South Korean casualties numbered about three thousand five hundred.",
+    "X Corps estimated about fourteen thousand North Koreans killed and some seven thousand captured."
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "Inchon–Seoul operation · UN: total casualties / NK: U.S. X Corps estimate",
+    "items": [
+     {
+      "label": "UN & ROK casualties",
+      "value": 3500,
+      "display": "~3,500",
+      "color": "blue",
+      "at": 1
+     },
+     {
+      "label": "NK killed (est.)",
+      "value": 14000,
+      "display": "~14,000",
+      "color": "red",
+      "at": 2
+     },
+     {
+      "label": "NK captured",
+      "value": 7000,
+      "display": "~7,000",
+      "color": "red",
+      "at": 2.4
+     }
+    ]
+   }
+  },
+  {
+   "id": "s79",
+   "lines": [
+    "One landing at Inchon completely reversed the course of the war.",
+    "After three months of retreat, it was now the UN's turn to drive north.",
+    "But this sweeping victory would soon bring a new enemy across the Yalu."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "korea",
+    "zoom": 0.8,
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.0,
+        37.6
+       ],
+       [
+        126.9,
+        38.3
+       ],
+       [
+        126.0,
+        39.2
+       ],
+       [
+        125.3,
+        40.1
+       ]
+      ],
+      "color": "blue",
+      "at": 1,
+      "width": 1.1,
+      "dur": 2
+     },
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "dark",
+      "at": 1.6
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        125.0,
+        41.2
+       ],
+       [
+        125.4,
+        40.6
+       ],
+       [
+        125.9,
+        40.1
+       ]
+      ],
+      "color": "red",
+      "at": 2.4,
+      "width": 1,
+      "dur": 1.6
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "AFTER INCHON · THE DRIVE NORTH, AND CHINA'S SHADOW (APPROX.)",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s80",
+   "lines": [
+    "So why did a landing that succeeded in one day take thirteen days to reach Seoul?",
+    "Let's look closely at four reasons."
+   ],
+   "visual": {
+    "type": "factors",
+    "items": [
+     "The Han as a Moat",
+     "Swelling Garrison",
+     "Ridges & Barricades",
+     "A Rushed Command"
+    ],
+    "head": "1 Day at Sea vs 13 Days in Seoul",
+    "at": 1
+   }
+  },
+  {
+   "id": "s81",
+   "lines": [
+    "First: the Han River, a giant moat."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s81-photo",
+    "num": "FACTOR 1",
+    "title": "THE HAN AS A MOAT"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s82",
+   "lines": [
+    "With the bridges down, the Marines had to cross the river in tractors and boats.",
+    "Gathering enough crossing equipment and securing bridgeheads under fire ate up several precious days."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "han",
+    "to": "han",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.815,
+        37.575
+       ],
+       [
+        126.83,
+        37.585
+       ],
+       [
+        126.84,
+        37.586
+       ]
+      ],
+      "color": "blue",
+      "at": 0,
+      "width": 1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.93,
+        37.525
+       ],
+       [
+        126.94,
+        37.533
+       ],
+       [
+        126.95,
+        37.545
+       ]
+      ],
+      "color": "blue",
+      "at": 0.5,
+      "width": 1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.03,
+        37.515
+       ],
+       [
+        127.02,
+        37.532
+       ],
+       [
+        127.0,
+        37.545
+       ]
+      ],
+      "color": "blue",
+      "at": 1,
+      "width": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s83",
+   "lines": [
+    "Second: a swelling garrison."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s83-photo",
+    "num": "FACTOR 2",
+    "title": "SWELLING GARRISON"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s84",
+   "lines": [
+    "Hearing of the landing, North Korea even turned back units headed south, and poured troops into Seoul.",
+    "The closer the Marines came to the city, the more defenders stood in their way."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s84-photo",
+    "kb": "in"
+   },
+   "label": "U.S. Marines entering Seoul (Sept. 1950)"
+  },
+  {
+   "id": "s85",
+   "lines": [
+    "Third: a double wall of ridges and barricades."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s85-photo",
+    "num": "FACTOR 3",
+    "title": "RIDGES & BARRICADES"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s86",
+   "lines": [
+    "Once at Ansan and Yonhui Ridge, and again at the barricades downtown.",
+    "The enemy wrapped Seoul in two walls of defense, and demanded blood for every single step forward."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "yonhui_assault",
+    "kb": "out"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s87",
+   "lines": [
+    "Fourth: a command in a hurry."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s87-photo",
+    "num": "FACTOR 4",
+    "title": "A RUSHED COMMAND"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s88",
+   "lines": [
+    "Almond drove his units hard, determined to retake Seoul on the three-month anniversary.",
+    "He clashed sharply with 1st Marine Division commander General Oliver Smith over where to cross the Han.",
+    "The three days between that hasty announcement and the real recapture show the true weight of this battle."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "Sept. 25 'liberation' → Sept. 28 actual recapture",
+    "accent": "3 DAYS APART",
+    "accentAt": 2
+   }
+  },
+  {
+   "id": "s89",
+   "lines": [
+    "If the single day at Inchon was a victory of daring surprise,",
+    "the thirteen days in Seoul were a victory won block by block, in blood."
+   ],
+   "visual": {
+    "type": "quotes",
+    "title": "What Inchon and Seoul Left Behind",
+    "items": [
+     {
+      "text": "One day of surprise at sea",
+      "at": 0
+     },
+     {
+      "text": "Thirteen days of blood in Seoul",
+      "at": 1
+     }
+    ]
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s90",
+   "lines": [
+    "Coming out after three months, the people of Seoul waved flags they had kept hidden.",
+    "But much of the city they returned to was already in ruins and ashes.",
+    "Countless people had lost their homes, and countless more had lost their families."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "seoul_after",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s91",
+   "lines": [
+    "From the fierce channels off Inchon to the narrow alleys of Seoul.",
+    "In those thirteen days, countless names fell, many of them never to be remembered."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "Sept. 15 → Sept. 28, 1950",
+    "accent": "13 DAYS",
+    "accentAt": 1
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s92",
+   "lines": [
+    "Today, a lighthouse still stands on Palmi-do, shining over the sea off Inchon.",
+    "We hope you'll remember, just once, those who risked their lives for that light."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "lighthouse_night",
+    "kb": "out"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s93",
+   "lines": [
+    "If this story meant something to you, please subscribe and hit like.",
+    "We'll keep telling the forgotten stories of war in the next video."
+   ],
+   "visual": {
+    "type": "endcard",
+    "title": "Inchon and Seoul, September 1950.\nA 5,000-to-1 gamble, and 13 days.",
+    "q": "s93-photo"
+   },
+   "tail": 3.0
+  }
+ ],
+ "lang": "en",
+ "assets_ep": "incheon",
+ "voice": "pNInz6obpgDQGcFmaJgB",
+ "tempo": 1.02
+}

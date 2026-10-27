@@ -1,0 +1,1042 @@
+{
+ "title": "Operation Chromite & the Recapture of Seoul (1950): The 5,000-to-1 Gamble",
+ "subtitle": "September 15 – 28, 1950",
+ "voice": "pNInz6obpgDQGcFmaJgB",
+ "tempo": 1.02,
+ "places": {
+  "seoul": "Seoul",
+  "busan": "Pusan",
+  "daegu": "Taegu",
+  "pyongyang": "Pyongyang",
+  "tokyo_dir": "To Tokyo",
+  "inchon": "Inchon",
+  "wolmi": "Wolmi-do",
+  "palmido": "Palmi-do",
+  "yeongheung": "Yonghung-do",
+  "green": "Green Beach",
+  "red": "Red Beach",
+  "blue": "Blue Beach",
+  "ascom": "Ascom City",
+  "kimpo": "Kimpo Airfield",
+  "haengju": "Haengju",
+  "hill125": "Hill 125",
+  "ydp": "Yongdungpo",
+  "ansan": "Hill 296",
+  "yonhui": "Hill 104",
+  "wausan": "Wau-san",
+  "namsan": "Namsan",
+  "capitol": "Capitol",
+  "sinsa": "Sinsa-ri",
+  "mapo": "Mapo",
+  "osan": "Osan",
+  "kunsan": "Kunsan"
+ },
+ "text": {
+  "서울 함락 6. 28": "Seoul Falls · Jun 28",
+  "보급의 목줄 · 서울": "Supply Hub · Seoul",
+  "월미도": "Wolmi-do",
+  "영흥도 첩보 거점": "Yonghung-do Spy Base",
+  "그린 비치": "Green Beach",
+  "미 해병 5연대 3대대": "3rd Bn, 5th Marines",
+  "레드 비치 · 해병 5연대": "Red Beach · 5th Marines",
+  "블루 비치 · 해병 1연대": "Blue Beach · 1st Marines",
+  "블루 비치": "Blue Beach",
+  "인천 확보 9. 16": "Inchon Secured · Sep 16",
+  "서울": "Seoul",
+  "김포 비행장": "Kimpo Airfield",
+  "영등포": "Yongdungpo",
+  "해병 5연대 D중대 매복": "Dog Co., 5th Marines Ambush",
+  "T-34 6대 격파": "6 T-34s Destroyed",
+  "김포 비행장 확보": "Kimpo Secured",
+  "해병 1연대": "1st Marines",
+  "영등포 확보 9. 22": "Yongdungpo Taken · Sep 22",
+  "125고지": "Hill 125",
+  "125고지 확보": "Hill 125 Taken",
+  "한강 북쪽 교두보": "North Bank Bridgehead",
+  "미 해병 5연대 · 국군 해병대": "5th Marines · ROK Marines",
+  "안산 (296고지)": "Ansan (Hill 296)",
+  "연희고지 (104고지)": "Yonhui Ridge (Hill 104)",
+  "와우산": "Wau-san",
+  "중앙청": "Capitol",
+  "미 32연대 · 국군 17연대": "US 32nd · ROK 17th Regt",
+  "남산 확보": "Namsan Taken",
+  "남산": "Namsan",
+  "미 32연대": "US 32nd Infantry",
+  "서울 완전 수복 9. 28": "Seoul Secured · Sep 28",
+  "오산 부근 연결 9. 26": "Link-up near Osan · Sep 26"
+ },
+ "scenes": {
+  "s01": {
+   "lines": [
+    "Dawn, September 15th, 1950. The sea off Inchon, Korea.",
+    "In the darkness, more than two hundred and sixty ships lay waiting in silence, their crews holding their breath."
+   ],
+   "label": "Dramatization",
+   "callouts": [
+    "SEPT. 15, 1950 · DAWN OFF INCHON"
+   ]
+  },
+  "s02": {
+   "lines": [
+    "But this was a strange and treacherous sea. A sea that vanished twice a day.",
+    "When the tide went out, up to four kilometers of mudflats lay bare in front of the shore."
+   ],
+   "title": "Wolmi-do Tidal Cross-Section",
+   "note": "Schematic (heights exaggerated)",
+   "left": "Seaward",
+   "right": "Seawall · Inchon",
+   "marks": [
+    "Mudflats up to 4 km"
+   ],
+   "tide": [
+    "HIGH TIDE",
+    "LOW TIDE"
+   ]
+  },
+  "s03": {
+   "lines": [
+    "Ships could reach the shore only for two or three hours around high tide.",
+    "Miss that window, and the landing force would be stranded on the mud."
+   ],
+   "text": "Window to land",
+   "accent": "TWICE A DAY · 2–3 HRS"
+  },
+  "s04": {
+   "lines": [
+    "The man who pushed for this operation: Douglas MacArthur, Commander-in-Chief of the United Nations Command.",
+    "It was a gamble so risky it came to be called a five-thousand-to-one shot."
+   ],
+   "name": "Douglas MacArthur",
+   "role": "Commander-in-Chief, UN Command",
+   "callouts": [
+    "'A 5,000-TO-1 GAMBLE' (AS TOLD)"
+   ]
+  },
+  "s05": {
+   "lines": [
+    "And the gamble paid off in a single day.",
+    "Yet something strange followed. From Inchon to Seoul was barely thirty kilometers.",
+    "And retaking Seoul would take thirteen full days."
+   ],
+   "text": "Inchon → Seoul ~30 km",
+   "accent": "13 DAYS"
+  },
+  "s06": {
+   "lines": [
+    "For the Marines who crossed the sea, the real hell was waiting in Seoul."
+   ],
+   "label": "Dramatization"
+  },
+  "s07": {
+   "lines": [
+    "The Inchon Landing and the Recapture of Seoul.",
+    "This is the story of a five-thousand-to-one gamble, and thirteen days of street fighting."
+   ],
+   "title": "Inchon & the Recapture of Seoul",
+   "sub": "The 5,000-to-1 Gamble · 1950"
+  },
+  "s08": {
+   "lines": [
+    "June 25th, 1950. A surprise North Korean invasion began the war.",
+    "Seoul fell in just three days, and South Korean and American troops were pushed south, and further south, week after week.",
+    "By August, all that remained was a narrow corner east of the Naktong River."
+   ],
+   "callouts": [
+    "AUG. 1950 · DRIVEN BACK TO THE NAKTONG"
+   ],
+   "chapter": [
+    "PART 1",
+    "DECISION AT THE BRINK"
+   ]
+  },
+  "s09": {
+   "lines": [
+    "This last line, with its back to Pusan, was called the Pusan Perimeter.",
+    "By late August, North Korea was preparing a final all-out offensive to break it.",
+    "One more breach, and South Korea would be pushed into the sea."
+   ],
+   "callouts": [
+    "PUSAN PERIMETER (APPROX.)"
+   ]
+  },
+  "s10": {
+   "lines": [
+    "On September 1st, North Korea struck along the entire Naktong front.",
+    "From Yongsan to Tabu-dong, from Yongchon to Pohang, the line began to crack.",
+    "The defenders survived only by rushing their last reserves from one breach to the next, day and night."
+   ],
+   "callouts": [
+    "SEPT. 1, 1950 · NORTH KOREAN OFFENSIVE (APPROX.)"
+   ]
+  },
+  "s11": {
+   "lines": [
+    "Meanwhile, at UN headquarters in Tokyo, a very different plan was taking shape.",
+    "Land a massive force far behind enemy lines, at the port of Inchon, the gateway to Seoul.",
+    "Its name was Operation Chromite."
+   ],
+   "head": "OPERATION CHROMITE",
+   "org": "GHQ, FAR EAST COMMAND",
+   "rows": [
+    "OBJECTIVE: LAND AT INCHON, RETAKE SEOUL",
+    "FORCE: U.S. X CORPS",
+    "  - 1ST MARINE DIV · 7TH INFANTRY DIV",
+    "  - ROK MARINES · ROK 17TH REGT",
+    "D-DAY: 15 SEPTEMBER 1950"
+   ],
+   "note": "Summary reconstruction"
+  },
+  "s12": {
+   "lines": [
+    "MacArthur reportedly first imagined this plan just four days into the war.",
+    "Watching Seoul burn from a hill south of the Han, he pictured a blow to the enemy's rear.",
+    "A landing planned in July had to be shelved for lack of troops, but he never let go of Inchon."
+   ],
+   "label": "MacArthur inspecting the Korean front (1950)"
+  },
+  "s13": {
+   "lines": [
+    "The idea was simple.",
+    "Every North Korean supply line ran south through Seoul.",
+    "Cut that lifeline, and the entire enemy army fighting at the Naktong would be trapped, with no food, no ammunition, and no way home."
+   ],
+   "callouts": [
+    "HAMMER AND ANVIL · INCHON CONCEPT (APPROX.)"
+   ]
+  },
+  "s14": {
+   "lines": [
+    "But Washington's response was cold.",
+    "On August 23rd, the Army and Navy chiefs of staff flew to Tokyo for a conference.",
+    "One by one, Navy officers reported that Inchon had nearly every natural condition that makes an amphibious landing fail."
+   ],
+   "label": "MacArthur and his staff (1950)",
+   "callouts": [
+    "AUG. 23, 1950 · TOKYO CONFERENCE"
+   ]
+  },
+  "s15": {
+   "lines": [
+    "Tides, mudflats, a narrow channel, a fortress island, and high seawalls.",
+    "Some even proposed a safer landing farther south, on the open beaches near Kunsan."
+   ],
+   "left": [
+    "NAVY OBJECTIONS",
+    "WORST CONDITIONS"
+   ],
+   "right": [
+    "MACARTHUR",
+    "SO: SURPRISE"
+   ]
+  },
+  "s16": {
+   "lines": [
+    "MacArthur answered with a long, passionate speech.",
+    "Because everyone believed a landing there was impossible, he argued, the enemy would never be ready for it.",
+    "The room fell silent, and the operation was approved.",
+    "D-Day was September 15th. Barely three weeks away."
+   ],
+   "label": "Dramatization"
+  },
+  "s17": {
+   "lines": [
+    "Why was Inchon so dangerous? The map tells the story.",
+    "From the open sea to Inchon harbor, there was only one narrow channel between islands and shoals.",
+    "Its name: Flying Fish Channel."
+   ],
+   "callouts": [
+    "FLYING FISH CHANNEL (APPROX.)"
+   ],
+   "chapter": [
+    "PART 2",
+    "THE 5,000-TO-1 ODDS"
+   ]
+  },
+  "s18": {
+   "lines": [
+    "Currents reached up to eight knots, nearly fifteen kilometers an hour.",
+    "One sunken ship or a single mine in that channel could leave the whole fleet behind it stranded and helpless."
+   ],
+   "callouts": [
+    "CURRENTS 3–8 KNOTS (SOURCES VARY)"
+   ]
+  },
+  "s19": {
+   "lines": [
+    "But the greatest enemy was the sea itself. The tidal range reached about nine meters.",
+    "That's like the height of a three-story building, rising and falling twice a day.",
+    "At low tide, landing craft stuck fast in the mud, and the men inside became easy targets on open ground."
+   ],
+   "title": "Inchon Tidal Cross-Section",
+   "note": "Schematic · range: ~9 m (Korean sources) / Sept. 15 predicted high tide 31.5 ft (USMC)",
+   "left": "Seaward",
+   "right": "Seawall",
+   "marks": [
+    "Tidal range up to ~9 m"
+   ],
+   "tide": [
+    "HIGH TIDE",
+    "LOW TIDE"
+   ]
+  },
+  "s20": {
+   "lines": [
+    "Only a few days a month brought tides high enough to reach the seawalls.",
+    "Miss September 15th, and the next chance came in mid-October, when the cold was setting in."
+   ],
+   "items": [
+    [
+     "Around Sep 15",
+     "D-DAY"
+    ],
+    [
+     "Mid-October",
+     "NEXT CHANCE"
+    ],
+    [
+     "Early November",
+     "AFTER THAT"
+    ]
+   ]
+  },
+  "s21": {
+   "lines": [
+    "And right in front of the harbor stood a fortress island: Wolmi-do.",
+    "Unless Wolmi-do fell first, the main force would expose its flank the moment it entered the port."
+   ],
+   "callouts": [
+    "WOLMI-DO · NORTH KOREAN BATTERIES (APPROX.)"
+   ]
+  },
+  "s22": {
+   "lines": [
+    "But between the attack on Wolmi-do and the main landing, the ebb tide left a gap of nearly twelve hours.",
+    "Wolmi-do would be taken on the morning tide, and the main force would land only on the evening tide.",
+    "That was more than enough time for the enemy to guess exactly where the main landing would come, and to rush in reinforcements."
+   ],
+   "big": "~12-HOUR GAP",
+   "sub": "Morning tide → Wolmi-do · Evening tide → Inchon beaches"
+  },
+  "s23": {
+   "lines": [
+    "Deceiving the enemy mattered just as much.",
+    "UN forces bombed and shelled Kunsan and the east coast, faking landings elsewhere.",
+    "Two days before the landing, destroyers sailed right up to Wolmi-do to draw the enemy's fire.",
+    "The moment those guns fired back, their carefully hidden positions were revealed, and the warships destroyed them."
+   ],
+   "callouts": [
+    "FEINTS · DESTROYERS AS BAIT (APPROX.)"
+   ]
+  },
+  "s24": {
+   "lines": [
+    "So before the landing, someone had to go into those waters first.",
+    "In mid-August, South Korean naval intelligence agents, disguised as fishermen, slipped onto Yonghung-do island.",
+    "Water depth, mud firmness, gun positions, seawall heights. They measured it all by hand."
+   ],
+   "label": "Dramatization",
+   "callouts": [
+    "AUG.–SEPT. 1950 · YONGHUNG-DO INTELLIGENCE MISSION"
+   ]
+  },
+  "s25": {
+   "lines": [
+    "From September 1st, U.S. Navy Lieutenant Eugene Clark's team also operated from the island.",
+    "Night after night, their reports filled in Tokyo's invasion maps, piece by piece, and the plan took shape."
+   ],
+   "callouts": [
+    "YONGHUNG-DO → INCHON RECON (APPROX.)"
+   ]
+  },
+  "s26": {
+   "lines": [
+    "But on September 14th, one day before the landing, North Korean troops raided Yonghung-do.",
+    "Lieutenant Im Byeong-rae and Petty Officer Hong Si-uk stayed behind to cover their comrades' escape.",
+    "Refusing to be taken prisoner, both men met their end on that island."
+   ],
+   "label": "Dramatization",
+   "callouts": [
+    "SEPT. 14, 1950 · LT. IM BYEONG-RAE & PO HONG SI-UK KILLED"
+   ]
+  },
+  "s27": {
+   "lines": [
+    "Then, around midnight on September 15th, the dark Palmi-do lighthouse blazed to life.",
+    "Agents had climbed the island and relit it, and its beam guided the fleet into the narrow channel.",
+    "Now, the hour of no return was approaching."
+   ],
+   "label": "Dramatization",
+   "callouts": [
+    "~MIDNIGHT, SEPT. 15 · PALMI-DO LIGHTHOUSE RELIT"
+   ]
+  },
+  "s28": {
+   "lines": [
+    "At dawn on September 15th, the fleet's guns opened up on Wolmi-do.",
+    "After several days of bombing and napalm, the little island was already a burning mountain of shattered rock.",
+    "Cruisers, destroyers, and Marine Corsair fighters took turns pounding it."
+   ],
+   "label": "Dramatization",
+   "callouts": [
+    "DAWN, SEPT. 15 · WOLMI-DO BOMBARDMENT"
+   ],
+   "chapter": [
+    "PART 3",
+    "WOLMI-DO, 06:33"
+   ]
+  },
+  "s29": {
+   "lines": [
+    "On the bridge of the flagship Mount McKinley stood the seventy-year-old MacArthur.",
+    "Watching through his binoculars, he knew the first card of his great gamble was about to be played."
+   ],
+   "label": "MacArthur aboard USS Mount McKinley (Sept. 1950)"
+  },
+  "s30": {
+   "lines": [
+    "At 6:33 a.m., the 3rd Battalion, 5th Marines, landed on Wolmi-do's northwest shore.",
+    "On the invasion maps, it was marked in green: Green Beach.",
+    "Nine M26 Pershing tanks came ashore with them."
+   ],
+   "callouts": [
+    "06:33 · GREEN BEACH LANDING"
+   ]
+  },
+  "s31": {
+   "lines": [
+    "Stunned by the bombardment, the North Korean positions collapsed faster than expected.",
+    "At 6:55, just twenty-two minutes after landing, Marines planted the Stars and Stripes on the summit."
+   ],
+   "label": "Dramatization",
+   "callouts": [
+    "06:55 · SUMMIT TAKEN"
+   ]
+  },
+  "s32": {
+   "lines": [
+    "By about eight o'clock, Wolmi-do was completely in Marine hands.",
+    "Over a hundred North Koreans were killed and a hundred thirty-six captured. Not a single Marine was killed."
+   ],
+   "left": [
+    "MARINES KILLED",
+    "0"
+   ],
+   "right": [
+    "NK PRISONERS",
+    "136"
+   ]
+  },
+  "s33": {
+   "lines": [
+    "Prisoners revealed the island had been held by a coastal artillery regiment and part of a marine regiment.",
+    "The defenders of Inchon itself appeared to number fewer than two thousand.",
+    "And the enemy still wasn't even sure whether this was the real landing, or just another feint."
+   ],
+   "label": "North Korean prisoners at Inchon (Sept. 1950)"
+  },
+  "s34": {
+   "lines": [
+    "But the triumph was brief. The sea began draining away fast.",
+    "Between Wolmi-do and the harbor, an endless plain of mud appeared."
+   ],
+   "title": "Morning → Noon · Ebb Tide",
+   "note": "Schematic · heights exaggerated",
+   "left": "Wolmi-do side",
+   "right": "Inchon seawall",
+   "tide": [
+    "HIGH TIDE",
+    "LOW TIDE"
+   ]
+  },
+  "s35": {
+   "lines": [
+    "The Marine battalion on the island was now cut off, alone, without the main force.",
+    "Had the enemy rolled tanks across the causeway, they could have been trapped.",
+    "And so began the long, long wait for the evening tide."
+   ],
+   "label": "Dramatization"
+  },
+  "s36": {
+   "lines": [
+    "In the afternoon, the sea began rising again.",
+    "Around 5:30 p.m., landing craft raced toward the Inchon shore in two waves.",
+    "The 5th Marines at Red Beach to the north, the 1st Marines at Blue Beach to the south."
+   ],
+   "callouts": [
+    "~17:30, SEPT. 15 · MAIN LANDING"
+   ],
+   "chapter": [
+    "PART 4",
+    "OVER THE TIDAL WALL"
+   ]
+  },
+  "s37": {
+   "lines": [
+    "Red Beach was no beach at all. It was a stone seawall taller than a man.",
+    "The Marines had to throw ladders against it from their boats and climb.",
+    "And just beyond that wall, North Korean machine guns and grenades were waiting for them."
+   ],
+   "label": "Dramatization"
+  },
+  "s38": {
+   "lines": [
+    "This photograph was actually taken at Red Beach that day.",
+    "The man going over the wall at the top of the ladder is platoon leader, First Lieutenant Baldomero Lopez.",
+    "Minutes later, wounded and unable to throw a grenade, he smothered it with his own body to save his men."
+   ],
+   "label": "Lt. Lopez scaling the Red Beach seawall (Sept. 15, 1950)",
+   "callouts": [
+    "1ST LT. LOPEZ · MEDAL OF HONOR (POSTHUMOUS)"
+   ]
+  },
+  "s39": {
+   "lines": [
+    "Before sunset, the Marines took Cemetery Hill and Observatory Hill behind the beach.",
+    "By nightfall, a solid beachhead stood atop the seawall, and more men and guns were pouring ashore."
+   ],
+   "label": "Dramatization"
+  },
+  "s40": {
+   "lines": [
+    "South Korean Marines were also at Red Beach.",
+    "Back to reclaim their homeland, they swept into Inchon's streets, hunting down hidden enemy troops.",
+    "Their fight, begun on this shore, would carry them into the heart of Seoul thirteen days later."
+   ],
+   "label": "ROK Marines in the Inchon landing (Sept. 1950)"
+  },
+  "s41": {
+   "lines": [
+    "At Blue Beach to the south, the Marines met a different enemy.",
+    "Smoke, darkness, and mud that gripped their ankles.",
+    "Some boats landed in the wrong places, but the 1st Marines fought their way ashore."
+   ],
+   "callouts": [
+    "BLUE BEACH · 1ST MARINES (COL. PULLER)"
+   ]
+  },
+  "s42": {
+   "lines": [
+    "That evening, eight big LST landing ships deliberately ran aground at Red Beach.",
+    "Knowing the ebb tide would trap them in the mud, they unloaded ammunition and gear all night."
+   ],
+   "label": "LSTs beached at Inchon (Sept. 1950)"
+  },
+  "s43": {
+   "lines": [
+    "On the first day, twenty-one UN troops were killed.",
+    "Far fewer than the planners had feared for such a dangerous landing. Almost unbelievably few."
+   ],
+   "note": "Sept. 15 only · Korean sources (figures vary)",
+   "bars": [
+    [
+     "Killed",
+     "21"
+    ],
+    [
+     "Missing",
+     "1"
+    ],
+    [
+     "Wounded",
+     "174"
+    ]
+   ]
+  },
+  "s44": {
+   "lines": [
+    "The next day, September 16th, ROK Marines cleared the last enemy troops from Inchon.",
+    "In just one day, the five-thousand-to-one gamble had turned the tide of the entire war.",
+    "But the road ahead to Seoul would prove far rougher, and far bloodier, than the sea."
+   ],
+   "callouts": [
+    "SEPT. 16, 1950 · INCHON SECURED"
+   ]
+  },
+  "s45": {
+   "lines": [
+    "From Inchon, two roads led to Seoul.",
+    "The 5th Marines headed north to Kimpo Airfield. The 1st Marines drove down the highway toward Yongdungpo.",
+    "They had to reach the Han River before North Korea could reinforce the defenses of Seoul."
+   ],
+   "callouts": [
+    "INCHON → ASCOM CITY → YONGDUNGPO (APPROX.)"
+   ],
+   "chapter": [
+    "PART 5",
+    "BLOOD ON THE SEOUL HIGHWAY"
+   ]
+  },
+  "s46": {
+   "lines": [
+    "Dawn, September 17th. A pass near Ascom City.",
+    "Out of the fog came six North Korean T-34 tanks, carrying infantry.",
+    "They had no idea that Marines were lying in wait on the low hill just ahead of them."
+   ],
+   "label": "Dramatization",
+   "callouts": [
+    "DAWN, SEPT. 17 · NEAR ASCOM CITY"
+   ]
+  },
+  "s47": {
+   "lines": [
+    "The Marines waited until the tanks were right on top of them.",
+    "Then bazookas, recoilless rifles, and the Pershings' 90-millimeter guns all fired at once.",
+    "Within minutes, all six T-34s were in flames."
+   ],
+   "callouts": [
+    "AMBUSH AT ASCOM CITY (APPROX.)"
+   ]
+  },
+  "s48": {
+   "lines": [
+    "About two hundred North Korean infantry fell with them, while the records list just one Marine wounded."
+   ],
+   "big": "6 T-34s DESTROYED",
+   "sub": "Dawn, Sept. 17 · ~200 NK infantry (USMC records)"
+  },
+  "s49": {
+   "lines": [
+    "That day, MacArthur came ashore at Inchon to see the front himself.",
+    "Standing on that still-smoking road beside the burnt-out tanks, he urged a faster drive on Seoul."
+   ],
+   "label": "MacArthur and Col. Puller at the front (Sept. 17, 1950)"
+  },
+  "s50": {
+   "lines": [
+    "On the morning of September 18th, the 5th Marines took Kimpo Airfield.",
+    "Transport planes began landing almost at once, opening a supply route to Seoul by air."
+   ],
+   "callouts": [
+    "SEPT. 18, 1950 · KIMPO SECURED"
+   ]
+  },
+  "s51": {
+   "lines": [
+    "The North Koreans didn't give up easily.",
+    "Through that night and dawn, they launched counterattack after counterattack to retake the runway.",
+    "But the Marines threw back every one from their foxholes, and the enemy fell back toward the Han."
+   ],
+   "callouts": [
+    "SEPT. 17–18 · KIMPO COUNTERATTACKS REPULSED"
+   ]
+  },
+  "s52": {
+   "lines": [
+    "Meanwhile, on the highway, the 1st Marines were stopped in front of Yongdungpo.",
+    "Yongdungpo was Seoul's southern gateway, and the enemy had made it a fortress.",
+    "Across the stream dikes, fierce fighting raged for more than two days."
+   ],
+   "callouts": [
+    "SEPT. 20–22 · BATTLE OF YONGDUNGPO"
+   ]
+  },
+  "s53": {
+   "lines": [
+    "On September 21st, Captain Robert Barrow's Able Company slipped through a gap into the heart of Yongdungpo.",
+    "That night, five T-34 tanks rolled toward them.",
+    "Cut off, the company fought back with bazookas and beat off five assaults through the night."
+   ],
+   "label": "Dramatization",
+   "callouts": [
+    "NIGHT, SEPT. 21 · A CO., 1ST MARINES"
+   ]
+  },
+  "s54": {
+   "lines": [
+    "At daybreak, some two hundred North Korean dead lay in front of their position.",
+    "On September 22nd, Yongdungpo finally fell to the Marines.",
+    "Now only one great obstacle stood between the Marines and Seoul: the wide Han River."
+   ],
+   "callouts": [
+    "SEPT. 22, 1950 · YONGDUNGPO TAKEN"
+   ]
+  },
+  "s55": {
+   "lines": [
+    "Most of the Han River bridges had been destroyed early in the war.",
+    "The only way into the capital was straight across the water, under the enemy's guns."
+   ],
+   "callouts": [
+    "HAN RIVER · MOST BRIDGES DOWN"
+   ],
+   "chapter": [
+    "PART 6",
+    "CROSSING THE HAN"
+   ]
+  },
+  "s56": {
+   "lines": [
+    "On the night of September 19th, Marine reconnaissance swimmers crossed first near Haengju.",
+    "But machine guns opened up from the far bank, and the scouts had to pull back."
+   ],
+   "callouts": [
+    "NIGHT, SEPT. 19 · RECON CROSSING FAILS"
+   ]
+  },
+  "s57": {
+   "lines": [
+    "The next morning at 6:45, the 5th Marines climbed into LVT amphibious tractors.",
+    "The same vehicles that had crossed the sea at Inchon now charged across the river.",
+    "During the crossing, the tractors took more than two hundred hits."
+   ],
+   "label": "Dramatization",
+   "callouts": [
+    "06:45, SEPT. 20 · 5TH MARINES CROSS BY LVT"
+   ]
+  },
+  "s58": {
+   "lines": [
+    "The Marines stormed Hill 125 across the river and took it by 9:40 a.m.",
+    "Taking that one hill cost a single company forty-three casualties.",
+    "By that afternoon, a solid bridgehead stood firmly on the north bank of the Han."
+   ],
+   "callouts": [
+    "09:40 · HILL 125 TAKEN"
+   ]
+  },
+  "s59": {
+   "lines": [
+    "ROK Marine battalions crossed alongside the 5th Marines.",
+    "On the 21st, the newly arrived 7th Marines landed at Inchon and rushed to the front.",
+    "Day by day, the bridgehead north of the Han grew."
+   ],
+   "callouts": [
+    "SEPT. 20–21 · BRIDGEHEAD EXPANDS (APPROX.)"
+   ]
+  },
+  "s60": {
+   "lines": [
+    "But at Seoul's western edge, the enemy was waiting.",
+    "A chain of low hills ran from Ansan through Yonhui to Wau-san.",
+    "Along this ridge, North Korea dug in and built its last line of defense for the capital."
+   ],
+   "callouts": [
+    "NK WESTERN DEFENSE LINE OF SEOUL (APPROX.)"
+   ]
+  },
+  "s61": {
+   "lines": [
+    "At first, Seoul's defenders were thought to number around five thousand.",
+    "But with the 18th Division turned back from the Naktong, they swelled to over twenty thousand."
+   ],
+   "left": [
+    "PRE-LANDING ESTIMATE",
+    "~5,000"
+   ],
+   "right": [
+    "AFTER REINFORCEMENT",
+    "20,000+"
+   ]
+  },
+  "s62": {
+   "lines": [
+    "Ansan, the highest, stood two hundred ninety-six meters. Yonhui Ridge below it, one hundred four.",
+    "They were not high, but they looked down over open rice paddies and streets below. A natural fortress."
+   ],
+   "title": "Seoul Western Ridge Cross-Section",
+   "note": "Schematic (heights exaggerated)",
+   "left": "N · Muak Pass",
+   "right": "S · Han River",
+   "marks": [
+    "Ansan 296 m",
+    "Yonhui 104 m",
+    "Wau-san"
+   ]
+  },
+  "s63": {
+   "lines": [
+    "From September 22nd, U.S. and South Korean Marines hit this ridge head-on.",
+    "Bunkers laced with machine guns and mortars changed hands again and again.",
+    "The ROK Marines' 1st Battalion, assigned to Hill 104, paid a heavy price."
+   ],
+   "label": "Dramatization",
+   "callouts": [
+    "SEPT. 22–25 · BATTLE OF YONHUI RIDGE"
+   ]
+  },
+  "s64": {
+   "lines": [
+    "On September 24th alone, the 1st Marine Division suffered two hundred eighty-five casualties.",
+    "It was the bloodiest single day of the entire battle for Seoul."
+   ],
+   "big": "285 IN ONE DAY",
+   "sub": "Sept. 24, 1950 · 1st Marine Division casualties (highest of the Seoul battle)"
+  },
+  "s65": {
+   "lines": [
+    "After three days and nights of slaughter, the hills along the ridge fell one by one.",
+    "The western gate to Seoul was finally starting to open."
+   ],
+   "callouts": [
+    "SEPT. 25, 1950 · WESTERN RIDGE BROKEN"
+   ]
+  },
+  "s66": {
+   "lines": [
+    "On September 24th, the 1st Marines also crossed the Han into southwest Seoul.",
+    "Before dawn the next day, the U.S. 32nd Infantry and ROK 17th Regiment crossed farther east.",
+    "And at 3 p.m., the 32nd seized Namsan, in the very heart of Seoul."
+   ],
+   "callouts": [
+    "SEPT. 24–25 · SEOUL ENCIRCLED"
+   ],
+   "chapter": [
+    "PART 7",
+    "STREETS OF BARRICADES"
+   ]
+  },
+  "s67": {
+   "lines": [
+    "That night, X Corps commander Major General Edward Almond announced that Seoul had been liberated.",
+    "It was September 25th, exactly three months after the war began.",
+    "Yet even as he spoke, gunfire still echoed through the streets of the city."
+   ],
+   "name": "Edward Almond",
+   "role": "Commander, U.S. X Corps",
+   "callouts": [
+    "SEPT. 25 · 'SEOUL LIBERATED' ANNOUNCED"
+   ]
+  },
+  "s68": {
+   "lines": [
+    "North Korea had blocked every major street in Seoul with barricades.",
+    "Rice bags filled with earth, stacked higher than a man.",
+    "Behind them hid anti-tank guns and machine guns. In front, the road was mined."
+   ],
+   "label": "Dramatization",
+   "callouts": [
+    "SEOUL · BATTLE OF THE BARRICADES"
+   ]
+  },
+  "s69": {
+   "lines": [
+    "On the main boulevards, a wall like this appeared every two to three hundred meters.",
+    "Each took forty-five minutes on average to break, as the Marines retook Seoul block by block."
+   ],
+   "big": "ONE EVERY 200–300 M",
+   "sub": "Main boulevards · ~45 min to clear each (USMC records)"
+  },
+  "s70": {
+   "lines": [
+    "And in the middle of those streets were the people of Seoul.",
+    "More than a million residents are thought to have been unable to flee three months earlier.",
+    "Hiding in cellars and air raid shelters, they listened to the shells passing overhead and waited, hoping to survive until liberation."
+   ],
+   "label": "Seoul streets during the fighting (Sept. 1950)"
+  },
+  "s71": {
+   "lines": [
+    "First, aircraft and mortars pounded the wall. Then tanks moved up to knock out the anti-tank guns.",
+    "Engineers cleared the mines, and infantry advanced, searching every building.",
+    "Snipers could be hiding behind any roof or window, so no one could relax for a single step.",
+    "Meanwhile, street after street of the old capital was swallowed by fire and smoke."
+   ],
+   "label": "Dramatization"
+  },
+  "s72": {
+   "lines": [
+    "Before dawn on September 26th, about a thousand North Korean troops counterattacked Namsan.",
+    "The 32nd Infantry held, keeping the high ground in the heart of the city."
+   ],
+   "callouts": [
+    "DAWN, SEPT. 26 · NAMSAN COUNTERATTACK REPULSED"
+   ]
+  },
+  "s73": {
+   "lines": [
+    "Then, at dawn on September 27th, the Marines finally reached the Capitol.",
+    "The old Japanese Government-General Building, where South Korea's government had sat.",
+    "ROK Marine platoon leader Park Jeong-mo and his men tore down the North Korean flag and raised the Taegukgi."
+   ],
+   "label": "Dramatization",
+   "callouts": [
+    "DAWN, SEPT. 27 · TAEGUKGI RAISED OVER THE CAPITOL (ROK MARINES)"
+   ]
+  },
+  "s74": {
+   "lines": [
+    "Three months after Seoul fell, the South Korean flag flew there once more.",
+    "That same day, U.S. Marines raised the Stars and Stripes over the old American and Soviet embassies."
+   ],
+   "label": "Seoul just after its recapture (Sept. 1950)"
+  },
+  "s75": {
+   "lines": [
+    "On September 28th, the Marines took the last hills north of Seoul.",
+    "Thirteen days after the Inchon landing, Seoul was fully back in friendly hands."
+   ],
+   "callouts": [
+    "SEPT. 28, 1950 · SEOUL FULLY SECURED"
+   ]
+  },
+  "s76": {
+   "lines": [
+    "At noon the next day, September 29th, a ceremony restoring the capital was held at the Capitol.",
+    "MacArthur told President Syngman Rhee he was returning Seoul to him.",
+    "Glass from the shell-shattered roof fell throughout his speech."
+   ],
+   "label": "MacArthur and Syngman Rhee at the Seoul ceremony (Sept. 29, 1950)",
+   "callouts": [
+    "SEPT. 29, 1950 · CAPITAL RESTORED"
+   ],
+   "chapter": [
+    "PART 8",
+    "WHAT THE 13 DAYS MEANT"
+   ]
+  },
+  "s77": {
+   "lines": [
+    "With Seoul gone, the North Korean army on the Naktong was suddenly cut off.",
+    "The U.S. Eighth Army and ROK forces, attacking from September 16th, drove north in just ten days.",
+    "On September 26th, near Osan, UN forces from north and south finally linked up."
+   ],
+   "callouts": [
+    "SUPPLY LINE CUT → NAKTONG FRONT COLLAPSES (APPROX.)"
+   ]
+  },
+  "s78": {
+   "lines": [
+    "Without supplies or a road home, North Korean troops threw down their weapons by the thousands and fled into the hills.",
+    "From Inchon to Seoul, UN and South Korean casualties numbered about three thousand five hundred.",
+    "X Corps estimated about fourteen thousand North Koreans killed and some seven thousand captured."
+   ],
+   "note": "Inchon–Seoul operation · UN: total casualties / NK: U.S. X Corps estimate",
+   "bars": [
+    [
+     "UN & ROK casualties",
+     "~3,500"
+    ],
+    [
+     "NK killed (est.)",
+     "~14,000"
+    ],
+    [
+     "NK captured",
+     "~7,000"
+    ]
+   ]
+  },
+  "s79": {
+   "lines": [
+    "One landing at Inchon completely reversed the course of the war.",
+    "After three months of retreat, it was now the UN's turn to drive north.",
+    "But this sweeping victory would soon bring a new enemy across the Yalu."
+   ],
+   "callouts": [
+    "AFTER INCHON · THE DRIVE NORTH, AND CHINA'S SHADOW (APPROX.)"
+   ]
+  },
+  "s80": {
+   "lines": [
+    "So why did a landing that succeeded in one day take thirteen days to reach Seoul?",
+    "Let's look closely at four reasons."
+   ],
+   "items": [
+    "The Han as a Moat",
+    "Swelling Garrison",
+    "Ridges & Barricades",
+    "A Rushed Command"
+   ],
+   "head": "1 Day at Sea vs 13 Days in Seoul"
+  },
+  "s81": {
+   "lines": [
+    "First: the Han River, a giant moat."
+   ],
+   "num": "FACTOR 1",
+   "title": "THE HAN AS A MOAT"
+  },
+  "s82": {
+   "lines": [
+    "With the bridges down, the Marines had to cross the river in tractors and boats.",
+    "Gathering enough crossing equipment and securing bridgeheads under fire ate up several precious days."
+   ]
+  },
+  "s83": {
+   "lines": [
+    "Second: a swelling garrison."
+   ],
+   "num": "FACTOR 2",
+   "title": "SWELLING GARRISON"
+  },
+  "s84": {
+   "lines": [
+    "Hearing of the landing, North Korea even turned back units headed south, and poured troops into Seoul.",
+    "The closer the Marines came to the city, the more defenders stood in their way."
+   ],
+   "label": "U.S. Marines entering Seoul (Sept. 1950)"
+  },
+  "s85": {
+   "lines": [
+    "Third: a double wall of ridges and barricades."
+   ],
+   "num": "FACTOR 3",
+   "title": "RIDGES & BARRICADES"
+  },
+  "s86": {
+   "lines": [
+    "Once at Ansan and Yonhui Ridge, and again at the barricades downtown.",
+    "The enemy wrapped Seoul in two walls of defense, and demanded blood for every single step forward."
+   ],
+   "label": "Dramatization"
+  },
+  "s87": {
+   "lines": [
+    "Fourth: a command in a hurry."
+   ],
+   "num": "FACTOR 4",
+   "title": "A RUSHED COMMAND"
+  },
+  "s88": {
+   "lines": [
+    "Almond drove his units hard, determined to retake Seoul on the three-month anniversary.",
+    "He clashed sharply with 1st Marine Division commander General Oliver Smith over where to cross the Han.",
+    "The three days between that hasty announcement and the real recapture show the true weight of this battle."
+   ],
+   "text": "Sept. 25 'liberation' → Sept. 28 actual recapture",
+   "accent": "3 DAYS APART"
+  },
+  "s89": {
+   "lines": [
+    "If the single day at Inchon was a victory of daring surprise,",
+    "the thirteen days in Seoul were a victory won block by block, in blood."
+   ],
+   "quotes": [
+    "One day of surprise at sea",
+    "Thirteen days of blood in Seoul"
+   ],
+   "quoteTitle": "What Inchon and Seoul Left Behind"
+  },
+  "s90": {
+   "lines": [
+    "Coming out after three months, the people of Seoul waved flags they had kept hidden.",
+    "But much of the city they returned to was already in ruins and ashes.",
+    "Countless people had lost their homes, and countless more had lost their families."
+   ],
+   "label": "Dramatization"
+  },
+  "s91": {
+   "lines": [
+    "From the fierce channels off Inchon to the narrow alleys of Seoul.",
+    "In those thirteen days, countless names fell, many of them never to be remembered."
+   ],
+   "text": "Sept. 15 → Sept. 28, 1950",
+   "accent": "13 DAYS"
+  },
+  "s92": {
+   "lines": [
+    "Today, a lighthouse still stands on Palmi-do, shining over the sea off Inchon.",
+    "We hope you'll remember, just once, those who risked their lives for that light."
+   ],
+   "label": "Dramatization"
+  },
+  "s93": {
+   "lines": [
+    "If this story meant something to you, please subscribe and hit like.",
+    "We'll keep telling the forgotten stories of war in the next video."
+   ],
+   "title": "Inchon and Seoul, September 1950.\nA 5,000-to-1 gamble, and 13 days."
+  }
+ },
+ "callout_pos": {}
+}

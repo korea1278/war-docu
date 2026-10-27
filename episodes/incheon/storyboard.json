@@ -1,0 +1,4462 @@
+{
+ "title": "인천상륙작전과 서울 수복",
+ "subtitle": "1950. 9. 15 ~ 9. 28",
+ "target_sec": 1290,
+ "midrolls": [
+  "s28",
+  "s45",
+  "s66"
+ ],
+ "places": {
+  "seoul": [
+   126.978,
+   37.566,
+   "서울"
+  ],
+  "busan": [
+   129.04,
+   35.15,
+   "부산"
+  ],
+  "daegu": [
+   128.6,
+   35.87,
+   "대구"
+  ],
+  "pyongyang": [
+   125.75,
+   39.03,
+   "평양"
+  ],
+  "tokyo_dir": [
+   128.9,
+   34.6,
+   "도쿄 방면"
+  ],
+  "inchon": [
+   126.63,
+   37.47,
+   "인천"
+  ],
+  "wolmi": [
+   126.598,
+   37.476,
+   "월미도"
+  ],
+  "palmido": [
+   126.511,
+   37.358,
+   "팔미도"
+  ],
+  "yeongheung": [
+   126.48,
+   37.255,
+   "영흥도"
+  ],
+  "green": [
+   126.593,
+   37.479,
+   "그린 비치"
+  ],
+  "red": [
+   126.613,
+   37.48,
+   "레드 비치"
+  ],
+  "blue": [
+   126.638,
+   37.452,
+   "블루 비치"
+  ],
+  "ascom": [
+   126.712,
+   37.505,
+   "부평"
+  ],
+  "kimpo": [
+   126.795,
+   37.558,
+   "김포 비행장"
+  ],
+  "haengju": [
+   126.828,
+   37.592,
+   "행주"
+  ],
+  "hill125": [
+   126.84,
+   37.586,
+   "125고지"
+  ],
+  "ydp": [
+   126.905,
+   37.517,
+   "영등포"
+  ],
+  "ansan": [
+   126.945,
+   37.578,
+   "안산"
+  ],
+  "yonhui": [
+   126.932,
+   37.566,
+   "연희고지"
+  ],
+  "wausan": [
+   126.928,
+   37.551,
+   "와우산"
+  ],
+  "namsan": [
+   126.988,
+   37.551,
+   "남산"
+  ],
+  "capitol": [
+   126.977,
+   37.577,
+   "중앙청"
+  ],
+  "sinsa": [
+   127.02,
+   37.53,
+   "신사리"
+  ],
+  "mapo": [
+   126.946,
+   37.536,
+   "마포"
+  ],
+  "osan": [
+   127.07,
+   37.15,
+   "오산"
+  ],
+  "kunsan": [
+   126.71,
+   35.98,
+   "군산"
+  ]
+ },
+ "views": {
+  "korea": {
+   "center": [
+    127.7,
+    36.35
+   ],
+   "span": 5.0
+  },
+  "perimeter": {
+   "center": [
+    128.75,
+    35.75
+   ],
+   "span": 1.9
+  },
+  "bay": {
+   "center": [
+    126.53,
+    37.365
+   ],
+   "span": 0.65
+  },
+  "channel": {
+   "center": [
+    126.54,
+    37.4
+   ],
+   "span": 0.32
+  },
+  "incheon": {
+   "center": [
+    126.618,
+    37.464
+   ],
+   "span": 0.12
+  },
+  "wolmi": {
+   "center": [
+    126.603,
+    37.476
+   ],
+   "span": 0.055
+  },
+  "corridor": {
+   "center": [
+    126.8,
+    37.53
+   ],
+   "span": 0.5
+  },
+  "ascom": {
+   "center": [
+    126.72,
+    37.505
+   ],
+   "span": 0.12
+  },
+  "han": {
+   "center": [
+    126.87,
+    37.56
+   ],
+   "span": 0.26
+  },
+  "haengju": {
+   "center": [
+    126.835,
+    37.585
+   ],
+   "span": 0.09
+  },
+  "seoul": {
+   "center": [
+    126.955,
+    37.555
+   ],
+   "span": 0.17
+  },
+  "west": {
+   "center": [
+    126.94,
+    37.564
+   ],
+   "span": 0.085
+  },
+  "core": {
+   "center": [
+    126.975,
+    37.558
+   ],
+   "span": 0.11
+  }
+ },
+ "music": [
+  {
+   "id": "drone",
+   "from": "s01",
+   "to": "s07",
+   "volume": 0.2
+  },
+  {
+   "id": "theme",
+   "from": "s08",
+   "to": "s27",
+   "volume": 0.16
+  },
+  {
+   "id": "tension",
+   "from": "s28",
+   "to": "s44",
+   "volume": 0.17
+  },
+  {
+   "id": "march",
+   "from": "s45",
+   "to": "s65",
+   "volume": 0.15
+  },
+  {
+   "id": "tension",
+   "from": "s66",
+   "to": "s75",
+   "volume": 0.17
+  },
+  {
+   "id": "analysis",
+   "from": "s76",
+   "to": "s89",
+   "volume": 0.13
+  },
+  {
+   "id": "somber",
+   "from": "s90",
+   "to": "s93",
+   "volume": 0.17
+  }
+ ],
+ "ai_images": {
+  "tide_dawn": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a vast invasion fleet of 1950 US Navy warships, cruisers, destroyers and LSTs lying in the dark grey sea off Inchon harbor, Korea, at dawn on 15 September 1950, a small rocky fortified island (Wolmi-do) wreathed in smoke ahead, huge glistening mudflats exposed between the ships and the shore, first pale light on the horizon, ominous and tense, leaving calm uncluttered dark background area in the upper left, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "yeongheung_spies": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: night on a small Korean island in the Yellow Sea in early September 1950, a few South Korean naval intelligence men whose heads are round balls painted as the taegukgi flag, in dark civilian fishermen's clothes, crouching on a muddy shore beside a small wooden fishing boat, one measuring water depth with a weighted line, another sketching on a notepad under a shaded lantern, distant harbor lights of Inchon across the water, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "yeongheung_last": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: pre-dawn on a rocky Korean island shore in September 1950, two South Korean naval intelligence men whose heads are round balls painted as the taegukgi flag, in dark civilian clothes, firing rifles from behind rocks to cover a small boat escaping across the water, North Korean soldiers' rifle flashes in the dark hills behind, solemn heroic last stand mood, leaving calm uncluttered dark background area in the upper left, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "lighthouse_night": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a small white stone lighthouse on the summit of a dark rocky island (Palmi-do) off Inchon, Korea, at midnight 15 September 1950, its lamp just switched on and sweeping a bright beam across a black sea, the silhouettes of a long column of warships following the beam through a narrow channel, a few Korean guerrillas whose heads are round balls painted as the taegukgi flag standing by the lighthouse door, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "bombardment_wolmi": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: dawn naval bombardment of a small fortified rocky island (Wolmi-do) at Inchon, Korea, 15 September 1950, US Navy cruisers and destroyers firing broadsides, Marine Corsair fighter planes diving with rockets, the island erupting in fire and black smoke, orange flashes reflected on the grey water, leaving calm uncluttered dark background area in the upper left, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "green_beach": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: US Marines landing at dawn on a small beach of a burning rocky island (Wolmi-do, Green Beach) at Inchon, 15 September 1950, American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1950 US Marine Corps M1 steel helmets with camouflage covers and olive drab herringbone utilities, jumping from landing craft and charging up the sand behind M26 Pershing tanks, smoke and shattered trenches ahead, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "mudflat_wait": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: midday on 15 September 1950, a few American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1950 US Marine Corps M1 steel helmets with camouflage covers and olive drab herringbone utilities sitting in captured trenches on a rocky island (Wolmi-do), looking out across endless shining grey mudflats where the sea has drained away, landing craft stranded far out in the distance, a long empty stone causeway leading to the city of Inchon, anxious waiting mood, leaving calm uncluttered background area in the upper left sky, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "seawall_ladders": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: late afternoon assault on a tall stone seawall at Red Beach, Inchon, 15 September 1950, American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1950 US Marine Corps M1 steel helmets with camouflage covers and olive drab herringbone utilities, climbing wooden scaling ladders from landing craft pressed against the wall, the first men going over the top under machine-gun fire, smoke and orange sunset light, high tide water slapping the wall, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "red_beach_fight": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: dusk on 15 September 1950, American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1950 US Marine Corps M1 steel helmets with camouflage covers and olive drab herringbone utilities fighting up a scrubby hill (Cemetery Hill) above the Inchon waterfront just beyond the seawall, rifles and a light machine gun firing, North Korean defenders fleeing, burning harbor buildings and LST ships beached behind, leaving calm uncluttered dark background area in the upper left, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "t34_dawn": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: foggy dawn on 17 September 1950 on a road through low hills near Bupyeong between Inchon and Seoul, a column of six North Korean T-34/85 tanks carrying infantry rolling into an ambush, the lead tank exploding, American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1950 US Marine Corps M1 steel helmets with camouflage covers and olive drab herringbone utilities firing bazookas and recoilless rifles from a roadside knoll, an M26 Pershing tank firing from the side, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "yeongdeungpo_night": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: night of 21 September 1950 in Yeongdeungpo on the southern edge of Seoul, a company of American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1950 US Marine Corps M1 steel helmets with camouflage covers and olive drab herringbone utilities dug in along a raised dike beside a road, firing bazookas at a T-34 tank emerging from the darkness, burning factory buildings, flares hanging in the sky, leaving calm uncluttered dark background area in the upper left, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "lvt_crossing": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: dawn on 20 September 1950, a line of US Marine LVT amphibious tractors churning across the wide Han River near Haengju toward a steep wooded bank, American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1950 US Marine Corps M1 steel helmets with camouflage covers and olive drab herringbone utilities crouched inside, enemy machine-gun tracers and mortar splashes around them, mist on the river, leaving calm uncluttered background area in the upper right sky, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "yonhui_assault": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: 22-25 September 1950 on a rocky pine-covered hill ridge (Yonhui ridge) on the western edge of Seoul, South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1950 M1 steel helmets and olive drab uniforms and American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1950 US Marine Corps M1 steel helmets with camouflage covers and olive drab herringbone utilities assaulting uphill through smoke against North Korean bunkers and machine-gun nests, mortar bursts, the burning city of Seoul in the hazy background, leaving calm uncluttered dark background area in the upper left, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "barricade": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a wide street in Seoul in late September 1950, a high barricade of stacked rice bags filled with earth blocking the boulevard, a North Korean anti-tank gun and machine gun behind it manned by North Korean soldiers whose heads are round balls painted as the North Korean flag (blue, thin white stripes, wide red band, white circle with red star), wearing 1950 khaki uniforms and soft caps, American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1950 US Marine Corps M1 steel helmets with camouflage covers and olive drab herringbone utilities and an M26 Pershing tank advancing through smoke, burning buildings with tiled roofs on both sides, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "barricade_breach": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an M26 Pershing tank smashing through a rice-bag barricade on a Seoul street in September 1950, Marine combat engineers carefully lifting anti-tank mines from the road in front, American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1950 US Marine Corps M1 steel helmets with camouflage covers and olive drab herringbone utilities moving building to building behind, thick smoke and fire, leaving calm uncluttered dark background area in the upper left, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "capitol_flag": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: dawn on 27 September 1950, the large domed stone capitol building (the old Government-General Building) in Seoul, a few South Korean marines whose heads are round balls painted as the taegukgi flag, wearing 1950 M1 helmets and olive uniforms, raising a large South Korean taegukgi flag on a pole on the rooftop by the dome, smoke drifting over the city, golden morning light, triumphant mood, leaving calm uncluttered background area in the upper right sky, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "seoul_after": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: early autumn 1950 in a ruined Seoul street, Korean civilians whose heads are round balls painted as the taegukgi flag, in white hanbok and simple 1950 clothes, coming out of the rubble waving small South Korean flags, a few tired American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1950 US Marine Corps M1 steel helmets with camouflage covers and olive drab herringbone utilities walking past, burnt tiled-roof buildings and smoke, bittersweet mood, leaving calm uncluttered background area in the upper left sky, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "macarthur_conf": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a tense military conference room in Tokyo in August 1950, a large wall map of Korea with Inchon circled, an older American general whose head is a round ball painted as the United States flag, wearing a crushed peaked cap and khaki uniform and holding a corncob pipe, standing and speaking passionately to a table of seated American admirals and generals whose heads are United States flag balls in navy and army uniforms, cigarette smoke, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters."
+ },
+ "scenes": [
+  {
+   "id": "s01",
+   "lines": [
+    {
+     "t": "1950년 9월 15일 새벽, 인천 앞바다.",
+     "say": "천구백오십 년 구월 십오 일 새벽, 인천 앞바다."
+    },
+    {
+     "t": "어둠 속에서, 260척이 넘는 함정이 숨을 죽이고 있었습니다.",
+     "say": "어둠 속에서, 이백육십 척이 넘는 함정이 숨을 죽이고 있었습니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "tide_dawn",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "1950. 9. 15 새벽 · 인천 앞바다",
+     "style": "yellow",
+     "at": 0
+    }
+   ],
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.3,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "lines": [
+    "그런데 이 바다는, 하루에 두 번씩 사라지는 바다였습니다.",
+    {
+     "t": "물이 빠지면, 해안 앞으로 최대 4km의 갯벌이 드러났거든요.",
+     "say": "물이 빠지면, 해안 앞으로 최대 사 킬로미터의 갯벌이 드러났거든요."
+    }
+   ],
+   "visual": {
+    "type": "profile",
+    "pts": [
+     [
+      0,
+      -6
+     ],
+     [
+      0.3,
+      -4
+     ],
+     [
+      0.55,
+      -1.5
+     ],
+     [
+      0.74,
+      0.3
+     ],
+     [
+      0.8,
+      1.2
+     ],
+     [
+      0.84,
+      5
+     ],
+     [
+      0.86,
+      11.5
+     ],
+     [
+      0.92,
+      13
+     ],
+     [
+      1,
+      14
+     ]
+    ],
+    "grid": [
+     0,
+     5,
+     10
+    ],
+    "yMin": -8,
+    "yMax": 16,
+    "bare": true,
+    "title": "월미도 앞바다 조수 단면",
+    "note": "모식도 (높이 과장)",
+    "left": "바다 쪽",
+    "right": "방파제·인천항",
+    "tide": {
+     "from": 9.5,
+     "to": 0.2,
+     "at": 0.4,
+     "dur": 4.5,
+     "hiText": "만조",
+     "loText": "간조"
+    },
+    "marks": [
+     {
+      "x": 0.5,
+      "text": "갯벌 최대 4km",
+      "style": "yellow",
+      "at": 1,
+      "lift": 90,
+      "size": 44
+     }
+    ]
+   }
+  },
+  {
+   "id": "s03",
+   "lines": [
+    "배가 해안에 닿을 수 있는 건, 만조 앞뒤로 고작 두세 시간뿐.",
+    "그 시간을 놓치면, 상륙 부대는 갯벌 위에 그대로 갇히게 되죠."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "상륙할 수 있는 시간",
+    "accent": "하루 두 번 · 2~3시간",
+    "accentAt": 0.4
+   },
+   "pauseBefore": 0.3,
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "lines": [
+    "이 작전을 밀어붙인 사람은, 유엔군 총사령관 더글러스 맥아더.",
+    {
+     "t": "성공 확률이 5,000분의 1이라는 말까지 따라붙은, 전쟁사에 남을 도박이었습니다.",
+     "say": "성공 확률이 오천 분의 일이라는 말까지 따라붙은, 전쟁사에 남을 도박이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "person",
+    "q": "s04-photo",
+    "name": "더글러스 맥아더",
+    "years": "1880 - 1964",
+    "role": "유엔군 총사령관"
+   },
+   "callouts": [
+    {
+     "text": "'5,000대 1의 도박' (전해지는 말)",
+     "style": "red",
+     "at": 1,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "lines": [
+    "그리고 이 도박은, 단 하루 만에 성공합니다.",
+    {
+     "t": "그런데 이상한 일이 벌어지죠. 인천에서 서울까지는 고작 30여 km.",
+     "say": "그런데 이상한 일이 벌어지죠. 인천에서 서울까지는 고작 삼십여 킬로미터."
+    },
+    {
+     "t": "그 길을 지나 서울을 되찾기까지, 무려 13일이 걸렸거든요.",
+     "say": "그 길을 지나 서울을 되찾기까지, 무려 십삼 일이 걸렸거든요."
+    }
+   ],
+   "visual": {
+    "type": "black",
+    "text": "인천 → 서울 약 30km",
+    "accent": "13일",
+    "accentAt": 2
+   },
+   "pauseBefore": 0.2,
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 2,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s06",
+   "lines": [
+    "바다를 건넌 해병들 앞에, 진짜 지옥은 서울에서 기다리고 있었습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "barricade",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0.5,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s07",
+   "lines": [
+    "인천상륙작전과 서울 수복.",
+    {
+     "t": "오늘은 5,000대 1의 도박과, 13일간의 시가전 이야기입니다.",
+     "say": "오늘은 오천 대 일의 도박과, 십삼 일간의 시가전 이야기입니다."
+    }
+   ],
+   "visual": {
+    "type": "titlecard",
+    "q": "s07-photo",
+    "title": "인천상륙작전과 서울 수복",
+    "sub": "5,000대 1의 도박과 13일간의 시가전 · 1950",
+    "at": 0
+   },
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0,
+     "volume": 0.5
+    }
+   ],
+   "flash": true
+  },
+  {
+   "id": "s08",
+   "lines": [
+    {
+     "t": "1950년 6월 25일, 북한군의 기습으로 시작된 전쟁.",
+     "say": "천구백오십 년 유월 이십오 일, 북한군의 기습으로 시작된 전쟁."
+    },
+    "서울은 사흘 만에 무너졌고, 국군과 미군은 남쪽으로, 또 남쪽으로 밀려났습니다.",
+    {
+     "t": "8월에 들어서자, 남은 땅은 낙동강 동쪽의 좁은 구석뿐이었죠.",
+     "say": "팔월에 들어서자, 남은 땅은 낙동강 동쪽의 좁은 구석뿐이었죠."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "korea",
+    "items": [
+     {
+      "k": "unit",
+      "p": "seoul",
+      "text": "서울 함락 6. 28",
+      "color": "red",
+      "at": 1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.0,
+        37.5
+       ],
+       [
+        127.3,
+        36.9
+       ],
+       [
+        127.8,
+        36.4
+       ],
+       [
+        128.2,
+        36.0
+       ]
+      ],
+      "color": "red",
+      "at": 1.2,
+      "width": 1.1
+     },
+     {
+      "k": "front",
+      "path": [
+       [
+        128.45,
+        35.17
+       ],
+       [
+        128.43,
+        35.32
+       ],
+       [
+        128.46,
+        35.48
+       ],
+       [
+        128.4,
+        35.63
+       ],
+       [
+        128.41,
+        35.8
+       ],
+       [
+        128.4,
+        35.98
+       ],
+       [
+        128.37,
+        36.15
+       ],
+       [
+        128.45,
+        36.24
+       ],
+       [
+        128.62,
+        36.23
+       ],
+       [
+        128.8,
+        36.17
+       ],
+       [
+        129.0,
+        36.13
+       ],
+       [
+        129.2,
+        36.1
+       ],
+       [
+        129.4,
+        36.08
+       ]
+      ],
+      "at": 2
+     },
+     {
+      "k": "marker",
+      "p": "busan",
+      "color": "blue",
+      "at": 2.4
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1950. 8 · 낙동강까지 밀린 전선",
+     "style": "yellow",
+     "at": 2,
+     "pos": "top"
+    }
+   ],
+   "chapter": {
+    "num": "PART 1",
+    "title": "벼랑 끝의 결단"
+   }
+  },
+  {
+   "id": "s09",
+   "lines": [
+    "부산을 등진 이 마지막 방어선을, 낙동강 방어선이라 불렀습니다.",
+    {
+     "t": "8월 말, 북한군은 이 선을 끊어 내려고 마지막 총공세를 준비하고 있었죠.",
+     "say": "팔월 말, 북한군은 이 선을 끊어 내려고 마지막 총공세를 준비하고 있었죠."
+    },
+    "한 번만 더 뚫리면, 대한민국은 바다로 떨어질 판이었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "perimeter",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.45,
+        35.17
+       ],
+       [
+        128.43,
+        35.32
+       ],
+       [
+        128.46,
+        35.48
+       ],
+       [
+        128.4,
+        35.63
+       ],
+       [
+        128.41,
+        35.8
+       ],
+       [
+        128.4,
+        35.98
+       ],
+       [
+        128.37,
+        36.15
+       ],
+       [
+        128.45,
+        36.24
+       ],
+       [
+        128.62,
+        36.23
+       ],
+       [
+        128.8,
+        36.17
+       ],
+       [
+        129.0,
+        36.13
+       ],
+       [
+        129.2,
+        36.1
+       ],
+       [
+        129.4,
+        36.08
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "daegu",
+      "color": "blue",
+      "at": 0.3
+     },
+     {
+      "k": "marker",
+      "p": "busan",
+      "color": "blue",
+      "at": 0.5
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.1,
+        35.9
+       ],
+       [
+        128.3,
+        35.88
+       ],
+       [
+        128.45,
+        35.86
+       ]
+      ],
+      "color": "red",
+      "at": 1.2,
+      "width": 1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.2,
+        35.4
+       ],
+       [
+        128.35,
+        35.4
+       ],
+       [
+        128.5,
+        35.42
+       ]
+      ],
+      "color": "red",
+      "at": 1.4,
+      "width": 1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.75,
+        36.45
+       ],
+       [
+        128.78,
+        36.3
+       ],
+       [
+        128.8,
+        36.12
+       ]
+      ],
+      "color": "red",
+      "at": 1.6,
+      "width": 1
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "낙동강 방어선 (개략)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "lines": [
+    {
+     "t": "9월 1일, 북한군은 실제로 낙동강 전선 전체에서 공세를 퍼붓습니다.",
+     "say": "구월 일 일, 북한군은 실제로 낙동강 전선 전체에서 공세를 퍼붓습니다."
+    },
+    "영산과 다부동, 영천과 포항까지, 방어선은 곳곳에서 금이 가기 시작했죠.",
+    "국군과 미군은, 구멍이 날 때마다 예비대를 이리저리 돌려 막으며 겨우 버텼습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "perimeter",
+    "to": "perimeter",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.45,
+        35.17
+       ],
+       [
+        128.43,
+        35.32
+       ],
+       [
+        128.46,
+        35.48
+       ],
+       [
+        128.4,
+        35.63
+       ],
+       [
+        128.41,
+        35.8
+       ],
+       [
+        128.4,
+        35.98
+       ],
+       [
+        128.37,
+        36.15
+       ],
+       [
+        128.45,
+        36.24
+       ],
+       [
+        128.62,
+        36.23
+       ],
+       [
+        128.8,
+        36.17
+       ],
+       [
+        129.0,
+        36.13
+       ],
+       [
+        129.2,
+        36.1
+       ],
+       [
+        129.4,
+        36.08
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.2,
+        35.5
+       ],
+       [
+        128.35,
+        35.52
+       ],
+       [
+        128.5,
+        35.53
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.35,
+        36.12
+       ],
+       [
+        128.45,
+        36.05
+       ],
+       [
+        128.55,
+        36.0
+       ]
+      ],
+      "color": "red",
+      "at": 0.5,
+      "width": 1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.85,
+        36.3
+       ],
+       [
+        128.92,
+        36.15
+       ],
+       [
+        128.95,
+        36.02
+       ]
+      ],
+      "color": "red",
+      "at": 0.8,
+      "width": 1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        129.3,
+        36.3
+       ],
+       [
+        129.33,
+        36.17
+       ],
+       [
+        129.35,
+        36.05
+       ]
+      ],
+      "color": "red",
+      "at": 1.1,
+      "width": 1
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1950. 9. 1 · 북한군 낙동강 총공세 (개략)",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "lines": [
+    "그 무렵, 도쿄의 유엔군 사령부에서는 전혀 다른 계획이 무르익고 있었습니다.",
+    "적의 등 뒤, 서울의 관문인 인천에 대군을 내려놓는 작전.",
+    "이름하여, 크로마이트 작전이었죠."
+   ],
+   "visual": {
+    "type": "document",
+    "org": "미 극동군사령부 (GHQ)",
+    "head": "크로마이트 작전",
+    "rows": [
+     "목표 : 인천 상륙 → 서울 탈환",
+     "부대 : 미 제10군단",
+     "  - 미 제1해병사단 · 제7보병사단",
+     "  - 국군 해병대 · 국군 제17연대",
+     "D-데이 : 1950. 9. 15"
+    ],
+    "note": "작전 개요 재구성 (요약)"
+   }
+  },
+  {
+   "id": "s12",
+   "lines": [
+    "맥아더가 이 구상을 처음 떠올린 건, 전쟁이 터지고 나흘 뒤였다고 전해집니다.",
+    "한강 남쪽 언덕에서 불타는 서울을 바라보며, 적의 등 뒤를 칠 방법을 그려 봤다는 거죠.",
+    {
+     "t": "7월에 한 번 세운 상륙 계획은 병력이 모자라 접어야 했지만, 그는 끝내 인천을 놓지 않았습니다.",
+     "say": "칠월에 한 번 세운 상륙 계획은 병력이 모자라 접어야 했지만, 그는 끝내 인천을 놓지 않았습니다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s12-photo",
+    "kb": "in"
+   },
+   "label": "한국 전선을 시찰하는 맥아더 (1950)"
+  },
+  {
+   "id": "s13",
+   "lines": [
+    "생각은 단순했습니다.",
+    "북한군의 보급은, 모두 서울을 거쳐 남쪽으로 내려가고 있었거든요.",
+    "그 목줄인 서울을 끊으면, 낙동강까지 내려온 북한군 전체가 고립되는 겁니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "perimeter",
+    "to": "korea",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.45,
+        35.17
+       ],
+       [
+        128.43,
+        35.32
+       ],
+       [
+        128.46,
+        35.48
+       ],
+       [
+        128.4,
+        35.63
+       ],
+       [
+        128.41,
+        35.8
+       ],
+       [
+        128.4,
+        35.98
+       ],
+       [
+        128.37,
+        36.15
+       ],
+       [
+        128.45,
+        36.24
+       ],
+       [
+        128.62,
+        36.23
+       ],
+       [
+        128.8,
+        36.17
+       ],
+       [
+        129.0,
+        36.13
+       ],
+       [
+        129.2,
+        36.1
+       ],
+       [
+        129.4,
+        36.08
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        126.9,
+        38.4
+       ],
+       [
+        126.98,
+        37.57
+       ],
+       [
+        127.2,
+        37.0
+       ],
+       [
+        127.7,
+        36.45
+       ],
+       [
+        128.25,
+        36.0
+       ]
+      ],
+      "color": "red",
+      "at": 0.8
+     },
+     {
+      "k": "unit",
+      "p": "seoul",
+      "text": "보급의 목줄 · 서울",
+      "color": "red",
+      "at": 1.2,
+      "pulse": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        129.0,
+        35.0
+       ],
+       [
+        127.6,
+        34.3
+       ],
+       [
+        126.1,
+        34.6
+       ],
+       [
+        125.7,
+        36.2
+       ],
+       [
+        126.25,
+        37.25
+       ],
+       [
+        126.6,
+        37.46
+       ]
+      ],
+      "color": "blue",
+      "at": 2,
+      "width": 1.1,
+      "dur": 2.2
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "망치와 모루 · 인천 상륙 구상 (개략)",
+     "style": "blue",
+     "at": 2,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "lines": [
+    "하지만 워싱턴의 반응은 싸늘했습니다.",
+    {
+     "t": "8월 23일, 도쿄에서 열린 회의에 미 육군과 해군의 참모총장이 날아왔죠.",
+     "say": "팔월 이십삼 일, 도쿄에서 열린 회의에 미 육군과 해군의 참모총장이 날아왔죠."
+    },
+    "해군 장교들은, 인천이 상륙에 불리한 조건을 거의 모두 갖춘 곳이라고 보고했습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s14-photo",
+    "kb": "in"
+   },
+   "label": "맥아더와 참모진 (1950)",
+   "callouts": [
+    {
+     "text": "1950. 8. 23 · 도쿄 작전 회의",
+     "style": "yellow",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "lines": [
+    "조수, 갯벌, 좁은 물길, 그리고 요새 같은 섬과 높은 방파제.",
+    "그래서 더 안전한 군산 쪽에 내리자는 대안까지 나왔습니다."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "반대론 · 해군 측",
+     "big": "조건 최악",
+     "icon": "none",
+     "color": "red"
+    },
+    "right": {
+     "title": "맥아더",
+     "big": "그래서 기습",
+     "icon": "none",
+     "color": "blue",
+     "at": 1
+    }
+   }
+  },
+  {
+   "id": "s16",
+   "lines": [
+    "맥아더는 긴 연설로 반박했습니다.",
+    "모두가 불가능하다고 믿는 곳이기에, 적도 대비하지 않는다는 논리였죠.",
+    "회의장은 조용해졌고, 결국 작전은 승인됩니다.",
+    {
+     "t": "D-데이는 9월 15일. 남은 시간은, 3주 남짓이었죠.",
+     "say": "디데이는 구월 십오 일. 남은 시간은, 삼 주 남짓이었죠."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "macarthur_conf",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s17",
+   "lines": [
+    "인천이 왜 그토록 위험했을까요? 지도를 보면 답이 보입니다.",
+    "먼 바다에서 인천항까지는, 섬과 여울 사이로 난 좁은 물길 하나뿐이었습니다.",
+    "비어 수로, 영어로는 날치 해협이라 불린 곳이죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "bay",
+    "zoom": 1,
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.38,
+        37.22
+       ],
+       [
+        126.46,
+        37.3
+       ],
+       [
+        126.505,
+        37.35
+       ],
+       [
+        126.54,
+        37.4
+       ],
+       [
+        126.57,
+        37.44
+       ],
+       [
+        126.592,
+        37.468
+       ]
+      ],
+      "color": "blue",
+      "at": 1,
+      "glow": true
+     },
+     {
+      "k": "marker",
+      "p": "palmido",
+      "color": "dark",
+      "at": 1.5
+     },
+     {
+      "k": "unit",
+      "p": "wolmi",
+      "text": "월미도",
+      "color": "red",
+      "at": 1.6
+     },
+     {
+      "k": "marker",
+      "p": "yeongheung",
+      "color": "dark",
+      "at": 2
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "비어 수로 (Flying Fish Channel) · 개략",
+     "style": "blue",
+     "at": 1,
+     "pos": "top"
+    }
+   ],
+   "chapter": {
+    "num": "PART 2",
+    "title": "5,000대 1의 확률"
+   }
+  },
+  {
+   "id": "s18",
+   "lines": [
+    {
+     "t": "물살은 최대 8노트, 시속 15km에 가까울 만큼 거셌습니다.",
+     "say": "물살은 최대 팔 노트, 시속 십오 킬로미터에 가까울 만큼 거셌습니다."
+    },
+    "배 한 척이 가라앉거나 기뢰 하나만 터져도, 뒤따르는 함대 전체가 길을 잃을 수 있었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "bay",
+    "to": "channel",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.38,
+        37.22
+       ],
+       [
+        126.46,
+        37.3
+       ],
+       [
+        126.505,
+        37.35
+       ],
+       [
+        126.54,
+        37.4
+       ],
+       [
+        126.57,
+        37.44
+       ],
+       [
+        126.592,
+        37.468
+       ]
+      ],
+      "color": "blue",
+      "at": 0,
+      "glow": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.44,
+        37.28
+       ],
+       [
+        126.49,
+        37.335
+       ],
+       [
+        126.53,
+        37.39
+       ]
+      ],
+      "color": "red",
+      "at": 0.3,
+      "width": 0.8
+     },
+     {
+      "k": "marker",
+      "p": "palmido",
+      "color": "dark",
+      "at": 0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "조류 최대 3~8노트 (자료마다 차이)",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s19",
+   "lines": [
+    {
+     "t": "그리고 가장 큰 적은, 바다 그 자체였습니다. 조수 간만의 차가 최대 9m에 이르렀거든요.",
+     "say": "그리고 가장 큰 적은, 바다 그 자체였습니다. 조수 간만의 차가 최대 구 미터에 이르렀거든요."
+    },
+    {
+     "t": "아파트 3층 높이만큼, 바닷물이 하루 두 번 올라왔다 빠지는 셈이죠.",
+     "say": "아파트 삼 층 높이만큼, 바닷물이 하루 두 번 올라왔다 빠지는 셈이죠."
+    },
+    "물이 빠지면 상륙정은 갯벌에 처박히고, 병사들은 진흙 위의 과녁이 됩니다."
+   ],
+   "visual": {
+    "type": "profile",
+    "pts": [
+     [
+      0,
+      -6
+     ],
+     [
+      0.3,
+      -4
+     ],
+     [
+      0.55,
+      -1.5
+     ],
+     [
+      0.74,
+      0.3
+     ],
+     [
+      0.8,
+      1.2
+     ],
+     [
+      0.84,
+      5
+     ],
+     [
+      0.86,
+      11.5
+     ],
+     [
+      0.92,
+      13
+     ],
+     [
+      1,
+      14
+     ]
+    ],
+    "grid": [
+     0,
+     5,
+     10
+    ],
+    "yMin": -8,
+    "yMax": 16,
+    "bare": true,
+    "title": "인천 해안 조수 단면",
+    "note": "모식도 · 조차: 한국 측 자료 약 9m / 미 해병대 사료 9. 15 만조 예측 31.5피트",
+    "left": "바다 쪽",
+    "right": "방파제",
+    "tide": {
+     "from": 0.2,
+     "to": 9.2,
+     "at": 0,
+     "dur": 5,
+     "hiText": "만조",
+     "loText": "간조"
+    },
+    "marks": [
+     {
+      "x": 0.5,
+      "text": "조수 간만의 차 최대 약 9m",
+      "style": "yellow",
+      "at": 1,
+      "lift": 130,
+      "size": 44
+     }
+    ]
+   }
+  },
+  {
+   "id": "s20",
+   "lines": [
+    "상륙정이 방파제에 닿을 만큼 물이 차오르는 날은, 한 달에 며칠뿐이었습니다.",
+    {
+     "t": "9월 15일을 놓치면, 다음 기회는 10월 중순. 그때는 이미 날이 추워지죠.",
+     "say": "구월 십오 일을 놓치면, 다음 기회는 시월 중순. 그때는 이미 날이 추워지죠."
+    }
+   ],
+   "visual": {
+    "type": "timeline",
+    "items": [
+     {
+      "date": "9월 15일 전후",
+      "text": "D-데이",
+      "at": 0
+     },
+     {
+      "date": "10월 중순",
+      "text": "다음 기회",
+      "at": 1
+     },
+     {
+      "date": "11월 초",
+      "text": "그다음",
+      "at": 1.5
+     }
+    ]
+   }
+  },
+  {
+   "id": "s21",
+   "lines": [
+    "게다가 인천항 바로 앞에는, 요새 같은 섬 하나가 버티고 있었습니다. 바로 월미도죠.",
+    "월미도를 먼저 치지 않으면, 본대가 항구로 들어서는 순간 옆구리를 내주게 됩니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "channel",
+    "to": "incheon",
+    "items": [
+     {
+      "k": "unit",
+      "p": "wolmi",
+      "text": "월미도",
+      "color": "red",
+      "at": 0.3,
+      "pulse": true
+     },
+     {
+      "k": "marker",
+      "p": "inchon",
+      "color": "dark",
+      "at": 0.6
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "월미도 · 북한군 해안포대 (개략)",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s22",
+   "lines": [
+    "그런데 월미도를 치는 시각과 본대가 상륙하는 시각 사이에는, 썰물 때문에 열두 시간 가까운 공백이 생겼습니다.",
+    "아침 만조에 월미도를 치고, 저녁 만조에야 본대가 상륙하는 겁니다.",
+    "그 사이 적은, 상륙 지점을 알아채고도 남을 시간이었죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "공백 약 12시간",
+    "style": "red",
+    "sub": "아침 만조 → 월미도 · 저녁 만조 → 인천 본 해안",
+    "subAt": 1
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s23",
+   "lines": [
+    "적의 눈을 속이는 일도 중요했습니다.",
+    "유엔군은 일부러 군산과 동해안 쪽에 폭격과 포격을 퍼부으며, 다른 곳에 상륙할 것처럼 꾸몄죠.",
+    "상륙 이틀 전에는 구축함들이 월미도 코앞까지 들어가, 일부러 적의 해안포를 불러냈습니다.",
+    "적이 포를 쏘는 순간, 숨어 있던 포대의 위치가 그대로 드러났거든요."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "bay",
+    "items": [
+     {
+      "k": "marker",
+      "p": "kunsan",
+      "color": "dark",
+      "at": 0.6
+     },
+     {
+      "k": "unit",
+      "p": "wolmi",
+      "text": "월미도",
+      "color": "red",
+      "at": 2,
+      "pulse": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.45,
+        37.33
+       ],
+       [
+        126.52,
+        37.39
+       ],
+       [
+        126.575,
+        37.455
+       ]
+      ],
+      "color": "blue",
+      "at": 2.2,
+      "width": 0.8
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "양동 작전 · 미끼 구축함 (개략)",
+     "style": "blue",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s24",
+   "lines": [
+    "그래서 상륙 전, 누군가는 먼저 그 바다에 들어가야 했습니다.",
+    {
+     "t": "8월 중순, 해군 첩보대원들이 어선으로 위장해 인천 앞바다의 영흥도에 잠입합니다.",
+     "say": "팔월 중순, 해군 첩보대원들이 어선으로 위장해 인천 앞바다의 영흥도에 잠입합니다."
+    },
+    "물 깊이와 갯벌의 단단함, 해안포의 위치와 방파제 높이까지, 하나하나 직접 재고 다녔죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "yeongheung_spies",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "1950. 8~9 · 영흥도 첩보 작전",
+     "style": "yellow",
+     "at": 1
+    }
+   ]
+  },
+  {
+   "id": "s25",
+   "lines": [
+    {
+     "t": "9월 1일부터는 미 해군 클라크 대위의 첩보대도, 이 섬을 거점으로 움직였습니다.",
+     "say": "구월 일 일부터는 미 해군 클라크 대위의 첩보대도, 이 섬을 거점으로 움직였습니다."
+    },
+    "그들이 보낸 정보가, 도쿄의 작전 지도를 한 칸씩 채워 나갔죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "bay",
+    "to": "bay",
+    "items": [
+     {
+      "k": "unit",
+      "p": "yeongheung",
+      "text": "영흥도 첩보 거점",
+      "color": "blue",
+      "at": 0,
+      "pulse": true
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        126.38,
+        37.22
+       ],
+       [
+        126.46,
+        37.3
+       ],
+       [
+        126.505,
+        37.35
+       ],
+       [
+        126.54,
+        37.4
+       ],
+       [
+        126.57,
+        37.44
+       ],
+       [
+        126.592,
+        37.468
+       ]
+      ],
+      "color": "blue",
+      "at": 0.5
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.49,
+        37.27
+       ],
+       [
+        126.53,
+        37.36
+       ],
+       [
+        126.585,
+        37.465
+       ]
+      ],
+      "color": "blue",
+      "at": 1,
+      "width": 0.7
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "영흥도 → 인천 정찰 (개략)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s26",
+   "lines": [
+    {
+     "t": "하지만 상륙 하루 전인 9월 14일, 북한군이 영흥도를 덮쳤습니다.",
+     "say": "하지만 상륙 하루 전인 구월 십사 일, 북한군이 영흥도를 덮쳤습니다."
+    },
+    "동료들을 먼저 떠나보내고 끝까지 남은, 임병래 중위와 홍시욱 하사.",
+    "두 사람은 포로가 되기를 거부하고, 그 섬에서 최후를 맞았습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "yeongheung_last",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "1950. 9. 14 · 해군 임병래 중위 · 홍시욱 하사 전사",
+     "style": "red",
+     "at": 1
+    }
+   ]
+  },
+  {
+   "id": "s27",
+   "lines": [
+    "그리고 9월 15일 자정 무렵, 어둠에 잠긴 팔미도 등대에 불이 켜집니다.",
+    "섬에 올라 등대를 다시 밝힌 첩보 부대원들의 그 불빛이, 함대를 좁은 물길로 이끄는 길잡이가 됐죠.",
+    "이제, 물러설 수 없는 시간이 다가오고 있었습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "lighthouse_night",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "1950. 9. 15 0시 무렵 · 팔미도 등대 점등",
+     "style": "yellow",
+     "at": 0
+    }
+   ],
+   "tail": 0.4
+  },
+  {
+   "id": "s28",
+   "lines": [
+    {
+     "t": "9월 15일 새벽, 함대의 포문이 일제히 월미도를 향해 열렸습니다.",
+     "say": "구월 십오 일 새벽, 함대의 포문이 일제히 월미도를 향해 열렸습니다."
+    },
+    "며칠 전부터 이어진 폭격으로, 섬은 이미 불타는 바위산이 되어 있었죠.",
+    "순양함과 구축함, 그리고 해병 항공대의 전투기들이 번갈아 가며 섬을 두드렸습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "bombardment_wolmi",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "1950. 9. 15 새벽 · 월미도 함포 사격",
+     "style": "red",
+     "at": 0
+    }
+   ],
+   "chapter": {
+    "num": "PART 3",
+    "title": "새벽 6시 33분, 월미도"
+   },
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0,
+     "volume": 0.45
+    },
+    {
+     "id": "boom",
+     "at": 0.8,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s29",
+   "lines": [
+    "기함 마운트 매킨리호의 함교에는, 일흔 살의 맥아더가 서 있었습니다.",
+    "자신이 내건 도박의 첫 패가, 곧 펼쳐지려 하고 있었죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s29-photo",
+    "kb": "in"
+   },
+   "label": "기함 마운트 매킨리호의 맥아더 (1950. 9)"
+  },
+  {
+   "id": "s30",
+   "lines": [
+    {
+     "t": "오전 6시 33분, 미 해병 5연대 3대대가 월미도 북서쪽 해안에 상륙합니다.",
+     "say": "오전 여섯 시 삼십삼 분, 미 해병 오 연대 삼 대대가 월미도 북서쪽 해안에 상륙합니다."
+    },
+    "작전 지도에 녹색으로 표시된 해안, 그린 비치였죠.",
+    {
+     "t": "M26 퍼싱 전차 9대도, 해병들과 함께 해안에 올라섰습니다.",
+     "say": "엠 이십육 퍼싱 전차 아홉 대도, 해병들과 함께 해안에 올라섰습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "incheon",
+    "to": "wolmi",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.575,
+        37.492
+       ],
+       [
+        126.585,
+        37.485
+       ],
+       [
+        126.592,
+        37.48
+       ]
+      ],
+      "color": "blue",
+      "at": 0.1,
+      "width": 1.1
+     },
+     {
+      "k": "unit",
+      "p": "green",
+      "text": "그린 비치",
+      "color": "blue",
+      "at": 0.6,
+      "pulse": true
+     },
+     {
+      "k": "badge",
+      "p": [
+       126.6,
+       37.4745
+      ],
+      "text": "미 해병 5연대 3대대",
+      "color": "blue",
+      "at": 1,
+      "dy": 70
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "06:33 · 그린 비치 상륙",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "charge",
+     "at": 0.2,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s31",
+   "lines": [
+    "포격에 넋이 나간 북한군 진지는, 예상보다 빨리 무너졌습니다.",
+    {
+     "t": "상륙 22분 만인 6시 55분, 해병들은 월미도 꼭대기에 성조기를 꽂았죠.",
+     "say": "상륙 이십이 분 만인 여섯 시 오십오 분, 해병들은 월미도 꼭대기에 성조기를 꽂았죠."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "green_beach",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "06:55 · 월미산 정상 점령",
+     "style": "blue",
+     "at": 1
+    }
+   ]
+  },
+  {
+   "id": "s32",
+   "lines": [
+    {
+     "t": "오전 8시 무렵, 월미도는 완전히 해병대의 손에 들어옵니다.",
+     "say": "오전 여덟 시 무렵, 월미도는 완전히 해병대의 손에 들어옵니다."
+    },
+    {
+     "t": "북한군은 100명 넘게 전사하고 136명이 포로로 잡혔지만, 미 해병 전사자는 한 명도 없었습니다.",
+     "say": "북한군은 백 명 넘게 전사하고 백삼십육 명이 포로로 잡혔지만, 미 해병 전사자는 한 명도 없었습니다."
+    }
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "미 해병 전사",
+     "big": "0명",
+     "icon": "none",
+     "color": "blue"
+    },
+    "right": {
+     "title": "북한군 포로",
+     "big": "136명",
+     "icon": "none",
+     "color": "red",
+     "at": 1
+    }
+   }
+  },
+  {
+   "id": "s33",
+   "lines": [
+    "포로들을 통해, 섬을 지키던 부대가 북한군 해안포 연대와 해병 연대 일부였다는 것도 드러났죠.",
+    "인천 본토를 지키는 병력은, 2천 명이 채 안 되는 것으로 보였습니다.",
+    "적은 아직, 이것이 진짜 상륙인지조차 확신하지 못하고 있었습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s33-photo",
+    "kb": "in"
+   },
+   "label": "인천에서 붙잡힌 북한군 포로들 (1950. 9)"
+  },
+  {
+   "id": "s34",
+   "lines": [
+    "하지만 기쁨도 잠시, 바닷물이 빠르게 빠져나가기 시작했습니다.",
+    "월미도와 인천항 사이가, 끝없는 갯벌로 바뀌어 갔죠."
+   ],
+   "visual": {
+    "type": "profile",
+    "pts": [
+     [
+      0,
+      -6
+     ],
+     [
+      0.3,
+      -4
+     ],
+     [
+      0.55,
+      -1.5
+     ],
+     [
+      0.74,
+      0.3
+     ],
+     [
+      0.8,
+      1.2
+     ],
+     [
+      0.84,
+      5
+     ],
+     [
+      0.86,
+      11.5
+     ],
+     [
+      0.92,
+      13
+     ],
+     [
+      1,
+      14
+     ]
+    ],
+    "grid": [
+     0,
+     5,
+     10
+    ],
+    "yMin": -8,
+    "yMax": 16,
+    "bare": true,
+    "title": "오전 → 정오 · 썰물",
+    "note": "모식도 · 높이 과장",
+    "left": "월미도 쪽",
+    "right": "인천 방파제",
+    "tide": {
+     "from": 9.2,
+     "to": 0.2,
+     "at": 0,
+     "dur": 5,
+     "hiText": "만조",
+     "loText": "간조"
+    }
+   }
+  },
+  {
+   "id": "s35",
+   "lines": [
+    "섬에 오른 해병 대대는, 이제 본대 없이 홀로 고립된 처지가 됐습니다.",
+    "적이 전차를 몰고 둑길을 건너왔다면, 꼼짝없이 당할 수도 있었던 시간이었죠.",
+    "길고 긴 기다림이, 그렇게 시작됩니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "mudflat_wait",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s36",
+   "lines": [
+    "오후가 되자, 바다가 다시 차오르기 시작했습니다.",
+    {
+     "t": "오후 5시 30분 무렵, 상륙정들이 두 갈래로 인천 해안을 향해 달려듭니다.",
+     "say": "오후 다섯 시 삼십 분 무렵, 상륙정들이 두 갈래로 인천 해안을 향해 달려듭니다."
+    },
+    "북쪽 레드 비치에는 해병 5연대, 남쪽 블루 비치에는 해병 1연대였죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "wolmi",
+    "to": "incheon",
+    "items": [
+     {
+      "k": "unit",
+      "p": "wolmi",
+      "text": "월미도",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.6,
+        37.492
+       ],
+       [
+        126.607,
+        37.487
+       ],
+       [
+        126.612,
+        37.482
+       ]
+      ],
+      "color": "blue",
+      "at": 1,
+      "width": 1.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.6,
+        37.44
+       ],
+       [
+        126.62,
+        37.446
+       ],
+       [
+        126.635,
+        37.451
+       ]
+      ],
+      "color": "blue",
+      "at": 1.2,
+      "width": 1.1
+     },
+     {
+      "k": "badge",
+      "p": "red",
+      "text": "레드 비치 · 해병 5연대",
+      "color": "red",
+      "at": 2,
+      "dy": -70
+     },
+     {
+      "k": "badge",
+      "p": "blue",
+      "text": "블루 비치 · 해병 1연대",
+      "color": "blue",
+      "at": 2.3,
+      "dy": 70
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1950. 9. 15 17:30 무렵 · 본 상륙",
+     "style": "yellow",
+     "at": 1,
+     "pos": "top"
+    }
+   ],
+   "chapter": {
+    "num": "PART 4",
+    "title": "만조의 벽을 넘어라"
+   },
+   "sfx": [
+    {
+     "id": "charge",
+     "at": 1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s37",
+   "lines": [
+    "레드 비치는 모래사장이 아니었습니다. 사람 키를 훌쩍 넘는 돌 방파제였죠.",
+    "해병들은 상륙정에 싣고 온 사다리를 걸치고, 그 벽을 기어올라야 했습니다.",
+    "벽 너머에서는, 북한군의 기관총이 기다리고 있었고요."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "seawall_ladders",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s38",
+   "lines": [
+    "이 장면은, 그날 레드 비치에서 실제로 찍힌 사진입니다.",
+    "사다리 맨 위에서 방파제를 넘는 사람은, 소대장 발도메로 로페스 중위.",
+    "그는 몇 분 뒤, 부상으로 놓친 수류탄을 자기 몸으로 덮어 부하들을 지키고 전사합니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s38-photo",
+    "kb": "in"
+   },
+   "label": "레드 비치 방파제를 넘는 로페스 중위 (1950. 9. 15)",
+   "callouts": [
+    {
+     "text": "미 해병 로페스 중위 · 사후 명예훈장",
+     "style": "dark",
+     "at": 2,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s39",
+   "lines": [
+    "해병들은 해가 지기 전에, 해안 뒤편의 묘지 언덕과 관측소 언덕을 차례로 점령합니다.",
+    "날이 저물 무렵에는, 방파제 위로 교두보가 단단하게 자리를 잡았죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "red_beach_fight",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s40",
+   "lines": [
+    "레드 비치에는 국군 해병대도 함께 있었습니다.",
+    "고향 땅을 되찾으러 온 그들은, 뒤이어 인천 시가지로 뛰어들어 골목마다 숨은 적을 찾아냈죠.",
+    {
+     "t": "이 바다에서 시작된 국군 해병대의 싸움은, 13일 뒤 서울 한복판까지 이어지게 됩니다.",
+     "say": "이 바다에서 시작된 국군 해병대의 싸움은, 십삼 일 뒤 서울 한복판까지 이어지게 됩니다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s40-photo",
+    "kb": "in"
+   },
+   "label": "인천상륙작전에 나선 국군 해병대 (1950. 9)"
+  },
+  {
+   "id": "s41",
+   "lines": [
+    "남쪽 블루 비치에서는, 또 다른 적이 해병들을 막아섰습니다.",
+    "연기와 어둠, 그리고 발목을 붙잡는 진흙이었죠.",
+    "일부 상륙정은 엉뚱한 곳에 닿았지만, 해병 1연대는 끝내 해안을 뚫고 올라섭니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "incheon",
+    "to": "incheon",
+    "zoom": 1.4,
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.6,
+        37.44
+       ],
+       [
+        126.62,
+        37.446
+       ],
+       [
+        126.635,
+        37.451
+       ]
+      ],
+      "color": "blue",
+      "at": 0,
+      "width": 1.1
+     },
+     {
+      "k": "unit",
+      "p": "blue",
+      "text": "블루 비치",
+      "color": "blue",
+      "at": 0.3,
+      "pulse": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.638,
+        37.452
+       ],
+       [
+        126.65,
+        37.46
+       ],
+       [
+        126.665,
+        37.468
+       ]
+      ],
+      "color": "blue",
+      "at": 2,
+      "width": 0.9
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "블루 비치 · 해병 1연대 (풀러 대령)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s42",
+   "lines": [
+    {
+     "t": "그날 저녁, 대형 상륙함 LST 8척이 일부러 레드 비치에 배를 걸쳐 올렸습니다.",
+     "say": "그날 저녁, 대형 상륙함 엘에스티 여덟 척이 일부러 레드 비치에 배를 걸쳐 올렸습니다."
+    },
+    "물이 빠지면 갯벌에 갇힐 걸 알면서도, 밤새 탄약과 장비를 쏟아 내린 거죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s42-photo",
+    "kb": "in"
+   },
+   "label": "인천 해안에 올라선 LST들 (1950. 9)"
+  },
+  {
+   "id": "s43",
+   "lines": [
+    {
+     "t": "상륙 첫날, 아군의 전사자는 21명이었습니다.",
+     "say": "상륙 첫날, 아군의 전사자는 이십일 명이었습니다."
+    },
+    "작전을 짠 참모들이 걱정했던 피해에 비하면, 믿기 어려울 만큼 적은 숫자였죠."
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "1950. 9. 15 하루 · 한국 측 집계 (자료마다 차이)",
+    "items": [
+     {
+      "label": "전사",
+      "value": 21,
+      "display": "21명",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "label": "실종",
+      "value": 1,
+      "display": "1명",
+      "color": "red",
+      "at": 0.3
+     },
+     {
+      "label": "부상",
+      "value": 174,
+      "display": "174명",
+      "color": "blue",
+      "at": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "s44",
+   "lines": [
+    {
+     "t": "다음 날인 9월 16일, 국군 해병대가 인천 시가지의 남은 적을 쓸어 냅니다.",
+     "say": "다음 날인 구월 십육 일, 국군 해병대가 인천 시가지의 남은 적을 쓸어 냅니다."
+    },
+    {
+     "t": "5,000대 1의 도박은, 그렇게 단 하루 만에 판을 뒤집었습니다.",
+     "say": "오천 대 일의 도박은, 그렇게 단 하루 만에 판을 뒤집었습니다."
+    },
+    "하지만 서울까지 남은 길은, 바다보다 훨씬 거친 땅이었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "incheon",
+    "to": "corridor",
+    "items": [
+     {
+      "k": "unit",
+      "p": "inchon",
+      "text": "인천 확보 9. 16",
+      "color": "blue",
+      "at": 0.2
+     },
+     {
+      "k": "unit",
+      "p": "seoul",
+      "text": "서울",
+      "color": "red",
+      "at": 2,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1950. 9. 16 · 인천 시가지 확보",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "tail": 0.4
+  },
+  {
+   "id": "s45",
+   "lines": [
+    "인천에서 서울로 가는 길은 두 갈래였습니다.",
+    "해병 5연대는 북쪽의 김포 비행장으로, 해병 1연대는 경인 가도를 따라 영등포로 향했죠.",
+    "북한군이 서울 방어를 굳히기 전에, 한시라도 빨리 한강에 닿아야 했습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "corridor",
+    "to": "corridor",
+    "items": [
+     {
+      "k": "marker",
+      "p": "inchon",
+      "color": "dark",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.65,
+        37.48
+       ],
+       [
+        126.7,
+        37.51
+       ],
+       [
+        126.75,
+        37.54
+       ],
+       [
+        126.79,
+        37.556
+       ]
+      ],
+      "color": "blue",
+      "at": 1,
+      "width": 1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.65,
+        37.47
+       ],
+       [
+        126.72,
+        37.495
+       ],
+       [
+        126.8,
+        37.505
+       ],
+       [
+        126.895,
+        37.515
+       ]
+      ],
+      "color": "blue",
+      "at": 1.3,
+      "width": 1
+     },
+     {
+      "k": "unit",
+      "p": "kimpo",
+      "text": "김포 비행장",
+      "color": "red",
+      "at": 1.6
+     },
+     {
+      "k": "unit",
+      "p": "ydp",
+      "text": "영등포",
+      "color": "red",
+      "at": 1.8
+     },
+     {
+      "k": "marker",
+      "p": "ascom",
+      "color": "dark",
+      "at": 1.4
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "인천 → 부평 → 영등포 · 경인 가도 (개략)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "chapter": {
+    "num": "PART 5",
+    "title": "경인 가도의 혈전"
+   }
+  },
+  {
+   "id": "s46",
+   "lines": [
+    {
+     "t": "9월 17일 새벽, 부평 근처의 고갯길.",
+     "say": "구월 십칠 일 새벽, 부평 근처의 고갯길."
+    },
+    {
+     "t": "안개 속에서, 북한군 T-34 전차 6대가 보병을 태우고 다가옵니다.",
+     "say": "안개 속에서, 북한군 티 삼십사 전차 여섯 대가 보병을 태우고 다가옵니다."
+    },
+    "그들은 바로 앞 언덕에, 해병들이 숨어 있다는 걸 몰랐죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "t34_dawn",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "1950. 9. 17 새벽 · 부평 부근",
+     "style": "red",
+     "at": 0
+    }
+   ],
+   "sfx": [
+    {
+     "id": "tank",
+     "at": 0.6,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s47",
+   "lines": [
+    "해병들은 전차가 코앞까지 올 때까지 기다렸습니다.",
+    {
+     "t": "그리고 바주카포와 무반동총, 퍼싱 전차의 90mm 포가 한꺼번에 불을 뿜었죠.",
+     "say": "그리고 바주카포와 무반동총, 퍼싱 전차의 구십 밀리 포가 한꺼번에 불을 뿜었죠."
+    },
+    {
+     "t": "불과 몇 분 만에, T-34 6대가 모두 불길에 휩싸였습니다.",
+     "say": "불과 몇 분 만에, 티 삼십사 여섯 대가 모두 불길에 휩싸였습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "corridor",
+    "to": "ascom",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.77,
+        37.52
+       ],
+       [
+        126.745,
+        37.512
+       ],
+       [
+        126.72,
+        37.506
+       ]
+      ],
+      "color": "red",
+      "at": 0,
+      "width": 1
+     },
+     {
+      "k": "unit",
+      "p": "ascom",
+      "text": "해병 5연대 D중대 매복",
+      "color": "blue",
+      "at": 0.5,
+      "pulse": true
+     },
+     {
+      "k": "badge",
+      "p": [
+       126.73,
+       37.508
+      ],
+      "text": "T-34 6대 격파",
+      "color": "red",
+      "at": 2,
+      "dy": -80
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "애스컴시티(부평) 입구 매복 (개략)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 1.2,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s48",
+   "lines": [
+    {
+     "t": "함께 오던 북한군 보병 약 200명도 쓰러졌지만, 해병 쪽 부상자는 단 한 명이었다고 기록돼 있죠.",
+     "say": "함께 오던 북한군 보병 약 이백 명도 쓰러졌지만, 해병 쪽 부상자는 단 한 명이었다고 기록돼 있죠."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "T-34 6대 격파",
+    "style": "red",
+    "sub": "1950. 9. 17 새벽 · 북한군 보병 약 200명 (미 해병대 기록)",
+    "subAt": 0
+   }
+  },
+  {
+   "id": "s49",
+   "lines": [
+    "그날 맥아더는 직접 인천 땅을 밟고, 전선을 둘러봤습니다.",
+    "아직 연기가 피어오르던 그 길 위에서, 그는 서울을 향한 진격을 서두르라고 재촉했죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s49-photo",
+    "kb": "in"
+   },
+   "label": "전선을 찾은 맥아더와 해병 1연대장 풀러 대령 (1950. 9. 17)"
+  },
+  {
+   "id": "s50",
+   "lines": [
+    {
+     "t": "9월 18일 아침에는, 해병 5연대가 김포 비행장을 완전히 손에 넣습니다.",
+     "say": "구월 십팔 일 아침에는, 해병 오 연대가 김포 비행장을 완전히 손에 넣습니다."
+    },
+    "곧바로 수송기가 내려앉기 시작하면서, 서울로 가는 보급길이 하늘로도 열렸죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "corridor",
+    "to": "han",
+    "items": [
+     {
+      "k": "unit",
+      "p": "kimpo",
+      "text": "김포 비행장 확보",
+      "color": "blue",
+      "at": 0.3,
+      "pulse": true
+     },
+     {
+      "k": "unit",
+      "p": "ydp",
+      "text": "영등포",
+      "color": "red",
+      "at": 1
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1950. 9. 18 · 김포 비행장 확보",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s51",
+   "lines": [
+    "북한군도 가만히 있지는 않았습니다.",
+    "비행장을 빼앗긴 그날 밤과 새벽, 그들은 활주로를 되찾으려고 거듭 역습을 걸어왔죠.",
+    "하지만 해병들은 활주로 끝의 참호에서 이를 모두 물리쳤고, 북한군은 한강 쪽으로 밀려났습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "han",
+    "to": "han",
+    "zoom": 1.4,
+    "items": [
+     {
+      "k": "unit",
+      "p": "kimpo",
+      "text": "김포 비행장",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.78,
+        37.6
+       ],
+       [
+        126.787,
+        37.58
+       ],
+       [
+        126.792,
+        37.565
+       ]
+      ],
+      "color": "red",
+      "at": 1,
+      "width": 0.9
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.82,
+        37.545
+       ],
+       [
+        126.808,
+        37.552
+       ],
+       [
+        126.799,
+        37.557
+       ]
+      ],
+      "color": "red",
+      "at": 1.3,
+      "width": 0.9
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1950. 9. 17~18 · 김포 비행장 역습 격퇴",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s52",
+   "lines": [
+    "한편 경인 가도의 해병 1연대는, 영등포 앞에서 발이 묶였습니다.",
+    "영등포는 서울로 들어가는 남쪽 관문, 북한군은 이곳을 단단한 요새로 바꿔 놓았거든요.",
+    "하천 둑을 사이에 두고, 이틀 넘게 치열한 공방이 이어집니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "han",
+    "to": "han",
+    "zoom": 1.5,
+    "items": [
+     {
+      "k": "unit",
+      "p": "ydp",
+      "text": "영등포",
+      "color": "red",
+      "at": 0,
+      "pulse": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.82,
+        37.5
+       ],
+       [
+        126.85,
+        37.508
+       ],
+       [
+        126.88,
+        37.513
+       ]
+      ],
+      "color": "blue",
+      "at": 0.6,
+      "width": 1
+     },
+     {
+      "k": "badge",
+      "p": [
+       126.86,
+       37.495
+      ],
+      "text": "해병 1연대",
+      "color": "blue",
+      "at": 0.8,
+      "dy": 70
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1950. 9. 20~22 · 영등포 전투",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s53",
+   "lines": [
+    {
+     "t": "9월 21일, 배로 대위가 이끄는 해병 1연대 A중대가 적의 틈을 비집고 영등포 한복판까지 파고듭니다.",
+     "say": "구월 이십일 일, 배로 대위가 이끄는 해병 일 연대 에이 중대가 적의 틈을 비집고 영등포 한복판까지 파고듭니다."
+    },
+    {
+     "t": "그날 밤, 북한군 T-34 전차 5대가 이들을 향해 밀고 들어왔죠.",
+     "say": "그날 밤, 북한군 티 삼십사 전차 다섯 대가 이들을 향해 밀고 들어왔죠."
+    },
+    "고립된 중대는 바주카포로 맞서며, 밤새 이어진 다섯 차례의 돌격을 모두 막아 냈습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "yeongdeungpo_night",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "1950. 9. 21 밤 · 해병 1연대 A중대",
+     "style": "blue",
+     "at": 0
+    }
+   ],
+   "sfx": [
+    {
+     "id": "tank",
+     "at": 1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s54",
+   "lines": [
+    {
+     "t": "날이 밝자, 그들의 진지 앞에는 북한군 시신 200여 구가 쓰러져 있었습니다.",
+     "say": "날이 밝자, 그들의 진지 앞에는 북한군 시신 이백여 구가 쓰러져 있었습니다."
+    },
+    {
+     "t": "9월 22일, 영등포는 마침내 해병대의 손에 떨어집니다.",
+     "say": "구월 이십이 일, 영등포는 마침내 해병대의 손에 떨어집니다."
+    },
+    "이제 서울 앞을 가로막은 것은, 거대한 물길 하나뿐이었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "han",
+    "to": "seoul",
+    "items": [
+     {
+      "k": "unit",
+      "p": "ydp",
+      "text": "영등포 확보 9. 22",
+      "color": "blue",
+      "at": 1
+     },
+     {
+      "k": "unit",
+      "p": "seoul",
+      "text": "서울",
+      "color": "red",
+      "at": 2,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1950. 9. 22 · 영등포 확보",
+     "style": "blue",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s55",
+   "lines": [
+    "한강의 다리들은, 전쟁 초기에 대부분 끊어진 상태였습니다.",
+    "서울로 들어가려면, 강을 직접 건너는 수밖에 없었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "seoul",
+    "to": "han",
+    "items": [
+     {
+      "k": "unit",
+      "p": "seoul",
+      "text": "서울",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "haengju",
+      "color": "dark",
+      "at": 1
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "한강 · 서울로 가는 다리 대부분 끊김",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "chapter": {
+    "num": "PART 6",
+    "title": "한강을 건너라"
+   }
+  },
+  {
+   "id": "s56",
+   "lines": [
+    {
+     "t": "9월 19일 밤, 해병 수색중대가 먼저 행주 부근에서 강을 헤엄쳐 건넜습니다.",
+     "say": "구월 십구 일 밤, 해병 수색 중대가 먼저 행주 부근에서 강을 헤엄쳐 건넜습니다."
+    },
+    "하지만 강 건너 언덕에서 기관총이 터지면서, 정찰대는 물러설 수밖에 없었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "han",
+    "to": "haengju",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.815,
+        37.578
+       ],
+       [
+        126.825,
+        37.586
+       ],
+       [
+        126.832,
+        37.592
+       ]
+      ],
+      "color": "blue",
+      "at": 0.2,
+      "width": 0.8
+     },
+     {
+      "k": "unit",
+      "p": "hill125",
+      "text": "125고지",
+      "color": "red",
+      "at": 1,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1950. 9. 19 밤 · 정찰대 도하 실패",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s57",
+   "lines": [
+    {
+     "t": "다음 날 아침 6시 45분, 해병 5연대가 수륙양용 장갑차 LVT에 올라탑니다.",
+     "say": "다음 날 아침 여섯 시 사십오 분, 해병 오 연대가 수륙양용 장갑차 엘브이티에 올라탑니다."
+    },
+    "인천 바다를 건너온 그 장갑차들이, 이번에는 강물 위를 달려 나간 거죠.",
+    {
+     "t": "강을 건너는 동안, 장갑차들은 200발이 넘는 총탄과 포탄에 얻어맞았습니다.",
+     "say": "강을 건너는 동안, 장갑차들은 이백 발이 넘는 총탄과 포탄에 얻어맞았습니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "lvt_crossing",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "1950. 9. 20 06:45 · 해병 5연대 LVT 도하",
+     "style": "blue",
+     "at": 0
+    }
+   ],
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 1.5,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s58",
+   "lines": [
+    {
+     "t": "해병들은 강 건너 125고지를 덮쳐, 오전 9시 40분에 고지를 빼앗습니다.",
+     "say": "해병들은 강 건너 백이십오 고지를 덮쳐, 오전 아홉 시 사십 분에 고지를 빼앗습니다."
+    },
+    {
+     "t": "이 고지 하나를 오르는 데만, 한 중대에서 43명이 쓰러졌죠.",
+     "say": "이 고지 하나를 오르는 데만, 한 중대에서 사십삼 명이 쓰러졌죠."
+    },
+    "그날 오후, 한강 북쪽에 단단한 교두보가 만들어졌습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "haengju",
+    "to": "han",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.815,
+        37.575
+       ],
+       [
+        126.83,
+        37.585
+       ],
+       [
+        126.84,
+        37.586
+       ]
+      ],
+      "color": "blue",
+      "at": 0,
+      "width": 1.1
+     },
+     {
+      "k": "unit",
+      "p": "hill125",
+      "text": "125고지 확보",
+      "color": "blue",
+      "at": 0.5
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.845,
+        37.588
+       ],
+       [
+        126.88,
+        37.585
+       ],
+       [
+        126.915,
+        37.578
+       ]
+      ],
+      "color": "blue",
+      "at": 2,
+      "width": 1
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "09:40 · 125고지 점령",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s59",
+   "lines": [
+    "강을 건넌 해병 5연대에는, 국군 해병대 대대들도 함께 붙어 있었습니다.",
+    {
+     "t": "뒤이어 21일에는 새로 도착한 미 해병 7연대까지 인천에 내려, 전선으로 달려왔죠.",
+     "say": "뒤이어 이십일 일에는 새로 도착한 미 해병 칠 연대까지 인천에 내려, 전선으로 달려왔죠."
+    },
+    "한강 북쪽의 교두보는, 하루가 다르게 커져 갔습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "han",
+    "to": "han",
+    "items": [
+     {
+      "k": "unit",
+      "p": "hill125",
+      "text": "한강 북쪽 교두보",
+      "color": "blue",
+      "at": 0,
+      "pulse": true
+     },
+     {
+      "k": "badge",
+      "p": [
+       126.86,
+       37.6
+      ],
+      "text": "미 해병 5연대 · 국군 해병대",
+      "color": "blue",
+      "at": 0.3,
+      "dy": -70
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.66,
+        37.48
+       ],
+       [
+        126.73,
+        37.53
+       ],
+       [
+        126.8,
+        37.575
+       ],
+       [
+        126.83,
+        37.59
+       ]
+      ],
+      "color": "blue",
+      "at": 1,
+      "width": 0.9
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1950. 9. 20~21 · 교두보 확대 (개략)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s60",
+   "lines": [
+    "그런데 서울 서쪽 끝에서, 북한군이 기다리고 있었습니다.",
+    "안산에서 연희고지를 지나 와우산으로 이어지는 낮은 산줄기.",
+    "북한군은 이 능선을 따라, 서울을 지키는 마지막 방어선을 쳐 놓았죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "han",
+    "to": "west",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.946,
+        37.586
+       ],
+       [
+        126.944,
+        37.577
+       ],
+       [
+        126.937,
+        37.571
+       ],
+       [
+        126.932,
+        37.566
+       ],
+       [
+        126.929,
+        37.559
+       ],
+       [
+        126.928,
+        37.551
+       ],
+       [
+        126.931,
+        37.543
+       ]
+      ],
+      "color": "red",
+      "at": 0.5,
+      "glow": true
+     },
+     {
+      "k": "unit",
+      "p": "ansan",
+      "text": "안산 (296고지)",
+      "color": "red",
+      "at": 1
+     },
+     {
+      "k": "unit",
+      "p": "yonhui",
+      "text": "연희고지 (104고지)",
+      "color": "red",
+      "at": 1.3
+     },
+     {
+      "k": "unit",
+      "p": "wausan",
+      "text": "와우산",
+      "color": "red",
+      "at": 1.6
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "북한군 서울 서쪽 방어선 (개략)",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s61",
+   "lines": [
+    {
+     "t": "처음 서울을 지키던 북한군은, 5천 명 남짓으로 여겨졌습니다.",
+     "say": "처음 서울을 지키던 북한군은, 오천 명 남짓으로 여겨졌습니다."
+    },
+    {
+     "t": "그런데 낙동강으로 가던 18사단까지 되돌아오면서, 그 수는 2만 명 이상으로 불어났죠.",
+     "say": "그런데 낙동강으로 가던 십팔 사단까지 되돌아오면서, 그 수는 이만 명 이상으로 불어났죠."
+    }
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "상륙 전 예상",
+     "big": "약 5천 명",
+     "icon": "none",
+     "color": "blue"
+    },
+    "right": {
+     "title": "증원 뒤 서울 수비대",
+     "big": "2만 명 이상",
+     "icon": "none",
+     "color": "red",
+     "at": 1
+    }
+   }
+  },
+  {
+   "id": "s62",
+   "lines": [
+    {
+     "t": "가장 높은 안산은 296m, 그 아래 연희고지는 104m.",
+     "say": "가장 높은 안산은 이백구십육 미터, 그 아래 연희고지는 백사 미터."
+    },
+    "높지는 않지만, 앞쪽의 논밭과 시가지가 훤히 내려다보이는 천연 요새였습니다."
+   ],
+   "visual": {
+    "type": "profile",
+    "pts": [
+     [
+      0,
+      30
+     ],
+     [
+      0.12,
+      60
+     ],
+     [
+      0.25,
+      296
+     ],
+     [
+      0.38,
+      150
+     ],
+     [
+      0.5,
+      104
+     ],
+     [
+      0.6,
+      70
+     ],
+     [
+      0.72,
+      95
+     ],
+     [
+      0.85,
+      45
+     ],
+     [
+      1,
+      20
+     ]
+    ],
+    "grid": [
+     100,
+     200,
+     300
+    ],
+    "yMin": 0,
+    "yMax": 340,
+    "title": "서울 서쪽 방어 능선 단면",
+    "note": "모식도 (높이 과장)",
+    "left": "북 · 무악재",
+    "right": "남 · 한강",
+    "marks": [
+     {
+      "x": 0.25,
+      "text": "안산 296m",
+      "style": "red",
+      "at": 0,
+      "lift": 80,
+      "size": 40
+     },
+     {
+      "x": 0.5,
+      "text": "연희고지 104m",
+      "style": "red",
+      "at": 0.5,
+      "lift": 90,
+      "size": 40
+     },
+     {
+      "x": 0.72,
+      "text": "와우산",
+      "style": "dark",
+      "at": 1,
+      "lift": 80,
+      "size": 36
+     }
+    ],
+    "arrows": [
+     {
+      "from": 0.98,
+      "to": 0.62,
+      "color": "blue",
+      "at": 1,
+      "lift": 70
+     }
+    ]
+   }
+  },
+  {
+   "id": "s63",
+   "lines": [
+    {
+     "t": "9월 22일부터, 한미 해병대는 이 능선을 향해 정면으로 부딪칩니다.",
+     "say": "구월 이십이 일부터, 한미 해병대는 이 능선을 향해 정면으로 부딪칩니다."
+    },
+    "기관총과 박격포가 겹겹이 엮인 진지를, 고지 하나씩 빼앗고 또 빼앗겼죠.",
+    "104고지를 맡은 국군 해병 1대대는, 이 싸움에서 큰 희생을 치렀습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "yonhui_assault",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "1950. 9. 22~25 · 연희고지 전투",
+     "style": "red",
+     "at": 0
+    }
+   ],
+   "sfx": [
+    {
+     "id": "charge",
+     "at": 0.3,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s64",
+   "lines": [
+    {
+     "t": "9월 24일, 미 해병 1사단은 하루에만 285명의 사상자를 냈습니다.",
+     "say": "구월 이십사 일, 미 해병 일 사단은 하루에만 이백팔십오 명의 사상자를 냈습니다."
+    },
+    "서울 전투 기간 가운데, 가장 많은 피를 흘린 날이었죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "하루 285명",
+    "style": "red",
+    "sub": "1950. 9. 24 · 미 제1해병사단 사상자 (서울 전투 중 최다)",
+    "subAt": 0
+   }
+  },
+  {
+   "id": "s65",
+   "lines": [
+    "사흘 밤낮의 혈투 끝에, 능선의 고지들이 하나둘 해병대의 손에 넘어옵니다.",
+    "서울 서쪽의 문이, 마침내 열리기 시작한 것이죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "west",
+    "to": "seoul",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.946,
+        37.586
+       ],
+       [
+        126.944,
+        37.577
+       ],
+       [
+        126.937,
+        37.571
+       ],
+       [
+        126.932,
+        37.566
+       ],
+       [
+        126.929,
+        37.559
+       ],
+       [
+        126.928,
+        37.551
+       ],
+       [
+        126.931,
+        37.543
+       ]
+      ],
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.93,
+        37.57
+       ],
+       [
+        126.95,
+        37.572
+       ],
+       [
+        126.97,
+        37.575
+       ]
+      ],
+      "color": "blue",
+      "at": 1,
+      "width": 1
+     },
+     {
+      "k": "unit",
+      "p": "capitol",
+      "text": "중앙청",
+      "color": "red",
+      "at": 1.5
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1950. 9. 25 · 서쪽 능선 돌파",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "tail": 0.4
+  },
+  {
+   "id": "s66",
+   "lines": [
+    {
+     "t": "9월 24일, 해병 1연대도 한강을 건너 서울 남서쪽으로 들어섭니다.",
+     "say": "구월 이십사 일, 해병 일 연대도 한강을 건너 서울 남서쪽으로 들어섭니다."
+    },
+    {
+     "t": "이튿날 새벽에는 미 7사단 32연대와 국군 17연대가, 강 동쪽에서 한강을 건넜죠.",
+     "say": "이튿날 새벽에는 미 칠 사단 삼십이 연대와 국군 십칠 연대가, 강 동쪽에서 한강을 건넜죠."
+    },
+    {
+     "t": "그리고 오후 3시, 32연대가 서울 한복판의 남산을 차지합니다.",
+     "say": "그리고 오후 세 시, 삼십이 연대가 서울 한복판의 남산을 차지합니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "seoul",
+    "to": "core",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.93,
+        37.525
+       ],
+       [
+        126.94,
+        37.533
+       ],
+       [
+        126.95,
+        37.545
+       ]
+      ],
+      "color": "blue",
+      "at": 0,
+      "width": 1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.03,
+        37.515
+       ],
+       [
+        127.02,
+        37.532
+       ],
+       [
+        127.0,
+        37.545
+       ],
+       [
+        126.99,
+        37.55
+       ]
+      ],
+      "color": "blue",
+      "at": 1,
+      "width": 1
+     },
+     {
+      "k": "badge",
+      "p": "sinsa",
+      "text": "미 32연대 · 국군 17연대",
+      "color": "blue",
+      "at": 1.2,
+      "dy": 70
+     },
+     {
+      "k": "unit",
+      "p": "namsan",
+      "text": "남산 확보",
+      "color": "blue",
+      "at": 2,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1950. 9. 24~25 · 서울 포위",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "chapter": {
+    "num": "PART 7",
+    "title": "바리케이드의 거리"
+   }
+  },
+  {
+   "id": "s67",
+   "lines": [
+    "그날 밤, 미 제10군단장 알몬드 소장은 서울이 해방됐다고 발표합니다.",
+    {
+     "t": "전쟁이 터진 지 꼭 석 달째 되는 날, 9월 25일이었죠.",
+     "say": "전쟁이 터진 지 꼭 석 달째 되는 날, 구월 이십오 일이었죠."
+    },
+    "하지만 그 순간에도, 서울 시내에서는 총성이 그치지 않고 있었습니다."
+   ],
+   "visual": {
+    "type": "person",
+    "q": "s67-photo",
+    "name": "에드워드 알몬드",
+    "years": "1892 - 1979",
+    "role": "미 제10군단장"
+   },
+   "callouts": [
+    {
+     "text": "1950. 9. 25 · '서울 해방' 발표",
+     "style": "red",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s68",
+   "lines": [
+    "북한군은 서울의 큰길마다 바리케이드를 쌓아 놓았습니다.",
+    "흙을 채운 쌀가마니를, 사람 키보다 높이 쌓아 올린 벽이었죠.",
+    "그 뒤에는 대전차포와 기관총이 숨어 있었고, 앞길에는 지뢰가 깔려 있었습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "barricade",
+    "kb": "out"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "서울 시가 · 바리케이드 전투",
+     "style": "red",
+     "at": 0
+    }
+   ],
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.5,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s69",
+   "lines": [
+    {
+     "t": "큰길에서는 200m에서 300m마다, 이런 벽이 하나씩 나타났습니다.",
+     "say": "큰길에서는 이백 미터에서 삼백 미터마다, 이런 벽이 하나씩 나타났습니다."
+    },
+    {
+     "t": "벽 하나를 넘는 데 평균 45분, 해병들은 그렇게 한 블록씩 서울을 되찾아 갔죠.",
+     "say": "벽 하나를 넘는 데 평균 사십오 분, 해병들은 그렇게 한 블록씩 서울을 되찾아 갔죠."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "200~300m마다 1개",
+    "style": "red",
+    "sub": "주요 대로 기준 · 1개 돌파에 평균 약 45분 (미 해병대 기록)",
+    "subAt": 1
+   }
+  },
+  {
+   "id": "s70",
+   "lines": [
+    "그 거리 한가운데에는, 서울 시민들이 있었습니다.",
+    {
+     "t": "석 달 전 피란길에 오르지 못한 시민은, 100만 명이 넘었던 것으로 추정되죠.",
+     "say": "석 달 전 피란길에 오르지 못한 시민은, 백만 명이 넘었던 것으로 추정되죠."
+    },
+    "그들은 지하실과 방공호에 숨어, 머리 위를 지나는 포탄 소리를 들으며 해방의 순간을 기다렸습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s70-photo",
+    "kb": "in"
+   },
+   "label": "전투 중의 서울 시가 (1950. 9)"
+  },
+  {
+   "id": "s71",
+   "lines": [
+    "먼저 항공기와 박격포가 벽을 두드리고, 전차가 앞으로 나가 대전차포를 부쉈습니다.",
+    "공병이 지뢰를 걷어 내면, 보병이 건물 하나하나를 뒤지며 앞으로 나아갔죠.",
+    "지붕과 창문마다 저격수가 숨어 있을 수 있었기에, 한 걸음도 마음을 놓을 수 없었습니다.",
+    "그 사이 서울의 거리는, 불길과 연기에 휩싸여 갔습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "barricade_breach",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "tank",
+     "at": 0.4,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s72",
+   "lines": [
+    {
+     "t": "9월 26일 새벽, 북한군 약 1천 명이 남산으로 역습을 걸어왔습니다.",
+     "say": "구월 이십육 일 새벽, 북한군 약 천 명이 남산으로 역습을 걸어왔습니다."
+    },
+    {
+     "t": "32연대는 이를 막아 내며, 서울 한복판의 고지를 끝내 지켜 냅니다.",
+     "say": "삼십이 연대는 이를 막아 내며, 서울 한복판의 고지를 끝내 지켜 냅니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "core",
+    "to": "core",
+    "items": [
+     {
+      "k": "unit",
+      "p": "namsan",
+      "text": "남산",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.975,
+        37.575
+       ],
+       [
+        126.982,
+        37.563
+       ],
+       [
+        126.986,
+        37.555
+       ]
+      ],
+      "color": "red",
+      "at": 0.3,
+      "width": 1
+     },
+     {
+      "k": "badge",
+      "p": [
+       126.995,
+       37.548
+      ],
+      "text": "미 32연대",
+      "color": "blue",
+      "at": 1,
+      "dy": 70
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1950. 9. 26 새벽 · 남산 역습 격퇴",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s73",
+   "lines": [
+    {
+     "t": "그리고 9월 27일 새벽, 해병들이 마침내 중앙청에 닿았습니다.",
+     "say": "그리고 구월 이십칠 일 새벽, 해병들이 마침내 중앙청에 닿았습니다."
+    },
+    "옛 조선총독부 건물이자, 대한민국 정부가 자리했던 곳이었죠.",
+    "국군 해병대 박정모 소대장과 대원들이, 옥상의 인공기를 끌어내리고 태극기를 올립니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "capitol_flag",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "1950. 9. 27 새벽 · 중앙청 태극기 게양 (국군 해병대)",
+     "style": "yellow",
+     "at": 2
+    }
+   ]
+  },
+  {
+   "id": "s74",
+   "lines": [
+    "서울을 빼앗긴 지 석 달 만에, 다시 태극기가 걸린 겁니다.",
+    "같은 날 미 해병대도, 옛 미국 대사관과 소련 대사관 건물에 성조기를 올렸죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s74-photo",
+    "kb": "in"
+   },
+   "label": "수복 직후의 서울 (1950. 9)"
+  },
+  {
+   "id": "s75",
+   "lines": [
+    {
+     "t": "9월 28일, 해병대는 서울 북쪽의 마지막 고지들까지 점령합니다.",
+     "say": "구월 이십팔 일, 해병대는 서울 북쪽의 마지막 고지들까지 점령합니다."
+    },
+    {
+     "t": "인천 상륙 13일 만에, 서울은 완전히 되찾아졌습니다.",
+     "say": "인천 상륙 십삼 일 만에, 서울은 완전히 되찾아졌습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "core",
+    "to": "seoul",
+    "items": [
+     {
+      "k": "unit",
+      "p": "capitol",
+      "text": "중앙청",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "namsan",
+      "text": "남산",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.975,
+        37.58
+       ],
+       [
+        126.98,
+        37.595
+       ],
+       [
+        126.99,
+        37.605
+       ]
+      ],
+      "color": "blue",
+      "at": 0.5,
+      "width": 1
+     },
+     {
+      "k": "unit",
+      "p": "seoul",
+      "text": "서울 완전 수복 9. 28",
+      "color": "blue",
+      "at": 1.2,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1950. 9. 28 · 서울 완전 수복",
+     "style": "yellow",
+     "at": 1,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "drum",
+     "at": 1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s76",
+   "lines": [
+    {
+     "t": "다음 날인 9월 29일 정오, 중앙청에서 서울 환도식이 열렸습니다.",
+     "say": "다음 날인 구월 이십구 일 정오, 중앙청에서 서울 환도식이 열렸습니다."
+    },
+    "맥아더는 이승만 대통령에게, 수도 서울을 돌려드린다고 말했죠.",
+    "포격에 깨진 지붕에서는, 연설 내내 유리 조각이 떨어져 내렸다고 합니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s76-photo",
+    "kb": "in"
+   },
+   "label": "서울 환도식의 맥아더와 이승만 (1950. 9. 29)",
+   "callouts": [
+    {
+     "text": "1950. 9. 29 · 서울 환도식",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "chapter": {
+    "num": "PART 8",
+    "title": "13일의 의미"
+   }
+  },
+  {
+   "id": "s77",
+   "lines": [
+    "서울이 무너지자, 낙동강 전선의 북한군은 순식간에 퇴로가 끊겼습니다.",
+    {
+     "t": "9월 16일부터 반격에 나선 미 8군과 국군은, 열흘 만에 북쪽으로 치고 올라왔죠.",
+     "say": "구월 십육 일부터 반격에 나선 미 팔군과 국군은, 열흘 만에 북쪽으로 치고 올라왔죠."
+    },
+    {
+     "t": "9월 26일, 오산 부근에서 남쪽과 북쪽의 유엔군이 마침내 손을 맞잡습니다.",
+     "say": "구월 이십육 일, 오산 부근에서 남쪽과 북쪽의 유엔군이 마침내 손을 맞잡습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "seoul",
+    "to": "korea",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.45,
+        35.17
+       ],
+       [
+        128.43,
+        35.32
+       ],
+       [
+        128.46,
+        35.48
+       ],
+       [
+        128.4,
+        35.63
+       ],
+       [
+        128.41,
+        35.8
+       ],
+       [
+        128.4,
+        35.98
+       ],
+       [
+        128.37,
+        36.15
+       ],
+       [
+        128.45,
+        36.24
+       ],
+       [
+        128.62,
+        36.23
+       ],
+       [
+        128.8,
+        36.17
+       ],
+       [
+        129.0,
+        36.13
+       ],
+       [
+        129.2,
+        36.1
+       ],
+       [
+        129.4,
+        36.08
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.4,
+        35.95
+       ],
+       [
+        128.0,
+        36.4
+       ],
+       [
+        127.5,
+        36.8
+       ],
+       [
+        127.1,
+        37.12
+       ]
+      ],
+      "color": "blue",
+      "at": 1,
+      "width": 1.1,
+      "dur": 2
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.98,
+        37.55
+       ],
+       [
+        127.02,
+        37.35
+       ],
+       [
+        127.06,
+        37.17
+       ]
+      ],
+      "color": "blue",
+      "at": 1.3,
+      "width": 1
+     },
+     {
+      "k": "unit",
+      "p": "osan",
+      "text": "오산 부근 연결 9. 26",
+      "color": "blue",
+      "at": 2,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "보급선 절단 → 낙동강 전선 붕괴 (개략)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s78",
+   "lines": [
+    "보급과 퇴로를 잃은 북한군은, 무기를 버리고 산으로 흩어졌습니다.",
+    {
+     "t": "인천에서 서울까지, 국군과 유엔군의 사상자는 약 3천 5백 명.",
+     "say": "인천에서 서울까지, 국군과 유엔군의 사상자는 약 삼천오백 명."
+    },
+    {
+     "t": "미 10군단은 북한군 전사자를 약 1만 4천 명, 포로를 약 7천 명으로 집계했습니다.",
+     "say": "미 십 군단은 북한군 전사자를 약 만 사천 명, 포로를 약 칠천 명으로 집계했습니다."
+    }
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "인천–서울 작전 · 유엔군: 전체 사상자 / 북한군: 미 제10군단 추정",
+    "items": [
+     {
+      "label": "국군·유엔군 사상",
+      "value": 3500,
+      "display": "약 3,500명",
+      "color": "blue",
+      "at": 1
+     },
+     {
+      "label": "북한군 전사 (추정)",
+      "value": 14000,
+      "display": "약 1만 4천 명",
+      "color": "red",
+      "at": 2
+     },
+     {
+      "label": "북한군 포로",
+      "value": 7000,
+      "display": "약 7천 명",
+      "color": "red",
+      "at": 2.4
+     }
+    ]
+   }
+  },
+  {
+   "id": "s79",
+   "lines": [
+    "인천상륙작전 하나로, 전쟁의 흐름은 완전히 뒤집혔습니다.",
+    "석 달 내내 밀리기만 하던 국군과 유엔군이, 이제는 북쪽으로 진격할 차례가 된 거죠.",
+    "하지만 이 거침없는 승리는, 곧 압록강 너머의 새로운 적을 불러들이게 됩니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "korea",
+    "zoom": 0.8,
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.0,
+        37.6
+       ],
+       [
+        126.9,
+        38.3
+       ],
+       [
+        126.0,
+        39.2
+       ],
+       [
+        125.3,
+        40.1
+       ]
+      ],
+      "color": "blue",
+      "at": 1,
+      "width": 1.1,
+      "dur": 2
+     },
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "dark",
+      "at": 1.6
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        125.0,
+        41.2
+       ],
+       [
+        125.4,
+        40.6
+       ],
+       [
+        125.9,
+        40.1
+       ]
+      ],
+      "color": "red",
+      "at": 2.4,
+      "width": 1,
+      "dur": 1.6
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "인천 이후 · 북진, 그리고 중공군 개입의 예고 (개략)",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s80",
+   "lines": [
+    {
+     "t": "그렇다면 하루 만에 성공한 상륙이, 왜 서울에서는 13일이나 걸렸을까요?",
+     "say": "그렇다면 하루 만에 성공한 상륙이, 왜 서울에서는 십삼 일이나 걸렸을까요?"
+    },
+    "네 가지로 짚어 보겠습니다."
+   ],
+   "visual": {
+    "type": "factors",
+    "items": [
+     "한강이라는 해자",
+     "불어난 수비대",
+     "능선과 바리케이드",
+     "서두른 지휘부"
+    ],
+    "head": "하루의 상륙 vs 13일의 서울",
+    "at": 1
+   }
+  },
+  {
+   "id": "s81",
+   "lines": [
+    "첫째, 한강이라는 거대한 해자입니다."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s81-photo",
+    "num": "요인 1",
+    "title": "한강이라는 해자"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s82",
+   "lines": [
+    "다리가 끊긴 강을, 해병대는 장갑차와 배로 직접 건너야 했습니다.",
+    "강을 건널 장비를 모으고 교두보를 다지는 데만, 며칠이 고스란히 들어갔죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "han",
+    "to": "han",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.815,
+        37.575
+       ],
+       [
+        126.83,
+        37.585
+       ],
+       [
+        126.84,
+        37.586
+       ]
+      ],
+      "color": "blue",
+      "at": 0,
+      "width": 1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.93,
+        37.525
+       ],
+       [
+        126.94,
+        37.533
+       ],
+       [
+        126.95,
+        37.545
+       ]
+      ],
+      "color": "blue",
+      "at": 0.5,
+      "width": 1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.03,
+        37.515
+       ],
+       [
+        127.02,
+        37.532
+       ],
+       [
+        127.0,
+        37.545
+       ]
+      ],
+      "color": "blue",
+      "at": 1,
+      "width": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s83",
+   "lines": [
+    "둘째, 불어난 수비대입니다."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s83-photo",
+    "num": "요인 2",
+    "title": "불어난 수비대"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s84",
+   "lines": [
+    "상륙 소식에 북한군은 남쪽으로 가던 부대까지 돌려세워, 서울로 병력을 쏟아부었습니다.",
+    "해병대가 다가갈수록, 막아서는 적은 오히려 늘어났던 셈이죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s84-photo",
+    "kb": "in"
+   },
+   "label": "서울 시가지로 진입하는 미 해병대 (1950. 9)"
+  },
+  {
+   "id": "s85",
+   "lines": [
+    "셋째, 능선과 바리케이드라는 이중의 벽입니다."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s85-photo",
+    "num": "요인 3",
+    "title": "능선과 바리케이드"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s86",
+   "lines": [
+    "안산과 연희고지에서 한 번, 시내의 바리케이드에서 또 한 번.",
+    "적은 서울을 두 겹의 벽으로 감싸고, 한 걸음마다 피를 요구했습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "yonhui_assault",
+    "kb": "out"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s87",
+   "lines": [
+    "넷째, 서두른 지휘부입니다."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s87-photo",
+    "num": "요인 4",
+    "title": "서두른 지휘부"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s88",
+   "lines": [
+    "알몬드 군단장은 석 달째 되는 날에 맞춰 서울을 되찾으려고, 부대를 거세게 다그쳤습니다.",
+    "해병 1사단장 스미스 소장과는, 한강을 건널 지점을 두고 날카롭게 부딪쳤죠.",
+    "서둘러 내놓은 해방 발표와 실제 수복 사이의 사흘이, 이 싸움의 무게를 말해 줍니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "9. 25 '해방' 발표 → 9. 28 실제 수복",
+    "accent": "사흘의 차이",
+    "accentAt": 2
+   }
+  },
+  {
+   "id": "s89",
+   "lines": [
+    "인천에서의 하루가 대담한 기습의 승리였다면,",
+    {
+     "t": "서울에서의 13일은, 한 블록씩 피로 되찾은 승리였습니다.",
+     "say": "서울에서의 십삼 일은, 한 블록씩 피로 되찾은 승리였습니다."
+    }
+   ],
+   "visual": {
+    "type": "quotes",
+    "title": "인천과 서울이 남긴 것",
+    "items": [
+     {
+      "text": "바다에서는 하루의 기습",
+      "at": 0
+     },
+     {
+      "text": "서울에서는 13일의 혈전",
+      "at": 1
+     }
+    ]
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s90",
+   "lines": [
+    "석 달 만에 거리로 나온 서울 시민들은, 숨겨 두었던 태극기를 흔들었습니다.",
+    "하지만 그 거리의 상당수는, 이미 잿더미로 변해 있었죠.",
+    "집을 잃은 사람도, 가족을 잃은 사람도, 셀 수 없이 많았습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "seoul_after",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s91",
+   "lines": [
+    "인천 앞바다의 거센 물길에서, 서울의 좁은 골목까지.",
+    {
+     "t": "그 13일 동안, 수많은 이름들이 쓰러져 갔습니다.",
+     "say": "그 십삼 일 동안, 수많은 이름들이 쓰러져 갔습니다."
+    }
+   ],
+   "visual": {
+    "type": "black",
+    "text": "1950. 9. 15 → 9. 28",
+    "accent": "13일",
+    "accentAt": 1
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s92",
+   "lines": [
+    "지금도 팔미도에는, 인천 앞바다를 비추는 등대가 서 있습니다.",
+    "그날 밤 그 불빛을 위해 목숨을 걸었던 이들을, 한 번쯤 기억해 주셨으면 합니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "lighthouse_night",
+    "kb": "out"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s93",
+   "lines": [
+    "이 이야기가 의미 있으셨다면, 구독과 좋아요로 함께해 주십시오.",
+    "잊혀 가는 전쟁의 기록을... 다음 영상에서도 이어가겠습니다."
+   ],
+   "visual": {
+    "type": "endcard",
+    "title": "1950년 9월, 인천과 서울.\n5,000대 1의 도박과 13일.",
+    "q": "s93-photo"
+   },
+   "tail": 3.0
+  }
+ ]
+}
