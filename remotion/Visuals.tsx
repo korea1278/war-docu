@@ -760,7 +760,7 @@ const ProfileV: React.FC = () => {
         </div>
       )}
       {tide && (
-        <div style={{ position: "absolute", left: X0 + 24, top: Y(tideLv) + 14, fontFamily: F.head, fontSize: 40, color: "#bfe3ff", textShadow: "0 2px 8px rgba(0,0,0,.9)", whiteSpace: "nowrap" }}>
+        <div style={{ position: "absolute", left: X0 + (X1 - X0) * 0.22, top: Y(tideLv) + 14, fontFamily: F.head, fontSize: 40, color: "#bfe3ff", textShadow: "0 2px 8px rgba(0,0,0,.9)", whiteSpace: "nowrap" }}>
           {tideK < 0.5 ? (tide.from > tide.to ? tide.hiText : tide.loText) : tide.from > tide.to ? tide.loText : tide.hiText}
         </div>
       )}

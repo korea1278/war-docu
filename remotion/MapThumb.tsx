@@ -67,7 +67,7 @@ export const MAPT: Record<string, MapThumbDef> = {
   },
   // EP11 인천상륙작전과 서울 수복 (1950) — 좌표는 episodes/incheon/storyboard.json과 동일 (개략), 인물은 맥아더 공개 사진 누끼(thumb_photo)
   incheon: {
-    raster: "incheon",
+    raster: "incheon_sea",
     view: { center: [126.83, 37.47], span: 0.62 },
     items: [
       { k: "arrow", path: [[126.6, 37.476], [126.66, 37.49], [126.72, 37.505], [126.8, 37.51], [126.88, 37.516]], color: "blue" },

@@ -51,8 +51,9 @@ RASTERS = [
     ("kumsong", [127.2, 38.08, 127.95, 38.62], 12, 1.35, 64),
     ("kumsong_zoom", [127.38, 38.22, 127.86, 38.5], 13, 1.15, 64),
     # EP11 경기만·인천·경인 축선·서울 (해안 근접은 z14)
-    ("incheon", [126.35, 37.18, 127.1, 37.7], 12, 1.35, 64),
-    ("incheon_zoom", [126.56, 37.43, 126.68, 37.505], 14, 1.15, 64),
+    # *_sea: 해안선을 Natural Earth(1:10m, 월미도·섬 누락) 대신 DEM 높이로 칠함 — 바다(진회색)·갯벌(갈회색)
+    ("incheon_sea", [126.0, 37.05, 127.15, 37.75], 12, 1.35, 64, {"sea": True}),
+    ("incheon_zoom_sea", [126.54, 37.42, 126.69, 37.51], 14, 1.15, 64, {"sea": True}),
     ("seoul_zoom", [126.8, 37.49, 127.06, 37.61], 14, 1.15, 64),
 ]
 
@@ -106,7 +107,8 @@ def hillshade(elev, z, lat0, lat1, exag):
     return v
 
 
-def build_raster(s, name, bbox, z, exag, feather):
+def build_raster(s, name, bbox, z, exag, feather, opts=None):
+    opts = opts or {}
     w, so, e, n = bbox
     x0, x1 = int(lon2x(w, z)), int(lon2x(e, z))
     y0, y1 = int(lat2y(n, z)), int(lat2y(so, z))
@@ -121,6 +123,11 @@ def build_raster(s, name, bbox, z, exag, feather):
     lat_n, lat_s = y2lat(y0, z), y2lat(y1 + 1, z)
     v = hillshade(elev, z, lat_s, lat_n, exag)
     rgb = np.stack([v * 247, v * 248, v * 250], -1).astype(np.uint8)
+    if opts.get("sea"):  # EP11: 바다 = 해수면 아래(지도 바다색 #5a5f66), 갯벌 = 얕은 바다(간조 때 드러나는 곳 개략)
+        sea = elev < -6
+        flat = (elev >= -6) & (elev < 0.5)
+        rgb[sea] = (90, 95, 102)
+        rgb[flat] = (128, 120, 108)
     img = Image.fromarray(rgb, "RGB")
     if feather:
         h, w_ = v.shape

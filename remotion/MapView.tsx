@@ -329,9 +329,10 @@ export const MapView: React.FC<{ tl: Timeline }> = ({ tl }) => {
           </defs>
 
           <g transform="translate(120, 120)">
-            <path d={`M-400,-400H2320V1480H-400Z ${landD}`} fill={C.sea} fillRule="evenodd" />
+            {/* demSea(EP11 인천): 확대될수록 Natural Earth 바다 마스크를 걷어 DEM 래스터의 바다·갯벌이 보이게 */}
+            <path d={`M-400,-400H2320V1480H-400Z ${landD}`} fill={C.sea} fillRule="evenodd" opacity={v.demSea ? clamp((span - 0.8) / 0.8) : 1} />
             <path d={foreignD} fill={C.foreign} opacity={0.88} />
-            <path d={landD} fill="none" stroke="rgba(40,40,40,.4)" strokeWidth={1.5} />
+            <path d={landD} fill="none" stroke="rgba(40,40,40,.4)" strokeWidth={1.5} opacity={v.demSea ? clamp((span - 0.8) / 0.8) : 1} />
             {waterEls}
             {gridLines}
             {svgItems}
