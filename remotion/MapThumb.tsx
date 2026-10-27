@@ -68,16 +68,15 @@ export const MAPT: Record<string, MapThumbDef> = {
   // EP11 인천상륙작전과 서울 수복 (1950) — 좌표는 episodes/incheon/storyboard.json과 동일 (개략), 인물은 맥아더 공개 사진 누끼(thumb_photo)
   incheon: {
     raster: "incheon_sea",
-    view: { center: [126.83, 37.47], span: 0.62 },
+    view: { center: [126.914, 37.53], span: 0.75 },
     items: [
-      { k: "arrow", path: [[126.6, 37.476], [126.66, 37.49], [126.72, 37.505], [126.8, 37.51], [126.88, 37.516]], color: "blue" },
-      { k: "arrow", path: [[126.66, 37.485], [126.73, 37.53], [126.79, 37.56], [126.835, 37.588]], color: "blue" },
-      { k: "front", path: [[126.946, 37.586], [126.944, 37.577], [126.937, 37.571], [126.932, 37.566], [126.929, 37.559], [126.928, 37.551], [126.931, 37.543]] },
+      { k: "arrow", path: [[126.6, 37.476], [126.67, 37.492], [126.75, 37.505], [126.83, 37.512], [126.9, 37.517]], color: "blue" },
+      { k: "arrow", path: [[126.66, 37.488], [126.73, 37.53], [126.79, 37.56], [126.84, 37.586], [126.93, 37.575]], color: "blue" },
       { k: "pin", p: [126.598, 37.476], text: { ko: "월미도", en: "WOLMI-DO" }, color: "blue" },
-      { k: "pin", p: [126.905, 37.517], text: { ko: "영등포", en: "YONGDUNGPO" }, color: "red", lift: 40 },
+      { k: "pin", p: [126.975, 37.566], text: { ko: "서울", en: "SEOUL" }, color: "red", lift: 30 },
     ],
     subjectX: 1500,
-    stampPos: { x: 560, y: 330, rot: -7 },
+    stampPos: { x: 600, y: 190, rot: -7 },
     ko: { stamp: "5,000대 1 도박", line1: "5,000대 1의 상륙을 성공하고도 왜", line2: "서울 탈환에 13일이나 걸렸을까?" },
     en: { stamp: "5,000 TO 1 GAMBLE", line1: "AFTER WINNING A 5,000 TO 1 GAMBLE", line2: "WHY DID IT TAKE 13 DAYS TO RETAKE SEOUL?" },
   },
