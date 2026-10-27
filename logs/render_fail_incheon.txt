@@ -1,0 +1,84 @@
+== incheon 렌더 실패 Tue Oct 27 18:59:54 UTC 2026
+/dev/root       145G   42G  103G  29% /
+               total        used        free      shared  buff/cache   available
+Mem:           15983        2681        7712         624        6559       13301
+[31mInput #2, wav, from '/tmp/remotion-v4.0.300-assetsvwedo250lc/remotion-audio-mixing/162.wav':[39m
+[31m  Metadata:[39m
+[31m    encoder         : Lavf61.7.100[39m
+[31m  Duration: 00:00:17.13, bitrate: 1536 kb/s[39m
+[31m  Stream #2:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, stereo, s16, 1536 kb/s[39m
+[31m[aist#3:0/pcm_s16le @ 0xbb15180] Guessed Channel Layout: stereo[39m
+[31mInput #3, wav, from '/tmp/remotion-v4.0.300-assetsvwedo250lc/remotion-audio-mixing/163.wav':[39m
+[31m  Metadata:[39m
+[31m    encoder         : Lavf61.7.100[39m
+[31m  Duration: 00:00:15.70, bitrate: 1536 kb/s[39m
+[31m  Stream #3:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, stereo, s16, 1536 kb/s[39m
+[31m[aist#4:0/pcm_s16le @ 0xbbba480] Guessed Channel Layout: stereo[39m
+[31mInput #4, wav, from '/tmp/remotion-v4.0.300-assetsvwedo250lc/remotion-audio-mixing/164.wav':[39m
+[31m  Metadata:[39m
+[31m    encoder         : Lavf61.7.100[39m
+[31m  Duration: 00:00:00.48, bitrate: 1537 kb/s[39m
+[31m  Stream #4:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, stereo, s16, 1536 kb/s[39m
+[31m[aist#5:0/pcm_s16le @ 0xbd00840] Guessed Channel Layout: stereo[39m
+[31mInput #5, wav, from '/tmp/remotion-v4.0.300-assetsvwedo250lc/remotion-audio-mixing/165.wav':[39m
+[31m  Metadata:[39m
+[31m    encoder         : Lavf61.7.100[39m
+[31m  Duration: 00:00:07.30, bitrate: 1536 kb/s[39m
+[31m  Stream #5:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, stereo, s16, 1536 kb/s[39m
+[31m[aist#6:0/pcm_s16le @ 0xbc9dc80] Guessed Channel Layout: stereo[39m
+[31mInput #6, wav, from '/tmp/remotion-v4.0.300-assetsvwedo250lc/remotion-audio-mixing/166.wav':[39m
+[31m  Metadata:[39m
+[31m    encoder         : Lavf61.7.100[39m
+[31m  Duration: 00:00:02.75, bitrate: 1536 kb/s[39m
+[31m  Stream #6:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, stereo, s16, 1536 kb/s[39m
+[31m[aist#7:0/pcm_s16le @ 0xbda7340] Guessed Channel Layout: stereo[39m
+[31mInput #7, wav, from '/tmp/remotion-v4.0.300-assetsvwedo250lc/remotion-audio-mixing/167.wav':[39m
+[31m  Metadata:[39m
+[31m    encoder         : Lavf61.7.100[39m
+[31m  Duration: 00:00:02.00, bitrate: 1536 kb/s[39m
+[31m  Stream #7:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, stereo, s16, 1536 kb/s[39m
+[31m[aist#8:0/pcm_s16le @ 0xbed91c0] Guessed Channel Layout: stereo[39m
+[31mInput #8, wav, from '/tmp/remotion-v4.0.300-assetsvwedo250lc/remotion-audio-mixing/168.wav':[39m
+[31m  Metadata:[39m
+[31m    encoder         : Lavf61.7.100[39m
+[31m  Duration: 00:00:10.59, bitrate: 1536 kb/s[39m
+[31m  Stream #8:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, stereo, s16, 1536 kb/s[39m
+[31m[aist#9:0/pcm_s16le @ 0xbe84740] Guessed Channel Layout: stereo[39m
+[31mInput #9, wav, from '/tmp/remotion-v4.0.300-assetsvwedo250lc/remotion-audio-mixing/169.wav':[39m
+[31m  Metadata:[39m
+[31m    encoder         : Lavf61.7.100[39m
+[31m  Duration: 00:00:01.87, bitrate: 1536 kb/s[39m
+[31m  Stream #9:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, stereo, s16, 1536 kb/s[39m
+[31mStream mapping:[39m
+[31m  Stream #0:0 (pcm_s16le) -> adelay:default[39m
+[31m  Stream #1:0 (pcm_s16le) -> adelay:default[39m
+[31m  Stream #2:0 (pcm_s16le) -> adelay:default[39m
+[31m  Stream #3:0 (pcm_s16le) -> adelay:default[39m
+[31m  Stream #4:0 (pcm_s16le) -> adelay:default[39m
+[31m  Stream #5:0 (pcm_s16le) -> adelay:default[39m
+[31m  Stream #6:0 (pcm_s16le) -> adelay:default[39m
+[31m  Stream #7:0 (pcm_s16le) -> adelay:default[39m
+[31m  Stream #8:0 (pcm_s16le) -> adelay:default[39m
+[31m  Stream #9:0 (pcm_s16le) -> adelay:default[39m
+[31m  amix:default -> Stream #0:0 (pcm_s16le)[39m
+[31mPress [q] to stop, [?] for help[39m
+[31mOutput #0, wav, to '/tmp/remotion-large-audio-mixing853ogckq4r/chunk-16.wav':[39m
+[31m  Metadata:[39m
+[31m    ISFT            : Lavf61.7.100[39m
+[31m  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, stereo, s16, 1536 kb/s[39m
+[31m      Metadata:[39m
+[31m        encoder         : Lavc61.19.100 pcm_s16le[39m
+[31msize=   51968KiB time=00:04:38.22 bitrate=1530.1kbits/s speed= 556x    size=  101888KiB time=00:09:03.70 bitrate=1535.2kbits/s speed= 544x    size=  154880KiB time=00:13:46.88 bitrate=1534.4kbits/s speed= 551x    size=  208896KiB time=00:18:35.45 bitrate=1534.1kbits/s speed= 558x    [aost#0:0/pcm_s16le @ 0xb9263c0] Error submitting a packet to the muxer: Disk quota exceeded[39m
+[31m    Last message repeated 1 times[39m
+[31m[out#0/wav @ 0xbe848c0] Error muxing a packet[39m
+[31m[out#0/wav @ 0xbe848c0] Task finished with error code: -122 (Disk quota exceeded)[39m
+[31m[out#0/wav @ 0xbe848c0] Terminating thread with return code -122 (Disk quota exceeded)[39m
+[31m[out#0/wav @ 0xbe848c0] Error writing trailer: Disk quota exceeded[39m
+[31m[out#0/wav @ 0xbe848c0] Error closing file: Disk quota exceeded[39m
+[31m[out#0/wav @ 0xbe848c0] video:0KiB audio:225036KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown[39m
+[31msize=  224768KiB time=00:20:00.19 bitrate=1534.2kbits/s speed= 550x    [39m
+[31mConversion failed![39m
+[31m    at makeError (/home/runner/work/war-docu/war-docu/node_modules/execa/lib/error.js:60:11)[39m
+[31m    at handlePromise (/home/runner/work/war-docu/war-docu/node_modules/execa/index.js:118:26)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+[31m    at async mergeAudioTrackUnlimited (/home/runner/work/war-docu/war-docu/node_modules/@remotion/renderer/dist/merge-audio-track.js:124:5)[39m
