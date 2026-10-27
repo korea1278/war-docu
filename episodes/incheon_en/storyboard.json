@@ -978,7 +978,7 @@
     "q": "s12-photo",
     "kb": "in"
    },
-   "label": "MacArthur inspecting the Korean front (1950)"
+   "label": "MacArthur on an inspection tour of the Korean front (1950)"
   },
   {
    "id": "s13",
@@ -1141,7 +1141,7 @@
     "q": "s14-photo",
     "kb": "in"
    },
-   "label": "MacArthur and his staff (1950)",
+   "label": "MacArthur greets Army Chief Collins and Navy Chief Sherman in Tokyo (Aug. 1950)",
    "callouts": [
     {
      "text": "AUG. 23, 1950 · TOKYO CONFERENCE",
@@ -1763,7 +1763,7 @@
     "q": "s29-photo",
     "kb": "in"
    },
-   "label": "MacArthur aboard USS Mount McKinley (Sept. 1950)"
+   "label": "MacArthur watching the landing aboard USS Mount McKinley (Sept. 15, 1950)"
   },
   {
    "id": "s30",
@@ -1889,7 +1889,7 @@
     "q": "s33-photo",
     "kb": "in"
    },
-   "label": "North Korean prisoners at Inchon (Sept. 1950)"
+   "label": "North Koreans surrendering on Wolmi-do (Sept. 15, 1950)"
   },
   {
    "id": "s34",
@@ -2131,7 +2131,7 @@
     "q": "s40-photo",
     "kb": "in"
    },
-   "label": "ROK Marines in the Inchon landing (Sept. 1950)"
+   "label": "ROK Marines searching North Korean prisoners (Sept. 1950)"
   },
   {
    "id": "s41",
@@ -2216,7 +2216,7 @@
     "q": "s42-photo",
     "kb": "in"
    },
-   "label": "LSTs beached at Inchon (Sept. 1950)"
+   "label": "LSTs high and dry at low tide on Red Beach (Sept. 16, 1950)"
   },
   {
    "id": "s43",
@@ -3424,20 +3424,19 @@
     "Yet even as he spoke, gunfire still echoed through the streets of the city."
    ],
    "visual": {
-    "type": "person",
+    "type": "photo",
     "q": "s67-photo",
-    "name": "Edward Almond",
-    "years": "1892 - 1979",
-    "role": "Commander, U.S. X Corps"
+    "kb": "in"
    },
    "callouts": [
     {
      "text": "SEPT. 25 · 'SEOUL LIBERATED' ANNOUNCED",
      "style": "red",
      "at": 0,
-     "pos": "lower"
+     "pos": "top"
     }
-   ]
+   ],
+   "label": "Almond (left), MacArthur and others at a briefing at the Marine division CP, Inchon (Sept. 17, 1950)"
   },
   {
    "id": "s68",
@@ -3493,7 +3492,7 @@
     "q": "s70-photo",
     "kb": "in"
    },
-   "label": "Seoul streets during the fighting (Sept. 1950)"
+   "label": "UN troops fighting in the streets of Seoul (Sept. 1950)"
   },
   {
    "id": "s71",
@@ -3609,7 +3608,7 @@
     "q": "s74-photo",
     "kb": "in"
    },
-   "label": "Seoul just after its recapture (Sept. 1950)"
+   "label": "U.S. Marines raise the flag at the American Consulate in Seoul (Sept. 1950)"
   },
   {
    "id": "s75",
@@ -3694,7 +3693,7 @@
     "q": "s76-photo",
     "kb": "in"
    },
-   "label": "MacArthur and Syngman Rhee at the Seoul ceremony (Sept. 29, 1950)",
+   "label": "MacArthur leads the Lord's Prayer at the Seoul ceremony (Sept. 29, 1950)",
    "callouts": [
     {
      "text": "SEPT. 29, 1950 · CAPITAL RESTORED",
@@ -4094,7 +4093,7 @@
     "q": "s84-photo",
     "kb": "in"
    },
-   "label": "U.S. Marines entering Seoul (Sept. 1950)"
+   "label": "U.S. Marines in the street fighting for Seoul (Sept. 1950)"
   },
   {
    "id": "s85",
@@ -4238,6 +4237,7 @@
    "tail": 3.0
   }
  ],
+ "thumb_photo": "File:Portrait - US Army (USA) General (GEN) Douglas MacArthur.jpg",
  "lang": "en",
  "assets_ep": "incheon",
  "voice": "pNInz6obpgDQGcFmaJgB",

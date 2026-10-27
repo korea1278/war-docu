@@ -192,7 +192,7 @@
     "Watching Seoul burn from a hill south of the Han, he pictured a blow to the enemy's rear.",
     "A landing planned in July had to be shelved for lack of troops, but he never let go of Inchon."
    ],
-   "label": "MacArthur inspecting the Korean front (1950)"
+   "label": "MacArthur on an inspection tour of the Korean front (1950)"
   },
   "s13": {
    "lines": [
@@ -210,7 +210,7 @@
     "On August 23rd, the Army and Navy chiefs of staff flew to Tokyo for a conference.",
     "One by one, Navy officers reported that Inchon had nearly every natural condition that makes an amphibious landing fail."
    ],
-   "label": "MacArthur and his staff (1950)",
+   "label": "MacArthur greets Army Chief Collins and Navy Chief Sherman in Tokyo (Aug. 1950)",
    "callouts": [
     "AUG. 23, 1950 · TOKYO CONFERENCE"
    ]
@@ -390,7 +390,7 @@
     "On the bridge of the flagship Mount McKinley stood the seventy-year-old MacArthur.",
     "Watching through his binoculars, he knew the first card of his great gamble was about to be played."
    ],
-   "label": "MacArthur aboard USS Mount McKinley (Sept. 1950)"
+   "label": "MacArthur watching the landing aboard USS Mount McKinley (Sept. 15, 1950)"
   },
   "s30": {
    "lines": [
@@ -432,7 +432,7 @@
     "The defenders of Inchon itself appeared to number fewer than two thousand.",
     "And the enemy still wasn't even sure whether this was the real landing, or just another feint."
    ],
-   "label": "North Korean prisoners at Inchon (Sept. 1950)"
+   "label": "North Koreans surrendering on Wolmi-do (Sept. 15, 1950)"
   },
   "s34": {
    "lines": [
@@ -502,7 +502,7 @@
     "Back to reclaim their homeland, they swept into Inchon's streets, hunting down hidden enemy troops.",
     "Their fight, begun on this shore, would carry them into the heart of Seoul thirteen days later."
    ],
-   "label": "ROK Marines in the Inchon landing (Sept. 1950)"
+   "label": "ROK Marines searching North Korean prisoners (Sept. 1950)"
   },
   "s41": {
    "lines": [
@@ -519,7 +519,7 @@
     "That evening, eight big LST landing ships deliberately ran aground at Red Beach.",
     "Knowing the ebb tide would trap them in the mud, they unloaded ammunition and gear all night."
    ],
-   "label": "LSTs beached at Inchon (Sept. 1950)"
+   "label": "LSTs high and dry at low tide on Red Beach (Sept. 16, 1950)"
   },
   "s43": {
    "lines": [
@@ -791,11 +791,10 @@
     "It was September 25th, exactly three months after the war began.",
     "Yet even as he spoke, gunfire still echoed through the streets of the city."
    ],
-   "name": "Edward Almond",
-   "role": "Commander, U.S. X Corps",
    "callouts": [
     "SEPT. 25 · 'SEOUL LIBERATED' ANNOUNCED"
-   ]
+   ],
+   "label": "Almond (left), MacArthur and others at a briefing at the Marine division CP, Inchon (Sept. 17, 1950)"
   },
   "s68": {
    "lines": [
@@ -822,7 +821,7 @@
     "More than a million residents are thought to have been unable to flee three months earlier.",
     "Hiding in cellars and air raid shelters, they listened to the shells passing overhead and waited, hoping to survive until liberation."
    ],
-   "label": "Seoul streets during the fighting (Sept. 1950)"
+   "label": "UN troops fighting in the streets of Seoul (Sept. 1950)"
   },
   "s71": {
    "lines": [
@@ -858,7 +857,7 @@
     "Three months after Seoul fell, the South Korean flag flew there once more.",
     "That same day, U.S. Marines raised the Stars and Stripes over the old American and Soviet embassies."
    ],
-   "label": "Seoul just after its recapture (Sept. 1950)"
+   "label": "U.S. Marines raise the flag at the American Consulate in Seoul (Sept. 1950)"
   },
   "s75": {
    "lines": [
@@ -875,7 +874,7 @@
     "MacArthur told President Syngman Rhee he was returning Seoul to him.",
     "Glass from the shell-shattered roof fell throughout his speech."
    ],
-   "label": "MacArthur and Syngman Rhee at the Seoul ceremony (Sept. 29, 1950)",
+   "label": "MacArthur leads the Lord's Prayer at the Seoul ceremony (Sept. 29, 1950)",
    "callouts": [
     "SEPT. 29, 1950 · CAPITAL RESTORED"
    ],
@@ -964,7 +963,7 @@
     "Hearing of the landing, North Korea even turned back units headed south, and poured troops into Seoul.",
     "The closer the Marines came to the city, the more defenders stood in their way."
    ],
-   "label": "U.S. Marines entering Seoul (Sept. 1950)"
+   "label": "U.S. Marines in the street fighting for Seoul (Sept. 1950)"
   },
   "s85": {
    "lines": [
