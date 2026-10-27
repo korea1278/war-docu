@@ -1,7 +1,7 @@
 import React from "react";
 import { AbsoluteFill, Audio, interpolate, Loop, Sequence, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { atSec, S, setLang, Timeline } from "./theme";
-import { Callouts, ChapterOverlay, Grain, LabelBox, SceneCtx, Subtitles, Vignette } from "./ui";
+import { Callouts, ChapterOverlay, GlobalSubtitleOverlay, Grain, LabelBox, SceneCtx, Vignette, Z } from "./ui";
 import { Visual } from "./Visuals";
 
 const SceneAudio: React.FC<{ tl: Timeline; i: number }> = ({ tl, i }) => {
@@ -80,10 +80,11 @@ export const Documentary: React.FC<{ ep: string; tl: Timeline | null }> = ({ tl 
         const to = i + 1 < tl.scenes.length ? Math.round(tl.scenes[i + 1].start * fps) : durationInFrames;
         const v = sc.visual;
         const credit = v.type === "ai" ? S("ai") : v.type === "photo" || v.type === "person" ? v.credit : null;
-        const noSub = false;
         return (
           <Sequence key={sc.id} from={from} durationInFrames={to - from} name={sc.id}>
             <SceneCtx.Provider value={sc}>
+              {/* 화면 레이어: isolation으로 가둬서 지도 3D 틸트 등이 바깥(콜아웃·자막)을 덮지 못하게 */}
+              <AbsoluteFill style={{ isolation: "isolate", zIndex: Z.visual }}>
               <Visual tl={tl} />
               {((sc as any).visuals || []).map((v2: any, k: number) => {
                 const off = Math.max(0, Math.round(v2.start * fps));
@@ -105,6 +106,9 @@ export const Documentary: React.FC<{ ep: string; tl: Timeline | null }> = ({ tl 
                 );
               })}
               <Vignette strength={v.type === "map" ? 0.28 : 0.55} />
+              </AbsoluteFill>
+              {/* 오버레이 레이어: 라벨·콜아웃·챕터·플래시 (자막은 루트의 GlobalSubtitleOverlay가 맡음) */}
+              <AbsoluteFill style={{ zIndex: Z.overlay, pointerEvents: "none" }}>
               {v.type !== "map" && (
                 <Sequence
                   durationInFrames={Math.max(1, Math.round((((sc as any).visuals || [])[0]?.start ?? sc.dur + 5) * fps))}
@@ -115,16 +119,21 @@ export const Documentary: React.FC<{ ep: string; tl: Timeline | null }> = ({ tl 
               )}
               <Callouts />
               <ChapterOverlay />
-              {!noSub && <Subtitles />}
               {(sc as any).flash && <Flash />}
+              </AbsoluteFill>
               <SceneAudio tl={tl} i={i} />
             </SceneCtx.Provider>
           </Sequence>
         );
       })}
       <Music tl={tl} />
-      <Grain />
-      <AbsoluteFill style={{ background: "#000", opacity: fadeOut }} />
+      <AbsoluteFill style={{ zIndex: Z.grain, pointerEvents: "none" }}>
+        <Grain />
+      </AbsoluteFill>
+      {/* 글로벌 자막 — 전체 타임라인을 관통하는 최상단 레이어 (z-index 9999). 장면 종류와 무관 */}
+      <GlobalSubtitleOverlay scenes={tl.scenes} />
+      {/* 마지막 1.2초 암전만 자막 위 (영상 끝 페이드아웃) */}
+      <AbsoluteFill style={{ background: "#000", opacity: fadeOut, zIndex: Z.fade, pointerEvents: "none" }} />
     </AbsoluteFill>
   );
 };

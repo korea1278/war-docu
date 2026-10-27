@@ -291,12 +291,16 @@ export const MapView: React.FC<{ tl: Timeline }> = ({ tl }) => {
   }
 
   return (
-    <AbsoluteFill style={{ background: "#0b0f14", overflow: "hidden" }}>
+    // isolation: 3D 틸트 레이어를 이 루트 안에 가둔다 — 없으면 크롬 합성 단계에서 위의 자막·콜아웃을 덮는다 (EP10까지의 버그)
+    <AbsoluteFill style={{ background: "#0b0f14", overflow: "hidden", isolation: "isolate", transformStyle: "flat" }}>
       {/* 3D 틸트 원근 컨테이너: 지도를 비스듬히 눕혀 깊이감 형성 */}
       <div
         style={{
           position: "absolute",
           inset: -120, // 틸트 시 외곽 잘림 방지용 여백
+          // ★ 틸트 레이어를 자기 크기(2160×1320)로 자른다. 안 자르면 확대 지도에서 전국 래스터가 수만 px로 붙어
+          //   크롬 합성 레이어가 한계를 넘고, 그 뒤에 그리는 자막·콜아웃·출처가 통째로 안 나온다 (EP10까지의 버그)
+          overflow: "hidden",
           transform: "perspective(1400px) rotateX(16deg) scale(1.08)",
           transformOrigin: "50% 55%",
         }}

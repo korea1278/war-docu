@@ -165,6 +165,13 @@ jobs:
           git pull --rebase -X theirs -q || (git rebase --abort; git pull --no-rebase -X ours -q --no-edit) || true
           git push
 
+      # [자막 렌더링 무결성 원칙] 모든 장면·모든 줄에서 자막이 실제 화면에 보이는지 스틸로 확인 — 실패하면 MP4 렌더 중단
+      - name: 자막 노출 검사
+        if: inputs.mode != 'thumb'
+        run: |
+          npx remotion browser ensure
+          cd pipeline && python check_subs.py $EP ../out/bundle
+
       - name: 최종 렌더링 (MP4)
         if: inputs.mode == 'full'
         run: |

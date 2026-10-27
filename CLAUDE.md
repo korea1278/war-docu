@@ -62,7 +62,8 @@
    - 사진·일러스트·지도·BGM·효과음은 한국어판 것을 자동 재사용 (추가 비용 0)
 7. **커밋 → 미리보기 → 본 렌더링**
    - Actions "영상 만들기" → `episode=<ep>`, `mode=preview`, `english=true` → `previews/<ep>/`, `previews/<ep>_en/` `sheet_*.jpg` 전부 육안 확인
-   - 확인 항목: 지도 라벨이 자막에 가리는지(뷰 center 조정), 콜아웃·라벨 겹침, 콜아웃이 얼굴 가림, 사진 중복·라벨 오류, 영문 넘침
+   - 확인 항목: **지도 장면에도 하단 자막·콜아웃이 보이는지** (EP10까지 놓친 항목 — 아래 [자막 렌더링 무결성 원칙]), 지도 라벨이 자막에 가리는지(뷰 center 조정), 콜아웃·라벨 겹침, 콜아웃이 얼굴 가림, 사진 중복·라벨 오류, 영문 넘침
+   - Actions가 MP4 렌더 직전에 `pipeline/check_subs.py`(자막 노출 검사)를 돌린다. 실패하면 렌더가 멈추고 `logs/errors.txt`에 "자막 안 보임 — <장면> <줄>"이 남는다 → 원인 고친 뒤 재실행
    - 고친 뒤 `mode=full`, `english=true` (한 번 실행으로 한국어판 → 영문판 순서대로, 약 70분)
    - 이 세션에서는 GraphQL이 막혀 `gh workflow run` 불가 → REST로 실행:
      `gh api -X POST repos/korea1278/war-docu/actions/workflows/make-video.yml/dispatches -f ref=main -f 'inputs[episode]=<ep>' -f 'inputs[mode]=full' -f 'inputs[english]=true'`
@@ -74,7 +75,7 @@
      ```
 8. **검증 (필수)** — 릴리스 MP4를 REST API로 받아서
    - `curl -L -H "Authorization: token $(gh auth token)" -H "Accept: application/octet-stream" https://api.github.com/repos/korea1278/war-docu/releases/assets/<id>`
-   - 길이 8:15~8:30(영문판 +10초까지 허용), 음량 -15 LUFS ±1 (`ffmpeg -af ebur128`), 장면 샘플 프레임 육안 확인, SRT 확인
+   - 길이 8:15~8:30(영문판 +10초까지 허용), 음량 -15 LUFS ±1 (`ffmpeg -af ebur128`), 장면 샘플 프레임 육안 확인(**지도 장면 프레임을 반드시 1장 이상 포함해 자막 확인**), SRT 확인
    - `logs/errors.txt`에 경고가 있으면 원인 해결 후 재실행
 9. **썸네일** — ★ **공통 썸네일 표준 (2026-10-25 사용자 확정 · EP09부터 모든 새 에피소드 A안 기본, 새 세션에서도 그대로 적용)**
    - 구현: `remotion/MapThumb.tsx`의 `MAPT` 표에 에피소드 한 줄 추가 → `Thumbnail`이 A안을 이 표준으로 렌더(`Root.tsx`가 자동으로 **1920×1080**).
@@ -165,7 +166,7 @@
 | 한국어 나레이션 | ElevenLabs 목소리 `ZJCNdZEjYwkOElxugmW2`, 1.05배속(`tighten.py`, 피치 유지) |
 | 영문 나레이션 | ElevenLabs 'Adam' `pNInz6obpgDQGcFmaJgB`, 1.02배속 |
 | 무음 | 문장 안 0.45초 넘는 무음 → 약 0.42초로 단축, 장면 사이 0.35~0.55초 |
-| 하단 자막 | 64px, 흰 박스 + 초록 테두리(모서리 장식 없음). 한국어 Do Hyeon·한 줄 21자 / 영어 Roboto Condensed·44자. SRT는 다음 줄 시작 전에 끝나게 자동 정리 |
+| 하단 자막 | 64px, 흰 박스(불투명) + 초록 테두리 `#22594a`(모서리 장식 없음). 한국어 Do Hyeon·한 줄 21자 / 영어 Roboto Condensed·44자. SRT는 다음 줄 시작 전에 끝나게 자동 정리. **루트 글로벌 오버레이에서만 렌더** — 컨테이너 `position:absolute; bottom:60; left:0; right:0; zIndex:9999; pointerEvents:none; display:flex; justifyContent:center` (2026-10-27) |
 | 제목 글꼴 | 한국어 Black Han Sans / 영어 Oswald |
 | BGM | **`public/bgm/` 공용 6곡 고정** (drone·theme·tension·march·analysis·somber), +2.5dB. **Music API 호출 금지** (`NO_MUSIC_API=1`) |
 | 효과음 | `public/sfx/` 공용 캐시 재사용 (새 효과음만 생성) |
@@ -173,12 +174,27 @@
 | 사진 표기 | 우상단 출처(영문판은 자동 영어 변환) + 내용 라벨(연월 포함), AI 그림은 "재연 일러스트 / Dramatization" |
 | 유튜브 카테고리 | 교육 |
 
+### [자막 렌더링 무결성 원칙] (2026-10-27 사용자 확정 · EP11부터 모든 에피소드 영구 적용)
+
+> - 모든 에피소드는 씬의 종류(MapView, Illustration, DocCard 등)와 무관하게 최상위 글로벌 자막 레이어(`z-index: 9999`)를 통해 음성과 100% 일치하는 싱크로 자막을 화면에 표시해야 한다.
+> - 특히 `MapView` 애니메이션 실행 구간에서 자막이 블록되거나 누락되지 않도록 빌드 전 prop 전달 및 컴포넌트 마운트를 검증한다.
+
+- **버그 기록 (EP01~10)**: 확대 지도 장면에서 TTS는 나오는데 자막·콜아웃·우상단 지도 출처가 통째로 안 보였다 (EP10 기준 지도 27줄). 데이터(자막 청크)는 정상이었고, 원인은 `MapView`의 3D 틸트 레이어(`perspective + rotateX`). 확대 지도에서도 전국 래스터(`korea`)가 가로 수만 px로 함께 붙어 이 레이어가 크롬 합성 한계를 넘었고, 그 뒤에 그리는 요소가 전부 사라졌다. z-index만으로는 해결되지 않았다
+- **구조 (바꾸지 말 것)**
+  1. 자막은 `remotion/Video.tsx` 루트에 `<GlobalSubtitleOverlay scenes={tl.scenes} />` **한 곳에서만** 그린다 (`remotion/ui.tsx`). 장면 Sequence 안에 자막을 다시 넣지 말 것. 싱크는 장면 Sequence와 같은 반올림(`round(start*fps)`)으로 계산
+  2. 레이어 순서는 `ui.tsx`의 `Z` 표로 고정: 장면 화면 0 (`isolation: isolate`) < 라벨·콜아웃·챕터 9000 < 필름 그레인 9500 < **자막 9999** < 끝 암전 10000 (마지막 1.2초 페이드아웃만 자막 위)
+  3. `MapView` 루트는 `isolation: isolate`, 3D 틸트 컨테이너는 **`overflow: hidden` 필수** (틸트 레이어를 2160×1320으로 잘라 합성 한계 방지). 지도에 새 레이어·래스터를 추가할 때도 이 컨테이너 안에 넣을 것
+  4. 새 화면 종류(Visual)를 추가하면 화면 레이어 안에서만 그리고, 화면 전체를 덮는 3D transform·거대 이미지는 같은 방식으로 잘라 둔다
+- **검증 (빌드 전)**: `pipeline/check_subs.py <ep> <번들>` — 모든 장면의 모든 줄에서 첫 자막 청크 가운데 시점을 스틸로 렌더해 하단에서 자막 테두리 색 픽셀을 센다. 하나라도 없으면 exit 1. Actions `render-episode.yml`이 미리보기 저장 뒤·MP4 렌더 전에 자동 실행 (preview/full 모두). 세션에서 돌릴 때는 `REMOTION_BROWSER=<크롬 경로>` 지정. 결과 `logs/subs_check_<ep>.txt`
+  - 검사기 자체 검증: 수정 전 코드로 EP10을 돌리면 68/95 통과(지도 27줄 실패), 수정 후 95/95 통과 (2026-10-27)
+- 기존 배포 영상(EP01~10)은 다시 만들지 않는다 (사용자 지시). 다시 렌더하면 새 구조가 자동 적용됨
+
 ---
 
 ## 3. 저장소 구조
 
 - `episodes/<ep>/` script.md · storyboard.json · photo_pins.json · scout_queries.json — `<ep>_en/translation.json` (+ 생성된 storyboard.json)
-- `pipeline/` photos · ai_images · tts · tighten · sfx · timeline(+SRT) · make_lang · preview · scout · geo · check_api · common
+- `pipeline/` photos · ai_images · tts · tighten · sfx · timeline(+SRT) · make_lang · preview · check_subs(자막 노출 검사) · scout · geo · check_api · common
 - `remotion/` 영상 컴포넌트 (Video, MapView, Visuals, ui, theme, Thumbnail, Root)
 - `public/` geo(지형·하천, 한 번 생성 후 재사용) · bgm · sfx · ui · ep/<ep>/(사진·일러스트·TTS, 저장소에 커밋되어 재사용)
 - `previews/` scout_<ep>/ (사진 후보 시트) · <ep>/ (미리보기 시트)

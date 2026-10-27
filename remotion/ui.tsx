@@ -48,10 +48,13 @@ export const Vignette: React.FC<{ strength?: number }> = ({ strength = 0.55 }) =
 );
 
 /* ---------------- 하단 자막 ---------------- */
-export const Subtitles: React.FC = () => {
-  const sc = useScene();
-  const t = useT();
-  let cur: { text: string; start: number; end: number } | null = null;
+/** 자막 레이어 순서 (CLAUDE.md [자막 렌더링 무결성 원칙]) — 장면 화면 < 콜아웃·라벨 < 필름 그레인 < 자막 < 마지막 암전 */
+export const Z = { visual: 0, overlay: 9000, grain: 9500, subtitle: 9999, fade: 10000 } as const;
+
+type Chunk = { text: string; start: number; end: number };
+/** 장면 안 경과 초 t에 보여야 할 자막 청크 (없으면 null) */
+export const chunkAt = (sc: Scene, t: number): Chunk | null => {
+  let cur: Chunk | null = null;
   const chunks = sc.lines.flatMap((l) => l.chunks);
   for (let i = 0; i < chunks.length; i++) {
     const c = chunks[i];
@@ -59,9 +62,31 @@ export const Subtitles: React.FC = () => {
     const hold = next ? Math.min(next.start, c.end + 0.6) : c.end + 0.45;
     if (t >= c.start - 0.05 && t < hold) cur = c;
   }
+  return cur;
+};
+
+/**
+ * 글로벌 자막 오버레이 — 루트 컴포지션 최상단 한 곳에서만 그린다.
+ * 장면 Sequence 안에 넣으면 지도(MapView)의 3D 틸트 레이어가 자막을 덮어 버린다 (EP10까지의 버그).
+ */
+export const GlobalSubtitleOverlay: React.FC<{ scenes: Scene[] }> = ({ scenes }) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  // 장면 Sequence와 같은 반올림(from = round(start*fps))으로 현재 장면·경과 초를 구해 싱크를 맞춘다
+  let i = -1;
+  for (let k = 0; k < scenes.length; k++) if (frame >= Math.round(scenes[k].start * fps)) i = k;
+  if (i < 0) return null;
+  const cur = chunkAt(scenes[i], (frame - Math.round(scenes[i].start * fps)) / fps);
   if (!cur) return null;
+  return <SubtitleBox text={cur.text} />;
+};
+
+export const SubtitleBox: React.FC<{ text: string }> = ({ text }) => {
   return (
-    <div style={{ position: "absolute", left: 0, right: 0, bottom: 46, display: "flex", justifyContent: "center" }}>
+    <div
+      data-subtitle="1"
+      style={{ position: "absolute", bottom: 60, left: 0, right: 0, zIndex: Z.subtitle, pointerEvents: "none", display: "flex", justifyContent: "center" }}
+    >
       <div
         style={{
           position: "relative",
@@ -78,7 +103,7 @@ export const Subtitles: React.FC = () => {
           whiteSpace: "nowrap",
         }}
       >
-        {cur.text}
+        {text}
       </div>
     </div>
   );
