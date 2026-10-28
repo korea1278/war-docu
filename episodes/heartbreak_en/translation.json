@@ -1,0 +1,1156 @@
+{
+ "title": "Battle of Heartbreak Ridge (1951): The 30-Day Mountain Hell",
+ "subtitle": "September 13 – October 15, 1951",
+ "voice": "pNInz6obpgDQGcFmaJgB",
+ "tempo": 1.02,
+ "places": {
+  "seoul": "Seoul",
+  "kaesong": "Kaesong",
+  "yanggu": "Yanggu",
+  "inje": "Inje",
+  "punchbowl": "Punchbowl",
+  "bloody": "Bloody Ridge",
+  "heartbreak": "Heartbreak Ridge",
+  "h894": "Hill 894",
+  "h931": "Hill 931",
+  "h851": "Hill 851",
+  "h1024": "Hill 1024",
+  "h1142": "Hill 1142",
+  "h1220": "Hill 1220",
+  "mundung": "Mundung-ni",
+  "satae": "Sat'ae-ri",
+  "piari": "Pia-ri",
+  "us2": "U.S. 2nd Div.",
+  "r23": "U.S. 23rd Inf.",
+  "r9": "U.S. 9th Inf.",
+  "r38": "U.S. 38th Inf.",
+  "fr": "French Bn.",
+  "rok7": "ROK 7th Div.",
+  "nk6": "NK 6th Div.",
+  "nk12": "NK 12th Div."
+ },
+ "text": {
+  "1024고지 · 9. 25": "Hill 1024 · Sep 25",
+  "1142고지 · 9. 26": "Hill 1142 · Sep 26",
+  "851고지 점령": "Hill 851 Taken",
+  "894고지": "Hill 894",
+  "894고지 점령": "Hill 894 Taken",
+  "931고지": "Hill 931",
+  "931고지 · 적 수중": "Hill 931 · Enemy-Held",
+  "931고지 점령": "Hill 931 Taken",
+  "개성 휴전회담": "Kaesong Truce Talks",
+  "국군 7사단": "ROK 7th Div.",
+  "단장의 능선": "Heartbreak Ridge",
+  "문등리": "Mundung-ni",
+  "문등리 계곡": "Mundung-ni Valley",
+  "미 23연대": "U.S. 23rd Inf.",
+  "미 23연대 · 단독 주공": "23rd Inf. · Lone Main Effort",
+  "미 2사단": "U.S. 2nd Div.",
+  "미 38연대": "U.S. 38th Inf.",
+  "미 38연대 · 예비": "38th Inf. · Reserve",
+  "미 9연대": "U.S. 9th Inf.",
+  "미 9연대 2대대": "2nd Bn, 9th Inf.",
+  "미 9연대 · 린치 대령": "9th Inf. · Col. Lynch",
+  "북한군 12사단": "NK 12th Div.",
+  "북한군 6사단": "NK 6th Div.",
+  "북한군 증원 연대": "NK Fresh Regiment",
+  "사태리 계곡": "Sat'ae-ri Valley",
+  "전차 · 보급로 차단": "Tanks · Supply Cut",
+  "펀치볼": "Punchbowl",
+  "프랑스 대대": "French Bn.",
+  "피아리 계곡 · 보급로": "Pia-ri Valley · Supply Route",
+  "피의 능선": "Bloody Ridge"
+ },
+ "scenes": {
+  "s01": {
+   "lines": [
+    "Dawn, October 13th, 1951. A needle-sharp peak in the mountains north of Yanggu, South Korea.",
+    "French soldiers were clawing their way up the slope toward that final summit."
+   ],
+   "label": "Dramatization",
+   "callouts": [
+    "OCT. 13, 1951 · DAWN · HILL 851"
+   ]
+  },
+  "s02": {
+   "lines": [
+    "It took one full month to take this single ridge.",
+    "Casualties in the U.S. 2nd Infantry Division and its attached units passed three thousand seven hundred."
+   ],
+   "text": "One ridge. One month.",
+   "accent": "3,700+ CASUALTIES"
+  },
+  "s03": {
+   "lines": [
+    "Three peaks strung together like the edge of a blade. Hill 894, Hill 931, and Hill 851.",
+    "War correspondents gave it a name: Heartbreak Ridge."
+   ],
+   "title": "Heartbreak Ridge · North–South Profile",
+   "note": "Schematic (heights exaggerated · approx.)",
+   "left": "South · toward Bloody Ridge",
+   "right": "North · toward Mundung-ni",
+   "marks": [
+    "HILL 894",
+    "HILL 931",
+    "HILL 851"
+   ]
+  },
+  "s04": {
+   "lines": [
+    "In Korean, the name became 'Danjang-ui Neungseon.' The Ridge of the Severed Bowels, a grief so deep it cuts you in two."
+   ],
+   "hanja": [
+    "Dan · To sever",
+    "Jang · Bowels"
+   ]
+  },
+  "s05": {
+   "lines": [
+    "And here is the strange part.",
+    "In one month, American guns fired more than half a million recorded rounds onto this ridge.",
+    "And yet for over two weeks, the infantry could not stand on its highest peak.",
+    "What was really happening up on that ridge?"
+   ],
+   "big": "500,000+ ROUNDS",
+   "sub": "U.S. 2nd Division artillery records · Sep 13 – Oct 15, 1951"
+  },
+  "s06": {
+   "lines": [
+    "In the end, what broke this ridge was not more shells.",
+    "It was a single road through the valley, carved out with shovels and explosives."
+   ],
+   "label": "Dramatization"
+  },
+  "s07": {
+   "lines": [
+    "The Battle of Heartbreak Ridge.",
+    "This is the story of thirty days of mountain hell, and of Operation Touchdown, the plan that finally ended it."
+   ],
+   "title": "Battle of Heartbreak Ridge",
+   "sub": "The 30-Day Mountain Hell · 1951"
+  },
+  "s08": {
+   "lines": [
+    "July 1951. At Kaesong, armistice talks finally began.",
+    "But outside the conference room, the war did not stop for a single day.",
+    "On August 23rd, the Communists broke off the talks, claiming UN aircraft had bombed the neutral zone."
+   ],
+   "callouts": [
+    "TALKS OPEN JUL. 10 → SUSPENDED AUG. 23"
+   ],
+   "chapter": [
+    "PART 1",
+    "THE WALL BEYOND BLOODY RIDGE"
+   ]
+  },
+  "s08b": {
+   "lines": [
+    "With the talks frozen, the UN command's logic became simple.",
+    "Whatever could not be won at the table would be won on the battlefield."
+   ],
+   "text": "What the table would not give",
+   "accent": "TAKE IT ON THE FRONT"
+  },
+  "s09": {
+   "lines": [
+    "General James Van Fleet, commander of the U.S. Eighth Army.",
+    "Instead of a grand offensive, he ordered limited attacks to seize key ground, one hill at a time.",
+    "The idea was to squeeze the enemy at the front, and push him back to the table."
+   ],
+   "name": "James Van Fleet",
+   "role": "Commander, U.S. Eighth Army",
+   "callouts": [
+    "SEPT. 8, 1951 · LIMITED-OBJECTIVE ATTACKS"
+   ]
+  },
+  "s10": {
+   "lines": [
+    "The stage was the rugged mountain country north of Yanggu, in Gangwon Province.",
+    "To the east yawned a huge bowl-shaped basin the Americans called the Punchbowl.",
+    "This sector belonged to U.S. X Corps, and at its center stood the U.S. 2nd Infantry Division."
+   ]
+  },
+  "s11": {
+   "lines": [
+    "On September 5th, after three weeks of savage fighting, the 2nd Division finally took Bloody Ridge.",
+    "The very ridge we covered in an earlier episode of this channel."
+   ],
+   "callouts": [
+    "SEPT. 4–5, 1951 · BLOODY RIDGE TAKEN"
+   ]
+  },
+  "s12": {
+   "lines": [
+    "Bloody Ridge alone had cost more than two thousand eight hundred UN and South Korean casualties.",
+    "On the crest, the North Koreans left behind more than five hundred dead."
+   ],
+   "note": "Bloody Ridge · U.S. Army official history",
+   "bars": [
+    [
+     "UN & ROK casualties",
+     "2,800+"
+    ],
+    [
+     "Enemy dead left on ridge",
+     "500+"
+    ]
+   ]
+  },
+  "s13": {
+   "lines": [
+    "But the North Koreans had not collapsed.",
+    "They had simply pulled back a few kilometers north, to a ridge that was higher and steeper still.",
+    "And that ridge had already been turned into a fortress."
+   ],
+   "callouts": [
+    "NORTH KOREANS FALL BACK NORTH"
+   ]
+  },
+  "s14": {
+   "lines": [
+    "For the men standing on Bloody Ridge, another great wall now rose before their eyes.",
+    "A rocky ridgeline, thick with forest, stretching beyond sight.",
+    "Higher than Bloody Ridge. Longer. And steeper."
+   ],
+   "label": "Dramatization"
+  },
+  "s15": {
+   "lines": [
+    "A massive spine of mountains running some eleven kilometers north to south.",
+    "With the Mundung-ni Valley to the west and the Sat'ae-ri Valley to the east, it rose like a knife's edge.",
+    "Leave it in enemy hands, and he could keep watching Bloody Ridge and every UN position to the south."
+   ],
+   "callouts": [
+    "HEARTBREAK RIDGE · COORDINATES APPROX."
+   ]
+  },
+  "s16": {
+   "lines": [
+    "The attack order came from Brigadier General Thomas de Shazo, then acting division commander.",
+    "He believed a single regiment could take the ridge."
+   ],
+   "label": "2nd Division commander Ruffner (center) with Brig. Gen. de Shazo (1951)"
+  },
+  "s17": {
+   "lines": [
+    "The thinking was that an enemy just driven off Bloody Ridge must already be exhausted.",
+    "Only the division's artillery commander predicted the enemy would fight like hell for this ridge."
+   ],
+   "left": [
+    "DIVISION COMMAND",
+    "ONE REGIMENT"
+   ],
+   "right": [
+    "ARTILLERY CHIEF'S WARNING",
+    "FIGHT TO THE END"
+   ]
+  },
+  "s18": {
+   "lines": [
+    "Underestimating the enemy's strength and will,",
+    "was the first step into thirty days of hell."
+   ],
+   "text": "The first mistake",
+   "accent": "UNDERESTIMATING THE ENEMY"
+  },
+  "s19": {
+   "lines": [
+    "Now let's take a closer look at this ridge.",
+    "Heartbreak Ridge had three major peaks."
+   ],
+   "chapter": [
+    "PART 2",
+    "THE DEVIL'S THREE PEAKS"
+   ]
+  },
+  "s20": {
+   "lines": [
+    "At the southern end, Hill 894, looking down on Bloody Ridge.",
+    "The highest, Hill 931. And to the north, the needle-like Hill 851."
+   ],
+   "title": "The Three Peaks (South → North)",
+   "note": "Schematic (heights exaggerated · approx.)",
+   "left": "South · toward Bloody Ridge",
+   "right": "North · toward Mundung-ni",
+   "marks": [
+    "HILL 894",
+    "HILL 931",
+    "HILL 851"
+   ]
+  },
+  "s21": {
+   "lines": [
+    "From Hill 894 to Hill 931 was about one point two kilometers.",
+    "From Hill 931 to Hill 851, another one point nine kilometers."
+   ],
+   "title": "Distance Between the Peaks",
+   "note": "Schematic (heights exaggerated · approx.)",
+   "left": "South · toward Bloody Ridge",
+   "right": "North · toward Mundung-ni",
+   "marks": [
+    "~1.2 km",
+    "~1.9 km"
+   ]
+  },
+  "s22": {
+   "lines": [
+    "The crest connecting the peaks was so narrow that only a few men could stand side by side.",
+    "On either side, the slopes plunged steeply all the way to the valley floor."
+   ],
+   "label": "Dramatization"
+  },
+  "s23": {
+   "lines": [
+    "Holding the ridge was the North Korean 6th Division, under General Hong Nim.",
+    "To the west, around Mundung-ni, troops of the North Korean 12th Division held the high ground as well.",
+    "And behind Hill 851 to the north, units of the 13th Division stood in support."
+   ],
+   "callouts": [
+    "DEFENDERS · NORTH KOREAN III CORPS"
+   ]
+  },
+  "s24": {
+   "lines": [
+    "The North Koreans had turned the entire ridge into a fortress.",
+    "Bunkers roofed with layer upon layer of logs and earth, linked by communication trenches.",
+    "Knock out one bunker, and the ones beside it and behind it would cover each other."
+   ],
+   "label": "Dramatization"
+  },
+  "s25": {
+   "lines": [
+    "On top of that, the ridge was covered in dense forest.",
+    "Trees and undergrowth hid the positions so well that aerial photos could barely find the bunkers."
+   ],
+   "big": "A FORTRESS IN THE FOREST",
+   "sub": "Bunkers almost invisible from the air"
+  },
+  "s26": {
+   "lines": [
+    "Even deadlier were the mortars hidden beyond the crest.",
+    "From positions no one could see, rounds rained down on the valleys and slopes without pause."
+   ],
+   "label": "Dramatization"
+  },
+  "s27": {
+   "lines": [
+    "The new division commander later gave his assessment.",
+    "About eighty-five percent of the division's casualties in this period, he said, came from enemy mortars."
+   ],
+   "note": "Analysis by Maj. Gen. Young · U.S. Army official history",
+   "bars": [
+    [
+     "Mortars",
+     "~85%"
+    ],
+    [
+     "All other causes",
+     "~15%"
+    ]
+   ]
+  },
+  "s28": {
+   "lines": [
+    "The attackers had to start from the valley floor and climb these slopes with nothing to hide behind.",
+    "From above, every man coming up the hill was in plain view."
+   ],
+   "callouts": [
+    "VALLEY → SLOPE · FRONTAL ASSAULT"
+   ]
+  },
+  "s29": {
+   "lines": [
+    "Bunkers, forest, and mortars no one could see.",
+    "For the attackers, there was nowhere to hide."
+   ],
+   "left": [
+    "ATTACK · U.S. 2ND DIV",
+    "EXPOSED"
+   ],
+   "right": [
+    "DEFENSE · NORTH KOREANS",
+    "BUNKERS"
+   ]
+  },
+  "s30": {
+   "lines": [
+    "And at dawn on September 13th, 1951, the attack began."
+   ],
+   "text": "SEPT. 13, 1951",
+   "accent": "THE ATTACK BEGINS"
+  },
+  "s31": {
+   "lines": [
+    "At five thirty in the morning, a thirty-minute preparatory barrage pounded the ridge.",
+    "Then the 3rd and 2nd Battalions of the U.S. 23rd Infantry crossed the Sat'ae-ri Valley toward the ridge."
+   ],
+   "callouts": [
+    "SEPT. 13, 1951 · 0530 · ATTACK BEGINS"
+   ],
+   "chapter": [
+    "PART 3",
+    "THE BLOODBATH ON HILL 931"
+   ]
+  },
+  "s32": {
+   "lines": [
+    "But the troops were stopped cold at the very first spur below the ridge.",
+    "Machine guns opened up from bunkers hidden in the woods, and mortar rounds came pouring down."
+   ],
+   "label": "Dramatization"
+  },
+  "s33": {
+   "lines": [
+    "The next day, the 2nd Battalion of the 9th Infantry moved against Hill 894 at the southern end.",
+    "And on September 15th, they finally stood on top of Hill 894.",
+    "It gave them a single foothold on the southern tip of the ridge."
+   ],
+   "callouts": [
+    "SEPT. 14–15 · HILL 894"
+   ]
+  },
+  "s34": {
+   "lines": [
+    "But the North Koreans immediately launched two straight days of counterattacks.",
+    "In those two days of holding the hill, the 9th Infantry lost more than two hundred men."
+   ],
+   "callouts": [
+    "SEPT. 16–17 · COUNTERATTACKS · 9TH INF. LOSES 200+"
+   ]
+  },
+  "s34b": {
+   "lines": [
+    "On September 16th, the North Koreans pulled out a worn-down unit and sent a fresh regiment onto the ridge.",
+    "Every time the Americans attacked, the enemy filled the gaps with fresh troops."
+   ],
+   "callouts": [
+    "SEPT. 16, 1951 · NK 13TH REGT. RELIEVES 1ST"
+   ]
+  },
+  "s35": {
+   "lines": [
+    "What remained was the highest objective of all: Hill 931."
+   ]
+  },
+  "s36": {
+   "lines": [
+    "September 16th. The 21st through the 23rd. And the 26th.",
+    "Again and again, the 23rd Infantry threw itself at Hill 931."
+   ],
+   "items": [
+    [
+     "Sept. 16",
+     "1st assault"
+    ],
+    [
+     "Sept. 21–23",
+     "2nd assault"
+    ],
+    [
+     "Sept. 26",
+     "3rd assault"
+    ]
+   ]
+  },
+  "s37": {
+   "lines": [
+    "Whenever they crawled close to the summit, grenades came tumbling down like rain.",
+    "Even when they got a toehold on one side of the peak, the enemy swarmed back at night and drove them off.",
+    "Up the same slope, and up again. And on that slope, the fallen were left where they lay."
+   ],
+   "label": "Dramatization"
+  },
+  "s38": {
+   "lines": [
+    "The night of September 17th. Private First Class Herbert Pililaau, Company C, 23rd Infantry.",
+    "A twenty-two-year-old from Hawaii."
+   ],
+   "name": "Herbert K. Pililaau",
+   "role": "PFC, Co. C, 23rd Infantry · Medal of Honor"
+  },
+  "s39": {
+   "lines": [
+    "When his platoon was ordered to pull back, he volunteered to stay behind and cover them.",
+    "He fired his automatic rifle, threw every grenade he had, and fought at the end with his bare fists until he fell.",
+    "Around the spot he defended, more than forty enemy dead were found."
+   ],
+   "label": "Dramatization",
+   "callouts": [
+    "POSTHUMOUS MEDAL OF HONOR (JUNE 1952)"
+   ]
+  },
+  "s39b": {
+   "lines": [
+    "Meanwhile, Colonel John Lynch of the 9th Infantry proposed another way.",
+    "Not straight up the front, but strike other hills to the west and shake the enemy's flank.",
+    "It was turned down at first, but when a new division commander arrived on September 20th, the plan was approved."
+   ],
+   "callouts": [
+    "FLANK ATTACK PLAN · APPROVED SEPT. 20"
+   ]
+  },
+  "s40": {
+   "lines": [
+    "On September 26th, Colonel James Adams, commander of the 23rd Infantry, reported to his superiors.",
+    "Any further attack, he said, would be suicide."
+   ],
+   "big": "\"SUICIDE\"",
+   "sub": "Col. Adams, 23rd Infantry · Sept. 26, 1951"
+  },
+  "s41": {
+   "lines": [
+    "By then, the 23rd Infantry alone had taken more than nine hundred fifty casualties,",
+    "and the division's losses were climbing past one thousand six hundred seventy."
+   ],
+   "note": "Sept. 13 – 26, 1951 · U.S. Army official history",
+   "bars": [
+    [
+     "U.S. 23rd Infantry",
+     "950+"
+    ],
+    [
+     "U.S. 2nd Division total",
+     "1,670+"
+    ]
+   ]
+  },
+  "s42": {
+   "lines": [
+    "Finally, on September 27th, the frontal assaults were called off.",
+    "After two weeks of spilled blood, Hill 931 was still in enemy hands."
+   ],
+   "callouts": [
+    "SEPT. 27, 1951 · FRONTAL ASSAULTS HALTED"
+   ]
+  },
+  "s43": {
+   "lines": [
+    "Around this time, the war correspondents covering the front gave the ridge its name.",
+    "Heartbreak Ridge."
+   ],
+   "big": "HEARTBREAK RIDGE",
+   "sub": "Named by war correspondents"
+  },
+  "s44": {
+   "lines": [
+    "A place where you climbed and fell, where every peak you took was taken back.",
+    "For the men who fought there, it truly was the ridge that broke your heart."
+   ],
+   "label": "Dramatization"
+  },
+  "s45": {
+   "lines": [
+    "In the middle of this hell, one unit fought alongside the 23rd Infantry.",
+    "The French Battalion of the United Nations Command, all the way from France."
+   ],
+   "label": "French Battalion machine-gun position in Korea (April 1951)",
+   "chapter": [
+    "PART 4",
+    "THE LEGENDARY FRENCH BATTALION"
+   ]
+  },
+  "s46": {
+   "lines": [
+    "Its commander was Ralph Monclar.",
+    "Born Raoul Magrin-Vernerey, he was a legend of the French Foreign Legion who had fought through both World Wars.",
+    "Born in 1892, he was nearly sixty when he came to Korea."
+   ],
+   "name": "Ralph Monclar",
+   "role": "Commander, French Battalion (Lt. Col.)"
+  },
+  "s47": {
+   "lines": [
+    "But here is the thing: he was already a general.",
+    "He had led the Foreign Legion at Narvik in Norway in 1940, and fought the war as a general of the Free French.",
+    "Yet to lead a single battalion himself, he took a voluntary demotion to lieutenant colonel.",
+    "Because a battalion was a lieutenant colonel's command."
+   ],
+   "left": [
+    "ORIGINAL RANK",
+    "LT. GENERAL"
+   ],
+   "right": [
+    "IN KOREA",
+    "LT. COLONEL"
+   ]
+  },
+  "s48": {
+   "lines": [
+    "Made up entirely of volunteers, the French Battalion fought attached to the U.S. 23rd Infantry.",
+    "That February at Chipyong-ni, surrounded by Chinese forces alongside the 23rd, they had held their ground to the end."
+   ],
+   "callouts": [
+    "FEB. 1951 · VICTORY TOGETHER AT CHIPYONG-NI"
+   ]
+  },
+  "s49": {
+   "lines": [
+    "At Heartbreak Ridge too, the French went into the assaults on Hill 931 with the 23rd Infantry.",
+    "In night attacks and close combat, it is said, they never gave ground.",
+    "Bunker by bunker, with grenades and bayonets. It was the most brutal kind of fighting."
+   ],
+   "label": "Dramatization"
+  },
+  "s50": {
+   "lines": [
+    "At Chipyong-ni, according to one story, they had even charged with bayonets to the sound of whistles."
+   ],
+   "label": "Dramatization",
+   "callouts": [
+    "AS THE STORY GOES"
+   ]
+  },
+  "s51": {
+   "lines": [
+    "On September 26th, in an attack near Pia-ri, one French sergeant charged ahead into the enemy positions,",
+    "and was later awarded the U.S. Distinguished Service Cross."
+   ],
+   "callouts": [
+    "SEPT. 26, 1951 · SGT. LOUIS MISSERI · DSC"
+   ]
+  },
+  "s52": {
+   "lines": [
+    "At Heartbreak Ridge, the French Battalion lost sixty killed and about two hundred wounded.",
+    "Together, the 23rd Infantry and the French Battalion bore almost half of the division's casualties."
+   ],
+   "note": "French Battalion · Heartbreak Ridge, fall 1951 (figures vary)",
+   "bars": [
+    [
+     "Killed",
+     "60"
+    ],
+    [
+     "Wounded",
+     "~200"
+    ]
+   ]
+  },
+  "s53": {
+   "lines": [
+    "And it would be this French Battalion that wrote the final chapter on this ridge.",
+    "But first, the division had another problem it had to solve."
+   ],
+   "text": "The problem to solve",
+   "accent": "THE VALLEYS BELOW"
+  },
+  "s54": {
+   "lines": [
+    "The attacks had not failed only because of what was on the ridge.",
+    "The real problem lay in the narrow valleys below it."
+   ],
+   "chapter": [
+    "PART 5",
+    "TRAPPED IN THE VALLEYS · SUPPLY HELL"
+   ]
+  },
+  "s55": {
+   "lines": [
+    "The only ways to the ridge were a few narrow valleys.",
+    "The Pia-ri Valley, which became the supply route, was choked with trucks and jeeps."
+   ],
+   "callouts": [
+    "ONE SUPPLY ROUTE · TRAFFIC JAMMED"
+   ]
+  },
+  "s56": {
+   "lines": [
+    "And that valley lay entirely within range of enemy artillery and mortars.",
+    "Wherever a vehicle stopped, shells began to fall."
+   ],
+   "label": "Dramatization"
+  },
+  "s57": {
+   "lines": [
+    "On mountain trails no truck could climb, ammunition and food were carried by Korean laborers.",
+    "With wooden A-frames on their backs, they climbed the steep slopes again and again every day.",
+    "Unarmed, they were the nameless supply line that held up the front."
+   ],
+   "label": "U.S. Marines and the Korean Service Corps (October 1951)"
+  },
+  "s58": {
+   "lines": [
+    "But when the enemy came close, many of them dropped their loads and scattered.",
+    "It is hard to blame unarmed men climbing slopes under falling shells.",
+    "In the end, American infantrymen had to become porters themselves, hauling ammunition up the hill."
+   ],
+   "label": "Dramatization"
+  },
+  "s59": {
+   "lines": [
+    "Even harder was bringing the wounded down.",
+    "Carrying a single litter from the ridge to the valley could take as long as ten hours."
+   ],
+   "label": "U.S. medics moving the wounded (Korean War)"
+  },
+  "s60": {
+   "lines": [
+    "On the steep slopes, a litter needed not four men but six or seven to move it at all.",
+    "And that path, too, lay under enemy mortars.",
+    "Some days, there were more men carrying and hauling than men fighting."
+   ],
+   "label": "Dramatization",
+   "callouts": [
+    "ONE LITTER · UP TO 10 HOURS"
+   ]
+  },
+  "s61": {
+   "lines": [
+    "Even shells ran short.",
+    "Two thousand five hundred rounds a day were flown in from Pusan for four days, and another twenty-five thousand came by rail."
+   ],
+   "head": "EMERGENCY AMMUNITION RESUPPLY",
+   "org": "U.S. 2ND INFANTRY DIVISION · G-4",
+   "rows": [
+    "AIRLIFT FROM PUSAN: 2,500 RDS/DAY x 4 DAYS",
+    "RAIL SHIPMENT: 25,000 RDS",
+    "SUPPLY ROUTE: PIA-RI VALLEY (SINGLE ROAD)"
+   ],
+   "note": "Per U.S. Army official history (summary)"
+  },
+  "s62": {
+   "lines": [
+    "A high ridge, narrow valleys, and broken supply lines.",
+    "Attacks that only rammed the front had run into a dead end right here, in these valleys."
+   ],
+   "big": "DEAD END",
+   "items": [
+    "High ridge",
+    "Narrow valleys",
+    "Broken supply"
+   ]
+  },
+  "s63": {
+   "lines": [
+    "By then, the division had a new commander, Major General Robert Young.",
+    "He summed up the attacks so far in a single word: a fiasco."
+   ],
+   "big": "\"FIASCO\"",
+   "sub": "New CG Maj. Gen. Robert Young · arrived Sept. 20, 1951"
+  },
+  "s64": {
+   "lines": [
+    "And he pulled out a completely different solution.",
+    "Not more shells, but a road for tanks."
+   ],
+   "text": "A new solution",
+   "accent": "A ROAD, NOT SHELLS"
+  },
+  "s65": {
+   "lines": [
+    "The operation was called Touchdown.",
+    "In American football, it is the moment you drive all the way into the end zone and score.",
+    "The name said it all: carry the ball deep into enemy ground, and send tanks around behind the enemy."
+   ],
+   "big": "OPERATION TOUCHDOWN",
+   "sub": "Launched October 5, 1951",
+   "chapter": [
+    "PART 6",
+    "THE TURNING POINT · OPERATION TOUCHDOWN"
+   ]
+  },
+  "s66": {
+   "lines": [
+    "First: never concentrate the attack on one spot.",
+    "All three of the division's regiments would strike several points of the ridge at the same time."
+   ],
+   "callouts": [
+    "THREE REGIMENTS ATTACK AT ONCE"
+   ]
+  },
+  "s67": {
+   "lines": [
+    "In fact, the first sign of this had already appeared in late September.",
+    "The 9th Infantry had taken Hill 1024 to the west, and the South Korean 7th Division Hill 1142, prying open the ridge's flank."
+   ],
+   "callouts": [
+    "SEPT. 25–26, 1951 · WESTERN FLANK SECURED"
+   ]
+  },
+  "s68": {
+   "lines": [
+    "Second, and this was the key.",
+    "Tanks would drive up the valley, deep behind the ridge."
+   ],
+   "callouts": [
+    "GOAL · TANK THRUST UP MUNDUNG-NI VALLEY"
+   ]
+  },
+  "s69": {
+   "lines": [
+    "The problem was, there was no road for the tanks.",
+    "The track up the Mundung-ni Valley was blocked by mines, huge boulders, and obstacles the enemy had built."
+   ],
+   "big": "NO ROAD FOR TANKS",
+   "sub": "Mines · boulder roadblocks · narrow stream-bed track"
+  },
+  "s70": {
+   "lines": [
+    "The job fell to Lieutenant Colonel Robert Love and the U.S. 2nd Engineer Combat Battalion."
+   ],
+   "label": "2nd Engineer Combat Battalion surveying a supply route (Korean War)"
+  },
+  "s71": {
+   "lines": [
+    "But as luck would have it, their bulldozers were broken down and under repair.",
+    "So the engineers began cutting the road with nothing but shovels and explosives."
+   ],
+   "label": "Dramatization"
+  },
+  "s72": {
+   "lines": [
+    "Blasting away a single rock roadblock took about fifty kilograms of explosives.",
+    "Where mines were buried, they linked charges together like a chain and set them off about every fifteen meters."
+   ],
+   "head": "TANK ROAD · MUNDUNG-NI VALLEY",
+   "org": "U.S. 2ND ENGINEER COMBAT BATTALION",
+   "rows": [
+    "ROCK ROADBLOCK: ~50 KG (110 LB) OF EXPLOSIVES",
+    "MINE CLEARING: CHAIN CHARGES ~15 M APART",
+    "EQUIPMENT: BULLDOZERS UNDER REPAIR → SHOVELS & EXPLOSIVES",
+    "NO ROAD: ROUTED THROUGH THE STREAM BED"
+   ],
+   "note": "Per U.S. Army official history (summary)"
+  },
+  "s73": {
+   "lines": [
+    "Where there was no road at all, they simply ran it along the stream bed.",
+    "And on October 10th, the tank road up the Mundung-ni Valley was finally finished."
+   ],
+   "callouts": [
+    "ENGINEER TANK ROAD · COMPLETED OCT. 10, 1951"
+   ]
+  },
+  "s74": {
+   "lines": [
+    "Meanwhile, in the Sat'ae-ri Valley to the east, Major Kenneth Sturman's tank task force shook the enemy with raids.",
+    "It pulled the enemy's eyes in the wrong direction."
+   ],
+   "callouts": [
+    "TASK FORCE STURMAN · SAT'AE-RI VALLEY RAIDS"
+   ]
+  },
+  "s75": {
+   "lines": [
+    "On the evening of October 5th, Operation Touchdown opened behind strikes by Marine Corsair fighter-bombers.",
+    "The 9th, 23rd and 38th Infantry, and the French Battalion, all moved at once.",
+    "Attached to the 38th Infantry, the Netherlands Battalion joined the attack on the eastern hills."
+   ],
+   "callouts": [
+    "OCT. 5, 1951 · EVENING · MULTI-AXIS ATTACK"
+   ]
+  },
+  "s76": {
+   "lines": [
+    "At three in the morning on October 6th, the 23rd Infantry seized the southern part of Hill 931.",
+    "And before noon that day, all of Hill 931 was finally in American hands."
+   ],
+   "callouts": [
+    "OCT. 6, 1951 · HILL 931 TAKEN"
+   ]
+  },
+  "s77": {
+   "lines": [
+    "The peak where so many had fallen for three weeks crumbled in a single night of attack.",
+    "Because the enemy could no longer mass his firepower and reserves in one place."
+   ],
+   "left": [
+    "SEPTEMBER · FRONTAL",
+    "2 WEEKS"
+   ],
+   "right": [
+    "OCTOBER · MULTI-AXIS",
+    "1 NIGHT"
+   ]
+  },
+  "s77b": {
+   "lines": [
+    "Around the same time, the surrounding hills fell one after another.",
+    "The 38th Infantry took Hill 728 on October 6th and Hill 636 on the 8th, and the 9th Infantry took Hill 867 on the 7th.",
+    "Now the enemy no longer knew which hole to plug first."
+   ],
+   "items": [
+    [
+     "Oct. 6",
+     "Hill 931 · Hill 728"
+    ],
+    [
+     "Oct. 7",
+     "Hill 867"
+    ],
+    [
+     "Oct. 8",
+     "Hill 636 · Hill 960"
+    ]
+   ]
+  },
+  "s78": {
+   "lines": [
+    "October 10th. The Sherman tanks of Lieutenant Colonel John Woods's 72nd Tank Battalion roared north up the Mundung-ni Valley."
+   ],
+   "callouts": [
+    "OCT. 10, 1951 · 72ND TANK BN. INTO MUNDUNG-NI"
+   ]
+  },
+  "s79": {
+   "lines": [
+    "The tanks cut straight through the enemy's supply routes behind the ridge.",
+    "A Chinese unit coming forward to take over the positions was caught in the open valley under tank fire."
+   ],
+   "label": "Dramatization"
+  },
+  "s80": {
+   "lines": [
+    "The unit sent to relieve the North Koreans was the 204th Division of the Chinese 68th Army.",
+    "The enemy on the ridge was now trapped, front and rear."
+   ],
+   "callouts": [
+    "CHINESE 204TH DIV. · RELIEF FORCE HIT"
+   ]
+  },
+  "s80b": {
+   "lines": [
+    "On October 10th, the 9th Infantry took Hill 1005 with a bayonet charge,",
+    "and the next day, the South Korean 8th Division seized Hill 1050.",
+    "One by one, the high peaks west of the ridge were falling into UN hands."
+   ],
+   "callouts": [
+    "OCT. 10 · HILL 1005 / OCT. 11 · HILL 1050 (APPROX.)"
+   ]
+  },
+  "s81": {
+   "lines": [
+    "At dawn on October 13th, the last peak left: Hill 851.",
+    "Monclar's French Battalion stormed its summit."
+   ],
+   "callouts": [
+    "OCT. 13, 1951 · DAWN · HILL 851"
+   ]
+  },
+  "s82": {
+   "lines": [
+    "It was the moment a battle begun on September 13th came to an end, exactly one month later.",
+    "Then on October 15th, the 38th Infantry took its final objective, Hill 1220, and the operation was over."
+   ],
+   "label": "Dramatization",
+   "callouts": [
+    "OCT. 15, 1951 · OPERATION ENDS"
+   ]
+  },
+  "s83": {
+   "lines": [
+    "These are the numbers left by more than thirty days of fighting.",
+    "U.S. 2nd Division and attached units: more than three thousand seven hundred casualties.",
+    "Enemy losses, by the division's estimate, about twenty-five thousand."
+   ],
+   "note": "Sept. 13 – Oct. 15, 1951 · enemy losses are U.S. 2nd Div. estimates",
+   "bars": [
+    [
+     "U.S. 2nd Div. & attached",
+     "3,700+"
+    ],
+    [
+     "NK & Chinese (est.)",
+     "~25,000"
+    ]
+   ],
+   "chapter": [
+    "PART 7",
+    "THE END OF 30 DAYS, AND ITS LESSONS"
+   ]
+  },
+  "s84": {
+   "lines": [
+    "The 2nd Division's artillery fired more than four hundred thousand rounds from its 105-millimeter howitzers alone.",
+    "The Air Force flew eight hundred forty-two sorties and dropped two hundred fifty tons of bombs."
+   ],
+   "note": "U.S. 2nd Division artillery · U.S. Army official history",
+   "bars": [
+    [
+     "105mm howitzer",
+     "401,000"
+    ],
+    [
+     "155mm howitzer",
+     "84,000"
+    ],
+    [
+     "76mm gun",
+     "62,000"
+    ],
+    [
+     "8-inch howitzer",
+     "13,000"
+    ]
+   ]
+  },
+  "s85": {
+   "lines": [
+    "So why did the ridge hold out for more than three weeks against such enormous firepower?",
+    "And what finally broke it open? Let's look at four reasons."
+   ],
+   "items": [
+    "Underrating the Enemy",
+    "Bunkers & Mortars",
+    "Hitting One Spot",
+    "A Road for Tanks"
+   ],
+   "head": "3 Weeks of Failure vs 1 Night"
+  },
+  "s86": {
+   "lines": [
+    "First: underestimating the enemy."
+   ],
+   "num": "FACTOR 1",
+   "title": "UNDERRATING THE ENEMY"
+  },
+  "s87": {
+   "lines": [
+    "Believing the enemy was worn out after Bloody Ridge, the division sent in just one regiment.",
+    "The 38th Infantry, held in reserve, was barely used until Operation Touchdown.",
+    "It was the same mistake made at Bloody Ridge, repeated all over again."
+   ]
+  },
+  "s88": {
+   "lines": [
+    "Second: underground bunkers and unseen mortars."
+   ],
+   "num": "FACTOR 2",
+   "title": "BUNKERS & MORTARS"
+  },
+  "s89": {
+   "lines": [
+    "The shelling stripped away the forest, but the bunkers under logs and earth survived.",
+    "When the barrage lifted, the machine guns in the bunkers and the mortars beyond the crest came back to life.",
+    "The question was never how many shells, but how to root out an enemy you could not see."
+   ],
+   "title": "Before / After Shelling",
+   "note": "Schematic (heights exaggerated · approx.)",
+   "left": "South · toward Bloody Ridge",
+   "right": "North · toward Mundung-ni",
+   "marks": [
+    "Bunkers survive"
+   ]
+  },
+  "s90": {
+   "lines": [
+    "Third: attacks that hammered a single spot."
+   ],
+   "num": "FACTOR 3",
+   "title": "HITTING ONE SPOT"
+  },
+  "s91": {
+   "lines": [
+    "Strike the same peak from the same direction again and again, and the enemy only had to mass his fire and men there.",
+    "Strike from many directions at once, and he no longer knew where to defend.",
+    "Even the U.S. Army's official history concludes that success came only after the attack was spread across many points."
+   ]
+  },
+  "s92": {
+   "lines": [
+    "Fourth, and decisive: a road for the tanks."
+   ],
+   "num": "FACTOR 4",
+   "title": "A ROAD FOR TANKS"
+  },
+  "s93": {
+   "lines": [
+    "One valley road, cut with shovels and explosives, carried the tanks deep behind the ridge.",
+    "Once the supply lines were cut, even an underground fortress could not hold out.",
+    "If the lesson of Bloody Ridge was the flank, the lesson of Heartbreak Ridge was the road."
+   ],
+   "callouts": [
+    "ENGINEER ROAD → TANKS → SUPPLY CUT"
+   ]
+  },
+  "s94": {
+   "lines": [
+    "With Heartbreak Ridge taken, X Corps advanced more than eight kilometers and straightened its line.",
+    "The bulge in the front around the Punchbowl was finally evened out."
+   ],
+   "callouts": [
+    "OCT. 1951 · X CORPS ADVANCES 8+ KM"
+   ]
+  },
+  "s95": {
+   "lines": [
+    "On October 25th, the stalled armistice talks reopened, at Panmunjom.",
+    "With its lines being pushed back by the fall offensive, the Communist side had returned to the table.",
+    "And in November, both sides tentatively agreed to use the line of contact as the basis for the demarcation line."
+   ],
+   "head": "TALKS RESUME · LINE OF CONTACT",
+   "org": "ARMISTICE NEGOTIATIONS",
+   "rows": [
+    "AUG. 23, 1951: COMMUNISTS SUSPEND TALKS",
+    "OCT. 25, 1951: TALKS RESUME AT PANMUNJOM",
+    "NOV. 27, 1951: LINE OF CONTACT AGREED AS PROVISIONAL DEMARCATION LINE"
+   ],
+   "note": "Summary"
+  },
+  "s96": {
+   "lines": [
+    "The war dragged on for another one year and eight months after that.",
+    "But the front never strayed far from the line drawn around this time."
+   ],
+   "callouts": [
+    "ARMISTICE · JULY 27, 1953"
+   ]
+  },
+  "s96b": {
+   "lines": [
+    "In France, too, this battle was not forgotten.",
+    "In 1955, a French documentary about it, 'Crèvecœur,' was even nominated for an Academy Award.",
+    "Crèvecœur. In French, it too means heartbreak."
+   ],
+   "big": "CRÈVECŒUR",
+   "sub": "French documentary (1955) · 'Heartbreak'"
+  },
+  "s97": {
+   "lines": [
+    "Some say this fight, where thousands fell for a few hills, was a pointless war of attrition.",
+    "And indeed, after this, the UN command turned away from big offensives toward a largely defensive war."
+   ],
+   "left": [
+    "CRITICISM",
+    "ATTRITION"
+   ],
+   "right": [
+    "RESULT",
+    "A FROZEN FRONT"
+   ]
+  },
+  "s98": {
+   "lines": [
+    "But today's Demilitarized Zone runs along the line drawn across those very hills.",
+    "Even now, the DMZ fences follow the mountain ridges north of Yanggu.",
+    "Perhaps that is why the Korean film 'Tae Guk Gi' set its final battle on this very ridge."
+   ],
+   "label": "Dramatization"
+  },
+  "s99": {
+   "lines": [
+    "A ridge half a million shells could not break,",
+    "was opened in the end by a shovel, and the wisdom to strike from many directions at once."
+   ],
+   "quotes": [
+    "A ridge shells alone could not break",
+    "Opened by a road, and by wisdom"
+   ],
+   "quoteTitle": "What Heartbreak Ridge Left Behind"
+  },
+  "s100": {
+   "lines": [
+    "And the price of that wisdom was paid first by the men who endured thirty heartbreaking days."
+   ],
+   "label": "Dramatization"
+  },
+  "s101": {
+   "lines": [
+    "If this story meant something to you, please subscribe and hit like.",
+    "We'll keep telling the forgotten stories of war in the next video."
+   ],
+   "title": "Autumn 1951, north of Yanggu.\nHeartbreak Ridge. 30 days."
+  }
+ },
+ "callout_pos": {}
+}

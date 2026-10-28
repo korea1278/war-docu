@@ -80,6 +80,23 @@ export const MAPT: Record<string, MapThumbDef> = {
     ko: { stamp: "5,000대 1 도박", line1: "5,000대 1의 상륙을 성공하고도 왜", line2: "서울 탈환에 13일이나 걸렸을까?" },
     en: { stamp: "5,000 TO 1 GAMBLE", line1: "AFTER WINNING A 5,000 TO 1 GAMBLE", line2: "WHY DID IT TAKE 13 DAYS TO RETAKE SEOUL?" },
   },
+  // EP12 단장의 능선 전투 (1951) — 좌표는 episodes/heartbreak/storyboard.json과 동일 (개략). 인물은 AI 상징 병사(thumb_subject)
+  // 카피는 사용자 지정 (포탄 '수십만 발' = 미 2사단 포병 기록 56만 발 이상 · Hermes 『Truce Tent and Fighting Front』로 확인)
+  heartbreak: {
+    raster: "bloody_zoom",
+    view: { center: [128.03, 38.296], span: 0.2 },
+    items: [
+      { k: "ridge", path: [[128.029, 38.278], [128.026, 38.287], [128.024, 38.293], [128.023, 38.298], [128.021, 38.305], [128.019, 38.315], [128.018, 38.324]] },
+      { k: "arrow", path: [[128.0, 38.262], [128.002, 38.28], [128.004, 38.3], [128.006, 38.318]], color: "blue" },
+      { k: "arrow", path: [[128.036, 38.258], [128.032, 38.271], [128.028, 38.282]], color: "blue" },
+      { k: "pin", p: [128.026, 38.287], text: { ko: "894고지", en: "HILL 894" }, color: "red" },
+      { k: "pin", p: [128.023, 38.298], text: { ko: "931고지", en: "HILL 931" }, color: "red", lift: 60 },
+      { k: "pin", p: [128.019, 38.315], text: { ko: "851고지", en: "HILL 851" }, color: "red" },
+    ],
+    stampPos: { x: 470, y: 470, rot: -7 },
+    ko: { stamp: "30일 능선 지옥", line1: "포탄 수십만 발을 퍼붓고도 왜", line2: "창자가 끊어질 때까지 못 뚫었을까?" },
+    en: { stamp: "30 DAYS IN HELL", line1: "AFTER 30 DAYS OF CONTINUOUS ARTILLERY", line2: "WHY DID THEY CALL IT HEARTBREAK RIDGE?" },
+  },
 };
 
 const W = 1920;
