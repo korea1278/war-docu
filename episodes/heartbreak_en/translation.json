@@ -187,11 +187,11 @@
    "note": "Bloody Ridge · U.S. Army official history",
    "bars": [
     [
-     "UN & ROK casualties",
+     "UN & ROK",
      "2,800+"
     ],
     [
-     "Enemy dead left on ridge",
+     "Enemy dead",
      "500+"
     ]
    ]
@@ -238,11 +238,11 @@
    ],
    "left": [
     "DIVISION COMMAND",
-    "ONE REGIMENT"
+    "1 REGT"
    ],
    "right": [
-    "ARTILLERY CHIEF'S WARNING",
-    "FIGHT TO THE END"
+    "ARTILLERY CHIEF",
+    "NO RETREAT"
    ]
   },
   "s18": {
@@ -368,7 +368,7 @@
     "EXPOSED"
    ],
    "right": [
-    "DEFENSE · NORTH KOREANS",
+    "DEFENSE · NK",
     "BUNKERS"
    ]
   },
@@ -567,11 +567,11 @@
    ],
    "left": [
     "ORIGINAL RANK",
-    "LT. GENERAL"
+    "GENERAL"
    ],
    "right": [
     "IN KOREA",
-    "LT. COLONEL"
+    "LT. COL."
    ]
   },
   "s48": {
@@ -699,12 +699,12 @@
     "Even shells ran short.",
     "Two thousand five hundred rounds a day were flown in from Pusan for four days, and another twenty-five thousand came by rail."
    ],
-   "head": "EMERGENCY AMMUNITION RESUPPLY",
-   "org": "U.S. 2ND INFANTRY DIVISION · G-4",
+   "head": "AMMO RESUPPLY",
+   "org": "U.S. 2ND INF. DIV. · G-4",
    "rows": [
-    "AIRLIFT FROM PUSAN: 2,500 RDS/DAY x 4 DAYS",
-    "RAIL SHIPMENT: 25,000 RDS",
-    "SUPPLY ROUTE: PIA-RI VALLEY (SINGLE ROAD)"
+    "AIRLIFT: 2,500 RDS/DAY x 4 DAYS",
+    "RAIL: 25,000 RDS",
+    "ROUTE: PIA-RI VALLEY ROAD"
    ],
    "note": "Per U.S. Army official history (summary)"
   },
@@ -802,13 +802,13 @@
     "Blasting away a single rock roadblock took about fifty kilograms of explosives.",
     "Where mines were buried, they linked charges together like a chain and set them off about every fifteen meters."
    ],
-   "head": "TANK ROAD · MUNDUNG-NI VALLEY",
-   "org": "U.S. 2ND ENGINEER COMBAT BATTALION",
+   "head": "MUNDUNG-NI TANK ROAD",
+   "org": "2ND ENGINEER COMBAT BN.",
    "rows": [
-    "ROCK ROADBLOCK: ~50 KG (110 LB) OF EXPLOSIVES",
-    "MINE CLEARING: CHAIN CHARGES ~15 M APART",
-    "EQUIPMENT: BULLDOZERS UNDER REPAIR → SHOVELS & EXPLOSIVES",
-    "NO ROAD: ROUTED THROUGH THE STREAM BED"
+    "ROCKS: ~50 KG (110 LB) CHARGES",
+    "MINES: CHAIN CHARGES ~15 M APART",
+    "DOZERS DOWN: SHOVELS ONLY",
+    "NO ROAD: USE STREAM BED"
    ],
    "note": "Per U.S. Army official history (summary)"
   },
@@ -946,11 +946,11 @@
    "note": "Sept. 13 – Oct. 15, 1951 · enemy losses are U.S. 2nd Div. estimates",
    "bars": [
     [
-     "U.S. 2nd Div. & attached",
+     "Our losses",
      "3,700+"
     ],
     [
-     "NK & Chinese (est.)",
+     "Enemy (est.)",
      "~25,000"
     ]
    ],
@@ -967,19 +967,19 @@
    "note": "U.S. 2nd Division artillery · U.S. Army official history",
    "bars": [
     [
-     "105mm howitzer",
+     "105mm",
      "401,000"
     ],
     [
-     "155mm howitzer",
+     "155mm",
      "84,000"
     ],
     [
-     "76mm gun",
+     "76mm",
      "62,000"
     ],
     [
-     "8-inch howitzer",
+     "8-inch",
      "13,000"
     ]
    ]
@@ -1078,12 +1078,12 @@
     "With its lines being pushed back by the fall offensive, the Communist side had returned to the table.",
     "And in November, both sides tentatively agreed to use the line of contact as the basis for the demarcation line."
    ],
-   "head": "TALKS RESUME · LINE OF CONTACT",
-   "org": "ARMISTICE NEGOTIATIONS",
+   "head": "TALKS RESUME",
+   "org": "ARMISTICE TALKS",
    "rows": [
-    "AUG. 23, 1951: COMMUNISTS SUSPEND TALKS",
-    "OCT. 25, 1951: TALKS RESUME AT PANMUNJOM",
-    "NOV. 27, 1951: LINE OF CONTACT AGREED AS PROVISIONAL DEMARCATION LINE"
+    "AUG. 23, 1951: TALKS SUSPENDED",
+    "OCT. 25, 1951: RESUMED AT PANMUNJOM",
+    "NOV. 27, 1951: LINE OF CONTACT AGREED"
    ],
    "note": "Summary"
   },
@@ -1116,7 +1116,7 @@
    ],
    "right": [
     "RESULT",
-    "A FROZEN FRONT"
+    "FROZEN"
    ]
   },
   "s98": {

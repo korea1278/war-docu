@@ -161,7 +161,7 @@
   "ridge": {
    "center": [
     128.024,
-    38.303
+    38.3
    ],
    "span": 0.11
   },
@@ -803,14 +803,14 @@
     "note": "Bloody Ridge · U.S. Army official history",
     "items": [
      {
-      "label": "UN & ROK casualties",
+      "label": "UN & ROK",
       "value": 2800,
       "display": "2,800+",
       "color": "blue",
       "at": 0
      },
      {
-      "label": "Enemy dead left on ridge",
+      "label": "Enemy dead",
       "value": 500,
       "display": "500+",
       "color": "red",
@@ -1100,13 +1100,13 @@
     "type": "compare",
     "left": {
      "title": "DIVISION COMMAND",
-     "big": "ONE REGIMENT",
+     "big": "1 REGT",
      "icon": "none",
      "color": "blue"
     },
     "right": {
-     "title": "ARTILLERY CHIEF'S WARNING",
-     "big": "FIGHT TO THE END",
+     "title": "ARTILLERY CHIEF",
+     "big": "NO RETREAT",
      "icon": "none",
      "color": "red",
      "at": 1
@@ -1521,7 +1521,7 @@
      "text": "DEFENDERS · NORTH KOREAN III CORPS",
      "style": "red",
      "at": 0,
-     "pos": "top"
+     "pos": "lower"
     }
    ]
   },
@@ -1742,7 +1742,7 @@
      "color": "blue"
     },
     "right": {
-     "title": "DEFENSE · NORTH KOREANS",
+     "title": "DEFENSE · NK",
      "big": "BUNKERS",
      "icon": "none",
      "color": "red",
@@ -2697,13 +2697,13 @@
     "type": "compare",
     "left": {
      "title": "ORIGINAL RANK",
-     "big": "LT. GENERAL",
+     "big": "GENERAL",
      "icon": "none",
      "color": "blue"
     },
     "right": {
      "title": "IN KOREA",
-     "big": "LT. COLONEL",
+     "big": "LT. COL.",
      "icon": "none",
      "color": "red",
      "at": 1
@@ -2782,7 +2782,7 @@
      "text": "FEB. 1951 · VICTORY TOGETHER AT CHIPYONG-NI",
      "style": "blue",
      "at": 1,
-     "pos": "top"
+     "pos": "lower"
     }
    ]
   },
@@ -3240,12 +3240,12 @@
    ],
    "visual": {
     "type": "document",
-    "org": "U.S. 2ND INFANTRY DIVISION · G-4",
-    "head": "EMERGENCY AMMUNITION RESUPPLY",
+    "org": "U.S. 2ND INF. DIV. · G-4",
+    "head": "AMMO RESUPPLY",
     "rows": [
-     "AIRLIFT FROM PUSAN: 2,500 RDS/DAY x 4 DAYS",
-     "RAIL SHIPMENT: 25,000 RDS",
-     "SUPPLY ROUTE: PIA-RI VALLEY (SINGLE ROAD)"
+     "AIRLIFT: 2,500 RDS/DAY x 4 DAYS",
+     "RAIL: 25,000 RDS",
+     "ROUTE: PIA-RI VALLEY ROAD"
     ],
     "note": "Per U.S. Army official history (summary)",
     "stamp": "DECLASSIFIED"
@@ -3709,13 +3709,13 @@
    ],
    "visual": {
     "type": "document",
-    "org": "U.S. 2ND ENGINEER COMBAT BATTALION",
-    "head": "TANK ROAD · MUNDUNG-NI VALLEY",
+    "org": "2ND ENGINEER COMBAT BN.",
+    "head": "MUNDUNG-NI TANK ROAD",
     "rows": [
-     "ROCK ROADBLOCK: ~50 KG (110 LB) OF EXPLOSIVES",
-     "MINE CLEARING: CHAIN CHARGES ~15 M APART",
-     "EQUIPMENT: BULLDOZERS UNDER REPAIR → SHOVELS & EXPLOSIVES",
-     "NO ROAD: ROUTED THROUGH THE STREAM BED"
+     "ROCKS: ~50 KG (110 LB) CHARGES",
+     "MINES: CHAIN CHARGES ~15 M APART",
+     "DOZERS DOWN: SHOVELS ONLY",
+     "NO ROAD: USE STREAM BED"
     ],
     "note": "Per U.S. Army official history (summary)",
     "stamp": "DECLASSIFIED"
@@ -4343,7 +4343,7 @@
      "text": "OCT. 10, 1951 · 72ND TANK BN. INTO MUNDUNG-NI",
      "style": "blue",
      "at": 0,
-     "pos": "top"
+     "pos": "lower"
     }
    ],
    "sfx": [
@@ -4487,7 +4487,7 @@
      "text": "CHINESE 204TH DIV. · RELIEF FORCE HIT",
      "style": "red",
      "at": 0.6,
-     "pos": "top"
+     "pos": "lower"
     }
    ]
   },
@@ -4585,7 +4585,7 @@
      "text": "OCT. 10 · HILL 1005 / OCT. 11 · HILL 1050 (APPROX.)",
      "style": "blue",
      "at": 0,
-     "pos": "top"
+     "pos": "lower"
     }
    ]
   },
@@ -4722,14 +4722,14 @@
     "note": "Sept. 13 – Oct. 15, 1951 · enemy losses are U.S. 2nd Div. estimates",
     "items": [
      {
-      "label": "U.S. 2nd Div. & attached",
+      "label": "Our losses",
       "value": 3700,
       "display": "3,700+",
       "color": "blue",
       "at": 1
      },
      {
-      "label": "NK & Chinese (est.)",
+      "label": "Enemy (est.)",
       "value": 25000,
       "display": "~25,000",
       "color": "red",
@@ -4753,28 +4753,28 @@
     "note": "U.S. 2nd Division artillery · U.S. Army official history",
     "items": [
      {
-      "label": "105mm howitzer",
+      "label": "105mm",
       "value": 401000,
       "display": "401,000",
       "color": "red",
       "at": 0
      },
      {
-      "label": "155mm howitzer",
+      "label": "155mm",
       "value": 84000,
       "display": "84,000",
       "color": "red",
       "at": 0.3
      },
      {
-      "label": "76mm gun",
+      "label": "76mm",
       "value": 62000,
       "display": "62,000",
       "color": "red",
       "at": 0.5
      },
      {
-      "label": "8-inch howitzer",
+      "label": "8-inch",
       "value": 13000,
       "display": "13,000",
       "color": "red",
@@ -5517,12 +5517,12 @@
    ],
    "visual": {
     "type": "document",
-    "org": "ARMISTICE NEGOTIATIONS",
-    "head": "TALKS RESUME · LINE OF CONTACT",
+    "org": "ARMISTICE TALKS",
+    "head": "TALKS RESUME",
     "rows": [
-     "AUG. 23, 1951: COMMUNISTS SUSPEND TALKS",
-     "OCT. 25, 1951: TALKS RESUME AT PANMUNJOM",
-     "NOV. 27, 1951: LINE OF CONTACT AGREED AS PROVISIONAL DEMARCATION LINE"
+     "AUG. 23, 1951: TALKS SUSPENDED",
+     "OCT. 25, 1951: RESUMED AT PANMUNJOM",
+     "NOV. 27, 1951: LINE OF CONTACT AGREED"
     ],
     "note": "Summary",
     "stamp": "DECLASSIFIED"
@@ -5635,7 +5635,7 @@
     },
     "right": {
      "title": "RESULT",
-     "big": "A FROZEN FRONT",
+     "big": "FROZEN",
      "icon": "none",
      "color": "blue",
      "at": 1
