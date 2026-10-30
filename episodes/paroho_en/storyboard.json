@@ -1,7 +1,7 @@
 {
  "title": "Battle of Paro Lake (1951): Annihilation of the Chinese Army",
  "subtitle": "May 20 – 30, 1951",
- "target_sec": 1170,
+ "target_sec": 1145,
  "midrolls": [
   "s18",
   "s42",
@@ -1813,9 +1813,9 @@
    },
    "sfx": [
     {
-     "id": "plane",
+     "id": "whoosh",
      "at": 0,
-     "volume": 0.35
+     "volume": 0.3
     }
    ]
   },
@@ -3290,9 +3290,9 @@
    ],
    "sfx": [
     {
-     "id": "plane",
+     "id": "whoosh",
      "at": 0.5,
-     "volume": 0.35
+     "volume": 0.3
     }
    ]
   },

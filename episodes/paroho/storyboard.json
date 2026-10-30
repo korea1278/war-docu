@@ -1,7 +1,7 @@
 {
  "title": "파로호(화천) 전투",
  "subtitle": "1951. 5. 20 ~ 5. 30",
- "target_sec": 1170,
+ "target_sec": 1145,
  "midrolls": [
   "s18",
   "s42",
@@ -1927,9 +1927,9 @@
    },
    "sfx": [
     {
-     "id": "plane",
+     "id": "whoosh",
      "at": 0,
-     "volume": 0.35
+     "volume": 0.3
     }
    ]
   },
@@ -3455,9 +3455,9 @@
    ],
    "sfx": [
     {
-     "id": "plane",
+     "id": "whoosh",
      "at": 0.5,
-     "volume": 0.35
+     "volume": 0.3
     }
    ]
   },

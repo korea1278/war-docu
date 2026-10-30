@@ -57,6 +57,10 @@ def gen_sfx(ep):
         p = d / f"{sid}.mp3"
         if p.exists():
             continue
+        if sid not in SFX:  # 목록에 없는 효과음 id → 렌더 전체가 멈추지 않게 건너뜀 (EP13 'plane' 사고)
+            from common import log_error
+            log_error(f"{ep}: 효과음 '{sid}' 정의 없음 — 건너뜀 (SFX 목록에 추가하거나 기존 id로 교체)")
+            continue
         prompt, dur = SFX[sid]
         print(f"SFX {sid}")
 
