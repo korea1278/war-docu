@@ -31,7 +31,10 @@ def main(ep):
         prev = tl["scenes"][tl["scenes"].index(s) - 1]
         last = prev["lines"][-1]["end"] if prev["lines"] else 0
         gap_at = prev["start"] + last + 0.15  # 앞 장면 마지막 대사가 끝난 직후
-        rows.append(f"{mmss(gap_at)}  ({mid} 앞 · {s.get('chapter', {}).get('title', '')})")
+        # 미드롤 장면이 챕터 직전 암전(black) 장면이면 다음 장면의 챕터 제목을 표시 (EP13)
+        nxt = tl["scenes"][min(len(tl["scenes"]) - 1, tl["scenes"].index(s) + 1)]
+        ch = s.get("chapter") or nxt.get("chapter") or {}
+        rows.append(f"{mmss(gap_at)}  ({mid} 앞 · {ch.get('title', '')})")
     txt = "\n".join(rows)
     (ROOT / "logs").mkdir(exist_ok=True)
     (ROOT / "logs" / f"midroll_{ep}.txt").write_text(txt, encoding="utf-8")

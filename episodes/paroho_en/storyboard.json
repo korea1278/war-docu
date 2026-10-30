@@ -1,0 +1,4116 @@
+{
+ "title": "Battle of Paro Lake (1951): Annihilation of the Chinese Army",
+ "subtitle": "May 20 – 30, 1951",
+ "target_sec": 1170,
+ "midrolls": [
+  "s18",
+  "s42",
+  "s64"
+ ],
+ "places": {
+  "seoul": [
+   126.978,
+   37.566,
+   "Seoul"
+  ],
+  "yangpyeong": [
+   127.488,
+   37.491,
+   "Yangpyong"
+  ],
+  "yongmunsan": [
+   127.53,
+   37.544,
+   "Mt. Yongmun"
+  ],
+  "fwd": [
+   127.52,
+   37.625,
+   "2nd Regt. Outpost"
+  ],
+  "gapyeong": [
+   127.51,
+   37.831,
+   "Kapyong"
+  ],
+  "chuncheon": [
+   127.73,
+   37.881,
+   "Chunchon"
+  ],
+  "hongcheon": [
+   127.889,
+   37.697,
+   "Hongchon"
+  ],
+  "hwacheon": [
+   127.708,
+   38.106,
+   "Hwachon"
+  ],
+  "sachang": [
+   127.47,
+   38.083,
+   "Sachang-ni"
+  ],
+  "jiam": [
+   127.633,
+   37.968,
+   "Chiam-ni"
+  ],
+  "gyegwan": [
+   127.555,
+   37.928,
+   "Mt. Kyegwan"
+  ],
+  "bukbae": [
+   127.592,
+   37.952,
+   "Mt. Pukbae"
+  ],
+  "dam": [
+   127.768,
+   38.111,
+   "Hwachon Dam"
+  ],
+  "maebong": [
+   127.76,
+   38.092,
+   "Maebong"
+  ],
+  "yonghwa": [
+   127.746,
+   38.033,
+   "Mt. Yonghwa"
+  ],
+  "byeongpung": [
+   127.812,
+   38.047,
+   "Mt. Pyongpung"
+  ],
+  "buyong": [
+   127.786,
+   37.995,
+   "Mt. Puyong"
+  ],
+  "oeum": [
+   127.862,
+   38.045,
+   "Oum-ni"
+  ],
+  "yanggu": [
+   127.99,
+   38.106,
+   "Yanggu"
+  ],
+  "lake": [
+   127.88,
+   38.13,
+   "Hwachon Reservoir"
+  ],
+  "cheorwon": [
+   127.313,
+   38.147,
+   "Chorwon"
+  ],
+  "d187": [
+   127.4,
+   37.79,
+   "187th Div."
+  ],
+  "d188": [
+   127.54,
+   37.81,
+   "188th Div."
+  ],
+  "d189": [
+   127.68,
+   37.78,
+   "189th Div."
+  ],
+  "rok6": [
+   127.66,
+   37.62,
+   "ROK 6th Div."
+  ],
+  "r2": [
+   127.735,
+   38.06,
+   "2nd Regt."
+  ],
+  "r7": [
+   127.8,
+   38.012,
+   "7th Regt."
+  ],
+  "r19": [
+   127.6,
+   37.99,
+   "19th Regt."
+  ],
+  "us7": [
+   127.68,
+   37.99,
+   "U.S. 7th Div."
+  ],
+  "pva": [
+   127.85,
+   38.07,
+   "PVA Retreat Column"
+  ]
+ },
+ "views": {
+  "korea": {
+   "center": [
+    127.6,
+    37.8
+   ],
+   "span": 4.2
+  },
+  "central": {
+   "center": [
+    127.62,
+    37.8
+   ],
+   "span": 1.3
+  },
+  "yongmun": {
+   "center": [
+    127.54,
+    37.66
+   ],
+   "span": 0.62
+  },
+  "pursuit": {
+   "center": [
+    127.63,
+    37.8
+   ],
+   "span": 0.9
+  },
+  "jiam": {
+   "center": [
+    127.6,
+    37.95
+   ],
+   "span": 0.4
+  },
+  "north": {
+   "center": [
+    127.74,
+    37.99
+   ],
+   "span": 0.62
+  },
+  "paroho": {
+   "center": [
+    127.8,
+    38.075
+   ],
+   "span": 0.42
+  },
+  "trap": {
+   "center": [
+    127.79,
+    38.05
+   ],
+   "span": 0.24
+  },
+  "dam": {
+   "center": [
+    127.768,
+    38.094
+   ],
+   "span": 0.13
+  },
+  "lake": {
+   "center": [
+    127.86,
+    38.12
+   ],
+   "span": 0.36
+  }
+ },
+ "music": [
+  {
+   "id": "drone",
+   "from": "s01",
+   "to": "s05",
+   "volume": 0.2
+  },
+  {
+   "id": "theme",
+   "from": "s06",
+   "to": "s17",
+   "volume": 0.16
+  },
+  {
+   "id": "march",
+   "from": "s18",
+   "to": "s30",
+   "volume": 0.15
+  },
+  {
+   "id": "tension",
+   "from": "s31",
+   "to": "s41",
+   "volume": 0.17
+  },
+  {
+   "id": "march",
+   "from": "s42",
+   "to": "s52",
+   "volume": 0.15
+  },
+  {
+   "id": "tension",
+   "from": "s53",
+   "to": "s57",
+   "volume": 0.17
+  },
+  {
+   "id": "somber",
+   "from": "s58",
+   "to": "s64",
+   "volume": 0.17
+  },
+  {
+   "id": "analysis",
+   "from": "s65",
+   "to": "s78",
+   "volume": 0.13
+  },
+  {
+   "id": "somber",
+   "from": "s79",
+   "to": "s82",
+   "volume": 0.17
+  }
+ ],
+ "ai_images": {
+  "night_ridge": "A dark mountain ridge in central Korea at night in May 1951, silhouetted pine trees, several red signal flares rising into a cloudy sky, faint moonlight, cinematic wide shot, desaturated almost black-and-white palette with only the red flares in color, painterly realistic digital illustration, film grain, no people visible, no text.",
+  "pva_wave": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: many Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red flag of China with yellow stars, wearing quilted khaki uniforms, charging up a steep moonlit rocky mountain slope at night, one soldier blowing a bugle, flares illuminating the sky, dramatic low angle, cold blue night palette, no text, no letters.",
+  "rok_hold": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a South Korean soldier whose head is a round ball painted as the South Korean taegukgi flag, wearing a 1951 M1 helmet and olive uniform, firing a Browning machine gun from a sandbagged foxhole on a mountain ridge at night, flares and tracer fire in the sky, a comrade passing ammunition beside him, intense cinematic lighting, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "rok_counter": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag, in 1951 M1 helmets and olive uniforms, advancing forward with fixed bayonets over a mountain ridge at dawn, sunrise light behind them, a taegukgi flag carried by one soldier, heroic low-angle cinematic composition, leaving calm uncluttered dark background area in the top center, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "lake_helmet": "A quiet misty lake at dawn surrounded by forested Korean mountains, an old rusted 1950s steel helmet lying half-buried on the pebble shore in the foreground, soft fog over the water, melancholic, desaturated cinematic realistic painting, film grain, no people, no text.",
+  "paroho_today": "A tranquil wide reservoir lake surrounded by forested mountains in Gangwon-do, South Korea, at early morning, thin mist drifting over calm water, two small wooden fishing boats with anglers far away, soft pastel dawn light, realistic photographic style, peaceful, no text.",
+  "pva_commander": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a Chinese People's Volunteer Army commander whose head is a round ball painted as the red flag of China with yellow stars, wearing a 1951 khaki quilted PVA uniform and cap, standing in a dim candlelit command bunker and pointing confidently at a large paper military map of mountains on a wooden table, two officers in the background, warm lamp light, night, leaving calm uncluttered dark background area in the upper left, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "fog_lake": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: dawn on a long narrow mountain reservoir in Gangwon-do Korea in late May 1951, thick white fog lying on dark still water, steep forested ridges on both shores, a broken wooden boat and scattered abandoned Chinese padded caps and a rifle floating near the reedy shore, eerie silence, desaturated cold blue-grey palette, no people visible, no gore, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "sachang_rout": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: April 1951 night, South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag, wearing 1951 M1 steel helmets and olive drab field uniforms retreating in disorder down a muddy mountain road near Sachang-ri, abandoned trucks and a howitzer left behind, red flares in the sky, shame and confusion on their faces, no gore, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "rok_resolve2": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: May 1951, South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag, wearing 1951 M1 steel helmets and olive drab field uniforms digging in on a forested mountain ridge near Yongmunsan at dusk, an officer pointing down the slope, sandbags and ammunition boxes, grim determined faces, warm last light, leaving calm uncluttered dark background area in the upper left, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "night_march": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: night in late May 1951, a long column of South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag, wearing 1951 M1 steel helmets and olive drab field uniforms marching fast along a narrow mountain trail under moonlight, rifles slung, sweat and exhaustion on their faces, some carrying ammunition boxes on A-frame packs, distant flares, determined pursuit, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "pva_hungry": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: late May 1951, exhausted Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red flag of the People's Republic of China with yellow stars, wearing 1951 padded khaki quilted uniforms and soft caps retreating north along a dusty dirt road in a mountain valley, one opening an empty long cloth rice-bag tube, wounded men leaning on each other, abandoned carts, overcast sky, defeated mood, no gore, leaving calm uncluttered dark background area in the upper left, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "jiam_surrender": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: May 1951, a large group of Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red flag of the People's Republic of China with yellow stars, wearing 1951 padded khaki quilted uniforms and soft caps raising their hands to surrender on a hillside road to a small squad of South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag, wearing 1951 M1 steel helmets and olive drab field uniforms, an American GMC truck waiting, rifles piled on the ground, relief and fear on faces, no gore, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "air_recon": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: May 1951, view from the cockpit of a small US Army L-19 observation plane over Korean mountains, below a very long column of Chinese soldiers, horse carts, a few trucks and towed guns winding along a dirt road beside a long dark reservoir, the pilot's gloved hand holding a map, dramatic, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "dam_road": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: late May 1951, aerial-style wide view of a narrow dirt road squeezed between a steep forested mountain and the dark water of a long reservoir near a concrete hydroelectric dam, a dense column of Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red flag of the People's Republic of China with yellow stars, wearing 1951 padded khaki quilted uniforms and soft caps crowded on the road, artillery shell bursts on the slope above, smoke, bottleneck feeling, no gore, leaving calm uncluttered dark background area in the upper left, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "maebong_assault": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: 27 May 1951 morning, South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag, wearing 1951 M1 steel helmets and olive drab field uniforms of the 2nd Regiment charging up a steep wooded peak (Maebong) above a concrete hydroelectric dam and power station, fixed bayonets, a taegukgi flag, smoke from artillery, heroic low angle, leaving calm uncluttered dark background area in the top center, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "lake_swim": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: late May 1951, desperate Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red flag of the People's Republic of China with yellow stars, wearing 1951 padded khaki quilted uniforms and soft caps wading and trying to swim across a wide deep reservoir to escape, some clinging to logs, American fighter planes diving overhead in the distance, water splashes, dark tragic mood, no gore, no blood, leaving calm uncluttered dark background area in the upper left, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "pows_column": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: late May 1951, an endless column of surrendered Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red flag of the People's Republic of China with yellow stars, wearing 1951 padded khaki quilted uniforms and soft caps with hands on their heads walking along a reservoir road guarded by a few South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag, wearing 1951 M1 steel helmets and olive drab field uniforms, captured rifles and machine guns piled beside the road, dusty sunlight, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "garlic_march": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: early June 1951, South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag, wearing 1951 M1 steel helmets and olive drab field uniforms marching along the shore of a mountain reservoir, covering their noses with cloths against a terrible smell, grim pale faces, flies, hazy grey sky, the water dark and still, no bodies visible, no gore, leaving calm uncluttered dark background area in the upper left, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "naming": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: 1950s South Korea, an elderly statesman in a dark suit and round glasses seen from behind standing on a hill pavilion overlooking a long mountain reservoir, an aide holding a calligraphy scroll with blank paper, solemn morning light, no text on the scroll, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "thumb_subject": "Photorealistic black-and-white 1951 Korean War documentary portrait of a determined young South Korean infantry assault soldier of the ROK 6th Division, 1951 M1 steel helmet with chin strap, sweat- and dust-streaked face, intense resolute eyes, jaw clenched, olive drab field jacket, bandolier of rifle ammunition across his chest, M1 rifle held at port arms, waist-up, face clearly visible and turned slightly toward the left of the frame, sharp studio-like detail, high contrast monochrome, isolated on a plain pure white background, no shadows on the background, no scenery, no text, no letters, no logos, no watermark."
+ },
+ "scenes": [
+  {
+   "id": "s01",
+   "lines": [
+    "Late May, 1951. Hwachon, Gangwon Province.",
+    "On a vast reservoir buried in thick fog, something began to rise to the surface, one by one."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "fog_lake",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "callouts": [
+    {
+     "text": "LATE MAY 1951 · HWACHON RESERVOIR",
+     "style": "yellow",
+     "at": 0
+    }
+   ],
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0.2,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "lines": [
+    "The blue lake had turned red, and bodies were drifting on the water.",
+    "That is how one South Korean company commander, advancing toward this place, later remembered the lake."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "“THE LAKE TURNED RED”",
+    "accent": "Recollection of a ROK 6th Div. company commander",
+    "accentAt": 1
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.35
+    }
+   ],
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s03",
+   "lines": [
+    "Korean official histories record more than thirty thousand Chinese killed or captured in this area.",
+    "They had an escape route to the north. So why did they end up trapped at the edge of this lake?"
+   ],
+   "visual": {
+    "type": "text",
+    "big": "30,000+",
+    "style": "red",
+    "sub": "Killed or captured · per ROK Army history (based on U.S. IX Corps reports)",
+    "subAt": 1
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0.2,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "lines": [
+    "The Battle of Paro Lake.",
+    "This is the story of the ROK 6th Division's sixty-kilometer pursuit, rising from the depths of defeat, and of how a reservoir came to be called the Lake of the Defeated Barbarians."
+   ],
+   "visual": {
+    "type": "titlecard",
+    "q": "s05-photo",
+    "title": "Battle of Paro Lake",
+    "sub": "A 60 km Pursuit and Annihilation at Hwachon Reservoir · 1951",
+    "at": 0
+   },
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0,
+     "volume": 0.5
+    }
+   ],
+   "flash": true
+  },
+  {
+   "id": "s05b",
+   "lines": [
+    "The 6th Division had always been a unit with a special pride.",
+    "On October 26th, 1950, the first unit among all South Korean and UN forces to reach the Yalu River and scoop up its water was the 6th Division's 7th Regiment."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "FIRST TO THE YALU",
+    "accent": "OCT. 26, 1950 · CHOSAN · 7TH REGT., 6TH DIV.",
+    "accentAt": 1
+   },
+   "chapter": {
+    "num": "PART 1",
+    "title": "THE MIRACLE OF YONGMUNSAN"
+   },
+   "pauseBefore": 0.2
+  },
+  {
+   "id": "s06",
+   "lines": [
+    "But half a year later, that division met a humiliating defeat.",
+    "On the night of April 22nd, 1951, the Chinese launched their April Offensive."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "central",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.2,
+        38.05
+       ],
+       [
+        127.4,
+        38.1
+       ],
+       [
+        127.6,
+        38.12
+       ],
+       [
+        127.8,
+        38.13
+       ],
+       [
+        128.1,
+        38.18
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "sachang",
+      "color": "red",
+      "at": 0.8
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.45,
+        38.3
+       ],
+       [
+        127.46,
+        38.18
+       ],
+       [
+        127.47,
+        38.09
+       ]
+      ],
+      "color": "red",
+      "at": 1.2,
+      "width": 1.0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "APR. 22, 1951 · PVA APRIL OFFENSIVE",
+     "style": "red",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s07",
+   "lines": [
+    "Holding Sachang-ni, west of Hwachon, the ROK 6th Division collapsed under the very first blow.",
+    "Its men scattered over the mountains, abandoning their equipment and guns, and for a time the division all but ceased to exist as a fighting force."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "sachang_rout",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.3,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s08",
+   "lines": [
+    "The flanks of the U.S. Marines and Commonwealth troops fighting alongside were laid wide open.",
+    "American commanders reportedly went so far as to say the division had, for all practical purposes, ceased to exist."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "THE VANISHED DIVISION",
+    "accent": "APRIL 1951 · SACHANG-NI",
+    "accentAt": 1
+   }
+  },
+  {
+   "id": "s08b",
+   "lines": [
+    "Eighth Army commander Van Fleet and UN commander Ridgway are said to have confronted President Syngman Rhee hard over the leadership of the South Korean army.",
+    "The 6th Division's name had sunk to rock bottom."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "OCT. 1950",
+     "big": "FIRST TO THE YALU",
+     "icon": "none",
+     "color": "blue"
+    },
+    "right": {
+     "title": "APR. 1951",
+     "big": "VANISHED",
+     "icon": "none",
+     "color": "red",
+     "at": 1
+    }
+   },
+   "callouts": [
+    {
+     "text": "AS THE STORY GOES",
+     "style": "dark",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s09",
+   "lines": [
+    "Division commander, Brigadier General Chang Do-yong.",
+    "He gathered his scattered men and demanded of his officers a vow: in the next fight, they would not fall back."
+   ],
+   "visual": {
+    "type": "person",
+    "q": "s09-photo",
+    "name": "Chang Do-yong",
+    "years": "1923 - 2012",
+    "role": "Commander, ROK 6th Division (Brig. Gen.)"
+   }
+  },
+  {
+   "id": "s10",
+   "lines": [
+    "One month later, the chance for redemption arrived.",
+    "On May 16th, the Chinese launched another massive offensive."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "central",
+    "to": "yongmun",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.85,
+        37.62
+       ],
+       [
+        127.1,
+        37.66
+       ],
+       [
+        127.3,
+        37.62
+       ],
+       [
+        127.5,
+        37.6
+       ],
+       [
+        127.7,
+        37.66
+       ],
+       [
+        127.95,
+        37.74
+       ],
+       [
+        128.2,
+        37.8
+       ],
+       [
+        128.45,
+        37.95
+       ],
+       [
+        128.65,
+        38.07
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "yongmunsan",
+      "color": "dark",
+      "at": 0.5
+     },
+     {
+      "k": "unit",
+      "p": "rok6",
+      "text": "ROK 6th Div.",
+      "color": "blue",
+      "at": 1.0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "MAY 16, 1951 · PVA MAY OFFENSIVE",
+     "style": "red",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "lines": [
+    "Toward the 6th Division, holding the Yongmun Mountain area in Yangpyong, came three divisions of the Chinese 63rd Army.",
+    "The 187th, 188th and 189th. Three divisions against one."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "yongmun",
+    "to": "pursuit",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.85,
+        37.62
+       ],
+       [
+        127.1,
+        37.66
+       ],
+       [
+        127.3,
+        37.62
+       ],
+       [
+        127.5,
+        37.6
+       ],
+       [
+        127.7,
+        37.66
+       ],
+       [
+        127.95,
+        37.74
+       ],
+       [
+        128.2,
+        37.8
+       ],
+       [
+        128.45,
+        37.95
+       ],
+       [
+        128.65,
+        38.07
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "d187",
+      "text": "187th Div.",
+      "color": "red",
+      "at": 0.3
+     },
+     {
+      "k": "unit",
+      "p": "d188",
+      "text": "188th Div.",
+      "color": "red",
+      "at": 0.6
+     },
+     {
+      "k": "unit",
+      "p": "d189",
+      "text": "189th Div.",
+      "color": "red",
+      "at": 0.9
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.42,
+        37.77
+       ],
+       [
+        127.47,
+        37.7
+       ],
+       [
+        127.51,
+        37.64
+       ]
+      ],
+      "color": "red",
+      "at": 1.2,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.54,
+        37.79
+       ],
+       [
+        127.53,
+        37.71
+       ],
+       [
+        127.52,
+        37.64
+       ]
+      ],
+      "color": "red",
+      "at": 1.4,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.67,
+        37.76
+       ],
+       [
+        127.6,
+        37.7
+       ],
+       [
+        127.55,
+        37.64
+       ]
+      ],
+      "color": "red",
+      "at": 1.6,
+      "width": 1.0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "PVA 63RD ARMY · 3 DIVISIONS",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s11b",
+   "lines": [
+    "The Chinese command was confident.",
+    "The enemy in front of them was the very division they had smashed just a month before.",
+    "By their reckoning, it would be over in a single night."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "pva_commander",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s11c",
+   "lines": [
+    "On the night of May 18th, red flares rose one after another above the ridges in front of Yongmunsan.",
+    "Moments later, the shouts of thousands echoed down the mountains out of the darkness."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "night_ridge",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.5,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "lines": [
+    "The division had pushed only its 2nd Regiment forward to an outpost line, keeping the 7th and 19th on the main line of resistance behind.",
+    "On May 18th, Chinese company-sized forces tried several times to cross the river by day, and every attempt was beaten back.",
+    "Then before dawn on the 19th, mistaking the outpost for the main line, the Chinese began throwing in the main bodies of the 187th and 188th Divisions at once."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "yongmun",
+    "to": "yongmun",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.85,
+        37.62
+       ],
+       [
+        127.1,
+        37.66
+       ],
+       [
+        127.3,
+        37.62
+       ],
+       [
+        127.5,
+        37.6
+       ],
+       [
+        127.7,
+        37.66
+       ],
+       [
+        127.95,
+        37.74
+       ],
+       [
+        128.2,
+        37.8
+       ],
+       [
+        128.45,
+        37.95
+       ],
+       [
+        128.65,
+        38.07
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "fwd",
+      "text": "2nd Regt. Outpost",
+      "color": "blue",
+      "at": 0.2,
+      "pulse": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.47,
+        37.72
+       ],
+       [
+        127.5,
+        37.665
+       ],
+       [
+        127.515,
+        37.635
+       ]
+      ],
+      "color": "red",
+      "at": 1.0,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.58,
+        37.72
+       ],
+       [
+        127.55,
+        37.67
+       ],
+       [
+        127.528,
+        37.635
+       ]
+      ],
+      "color": "red",
+      "at": 1.2,
+      "width": 1.0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "MAY 18–19 · BATTLE FOR THE OUTPOST",
+     "style": "blue",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "lines": [
+    "Night after night came wave attacks, led by bugles and gongs.",
+    "Even surrounded, the 2nd Regiment would not give up its positions, while artillery rained down without pause on the Chinese climbing the slopes."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "pva_wave",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "charge",
+     "at": 0.3,
+     "volume": 0.35
+    },
+    {
+     "id": "mg",
+     "at": 1.5,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "lines": [
+    "As the line held, the enemy wore down, and their ammunition and food began to run out.",
+    "Then on May 20th, the 6th Division finally turned to the counterattack."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "rok_hold",
+    "kb": "out"
+   },
+   "label": "Dramatization",
+   "callouts": [
+    {
+     "text": "MAY 20 · COUNTERATTACK",
+     "style": "blue",
+     "at": 1,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 0.2,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "lines": [
+    "The very division that had collapsed at Sachang-ni a month earlier was now driving back three divisions.",
+    "This fight would come to be called the Great Victory of Yongmunsan."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "APRIL · SACHANG-NI",
+     "big": "COLLAPSE",
+     "icon": "none",
+     "color": "red"
+    },
+    "right": {
+     "title": "MAY · YONGMUNSAN",
+     "big": "VICTORY",
+     "icon": "none",
+     "color": "blue",
+     "at": 1
+    }
+   }
+  },
+  {
+   "id": "s16",
+   "lines": [
+    "But the real story begins here.",
+    "Because against a crumbling enemy, the 6th Division's pursuit was about to begin."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "rok_counter",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s17",
+   "lines": [
+    "The nameless records left on these battlefields.",
+    "So that we can keep telling this desperate history to the end, please join us with a subscribe and a like."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "THE NAMELESS RECORDS",
+    "accent": "Please subscribe and like",
+    "accentAt": 1
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s18",
+   "lines": [
+    "And on May 20th, the bloody pursuit began."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "MAY 20, 1951",
+    "accent": "THE PURSUIT BEGINS",
+    "accentAt": 0.5
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ],
+   "pauseBefore": 0.4
+  },
+  {
+   "id": "s19",
+   "lines": [
+    "In late May, UN forces counterattacked all along the central front.",
+    "U.S. IX Corps, to which the 6th Division belonged, pushed north together with the U.S. 24th Division, the ROK 2nd Division and the U.S. 7th Division."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "central",
+    "to": "central",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.85,
+        37.62
+       ],
+       [
+        127.1,
+        37.66
+       ],
+       [
+        127.3,
+        37.62
+       ],
+       [
+        127.5,
+        37.6
+       ],
+       [
+        127.7,
+        37.66
+       ],
+       [
+        127.95,
+        37.74
+       ],
+       [
+        128.2,
+        37.8
+       ],
+       [
+        128.45,
+        37.95
+       ],
+       [
+        128.65,
+        38.07
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.3,
+        37.66
+       ],
+       [
+        127.3,
+        37.85
+       ],
+       [
+        127.32,
+        38.0
+       ]
+      ],
+      "color": "blue",
+      "at": 0.6,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.53,
+        37.62
+       ],
+       [
+        127.52,
+        37.8
+       ],
+       [
+        127.6,
+        37.95
+       ]
+      ],
+      "color": "blue",
+      "at": 0.8,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.75,
+        37.7
+       ],
+       [
+        127.73,
+        37.85
+       ],
+       [
+        127.72,
+        38.0
+       ]
+      ],
+      "color": "blue",
+      "at": 1.0,
+      "width": 1.0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "U.S. IX CORPS COUNTEROFFENSIVE · LATE MAY",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "chapter": {
+    "num": "PART 2",
+    "title": "THE 60 KM PURSUIT"
+   }
+  },
+  {
+   "id": "s19b",
+   "lines": [
+    "In truth, the Chinese had put their main weight in the May Offensive into the eastern mountains.",
+    "The 63rd Army that hit the 6th Division was a supporting attack.",
+    "But when that supporting attack collapsed first, a huge gap opened in the central front."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "central",
+    "to": "central",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.85,
+        37.62
+       ],
+       [
+        127.1,
+        37.66
+       ],
+       [
+        127.3,
+        37.62
+       ],
+       [
+        127.5,
+        37.6
+       ],
+       [
+        127.7,
+        37.66
+       ],
+       [
+        127.95,
+        37.74
+       ],
+       [
+        128.2,
+        37.8
+       ],
+       [
+        128.45,
+        37.95
+       ],
+       [
+        128.65,
+        38.07
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.3,
+        38.2
+       ],
+       [
+        128.25,
+        38.0
+       ],
+       [
+        128.2,
+        37.85
+       ]
+      ],
+      "color": "red",
+      "at": 0.3,
+      "width": 1.2
+     },
+     {
+      "k": "unit",
+      "p": "rok6",
+      "text": "ROK 6th Div. · Supporting Attack Broken",
+      "color": "blue",
+      "at": 1.0,
+      "pulse": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.55,
+        37.66
+       ],
+       [
+        127.57,
+        37.8
+       ],
+       [
+        127.62,
+        37.92
+       ]
+      ],
+      "color": "blue",
+      "at": 1.6,
+      "width": 1.0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "ENEMY MAIN EFFORT: EAST / 6TH DIV. FRONT: SUPPORTING",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s20",
+   "lines": [
+    "The 6th Division's road ran from Yangpyong through Kapyong and Chunchon, all the way to the Hwachon power plant.",
+    "Mountain country stretching some sixty kilometers, even as the crow flies."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "pursuit",
+    "to": "north",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.53,
+        37.585
+       ],
+       [
+        127.515,
+        37.7
+       ],
+       [
+        127.51,
+        37.825
+       ],
+       [
+        127.6,
+        37.87
+       ],
+       [
+        127.725,
+        37.89
+       ],
+       [
+        127.745,
+        37.98
+       ],
+       [
+        127.76,
+        38.085
+       ]
+      ],
+      "color": "blue",
+      "at": 0.3,
+      "width": 1.0,
+      "dur": 3.0
+     },
+     {
+      "k": "marker",
+      "p": "gapyeong",
+      "color": "dark",
+      "at": 0.6
+     },
+     {
+      "k": "marker",
+      "p": "chuncheon",
+      "color": "dark",
+      "at": 1.0
+     },
+     {
+      "k": "unit",
+      "p": "dam",
+      "text": "Hwachon Power Plant",
+      "color": "red",
+      "at": 1.6,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "PURSUIT ROUTE ~60 KM · APPROX.",
+     "style": "yellow",
+     "at": 0.5,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s21",
+   "lines": [
+    "The soldiers fought by day and marched by night.",
+    "With ammunition and rice balls on their backs, they chased the enemy's tail along mountain trails that barely appeared on any map."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "night_march",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0,
+     "volume": 0.25
+    }
+   ]
+  },
+  {
+   "id": "s21b",
+   "lines": [
+    "Abandoned carts, rifles, and burned bundles lined the roadside without end, and tanks and infantry pushed north along that road.",
+    "Simply following that trail was enough to tell which way the enemy had fled."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s21b-photo",
+    "kb": "in"
+   },
+   "label": "Tanks and infantry advancing (1951 · reference photo)"
+  },
+  {
+   "id": "s22",
+   "lines": [
+    "Those being chased were in far worse shape.",
+    "In an offensive, Chinese soldiers usually fought carrying only a few days' worth of food on their backs.",
+    "Once supplies ran out, the offensive had no choice but to stop right there."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "pva_hungry",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s23",
+   "lines": [
+    "UN officers had a name for this weakness: the one-week offensive.",
+    "Now that the offensive had broken, all the Chinese had left was hunger, exhaustion, and a pursuing army racing up behind them."
+   ],
+   "visual": {
+    "type": "gauges",
+    "big": "THE ONE-WEEK OFFENSIVE",
+    "items": [
+     {
+      "label": "Food gone",
+      "at": 0.4
+     },
+     {
+      "label": "Ammo gone",
+      "at": 0.7
+     },
+     {
+      "label": "Pursuers close",
+      "at": 1.0
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "clock",
+     "at": 0,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s23b",
+   "lines": [
+    "Here is the 6th Division's pursuit, day by day.",
+    "Counterattack on May 20th. Mount Kyegwan and Mount Pukbae on the 25th. Assembly at Chunchon on the 26th. The attack on the Hwachon power plant on the 27th.",
+    "In just eight days, the division raced from Yangpyong to the edge of the Hwachon Reservoir."
+   ],
+   "visual": {
+    "type": "timeline",
+    "items": [
+     {
+      "date": "May 20",
+      "text": "Yongmunsan counterattack",
+      "at": 0
+     },
+     {
+      "date": "May 25",
+      "text": "Kyegwan & Pukbae",
+      "at": 0.6
+     },
+     {
+      "date": "May 26",
+      "text": "Assemble at Chunchon",
+      "at": 1.0
+     },
+     {
+      "date": "May 27",
+      "text": "Hwachon power plant",
+      "at": 1.4
+     }
+    ]
+   }
+  },
+  {
+   "id": "s24",
+   "lines": [
+    "On May 25th, the 6th Division ran into a high mountain range north of Kapyong.",
+    "Chinese rearguards were dug in on Mount Kyegwan and Mount Pukbae, buying time."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "pursuit",
+    "to": "jiam",
+    "items": [
+     {
+      "k": "marker",
+      "p": "gyegwan",
+      "color": "red",
+      "at": 0.4
+     },
+     {
+      "k": "marker",
+      "p": "bukbae",
+      "color": "red",
+      "at": 0.7
+     },
+     {
+      "k": "marker",
+      "p": "jiam",
+      "color": "dark",
+      "at": 1.2
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "MAY 25 · MT. KYEGWAN – MT. PUKBAE",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s25",
+   "lines": [
+    "The division sent the 2nd and 7th Regiments against the heights to its front.",
+    "But the 19th Regiment received a very different mission: swing wide behind Mount Pukbae and cut the enemy's line of retreat."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "jiam",
+    "to": "jiam",
+    "items": [
+     {
+      "k": "marker",
+      "p": "gyegwan",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "bukbae",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.5,
+        37.86
+       ],
+       [
+        127.53,
+        37.9
+       ],
+       [
+        127.55,
+        37.922
+       ]
+      ],
+      "color": "blue",
+      "at": 0.3,
+      "width": 0.8
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.6,
+        37.87
+       ],
+       [
+        127.596,
+        37.91
+       ],
+       [
+        127.592,
+        37.945
+       ]
+      ],
+      "color": "blue",
+      "at": 0.5,
+      "width": 0.8
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.52,
+        37.875
+       ],
+       [
+        127.55,
+        37.955
+       ],
+       [
+        127.6,
+        37.99
+       ],
+       [
+        127.628,
+        37.972
+       ]
+      ],
+      "color": "blue",
+      "at": 1.2,
+      "width": 1.0,
+      "dur": 2.0
+     },
+     {
+      "k": "unit",
+      "p": "r19",
+      "text": "19th Regt. · Flanking Block",
+      "color": "blue",
+      "at": 1.8
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "FRONT: 2ND & 7TH / FLANK: 19TH",
+     "style": "blue",
+     "at": 0.8,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s26",
+   "lines": [
+    "When the 19th Regiment entered Chiam-ni, the trap snapped shut.",
+    "Chinese troops driven down from the heights found themselves sealed inside the valley road leading north."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "jiam",
+    "to": "jiam",
+    "items": [
+     {
+      "k": "unit",
+      "p": "jiam",
+      "text": "Chiam-ni Encircled",
+      "color": "red",
+      "at": 0.2,
+      "pulse": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.58,
+        37.93
+       ],
+       [
+        127.61,
+        37.955
+       ],
+       [
+        127.63,
+        37.965
+       ]
+      ],
+      "color": "red",
+      "at": 0.7,
+      "width": 0.8
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.61,
+        37.99
+       ],
+       [
+        127.64,
+        37.975
+       ],
+       [
+        127.66,
+        37.955
+       ]
+      ],
+      "color": "blue",
+      "at": 1.2,
+      "glow": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "CHIAM-NI ENCIRCLEMENT · APPROX.",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s27",
+   "lines": [
+    "In this encirclement alone, the 6th Division took more than two thousand six hundred prisoners.",
+    "About one thousand seven hundred of them were reportedly captured by the 19th Regiment, which held the ring to the end."
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "Chiam-ni encirclement · POWs taken by ROK 6th Div. (Korean records)",
+    "items": [
+     {
+      "label": "6th Div. total",
+      "value": 2600,
+      "display": "2,600+",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "label": "19th Regt.",
+      "value": 1700,
+      "display": "~1,700",
+      "color": "blue",
+      "at": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s28",
+   "lines": [
+    "Division commander Chang Do-yong later described the scene.",
+    "Chinese soldiers crouching by the roadside were loaded onto trucks like so much litter being picked up.",
+    "He recalled the extraordinary sight of a single platoon taking an entire enemy battalion prisoner."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "jiam_surrender",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "callouts": [
+    {
+     "text": "GEN. CHANG'S TESTIMONY (SUMMARY)",
+     "style": "dark",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s29",
+   "lines": [
+    "Archival photographs preserve what a broken Chinese army looked like.",
+    "Soldiers in quilted cotton uniforms, slumped on the ground. A month earlier, they had been the attackers."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s29-photo",
+    "kb": "in"
+   },
+   "label": "Chinese POWs captured by ROK troops (reference photo)"
+  },
+  {
+   "id": "s30",
+   "lines": [
+    "But at that very moment, a report reached U.S. IX Corps headquarters.",
+    "That report would send the 6th Division toward the Hwachon Reservoir."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "ONE REPORT",
+    "accent": "U.S. IX CORPS HEADQUARTERS",
+    "accentAt": 1
+   }
+  },
+  {
+   "id": "s31",
+   "lines": [
+    "Reconnaissance aircraft had spotted something hard to believe south of the Hwachon Reservoir.",
+    "Some ten thousand Chinese troops, hauling vehicles and field guns, were moving toward Hwachon in a long column."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "air_recon",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "callouts": [
+    {
+     "text": "AIR RECON · ~10,000 PVA",
+     "style": "red",
+     "at": 1,
+     "pos": "top"
+    }
+   ],
+   "chapter": {
+    "num": "PART 3",
+    "title": "THE HWACHON TRAP"
+   },
+   "sfx": [
+    {
+     "id": "plane",
+     "at": 0,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s31b",
+   "lines": [
+    "While the Chiam-ni area was being encircled, large forces of the Chinese 9th Army Group, pulling out of the east, were also on the move.",
+    "To break through the UN ring, they surged past Oum-ni toward the Hwachon power plant."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "north",
+    "to": "paroho",
+    "items": [
+     {
+      "k": "marker",
+      "p": "oeum",
+      "color": "red",
+      "at": 0.3
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.95,
+        37.98
+       ],
+       [
+        127.9,
+        38.02
+       ],
+       [
+        127.862,
+        38.045
+       ],
+       [
+        127.82,
+        38.07
+       ],
+       [
+        127.785,
+        38.095
+       ]
+      ],
+      "color": "red",
+      "at": 0.7,
+      "width": 1.2,
+      "dur": 2.0
+     },
+     {
+      "k": "unit",
+      "p": "pva",
+      "text": "PVA 9th Army Group",
+      "color": "red",
+      "at": 1.5,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "OUM-NI → HWACHON PLANT · APPROX.",
+     "style": "red",
+     "at": 0.5,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s32",
+   "lines": [
+    "This reservoir was an artificial lake, created in 1944 when the Hwachon Dam was built for hydroelectric power.",
+    "Stretching long from east to west along the river, the lake had flooded deep valleys here and there."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s32-photo",
+    "kb": "in"
+   },
+   "label": "Hwachon Reservoir near Yanggu (July 1951)"
+  },
+  {
+   "id": "s33",
+   "lines": [
+    "On the map, it becomes clear why this lake was such a deadly trap.",
+    "The dammed waters of the upper Pukhan River lay stretched across the land, reaching east toward Yanggu."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "north",
+    "to": "lake",
+    "items": [
+     {
+      "k": "marker",
+      "p": "hwacheon",
+      "color": "dark",
+      "at": 0.4
+     },
+     {
+      "k": "marker",
+      "p": "yanggu",
+      "color": "dark",
+      "at": 0.8
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.785,
+        38.076
+       ],
+       [
+        127.8,
+        38.1
+       ],
+       [
+        127.83,
+        38.104
+       ],
+       [
+        127.862,
+        38.09
+       ]
+      ],
+      "color": "blue",
+      "at": 1.0,
+      "glow": true
+     },
+     {
+      "k": "unit",
+      "p": "lake",
+      "text": "Hwachon Reservoir",
+      "color": "blue",
+      "at": 1.3,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "UPPER PUKHAN RIVER · HWACHON RESERVOIR",
+     "style": "blue",
+     "at": 0.5,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s34",
+   "lines": [
+    "The Chinese were mostly infantry moving on foot.",
+    "They had almost no boats to cross water, and almost no equipment to build bridges.",
+    "Crossing a deep lake with nothing but their bodies was practically impossible."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "WATER THEY COULDN'T CROSS",
+    "style": "blue",
+    "sub": "Infantry without bridging gear · a deep reservoir",
+    "subAt": 1
+   }
+  },
+  {
+   "id": "s35",
+   "lines": [
+    "In the end, the way north funneled into a single road passing the Hwachon Dam at the reservoir's western tip.",
+    "Past the dam, through Hwachon, and on north toward Chorwon."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "paroho",
+    "to": "paroho",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.785,
+        38.076
+       ],
+       [
+        127.8,
+        38.1
+       ],
+       [
+        127.83,
+        38.104
+       ],
+       [
+        127.862,
+        38.09
+       ]
+      ],
+      "color": "blue",
+      "at": 0,
+      "glow": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.92,
+        38.01
+       ],
+       [
+        127.862,
+        38.045
+       ],
+       [
+        127.83,
+        38.062
+       ],
+       [
+        127.8,
+        38.077
+       ],
+       [
+        127.782,
+        38.096
+       ],
+       [
+        127.768,
+        38.111
+       ],
+       [
+        127.73,
+        38.124
+       ],
+       [
+        127.68,
+        38.14
+       ],
+       [
+        127.6,
+        38.17
+       ]
+      ],
+      "color": "red",
+      "at": 0.4,
+      "width": 1.0,
+      "dur": 2.5
+     },
+     {
+      "k": "unit",
+      "p": "dam",
+      "text": "Hwachon Dam",
+      "color": "red",
+      "at": 1.2,
+      "pulse": true
+     },
+     {
+      "k": "marker",
+      "p": "hwacheon",
+      "color": "dark",
+      "at": 1.6
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "THE ONLY EXIT · DAM → CHORWON",
+     "style": "red",
+     "at": 0.5,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s36",
+   "lines": [
+    "South of the dam rose high mountains such as Mount Yonghwa and Mount Pyongpung.",
+    "The valleys and roads between them narrowed the closer they came to the lakeshore.",
+    "If tens of thousands crowded in at once, the terrain could only jam like the neck of a bottle."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "paroho",
+    "to": "trap",
+    "items": [
+     {
+      "k": "marker",
+      "p": "yonghwa",
+      "color": "dark",
+      "at": 0.3
+     },
+     {
+      "k": "marker",
+      "p": "byeongpung",
+      "color": "dark",
+      "at": 0.6
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.92,
+        38.01
+       ],
+       [
+        127.862,
+        38.045
+       ],
+       [
+        127.83,
+        38.062
+       ],
+       [
+        127.8,
+        38.077
+       ],
+       [
+        127.782,
+        38.096
+       ],
+       [
+        127.768,
+        38.111
+       ]
+      ],
+      "color": "red",
+      "at": 1.0,
+      "width": 1.2
+     },
+     {
+      "k": "unit",
+      "p": "dam",
+      "text": "Bottleneck",
+      "color": "red",
+      "at": 2.0,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "BETWEEN MT. PYONGPUNG & MT. YONGHWA · APPROX.",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s36b",
+   "lines": [
+    "Groups pouring down several valleys from the south all converged at last onto the one road along the lakeshore.",
+    "Where the water spread wide, the river of men was narrowing instead."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "trap",
+    "to": "trap",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.84,
+        38.0
+       ],
+       [
+        127.825,
+        38.04
+       ],
+       [
+        127.8,
+        38.075
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 0.8
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.9,
+        38.02
+       ],
+       [
+        127.86,
+        38.05
+       ],
+       [
+        127.81,
+        38.077
+       ]
+      ],
+      "color": "red",
+      "at": 0.5,
+      "width": 0.8
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.77,
+        38.0
+       ],
+       [
+        127.78,
+        38.04
+       ],
+       [
+        127.788,
+        38.08
+       ]
+      ],
+      "color": "red",
+      "at": 0.8,
+      "width": 0.8
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.795,
+        38.085
+       ],
+       [
+        127.78,
+        38.1
+       ],
+       [
+        127.768,
+        38.111
+       ]
+      ],
+      "color": "red",
+      "at": 1.4,
+      "width": 1.2
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.785,
+        38.076
+       ],
+       [
+        127.8,
+        38.1
+       ],
+       [
+        127.83,
+        38.104
+       ],
+       [
+        127.862,
+        38.09
+       ]
+      ],
+      "color": "blue",
+      "at": 0,
+      "glow": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "MANY VALLEYS → ONE ROAD",
+     "style": "red",
+     "at": 0.5,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s37",
+   "lines": [
+    "Cut the Hwachon terrain into a height profile, and this is what you see.",
+    "High ridges to the south, narrow valleys below them, and deep water blocking the north.",
+    "Ground that offered no good way forward, back, or to either side."
+   ],
+   "visual": {
+    "type": "profile",
+    "pts": [
+     [
+      0,
+      420
+     ],
+     [
+      0.06,
+      560
+     ],
+     [
+      0.12,
+      760
+     ],
+     [
+      0.17,
+      878
+     ],
+     [
+      0.22,
+      780
+     ],
+     [
+      0.3,
+      520
+     ],
+     [
+      0.38,
+      330
+     ],
+     [
+      0.46,
+      260
+     ],
+     [
+      0.54,
+      300
+     ],
+     [
+      0.62,
+      520
+     ],
+     [
+      0.7,
+      700
+     ],
+     [
+      0.76,
+      794
+     ],
+     [
+      0.82,
+      640
+     ],
+     [
+      0.88,
+      330
+     ],
+     [
+      0.92,
+      180
+     ],
+     [
+      1,
+      180
+     ]
+    ],
+    "grid": [
+     200,
+     400,
+     600,
+     800
+    ],
+    "yMin": 0,
+    "yMax": 1050,
+    "note": "Schematic S→N (heights exaggerated · approx.)",
+    "left": "South · toward Chunchon",
+    "right": "North · Hwachon Reservoir",
+    "title": "South of Hwachon Reservoir · Profile",
+    "marks": [
+     {
+      "x": 0.17,
+      "text": "MT. YONGHWA",
+      "style": "red",
+      "at": 0,
+      "lift": 80,
+      "size": 40
+     },
+     {
+      "x": 0.46,
+      "text": "VALLEY ROAD",
+      "style": "yellow",
+      "at": 1,
+      "lift": 60,
+      "size": 38
+     },
+     {
+      "x": 0.76,
+      "text": "MT. PYONGPUNG",
+      "style": "red",
+      "at": 1,
+      "lift": 80,
+      "size": 40
+     },
+     {
+      "x": 0.95,
+      "text": "RESERVOIR",
+      "style": "blue",
+      "at": 1.5,
+      "lift": 60,
+      "size": 40
+     }
+    ]
+   }
+  },
+  {
+   "id": "s38",
+   "lines": [
+    "In truth, both sides had been fighting over this dam for some time.",
+    "In early April the Chinese opened its floodgates to send water surging downstream, and on May 1st U.S. Navy torpedo planes even launched torpedoes at its gates."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s38-photo",
+    "kb": "in"
+   },
+   "label": "Hwachon Dam under U.S. Navy attack (May 1951)",
+   "callouts": [
+    {
+     "text": "APR: GATES OPENED / MAY 1: TORPEDO ATTACK",
+     "style": "blue",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s38b",
+   "lines": [
+    "Douglas Skyraider attack planes wrecked one floodgate with torpedoes and damaged another.",
+    "It is counted as almost the only time aerial torpedoes were actually used in the Korean War."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "TORPEDOES VS. A DAM",
+    "style": "blue",
+    "sub": "May 1, 1951 · U.S. Navy AD Skyraiders · one floodgate destroyed",
+    "subAt": 1
+   }
+  },
+  {
+   "id": "s39",
+   "lines": [
+    "The corps decided quickly.",
+    "Leave only the 19th Regiment and the 2nd Battalion of the 2nd Regiment at the Chiam-ni ring, and rush the rest of the 6th Division to Chunchon.",
+    "Then, side by side with the U.S. 7th Division, drive north toward the Hwachon Dam."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "jiam",
+    "to": "north",
+    "items": [
+     {
+      "k": "unit",
+      "p": "r19",
+      "text": "19th Regt. · Holding the Ring",
+      "color": "blue",
+      "at": 0.4
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.6,
+        37.9
+       ],
+       [
+        127.66,
+        37.885
+       ],
+       [
+        127.72,
+        37.885
+       ]
+      ],
+      "color": "blue",
+      "at": 1.0,
+      "width": 1.0
+     },
+     {
+      "k": "marker",
+      "p": "chuncheon",
+      "color": "blue",
+      "at": 1.4
+     },
+     {
+      "k": "unit",
+      "p": "us7",
+      "text": "U.S. 7th Div.",
+      "color": "blue",
+      "at": 2.0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "MAY 26 · 6TH DIV. MAIN BODY TO CHUNCHON",
+     "style": "blue",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s40",
+   "lines": [
+    "That night, the 3rd Battalion of the 2nd Regiment set out on a night march over rugged mountains.",
+    "Following ridgelines without trails, they had to reach the lakeshore before the enemy did."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s40-photo",
+    "kb": "in"
+   },
+   "label": "Soldiers climbing a mountain slope (1951 · reference photo)"
+  },
+  {
+   "id": "s41",
+   "lines": [
+    "Outrun the enemy you are chasing, and block his path before he gets there.",
+    "This was the moment the pursuit turned into a vast encirclement."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "PURSUIT → ENCIRCLEMENT",
+    "accent": "BLOCK THE ROAD FIRST",
+    "accentAt": 1
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s42",
+   "lines": [
+    "On the morning of May 27th, the order to attack came down."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "MAY 27, 1951",
+    "accent": "ATTACK",
+    "accentAt": 0.5
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ],
+   "pauseBefore": 0.4
+  },
+  {
+   "id": "s43",
+   "lines": [
+    "The 2nd Regiment's objective was the Hwachon power plant and Maebong peak just south of it.",
+    "The 7th Regiment's objective was the ridgeline running from Mount Puyong to Mount Pyongpung."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "north",
+    "to": "paroho",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.73,
+        37.92
+       ],
+       [
+        127.744,
+        37.995
+       ],
+       [
+        127.756,
+        38.055
+       ],
+       [
+        127.761,
+        38.086
+       ]
+      ],
+      "color": "blue",
+      "at": 0.3,
+      "width": 1.0,
+      "dur": 2.0
+     },
+     {
+      "k": "unit",
+      "p": "maebong",
+      "text": "Maebong · Power Plant",
+      "color": "red",
+      "at": 0.9
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.765,
+        37.93
+       ],
+       [
+        127.784,
+        37.985
+       ],
+       [
+        127.8,
+        38.025
+       ],
+       [
+        127.811,
+        38.043
+       ]
+      ],
+      "color": "blue",
+      "at": 1.3,
+      "width": 1.0,
+      "dur": 2.0
+     },
+     {
+      "k": "marker",
+      "p": "buyong",
+      "color": "red",
+      "at": 1.6
+     },
+     {
+      "k": "marker",
+      "p": "byeongpung",
+      "color": "red",
+      "at": 1.9
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "2ND → MAEBONG / 7TH → PUYONG–PYONGPUNG",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "chapter": {
+    "num": "PART 4",
+    "title": "SEALING THE ESCAPE ROUTE"
+   },
+   "sfx": [
+    {
+     "id": "artillery",
+     "at": 0.2,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s44",
+   "lines": [
+    "Maebong was the peak overlooking the dam and the power plant.",
+    "Whoever held it could see, and shell, everything moving along the lakeshore road."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "paroho",
+    "to": "dam",
+    "items": [
+     {
+      "k": "unit",
+      "p": "maebong",
+      "text": "Maebong",
+      "color": "blue",
+      "at": 0.2,
+      "pulse": true
+     },
+     {
+      "k": "unit",
+      "p": "dam",
+      "text": "Dam & Power Plant",
+      "color": "red",
+      "at": 0.6
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.8,
+        38.08
+       ],
+       [
+        127.785,
+        38.095
+       ],
+       [
+        127.77,
+        38.108
+       ]
+      ],
+      "color": "red",
+      "at": 1.0,
+      "width": 0.8
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "MAEBONG · OVERLOOKS THE DAM",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s45",
+   "lines": [
+    "The men of the 2nd Regiment stormed up the steep slopes toward Maebong.",
+    "And they retook both the power plant and the peak.",
+    "At the western tip of the lake, the cork had been driven into the escape route."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "maebong_assault",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "charge",
+     "at": 0.2,
+     "volume": 0.35
+    },
+    {
+     "id": "mg",
+     "at": 1.0,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s45b",
+   "lines": [
+    "For the Chinese, losing the power plant meant losing their way out.",
+    "Now any group approaching the dam became a target in plain sight from the top of Maebong."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "dam",
+    "to": "dam",
+    "items": [
+     {
+      "k": "unit",
+      "p": "maebong",
+      "text": "Maebong Secured",
+      "color": "blue",
+      "at": 0.2,
+      "pulse": true
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.748,
+        38.098
+       ],
+       [
+        127.762,
+        38.09
+       ],
+       [
+        127.778,
+        38.082
+       ]
+      ],
+      "color": "blue",
+      "at": 0.6,
+      "glow": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.8,
+        38.08
+       ],
+       [
+        127.785,
+        38.094
+       ],
+       [
+        127.774,
+        38.104
+       ]
+      ],
+      "color": "red",
+      "at": 1.0,
+      "width": 0.8
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "MAY 27 · MAEBONG & PLANT SECURED",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s46",
+   "lines": [
+    "At the same time, the 7th Regiment pushed along the ridges to the east.",
+    "And on the main road from Chunchon to Hwachon, the U.S. 7th Division was coming north."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "paroho",
+    "to": "paroho",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.765,
+        37.93
+       ],
+       [
+        127.784,
+        37.985
+       ],
+       [
+        127.8,
+        38.025
+       ],
+       [
+        127.811,
+        38.043
+       ]
+      ],
+      "color": "blue",
+      "at": 0.2,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.722,
+        37.9
+       ],
+       [
+        127.714,
+        37.98
+       ],
+       [
+        127.71,
+        38.05
+       ],
+       [
+        127.708,
+        38.098
+       ]
+      ],
+      "color": "blue",
+      "at": 0.9,
+      "width": 1.0,
+      "dur": 2.0
+     },
+     {
+      "k": "unit",
+      "p": "us7",
+      "text": "U.S. 7th Div.",
+      "color": "blue",
+      "at": 1.4
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "CHUNCHON–HWACHON ROAD · U.S. 7TH DIV.",
+     "style": "blue",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s47",
+   "lines": [
+    "The soldiers of the U.S. 7th Division also climbed these mountain roads on foot.",
+    "Where trucks could not go, all they had were their legs and the packs on their backs."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s47-photo",
+    "kb": "in"
+   },
+   "label": "U.S. 7th Inf. Div., 17th Regt. on the march"
+  },
+  {
+   "id": "s48",
+   "lines": [
+    "Now the picture was complete.",
+    "The ROK 6th Division blocked the western and southern ridges, and the U.S. 7th Division the main road to the south.",
+    "And to the north lay the deep lake."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "paroho",
+    "to": "paroho",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.748,
+        38.098
+       ],
+       [
+        127.762,
+        38.09
+       ],
+       [
+        127.778,
+        38.082
+       ]
+      ],
+      "color": "blue",
+      "at": 0.2,
+      "glow": true
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.79,
+        38.03
+       ],
+       [
+        127.81,
+        38.045
+       ],
+       [
+        127.835,
+        38.05
+       ]
+      ],
+      "color": "blue",
+      "at": 0.6,
+      "glow": true
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.705,
+        38.04
+       ],
+       [
+        127.71,
+        38.07
+       ],
+       [
+        127.708,
+        38.095
+       ]
+      ],
+      "color": "blue",
+      "at": 1.0,
+      "glow": true
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.785,
+        38.076
+       ],
+       [
+        127.8,
+        38.1
+       ],
+       [
+        127.83,
+        38.104
+       ],
+       [
+        127.862,
+        38.09
+       ]
+      ],
+      "color": "blue",
+      "at": 1.6,
+      "glow": true
+     },
+     {
+      "k": "unit",
+      "p": "pva",
+      "text": "PVA",
+      "color": "red",
+      "at": 2.0,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "BLOCKED ON 3 SIDES + LAKE TO THE NORTH · APPROX.",
+     "style": "yellow",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s49",
+   "lines": [
+    "A ring sealed by gun barrels on three sides and by water on the fourth.",
+    "The lake itself had become the fourth wall."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "THREE SIDES",
+     "big": "GUNS",
+     "icon": "none",
+     "color": "blue"
+    },
+    "right": {
+     "title": "THE FOURTH WALL",
+     "big": "THE LAKE",
+     "icon": "none",
+     "color": "red",
+     "at": 1
+    }
+   }
+  },
+  {
+   "id": "s50",
+   "lines": [
+    "Then on May 28th, American troops took the town of Hwachon.",
+    "South Korean troops pushed all the way to the southern edge of the reservoir.",
+    "For the Chinese crowded on the lakeshore, even the last way out had been shut."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "paroho",
+    "to": "paroho",
+    "items": [
+     {
+      "k": "unit",
+      "p": "hwacheon",
+      "text": "Hwachon Taken · May 28",
+      "color": "blue",
+      "at": 0.2,
+      "pulse": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.79,
+        38.03
+       ],
+       [
+        127.795,
+        38.06
+       ],
+       [
+        127.8,
+        38.08
+       ]
+      ],
+      "color": "blue",
+      "at": 0.8,
+      "width": 0.9
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.785,
+        38.076
+       ],
+       [
+        127.8,
+        38.1
+       ],
+       [
+        127.83,
+        38.104
+       ],
+       [
+        127.862,
+        38.09
+       ]
+      ],
+      "color": "blue",
+      "at": 1.2,
+      "glow": true
+     },
+     {
+      "k": "unit",
+      "p": "pva",
+      "text": "Trapped",
+      "color": "red",
+      "at": 1.8,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "MAY 28 · ESCAPE ROUTE CUT",
+     "style": "red",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s51",
+   "lines": [
+    "The artillery took aim at every group moving along the lakeshore road.",
+    "When observers on Maebong called in coordinates, shells landed on that road moments later."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s51-photo",
+    "kb": "in"
+   },
+   "label": "Artillery firing (Korean War · reference photo)",
+   "sfx": [
+    {
+     "id": "artillery",
+     "at": 0.3,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s52",
+   "lines": [
+    "And on that road, one of the most horrific scenes of the Korean War began to unfold."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "THREE DAYS ON THE LAKESHORE",
+    "accent": "MAY 27 – 29, 1951",
+    "accentAt": 0.5
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s53",
+   "lines": [
+    "The three days of fighting from May 27th to the 29th were a horrific slaughter.",
+    "With their chain of command collapsed, the Chinese surged onto the lakeshore road in groups of hundreds, even thousands."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "dam_road",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "chapter": {
+    "num": "PART 5",
+    "title": "TRAGEDY AT THE LAKE"
+   },
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.2,
+     "volume": 0.4
+    },
+    {
+     "id": "boom",
+     "at": 1.4,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s53b",
+   "lines": [
+    "Seen through the eyes of a Chinese soldier standing on that road, this is what it must have looked like.",
+    "Ahead, water that could not be crossed. Behind, shells falling without end.",
+    "And from the heights above, South Korean rifles looking down."
+   ],
+   "visual": {
+    "type": "gauges",
+    "big": "A ROAD TO NOWHERE",
+    "items": [
+     {
+      "label": "Ahead · the lake",
+      "at": 0.6
+     },
+     {
+      "label": "Behind · shells",
+      "at": 1.0
+     },
+     {
+      "label": "Above · rifles",
+      "at": 1.4
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s54",
+   "lines": [
+    "Columns trying to slip out toward Chorwon were caught in plain view of 6th Division observers.",
+    "Shells, machine guns, and fighter planes diving out of the sky fell upon them."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "paroho",
+    "to": "dam",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.92,
+        38.01
+       ],
+       [
+        127.862,
+        38.045
+       ],
+       [
+        127.83,
+        38.062
+       ],
+       [
+        127.8,
+        38.077
+       ],
+       [
+        127.782,
+        38.096
+       ],
+       [
+        127.768,
+        38.111
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 1.1
+     },
+     {
+      "k": "unit",
+      "p": "maebong",
+      "text": "Maebong OP",
+      "color": "blue",
+      "at": 0.6
+     },
+     {
+      "k": "unit",
+      "p": "dam",
+      "text": "Hwachon Dam",
+      "color": "red",
+      "at": 1.0,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "LAKESHORE ROAD · ARTILLERY & AIR STRIKES",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "plane",
+     "at": 0.5,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s55",
+   "lines": [
+    "Among the men driven into this dead end, some threw themselves into the lake.",
+    "They were trying to swim to the far shore.",
+    "But unable to cross the deep, wide water, many drowned, and others were killed by American air strikes."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "lake_swim",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "water",
+     "at": 0.3,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s56",
+   "lines": [
+    "There was no will left to fight.",
+    "Not only platoons and companies, but whole battalions reportedly came walking out in lines with their hands raised."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "pows_column",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s56b",
+   "lines": [
+    "Many of the prisoners had not eaten anything for days.",
+    "There are accounts of them wolfing down rice balls handed over by South Korean soldiers.",
+    "The enemy who had been aiming a rifle moments before had become, once again, just a hungry young man."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s56b-photo",
+    "kb": "in"
+   },
+   "label": "Soldiers taken prisoner (Korean War · reference photo)",
+   "callouts": [
+    {
+     "text": "AS THE STORY GOES",
+     "style": "dark",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s57",
+   "lines": [
+    "The abandoned equipment was enormous too.",
+    "Dozens of truckloads of supplies and weapons were left lying by the roadside."
+   ],
+   "visual": {
+    "type": "document",
+    "org": "ROK 6TH INF. DIV.",
+    "head": "CAPTURES (SUMMARY)",
+    "rows": [
+     "POWs: SURRENDERS BY WHOLE BATTALIONS",
+     "CAPTURED: DOZENS OF TRUCKLOADS OF SUPPLIES",
+     "AREA: HWACHON PLANT – S. RESERVOIR ROAD"
+    ],
+    "note": "Summary of Korean records · figures vary by source",
+    "stamp": "DECLASSIFIED"
+   }
+  },
+  {
+   "id": "s58",
+   "lines": [
+    "Days later, countless bodies began to surface on the lake.",
+    "Kim Dal-yuk, who passed through here as commander of 6th Company, 2nd Battalion, 7th Regiment, 6th Division, recalled it this way."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s58-photo",
+    "kb": "in"
+   },
+   "label": "ROK 6th Div., 7th Regt., 2nd Bn. (1949)"
+  },
+  {
+   "id": "s59",
+   "lines": [
+    "The whole reservoir area reeked so badly of rotting corpses that they marched with garlic stuffed in their noses.",
+    "And that the blue waters of Paro Lake had turned red, with bodies drifting on the surface."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "garlic_march",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "callouts": [
+    {
+     "text": "VETERAN KIM DAL-YUK'S RECOLLECTION (PRESS)",
+     "style": "dark",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s60",
+   "lines": [
+    "So how many Chinese soldiers fell here in all?",
+    "Drawing on U.S. IX Corps command reports, the ROK Army's Military History Institute put the figure at thirty-two thousand and forty-six killed or captured."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "32,046",
+    "style": "red",
+    "sub": "Killed or captured · Chiam-ni–Paro Lake, May 24–30, 1951 (ROK Army)",
+    "subAt": 1
+   }
+  },
+  {
+   "id": "s61",
+   "lines": [
+    "That figure is not the 6th Division's alone, but the result of all of U.S. IX Corps around Chiam-ni and Paro Lake.",
+    "The Encyclopedia of Korean Culture puts Chinese casualties at Paro Lake at no fewer than twenty-five thousand."
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "PVA losses · scope and basis differ by source",
+    "items": [
+     {
+      "label": "U.S. IX Corps (May 24–30)",
+      "value": 32046,
+      "display": "32,046",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "label": "Paro Lake (May 26–28)",
+      "value": 25000,
+      "display": "25,000+",
+      "color": "red",
+      "at": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s62",
+   "lines": [
+    "The Chinese side, by contrast, is reported to have recorded only around three thousand dead in this battle.",
+    "Victors' records tend to swell, and the losers' to shrink. The exact number still lies submerged beneath the lake."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "KOREAN RECORDS",
+     "big": "30,000+",
+     "icon": "none",
+     "color": "blue"
+    },
+    "right": {
+     "title": "CHINESE CLAIM",
+     "big": "~3,000",
+     "icon": "none",
+     "color": "red",
+     "at": 1
+    }
+   }
+  },
+  {
+   "id": "s63",
+   "lines": [
+    "One thing is certain.",
+    "The division that had collapsed a month earlier stood at the spearhead of the final blow that ended the enemy's May Offensive.",
+    "The Chinese spring offensive effectively came to an end on these shores."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "central",
+    "to": "central",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.75,
+        37.95
+       ],
+       [
+        127.1,
+        38.04
+       ],
+       [
+        127.4,
+        38.09
+       ],
+       [
+        127.7,
+        38.13
+       ],
+       [
+        128.0,
+        38.17
+       ],
+       [
+        128.3,
+        38.25
+       ],
+       [
+        128.6,
+        38.4
+       ]
+      ],
+      "at": 0.3
+     },
+     {
+      "k": "unit",
+      "p": "lake",
+      "text": "Paro Lake",
+      "color": "blue",
+      "at": 1.0,
+      "pulse": true
+     },
+     {
+      "k": "unit",
+      "p": "rok6",
+      "text": "ROK 6th Div.",
+      "color": "blue",
+      "at": 1.5
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "PVA SPRING OFFENSIVE ENDS · LATE MAY 1951",
+     "style": "blue",
+     "at": 2,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s64",
+   "lines": [
+    "And this lake would be given a new name."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "A NEW NAME",
+    "accent": "破虜湖",
+    "accentAt": 0.5
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s65",
+   "lines": [
+    "President Syngman Rhee gave the Hwachon Reservoir the name Paroho."
+   ],
+   "visual": {
+    "type": "person",
+    "q": "s65-photo",
+    "name": "Syngman Rhee",
+    "years": "1875 - 1965",
+    "role": "First President of the Republic of Korea"
+   },
+   "chapter": {
+    "num": "PART 6",
+    "title": "THE LAKE OF THE DEFEATED BARBARIANS"
+   }
+  },
+  {
+   "id": "s66",
+   "lines": [
+    "Pa, to smash. Ro, a captive, a barbarian. Ho, a lake.",
+    "It means the lake where the barbarians were smashed."
+   ],
+   "visual": {
+    "type": "hanja",
+    "items": [
+     {
+      "h": "破",
+      "r": "PA · SMASH"
+     },
+     {
+      "h": "虜",
+      "r": "RO · BARBARIAN"
+     },
+     {
+      "h": "湖",
+      "r": "HO · LAKE"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s67",
+   "lines": [
+    "When it was first formed, the lake had sometimes been called Taebung Lake, because its shape resembled a giant mythical bird.",
+    "After the war, it was renamed to carry the memory of a victory."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "naming",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s67b",
+   "lines": [
+    "In November 1955, a monument bearing the name Paroho was unveiled on the lakeshore.",
+    "Today a security exhibition hall and a pavilion stand on that hill, overlooking the whole lake."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "lake",
+    "to": "lake",
+    "items": [
+     {
+      "k": "unit",
+      "p": "lake",
+      "text": "Paro Lake",
+      "color": "blue",
+      "at": 0.2,
+      "pulse": true
+     },
+     {
+      "k": "marker",
+      "p": "dam",
+      "color": "dark",
+      "at": 0.8
+     },
+     {
+      "k": "marker",
+      "p": "yanggu",
+      "color": "dark",
+      "at": 1.0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "NOV. 1955 · PAROHO NAMING MONUMENT",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s67c",
+   "lines": [
+    "A few years ago, a proposal to restore the old name, Taebung Lake, stirred controversy.",
+    "But amid opposition from local veterans and residents, the lake still keeps the name Paroho today."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "OLD NAME",
+     "big": "TAEBUNG LAKE",
+     "icon": "none",
+     "color": "blue"
+    },
+    "right": {
+     "title": "NAME TODAY",
+     "big": "PAROHO",
+     "icon": "none",
+     "color": "red",
+     "at": 1
+    }
+   }
+  },
+  {
+   "id": "s68",
+   "lines": [
+    "So how could a division that had collapsed only a month earlier become the driving force that trapped an army of thirty thousand?",
+    "Let's look at four reasons."
+   ],
+   "visual": {
+    "type": "factors",
+    "items": [
+     "A division reborn",
+     "A pursuit that never stopped",
+     "The lake as the fourth wall",
+     "One week of supplies"
+    ],
+    "head": "From Sachang-ni's defeat to Paro Lake",
+    "at": 1
+   }
+  },
+  {
+   "id": "s69",
+   "lines": [
+    "First, a division that fell and rose again."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s69-photo",
+    "num": "FACTOR 1",
+    "title": "A DIVISION REBORN"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s70",
+   "lines": [
+    "The humiliation of Sachang-ni left the men determined never to retreat again.",
+    "That resolve was proven at Yongmunsan, and the confidence it gave them carried their exhausted legs sixty kilometers further."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "rok_resolve2",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s71",
+   "lines": [
+    "Second, a pursuit that never stopped."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s71-photo",
+    "num": "FACTOR 2",
+    "title": "A PURSUIT THAT NEVER STOPPED"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s72",
+   "lines": [
+    "They gave a crumbling enemy no chance to catch its breath.",
+    "Denying the enemy the time to dig in and make a stand again: that was the true meaning of the pursuit."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "pursuit",
+    "to": "north",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.53,
+        37.585
+       ],
+       [
+        127.515,
+        37.7
+       ],
+       [
+        127.51,
+        37.825
+       ],
+       [
+        127.6,
+        37.87
+       ],
+       [
+        127.725,
+        37.89
+       ],
+       [
+        127.745,
+        37.98
+       ],
+       [
+        127.76,
+        38.085
+       ]
+      ],
+      "color": "blue",
+      "at": 0,
+      "width": 1.0,
+      "dur": 2.5
+     },
+     {
+      "k": "unit",
+      "p": "dam",
+      "text": "End of 60 km",
+      "color": "blue",
+      "at": 1.2,
+      "pulse": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "s73",
+   "lines": [
+    "Third, the lake as the fourth wall."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s73-photo",
+    "num": "FACTOR 3",
+    "title": "THE LAKE AS THE FOURTH WALL"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s74",
+   "lines": [
+    "Commanders did not miss the fact that the lake funneled the enemy's retreat into a single road.",
+    "And they seized that one chokepoint, the Hwachon Dam and Maebong, first. The side that read the terrain decided the shape of the battle."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "paroho",
+    "to": "dam",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.785,
+        38.076
+       ],
+       [
+        127.8,
+        38.1
+       ],
+       [
+        127.83,
+        38.104
+       ],
+       [
+        127.862,
+        38.09
+       ]
+      ],
+      "color": "blue",
+      "at": 0,
+      "glow": true
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.748,
+        38.098
+       ],
+       [
+        127.762,
+        38.09
+       ],
+       [
+        127.778,
+        38.082
+       ]
+      ],
+      "color": "blue",
+      "at": 0.6,
+      "glow": true
+     },
+     {
+      "k": "unit",
+      "p": "maebong",
+      "text": "Maebong",
+      "color": "blue",
+      "at": 1.0,
+      "pulse": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.92,
+        38.01
+       ],
+       [
+        127.862,
+        38.045
+       ],
+       [
+        127.83,
+        38.062
+       ],
+       [
+        127.8,
+        38.077
+       ],
+       [
+        127.782,
+        38.096
+       ],
+       [
+        127.768,
+        38.111
+       ]
+      ],
+      "color": "red",
+      "at": 1.4,
+      "width": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "id": "s75",
+   "lines": [
+    "Fourth, one week of supplies."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s75-photo",
+    "num": "FACTOR 4",
+    "title": "ONE WEEK OF SUPPLIES"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s76",
+   "lines": [
+    "A starving army could neither march fast nor hold out long.",
+    "The Chinese offensive broke the moment its supplies ran dry, and that was exactly when the pursuit began."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "pva_hungry",
+    "kb": "out"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s76b",
+   "lines": [
+    "To sum it up.",
+    "The will of soldiers who had risen again, legs that never rested, and eyes that read the terrain.",
+    "And a starving enemy. All four came together at once on a single lakeshore."
+   ],
+   "visual": {
+    "type": "gauges",
+    "big": "WHERE FOUR THINGS MET",
+    "items": [
+     {
+      "label": "Will",
+      "at": 0.6
+     },
+     {
+      "label": "Speed",
+      "at": 0.9
+     },
+     {
+      "label": "Terrain",
+      "at": 1.2
+     },
+     {
+      "label": "Supply",
+      "at": 1.5
+     }
+    ]
+   }
+  },
+  {
+   "id": "s77",
+   "lines": [
+    "Of course, this victory has its shadows too.",
+    "As it later emerged, much of the withdrawing enemy force the Americans had targeted had reportedly already slipped through the dam passage by the 27th, when the 6th Division's attack began."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s77-photo",
+    "kb": "in"
+   },
+   "label": "Central front, 1951 (reference photo)"
+  },
+  {
+   "id": "s78",
+   "lines": [
+    "The figures also vary widely depending on who counted, when, and how far.",
+    "That is why some researchers treat this battle separately from the Chiam-ni encirclement and the fight for the Hwachon power plant."
+   ],
+   "visual": {
+    "type": "timeline",
+    "items": [
+     {
+      "date": "May 18–20",
+      "text": "Yongmunsan defense",
+      "at": 0
+     },
+     {
+      "date": "May 23–29",
+      "text": "Chiam-ni ring",
+      "at": 0.5
+     },
+     {
+      "date": "May 26–28",
+      "text": "Paro Lake block",
+      "at": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s79",
+   "lines": [
+    "The war ended, and the lake grew quiet again.",
+    "Today, mist rises over Paro Lake every early morning, and fishing boats drift lazily on the water."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "paroho_today",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "birds",
+     "at": 0,
+     "volume": 0.25
+    }
+   ]
+  },
+  {
+   "id": "s80",
+   "lines": [
+    "But beneath those waters lie countless men who never made it home.",
+    "Whatever their nationality, most of them were young soldiers who did not even leave a name behind."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "lake_helmet",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s80b",
+   "lines": [
+    "Those who fought to hold this lake, and those who tried to cross it.",
+    "More than seventy years later, the water flows on in silence, holding all of them."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "fog_lake",
+    "kb": "out"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0,
+     "volume": 0.25
+    }
+   ]
+  },
+  {
+   "id": "s81",
+   "lines": [
+    "A defeated division rose again, and a victorious army collapsed at the edge of a lake.",
+    "The Lake of the Defeated Barbarians. Behind that name lies the water that swallowed it all."
+   ],
+   "visual": {
+    "type": "quotes",
+    "title": "What Paro Lake Left Behind",
+    "items": [
+     {
+      "text": "An army that rose from defeat",
+      "at": 0
+     },
+     {
+      "text": "A lake that swallowed everything",
+      "at": 1
+     }
+    ]
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s82",
+   "lines": [
+    "If this story meant something to you, please join us with a subscribe and a like.",
+    "We will continue the fading records of this war... in the next video."
+   ],
+   "visual": {
+    "type": "endcard",
+    "title": "May 1951, Hwachon.\nThe Lake of the Defeated Barbarians.",
+    "q": "s82-photo"
+   },
+   "tail": 3.0
+  }
+ ],
+ "lang": "en",
+ "assets_ep": "paroho",
+ "voice": "pNInz6obpgDQGcFmaJgB",
+ "tempo": 1.02
+}

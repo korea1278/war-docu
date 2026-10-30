@@ -1,0 +1,1011 @@
+{
+ "title": "Battle of Paro Lake (1951): Annihilation of the Chinese Army",
+ "subtitle": "May 20 – 30, 1951",
+ "voice": "pNInz6obpgDQGcFmaJgB",
+ "tempo": 1.02,
+ "places": {
+  "seoul": "Seoul",
+  "yangpyeong": "Yangpyong",
+  "yongmunsan": "Mt. Yongmun",
+  "fwd": "2nd Regt. Outpost",
+  "gapyeong": "Kapyong",
+  "chuncheon": "Chunchon",
+  "hongcheon": "Hongchon",
+  "hwacheon": "Hwachon",
+  "sachang": "Sachang-ni",
+  "jiam": "Chiam-ni",
+  "gyegwan": "Mt. Kyegwan",
+  "bukbae": "Mt. Pukbae",
+  "dam": "Hwachon Dam",
+  "maebong": "Maebong",
+  "yonghwa": "Mt. Yonghwa",
+  "byeongpung": "Mt. Pyongpung",
+  "buyong": "Mt. Puyong",
+  "oeum": "Oum-ni",
+  "yanggu": "Yanggu",
+  "lake": "Hwachon Reservoir",
+  "cheorwon": "Chorwon",
+  "d187": "187th Div.",
+  "d188": "188th Div.",
+  "d189": "189th Div.",
+  "rok6": "ROK 6th Div.",
+  "r2": "2nd Regt.",
+  "r7": "7th Regt.",
+  "r19": "19th Regt.",
+  "us7": "U.S. 7th Div.",
+  "pva": "PVA Retreat Column"
+ },
+ "text": {
+  "국군 6사단": "ROK 6th Div.",
+  "187사단": "187th Div.",
+  "188사단": "188th Div.",
+  "189사단": "189th Div.",
+  "2연대 전진진지": "2nd Regt. Outpost",
+  "국군 6사단 · 조공 격파": "ROK 6th Div. · Supporting Attack Broken",
+  "화천 발전소": "Hwachon Power Plant",
+  "19연대 · 우회 차단": "19th Regt. · Flanking Block",
+  "지암리 포위": "Chiam-ni Encircled",
+  "중공군 제9병단 예하": "PVA 9th Army Group",
+  "화천 저수지": "Hwachon Reservoir",
+  "화천댐": "Hwachon Dam",
+  "병목": "Bottleneck",
+  "19연대 · 포위 유지": "19th Regt. · Holding the Ring",
+  "미 7사단": "U.S. 7th Div.",
+  "매봉 · 발전소": "Maebong · Power Plant",
+  "매봉": "Maebong",
+  "화천댐·발전소": "Dam & Power Plant",
+  "매봉 확보": "Maebong Secured",
+  "중공군": "PVA",
+  "화천 점령 · 5. 28": "Hwachon Taken · May 28",
+  "고립": "Trapped",
+  "매봉 관측": "Maebong OP",
+  "파로호": "Paro Lake",
+  "60km 끝": "End of 60 km"
+ },
+ "scenes": {
+  "s01": {
+   "lines": [
+    "Late May, 1951. Hwachon, Gangwon Province.",
+    "On a vast reservoir buried in thick fog, something began to rise to the surface, one by one."
+   ],
+   "label": "Dramatization",
+   "callouts": [
+    "LATE MAY 1951 · HWACHON RESERVOIR"
+   ]
+  },
+  "s02": {
+   "lines": [
+    "The blue lake had turned red, and bodies were drifting on the water.",
+    "That is how one South Korean company commander, advancing toward this place, later remembered the lake."
+   ],
+   "text": "“THE LAKE TURNED RED”",
+   "accent": "Recollection of a ROK 6th Div. company commander"
+  },
+  "s03": {
+   "lines": [
+    "Korean official histories record more than thirty thousand Chinese killed or captured in this area.",
+    "They had an escape route to the north. So why did they end up trapped at the edge of this lake?"
+   ],
+   "big": "30,000+",
+   "sub": "Killed or captured · per ROK Army history (based on U.S. IX Corps reports)"
+  },
+  "s05": {
+   "lines": [
+    "The Battle of Paro Lake.",
+    "This is the story of the ROK 6th Division's sixty-kilometer pursuit, rising from the depths of defeat, and of how a reservoir came to be called the Lake of the Defeated Barbarians."
+   ],
+   "title": "Battle of Paro Lake",
+   "sub": "A 60 km Pursuit and Annihilation at Hwachon Reservoir · 1951"
+  },
+  "s05b": {
+   "lines": [
+    "The 6th Division had always been a unit with a special pride.",
+    "On October 26th, 1950, the first unit among all South Korean and UN forces to reach the Yalu River and scoop up its water was the 6th Division's 7th Regiment."
+   ],
+   "chapter": [
+    "PART 1",
+    "THE MIRACLE OF YONGMUNSAN"
+   ],
+   "text": "FIRST TO THE YALU",
+   "accent": "OCT. 26, 1950 · CHOSAN · 7TH REGT., 6TH DIV."
+  },
+  "s06": {
+   "lines": [
+    "But half a year later, that division met a humiliating defeat.",
+    "On the night of April 22nd, 1951, the Chinese launched their April Offensive."
+   ],
+   "callouts": [
+    "APR. 22, 1951 · PVA APRIL OFFENSIVE"
+   ]
+  },
+  "s07": {
+   "lines": [
+    "Holding Sachang-ni, west of Hwachon, the ROK 6th Division collapsed under the very first blow.",
+    "Its men scattered over the mountains, abandoning their equipment and guns, and for a time the division all but ceased to exist as a fighting force."
+   ],
+   "label": "Dramatization"
+  },
+  "s08": {
+   "lines": [
+    "The flanks of the U.S. Marines and Commonwealth troops fighting alongside were laid wide open.",
+    "American commanders reportedly went so far as to say the division had, for all practical purposes, ceased to exist."
+   ],
+   "text": "THE VANISHED DIVISION",
+   "accent": "APRIL 1951 · SACHANG-NI"
+  },
+  "s08b": {
+   "lines": [
+    "Eighth Army commander Van Fleet and UN commander Ridgway are said to have confronted President Syngman Rhee hard over the leadership of the South Korean army.",
+    "The 6th Division's name had sunk to rock bottom."
+   ],
+   "callouts": [
+    "AS THE STORY GOES"
+   ],
+   "left": [
+    "OCT. 1950",
+    "FIRST TO THE YALU"
+   ],
+   "right": [
+    "APR. 1951",
+    "VANISHED"
+   ]
+  },
+  "s09": {
+   "lines": [
+    "Division commander, Brigadier General Chang Do-yong.",
+    "He gathered his scattered men and demanded of his officers a vow: in the next fight, they would not fall back."
+   ],
+   "name": "Chang Do-yong",
+   "role": "Commander, ROK 6th Division (Brig. Gen.)"
+  },
+  "s10": {
+   "lines": [
+    "One month later, the chance for redemption arrived.",
+    "On May 16th, the Chinese launched another massive offensive."
+   ],
+   "callouts": [
+    "MAY 16, 1951 · PVA MAY OFFENSIVE"
+   ]
+  },
+  "s11": {
+   "lines": [
+    "Toward the 6th Division, holding the Yongmun Mountain area in Yangpyong, came three divisions of the Chinese 63rd Army.",
+    "The 187th, 188th and 189th. Three divisions against one."
+   ],
+   "callouts": [
+    "PVA 63RD ARMY · 3 DIVISIONS"
+   ]
+  },
+  "s11b": {
+   "lines": [
+    "The Chinese command was confident.",
+    "The enemy in front of them was the very division they had smashed just a month before.",
+    "By their reckoning, it would be over in a single night."
+   ],
+   "label": "Dramatization"
+  },
+  "s11c": {
+   "lines": [
+    "On the night of May 18th, red flares rose one after another above the ridges in front of Yongmunsan.",
+    "Moments later, the shouts of thousands echoed down the mountains out of the darkness."
+   ],
+   "label": "Dramatization"
+  },
+  "s12": {
+   "lines": [
+    "The division had pushed only its 2nd Regiment forward to an outpost line, keeping the 7th and 19th on the main line of resistance behind.",
+    "On May 18th, Chinese company-sized forces tried several times to cross the river by day, and every attempt was beaten back.",
+    "Then before dawn on the 19th, mistaking the outpost for the main line, the Chinese began throwing in the main bodies of the 187th and 188th Divisions at once."
+   ],
+   "callouts": [
+    "MAY 18–19 · BATTLE FOR THE OUTPOST"
+   ]
+  },
+  "s13": {
+   "lines": [
+    "Night after night came wave attacks, led by bugles and gongs.",
+    "Even surrounded, the 2nd Regiment would not give up its positions, while artillery rained down without pause on the Chinese climbing the slopes."
+   ],
+   "label": "Dramatization"
+  },
+  "s14": {
+   "lines": [
+    "As the line held, the enemy wore down, and their ammunition and food began to run out.",
+    "Then on May 20th, the 6th Division finally turned to the counterattack."
+   ],
+   "label": "Dramatization",
+   "callouts": [
+    "MAY 20 · COUNTERATTACK"
+   ]
+  },
+  "s15": {
+   "lines": [
+    "The very division that had collapsed at Sachang-ni a month earlier was now driving back three divisions.",
+    "This fight would come to be called the Great Victory of Yongmunsan."
+   ],
+   "left": [
+    "APRIL · SACHANG-NI",
+    "COLLAPSE"
+   ],
+   "right": [
+    "MAY · YONGMUNSAN",
+    "VICTORY"
+   ]
+  },
+  "s16": {
+   "lines": [
+    "But the real story begins here.",
+    "Because against a crumbling enemy, the 6th Division's pursuit was about to begin."
+   ],
+   "label": "Dramatization"
+  },
+  "s17": {
+   "lines": [
+    "The nameless records left on these battlefields.",
+    "So that we can keep telling this desperate history to the end, please join us with a subscribe and a like."
+   ],
+   "text": "THE NAMELESS RECORDS",
+   "accent": "Please subscribe and like"
+  },
+  "s18": {
+   "lines": [
+    "And on May 20th, the bloody pursuit began."
+   ],
+   "text": "MAY 20, 1951",
+   "accent": "THE PURSUIT BEGINS"
+  },
+  "s19": {
+   "lines": [
+    "In late May, UN forces counterattacked all along the central front.",
+    "U.S. IX Corps, to which the 6th Division belonged, pushed north together with the U.S. 24th Division, the ROK 2nd Division and the U.S. 7th Division."
+   ],
+   "callouts": [
+    "U.S. IX CORPS COUNTEROFFENSIVE · LATE MAY"
+   ],
+   "chapter": [
+    "PART 2",
+    "THE 60 KM PURSUIT"
+   ]
+  },
+  "s19b": {
+   "lines": [
+    "In truth, the Chinese had put their main weight in the May Offensive into the eastern mountains.",
+    "The 63rd Army that hit the 6th Division was a supporting attack.",
+    "But when that supporting attack collapsed first, a huge gap opened in the central front."
+   ],
+   "callouts": [
+    "ENEMY MAIN EFFORT: EAST / 6TH DIV. FRONT: SUPPORTING"
+   ]
+  },
+  "s20": {
+   "lines": [
+    "The 6th Division's road ran from Yangpyong through Kapyong and Chunchon, all the way to the Hwachon power plant.",
+    "Mountain country stretching some sixty kilometers, even as the crow flies."
+   ],
+   "callouts": [
+    "PURSUIT ROUTE ~60 KM · APPROX."
+   ]
+  },
+  "s21": {
+   "lines": [
+    "The soldiers fought by day and marched by night.",
+    "With ammunition and rice balls on their backs, they chased the enemy's tail along mountain trails that barely appeared on any map."
+   ],
+   "label": "Dramatization"
+  },
+  "s21b": {
+   "lines": [
+    "Abandoned carts, rifles, and burned bundles lined the roadside without end, and tanks and infantry pushed north along that road.",
+    "Simply following that trail was enough to tell which way the enemy had fled."
+   ],
+   "label": "Tanks and infantry advancing (1951 · reference photo)"
+  },
+  "s22": {
+   "lines": [
+    "Those being chased were in far worse shape.",
+    "In an offensive, Chinese soldiers usually fought carrying only a few days' worth of food on their backs.",
+    "Once supplies ran out, the offensive had no choice but to stop right there."
+   ],
+   "label": "Dramatization"
+  },
+  "s23": {
+   "lines": [
+    "UN officers had a name for this weakness: the one-week offensive.",
+    "Now that the offensive had broken, all the Chinese had left was hunger, exhaustion, and a pursuing army racing up behind them."
+   ],
+   "big": "THE ONE-WEEK OFFENSIVE",
+   "items": [
+    "Food gone",
+    "Ammo gone",
+    "Pursuers close"
+   ]
+  },
+  "s23b": {
+   "lines": [
+    "Here is the 6th Division's pursuit, day by day.",
+    "Counterattack on May 20th. Mount Kyegwan and Mount Pukbae on the 25th. Assembly at Chunchon on the 26th. The attack on the Hwachon power plant on the 27th.",
+    "In just eight days, the division raced from Yangpyong to the edge of the Hwachon Reservoir."
+   ],
+   "items": [
+    [
+     "May 20",
+     "Yongmunsan counterattack"
+    ],
+    [
+     "May 25",
+     "Kyegwan & Pukbae"
+    ],
+    [
+     "May 26",
+     "Assemble at Chunchon"
+    ],
+    [
+     "May 27",
+     "Hwachon power plant"
+    ]
+   ]
+  },
+  "s24": {
+   "lines": [
+    "On May 25th, the 6th Division ran into a high mountain range north of Kapyong.",
+    "Chinese rearguards were dug in on Mount Kyegwan and Mount Pukbae, buying time."
+   ],
+   "callouts": [
+    "MAY 25 · MT. KYEGWAN – MT. PUKBAE"
+   ]
+  },
+  "s25": {
+   "lines": [
+    "The division sent the 2nd and 7th Regiments against the heights to its front.",
+    "But the 19th Regiment received a very different mission: swing wide behind Mount Pukbae and cut the enemy's line of retreat."
+   ],
+   "callouts": [
+    "FRONT: 2ND & 7TH / FLANK: 19TH"
+   ]
+  },
+  "s26": {
+   "lines": [
+    "When the 19th Regiment entered Chiam-ni, the trap snapped shut.",
+    "Chinese troops driven down from the heights found themselves sealed inside the valley road leading north."
+   ],
+   "callouts": [
+    "CHIAM-NI ENCIRCLEMENT · APPROX."
+   ]
+  },
+  "s27": {
+   "lines": [
+    "In this encirclement alone, the 6th Division took more than two thousand six hundred prisoners.",
+    "About one thousand seven hundred of them were reportedly captured by the 19th Regiment, which held the ring to the end."
+   ],
+   "note": "Chiam-ni encirclement · POWs taken by ROK 6th Div. (Korean records)",
+   "bars": [
+    [
+     "6th Div. total",
+     "2,600+"
+    ],
+    [
+     "19th Regt.",
+     "~1,700"
+    ]
+   ]
+  },
+  "s28": {
+   "lines": [
+    "Division commander Chang Do-yong later described the scene.",
+    "Chinese soldiers crouching by the roadside were loaded onto trucks like so much litter being picked up.",
+    "He recalled the extraordinary sight of a single platoon taking an entire enemy battalion prisoner."
+   ],
+   "label": "Dramatization",
+   "callouts": [
+    "GEN. CHANG'S TESTIMONY (SUMMARY)"
+   ]
+  },
+  "s29": {
+   "lines": [
+    "Archival photographs preserve what a broken Chinese army looked like.",
+    "Soldiers in quilted cotton uniforms, slumped on the ground. A month earlier, they had been the attackers."
+   ],
+   "label": "Chinese POWs captured by ROK troops (reference photo)"
+  },
+  "s30": {
+   "lines": [
+    "But at that very moment, a report reached U.S. IX Corps headquarters.",
+    "That report would send the 6th Division toward the Hwachon Reservoir."
+   ],
+   "text": "ONE REPORT",
+   "accent": "U.S. IX CORPS HEADQUARTERS"
+  },
+  "s31": {
+   "lines": [
+    "Reconnaissance aircraft had spotted something hard to believe south of the Hwachon Reservoir.",
+    "Some ten thousand Chinese troops, hauling vehicles and field guns, were moving toward Hwachon in a long column."
+   ],
+   "label": "Dramatization",
+   "callouts": [
+    "AIR RECON · ~10,000 PVA"
+   ],
+   "chapter": [
+    "PART 3",
+    "THE HWACHON TRAP"
+   ]
+  },
+  "s31b": {
+   "lines": [
+    "While the Chiam-ni area was being encircled, large forces of the Chinese 9th Army Group, pulling out of the east, were also on the move.",
+    "To break through the UN ring, they surged past Oum-ni toward the Hwachon power plant."
+   ],
+   "callouts": [
+    "OUM-NI → HWACHON PLANT · APPROX."
+   ]
+  },
+  "s32": {
+   "lines": [
+    "This reservoir was an artificial lake, created in 1944 when the Hwachon Dam was built for hydroelectric power.",
+    "Stretching long from east to west along the river, the lake had flooded deep valleys here and there."
+   ],
+   "label": "Hwachon Reservoir near Yanggu (July 1951)"
+  },
+  "s33": {
+   "lines": [
+    "On the map, it becomes clear why this lake was such a deadly trap.",
+    "The dammed waters of the upper Pukhan River lay stretched across the land, reaching east toward Yanggu."
+   ],
+   "callouts": [
+    "UPPER PUKHAN RIVER · HWACHON RESERVOIR"
+   ]
+  },
+  "s34": {
+   "lines": [
+    "The Chinese were mostly infantry moving on foot.",
+    "They had almost no boats to cross water, and almost no equipment to build bridges.",
+    "Crossing a deep lake with nothing but their bodies was practically impossible."
+   ],
+   "big": "WATER THEY COULDN'T CROSS",
+   "sub": "Infantry without bridging gear · a deep reservoir"
+  },
+  "s35": {
+   "lines": [
+    "In the end, the way north funneled into a single road passing the Hwachon Dam at the reservoir's western tip.",
+    "Past the dam, through Hwachon, and on north toward Chorwon."
+   ],
+   "callouts": [
+    "THE ONLY EXIT · DAM → CHORWON"
+   ]
+  },
+  "s36": {
+   "lines": [
+    "South of the dam rose high mountains such as Mount Yonghwa and Mount Pyongpung.",
+    "The valleys and roads between them narrowed the closer they came to the lakeshore.",
+    "If tens of thousands crowded in at once, the terrain could only jam like the neck of a bottle."
+   ],
+   "callouts": [
+    "BETWEEN MT. PYONGPUNG & MT. YONGHWA · APPROX."
+   ]
+  },
+  "s36b": {
+   "lines": [
+    "Groups pouring down several valleys from the south all converged at last onto the one road along the lakeshore.",
+    "Where the water spread wide, the river of men was narrowing instead."
+   ],
+   "callouts": [
+    "MANY VALLEYS → ONE ROAD"
+   ]
+  },
+  "s37": {
+   "lines": [
+    "Cut the Hwachon terrain into a height profile, and this is what you see.",
+    "High ridges to the south, narrow valleys below them, and deep water blocking the north.",
+    "Ground that offered no good way forward, back, or to either side."
+   ],
+   "title": "South of Hwachon Reservoir · Profile",
+   "note": "Schematic S→N (heights exaggerated · approx.)",
+   "left": "South · toward Chunchon",
+   "right": "North · Hwachon Reservoir",
+   "marks": [
+    "MT. YONGHWA",
+    "VALLEY ROAD",
+    "MT. PYONGPUNG",
+    "RESERVOIR"
+   ]
+  },
+  "s38": {
+   "lines": [
+    "In truth, both sides had been fighting over this dam for some time.",
+    "In early April the Chinese opened its floodgates to send water surging downstream, and on May 1st U.S. Navy torpedo planes even launched torpedoes at its gates."
+   ],
+   "label": "Hwachon Dam under U.S. Navy attack (May 1951)",
+   "callouts": [
+    "APR: GATES OPENED / MAY 1: TORPEDO ATTACK"
+   ]
+  },
+  "s38b": {
+   "lines": [
+    "Douglas Skyraider attack planes wrecked one floodgate with torpedoes and damaged another.",
+    "It is counted as almost the only time aerial torpedoes were actually used in the Korean War."
+   ],
+   "big": "TORPEDOES VS. A DAM",
+   "sub": "May 1, 1951 · U.S. Navy AD Skyraiders · one floodgate destroyed"
+  },
+  "s39": {
+   "lines": [
+    "The corps decided quickly.",
+    "Leave only the 19th Regiment and the 2nd Battalion of the 2nd Regiment at the Chiam-ni ring, and rush the rest of the 6th Division to Chunchon.",
+    "Then, side by side with the U.S. 7th Division, drive north toward the Hwachon Dam."
+   ],
+   "callouts": [
+    "MAY 26 · 6TH DIV. MAIN BODY TO CHUNCHON"
+   ]
+  },
+  "s40": {
+   "lines": [
+    "That night, the 3rd Battalion of the 2nd Regiment set out on a night march over rugged mountains.",
+    "Following ridgelines without trails, they had to reach the lakeshore before the enemy did."
+   ],
+   "label": "Soldiers climbing a mountain slope (1951 · reference photo)"
+  },
+  "s41": {
+   "lines": [
+    "Outrun the enemy you are chasing, and block his path before he gets there.",
+    "This was the moment the pursuit turned into a vast encirclement."
+   ],
+   "text": "PURSUIT → ENCIRCLEMENT",
+   "accent": "BLOCK THE ROAD FIRST"
+  },
+  "s42": {
+   "lines": [
+    "On the morning of May 27th, the order to attack came down."
+   ],
+   "text": "MAY 27, 1951",
+   "accent": "ATTACK"
+  },
+  "s43": {
+   "lines": [
+    "The 2nd Regiment's objective was the Hwachon power plant and Maebong peak just south of it.",
+    "The 7th Regiment's objective was the ridgeline running from Mount Puyong to Mount Pyongpung."
+   ],
+   "callouts": [
+    "2ND → MAEBONG / 7TH → PUYONG–PYONGPUNG"
+   ],
+   "chapter": [
+    "PART 4",
+    "SEALING THE ESCAPE ROUTE"
+   ]
+  },
+  "s44": {
+   "lines": [
+    "Maebong was the peak overlooking the dam and the power plant.",
+    "Whoever held it could see, and shell, everything moving along the lakeshore road."
+   ],
+   "callouts": [
+    "MAEBONG · OVERLOOKS THE DAM"
+   ]
+  },
+  "s45": {
+   "lines": [
+    "The men of the 2nd Regiment stormed up the steep slopes toward Maebong.",
+    "And they retook both the power plant and the peak.",
+    "At the western tip of the lake, the cork had been driven into the escape route."
+   ],
+   "label": "Dramatization"
+  },
+  "s45b": {
+   "lines": [
+    "For the Chinese, losing the power plant meant losing their way out.",
+    "Now any group approaching the dam became a target in plain sight from the top of Maebong."
+   ],
+   "callouts": [
+    "MAY 27 · MAEBONG & PLANT SECURED"
+   ]
+  },
+  "s46": {
+   "lines": [
+    "At the same time, the 7th Regiment pushed along the ridges to the east.",
+    "And on the main road from Chunchon to Hwachon, the U.S. 7th Division was coming north."
+   ],
+   "callouts": [
+    "CHUNCHON–HWACHON ROAD · U.S. 7TH DIV."
+   ]
+  },
+  "s47": {
+   "lines": [
+    "The soldiers of the U.S. 7th Division also climbed these mountain roads on foot.",
+    "Where trucks could not go, all they had were their legs and the packs on their backs."
+   ],
+   "label": "U.S. 7th Inf. Div., 17th Regt. on the march"
+  },
+  "s48": {
+   "lines": [
+    "Now the picture was complete.",
+    "The ROK 6th Division blocked the western and southern ridges, and the U.S. 7th Division the main road to the south.",
+    "And to the north lay the deep lake."
+   ],
+   "callouts": [
+    "BLOCKED ON 3 SIDES + LAKE TO THE NORTH · APPROX."
+   ]
+  },
+  "s49": {
+   "lines": [
+    "A ring sealed by gun barrels on three sides and by water on the fourth.",
+    "The lake itself had become the fourth wall."
+   ],
+   "left": [
+    "THREE SIDES",
+    "GUNS"
+   ],
+   "right": [
+    "THE FOURTH WALL",
+    "THE LAKE"
+   ]
+  },
+  "s50": {
+   "lines": [
+    "Then on May 28th, American troops took the town of Hwachon.",
+    "South Korean troops pushed all the way to the southern edge of the reservoir.",
+    "For the Chinese crowded on the lakeshore, even the last way out had been shut."
+   ],
+   "callouts": [
+    "MAY 28 · ESCAPE ROUTE CUT"
+   ]
+  },
+  "s51": {
+   "lines": [
+    "The artillery took aim at every group moving along the lakeshore road.",
+    "When observers on Maebong called in coordinates, shells landed on that road moments later."
+   ],
+   "label": "Artillery firing (Korean War · reference photo)"
+  },
+  "s52": {
+   "lines": [
+    "And on that road, one of the most horrific scenes of the Korean War began to unfold."
+   ],
+   "text": "THREE DAYS ON THE LAKESHORE",
+   "accent": "MAY 27 – 29, 1951"
+  },
+  "s53": {
+   "lines": [
+    "The three days of fighting from May 27th to the 29th were a horrific slaughter.",
+    "With their chain of command collapsed, the Chinese surged onto the lakeshore road in groups of hundreds, even thousands."
+   ],
+   "label": "Dramatization",
+   "chapter": [
+    "PART 5",
+    "TRAGEDY AT THE LAKE"
+   ]
+  },
+  "s53b": {
+   "lines": [
+    "Seen through the eyes of a Chinese soldier standing on that road, this is what it must have looked like.",
+    "Ahead, water that could not be crossed. Behind, shells falling without end.",
+    "And from the heights above, South Korean rifles looking down."
+   ],
+   "big": "A ROAD TO NOWHERE",
+   "items": [
+    "Ahead · the lake",
+    "Behind · shells",
+    "Above · rifles"
+   ]
+  },
+  "s54": {
+   "lines": [
+    "Columns trying to slip out toward Chorwon were caught in plain view of 6th Division observers.",
+    "Shells, machine guns, and fighter planes diving out of the sky fell upon them."
+   ],
+   "callouts": [
+    "LAKESHORE ROAD · ARTILLERY & AIR STRIKES"
+   ]
+  },
+  "s55": {
+   "lines": [
+    "Among the men driven into this dead end, some threw themselves into the lake.",
+    "They were trying to swim to the far shore.",
+    "But unable to cross the deep, wide water, many drowned, and others were killed by American air strikes."
+   ],
+   "label": "Dramatization"
+  },
+  "s56": {
+   "lines": [
+    "There was no will left to fight.",
+    "Not only platoons and companies, but whole battalions reportedly came walking out in lines with their hands raised."
+   ],
+   "label": "Dramatization"
+  },
+  "s56b": {
+   "lines": [
+    "Many of the prisoners had not eaten anything for days.",
+    "There are accounts of them wolfing down rice balls handed over by South Korean soldiers.",
+    "The enemy who had been aiming a rifle moments before had become, once again, just a hungry young man."
+   ],
+   "label": "Soldiers taken prisoner (Korean War · reference photo)",
+   "callouts": [
+    "AS THE STORY GOES"
+   ]
+  },
+  "s57": {
+   "lines": [
+    "The abandoned equipment was enormous too.",
+    "Dozens of truckloads of supplies and weapons were left lying by the roadside."
+   ],
+   "org": "ROK 6TH INF. DIV.",
+   "head": "CAPTURES (SUMMARY)",
+   "rows": [
+    "POWs: SURRENDERS BY WHOLE BATTALIONS",
+    "CAPTURED: DOZENS OF TRUCKLOADS OF SUPPLIES",
+    "AREA: HWACHON PLANT – S. RESERVOIR ROAD"
+   ],
+   "note": "Summary of Korean records · figures vary by source"
+  },
+  "s58": {
+   "lines": [
+    "Days later, countless bodies began to surface on the lake.",
+    "Kim Dal-yuk, who passed through here as commander of 6th Company, 2nd Battalion, 7th Regiment, 6th Division, recalled it this way."
+   ],
+   "label": "ROK 6th Div., 7th Regt., 2nd Bn. (1949)"
+  },
+  "s59": {
+   "lines": [
+    "The whole reservoir area reeked so badly of rotting corpses that they marched with garlic stuffed in their noses.",
+    "And that the blue waters of Paro Lake had turned red, with bodies drifting on the surface."
+   ],
+   "label": "Dramatization",
+   "callouts": [
+    "VETERAN KIM DAL-YUK'S RECOLLECTION (PRESS)"
+   ]
+  },
+  "s60": {
+   "lines": [
+    "So how many Chinese soldiers fell here in all?",
+    "Drawing on U.S. IX Corps command reports, the ROK Army's Military History Institute put the figure at thirty-two thousand and forty-six killed or captured."
+   ],
+   "big": "32,046",
+   "sub": "Killed or captured · Chiam-ni–Paro Lake, May 24–30, 1951 (ROK Army)"
+  },
+  "s61": {
+   "lines": [
+    "That figure is not the 6th Division's alone, but the result of all of U.S. IX Corps around Chiam-ni and Paro Lake.",
+    "The Encyclopedia of Korean Culture puts Chinese casualties at Paro Lake at no fewer than twenty-five thousand."
+   ],
+   "note": "PVA losses · scope and basis differ by source",
+   "bars": [
+    [
+     "U.S. IX Corps (May 24–30)",
+     "32,046"
+    ],
+    [
+     "Paro Lake (May 26–28)",
+     "25,000+"
+    ]
+   ]
+  },
+  "s62": {
+   "lines": [
+    "The Chinese side, by contrast, is reported to have recorded only around three thousand dead in this battle.",
+    "Victors' records tend to swell, and the losers' to shrink. The exact number still lies submerged beneath the lake."
+   ],
+   "left": [
+    "KOREAN RECORDS",
+    "30,000+"
+   ],
+   "right": [
+    "CHINESE CLAIM",
+    "~3,000"
+   ]
+  },
+  "s63": {
+   "lines": [
+    "One thing is certain.",
+    "The division that had collapsed a month earlier stood at the spearhead of the final blow that ended the enemy's May Offensive.",
+    "The Chinese spring offensive effectively came to an end on these shores."
+   ],
+   "callouts": [
+    "PVA SPRING OFFENSIVE ENDS · LATE MAY 1951"
+   ]
+  },
+  "s64": {
+   "lines": [
+    "And this lake would be given a new name."
+   ],
+   "text": "A NEW NAME",
+   "accent": "破虜湖"
+  },
+  "s65": {
+   "lines": [
+    "President Syngman Rhee gave the Hwachon Reservoir the name Paroho."
+   ],
+   "chapter": [
+    "PART 6",
+    "THE LAKE OF THE DEFEATED BARBARIANS"
+   ],
+   "name": "Syngman Rhee",
+   "role": "First President of the Republic of Korea"
+  },
+  "s66": {
+   "lines": [
+    "Pa, to smash. Ro, a captive, a barbarian. Ho, a lake.",
+    "It means the lake where the barbarians were smashed."
+   ],
+   "hanja": [
+    "PA · SMASH",
+    "RO · BARBARIAN",
+    "HO · LAKE"
+   ]
+  },
+  "s67": {
+   "lines": [
+    "When it was first formed, the lake had sometimes been called Taebung Lake, because its shape resembled a giant mythical bird.",
+    "After the war, it was renamed to carry the memory of a victory."
+   ],
+   "label": "Dramatization"
+  },
+  "s67b": {
+   "lines": [
+    "In November 1955, a monument bearing the name Paroho was unveiled on the lakeshore.",
+    "Today a security exhibition hall and a pavilion stand on that hill, overlooking the whole lake."
+   ],
+   "callouts": [
+    "NOV. 1955 · PAROHO NAMING MONUMENT"
+   ]
+  },
+  "s67c": {
+   "lines": [
+    "A few years ago, a proposal to restore the old name, Taebung Lake, stirred controversy.",
+    "But amid opposition from local veterans and residents, the lake still keeps the name Paroho today."
+   ],
+   "left": [
+    "OLD NAME",
+    "TAEBUNG LAKE"
+   ],
+   "right": [
+    "NAME TODAY",
+    "PAROHO"
+   ]
+  },
+  "s68": {
+   "lines": [
+    "So how could a division that had collapsed only a month earlier become the driving force that trapped an army of thirty thousand?",
+    "Let's look at four reasons."
+   ],
+   "items": [
+    "A division reborn",
+    "A pursuit that never stopped",
+    "The lake as the fourth wall",
+    "One week of supplies"
+   ],
+   "head": "From Sachang-ni's defeat to Paro Lake"
+  },
+  "s69": {
+   "lines": [
+    "First, a division that fell and rose again."
+   ],
+   "num": "FACTOR 1",
+   "title": "A DIVISION REBORN"
+  },
+  "s70": {
+   "lines": [
+    "The humiliation of Sachang-ni left the men determined never to retreat again.",
+    "That resolve was proven at Yongmunsan, and the confidence it gave them carried their exhausted legs sixty kilometers further."
+   ],
+   "label": "Dramatization"
+  },
+  "s71": {
+   "lines": [
+    "Second, a pursuit that never stopped."
+   ],
+   "num": "FACTOR 2",
+   "title": "A PURSUIT THAT NEVER STOPPED"
+  },
+  "s72": {
+   "lines": [
+    "They gave a crumbling enemy no chance to catch its breath.",
+    "Denying the enemy the time to dig in and make a stand again: that was the true meaning of the pursuit."
+   ]
+  },
+  "s73": {
+   "lines": [
+    "Third, the lake as the fourth wall."
+   ],
+   "num": "FACTOR 3",
+   "title": "THE LAKE AS THE FOURTH WALL"
+  },
+  "s74": {
+   "lines": [
+    "Commanders did not miss the fact that the lake funneled the enemy's retreat into a single road.",
+    "And they seized that one chokepoint, the Hwachon Dam and Maebong, first. The side that read the terrain decided the shape of the battle."
+   ]
+  },
+  "s75": {
+   "lines": [
+    "Fourth, one week of supplies."
+   ],
+   "num": "FACTOR 4",
+   "title": "ONE WEEK OF SUPPLIES"
+  },
+  "s76": {
+   "lines": [
+    "A starving army could neither march fast nor hold out long.",
+    "The Chinese offensive broke the moment its supplies ran dry, and that was exactly when the pursuit began."
+   ],
+   "label": "Dramatization"
+  },
+  "s76b": {
+   "lines": [
+    "To sum it up.",
+    "The will of soldiers who had risen again, legs that never rested, and eyes that read the terrain.",
+    "And a starving enemy. All four came together at once on a single lakeshore."
+   ],
+   "big": "WHERE FOUR THINGS MET",
+   "items": [
+    "Will",
+    "Speed",
+    "Terrain",
+    "Supply"
+   ]
+  },
+  "s77": {
+   "lines": [
+    "Of course, this victory has its shadows too.",
+    "As it later emerged, much of the withdrawing enemy force the Americans had targeted had reportedly already slipped through the dam passage by the 27th, when the 6th Division's attack began."
+   ],
+   "label": "Central front, 1951 (reference photo)"
+  },
+  "s78": {
+   "lines": [
+    "The figures also vary widely depending on who counted, when, and how far.",
+    "That is why some researchers treat this battle separately from the Chiam-ni encirclement and the fight for the Hwachon power plant."
+   ],
+   "items": [
+    [
+     "May 18–20",
+     "Yongmunsan defense"
+    ],
+    [
+     "May 23–29",
+     "Chiam-ni ring"
+    ],
+    [
+     "May 26–28",
+     "Paro Lake block"
+    ]
+   ]
+  },
+  "s79": {
+   "lines": [
+    "The war ended, and the lake grew quiet again.",
+    "Today, mist rises over Paro Lake every early morning, and fishing boats drift lazily on the water."
+   ],
+   "label": "Dramatization"
+  },
+  "s80": {
+   "lines": [
+    "But beneath those waters lie countless men who never made it home.",
+    "Whatever their nationality, most of them were young soldiers who did not even leave a name behind."
+   ],
+   "label": "Dramatization"
+  },
+  "s80b": {
+   "lines": [
+    "Those who fought to hold this lake, and those who tried to cross it.",
+    "More than seventy years later, the water flows on in silence, holding all of them."
+   ],
+   "label": "Dramatization"
+  },
+  "s81": {
+   "lines": [
+    "A defeated division rose again, and a victorious army collapsed at the edge of a lake.",
+    "The Lake of the Defeated Barbarians. Behind that name lies the water that swallowed it all."
+   ],
+   "quoteTitle": "What Paro Lake Left Behind",
+   "quotes": [
+    "An army that rose from defeat",
+    "A lake that swallowed everything"
+   ]
+  },
+  "s82": {
+   "lines": [
+    "If this story meant something to you, please join us with a subscribe and a like.",
+    "We will continue the fading records of this war... in the next video."
+   ],
+   "title": "May 1951, Hwachon.\nThe Lake of the Defeated Barbarians."
+  }
+ },
+ "callout_pos": {}
+}

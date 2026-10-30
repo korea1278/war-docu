@@ -1,0 +1,4309 @@
+{
+ "title": "파로호(화천) 전투",
+ "subtitle": "1951. 5. 20 ~ 5. 30",
+ "target_sec": 1170,
+ "midrolls": [
+  "s18",
+  "s42",
+  "s64"
+ ],
+ "places": {
+  "seoul": [
+   126.978,
+   37.566,
+   "서울"
+  ],
+  "yangpyeong": [
+   127.488,
+   37.491,
+   "양평"
+  ],
+  "yongmunsan": [
+   127.53,
+   37.544,
+   "용문산"
+  ],
+  "fwd": [
+   127.52,
+   37.625,
+   "제2연대 전진진지"
+  ],
+  "gapyeong": [
+   127.51,
+   37.831,
+   "가평"
+  ],
+  "chuncheon": [
+   127.73,
+   37.881,
+   "춘천"
+  ],
+  "hongcheon": [
+   127.889,
+   37.697,
+   "홍천"
+  ],
+  "hwacheon": [
+   127.708,
+   38.106,
+   "화천"
+  ],
+  "sachang": [
+   127.47,
+   38.083,
+   "사창리"
+  ],
+  "jiam": [
+   127.633,
+   37.968,
+   "지암리"
+  ],
+  "gyegwan": [
+   127.555,
+   37.928,
+   "계관산"
+  ],
+  "bukbae": [
+   127.592,
+   37.952,
+   "북배산"
+  ],
+  "dam": [
+   127.768,
+   38.111,
+   "화천댐·발전소"
+  ],
+  "maebong": [
+   127.76,
+   38.092,
+   "매봉"
+  ],
+  "yonghwa": [
+   127.746,
+   38.033,
+   "용화산"
+  ],
+  "byeongpung": [
+   127.812,
+   38.047,
+   "병풍산"
+  ],
+  "buyong": [
+   127.786,
+   37.995,
+   "부용산"
+  ],
+  "oeum": [
+   127.862,
+   38.045,
+   "오음리"
+  ],
+  "yanggu": [
+   127.99,
+   38.106,
+   "양구"
+  ],
+  "lake": [
+   127.88,
+   38.13,
+   "화천 저수지"
+  ],
+  "cheorwon": [
+   127.313,
+   38.147,
+   "철원"
+  ],
+  "d187": [
+   127.4,
+   37.79,
+   "187사단"
+  ],
+  "d188": [
+   127.54,
+   37.81,
+   "188사단"
+  ],
+  "d189": [
+   127.68,
+   37.78,
+   "189사단"
+  ],
+  "rok6": [
+   127.66,
+   37.62,
+   "국군 6사단"
+  ],
+  "r2": [
+   127.735,
+   38.06,
+   "2연대"
+  ],
+  "r7": [
+   127.8,
+   38.012,
+   "7연대"
+  ],
+  "r19": [
+   127.6,
+   37.99,
+   "19연대"
+  ],
+  "us7": [
+   127.68,
+   37.99,
+   "미 7사단"
+  ],
+  "pva": [
+   127.85,
+   38.07,
+   "중공군 퇴각 행렬"
+  ]
+ },
+ "views": {
+  "korea": {
+   "center": [
+    127.6,
+    37.8
+   ],
+   "span": 4.2
+  },
+  "central": {
+   "center": [
+    127.62,
+    37.8
+   ],
+   "span": 1.3
+  },
+  "yongmun": {
+   "center": [
+    127.54,
+    37.66
+   ],
+   "span": 0.62
+  },
+  "pursuit": {
+   "center": [
+    127.63,
+    37.8
+   ],
+   "span": 0.9
+  },
+  "jiam": {
+   "center": [
+    127.6,
+    37.95
+   ],
+   "span": 0.4
+  },
+  "north": {
+   "center": [
+    127.74,
+    37.99
+   ],
+   "span": 0.62
+  },
+  "paroho": {
+   "center": [
+    127.8,
+    38.075
+   ],
+   "span": 0.42
+  },
+  "trap": {
+   "center": [
+    127.79,
+    38.05
+   ],
+   "span": 0.24
+  },
+  "dam": {
+   "center": [
+    127.768,
+    38.094
+   ],
+   "span": 0.13
+  },
+  "lake": {
+   "center": [
+    127.86,
+    38.12
+   ],
+   "span": 0.36
+  }
+ },
+ "music": [
+  {
+   "id": "drone",
+   "from": "s01",
+   "to": "s05",
+   "volume": 0.2
+  },
+  {
+   "id": "theme",
+   "from": "s06",
+   "to": "s17",
+   "volume": 0.16
+  },
+  {
+   "id": "march",
+   "from": "s18",
+   "to": "s30",
+   "volume": 0.15
+  },
+  {
+   "id": "tension",
+   "from": "s31",
+   "to": "s41",
+   "volume": 0.17
+  },
+  {
+   "id": "march",
+   "from": "s42",
+   "to": "s52",
+   "volume": 0.15
+  },
+  {
+   "id": "tension",
+   "from": "s53",
+   "to": "s57",
+   "volume": 0.17
+  },
+  {
+   "id": "somber",
+   "from": "s58",
+   "to": "s64",
+   "volume": 0.17
+  },
+  {
+   "id": "analysis",
+   "from": "s65",
+   "to": "s78",
+   "volume": 0.13
+  },
+  {
+   "id": "somber",
+   "from": "s79",
+   "to": "s82",
+   "volume": 0.17
+  }
+ ],
+ "ai_images": {
+  "night_ridge": "A dark mountain ridge in central Korea at night in May 1951, silhouetted pine trees, several red signal flares rising into a cloudy sky, faint moonlight, cinematic wide shot, desaturated almost black-and-white palette with only the red flares in color, painterly realistic digital illustration, film grain, no people visible, no text.",
+  "pva_wave": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: many Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red flag of China with yellow stars, wearing quilted khaki uniforms, charging up a steep moonlit rocky mountain slope at night, one soldier blowing a bugle, flares illuminating the sky, dramatic low angle, cold blue night palette, no text, no letters.",
+  "rok_hold": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a South Korean soldier whose head is a round ball painted as the South Korean taegukgi flag, wearing a 1951 M1 helmet and olive uniform, firing a Browning machine gun from a sandbagged foxhole on a mountain ridge at night, flares and tracer fire in the sky, a comrade passing ammunition beside him, intense cinematic lighting, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "rok_counter": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag, in 1951 M1 helmets and olive uniforms, advancing forward with fixed bayonets over a mountain ridge at dawn, sunrise light behind them, a taegukgi flag carried by one soldier, heroic low-angle cinematic composition, leaving calm uncluttered dark background area in the top center, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "lake_helmet": "A quiet misty lake at dawn surrounded by forested Korean mountains, an old rusted 1950s steel helmet lying half-buried on the pebble shore in the foreground, soft fog over the water, melancholic, desaturated cinematic realistic painting, film grain, no people, no text.",
+  "paroho_today": "A tranquil wide reservoir lake surrounded by forested mountains in Gangwon-do, South Korea, at early morning, thin mist drifting over calm water, two small wooden fishing boats with anglers far away, soft pastel dawn light, realistic photographic style, peaceful, no text.",
+  "pva_commander": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a Chinese People's Volunteer Army commander whose head is a round ball painted as the red flag of China with yellow stars, wearing a 1951 khaki quilted PVA uniform and cap, standing in a dim candlelit command bunker and pointing confidently at a large paper military map of mountains on a wooden table, two officers in the background, warm lamp light, night, leaving calm uncluttered dark background area in the upper left, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "fog_lake": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: dawn on a long narrow mountain reservoir in Gangwon-do Korea in late May 1951, thick white fog lying on dark still water, steep forested ridges on both shores, a broken wooden boat and scattered abandoned Chinese padded caps and a rifle floating near the reedy shore, eerie silence, desaturated cold blue-grey palette, no people visible, no gore, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "sachang_rout": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: April 1951 night, South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag, wearing 1951 M1 steel helmets and olive drab field uniforms retreating in disorder down a muddy mountain road near Sachang-ri, abandoned trucks and a howitzer left behind, red flares in the sky, shame and confusion on their faces, no gore, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "rok_resolve2": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: May 1951, South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag, wearing 1951 M1 steel helmets and olive drab field uniforms digging in on a forested mountain ridge near Yongmunsan at dusk, an officer pointing down the slope, sandbags and ammunition boxes, grim determined faces, warm last light, leaving calm uncluttered dark background area in the upper left, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "night_march": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: night in late May 1951, a long column of South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag, wearing 1951 M1 steel helmets and olive drab field uniforms marching fast along a narrow mountain trail under moonlight, rifles slung, sweat and exhaustion on their faces, some carrying ammunition boxes on A-frame packs, distant flares, determined pursuit, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "pva_hungry": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: late May 1951, exhausted Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red flag of the People's Republic of China with yellow stars, wearing 1951 padded khaki quilted uniforms and soft caps retreating north along a dusty dirt road in a mountain valley, one opening an empty long cloth rice-bag tube, wounded men leaning on each other, abandoned carts, overcast sky, defeated mood, no gore, leaving calm uncluttered dark background area in the upper left, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "jiam_surrender": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: May 1951, a large group of Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red flag of the People's Republic of China with yellow stars, wearing 1951 padded khaki quilted uniforms and soft caps raising their hands to surrender on a hillside road to a small squad of South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag, wearing 1951 M1 steel helmets and olive drab field uniforms, an American GMC truck waiting, rifles piled on the ground, relief and fear on faces, no gore, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "air_recon": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: May 1951, view from the cockpit of a small US Army L-19 observation plane over Korean mountains, below a very long column of Chinese soldiers, horse carts, a few trucks and towed guns winding along a dirt road beside a long dark reservoir, the pilot's gloved hand holding a map, dramatic, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "dam_road": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: late May 1951, aerial-style wide view of a narrow dirt road squeezed between a steep forested mountain and the dark water of a long reservoir near a concrete hydroelectric dam, a dense column of Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red flag of the People's Republic of China with yellow stars, wearing 1951 padded khaki quilted uniforms and soft caps crowded on the road, artillery shell bursts on the slope above, smoke, bottleneck feeling, no gore, leaving calm uncluttered dark background area in the upper left, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "maebong_assault": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: 27 May 1951 morning, South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag, wearing 1951 M1 steel helmets and olive drab field uniforms of the 2nd Regiment charging up a steep wooded peak (Maebong) above a concrete hydroelectric dam and power station, fixed bayonets, a taegukgi flag, smoke from artillery, heroic low angle, leaving calm uncluttered dark background area in the top center, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "lake_swim": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: late May 1951, desperate Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red flag of the People's Republic of China with yellow stars, wearing 1951 padded khaki quilted uniforms and soft caps wading and trying to swim across a wide deep reservoir to escape, some clinging to logs, American fighter planes diving overhead in the distance, water splashes, dark tragic mood, no gore, no blood, leaving calm uncluttered dark background area in the upper left, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "pows_column": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: late May 1951, an endless column of surrendered Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red flag of the People's Republic of China with yellow stars, wearing 1951 padded khaki quilted uniforms and soft caps with hands on their heads walking along a reservoir road guarded by a few South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag, wearing 1951 M1 steel helmets and olive drab field uniforms, captured rifles and machine guns piled beside the road, dusty sunlight, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "garlic_march": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: early June 1951, South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag, wearing 1951 M1 steel helmets and olive drab field uniforms marching along the shore of a mountain reservoir, covering their noses with cloths against a terrible smell, grim pale faces, flies, hazy grey sky, the water dark and still, no bodies visible, no gore, leaving calm uncluttered dark background area in the upper left, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "naming": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: 1950s South Korea, an elderly statesman in a dark suit and round glasses seen from behind standing on a hill pavilion overlooking a long mountain reservoir, an aide holding a calligraphy scroll with blank paper, solemn morning light, no text on the scroll, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "thumb_subject": "Photorealistic black-and-white 1951 Korean War documentary portrait of a determined young South Korean infantry assault soldier of the ROK 6th Division, 1951 M1 steel helmet with chin strap, sweat- and dust-streaked face, intense resolute eyes, jaw clenched, olive drab field jacket, bandolier of rifle ammunition across his chest, M1 rifle held at port arms, waist-up, face clearly visible and turned slightly toward the left of the frame, sharp studio-like detail, high contrast monochrome, isolated on a plain pure white background, no shadows on the background, no scenery, no text, no letters, no logos, no watermark."
+ },
+ "scenes": [
+  {
+   "id": "s01",
+   "lines": [
+    {
+     "t": "1951년 5월 말, 강원도 화천.",
+     "say": "천구백오십일 년 오월 말, 강원도 화천."
+    },
+    "짙은 안개가 내려앉은 거대한 저수지 위로, 무언가가 하나둘 떠오르기 시작했습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "fog_lake",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "1951. 5 말 · 화천 저수지",
+     "style": "yellow",
+     "at": 0
+    }
+   ],
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0.2,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "lines": [
+    "저 푸른 호수가 붉게 물들고, 시체가 둥둥 떠다녔다.",
+    "이곳으로 진격하던 한 국군 중대장은, 훗날 그날의 호수를 이렇게 기억했습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "“호수가 붉게 물들었다”",
+    "accent": "국군 6사단 중대장의 회고",
+    "accentAt": 1
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.35
+    }
+   ],
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s03",
+   "lines": [
+    {
+     "t": "한국 측 전사는 이 일대에서 사살되거나 포로가 된 중공군을, 3만 명이 넘는다고 기록합니다.",
+     "say": "한국 측 전사는 이 일대에서 사살되거나 포로가 된 중공군을, 삼만 명이 넘는다고 기록합니다."
+    },
+    "그들에게는 북쪽으로 난 퇴로가 있었는데, 왜 이 호수 앞에서 멈춰 섰을까요?"
+   ],
+   "visual": {
+    "type": "text",
+    "big": "3만여 명",
+    "style": "red",
+    "sub": "사살·포로 · 한국 측 전사 기준 (미 9군단 보고 토대)",
+    "subAt": 1
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0.2,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "lines": [
+    "파로호 전투.",
+    {
+     "t": "오늘은 패배의 수렁에서 일어선 국군 제6사단의 60km 대추격전, 그리고 오랑캐를 무찌른 호수라는 이름이 붙기까지의 이야기입니다.",
+     "say": "오늘은 패배의 수렁에서 일어선 국군 제육 사단의 육십 킬로미터 대추격전, 그리고 오랑캐를 무찌른 호수라는 이름이 붙기까지의 이야기입니다."
+    }
+   ],
+   "visual": {
+    "type": "titlecard",
+    "q": "s05-photo",
+    "title": "파로호(화천) 전투",
+    "sub": "60km 대추격과 화천 저수지의 섬멸전 · 1951",
+    "at": 0
+   },
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0,
+     "volume": 0.5
+    }
+   ],
+   "flash": true
+  },
+  {
+   "id": "s05b",
+   "lines": [
+    {
+     "t": "6사단은 원래, 자부심이 남다른 부대였습니다.",
+     "say": "육 사단은 원래, 자부심이 남다른 부대였습니다."
+    },
+    {
+     "t": "1950년 10월 26일, 국군과 유엔군을 통틀어 가장 먼저 압록강 물을 떠 올린 부대가 바로 6사단 7연대였거든요.",
+     "say": "천구백오십 년 시월 이십육 일, 국군과 유엔군을 통틀어 가장 먼저 압록강 물을 떠 올린 부대가 바로 육 사단 칠 연대였거든요."
+    }
+   ],
+   "visual": {
+    "type": "black",
+    "text": "압록강에 처음 닿은 사단",
+    "accent": "1950. 10. 26 · 초산 · 6사단 7연대",
+    "accentAt": 1
+   },
+   "chapter": {
+    "num": "PART 1",
+    "title": "용문산의 기적, 반격의 서막"
+   },
+   "pauseBefore": 0.2
+  },
+  {
+   "id": "s06",
+   "lines": [
+    "그런데 반년 뒤, 그 사단에게 치욕의 패배가 찾아옵니다.",
+    {
+     "t": "1951년 4월 22일 밤, 중공군이 이른바 4월 공세를 시작했습니다.",
+     "say": "천구백오십일 년 사월 이십이 일 밤, 중공군이 이른바 사월 공세를 시작했습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "central",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.2,
+        38.05
+       ],
+       [
+        127.4,
+        38.1
+       ],
+       [
+        127.6,
+        38.12
+       ],
+       [
+        127.8,
+        38.13
+       ],
+       [
+        128.1,
+        38.18
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "sachang",
+      "color": "red",
+      "at": 0.8
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.45,
+        38.3
+       ],
+       [
+        127.46,
+        38.18
+       ],
+       [
+        127.47,
+        38.09
+       ]
+      ],
+      "color": "red",
+      "at": 1.2,
+      "width": 1.0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1951. 4. 22 · 중공군 4월 공세",
+     "style": "red",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s07",
+   "lines": [
+    {
+     "t": "화천 서쪽 사창리를 지키던 국군 제6사단은, 그 첫 일격에 무너졌습니다.",
+     "say": "화천 서쪽 사창리를 지키던 국군 제육 사단은, 그 첫 일격에 무너졌습니다."
+    },
+    "병사들은 장비와 포를 버린 채 산을 넘어 흩어졌고, 사단은 한때 전투력을 거의 잃어버렸죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "sachang_rout",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.3,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s08",
+   "lines": [
+    "옆에서 싸우던 미 해병대와 영연방군의 측면이 통째로 드러났습니다.",
+    "미군 지휘부는 이 사단을 향해, 사실상 사라진 부대라는 말까지 했다고 합니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "사라진 사단",
+    "accent": "1951. 4 · 사창리",
+    "accentAt": 1
+   }
+  },
+  {
+   "id": "s08b",
+   "lines": [
+    {
+     "t": "미 8군 사령관 밴 플리트와 유엔군 사령관 리지웨이는, 이승만 대통령에게 국군 지휘 문제를 거세게 따졌다고 전해집니다.",
+     "say": "미 팔 군 사령관 밴 플리트와 유엔군 사령관 리지웨이는, 이승만 대통령에게 국군 지휘 문제를 거세게 따졌다고 전해집니다."
+    },
+    {
+     "t": "6사단의 이름은, 그렇게 바닥까지 떨어졌습니다.",
+     "say": "육 사단의 이름은, 그렇게 바닥까지 떨어졌습니다."
+    }
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "1950. 10",
+     "big": "압록강 선봉",
+     "icon": "none",
+     "color": "blue"
+    },
+    "right": {
+     "title": "1951. 4",
+     "big": "사라진 사단",
+     "icon": "none",
+     "color": "red",
+     "at": 1
+    }
+   },
+   "callouts": [
+    {
+     "text": "전해지는 이야기",
+     "style": "dark",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s09",
+   "lines": [
+    "사단장 장도영 준장.",
+    "그는 흩어진 병사들을 다시 모으고, 장교들에게 다음 싸움에서는 결코 물러서지 않겠다는 각오를 요구했습니다."
+   ],
+   "visual": {
+    "type": "person",
+    "q": "s09-photo",
+    "name": "장도영",
+    "years": "1923 - 2012",
+    "role": "국군 제6사단장 (준장)"
+   }
+  },
+  {
+   "id": "s10",
+   "lines": [
+    "그리고 한 달 뒤, 설욕의 기회가 찾아옵니다.",
+    {
+     "t": "5월 16일, 중공군이 다시 대공세를 시작한 겁니다.",
+     "say": "오월 십육 일, 중공군이 다시 대공세를 시작한 겁니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "central",
+    "to": "yongmun",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.85,
+        37.62
+       ],
+       [
+        127.1,
+        37.66
+       ],
+       [
+        127.3,
+        37.62
+       ],
+       [
+        127.5,
+        37.6
+       ],
+       [
+        127.7,
+        37.66
+       ],
+       [
+        127.95,
+        37.74
+       ],
+       [
+        128.2,
+        37.8
+       ],
+       [
+        128.45,
+        37.95
+       ],
+       [
+        128.65,
+        38.07
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "yongmunsan",
+      "color": "dark",
+      "at": 0.5
+     },
+     {
+      "k": "unit",
+      "p": "rok6",
+      "text": "국군 6사단",
+      "color": "blue",
+      "at": 1.0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1951. 5. 16 · 중공군 5월 공세",
+     "style": "red",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "lines": [
+    {
+     "t": "경기도 양평의 용문산 일대를 지키던 6사단 앞으로, 중공군 제63군의 3개 사단이 밀려왔습니다.",
+     "say": "경기도 양평의 용문산 일대를 지키던 육 사단 앞으로, 중공군 제육십삼 군의 삼 개 사단이 밀려왔습니다."
+    },
+    {
+     "t": "187사단, 188사단, 189사단. 1개 사단을 상대로 3개 사단이었죠.",
+     "say": "백팔십칠 사단, 백팔십팔 사단, 백팔십구 사단. 일 개 사단을 상대로 삼 개 사단이었죠."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "yongmun",
+    "to": "pursuit",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.85,
+        37.62
+       ],
+       [
+        127.1,
+        37.66
+       ],
+       [
+        127.3,
+        37.62
+       ],
+       [
+        127.5,
+        37.6
+       ],
+       [
+        127.7,
+        37.66
+       ],
+       [
+        127.95,
+        37.74
+       ],
+       [
+        128.2,
+        37.8
+       ],
+       [
+        128.45,
+        37.95
+       ],
+       [
+        128.65,
+        38.07
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "d187",
+      "text": "187사단",
+      "color": "red",
+      "at": 0.3
+     },
+     {
+      "k": "unit",
+      "p": "d188",
+      "text": "188사단",
+      "color": "red",
+      "at": 0.6
+     },
+     {
+      "k": "unit",
+      "p": "d189",
+      "text": "189사단",
+      "color": "red",
+      "at": 0.9
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.42,
+        37.77
+       ],
+       [
+        127.47,
+        37.7
+       ],
+       [
+        127.51,
+        37.64
+       ]
+      ],
+      "color": "red",
+      "at": 1.2,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.54,
+        37.79
+       ],
+       [
+        127.53,
+        37.71
+       ],
+       [
+        127.52,
+        37.64
+       ]
+      ],
+      "color": "red",
+      "at": 1.4,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.67,
+        37.76
+       ],
+       [
+        127.6,
+        37.7
+       ],
+       [
+        127.55,
+        37.64
+       ]
+      ],
+      "color": "red",
+      "at": 1.6,
+      "width": 1.0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "중공군 제63군 · 3개 사단",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s11b",
+   "lines": [
+    "중공군 지휘부는 자신만만했습니다.",
+    "눈앞의 적은, 한 달 전 자신들이 무너뜨린 바로 그 사단이었으니까요.",
+    "계산대로라면, 하룻밤이면 끝날 싸움이었죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "pva_commander",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s11c",
+   "lines": [
+    {
+     "t": "5월 18일 밤, 용문산 앞 능선 위로 붉은 신호탄이 하나둘 솟아올랐습니다.",
+     "say": "오월 십팔 일 밤, 용문산 앞 능선 위로 붉은 신호탄이 하나둘 솟아올랐습니다."
+    },
+    "곧이어 어둠 속에서, 수천 명의 함성이 산을 타고 울려 퍼졌죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "night_ridge",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.5,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "lines": [
+    {
+     "t": "사단은 제2연대만 앞쪽 전진진지에 내보내고, 7연대와 19연대는 뒤쪽 주저항선에 배치해 두었습니다.",
+     "say": "사단은 제이 연대만 앞쪽 전진진지에 내보내고, 칠 연대와 십구 연대는 뒤쪽 주저항선에 배치해 두었습니다."
+    },
+    {
+     "t": "5월 18일 낮, 중공군은 중대 규모로 몇 차례 강을 건너오다 모두 격퇴됩니다.",
+     "say": "오월 십팔 일 낮, 중공군은 중대 규모로 몇 차례 강을 건너오다 모두 격퇴됩니다."
+    },
+    {
+     "t": "그러자 19일 새벽, 이 전진진지를 주력으로 착각한 중공군이 187사단과 188사단의 주력을 한꺼번에 쏟아붓기 시작하죠.",
+     "say": "그러자 십구 일 새벽, 이 전진진지를 주력으로 착각한 중공군이 백팔십칠 사단과 백팔십팔 사단의 주력을 한꺼번에 쏟아붓기 시작하죠."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "yongmun",
+    "to": "yongmun",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.85,
+        37.62
+       ],
+       [
+        127.1,
+        37.66
+       ],
+       [
+        127.3,
+        37.62
+       ],
+       [
+        127.5,
+        37.6
+       ],
+       [
+        127.7,
+        37.66
+       ],
+       [
+        127.95,
+        37.74
+       ],
+       [
+        128.2,
+        37.8
+       ],
+       [
+        128.45,
+        37.95
+       ],
+       [
+        128.65,
+        38.07
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "fwd",
+      "text": "2연대 전진진지",
+      "color": "blue",
+      "at": 0.2,
+      "pulse": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.47,
+        37.72
+       ],
+       [
+        127.5,
+        37.665
+       ],
+       [
+        127.515,
+        37.635
+       ]
+      ],
+      "color": "red",
+      "at": 1.0,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.58,
+        37.72
+       ],
+       [
+        127.55,
+        37.67
+       ],
+       [
+        127.528,
+        37.635
+       ]
+      ],
+      "color": "red",
+      "at": 1.2,
+      "width": 1.0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1951. 5. 18~19 · 전진진지 혈전",
+     "style": "blue",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "lines": [
+    "밤마다 나팔과 꽹과리 소리를 앞세운 파상공세가 이어졌습니다.",
+    {
+     "t": "2연대는 포위당하고도 진지를 내주지 않았죠. 포병의 화력이, 산비탈을 오르는 중공군 위로 쉴 새 없이 쏟아졌습니다.",
+     "say": "이 연대는 포위당하고도 진지를 내주지 않았죠. 포병의 화력이, 산비탈을 오르는 중공군 위로 쉴 새 없이 쏟아졌습니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "pva_wave",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "charge",
+     "at": 0.3,
+     "volume": 0.35
+    },
+    {
+     "id": "mg",
+     "at": 1.5,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "lines": [
+    "버티는 사이 적은 지쳤고, 탄약과 식량은 바닥나기 시작했습니다.",
+    {
+     "t": "그리고 5월 20일, 6사단은 마침내 반격으로 돌아섭니다.",
+     "say": "그리고 오월 이십 일, 육 사단은 마침내 반격으로 돌아섭니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "rok_hold",
+    "kb": "out"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "1951. 5. 20 · 반격 개시",
+     "style": "blue",
+     "at": 1,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 0.2,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "lines": [
+    {
+     "t": "한 달 전 사창리에서 무너졌던 바로 그 사단이, 3개 사단을 밀어내기 시작한 겁니다.",
+     "say": "한 달 전 사창리에서 무너졌던 바로 그 사단이, 삼 개 사단을 밀어내기 시작한 겁니다."
+    },
+    "사람들은 이 싸움을, 용문산 대첩이라 부르게 되죠."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "1951. 4 사창리",
+     "big": "붕괴",
+     "icon": "none",
+     "color": "red"
+    },
+    "right": {
+     "title": "1951. 5 용문산",
+     "big": "대첩",
+     "icon": "none",
+     "color": "blue",
+     "at": 1
+    }
+   }
+  },
+  {
+   "id": "s16",
+   "lines": [
+    "하지만 진짜 이야기는, 여기서부터입니다.",
+    {
+     "t": "무너지는 적을 향해, 6사단의 추격이 시작됐거든요.",
+     "say": "무너지는 적을 향해, 육 사단의 추격이 시작됐거든요."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "rok_counter",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s17",
+   "lines": [
+    "격전의 현장에 남겨진 무명의 기록들.",
+    "이 처절한 역사를 끝까지 기록할 수 있도록, 구독과 좋아요로 함께해 주십시오."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "무명의 기록들",
+    "accent": "구독 · 좋아요로 함께해 주십시오",
+    "accentAt": 1
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s18",
+   "lines": [
+    {
+     "t": "그리고 5월 20일, 피의 추격이 시작됩니다.",
+     "say": "그리고 오월 이십 일, 피의 추격이 시작됩니다."
+    }
+   ],
+   "visual": {
+    "type": "black",
+    "text": "1951. 5. 20",
+    "accent": "추격 개시",
+    "accentAt": 0.5
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ],
+   "pauseBefore": 0.4
+  },
+  {
+   "id": "s19",
+   "lines": [
+    {
+     "t": "5월 하순, 유엔군은 중부 전선 전역에서 반격에 나섭니다.",
+     "say": "오월 하순, 유엔군은 중부 전선 전역에서 반격에 나섭니다."
+    },
+    {
+     "t": "6사단이 속한 미 제9군단도, 미 24사단과 국군 2사단, 미 7사단과 함께 북쪽으로 밀고 올라갔죠.",
+     "say": "육 사단이 속한 미 제구 군단도, 미 이십사 사단과 국군 이 사단, 미 칠 사단과 함께 북쪽으로 밀고 올라갔죠."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "central",
+    "to": "central",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.85,
+        37.62
+       ],
+       [
+        127.1,
+        37.66
+       ],
+       [
+        127.3,
+        37.62
+       ],
+       [
+        127.5,
+        37.6
+       ],
+       [
+        127.7,
+        37.66
+       ],
+       [
+        127.95,
+        37.74
+       ],
+       [
+        128.2,
+        37.8
+       ],
+       [
+        128.45,
+        37.95
+       ],
+       [
+        128.65,
+        38.07
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.3,
+        37.66
+       ],
+       [
+        127.3,
+        37.85
+       ],
+       [
+        127.32,
+        38.0
+       ]
+      ],
+      "color": "blue",
+      "at": 0.6,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.53,
+        37.62
+       ],
+       [
+        127.52,
+        37.8
+       ],
+       [
+        127.6,
+        37.95
+       ]
+      ],
+      "color": "blue",
+      "at": 0.8,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.75,
+        37.7
+       ],
+       [
+        127.73,
+        37.85
+       ],
+       [
+        127.72,
+        38.0
+       ]
+      ],
+      "color": "blue",
+      "at": 1.0,
+      "width": 1.0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "미 제9군단 반격 · 1951. 5 하순",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "chapter": {
+    "num": "PART 2",
+    "title": "60km 지옥의 대추격전"
+   }
+  },
+  {
+   "id": "s19b",
+   "lines": [
+    {
+     "t": "사실 5월 공세에서 중공군이 가장 큰 힘을 실은 곳은, 동쪽 산악 지대였습니다.",
+     "say": "사실 오월 공세에서 중공군이 가장 큰 힘을 실은 곳은, 동쪽 산악 지대였습니다."
+    },
+    {
+     "t": "6사단 앞으로 온 63군은 그 주공을 돕는 조공이었죠.",
+     "say": "육 사단 앞으로 온 육십삼 군은 그 주공을 돕는 조공이었죠."
+    },
+    "그런데 그 조공이 먼저 무너지면서, 중부 전선에 거대한 틈이 열린 겁니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "central",
+    "to": "central",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.85,
+        37.62
+       ],
+       [
+        127.1,
+        37.66
+       ],
+       [
+        127.3,
+        37.62
+       ],
+       [
+        127.5,
+        37.6
+       ],
+       [
+        127.7,
+        37.66
+       ],
+       [
+        127.95,
+        37.74
+       ],
+       [
+        128.2,
+        37.8
+       ],
+       [
+        128.45,
+        37.95
+       ],
+       [
+        128.65,
+        38.07
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.3,
+        38.2
+       ],
+       [
+        128.25,
+        38.0
+       ],
+       [
+        128.2,
+        37.85
+       ]
+      ],
+      "color": "red",
+      "at": 0.3,
+      "width": 1.2
+     },
+     {
+      "k": "unit",
+      "p": "rok6",
+      "text": "국군 6사단 · 조공 격파",
+      "color": "blue",
+      "at": 1.0,
+      "pulse": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.55,
+        37.66
+       ],
+       [
+        127.57,
+        37.8
+       ],
+       [
+        127.62,
+        37.92
+       ]
+      ],
+      "color": "blue",
+      "at": 1.6,
+      "width": 1.0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "적 주공 = 동부 / 6사단 정면 = 조공",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s20",
+   "lines": [
+    {
+     "t": "6사단이 달려간 길은, 양평에서 가평과 춘천을 지나 화천 발전소까지.",
+     "say": "육 사단이 달려간 길은, 양평에서 가평과 춘천을 지나 화천 발전소까지."
+    },
+    {
+     "t": "직선으로만 따져도, 약 60km에 이르는 산악 지대였습니다.",
+     "say": "직선으로만 따져도, 약 육십 킬로미터에 이르는 산악 지대였습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "pursuit",
+    "to": "north",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.53,
+        37.585
+       ],
+       [
+        127.515,
+        37.7
+       ],
+       [
+        127.51,
+        37.825
+       ],
+       [
+        127.6,
+        37.87
+       ],
+       [
+        127.725,
+        37.89
+       ],
+       [
+        127.745,
+        37.98
+       ],
+       [
+        127.76,
+        38.085
+       ]
+      ],
+      "color": "blue",
+      "at": 0.3,
+      "width": 1.0,
+      "dur": 3.0
+     },
+     {
+      "k": "marker",
+      "p": "gapyeong",
+      "color": "dark",
+      "at": 0.6
+     },
+     {
+      "k": "marker",
+      "p": "chuncheon",
+      "color": "dark",
+      "at": 1.0
+     },
+     {
+      "k": "unit",
+      "p": "dam",
+      "text": "화천 발전소",
+      "color": "red",
+      "at": 1.6,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "추격로 약 60km · 경로 개략",
+     "style": "yellow",
+     "at": 0.5,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s21",
+   "lines": [
+    "병사들은 낮에는 싸우고, 밤에는 걸었습니다.",
+    "등에는 탄약과 주먹밥을 지고, 지도에도 제대로 나오지 않는 산길을 따라 적의 꼬리를 쫓았죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "night_march",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0,
+     "volume": 0.25
+    }
+   ]
+  },
+  {
+   "id": "s21b",
+   "lines": [
+    "길가에는 버려진 수레와 소총, 불탄 짐 꾸러미가 끝없이 이어졌고, 그 길을 따라 전차와 보병이 북쪽으로 밀고 올라갔습니다.",
+    "그 흔적을 따라가기만 해도, 적이 어느 쪽으로 도망쳤는지 알 수 있을 정도였죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s21b-photo",
+    "kb": "in"
+   },
+   "label": "전차와 보병의 진격 (1951 · 참고 사진)"
+  },
+  {
+   "id": "s22",
+   "lines": [
+    "쫓기는 쪽의 사정은, 훨씬 나빴습니다.",
+    "중공군 병사들은 공세 때 대개 며칠 치 식량만 짊어지고 싸웠습니다.",
+    "보급이 끊기면, 공세도 거기서 멈출 수밖에 없는 구조였죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "pva_hungry",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s23",
+   "lines": [
+    "유엔군은 이 약점을, 일주일짜리 공세라고 불렀습니다.",
+    "공세가 꺾인 지금, 중공군에게 남은 건 굶주림과 피로, 그리고 등 뒤에서 달려오는 추격군뿐이었죠."
+   ],
+   "visual": {
+    "type": "gauges",
+    "big": "일주일짜리 공세",
+    "items": [
+     {
+      "label": "식량 소진",
+      "at": 0.4
+     },
+     {
+      "label": "탄약 고갈",
+      "at": 0.7
+     },
+     {
+      "label": "추격군",
+      "at": 1.0
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "clock",
+     "at": 0,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s23b",
+   "lines": [
+    {
+     "t": "6사단의 추격은, 날짜로 보면 이렇습니다.",
+     "say": "육 사단의 추격은, 날짜로 보면 이렇습니다."
+    },
+    {
+     "t": "5월 20일 반격, 25일 계관산과 북배산, 26일 춘천 집결, 27일 화천 발전소 공격.",
+     "say": "오월 이십 일 반격, 이십오 일 계관산과 북배산, 이십육 일 춘천 집결, 이십칠 일 화천 발전소 공격."
+    },
+    "불과 여드레 만에, 사단은 양평에서 화천 저수지 앞까지 내달렸습니다."
+   ],
+   "visual": {
+    "type": "timeline",
+    "items": [
+     {
+      "date": "5월 20일",
+      "text": "용문산 반격",
+      "at": 0
+     },
+     {
+      "date": "5월 25일",
+      "text": "계관산·북배산",
+      "at": 0.6
+     },
+     {
+      "date": "5월 26일",
+      "text": "춘천 집결",
+      "at": 1.0
+     },
+     {
+      "date": "5월 27일",
+      "text": "화천 발전소",
+      "at": 1.4
+     }
+    ]
+   }
+  },
+  {
+   "id": "s24",
+   "lines": [
+    {
+     "t": "5월 25일, 6사단 앞을 가로막은 것은 가평 북쪽의 높은 산줄기였습니다.",
+     "say": "오월 이십오 일, 육 사단 앞을 가로막은 것은 가평 북쪽의 높은 산줄기였습니다."
+    },
+    "중공군 후위 부대가 계관산과 북배산에 버티며, 시간을 벌고 있었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "pursuit",
+    "to": "jiam",
+    "items": [
+     {
+      "k": "marker",
+      "p": "gyegwan",
+      "color": "red",
+      "at": 0.4
+     },
+     {
+      "k": "marker",
+      "p": "bukbae",
+      "color": "red",
+      "at": 0.7
+     },
+     {
+      "k": "marker",
+      "p": "jiam",
+      "color": "dark",
+      "at": 1.2
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1951. 5. 25 · 계관산–북배산",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s25",
+   "lines": [
+    {
+     "t": "사단은 2연대와 7연대로 정면의 고지를 치게 했습니다.",
+     "say": "사단은 이 연대와 칠 연대로 정면의 고지를 치게 했습니다."
+    },
+    {
+     "t": "그리고 19연대에게는 전혀 다른 임무를 줍니다. 북배산 뒤쪽으로 크게 돌아, 적의 퇴로를 끊으라는 것이었죠.",
+     "say": "그리고 십구 연대에게는 전혀 다른 임무를 줍니다. 북배산 뒤쪽으로 크게 돌아, 적의 퇴로를 끊으라는 것이었죠."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "jiam",
+    "to": "jiam",
+    "items": [
+     {
+      "k": "marker",
+      "p": "gyegwan",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "bukbae",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.5,
+        37.86
+       ],
+       [
+        127.53,
+        37.9
+       ],
+       [
+        127.55,
+        37.922
+       ]
+      ],
+      "color": "blue",
+      "at": 0.3,
+      "width": 0.8
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.6,
+        37.87
+       ],
+       [
+        127.596,
+        37.91
+       ],
+       [
+        127.592,
+        37.945
+       ]
+      ],
+      "color": "blue",
+      "at": 0.5,
+      "width": 0.8
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.52,
+        37.875
+       ],
+       [
+        127.55,
+        37.955
+       ],
+       [
+        127.6,
+        37.99
+       ],
+       [
+        127.628,
+        37.972
+       ]
+      ],
+      "color": "blue",
+      "at": 1.2,
+      "width": 1.0,
+      "dur": 2.0
+     },
+     {
+      "k": "unit",
+      "p": "r19",
+      "text": "19연대 · 우회 차단",
+      "color": "blue",
+      "at": 1.8
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "정면 2·7연대 / 우회 19연대",
+     "style": "blue",
+     "at": 0.8,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s26",
+   "lines": [
+    {
+     "t": "19연대가 지암리에 들어서자, 포위망이 닫혔습니다.",
+     "say": "십구 연대가 지암리에 들어서자, 포위망이 닫혔습니다."
+    },
+    "고지에서 밀려 내려온 중공군은, 북쪽으로 빠져나가는 골짜기 길에서 그대로 갇혀 버렸죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "jiam",
+    "to": "jiam",
+    "items": [
+     {
+      "k": "unit",
+      "p": "jiam",
+      "text": "지암리 포위",
+      "color": "red",
+      "at": 0.2,
+      "pulse": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.58,
+        37.93
+       ],
+       [
+        127.61,
+        37.955
+       ],
+       [
+        127.63,
+        37.965
+       ]
+      ],
+      "color": "red",
+      "at": 0.7,
+      "width": 0.8
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.61,
+        37.99
+       ],
+       [
+        127.64,
+        37.975
+       ],
+       [
+        127.66,
+        37.955
+       ]
+      ],
+      "color": "blue",
+      "at": 1.2,
+      "glow": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "지암리 포위전 · 좌표 개략",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s27",
+   "lines": [
+    {
+     "t": "이 포위전에서 6사단이 붙잡은 포로만, 2,600명이 넘었습니다.",
+     "say": "이 포위전에서 육 사단이 붙잡은 포로만, 이천육백 명이 넘었습니다."
+    },
+    {
+     "t": "그중 1,700명가량을, 끝까지 포위망을 지킨 19연대가 잡았다고 하죠.",
+     "say": "그중 천칠백 명가량을, 끝까지 포위망을 지킨 십구 연대가 잡았다고 하죠."
+    }
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "지암리 포위전 · 국군 6사단 포로 획득 (한국 측 기록)",
+    "items": [
+     {
+      "label": "6사단 전체",
+      "value": 2600,
+      "display": "2,600명 이상",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "label": "그중 19연대",
+      "value": 1700,
+      "display": "약 1,700명",
+      "color": "blue",
+      "at": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s28",
+   "lines": [
+    "사단장 장도영은 그때의 광경을 이렇게 증언했습니다.",
+    "길가에 웅크린 중공군 병사들을, 마치 쓰레기를 줍듯 트럭에 실었다.",
+    "아군 소대 하나가 적 대대 하나를 포로로 잡는 진풍경이 벌어졌다고요."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "jiam_surrender",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "장도영 사단장의 증언 (요지)",
+     "style": "dark",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s29",
+   "lines": [
+    "무너진 중공군의 모습은, 사료 사진에도 남아 있습니다.",
+    "솜을 누빈 군복 차림으로 땅바닥에 주저앉은 병사들. 한 달 전까지 그들은 공격하는 쪽이었습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s29-photo",
+    "kb": "in"
+   },
+   "label": "국군에 붙잡힌 중공군 포로 (참고 사진)"
+  },
+  {
+   "id": "s30",
+   "lines": [
+    {
+     "t": "그런데 바로 이때, 미 제9군단 사령부로 한 통의 보고가 날아듭니다.",
+     "say": "그런데 바로 이때, 미 제구 군단 사령부로 한 통의 보고가 날아듭니다."
+    },
+    {
+     "t": "그 보고가, 6사단의 운명을 화천 저수지로 이끌게 되죠.",
+     "say": "그 보고가, 육 사단의 운명을 화천 저수지로 이끌게 되죠."
+    }
+   ],
+   "visual": {
+    "type": "black",
+    "text": "한 통의 보고",
+    "accent": "미 제9군단 사령부",
+    "accentAt": 1
+   }
+  },
+  {
+   "id": "s31",
+   "lines": [
+    "공중 정찰기가 화천 저수지 남쪽에서, 믿기 어려운 광경을 포착한 겁니다.",
+    {
+     "t": "중공군 약 1만 명이 차량과 야포를 끌고, 긴 행렬을 이뤄 화천 쪽으로 움직이고 있었습니다.",
+     "say": "중공군 약 일만 명이 차량과 야포를 끌고, 긴 행렬을 이뤄 화천 쪽으로 움직이고 있었습니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "air_recon",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "항공 정찰 · 중공군 약 1만 명",
+     "style": "red",
+     "at": 1,
+     "pos": "top"
+    }
+   ],
+   "chapter": {
+    "num": "PART 3",
+    "title": "화천호의 덫"
+   },
+   "sfx": [
+    {
+     "id": "plane",
+     "at": 0,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s31b",
+   "lines": [
+    {
+     "t": "지암리 일대가 포위되는 사이, 동쪽에서 빠져나온 중공군 제9병단의 대병력도 움직이고 있었습니다.",
+     "say": "지암리 일대가 포위되는 사이, 동쪽에서 빠져나온 중공군 제구 병단의 대병력도 움직이고 있었습니다."
+    },
+    "유엔군의 포위망을 뚫기 위해, 오음리를 지나 화천 발전소 쪽으로 몰려든 겁니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "north",
+    "to": "paroho",
+    "items": [
+     {
+      "k": "marker",
+      "p": "oeum",
+      "color": "red",
+      "at": 0.3
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.95,
+        37.98
+       ],
+       [
+        127.9,
+        38.02
+       ],
+       [
+        127.862,
+        38.045
+       ],
+       [
+        127.82,
+        38.07
+       ],
+       [
+        127.785,
+        38.095
+       ]
+      ],
+      "color": "red",
+      "at": 0.7,
+      "width": 1.2,
+      "dur": 2.0
+     },
+     {
+      "k": "unit",
+      "p": "pva",
+      "text": "중공군 제9병단 예하",
+      "color": "red",
+      "at": 1.5,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "오음리 → 화천 발전소 · 경로 개략",
+     "style": "red",
+     "at": 0.5,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s32",
+   "lines": [
+    {
+     "t": "이 저수지는 1944년, 수력 발전을 위해 화천댐을 막으면서 생겨난 인공 호수입니다.",
+     "say": "이 저수지는 천구백사십사 년, 수력 발전을 위해 화천댐을 막으면서 생겨난 인공 호수입니다."
+    },
+    "물줄기를 따라 동서로 길게 뻗은 호수는, 군데군데 깊은 골짜기까지 물이 차 있었죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s32-photo",
+    "kb": "in"
+   },
+   "label": "화천 저수지 · 양구 부근 (1951. 7)"
+  },
+  {
+   "id": "s33",
+   "lines": [
+    "지도로 보면, 이 호수가 왜 무서운 덫이었는지 드러납니다.",
+    "북한강 상류를 막은 물길이, 동쪽 양구 방면까지 길게 가로놓여 있었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "north",
+    "to": "lake",
+    "items": [
+     {
+      "k": "marker",
+      "p": "hwacheon",
+      "color": "dark",
+      "at": 0.4
+     },
+     {
+      "k": "marker",
+      "p": "yanggu",
+      "color": "dark",
+      "at": 0.8
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.785,
+        38.076
+       ],
+       [
+        127.8,
+        38.1
+       ],
+       [
+        127.83,
+        38.104
+       ],
+       [
+        127.862,
+        38.09
+       ]
+      ],
+      "color": "blue",
+      "at": 1.0,
+      "glow": true
+     },
+     {
+      "k": "unit",
+      "p": "lake",
+      "text": "화천 저수지",
+      "color": "blue",
+      "at": 1.3,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "북한강 상류 · 화천 저수지",
+     "style": "blue",
+     "at": 0.5,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s34",
+   "lines": [
+    "중공군은 대부분 걸어서 움직이는 보병이었습니다.",
+    "강을 건널 배도, 다리를 놓을 장비도 거의 없었죠.",
+    "깊은 호수를 맨몸으로 건너는 건, 사실상 불가능했습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "건널 수 없는 물",
+    "style": "blue",
+    "sub": "도하 장비 없는 보병 · 깊은 저수지",
+    "subAt": 1
+   }
+  },
+  {
+   "id": "s35",
+   "lines": [
+    "결국 북쪽으로 빠져나가는 길은, 저수지 서쪽 끝 화천댐 부근을 지나는 길 하나로 모였습니다.",
+    "댐을 지나 화천을 거쳐, 철원 방면으로 올라가는 길이었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "paroho",
+    "to": "paroho",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.785,
+        38.076
+       ],
+       [
+        127.8,
+        38.1
+       ],
+       [
+        127.83,
+        38.104
+       ],
+       [
+        127.862,
+        38.09
+       ]
+      ],
+      "color": "blue",
+      "at": 0,
+      "glow": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.92,
+        38.01
+       ],
+       [
+        127.862,
+        38.045
+       ],
+       [
+        127.83,
+        38.062
+       ],
+       [
+        127.8,
+        38.077
+       ],
+       [
+        127.782,
+        38.096
+       ],
+       [
+        127.768,
+        38.111
+       ],
+       [
+        127.73,
+        38.124
+       ],
+       [
+        127.68,
+        38.14
+       ],
+       [
+        127.6,
+        38.17
+       ]
+      ],
+      "color": "red",
+      "at": 0.4,
+      "width": 1.0,
+      "dur": 2.5
+     },
+     {
+      "k": "unit",
+      "p": "dam",
+      "text": "화천댐",
+      "color": "red",
+      "at": 1.2,
+      "pulse": true
+     },
+     {
+      "k": "marker",
+      "p": "hwacheon",
+      "color": "dark",
+      "at": 1.6
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "유일한 퇴로 · 화천댐 → 철원 방면",
+     "style": "red",
+     "at": 0.5,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s36",
+   "lines": [
+    "댐 남쪽에는 용화산과 병풍산 같은 높은 산들이 솟아 있었습니다.",
+    "그 사이로 난 골짜기와 길은, 호숫가로 다가갈수록 점점 좁아졌죠.",
+    "수만 명이 한꺼번에 몰리면, 병목처럼 막힐 수밖에 없는 지형이었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "paroho",
+    "to": "trap",
+    "items": [
+     {
+      "k": "marker",
+      "p": "yonghwa",
+      "color": "dark",
+      "at": 0.3
+     },
+     {
+      "k": "marker",
+      "p": "byeongpung",
+      "color": "dark",
+      "at": 0.6
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.92,
+        38.01
+       ],
+       [
+        127.862,
+        38.045
+       ],
+       [
+        127.83,
+        38.062
+       ],
+       [
+        127.8,
+        38.077
+       ],
+       [
+        127.782,
+        38.096
+       ],
+       [
+        127.768,
+        38.111
+       ]
+      ],
+      "color": "red",
+      "at": 1.0,
+      "width": 1.2
+     },
+     {
+      "k": "unit",
+      "p": "dam",
+      "text": "병목",
+      "color": "red",
+      "at": 2.0,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "병풍산–용화산 사이 · 좌표 개략",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s36b",
+   "lines": [
+    "남쪽의 여러 골짜기를 따라 내려온 무리들이, 결국 호숫가의 한 길로 모여들었습니다.",
+    "물이 넓게 퍼진 곳에서, 사람의 강물은 오히려 좁아지고 있었던 거죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "trap",
+    "to": "trap",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.84,
+        38.0
+       ],
+       [
+        127.825,
+        38.04
+       ],
+       [
+        127.8,
+        38.075
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 0.8
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.9,
+        38.02
+       ],
+       [
+        127.86,
+        38.05
+       ],
+       [
+        127.81,
+        38.077
+       ]
+      ],
+      "color": "red",
+      "at": 0.5,
+      "width": 0.8
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.77,
+        38.0
+       ],
+       [
+        127.78,
+        38.04
+       ],
+       [
+        127.788,
+        38.08
+       ]
+      ],
+      "color": "red",
+      "at": 0.8,
+      "width": 0.8
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.795,
+        38.085
+       ],
+       [
+        127.78,
+        38.1
+       ],
+       [
+        127.768,
+        38.111
+       ]
+      ],
+      "color": "red",
+      "at": 1.4,
+      "width": 1.2
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.785,
+        38.076
+       ],
+       [
+        127.8,
+        38.1
+       ],
+       [
+        127.83,
+        38.104
+       ],
+       [
+        127.862,
+        38.09
+       ]
+      ],
+      "color": "blue",
+      "at": 0,
+      "glow": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "여러 골짜기 → 한 길로",
+     "style": "red",
+     "at": 0.5,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s37",
+   "lines": [
+    "화천 일대의 지형을 높이로 잘라 보면, 이렇습니다.",
+    "남쪽의 높은 산줄기, 그 아래 좁은 골짜기, 그리고 북쪽을 가로막은 깊은 물.",
+    "앞으로도, 뒤로도, 옆으로도 갈 곳이 마땅치 않은 땅이었죠."
+   ],
+   "visual": {
+    "type": "profile",
+    "pts": [
+     [
+      0,
+      420
+     ],
+     [
+      0.06,
+      560
+     ],
+     [
+      0.12,
+      760
+     ],
+     [
+      0.17,
+      878
+     ],
+     [
+      0.22,
+      780
+     ],
+     [
+      0.3,
+      520
+     ],
+     [
+      0.38,
+      330
+     ],
+     [
+      0.46,
+      260
+     ],
+     [
+      0.54,
+      300
+     ],
+     [
+      0.62,
+      520
+     ],
+     [
+      0.7,
+      700
+     ],
+     [
+      0.76,
+      794
+     ],
+     [
+      0.82,
+      640
+     ],
+     [
+      0.88,
+      330
+     ],
+     [
+      0.92,
+      180
+     ],
+     [
+      1,
+      180
+     ]
+    ],
+    "grid": [
+     200,
+     400,
+     600,
+     800
+    ],
+    "yMin": 0,
+    "yMax": 1050,
+    "note": "남→북 단면 모식도 (높이 과장 · 개략)",
+    "left": "남 · 춘천 방면",
+    "right": "북 · 화천 저수지",
+    "title": "화천호 남쪽 단면",
+    "marks": [
+     {
+      "x": 0.17,
+      "text": "용화산",
+      "style": "red",
+      "at": 0,
+      "lift": 80,
+      "size": 40
+     },
+     {
+      "x": 0.46,
+      "text": "골짜기 길",
+      "style": "yellow",
+      "at": 1,
+      "lift": 60,
+      "size": 38
+     },
+     {
+      "x": 0.76,
+      "text": "병풍산",
+      "style": "red",
+      "at": 1,
+      "lift": 80,
+      "size": 40
+     },
+     {
+      "x": 0.95,
+      "text": "저수지",
+      "style": "blue",
+      "at": 1.5,
+      "lift": 60,
+      "size": 40
+     }
+    ]
+   }
+  },
+  {
+   "id": "s38",
+   "lines": [
+    "사실 이 댐은, 그 전부터 양쪽이 서로 노리던 곳이었습니다.",
+    {
+     "t": "4월 초 중공군은 댐의 수문을 열어 하류에 물을 쏟아냈고, 5월 1일에는 미 해군 뇌격기가 댐 수문을 향해 어뢰를 날리기도 했죠.",
+     "say": "사월 초 중공군은 댐의 수문을 열어 하류에 물을 쏟아냈고, 오월 일 일에는 미 해군 뇌격기가 댐 수문을 향해 어뢰를 날리기도 했죠."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s38-photo",
+    "kb": "in"
+   },
+   "label": "화천댐 · 미 해군 공습 (1951. 5)",
+   "callouts": [
+    {
+     "text": "1951. 4 수문 개방 / 5. 1 어뢰 공격",
+     "style": "blue",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s38b",
+   "lines": [
+    "더글러스 스카이레이더 공격기들이 어뢰로 수문 하나를 부수고 다른 수문에도 손상을 입혔는데요.",
+    "한국전쟁에서 항공 어뢰가 실제로 쓰인, 거의 유일한 공격으로 꼽힙니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "어뢰로 댐을 치다",
+    "style": "blue",
+    "sub": "1951. 5. 1 · 미 해군 AD 스카이레이더 · 수문 1개 파괴",
+    "subAt": 1
+   }
+  },
+  {
+   "id": "s39",
+   "lines": [
+    "군단의 판단은 빨랐습니다.",
+    {
+     "t": "지암리 포위망에는 19연대와 2연대 2대대만 남기고, 6사단 본대는 춘천으로 달려가라.",
+     "say": "지암리 포위망에는 십구 연대와 이 연대 이 대대만 남기고, 육 사단 본대는 춘천으로 달려가라."
+    },
+    {
+     "t": "그리고 미 7사단과 나란히, 화천댐을 향해 치고 올라가라는 것이었죠.",
+     "say": "그리고 미 칠 사단과 나란히, 화천댐을 향해 치고 올라가라는 것이었죠."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "jiam",
+    "to": "north",
+    "items": [
+     {
+      "k": "unit",
+      "p": "r19",
+      "text": "19연대 · 포위 유지",
+      "color": "blue",
+      "at": 0.4
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.6,
+        37.9
+       ],
+       [
+        127.66,
+        37.885
+       ],
+       [
+        127.72,
+        37.885
+       ]
+      ],
+      "color": "blue",
+      "at": 1.0,
+      "width": 1.0
+     },
+     {
+      "k": "marker",
+      "p": "chuncheon",
+      "color": "blue",
+      "at": 1.4
+     },
+     {
+      "k": "unit",
+      "p": "us7",
+      "text": "미 7사단",
+      "color": "blue",
+      "at": 2.0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1951. 5. 26 · 6사단 본대 춘천 집결",
+     "style": "blue",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s40",
+   "lines": [
+    {
+     "t": "2연대 3대대는 그날 밤, 험한 산을 넘는 야간 행군에 나섭니다.",
+     "say": "이 연대 삼 대대는 그날 밤, 험한 산을 넘는 야간 행군에 나섭니다."
+    },
+    "길도 없는 능선을 타고, 적보다 먼저 호숫가에 닿아야 했습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s40-photo",
+    "kb": "in"
+   },
+   "label": "산비탈을 오르는 병사들 (1951 · 참고 사진)"
+  },
+  {
+   "id": "s41",
+   "lines": [
+    "쫓던 적을 앞질러, 그 길목을 먼저 막는다.",
+    "추격전이, 거대한 포위전으로 바뀌는 순간이었습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "추격 → 포위",
+    "accent": "길목을 먼저 막아라",
+    "accentAt": 1
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s42",
+   "lines": [
+    {
+     "t": "5월 27일 아침, 공격 명령이 떨어집니다.",
+     "say": "오월 이십칠 일 아침, 공격 명령이 떨어집니다."
+    }
+   ],
+   "visual": {
+    "type": "black",
+    "text": "1951. 5. 27",
+    "accent": "공격 개시",
+    "accentAt": 0.5
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ],
+   "pauseBefore": 0.4
+  },
+  {
+   "id": "s43",
+   "lines": [
+    {
+     "t": "2연대의 목표는, 화천 발전소와 그 남쪽의 매봉.",
+     "say": "이 연대의 목표는, 화천 발전소와 그 남쪽의 매봉."
+    },
+    {
+     "t": "7연대의 목표는, 부용산에서 병풍산으로 이어지는 산줄기였습니다.",
+     "say": "칠 연대의 목표는, 부용산에서 병풍산으로 이어지는 산줄기였습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "north",
+    "to": "paroho",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.73,
+        37.92
+       ],
+       [
+        127.744,
+        37.995
+       ],
+       [
+        127.756,
+        38.055
+       ],
+       [
+        127.761,
+        38.086
+       ]
+      ],
+      "color": "blue",
+      "at": 0.3,
+      "width": 1.0,
+      "dur": 2.0
+     },
+     {
+      "k": "unit",
+      "p": "maebong",
+      "text": "매봉 · 발전소",
+      "color": "red",
+      "at": 0.9
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.765,
+        37.93
+       ],
+       [
+        127.784,
+        37.985
+       ],
+       [
+        127.8,
+        38.025
+       ],
+       [
+        127.811,
+        38.043
+       ]
+      ],
+      "color": "blue",
+      "at": 1.3,
+      "width": 1.0,
+      "dur": 2.0
+     },
+     {
+      "k": "marker",
+      "p": "buyong",
+      "color": "red",
+      "at": 1.6
+     },
+     {
+      "k": "marker",
+      "p": "byeongpung",
+      "color": "red",
+      "at": 1.9
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "2연대 → 매봉·발전소 / 7연대 → 부용산–병풍산",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "chapter": {
+    "num": "PART 4",
+    "title": "완벽한 퇴로 차단"
+   },
+   "sfx": [
+    {
+     "id": "artillery",
+     "at": 0.2,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s44",
+   "lines": [
+    "매봉은 댐과 발전소를 내려다보는 봉우리였습니다.",
+    "이곳을 쥐면, 호숫가 길을 지나는 모든 것이 아군의 눈과 포 아래 들어오게 되죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "paroho",
+    "to": "dam",
+    "items": [
+     {
+      "k": "unit",
+      "p": "maebong",
+      "text": "매봉",
+      "color": "blue",
+      "at": 0.2,
+      "pulse": true
+     },
+     {
+      "k": "unit",
+      "p": "dam",
+      "text": "화천댐·발전소",
+      "color": "red",
+      "at": 0.6
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.8,
+        38.08
+       ],
+       [
+        127.785,
+        38.095
+       ],
+       [
+        127.77,
+        38.108
+       ]
+      ],
+      "color": "red",
+      "at": 1.0,
+      "width": 0.8
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "매봉 · 댐 감제 고지",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s45",
+   "lines": [
+    {
+     "t": "2연대 병사들은 가파른 비탈을 타고 매봉으로 돌진했습니다.",
+     "say": "이 연대 병사들은 가파른 비탈을 타고 매봉으로 돌진했습니다."
+    },
+    "그리고 발전소와 매봉을 다시 손에 넣습니다.",
+    "호수 서쪽 끝, 퇴로의 마개가 닫힌 겁니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "maebong_assault",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "charge",
+     "at": 0.2,
+     "volume": 0.35
+    },
+    {
+     "id": "mg",
+     "at": 1.0,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s45b",
+   "lines": [
+    "발전소를 빼앗긴다는 건, 중공군에게 탈출구가 사라진다는 뜻이었습니다.",
+    "이제 댐 쪽으로 다가오는 무리는, 매봉 위에서 훤히 내려다보이는 표적이 되었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "dam",
+    "to": "dam",
+    "items": [
+     {
+      "k": "unit",
+      "p": "maebong",
+      "text": "매봉 확보",
+      "color": "blue",
+      "at": 0.2,
+      "pulse": true
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.748,
+        38.098
+       ],
+       [
+        127.762,
+        38.09
+       ],
+       [
+        127.778,
+        38.082
+       ]
+      ],
+      "color": "blue",
+      "at": 0.6,
+      "glow": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.8,
+        38.08
+       ],
+       [
+        127.785,
+        38.094
+       ],
+       [
+        127.774,
+        38.104
+       ]
+      ],
+      "color": "red",
+      "at": 1.0,
+      "width": 0.8
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1951. 5. 27 · 매봉·발전소 확보",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s46",
+   "lines": [
+    {
+     "t": "같은 시각, 7연대는 동쪽 산줄기를 따라 밀고 나갔습니다.",
+     "say": "같은 시각, 칠 연대는 동쪽 산줄기를 따라 밀고 나갔습니다."
+    },
+    {
+     "t": "춘천에서 화천으로 이어지는 큰길에서는, 미 7사단이 북쪽으로 올라오고 있었죠.",
+     "say": "춘천에서 화천으로 이어지는 큰길에서는, 미 칠 사단이 북쪽으로 올라오고 있었죠."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "paroho",
+    "to": "paroho",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.765,
+        37.93
+       ],
+       [
+        127.784,
+        37.985
+       ],
+       [
+        127.8,
+        38.025
+       ],
+       [
+        127.811,
+        38.043
+       ]
+      ],
+      "color": "blue",
+      "at": 0.2,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.722,
+        37.9
+       ],
+       [
+        127.714,
+        37.98
+       ],
+       [
+        127.71,
+        38.05
+       ],
+       [
+        127.708,
+        38.098
+       ]
+      ],
+      "color": "blue",
+      "at": 0.9,
+      "width": 1.0,
+      "dur": 2.0
+     },
+     {
+      "k": "unit",
+      "p": "us7",
+      "text": "미 7사단",
+      "color": "blue",
+      "at": 1.4
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "춘천–화천 도로 · 미 7사단",
+     "style": "blue",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s47",
+   "lines": [
+    {
+     "t": "미 7사단 병사들도, 이 산길을 걸어서 올라갔습니다.",
+     "say": "미 칠 사단 병사들도, 이 산길을 걸어서 올라갔습니다."
+    },
+    "트럭이 들어갈 수 없는 곳에서는, 결국 두 다리와 등짐뿐이었으니까요."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s47-photo",
+    "kb": "in"
+   },
+   "label": "미 제7보병사단 17연대의 도보 행군"
+  },
+  {
+   "id": "s48",
+   "lines": [
+    "이제 그림이 완성됩니다.",
+    {
+     "t": "서쪽과 남쪽 산줄기는 국군 6사단이, 남쪽 큰길은 미 7사단이 막았습니다.",
+     "say": "서쪽과 남쪽 산줄기는 국군 육 사단이, 남쪽 큰길은 미 칠 사단이 막았습니다."
+    },
+    "그리고 북쪽에는, 깊은 호수가 가로놓여 있었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "paroho",
+    "to": "paroho",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.748,
+        38.098
+       ],
+       [
+        127.762,
+        38.09
+       ],
+       [
+        127.778,
+        38.082
+       ]
+      ],
+      "color": "blue",
+      "at": 0.2,
+      "glow": true
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.79,
+        38.03
+       ],
+       [
+        127.81,
+        38.045
+       ],
+       [
+        127.835,
+        38.05
+       ]
+      ],
+      "color": "blue",
+      "at": 0.6,
+      "glow": true
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.705,
+        38.04
+       ],
+       [
+        127.71,
+        38.07
+       ],
+       [
+        127.708,
+        38.095
+       ]
+      ],
+      "color": "blue",
+      "at": 1.0,
+      "glow": true
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.785,
+        38.076
+       ],
+       [
+        127.8,
+        38.1
+       ],
+       [
+        127.83,
+        38.104
+       ],
+       [
+        127.862,
+        38.09
+       ]
+      ],
+      "color": "blue",
+      "at": 1.6,
+      "glow": true
+     },
+     {
+      "k": "unit",
+      "p": "pva",
+      "text": "중공군",
+      "color": "red",
+      "at": 2.0,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "3면 차단 + 북쪽은 호수 · 개략",
+     "style": "yellow",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s49",
+   "lines": [
+    "세 방향은 총구가, 나머지 한 방향은 물이 막은 포위망.",
+    "호수가 네 번째 벽이 되어 버린 겁니다."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "세 방향",
+     "big": "총구",
+     "icon": "none",
+     "color": "blue"
+    },
+    "right": {
+     "title": "네 번째 벽",
+     "big": "호수",
+     "icon": "none",
+     "color": "red",
+     "at": 1
+    }
+   }
+  },
+  {
+   "id": "s50",
+   "lines": [
+    {
+     "t": "그리고 5월 28일, 미군이 화천 읍내를 점령합니다.",
+     "say": "그리고 오월 이십팔 일, 미군이 화천 읍내를 점령합니다."
+    },
+    "국군은 저수지 남쪽까지 밀고 들어갔죠.",
+    "호숫가에 몰린 중공군에게, 마지막 퇴로마저 막혀 버렸습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "paroho",
+    "to": "paroho",
+    "items": [
+     {
+      "k": "unit",
+      "p": "hwacheon",
+      "text": "화천 점령 · 5. 28",
+      "color": "blue",
+      "at": 0.2,
+      "pulse": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.79,
+        38.03
+       ],
+       [
+        127.795,
+        38.06
+       ],
+       [
+        127.8,
+        38.08
+       ]
+      ],
+      "color": "blue",
+      "at": 0.8,
+      "width": 0.9
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.785,
+        38.076
+       ],
+       [
+        127.8,
+        38.1
+       ],
+       [
+        127.83,
+        38.104
+       ],
+       [
+        127.862,
+        38.09
+       ]
+      ],
+      "color": "blue",
+      "at": 1.2,
+      "glow": true
+     },
+     {
+      "k": "unit",
+      "p": "pva",
+      "text": "고립",
+      "color": "red",
+      "at": 1.8,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1951. 5. 28 · 퇴로 차단",
+     "style": "red",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s51",
+   "lines": [
+    "포병은 호숫가 길을 따라 움직이는 모든 무리를 겨눴습니다.",
+    "매봉 위의 관측병이 좌표를 부르면, 포탄이 곧바로 그 길 위에 떨어졌죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s51-photo",
+    "kb": "in"
+   },
+   "label": "포병 사격 (한국전쟁 · 참고 사진)",
+   "sfx": [
+    {
+     "id": "artillery",
+     "at": 0.3,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s52",
+   "lines": [
+    "그리고 그 길 위에서, 한국전쟁에서 가장 참혹한 장면 가운데 하나가 펼쳐지기 시작합니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "호숫가의 사흘",
+    "accent": "1951. 5. 27 ~ 29",
+    "accentAt": 0.5
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s53",
+   "lines": [
+    {
+     "t": "5월 27일부터 29일까지, 사흘 동안의 싸움은 처참한 살육전이었습니다.",
+     "say": "오월 이십칠 일부터 이십구 일까지, 사흘 동안의 싸움은 처참한 살육전이었습니다."
+    },
+    "지휘 체계가 무너진 중공군은, 수백에서 수천 명씩 무리를 지어 호숫가 길로 몰려들었습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "dam_road",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "chapter": {
+    "num": "PART 5",
+    "title": "호수의 비극, 대섬멸과 항복"
+   },
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.2,
+     "volume": 0.4
+    },
+    {
+     "id": "boom",
+     "at": 1.4,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s53b",
+   "lines": [
+    "그 길 위에 선 중공군 병사의 눈으로 보면, 이런 풍경이었을 겁니다.",
+    "앞은 건널 수 없는 물, 뒤에서는 쉴 새 없이 떨어지는 포탄.",
+    "그리고 산 위에서는, 국군의 총구가 내려다보고 있었죠."
+   ],
+   "visual": {
+    "type": "gauges",
+    "big": "갈 곳 없는 길",
+    "items": [
+     {
+      "label": "앞 · 호수",
+      "at": 0.6
+     },
+     {
+      "label": "뒤 · 포탄",
+      "at": 1.0
+     },
+     {
+      "label": "위 · 총구",
+      "at": 1.4
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s54",
+   "lines": [
+    {
+     "t": "철원 쪽으로 빠져나가려는 행렬은, 6사단 관측병의 눈에 그대로 잡혔습니다.",
+     "say": "철원 쪽으로 빠져나가려는 행렬은, 육 사단 관측병의 눈에 그대로 잡혔습니다."
+    },
+    "포탄과 기관총, 그리고 하늘에서 내리꽂는 전투기들이 그 행렬을 덮쳤죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "paroho",
+    "to": "dam",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.92,
+        38.01
+       ],
+       [
+        127.862,
+        38.045
+       ],
+       [
+        127.83,
+        38.062
+       ],
+       [
+        127.8,
+        38.077
+       ],
+       [
+        127.782,
+        38.096
+       ],
+       [
+        127.768,
+        38.111
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 1.1
+     },
+     {
+      "k": "unit",
+      "p": "maebong",
+      "text": "매봉 관측",
+      "color": "blue",
+      "at": 0.6
+     },
+     {
+      "k": "unit",
+      "p": "dam",
+      "text": "화천댐",
+      "color": "red",
+      "at": 1.0,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "호숫가 길 · 포격과 공습",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "plane",
+     "at": 0.5,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s55",
+   "lines": [
+    "막다른 곳에 몰린 병사들 가운데에는, 호수로 뛰어든 이들도 있었습니다.",
+    "헤엄쳐 건너편으로 가려 했던 겁니다.",
+    "하지만 깊고 넓은 물을 건너지 못하고 많은 이들이 물에 빠져 숨졌고, 일부는 미 공군의 폭격에 목숨을 잃었습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "lake_swim",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "water",
+     "at": 0.3,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s56",
+   "lines": [
+    "더는 싸울 의지가 남아 있지 않았습니다.",
+    "소대와 중대는 물론, 대대 규모의 병력까지 줄지어 손을 들고 걸어 나왔다고 하죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "pows_column",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s56b",
+   "lines": [
+    "포로들 가운데에는 며칠째 아무것도 먹지 못한 병사들이 많았습니다.",
+    "국군 병사들이 건넨 주먹밥을, 허겁지겁 받아먹는 모습도 있었다고 하죠.",
+    "조금 전까지 총을 겨누던 적이, 굶주린 한 사람의 젊은이로 돌아온 순간이었습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s56b-photo",
+    "kb": "in"
+   },
+   "label": "포로가 된 병사들 (한국전쟁 · 참고 사진)",
+   "callouts": [
+    {
+     "text": "전해지는 이야기",
+     "style": "dark",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s57",
+   "lines": [
+    "버려진 장비도 엄청났습니다.",
+    "트럭 수십 대 분량의 보급품과 무기가, 길가에 그대로 남겨졌습니다."
+   ],
+   "visual": {
+    "type": "document",
+    "org": "국군 제6사단",
+    "head": "노획·포획 상황 (요약)",
+    "rows": [
+     "포로 : 대대 단위 집단 투항",
+     "노획 : 트럭 수십 대 분량 보급물자",
+     "장소 : 화천 발전소 ~ 저수지 남쪽 도로"
+    ],
+    "note": "한국 측 기록 요약 · 세부 수치는 기록마다 다름"
+   }
+  },
+  {
+   "id": "s58",
+   "lines": [
+    "며칠 뒤, 호수 위로 수많은 시신이 떠오르기 시작했습니다.",
+    {
+     "t": "6사단 7연대 2대대의 6중대장으로 이곳을 지나간 김달육 씨는, 그때를 이렇게 회고했습니다.",
+     "say": "육 사단 칠 연대 이 대대의 육 중대장으로 이곳을 지나간 김달육 씨는, 그때를 이렇게 회고했습니다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s58-photo",
+    "kb": "in"
+   },
+   "label": "국군 제6사단 7연대 2대대 (1949)"
+  },
+  {
+   "id": "s59",
+   "lines": [
+    "저수지 일대가 시신이 썩는 냄새로 진동해, 코에 마늘을 넣고 행군했다.",
+    "그리고, 저 푸른 파로호가 붉게 물들어 시체가 둥둥 떠다녔다고요."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "garlic_march",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "참전 용사 김달육 씨의 회고 (언론 인터뷰)",
+     "style": "dark",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s60",
+   "lines": [
+    "그렇다면 이곳에서 쓰러진 중공군은, 모두 몇 명이었을까요?",
+    {
+     "t": "육군 군사연구소는 미 제9군단의 지휘 보고서를 토대로, 3만 2,046명이 전사하거나 포로가 됐다고 정리했습니다.",
+     "say": "육군 군사연구소는 미 제구 군단의 지휘 보고서를 토대로, 삼만 이천사십육 명이 전사하거나 포로가 됐다고 정리했습니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "32,046명",
+    "style": "red",
+    "sub": "전사·포로 · 지암리–파로호 일대 1951. 5. 24~30 (육군 군사연구소)",
+    "subAt": 1
+   }
+  },
+  {
+   "id": "s61",
+   "lines": [
+    {
+     "t": "이 숫자는 6사단만의 전과가 아니라, 미 제9군단 전체가 지암리와 파로호 일대에서 거둔 결과입니다.",
+     "say": "이 숫자는 육 사단만의 전과가 아니라, 미 제구 군단 전체가 지암리와 파로호 일대에서 거둔 결과입니다."
+    },
+    {
+     "t": "한국민족문화대백과사전은 파로호 전투의 중공군 사상자를, 최소 2만 5천 명 이상으로 적고 있죠.",
+     "say": "한국민족문화대백과사전은 파로호 전투의 중공군 사상자를, 최소 이만 오천 명 이상으로 적고 있죠."
+    }
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "중공군 손실 · 기록마다 범위와 기준이 다름",
+    "items": [
+     {
+      "label": "미 9군단 전체 (5. 24~30)",
+      "value": 32046,
+      "display": "32,046명",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "label": "파로호 전투 (5. 26~28)",
+      "value": 25000,
+      "display": "2만 5천 명 이상",
+      "color": "red",
+      "at": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s62",
+   "lines": [
+    {
+     "t": "반면 중국 측은, 이 전투의 전사자를 3천 명 정도로 훨씬 적게 기록한 것으로 알려져 있습니다.",
+     "say": "반면 중국 측은, 이 전투의 전사자를 삼천 명 정도로 훨씬 적게 기록한 것으로 알려져 있습니다."
+    },
+    "승자의 기록은 부풀고, 패자의 기록은 줄어들기 마련이죠. 정확한 숫자는 지금도, 호수 아래에 잠겨 있습니다."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "한국 측 기록",
+     "big": "3만여 명",
+     "icon": "none",
+     "color": "blue"
+    },
+    "right": {
+     "title": "중국 측 주장",
+     "big": "약 3천 명",
+     "icon": "none",
+     "color": "red",
+     "at": 1
+    }
+   }
+  },
+  {
+   "id": "s63",
+   "lines": [
+    "분명한 것은 하나입니다.",
+    {
+     "t": "한 달 전 무너졌던 사단이, 적의 5월 공세를 끝내는 마지막 일격의 선봉에 서 있었다는 것.",
+     "say": "한 달 전 무너졌던 사단이, 적의 오월 공세를 끝내는 마지막 일격의 선봉에 서 있었다는 것."
+    },
+    "중공군의 춘계 공세는, 이 호숫가에서 사실상 막을 내렸습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "central",
+    "to": "central",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.75,
+        37.95
+       ],
+       [
+        127.1,
+        38.04
+       ],
+       [
+        127.4,
+        38.09
+       ],
+       [
+        127.7,
+        38.13
+       ],
+       [
+        128.0,
+        38.17
+       ],
+       [
+        128.3,
+        38.25
+       ],
+       [
+        128.6,
+        38.4
+       ]
+      ],
+      "at": 0.3
+     },
+     {
+      "k": "unit",
+      "p": "lake",
+      "text": "파로호",
+      "color": "blue",
+      "at": 1.0,
+      "pulse": true
+     },
+     {
+      "k": "unit",
+      "p": "rok6",
+      "text": "국군 6사단",
+      "color": "blue",
+      "at": 1.5
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "중공군 춘계 공세 종료 · 1951. 5 말",
+     "style": "blue",
+     "at": 2,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s64",
+   "lines": [
+    "그리고 이 호수는, 새로운 이름을 얻게 됩니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "새로운 이름",
+    "accent": "破虜湖",
+    "accentAt": 0.5
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s65",
+   "lines": [
+    "이승만 대통령은 이 화천 저수지에, 파로호라는 이름을 붙였습니다."
+   ],
+   "visual": {
+    "type": "person",
+    "q": "s65-photo",
+    "name": "이승만",
+    "years": "1875 - 1965",
+    "role": "대한민국 초대 대통령"
+   },
+   "chapter": {
+    "num": "PART 6",
+    "title": "오랑캐를 무찌른 호수, 그리고 교훈"
+   }
+  },
+  {
+   "id": "s66",
+   "lines": [
+    "깨뜨릴 파, 사로잡을 로, 호수 호.",
+    "오랑캐를 깨뜨린 호수라는 뜻이죠."
+   ],
+   "visual": {
+    "type": "hanja",
+    "items": [
+     {
+      "h": "破",
+      "r": "파 · 깨뜨릴"
+     },
+     {
+      "h": "虜",
+      "r": "로 · 오랑캐"
+     },
+     {
+      "h": "湖",
+      "r": "호 · 호수"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s67",
+   "lines": [
+    "호수가 만들어진 직후에는, 상상 속의 큰 새를 닮았다며 대붕호라 불리기도 했던 곳입니다.",
+    "그 호수가 전쟁 이후, 승리를 새긴 이름으로 바뀐 겁니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "naming",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s67b",
+   "lines": [
+    {
+     "t": "1955년 11월에는 호숫가에, 파로호라는 이름을 새긴 기념비가 세워졌습니다.",
+     "say": "천구백오십오 년 십일월에는 호숫가에, 파로호라는 이름을 새긴 기념비가 세워졌습니다."
+    },
+    "지금 그 언덕 위에는 안보전시관과 정자가 들어서, 호수 전체를 내려다보고 있죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "lake",
+    "to": "lake",
+    "items": [
+     {
+      "k": "unit",
+      "p": "lake",
+      "text": "파로호",
+      "color": "blue",
+      "at": 0.2,
+      "pulse": true
+     },
+     {
+      "k": "marker",
+      "p": "dam",
+      "color": "dark",
+      "at": 0.8
+     },
+     {
+      "k": "marker",
+      "p": "yanggu",
+      "color": "dark",
+      "at": 1.0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1955. 11 · 파로호 명명 기념비 제막",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s67c",
+   "lines": [
+    "몇 해 전에는 이 이름을 옛 이름인 대붕호로 되돌리자는 의견이 나와, 논란이 일기도 했습니다.",
+    "하지만 지역의 참전 용사와 주민들의 반대 속에, 호수는 지금도 파로호라는 이름을 지키고 있습니다."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "옛 이름",
+     "big": "대붕호",
+     "icon": "none",
+     "color": "blue"
+    },
+    "right": {
+     "title": "지금 이름",
+     "big": "파로호",
+     "icon": "none",
+     "color": "red",
+     "at": 1
+    }
+   }
+  },
+  {
+   "id": "s68",
+   "lines": [
+    {
+     "t": "그렇다면 한 달 만에 무너진 사단이 어떻게 3만 대군을 몰아넣는 주역이 될 수 있었을까요?",
+     "say": "그렇다면 한 달 만에 무너진 사단이 어떻게 삼만 대군을 몰아넣는 주역이 될 수 있었을까요?"
+    },
+    "네 가지로 짚어 보겠습니다."
+   ],
+   "visual": {
+    "type": "factors",
+    "items": [
+     "무너졌다 다시 선 사단",
+     "멈추지 않은 추격",
+     "호수라는 네 번째 벽",
+     "일주일짜리 보급"
+    ],
+    "head": "사창리의 패배 → 파로호의 섬멸",
+    "at": 1
+   }
+  },
+  {
+   "id": "s69",
+   "lines": [
+    "첫째, 무너졌다 다시 선 사단입니다."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s69-photo",
+    "num": "요인 1",
+    "title": "무너졌다 다시 선 사단"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s70",
+   "lines": [
+    "사창리의 치욕은, 병사들에게 다시는 물러서지 않겠다는 결의를 남겼습니다.",
+    {
+     "t": "용문산에서 그 결의가 증명됐고, 그 자신감이 지친 다리를 60km나 더 걷게 했죠.",
+     "say": "용문산에서 그 결의가 증명됐고, 그 자신감이 지친 다리를 육십 킬로미터나 더 걷게 했죠."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "rok_resolve2",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s71",
+   "lines": [
+    "둘째, 멈추지 않은 추격입니다."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s71-photo",
+    "num": "요인 2",
+    "title": "멈추지 않은 추격"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s72",
+   "lines": [
+    "무너지는 적에게 숨 돌릴 틈을 주지 않았습니다.",
+    "적이 다시 진지를 파고 버틸 시간을 빼앗은 것, 그것이 추격의 진짜 의미였죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "pursuit",
+    "to": "north",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.53,
+        37.585
+       ],
+       [
+        127.515,
+        37.7
+       ],
+       [
+        127.51,
+        37.825
+       ],
+       [
+        127.6,
+        37.87
+       ],
+       [
+        127.725,
+        37.89
+       ],
+       [
+        127.745,
+        37.98
+       ],
+       [
+        127.76,
+        38.085
+       ]
+      ],
+      "color": "blue",
+      "at": 0,
+      "width": 1.0,
+      "dur": 2.5
+     },
+     {
+      "k": "unit",
+      "p": "dam",
+      "text": "60km 끝",
+      "color": "blue",
+      "at": 1.2,
+      "pulse": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "s73",
+   "lines": [
+    "셋째, 호수라는 네 번째 벽입니다."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s73-photo",
+    "num": "요인 3",
+    "title": "호수라는 네 번째 벽"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s74",
+   "lines": [
+    "지휘부는 호수가 적의 퇴로를 하나로 모은다는 사실을 놓치지 않았습니다.",
+    "그리고 그 하나뿐인 길목, 화천댐과 매봉을 먼저 쥐었죠. 지형을 읽은 쪽이, 싸움의 모양을 결정한 겁니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "paroho",
+    "to": "dam",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.785,
+        38.076
+       ],
+       [
+        127.8,
+        38.1
+       ],
+       [
+        127.83,
+        38.104
+       ],
+       [
+        127.862,
+        38.09
+       ]
+      ],
+      "color": "blue",
+      "at": 0,
+      "glow": true
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.748,
+        38.098
+       ],
+       [
+        127.762,
+        38.09
+       ],
+       [
+        127.778,
+        38.082
+       ]
+      ],
+      "color": "blue",
+      "at": 0.6,
+      "glow": true
+     },
+     {
+      "k": "unit",
+      "p": "maebong",
+      "text": "매봉",
+      "color": "blue",
+      "at": 1.0,
+      "pulse": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.92,
+        38.01
+       ],
+       [
+        127.862,
+        38.045
+       ],
+       [
+        127.83,
+        38.062
+       ],
+       [
+        127.8,
+        38.077
+       ],
+       [
+        127.782,
+        38.096
+       ],
+       [
+        127.768,
+        38.111
+       ]
+      ],
+      "color": "red",
+      "at": 1.4,
+      "width": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "id": "s75",
+   "lines": [
+    "넷째, 일주일짜리 보급입니다."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s75-photo",
+    "num": "요인 4",
+    "title": "일주일짜리 보급"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s76",
+   "lines": [
+    "굶주린 군대는 빨리 걸을 수도, 오래 버틸 수도 없었습니다.",
+    "중공군의 공세는 보급이 바닥나는 순간 꺾였고, 그 순간이 바로 추격이 시작된 때였죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "pva_hungry",
+    "kb": "out"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s76b",
+   "lines": [
+    "정리하면, 이렇습니다.",
+    "다시 일어선 병사들의 의지, 쉬지 않은 발, 지형을 읽은 눈.",
+    "그리고 굶주린 적. 이 네 가지가 한 호숫가에서 한꺼번에 맞물린 겁니다."
+   ],
+   "visual": {
+    "type": "gauges",
+    "big": "네 가지가 맞물린 곳",
+    "items": [
+     {
+      "label": "의지",
+      "at": 0.6
+     },
+     {
+      "label": "속도",
+      "at": 0.9
+     },
+     {
+      "label": "지형",
+      "at": 1.2
+     },
+     {
+      "label": "보급",
+      "at": 1.5
+     }
+    ]
+   }
+  },
+  {
+   "id": "s77",
+   "lines": [
+    "물론, 이 승리에도 그늘은 있습니다.",
+    {
+     "t": "훗날 밝혀진 바로는, 미군이 노렸던 적의 철수 부대 상당수는 6사단이 공격을 시작한 27일 무렵, 이미 댐 통로를 빠져나간 뒤였다고 합니다.",
+     "say": "훗날 밝혀진 바로는, 미군이 노렸던 적의 철수 부대 상당수는 육 사단이 공격을 시작한 이십칠 일 무렵, 이미 댐 통로를 빠져나간 뒤였다고 합니다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s77-photo",
+    "kb": "in"
+   },
+   "label": "1951년, 중부 전선 (참고 사진)"
+  },
+  {
+   "id": "s78",
+   "lines": [
+    "전과의 숫자도, 누가 언제 어디까지를 셌느냐에 따라 크게 달라집니다.",
+    "그래서 이 전투를 지암리 포위전, 화천 발전소 전투와 나눠서 보는 연구자들도 있죠."
+   ],
+   "visual": {
+    "type": "timeline",
+    "items": [
+     {
+      "date": "5월 18~20일",
+      "text": "용문산 방어",
+      "at": 0
+     },
+     {
+      "date": "5월 23~29일",
+      "text": "지암리 포위",
+      "at": 0.5
+     },
+     {
+      "date": "5월 26~28일",
+      "text": "파로호 차단",
+      "at": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s79",
+   "lines": [
+    "전쟁이 끝나고, 호수는 다시 고요해졌습니다.",
+    "지금 파로호에는 이른 아침마다 물안개가 피어오르고, 낚싯배가 한가로이 떠 있습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "paroho_today",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "birds",
+     "at": 0,
+     "volume": 0.25
+    }
+   ]
+  },
+  {
+   "id": "s80",
+   "lines": [
+    "하지만 그 물결 아래에는, 고향으로 돌아가지 못한 수많은 이들이 잠들어 있습니다.",
+    "국적이 어디였든, 그들 대부분은 이름조차 남기지 못한 젊은 병사들이었죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "lake_helmet",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s80b",
+   "lines": [
+    "이 호수를 지키고자 했던 이들과, 이 호수를 건너려 했던 이들.",
+    {
+     "t": "70여 년이 지난 지금, 그 모두를 품은 채 물은 말없이 흐르고 있습니다.",
+     "say": "칠십여 년이 지난 지금, 그 모두를 품은 채 물은 말없이 흐르고 있습니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "fog_lake",
+    "kb": "out"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0,
+     "volume": 0.25
+    }
+   ]
+  },
+  {
+   "id": "s81",
+   "lines": [
+    "패배한 사단은 다시 일어섰고, 승리한 군대는 호수 앞에서 무너졌습니다.",
+    "오랑캐를 무찌른 호수. 그 이름 뒤에는, 그 모든 것을 삼킨 물이 있습니다."
+   ],
+   "visual": {
+    "type": "quotes",
+    "title": "파로호가 남긴 것",
+    "items": [
+     {
+      "text": "패배를 딛고 다시 선 군대",
+      "at": 0
+     },
+     {
+      "text": "모든 것을 삼킨 호수",
+      "at": 1
+     }
+    ]
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s82",
+   "lines": [
+    "이 이야기가 의미 있으셨다면, 구독과 좋아요로 함께해 주십시오.",
+    "잊혀 가는 전쟁의 기록을... 다음 영상에서도 이어가겠습니다."
+   ],
+   "visual": {
+    "type": "endcard",
+    "title": "1951년 5월, 화천.\n오랑캐를 무찌른 호수.",
+    "q": "s82-photo"
+   },
+   "tail": 3.0
+  }
+ ]
+}

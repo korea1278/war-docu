@@ -17,10 +17,16 @@ type Item =
   | { k: "front"; path: LL[] }
   | { k: "ridge"; path: LL[] }
   | { k: "pin"; p: LL; text: { ko: string; en: string }; color?: "red" | "blue"; lift?: number }
-  | { k: "arrow"; path: LL[]; color?: "red" | "blue" };
-type Copy = { stamp: string; line1: string; line2: string };
+  | { k: "arrow"; path: LL[]; color?: "red" | "blue" }
+  | { k: "ring"; p: LL; r?: number }; // EP13: 빨간 타깃 원형 링 (포위·차단 지점)
+type Copy = { stamp: string; line1: string; line2: string; hook?: string };
 export type MapThumbDef = {
   raster: string; // public/geo/rasters.json 의 name
+  rasterFallback?: string; // raster가 아직 없을 때(새 권역 생성 전) 대신 쓸 래스터
+  lakes?: boolean; // water.json 호수를 짙은 청회색으로 칠함 (흑백 DEM에서 호수가 안 보이는 문제 · EP13 파로호)
+  /** EP13 레퍼런스 변형: 하단 floor 비율(예 0.38)의 솔리드 블랙 바닥판 위에 2줄 모두, 상단 서브 훅(따옴표), Line 2 색 지정 */
+  floor?: number;
+  line2Color?: string;
   view: { center: LL; span: number }; // span = 화면 가로 경도 폭
   items: Item[];
   subjectX?: number; // 인물 이미지 가로 중심(px, 기본 1500)
@@ -97,7 +103,31 @@ export const MAPT: Record<string, MapThumbDef> = {
     ko: { stamp: "30일 능선 지옥", line1: "포탄 수십만 발을 퍼붓고도 왜", line2: "창자가 끊어질 때까지 못 뚫었을까?" },
     en: { stamp: "30 DAYS IN HELL", line1: "AFTER 30 DAYS OF CONTINUOUS ARTILLERY", line2: "WHY DID THEY CALL IT HEARTBREAK RIDGE?" },
   },
+  // EP13 파로호(화천) 전투 (1951) — 사용자 지정 레퍼런스 변형(2026-10-30): 하단 38% 솔리드 블랙 + 2줄(흰/임팩트 레드 #FF2B2B), 상단 따옴표 서브 훅, 화천댐 차단 지점 빨간 타깃 링
+  // 좌표는 episodes/paroho/storyboard.json과 동일 (개략). 스탬프 없음(사용자 레이아웃). 인물은 AI 국군 돌격병(thumb_subject)
+  paroho: {
+    raster: "paroho_zoom",
+    rasterFallback: "yanggu",
+    lakes: true,
+    floor: 0.38,
+    line2Color: "#FF2B2B",
+    view: { center: [127.8305, 38.085], span: 0.3 },
+    items: [
+      { k: "arrow", path: [[127.92, 38.01], [127.862, 38.045], [127.83, 38.062], [127.8, 38.077], [127.782, 38.096], [127.772, 38.106]], color: "red" },
+      { k: "arrow", path: [[127.73, 37.99], [127.744, 38.03], [127.755, 38.07], [127.76, 38.088]], color: "blue" },
+      { k: "arrow", path: [[127.712, 37.99], [127.71, 38.05], [127.708, 38.095]], color: "blue" },
+      { k: "ring", p: [127.768, 38.108], r: 70 },
+      { k: "pin", p: [127.768, 38.111], text: { ko: "화천댐", en: "HWACHON DAM" }, color: "red", lift: 70 },
+      { k: "pin", p: [127.84, 38.106], text: { ko: "파로호", en: "PARO LAKE" }, color: "blue", lift: 40 },
+    ],
+    subjectX: 1500,
+    ko: { stamp: "", hook: "“호수 전체가 시체로 뒤덮였다”", line1: "사흘 밤낮 60km를 쫓아가", line2: "3만 대군이 몰살당한 이유" },
+    en: { stamp: "", hook: "“The entire lake turned red”", line1: "CHASED FOR 3 DAYS AND NIGHTS", line2: "HOW 30,000 TROOPS WERE\nTRAPPED & DESTROYED" },
+  },
 };
+
+type Lake = number[][];
+let LAKES: Lake[] | null = null;
 
 const W = 1920;
 const H = 1080;
@@ -158,19 +188,50 @@ export const MapThumb: React.FC<{ a: string; d: MapThumbDef; en?: boolean }> = (
   const X = (lon: number) => ((lon - (center[0] - span / 2)) / span) * W;
   const Y = (lat: number) => H / 2 - (merc(lat) - merc(center[1])) * ppr;
   const P = ([lon, lat]: LL) => `${X(lon).toFixed(1)},${Y(lat).toFixed(1)}`;
-  const r = meta?.find((m) => m.name === d.raster);
+  const r = meta?.find((m) => m.name === d.raster) || (d.rasterFallback ? meta?.find((m) => m.name === d.rasterFallback) : undefined);
+  const [lakes, setLakes] = useState<Lake[] | null>(LAKES);
+  const [hl] = useState(() => (d.lakes && !LAKES ? delayRender("lakes") : null));
+  useEffect(() => {
+    if (!d.lakes || LAKES) return;
+    fetch(staticFile("geo/water.json"))
+      .then((x) => x.json())
+      .then((j) => {
+        const [w0, e0] = [center[0] - span, center[0] + span];
+        LAKES = (j.lakes as Lake[]).filter((ring) => ring.some((q) => q[0] > w0 && q[0] < e0 && Math.abs(q[1] - center[1]) < span));
+        setLakes(LAKES);
+      })
+      .catch(() => setLakes([]))
+      .finally(() => hl !== null && continueRender(hl));
+  }, [hl]);
+  const FL = d.floor; // EP13 레퍼런스 변형
+  const L2C = d.line2Color || YELLOW;
   // 글꼴: 한국어 Pretendard Black(900) / 영문 Montserrat Black(900) — 실제 900 굵기 파일이라 가짜 볼드 없음
   const head = en ? "'Montserrat', 'Anton', sans-serif" : "'Pretendard', 'Black Han Sans', sans-serif";
   // 2줄은 실제 글꼴 폭을 재서 가로를 꽉 채운다 (레퍼런스 '역사 사랑방': 글자가 화면 폭의 약 90%)
-  const [m1, m2] = useMeasured([c.line1, c.line2], head);
-  let l2 = Math.min(170, Math.floor((W * 0.92) / m2));
-  let l1 = Math.min(150, Math.floor((W * 0.9) / m1));
+  // Line 2는 "\n"으로 두 줄 가능 (EP13 영문처럼 긴 문구) — 가장 긴 줄 기준으로 크기 계산
+  const rows2 = c.line2.split("\n");
+  const [m1, ...mr] = useMeasured([c.line1, ...rows2], head);
+  const m2 = mr.length ? Math.max(...mr) : 0;
+  let l2 = Math.min(d.floor ? 190 : 170, Math.floor((W * 0.92) / m2));
+  let l1 = Math.min(d.floor ? 176 : 150, Math.floor((W * 0.9) / m1));
   if (l1 > l2 / 1.08) l1 = Math.floor(l2 / 1.08); // Line 2가 항상 더 크게
   if (!m1 || !m2) { l1 = fit(c.line1, !!en, 110, 64, W * 0.9); l2 = fit(c.line2, !!en, 130, 80, W * 0.92); }
   // 레퍼런스 구조: Line 2만 솔리드 블랙 바 위, Line 1은 바로 위 사진 위(어두운 띠 + 굵은 검정 외곽선)
   const PAD = 18;
-  const panelTop = Math.round(H - (PAD * 2 + l2 * 1.02)); // 솔리드 블랙 바 시작
-  const line1Top = Math.round(panelTop - l1 * 1.12 - 6); // Line 1 위치 (사진 위)
+  let panelTop = Math.round(H - (PAD * 2 + l2 * 1.02)); // 솔리드 블랙 바 시작
+  let line1Top = Math.round(panelTop - l1 * 1.12 - 6); // Line 1 위치 (사진 위)
+  let line2Top = panelTop;
+  if (FL) {
+    // 하단 FL 비율 솔리드 블랙 바닥판 안에 2줄을 세로 가운데 정렬 (레퍼런스: 2줄 모두 검은 바닥 위)
+    panelTop = Math.round(H * (1 - FL));
+    const gap = Math.round(l2 * 0.1);
+    // 바닥판 높이를 넘으면 함께 줄임
+    const avail = H - panelTop - 24;
+    let block = l1 * 1.08 + gap + l2 * 1.04 * rows2.length;
+    if (block > avail) { const k = avail / block; l1 = Math.floor(l1 * k); l2 = Math.floor(l2 * k); block = avail; }
+    line1Top = Math.round(panelTop + (H - panelTop - block) / 2 + 6);
+    line2Top = Math.round(line1Top + l1 * 1.08 + gap);
+  }
   const st = d.stampPos || { x: 760, y: 120, rot: -7 };
   const sx = d.subjectX ?? 1460;
   const col = (k?: string) => (k === "blue" ? "#4f8cff" : "#ff3b30");
@@ -190,6 +251,14 @@ export const MapThumb: React.FC<{ a: string; d: MapThumbDef; en?: boolean }> = (
             filter: "grayscale(1) brightness(0.45) contrast(1.2)",
           }}
         />
+      )}
+      {/* Layer 1-2: 호수 (EP13) — 흑백 지형 위에 짙은 청회색 수면 */}
+      {d.lakes && lakes && (
+        <svg width={W} height={H} style={{ position: "absolute", inset: 0 }}>
+          {lakes.map((ring, i) => (
+            <path key={i} d={"M" + ring.map((q) => P(q as LL)).join(" L") + " Z"} fill="#26394d" stroke="#8fb3d9" strokeWidth={2.5} strokeOpacity={0.55} opacity={0.95} />
+          ))}
+        </svg>
       )}
       {/* Layer 2: 작전선 */}
       <svg width={W} height={H} style={{ position: "absolute", inset: 0 }}>
@@ -217,6 +286,19 @@ export const MapThumb: React.FC<{ a: string; d: MapThumbDef; en?: boolean }> = (
                 <polyline points={it.path.map(P).join(" ")} fill="none" stroke={col(it.color)} strokeWidth={13} strokeLinejoin="round" strokeLinecap="round" markerEnd={`url(#ah-${it.color || "red"})`} />
               </g>
             );
+          if (it.k === "ring") {
+            const rr = it.r || 70;
+            return (
+              <g key={i} transform={`translate(${X(it.p[0]).toFixed(1)},${Y(it.p[1]).toFixed(1)})`}>
+                <circle r={rr + 8} fill="none" stroke="#000" strokeWidth={18} opacity={0.35} />
+                <circle r={rr} fill="rgba(255,43,43,.12)" stroke="#FF2B2B" strokeWidth={11} />
+                <circle r={rr + 30} fill="none" stroke="#FF2B2B" strokeWidth={5} strokeDasharray="16 12" />
+                {[0, 90, 180, 270].map((a) => (
+                  <line key={a} x1={0} y1={-(rr + 46)} x2={0} y2={-(rr - 14)} stroke="#FF2B2B" strokeWidth={8} strokeLinecap="round" transform={`rotate(${a})`} />
+                ))}
+              </g>
+            );
+          }
           return null;
         })}
       </svg>
@@ -238,13 +320,13 @@ export const MapThumb: React.FC<{ a: string; d: MapThumbDef; en?: boolean }> = (
           top: -20,
           left: sx,
           transform: "translateX(-50%)",
-          WebkitMaskImage: "linear-gradient(to bottom, black 72%, transparent 96%)",
-          maskImage: "linear-gradient(to bottom, black 72%, transparent 96%)",
+          WebkitMaskImage: FL ? `linear-gradient(to bottom, black ${(((panelTop - 200 + 20) / 1100) * 100).toFixed(1)}%, transparent ${(((panelTop + 10 + 20) / 1100) * 100).toFixed(1)}%)` : "linear-gradient(to bottom, black 72%, transparent 96%)",
+          maskImage: FL ? `linear-gradient(to bottom, black ${(((panelTop - 200 + 20) / 1100) * 100).toFixed(1)}%, transparent ${(((panelTop + 10 + 20) / 1100) * 100).toFixed(1)}%)` : "linear-gradient(to bottom, black 72%, transparent 96%)",
           filter: "grayscale(1) contrast(1.2) brightness(1.05) drop-shadow(0 0 3px rgba(255,255,255,.9)) drop-shadow(0 0 10px rgba(255,255,255,.4))",
         }}
       />
-      {/* Layer 4: 붉은 사각 스탬프 */}
-      <div
+      {/* Layer 4: 붉은 사각 스탬프 (EP13처럼 stamp가 빈 문자열이면 생략) */}
+      {c.stamp && <div
         style={{
           position: "absolute",
           left: st.x,
@@ -265,14 +347,27 @@ export const MapThumb: React.FC<{ a: string; d: MapThumbDef; en?: boolean }> = (
         }}
       >
         {c.stamp}
-      </div>
+      </div>}
       {/* Layer 5: 레퍼런스 구조 — Line 1 뒤만 어두운 띠(사진이 살짝 비침) + 맨 아래 Line 2용 솔리드 블랙 바(불투명 100%) */}
-      <div style={{ position: "absolute", left: 0, right: 0, top: line1Top - 90, height: panelTop - line1Top + 90, background: "linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,.72) 45%, rgba(0,0,0,.88) 100%)" }} />
+      {FL ? (
+        // EP13: 경계만 36px 페이드 + 불투명 100% 블랙 바닥판
+        <div style={{ position: "absolute", left: 0, right: 0, top: panelTop - 36, height: 36, background: "linear-gradient(to bottom, rgba(0,0,0,0), #000)" }} />
+      ) : (
+        <div style={{ position: "absolute", left: 0, right: 0, top: line1Top - 90, height: panelTop - line1Top + 90, background: "linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,.72) 45%, rgba(0,0,0,.88) 100%)" }} />
+      )}
       <div style={{ position: "absolute", left: 0, right: 0, top: panelTop, bottom: 0, background: "#000000" }} />
+      {/* EP13: 상단 서브 훅 (따옴표 · 임팩트 레드 + 굵은 검정 외곽선) */}
+      {c.hook && (
+        <div style={{ position: "absolute", left: 56, top: 34, fontFamily: head, fontWeight: 900, fontSize: en ? 66 : 76, color: L2C, whiteSpace: "nowrap", letterSpacing: "-0.02em", WebkitTextStroke: "10px #000", paintOrder: "stroke fill", textShadow: "0 4px 14px rgba(0,0,0,.85)" }}>{c.hook}</div>
+      )}
       {/* Layer 6-1: Line 1 (흰색, 사진 위, 굵은 검정 외곽선) */}
       <div style={{ position: "absolute", left: 56, top: line1Top, fontFamily: head, fontWeight: 900, fontSize: l1, lineHeight: 1.1, color: "#FFFFFF", whiteSpace: "nowrap", letterSpacing: "-0.02em", WebkitTextStroke: `${Math.round(l1 * 0.09)}px #000000`, paintOrder: "stroke fill", textShadow: "0 6px 16px rgba(0,0,0,0.9)" }}>{c.line1}</div>
       {/* Layer 6-2: Line 2 (머스터드 옐로, 솔리드 블랙 바 위, 가장 크게) */}
-      <div style={{ position: "absolute", left: 56, top: panelTop, height: H - panelTop, display: "flex", alignItems: "center", fontFamily: head, fontWeight: 900, fontSize: l2, lineHeight: 1, color: YELLOW, whiteSpace: "nowrap", letterSpacing: "-0.02em" }}>{c.line2}</div>
+      {FL ? (
+        <div style={{ position: "absolute", left: 56, top: line2Top, fontFamily: head, fontWeight: 900, fontSize: l2, lineHeight: 1.04, color: L2C, whiteSpace: "pre", letterSpacing: "-0.02em" }}>{c.line2}</div>
+      ) : (
+        <div style={{ position: "absolute", left: 56, top: panelTop, height: H - panelTop, display: "flex", alignItems: "center", fontFamily: head, fontWeight: 900, fontSize: l2, lineHeight: 1, color: L2C, whiteSpace: "nowrap", letterSpacing: "-0.02em" }}>{c.line2}</div>
+      )}
     </AbsoluteFill>
   );
 };
