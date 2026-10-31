@@ -1,6 +1,6 @@
 # EP13 파로호(화천) 전투 (1951) — 업로드 정보
 
-> 목차 시각은 렌더 완료 후 `logs/midroll_paroho.txt`(SRT 기준 실제 시각)로 채울 것. 아래 [00:00]은 자리표시.
+> 렌더 실측: 한국어판 18:56.9 · 영문판 19:37.4 · 둘 다 -15.1 LUFS (2026-10-30, 실행 41026783003). 목차는 SRT 기준 각 부 첫 줄 시각.
 
 ## 한국어판 (격전의 지도) · 카테고리: 교육
 
@@ -17,13 +17,13 @@
 이 영상은 패배한 사단이 어떻게 다시 일어섰는지, 그리고 호수가 어떻게 '네 번째 벽'이 되었는지를 지도와 사료로 따라갑니다.
 
 📌 목차
-[00:00] 오프닝 — 안개 낀 화천 저수지
-[00:00] PART 1 · 용문산의 기적, 반격의 서막
-[00:00] PART 2 · 60km 지옥의 대추격전
-[00:00] PART 3 · 화천호의 덫
-[00:00] PART 4 · 완벽한 퇴로 차단
-[00:00] PART 5 · 호수의 비극, 대섬멸과 항복
-[00:00] PART 6 · 오랑캐를 무찌른 호수, 그리고 교훈
+0:00 오프닝 — 안개 낀 화천 저수지
+0:47 PART 1 · 용문산의 기적, 반격의 서막
+4:09 PART 2 · 60km 지옥의 대추격전
+7:25 PART 3 · 화천호의 덫
+10:27 PART 4 · 완벽한 퇴로 차단
+12:22 PART 5 · 호수의 비극, 대섬멸과 항복
+15:20 PART 6 · 오랑캐를 무찌른 호수, 그리고 교훈
 
 📚 참고 자료
 - 한국민족문화대백과사전 「파로호전투」「용문산전투」 (한국학중앙연구원)
@@ -66,13 +66,13 @@ In May 1951, the Hwachon Reservoir in central Korea became the scene of one of t
 Just one month after collapsing at Sachang-ni, the ROK 6th Division held off three divisions of the Chinese 63rd Army at Yongmunsan — then pursued the retreating enemy some 60 km, from Yangpyong through Kapyong and Chunchon to the Hwachon power plant. After closing a ring at Chiam-ni, the division seized the Hwachon Dam and Maebong peak, sealing the only escape route at the reservoir's western tip. With no means to cross the deep lake, Chinese columns were caught on the lakeshore road under artillery and air attack; many drowned or surrendered.
 
 📌 Chapters
-[00:00] Cold open — fog over the reservoir
-[00:00] PART 1 · The Miracle of Yongmunsan
-[00:00] PART 2 · The 60 km Pursuit
-[00:00] PART 3 · The Hwachon Trap
-[00:00] PART 4 · Sealing the Escape Route
-[00:00] PART 5 · Tragedy at the Lake
-[00:00] PART 6 · The Lake of the Defeated Barbarians
+0:00 Cold open — fog over the reservoir
+0:49 PART 1 · The Miracle of Yongmunsan
+4:22 PART 2 · The 60 km Pursuit
+7:48 PART 3 · The Hwachon Trap
+11:04 PART 4 · Sealing the Escape Route
+12:59 PART 5 · Tragedy at the Lake
+15:55 PART 6 · The Lake of the Defeated Barbarians
 
 📚 Sources
 - Encyclopedia of Korean Culture, "Battle of Paroho" / "Battle of Yongmunsan"
