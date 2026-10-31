@@ -209,4 +209,4 @@ jobs:
         with:
           name: ${{ inputs.episode }}-video
           path: out/${{ inputs.episode }}.mp4
-          retention-days: 14
+          retention-days: 3   # 3일 뒤 자동 삭제 (영상 원본은 Releases에 보관)
