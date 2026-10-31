@@ -74,7 +74,7 @@ export const Documentary: React.FC<{ ep: string; tl: Timeline | null }> = ({ tl 
   const fps = tl.fps;
   const fadeOut = interpolate(frame, [durationInFrames - fps * 1.2, durationInFrames - 1], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   return (
-    <AbsoluteFill style={{ background: "#000" }}>
+    <AbsoluteFill style={{ background: "#000", wordBreak: "keep-all", overflowWrap: "normal" }}>
       {tl.scenes.map((sc, i) => {
         const from = Math.round(sc.start * fps);
         const to = i + 1 < tl.scenes.length ? Math.round(tl.scenes[i + 1].start * fps) : durationInFrames;

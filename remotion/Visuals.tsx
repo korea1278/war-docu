@@ -1,6 +1,6 @@
 import React from "react";
 import { AbsoluteFill, Img, staticFile } from "remotion";
-import { atSec, C, clamp, easeInOut, easeOut, F, popIn, S, Timeline } from "./theme";
+import { atSec, C, clamp, easeInOut, easeOut, F, fitFont, NOBREAK, popIn, S, Timeline } from "./theme";
 import { Bubble, CalloutBox, KenBurns, Slate, useScene, useSince, useT } from "./ui";
 import { MapView } from "./MapView";
 
@@ -111,10 +111,10 @@ const TitleCardV: React.FC = () => {
       {k > 0 && (
         <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", flexDirection: "column", paddingBottom: 90 }}>
           <div style={{ width: 900 * easeOut(k), height: 5, background: C.yellow, marginBottom: 30 }} />
-          <div style={{ fontFamily: F.head, fontSize: v.title.length > 18 ? 112 : 150, color: "#fff", opacity: clamp(k * 1.5), textShadow: "0 8px 40px rgba(0,0,0,.8)", letterSpacing: 2, textAlign: "center", maxWidth: 1700, lineHeight: 1.1 }}>
+          <div style={{ ...NOBREAK, fontFamily: F.head, fontSize: fitFont(v.title, 1700, 150, 72), color: "#fff", opacity: clamp(k * 1.5), textShadow: "0 8px 40px rgba(0,0,0,.8)", letterSpacing: 2, textAlign: "center", maxWidth: 1760, lineHeight: 1.1, whiteSpace: "pre" }}>
             {v.title}
           </div>
-          <div style={{ fontFamily: F.head, fontSize: 56, color: C.yellow, marginTop: 14, opacity: clamp(k - 0.4) }}>{v.sub}</div>
+          <div style={{ ...NOBREAK, fontFamily: F.head, fontSize: fitFont(v.sub || "", 1720, 56, 34), color: C.yellow, marginTop: 14, opacity: clamp(k - 0.4), whiteSpace: "nowrap" }}>{v.sub}</div>
           <div style={{ width: 900 * easeOut(k), height: 5, background: C.yellow, marginTop: 30 }} />
         </AbsoluteFill>
       )}
@@ -383,7 +383,7 @@ const FactorsV: React.FC = () => {
           return (
             <div key={i} style={{ flex: 1, background: "rgba(10,10,12,.72)", border: "4px solid #fff", padding: "34px 10px", textAlign: "center", transform: `scale(${0.75 + 0.25 * Math.max(0, k)})`, opacity: clamp((t - s0 - i * 0.3) * 6) }}>
               <div style={{ fontFamily: F.head, fontSize: 96, color: C.yellow }}>{i + 1}</div>
-              <div style={{ fontFamily: F.head, fontSize: 52, color: "#fff", marginTop: 10 }}>{it}</div>
+              <div style={{ ...NOBREAK, fontFamily: F.head, fontSize: fitFont(it, (1640 - 40 * (v.items.length - 1)) / v.items.length - 40, 52, 34), color: "#fff", marginTop: 10, whiteSpace: "nowrap" }}>{it}</div>
             </div>
           );
         })}
@@ -418,13 +418,16 @@ const CompareV: React.FC = () => {
   const sc = useScene();
   const v = sc.visual;
   const t = useT();
+  // 카드 폭: 긴 키워드는 박스를 넓혀(최대 780) 한 줄 유지 → 그래도 넘치면 글자 축소
+  const longest = Math.max(...[v.left.big, v.right.big].map((x: string) => String(x ?? "").replace(/\s/g, "").length));
+  const CW = longest >= 5 ? 780 : 640;
   const card = (d: any, s0: number) => {
     const k = popIn((t - s0) / 0.45);
     const col = d.color === "red" ? C.red : C.blue;
     return (
-      <div style={{ width: 640, textAlign: "center", opacity: clamp((t - s0) * 5), transform: `scale(${0.75 + 0.25 * Math.max(0, k)})` }}>
-        <div style={{ fontFamily: F.head, fontSize: 60, color: "#fff", marginBottom: 20 }}>{d.title}</div>
-        <div style={{ background: "rgba(10,10,12,.7)", border: `6px solid ${col}`, padding: "40px 0" }}>
+      <div style={{ width: CW, textAlign: "center", opacity: clamp((t - s0) * 5), transform: `scale(${0.75 + 0.25 * Math.max(0, k)})` }}>
+        <div style={{ ...NOBREAK, fontFamily: F.head, fontSize: fitFont(d.title, CW, 60, 36), color: "#fff", marginBottom: 20, whiteSpace: "nowrap" }}>{d.title}</div>
+        <div style={{ background: "rgba(10,10,12,.7)", border: `6px solid ${col}`, padding: "40px 24px", boxSizing: "border-box", width: CW }}>
           {d.icon !== "none" && <svg width="300" height="200" viewBox="0 0 300 200">
             {d.icon === "crowd"
               ? Array.from({ length: 15 }).map((_, i) => {
@@ -445,7 +448,7 @@ const CompareV: React.FC = () => {
                   </g>
                 ))}
           </svg>}
-          <div style={{ fontFamily: F.head, fontSize: d.icon === "none" ? 160 : 110, color: col }}>{d.big}</div>
+          <div style={{ ...NOBREAK, fontFamily: F.head, fontSize: fitFont(d.big, CW - 60, d.icon === "none" ? 160 : 110, 56), color: col, whiteSpace: "pre", lineHeight: 1.1 }}>{d.big}</div>
         </div>
       </div>
     );
@@ -453,7 +456,7 @@ const CompareV: React.FC = () => {
   return (
     <AbsoluteFill>
       <Slate />
-      <AbsoluteFill style={{ flexDirection: "row", justifyContent: "center", alignItems: "center", gap: 120, paddingBottom: 110 }}>
+      <AbsoluteFill style={{ flexDirection: "row", justifyContent: "center", alignItems: "center", gap: CW > 700 ? 90 : 120, paddingBottom: 110 }}>
         {card(v.left, atSec(sc, v.left.at ?? 0) + 0.2)}
         {card(v.right, atSec(sc, v.right.at ?? 0) + 0.1)}
       </AbsoluteFill>
@@ -546,7 +549,7 @@ const QuotesV: React.FC = () => {
         </Appear>
         {v.items.map((q: any, i: number) => (
           <Appear key={i} at={q.at} extra={0.2}>
-            <div style={{ fontFamily: F.head, fontSize: 76, color: "#fff", borderLeft: `14px solid ${C.red}`, paddingLeft: 34 }}>{q.text}</div>
+            <div style={{ ...NOBREAK, fontFamily: F.head, fontSize: fitFont(q.text, 1600, 76, 44), color: "#fff", borderLeft: `14px solid ${C.red}`, paddingLeft: 34, whiteSpace: "nowrap" }}>{q.text}</div>
           </Appear>
         ))}
       </AbsoluteFill>

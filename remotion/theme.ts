@@ -107,3 +107,27 @@ export const popIn = (t: number) => {
   const c3 = c1 + 1;
   return 1 + c3 * Math.pow(t - 1, 3) + c1 * Math.pow(t - 1, 2);
 };
+
+/**
+ * 한 줄 맞춤 글자 크기 (2026-10-31 줄바꿈 버그 패치)
+ * Black Han Sans 기준 대략 폭: 한글 1.0em · 영문/숫자 0.56em · 공백 0.3em · 문장부호 0.38em.
+ * 박스 안 핵심 키워드가 외톨이 글자 없이 한 줄(nowrap)에 들어가도록 기본 크기에서 줄여 준다.
+ */
+export const estWidthEm = (text: string, letterSpacingEm = 0) => {
+  let w = 0;
+  for (const ch of String(text ?? "")) {
+    if (/[\u3131-\uD7A3\u4E00-\u9FFF]/.test(ch)) w += 1.0;
+    else if (ch === " ") w += 0.3;
+    else if (/[A-Za-z0-9]/.test(ch)) w += 0.56;
+    else w += 0.38;
+    w += letterSpacingEm;
+  }
+  return w;
+};
+export const fitFont = (text: string, maxW: number, base: number, min = 40, letterSpacingEm = 0) => {
+  const lines = String(text ?? "").split("\n");
+  const em = Math.max(...lines.map((l) => estWidthEm(l, letterSpacingEm)), 0.01);
+  return Math.max(min, Math.min(base, Math.floor(maxW / em)));
+};
+/** 박스 안 텍스트 공통: 음절 단위로 쪼개지지 않게 */
+export const NOBREAK: { wordBreak: "keep-all"; overflowWrap: "normal" } = { wordBreak: "keep-all", overflowWrap: "normal" };
