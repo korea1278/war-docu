@@ -60,8 +60,9 @@ RASTERS = [
     # EP13 파로호(화천 저수지)·화천댐·매봉·용화산–병풍산 협곡 근접 (북한강 상류 수계)
     ("paroho_zoom", [127.62, 37.96, 128.02, 38.24], 13, 1.15, 64),
     # EP15 흥남 철수 — 함흥·흥남·연포 해안(DEM 바다) + 흥남항 부두 근접(z14)
-    ("hungnam_sea", [127.1, 39.5, 128.2, 40.2], 12, 1.35, 64, {"sea": True}),
-    ("hungnam_zoom_sea", [127.52, 39.75, 127.74, 39.9], 14, 1.15, 64, {"sea": True}),
+    # (첫 버전 hungnam_sea는 바다가 갈색 갯벌·얼룩으로 칠해져 폐기 → 바다 씨앗 flood fill 버전으로 교체)
+    ("hungnam2_sea", [127.1, 39.5, 128.2, 40.2], 12, 1.35, 64, {"sea": True, "seeds": [[128.1, 39.55], [127.9, 39.65], [127.7, 39.75]]}),
+    ("hungnam2_zoom_sea", [127.52, 39.75, 127.74, 39.9], 14, 1.15, 64, {"sea": True, "seeds": [[127.7, 39.77], [127.6, 39.76], [127.68, 39.8]]}),
 ]
 
 
@@ -130,7 +131,20 @@ def build_raster(s, name, bbox, z, exag, feather, opts=None):
     lat_n, lat_s = y2lat(y0, z), y2lat(y1 + 1, z)
     v = hillshade(elev, z, lat_s, lat_n, exag)
     rgb = np.stack([v * 247, v * 248, v * 250], -1).astype(np.uint8)
-    if opts.get("sea"):  # EP11: 바다 = 해수면 아래(지도 바다색 #5a5f66), 갯벌 = 얕은 바다(간조 때 드러나는 곳 개략)
+    if opts.get("sea") and opts.get("seeds"):
+        # EP15 흥남: 북한 동해안 DEM은 바다가 0m 근처라 '갯벌'로 잘못 칠해지고 저지대 논밭이 얼룩처럼 찍힘
+        # → 해수면(0.5m 미만) 픽셀 가운데 바다 씨앗 좌표와 이어진 덩어리만 바다로 칠함 (갯벌 색 없음)
+        from PIL import ImageDraw
+        low = Image.fromarray(np.where(elev < 0.5, 255, 0).astype(np.uint8), "L").copy()  # copy: numpy 공유 이미지는 floodfill이 안 먹음
+        h_, w_ = elev.shape
+        for lon, lat in opts["seeds"]:
+            px = int((lon - lon_w) / (lon_e - lon_w) * w_)
+            py = int((lat2y(lat, z) - y0) * 256)
+            if 0 <= px < w_ and 0 <= py < h_ and low.getpixel((px, py)) == 255:
+                ImageDraw.floodfill(low, (px, py), 128)
+        sea = np.array(low) == 128
+        rgb[sea] = (90, 95, 102)
+    elif opts.get("sea"):  # EP11: 바다 = 해수면 아래(지도 바다색 #5a5f66), 갯벌 = 얕은 바다(간조 때 드러나는 곳 개략)
         sea = elev < -6
         flat = (elev >= -6) & (elev < 0.5)
         rgb[sea] = (90, 95, 102)

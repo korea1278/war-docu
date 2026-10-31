@@ -154,7 +154,7 @@ export const MAPT: Record<string, MapThumbDef> = {
   // 사용자 지정 레이아웃(EP13·14 변형): 하단 38% 솔리드 블랙 · Line 2 레드 · 흥남항 레드 타깃 링 · 스탬프 없음 ·
   // 우측 하단 재생시간 배지(약 19:30)를 피하도록 카피 폭 80%(textW). 인물은 AI 상징 상선 선장(thumb_subject)
   hungnam: {
-    raster: "hungnam_sea",
+    raster: "hungnam2_sea",
     rasterFallback: "chosin",
     floor: 0.38,
     line2Color: "#FF2828",
