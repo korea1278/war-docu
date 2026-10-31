@@ -47,8 +47,8 @@ export const setLang = (l?: string) => {
   }
 };
 const STR = {
-  ko: { map: "지도: Natural Earth · OpenStreetMap · SRTM", ai: "AI 생성 이미지", factors: "1개 사단 vs 3개 사단 — 왜?", lesson: "용문산 전투가 남긴 교훈", stamp: "軍 秘", sub: "구독", like: "좋아요 👍" },
-  en: { map: "Map: Natural Earth · OpenStreetMap · SRTM", ai: "AI-generated image", factors: "1 Division vs 3 — Why?", lesson: "The Lesson of Yongmunsan", stamp: "DECLASSIFIED", sub: "SUBSCRIBE", like: "LIKE 👍" },
+  ko: { map: "지도: Natural Earth · OpenStreetMap · SRTM", ai: "AI 생성 이미지", factors: "1개 사단 vs 3개 사단 — 왜?", lesson: "용문산 전투가 남긴 교훈", stamp: "軍 秘", sub: "구독", like: "좋아요 👍", subbed: "구독중", likeTxt: "좋아요" },
+  en: { map: "Map: Natural Earth · OpenStreetMap · SRTM", ai: "AI-generated image", factors: "1 Division vs 3 — Why?", lesson: "The Lesson of Yongmunsan", stamp: "DECLASSIFIED", sub: "SUBSCRIBE", like: "LIKE 👍", subbed: "SUBSCRIBED", likeTxt: "LIKE" },
 };
 export const S = (k: keyof (typeof STR)["ko"]) => STR[LANG][k];
 

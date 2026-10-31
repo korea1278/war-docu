@@ -557,6 +557,49 @@ const QuotesV: React.FC = () => {
   );
 };
 
+
+/* ---------- 구독·좋아요 카드 (EP15 Early-CTA, 시니어용 큼직한 고대비) ---------- */
+const CtaV: React.FC = () => {
+  const sc = useScene();
+  const v = sc.visual;
+  const t = useT();
+  const s0 = atSec(sc, v.at ?? 0);
+  const k1 = popIn((t - s0) / 0.45);
+  const k2 = popIn((t - s0 - 0.35) / 0.45);
+  const click = s0 + 1.6; // 손가락이 '구독'을 누르는 시점
+  const pressed = t > click;
+  const press = t > click - 0.15 && t < click + 0.15 ? 0.92 : 1;
+  const ring = clamp((t - click) / 0.8);
+  const handK = easeOut((t - s0 - 0.7) / 0.8);
+  const btn: React.CSSProperties = { display: "flex", alignItems: "center", gap: 28, fontFamily: F.head, fontSize: 112, padding: "26px 64px 18px", borderRadius: 26, boxShadow: "0 16px 40px rgba(0,0,0,.6)", whiteSpace: "nowrap" };
+  return (
+    <AbsoluteFill style={{ background: "radial-gradient(ellipse at 50% 42%, #2a2a2a 0%, #0a0a0a 70%)" }}>
+      {v.title && (
+        <div style={{ position: "absolute", top: 120, left: 0, right: 0, textAlign: "center", fontFamily: F.head, fontSize: fitFont(v.title, 1700, 74, 44), color: C.yellow, opacity: clamp((t - s0 + 0.2) * 3), whiteSpace: "nowrap" }}>{v.title}</div>
+      )}
+      <AbsoluteFill style={{ flexDirection: "row", justifyContent: "center", alignItems: "center", gap: 70, paddingBottom: 120 }}>
+        <div style={{ position: "relative", transform: `scale(${Math.max(0, k1) * press})` }}>
+          {ring > 0 && ring < 1 && <div style={{ position: "absolute", inset: -20 - ring * 60, border: `8px solid ${C.red}`, borderRadius: 40, opacity: 1 - ring }} />}
+          <div style={{ ...btn, background: pressed ? "#5a5a5a" : C.red, color: "#fff" }}>
+            <svg width="104" height="104" viewBox="0 0 24 24"><path fill="#fff" d="M12 22a2.5 2.5 0 0 0 2.45-2h-4.9A2.5 2.5 0 0 0 12 22zm7-6V11a7 7 0 0 0-5.5-6.84V3a1.5 1.5 0 0 0-3 0v1.16A7 7 0 0 0 5 11v5l-2 2v1h18v-1z" /></svg>
+            {pressed ? S("subbed") : S("sub")}
+          </div>
+        </div>
+        <div style={{ transform: `scale(${Math.max(0, k2)})` }}>
+          <div style={{ ...btn, background: "#fff", color: "#111" }}>
+            <svg width="104" height="104" viewBox="0 0 24 24"><path fill="#111" d="M2 21h4V9H2v12zm20-11a2 2 0 0 0-2-2h-6.3l.95-4.57.03-.32a1.5 1.5 0 0 0-.44-1.06L13.17 1 6.59 7.59A2 2 0 0 0 6 9v10a2 2 0 0 0 2 2h9a2 2 0 0 0 1.84-1.22l3.02-7.05A2 2 0 0 0 22 12z" /></svg>
+            {S("likeTxt")}
+          </div>
+        </div>
+      </AbsoluteFill>
+      {/* 누르는 손가락 */}
+      <div style={{ position: "absolute", left: 960 - 330 + (1 - handK) * 260, top: 560 + (1 - handK) * 220, opacity: clamp(handK * 2) * (t > click + 1.2 ? clamp(1 - (t - click - 1.2) * 2) : 1), transform: `scale(${press < 1 ? 0.9 : 1})` }}>
+        <svg width="130" height="150" viewBox="0 0 26 30"><path fill="#fff" stroke="#111" strokeWidth="1.2" d="M9 2.5a2 2 0 0 1 4 0V12l1-.2a2 2 0 0 1 2.3 1.5l.1.4.6-.1a2 2 0 0 1 2.3 1.6l.1.5.5-.1a2 2 0 0 1 2.3 1.7l.6 4.4c.3 2.6-.6 5.2-2.6 7L19 29H10l-5.6-7.4a2.2 2.2 0 0 1 3.3-2.9L9 20z" /></svg>
+      </div>
+    </AbsoluteFill>
+  );
+};
+
 /* ---------- 3D 지형 단면 (+ 포격 침식) ---------- */
 type PPt = [number, number];
 const sampleProfile = (pts: PPt[], x: number) => {
@@ -852,6 +895,8 @@ export const Visual: React.FC<{ tl: Timeline }> = ({ tl }) => {
       return <QuotesV />;
     case "profile":
       return <ProfileV />;
+    case "cta":
+      return <CtaV />;
     default:
       return <Slate />;
   }

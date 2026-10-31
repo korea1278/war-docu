@@ -1,0 +1,4524 @@
+{
+ "title": "흥남 철수 작전",
+ "subtitle": "1950. 12. 15 ~ 24",
+ "target_sec": 1190,
+ "midrolls": [
+  "s25",
+  "s55",
+  "s88"
+ ],
+ "places": {
+  "hungnam": [
+   127.62,
+   39.83,
+   "흥남"
+  ],
+  "port": [
+   127.636,
+   39.824,
+   "흥남 부두"
+  ],
+  "hamhung": [
+   127.54,
+   39.92,
+   "함흥"
+  ],
+  "yonpo": [
+   127.535,
+   39.79,
+   "연포 비행장"
+  ],
+  "chinhung": [
+   127.37,
+   40.19,
+   "진흥리"
+  ],
+  "kotori": [
+   127.3,
+   40.29,
+   "고토리"
+  ],
+  "hagaru": [
+   127.25,
+   40.38,
+   "하갈우리"
+  ],
+  "yudam": [
+   127.12,
+   40.48,
+   "유담리"
+  ],
+  "pass": [
+   127.33,
+   40.24,
+   "황초령"
+  ],
+  "pyongyang": [
+   125.75,
+   39.03,
+   "평양"
+  ],
+  "wonsan": [
+   127.44,
+   39.15,
+   "원산"
+  ],
+  "seoul": [
+   126.978,
+   37.566,
+   "서울"
+  ],
+  "busan": [
+   129.04,
+   35.1,
+   "부산"
+  ],
+  "ulsan": [
+   129.31,
+   35.54,
+   "울산"
+  ],
+  "geoje": [
+   128.72,
+   34.865,
+   "거제 장승포"
+  ],
+  "sea": [
+   128.05,
+   39.55,
+   "흥남 앞바다"
+  ]
+ },
+ "views": {
+  "korea": {
+   "center": [
+    127.9,
+    38.0
+   ],
+   "span": 6.6
+  },
+  "east": {
+   "center": [
+    128.6,
+    37.35
+   ],
+   "span": 5.4
+  },
+  "south": {
+   "center": [
+    128.9,
+    35.3
+   ],
+   "span": 1.6
+  },
+  "route": {
+   "center": [
+    127.42,
+    40.1
+   ],
+   "span": 0.95
+  },
+  "chosin": {
+   "center": [
+    127.24,
+    40.36
+   ],
+   "span": 0.42
+  },
+  "hn_wide": {
+   "center": [
+    127.6,
+    39.875
+   ],
+   "span": 0.6
+  },
+  "hn": {
+   "center": [
+    127.61,
+    39.845
+   ],
+   "span": 0.32
+  },
+  "hn_port": {
+   "center": [
+    127.63,
+    39.825
+   ],
+   "span": 0.16
+  },
+  "hn_pier": {
+   "center": [
+    127.638,
+    39.818
+   ],
+   "span": 0.08
+  },
+  "hn_sea": {
+   "center": [
+    127.75,
+    39.78
+   ],
+   "span": 0.6
+  }
+ },
+ "music": [
+  {
+   "id": "drone",
+   "from": "s01",
+   "to": "s08",
+   "volume": 0.2
+  },
+  {
+   "id": "theme",
+   "from": "s09",
+   "to": "s24",
+   "volume": 0.16
+  },
+  {
+   "id": "tension",
+   "from": "s25",
+   "to": "s42",
+   "volume": 0.17
+  },
+  {
+   "id": "march",
+   "from": "s43",
+   "to": "s54",
+   "volume": 0.15
+  },
+  {
+   "id": "somber",
+   "from": "s55",
+   "to": "s69",
+   "volume": 0.17
+  },
+  {
+   "id": "theme",
+   "from": "s70",
+   "to": "s87",
+   "volume": 0.16
+  },
+  {
+   "id": "tension",
+   "from": "s88",
+   "to": "s95",
+   "volume": 0.16
+  },
+  {
+   "id": "analysis",
+   "from": "s96",
+   "to": "s101",
+   "volume": 0.13
+  },
+  {
+   "id": "somber",
+   "from": "s102",
+   "to": "s107",
+   "volume": 0.17
+  }
+ ],
+ "ai_images": {
+  "snow_column": "A long column of trucks and soldiers moving through a narrow frozen mountain gorge in North Korea in December 1950, deep snow, blizzard, steep icy cliffs on both sides, distant orange muzzle flashes on the ridgelines, cold blue night with harsh white parachute flare light, cinematic wide shot, desaturated icy palette with orange glow, painterly realistic digital illustration, film grain, no text, no letters.",
+  "frozen_night": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American Marines whose heads are round balls painted as the United States flag, wearing 1950 M1 helmets with fur-lined parkas, frost on their gear, huddled in shallow snow foxholes on a frozen ridge at night, breath freezing in the air, icicles on their helmets, one Marine trying to thaw a frozen rifle under his parka, blizzard, extreme cold, tense waiting, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "bridge_drop": "Eight C-119 Flying Boxcar transport planes flying low over a snowy mountain pass in North Korea, December 1950, dropping huge steel bridge sections under giant parachutes, a destroyed concrete bridge over a deep gorge below, steep icy cliffs, overcast sky, dramatic wide shot, painterly realistic digital illustration, film grain, no text, no letters.",
+  "hungnam_ship": "A large cargo ship anchored in Hungnam harbor, North Korea, December 1950, packed with thousands of Korean refugees on deck, small boats ferrying more people, a burning port and huge explosions on the shore behind, snow falling, cold grey sea, painterly realistic digital illustration, film grain, no text, no letters.",
+  "pva_ambush": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a Chinese People's Volunteer Army commander whose head is a round ball painted as the red Chinese flag with yellow stars, wearing a padded winter uniform and fur cap, smiling coldly while pointing at a paper map showing a single mountain road surrounded by many red circles, inside a snow-covered dugout lit by an oil lamp, officers behind him, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "pier_crowd": "A vast crowd of Korean civilian refugees in white and dark padded winter clothes, carrying bundles on their heads and children on their backs, packed along a snowy industrial harbor pier in Hungnam, North Korea at dusk in December 1950, freezing wind blowing snow, grey cargo ships and landing ships anchored offshore, smoke on the horizon behind the town, cinematic wide shot, cold blue-grey palette with faint orange glow, painterly realistic digital illustration, film grain, no text, no letters, no signs.",
+  "hyun_almond": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a young Korean civilian doctor in his late twenties whose head is a round ball painted as the South Korean taegukgi flag, wearing round glasses, a dark wool overcoat and scarf, earnestly pleading with an older American army major general whose head is a round ball painted as the United States flag, wearing a 1950 field jacket, two-star helmet liner, standing over a map table in a lamp-lit headquarters room in December 1950, the general frowning thoughtfully, a harbor full of ships visible through a frosted window, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "larue_bridge": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a calm, thoughtful American merchant marine captain in his mid-thirties whose head is a round ball painted as the United States flag, wearing a dark peaked captain's cap and navy pea coat, looking through binoculars from the bridge wing of a grey cargo ship toward a snowy harbor pier crowded with thousands of Korean refugees, December 1950, burning town in the distance, cold wind, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "hold_packed": "Inside the dim steel cargo hold of a 1950 cargo ship, thousands of Korean refugee families in padded winter clothes packed shoulder to shoulder on several decks, mothers holding babies, elderly people wrapped in blankets, a single shaft of cold light falling from the open hatch above with snow drifting down, cinematic, somber and human, painterly realistic digital illustration, muted brown and grey palette, film grain, no text, no letters.",
+  "minefield": "A grey cargo ship crowded with refugees on its open deck sailing slowly through a dark, cold winter sea at night in December 1950, dark spiked naval sea mines floating half-submerged near the hull, a lookout sailor with a signal lamp on the bow, faint moonlight on the waves, tense and suspenseful, cinematic wide shot, painterly realistic digital illustration, film grain, no text, no letters.",
+  "deck_cold": "Korean refugee families huddled together under thin blankets on the snow-covered open steel deck of a cargo ship at sea in December 1950, grey sky, freezing spray, children pressed against their mothers for warmth, cargo booms and masts above, quiet endurance, cinematic, painterly realistic digital illustration, cold blue-grey palette, film grain, no text, no letters.",
+  "birth": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: inside a dim ship cargo hold lit by a single lantern, a young American merchant sailor whose head is a round ball painted as the United States flag, wearing a knit watch cap and work jacket, gently holding a newborn baby wrapped in a blanket, a tired but smiling Korean mother whose head is a round ball painted as the South Korean taegukgi flag lying on blankets, other refugee women watching with hope, warm lantern light against cold darkness, December 1950, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "gunfire_night": "Night naval bombardment off a snowy North Korean coast in December 1950, an American heavy cruiser firing a full broadside of eight-inch guns with huge orange muzzle flashes, rocket ships launching streaks of rockets in red arcs, parachute flares hanging over dark mountains ashore, explosions along the ridgeline, cinematic wide shot, dark blue and orange palette, painterly realistic digital illustration, film grain, no text, no letters.",
+  "rocket_ships": "Several small American rocket landing ships (LSMR) close to a snowy North Korean shore at dusk in December 1950, firing dense salvos of rockets that leave bright red and white trails arcing over the beach toward dark hills, smoke clouds, cold sea spray, dramatic low-angle shot from the water, painterly realistic digital illustration, film grain, no text, no letters.",
+  "pva_halt": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a group of exhausted, frostbitten Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red Chinese flag with yellow stars, wearing thin white quilted uniforms and fur-flap caps, crouching in deep snow on a ridge at night, watching in fear as naval shells explode in giant orange fireballs on the hillside below them and flares light the sky, some soldiers wrapping their frozen feet in rags, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "parting": "A heartbreaking scene on a snowy Hungnam pier in December 1950, a Korean family being separated in the crowd, a young mother on the gangway of a landing ship reaching back toward an elderly father who stays behind on the pier, children crying, soldiers holding back the surging crowd, snow falling, grey ships, cinematic, emotional, painterly realistic digital illustration, muted palette, film grain, no text, no letters.",
+  "geoje_arrival": "A grey cargo ship anchored off a small rocky Korean island harbor on a calm, bright winter morning, Christmas Day 1950, small wooden fishing boats rowed by local islanders ferrying exhausted refugee families from the ship to the shore, pine trees on green hills, gentle golden sunrise light, hopeful and peaceful, cinematic wide shot, painterly realistic digital illustration, film grain, no text, no letters.",
+  "thumb_subject": "Photorealistic black-and-white portrait of a 1950 American merchant marine ship captain in his mid-thirties, dark peaked captain's cap, heavy navy pea coat with turned-up collar, wind-burned face with a calm, resolute and compassionate expression, snowflakes on his cap and shoulders, waist-up, face clearly visible and turned slightly toward the left of the frame, isolated on a plain pure white background, no shadows on the background, no text"
+ },
+ "scenes": [
+  {
+   "id": "s01",
+   "lines": [
+    {
+     "t": "1950년 12월 22일, 함경남도 흥남 부두.",
+     "say": "천구백오십 년 십이월 이십이 일, 함경남도 흥남 부두."
+    },
+    "칼바람 속에, 끝이 보이지 않는 피란민의 행렬이 바다를 향해 서 있었습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "pier_crowd",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "1950. 12. 22 · 함남 흥남 부두",
+     "style": "yellow",
+     "at": 0
+    }
+   ],
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0.2,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "lines": [
+    "등 뒤에서는 중공군의 포성이 다가오고, 앞에는 겨울 바다뿐이었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "hn_wide",
+    "to": "hn_port",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.45,
+        40.08
+       ],
+       [
+        127.5,
+        39.98
+       ],
+       [
+        127.56,
+        39.9
+       ]
+      ],
+      "color": "red",
+      "at": 0,
+      "width": 0.9
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.66,
+        40.07
+       ],
+       [
+        127.64,
+        39.97
+       ],
+       [
+        127.63,
+        39.89
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 0.9
+     },
+     {
+      "k": "unit",
+      "p": "port",
+      "text": "흥남 부두",
+      "color": "blue",
+      "at": 0.5,
+      "pulse": true
+     }
+    ],
+    "demSea": true
+   },
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.3,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "lines": [
+    {
+     "t": "부두에 남은 배 가운데 하나는, 짐을 실어 나르던 7천6백 톤급 미국 화물선이었습니다.",
+     "say": "부두에 남은 배 가운데 하나는, 짐을 실어 나르던 칠천육백 톤급 미국 화물선이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s03-photo",
+    "kb": "in"
+   },
+   "label": "메러디스 빅토리호 (1968년 앤트워프항 촬영)"
+  },
+  {
+   "id": "s04",
+   "lines": [
+    {
+     "t": "정원은 60명 남짓.",
+     "say": "정원은 육십 명 남짓."
+    },
+    {
+     "t": "그런데 이 배는 그날, 1만 4천 명을 태우고 바다로 나섭니다.",
+     "say": "그런데 이 배는 그날, 만 사천 명을 태우고 바다로 나섭니다."
+    }
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "배의 정원",
+     "big": "60명",
+     "icon": "none",
+     "color": "blue"
+    },
+    "right": {
+     "title": "그날 태운 사람",
+     "big": "14,000명",
+     "icon": "none",
+     "color": "red",
+     "at": 1
+    }
+   },
+   "callouts": [
+    {
+     "text": "정원은 한국 측 기록 기준 (선원 포함 약 60명)",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "lines": [
+    "먹을 것도, 물도, 의사도 없는 사흘간의 항해.",
+    "그런데 배가 닻을 내렸을 때, 사람은 오히려 다섯 명이 늘어 있었습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "사흘간의 항해",
+    "accent": "14,000명 + 5명",
+    "accentAt": 1
+   },
+   "sfx": [
+    {
+     "id": "water",
+     "at": 0,
+     "volume": 0.35
+    },
+    {
+     "id": "hit",
+     "at": 1,
+     "volume": 0.4
+    }
+   ],
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s06",
+   "lines": [
+    {
+     "t": "10만 군대와 10만 피란민이, 적의 포위 속에서 함께 바다로 빠져나간 작전.",
+     "say": "십만 군대와 십만 피란민이, 적의 포위 속에서 함께 바다로 빠져나간 작전."
+    },
+    "그것은 어떻게, 크리스마스의 기적이 되었을까요?"
+   ],
+   "visual": {
+    "type": "text",
+    "big": "크리스마스의 기적",
+    "style": "red",
+    "sub": "군인 10만 · 피란민 10만",
+    "subAt": 0.4
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0.2,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s07",
+   "lines": [
+    "흥남 철수 작전.",
+    "오늘은 무기보다 사람을 먼저 태우기로 한, 그 겨울 바다의 이야기입니다."
+   ],
+   "visual": {
+    "type": "titlecard",
+    "q": "s07-photo",
+    "title": "흥남 철수 작전",
+    "sub": "10만 대군과 10만 피란민을 구한 크리스마스의 기적 · 1950",
+    "at": 0
+   },
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0,
+     "volume": 0.5
+    }
+   ],
+   "flash": true
+  },
+  {
+   "id": "s08",
+   "lines": [
+    "본격적인 철수 작전의 기록으로 들어가기에 앞서,",
+    "잊혀가는 호국 영웅들의 역사를 끝까지 기록할 수 있도록, 구독과 좋아요로 함께해 주십시오."
+   ],
+   "visual": {
+    "type": "cta",
+    "title": "잊혀가는 호국의 기록, 함께 지켜 주십시오",
+    "at": 0
+   },
+   "pauseBefore": 0.3,
+   "sfx": [
+    {
+     "id": "pop",
+     "at": 0.3,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s09",
+   "lines": [
+    {
+     "t": "1950년 10월, 유엔군은 38선을 넘어 압록강을 향해 북진하고 있었습니다.",
+     "say": "천구백오십 년 시월, 유엔군은 삼팔선을 넘어 압록강을 향해 북진하고 있었습니다."
+    },
+    {
+     "t": "동쪽에서는 미 제10군단이, 함경도의 험한 산악 지대를 따라 북쪽으로 올라갔죠.",
+     "say": "동쪽에서는 미 제십 군단이, 함경도의 험한 산악 지대를 따라 북쪽으로 올라갔죠."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "korea",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.7,
+        37.9
+       ],
+       [
+        125.9,
+        39.1
+       ],
+       [
+        125.2,
+        40.0
+       ]
+      ],
+      "color": "blue",
+      "at": 0.2,
+      "width": 1.2
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.44,
+        39.15
+       ],
+       [
+        127.6,
+        39.85
+       ],
+       [
+        127.3,
+        40.4
+       ]
+      ],
+      "color": "blue",
+      "at": 1,
+      "width": 1.2
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.6,
+        39.85
+       ],
+       [
+        128.7,
+        40.6
+       ],
+       [
+        129.6,
+        41.6
+       ]
+      ],
+      "color": "blue",
+      "at": 1.3,
+      "width": 1.0
+     },
+     {
+      "k": "unit",
+      "p": "hungnam",
+      "text": "미 제10군단",
+      "color": "blue",
+      "at": 1.1
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1950. 10 · 유엔군 북진",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "chapter": {
+    "num": "PART 1",
+    "title": "장진호의 한계선"
+   }
+  },
+  {
+   "id": "s10",
+   "lines": [
+    {
+     "t": "제10군단을 이끈 사람은, 에드워드 알몬드 소장.",
+     "say": "제십 군단을 이끈 사람은, 에드워드 알몬드 소장."
+    },
+    "석 달 전 인천상륙작전을 지휘한, 맥아더 장군의 최측근이었습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s10-photo",
+    "kb": "in"
+   },
+   "label": "알몬드 소장의 훈장 수여 (1950. 12)"
+  },
+  {
+   "id": "s11",
+   "lines": [
+    {
+     "t": "해병 제1사단은 흥남에서 개마고원으로 올라가, 장진호의 얼어붙은 호숫가에 닿았습니다.",
+     "say": "해병 제일 사단은 흥남에서 개마고원으로 올라가, 장진호의 얼어붙은 호숫가에 닿았습니다."
+    },
+    "그러나 그 산속에는, 이미 엄청난 수의 중공군이 숨죽인 채 기다리고 있었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "route",
+    "to": "chosin",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.12,
+        40.48
+       ],
+       [
+        127.18,
+        40.43
+       ],
+       [
+        127.25,
+        40.38
+       ],
+       [
+        127.3,
+        40.29
+       ],
+       [
+        127.33,
+        40.24
+       ],
+       [
+        127.37,
+        40.19
+       ],
+       [
+        127.43,
+        40.09
+       ],
+       [
+        127.5,
+        39.98
+       ],
+       [
+        127.54,
+        39.92
+       ],
+       [
+        127.6,
+        39.85
+       ]
+      ],
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "hagaru",
+      "text": "해병 제1사단",
+      "color": "blue",
+      "at": 0.6
+     },
+     {
+      "k": "marker",
+      "p": "yudam",
+      "color": "blue",
+      "at": 0.8
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.98,
+        40.62
+       ],
+       [
+        127.05,
+        40.55
+       ],
+       [
+        127.1,
+        40.5
+       ]
+      ],
+      "color": "red",
+      "at": 1.2,
+      "width": 0.8
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.42,
+        40.52
+       ],
+       [
+        127.33,
+        40.45
+       ],
+       [
+        127.27,
+        40.4
+       ]
+      ],
+      "color": "red",
+      "at": 1.35,
+      "width": 0.8
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.05,
+        40.3
+       ],
+       [
+        127.15,
+        40.33
+       ],
+       [
+        127.23,
+        40.36
+       ]
+      ],
+      "color": "red",
+      "at": 1.5,
+      "width": 0.8
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "lines": [
+    {
+     "t": "11월 27일 밤, 중공군 제9병단이 일제히 공격을 시작합니다.",
+     "say": "십일월 이십칠 일 밤, 중공군 제구 병단이 일제히 공격을 시작합니다."
+    },
+    "나팔과 꽹과리 소리와 함께, 눈 덮인 능선마다 흰 옷의 병사들이 쏟아져 내려왔죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "pva_ambush",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "bugle",
+     "at": 0.3,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "lines": [
+    {
+     "t": "미군 기록으로 중공군은 약 12만 명.",
+     "say": "미군 기록으로 중공군은 약 십이만 명."
+    },
+    {
+     "t": "장진호 일대의 유엔군은, 3만 명 남짓이었습니다.",
+     "say": "장진호 일대의 유엔군은, 삼만 명 남짓이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "versus",
+    "left": {
+     "n": 1,
+     "label": "유엔군 약 3만",
+     "color": "blue"
+    },
+    "right": {
+     "n": 4,
+     "label": "중공군 약 12만",
+     "color": "red"
+    },
+    "at": 0
+   },
+   "callouts": [
+    {
+     "text": "병력: 미군 기록 기준 (1950. 11 말)",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s13b",
+   "lines": [
+    {
+     "t": "호수 동쪽에 고립된 미 제7사단의 연대전투단은, 나흘 만에 사실상 궤멸합니다.",
+     "say": "호수 동쪽에 고립된 미 제칠 사단의 연대전투단은, 나흘 만에 사실상 궤멸합니다."
+    },
+    "부대를 이끌던 페이스 중령도, 그 눈길에서 끝내 돌아오지 못했죠."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "장진호 동쪽",
+    "accent": "연대전투단 궤멸",
+    "accentAt": 0.6
+   },
+   "pauseBefore": 0.2
+  },
+  {
+   "id": "s14",
+   "lines": [
+    {
+     "t": "기온은 영하 30도 아래로 곤두박질쳤습니다.",
+     "say": "기온은 영하 삼십 도 아래로 곤두박질쳤습니다."
+    },
+    "총이 얼어붙고, 수혈용 혈장마저 얼어 터지는 추위였죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s14-photo",
+    "kb": "in"
+   },
+   "label": "유담리–하갈우리 사이 도로의 미 해병대 (1950. 12)",
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "lines": [
+    "해병들은 이 혹한 속에서, 포위망을 뚫고 남쪽 바다로 나가는 길을 택합니다.",
+    "물러서는 것이 아니라, 다른 방향으로 공격하는 것이라 여기면서요."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "frozen_night",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s16",
+   "lines": [
+    "유담리에서 하갈우리, 고토리, 그리고 진흥리까지.",
+    "얼어붙은 외길 위에서는, 한 걸음 한 걸음이 모두 전투였습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "chosin",
+    "to": "route",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.12,
+        40.48
+       ],
+       [
+        127.18,
+        40.43
+       ],
+       [
+        127.25,
+        40.38
+       ],
+       [
+        127.3,
+        40.29
+       ],
+       [
+        127.33,
+        40.24
+       ],
+       [
+        127.37,
+        40.19
+       ],
+       [
+        127.43,
+        40.09
+       ],
+       [
+        127.5,
+        39.98
+       ]
+      ],
+      "color": "blue",
+      "at": 0,
+      "width": 1.0,
+      "dur": 2.6
+     },
+     {
+      "k": "marker",
+      "p": "hagaru",
+      "color": "blue",
+      "at": 0.2
+     },
+     {
+      "k": "marker",
+      "p": "kotori",
+      "color": "blue",
+      "at": 0.4
+     },
+     {
+      "k": "marker",
+      "p": "chinhung",
+      "color": "blue",
+      "at": 0.6
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.1,
+        40.25
+       ],
+       [
+        127.2,
+        40.27
+       ],
+       [
+        127.27,
+        40.28
+       ]
+      ],
+      "color": "red",
+      "at": 1,
+      "width": 0.7
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.5,
+        40.33
+       ],
+       [
+        127.42,
+        40.28
+       ],
+       [
+        127.36,
+        40.25
+       ]
+      ],
+      "color": "red",
+      "at": 1.2,
+      "width": 0.7
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 0.6,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s17",
+   "lines": [
+    "고토리 남쪽 황초령 고개에서는, 중공군이 다리를 끊어 놓았습니다.",
+    "그 다리가 없으면, 수천 대의 차량과 부상병이 고개를 내려갈 수 없었죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s17-photo",
+    "kb": "in"
+   },
+   "label": "황초령 고개의 끊어진 다리 (1950. 12)"
+  },
+  {
+   "id": "s18",
+   "lines": [
+    "미 공군 수송기가 하늘에서 조립식 철교를 떨어뜨렸고, 공병들이 그것으로 끊어진 곳을 이었습니다.",
+    {
+     "t": "12월 9일, 해병들은 마침내 그 다리를 건너 고개를 내려옵니다.",
+     "say": "십이월 구 일, 해병들은 마침내 그 다리를 건너 고개를 내려옵니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "bridge_drop",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "whoosh",
+     "at": 0.3,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s19",
+   "lines": [
+    "포로로 잡힌 중공군 병사들의 모습은, 그들 역시 한계에 다다랐음을 보여 줬습니다.",
+    "얇은 솜옷에 운동화, 얼어서 검게 변한 손발. 추위는 양쪽 모두를 덮쳤죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s19-photo",
+    "kb": "in"
+   },
+   "label": "고토리 남쪽에서 붙잡힌 중공군 포로 (1950. 12)"
+  },
+  {
+   "id": "s20",
+   "lines": [
+    {
+     "t": "12월 11일, 해병 제1사단의 마지막 부대가 함흥과 흥남에 들어섭니다.",
+     "say": "십이월 십일 일, 해병 제일 사단의 마지막 부대가 함흥과 흥남에 들어섭니다."
+    },
+    "장진호에서 시작된 철수로가, 마침내 바다에 닿은 것이죠.",
+    {
+     "t": "유담리에서 흥남까지, 해병들이 싸우며 내려온 길은 1백 킬로미터가 넘었습니다.",
+     "say": "유담리에서 흥남까지, 해병들이 싸우며 내려온 길은 백 킬로미터가 넘었습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "route",
+    "to": "hn_wide",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.37,
+        40.19
+       ],
+       [
+        127.43,
+        40.09
+       ],
+       [
+        127.5,
+        39.98
+       ],
+       [
+        127.54,
+        39.92
+       ],
+       [
+        127.6,
+        39.85
+       ]
+      ],
+      "color": "blue",
+      "at": 0,
+      "width": 1.1,
+      "dur": 1.8
+     },
+     {
+      "k": "unit",
+      "p": "hamhung",
+      "text": "함흥",
+      "color": "blue",
+      "at": 0.5
+     },
+     {
+      "k": "unit",
+      "p": "hungnam",
+      "text": "흥남",
+      "color": "blue",
+      "at": 1,
+      "pulse": true
+     }
+    ],
+    "demSea": true
+   },
+   "callouts": [
+    {
+     "text": "1950. 12. 11 · 해병 제1사단 흥남 도착",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s21",
+   "lines": [
+    "흥남에 닿은 해병들은, 함흥 들판에 전우들을 묻고 떠날 채비를 했습니다.",
+    "미처 데려오지 못한 동료들은, 저 얼어붙은 고원에 남아 있었죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s21-photo",
+    "kb": "in"
+   },
+   "label": "함흥 해병 제1사단 묘지 추모식 (1950. 12. 13)",
+   "pauseBefore": 0.2
+  },
+  {
+   "id": "s22",
+   "lines": [
+    {
+     "t": "같은 시기 서부 전선의 미 제8군도, 평양을 내주고 남쪽으로 밀려나고 있었습니다.",
+     "say": "같은 시기 서부 전선의 미 제팔 군도, 평양을 내주고 남쪽으로 밀려나고 있었습니다."
+    },
+    "대동강의 부서진 철교 위로, 피란민들이 매달리듯 강을 건넜죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s22-photo",
+    "kb": "in"
+   },
+   "label": "대동강을 건너 남하하는 피란민 (1950. 12. 3)"
+  },
+  {
+   "id": "s23",
+   "lines": [
+    {
+     "t": "동쪽의 제10군단에게, 육로로 내려갈 길은 이미 막혀 있었습니다.",
+     "say": "동쪽의 제십 군단에게, 육로로 내려갈 길은 이미 막혀 있었습니다."
+    },
+    "등 뒤엔 중공군, 앞에는 바다. 남은 길은 오직 바닷길이었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "korea",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        125.2,
+        38.9
+       ],
+       [
+        126.0,
+        39.0
+       ],
+       [
+        126.7,
+        39.2
+       ],
+       [
+        127.2,
+        39.55
+       ],
+       [
+        127.4,
+        39.95
+       ],
+       [
+        127.7,
+        40.1
+       ],
+       [
+        128.3,
+        40.35
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.2,
+        40.3
+       ],
+       [
+        126.0,
+        39.6
+       ],
+       [
+        125.9,
+        39.2
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.1,
+        40.9
+       ],
+       [
+        127.3,
+        40.4
+       ],
+       [
+        127.5,
+        40.05
+       ]
+      ],
+      "color": "red",
+      "at": 0.35,
+      "width": 1.0
+     },
+     {
+      "k": "unit",
+      "p": "hungnam",
+      "text": "제10군단 · 흥남",
+      "color": "blue",
+      "at": 1,
+      "pulse": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.68,
+        39.79
+       ],
+       [
+        128.3,
+        39.5
+       ],
+       [
+        128.95,
+        38.9
+       ],
+       [
+        129.4,
+        38.0
+       ],
+       [
+        129.65,
+        37.1
+       ],
+       [
+        129.72,
+        36.2
+       ],
+       [
+        129.55,
+        35.55
+       ],
+       [
+        129.12,
+        35.06
+       ]
+      ],
+      "color": "blue",
+      "at": 1.4,
+      "width": 0.9,
+      "dur": 2.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "s24",
+   "lines": [
+    {
+     "t": "12월 8일, 맥아더 장군은 제10군단 전체에 흥남을 통한 해상 철수를 명령합니다.",
+     "say": "십이월 팔 일, 맥아더 장군은 제십 군단 전체에 흥남을 통한 해상 철수를 명령합니다."
+    },
+    "바다로 들어왔던 군대가, 이번에는 바다로 빠져나가야 했던 것이죠."
+   ],
+   "visual": {
+    "type": "document",
+    "org": "유엔군 사령부",
+    "head": "제10군단 철수 명령",
+    "stamp": "1950. 12. 8",
+    "rows": [
+     "미 제10군단 · 흥남 집결",
+     "해상 철수 → 부산 방면",
+     "미 제8군 예하로 재배치",
+     "병력·장비 최대한 철수"
+    ],
+    "note": "명령 요지 · 재구성 화면"
+   },
+   "sfx": [
+    {
+     "id": "typewriter",
+     "at": 0.2,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s25",
+   "lines": [
+    "그리고 흥남항 둘레에, 세 겹의 방어선이 그어지기 시작합니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "1950. 12",
+    "accent": "흥남 교두보",
+    "accentAt": 0.5
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ],
+   "pauseBefore": 0.5
+  },
+  {
+   "id": "s26",
+   "lines": [
+    "흥남은 함흥 남쪽, 동해안에 자리 잡은 공업 항구였습니다.",
+    "일제강점기에 세워진 대규모 비료 공장과, 큰 배가 댈 수 있는 부두가 있었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "hn_wide",
+    "to": "hn",
+    "items": [
+     {
+      "k": "unit",
+      "p": "hamhung",
+      "text": "함흥",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "hungnam",
+      "text": "흥남",
+      "color": "blue",
+      "at": 0.4
+     },
+     {
+      "k": "marker",
+      "p": "port",
+      "color": "blue",
+      "at": 1
+     }
+    ],
+    "demSea": true
+   },
+   "chapter": {
+    "num": "PART 2",
+    "title": "흥남 3중 교두보 방어선"
+   }
+  },
+  {
+   "id": "s27",
+   "lines": [
+    {
+     "t": "철수를 바다에서 책임진 사람은, 미 해군 제90기동부대의 제임스 도일 소장이었습니다.",
+     "say": "철수를 바다에서 책임진 사람은, 미 해군 제구십 기동부대의 제임스 도일 소장이었습니다."
+    },
+    "석 달 전 인천에서, 상륙 함대를 이끌었던 바로 그 사람이었죠."
+   ],
+   "visual": {
+    "type": "person",
+    "q": "s27-photo",
+    "name": "제임스 도일",
+    "years": "1897 - 1981",
+    "role": "미 해군 제90기동부대 사령관"
+   }
+  },
+  {
+   "id": "s28",
+   "lines": [
+    "도일과 알몬드가 세운 계획은, 한마디로 거꾸로 하는 상륙작전이었습니다.",
+    "해안에 교두보를 쌓아 두고, 그 안에서 한 부대씩 차례로 배에 오르는 것이죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "거꾸로 하는 상륙작전",
+    "style": "yellow",
+    "sub": "적 앞에서 교두보를 지키며 차례로 승선",
+    "subAt": 0.5
+   }
+  },
+  {
+   "id": "s29",
+   "lines": [
+    "흥남항을 중심으로, 반원 모양의 방어선이 그어졌습니다.",
+    "바깥 방어선은 함흥 북쪽까지 크게 감쌌고, 그 안쪽에 두 번째, 세 번째 선이 겹겹이 준비됐죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "hn_wide",
+    "to": "hn_wide",
+    "items": [
+     {
+      "k": "marker",
+      "p": "port",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "front",
+      "path": [
+       [
+        127.7887,
+        39.9224
+       ],
+       [
+        127.7543,
+        39.9472
+       ],
+       [
+        127.7134,
+        39.9651
+       ],
+       [
+        127.6682,
+        39.9751
+       ],
+       [
+        127.6211,
+        39.9767
+       ],
+       [
+        127.5749,
+        39.9698
+       ],
+       [
+        127.5321,
+        39.9547
+       ],
+       [
+        127.4951,
+        39.9323
+       ],
+       [
+        127.4659,
+        39.9039
+       ],
+       [
+        127.4463,
+        39.871
+       ],
+       [
+        127.4373,
+        39.8354
+       ],
+       [
+        127.4393,
+        39.7993
+       ],
+       [
+        127.4524,
+        39.7645
+       ],
+       [
+        127.4756,
+        39.7331
+       ],
+       [
+        127.5079,
+        39.7067
+       ]
+      ],
+      "at": 0.3
+     },
+     {
+      "k": "front",
+      "path": [
+       [
+        127.7258,
+        39.8819
+       ],
+       [
+        127.7056,
+        39.8965
+       ],
+       [
+        127.6815,
+        39.907
+       ],
+       [
+        127.6549,
+        39.9129
+       ],
+       [
+        127.6272,
+        39.9138
+       ],
+       [
+        127.6001,
+        39.9097
+       ],
+       [
+        127.5749,
+        39.9009
+       ],
+       [
+        127.5531,
+        39.8877
+       ],
+       [
+        127.536,
+        39.871
+       ],
+       [
+        127.5244,
+        39.8516
+       ],
+       [
+        127.5191,
+        39.8307
+       ],
+       [
+        127.5203,
+        39.8095
+       ],
+       [
+        127.528,
+        39.789
+       ],
+       [
+        127.5417,
+        39.7705
+       ],
+       [
+        127.5606,
+        39.755
+       ]
+      ],
+      "at": 1.2
+     },
+     {
+      "k": "front",
+      "path": [
+       [
+        127.6737,
+        39.8483
+       ],
+       [
+        127.6652,
+        39.8544
+       ],
+       [
+        127.6551,
+        39.8589
+       ],
+       [
+        127.6439,
+        39.8613
+       ],
+       [
+        127.6323,
+        39.8617
+       ],
+       [
+        127.6209,
+        39.86
+       ],
+       [
+        127.6103,
+        39.8563
+       ],
+       [
+        127.6012,
+        39.8508
+       ],
+       [
+        127.594,
+        39.8437
+       ],
+       [
+        127.5891,
+        39.8356
+       ],
+       [
+        127.5869,
+        39.8268
+       ],
+       [
+        127.5874,
+        39.8179
+       ],
+       [
+        127.5906,
+        39.8093
+       ],
+       [
+        127.5964,
+        39.8015
+       ],
+       [
+        127.6044,
+        39.795
+       ]
+      ],
+      "at": 1.6
+     },
+     {
+      "k": "badge",
+      "p": [
+       127.4951,
+       39.9323
+      ],
+      "text": "1선",
+      "color": "blue",
+      "at": 0.6,
+      "dy": -60
+     },
+     {
+      "k": "badge",
+      "p": [
+       127.5531,
+       39.8877
+      ],
+      "text": "2선",
+      "color": "blue",
+      "at": 1.4,
+      "dy": -60
+     },
+     {
+      "k": "badge",
+      "p": [
+       127.6012,
+       39.8508
+      ],
+      "text": "3선",
+      "color": "blue",
+      "at": 1.8,
+      "dy": -60
+     }
+    ],
+    "demSea": true
+   },
+   "callouts": [
+    {
+     "text": "방어선 위치는 개략 모식",
+     "style": "dark",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s30",
+   "lines": [
+    {
+     "t": "방어선은 미 제3사단과 제7사단, 그리고 국군 제1군단이 나눠 맡았습니다.",
+     "say": "방어선은 미 제삼 사단과 제칠 사단, 그리고 국군 제일 군단이 나눠 맡았습니다."
+    },
+    {
+     "t": "장진호에서 가장 큰 상처를 입은 해병 제1사단은, 맨 먼저 배에 오르기로 했죠.",
+     "say": "장진호에서 가장 큰 상처를 입은 해병 제일 사단은, 맨 먼저 배에 오르기로 했죠."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "hn_wide",
+    "to": "hn_wide",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.7887,
+        39.9224
+       ],
+       [
+        127.7543,
+        39.9472
+       ],
+       [
+        127.7134,
+        39.9651
+       ],
+       [
+        127.6682,
+        39.9751
+       ],
+       [
+        127.6211,
+        39.9767
+       ],
+       [
+        127.5749,
+        39.9698
+       ],
+       [
+        127.5321,
+        39.9547
+       ],
+       [
+        127.4951,
+        39.9323
+       ],
+       [
+        127.4659,
+        39.9039
+       ],
+       [
+        127.4463,
+        39.871
+       ],
+       [
+        127.4373,
+        39.8354
+       ],
+       [
+        127.4393,
+        39.7993
+       ],
+       [
+        127.4524,
+        39.7645
+       ],
+       [
+        127.4756,
+        39.7331
+       ],
+       [
+        127.5079,
+        39.7067
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": [
+       127.7134,
+       39.9651
+      ],
+      "text": "미 제7사단",
+      "color": "blue",
+      "at": 0.2
+     },
+     {
+      "k": "unit",
+      "p": [
+       127.5321,
+       39.9547
+      ],
+      "text": "국군 제1군단",
+      "color": "blue",
+      "at": 0.45
+     },
+     {
+      "k": "unit",
+      "p": [
+       127.4373,
+       39.8354
+      ],
+      "text": "미 제3사단",
+      "color": "blue",
+      "at": 0.7
+     },
+     {
+      "k": "unit",
+      "p": "port",
+      "text": "해병 제1사단 · 승선",
+      "color": "blue",
+      "at": 1.2,
+      "pulse": true
+     }
+    ],
+    "demSea": true
+   },
+   "callouts": [
+    {
+     "text": "사단 배치는 개략",
+     "style": "dark",
+     "at": 0,
+     "pos": "top",
+     "until": 0
+    }
+   ]
+  },
+  {
+   "id": "s31",
+   "lines": [
+    {
+     "t": "국군 제1군단 장병들도, 동북부 전선에서 눈길을 헤치고 흥남으로 모여들었습니다.",
+     "say": "국군 제일 군단 장병들도, 동북부 전선에서 눈길을 헤치고 흥남으로 모여들었습니다."
+    },
+    "이들 역시 이 좁은 항구에서, 마지막까지 방어선의 한쪽을 지켜야 했죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s31-photo",
+    "kb": "in"
+   },
+   "label": "흥남으로 철수하는 국군 수도사단 (1950. 12. 11)"
+  },
+  {
+   "id": "s32",
+   "lines": [
+    "작전의 원칙은 단순했습니다.",
+    "방어선이 한 겹 줄어들 때마다, 그만큼의 병력이 바다로 빠져나가는 것."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "육지의 방어선",
+     "big": "한 겹씩 축소",
+     "icon": "none",
+     "color": "red"
+    },
+    "right": {
+     "title": "부두의 수송선",
+     "big": "한 부대씩 승선",
+     "icon": "none",
+     "color": "blue",
+     "at": 1
+    }
+   }
+  },
+  {
+   "id": "s33",
+   "lines": [
+    {
+     "t": "해병 제1사단은 12월 15일까지 모두 배에 올라 흥남을 떠났습니다.",
+     "say": "해병 제일 사단은 십이월 십오 일까지 모두 배에 올라 흥남을 떠났습니다."
+    },
+    {
+     "t": "이어 국군 제1군단과 미 제7사단이 차례로 승선했고, 마지막 후위는 미 제3사단이 맡았죠.",
+     "say": "이어 국군 제일 군단과 미 제칠 사단이 차례로 승선했고, 마지막 후위는 미 제삼 사단이 맡았죠."
+    }
+   ],
+   "visual": {
+    "type": "timeline",
+    "items": [
+     {
+      "date": "12. 15",
+      "text": "해병대",
+      "at": 0
+     },
+     {
+      "date": "12. 17 무렵",
+      "text": "국군 1군단",
+      "at": 1
+     },
+     {
+      "date": "12. 21",
+      "text": "미 7사단",
+      "at": 1.4
+     },
+     {
+      "date": "12. 24",
+      "text": "미 3사단",
+      "at": 1.8
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "clock",
+     "at": 0,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s34",
+   "lines": [
+    "해병들은 부두의 얼음을 헤치고, 상륙정을 타고 앞바다의 수송선으로 옮겨 탔습니다.",
+    "장진호의 눈보라를 뚫고 온 지, 불과 며칠 만이었죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s34-photo",
+    "kb": "in"
+   },
+   "label": "흥남에서 상륙정에 오르는 미 해병대 (1950. 12)",
+   "sfx": [
+    {
+     "id": "water",
+     "at": 0,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s35",
+   "lines": [
+    "부두에는 차량과 탄약, 연료통이 산더미처럼 쌓여 갔습니다.",
+    {
+     "t": "제10군단의 방침은 분명했죠. 실을 수 있는 것은, 하나라도 더 싣는다.",
+     "say": "제십 군단의 방침은 분명했죠. 실을 수 있는 것은, 하나라도 더 싣는다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s35-photo",
+    "kb": "in"
+   },
+   "label": "흥남 부두에서 실려 나가는 군수 물자 (1950. 12)"
+  },
+  {
+   "id": "s36",
+   "lines": [
+    "흥남 남서쪽의 연포 비행장에서는, 수송기들이 쉴 새 없이 뜨고 내렸습니다.",
+    {
+     "t": "하늘길로만, 병력 3천6백 명과 차량 196대가 빠져나갔죠.",
+     "say": "하늘길로만, 병력 삼천육백 명과 차량 백구십육 대가 빠져나갔죠."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s36-photo",
+    "kb": "in"
+   },
+   "label": "연포 비행장의 C-119 수송기들 (1950. 12)",
+   "callouts": [
+    {
+     "text": "공수 철수: 미 해군 기록 기준",
+     "style": "dark",
+     "at": 1,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "whoosh",
+     "at": 0.4,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s37",
+   "lines": [
+    "그 사이 북쪽에서는, 중공군이 방어선을 향해 조금씩 다가오고 있었습니다.",
+    "그러나 그들의 발걸음은, 예상보다 훨씬 무거웠죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "snow_column",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s38",
+   "lines": [
+    {
+     "t": "장진호에서 혹독한 추위와 싸운 중공군 제9병단은, 동상과 굶주림으로 큰 피해를 입었습니다.",
+     "say": "장진호에서 혹독한 추위와 싸운 중공군 제구 병단은, 동상과 굶주림으로 큰 피해를 입었습니다."
+    },
+    "중국 측 기록으로도, 전투가 아닌 동상으로 쓰러진 병사만 수만 명에 이르렀다고 하죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "동상 환자 수만 명",
+    "style": "red",
+    "sub": "중공군 제9병단 · 중국 측 기록",
+    "subAt": 0.6
+   }
+  },
+  {
+   "id": "s39",
+   "lines": [
+    {
+     "t": "12월 중순부터, 중공군과 북한군은 바깥 방어선 곳곳을 두드려 보기 시작합니다.",
+     "say": "십이월 중순부터, 중공군과 북한군은 바깥 방어선 곳곳을 두드려 보기 시작합니다."
+    },
+    "작은 공격이 이어질 때마다, 방어선 안쪽은 긴장으로 얼어붙었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "hn_wide",
+    "to": "hn_wide",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.7887,
+        39.9224
+       ],
+       [
+        127.7543,
+        39.9472
+       ],
+       [
+        127.7134,
+        39.9651
+       ],
+       [
+        127.6682,
+        39.9751
+       ],
+       [
+        127.6211,
+        39.9767
+       ],
+       [
+        127.5749,
+        39.9698
+       ],
+       [
+        127.5321,
+        39.9547
+       ],
+       [
+        127.4951,
+        39.9323
+       ],
+       [
+        127.4659,
+        39.9039
+       ],
+       [
+        127.4463,
+        39.871
+       ],
+       [
+        127.4373,
+        39.8354
+       ],
+       [
+        127.4393,
+        39.7993
+       ],
+       [
+        127.4524,
+        39.7645
+       ],
+       [
+        127.4756,
+        39.7331
+       ],
+       [
+        127.5079,
+        39.7067
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.4777,
+        40.0347
+       ],
+       [
+        127.5041,
+        39.99955
+       ],
+       [
+        127.5305,
+        39.9644
+       ]
+      ],
+      "color": "red",
+      "at": 0.3,
+      "width": 0.7
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.7179,
+        40.059
+       ],
+       [
+        127.70425,
+        40.019800000000004
+       ],
+       [
+        127.6906,
+        39.9806
+       ]
+      ],
+      "color": "red",
+      "at": 0.5,
+      "width": 0.7
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.3243,
+        39.8662
+       ],
+       [
+        127.37625,
+        39.8592
+       ],
+       [
+        127.4282,
+        39.8522
+       ]
+      ],
+      "color": "red",
+      "at": 0.7,
+      "width": 0.7
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.372,
+        39.7069
+       ],
+       [
+        127.41265,
+        39.7249
+       ],
+       [
+        127.4533,
+        39.7429
+       ]
+      ],
+      "color": "red",
+      "at": 0.9,
+      "width": 0.7
+     }
+    ],
+    "demSea": true
+   },
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 0.4,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s40",
+   "lines": [
+    {
+     "t": "12월 17일 무렵, 유엔군은 함흥을 내주고 안쪽 방어선으로 물러납니다.",
+     "say": "십이월 십칠 일 무렵, 유엔군은 함흥을 내주고 안쪽 방어선으로 물러납니다."
+    },
+    "방어선이 줄어든 만큼, 부두에 남은 병력도 줄어들고 있었죠.",
+    "함흥의 주민들도, 군대의 뒤를 따라 흥남으로 쏟아져 나왔습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "hn_wide",
+    "to": "hn",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.7258,
+        39.8819
+       ],
+       [
+        127.7056,
+        39.8965
+       ],
+       [
+        127.6815,
+        39.907
+       ],
+       [
+        127.6549,
+        39.9129
+       ],
+       [
+        127.6272,
+        39.9138
+       ],
+       [
+        127.6001,
+        39.9097
+       ],
+       [
+        127.5749,
+        39.9009
+       ],
+       [
+        127.5531,
+        39.8877
+       ],
+       [
+        127.536,
+        39.871
+       ],
+       [
+        127.5244,
+        39.8516
+       ],
+       [
+        127.5191,
+        39.8307
+       ],
+       [
+        127.5203,
+        39.8095
+       ],
+       [
+        127.528,
+        39.789
+       ],
+       [
+        127.5417,
+        39.7705
+       ],
+       [
+        127.5606,
+        39.755
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "hamhung",
+      "text": "함흥 철수",
+      "color": "red",
+      "at": 0.3
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.54,
+        39.92
+       ],
+       [
+        127.575,
+        39.88
+       ],
+       [
+        127.6,
+        39.85
+       ]
+      ],
+      "color": "blue",
+      "at": 0.5,
+      "width": 0.8
+     }
+    ],
+    "demSea": true
+   }
+  },
+  {
+   "id": "s41",
+   "lines": [
+    "문제는, 방어선이 좁아질수록 적의 포탄이 부두에 닿기 쉬워진다는 것이었습니다.",
+    "과연 마지막 배가 떠날 때까지, 이 좁은 땅을 지켜낼 수 있을까."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "좁아지는 방어선",
+    "accent": "마지막 배까지 버틸 수 있을까",
+    "accentAt": 1
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0.2,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s42",
+   "lines": [
+    "그때, 흥남 앞바다에 모인 군함들이 일제히 포문을 엽니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s42-photo",
+    "kb": "in"
+   },
+   "label": "흥남 앞바다에 모인 함선들 (1950. 12. 14)",
+   "sfx": [
+    {
+     "id": "artillery",
+     "at": 0.8,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s43",
+   "lines": [
+    "흥남 앞바다에는 중순양함 세인트폴함과 로체스터함, 그리고 구축함과 로켓함들이 늘어섰습니다.",
+    "육지의 방어선 바깥에, 포탄으로 된 또 하나의 벽을 세우기 위해서였죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "hn_sea",
+    "to": "hn_sea",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.7258,
+        39.8819
+       ],
+       [
+        127.7056,
+        39.8965
+       ],
+       [
+        127.6815,
+        39.907
+       ],
+       [
+        127.6549,
+        39.9129
+       ],
+       [
+        127.6272,
+        39.9138
+       ],
+       [
+        127.6001,
+        39.9097
+       ],
+       [
+        127.5749,
+        39.9009
+       ],
+       [
+        127.5531,
+        39.8877
+       ],
+       [
+        127.536,
+        39.871
+       ],
+       [
+        127.5244,
+        39.8516
+       ],
+       [
+        127.5191,
+        39.8307
+       ],
+       [
+        127.5203,
+        39.8095
+       ],
+       [
+        127.528,
+        39.789
+       ],
+       [
+        127.5417,
+        39.7705
+       ],
+       [
+        127.5606,
+        39.755
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": [
+       127.78,
+       39.73
+      ],
+      "text": "세인트폴함",
+      "color": "blue",
+      "at": 0.2
+     },
+     {
+      "k": "unit",
+      "p": [
+       127.9,
+       39.79
+      ],
+      "text": "로체스터함",
+      "color": "blue",
+      "at": 0.35
+     },
+     {
+      "k": "unit",
+      "p": [
+       127.66,
+       39.69
+      ],
+      "text": "구축함·로켓함",
+      "color": "blue",
+      "at": 0.5
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.7617,
+        39.9051
+       ],
+       [
+        127.7335,
+        39.9255
+       ],
+       [
+        127.6998,
+        39.9402
+       ],
+       [
+        127.6625,
+        39.9485
+       ],
+       [
+        127.6237,
+        39.9498
+       ],
+       [
+        127.5857,
+        39.944
+       ],
+       [
+        127.5504,
+        39.9316
+       ],
+       [
+        127.5199,
+        39.9132
+       ],
+       [
+        127.496,
+        39.8898
+       ],
+       [
+        127.4798,
+        39.8627
+       ],
+       [
+        127.4723,
+        39.8334
+       ],
+       [
+        127.474,
+        39.8036
+       ],
+       [
+        127.4848,
+        39.775
+       ],
+       [
+        127.5039,
+        39.7491
+       ],
+       [
+        127.5305,
+        39.7274
+       ]
+      ],
+      "color": "red",
+      "at": 1,
+      "glow": true
+     }
+    ],
+    "demSea": true
+   },
+   "chapter": {
+    "num": "PART 3",
+    "title": "함포의 장벽"
+   },
+   "sfx": [
+    {
+     "id": "water",
+     "at": 0,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s44",
+   "lines": [
+    {
+     "t": "12월 15일, 세인트폴함의 8인치 주포가 먼저 불을 뿜었습니다.",
+     "say": "십이월 십오 일, 세인트폴함의 팔 인치 주포가 먼저 불을 뿜었습니다."
+    },
+    {
+     "t": "이틀 뒤에는 로체스터함이, 21일부터는 로켓함들이 포격에 가세했죠.",
+     "say": "이틀 뒤에는 로체스터함이, 이십일 일부터는 로켓함들이 포격에 가세했죠."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s44-photo",
+    "kb": "in"
+   },
+   "label": "흥남 앞바다에서 8인치 포를 쏘는 세인트폴함 (1950. 12)",
+   "sfx": [
+    {
+     "id": "artillery",
+     "at": 0.3,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s45",
+   "lines": [
+    "함포는 방어선 바로 앞, 적이 모여들 만한 골짜기와 길목을 미리 정해 두고 두들겼습니다.",
+    "지상군이 요청하면, 곧바로 포탄이 날아가도록 짜인 화력의 그물이었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "hn_wide",
+    "to": "hn_wide",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.7258,
+        39.8819
+       ],
+       [
+        127.7056,
+        39.8965
+       ],
+       [
+        127.6815,
+        39.907
+       ],
+       [
+        127.6549,
+        39.9129
+       ],
+       [
+        127.6272,
+        39.9138
+       ],
+       [
+        127.6001,
+        39.9097
+       ],
+       [
+        127.5749,
+        39.9009
+       ],
+       [
+        127.5531,
+        39.8877
+       ],
+       [
+        127.536,
+        39.871
+       ],
+       [
+        127.5244,
+        39.8516
+       ],
+       [
+        127.5191,
+        39.8307
+       ],
+       [
+        127.5203,
+        39.8095
+       ],
+       [
+        127.528,
+        39.789
+       ],
+       [
+        127.5417,
+        39.7705
+       ],
+       [
+        127.5606,
+        39.755
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.7617,
+        39.9051
+       ],
+       [
+        127.7335,
+        39.9255
+       ],
+       [
+        127.6998,
+        39.9402
+       ],
+       [
+        127.6625,
+        39.9485
+       ],
+       [
+        127.6237,
+        39.9498
+       ],
+       [
+        127.5857,
+        39.944
+       ],
+       [
+        127.5504,
+        39.9316
+       ],
+       [
+        127.5199,
+        39.9132
+       ],
+       [
+        127.496,
+        39.8898
+       ],
+       [
+        127.4798,
+        39.8627
+       ],
+       [
+        127.4723,
+        39.8334
+       ],
+       [
+        127.474,
+        39.8036
+       ],
+       [
+        127.4848,
+        39.775
+       ],
+       [
+        127.5039,
+        39.7491
+       ],
+       [
+        127.5305,
+        39.7274
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "glow": true
+     },
+     {
+      "k": "badge",
+      "p": [
+       127.5199,
+       39.9132
+      ],
+      "text": "함포 화력 통제선",
+      "color": "red",
+      "at": 0.5,
+      "dy": -70
+     },
+     {
+      "k": "marker",
+      "p": [
+       127.5749,
+       39.9698
+      ],
+      "text": "사격 구역",
+      "color": "red",
+      "at": 1
+     },
+     {
+      "k": "marker",
+      "p": [
+       127.4373,
+       39.8354
+      ],
+      "text": "사격 구역",
+      "color": "red",
+      "at": 1.15
+     }
+    ],
+    "demSea": true
+   },
+   "callouts": [
+    {
+     "text": "화력 통제선은 개략 모식",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.5,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s46",
+   "lines": [
+    "밤이 되면, 군함이 쏘아 올린 조명탄이 흥남 하늘을 대낮처럼 밝혔습니다.",
+    "어둠을 틈타 다가오려던 적은, 그 빛 아래에서 고스란히 드러났죠.",
+    "그리고 드러난 적의 머리 위로, 곧바로 포탄이 쏟아졌습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s46-photo",
+    "kb": "in"
+   },
+   "label": "흥남 앞바다에서 야간 포격 중인 세인트폴함 (1950. 12)"
+  },
+  {
+   "id": "s47",
+   "lines": [
+    "로켓함들은 한꺼번에 수십 발의 로켓을 하늘로 쏘아 올렸습니다.",
+    "붉은 궤적이 겨울 밤하늘에, 거대한 불의 커튼처럼 드리워졌죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "rocket_ships",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "whoosh",
+     "at": 0.2,
+     "volume": 0.4
+    },
+    {
+     "id": "artillery",
+     "at": 0.9,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s48",
+   "lines": [
+    {
+     "t": "그리고 12월 23일, 전함 미주리호가 흥남 앞바다에 도착합니다.",
+     "say": "그리고 십이월 이십삼 일, 전함 미주리호가 흥남 앞바다에 도착합니다."
+    },
+    {
+     "t": "5년 전 일본의 항복 문서가 서명됐던, 바로 그 배였죠.",
+     "say": "오 년 전 일본의 항복 문서가 서명됐던, 바로 그 배였죠."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s48-photo",
+    "kb": "in"
+   },
+   "label": "흥남에 16인치 주포를 쏘는 전함 미주리호 (1950. 12)",
+   "sfx": [
+    {
+     "id": "artillery",
+     "at": 0.5,
+     "volume": 0.55
+    }
+   ]
+  },
+  {
+   "id": "s49",
+   "lines": [
+    {
+     "t": "미주리호의 16인치 주포는, 포탄 한 발의 무게만 8백 킬로그램이 넘었습니다.",
+     "say": "미주리호의 십육 인치 주포는, 포탄 한 발의 무게만 팔백 킬로그램이 넘었습니다."
+    },
+    {
+     "t": "그 포탄이, 30킬로미터 넘게 떨어진 산 너머까지 날아갔죠.",
+     "say": "그 포탄이, 삼십 킬로미터 넘게 떨어진 산 너머까지 날아갔죠."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "16인치 주포",
+    "style": "red",
+    "sub": "포탄 1발 800kg 이상 · 사거리 30km 이상",
+    "subAt": 0.6
+   },
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0.1,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s50",
+   "lines": [
+    {
+     "t": "12월 7일부터 24일까지, 흥남 앞바다의 군함들이 쏜 포탄은 이렇습니다.",
+     "say": "십이월 칠 일부터 이십사 일까지, 흥남 앞바다의 군함들이 쏜 포탄은 이렇습니다."
+    },
+    {
+     "t": "5인치 포탄 1만 8천6백여 발, 8인치 포탄 2천9백여 발, 그리고 로켓 1천4백여 발.",
+     "say": "오 인치 포탄 만 팔천육백여 발, 팔 인치 포탄 이천구백여 발, 그리고 로켓 천사백여 발."
+    },
+    {
+     "t": "미주리호의 16인치 포탄도, 162발이 날아갔죠.",
+     "say": "미주리호의 십육 인치 포탄도, 백육십이 발이 날아갔죠."
+    }
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "미 해군 기록 · 1950. 12. 7~24",
+    "items": [
+     {
+      "label": "5인치 포탄",
+      "value": 18637,
+      "display": "18,637발",
+      "color": "blue",
+      "at": 1
+     },
+     {
+      "label": "8인치 포탄",
+      "value": 2932,
+      "display": "2,932발",
+      "color": "blue",
+      "at": 1.3
+     },
+     {
+      "label": "로켓",
+      "value": 1462,
+      "display": "1,462발",
+      "color": "red",
+      "at": 1.6
+     },
+     {
+      "label": "16인치 포탄",
+      "value": 162,
+      "display": "162발",
+      "color": "red",
+      "at": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": "s51",
+   "lines": [
+    "하늘에서는 항공모함에서 날아오른 함재기들이, 방어선 위를 쉬지 않고 맴돌았습니다.",
+    "바다와 하늘, 두 겹의 장벽이 흥남을 감싼 셈이었죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s51-photo",
+    "kb": "in"
+   },
+   "label": "한국 근해 함대 위를 나는 미 해군 콜세어 전투기 (1950)",
+   "sfx": [
+    {
+     "id": "whoosh",
+     "at": 0.3,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s52",
+   "lines": [
+    "방어선의 병사들은, 머리 위로 날아가는 포탄 소리를 들으며 밤을 지새웠습니다.",
+    "그 굉음은 두려움이 아니라, 안도의 소리였다고 하죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "gunfire_night",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.2,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s53",
+   "lines": [
+    "중공군은 이 불의 벽 앞에서, 끝내 대규모 공세를 걸지 못했습니다.",
+    "장진호에서 입은 깊은 상처와 바다에서 쏟아지는 포화가, 그들의 발을 묶은 것이죠.",
+    {
+     "t": "제9병단은 이후 몇 달 동안, 전선에 다시 나서지 못할 만큼 지쳐 있었습니다.",
+     "say": "제구 병단은 이후 몇 달 동안, 전선에 다시 나서지 못할 만큼 지쳐 있었습니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "pva_halt",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s54",
+   "lines": [
+    "결국 흥남 교두보는, 마지막 날까지 무너지지 않았습니다.",
+    "철수 작전 내내, 부두가 적의 손에 넘어간 적은 단 한 번도 없었죠."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "중공군 제9병단",
+     "big": "추격 정지",
+     "icon": "none",
+     "color": "red"
+    },
+    "right": {
+     "title": "흥남 교두보",
+     "big": "끝까지 유지",
+     "icon": "none",
+     "color": "blue",
+     "at": 1
+    }
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s55",
+   "lines": [
+    "그런데 이 무렵, 흥남에는 군인보다 훨씬 더 많은 사람들이 몰려들고 있었습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "그리고 부두에는",
+    "accent": "끝없이 몰려드는 사람들",
+    "accentAt": 0.5
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ],
+   "pauseBefore": 0.5
+  },
+  {
+   "id": "s56",
+   "lines": [
+    "중공군이 다가온다는 소식에, 함경도 곳곳의 주민들이 흥남으로 몰려들었습니다.",
+    "등에 업고, 머리에 이고, 아이의 손을 잡은 채 눈길을 걸어온 사람들이었죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s56-photo",
+    "kb": "in"
+   },
+   "label": "흥남 부두에서 상륙함 승선을 기다리는 피란민 (1950. 12)",
+   "chapter": {
+    "num": "PART 4",
+    "title": "물자를 버리고 사람을 태우다"
+   }
+  },
+  {
+   "id": "s57",
+   "lines": [
+    "다시 공산 치하로 돌아가면, 살아남기 어렵다고 믿은 사람들.",
+    "유엔군에 협조했거나 교회에 다녔다는 이유만으로, 목숨이 위태로운 가족도 많았습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "pier_crowd",
+    "kb": "out"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s58",
+   "lines": [
+    {
+     "t": "부두 주변에 모인 피란민은, 순식간에 10만 명 가까이로 불어났습니다.",
+     "say": "부두 주변에 모인 피란민은, 순식간에 십만 명 가까이로 불어났습니다."
+    },
+    "흥남의 거리와 해변이, 사람과 보따리로 뒤덮였죠.",
+    "매서운 바닷바람 속에서, 사람들은 모닥불 하나에 의지해 며칠씩 배를 기다렸습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "피란민 약 10만",
+    "style": "red",
+    "sub": "흥남 부두 일대 · 1950년 12월",
+    "subAt": 0.5
+   }
+  },
+  {
+   "id": "s59",
+   "lines": [
+    "하지만 군의 원칙은 냉정했습니다.",
+    "배는 군대와 장비를 실어 나르기에도 빠듯했고, 피란민 수송은 애초 계획에 없던 일이었죠."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "군의 계획",
+     "big": "병력·장비 우선",
+     "icon": "none",
+     "color": "blue"
+    },
+    "right": {
+     "title": "부두의 현실",
+     "big": "피란민 10만",
+     "icon": "none",
+     "color": "red",
+     "at": 1
+    }
+   }
+  },
+  {
+   "id": "s60",
+   "lines": [
+    "게다가 피란민 사이에 적의 첩자가 섞여 있을지 모른다는 걱정도 컸습니다.",
+    "수많은 사람이 부두에 남겨질 수도 있는, 절박한 순간이었죠."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "남겨질 것인가",
+    "accent": "10만 명의 운명",
+    "accentAt": 1
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0.3,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s61",
+   "lines": [
+    "이때 한 젊은 한국인이, 알몬드 장군을 찾아갑니다.",
+    {
+     "t": "제10군단에서 민사 고문으로 일하던, 스물여덟 살의 의사 현봉학이었죠.",
+     "say": "제십 군단에서 민사 고문으로 일하던, 스물여덟 살의 의사 현봉학이었죠."
+    },
+    "함흥에서 태어나 미국에서 의학을 공부한 그에게, 부두의 피란민들은 바로 고향 사람들이었습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "hyun_almond",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s62",
+   "lines": [
+    "현봉학은 알몬드에게 거듭 매달렸습니다.",
+    "이 사람들을 두고 떠나면, 모두 죽게 될 것이라고."
+   ],
+   "visual": {
+    "type": "quotes",
+    "title": "현봉학의 호소",
+    "items": [
+     {
+      "text": "이 사람들을 두고 갈 수는 없습니다",
+      "at": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "id": "s63",
+   "lines": [
+    "여기에 해병대의 에드워드 포니 대령도 힘을 보탰습니다.",
+    "철수 수송을 조율하던 그는, 배에 빈자리를 만들 방법을 함께 찾았죠.",
+    {
+     "t": "국군 제1군단장 김백일 소장도, 피란민을 데려가야 한다고 뜻을 모았습니다.",
+     "say": "국군 제일 군단장 김백일 소장도, 피란민을 데려가야 한다고 뜻을 모았습니다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s63-photo",
+    "kb": "in"
+   },
+   "label": "김백일 소장(오른쪽)과 정일권 소장 (1951. 2)"
+  },
+  {
+   "id": "s64",
+   "lines": [
+    "결국 알몬드는 결단을 내립니다.",
+    "병력과 장비를 싣고 남는 자리에는, 피란민을 태워라."
+   ],
+   "visual": {
+    "type": "document",
+    "org": "미 제10군단 사령부",
+    "head": "피란민 승선 허가",
+    "stamp": "1950. 12",
+    "rows": [
+     "병력·장비 적재 후 남는 공간에",
+     "피란민 승선 허용",
+     "모든 선박 최대한 수용"
+    ],
+    "note": "결정 요지 · 재구성 화면"
+   },
+   "sfx": [
+    {
+     "id": "typewriter",
+     "at": 0.2,
+     "volume": 0.4
+    },
+    {
+     "id": "hit",
+     "at": 1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s65",
+   "lines": [
+    "그날부터 흥남 부두의 풍경이 달라졌습니다.",
+    "군용 상륙함과 화물선, 작은 어선까지, 바다에 뜨는 것이라면 무엇이든 사람을 태웠죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s65-photo",
+    "kb": "in"
+   },
+   "label": "상륙함과 어선에 가득 오른 흥남 피란민 (1950. 12. 19)",
+   "sfx": [
+    {
+     "id": "water",
+     "at": 0,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s66",
+   "lines": [
+    "전차를 싣던 상륙함의 넓은 화물칸이, 사람들로 빼곡히 들어찼습니다.",
+    "갑판 위에도, 계단 위에도, 발 디딜 틈이 없었죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "hungnam_ship",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s67",
+   "lines": [
+    "피란민들은 가져온 짐을 대부분 부두에 버려야 했습니다.",
+    "한 사람이라도 더 타려면, 이불 한 채, 쌀 한 자루도 사치였죠."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "부두에 남긴 것",
+     "big": "짐 · 보따리",
+     "icon": "none",
+     "color": "red"
+    },
+    "right": {
+     "title": "배에 오른 것",
+     "big": "사람",
+     "icon": "crowd",
+     "color": "blue",
+     "at": 1
+    }
+   }
+  },
+  {
+   "id": "s68",
+   "lines": [
+    "배에 오르지 못한 가족과 생이별하는 일도, 수없이 벌어졌습니다.",
+    {
+     "t": "곧 돌아오겠다는 약속은, 그 뒤 70년이 넘도록 지켜지지 못했죠.",
+     "say": "곧 돌아오겠다는 약속은, 그 뒤 칠십 년이 넘도록 지켜지지 못했죠."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "parting",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "pauseBefore": 0.2
+  },
+  {
+   "id": "s69",
+   "lines": [
+    "그리고 이 무렵, 부두 앞에 한 척의 화물선이 들어와 있었습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "메러디스 빅토리호",
+    "style": "yellow",
+    "sub": "7,600톤급 미국 화물선",
+    "subAt": 0.4
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0.2,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s70",
+   "lines": [
+    {
+     "t": "메러디스 빅토리호는 2차 대전 막바지에 지어진, 빅토리급 화물선이었습니다.",
+     "say": "메러디스 빅토리호는 이차 대전 막바지에 지어진, 빅토리급 화물선이었습니다."
+    },
+    "선장은 서른여섯 살의 레너드 라루였죠.",
+    {
+     "t": "2차 대전 때 위험한 북극 항로의 수송선을 몰았던, 노련한 뱃사람이었습니다.",
+     "say": "이차 대전 때 위험한 북극 항로의 수송선을 몰았던, 노련한 뱃사람이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "larue_bridge",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "chapter": {
+    "num": "PART 5",
+    "title": "메러디스 빅토리호의 항해"
+   }
+  },
+  {
+   "id": "s71",
+   "lines": [
+    "흥남에 들어온 이 배에, 미군 장교들이 올라와 물었습니다.",
+    "피란민을 태워 줄 수 있겠느냐고."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "피란민을",
+    "accent": "태워 줄 수 있겠는가",
+    "accentAt": 1
+   }
+  },
+  {
+   "id": "s72",
+   "lines": [
+    {
+     "t": "배에는 아직, 항공기용 연료 3백 톤이 실려 있었습니다.",
+     "say": "배에는 아직, 항공기용 연료 삼백 톤이 실려 있었습니다."
+    },
+    "포탄 한 발만 맞아도, 거대한 불덩이가 될 수 있는 상황이었죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "항공유 300톤",
+    "style": "red",
+    "sub": "포탄 한 발이면 거대한 불덩이",
+    "subAt": 0.6
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s73",
+   "lines": [
+    "라루 선장은 부두를 가득 메운 사람들을 내려다봤습니다.",
+    "그리고 결심합니다. 태울 수 있는 만큼, 모두 태우겠다고."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "larue_bridge",
+    "kb": "out"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s74",
+   "lines": [
+    {
+     "t": "12월 22일 오후, 승선이 시작됐습니다.",
+     "say": "십이월 이십이 일 오후, 승선이 시작됐습니다."
+    },
+    "배의 기중기와 화물용 그물이, 짐 대신 사람을 실어 올렸죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "hn_port",
+    "to": "hn_pier",
+    "items": [
+     {
+      "k": "unit",
+      "p": "port",
+      "text": "메러디스 빅토리호",
+      "color": "blue",
+      "at": 0,
+      "pulse": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.615,
+        39.84
+       ],
+       [
+        127.625,
+        39.828
+       ],
+       [
+        127.635,
+        39.819
+       ]
+      ],
+      "color": "blue",
+      "at": 0.5,
+      "width": 0.7
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.66,
+        39.838
+       ],
+       [
+        127.65,
+        39.828
+       ],
+       [
+        127.642,
+        39.82
+       ]
+      ],
+      "color": "blue",
+      "at": 0.7,
+      "width": 0.7
+     }
+    ],
+    "demSea": true
+   },
+   "callouts": [
+    {
+     "text": "1950. 12. 22 · 승선 시작",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s75",
+   "lines": [
+    "다섯 개의 화물칸이 층층이 사람으로 채워졌고, 갑판 위까지 사람이 들어찼습니다.",
+    "밤새 이어진 승선은, 이튿날 오전에야 끝이 났죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "hold_packed",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s76",
+   "lines": [
+    {
+     "t": "최종 탑승 인원, 약 1만 4천 명.",
+     "say": "최종 탑승 인원, 약 만 사천 명."
+    },
+    {
+     "t": "정원의 2백 배가 넘는, 상상조차 어려운 숫자였죠.",
+     "say": "정원의 이백 배가 넘는, 상상조차 어려운 숫자였죠."
+    },
+    "수십 명의 선원이, 이 모든 사람의 목숨을 책임져야 했습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s76-photo",
+    "kb": "in"
+   },
+   "label": "메러디스 빅토리호에 오른 피란민들 (1950. 12)",
+   "callouts": [
+    {
+     "text": "약 14,000명 · 미 해군 기록",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s77",
+   "lines": [
+    {
+     "t": "12월 23일 오전, 메러디스 빅토리호는 닻을 올립니다.",
+     "say": "십이월 이십삼 일 오전, 메러디스 빅토리호는 닻을 올립니다."
+    },
+    "목적지는, 남쪽으로 수백 킬로미터 떨어진 부산이었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "hn_sea",
+    "to": "east",
+    "items": [
+     {
+      "k": "marker",
+      "p": "port",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.68,
+        39.79
+       ],
+       [
+        128.3,
+        39.5
+       ],
+       [
+        128.95,
+        38.9
+       ],
+       [
+        129.4,
+        38.0
+       ],
+       [
+        129.65,
+        37.1
+       ],
+       [
+        129.72,
+        36.2
+       ],
+       [
+        129.55,
+        35.55
+       ],
+       [
+        129.12,
+        35.06
+       ]
+      ],
+      "color": "blue",
+      "at": 0.3,
+      "width": 1.0,
+      "dur": 3.0
+     },
+     {
+      "k": "unit",
+      "p": "busan",
+      "text": "부산",
+      "color": "blue",
+      "at": 1.2
+     }
+    ],
+    "demSea": true
+   },
+   "callouts": [
+    {
+     "text": "1950. 12. 23 · 흥남 출항",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "water",
+     "at": 0,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s78",
+   "lines": [
+    "흥남 앞바다에는, 적이 뿌려 놓은 기뢰가 곳곳에 숨어 있었습니다.",
+    "기뢰 하나만 건드려도, 항공유를 실은 이 배는 그대로 끝이었죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "minefield",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0.3,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s79",
+   "lines": [
+    "배 안에는 먹을 것도, 물도, 난방도 없었습니다.",
+    "화장실조차 없는 화물칸에서, 사람들은 서로의 체온으로 겨울 바다의 추위를 견뎠죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "deck_cold",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s80",
+   "lines": [
+    "의사도, 통역도 없었습니다.",
+    "선원들은 말이 통하지 않는 사람들 사이를 오가며, 할 수 있는 모든 일을 했죠."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "의사도, 통역도 없이",
+    "accent": "사흘간의 항해",
+    "accentAt": 1
+   }
+  },
+  {
+   "id": "s81",
+   "lines": [
+    "그리고 그 어두운 화물칸에서, 새 생명이 태어나기 시작합니다.",
+    "응급처치 정도만 배운 선원이, 떨리는 손으로 아이를 받아 냈죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "birth",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s82",
+   "lines": [
+    "항해하는 동안 태어난 아기는, 모두 다섯 명.",
+    {
+     "t": "미군 선원들은 이 아이들에게, 김치 1호부터 5호까지 별명을 붙여 줬습니다.",
+     "say": "미군 선원들은 이 아이들에게, 김치 일 호부터 오 호까지 별명을 붙여 줬습니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "김치 1호 ~ 5호",
+    "style": "yellow",
+    "sub": "항해 중 태어난 다섯 아이",
+    "subAt": 0.5
+   },
+   "sfx": [
+    {
+     "id": "pop",
+     "at": 0.3,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s83",
+   "lines": [
+    {
+     "t": "12월 24일, 크리스마스 이브에 배는 부산 앞바다에 닿습니다.",
+     "say": "십이월 이십사 일, 크리스마스 이브에 배는 부산 앞바다에 닿습니다."
+    },
+    "그러나 부산은 이미 몰려든 피란민으로, 더는 받아 줄 자리가 없었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "east",
+    "to": "south",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        129.65,
+        37.1
+       ],
+       [
+        129.72,
+        36.2
+       ],
+       [
+        129.55,
+        35.55
+       ],
+       [
+        129.12,
+        35.06
+       ]
+      ],
+      "color": "blue",
+      "at": 0,
+      "width": 1.0,
+      "dur": 1.6
+     },
+     {
+      "k": "unit",
+      "p": "busan",
+      "text": "부산 · 하선 불가",
+      "color": "red",
+      "at": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "id": "s84",
+   "lines": [
+    "배에서 내릴 수 없다는 통보.",
+    "메러디스 빅토리호는 다시 뱃머리를 돌려, 남서쪽의 거제도로 향합니다.",
+    "배 위의 사람들은, 또 하루를 굶주림과 추위 속에서 버텨야 했죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "south",
+    "to": "south",
+    "items": [
+     {
+      "k": "marker",
+      "p": "busan",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        129.12,
+        35.06
+       ],
+       [
+        128.98,
+        34.95
+       ],
+       [
+        128.8,
+        34.88
+       ],
+       [
+        128.73,
+        34.865
+       ]
+      ],
+      "color": "blue",
+      "at": 0.6,
+      "width": 1.0,
+      "dur": 1.6
+     },
+     {
+      "k": "unit",
+      "p": "geoje",
+      "text": "거제도",
+      "color": "blue",
+      "at": 1.2,
+      "pulse": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "s85",
+   "lines": [
+    {
+     "t": "그리고 1950년 12월 25일, 크리스마스.",
+     "say": "그리고 천구백오십 년 십이월 이십오 일, 크리스마스."
+    },
+    "배는 거제도 장승포 앞바다에 닻을 내렸습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "geoje_arrival",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "1950. 12. 25 · 거제 장승포",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "birds",
+     "at": 0.3,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s86",
+   "lines": [
+    "피란민들은 작은 배에 나눠 타고, 차례로 뭍에 내렸습니다.",
+    "단 한 명의 사망자도 없었습니다. 그리고 사람은, 오히려 다섯 명이 늘어 있었죠."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "사망자 0명",
+    "accent": "14,000명 + 5명",
+    "accentAt": 1
+   },
+   "pauseBefore": 0.2
+  },
+  {
+   "id": "s87",
+   "lines": [
+    "훗날 라루 선장은, 그 항해를 이렇게 돌아봤습니다.",
+    "그 크리스마스, 하느님의 손이 내 배의 키를 잡고 있었다고."
+   ],
+   "visual": {
+    "type": "quotes",
+    "title": "레너드 라루 선장의 회고",
+    "items": [
+     {
+      "text": "하느님의 손이 내 배의 키를 잡고 있었다",
+      "at": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s88",
+   "lines": [
+    "한편 그 시각, 흥남 부두에는 마지막 부대가 남아 있었습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "1950. 12. 24",
+    "accent": "흥남의 마지막 날",
+    "accentAt": 0.5
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ],
+   "pauseBefore": 0.5
+  },
+  {
+   "id": "s89",
+   "lines": [
+    {
+     "t": "12월 24일, 흥남에 남은 것은 미 제3사단의 마지막 후위 부대였습니다.",
+     "say": "십이월 이십사 일, 흥남에 남은 것은 미 제삼 사단의 마지막 후위 부대였습니다."
+    },
+    "방어선은 이제, 부두를 감싼 좁은 반원 하나로 줄어 있었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "hn_port",
+    "to": "hn_pier",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.6737,
+        39.8483
+       ],
+       [
+        127.6652,
+        39.8544
+       ],
+       [
+        127.6551,
+        39.8589
+       ],
+       [
+        127.6439,
+        39.8613
+       ],
+       [
+        127.6323,
+        39.8617
+       ],
+       [
+        127.6209,
+        39.86
+       ],
+       [
+        127.6103,
+        39.8563
+       ],
+       [
+        127.6012,
+        39.8508
+       ],
+       [
+        127.594,
+        39.8437
+       ],
+       [
+        127.5891,
+        39.8356
+       ],
+       [
+        127.5869,
+        39.8268
+       ],
+       [
+        127.5874,
+        39.8179
+       ],
+       [
+        127.5906,
+        39.8093
+       ],
+       [
+        127.5964,
+        39.8015
+       ],
+       [
+        127.6044,
+        39.795
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "front",
+      "path": [
+       [
+        127.6504,
+        39.8333
+       ],
+       [
+        127.6471,
+        39.8356
+       ],
+       [
+        127.6433,
+        39.8373
+       ],
+       [
+        127.639,
+        39.8382
+       ],
+       [
+        127.6346,
+        39.8384
+       ],
+       [
+        127.6302,
+        39.8377
+       ],
+       [
+        127.6262,
+        39.8363
+       ],
+       [
+        127.6227,
+        39.8342
+       ],
+       [
+        127.62,
+        39.8315
+       ],
+       [
+        127.6181,
+        39.8284
+       ],
+       [
+        127.6173,
+        39.8251
+       ],
+       [
+        127.6175,
+        39.8217
+       ],
+       [
+        127.6187,
+        39.8184
+       ],
+       [
+        127.6209,
+        39.8154
+       ],
+       [
+        127.6239,
+        39.813
+       ]
+      ],
+      "at": 0.8
+     },
+     {
+      "k": "unit",
+      "p": "port",
+      "text": "미 제3사단 후위",
+      "color": "blue",
+      "at": 1,
+      "pulse": true
+     }
+    ],
+    "demSea": true
+   },
+   "chapter": {
+    "num": "PART 6",
+    "title": "폭파된 부두와 에필로그"
+   }
+  },
+  {
+   "id": "s90",
+   "lines": [
+    "상륙정들이 마지막 병사들을 태우고 해안을 떠났습니다.",
+    "그 뒤를, 수중폭파대와 공병들이 지켰죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "hn_pier",
+    "to": "hn_port",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.6504,
+        39.8333
+       ],
+       [
+        127.6471,
+        39.8356
+       ],
+       [
+        127.6433,
+        39.8373
+       ],
+       [
+        127.639,
+        39.8382
+       ],
+       [
+        127.6346,
+        39.8384
+       ],
+       [
+        127.6302,
+        39.8377
+       ],
+       [
+        127.6262,
+        39.8363
+       ],
+       [
+        127.6227,
+        39.8342
+       ],
+       [
+        127.62,
+        39.8315
+       ],
+       [
+        127.6181,
+        39.8284
+       ],
+       [
+        127.6173,
+        39.8251
+       ],
+       [
+        127.6175,
+        39.8217
+       ],
+       [
+        127.6187,
+        39.8184
+       ],
+       [
+        127.6209,
+        39.8154
+       ],
+       [
+        127.6239,
+        39.813
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.638,
+        39.822
+       ],
+       [
+        127.66,
+        39.802
+       ],
+       [
+        127.69,
+        39.785
+       ]
+      ],
+      "color": "blue",
+      "at": 0.2,
+      "width": 0.8
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.628,
+        39.82
+       ],
+       [
+        127.64,
+        39.8
+       ],
+       [
+        127.66,
+        39.778
+       ]
+      ],
+      "color": "blue",
+      "at": 0.4,
+      "width": 0.8
+     },
+     {
+      "k": "marker",
+      "p": "port",
+      "text": "수중폭파대·공병",
+      "color": "red",
+      "at": 1
+     }
+    ],
+    "demSea": true
+   }
+  },
+  {
+   "id": "s91",
+   "lines": [
+    "부두에는, 미처 싣지 못한 폭약과 폭탄, 연료가 남아 있었습니다.",
+    "그것을 적에게 남겨 줄 수는 없었죠."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "남겨진 폭약과 연료",
+    "accent": "적에게 넘길 수는 없다",
+    "accentAt": 1
+   }
+  },
+  {
+   "id": "s92",
+   "lines": [
+    "마지막 상륙정이 해안을 떠난 직후.",
+    "흥남 부두가 거대한 폭발과 함께, 하늘로 솟구쳤습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s92-photo",
+    "kb": "out"
+   },
+   "label": "폭파되는 흥남 부두 (1950. 12. 24)",
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 1,
+     "volume": 0.6
+    }
+   ]
+  },
+  {
+   "id": "s93",
+   "lines": [
+    "검은 연기 기둥이 흥남 하늘을 덮었고, 폭음은 바다 위의 배들까지 뒤흔들었습니다.",
+    "그렇게 흥남 철수 작전은, 크리스마스 이브에 막을 내렸죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "hungnam_ship",
+    "kb": "out"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s94",
+   "lines": [
+    "보름 남짓한 기간 동안, 흥남에서 바다로 빠져나간 사람은 이렇습니다.",
+    {
+     "t": "병력 약 10만 5천 명. 그리고 피란민, 9만 1천에서 9만 8천 명.",
+     "say": "병력 약 십만 오천 명. 그리고 피란민, 구만 천에서 구만 팔천 명."
+    },
+    {
+     "t": "차량 1만 7천5백 대와 화물 35만 톤도, 함께 실려 나갔죠.",
+     "say": "차량 만 칠천오백 대와 화물 삼십오만 톤도, 함께 실려 나갔죠."
+    }
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "미 해군·미 제10군단 기록 · 1950. 12",
+    "items": [
+     {
+      "label": "병력",
+      "value": 105000,
+      "display": "약 10만 5천 명",
+      "color": "blue",
+      "at": 1
+     },
+     {
+      "label": "피란민",
+      "value": 98100,
+      "display": "9만 1천~9만 8천 명",
+      "color": "red",
+      "at": 1.3
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "차량 17,500대 · 화물 35만 톤",
+     "style": "dark",
+     "at": 2,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s95",
+   "lines": [
+    {
+     "t": "투입된 배는 193척. 이들은 흥남을 떠나 부산과 울산, 거제도로 사람과 장비를 실어 날랐습니다.",
+     "say": "투입된 배는 백구십삼 척. 이들은 흥남을 떠나 부산과 울산, 거제도로 사람과 장비를 실어 날랐습니다."
+    },
+    {
+     "t": "미 해군은 훗날 이 작전을, 2차 대전 오키나와 이후 가장 큰 해상 수송으로 기록했습니다.",
+     "say": "미 해군은 훗날 이 작전을, 이차 대전 오키나와 이후 가장 큰 해상 수송으로 기록했습니다."
+    },
+    "그리고 이 군대는 곧, 남쪽 전선에서 다시 총을 들게 되죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "east",
+    "items": [
+     {
+      "k": "marker",
+      "p": "hungnam",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.68,
+        39.79
+       ],
+       [
+        128.3,
+        39.5
+       ],
+       [
+        128.95,
+        38.9
+       ],
+       [
+        129.4,
+        38.0
+       ],
+       [
+        129.65,
+        37.1
+       ],
+       [
+        129.72,
+        36.2
+       ],
+       [
+        129.55,
+        35.55
+       ],
+       [
+        129.12,
+        35.06
+       ]
+      ],
+      "color": "blue",
+      "at": 0.2,
+      "width": 1.2,
+      "dur": 2.4
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        129.12,
+        35.06
+       ],
+       [
+        128.98,
+        34.95
+       ],
+       [
+        128.8,
+        34.88
+       ],
+       [
+        128.73,
+        34.865
+       ]
+      ],
+      "color": "blue",
+      "at": 0.6,
+      "width": 0.9
+     },
+     {
+      "k": "unit",
+      "p": "busan",
+      "text": "부산",
+      "color": "blue",
+      "at": 0.8
+     },
+     {
+      "k": "unit",
+      "p": "ulsan",
+      "text": "울산",
+      "color": "blue",
+      "at": 0.9
+     },
+     {
+      "k": "unit",
+      "p": "geoje",
+      "text": "거제도",
+      "color": "blue",
+      "at": 1
+     }
+    ],
+    "demSea": true
+   },
+   "callouts": [
+    {
+     "text": "수송선단 193척 · 한국 측 기록",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "water",
+     "at": 0,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s96",
+   "lines": [
+    "흥남 철수가 기적이 될 수 있었던 이유.",
+    "네 가지로 정리해 보겠습니다."
+   ],
+   "visual": {
+    "type": "factors",
+    "items": [
+     "3중 교두보",
+     "함포의 장벽",
+     "사람을 태운 결단",
+     "선장의 용기"
+    ],
+    "head": "10만을 구한 4가지",
+    "at": 1
+   }
+  },
+  {
+   "id": "s97",
+   "lines": [
+    {
+     "t": "첫째, 한 겹씩 질서 있게 줄여 간 3중 교두보입니다.",
+     "say": "첫째, 한 겹씩 질서 있게 줄여 간 삼중 교두보입니다."
+    },
+    "방어선이 끝까지 무너지지 않았기에, 부두도 마지막까지 살아 있었죠."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s97-photo",
+    "num": "요인 1",
+    "title": "3중 교두보"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s98",
+   "lines": [
+    "둘째, 바다에서 쏟아진 함포의 장벽입니다.",
+    {
+     "t": "2만 발이 넘는 포탄이, 지친 적의 추격을 멈춰 세웠죠.",
+     "say": "이만 발이 넘는 포탄이, 지친 적의 추격을 멈춰 세웠죠."
+    }
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s98-photo",
+    "num": "요인 2",
+    "title": "함포의 장벽"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s99",
+   "lines": [
+    "셋째, 짐보다 사람을 먼저 태우기로 한 결단입니다.",
+    {
+     "t": "현봉학의 호소와 알몬드의 결정이, 10만 명의 운명을 바꿨죠.",
+     "say": "현봉학의 호소와 알몬드의 결정이, 십만 명의 운명을 바꿨죠."
+    }
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "num": "요인 3",
+    "title": "사람을 태운 결단"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s100",
+   "lines": [
+    {
+     "t": "넷째, 항공유 위에 1만 4천 명을 태운 한 선장의 용기입니다.",
+     "say": "넷째, 항공유 위에 만 사천 명을 태운 한 선장의 용기입니다."
+    },
+    "그 결심 하나가, 한 척의 배로 가장 많은 생명을 구한 기록으로 남았죠."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "num": "요인 4",
+    "title": "선장의 용기"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s101",
+   "lines": [
+    {
+     "t": "2004년, 메러디스 빅토리호는 기네스 세계 기록에 이름을 올렸습니다.",
+     "say": "이천사 년, 메러디스 빅토리호는 기네스 세계 기록에 이름을 올렸습니다."
+    },
+    "한 척의 배로 가장 많은 사람을 구해 낸, 역사상 최대의 구조 작전이었죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "단일 선박 최대 구조",
+    "style": "yellow",
+    "sub": "기네스 세계 기록 · 2004",
+    "subAt": 0.5
+   }
+  },
+  {
+   "id": "s102",
+   "lines": [
+    "라루 선장은 전쟁이 끝난 뒤, 바다를 떠났습니다.",
+    {
+     "t": "1954년 미국의 한 수도원에 들어가 마리너스 수사가 됐고, 2001년 세상을 떠날 때까지 그곳에서 살았죠.",
+     "say": "천구백오십사 년 미국의 한 수도원에 들어가 마리너스 수사가 됐고, 이천일 년 세상을 떠날 때까지 그곳에서 살았죠."
+    },
+    {
+     "t": "2019년, 가톨릭 교회는 그를 성인으로 추대하기 위한 첫 절차를 시작했습니다.",
+     "say": "이천십구 년, 가톨릭 교회는 그를 성인으로 추대하기 위한 첫 절차를 시작했습니다."
+    }
+   ],
+   "visual": {
+    "type": "black",
+    "text": "레너드 라루 (1914 - 2001)",
+    "accent": "마리너스 수사",
+    "accentAt": 1
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s103",
+   "lines": [
+    "흥남에서 내려온 사람들은, 부산과 거제, 그리고 전국 곳곳에 뿌리를 내렸습니다.",
+    "흥남 부두의 이별을 노래한 대중가요, 굳세어라 금순아가 오래도록 불린 것도 그 때문이었죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s103-photo",
+    "kb": "in"
+   },
+   "label": "피란 길의 남매 (1951)"
+  },
+  {
+   "id": "s104",
+   "lines": [
+    "그 배 위에서 태어난 다섯 아이도, 이제는 일흔을 훌쩍 넘긴 나이가 되었습니다.",
+    "그들의 자녀와 손주까지, 그 크리스마스가 없었다면 존재하지 않았을 삶들이죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "birth",
+    "kb": "out"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s105",
+   "lines": [
+    {
+     "t": "올해 6월, 메러디스 빅토리호가 닻을 내렸던 거제 장승포에는 흥남철수기념공원이 문을 열었습니다.",
+     "say": "올해 유월, 메러디스 빅토리호가 닻을 내렸던 거제 장승포에는 흥남철수기념공원이 문을 열었습니다."
+    },
+    {
+     "t": "76년 전 그 크리스마스의 기억을, 이제 그곳에서 만날 수 있죠.",
+     "say": "칠십육 년 전 그 크리스마스의 기억을, 이제 그곳에서 만날 수 있죠."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s105-photo",
+    "kb": "in"
+   },
+   "label": "거제 장승포의 흥남철수 기념비와 메러디스 빅토리호 조형물"
+  },
+  {
+   "id": "s106",
+   "lines": [
+    "적에게 쫓기던 마지막 순간, 그들은 무기와 짐보다 사람을 먼저 생각했습니다.",
+    "그리고 그 선택이, 수많은 가족의 내일을 지켜 냈습니다."
+   ],
+   "visual": {
+    "type": "quotes",
+    "title": "흥남이 남긴 것",
+    "items": [
+     {
+      "text": "짐보다 사람을 먼저 태운 바다",
+      "at": 0
+     },
+     {
+      "text": "1만 4천 명, 그리고 다섯 개의 새 생명",
+      "at": 1
+     }
+    ]
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s107",
+   "lines": [
+    "이 기록이 의미 있으셨다면, 구독과 좋아요로 함께해 주십시오.",
+    "잊혀 가는 호국의 역사를, 다음 이야기에서도 이어가겠습니다."
+   ],
+   "visual": {
+    "type": "endcard",
+    "title": "1950년 크리스마스, 흥남.\n짐 대신 사람을 태운 바다.",
+    "q": "s107-photo"
+   },
+   "tail": 3.0
+  }
+ ]
+}

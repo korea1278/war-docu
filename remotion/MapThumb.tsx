@@ -27,6 +27,8 @@ export type MapThumbDef = {
   /** EP13 레퍼런스 변형: 하단 floor 비율(예 0.38)의 솔리드 블랙 바닥판 위에 2줄 모두, 상단 서브 훅(따옴표), Line 2 색 지정 */
   floor?: number;
   line2Color?: string;
+  /** EP15: 카피가 차지할 최대 가로 비율 (기본 0.92). 유튜브 우측 하단 재생시간 배지를 피하려면 0.8 안팎 */
+  textW?: number;
   view: { center: LL; span: number }; // span = 화면 가로 경도 폭
   items: Item[];
   subjectX?: number; // 인물 이미지 가로 중심(px, 기본 1500)
@@ -148,6 +150,32 @@ export const MAPT: Record<string, MapThumbDef> = {
     ko: { stamp: "", hook: "“우리는 여기 남아 끝까지 싸운다”", line1: "포위된 5,600명의 결사대", line2: "5만 중공군을 집어삼키다" },
     en: { stamp: "", hook: "“We'll stay here and fight it out”", line1: "5,600 MEN SURROUNDED", line2: "HOW THEY SWALLOWED\n50,000 CHINESE TROOPS" },
   },
+  // EP15 흥남 철수 작전 (1950) — 좌표는 episodes/hungnam/storyboard.json과 동일 (개략: 흥남항 중심 3중 반원 방어선).
+  // 사용자 지정 레이아웃(EP13·14 변형): 하단 38% 솔리드 블랙 · Line 2 레드 · 흥남항 레드 타깃 링 · 스탬프 없음 ·
+  // 우측 하단 재생시간 배지(약 19:30)를 피하도록 카피 폭 80%(textW). 인물은 AI 상징 상선 선장(thumb_subject)
+  hungnam: {
+    raster: "hungnam_sea",
+    rasterFallback: "chosin",
+    floor: 0.38,
+    line2Color: "#FF2828",
+    textW: 0.8,
+    view: { center: [127.7, 39.8], span: 0.36 },
+    items: [
+      { k: "front", path: [[127.7887, 39.9224], [127.7386, 39.9553], [127.6774, 39.9738], [127.6117, 39.976], [127.5486, 39.9617], [127.4951, 39.9323], [127.4569, 39.8911], [127.4382, 39.8427], [127.4411, 39.7922], [127.4652, 39.7451], [127.5079, 39.7067]] },
+      { k: "front", path: [[127.7258, 39.8819], [127.6964, 39.9012], [127.6604, 39.9121], [127.6217, 39.9134], [127.5846, 39.905], [127.5531, 39.8877], [127.5306, 39.8635], [127.5196, 39.835], [127.5213, 39.8053], [127.5355, 39.7776], [127.5606, 39.755]] },
+      { k: "front", path: [[127.6737, 39.8483], [127.6614, 39.8564], [127.6462, 39.861], [127.63, 39.8616], [127.6144, 39.858], [127.6012, 39.8508], [127.5917, 39.8406], [127.5871, 39.8286], [127.5878, 39.8161], [127.5938, 39.8045], [127.6044, 39.795]] },
+      { k: "arrow", path: [[127.5, 39.98], [127.53, 39.94], [127.56, 39.905]], color: "red" },
+      { k: "arrow", path: [[127.63, 40.0], [127.63, 39.96], [127.63, 39.925]], color: "red" },
+      { k: "arrow", path: [[127.4, 39.9], [127.45, 39.88], [127.49, 39.86]], color: "red" },
+      { k: "arrow", path: [[127.645, 39.815], [127.72, 39.78], [127.8, 39.755]], color: "blue" },
+      { k: "ring", p: [127.636, 39.824], r: 70 },
+      { k: "pin", p: [127.636, 39.824], text: { ko: "흥남 부두", en: "HUNGNAM PIER" }, color: "red", lift: 70 },
+      { k: "pin", p: [127.54, 39.92], text: { ko: "함흥", en: "HAMHUNG" }, color: "blue" },
+    ],
+    subjectX: 1500,
+    ko: { stamp: "", line1: "무기를 바다에 던지고", line2: "10만 피란민을 태운 기적" },
+    en: { stamp: "", line1: "THEY LEFT THE CARGO BEHIND", line2: "AND SAVED 100,000 REFUGEES" },
+  },
 };
 
 type Lake = number[][];
@@ -236,10 +264,11 @@ export const MapThumb: React.FC<{ a: string; d: MapThumbDef; en?: boolean }> = (
   const rows2 = c.line2.split("\n");
   const [m1, ...mr] = useMeasured([c.line1, ...rows2], head);
   const m2 = mr.length ? Math.max(...mr) : 0;
-  let l2 = Math.min(d.floor ? 190 : 170, Math.floor((W * 0.92) / m2));
-  let l1 = Math.min(d.floor ? 176 : 150, Math.floor((W * 0.9) / m1));
+  const TW = d.textW ?? 0.92;
+  let l2 = Math.min(d.floor ? 190 : 170, Math.floor((W * TW) / m2));
+  let l1 = Math.min(d.floor ? 176 : 150, Math.floor((W * (TW - 0.02)) / m1));
   if (l1 > l2 / 1.08) l1 = Math.floor(l2 / 1.08); // Line 2가 항상 더 크게
-  if (!m1 || !m2) { l1 = fit(c.line1, !!en, 110, 64, W * 0.9); l2 = fit(c.line2, !!en, 130, 80, W * 0.92); }
+  if (!m1 || !m2) { l1 = fit(c.line1, !!en, 110, 64, W * (TW - 0.02)); l2 = fit(c.line2, !!en, 130, 80, W * TW); }
   // 레퍼런스 구조: Line 2만 솔리드 블랙 바 위, Line 1은 바로 위 사진 위(어두운 띠 + 굵은 검정 외곽선)
   const PAD = 18;
   let panelTop = Math.round(H - (PAD * 2 + l2 * 1.02)); // 솔리드 블랙 바 시작
