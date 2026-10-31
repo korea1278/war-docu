@@ -1,0 +1,5985 @@
+{
+ "title": "Battle of Chipyong-ni (1951): 5,600 Men in a 360° Perimeter",
+ "subtitle": "February 13 – 15, 1951",
+ "target_sec": 1185,
+ "midrolls": [
+  "s18",
+  "s44",
+  "s81"
+ ],
+ "places": {
+  "seoul": [
+   126.978,
+   37.566,
+   "Seoul"
+  ],
+  "jipyeong": [
+   127.636,
+   37.477,
+   "Chipyong-ni"
+  ],
+  "yangpyeong": [
+   127.488,
+   37.492,
+   "Yangpyeong"
+  ],
+  "yeoju": [
+   127.637,
+   37.298,
+   "Yeoju"
+  ],
+  "wonju": [
+   127.92,
+   37.342,
+   "Wonju"
+  ],
+  "hoengseong": [
+   127.985,
+   37.49,
+   "Hoengseong"
+  ],
+  "koksu": [
+   127.598,
+   37.392,
+   "Koksu-ri"
+  ],
+  "twin": [
+   127.672,
+   37.448,
+   "Twin Tunnels"
+  ],
+  "twin_us": [
+   127.662,
+   37.455,
+   "3rd Bn"
+  ],
+  "twin_fr": [
+   127.676,
+   37.441,
+   "French Bn"
+  ],
+  "station": [
+   127.634,
+   37.4745,
+   "Chipyong Station"
+  ],
+  "h397": [
+   127.638,
+   37.455,
+   "Hill 397"
+  ],
+  "masan": [
+   127.639,
+   37.4625,
+   "Masan"
+  ],
+  "cav5": [
+   127.62,
+   37.33,
+   "5th Cavalry"
+  ],
+  "pn": [
+   127.636,
+   37.4842,
+   "1st Bn"
+  ],
+  "pe": [
+   127.64507,
+   37.477,
+   "3rd Bn"
+  ],
+  "ps": [
+   127.636,
+   37.4698,
+   "2nd Bn"
+  ],
+  "pw": [
+   127.62693,
+   37.477,
+   "French Bn"
+  ]
+ },
+ "views": {
+  "korea": {
+   "center": [
+    127.6,
+    37.3
+   ],
+   "span": 5.5
+  },
+  "central": {
+   "center": [
+    127.75,
+    37.45
+   ],
+   "span": 1.3
+  },
+  "jp_wide": {
+   "center": [
+    127.63,
+    37.42
+   ],
+   "span": 0.36
+  },
+  "jp_ring": {
+   "center": [
+    127.636,
+    37.47
+   ],
+   "span": 0.13
+  },
+  "jp": {
+   "center": [
+    127.636,
+    37.475
+   ],
+   "span": 0.06
+  },
+  "twin": {
+   "center": [
+    127.669,
+    37.449
+   ],
+   "span": 0.08
+  },
+  "crombez": {
+   "center": [
+    127.615,
+    37.408
+   ],
+   "span": 0.3
+  },
+  "masan": {
+   "center": [
+    127.638,
+    37.462
+   ],
+   "span": 0.07
+  }
+ },
+ "music": [
+  {
+   "id": "drone",
+   "from": "s01",
+   "to": "s06",
+   "volume": 0.2
+  },
+  {
+   "id": "theme",
+   "from": "s07",
+   "to": "s17",
+   "volume": 0.16
+  },
+  {
+   "id": "tension",
+   "from": "s18",
+   "to": "s28",
+   "volume": 0.17
+  },
+  {
+   "id": "theme",
+   "from": "s29",
+   "to": "s43",
+   "volume": 0.16
+  },
+  {
+   "id": "tension",
+   "from": "s44",
+   "to": "s63",
+   "volume": 0.17
+  },
+  {
+   "id": "march",
+   "from": "s64",
+   "to": "s80",
+   "volume": 0.15
+  },
+  {
+   "id": "analysis",
+   "from": "s81",
+   "to": "s92",
+   "volume": 0.13
+  },
+  {
+   "id": "somber",
+   "from": "s93",
+   "to": "s98",
+   "volume": 0.17
+  }
+ ],
+ "ai_images": {
+  "basin_night": "A small snow-covered Korean village in a valley basin at night in February 1951, completely ringed by dark snowy mountains, a single railway line and frozen road passing through, parachute flares hanging in the sky casting harsh white light on the snow, distant orange muzzle flashes on every surrounding ridge, cinematic wide aerial shot, cold blue and white palette with orange glow, painterly realistic digital illustration, film grain, no people visible, no text, no letters.",
+  "pva_staff": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a Chinese People's Volunteer Army commander whose head is a round ball painted as the red Chinese flag with yellow stars, wearing a 1951 padded khaki uniform and fur cap, smugly drawing a red circle around a small village on a paper map spread on a crate inside a snowy dugout lit by an oil lamp, officers nodding behind him, night, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "wave_snow": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a massive wave of Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red Chinese flag with yellow stars, wearing white snow-covered quilted uniforms and fur-flap caps charging across a snowy slope at night toward a ring of foxholes, blowing bugles and whistles, under parachute flares, tracer fire and explosions kicking up snow, dramatic low-angle shot, cold white light and orange fire, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "freeman_cp": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an American regimental commander whose head is a round ball painted as the United States flag, wearing a 1951 helmet and parka, a bloody bandage on his leg, leaning on a stick while shouting orders into a field radio handset inside a sandbagged command post in the snow, night, mortar flashes outside, determined, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "french_charge": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: French Foreign soldiers whose heads are round balls painted as the French tricolour flag (blue, white, red vertical stripes), wearing 1951 American-style M1 helmets and winter parkas, fixing bayonets and charging out of snowy trenches at night, one soldier cranking a hand siren, others blowing whistles, under flare light, steam of breath in the cold air, heroic and furious, dynamic low-angle shot, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "gunner": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a lone young American soldier whose head is a round ball painted as the United States flag, wearing a 1951 M1 helmet and parka, firing a heavy machine gun from a snowy hilltop foxhole at night while his comrades withdraw behind him, empty ammunition belts, flares, tragic and brave, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "tank_run": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a column of American M46 Patton tanks racing along a narrow frozen road between steep snowy hills in late afternoon, American soldiers whose heads are round balls painted as the United States flag, wearing 1951 M1 helmets, olive drab winter parkas clinging to the tank hulls, enemy gunfire from both ridges kicking up snow, smoke, dramatic and chaotic, low-angle shot, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "monclar": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an elderly, battle-hardened French commander in his late fifties whose head is a round ball painted as the French tricolour flag (blue, white, red vertical stripes), with a grey moustache and stern scarred look, wearing a 1951 winter parka, a beret and lieutenant colonel insignia, holding a walking cane, standing in a snowy trench line among his French soldiers at dusk, proud and fearless, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "basin_dawn": "A quiet snowy Korean valley basin at dawn, a small village and a single railway line, surrounded by gentle snow-covered hills, old rusted 1950s steel helmet resting on a wooden fence post in the foreground, soft golden sunrise light, mist, peaceful and mournful, painterly realistic digital illustration, film grain, no people, no text, no letters.",
+  "twin_ambush": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a small American patrol whose heads are round balls painted as the United States flag, wearing 1951 M1 helmets and olive winter parkas, pinned down beside two stalled army trucks on a frozen dirt road in a narrow snowy valley near a railway embankment with two dark tunnel mouths, enemy fire coming from the surrounding hills, one soldier shouting into a field radio handset, late afternoon winter light, tense, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "twin_wave": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: waves of Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red Chinese flag with yellow stars, wearing padded khaki winter uniforms and fur caps, charging up a snowy hill at grey dawn toward foxholes on the crest, a soldier blowing a bugle, smoke and explosions, cold blue-grey dawn light, a railway embankment in the valley below, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "twin_bayonet": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: French soldiers whose heads are round balls painted as the French tricolour flag (blue, white, red vertical stripes), wearing 1951 American-style M1 helmets and winter parkas, counterattacking with fixed bayonets up a snowy hillside in daylight, smoke and explosions, Chinese soldiers whose heads are round red-flag balls falling back over the crest, fierce and heroic, dynamic low-angle shot, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "dig_in": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American soldiers whose heads are round balls painted as the United States flag, wearing 1951 M1 helmets and olive parkas, digging foxholes with pickaxes and shovels into frozen snowy ground on a low hill above a small Korean village, stringing barbed wire, a howitzer position in the village below, cold grey afternoon, breath steaming, determined, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "siren": "Dramatic close-up digital illustration of a gloved hand furiously cranking an old 1950s military hand-cranked siren mounted on a sandbag in a snowy trench at night, a French soldier whose head is a round ball painted as the French tricolour flag (blue, white, red vertical stripes) wearing an M1 helmet, flare light, motion lines of sound, cinematic, semi-realistic polished history-YouTube countryball style, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "ranger_counter": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American Rangers whose heads are round balls painted as the United States flag, wearing 1951 M1 helmets and parkas, counterattacking up a steep snowy slope at grey dawn under heavy fire, throwing grenades, smoke and tracer fire, Chinese soldiers whose heads are round red-flag balls holding foxholes on the crest, desperate and grim, low-angle shot, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "masan_clash": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American M46 Patton tanks firing their main guns and machine guns at enemy trenches on low snowy hills on both sides of a narrow road beside a small Korean thatched-roof village in late afternoon, Chinese soldiers whose heads are round balls painted as the red Chinese flag scattering, explosions and smoke, dramatic golden low sunlight, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "pva_withdraw": "A desolate snowy hillside in Korea on a grey winter morning in February 1951, light snow falling, abandoned rifles, quilted caps, broken crates and scattered equipment half-buried in the snow, distant small columns of soldiers retreating north over the far ridge, empty foxholes in the foreground, mournful and quiet, painterly realistic digital illustration, desaturated cold palette, film grain, no visible faces, no gore, no text, no letters.",
+  "thumb_subject": "Photorealistic black-and-white portrait of a battle-hardened French infantry soldier of the 1951 Korean War, steel M1 helmet, winter parka with fur collar, rifle with fixed bayonet held across his chest, grim determined expression with frost on his stubble, waist-up, face clearly visible and turned slightly toward the left of the frame, isolated on a plain pure white background, no shadows on the background, no text"
+ },
+ "scenes": [
+  {
+   "id": "s01",
+   "lines": [
+    "The night of February 13th, 1951. Chipyong-ni, Yangpyeong, Gyeonggi Province.",
+    "Inside a small snow-covered basin, fifty-six hundred American and French soldiers were trapped."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "basin_night",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "callouts": [
+    {
+     "text": "FEB. 13, 1951 · CHIPYONG-NI",
+     "style": "yellow",
+     "at": 0
+    }
+   ],
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0.2,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "lines": [
+    "Chinese troops filled every ridge around them, and every road out behind them had been cut.",
+    "Chipyong-ni had become a small island in the middle of an enemy sea."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "jp_wide",
+    "to": "jp",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.64507,
+        37.477
+       ],
+       [
+        127.64476,
+        37.47886
+       ],
+       [
+        127.64385,
+        37.4806
+       ],
+       [
+        127.64241,
+        37.48209
+       ],
+       [
+        127.64053,
+        37.48324
+       ],
+       [
+        127.63835,
+        37.48395
+       ],
+       [
+        127.636,
+        37.4842
+       ],
+       [
+        127.63365,
+        37.48395
+       ],
+       [
+        127.63146,
+        37.48324
+       ],
+       [
+        127.62959,
+        37.48209
+       ],
+       [
+        127.62815,
+        37.4806
+       ],
+       [
+        127.62724,
+        37.47886
+       ],
+       [
+        127.62693,
+        37.477
+       ],
+       [
+        127.62724,
+        37.47514
+       ],
+       [
+        127.62815,
+        37.4734
+       ],
+       [
+        127.62959,
+        37.47191
+       ],
+       [
+        127.63146,
+        37.47076
+       ],
+       [
+        127.63365,
+        37.47005
+       ],
+       [
+        127.636,
+        37.4698
+       ],
+       [
+        127.63835,
+        37.47005
+       ],
+       [
+        127.64053,
+        37.47076
+       ],
+       [
+        127.64241,
+        37.47191
+       ],
+       [
+        127.64385,
+        37.4734
+       ],
+       [
+        127.64476,
+        37.47514
+       ],
+       [
+        127.64507,
+        37.477
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.636,
+        37.507
+       ],
+       [
+        127.636,
+        37.4975
+       ],
+       [
+        127.636,
+        37.488
+       ]
+      ],
+      "color": "red",
+      "at": 0.15,
+      "width": 0.9,
+      "dur": 1.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.60927,
+        37.49821
+       ],
+       [
+        127.61773,
+        37.4915
+       ],
+       [
+        127.6262,
+        37.48478
+       ]
+      ],
+      "color": "red",
+      "at": 0.27,
+      "width": 0.9,
+      "dur": 1.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.5982,
+        37.477
+       ],
+       [
+        127.61017,
+        37.477
+       ],
+       [
+        127.62214,
+        37.477
+       ]
+      ],
+      "color": "red",
+      "at": 0.39,
+      "width": 0.9,
+      "dur": 1.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.60927,
+        37.45579
+       ],
+       [
+        127.61773,
+        37.4625
+       ],
+       [
+        127.6262,
+        37.46922
+       ]
+      ],
+      "color": "red",
+      "at": 0.51,
+      "width": 0.9,
+      "dur": 1.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.636,
+        37.447
+       ],
+       [
+        127.636,
+        37.4565
+       ],
+       [
+        127.636,
+        37.466
+       ]
+      ],
+      "color": "red",
+      "at": 0.63,
+      "width": 0.9,
+      "dur": 1.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.66273,
+        37.45579
+       ],
+       [
+        127.65427,
+        37.4625
+       ],
+       [
+        127.6458,
+        37.46922
+       ]
+      ],
+      "color": "red",
+      "at": 0.75,
+      "width": 0.9,
+      "dur": 1.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.6738,
+        37.477
+       ],
+       [
+        127.66183,
+        37.477
+       ],
+       [
+        127.64986,
+        37.477
+       ]
+      ],
+      "color": "red",
+      "at": 0.87,
+      "width": 0.9,
+      "dur": 1.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.66273,
+        37.49821
+       ],
+       [
+        127.65427,
+        37.4915
+       ],
+       [
+        127.6458,
+        37.48478
+       ]
+      ],
+      "color": "red",
+      "at": 0.99,
+      "width": 0.9,
+      "dur": 1.1
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "SURROUNDED · 360°",
+     "style": "red",
+     "at": 1
+    }
+   ],
+   "sfx": [
+    {
+     "id": "drum",
+     "at": 0.3,
+     "volume": 0.45
+    },
+    {
+     "id": "heartbeat",
+     "at": 1,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "lines": [
+    "Chinese intelligence reportedly estimated the garrison holding this village at barely a thousand men.",
+    "A fight that would be over in a single night. That is what they believed.",
+    "But in reality, more than five times that number were dug in inside."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "pva_staff",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s04",
+   "lines": [
+    "But inside the ring stood the 23rd Infantry Regiment of the U.S. 2nd Division, and the French Battalion.",
+    "And surrounding that ring, according to American records, were elements of five Chinese divisions."
+   ],
+   "visual": {
+    "type": "versus",
+    "left": {
+     "n": 1,
+     "label": "U.S. & FRENCH · 5,600",
+     "color": "blue"
+    },
+    "right": {
+     "n": 4,
+     "label": "PVA · 5 DIVISIONS",
+     "color": "red"
+    },
+    "at": 1
+   },
+   "callouts": [
+    {
+     "text": "PVA strength: ~25,000 (U.S.) · 50,000+ (Korean memorial)",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "lines": [
+    "Three days and three nights of savage close combat, with bayonets and grenades.",
+    "Yet three days later, it was the Chinese who pulled back first."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "THREE DAYS LATER",
+    "accent": "THE CHINESE WITHDREW FIRST",
+    "accentAt": 1
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 1,
+     "volume": 0.45
+    }
+   ],
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s05b",
+   "lines": [
+    "The human-wave tactic had not once been stopped head-on in the three months since China entered the war.",
+    "So why did it grind to a halt, for the first time, in front of this one small ring?"
+   ],
+   "visual": {
+    "type": "text",
+    "big": "THE FIRST DEFEAT",
+    "style": "red",
+    "sub": "Three months after China entered the war",
+    "subAt": 0.5
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0.2,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s06",
+   "lines": [
+    "The Battle of Chipyong-ni.",
+    "This is the story of the men who, instead of breaking out and running, dug in where they stood and held."
+   ],
+   "visual": {
+    "type": "titlecard",
+    "q": "s06-photo",
+    "title": "The Battle of Chipyong-ni",
+    "sub": "5,600 Men in a 360° Perimeter · 1951",
+    "at": 0
+   },
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0,
+     "volume": 0.5
+    }
+   ],
+   "flash": true
+  },
+  {
+   "id": "s07",
+   "lines": [
+    "In October 1950, Chinese forces crossed the Yalu River and entered the war.",
+    "Badly battered at the Chongchon River and the Chosin Reservoir, UN forces began to be driven south."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "korea",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.6,
+        38.6
+       ],
+       [
+        126.9,
+        37.9
+       ],
+       [
+        127.0,
+        37.15
+       ]
+      ],
+      "color": "red",
+      "at": 0.3,
+      "width": 1.3
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.7,
+        38.7
+       ],
+       [
+        127.8,
+        38.0
+       ],
+       [
+        127.9,
+        37.4
+       ]
+      ],
+      "color": "red",
+      "at": 0.5,
+      "width": 1.3
+     },
+     {
+      "k": "front",
+      "path": [
+       [
+        126.7,
+        37.05
+       ],
+       [
+        127.05,
+        37.08
+       ],
+       [
+        127.4,
+        37.2
+       ],
+       [
+        127.636,
+        37.477
+       ],
+       [
+        127.9,
+        37.35
+       ],
+       [
+        128.2,
+        37.4
+       ],
+       [
+        128.6,
+        37.55
+       ],
+       [
+        129.05,
+        37.7
+       ]
+      ],
+      "at": 1.2
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "OCT. 1950 · CHINA ENTERS THE WAR",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "chapter": {
+    "num": "PART 1",
+    "title": "A WINTER OF RETREAT"
+   }
+  },
+  {
+   "id": "s08",
+   "lines": [
+    "On January 4th, 1951, Seoul fell into enemy hands once again.",
+    "The January Fourth Retreat. Columns of refugees crossed the frozen Han River and stretched endlessly south."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s08-photo",
+    "kb": "in"
+   },
+   "label": "U.S. Marines resting by a snowy road (1951)"
+  },
+  {
+   "id": "s09",
+   "lines": [
+    "The Chinese moved only at night, slipping around through the mountains to cut off the roads behind.",
+    "Among the soldiers spread a dread that the Chinese simply could not be beaten."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "FEAR OF ENCIRCLEMENT",
+    "style": "red",
+    "sub": "NOV. 1950 – JAN. 1951",
+    "subAt": 0
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0.3,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "lines": [
+    "It was at this moment that Lieutenant General Matthew Ridgway took over the U.S. Eighth Army.",
+    "He arrived at the end of December 1950, after his predecessor, General Walker, was killed in a jeep accident."
+   ],
+   "visual": {
+    "type": "person",
+    "q": "s10-photo",
+    "name": "Matthew B. Ridgway",
+    "years": "1895 - 1993",
+    "role": "Commander, U.S. Eighth Army (Lt. Gen.)"
+   }
+  },
+  {
+   "id": "s11",
+   "lines": [
+    "Ridgway believed that destroying enemy strength mattered more than holding ground.",
+    "From an army that had only known retreat, he demanded that it learn to fight again."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "KILL THE ENEMY, NOT HOLD GROUND",
+    "accent": "RIDGWAY'S WAY OF WAR",
+    "accentAt": 1
+   },
+   "pauseBefore": 0.2
+  },
+  {
+   "id": "s12",
+   "lines": [
+    "On January 25th, 1951, Ridgway ordered his first counterattack, under the name Operation Thunderbolt.",
+    "UN forces cautiously began probing and pushing north again.",
+    "One of the spearheads was the 23rd Infantry Regiment of the U.S. 2nd Division, on the central front."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "central",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.7,
+        37.05
+       ],
+       [
+        127.05,
+        37.08
+       ],
+       [
+        127.4,
+        37.2
+       ],
+       [
+        127.636,
+        37.38
+       ],
+       [
+        127.9,
+        37.3
+       ],
+       [
+        128.2,
+        37.4
+       ],
+       [
+        128.6,
+        37.55
+       ],
+       [
+        129.05,
+        37.7
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.1,
+        37.12
+       ],
+       [
+        127.12,
+        37.3
+       ],
+       [
+        127.15,
+        37.45
+       ]
+      ],
+      "color": "blue",
+      "at": 0.5,
+      "width": 1.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.6,
+        37.25
+       ],
+       [
+        127.62,
+        37.36
+       ],
+       [
+        127.634,
+        37.46
+       ]
+      ],
+      "color": "blue",
+      "at": 0.8,
+      "width": 1.1
+     },
+     {
+      "k": "unit",
+      "p": "jipyeong",
+      "text": "U.S. 23rd Inf.",
+      "color": "blue",
+      "at": 1.2
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "LATE JAN. 1951 · UN COUNTERATTACK",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "lines": [
+    "Its commander was Colonel Paul Freeman.",
+    "A calm, seasoned officer who had led this regiment since the Naktong River line."
+   ],
+   "visual": {
+    "type": "person",
+    "q": "s13-photo",
+    "name": "Paul L. Freeman Jr.",
+    "years": "1907 - 1988",
+    "role": "Commander, U.S. 23rd Infantry (Col.)"
+   }
+  },
+  {
+   "id": "s14",
+   "lines": [
+    "And attached to this regiment was one very special unit.",
+    "The French Battalion of the United Nations, led by Lieutenant Colonel Ralph Monclar."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "monclar",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s15",
+   "lines": [
+    "Monclar had in fact been a three-star lieutenant general in the French Army.",
+    "A fifty-nine-year-old veteran, he had voluntarily stepped down to lieutenant colonel so he could lead the battalion bound for Korea himself."
+   ],
+   "visual": {
+    "type": "person",
+    "q": "s15-photo",
+    "name": "Ralph Monclar",
+    "years": "1892 - 1964",
+    "role": "Commander, French Bn (Lt. Col. · former Lt. Gen.)"
+   }
+  },
+  {
+   "id": "s15b",
+   "lines": [
+    "In 1940, at Narvik in Norway, he had led a Foreign Legion half-brigade into battle, a legendary soldier.",
+    "Wounded again and again in two world wars, he had returned to the battlefield every time."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "THE COMMANDER OF NARVIK",
+    "accent": "1940 · 13th FOREIGN LEGION HALF-BRIGADE",
+    "accentAt": 1
+   },
+   "pauseBefore": 0.2
+  },
+  {
+   "id": "s16",
+   "lines": [
+    "Many of the men who followed him were Second World War veterans and volunteers.",
+    "Tough men, unafraid of mountain fighting or night combat."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s16-photo",
+    "kb": "in"
+   },
+   "label": "The French Battalion in Korea"
+  },
+  {
+   "id": "s16b",
+   "lines": [
+    "At first, the Americans were reportedly unsure what to make of this unfamiliar French unit.",
+    "But that doubt would soon turn into deep respect."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "AT FIRST",
+     "big": "DOUBT",
+     "icon": "none",
+     "color": "red"
+    },
+    "right": {
+     "title": "AFTER CHIPYONG-NI",
+     "big": "RESPECT",
+     "icon": "none",
+     "color": "blue",
+     "at": 1
+    }
+   }
+  },
+  {
+   "id": "s17",
+   "lines": [
+    "The story you are watching is the record of men who held out to the end inside an encircled ring.",
+    "So that this record is never forgotten, please join us with a subscribe and a like."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "THE RECORD INSIDE THE RING",
+    "accent": "Please subscribe and like",
+    "accentAt": 1
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s18",
+   "lines": [
+    "Then on January 29th, a patrol heading for the Twin Tunnels ran into an ambush."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "JAN. 29, 1951",
+    "accent": "THE TWIN TUNNELS",
+    "accentAt": 0.5
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ],
+   "pauseBefore": 0.4
+  },
+  {
+   "id": "s19",
+   "lines": [
+    "About five kilometers southeast of Chipyong-ni, there was a valley where the Central Line railway ran through two tunnels.",
+    "The Americans called this place the Twin Tunnels.",
+    "It overlooked the railway and the road to Wonju, a chokepoint among chokepoints."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "jp_wide",
+    "to": "twin",
+    "items": [
+     {
+      "k": "unit",
+      "p": "jipyeong",
+      "text": "Chipyong-ni",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "twin",
+      "color": "red",
+      "at": 0.5
+     }
+    ]
+   },
+   "chapter": {
+    "num": "PART 2",
+    "title": "PRELUDE AT THE TWIN TUNNELS"
+   }
+  },
+  {
+   "id": "s20",
+   "lines": [
+    "The patrol drove its trucks up near the tunnels and was pinned down by fire pouring in from the surrounding hills.",
+    "After holding on for hours, clinging to the radio, only some of them were rescued."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "twin_ambush",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 0.3,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s21",
+   "lines": [
+    "The Chinese had been hiding a large force in this area.",
+    "It was the 125th Division of the Chinese 42nd Army."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "PVA 125TH DIVISION",
+    "style": "red",
+    "sub": "42nd Army · U.S. records",
+    "subAt": 1
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s22",
+   "lines": [
+    "On January 31st, Freeman led the 3rd Battalion and the French Battalion in and seized the hills around the tunnels.",
+    "That night, the men dug into the frozen ground and built positions facing every direction."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "twin",
+    "to": "twin",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.636,
+        37.47
+       ],
+       [
+        127.65,
+        37.46
+       ],
+       [
+        127.665,
+        37.452
+       ]
+      ],
+      "color": "blue",
+      "at": 0,
+      "width": 1.0
+     },
+     {
+      "k": "unit",
+      "p": "twin_us",
+      "text": "3rd Bn",
+      "color": "blue",
+      "at": 0.6
+     },
+     {
+      "k": "unit",
+      "p": "twin_fr",
+      "text": "French Bn",
+      "color": "blue",
+      "at": 0.9
+     },
+     {
+      "k": "marker",
+      "p": "twin",
+      "color": "dark",
+      "at": 0.2
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "JAN. 31 · INTO THE TWIN TUNNELS",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s23",
+   "lines": [
+    "Before dawn on February 1st, the Chinese surged forward to the sound of bugles and whistles.",
+    "Several regiments of the 125th Division fell on the hills one after another.",
+    "They meant to surround the Americans and French around the tunnels completely, front and rear."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "twin_wave",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "bugle",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s24",
+   "lines": [
+    "One French company position collapsed, and the enemy came right up to the battalion command post.",
+    "As ammunition ran low, the French reportedly fixed bayonets and leapt out of their trenches."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "twin",
+    "to": "twin",
+    "items": [
+     {
+      "k": "unit",
+      "p": "twin_us",
+      "text": "3rd Bn",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "twin_fr",
+      "text": "French Bn",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.68,
+        37.43
+       ],
+       [
+        127.672,
+        37.438
+       ],
+       [
+        127.664,
+        37.445
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.69,
+        37.455
+       ],
+       [
+        127.68,
+        37.452
+       ],
+       [
+        127.668,
+        37.45
+       ]
+      ],
+      "color": "red",
+      "at": 0.4,
+      "width": 1.0
+     },
+     {
+      "k": "badge",
+      "p": "twin_fr",
+      "text": "Company Position Falls",
+      "color": "red",
+      "at": 0.6,
+      "dy": -90
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "FEB. 1 · FRENCH BAYONET COUNTERATTACK",
+     "style": "red",
+     "at": 1,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "charge",
+     "at": 1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s25",
+   "lines": [
+    "On the snowy slopes, men fought hand to hand, close enough to see each other's faces.",
+    "The French Battalion retook its lost position and never gave up the hill."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "twin_bayonet",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s26",
+   "lines": [
+    "In the afternoon the clouds lifted, and fighter-bombers began pounding the Chinese on the hills.",
+    "And by dusk, the Chinese withdrew, leaving countless bodies behind."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s26-photo",
+    "kb": "in"
+   },
+   "label": "F-51 Mustang fighter-bomber (Korean War)"
+  },
+  {
+   "id": "s27",
+   "lines": [
+    "The Americans recorded counting more than thirteen hundred Chinese bodies in front of their positions alone.",
+    "They estimated total Chinese casualties at around thirty-six hundred.",
+    "Their own losses came to about two hundred and fifty, including forty-five killed."
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "Twin Tunnels · U.S. records and estimates (Feb. 1, 1951)",
+    "items": [
+     {
+      "label": "PVA dead (counted)",
+      "value": 1300,
+      "display": "1,300+",
+      "color": "red",
+      "at": 0.2
+     },
+     {
+      "label": "PVA casualties (est.)",
+      "value": 3600,
+      "display": "~3,600",
+      "color": "red",
+      "at": 1
+     },
+     {
+      "label": "UN casualties",
+      "value": 256,
+      "display": "256",
+      "color": "blue",
+      "at": 1.5
+     }
+    ]
+   }
+  },
+  {
+   "id": "s28",
+   "lines": [
+    "It was the first time the Americans and French had stopped a major Chinese assault head-on.",
+    "With new confidence, the 23rd Regiment headed for a small crossroads village to the northwest."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "THE FIRST VICTORY",
+    "accent": "FEB. 1, 1951 · TWIN TUNNELS",
+    "accentAt": 1
+   },
+   "pauseBefore": 0.2
+  },
+  {
+   "id": "s29",
+   "lines": [
+    "On February 3rd, the regiment moved into Chipyong-ni.",
+    "Roads to Yangpyeong, Yeoju and Wonju met here, and the Central Line railway had its Chipyong station.",
+    "The regiment immediately began surveying the hills around the village and choosing its positions."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "jp_wide",
+    "to": "jp_wide",
+    "items": [
+     {
+      "k": "unit",
+      "p": "jipyeong",
+      "text": "Chipyong-ni",
+      "color": "blue",
+      "at": 0,
+      "pulse": true
+     },
+     {
+      "k": "marker",
+      "p": "station",
+      "color": "dark",
+      "at": 0.6
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.636,
+        37.477
+       ],
+       [
+        127.58,
+        37.485
+       ],
+       [
+        127.53,
+        37.49
+       ]
+      ],
+      "color": "#888888",
+      "at": 1.0,
+      "width": 0.8
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.636,
+        37.477
+       ],
+       [
+        127.632,
+        37.4
+       ],
+       [
+        127.637,
+        37.33
+       ]
+      ],
+      "color": "#888888",
+      "at": 1.2,
+      "width": 0.8
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.636,
+        37.477
+       ],
+       [
+        127.72,
+        37.43
+       ],
+       [
+        127.8,
+        37.38
+       ]
+      ],
+      "color": "#888888",
+      "at": 1.4,
+      "width": 0.8
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "ROADS + CENTRAL LINE RAILWAY = THE GATEWAY",
+     "style": "yellow",
+     "at": 1,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s30",
+   "lines": [
+    "Losing it would open the gateway to the entire central front to the enemy.",
+    "For Ridgway, Chipyong-ni was a wedge he simply had to hold."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "central",
+    "to": "jp_wide",
+    "items": [
+     {
+      "k": "unit",
+      "p": "jipyeong",
+      "text": "Chipyong-ni",
+      "color": "blue",
+      "at": 0,
+      "pulse": true
+     },
+     {
+      "k": "marker",
+      "p": "yangpyeong",
+      "color": "dark",
+      "at": 0.3
+     },
+     {
+      "k": "marker",
+      "p": "yeoju",
+      "color": "dark",
+      "at": 0.5
+     },
+     {
+      "k": "marker",
+      "p": "wonju",
+      "color": "dark",
+      "at": 0.7
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "THE WEDGE OF THE CENTRAL FRONT",
+     "style": "blue",
+     "at": 0.6,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s31",
+   "lines": [
+    "But the terrain was the worst possible.",
+    "The village sat in a basin barely a hundred meters above sea level, ringed by mountains three to four hundred meters high."
+   ],
+   "visual": {
+    "type": "profile",
+    "pts": [
+     [
+      0,
+      250
+     ],
+     [
+      0.08,
+      320
+     ],
+     [
+      0.16,
+      300
+     ],
+     [
+      0.24,
+      190
+     ],
+     [
+      0.31,
+      120
+     ],
+     [
+      0.4,
+      102
+     ],
+     [
+      0.5,
+      98
+     ],
+     [
+      0.6,
+      102
+     ],
+     [
+      0.68,
+      130
+     ],
+     [
+      0.75,
+      220
+     ],
+     [
+      0.82,
+      350
+     ],
+     [
+      0.86,
+      397
+     ],
+     [
+      0.91,
+      340
+     ],
+     [
+      1,
+      260
+     ]
+    ],
+    "grid": [
+     100,
+     200,
+     300,
+     400
+    ],
+    "yMin": 60,
+    "yMax": 430,
+    "title": "Chipyong-ni Basin · Profile",
+    "note": "Schematic N→S (heights exaggerated)",
+    "left": "N",
+    "right": "S",
+    "marks": [
+     {
+      "x": 0.5,
+      "text": "CHIPYONG-NI · ~100 m",
+      "style": "blue",
+      "at": 1,
+      "lift": 110,
+      "size": 48
+     },
+     {
+      "x": 0.86,
+      "text": "HILL 397",
+      "style": "yellow",
+      "at": 1.5,
+      "lift": 90,
+      "size": 46
+     }
+    ]
+   }
+  },
+  {
+   "id": "s32",
+   "lines": [
+    "Eight high hills looked down on Chipyong-ni.",
+    "To hold every one of those ridgelines would have taken a defensive line some nineteen kilometers around."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "jp_wide",
+    "to": "jp_ring",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.67,
+        37.474
+       ],
+       [
+        127.66935,
+        37.47927
+       ],
+       [
+        127.66741,
+        37.48433
+       ],
+       [
+        127.66427,
+        37.489
+       ],
+       [
+        127.66004,
+        37.49309
+       ],
+       [
+        127.65489,
+        37.49645
+       ],
+       [
+        127.64901,
+        37.49894
+       ],
+       [
+        127.64263,
+        37.50048
+       ],
+       [
+        127.636,
+        37.501
+       ],
+       [
+        127.62937,
+        37.50048
+       ],
+       [
+        127.62299,
+        37.49894
+       ],
+       [
+        127.61711,
+        37.49645
+       ],
+       [
+        127.61196,
+        37.49309
+       ],
+       [
+        127.60773,
+        37.489
+       ],
+       [
+        127.60459,
+        37.48433
+       ],
+       [
+        127.60265,
+        37.47927
+       ],
+       [
+        127.602,
+        37.474
+       ],
+       [
+        127.60265,
+        37.46873
+       ],
+       [
+        127.60459,
+        37.46367
+       ],
+       [
+        127.60773,
+        37.459
+       ],
+       [
+        127.61196,
+        37.45491
+       ],
+       [
+        127.61711,
+        37.45155
+       ],
+       [
+        127.62299,
+        37.44906
+       ],
+       [
+        127.62937,
+        37.44752
+       ],
+       [
+        127.636,
+        37.447
+       ],
+       [
+        127.64263,
+        37.44752
+       ],
+       [
+        127.64901,
+        37.44906
+       ],
+       [
+        127.65489,
+        37.45155
+       ],
+       [
+        127.66004,
+        37.45491
+       ],
+       [
+        127.66427,
+        37.459
+       ],
+       [
+        127.66741,
+        37.46367
+       ],
+       [
+        127.66935,
+        37.46873
+       ],
+       [
+        127.67,
+        37.474
+       ]
+      ],
+      "at": 0.2
+     },
+     {
+      "k": "unit",
+      "p": "jipyeong",
+      "text": "Chipyong-ni",
+      "color": "blue",
+      "at": 0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "RIDGELINE · ~19 KM AROUND (APPROX.)",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ],
+   "chapter": {
+    "num": "PART 3",
+    "title": "THE 360° PERIMETER"
+   }
+  },
+  {
+   "id": "s33",
+   "lines": [
+    "It was far too long for the troops Freeman had.",
+    "So he gave up the high ground, and drew a small circle linking the low hills around the village."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "jp_ring",
+    "to": "jp",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.67,
+        37.474
+       ],
+       [
+        127.66935,
+        37.47927
+       ],
+       [
+        127.66741,
+        37.48433
+       ],
+       [
+        127.66427,
+        37.489
+       ],
+       [
+        127.66004,
+        37.49309
+       ],
+       [
+        127.65489,
+        37.49645
+       ],
+       [
+        127.64901,
+        37.49894
+       ],
+       [
+        127.64263,
+        37.50048
+       ],
+       [
+        127.636,
+        37.501
+       ],
+       [
+        127.62937,
+        37.50048
+       ],
+       [
+        127.62299,
+        37.49894
+       ],
+       [
+        127.61711,
+        37.49645
+       ],
+       [
+        127.61196,
+        37.49309
+       ],
+       [
+        127.60773,
+        37.489
+       ],
+       [
+        127.60459,
+        37.48433
+       ],
+       [
+        127.60265,
+        37.47927
+       ],
+       [
+        127.602,
+        37.474
+       ],
+       [
+        127.60265,
+        37.46873
+       ],
+       [
+        127.60459,
+        37.46367
+       ],
+       [
+        127.60773,
+        37.459
+       ],
+       [
+        127.61196,
+        37.45491
+       ],
+       [
+        127.61711,
+        37.45155
+       ],
+       [
+        127.62299,
+        37.44906
+       ],
+       [
+        127.62937,
+        37.44752
+       ],
+       [
+        127.636,
+        37.447
+       ],
+       [
+        127.64263,
+        37.44752
+       ],
+       [
+        127.64901,
+        37.44906
+       ],
+       [
+        127.65489,
+        37.45155
+       ],
+       [
+        127.66004,
+        37.45491
+       ],
+       [
+        127.66427,
+        37.459
+       ],
+       [
+        127.66741,
+        37.46367
+       ],
+       [
+        127.66935,
+        37.46873
+       ],
+       [
+        127.67,
+        37.474
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "front",
+      "path": [
+       [
+        127.64507,
+        37.477
+       ],
+       [
+        127.64476,
+        37.47886
+       ],
+       [
+        127.64385,
+        37.4806
+       ],
+       [
+        127.64241,
+        37.48209
+       ],
+       [
+        127.64053,
+        37.48324
+       ],
+       [
+        127.63835,
+        37.48395
+       ],
+       [
+        127.636,
+        37.4842
+       ],
+       [
+        127.63365,
+        37.48395
+       ],
+       [
+        127.63146,
+        37.48324
+       ],
+       [
+        127.62959,
+        37.48209
+       ],
+       [
+        127.62815,
+        37.4806
+       ],
+       [
+        127.62724,
+        37.47886
+       ],
+       [
+        127.62693,
+        37.477
+       ],
+       [
+        127.62724,
+        37.47514
+       ],
+       [
+        127.62815,
+        37.4734
+       ],
+       [
+        127.62959,
+        37.47191
+       ],
+       [
+        127.63146,
+        37.47076
+       ],
+       [
+        127.63365,
+        37.47005
+       ],
+       [
+        127.636,
+        37.4698
+       ],
+       [
+        127.63835,
+        37.47005
+       ],
+       [
+        127.64053,
+        37.47076
+       ],
+       [
+        127.64241,
+        37.47191
+       ],
+       [
+        127.64385,
+        37.4734
+       ],
+       [
+        127.64476,
+        37.47514
+       ],
+       [
+        127.64507,
+        37.477
+       ]
+      ],
+      "at": 1.0
+     },
+     {
+      "k": "unit",
+      "p": "jipyeong",
+      "text": "Chipyong-ni",
+      "color": "blue",
+      "at": 0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "FREEMAN'S CHOICE · A SMALL CIRCLE",
+     "style": "yellow",
+     "at": 1,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "pop",
+     "at": 1,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s34",
+   "lines": [
+    "A circular perimeter roughly one and a half kilometers across.",
+    "The 1st Battalion held the north, the 3rd the east, the 2nd the south, and the French Battalion the west."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "jp",
+    "to": "jp",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.64507,
+        37.477
+       ],
+       [
+        127.64476,
+        37.47886
+       ],
+       [
+        127.64385,
+        37.4806
+       ],
+       [
+        127.64241,
+        37.48209
+       ],
+       [
+        127.64053,
+        37.48324
+       ],
+       [
+        127.63835,
+        37.48395
+       ],
+       [
+        127.636,
+        37.4842
+       ],
+       [
+        127.63365,
+        37.48395
+       ],
+       [
+        127.63146,
+        37.48324
+       ],
+       [
+        127.62959,
+        37.48209
+       ],
+       [
+        127.62815,
+        37.4806
+       ],
+       [
+        127.62724,
+        37.47886
+       ],
+       [
+        127.62693,
+        37.477
+       ],
+       [
+        127.62724,
+        37.47514
+       ],
+       [
+        127.62815,
+        37.4734
+       ],
+       [
+        127.62959,
+        37.47191
+       ],
+       [
+        127.63146,
+        37.47076
+       ],
+       [
+        127.63365,
+        37.47005
+       ],
+       [
+        127.636,
+        37.4698
+       ],
+       [
+        127.63835,
+        37.47005
+       ],
+       [
+        127.64053,
+        37.47076
+       ],
+       [
+        127.64241,
+        37.47191
+       ],
+       [
+        127.64385,
+        37.4734
+       ],
+       [
+        127.64476,
+        37.47514
+       ],
+       [
+        127.64507,
+        37.477
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "pn",
+      "text": "1st Bn",
+      "color": "blue",
+      "at": 1,
+      "dy": 0
+     },
+     {
+      "k": "badge",
+      "p": "pe",
+      "text": "3rd Bn",
+      "color": "blue",
+      "at": 1.25,
+      "dy": 0
+     },
+     {
+      "k": "badge",
+      "p": "ps",
+      "text": "2nd Bn",
+      "color": "blue",
+      "at": 1.5,
+      "dy": 0
+     },
+     {
+      "k": "badge",
+      "p": "pw",
+      "text": "French Bn",
+      "color": "blue",
+      "at": 1.75,
+      "dy": 0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "PERIMETER · ~1.5 KM ACROSS (APPROX.)",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower",
+     "until": 0
+    }
+   ]
+  },
+  {
+   "id": "s35",
+   "lines": [
+    "At the center of the circle sat the artillery and the reserve.",
+    "105 and 155 millimeter howitzers, and even anti-aircraft guns, could swing their barrels in any direction."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "jp",
+    "to": "jp",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.64507,
+        37.477
+       ],
+       [
+        127.64476,
+        37.47886
+       ],
+       [
+        127.64385,
+        37.4806
+       ],
+       [
+        127.64241,
+        37.48209
+       ],
+       [
+        127.64053,
+        37.48324
+       ],
+       [
+        127.63835,
+        37.48395
+       ],
+       [
+        127.636,
+        37.4842
+       ],
+       [
+        127.63365,
+        37.48395
+       ],
+       [
+        127.63146,
+        37.48324
+       ],
+       [
+        127.62959,
+        37.48209
+       ],
+       [
+        127.62815,
+        37.4806
+       ],
+       [
+        127.62724,
+        37.47886
+       ],
+       [
+        127.62693,
+        37.477
+       ],
+       [
+        127.62724,
+        37.47514
+       ],
+       [
+        127.62815,
+        37.4734
+       ],
+       [
+        127.62959,
+        37.47191
+       ],
+       [
+        127.63146,
+        37.47076
+       ],
+       [
+        127.63365,
+        37.47005
+       ],
+       [
+        127.636,
+        37.4698
+       ],
+       [
+        127.63835,
+        37.47005
+       ],
+       [
+        127.64053,
+        37.47076
+       ],
+       [
+        127.64241,
+        37.47191
+       ],
+       [
+        127.64385,
+        37.4734
+       ],
+       [
+        127.64476,
+        37.47514
+       ],
+       [
+        127.64507,
+        37.477
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "jipyeong",
+      "text": "Artillery · Reserve",
+      "color": "blue",
+      "at": 0.2,
+      "pulse": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.636,
+        37.477
+       ],
+       [
+        127.636,
+        37.48305
+       ]
+      ],
+      "color": "blue",
+      "at": 0.8,
+      "width": 0.7,
+      "dur": 0.6
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.636,
+        37.477
+       ],
+       [
+        127.628377,
+        37.477
+       ]
+      ],
+      "color": "blue",
+      "at": 0.9,
+      "width": 0.7,
+      "dur": 0.6
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.636,
+        37.477
+       ],
+       [
+        127.636,
+        37.47095
+       ]
+      ],
+      "color": "blue",
+      "at": 1.0,
+      "width": 0.7,
+      "dur": 0.6
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.636,
+        37.477
+       ],
+       [
+        127.643623,
+        37.477
+       ]
+      ],
+      "color": "blue",
+      "at": 1.1,
+      "width": 0.7,
+      "dur": 0.6
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "GUNS AT THE CENTER · FIRE IN ALL DIRECTIONS",
+     "style": "blue",
+     "at": 1,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "artillery",
+     "at": 1,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s35b",
+   "lines": [
+    "Above all, the anti-aircraft unit's quad machine-gun half-tracks could pour a staggering curtain of fire onto troops on the ground.",
+    "The soldiers reportedly called that terrifying firepower the meat chopper."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s35b-photo",
+    "kb": "in"
+   },
+   "label": "M16 quad .50 anti-aircraft half-track (Korean War)",
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 0.4,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s36",
+   "lines": [
+    "Wherever the line was breached, the reserve inside could reach it within minutes.",
+    "The small, tight circle was, in itself, one great fortress."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s36-photo",
+    "kb": "in"
+   },
+   "label": "155 mm howitzer firing (Korean War)"
+  },
+  {
+   "id": "s37",
+   "lines": [
+    "The men broke the frozen earth with pickaxes, digging foxholes and connecting trenches.",
+    "They strung barbed wire, and laid trip flares in front of their positions that would light up at a touch.",
+    "Trenches linked the positions, so ammunition and wounded could move between them out of the enemy's line of fire."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "dig_in",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s38",
+   "lines": [
+    "Meanwhile, the situation outside was deteriorating fast.",
+    "On the night of February 11th, the Chinese launched what became known as their Fourth Phase Offensive."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "central",
+    "items": [
+     {
+      "k": "unit",
+      "p": "jipyeong",
+      "text": "Chipyong-ni",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.05,
+        37.75
+       ],
+       [
+        128.0,
+        37.6
+       ],
+       [
+        127.98,
+        37.5
+       ]
+      ],
+      "color": "red",
+      "at": 0.8,
+      "width": 1.2
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.6,
+        37.75
+       ],
+       [
+        127.62,
+        37.6
+       ],
+       [
+        127.634,
+        37.5
+       ]
+      ],
+      "color": "red",
+      "at": 1.1,
+      "width": 1.0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "FEB. 11, 1951 · PVA FOURTH PHASE OFFENSIVE",
+     "style": "red",
+     "at": 1,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.5,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s39",
+   "lines": [
+    "North of Hoengseong, the ROK 8th Division was badly mauled and collapsed, and UN forces were pushed back toward Wonju.",
+    "The 23rd Regiment at Chipyong-ni was left jutting out ahead, all on its own.",
+    "At Hoengseong alone, it was a disastrous defeat in which thousands of South Korean and American troops were killed or captured."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "central",
+    "to": "central",
+    "items": [
+     {
+      "k": "marker",
+      "p": "hoengseong",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.99,
+        37.56
+       ],
+       [
+        127.96,
+        37.45
+       ],
+       [
+        127.93,
+        37.36
+       ]
+      ],
+      "color": "red",
+      "at": 0.3,
+      "width": 1.2
+     },
+     {
+      "k": "front",
+      "path": [
+       [
+        127.3,
+        37.4
+       ],
+       [
+        127.5,
+        37.45
+       ],
+       [
+        127.636,
+        37.49
+       ],
+       [
+        127.7,
+        37.4
+       ],
+       [
+        127.85,
+        37.33
+       ],
+       [
+        128.1,
+        37.33
+       ],
+       [
+        128.4,
+        37.4
+       ]
+      ],
+      "at": 0.9
+     },
+     {
+      "k": "unit",
+      "p": "jipyeong",
+      "text": "Isolated Salient",
+      "color": "blue",
+      "at": 1.2,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "ROK 8TH DIV. COLLAPSES · HOENGSEONG",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s40",
+   "lines": [
+    "On February 13th, patrols and aerial observers reported Chinese troops converging from every direction.",
+    "One by one, the roads into the village began to be cut."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "jp_wide",
+    "to": "jp_wide",
+    "items": [
+     {
+      "k": "unit",
+      "p": "jipyeong",
+      "text": "Chipyong-ni",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.6,
+        37.56
+       ],
+       [
+        127.62,
+        37.52
+       ],
+       [
+        127.632,
+        37.49
+       ]
+      ],
+      "color": "red",
+      "at": 0.3,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.53,
+        37.5
+       ],
+       [
+        127.58,
+        37.49
+       ],
+       [
+        127.625,
+        37.48
+       ]
+      ],
+      "color": "red",
+      "at": 0.44999999999999996,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.6,
+        37.4
+       ],
+       [
+        127.62,
+        37.44
+       ],
+       [
+        127.632,
+        37.465
+       ]
+      ],
+      "color": "red",
+      "at": 0.6,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.74,
+        37.44
+       ],
+       [
+        127.69,
+        37.46
+       ],
+       [
+        127.648,
+        37.472
+       ]
+      ],
+      "color": "red",
+      "at": 0.75,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.71,
+        37.55
+       ],
+       [
+        127.68,
+        37.51
+       ],
+       [
+        127.645,
+        37.485
+       ]
+      ],
+      "color": "red",
+      "at": 0.8999999999999999,
+      "width": 1.0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "FEB. 13 · ROADS CUT ONE BY ONE",
+     "style": "red",
+     "at": 1,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "drum",
+     "at": 0.4,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s41",
+   "lines": [
+    "Freeman proposed pulling back south toward Yeoju.",
+    "But Ridgway was adamant. Hold Chipyong-ni."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "THE PROPOSAL",
+     "big": "WITHDRAW TO YEOJU",
+     "icon": "none",
+     "color": "red"
+    },
+    "right": {
+     "title": "RIDGWAY'S DECISION",
+     "big": "HOLD CHIPYONG-NI",
+     "icon": "none",
+     "color": "blue",
+     "at": 1
+    }
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 1,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s42",
+   "lines": [
+    "Ridgway promised that even if the regiment was surrounded, he would send a relief force.",
+    "Freeman told his men: we will stay here, and fight it out."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "“WE'LL STAY HERE AND FIGHT IT OUT”",
+    "accent": "COL. FREEMAN · FEB. 13, 1951",
+    "accentAt": 1
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s43",
+   "lines": [
+    "When the sun went down, a strange silence settled over the mountains around the basin.",
+    "Fifty-six hundred men held their breath in frozen foxholes, staring into the dark."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "basin_night",
+    "kb": "out"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s44",
+   "lines": [
+    "And at ten o'clock on the night of February 13th, the first bugle sounded."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "FEB. 13, 1951 · 22:00",
+    "accent": "THE FIRST BUGLE",
+    "accentAt": 0.5
+   },
+   "sfx": [
+    {
+     "id": "bugle",
+     "at": 0.3,
+     "volume": 0.45
+    }
+   ],
+   "pauseBefore": 0.4
+  },
+  {
+   "id": "s45",
+   "lines": [
+    "The Chinese surged in from the north, the northwest and the southeast all at once.",
+    "Soon the perimeter was under attack from every direction, a full three hundred and sixty degrees."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "jp",
+    "to": "jp",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.64507,
+        37.477
+       ],
+       [
+        127.64476,
+        37.47886
+       ],
+       [
+        127.64385,
+        37.4806
+       ],
+       [
+        127.64241,
+        37.48209
+       ],
+       [
+        127.64053,
+        37.48324
+       ],
+       [
+        127.63835,
+        37.48395
+       ],
+       [
+        127.636,
+        37.4842
+       ],
+       [
+        127.63365,
+        37.48395
+       ],
+       [
+        127.63146,
+        37.48324
+       ],
+       [
+        127.62959,
+        37.48209
+       ],
+       [
+        127.62815,
+        37.4806
+       ],
+       [
+        127.62724,
+        37.47886
+       ],
+       [
+        127.62693,
+        37.477
+       ],
+       [
+        127.62724,
+        37.47514
+       ],
+       [
+        127.62815,
+        37.4734
+       ],
+       [
+        127.62959,
+        37.47191
+       ],
+       [
+        127.63146,
+        37.47076
+       ],
+       [
+        127.63365,
+        37.47005
+       ],
+       [
+        127.636,
+        37.4698
+       ],
+       [
+        127.63835,
+        37.47005
+       ],
+       [
+        127.64053,
+        37.47076
+       ],
+       [
+        127.64241,
+        37.47191
+       ],
+       [
+        127.64385,
+        37.4734
+       ],
+       [
+        127.64476,
+        37.47514
+       ],
+       [
+        127.64507,
+        37.477
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.636,
+        37.507
+       ],
+       [
+        127.636,
+        37.4975
+       ],
+       [
+        127.636,
+        37.488
+       ]
+      ],
+      "color": "red",
+      "at": 0.15,
+      "width": 0.9,
+      "dur": 1.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.60927,
+        37.49821
+       ],
+       [
+        127.61773,
+        37.4915
+       ],
+       [
+        127.6262,
+        37.48478
+       ]
+      ],
+      "color": "red",
+      "at": 0.27,
+      "width": 0.9,
+      "dur": 1.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.5982,
+        37.477
+       ],
+       [
+        127.61017,
+        37.477
+       ],
+       [
+        127.62214,
+        37.477
+       ]
+      ],
+      "color": "red",
+      "at": 0.39,
+      "width": 0.9,
+      "dur": 1.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.60927,
+        37.45579
+       ],
+       [
+        127.61773,
+        37.4625
+       ],
+       [
+        127.6262,
+        37.46922
+       ]
+      ],
+      "color": "red",
+      "at": 0.51,
+      "width": 0.9,
+      "dur": 1.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.636,
+        37.447
+       ],
+       [
+        127.636,
+        37.4565
+       ],
+       [
+        127.636,
+        37.466
+       ]
+      ],
+      "color": "red",
+      "at": 0.63,
+      "width": 0.9,
+      "dur": 1.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.66273,
+        37.45579
+       ],
+       [
+        127.65427,
+        37.4625
+       ],
+       [
+        127.6458,
+        37.46922
+       ]
+      ],
+      "color": "red",
+      "at": 0.75,
+      "width": 0.9,
+      "dur": 1.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.6738,
+        37.477
+       ],
+       [
+        127.66183,
+        37.477
+       ],
+       [
+        127.64986,
+        37.477
+       ]
+      ],
+      "color": "red",
+      "at": 0.87,
+      "width": 0.9,
+      "dur": 1.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.66273,
+        37.49821
+       ],
+       [
+        127.65427,
+        37.4915
+       ],
+       [
+        127.6458,
+        37.48478
+       ]
+      ],
+      "color": "red",
+      "at": 0.99,
+      "width": 0.9,
+      "dur": 1.1
+     }
+    ],
+    "zoom": 1.05
+   },
+   "callouts": [
+    {
+     "text": "ATTACK FROM ALL 360°",
+     "style": "red",
+     "at": 1
+    }
+   ],
+   "chapter": {
+    "num": "PART 4",
+    "title": "THE NIGHT OF SIRENS AND BAYONETS"
+   },
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 0.5,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s46",
+   "lines": [
+    "Bugles, whistles and gongs tore through the darkness.",
+    "When one line fell, another came on behind it, climbing over its fallen comrades.",
+    "All night long, the Chinese probed here and there, searching for a weak spot in the line."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "wave_snow",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "charge",
+     "at": 0.2,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s47",
+   "lines": [
+    "Each time a flare burst, Chinese soldiers in quilted cotton uniforms were exposed on the snow.",
+    "Machine guns and mortars fired without pause into that white light."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s47-photo",
+    "kb": "in"
+   },
+   "label": "Trip flare over the front (1951 · reference photo)",
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 0.4,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s48",
+   "lines": [
+    "The guns at the center of the circle kept turning in every direction, firing round after round.",
+    "Inside an encircled ring, whichever way you faced, the front line was right in front of you."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s48-photo",
+    "kb": "in"
+   },
+   "label": "155 mm howitzer in action (Korean War)",
+   "sfx": [
+    {
+     "id": "artillery",
+     "at": 0.2,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s49",
+   "lines": [
+    "The most famous scene played out on the west side, in the French Battalion's sector.",
+    "A mass of Chinese troops had pushed right up to the edge of the French trenches."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "jp",
+    "to": "jp",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.64507,
+        37.477
+       ],
+       [
+        127.64476,
+        37.47886
+       ],
+       [
+        127.64385,
+        37.4806
+       ],
+       [
+        127.64241,
+        37.48209
+       ],
+       [
+        127.64053,
+        37.48324
+       ],
+       [
+        127.63835,
+        37.48395
+       ],
+       [
+        127.636,
+        37.4842
+       ],
+       [
+        127.63365,
+        37.48395
+       ],
+       [
+        127.63146,
+        37.48324
+       ],
+       [
+        127.62959,
+        37.48209
+       ],
+       [
+        127.62815,
+        37.4806
+       ],
+       [
+        127.62724,
+        37.47886
+       ],
+       [
+        127.62693,
+        37.477
+       ],
+       [
+        127.62724,
+        37.47514
+       ],
+       [
+        127.62815,
+        37.4734
+       ],
+       [
+        127.62959,
+        37.47191
+       ],
+       [
+        127.63146,
+        37.47076
+       ],
+       [
+        127.63365,
+        37.47005
+       ],
+       [
+        127.636,
+        37.4698
+       ],
+       [
+        127.63835,
+        37.47005
+       ],
+       [
+        127.64053,
+        37.47076
+       ],
+       [
+        127.64241,
+        37.47191
+       ],
+       [
+        127.64385,
+        37.4734
+       ],
+       [
+        127.64476,
+        37.47514
+       ],
+       [
+        127.64507,
+        37.477
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "pw",
+      "text": "French Bn",
+      "color": "blue",
+      "at": 0,
+      "dy": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.6,
+        37.484
+       ],
+       [
+        127.612,
+        37.481
+       ],
+       [
+        127.624,
+        37.478
+       ]
+      ],
+      "color": "red",
+      "at": 0.8,
+      "width": 1.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.6,
+        37.47
+       ],
+       [
+        127.612,
+        37.473
+       ],
+       [
+        127.624,
+        37.475
+       ]
+      ],
+      "color": "red",
+      "at": 1.0,
+      "width": 1.1
+     }
+    ],
+    "zoom": 1.1
+   },
+   "callouts": [
+    {
+     "text": "WEST SECTOR · FRENCH BATTALION",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s50",
+   "lines": [
+    "At that moment, a piercing mechanical wail rose from the French lines.",
+    "It was a hand-cranked siren."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "siren",
+    "kb": "in2"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "whoosh",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s51",
+   "lines": [
+    "As the siren drowned out the bugles, the French fixed bayonets and charged out of their trenches.",
+    "Hurling grenades and shouting, they plunged straight into the middle of the enemy."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "french_charge",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "charge",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s52",
+   "lines": [
+    "A sound no one expected, and bayonets coming straight at them.",
+    "The Chinese ranks scattered, and the western sector held to the end."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "SIREN AND BAYONET",
+    "accent": "THE WEST HELD",
+    "accentAt": 1
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s53",
+   "lines": [
+    "Bugles and gongs had been the enemy's weapons of terror.",
+    "Monclar's men had, in effect, answered them with a siren."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "PVA",
+     "big": "BUGLES · GONGS",
+     "icon": "none",
+     "color": "red"
+    },
+    "right": {
+     "title": "FRENCH BN",
+     "big": "SIREN · BAYONETS",
+     "icon": "none",
+     "color": "blue",
+     "at": 1
+    }
+   }
+  },
+  {
+   "id": "s54",
+   "lines": [
+    "At dawn on February 14th, the Chinese fell back into the hills, leaving their dead behind.",
+    "The first night had been survived. But it was only the beginning."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "THE FIRST NIGHT SURVIVED",
+    "accent": "DAWN, FEB. 14, 1951",
+    "accentAt": 1
+   },
+   "pauseBefore": 0.2
+  },
+  {
+   "id": "s55",
+   "lines": [
+    "That day, Colonel Freeman himself was wounded in the leg by mortar fragments.",
+    "Even so, he limped around the perimeter and never stopped commanding."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "freeman_cp",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s56",
+   "lines": [
+    "Ammunition and food were running out fast.",
+    "When daylight came, transport planes flew over and dropped supplies by parachute into the circle."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s56-photo",
+    "kb": "in"
+   },
+   "label": "Troops receiving air-dropped supplies (1951)"
+  },
+  {
+   "id": "s57",
+   "lines": [
+    "Some of the bundles landed outside the perimeter, inside the enemy's field of fire.",
+    "Men who climbed out of their foxholes to retrieve them were sometimes cut down by snipers."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "AMMUNITION FROM THE SKY",
+    "accent": "RETRIEVED AT THE RISK OF LIFE",
+    "accentAt": 1
+   }
+  },
+  {
+   "id": "s58",
+   "lines": [
+    "Helicopters brought in ammunition and medical supplies, and flew the badly wounded out on the way back.",
+    "They were the only thread linking the encircled ring to the outside world."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s58-photo",
+    "kb": "in"
+   },
+   "label": "H-5 helicopter evacuating wounded (1951)"
+  },
+  {
+   "id": "s58b",
+   "lines": [
+    "The same day, to the southeast at Wonju, Chinese columns moving down along the Som River were caught in massed UN artillery fire.",
+    "With this barrage, which the Americans called the Wonju Shoot, the Chinese were stopped on the Wonju front as well."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "central",
+    "to": "central",
+    "items": [
+     {
+      "k": "unit",
+      "p": "jipyeong",
+      "text": "Chipyong-ni",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "wonju",
+      "color": "blue",
+      "at": 0.2
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.85,
+        37.55
+       ],
+       [
+        127.88,
+        37.45
+       ],
+       [
+        127.9,
+        37.37
+       ]
+      ],
+      "color": "red",
+      "at": 0.4,
+      "width": 1.2
+     },
+     {
+      "k": "badge",
+      "p": "wonju",
+      "text": "Wonju Shoot",
+      "color": "red",
+      "at": 1.0,
+      "dy": -80
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "FEB. 13–14 · THE WONJU SHOOT",
+     "style": "red",
+     "at": 0.5,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.3,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s59",
+   "lines": [
+    "On the night of February 14th, the Chinese came again in even greater numbers.",
+    "Attacks that began around midnight hammered the north, the east and the west in turn.",
+    "This time the attacks were bigger and more relentless, covered by mortars and machine guns."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "jp",
+    "to": "jp",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.64507,
+        37.477
+       ],
+       [
+        127.64476,
+        37.47886
+       ],
+       [
+        127.64385,
+        37.4806
+       ],
+       [
+        127.64241,
+        37.48209
+       ],
+       [
+        127.64053,
+        37.48324
+       ],
+       [
+        127.63835,
+        37.48395
+       ],
+       [
+        127.636,
+        37.4842
+       ],
+       [
+        127.63365,
+        37.48395
+       ],
+       [
+        127.63146,
+        37.48324
+       ],
+       [
+        127.62959,
+        37.48209
+       ],
+       [
+        127.62815,
+        37.4806
+       ],
+       [
+        127.62724,
+        37.47886
+       ],
+       [
+        127.62693,
+        37.477
+       ],
+       [
+        127.62724,
+        37.47514
+       ],
+       [
+        127.62815,
+        37.4734
+       ],
+       [
+        127.62959,
+        37.47191
+       ],
+       [
+        127.63146,
+        37.47076
+       ],
+       [
+        127.63365,
+        37.47005
+       ],
+       [
+        127.636,
+        37.4698
+       ],
+       [
+        127.63835,
+        37.47005
+       ],
+       [
+        127.64053,
+        37.47076
+       ],
+       [
+        127.64241,
+        37.47191
+       ],
+       [
+        127.64385,
+        37.4734
+       ],
+       [
+        127.64476,
+        37.47514
+       ],
+       [
+        127.64507,
+        37.477
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.636,
+        37.507
+       ],
+       [
+        127.636,
+        37.4975
+       ],
+       [
+        127.636,
+        37.488
+       ]
+      ],
+      "color": "red",
+      "at": 0.1,
+      "width": 0.9,
+      "dur": 1.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.60927,
+        37.49821
+       ],
+       [
+        127.61773,
+        37.4915
+       ],
+       [
+        127.6262,
+        37.48478
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 0.9,
+      "dur": 1.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.5982,
+        37.477
+       ],
+       [
+        127.61017,
+        37.477
+       ],
+       [
+        127.62214,
+        37.477
+       ]
+      ],
+      "color": "red",
+      "at": 0.3,
+      "width": 0.9,
+      "dur": 1.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.60927,
+        37.45579
+       ],
+       [
+        127.61773,
+        37.4625
+       ],
+       [
+        127.6262,
+        37.46922
+       ]
+      ],
+      "color": "red",
+      "at": 0.4,
+      "width": 0.9,
+      "dur": 1.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.636,
+        37.447
+       ],
+       [
+        127.636,
+        37.4565
+       ],
+       [
+        127.636,
+        37.466
+       ]
+      ],
+      "color": "red",
+      "at": 0.5,
+      "width": 0.9,
+      "dur": 1.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.66273,
+        37.45579
+       ],
+       [
+        127.65427,
+        37.4625
+       ],
+       [
+        127.6458,
+        37.46922
+       ]
+      ],
+      "color": "red",
+      "at": 0.6,
+      "width": 0.9,
+      "dur": 1.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.6738,
+        37.477
+       ],
+       [
+        127.66183,
+        37.477
+       ],
+       [
+        127.64986,
+        37.477
+       ]
+      ],
+      "color": "red",
+      "at": 0.7,
+      "width": 0.9,
+      "dur": 1.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.66273,
+        37.49821
+       ],
+       [
+        127.65427,
+        37.4915
+       ],
+       [
+        127.6458,
+        37.48478
+       ]
+      ],
+      "color": "red",
+      "at": 0.8,
+      "width": 0.9,
+      "dur": 1.1
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "NIGHT OF FEB. 14 · SECOND GENERAL ASSAULT",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "bugle",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s60",
+   "lines": [
+    "In the east, Company I of the 3rd Battalion was overrun for a time,",
+    "but its men counterattacked and quickly took the position back."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "jp",
+    "to": "jp",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.64507,
+        37.477
+       ],
+       [
+        127.64476,
+        37.47886
+       ],
+       [
+        127.64385,
+        37.4806
+       ],
+       [
+        127.64241,
+        37.48209
+       ],
+       [
+        127.64053,
+        37.48324
+       ],
+       [
+        127.63835,
+        37.48395
+       ],
+       [
+        127.636,
+        37.4842
+       ],
+       [
+        127.63365,
+        37.48395
+       ],
+       [
+        127.63146,
+        37.48324
+       ],
+       [
+        127.62959,
+        37.48209
+       ],
+       [
+        127.62815,
+        37.4806
+       ],
+       [
+        127.62724,
+        37.47886
+       ],
+       [
+        127.62693,
+        37.477
+       ],
+       [
+        127.62724,
+        37.47514
+       ],
+       [
+        127.62815,
+        37.4734
+       ],
+       [
+        127.62959,
+        37.47191
+       ],
+       [
+        127.63146,
+        37.47076
+       ],
+       [
+        127.63365,
+        37.47005
+       ],
+       [
+        127.636,
+        37.4698
+       ],
+       [
+        127.63835,
+        37.47005
+       ],
+       [
+        127.64053,
+        37.47076
+       ],
+       [
+        127.64241,
+        37.47191
+       ],
+       [
+        127.64385,
+        37.4734
+       ],
+       [
+        127.64476,
+        37.47514
+       ],
+       [
+        127.64507,
+        37.477
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.668,
+        37.48
+       ],
+       [
+        127.656,
+        37.479
+       ],
+       [
+        127.646,
+        37.478
+       ]
+      ],
+      "color": "red",
+      "at": 0,
+      "width": 0.9
+     },
+     {
+      "k": "badge",
+      "p": "pe",
+      "text": "Co. I Breached",
+      "color": "red",
+      "at": 0.3,
+      "dy": -95
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.638,
+        37.478
+       ],
+       [
+        127.645,
+        37.479
+       ],
+       [
+        127.651,
+        37.48
+       ]
+      ],
+      "color": "blue",
+      "at": 1,
+      "width": 0.9
+     },
+     {
+      "k": "badge",
+      "p": "pe",
+      "text": "Counterattack · Restored",
+      "color": "blue",
+      "at": 1.3,
+      "dy": 95
+     }
+    ],
+    "zoom": 1.15
+   },
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s61",
+   "lines": [
+    "Sergeant First Class William Sitman of Company M threw himself on a grenade that landed in his machine-gun position.",
+    "His sacrifice saved five of his comrades, and he was posthumously awarded the Medal of Honor."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "MEDAL OF HONOR",
+    "accent": "SFC WILLIAM S. SITMAN · CO. M",
+    "accentAt": 0.5
+   },
+   "pauseBefore": 0.2
+  },
+  {
+   "id": "s62",
+   "lines": [
+    "Then the assaults began to concentrate on the south, the sector held by the 2nd Battalion.",
+    "Wave after wave of the enemy pressed against the foxholes of Company G on the southern hill."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "jp",
+    "to": "jp",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.64507,
+        37.477
+       ],
+       [
+        127.64476,
+        37.47886
+       ],
+       [
+        127.64385,
+        37.4806
+       ],
+       [
+        127.64241,
+        37.48209
+       ],
+       [
+        127.64053,
+        37.48324
+       ],
+       [
+        127.63835,
+        37.48395
+       ],
+       [
+        127.636,
+        37.4842
+       ],
+       [
+        127.63365,
+        37.48395
+       ],
+       [
+        127.63146,
+        37.48324
+       ],
+       [
+        127.62959,
+        37.48209
+       ],
+       [
+        127.62815,
+        37.4806
+       ],
+       [
+        127.62724,
+        37.47886
+       ],
+       [
+        127.62693,
+        37.477
+       ],
+       [
+        127.62724,
+        37.47514
+       ],
+       [
+        127.62815,
+        37.4734
+       ],
+       [
+        127.62959,
+        37.47191
+       ],
+       [
+        127.63146,
+        37.47076
+       ],
+       [
+        127.63365,
+        37.47005
+       ],
+       [
+        127.636,
+        37.4698
+       ],
+       [
+        127.63835,
+        37.47005
+       ],
+       [
+        127.64053,
+        37.47076
+       ],
+       [
+        127.64241,
+        37.47191
+       ],
+       [
+        127.64385,
+        37.4734
+       ],
+       [
+        127.64476,
+        37.47514
+       ],
+       [
+        127.64507,
+        37.477
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "h397",
+      "color": "dark",
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "ps",
+      "text": "Co. G",
+      "color": "red",
+      "at": 0.4,
+      "dy": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.63,
+        37.452
+       ],
+       [
+        127.633,
+        37.462
+       ],
+       [
+        127.635,
+        37.469
+       ]
+      ],
+      "color": "red",
+      "at": 0.8,
+      "width": 1.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.645,
+        37.452
+       ],
+       [
+        127.64,
+        37.462
+       ],
+       [
+        127.637,
+        37.469
+       ]
+      ],
+      "color": "red",
+      "at": 1.0,
+      "width": 1.1
+     }
+    ],
+    "zoom": 1.1
+   },
+   "callouts": [
+    {
+     "text": "SOUTH · CO. G, 2ND BN",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s63",
+   "lines": [
+    "Private First Class Bruno Orig of Company G stayed alone on his machine gun to buy time for his comrades to pull back.",
+    "He was killed where he stood, and he too would receive the Medal of Honor."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "gunner",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s64",
+   "lines": [
+    "Before dawn on February 15th, the Company G position finally fell."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "DAWN, FEB. 15, 1951",
+    "accent": "THE SOUTH BREAKS",
+    "accentAt": 0.5
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.45
+    }
+   ],
+   "pauseBefore": 0.4
+  },
+  {
+   "id": "s65",
+   "lines": [
+    "The Chinese poured down from the direction of Hill 397 and drove into the southern side of the ring.",
+    "If the gap could not be sealed, the whole perimeter might collapse from the inside."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "jp",
+    "to": "jp",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.64507,
+        37.477
+       ],
+       [
+        127.64476,
+        37.47886
+       ],
+       [
+        127.64385,
+        37.4806
+       ],
+       [
+        127.64241,
+        37.48209
+       ],
+       [
+        127.64053,
+        37.48324
+       ],
+       [
+        127.63835,
+        37.48395
+       ],
+       [
+        127.636,
+        37.4842
+       ],
+       [
+        127.63365,
+        37.48395
+       ],
+       [
+        127.63146,
+        37.48324
+       ],
+       [
+        127.62959,
+        37.48209
+       ],
+       [
+        127.62815,
+        37.4806
+       ],
+       [
+        127.62724,
+        37.47886
+       ],
+       [
+        127.62693,
+        37.477
+       ],
+       [
+        127.62724,
+        37.47514
+       ],
+       [
+        127.62815,
+        37.4734
+       ],
+       [
+        127.62959,
+        37.47191
+       ],
+       [
+        127.63146,
+        37.47076
+       ],
+       [
+        127.63365,
+        37.47005
+       ],
+       [
+        127.636,
+        37.4698
+       ],
+       [
+        127.63835,
+        37.47005
+       ],
+       [
+        127.64053,
+        37.47076
+       ],
+       [
+        127.64241,
+        37.47191
+       ],
+       [
+        127.64385,
+        37.4734
+       ],
+       [
+        127.64476,
+        37.47514
+       ],
+       [
+        127.64507,
+        37.477
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "h397",
+      "color": "dark",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.638,
+        37.456
+       ],
+       [
+        127.637,
+        37.464
+       ],
+       [
+        127.636,
+        37.472
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 1.3
+     },
+     {
+      "k": "badge",
+      "p": "ps",
+      "text": "Co. G Position Lost",
+      "color": "red",
+      "at": 0.6,
+      "dy": 0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "FEB. 15 · CO. G POSITION LOST",
+     "style": "red",
+     "at": 1,
+     "pos": "top"
+    }
+   ],
+   "chapter": {
+    "num": "PART 5",
+    "title": "THE SOUTH FALLS · CROMBEZ CHARGES"
+   },
+   "sfx": [
+    {
+     "id": "charge",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s66",
+   "lines": [
+    "Freeman scraped together his last reserve, the Ranger company, along with men from other companies, and sent them to counterattack.",
+    "But after hand-to-hand fighting on the snowy slope, the counterattack failed.",
+    "Even after daybreak, the Chinese who had taken the southern hill would not budge."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "ranger_counter",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 0.3,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s67",
+   "lines": [
+    "Ammunition was nearly gone, and the hole in the south could not be closed.",
+    "The only hope left was a relief force coming up from the south."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "THE LAST HOPE",
+    "accent": "A RELIEF FORCE FROM THE SOUTH",
+    "accentAt": 1
+   },
+   "sfx": [
+    {
+     "id": "clock",
+     "at": 0,
+     "volume": 0.3
+    }
+   ],
+   "pauseBefore": 0.2
+  },
+  {
+   "id": "s68",
+   "lines": [
+    "At that very hour, to the south, near Yeoju,",
+    "the 5th Cavalry Regiment of the U.S. 1st Cavalry Division was fighting its way north toward Chipyong-ni.",
+    "It was the very relief force Ridgway had promised."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "jp_wide",
+    "to": "crombez",
+    "items": [
+     {
+      "k": "unit",
+      "p": "jipyeong",
+      "text": "Chipyong-ni",
+      "color": "blue",
+      "at": 0,
+      "pulse": true
+     },
+     {
+      "k": "marker",
+      "p": "yeoju",
+      "color": "dark",
+      "at": 0.2
+     },
+     {
+      "k": "unit",
+      "p": "cav5",
+      "text": "5th Cavalry",
+      "color": "blue",
+      "at": 0.6
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.62,
+        37.33
+       ],
+       [
+        127.61,
+        37.36
+       ],
+       [
+        127.6,
+        37.385
+       ]
+      ],
+      "color": "blue",
+      "at": 1.0,
+      "width": 1.1
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "U.S. 5TH CAVALRY REGT.",
+     "style": "blue",
+     "at": 0.6,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s69",
+   "lines": [
+    "But on foot, they could never reach Chipyong-ni before nightfall.",
+    "The regimental commander, Colonel Marcel Crombez, decided to punch through the enemy with tanks alone."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "TASK FORCE CROMBEZ",
+    "accent": "COL. MARCEL G. CROMBEZ · 5TH CAVALRY",
+    "accentAt": 1
+   },
+   "sfx": [
+    {
+     "id": "tank",
+     "at": 0.5,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s70",
+   "lines": [
+    "Thirteen M46 Patton tanks and ten M4 Shermans, twenty-three in all.",
+    "And clinging to the tanks were a hundred and sixty infantrymen of Company L.",
+    "The battalion commander, Lieutenant Colonel Treacy, objected to putting infantry on top of the tanks, but Crombez did not change his decision."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s70-photo",
+    "kb": "in"
+   },
+   "label": "Tanks supporting infantry (Korean War)",
+   "callouts": [
+    {
+     "text": "23 TANKS · 160 INFANTRY ON THE HULLS",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s71",
+   "lines": [
+    "At three forty-five in the afternoon of February 15th, the column entered the narrow valley road leading through Koksu-ri.",
+    "About ten kilometers remained to Chipyong-ni."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "crombez",
+    "to": "crombez",
+    "items": [
+     {
+      "k": "unit",
+      "p": "jipyeong",
+      "text": "Chipyong-ni",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "koksu",
+      "color": "red",
+      "at": 0.3
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.6,
+        37.385
+       ],
+       [
+        127.598,
+        37.392
+       ],
+       [
+        127.6,
+        37.41
+       ]
+      ],
+      "color": "blue",
+      "at": 0.2,
+      "width": 1.3,
+      "dur": 1.5
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "FEB. 15 · 15:45 · TOWARD KOKSU-RI",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "tank",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s72",
+   "lines": [
+    "Machine guns, mortars and rockets rained down from the hills on both sides.",
+    "The tanks kept racing on without stopping, and each time, infantrymen clinging to them were thrown off onto the road.",
+    "Passing through Koksu-ri, Crombez's column was forced to halt twice."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "tank_run",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s73",
+   "lines": [
+    "When the lead tank was hit and stopped, Crombez drove his own tank forward to lead the column.",
+    "Stop, and everyone dies. That was his calculation."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "“STOP, AND EVERYONE DIES”",
+    "accent": "CROMBEZ'S CALCULATION",
+    "accentAt": 1
+   },
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s74",
+   "lines": [
+    "About a mile south of Chipyong-ni, in front of a small village called Masan,",
+    "the tanks slammed head-on into the Chinese dug in on the hills along both sides of the road."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "crombez",
+    "to": "masan",
+    "items": [
+     {
+      "k": "unit",
+      "p": "jipyeong",
+      "text": "Chipyong-ni",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "masan",
+      "color": "red",
+      "at": 0.2
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.632,
+        37.44
+       ],
+       [
+        127.636,
+        37.452
+       ],
+       [
+        127.639,
+        37.462
+       ]
+      ],
+      "color": "blue",
+      "at": 0.8,
+      "width": 1.3
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "MASAN · ~1.6 KM SOUTH OF CHIPYONG-NI",
+     "style": "yellow",
+     "at": 0.4,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s75",
+   "lines": [
+    "Tank guns and machine guns swept the trenches on the hills one by one.",
+    "Inside the perimeter, the 23rd Regiment attacked the southern hill again, and the Chinese were caught between front and rear."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "masan_clash",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "artillery",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s76",
+   "lines": [
+    "Around five in the afternoon, Crombez's tanks finally rolled into the Chipyong-ni perimeter.",
+    "Inside the encircled ring, the men erupted in cheers.",
+    "The relief tanks had struck the Chinese holding the south side of the perimeter squarely from behind."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "crombez",
+    "to": "jp",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.6,
+        37.39
+       ],
+       [
+        127.62,
+        37.43
+       ],
+       [
+        127.634,
+        37.47
+       ]
+      ],
+      "color": "blue",
+      "at": 0,
+      "width": 1.3,
+      "dur": 2.0
+     },
+     {
+      "k": "front",
+      "path": [
+       [
+        127.64507,
+        37.477
+       ],
+       [
+        127.64476,
+        37.47886
+       ],
+       [
+        127.64385,
+        37.4806
+       ],
+       [
+        127.64241,
+        37.48209
+       ],
+       [
+        127.64053,
+        37.48324
+       ],
+       [
+        127.63835,
+        37.48395
+       ],
+       [
+        127.636,
+        37.4842
+       ],
+       [
+        127.63365,
+        37.48395
+       ],
+       [
+        127.63146,
+        37.48324
+       ],
+       [
+        127.62959,
+        37.48209
+       ],
+       [
+        127.62815,
+        37.4806
+       ],
+       [
+        127.62724,
+        37.47886
+       ],
+       [
+        127.62693,
+        37.477
+       ],
+       [
+        127.62724,
+        37.47514
+       ],
+       [
+        127.62815,
+        37.4734
+       ],
+       [
+        127.62959,
+        37.47191
+       ],
+       [
+        127.63146,
+        37.47076
+       ],
+       [
+        127.63365,
+        37.47005
+       ],
+       [
+        127.636,
+        37.4698
+       ],
+       [
+        127.63835,
+        37.47005
+       ],
+       [
+        127.64053,
+        37.47076
+       ],
+       [
+        127.64241,
+        37.47191
+       ],
+       [
+        127.64385,
+        37.4734
+       ],
+       [
+        127.64476,
+        37.47514
+       ],
+       [
+        127.64507,
+        37.477
+       ]
+      ],
+      "at": 0.3
+     }
+    ],
+    "zoom": 0.8
+   },
+   "callouts": [
+    {
+     "text": "FEB. 15 · ~17:00 · THE RING IS BROKEN",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "tank",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s77",
+   "lines": [
+    "But the price was high.",
+    "Of the hundred and sixty infantrymen who had set out on the tanks, only about twenty-three reached Chipyong-ni."
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "TF Crombez infantry · U.S. records (Feb. 15, 1951 · arrival figures vary)",
+    "items": [
+     {
+      "label": "Set out",
+      "value": 160,
+      "display": "160",
+      "color": "blue",
+      "at": 0.2
+     },
+     {
+      "label": "Arrived",
+      "value": 23,
+      "display": "~23",
+      "color": "red",
+      "at": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s78",
+   "lines": [
+    "Many of the men left behind on the road were killed or captured.",
+    "To this day, Crombez's decision is debated, somewhere between a brave breakthrough and a reckless sacrifice."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "THE PRICE OF THE BREAKTHROUGH",
+    "accent": "COURAGE, OR RECKLESS SACRIFICE?",
+    "accentAt": 1
+   },
+   "pauseBefore": 0.2
+  },
+  {
+   "id": "s79",
+   "lines": [
+    "That night, the Chinese lifted the encirclement and began withdrawing north.",
+    "And so the three-day siege came to an end.",
+    "Blocked at both Wonju and Chipyong-ni at once, the Chinese Fourth Phase Offensive lost its momentum."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "jp",
+    "to": "jp_wide",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.64507,
+        37.477
+       ],
+       [
+        127.64476,
+        37.47886
+       ],
+       [
+        127.64385,
+        37.4806
+       ],
+       [
+        127.64241,
+        37.48209
+       ],
+       [
+        127.64053,
+        37.48324
+       ],
+       [
+        127.63835,
+        37.48395
+       ],
+       [
+        127.636,
+        37.4842
+       ],
+       [
+        127.63365,
+        37.48395
+       ],
+       [
+        127.63146,
+        37.48324
+       ],
+       [
+        127.62959,
+        37.48209
+       ],
+       [
+        127.62815,
+        37.4806
+       ],
+       [
+        127.62724,
+        37.47886
+       ],
+       [
+        127.62693,
+        37.477
+       ],
+       [
+        127.62724,
+        37.47514
+       ],
+       [
+        127.62815,
+        37.4734
+       ],
+       [
+        127.62959,
+        37.47191
+       ],
+       [
+        127.63146,
+        37.47076
+       ],
+       [
+        127.63365,
+        37.47005
+       ],
+       [
+        127.636,
+        37.4698
+       ],
+       [
+        127.63835,
+        37.47005
+       ],
+       [
+        127.64053,
+        37.47076
+       ],
+       [
+        127.64241,
+        37.47191
+       ],
+       [
+        127.64385,
+        37.4734
+       ],
+       [
+        127.64476,
+        37.47514
+       ],
+       [
+        127.64507,
+        37.477
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.63,
+        37.49
+       ],
+       [
+        127.62,
+        37.52
+       ],
+       [
+        127.6,
+        37.56
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.65,
+        37.49
+       ],
+       [
+        127.67,
+        37.52
+       ],
+       [
+        127.69,
+        37.55
+       ]
+      ],
+      "color": "red",
+      "at": 0.4,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.66,
+        37.47
+       ],
+       [
+        127.7,
+        37.49
+       ],
+       [
+        127.74,
+        37.51
+       ]
+      ],
+      "color": "red",
+      "at": 0.6,
+      "width": 1.0
+     }
+    ],
+    "zoom": 0.9
+   },
+   "callouts": [
+    {
+     "text": "NIGHT OF FEB. 15 · PVA WITHDRAWS",
+     "style": "red",
+     "at": 0.5,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s80",
+   "lines": [
+    "On the morning of February 16th, when the soldiers stepped out of their perimeter into the falling snow,",
+    "abandoned weapons and equipment lay scattered endlessly across every slope.",
+    "And among them, covered by snow, lay countless Chinese soldiers who would never return home."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "pva_withdraw",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s81",
+   "lines": [
+    "How did fifty-six hundred surrounded men hold off an enemy several times their size?"
+   ],
+   "visual": {
+    "type": "black",
+    "text": "HOW?",
+    "accent": "WHY 5,600 SURROUNDED MEN HELD",
+    "accentAt": 0.5
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ],
+   "pauseBefore": 0.4
+  },
+  {
+   "id": "s82",
+   "lines": [
+    "Why the encircled ring survived.",
+    "Let's break it down into four factors."
+   ],
+   "visual": {
+    "type": "factors",
+    "items": [
+     "The 360° perimeter",
+     "Firepower and the sky",
+     "The decision to hold",
+     "The armored relief"
+    ],
+    "head": "One encircled ring — how?",
+    "at": 1
+   },
+   "chapter": {
+    "num": "PART 6",
+    "title": "FOUR DECIDING FACTORS"
+   }
+  },
+  {
+   "id": "s83",
+   "lines": [
+    "First, the three-hundred-sixty-degree perimeter."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s83-photo",
+    "num": "FACTOR 1",
+    "title": "THE 360° PERIMETER"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s84",
+   "lines": [
+    "Because the circle was small and tight, wherever it was breached, the reserve inside could rush there at once.",
+    "Freeman's choice to give up the high ground was exactly what made the position so strong."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "jp",
+    "to": "jp",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.64507,
+        37.477
+       ],
+       [
+        127.64476,
+        37.47886
+       ],
+       [
+        127.64385,
+        37.4806
+       ],
+       [
+        127.64241,
+        37.48209
+       ],
+       [
+        127.64053,
+        37.48324
+       ],
+       [
+        127.63835,
+        37.48395
+       ],
+       [
+        127.636,
+        37.4842
+       ],
+       [
+        127.63365,
+        37.48395
+       ],
+       [
+        127.63146,
+        37.48324
+       ],
+       [
+        127.62959,
+        37.48209
+       ],
+       [
+        127.62815,
+        37.4806
+       ],
+       [
+        127.62724,
+        37.47886
+       ],
+       [
+        127.62693,
+        37.477
+       ],
+       [
+        127.62724,
+        37.47514
+       ],
+       [
+        127.62815,
+        37.4734
+       ],
+       [
+        127.62959,
+        37.47191
+       ],
+       [
+        127.63146,
+        37.47076
+       ],
+       [
+        127.63365,
+        37.47005
+       ],
+       [
+        127.636,
+        37.4698
+       ],
+       [
+        127.63835,
+        37.47005
+       ],
+       [
+        127.64053,
+        37.47076
+       ],
+       [
+        127.64241,
+        37.47191
+       ],
+       [
+        127.64385,
+        37.4734
+       ],
+       [
+        127.64476,
+        37.47514
+       ],
+       [
+        127.64507,
+        37.477
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "jipyeong",
+      "text": "Reserve · Artillery",
+      "color": "blue",
+      "at": 0.2,
+      "pulse": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.636,
+        37.477
+       ],
+       [
+        127.636,
+        37.48305
+       ]
+      ],
+      "color": "blue",
+      "at": 0.6,
+      "width": 0.7,
+      "dur": 0.6
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.636,
+        37.477
+       ],
+       [
+        127.628377,
+        37.477
+       ]
+      ],
+      "color": "blue",
+      "at": 0.7,
+      "width": 0.7,
+      "dur": 0.6
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.636,
+        37.477
+       ],
+       [
+        127.636,
+        37.47095
+       ]
+      ],
+      "color": "blue",
+      "at": 0.8,
+      "width": 0.7,
+      "dur": 0.6
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.636,
+        37.477
+       ],
+       [
+        127.643623,
+        37.477
+       ]
+      ],
+      "color": "blue",
+      "at": 0.9,
+      "width": 0.7,
+      "dur": 0.6
+     }
+    ],
+    "zoom": 1.1
+   },
+   "callouts": [
+    {
+     "text": "SHORT INTERIOR LINES = FAST REINFORCEMENT",
+     "style": "yellow",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s85",
+   "lines": [
+    "Second, firepower and the sky."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s85-photo",
+    "num": "FACTOR 2",
+    "title": "FIREPOWER AND THE SKY"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s86",
+   "lines": [
+    "The artillery at the center of the ring poured out shells for three days straight,",
+    "and whenever the weather cleared, fighter-bombers pounded the encirclement while transports and helicopters kept the ring alive."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s86-photo",
+    "kb": "in"
+   },
+   "label": "U.S. air attack on a ground target (Korean War)"
+  },
+  {
+   "id": "s87",
+   "lines": [
+    "Third, the decision to hold."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s87-photo",
+    "num": "FACTOR 3",
+    "title": "THE DECISION TO HOLD"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s88",
+   "lines": [
+    "Ridgway chose to hold rather than retreat.",
+    "And Freeman, with his wounded leg, and Monclar, at fifty-nine, fought beside their men to the very end."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "U.S. 23RD INF. · FREEMAN",
+     "big": "COMMAND THROUGH WOUNDS",
+     "icon": "crowd",
+     "color": "blue"
+    },
+    "right": {
+     "title": "FRENCH BN · MONCLAR",
+     "big": "BAYONET CHARGE",
+     "icon": "crowd",
+     "color": "blue",
+     "at": 1
+    }
+   }
+  },
+  {
+   "id": "s89",
+   "lines": [
+    "Fourth, the armored relief."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s89-photo",
+    "num": "FACTOR 4",
+    "title": "THE ARMORED RELIEF"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s90",
+   "lines": [
+    "Crombez's tanks tore through the encirclement without stopping.",
+    "It came at a heavy cost, but that breakthrough saved the southern side just as it was about to collapse."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "crombez",
+    "to": "crombez",
+    "items": [
+     {
+      "k": "unit",
+      "p": "jipyeong",
+      "text": "Chipyong-ni",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "koksu",
+      "color": "dark",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "masan",
+      "color": "red",
+      "at": 0.2
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.6,
+        37.385
+       ],
+       [
+        127.62,
+        37.43
+       ],
+       [
+        127.636,
+        37.47
+       ]
+      ],
+      "color": "blue",
+      "at": 0.3,
+      "width": 1.3,
+      "dur": 2.0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "KOKSU-RI → MASAN → CHIPYONG-NI",
+     "style": "blue",
+     "at": 0.3,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "tank",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s91",
+   "lines": [
+    "According to U.S. records, UN forces at Chipyong-ni lost fifty-one killed, two hundred fifty wounded and forty-two missing.",
+    "Chinese losses are estimated at around two thousand killed and three thousand wounded, though Chinese records give far lower figures."
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "Casualties · U.S. records and estimates (Feb. 13–15, 1951) · Chinese records lower",
+    "items": [
+     {
+      "label": "UN forces",
+      "value": 343,
+      "display": "343",
+      "color": "blue",
+      "at": 0.2
+     },
+     {
+      "label": "PVA (U.S. est.)",
+      "value": 5000,
+      "display": "~5,000",
+      "color": "red",
+      "at": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s91b",
+   "lines": [
+    "For this battle, the 23rd Regiment and the French Battalion received the U.S. Presidential Unit Citation.",
+    "It was the moment the Americans' doubt about those unfamiliar French soldiers turned into deep respect."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "PRESIDENTIAL UNIT CITATION",
+    "accent": "U.S. 23rd RCT · FRENCH BATTALION",
+    "accentAt": 0.5
+   },
+   "pauseBefore": 0.2
+  },
+  {
+   "id": "s92",
+   "lines": [
+    "For the first time since entering the war, the Chinese had clearly backed down in a head-on fight.",
+    "From this day on, the fear that had spread among UN troops began to turn into confidence."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "FROM FEAR TO CONFIDENCE",
+    "style": "dark",
+    "sub": "FEB. 13–15, 1951 · CHIPYONG-NI"
+   }
+  },
+  {
+   "id": "s93",
+   "lines": [
+    "A week later, on February 21st, Ridgway went on the offensive with Operation Killer.",
+    "And in mid-March, UN forces finally retook Seoul."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "central",
+    "to": "korea",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.7,
+        37.05
+       ],
+       [
+        127.05,
+        37.08
+       ],
+       [
+        127.4,
+        37.2
+       ],
+       [
+        127.636,
+        37.477
+       ],
+       [
+        127.9,
+        37.35
+       ],
+       [
+        128.2,
+        37.4
+       ],
+       [
+        128.6,
+        37.55
+       ],
+       [
+        129.05,
+        37.7
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.0,
+        37.2
+       ],
+       [
+        127.0,
+        37.6
+       ],
+       [
+        126.95,
+        37.95
+       ]
+      ],
+      "color": "blue",
+      "at": 0.4,
+      "width": 1.4
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.7,
+        37.5
+       ],
+       [
+        127.75,
+        37.85
+       ],
+       [
+        127.75,
+        38.2
+       ]
+      ],
+      "color": "blue",
+      "at": 0.6,
+      "width": 1.4
+     },
+     {
+      "k": "marker",
+      "p": "seoul",
+      "color": "blue",
+      "at": 1.2
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "MAR. 1951 · SEOUL RETAKEN",
+     "style": "blue",
+     "at": 1
+    }
+   ],
+   "chapter": {
+    "num": "EPILOGUE",
+    "title": "THE GETTYSBURG OF KOREA"
+   }
+  },
+  {
+   "id": "s94",
+   "lines": [
+    "That is why Chipyong-ni is called the Gettysburg of the Korean War.",
+    "It was the turning point, where the tide of the war reversed.",
+    "After Chipyong-ni, the Chinese never again pushed deep south of Seoul."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "THE GETTYSBURG OF THE KOREAN WAR",
+    "style": "dark",
+    "sub": "Where the tide of war turned",
+    "subAt": 1
+   }
+  },
+  {
+   "id": "s95",
+   "lines": [
+    "Today, Chipyong-ni has a battle memorial hall and a monument to the French troops.",
+    "Every year, ceremonies are held here to honor that victory and that sacrifice."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s95-photo",
+    "kb": "in"
+   },
+   "label": "French memorial, Battle of Chipyong-ni"
+  },
+  {
+   "id": "s95b",
+   "lines": [
+    "Freeman later rose to the rank of four-star general in the U.S. Army.",
+    "And Monclar passed away in 1964, at the age of seventy-two."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "THE TWO MEN, AFTERWARD",
+    "accent": "FREEMAN · MONCLAR",
+    "accentAt": 0.5
+   },
+   "pauseBefore": 0.2
+  },
+  {
+   "id": "s96",
+   "lines": [
+    "One small circle, once drawn across a snow-covered basin.",
+    "Today it lies quietly asleep among the rice paddies and fields of an ordinary village."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "basin_dawn",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "birds",
+     "at": 0,
+     "volume": 0.25
+    }
+   ]
+  },
+  {
+   "id": "s97",
+   "lines": [
+    "Men who could have broken out and run.",
+    "Instead they stayed where they were, and even with nothing at their backs, they did not retreat."
+   ],
+   "visual": {
+    "type": "quotes",
+    "title": "What Chipyong-ni Left Behind",
+    "items": [
+     {
+      "text": "They dug in instead of running",
+      "at": 0
+     },
+     {
+      "text": "With nothing at their backs, they did not retreat",
+      "at": 1
+     }
+    ]
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s98",
+   "lines": [
+    "If this story meant something to you, please subscribe and like.",
+    "We will continue these fading records of war in the next story."
+   ],
+   "visual": {
+    "type": "endcard",
+    "title": "February 1951, Chipyong-ni.\nWhere the human wave was first broken.",
+    "q": "s98-photo"
+   },
+   "tail": 3.0
+  }
+ ],
+ "lang": "en",
+ "assets_ep": "chipyongni",
+ "voice": "pNInz6obpgDQGcFmaJgB",
+ "tempo": 1.02
+}

@@ -124,6 +124,30 @@ export const MAPT: Record<string, MapThumbDef> = {
     ko: { stamp: "", hook: "“호수 전체가 시체로 뒤덮였다”", line1: "사흘 밤낮 60km를 쫓아가", line2: "3만 대군이 몰살당한 이유" },
     en: { stamp: "", hook: "“The entire lake turned red”", line1: "CHASED FOR 3 DAYS AND NIGHTS", line2: "HOW 30,000 TROOPS WERE\nTRAPPED & DESTROYED" },
   },
+  // EP14 지평리 전투 (1951) — 사용자 지정(2026-10-31): EP13과 같은 레퍼런스 변형 — 하단 38% 솔리드 블랙 + 2줄(흰 / 레드 #FF2828), 결전지(원형 진지)에 레드 타깃 링
+  // 좌표는 episodes/chipyongni/storyboard.json과 동일 (개략). 인물은 AI 상징 프랑스 대대 병사(thumb_subject)
+  // 카피 수치: 5,600명 = 한국 측·위키백과 지평리 문서 / '5만' = 양평군 지평리전투 전적비 안내(한국 측 기록) — 미군 기록은 약 2만 5천
+  chipyongni: {
+    raster: "jipyeong_zoom",
+    rasterFallback: "jipyeong",
+    floor: 0.38,
+    line2Color: "#FF2828",
+    view: { center: [127.652, 37.4715], span: 0.12 },
+    items: [
+      { k: "front", path: [[127.64507, 37.477], [127.64386, 37.4806], [127.64054, 37.48324], [127.636, 37.4842], [127.63146, 37.48324], [127.62814, 37.4806], [127.62693, 37.477], [127.62814, 37.4734], [127.63146, 37.47076], [127.636, 37.4698], [127.64054, 37.47076], [127.64386, 37.4734], [127.64507, 37.477]] },
+      { k: "arrow", path: [[127.636, 37.507], [127.636, 37.4975], [127.636, 37.488]], color: "red" },
+      { k: "arrow", path: [[127.5982, 37.477], [127.61017, 37.477], [127.62214, 37.477]], color: "red" },
+      { k: "arrow", path: [[127.60927, 37.45579], [127.61773, 37.4625], [127.6262, 37.46922]], color: "red" },
+      { k: "arrow", path: [[127.6738, 37.477], [127.66183, 37.477], [127.64986, 37.477]], color: "red" },
+      { k: "arrow", path: [[127.60927, 37.49821], [127.61773, 37.4915], [127.6262, 37.48478]], color: "red" },
+      { k: "arrow", path: [[127.62, 37.43], [127.63, 37.448], [127.636, 37.466]], color: "blue" },
+      { k: "ring", p: [127.636, 37.477], r: 170 },
+      { k: "pin", p: [127.636, 37.4842], text: { ko: "지평리", en: "CHIPYONG-NI" }, color: "red", lift: 20 },
+    ],
+    subjectX: 1500,
+    ko: { stamp: "", hook: "“우리는 여기 남아 끝까지 싸운다”", line1: "포위된 5,600명의 결사대", line2: "5만 중공군을 집어삼키다" },
+    en: { stamp: "", hook: "“We'll stay here and fight it out”", line1: "5,600 MEN SURROUNDED", line2: "HOW THEY SWALLOWED\n50,000 CHINESE TROOPS" },
+  },
 };
 
 type Lake = number[][];

@@ -1,0 +1,997 @@
+{
+ "title": "Battle of Chipyong-ni (1951): 5,600 Men in a 360° Perimeter",
+ "subtitle": "February 13 – 15, 1951",
+ "voice": "pNInz6obpgDQGcFmaJgB",
+ "tempo": 1.02,
+ "places": {
+  "seoul": "Seoul",
+  "jipyeong": "Chipyong-ni",
+  "yangpyeong": "Yangpyeong",
+  "yeoju": "Yeoju",
+  "wonju": "Wonju",
+  "hoengseong": "Hoengseong",
+  "koksu": "Koksu-ri",
+  "twin": "Twin Tunnels",
+  "twin_us": "3rd Bn",
+  "twin_fr": "French Bn",
+  "station": "Chipyong Station",
+  "h397": "Hill 397",
+  "masan": "Masan",
+  "cav5": "5th Cavalry",
+  "pn": "1st Bn",
+  "pe": "3rd Bn",
+  "ps": "2nd Bn",
+  "pw": "French Bn"
+ },
+ "text": {
+  "지평리": "Chipyong-ni",
+  "미 제23연대": "U.S. 23rd Inf.",
+  "쌍굴 터널": "Twin Tunnels",
+  "3대대": "3rd Bn",
+  "프랑스 대대": "French Bn",
+  "중대 진지 붕괴": "Company Position Falls",
+  "1대대": "1st Bn",
+  "2대대": "2nd Bn",
+  "포병 · 예비대": "Artillery · Reserve",
+  "고립된 돌출부": "Isolated Salient",
+  "I중대 돌파": "Co. I Breached",
+  "역습 · 회복": "Counterattack · Restored",
+  "G중대": "Co. G",
+  "G중대 진지 함락": "Co. G Position Lost",
+  "제5기병연대": "5th Cavalry",
+  "원주 사격장": "Wonju Shoot",
+  "예비대 · 포병": "Reserve · Artillery"
+ },
+ "scenes": {
+  "s01": {
+   "lines": [
+    "The night of February 13th, 1951. Chipyong-ni, Yangpyeong, Gyeonggi Province.",
+    "Inside a small snow-covered basin, fifty-six hundred American and French soldiers were trapped."
+   ],
+   "label": "Dramatization",
+   "callouts": [
+    "FEB. 13, 1951 · CHIPYONG-NI"
+   ]
+  },
+  "s02": {
+   "lines": [
+    "Chinese troops filled every ridge around them, and every road out behind them had been cut.",
+    "Chipyong-ni had become a small island in the middle of an enemy sea."
+   ],
+   "callouts": [
+    "SURROUNDED · 360°"
+   ]
+  },
+  "s03": {
+   "lines": [
+    "Chinese intelligence reportedly estimated the garrison holding this village at barely a thousand men.",
+    "A fight that would be over in a single night. That is what they believed.",
+    "But in reality, more than five times that number were dug in inside."
+   ],
+   "label": "Dramatization"
+  },
+  "s04": {
+   "lines": [
+    "But inside the ring stood the 23rd Infantry Regiment of the U.S. 2nd Division, and the French Battalion.",
+    "And surrounding that ring, according to American records, were elements of five Chinese divisions."
+   ],
+   "left": "U.S. & FRENCH · 5,600",
+   "right": "PVA · 5 DIVISIONS",
+   "callouts": [
+    "PVA strength: ~25,000 (U.S.) · 50,000+ (Korean memorial)"
+   ]
+  },
+  "s05": {
+   "lines": [
+    "Three days and three nights of savage close combat, with bayonets and grenades.",
+    "Yet three days later, it was the Chinese who pulled back first."
+   ],
+   "text": "THREE DAYS LATER",
+   "accent": "THE CHINESE WITHDREW FIRST"
+  },
+  "s05b": {
+   "lines": [
+    "The human-wave tactic had not once been stopped head-on in the three months since China entered the war.",
+    "So why did it grind to a halt, for the first time, in front of this one small ring?"
+   ],
+   "big": "THE FIRST DEFEAT",
+   "sub": "Three months after China entered the war"
+  },
+  "s06": {
+   "lines": [
+    "The Battle of Chipyong-ni.",
+    "This is the story of the men who, instead of breaking out and running, dug in where they stood and held."
+   ],
+   "title": "The Battle of Chipyong-ni",
+   "sub": "5,600 Men in a 360° Perimeter · 1951"
+  },
+  "s07": {
+   "lines": [
+    "In October 1950, Chinese forces crossed the Yalu River and entered the war.",
+    "Badly battered at the Chongchon River and the Chosin Reservoir, UN forces began to be driven south."
+   ],
+   "chapter": [
+    "PART 1",
+    "A WINTER OF RETREAT"
+   ],
+   "callouts": [
+    "OCT. 1950 · CHINA ENTERS THE WAR"
+   ]
+  },
+  "s08": {
+   "lines": [
+    "On January 4th, 1951, Seoul fell into enemy hands once again.",
+    "The January Fourth Retreat. Columns of refugees crossed the frozen Han River and stretched endlessly south."
+   ],
+   "label": "U.S. Marines resting by a snowy road (1951)"
+  },
+  "s09": {
+   "lines": [
+    "The Chinese moved only at night, slipping around through the mountains to cut off the roads behind.",
+    "Among the soldiers spread a dread that the Chinese simply could not be beaten."
+   ],
+   "big": "FEAR OF ENCIRCLEMENT",
+   "sub": "NOV. 1950 – JAN. 1951"
+  },
+  "s10": {
+   "lines": [
+    "It was at this moment that Lieutenant General Matthew Ridgway took over the U.S. Eighth Army.",
+    "He arrived at the end of December 1950, after his predecessor, General Walker, was killed in a jeep accident."
+   ],
+   "name": "Matthew B. Ridgway",
+   "role": "Commander, U.S. Eighth Army (Lt. Gen.)"
+  },
+  "s11": {
+   "lines": [
+    "Ridgway believed that destroying enemy strength mattered more than holding ground.",
+    "From an army that had only known retreat, he demanded that it learn to fight again."
+   ],
+   "text": "KILL THE ENEMY, NOT HOLD GROUND",
+   "accent": "RIDGWAY'S WAY OF WAR"
+  },
+  "s12": {
+   "lines": [
+    "On January 25th, 1951, Ridgway ordered his first counterattack, under the name Operation Thunderbolt.",
+    "UN forces cautiously began probing and pushing north again.",
+    "One of the spearheads was the 23rd Infantry Regiment of the U.S. 2nd Division, on the central front."
+   ],
+   "callouts": [
+    "LATE JAN. 1951 · UN COUNTERATTACK"
+   ]
+  },
+  "s13": {
+   "lines": [
+    "Its commander was Colonel Paul Freeman.",
+    "A calm, seasoned officer who had led this regiment since the Naktong River line."
+   ],
+   "name": "Paul L. Freeman Jr.",
+   "role": "Commander, U.S. 23rd Infantry (Col.)"
+  },
+  "s14": {
+   "lines": [
+    "And attached to this regiment was one very special unit.",
+    "The French Battalion of the United Nations, led by Lieutenant Colonel Ralph Monclar."
+   ],
+   "label": "Dramatization"
+  },
+  "s15": {
+   "lines": [
+    "Monclar had in fact been a three-star lieutenant general in the French Army.",
+    "A fifty-nine-year-old veteran, he had voluntarily stepped down to lieutenant colonel so he could lead the battalion bound for Korea himself."
+   ],
+   "name": "Ralph Monclar",
+   "role": "Commander, French Bn (Lt. Col. · former Lt. Gen.)"
+  },
+  "s15b": {
+   "lines": [
+    "In 1940, at Narvik in Norway, he had led a Foreign Legion half-brigade into battle, a legendary soldier.",
+    "Wounded again and again in two world wars, he had returned to the battlefield every time."
+   ],
+   "text": "THE COMMANDER OF NARVIK",
+   "accent": "1940 · 13th FOREIGN LEGION HALF-BRIGADE"
+  },
+  "s16": {
+   "lines": [
+    "Many of the men who followed him were Second World War veterans and volunteers.",
+    "Tough men, unafraid of mountain fighting or night combat."
+   ],
+   "label": "The French Battalion in Korea"
+  },
+  "s16b": {
+   "lines": [
+    "At first, the Americans were reportedly unsure what to make of this unfamiliar French unit.",
+    "But that doubt would soon turn into deep respect."
+   ],
+   "left": [
+    "AT FIRST",
+    "DOUBT"
+   ],
+   "right": [
+    "AFTER CHIPYONG-NI",
+    "RESPECT"
+   ]
+  },
+  "s17": {
+   "lines": [
+    "The story you are watching is the record of men who held out to the end inside an encircled ring.",
+    "So that this record is never forgotten, please join us with a subscribe and a like."
+   ],
+   "text": "THE RECORD INSIDE THE RING",
+   "accent": "Please subscribe and like"
+  },
+  "s18": {
+   "lines": [
+    "Then on January 29th, a patrol heading for the Twin Tunnels ran into an ambush."
+   ],
+   "text": "JAN. 29, 1951",
+   "accent": "THE TWIN TUNNELS"
+  },
+  "s19": {
+   "lines": [
+    "About five kilometers southeast of Chipyong-ni, there was a valley where the Central Line railway ran through two tunnels.",
+    "The Americans called this place the Twin Tunnels.",
+    "It overlooked the railway and the road to Wonju, a chokepoint among chokepoints."
+   ],
+   "chapter": [
+    "PART 2",
+    "PRELUDE AT THE TWIN TUNNELS"
+   ]
+  },
+  "s20": {
+   "lines": [
+    "The patrol drove its trucks up near the tunnels and was pinned down by fire pouring in from the surrounding hills.",
+    "After holding on for hours, clinging to the radio, only some of them were rescued."
+   ],
+   "label": "Dramatization"
+  },
+  "s21": {
+   "lines": [
+    "The Chinese had been hiding a large force in this area.",
+    "It was the 125th Division of the Chinese 42nd Army."
+   ],
+   "big": "PVA 125TH DIVISION",
+   "sub": "42nd Army · U.S. records"
+  },
+  "s22": {
+   "lines": [
+    "On January 31st, Freeman led the 3rd Battalion and the French Battalion in and seized the hills around the tunnels.",
+    "That night, the men dug into the frozen ground and built positions facing every direction."
+   ],
+   "callouts": [
+    "JAN. 31 · INTO THE TWIN TUNNELS"
+   ]
+  },
+  "s23": {
+   "lines": [
+    "Before dawn on February 1st, the Chinese surged forward to the sound of bugles and whistles.",
+    "Several regiments of the 125th Division fell on the hills one after another.",
+    "They meant to surround the Americans and French around the tunnels completely, front and rear."
+   ],
+   "label": "Dramatization"
+  },
+  "s24": {
+   "lines": [
+    "One French company position collapsed, and the enemy came right up to the battalion command post.",
+    "As ammunition ran low, the French reportedly fixed bayonets and leapt out of their trenches."
+   ],
+   "callouts": [
+    "FEB. 1 · FRENCH BAYONET COUNTERATTACK"
+   ]
+  },
+  "s25": {
+   "lines": [
+    "On the snowy slopes, men fought hand to hand, close enough to see each other's faces.",
+    "The French Battalion retook its lost position and never gave up the hill."
+   ],
+   "label": "Dramatization"
+  },
+  "s26": {
+   "lines": [
+    "In the afternoon the clouds lifted, and fighter-bombers began pounding the Chinese on the hills.",
+    "And by dusk, the Chinese withdrew, leaving countless bodies behind."
+   ],
+   "label": "F-51 Mustang fighter-bomber (Korean War)"
+  },
+  "s27": {
+   "lines": [
+    "The Americans recorded counting more than thirteen hundred Chinese bodies in front of their positions alone.",
+    "They estimated total Chinese casualties at around thirty-six hundred.",
+    "Their own losses came to about two hundred and fifty, including forty-five killed."
+   ],
+   "note": "Twin Tunnels · U.S. records and estimates (Feb. 1, 1951)",
+   "bars": [
+    [
+     "PVA dead (counted)",
+     "1,300+"
+    ],
+    [
+     "PVA casualties (est.)",
+     "~3,600"
+    ],
+    [
+     "UN casualties",
+     "256"
+    ]
+   ]
+  },
+  "s28": {
+   "lines": [
+    "It was the first time the Americans and French had stopped a major Chinese assault head-on.",
+    "With new confidence, the 23rd Regiment headed for a small crossroads village to the northwest."
+   ],
+   "text": "THE FIRST VICTORY",
+   "accent": "FEB. 1, 1951 · TWIN TUNNELS"
+  },
+  "s29": {
+   "lines": [
+    "On February 3rd, the regiment moved into Chipyong-ni.",
+    "Roads to Yangpyeong, Yeoju and Wonju met here, and the Central Line railway had its Chipyong station.",
+    "The regiment immediately began surveying the hills around the village and choosing its positions."
+   ],
+   "callouts": [
+    "ROADS + CENTRAL LINE RAILWAY = THE GATEWAY"
+   ]
+  },
+  "s30": {
+   "lines": [
+    "Losing it would open the gateway to the entire central front to the enemy.",
+    "For Ridgway, Chipyong-ni was a wedge he simply had to hold."
+   ],
+   "callouts": [
+    "THE WEDGE OF THE CENTRAL FRONT"
+   ]
+  },
+  "s31": {
+   "lines": [
+    "But the terrain was the worst possible.",
+    "The village sat in a basin barely a hundred meters above sea level, ringed by mountains three to four hundred meters high."
+   ],
+   "title": "Chipyong-ni Basin · Profile",
+   "note": "Schematic N→S (heights exaggerated)",
+   "left": "N",
+   "right": "S",
+   "marks": [
+    "CHIPYONG-NI · ~100 m",
+    "HILL 397"
+   ]
+  },
+  "s32": {
+   "lines": [
+    "Eight high hills looked down on Chipyong-ni.",
+    "To hold every one of those ridgelines would have taken a defensive line some nineteen kilometers around."
+   ],
+   "chapter": [
+    "PART 3",
+    "THE 360° PERIMETER"
+   ],
+   "callouts": [
+    "RIDGELINE · ~19 KM AROUND (APPROX.)"
+   ]
+  },
+  "s33": {
+   "lines": [
+    "It was far too long for the troops Freeman had.",
+    "So he gave up the high ground, and drew a small circle linking the low hills around the village."
+   ],
+   "callouts": [
+    "FREEMAN'S CHOICE · A SMALL CIRCLE"
+   ]
+  },
+  "s34": {
+   "lines": [
+    "A circular perimeter roughly one and a half kilometers across.",
+    "The 1st Battalion held the north, the 3rd the east, the 2nd the south, and the French Battalion the west."
+   ],
+   "callouts": [
+    "PERIMETER · ~1.5 KM ACROSS (APPROX.)"
+   ]
+  },
+  "s35": {
+   "lines": [
+    "At the center of the circle sat the artillery and the reserve.",
+    "105 and 155 millimeter howitzers, and even anti-aircraft guns, could swing their barrels in any direction."
+   ],
+   "callouts": [
+    "GUNS AT THE CENTER · FIRE IN ALL DIRECTIONS"
+   ]
+  },
+  "s35b": {
+   "lines": [
+    "Above all, the anti-aircraft unit's quad machine-gun half-tracks could pour a staggering curtain of fire onto troops on the ground.",
+    "The soldiers reportedly called that terrifying firepower the meat chopper."
+   ],
+   "label": "M16 quad .50 anti-aircraft half-track (Korean War)"
+  },
+  "s36": {
+   "lines": [
+    "Wherever the line was breached, the reserve inside could reach it within minutes.",
+    "The small, tight circle was, in itself, one great fortress."
+   ],
+   "label": "155 mm howitzer firing (Korean War)"
+  },
+  "s37": {
+   "lines": [
+    "The men broke the frozen earth with pickaxes, digging foxholes and connecting trenches.",
+    "They strung barbed wire, and laid trip flares in front of their positions that would light up at a touch.",
+    "Trenches linked the positions, so ammunition and wounded could move between them out of the enemy's line of fire."
+   ],
+   "label": "Dramatization"
+  },
+  "s38": {
+   "lines": [
+    "Meanwhile, the situation outside was deteriorating fast.",
+    "On the night of February 11th, the Chinese launched what became known as their Fourth Phase Offensive."
+   ],
+   "callouts": [
+    "FEB. 11, 1951 · PVA FOURTH PHASE OFFENSIVE"
+   ]
+  },
+  "s39": {
+   "lines": [
+    "North of Hoengseong, the ROK 8th Division was badly mauled and collapsed, and UN forces were pushed back toward Wonju.",
+    "The 23rd Regiment at Chipyong-ni was left jutting out ahead, all on its own.",
+    "At Hoengseong alone, it was a disastrous defeat in which thousands of South Korean and American troops were killed or captured."
+   ],
+   "callouts": [
+    "ROK 8TH DIV. COLLAPSES · HOENGSEONG"
+   ]
+  },
+  "s40": {
+   "lines": [
+    "On February 13th, patrols and aerial observers reported Chinese troops converging from every direction.",
+    "One by one, the roads into the village began to be cut."
+   ],
+   "callouts": [
+    "FEB. 13 · ROADS CUT ONE BY ONE"
+   ]
+  },
+  "s41": {
+   "lines": [
+    "Freeman proposed pulling back south toward Yeoju.",
+    "But Ridgway was adamant. Hold Chipyong-ni."
+   ],
+   "left": [
+    "THE PROPOSAL",
+    "WITHDRAW TO YEOJU"
+   ],
+   "right": [
+    "RIDGWAY'S DECISION",
+    "HOLD CHIPYONG-NI"
+   ]
+  },
+  "s42": {
+   "lines": [
+    "Ridgway promised that even if the regiment was surrounded, he would send a relief force.",
+    "Freeman told his men: we will stay here, and fight it out."
+   ],
+   "text": "“WE'LL STAY HERE AND FIGHT IT OUT”",
+   "accent": "COL. FREEMAN · FEB. 13, 1951"
+  },
+  "s43": {
+   "lines": [
+    "When the sun went down, a strange silence settled over the mountains around the basin.",
+    "Fifty-six hundred men held their breath in frozen foxholes, staring into the dark."
+   ],
+   "label": "Dramatization"
+  },
+  "s44": {
+   "lines": [
+    "And at ten o'clock on the night of February 13th, the first bugle sounded."
+   ],
+   "text": "FEB. 13, 1951 · 22:00",
+   "accent": "THE FIRST BUGLE"
+  },
+  "s45": {
+   "lines": [
+    "The Chinese surged in from the north, the northwest and the southeast all at once.",
+    "Soon the perimeter was under attack from every direction, a full three hundred and sixty degrees."
+   ],
+   "chapter": [
+    "PART 4",
+    "THE NIGHT OF SIRENS AND BAYONETS"
+   ],
+   "callouts": [
+    "ATTACK FROM ALL 360°"
+   ]
+  },
+  "s46": {
+   "lines": [
+    "Bugles, whistles and gongs tore through the darkness.",
+    "When one line fell, another came on behind it, climbing over its fallen comrades.",
+    "All night long, the Chinese probed here and there, searching for a weak spot in the line."
+   ],
+   "label": "Dramatization"
+  },
+  "s47": {
+   "lines": [
+    "Each time a flare burst, Chinese soldiers in quilted cotton uniforms were exposed on the snow.",
+    "Machine guns and mortars fired without pause into that white light."
+   ],
+   "label": "Trip flare over the front (1951 · reference photo)"
+  },
+  "s48": {
+   "lines": [
+    "The guns at the center of the circle kept turning in every direction, firing round after round.",
+    "Inside an encircled ring, whichever way you faced, the front line was right in front of you."
+   ],
+   "label": "155 mm howitzer in action (Korean War)"
+  },
+  "s49": {
+   "lines": [
+    "The most famous scene played out on the west side, in the French Battalion's sector.",
+    "A mass of Chinese troops had pushed right up to the edge of the French trenches."
+   ],
+   "callouts": [
+    "WEST SECTOR · FRENCH BATTALION"
+   ]
+  },
+  "s50": {
+   "lines": [
+    "At that moment, a piercing mechanical wail rose from the French lines.",
+    "It was a hand-cranked siren."
+   ],
+   "label": "Dramatization"
+  },
+  "s51": {
+   "lines": [
+    "As the siren drowned out the bugles, the French fixed bayonets and charged out of their trenches.",
+    "Hurling grenades and shouting, they plunged straight into the middle of the enemy."
+   ],
+   "label": "Dramatization"
+  },
+  "s52": {
+   "lines": [
+    "A sound no one expected, and bayonets coming straight at them.",
+    "The Chinese ranks scattered, and the western sector held to the end."
+   ],
+   "text": "SIREN AND BAYONET",
+   "accent": "THE WEST HELD"
+  },
+  "s53": {
+   "lines": [
+    "Bugles and gongs had been the enemy's weapons of terror.",
+    "Monclar's men had, in effect, answered them with a siren."
+   ],
+   "left": [
+    "PVA",
+    "BUGLES · GONGS"
+   ],
+   "right": [
+    "FRENCH BN",
+    "SIREN · BAYONETS"
+   ]
+  },
+  "s54": {
+   "lines": [
+    "At dawn on February 14th, the Chinese fell back into the hills, leaving their dead behind.",
+    "The first night had been survived. But it was only the beginning."
+   ],
+   "text": "THE FIRST NIGHT SURVIVED",
+   "accent": "DAWN, FEB. 14, 1951"
+  },
+  "s55": {
+   "lines": [
+    "That day, Colonel Freeman himself was wounded in the leg by mortar fragments.",
+    "Even so, he limped around the perimeter and never stopped commanding."
+   ],
+   "label": "Dramatization"
+  },
+  "s56": {
+   "lines": [
+    "Ammunition and food were running out fast.",
+    "When daylight came, transport planes flew over and dropped supplies by parachute into the circle."
+   ],
+   "label": "Troops receiving air-dropped supplies (1951)"
+  },
+  "s57": {
+   "lines": [
+    "Some of the bundles landed outside the perimeter, inside the enemy's field of fire.",
+    "Men who climbed out of their foxholes to retrieve them were sometimes cut down by snipers."
+   ],
+   "text": "AMMUNITION FROM THE SKY",
+   "accent": "RETRIEVED AT THE RISK OF LIFE"
+  },
+  "s58": {
+   "lines": [
+    "Helicopters brought in ammunition and medical supplies, and flew the badly wounded out on the way back.",
+    "They were the only thread linking the encircled ring to the outside world."
+   ],
+   "label": "H-5 helicopter evacuating wounded (1951)"
+  },
+  "s58b": {
+   "lines": [
+    "The same day, to the southeast at Wonju, Chinese columns moving down along the Som River were caught in massed UN artillery fire.",
+    "With this barrage, which the Americans called the Wonju Shoot, the Chinese were stopped on the Wonju front as well."
+   ],
+   "callouts": [
+    "FEB. 13–14 · THE WONJU SHOOT"
+   ]
+  },
+  "s59": {
+   "lines": [
+    "On the night of February 14th, the Chinese came again in even greater numbers.",
+    "Attacks that began around midnight hammered the north, the east and the west in turn.",
+    "This time the attacks were bigger and more relentless, covered by mortars and machine guns."
+   ],
+   "callouts": [
+    "NIGHT OF FEB. 14 · SECOND GENERAL ASSAULT"
+   ]
+  },
+  "s60": {
+   "lines": [
+    "In the east, Company I of the 3rd Battalion was overrun for a time,",
+    "but its men counterattacked and quickly took the position back."
+   ]
+  },
+  "s61": {
+   "lines": [
+    "Sergeant First Class William Sitman of Company M threw himself on a grenade that landed in his machine-gun position.",
+    "His sacrifice saved five of his comrades, and he was posthumously awarded the Medal of Honor."
+   ],
+   "text": "MEDAL OF HONOR",
+   "accent": "SFC WILLIAM S. SITMAN · CO. M"
+  },
+  "s62": {
+   "lines": [
+    "Then the assaults began to concentrate on the south, the sector held by the 2nd Battalion.",
+    "Wave after wave of the enemy pressed against the foxholes of Company G on the southern hill."
+   ],
+   "callouts": [
+    "SOUTH · CO. G, 2ND BN"
+   ]
+  },
+  "s63": {
+   "lines": [
+    "Private First Class Bruno Orig of Company G stayed alone on his machine gun to buy time for his comrades to pull back.",
+    "He was killed where he stood, and he too would receive the Medal of Honor."
+   ],
+   "label": "Dramatization"
+  },
+  "s64": {
+   "lines": [
+    "Before dawn on February 15th, the Company G position finally fell."
+   ],
+   "text": "DAWN, FEB. 15, 1951",
+   "accent": "THE SOUTH BREAKS"
+  },
+  "s65": {
+   "lines": [
+    "The Chinese poured down from the direction of Hill 397 and drove into the southern side of the ring.",
+    "If the gap could not be sealed, the whole perimeter might collapse from the inside."
+   ],
+   "chapter": [
+    "PART 5",
+    "THE SOUTH FALLS · CROMBEZ CHARGES"
+   ],
+   "callouts": [
+    "FEB. 15 · CO. G POSITION LOST"
+   ]
+  },
+  "s66": {
+   "lines": [
+    "Freeman scraped together his last reserve, the Ranger company, along with men from other companies, and sent them to counterattack.",
+    "But after hand-to-hand fighting on the snowy slope, the counterattack failed.",
+    "Even after daybreak, the Chinese who had taken the southern hill would not budge."
+   ],
+   "label": "Dramatization"
+  },
+  "s67": {
+   "lines": [
+    "Ammunition was nearly gone, and the hole in the south could not be closed.",
+    "The only hope left was a relief force coming up from the south."
+   ],
+   "text": "THE LAST HOPE",
+   "accent": "A RELIEF FORCE FROM THE SOUTH"
+  },
+  "s68": {
+   "lines": [
+    "At that very hour, to the south, near Yeoju,",
+    "the 5th Cavalry Regiment of the U.S. 1st Cavalry Division was fighting its way north toward Chipyong-ni.",
+    "It was the very relief force Ridgway had promised."
+   ],
+   "callouts": [
+    "U.S. 5TH CAVALRY REGT."
+   ]
+  },
+  "s69": {
+   "lines": [
+    "But on foot, they could never reach Chipyong-ni before nightfall.",
+    "The regimental commander, Colonel Marcel Crombez, decided to punch through the enemy with tanks alone."
+   ],
+   "text": "TASK FORCE CROMBEZ",
+   "accent": "COL. MARCEL G. CROMBEZ · 5TH CAVALRY"
+  },
+  "s70": {
+   "lines": [
+    "Thirteen M46 Patton tanks and ten M4 Shermans, twenty-three in all.",
+    "And clinging to the tanks were a hundred and sixty infantrymen of Company L.",
+    "The battalion commander, Lieutenant Colonel Treacy, objected to putting infantry on top of the tanks, but Crombez did not change his decision."
+   ],
+   "label": "Tanks supporting infantry (Korean War)",
+   "callouts": [
+    "23 TANKS · 160 INFANTRY ON THE HULLS"
+   ]
+  },
+  "s71": {
+   "lines": [
+    "At three forty-five in the afternoon of February 15th, the column entered the narrow valley road leading through Koksu-ri.",
+    "About ten kilometers remained to Chipyong-ni."
+   ],
+   "callouts": [
+    "FEB. 15 · 15:45 · TOWARD KOKSU-RI"
+   ]
+  },
+  "s72": {
+   "lines": [
+    "Machine guns, mortars and rockets rained down from the hills on both sides.",
+    "The tanks kept racing on without stopping, and each time, infantrymen clinging to them were thrown off onto the road.",
+    "Passing through Koksu-ri, Crombez's column was forced to halt twice."
+   ],
+   "label": "Dramatization"
+  },
+  "s73": {
+   "lines": [
+    "When the lead tank was hit and stopped, Crombez drove his own tank forward to lead the column.",
+    "Stop, and everyone dies. That was his calculation."
+   ],
+   "text": "“STOP, AND EVERYONE DIES”",
+   "accent": "CROMBEZ'S CALCULATION"
+  },
+  "s74": {
+   "lines": [
+    "About a mile south of Chipyong-ni, in front of a small village called Masan,",
+    "the tanks slammed head-on into the Chinese dug in on the hills along both sides of the road."
+   ],
+   "callouts": [
+    "MASAN · ~1.6 KM SOUTH OF CHIPYONG-NI"
+   ]
+  },
+  "s75": {
+   "lines": [
+    "Tank guns and machine guns swept the trenches on the hills one by one.",
+    "Inside the perimeter, the 23rd Regiment attacked the southern hill again, and the Chinese were caught between front and rear."
+   ],
+   "label": "Dramatization"
+  },
+  "s76": {
+   "lines": [
+    "Around five in the afternoon, Crombez's tanks finally rolled into the Chipyong-ni perimeter.",
+    "Inside the encircled ring, the men erupted in cheers.",
+    "The relief tanks had struck the Chinese holding the south side of the perimeter squarely from behind."
+   ],
+   "callouts": [
+    "FEB. 15 · ~17:00 · THE RING IS BROKEN"
+   ]
+  },
+  "s77": {
+   "lines": [
+    "But the price was high.",
+    "Of the hundred and sixty infantrymen who had set out on the tanks, only about twenty-three reached Chipyong-ni."
+   ],
+   "note": "TF Crombez infantry · U.S. records (Feb. 15, 1951 · arrival figures vary)",
+   "bars": [
+    [
+     "Set out",
+     "160"
+    ],
+    [
+     "Arrived",
+     "~23"
+    ]
+   ]
+  },
+  "s78": {
+   "lines": [
+    "Many of the men left behind on the road were killed or captured.",
+    "To this day, Crombez's decision is debated, somewhere between a brave breakthrough and a reckless sacrifice."
+   ],
+   "text": "THE PRICE OF THE BREAKTHROUGH",
+   "accent": "COURAGE, OR RECKLESS SACRIFICE?"
+  },
+  "s79": {
+   "lines": [
+    "That night, the Chinese lifted the encirclement and began withdrawing north.",
+    "And so the three-day siege came to an end.",
+    "Blocked at both Wonju and Chipyong-ni at once, the Chinese Fourth Phase Offensive lost its momentum."
+   ],
+   "callouts": [
+    "NIGHT OF FEB. 15 · PVA WITHDRAWS"
+   ]
+  },
+  "s80": {
+   "lines": [
+    "On the morning of February 16th, when the soldiers stepped out of their perimeter into the falling snow,",
+    "abandoned weapons and equipment lay scattered endlessly across every slope.",
+    "And among them, covered by snow, lay countless Chinese soldiers who would never return home."
+   ],
+   "label": "Dramatization"
+  },
+  "s81": {
+   "lines": [
+    "How did fifty-six hundred surrounded men hold off an enemy several times their size?"
+   ],
+   "text": "HOW?",
+   "accent": "WHY 5,600 SURROUNDED MEN HELD"
+  },
+  "s82": {
+   "lines": [
+    "Why the encircled ring survived.",
+    "Let's break it down into four factors."
+   ],
+   "chapter": [
+    "PART 6",
+    "FOUR DECIDING FACTORS"
+   ],
+   "items": [
+    "The 360° perimeter",
+    "Firepower and the sky",
+    "The decision to hold",
+    "The armored relief"
+   ],
+   "head": "One encircled ring — how?"
+  },
+  "s83": {
+   "lines": [
+    "First, the three-hundred-sixty-degree perimeter."
+   ],
+   "num": "FACTOR 1",
+   "title": "THE 360° PERIMETER"
+  },
+  "s84": {
+   "lines": [
+    "Because the circle was small and tight, wherever it was breached, the reserve inside could rush there at once.",
+    "Freeman's choice to give up the high ground was exactly what made the position so strong."
+   ],
+   "callouts": [
+    "SHORT INTERIOR LINES = FAST REINFORCEMENT"
+   ]
+  },
+  "s85": {
+   "lines": [
+    "Second, firepower and the sky."
+   ],
+   "num": "FACTOR 2",
+   "title": "FIREPOWER AND THE SKY"
+  },
+  "s86": {
+   "lines": [
+    "The artillery at the center of the ring poured out shells for three days straight,",
+    "and whenever the weather cleared, fighter-bombers pounded the encirclement while transports and helicopters kept the ring alive."
+   ],
+   "label": "U.S. air attack on a ground target (Korean War)"
+  },
+  "s87": {
+   "lines": [
+    "Third, the decision to hold."
+   ],
+   "num": "FACTOR 3",
+   "title": "THE DECISION TO HOLD"
+  },
+  "s88": {
+   "lines": [
+    "Ridgway chose to hold rather than retreat.",
+    "And Freeman, with his wounded leg, and Monclar, at fifty-nine, fought beside their men to the very end."
+   ],
+   "left": [
+    "U.S. 23RD INF. · FREEMAN",
+    "COMMAND THROUGH WOUNDS"
+   ],
+   "right": [
+    "FRENCH BN · MONCLAR",
+    "BAYONET CHARGE"
+   ]
+  },
+  "s89": {
+   "lines": [
+    "Fourth, the armored relief."
+   ],
+   "num": "FACTOR 4",
+   "title": "THE ARMORED RELIEF"
+  },
+  "s90": {
+   "lines": [
+    "Crombez's tanks tore through the encirclement without stopping.",
+    "It came at a heavy cost, but that breakthrough saved the southern side just as it was about to collapse."
+   ],
+   "callouts": [
+    "KOKSU-RI → MASAN → CHIPYONG-NI"
+   ]
+  },
+  "s91": {
+   "lines": [
+    "According to U.S. records, UN forces at Chipyong-ni lost fifty-one killed, two hundred fifty wounded and forty-two missing.",
+    "Chinese losses are estimated at around two thousand killed and three thousand wounded, though Chinese records give far lower figures."
+   ],
+   "note": "Casualties · U.S. records and estimates (Feb. 13–15, 1951) · Chinese records lower",
+   "bars": [
+    [
+     "UN forces",
+     "343"
+    ],
+    [
+     "PVA (U.S. est.)",
+     "~5,000"
+    ]
+   ]
+  },
+  "s91b": {
+   "lines": [
+    "For this battle, the 23rd Regiment and the French Battalion received the U.S. Presidential Unit Citation.",
+    "It was the moment the Americans' doubt about those unfamiliar French soldiers turned into deep respect."
+   ],
+   "text": "PRESIDENTIAL UNIT CITATION",
+   "accent": "U.S. 23rd RCT · FRENCH BATTALION"
+  },
+  "s92": {
+   "lines": [
+    "For the first time since entering the war, the Chinese had clearly backed down in a head-on fight.",
+    "From this day on, the fear that had spread among UN troops began to turn into confidence."
+   ],
+   "big": "FROM FEAR TO CONFIDENCE",
+   "sub": "FEB. 13–15, 1951 · CHIPYONG-NI"
+  },
+  "s93": {
+   "lines": [
+    "A week later, on February 21st, Ridgway went on the offensive with Operation Killer.",
+    "And in mid-March, UN forces finally retook Seoul."
+   ],
+   "chapter": [
+    "EPILOGUE",
+    "THE GETTYSBURG OF KOREA"
+   ],
+   "callouts": [
+    "MAR. 1951 · SEOUL RETAKEN"
+   ]
+  },
+  "s94": {
+   "lines": [
+    "That is why Chipyong-ni is called the Gettysburg of the Korean War.",
+    "It was the turning point, where the tide of the war reversed.",
+    "After Chipyong-ni, the Chinese never again pushed deep south of Seoul."
+   ],
+   "big": "THE GETTYSBURG OF THE KOREAN WAR",
+   "sub": "Where the tide of war turned"
+  },
+  "s95": {
+   "lines": [
+    "Today, Chipyong-ni has a battle memorial hall and a monument to the French troops.",
+    "Every year, ceremonies are held here to honor that victory and that sacrifice."
+   ],
+   "label": "French memorial, Battle of Chipyong-ni"
+  },
+  "s95b": {
+   "lines": [
+    "Freeman later rose to the rank of four-star general in the U.S. Army.",
+    "And Monclar passed away in 1964, at the age of seventy-two."
+   ],
+   "text": "THE TWO MEN, AFTERWARD",
+   "accent": "FREEMAN · MONCLAR"
+  },
+  "s96": {
+   "lines": [
+    "One small circle, once drawn across a snow-covered basin.",
+    "Today it lies quietly asleep among the rice paddies and fields of an ordinary village."
+   ],
+   "label": "Dramatization"
+  },
+  "s97": {
+   "lines": [
+    "Men who could have broken out and run.",
+    "Instead they stayed where they were, and even with nothing at their backs, they did not retreat."
+   ],
+   "quoteTitle": "What Chipyong-ni Left Behind",
+   "quotes": [
+    "They dug in instead of running",
+    "With nothing at their backs, they did not retreat"
+   ]
+  },
+  "s98": {
+   "lines": [
+    "If this story meant something to you, please subscribe and like.",
+    "We will continue these fading records of war in the next story."
+   ],
+   "title": "February 1951, Chipyong-ni.\nWhere the human wave was first broken."
+  }
+ },
+ "callout_pos": {}
+}
