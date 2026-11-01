@@ -176,6 +176,29 @@ export const MAPT: Record<string, MapThumbDef> = {
     ko: { stamp: "", line1: "무기를 바다에 던지고", line2: "10만 피란민을 태운 기적" },
     en: { stamp: "", line1: "THEY LEFT THE CARGO BEHIND", line2: "AND SAVED 100,000 REFUGEES" },
   },
+  // EP16 낙동강 방어선 총력전 (1950) — 사용자 지정(2026-11-01): EP13~15 변형 — 하단 38% 솔리드 블랙 · Line 2 레드 #FF2828 ·
+  // 결전지(낙동강 돌출부 오봉리 능선)에 레드 타깃 링 · 우측 하단 재생시간 배지(약 23:00) 여백 textW 0.8.
+  // 좌표는 episodes/naktong/storyboard.json과 동일(개략). 인물은 워커 중장 공개 사진 누끼(thumb_photo · 미 육군 사진, 퍼블릭 도메인)
+  naktong: {
+    raster: "naktong_bulge",
+    rasterFallback: "south",
+    floor: 0.38,
+    line2Color: "#FF2828",
+    textW: 0.8,
+    view: { center: [128.46, 35.47], span: 0.22 },
+    items: [
+      { k: "front", path: [[128.3561, 35.5906], [128.3506, 35.5406], [128.4244, 35.4905], [128.3828, 35.4581], [128.3887, 35.4259], [128.4411, 35.3885], [128.498, 35.3957], [128.5523, 35.3798]] },
+      { k: "arrow", path: [[128.33, 35.47], [128.38, 35.47], [128.43, 35.468]], color: "red" },
+      { k: "arrow", path: [[128.36, 35.5], [128.43, 35.48], [128.5, 35.46]], color: "red" },
+      { k: "arrow", path: [[128.56, 35.45], [128.51, 35.458], [128.47, 35.462]], color: "blue" },
+      { k: "ring", p: [128.452, 35.465], r: 90 },
+      { k: "pin", p: [128.452, 35.465], text: { ko: "낙동강 돌출부", en: "NAKTONG BULGE" }, color: "red", lift: 70 },
+      { k: "pin", p: [128.525, 35.454], text: { ko: "영산", en: "YONGSAN" }, color: "blue" },
+    ],
+    subjectX: 1500,
+    ko: { stamp: "", line1: "물러서면 바다다, 240km 최후의 결전", line2: "낙동강 총력전" },
+    en: { stamp: "", line1: "BEHIND THEM, ONLY THE SEA", line2: "STAND OR DIE" },
+  },
 };
 
 type Lake = number[][];

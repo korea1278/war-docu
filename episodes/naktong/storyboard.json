@@ -1,0 +1,7590 @@
+{
+ "title": "낙동강 방어선 총력전",
+ "subtitle": "1950. 8. 4 ~ 9. 18",
+ "target_sec": 1380,
+ "midrolls": [
+  "s28",
+  "s65",
+  "s95"
+ ],
+ "thumb_photo": "File:Walton H. Walker - 3rd Armored Division.jpg",
+ "places": {
+  "seoul": [
+   126.978,
+   37.566,
+   "서울"
+  ],
+  "inchon": [
+   126.62,
+   37.47,
+   "인천"
+  ],
+  "osan": [
+   127.07,
+   37.15,
+   "오산"
+  ],
+  "daejeon": [
+   127.385,
+   36.35,
+   "대전"
+  ],
+  "busan": [
+   129.04,
+   35.11,
+   "부산"
+  ],
+  "masan": [
+   128.57,
+   35.21,
+   "마산"
+  ],
+  "jindong": [
+   128.485,
+   35.11,
+   "진동리"
+  ],
+  "sobuk": [
+   128.36,
+   35.185,
+   "서북산"
+  ],
+  "haman": [
+   128.406,
+   35.272,
+   "함안"
+  ],
+  "jinju": [
+   128.085,
+   35.18,
+   "진주"
+  ],
+  "goseong": [
+   128.32,
+   34.975,
+   "고성"
+  ],
+  "namji": [
+   128.47,
+   35.39,
+   "남강 합류점"
+  ],
+  "yongsan": [
+   128.525,
+   35.454,
+   "영산"
+  ],
+  "changnyeong": [
+   128.49,
+   35.545,
+   "창녕"
+  ],
+  "miryang": [
+   128.746,
+   35.504,
+   "밀양"
+  ],
+  "ohang": [
+   128.412,
+   35.47,
+   "오항 나루"
+  ],
+  "obong": [
+   128.452,
+   35.462,
+   "오봉리 능선"
+  ],
+  "clover": [
+   128.462,
+   35.488,
+   "클로버통 고지"
+  ],
+  "waegwan": [
+   128.398,
+   35.99,
+   "왜관"
+  ],
+  "bridge": [
+   128.397,
+   35.985,
+   "왜관철교"
+  ],
+  "daegu": [
+   128.601,
+   35.871,
+   "대구"
+  ],
+  "dabu": [
+   128.555,
+   36.045,
+   "다부동"
+  ],
+  "gasan": [
+   128.632,
+   36.08,
+   "가산"
+  ],
+  "sangju": [
+   128.159,
+   36.411,
+   "상주"
+  ],
+  "gimcheon": [
+   128.113,
+   36.14,
+   "김천"
+  ],
+  "yeongcheon": [
+   128.938,
+   35.973,
+   "영천"
+  ],
+  "angang": [
+   129.22,
+   35.99,
+   "안강"
+  ],
+  "gigye": [
+   129.21,
+   36.06,
+   "기계"
+  ],
+  "pohang": [
+   129.343,
+   36.019,
+   "포항"
+  ],
+  "yeonil": [
+   129.42,
+   35.99,
+   "연일 비행장"
+  ],
+  "gyeongju": [
+   129.211,
+   35.856,
+   "경주"
+  ],
+  "yeongdeok": [
+   129.365,
+   36.415,
+   "영덕"
+  ],
+  "jangsa": [
+   129.375,
+   36.29,
+   "장사동"
+  ],
+  "guryongpo": [
+   129.555,
+   35.99,
+   "구룡포"
+  ],
+  "andong": [
+   128.73,
+   36.57,
+   "안동"
+  ],
+  "uiseong": [
+   128.697,
+   36.353,
+   "의성"
+  ]
+ },
+ "views": {
+  "korea": {
+   "center": [
+    127.8,
+    36.4
+   ],
+   "span": 6.5
+  },
+  "perimeter": {
+   "center": [
+    128.85,
+    35.72
+   ],
+   "span": 3.0
+  },
+  "west": {
+   "center": [
+    128.5,
+    35.62
+   ],
+   "span": 1.45
+  },
+  "waegwan": {
+   "center": [
+    128.47,
+    36.02
+   ],
+   "span": 0.5
+  },
+  "waegwan_z": {
+   "center": [
+    128.405,
+    35.99
+   ],
+   "span": 0.14
+  },
+  "dabu": {
+   "center": [
+    128.55,
+    36.05
+   ],
+   "span": 0.42
+  },
+  "bulge": {
+   "center": [
+    128.47,
+    35.46
+   ],
+   "span": 0.42
+  },
+  "bulge_z": {
+   "center": [
+    128.45,
+    35.472
+   ],
+   "span": 0.17
+  },
+  "east": {
+   "center": [
+    129.15,
+    36.15
+   ],
+   "span": 1.05
+  },
+  "pohang": {
+   "center": [
+    129.36,
+    36.17
+   ],
+   "span": 0.6
+  },
+  "yc": {
+   "center": [
+    128.95,
+    36.03
+   ],
+   "span": 0.5
+  },
+  "masan": {
+   "center": [
+    128.38,
+    35.15
+   ],
+   "span": 0.65
+  },
+  "sobuk": {
+   "center": [
+    128.39,
+    35.2
+   ],
+   "span": 0.26
+  }
+ },
+ "music": [
+  {
+   "id": "drone",
+   "from": "s01",
+   "to": "s08",
+   "volume": 0.2
+  },
+  {
+   "id": "theme",
+   "from": "s09",
+   "to": "s27",
+   "volume": 0.16
+  },
+  {
+   "id": "tension",
+   "from": "s28",
+   "to": "s47",
+   "volume": 0.17
+  },
+  {
+   "id": "march",
+   "from": "s48",
+   "to": "s64",
+   "volume": 0.15
+  },
+  {
+   "id": "theme",
+   "from": "s65",
+   "to": "s81",
+   "volume": 0.16
+  },
+  {
+   "id": "tension",
+   "from": "s82",
+   "to": "s94",
+   "volume": 0.17
+  },
+  {
+   "id": "march",
+   "from": "s95",
+   "to": "s108",
+   "volume": 0.15
+  },
+  {
+   "id": "tension",
+   "from": "s109",
+   "to": "s120",
+   "volume": 0.16
+  },
+  {
+   "id": "analysis",
+   "from": "s121",
+   "to": "s125",
+   "volume": 0.13
+  },
+  {
+   "id": "theme",
+   "from": "s126",
+   "to": "s130",
+   "volume": 0.15
+  },
+  {
+   "id": "somber",
+   "from": "s131",
+   "to": "s136",
+   "volume": 0.17
+  }
+ ],
+ "ai_images": {
+  "river_night": "A wide dark river in southeastern Korea at night in August 1950, a long steel truss railway bridge with many spans crossing it, distant orange artillery flashes on the far hills, low summer haze over the water, moonlight on the river surface, cinematic wide shot, desaturated palette with orange glow, painterly realistic digital illustration, film grain, no people in focus, no text, no letters.",
+  "walker_map": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an American three-star general whose head is a round ball painted as the United States flag, wearing a 1950 M1 helmet with three white stars and an olive field jacket, standing at a lamp-lit headquarters map table at night, a large map of southeastern Korea pinned on the board with a river line and many red arrows pressing toward a port city, staff officers in the shadows, tense determined mood, leaving calm uncluttered dark background area in the upper part of the frame, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "bridge_crowd": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a long steel truss railway bridge over a wide Korean river at dusk in August 1950, packed with Korean refugee civilians whose heads are round balls painted as the South Korean flag, wearing white hanbok clothes, carrying bundles on their heads and A-frame jige backpacks, pulling ox carts, a few American soldiers whose heads are round balls painted as the United States flag, wearing 1950 M1 helmets and olive drab summer uniforms watching tensely from the near bank beside demolition wires, somber anxious mood, leaving calm uncluttered dark background area in the upper part of the frame, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "bridge_blast": "A long steel truss railway bridge over a wide Korean river exploding at night in August 1950, two spans collapsing into the water amid a huge orange fireball and dark smoke, debris falling, reflections on the black river, tragic somber mood, cinematic wide shot, painterly realistic digital illustration, film grain, no recognizable faces, no gore, no text, no letters.",
+  "river_crossing": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: North Korean soldiers whose heads are round balls painted as the North Korean flag (blue, thin white and wide red stripes with a red star in a white circle), wearing khaki 1950 uniforms and soft caps wading chest-deep across a wide dark river at night in August 1950, holding rifles above their heads, walking in a long line along a hidden underwater bridge of sandbags and rocks just below the surface, a T-34 tank waiting on the far bank, mist on the water, moonlight, leaving calm uncluttered dark background area in the upper part of the frame, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "b29_carpet": "Dozens of B-29 Superfortress bombers flying in tight formation high over a river valley in Korea on a bright August 1950 day, long strings of bombs falling, a carpet of explosions and smoke erupting across the hills and villages on the far side of the river below, cinematic aerial view, painterly realistic digital illustration, film grain, no text, no letters.",
+  "marines_ridge": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: United States Marines whose heads are round balls painted as the United States flag, wearing 1950 M1 helmets with camouflage covers and sweat-soaked dungarees, charging up a steep bare reddish clay ridge with no cover under a scorching summer sun in August 1950, machine-gun tracers coming down from the ridgeline, dust and heat haze, exhausted but determined, leaving calm uncluttered dark background area in the upper part of the frame, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "ship_evac": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean flag (white with the red and blue taegeuk circle and black trigrams), wearing 1950 M1 steel helmets and olive drab summer field uniforms wading out from a small rocky beach at dawn and climbing ramps into grey US Navy tank landing ships (LST) in August 1950, Korean police and porters with A-frames among them, a cruiser firing its guns offshore in the background, smoke on the hills behind the beach, urgent mood, leaving calm uncluttered dark background area in the upper part of the frame, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "fog_mountain": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: North Korean soldiers whose heads are round balls painted as the North Korean flag (blue, thin white and wide red stripes with a red star in a white circle), wearing khaki 1950 uniforms and soft caps crawling silently up a steep rocky pine-covered mountain ridge in thick morning fog in Korea in September 1950, while American soldiers whose heads are round balls painted as the United States flag, wearing 1950 M1 helmets and olive drab summer uniforms wait in foxholes near the summit peering into the white fog with rifles ready, eerie tense mood, muted grey-green palette, leaving calm uncluttered dark background area in the upper part of the frame, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "fire_brigade": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: United States Marines whose heads are round balls painted as the United States flag, wearing 1950 M1 helmets with camouflage covers, riding packed in the backs of a long column of army trucks speeding along a dusty country road past rice paddies in Korea in August 1950, a steam train on a nearby railway carrying more troops, dust clouds, sense of urgency, leaving calm uncluttered dark background area in the upper part of the frame, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "walker_jeep": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an American three-star general whose head is a round ball painted as the United States flag, wearing a 1950 M1 helmet with three white stars, standing up in the front of a jeep and pointing forward, driving fast along a dusty road behind the front lines in Korea in September 1950, artillery smoke on the hills, a small liaison airplane flying overhead, leaving calm uncluttered dark background area in the upper part of the frame, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "trucks": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean flag (white with the red and blue taegeuk circle and black trigrams), wearing 1950 M1 steel helmets and olive drab summer field uniforms riding in the backs of 1950 army trucks in a long column along a dusty Korean country road between rice paddies, rifles in hand, determined faces, hurrying to the front, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "rain_attack": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: North Korean soldiers whose heads are round balls painted as the North Korean flag (blue, thin white and wide red stripes with a red star in a white circle), wearing khaki 1950 uniforms and soft caps, advancing at night in heavy rain down a muddy mountain road in Korea in September 1950 behind a column of T-34/85 tanks with headlights off, steep dark forested mountains on both sides, rain streaks and puddles, tense ominous mood, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "tank_break": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a North Korean T-34/85 tank smashing through behind a line of hillside foxholes, South Korean soldiers whose heads are round balls painted as the South Korean flag (white with the red and blue taegeuk circle and black trigrams), wearing 1950 M1 steel helmets and olive drab summer field uniforms scattering in shock and confusion, mud and rain, smoke from a burning truck, September 1950 Korea, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "dawn_victory": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean flag (white with the red and blue taegeuk circle and black trigrams), wearing 1950 M1 steel helmets and olive drab summer field uniforms standing on a hilltop at dawn looking down on a small Korean town beside a river with wisps of smoke rising, tired but relieved, golden morning light, September 1950, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "rok_us": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a South Korean soldier whose head is a round ball painted as the South Korean taegukgi flag and an American soldier whose head is a round ball painted as the United States flag, both in 1950 uniforms and M1 helmets, side by side in a hilltop trench, sharing a canteen and looking at the valley below at dawn, comradeship, warm light, no text, no letters.",
+  "us_tank": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an American M26 Pershing tank crewed by American soldiers whose heads are round balls painted as the United States flag, wearing 1950 M1 helmets and olive uniforms, firing its 90mm gun at night down a valley road, muzzle flash lighting the scene, glowing tracer shell flying low along the road like a bowling ball, infantry in foxholes beside the road, dramatic cinematic lighting, no text, no letters.",
+  "tide_dawn": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a vast invasion fleet of 1950 US Navy warships, cruisers, destroyers and LSTs lying in the dark grey sea off Inchon harbor, Korea, at dawn on 15 September 1950, a small rocky fortified island (Wolmi-do) wreathed in smoke ahead, huge glistening mudflats exposed between the ships and the shore, first pale light on the horizon, ominous and tense, leaving calm uncluttered dark background area in the upper left, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters."
+ },
+ "scenes": [
+  {
+   "id": "s01",
+   "lines": [
+    {
+     "t": "1950년 8월, 경상북도 왜관.",
+     "say": "천구백오십 년 팔월, 경상북도 왜관."
+    },
+    "검은 강물 위로, 철교 하나가 길게 놓여 있었습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "river_night",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "1950. 8 · 경북 칠곡 왜관",
+     "style": "yellow",
+     "at": 0
+    }
+   ],
+   "sfx": [
+    {
+     "id": "water",
+     "at": 0.2,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "lines": [
+    {
+     "t": "이 강의 남쪽과 동쪽에 남은 땅은, 흔히 국토의 10분의 1 남짓이라 불립니다.",
+     "say": "이 강의 남쪽과 동쪽에 남은 땅은, 흔히 국토의 십분의 일 남짓이라 불립니다."
+    },
+    "부산을 둘러싼 이 좁은 땅 안에, 대한민국 정부와 국군, 그리고 미군이 모두 몰려 있었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "perimeter",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        129.4,
+        36.42
+       ],
+       [
+        129.2,
+        36.4
+       ],
+       [
+        128.98,
+        36.42
+       ],
+       [
+        128.75,
+        36.38
+       ],
+       [
+        128.52,
+        36.42
+       ],
+       [
+        128.33,
+        36.4
+       ],
+       [
+        128.36,
+        36.2
+       ],
+       [
+        128.39,
+        36.05
+       ],
+       [
+        128.41,
+        35.95
+       ],
+       [
+        128.45,
+        35.84
+       ],
+       [
+        128.42,
+        35.72
+       ],
+       [
+        128.36,
+        35.68
+       ],
+       [
+        128.38,
+        35.63
+       ],
+       [
+        128.35,
+        35.57
+       ],
+       [
+        128.4,
+        35.5
+       ],
+       [
+        128.4,
+        35.44
+       ],
+       [
+        128.43,
+        35.4
+       ],
+       [
+        128.4,
+        35.33
+       ],
+       [
+        128.35,
+        35.25
+       ],
+       [
+        128.37,
+        35.17
+       ],
+       [
+        128.44,
+        35.1
+       ]
+      ],
+      "at": 0.4
+     },
+     {
+      "k": "unit",
+      "p": "busan",
+      "text": "부산",
+      "color": "blue",
+      "at": 1.0,
+      "pulse": true
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.3,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "lines": [
+    "물러서면 바다였습니다.",
+    {
+     "t": "미 제8군 사령관 워커 중장은, 지휘관들 앞에서 이렇게 못 박았습니다.",
+     "say": "미 제팔 군 사령관 워커 중장은, 지휘관들 앞에서 이렇게 못 박았습니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "물러서면 바다다",
+    "style": "red",
+    "sub": "1950. 7. 29 · 미 제8군 사령관 워커 중장",
+    "subAt": 0.6
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0.2,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "lines": [
+    "더 이상의 후퇴는 없다. 덩케르크도, 바탄도 없다.",
+    "부산으로 물러나는 것은, 역사상 가장 끔찍한 학살이 될 것이다."
+   ],
+   "visual": {
+    "type": "quotes",
+    "title": "워커 중장의 훈시 (요지)",
+    "items": [
+     {
+      "text": "덩케르크도, 바탄도 없다",
+      "at": 0.2
+     },
+     {
+      "text": "부산으로의 후퇴는 학살이 될 것이다",
+      "at": 1
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "drum",
+     "at": 0,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "lines": [
+    {
+     "t": "그로부터 6주.",
+     "say": "그로부터 육 주."
+    },
+    {
+     "t": "북한군은 13개 사단을 쏟아부어, 이 마지막 방어선을 두드립니다.",
+     "say": "북한군은 십삼 개 사단을 쏟아부어, 이 마지막 방어선을 두드립니다."
+    }
+   ],
+   "visual": {
+    "type": "black",
+    "text": "그로부터 6주",
+    "accent": "13개 사단의 총공세",
+    "accentAt": 1
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.45
+    }
+   ],
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s06",
+   "lines": [
+    {
+     "t": "240km의 강과 산, 그리고 13개 사단.",
+     "say": "이백사십 킬로미터의 강과 산, 그리고 십삼 개 사단."
+    },
+    "그들은 왜, 끝내 이 강을 넘지 못했을까요?"
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "지켜야 할 방어선",
+     "big": "240km",
+     "icon": "none",
+     "color": "blue"
+    },
+    "right": {
+     "title": "몰려온 북한군",
+     "big": "13개 사단",
+     "icon": "none",
+     "color": "red",
+     "at": 0.6
+    }
+   },
+   "callouts": [
+    {
+     "text": "방어선 길이: 한국 측 기록 기준",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0.3,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s07",
+   "lines": [
+    "낙동강 방어선 총력전.",
+    {
+     "t": "오늘은 물러설 곳 없던 240km 전선에서, 대한민국이 살아남은 6주의 기록입니다.",
+     "say": "오늘은 물러설 곳 없던 이백사십 킬로미터 전선에서, 대한민국이 살아남은 육 주의 기록입니다."
+    }
+   ],
+   "visual": {
+    "type": "titlecard",
+    "q": "s07-photo",
+    "title": "낙동강 방어선 총력전",
+    "sub": "최후의 보루: Stand or Die · 1950",
+    "at": 0
+   },
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0,
+     "volume": 0.5
+    }
+   ],
+   "flash": true
+  },
+  {
+   "id": "s08",
+   "lines": [
+    "본격적인 총력전의 기록으로 들어가기에 앞서,",
+    "물러설 곳 없던 그날의 역사를 끝까지 기록할 수 있도록, 구독과 좋아요로 함께해 주십시오."
+   ],
+   "visual": {
+    "type": "cta",
+    "title": "물러설 곳 없던 그날의 기록, 함께 지켜 주십시오",
+    "at": 0
+   },
+   "pauseBefore": 0.3,
+   "sfx": [
+    {
+     "id": "pop",
+     "at": 0.3,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s09",
+   "lines": [
+    {
+     "t": "1950년 6월 25일, 북한군은 탱크를 앞세워 38선을 넘었습니다.",
+     "say": "천구백오십 년 유월 이십오 일, 북한군은 탱크를 앞세워 삼팔선을 넘었습니다."
+    },
+    "사흘 만에 서울이 무너졌고, 한 달 만에 전선은 한반도 남쪽 끝까지 밀려 내려왔죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "korea",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.9,
+        38.1
+       ],
+       [
+        127.0,
+        37.3
+       ],
+       [
+        127.3,
+        36.4
+       ],
+       [
+        128.0,
+        35.6
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 1.3
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.9,
+        38.0
+       ],
+       [
+        128.4,
+        37.2
+       ],
+       [
+        128.7,
+        36.5
+       ]
+      ],
+      "color": "red",
+      "at": 0.5,
+      "width": 1.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.9,
+        37.9
+       ],
+       [
+        129.2,
+        37.0
+       ],
+       [
+        129.35,
+        36.45
+       ]
+      ],
+      "color": "red",
+      "at": 0.7,
+      "width": 1.0
+     },
+     {
+      "k": "unit",
+      "p": "seoul",
+      "text": "서울 함락",
+      "color": "red",
+      "at": 0.6
+     }
+    ]
+   },
+   "chapter": {
+    "num": "PART 1",
+    "title": "붕괴 직전의 한반도와 워커의 결단"
+   },
+   "sfx": [
+    {
+     "id": "tank",
+     "at": 0,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "lines": [
+    "피란민의 행렬이, 남쪽으로 가는 길을 가득 메웠습니다.",
+    "그 뒤를 국군과, 갓 도착한 미군이 쫓기듯 따라 내려왔죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s10-photo",
+    "kb": "in"
+   },
+   "label": "남쪽으로 향하는 피란민 행렬 (1950)"
+  },
+  {
+   "id": "s11",
+   "lines": [
+    {
+     "t": "7월 5일 오산, 7월 20일 대전.",
+     "say": "칠월 오 일 오산, 칠월 이십 일 대전."
+    },
+    "미군이 처음 나선 싸움들은, 줄줄이 패배로 끝났습니다."
+   ],
+   "visual": {
+    "type": "timeline",
+    "items": [
+     {
+      "date": "7. 5",
+      "text": "오산",
+      "at": 0
+     },
+     {
+      "date": "7. 16",
+      "text": "금강",
+      "at": 0.5
+     },
+     {
+      "date": "7. 20",
+      "text": "대전",
+      "at": 0.9
+     },
+     {
+      "date": "7. 31",
+      "text": "진주",
+      "at": 1.4
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "clock",
+     "at": 0,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "lines": [
+    {
+     "t": "이 무너지는 전선을 떠맡은 사람이, 미 제8군 사령관 월턴 워커 중장이었습니다.",
+     "say": "이 무너지는 전선을 떠맡은 사람이, 미 제팔 군 사령관 월턴 워커 중장이었습니다."
+    },
+    {
+     "t": "2차 세계대전 때 패튼 장군 밑에서, 군단을 이끌고 유럽을 휩쓸었던 지휘관이었죠.",
+     "say": "이차 세계대전 때 패튼 장군 밑에서, 군단을 이끌고 유럽을 휩쓸었던 지휘관이었죠."
+    }
+   ],
+   "visual": {
+    "type": "person",
+    "q": "s12-photo",
+    "name": "월턴 워커",
+    "years": "1889 - 1950",
+    "role": "미 제8군 사령관 · 중장"
+   }
+  },
+  {
+   "id": "s13",
+   "lines": [
+    {
+     "t": "7월 말, 워커의 지도 위에는 붉은 화살표가 사방에서 조여 오고 있었습니다.",
+     "say": "칠월 말, 워커의 지도 위에는 붉은 화살표가 사방에서 조여 오고 있었습니다."
+    },
+    "서쪽에서는 진주가 무너졌고, 북쪽에서는 김천과 상주가 위태로웠죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "walker_map",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "clock",
+     "at": 0.2,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "lines": [
+    "북한군의 목표는 단 하나, 부산이었습니다.",
+    "부산만 떨어지면, 바다 건너 들어오는 미군의 증원도 모두 끊기는 것이었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "perimeter",
+    "to": "perimeter",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.0,
+        35.18
+       ],
+       [
+        128.3,
+        35.2
+       ],
+       [
+        128.5,
+        35.2
+       ]
+      ],
+      "color": "red",
+      "at": 0.1,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.1,
+        36.4
+       ],
+       [
+        128.3,
+        36.15
+       ],
+       [
+        128.45,
+        35.98
+       ]
+      ],
+      "color": "red",
+      "at": 0.3,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.73,
+        36.6
+       ],
+       [
+        128.9,
+        36.35
+       ],
+       [
+        129.1,
+        36.15
+       ]
+      ],
+      "color": "red",
+      "at": 0.5,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        129.36,
+        36.6
+       ],
+       [
+        129.37,
+        36.35
+       ],
+       [
+        129.34,
+        36.1
+       ]
+      ],
+      "color": "red",
+      "at": 0.7,
+      "width": 1.0
+     },
+     {
+      "k": "unit",
+      "p": "busan",
+      "text": "부산",
+      "color": "blue",
+      "at": 1.0,
+      "pulse": true
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.4,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "lines": [
+    "부산항은 이 전쟁의 생명줄이었습니다.",
+    "병력과 탄약, 기름과 식량이 모두 이 항구로 들어왔으니까요."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s15-photo",
+    "kb": "in"
+   },
+   "label": "배에서 내려 부두에 선 미군 병사들 (1950. 8. 6)"
+  },
+  {
+   "id": "s16",
+   "lines": [
+    {
+     "t": "7월 29일, 워커는 상주의 미 제25사단 사령부를 찾아갑니다.",
+     "say": "칠월 이십구 일, 워커는 상주의 미 제이십오 사단 사령부를 찾아갑니다."
+    },
+    "그리고 그곳에서, 전쟁의 흐름을 바꾼 훈시를 남기죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "perimeter",
+    "to": "west",
+    "items": [
+     {
+      "k": "marker",
+      "p": "sangju",
+      "color": "blue",
+      "at": 0.2
+     },
+     {
+      "k": "unit",
+      "p": "sangju",
+      "text": "미 제25사단 사령부",
+      "color": "blue",
+      "at": 0.6,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1950. 7. 29 · 경북 상주",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s17",
+   "lines": [
+    "더 이상의 후퇴도, 철수도, 전선 조정도 없다.",
+    "우리 뒤에는, 물러설 방어선이 없다."
+   ],
+   "visual": {
+    "type": "document",
+    "org": "미 제8군 사령관 훈시",
+    "head": "Stand or Die",
+    "stamp": "1950. 7. 29",
+    "rows": [
+     "더 이상의 후퇴·철수는 없다",
+     "뒤에는 물러설 선이 없다",
+     "덩케르크도, 바탄도 없다",
+     "한 팀으로 끝까지 싸운다"
+    ],
+    "note": "훈시 요지 · 재구성 화면"
+   },
+   "sfx": [
+    {
+     "id": "typewriter",
+     "at": 0.2,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s18",
+   "lines": [
+    "그리고 이렇게 덧붙였습니다.",
+    "우리 중 누군가 죽어야 한다면, 함께 싸우다 죽을 것이다. 우리는 이 선을 지키고, 이길 것이다."
+   ],
+   "visual": {
+    "type": "quotes",
+    "title": "워커의 훈시",
+    "items": [
+     {
+      "text": "죽어야 한다면, 함께 싸우다 죽는다",
+      "at": 0.6
+     },
+     {
+      "text": "우리는 이 선을 지키고, 이긴다",
+      "at": 1.4
+     }
+    ]
+   }
+  },
+  {
+   "id": "s19",
+   "lines": [
+    "훗날 이 훈시는, 짧게 '버티거나 죽거나'로 불리게 됩니다.",
+    "너무 가혹하다는 말도 나왔지만, 워커는 한 걸음도 물러서지 않았죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "Stand or Die",
+    "style": "red",
+    "sub": "버티거나, 죽거나",
+    "subAt": 0.5
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0.2,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s20",
+   "lines": [
+    {
+     "t": "8월 1일, 워커는 모든 부대를 낙동강 동쪽으로 물립니다.",
+     "say": "팔월 일 일, 워커는 모든 부대를 낙동강 동쪽으로 물립니다."
+    },
+    {
+     "t": "8월 4일 무렵, 국군과 유엔군은 강을 등 뒤가 아닌 앞에 두고, 마지막 방어선에 들어섰습니다.",
+     "say": "팔월 사 일 무렵, 국군과 유엔군은 강을 등 뒤가 아닌 앞에 두고, 마지막 방어선에 들어섰습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "perimeter",
+    "to": "perimeter",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.15,
+        36.0
+       ],
+       [
+        128.3,
+        35.95
+       ],
+       [
+        128.42,
+        35.92
+       ]
+      ],
+      "color": "blue",
+      "at": 0,
+      "width": 0.8
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.15,
+        35.5
+       ],
+       [
+        128.3,
+        35.5
+       ],
+       [
+        128.42,
+        35.48
+       ]
+      ],
+      "color": "blue",
+      "at": 0.2,
+      "width": 0.8
+     },
+     {
+      "k": "front",
+      "path": [
+       [
+        129.4,
+        36.42
+       ],
+       [
+        129.2,
+        36.4
+       ],
+       [
+        128.98,
+        36.42
+       ],
+       [
+        128.75,
+        36.38
+       ],
+       [
+        128.52,
+        36.42
+       ],
+       [
+        128.33,
+        36.4
+       ],
+       [
+        128.36,
+        36.2
+       ],
+       [
+        128.39,
+        36.05
+       ],
+       [
+        128.41,
+        35.95
+       ],
+       [
+        128.45,
+        35.84
+       ],
+       [
+        128.42,
+        35.72
+       ],
+       [
+        128.36,
+        35.68
+       ],
+       [
+        128.38,
+        35.63
+       ],
+       [
+        128.35,
+        35.57
+       ],
+       [
+        128.4,
+        35.5
+       ],
+       [
+        128.4,
+        35.44
+       ],
+       [
+        128.43,
+        35.4
+       ],
+       [
+        128.4,
+        35.33
+       ],
+       [
+        128.35,
+        35.25
+       ],
+       [
+        128.37,
+        35.17
+       ],
+       [
+        128.44,
+        35.1
+       ]
+      ],
+      "at": 0.8
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1950. 8. 4 무렵 · 낙동강 방어선",
+     "style": "blue",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s21",
+   "lines": [
+    "이것이 낙동강 방어선입니다.",
+    "서쪽은 낙동강이 천연의 해자가 되어 주고, 북쪽은 험한 산줄기가 막아 주는 선이었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "perimeter",
+    "to": "perimeter",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.3056,
+        36.3601
+       ],
+       [
+        128.2867,
+        36.3491
+       ],
+       [
+        128.2836,
+        36.3307
+       ],
+       [
+        128.2888,
+        36.3144
+       ],
+       [
+        128.3362,
+        36.2886
+       ],
+       [
+        128.3426,
+        36.2656
+       ],
+       [
+        128.3372,
+        36.2471
+       ],
+       [
+        128.3455,
+        36.2365
+       ],
+       [
+        128.3628,
+        36.2184
+       ],
+       [
+        128.3637,
+        36.1968
+       ],
+       [
+        128.377,
+        36.1844
+       ],
+       [
+        128.3824,
+        36.1529
+       ],
+       [
+        128.378,
+        36.1284
+       ],
+       [
+        128.3969,
+        36.1125
+       ],
+       [
+        128.3964,
+        36.0881
+       ],
+       [
+        128.3853,
+        36.074
+       ],
+       [
+        128.4058,
+        36.0374
+       ],
+       [
+        128.3996,
+        36.0225
+       ],
+       [
+        128.3986,
+        36.0154
+       ],
+       [
+        128.3917,
+        35.9819
+       ],
+       [
+        128.3966,
+        35.9419
+       ],
+       [
+        128.3992,
+        35.8935
+       ],
+       [
+        128.3856,
+        35.8689
+       ],
+       [
+        128.3901,
+        35.8534
+       ],
+       [
+        128.4443,
+        35.8472
+       ],
+       [
+        128.4604,
+        35.8404
+       ],
+       [
+        128.4652,
+        35.8363
+       ],
+       [
+        128.4791,
+        35.8192
+       ],
+       [
+        128.4711,
+        35.8092
+       ],
+       [
+        128.4231,
+        35.8087
+       ],
+       [
+        128.4011,
+        35.7843
+       ],
+       [
+        128.3855,
+        35.7596
+       ],
+       [
+        128.4169,
+        35.7341
+       ],
+       [
+        128.4297,
+        35.7259
+       ],
+       [
+        128.4345,
+        35.7085
+       ],
+       [
+        128.4173,
+        35.6937
+       ],
+       [
+        128.365,
+        35.7058
+       ],
+       [
+        128.3511,
+        35.7004
+       ],
+       [
+        128.3545,
+        35.6834
+       ],
+       [
+        128.3852,
+        35.6531
+       ],
+       [
+        128.402,
+        35.6374
+       ],
+       [
+        128.3858,
+        35.6151
+       ],
+       [
+        128.3604,
+        35.6118
+       ],
+       [
+        128.3525,
+        35.6037
+       ],
+       [
+        128.3561,
+        35.5906
+       ],
+       [
+        128.3503,
+        35.5534
+       ],
+       [
+        128.3506,
+        35.5406
+       ],
+       [
+        128.3912,
+        35.5096
+       ],
+       [
+        128.4244,
+        35.4905
+       ],
+       [
+        128.42,
+        35.4755
+       ],
+       [
+        128.3828,
+        35.4581
+       ],
+       [
+        128.3748,
+        35.4469
+       ],
+       [
+        128.3887,
+        35.4259
+       ],
+       [
+        128.4219,
+        35.416
+       ],
+       [
+        128.4411,
+        35.3885
+       ],
+       [
+        128.4746,
+        35.3808
+       ],
+       [
+        128.498,
+        35.3957
+       ],
+       [
+        128.5328,
+        35.3874
+       ],
+       [
+        128.5523,
+        35.3798
+       ],
+       [
+        128.5739,
+        35.3786
+       ],
+       [
+        128.5965,
+        35.3936
+       ],
+       [
+        128.6177,
+        35.3776
+       ],
+       [
+        128.6453,
+        35.3728
+       ],
+       [
+        128.6901,
+        35.3787
+       ],
+       [
+        128.7439,
+        35.3515
+       ],
+       [
+        128.7734,
+        35.3471
+       ],
+       [
+        128.7985,
+        35.3592
+       ],
+       [
+        128.8093,
+        35.3787
+       ],
+       [
+        128.8533,
+        35.3931
+       ],
+       [
+        128.8693,
+        35.3907
+       ],
+       [
+        128.879,
+        35.37
+       ],
+       [
+        128.9111,
+        35.3648
+       ],
+       [
+        128.936,
+        35.3448
+       ],
+       [
+        128.9671,
+        35.3299
+       ],
+       [
+        128.9728,
+        35.3132
+       ],
+       [
+        128.9982,
+        35.2889
+       ],
+       [
+        129.0126,
+        35.275
+       ],
+       [
+        128.9987,
+        35.2359
+       ],
+       [
+        128.9896,
+        35.2037
+       ],
+       [
+        128.9629,
+        35.1845
+       ],
+       [
+        128.961,
+        35.1557
+       ],
+       [
+        128.9532,
+        35.1073
+       ]
+      ],
+      "color": "blue",
+      "at": 0,
+      "glow": true
+     },
+     {
+      "k": "front",
+      "path": [
+       [
+        129.4,
+        36.42
+       ],
+       [
+        129.2,
+        36.4
+       ],
+       [
+        128.98,
+        36.42
+       ],
+       [
+        128.75,
+        36.38
+       ],
+       [
+        128.52,
+        36.42
+       ],
+       [
+        128.33,
+        36.4
+       ],
+       [
+        128.36,
+        36.2
+       ],
+       [
+        128.39,
+        36.05
+       ],
+       [
+        128.41,
+        35.95
+       ],
+       [
+        128.45,
+        35.84
+       ],
+       [
+        128.42,
+        35.72
+       ],
+       [
+        128.36,
+        35.68
+       ],
+       [
+        128.38,
+        35.63
+       ],
+       [
+        128.35,
+        35.57
+       ],
+       [
+        128.4,
+        35.5
+       ],
+       [
+        128.4,
+        35.44
+       ],
+       [
+        128.43,
+        35.4
+       ],
+       [
+        128.4,
+        35.33
+       ],
+       [
+        128.35,
+        35.25
+       ],
+       [
+        128.37,
+        35.17
+       ],
+       [
+        128.44,
+        35.1
+       ]
+      ],
+      "at": 0
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "water",
+     "at": 0,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s22",
+   "lines": [
+    "남쪽 마산에서 북쪽 왜관까지, 그리고 동쪽 끝 포항까지.",
+    {
+     "t": "한국 측 기록으로 약 240km에 이르는 전선이었습니다.",
+     "say": "한국 측 기록으로 약 이백사십 킬로미터에 이르는 전선이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "perimeter",
+    "to": "perimeter",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        129.4,
+        36.42
+       ],
+       [
+        129.2,
+        36.4
+       ],
+       [
+        128.98,
+        36.42
+       ],
+       [
+        128.75,
+        36.38
+       ],
+       [
+        128.52,
+        36.42
+       ],
+       [
+        128.33,
+        36.4
+       ],
+       [
+        128.36,
+        36.2
+       ],
+       [
+        128.39,
+        36.05
+       ],
+       [
+        128.41,
+        35.95
+       ],
+       [
+        128.45,
+        35.84
+       ],
+       [
+        128.42,
+        35.72
+       ],
+       [
+        128.36,
+        35.68
+       ],
+       [
+        128.38,
+        35.63
+       ],
+       [
+        128.35,
+        35.57
+       ],
+       [
+        128.4,
+        35.5
+       ],
+       [
+        128.4,
+        35.44
+       ],
+       [
+        128.43,
+        35.4
+       ],
+       [
+        128.4,
+        35.33
+       ],
+       [
+        128.35,
+        35.25
+       ],
+       [
+        128.37,
+        35.17
+       ],
+       [
+        128.44,
+        35.1
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "masan",
+      "color": "blue",
+      "at": 0.1
+     },
+     {
+      "k": "marker",
+      "p": "waegwan",
+      "color": "blue",
+      "at": 0.4
+     },
+     {
+      "k": "marker",
+      "p": "pohang",
+      "color": "blue",
+      "at": 0.8
+     },
+     {
+      "k": "badge",
+      "p": [
+       128.85,
+       35.55
+      ],
+      "text": "약 240km",
+      "color": "red",
+      "at": 1.2
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "한국 측 기록 기준 (미군 기록은 약 140마일·225km)",
+     "style": "dark",
+     "at": 1.3,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s23",
+   "lines": [
+    {
+     "t": "왜관 북쪽에서 동해안까지는 국군 5개 사단이,",
+     "say": "왜관 북쪽에서 동해안까지는 국군 오 개 사단이,"
+    },
+    {
+     "t": "왜관 남쪽의 강줄기는, 미군 3개 사단이 나누어 맡았습니다.",
+     "say": "왜관 남쪽의 강줄기는, 미군 삼 개 사단이 나누어 맡았습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "perimeter",
+    "to": "perimeter",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        129.4,
+        36.42
+       ],
+       [
+        129.2,
+        36.4
+       ],
+       [
+        128.98,
+        36.42
+       ],
+       [
+        128.75,
+        36.38
+       ],
+       [
+        128.52,
+        36.42
+       ],
+       [
+        128.33,
+        36.4
+       ],
+       [
+        128.36,
+        36.2
+       ],
+       [
+        128.39,
+        36.05
+       ],
+       [
+        128.41,
+        35.95
+       ],
+       [
+        128.45,
+        35.84
+       ],
+       [
+        128.42,
+        35.72
+       ],
+       [
+        128.36,
+        35.68
+       ],
+       [
+        128.38,
+        35.63
+       ],
+       [
+        128.35,
+        35.57
+       ],
+       [
+        128.4,
+        35.5
+       ],
+       [
+        128.4,
+        35.44
+       ],
+       [
+        128.43,
+        35.4
+       ],
+       [
+        128.4,
+        35.33
+       ],
+       [
+        128.35,
+        35.25
+       ],
+       [
+        128.37,
+        35.17
+       ],
+       [
+        128.44,
+        35.1
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": [
+       128.5,
+       36.3
+      ],
+      "text": "국군 1사단",
+      "color": "blue",
+      "at": 0.1
+     },
+     {
+      "k": "unit",
+      "p": [
+       128.72,
+       36.32
+      ],
+      "text": "6사단",
+      "color": "blue",
+      "at": 0.25
+     },
+     {
+      "k": "unit",
+      "p": [
+       128.95,
+       36.33
+      ],
+      "text": "8사단",
+      "color": "blue",
+      "at": 0.4
+     },
+     {
+      "k": "unit",
+      "p": [
+       129.14,
+       36.34
+      ],
+      "text": "수도사단",
+      "color": "blue",
+      "at": 0.55
+     },
+     {
+      "k": "unit",
+      "p": [
+       129.32,
+       36.36
+      ],
+      "text": "3사단",
+      "color": "blue",
+      "at": 0.7
+     },
+     {
+      "k": "unit",
+      "p": [
+       128.48,
+       35.88
+      ],
+      "text": "미 1기병사단",
+      "color": "blue",
+      "at": 1.1
+     },
+     {
+      "k": "unit",
+      "p": [
+       128.5,
+       35.58
+      ],
+      "text": "미 24사단",
+      "color": "blue",
+      "at": 1.3
+     },
+     {
+      "k": "unit",
+      "p": [
+       128.45,
+       35.26
+      ],
+      "text": "미 25사단",
+      "color": "blue",
+      "at": 1.5
+     }
+    ]
+   }
+  },
+  {
+   "id": "s24",
+   "lines": [
+    {
+     "t": "8월 초, 미군 기록으로 한반도의 유엔군은 약 14만 명.",
+     "say": "팔월 초, 미군 기록으로 한반도의 유엔군은 약 십사만 명."
+    },
+    {
+     "t": "그 가운데 실제 전투 병력은 9만 2천, 북한군 전투 병력은 약 7만이었습니다.",
+     "say": "그 가운데 실제 전투 병력은 구만 이천, 북한군 전투 병력은 약 칠만이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "versus",
+    "left": {
+     "n": 4,
+     "label": "유엔군 전투병 9만 2천",
+     "color": "blue"
+    },
+    "right": {
+     "n": 3,
+     "label": "북한군 전투병 약 7만",
+     "color": "red"
+    },
+    "at": 0.5
+   },
+   "callouts": [
+    {
+     "text": "병력: 미군 기록 기준 (1950. 8 초)",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s25",
+   "lines": [
+    "숫자로는 앞서 있었지만, 실상은 달랐습니다.",
+    "한 달 넘게 지기만 한 병사들, 훈련도 제대로 받지 못한 신병들, 그리고 너무나 긴 전선."
+   ],
+   "visual": {
+    "type": "gauges",
+    "big": "숫자의 착시",
+    "items": [
+     {
+      "label": "꺾인 사기",
+      "at": 0.6
+     },
+     {
+      "label": "미숙한 신병",
+      "at": 0.9
+     },
+     {
+      "label": "너무 긴 전선",
+      "at": 1.2
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "clock",
+     "at": 0,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s26",
+   "lines": [
+    "그 빈틈을 메울 방법은 하나뿐이었습니다.",
+    "적이 뚫고 들어오는 곳으로, 예비대를 재빨리 실어 나르는 것이었죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "trucks",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "tank",
+     "at": 0,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s27",
+   "lines": [
+    "다행히 부산에서 마산, 대구, 경주로, 철도와 도로가 부챗살처럼 뻗어 있었습니다.",
+    "워커는 바로 이 길을 따라 병력을 옮기는, 이른바 기동 방어를 준비합니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "perimeter",
+    "to": "perimeter",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        129.4,
+        36.42
+       ],
+       [
+        129.2,
+        36.4
+       ],
+       [
+        128.98,
+        36.42
+       ],
+       [
+        128.75,
+        36.38
+       ],
+       [
+        128.52,
+        36.42
+       ],
+       [
+        128.33,
+        36.4
+       ],
+       [
+        128.36,
+        36.2
+       ],
+       [
+        128.39,
+        36.05
+       ],
+       [
+        128.41,
+        35.95
+       ],
+       [
+        128.45,
+        35.84
+       ],
+       [
+        128.42,
+        35.72
+       ],
+       [
+        128.36,
+        35.68
+       ],
+       [
+        128.38,
+        35.63
+       ],
+       [
+        128.35,
+        35.57
+       ],
+       [
+        128.4,
+        35.5
+       ],
+       [
+        128.4,
+        35.44
+       ],
+       [
+        128.43,
+        35.4
+       ],
+       [
+        128.4,
+        35.33
+       ],
+       [
+        128.35,
+        35.25
+       ],
+       [
+        128.37,
+        35.17
+       ],
+       [
+        128.44,
+        35.1
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        129.04,
+        35.11
+       ],
+       [
+        128.8,
+        35.2
+       ],
+       [
+        128.57,
+        35.21
+       ]
+      ],
+      "color": "#FFD000",
+      "at": 0.2
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        129.04,
+        35.11
+       ],
+       [
+        128.9,
+        35.33
+       ],
+       [
+        128.746,
+        35.504
+       ],
+       [
+        128.65,
+        35.7
+       ],
+       [
+        128.601,
+        35.871
+       ]
+      ],
+      "color": "#FFD000",
+      "at": 0.4
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        129.04,
+        35.11
+       ],
+       [
+        129.2,
+        35.45
+       ],
+       [
+        129.211,
+        35.856
+       ],
+       [
+        129.343,
+        36.019
+       ]
+      ],
+      "color": "#FFD000",
+      "at": 0.6
+     },
+     {
+      "k": "unit",
+      "p": "busan",
+      "text": "부산",
+      "color": "blue",
+      "at": 0,
+      "pulse": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "s28",
+   "lines": [
+    {
+     "t": "그리고 8월 3일 밤, 왜관의 낙동강 위에서 거대한 폭음이 울립니다.",
+     "say": "그리고 팔월 삼 일 밤, 왜관의 낙동강 위에서 거대한 폭음이 울립니다."
+    }
+   ],
+   "visual": {
+    "type": "black",
+    "text": "1950. 8. 3",
+    "accent": "왜관철교",
+    "accentAt": 0.5
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ],
+   "pauseBefore": 0.5
+  },
+  {
+   "id": "s29",
+   "lines": [
+    "왜관은 경부선 철도와 국도가 낙동강을 건너는, 대구 서쪽의 관문이었습니다.",
+    "이곳이 뚫리면, 북한군은 곧장 대구로 밀고 들어올 수 있었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "waegwan",
+    "to": "waegwan",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.3056,
+        36.3601
+       ],
+       [
+        128.2867,
+        36.3491
+       ],
+       [
+        128.2836,
+        36.3307
+       ],
+       [
+        128.2888,
+        36.3144
+       ],
+       [
+        128.3362,
+        36.2886
+       ],
+       [
+        128.3426,
+        36.2656
+       ],
+       [
+        128.3372,
+        36.2471
+       ],
+       [
+        128.3455,
+        36.2365
+       ],
+       [
+        128.3628,
+        36.2184
+       ],
+       [
+        128.3637,
+        36.1968
+       ],
+       [
+        128.377,
+        36.1844
+       ],
+       [
+        128.3824,
+        36.1529
+       ],
+       [
+        128.378,
+        36.1284
+       ],
+       [
+        128.3969,
+        36.1125
+       ],
+       [
+        128.3964,
+        36.0881
+       ],
+       [
+        128.3853,
+        36.074
+       ],
+       [
+        128.4058,
+        36.0374
+       ],
+       [
+        128.3996,
+        36.0225
+       ],
+       [
+        128.3986,
+        36.0154
+       ],
+       [
+        128.3917,
+        35.9819
+       ],
+       [
+        128.3966,
+        35.9419
+       ]
+      ],
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "waegwan",
+      "text": "왜관",
+      "color": "blue",
+      "at": 0.3
+     },
+     {
+      "k": "marker",
+      "p": "daegu",
+      "color": "blue",
+      "at": 0.6
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.3,
+        36.02
+       ],
+       [
+        128.4,
+        35.99
+       ],
+       [
+        128.52,
+        35.93
+       ]
+      ],
+      "color": "red",
+      "at": 1.0,
+      "width": 0.9
+     }
+    ]
+   },
+   "chapter": {
+    "num": "PART 2",
+    "title": "핏빛 강물과 왜관철교 폭파"
+   }
+  },
+  {
+   "id": "s30",
+   "lines": [
+    "강 위에는, 일제강점기 경부선과 함께 놓인 철교가 서 있었습니다.",
+    "그 옆으로는, 사람과 수레가 건너는 인도교도 나란히 있었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "waegwan",
+    "to": "waegwan_z",
+    "items": [
+     {
+      "k": "unit",
+      "p": "bridge",
+      "text": "왜관철교",
+      "color": "blue",
+      "at": 0.3,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "철교 위치는 개략",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s31",
+   "lines": [
+    {
+     "t": "미 제1기병사단은 북한군이 건너오기 전에, 이 다리들을 끊기로 합니다.",
+     "say": "미 제일 기병사단은 북한군이 건너오기 전에, 이 다리들을 끊기로 합니다."
+    },
+    "문제는, 다리 위가 피란민으로 가득 차 있었다는 것이었죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "bridge_crowd",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s32",
+   "lines": [
+    "피란민의 행렬은, 밤이 깊어도 끊이지 않았습니다.",
+    "사단장 게이 소장은 결국, 폭파 명령을 내립니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "1950. 8. 3 밤",
+    "accent": "폭파 명령",
+    "accentAt": 1
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s33",
+   "lines": [
+    "다리는 그 위의 피란민과 함께 무너져 내렸습니다.",
+    "몇 명이 희생되었는지는, 지금도 정확히 알 수 없죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "bridge_blast",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0.1,
+     "volume": 0.55
+    }
+   ]
+  },
+  {
+   "id": "s34",
+   "lines": [
+    "전쟁은 그렇게, 군인과 민간인의 경계를 지워 가고 있었습니다.",
+    "낙동강은 이 여름 내내, 피란민의 강이기도 했죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s34-photo",
+    "kb": "in"
+   },
+   "label": "포항을 떠나 피란길에 오른 여인 (1950)"
+  },
+  {
+   "id": "s35",
+   "lines": [
+    "다리가 끊긴 뒤, 강은 그대로 최전선이 되었습니다.",
+    "미군 포병은 강 건너 북한군 진지를 향해, 밤낮없이 포탄을 날렸죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s35-photo",
+    "kb": "in"
+   },
+   "label": "낙동강 너머로 포격하는 미 제1기병사단 포병 (1950)",
+   "sfx": [
+    {
+     "id": "artillery",
+     "at": 0.3,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s36",
+   "lines": [
+    {
+     "t": "8월 초, 왜관과 대구 북쪽으로는 북한군 5개 사단이 몰려들었습니다.",
+     "say": "팔월 초, 왜관과 대구 북쪽으로는 북한군 오 개 사단이 몰려들었습니다."
+    },
+    {
+     "t": "그들은 밤마다 강을 건너, 국군 제1사단과 미 제1기병사단을 파고들었죠.",
+     "say": "그들은 밤마다 강을 건너, 국군 제일 사단과 미 제일 기병사단을 파고들었죠."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "waegwan",
+    "to": "waegwan",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.3056,
+        36.3601
+       ],
+       [
+        128.2867,
+        36.3491
+       ],
+       [
+        128.2836,
+        36.3307
+       ],
+       [
+        128.2888,
+        36.3144
+       ],
+       [
+        128.3362,
+        36.2886
+       ],
+       [
+        128.3426,
+        36.2656
+       ],
+       [
+        128.3372,
+        36.2471
+       ],
+       [
+        128.3455,
+        36.2365
+       ],
+       [
+        128.3628,
+        36.2184
+       ],
+       [
+        128.3637,
+        36.1968
+       ],
+       [
+        128.377,
+        36.1844
+       ],
+       [
+        128.3824,
+        36.1529
+       ],
+       [
+        128.378,
+        36.1284
+       ],
+       [
+        128.3969,
+        36.1125
+       ],
+       [
+        128.3964,
+        36.0881
+       ],
+       [
+        128.3853,
+        36.074
+       ],
+       [
+        128.4058,
+        36.0374
+       ],
+       [
+        128.3996,
+        36.0225
+       ],
+       [
+        128.3986,
+        36.0154
+       ],
+       [
+        128.3917,
+        35.9819
+       ],
+       [
+        128.3966,
+        35.9419
+       ]
+      ],
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": [
+       128.45,
+       35.96
+      ],
+      "text": "미 1기병사단",
+      "color": "blue",
+      "at": 0.1
+     },
+     {
+      "k": "unit",
+      "p": [
+       128.53,
+       36.07
+      ],
+      "text": "국군 1사단",
+      "color": "blue",
+      "at": 0.2
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.25,
+        36.1
+       ],
+       [
+        128.35,
+        36.06
+       ],
+       [
+        128.44,
+        36.04
+       ]
+      ],
+      "color": "red",
+      "at": 0.6,
+      "width": 0.8
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.3,
+        36.2
+       ],
+       [
+        128.42,
+        36.12
+       ],
+       [
+        128.5,
+        36.09
+       ]
+      ],
+      "color": "red",
+      "at": 0.8,
+      "width": 0.8
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.55,
+        36.25
+       ],
+       [
+        128.56,
+        36.15
+       ],
+       [
+        128.56,
+        36.08
+       ]
+      ],
+      "color": "red",
+      "at": 1.0,
+      "width": 0.8
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.25,
+        35.95
+       ],
+       [
+        128.33,
+        35.94
+       ],
+       [
+        128.41,
+        35.93
+       ]
+      ],
+      "color": "red",
+      "at": 1.2,
+      "width": 0.8
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "대구 방면 북한군 5개 사단 · 한국 측 기록",
+     "style": "dark",
+     "at": 1.2,
+     "pos": "lower"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.5,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s37",
+   "lines": [
+    "북한군은 물속에 모래주머니와 돌을 쌓아, 수면 바로 아래에 다리를 놓았습니다.",
+    "낮에는 보이지 않다가, 밤이면 병력과 탱크가 그 위로 강을 건넜죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "river_crossing",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "water",
+     "at": 0,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s38",
+   "lines": [
+    "강가의 미군은 기관총으로 그 길목을 막아섰습니다.",
+    "하지만 수십 킬로미터 강변을 모두 지키기에는, 병력이 턱없이 모자랐죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s38-photo",
+    "kb": "in"
+   },
+   "label": "낙동강 북안의 적을 향해 사격하는 미 제1기병사단 기관총 분대 (1950)",
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 0.2,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s39",
+   "lines": [
+    {
+     "t": "왜관 북쪽 다부동에서는, 국군 제1사단이 백선엽 준장의 지휘 아래 버티고 있었습니다.",
+     "say": "왜관 북쪽 다부동에서는, 국군 제일 사단이 백선엽 준장의 지휘 아래 버티고 있었습니다."
+    },
+    {
+     "t": "대구까지 남은 거리는, 불과 20km 남짓이었죠.",
+     "say": "대구까지 남은 거리는, 불과 이십 킬로미터 남짓이었죠."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "waegwan",
+    "to": "dabu",
+    "items": [
+     {
+      "k": "unit",
+      "p": "dabu",
+      "text": "국군 1사단",
+      "color": "blue",
+      "at": 0.2,
+      "pulse": true
+     },
+     {
+      "k": "marker",
+      "p": "daegu",
+      "color": "blue",
+      "at": 0.8
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.56,
+        36.2
+       ],
+       [
+        128.56,
+        36.12
+       ],
+       [
+        128.556,
+        36.06
+       ]
+      ],
+      "color": "red",
+      "at": 0.4,
+      "width": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "id": "s40",
+   "lines": [
+    "산꼭대기 진지로는, 지게를 진 민간인들이 탄약과 주먹밥을 날랐습니다.",
+    "이 지게부대가 없었다면, 고지의 병사들은 하루도 버티지 못했을 겁니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s40-photo",
+    "kb": "in"
+   },
+   "label": "전선의 국군에게 식사를 나르는 운반조 (1950. 8)"
+  },
+  {
+   "id": "s41",
+   "lines": [
+    {
+     "t": "한국 측 기록으로, 다부동의 국군은 하루 6백에서 7백 명씩 쓰러져 갔습니다.",
+     "say": "한국 측 기록으로, 다부동의 국군은 하루 육백에서 칠백 명씩 쓰러져 갔습니다."
+    },
+    "그 빈자리는, 급히 모은 학도병과 신병들로 다시 채워졌죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "하루 600~700명",
+    "style": "red",
+    "sub": "다부동 국군 하루 인원 손실 · 한국 측 기록",
+    "subAt": 0.4
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s42",
+   "lines": [
+    {
+     "t": "8월 18일, 대구 시내에까지 포탄이 떨어지자, 정부는 임시 수도를 부산으로 옮깁니다.",
+     "say": "팔월 십팔 일, 대구 시내에까지 포탄이 떨어지자, 정부는 임시 수도를 부산으로 옮깁니다."
+    },
+    "대한민국이 기댈 곳은, 이제 정말로 부산 한 곳뿐이었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "perimeter",
+    "to": "perimeter",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        129.4,
+        36.42
+       ],
+       [
+        129.2,
+        36.4
+       ],
+       [
+        128.98,
+        36.42
+       ],
+       [
+        128.75,
+        36.38
+       ],
+       [
+        128.52,
+        36.42
+       ],
+       [
+        128.33,
+        36.4
+       ],
+       [
+        128.36,
+        36.2
+       ],
+       [
+        128.39,
+        36.05
+       ],
+       [
+        128.41,
+        35.95
+       ],
+       [
+        128.45,
+        35.84
+       ],
+       [
+        128.42,
+        35.72
+       ],
+       [
+        128.36,
+        35.68
+       ],
+       [
+        128.38,
+        35.63
+       ],
+       [
+        128.35,
+        35.57
+       ],
+       [
+        128.4,
+        35.5
+       ],
+       [
+        128.4,
+        35.44
+       ],
+       [
+        128.43,
+        35.4
+       ],
+       [
+        128.4,
+        35.33
+       ],
+       [
+        128.35,
+        35.25
+       ],
+       [
+        128.37,
+        35.17
+       ],
+       [
+        128.44,
+        35.1
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "daegu",
+      "text": "대구",
+      "color": "red",
+      "at": 0.2,
+      "pulse": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.62,
+        35.84
+       ],
+       [
+        128.8,
+        35.5
+       ],
+       [
+        129.0,
+        35.15
+       ]
+      ],
+      "color": "blue",
+      "at": 0.6,
+      "width": 0.9
+     },
+     {
+      "k": "unit",
+      "p": "busan",
+      "text": "임시 수도 부산",
+      "color": "blue",
+      "at": 1.2,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1950. 8. 18 · 정부 부산 이전",
+     "style": "dark",
+     "at": 0.3,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s43",
+   "lines": [
+    {
+     "t": "8월 16일, 워커는 마지막 카드를 꺼내 듭니다.",
+     "say": "팔월 십육 일, 워커는 마지막 카드를 꺼내 듭니다."
+    },
+    "왜관 서쪽, 북한군이 모여 있다는 강 건너편 일대를 통째로 폭격하기로 한 것이죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "waegwan",
+    "to": "waegwan",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.3056,
+        36.3601
+       ],
+       [
+        128.2867,
+        36.3491
+       ],
+       [
+        128.2836,
+        36.3307
+       ],
+       [
+        128.2888,
+        36.3144
+       ],
+       [
+        128.3362,
+        36.2886
+       ],
+       [
+        128.3426,
+        36.2656
+       ],
+       [
+        128.3372,
+        36.2471
+       ],
+       [
+        128.3455,
+        36.2365
+       ],
+       [
+        128.3628,
+        36.2184
+       ],
+       [
+        128.3637,
+        36.1968
+       ],
+       [
+        128.377,
+        36.1844
+       ],
+       [
+        128.3824,
+        36.1529
+       ],
+       [
+        128.378,
+        36.1284
+       ],
+       [
+        128.3969,
+        36.1125
+       ],
+       [
+        128.3964,
+        36.0881
+       ],
+       [
+        128.3853,
+        36.074
+       ],
+       [
+        128.4058,
+        36.0374
+       ],
+       [
+        128.3996,
+        36.0225
+       ],
+       [
+        128.3986,
+        36.0154
+       ],
+       [
+        128.3917,
+        35.9819
+       ],
+       [
+        128.3966,
+        35.9419
+       ]
+      ],
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        128.3,
+        35.96
+       ],
+       [
+        128.36,
+        35.96
+       ],
+       [
+        128.36,
+        36.07
+       ],
+       [
+        128.3,
+        36.07
+       ],
+       [
+        128.3,
+        35.96
+       ]
+      ],
+      "color": "red",
+      "at": 0.6,
+      "glow": true
+     },
+     {
+      "k": "unit",
+      "p": "waegwan",
+      "text": "왜관",
+      "color": "blue",
+      "at": 0.2
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "폭격 구역은 개략 · 1950. 8. 16",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s44",
+   "lines": [
+    {
+     "t": "오키나와와 일본에서 날아오른 B-29 폭격기 98대.",
+     "say": "오키나와와 일본에서 날아오른 비 이십구 폭격기 구십팔 대."
+    },
+    {
+     "t": "26분 동안, 약 9백 톤의 폭탄이 강 건너편에 쏟아졌습니다.",
+     "say": "이십육 분 동안, 약 구백 톤의 폭탄이 강 건너편에 쏟아졌습니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "b29_carpet",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0.4,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s45",
+   "lines": [
+    {
+     "t": "제2차 세계대전 이후 최대 규모의 지상 지원 폭격이었습니다.",
+     "say": "제이차 세계대전 이후 최대 규모의 지상 지원 폭격이었습니다."
+    },
+    {
+     "t": "폭격 구역은 가로 5.6km, 세로 12km에 이르렀죠.",
+     "say": "폭격 구역은 가로 오 점 육 킬로미터, 세로 십이 킬로미터에 이르렀죠."
+    }
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "출격한 B-29",
+     "big": "98대",
+     "icon": "none",
+     "color": "blue"
+    },
+    "right": {
+     "title": "쏟아진 폭탄",
+     "big": "약 900톤",
+     "icon": "none",
+     "color": "red",
+     "at": 0.5
+    }
+   },
+   "callouts": [
+    {
+     "text": "폭탄량·구역: 한국 측 기록 기준 (미군 기록 약 960톤)",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "artillery",
+     "at": 0.3,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s46",
+   "lines": [
+    "하지만 이 폭격의 효과는, 지금도 평가가 엇갈립니다.",
+    "북한군 주력은 이미 강을 건넌 뒤였다는 분석도 있죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s46-photo",
+    "kb": "in"
+   },
+   "label": "B-29 융단폭격 직후의 왜관 서쪽 낙동강 일대 (1950. 8. 16)"
+  },
+  {
+   "id": "s47",
+   "lines": [
+    "그래도 이 폭격 이후, 왜관 정면의 공세는 눈에 띄게 무뎌졌습니다.",
+    "그리고 바로 그 무렵, 남쪽 강줄기에서는 더 큰 위기가 터지고 있었습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "그 무렵 남쪽에서는",
+    "accent": "더 큰 위기",
+    "accentAt": 1
+   }
+  },
+  {
+   "id": "s48",
+   "lines": [
+    {
+     "t": "왜관에서 남쪽으로 약 60km.",
+     "say": "왜관에서 남쪽으로 약 육십 킬로미터."
+    },
+    "낙동강이 서쪽으로 크게 휘어 도는 곳, 경남 창녕군 영산의 맞은편입니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "west",
+    "to": "bulge",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.3561,
+        35.5906
+       ],
+       [
+        128.3503,
+        35.5534
+       ],
+       [
+        128.3506,
+        35.5406
+       ],
+       [
+        128.3912,
+        35.5096
+       ],
+       [
+        128.4244,
+        35.4905
+       ],
+       [
+        128.42,
+        35.4755
+       ],
+       [
+        128.3828,
+        35.4581
+       ],
+       [
+        128.3748,
+        35.4469
+       ],
+       [
+        128.3887,
+        35.4259
+       ],
+       [
+        128.4219,
+        35.416
+       ],
+       [
+        128.4411,
+        35.3885
+       ],
+       [
+        128.4746,
+        35.3808
+       ],
+       [
+        128.498,
+        35.3957
+       ],
+       [
+        128.5328,
+        35.3874
+       ],
+       [
+        128.5523,
+        35.3798
+       ]
+      ],
+      "color": "blue",
+      "at": 0,
+      "glow": true
+     },
+     {
+      "k": "unit",
+      "p": "yongsan",
+      "text": "영산",
+      "color": "blue",
+      "at": 0.8
+     }
+    ]
+   },
+   "chapter": {
+    "num": "PART 3",
+    "title": "불타는 서부 전선, 낙동강 돌출부의 혈투"
+   }
+  },
+  {
+   "id": "s49",
+   "lines": [
+    "미군은 이 굽이를, 강이 불룩 튀어나왔다 해서 '돌출부'라고 불렀습니다.",
+    "적이 이 굽이 안쪽으로 들어오면, 미군 진지는 삼면에서 공격받는 모양이었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "bulge",
+    "to": "bulge",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.3561,
+        35.5906
+       ],
+       [
+        128.3503,
+        35.5534
+       ],
+       [
+        128.3506,
+        35.5406
+       ],
+       [
+        128.3912,
+        35.5096
+       ],
+       [
+        128.4244,
+        35.4905
+       ],
+       [
+        128.42,
+        35.4755
+       ],
+       [
+        128.3828,
+        35.4581
+       ],
+       [
+        128.3748,
+        35.4469
+       ],
+       [
+        128.3887,
+        35.4259
+       ],
+       [
+        128.4219,
+        35.416
+       ],
+       [
+        128.4411,
+        35.3885
+       ],
+       [
+        128.4746,
+        35.3808
+       ],
+       [
+        128.498,
+        35.3957
+       ],
+       [
+        128.5328,
+        35.3874
+       ],
+       [
+        128.5523,
+        35.3798
+       ]
+      ],
+      "color": "blue",
+      "at": 0,
+      "glow": true
+     },
+     {
+      "k": "badge",
+      "p": [
+       128.395,
+       35.465
+      ],
+      "text": "낙동강 돌출부",
+      "color": "red",
+      "at": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "s50",
+   "lines": [
+    {
+     "t": "8월 5일 밤, 북한군 제4사단이 오항 나루 부근에서 강을 건넙니다.",
+     "say": "팔월 오 일 밤, 북한군 제사 사단이 오항 나루 부근에서 강을 건넙니다."
+    },
+    "서울을 처음 점령해 '서울 사단'이라는 칭호까지 받은, 북한군의 정예 부대였죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "bulge",
+    "to": "bulge",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.3561,
+        35.5906
+       ],
+       [
+        128.3503,
+        35.5534
+       ],
+       [
+        128.3506,
+        35.5406
+       ],
+       [
+        128.3912,
+        35.5096
+       ],
+       [
+        128.4244,
+        35.4905
+       ],
+       [
+        128.42,
+        35.4755
+       ],
+       [
+        128.3828,
+        35.4581
+       ],
+       [
+        128.3748,
+        35.4469
+       ],
+       [
+        128.3887,
+        35.4259
+       ],
+       [
+        128.4219,
+        35.416
+       ],
+       [
+        128.4411,
+        35.3885
+       ],
+       [
+        128.4746,
+        35.3808
+       ],
+       [
+        128.498,
+        35.3957
+       ],
+       [
+        128.5328,
+        35.3874
+       ],
+       [
+        128.5523,
+        35.3798
+       ]
+      ],
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.33,
+        35.47
+       ],
+       [
+        128.38,
+        35.47
+       ],
+       [
+        128.43,
+        35.468
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 1.0
+     },
+     {
+      "k": "unit",
+      "p": [
+       128.36,
+       35.5
+      ],
+      "text": "북한군 4사단",
+      "color": "red",
+      "at": 0.4
+     },
+     {
+      "k": "marker",
+      "p": "ohang",
+      "color": "red",
+      "at": 0.8
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "water",
+     "at": 0,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s51",
+   "lines": [
+    {
+     "t": "이를 맞은 미 제24사단은, 대전 전투에서 사단장 딘 소장을 잃은 부대였습니다.",
+     "say": "이를 맞은 미 제이십사 사단은, 대전 전투에서 사단장 딘 소장을 잃은 부대였습니다."
+    },
+    "한 달 넘게 싸우며 지친 연대들이, 강가에 얇게 흩어져 있었죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s51-photo",
+    "kb": "in"
+   },
+   "label": "워커 중장(왼쪽)과 미 제24사단장 딘 소장 (1950. 7)"
+  },
+  {
+   "id": "s52",
+   "lines": [
+    "북한군은 밤마다 뗏목과 수중교로 병력을 실어 날랐고,",
+    "며칠 만에 클로버통 고지와 오봉리 능선을 차지했습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "rain_attack",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 0.4,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s53",
+   "lines": [
+    "클로버통 고지와 오봉리 능선.",
+    "강 건너 교두보와 영산 쪽 길을 함께 내려다보는, 돌출부의 두 고지였죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "bulge",
+    "to": "bulge_z",
+    "items": [
+     {
+      "k": "marker",
+      "p": "clover",
+      "color": "red",
+      "at": 0.1
+     },
+     {
+      "k": "marker",
+      "p": "obong",
+      "color": "red",
+      "at": 0.5
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "고지 위치는 개략",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s54",
+   "lines": [
+    "이 고지를 넘으면 영산, 그리고 밀양.",
+    "밀양이 떨어지면, 대구와 부산을 잇는 철도와 도로가 끊길 판이었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "west",
+    "to": "west",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.43,
+        35.47
+       ],
+       [
+        128.53,
+        35.455
+       ],
+       [
+        128.65,
+        35.48
+       ],
+       [
+        128.74,
+        35.5
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 1.1
+     },
+     {
+      "k": "unit",
+      "p": "yongsan",
+      "text": "영산",
+      "color": "blue",
+      "at": 0.1
+     },
+     {
+      "k": "unit",
+      "p": "miryang",
+      "text": "밀양",
+      "color": "blue",
+      "at": 0.6,
+      "pulse": true
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        128.746,
+        35.504
+       ],
+       [
+        128.65,
+        35.7
+       ],
+       [
+        128.601,
+        35.871
+       ]
+      ],
+      "color": "#FFD000",
+      "at": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "id": "s55",
+   "lines": [
+    {
+     "t": "미 제24사단은 여러 차례 반격에 나섰지만, 번번이 고지 앞에서 막혔습니다.",
+     "say": "미 제이십사 사단은 여러 차례 반격에 나섰지만, 번번이 고지 앞에서 막혔습니다."
+    },
+    {
+     "t": "8월 중순, 북한군의 교두보는 오히려 영산 코앞까지 넓어져 있었죠.",
+     "say": "팔월 중순, 북한군의 교두보는 오히려 영산 코앞까지 넓어져 있었죠."
+    }
+   ],
+   "visual": {
+    "type": "timeline",
+    "items": [
+     {
+      "date": "8. 5~6",
+      "text": "북한군 도하",
+      "at": 0
+     },
+     {
+      "date": "8. 8~",
+      "text": "반격 실패",
+      "at": 0.6
+     },
+     {
+      "date": "8. 15",
+      "text": "해병 투입",
+      "at": 1.2
+     },
+     {
+      "date": "8. 17",
+      "text": "총반격",
+      "at": 1.5
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "clock",
+     "at": 0,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s56",
+   "lines": [
+    "워커는 결국, 가장 아끼던 카드를 이곳에 던집니다.",
+    {
+     "t": "8월 2일 부산에 막 도착한, 미 해병 제1임시여단이었죠.",
+     "say": "팔월 이 일 부산에 막 도착한, 미 해병 제일 임시여단이었죠."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s56-photo",
+    "kb": "in"
+   },
+   "label": "부산항에 도착한 미 해병대 수송선 (1950. 8. 2)"
+  },
+  {
+   "id": "s57",
+   "lines": [
+    {
+     "t": "8월 17일 아침, 해병대는 오봉리 능선 정면으로 돌격합니다.",
+     "say": "팔월 십칠 일 아침, 해병대는 오봉리 능선 정면으로 돌격합니다."
+    },
+    "엄폐물 하나 없는 민둥 능선을, 한여름 땡볕 아래 기어올라야 했죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "marines_ridge",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "charge",
+     "at": 0.2,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s58",
+   "lines": [
+    {
+     "t": "해병대가 오봉리 능선을, 미 제9보병연대가 클로버통 고지를 맡았습니다.",
+     "say": "해병대가 오봉리 능선을, 미 제구 보병연대가 클로버통 고지를 맡았습니다."
+    },
+    "그러나 첫 공격은 능선 위 기관총에 막혀, 피투성이로 물러섭니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "bulge_z",
+    "to": "bulge_z",
+    "items": [
+     {
+      "k": "marker",
+      "p": "clover",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "obong",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.53,
+        35.45
+       ],
+       [
+        128.495,
+        35.458
+       ],
+       [
+        128.462,
+        35.462
+       ]
+      ],
+      "color": "blue",
+      "at": 0.3,
+      "width": 0.8
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.53,
+        35.5
+       ],
+       [
+        128.5,
+        35.495
+       ],
+       [
+        128.47,
+        35.489
+       ]
+      ],
+      "color": "blue",
+      "at": 0.5,
+      "width": 0.8
+     },
+     {
+      "k": "unit",
+      "p": [
+       128.505,
+       35.445
+      ],
+      "text": "미 해병여단",
+      "color": "blue",
+      "at": 0.4
+     },
+     {
+      "k": "unit",
+      "p": [
+       128.505,
+       35.51
+      ],
+      "text": "미 9연대",
+      "color": "blue",
+      "at": 0.6
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 0.6,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s59",
+   "lines": [
+    {
+     "t": "어느 소대는, 능선에 남아 선 병사가 15명뿐이었다고 기록됩니다.",
+     "say": "어느 소대는, 능선에 남아 선 병사가 십오 명뿐이었다고 기록됩니다."
+    },
+    "그래도 해병대는 그날 밤, 능선의 한쪽 끝을 끝내 붙잡고 버텼죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s59-photo",
+    "kb": "in"
+   },
+   "label": "부상병을 후송하는 미 해병 들것병 (1950. 8 무렵)"
+  },
+  {
+   "id": "s60",
+   "lines": [
+    {
+     "t": "그날 저녁, 북한군 T-34 전차들이 능선 아래 길로 밀고 들어옵니다.",
+     "say": "그날 저녁, 북한군 티 삼십사 전차들이 능선 아래 길로 밀고 들어옵니다."
+    },
+    {
+     "t": "해병대의 퍼싱 전차와 3.5인치 바주카가, 앞장선 전차들을 차례로 불태웠죠.",
+     "say": "해병대의 퍼싱 전차와 삼 점 오 인치 바주카가, 앞장선 전차들을 차례로 불태웠죠."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "us_tank",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "tank",
+     "at": 0,
+     "volume": 0.4
+    },
+    {
+     "id": "boom",
+     "at": 1,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s61",
+   "lines": [
+    {
+     "t": "8월 18일, 해병대는 오봉리 능선을 완전히 장악하고 강을 향해 밀고 나갑니다.",
+     "say": "팔월 십팔 일, 해병대는 오봉리 능선을 완전히 장악하고 강을 향해 밀고 나갑니다."
+    },
+    "클로버통 고지도 마침내 무너졌고, 북한군은 강물 속으로 쫓겨났죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "bulge",
+    "to": "bulge",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.3561,
+        35.5906
+       ],
+       [
+        128.3503,
+        35.5534
+       ],
+       [
+        128.3506,
+        35.5406
+       ],
+       [
+        128.3912,
+        35.5096
+       ],
+       [
+        128.4244,
+        35.4905
+       ],
+       [
+        128.42,
+        35.4755
+       ],
+       [
+        128.3828,
+        35.4581
+       ],
+       [
+        128.3748,
+        35.4469
+       ],
+       [
+        128.3887,
+        35.4259
+       ],
+       [
+        128.4219,
+        35.416
+       ],
+       [
+        128.4411,
+        35.3885
+       ],
+       [
+        128.4746,
+        35.3808
+       ],
+       [
+        128.498,
+        35.3957
+       ],
+       [
+        128.5328,
+        35.3874
+       ],
+       [
+        128.5523,
+        35.3798
+       ]
+      ],
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.5,
+        35.465
+       ],
+       [
+        128.45,
+        35.466
+       ],
+       [
+        128.41,
+        35.47
+       ]
+      ],
+      "color": "blue",
+      "at": 0.1,
+      "width": 1.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.42,
+        35.47
+       ],
+       [
+        128.37,
+        35.47
+       ],
+       [
+        128.32,
+        35.475
+       ]
+      ],
+      "color": "red",
+      "at": 1.0,
+      "width": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "id": "s62",
+   "lines": [
+    {
+     "t": "8월 19일, 해병대는 낙동강을 내려다보는 마지막 목표 고지에 올라섭니다.",
+     "say": "팔월 십구 일, 해병대는 낙동강을 내려다보는 마지막 목표 고지에 올라섭니다."
+    },
+    {
+     "t": "돌출부는 2주 만에, 다시 유엔군의 손으로 돌아왔습니다.",
+     "say": "돌출부는 이 주 만에, 다시 유엔군의 손으로 돌아왔습니다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s62-photo",
+    "kb": "in"
+   },
+   "label": "낙동강을 내려다보는 제3목표 고지 위의 미 해병 (1950. 8. 19)"
+  },
+  {
+   "id": "s63",
+   "lines": [
+    {
+     "t": "강을 건너왔던 북한군 제4사단은, 병력의 절반을 잃었습니다.",
+     "say": "강을 건너왔던 북한군 제사 사단은, 병력의 절반을 잃었습니다."
+    },
+    "서울 사단이라 불리던 정예 부대가, 이 굽이에서 사실상 무너진 것이죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "병력의 절반",
+    "style": "red",
+    "sub": "북한군 제4사단 손실 · 미군 기록 기준",
+    "subAt": 0.4
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0.2,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s64",
+   "lines": [
+    "포로가 된 북한군 병사들은, 굶주림과 탈진으로 지쳐 있었습니다.",
+    "보급이 끊긴 채 싸워 온 북한군의 한계가, 처음으로 드러난 순간이었죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s64-photo",
+    "kb": "in"
+   },
+   "label": "낙동강 전투에서 미 해병대에 붙잡힌 북한군 포로 (1950. 8)"
+  },
+  {
+   "id": "s65",
+   "lines": [
+    "그런데 서쪽에서 해병대가 싸우던 바로 그때, 동쪽 산악 전선은 무너지고 있었습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "1950. 8 · 동부 전선",
+    "accent": "무너지는 산악 전선",
+    "accentAt": 0.5
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ],
+   "pauseBefore": 0.5
+  },
+  {
+   "id": "s66",
+   "lines": [
+    "동쪽 끝은, 국군이 홀로 맡은 전선이었습니다.",
+    "험한 태백산맥 남쪽 끝자락이라, 도로도 적고 미군의 지원도 닿기 어려웠죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "perimeter",
+    "to": "east",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        129.4,
+        36.42
+       ],
+       [
+        129.2,
+        36.4
+       ],
+       [
+        128.98,
+        36.42
+       ],
+       [
+        128.75,
+        36.38
+       ],
+       [
+        128.52,
+        36.42
+       ],
+       [
+        128.33,
+        36.4
+       ],
+       [
+        128.36,
+        36.2
+       ],
+       [
+        128.39,
+        36.05
+       ],
+       [
+        128.41,
+        35.95
+       ],
+       [
+        128.45,
+        35.84
+       ],
+       [
+        128.42,
+        35.72
+       ],
+       [
+        128.36,
+        35.68
+       ],
+       [
+        128.38,
+        35.63
+       ],
+       [
+        128.35,
+        35.57
+       ],
+       [
+        128.4,
+        35.5
+       ],
+       [
+        128.4,
+        35.44
+       ],
+       [
+        128.43,
+        35.4
+       ],
+       [
+        128.4,
+        35.33
+       ],
+       [
+        128.35,
+        35.25
+       ],
+       [
+        128.37,
+        35.17
+       ],
+       [
+        128.44,
+        35.1
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "gigye",
+      "text": "기계",
+      "color": "blue",
+      "at": 0.4
+     },
+     {
+      "k": "unit",
+      "p": "pohang",
+      "text": "포항",
+      "color": "blue",
+      "at": 0.6
+     },
+     {
+      "k": "marker",
+      "p": "angang",
+      "color": "blue",
+      "at": 0.8
+     }
+    ]
+   },
+   "chapter": {
+    "num": "PART 4",
+    "title": "동부 전선의 붕괴 위기와 영천·안강의 반격"
+   },
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s67",
+   "lines": [
+    {
+     "t": "8월 초, 북한군 제5사단과 제12사단이 해안길과 산길을 따라 포항을 노리고 내려옵니다.",
+     "say": "팔월 초, 북한군 제오 사단과 제십이 사단이 해안길과 산길을 따라 포항을 노리고 내려옵니다."
+    },
+    {
+     "t": "8월 11일, 북한군 일부가 마침내 포항 시내까지 들어섰죠.",
+     "say": "팔월 십일 일, 북한군 일부가 마침내 포항 시내까지 들어섰죠."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "east",
+    "to": "east",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        129.4,
+        36.42
+       ],
+       [
+        129.2,
+        36.4
+       ],
+       [
+        128.98,
+        36.42
+       ],
+       [
+        128.75,
+        36.38
+       ],
+       [
+        128.52,
+        36.42
+       ],
+       [
+        128.33,
+        36.4
+       ],
+       [
+        128.36,
+        36.2
+       ],
+       [
+        128.39,
+        36.05
+       ],
+       [
+        128.41,
+        35.95
+       ],
+       [
+        128.45,
+        35.84
+       ],
+       [
+        128.42,
+        35.72
+       ],
+       [
+        128.36,
+        35.68
+       ],
+       [
+        128.38,
+        35.63
+       ],
+       [
+        128.35,
+        35.57
+       ],
+       [
+        128.4,
+        35.5
+       ],
+       [
+        128.4,
+        35.44
+       ],
+       [
+        128.43,
+        35.4
+       ],
+       [
+        128.4,
+        35.33
+       ],
+       [
+        128.35,
+        35.25
+       ],
+       [
+        128.37,
+        35.17
+       ],
+       [
+        128.44,
+        35.1
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        129.36,
+        36.6
+       ],
+       [
+        129.37,
+        36.4
+       ],
+       [
+        129.35,
+        36.1
+       ]
+      ],
+      "color": "red",
+      "at": 0.1,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.95,
+        36.5
+       ],
+       [
+        129.1,
+        36.25
+       ],
+       [
+        129.2,
+        36.08
+       ]
+      ],
+      "color": "red",
+      "at": 0.4,
+      "width": 1.0
+     },
+     {
+      "k": "unit",
+      "p": [
+       129.45,
+       36.5
+      ],
+      "text": "북한군 5사단",
+      "color": "red",
+      "at": 0.2
+     },
+     {
+      "k": "unit",
+      "p": [
+       128.9,
+       36.42
+      ],
+      "text": "북한군 12사단",
+      "color": "red",
+      "at": 0.5
+     },
+     {
+      "k": "unit",
+      "p": "pohang",
+      "text": "포항",
+      "color": "red",
+      "at": 1.2,
+      "pulse": true
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.3,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s68",
+   "lines": [
+    "포항 남쪽에는, 미 공군 전투기들이 뜨고 내리던 연일 비행장이 있었습니다.",
+    {
+     "t": "그런데 8월 13일, 미 극동공군은 끝내 이 비행장에서 전투기를 빼냅니다.",
+     "say": "그런데 팔월 십삼 일, 미 극동공군은 끝내 이 비행장에서 전투기를 빼냅니다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s68-photo",
+    "kb": "in"
+   },
+   "label": "한국전쟁의 미 공군 F-51 전투기 (1950)"
+  },
+  {
+   "id": "s69",
+   "lines": [
+    {
+     "t": "8월 11일 새벽, 포항여자중학교에는 학도의용군 71명이 남아 있었습니다.",
+     "say": "팔월 십일 일 새벽, 포항여자중학교에는 학도의용군 칠십일 명이 남아 있었습니다."
+    },
+    "총 쏘는 법을 겨우 며칠 배운 학생들이, 밀려오는 북한군 앞을 막아섰죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s69-photo",
+    "kb": "in"
+   },
+   "label": "전투로 폐허가 된 포항 시내 (1950. 10)",
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 0.4,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s70",
+   "lines": [
+    {
+     "t": "학생들은 11시간 가까이 학교를 지켜 냈습니다.",
+     "say": "학생들은 십일 시간 가까이 학교를 지켜 냈습니다."
+    },
+    {
+     "t": "그리고 그 가운데 48명이, 그 교정에서 돌아오지 못했습니다.",
+     "say": "그리고 그 가운데 사십팔 명이, 그 교정에서 돌아오지 못했습니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "71명의 학도병",
+    "style": "red",
+    "sub": "1950. 8. 11 · 포항여중 전투 · 48명 전사 (한국 측 기록)",
+    "subAt": 0.6
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s71",
+   "lines": [
+    {
+     "t": "그 사이 영덕 쪽 해안을 지키던 국군 제3사단은, 장사동 일대에서 북한군에게 포위됩니다.",
+     "say": "그 사이 영덕 쪽 해안을 지키던 국군 제삼 사단은, 장사동 일대에서 북한군에게 포위됩니다."
+    },
+    "등 뒤는 바다, 앞은 적이었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "east",
+    "to": "pohang",
+    "items": [
+     {
+      "k": "unit",
+      "p": "jangsa",
+      "text": "국군 3사단",
+      "color": "blue",
+      "at": 0.2,
+      "pulse": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        129.25,
+        36.4
+       ],
+       [
+        129.3,
+        36.33
+       ],
+       [
+        129.35,
+        36.3
+       ]
+      ],
+      "color": "red",
+      "at": 0.5,
+      "width": 0.8
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        129.3,
+        36.2
+       ],
+       [
+        129.33,
+        36.25
+       ],
+       [
+        129.36,
+        36.28
+       ]
+      ],
+      "color": "red",
+      "at": 0.7,
+      "width": 0.8
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1950. 8 중순 · 경북 영덕 장사동 일대",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s72",
+   "lines": [
+    {
+     "t": "8월 17일 새벽, 유엔 해군의 상륙함들이 해안으로 다가옵니다.",
+     "say": "팔월 십칠 일 새벽, 유엔 해군의 상륙함들이 해안으로 다가옵니다."
+    },
+    {
+     "t": "국군 제3사단 장병들은 포위망 속 해변에서 배에 올라, 남쪽 구룡포로 빠져나갔죠.",
+     "say": "국군 제삼 사단 장병들은 포위망 속 해변에서 배에 올라, 남쪽 구룡포로 빠져나갔죠."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "ship_evac",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "water",
+     "at": 0,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s73",
+   "lines": [
+    "철수하는 동안, 바다의 순양함들은 포위망을 향해 함포를 쏟아부었습니다.",
+    "바다는 이번만큼은 등 뒤의 벽이 아니라, 퇴로이자 방패가 되어 준 겁니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s73-photo",
+    "kb": "in"
+   },
+   "label": "한국 해안을 포격하는 미 순양함 헬레나호 (1950. 8)",
+   "sfx": [
+    {
+     "id": "artillery",
+     "at": 0.2,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s74",
+   "lines": [
+    "사단 하나가 통째로 바다로 빠져나가, 남쪽 해안에서 다시 싸움에 나선 것이죠.",
+    "이 철수는 낙동강 전투 가운데서도, 손꼽히는 극적인 장면으로 남았습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "pohang",
+    "to": "pohang",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        129.38,
+        36.29
+       ],
+       [
+        129.5,
+        36.2
+       ],
+       [
+        129.56,
+        36.05
+       ],
+       [
+        129.555,
+        35.995
+       ]
+      ],
+      "color": "blue",
+      "at": 0.1,
+      "width": 1.0
+     },
+     {
+      "k": "unit",
+      "p": "guryongpo",
+      "text": "구룡포",
+      "color": "blue",
+      "at": 0.9,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "국군 제3사단 해상 철수 · 1950. 8. 17 새벽",
+     "style": "blue",
+     "at": 0.3,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s75",
+   "lines": [
+    "한편 기계와 안강에서는, 국군 수도사단이 반격에 나섭니다.",
+    "미군 전차와 포병의 지원을 받아, 산속의 북한군을 거꾸로 몰아붙였죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "east",
+    "to": "east",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        129.4,
+        36.42
+       ],
+       [
+        129.2,
+        36.4
+       ],
+       [
+        128.98,
+        36.42
+       ],
+       [
+        128.75,
+        36.38
+       ],
+       [
+        128.52,
+        36.42
+       ],
+       [
+        128.33,
+        36.4
+       ],
+       [
+        128.36,
+        36.2
+       ],
+       [
+        128.39,
+        36.05
+       ],
+       [
+        128.41,
+        35.95
+       ],
+       [
+        128.45,
+        35.84
+       ],
+       [
+        128.42,
+        35.72
+       ],
+       [
+        128.36,
+        35.68
+       ],
+       [
+        128.38,
+        35.63
+       ],
+       [
+        128.35,
+        35.57
+       ],
+       [
+        128.4,
+        35.5
+       ],
+       [
+        128.4,
+        35.44
+       ],
+       [
+        128.43,
+        35.4
+       ],
+       [
+        128.4,
+        35.33
+       ],
+       [
+        128.35,
+        35.25
+       ],
+       [
+        128.37,
+        35.17
+       ],
+       [
+        128.44,
+        35.1
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "angang",
+      "text": "수도사단",
+      "color": "blue",
+      "at": 0.2
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        129.2,
+        35.98
+       ],
+       [
+        129.2,
+        36.06
+       ],
+       [
+        129.15,
+        36.15
+       ]
+      ],
+      "color": "blue",
+      "at": 0.5,
+      "width": 1.0
+     },
+     {
+      "k": "unit",
+      "p": "gigye",
+      "text": "기계",
+      "color": "red",
+      "at": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "id": "s76",
+   "lines": [
+    {
+     "t": "한국 측 기록으로, 수도사단은 이 싸움에서 북한군 1천245명을 사살합니다.",
+     "say": "한국 측 기록으로, 수도사단은 이 싸움에서 북한군 천이백사십오 명을 사살합니다."
+    },
+    {
+     "t": "8월 하순, 북한군 제12사단은 크게 줄어든 병력으로 산속으로 밀려났죠.",
+     "say": "팔월 하순, 북한군 제십이 사단은 크게 줄어든 병력으로 산속으로 밀려났죠."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "적 1,245명 사살",
+    "style": "red",
+    "sub": "안강·기계 전투 · 한국 측 기록",
+    "subAt": 0.4
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0.2,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s77",
+   "lines": [
+    "국군은 이 무렵, 하루가 다르게 다시 일어서고 있었습니다.",
+    "새 장비를 받은 부대들이, 줄지어 전선으로 향했죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s77-photo",
+    "kb": "in"
+   },
+   "label": "새 장비를 갖추고 전선으로 향하는 국군 (1950. 8)"
+  },
+  {
+   "id": "s78",
+   "lines": [
+    {
+     "t": "9월 초, 북한군은 이번에는 영천을 노립니다.",
+     "say": "구월 초, 북한군은 이번에는 영천을 노립니다."
+    },
+    "영천이 떨어지면 대구와 포항 사이가 끊기고, 방어선이 동서로 쪼개질 판이었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "east",
+    "to": "yc",
+    "items": [
+     {
+      "k": "unit",
+      "p": "yeongcheon",
+      "text": "영천",
+      "color": "blue",
+      "at": 0.2,
+      "pulse": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.85,
+        36.3
+       ],
+       [
+        128.92,
+        36.15
+       ],
+       [
+        128.94,
+        36.0
+       ]
+      ],
+      "color": "red",
+      "at": 0.5,
+      "width": 1.0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        128.601,
+        35.871
+       ],
+       [
+        128.938,
+        35.973
+       ],
+       [
+        129.211,
+        35.856
+       ]
+      ],
+      "color": "#FFD000",
+      "at": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "id": "s79",
+   "lines": [
+    {
+     "t": "9월 6일, 북한군 제15사단이 영천 시내로 뛰어듭니다.",
+     "say": "구월 육 일, 북한군 제십오 사단이 영천 시내로 뛰어듭니다."
+    },
+    {
+     "t": "국군 제8사단 오른쪽에 벌어진 14km의 빈틈을, 그대로 파고든 것이죠.",
+     "say": "국군 제팔 사단 오른쪽에 벌어진 십사 킬로미터의 빈틈을, 그대로 파고든 것이죠."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "tank_break",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "빈틈 14km · 한국 측 기록",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "tank",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s80",
+   "lines": [
+    "그러나 국군은 사방에서 병력을 끌어모아, 영천의 적을 거꾸로 에워쌉니다.",
+    {
+     "t": "9월 13일 무렵, 북한군 제15사단은 사실상 무너졌습니다.",
+     "say": "구월 십삼 일 무렵, 북한군 제십오 사단은 사실상 무너졌습니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "dawn_victory",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "bugle",
+     "at": 0.3,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s81",
+   "lines": [
+    "국군의 힘으로, 끊어지려던 방어선의 허리를 다시 이어 붙인 겁니다.",
+    "훗날 이 싸움은, 낙동강 전선의 흐름을 바꾼 대역전으로 기억되죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "영천 대역전",
+    "style": "yellow",
+    "sub": "1950. 9. 5 ~ 13 · 국군의 반격",
+    "subAt": 0.4
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0.2,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s82",
+   "lines": [
+    "이제 방어선의 남쪽 끝, 마산으로 가 보겠습니다.",
+    {
+     "t": "마산에서 부산까지는, 직선으로 50km 남짓이었습니다.",
+     "say": "마산에서 부산까지는, 직선으로 오십 킬로미터 남짓이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "perimeter",
+    "to": "masan",
+    "items": [
+     {
+      "k": "unit",
+      "p": "masan",
+      "text": "마산",
+      "color": "blue",
+      "at": 0.3,
+      "pulse": true
+     },
+     {
+      "k": "marker",
+      "p": "busan",
+      "color": "blue",
+      "at": 0.8
+     }
+    ]
+   },
+   "chapter": {
+    "num": "PART 5",
+    "title": "남쪽 관문 마산 서북산, 안개 속의 고지 쟁탈전"
+   }
+  },
+  {
+   "id": "s83",
+   "lines": [
+    {
+     "t": "진주를 빼앗은 북한군 제6사단은, 남해안 길을 따라 마산으로 밀고 들어옵니다.",
+     "say": "진주를 빼앗은 북한군 제육 사단은, 남해안 길을 따라 마산으로 밀고 들어옵니다."
+    },
+    {
+     "t": "이를 막아선 것은, 킨 소장이 이끄는 미 제25사단이었죠.",
+     "say": "이를 막아선 것은, 킨 소장이 이끄는 미 제이십오 사단이었죠."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "masan",
+    "to": "masan",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.085,
+        35.18
+       ],
+       [
+        128.25,
+        35.12
+       ],
+       [
+        128.42,
+        35.11
+       ]
+      ],
+      "color": "red",
+      "at": 0.1,
+      "width": 1.1
+     },
+     {
+      "k": "unit",
+      "p": "jinju",
+      "text": "진주",
+      "color": "red",
+      "at": 0.1
+     },
+     {
+      "k": "unit",
+      "p": [
+       128.47,
+       35.2
+      ],
+      "text": "미 25사단",
+      "color": "blue",
+      "at": 0.9
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.3,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s84",
+   "lines": [
+    {
+     "t": "8월 7일, 킨 소장은 오히려 서쪽으로 반격에 나섭니다.",
+     "say": "팔월 칠 일, 킨 소장은 오히려 서쪽으로 반격에 나섭니다."
+    },
+    "미군이 이 전쟁에서 처음 시도한, 사단급 반격 작전이었죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s84-photo",
+    "kb": "in"
+   },
+   "label": "미 제25사단장 킨 소장(왼쪽)과 제35연대장 피셔 대령 (1950. 9 무렵)"
+  },
+  {
+   "id": "s85",
+   "lines": [
+    {
+     "t": "진동리 서쪽 342고지에서는, 막 도착한 해병대가 처음으로 북한군과 맞섰습니다.",
+     "say": "진동리 서쪽 삼백사십이 고지에서는, 막 도착한 해병대가 처음으로 북한군과 맞섰습니다."
+    },
+    "찌는 듯한 더위 속에, 총탄보다 더위에 쓰러진 병사가 더 많았다고 전해지죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "masan",
+    "to": "masan",
+    "items": [
+     {
+      "k": "unit",
+      "p": [
+       128.43,
+       35.12
+      ],
+      "text": "342고지",
+      "color": "red",
+      "at": 0.3,
+      "pulse": true
+     },
+     {
+      "k": "unit",
+      "p": "jindong",
+      "text": "미 해병여단",
+      "color": "blue",
+      "at": 0.6
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1950. 8. 7~8 · 고지 위치는 개략",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 0.4,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s86",
+   "lines": [
+    "해병여단까지 붙인 '킨 특수임무부대'는, 남해안을 따라 고성 가까이까지 나아갑니다.",
+    {
+     "t": "하지만 북한군은 산길로 돌아 뒤를 끊었고, 반격은 8월 중순 끝내 멈춰 섰죠.",
+     "say": "하지만 북한군은 산길로 돌아 뒤를 끊었고, 반격은 팔월 중순 끝내 멈춰 섰죠."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "masan",
+    "to": "masan",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.48,
+        35.11
+       ],
+       [
+        128.38,
+        35.05
+       ],
+       [
+        128.33,
+        34.99
+       ]
+      ],
+      "color": "blue",
+      "at": 0.1,
+      "width": 1.0
+     },
+     {
+      "k": "unit",
+      "p": "goseong",
+      "text": "고성",
+      "color": "blue",
+      "at": 0.6
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.2,
+        35.3
+       ],
+       [
+        128.3,
+        35.25
+       ],
+       [
+        128.38,
+        35.18
+       ]
+      ],
+      "color": "red",
+      "at": 1.1,
+      "width": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "id": "s87",
+   "lines": [
+    {
+     "t": "8월 12일 밤, 후방의 한 협곡에서는 미군 포병 진지가 기습을 받아 큰 피해를 입었습니다.",
+     "say": "팔월 십이 일 밤, 후방의 한 협곡에서는 미군 포병 진지가 기습을 받아 큰 피해를 입었습니다."
+    },
+    "미군은 그곳을, '피의 협곡'이라 불렀죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "피의 협곡",
+    "style": "red",
+    "sub": "1950. 8. 12 밤 · 미군 포병 진지 피습",
+    "subAt": 0.4
+   },
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0.2,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s88",
+   "lines": [
+    {
+     "t": "반격이 멈춘 뒤, 미 제25사단은 마산 서쪽 산줄기에 방어선을 칩니다.",
+     "say": "반격이 멈춘 뒤, 미 제이십오 사단은 마산 서쪽 산줄기에 방어선을 칩니다."
+    },
+    {
+     "t": "그 한가운데 솟은 산이, 해발 738m의 서북산이었습니다.",
+     "say": "그 한가운데 솟은 산이, 해발 칠백삼십팔 미터의 서북산이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "masan",
+    "to": "sobuk",
+    "items": [
+     {
+      "k": "unit",
+      "p": "sobuk",
+      "text": "서북산 738m",
+      "color": "red",
+      "at": 0.8,
+      "pulse": true
+     },
+     {
+      "k": "marker",
+      "p": "haman",
+      "color": "blue",
+      "at": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "id": "s89",
+   "lines": [
+    "서북산과 그 옆 능선은, 마산으로 이어지는 남북 도로를 내려다보는 자리였습니다.",
+    "누구든 이 꼭대기를 쥐면, 마산 정면 전체를 굽어볼 수 있었죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s89-photo",
+    "kb": "in"
+   },
+   "label": "마산 일대에서 응사하는 미 제5연대전투단 박격포반 (1950)",
+   "sfx": [
+    {
+     "id": "artillery",
+     "at": 0.3,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s90",
+   "lines": [
+    "산은 자주 짙은 안개에 잠겼습니다.",
+    "북한군은 그 안개와 어둠을 틈타, 소리 없이 능선을 기어올라 왔죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "fog_mountain",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s91",
+   "lines": [
+    {
+     "t": "8월 중순부터 한 달 동안, 서북산 정상의 주인은 열아홉 번이나 바뀌었다고 전해집니다.",
+     "say": "팔월 중순부터 한 달 동안, 서북산 정상의 주인은 열아홉 번이나 바뀌었다고 전해집니다."
+    },
+    "미군은 이 일대 고지에, 그냥 '전투산'이라는 이름을 붙였죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "주인이 19번 바뀐 산",
+    "style": "red",
+    "sub": "서북산 일대 · 한국 측 전승 기록",
+    "subAt": 0.4
+   },
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 0.3,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s92",
+   "lines": [
+    "산 아래 마을들도, 전투의 불길을 피하지 못했습니다.",
+    "불탄 마을에서 다친 주민을 찾아낸 미군 병사가, 수통의 물을 건네는 모습이 사진으로 남아 있죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s92-photo",
+    "kb": "in"
+   },
+   "label": "서북산 전선의 불탄 마을에서 다친 주민에게 물을 건네는 미군 (1950)"
+  },
+  {
+   "id": "s93",
+   "lines": [
+    "피란민들은 다시 짐을 싸서, 더 남쪽으로 걸었습니다.",
+    "이제 그들에게 남은 땅은, 정말로 얼마 되지 않았죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s93-photo",
+    "kb": "in"
+   },
+   "label": "김해와 마산 사이 전투지에서 빠져나온 피란민 가족 (1950)"
+  },
+  {
+   "id": "s94",
+   "lines": [
+    {
+     "t": "그래도 미 제25사단은 마산 앞 산줄기를, 끝내 내주지 않았습니다.",
+     "say": "그래도 미 제이십오 사단은 마산 앞 산줄기를, 끝내 내주지 않았습니다."
+    },
+    {
+     "t": "9월 중순까지 이어진 공방 속에서도, 북한군은 마산 시내에 끝내 들어서지 못했죠.",
+     "say": "구월 중순까지 이어진 공방 속에서도, 북한군은 마산 시내에 끝내 들어서지 못했죠."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "sobuk",
+    "to": "masan",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.33,
+        35.33
+       ],
+       [
+        128.36,
+        35.27
+       ],
+       [
+        128.35,
+        35.21
+       ],
+       [
+        128.37,
+        35.16
+       ],
+       [
+        128.44,
+        35.1
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "masan",
+      "text": "마산",
+      "color": "blue",
+      "at": 0.8,
+      "pulse": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "s95",
+   "lines": [
+    "그런데 이 모든 위기를, 워커는 어떻게 한꺼번에 막아낼 수 있었을까요?"
+   ],
+   "visual": {
+    "type": "black",
+    "text": "240km의 위기",
+    "accent": "전선의 소방수",
+    "accentAt": 0.5
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ],
+   "pauseBefore": 0.5
+  },
+  {
+   "id": "s96",
+   "lines": [
+    "해답은, 불이 난 곳으로 달려가는 '소방대'에 있었습니다.",
+    "워커는 늘 손에 쥔 예비대를, 가장 위급한 곳으로 번개처럼 옮겼죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "perimeter",
+    "to": "perimeter",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        129.4,
+        36.42
+       ],
+       [
+        129.2,
+        36.4
+       ],
+       [
+        128.98,
+        36.42
+       ],
+       [
+        128.75,
+        36.38
+       ],
+       [
+        128.52,
+        36.42
+       ],
+       [
+        128.33,
+        36.4
+       ],
+       [
+        128.36,
+        36.2
+       ],
+       [
+        128.39,
+        36.05
+       ],
+       [
+        128.41,
+        35.95
+       ],
+       [
+        128.45,
+        35.84
+       ],
+       [
+        128.42,
+        35.72
+       ],
+       [
+        128.36,
+        35.68
+       ],
+       [
+        128.38,
+        35.63
+       ],
+       [
+        128.35,
+        35.57
+       ],
+       [
+        128.4,
+        35.5
+       ],
+       [
+        128.4,
+        35.44
+       ],
+       [
+        128.43,
+        35.4
+       ],
+       [
+        128.4,
+        35.33
+       ],
+       [
+        128.35,
+        35.25
+       ],
+       [
+        128.37,
+        35.17
+       ],
+       [
+        128.44,
+        35.1
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": [
+       128.75,
+       35.45
+      ],
+      "text": "예비대",
+      "color": "blue",
+      "at": 0.3,
+      "pulse": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.75,
+        35.45
+       ],
+       [
+        128.6,
+        35.3
+       ],
+       [
+        128.5,
+        35.2
+       ]
+      ],
+      "color": "blue",
+      "at": 0.7,
+      "width": 0.8
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.75,
+        35.45
+       ],
+       [
+        128.6,
+        35.46
+       ],
+       [
+        128.52,
+        35.46
+       ]
+      ],
+      "color": "blue",
+      "at": 0.9,
+      "width": 0.8
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.75,
+        35.45
+       ],
+       [
+        128.68,
+        35.7
+       ],
+       [
+        128.6,
+        35.95
+       ]
+      ],
+      "color": "blue",
+      "at": 1.1,
+      "width": 0.8
+     }
+    ]
+   },
+   "chapter": {
+    "num": "PART 6",
+    "title": "전선의 소방수들 — 기동 방어"
+   },
+   "sfx": [
+    {
+     "id": "whoosh",
+     "at": 0.6,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s97",
+   "lines": [
+    {
+     "t": "미 해병 제1임시여단의 8월은, 이렇게 흘러갔습니다.",
+     "say": "미 해병 제일 임시여단의 팔월은, 이렇게 흘러갔습니다."
+    },
+    {
+     "t": "마산에서 반격하다가 돌출부로 달려가고, 9월에는 다시 돌출부로 돌아왔죠.",
+     "say": "마산에서 반격하다가 돌출부로 달려가고, 구월에는 다시 돌출부로 돌아왔죠."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "perimeter",
+    "to": "west",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        129.04,
+        35.11
+       ],
+       [
+        128.8,
+        35.15
+       ],
+       [
+        128.5,
+        35.11
+       ]
+      ],
+      "color": "blue",
+      "at": 0,
+      "width": 0.9
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.5,
+        35.13
+       ],
+       [
+        128.65,
+        35.3
+       ],
+       [
+        128.746,
+        35.5
+       ],
+       [
+        128.53,
+        35.455
+       ]
+      ],
+      "color": "blue",
+      "at": 0.6,
+      "width": 0.9
+     },
+     {
+      "k": "unit",
+      "p": "jindong",
+      "text": "8. 7 진동리",
+      "color": "blue",
+      "at": 0.3
+     },
+     {
+      "k": "unit",
+      "p": "yongsan",
+      "text": "8. 17 돌출부",
+      "color": "blue",
+      "at": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "s98",
+   "lines": [
+    {
+     "t": "8월 2일 부산 상륙, 8월 7일 마산 진동리, 8월 17일 낙동강 돌출부.",
+     "say": "팔월 이 일 부산 상륙, 팔월 칠 일 마산 진동리, 팔월 십칠 일 낙동강 돌출부."
+    },
+    {
+     "t": "그리고 9월 3일, 다시 돌출부.",
+     "say": "그리고 구월 삼 일, 다시 돌출부."
+    }
+   ],
+   "visual": {
+    "type": "timeline",
+    "items": [
+     {
+      "date": "8. 2",
+      "text": "부산",
+      "at": 0
+     },
+     {
+      "date": "8. 7",
+      "text": "진동리",
+      "at": 0.3
+     },
+     {
+      "date": "8. 17",
+      "text": "돌출부",
+      "at": 0.7
+     },
+     {
+      "date": "9. 3",
+      "text": "다시 돌출부",
+      "at": 1.1
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "clock",
+     "at": 0,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s99",
+   "lines": [
+    "해병대는 트럭과 기차에 실려, 하룻밤 사이에 수십 킬로미터를 옮겨 다녔습니다.",
+    "그래서 붙은 별명이, '전선의 소방대'였죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "fire_brigade",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "tank",
+     "at": 0,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s100",
+   "lines": [
+    "육군에도 소방대가 있었습니다.",
+    {
+     "t": "'울프하운드'라 불린 미 제27보병연대는, 마산에서 다부동까지 위기마다 불려 다녔죠.",
+     "say": "'울프하운드'라 불린 미 제이십칠 보병연대는, 마산에서 다부동까지 위기마다 불려 다녔죠."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s100-photo",
+    "kb": "in"
+   },
+   "label": "참호에서 사격하는 미 제27보병연대 장병 (1950. 9. 4)",
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 0.3,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s101",
+   "lines": [
+    {
+     "t": "8월 18일, 이 연대는 다부동 계곡에서 국군 제1사단과 나란히 섭니다.",
+     "say": "팔월 십팔 일, 이 연대는 다부동 계곡에서 국군 제일 사단과 나란히 섭니다."
+    },
+    "북한군 전차가 밤마다 계곡 길을 굴러 내려온 이곳을, 미군은 '볼링장'이라 불렀죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "dabu",
+    "to": "dabu",
+    "items": [
+     {
+      "k": "unit",
+      "p": "dabu",
+      "text": "미 27연대",
+      "color": "blue",
+      "at": 0.1
+     },
+     {
+      "k": "unit",
+      "p": [
+       128.52,
+       36.07
+      ],
+      "text": "국군 1사단",
+      "color": "blue",
+      "at": 0.3
+     },
+     {
+      "k": "unit",
+      "p": [
+       128.6,
+       36.07
+      ],
+      "text": "국군 1사단",
+      "color": "blue",
+      "at": 0.3
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.565,
+        36.17
+       ],
+       [
+        128.562,
+        36.12
+       ],
+       [
+        128.558,
+        36.075
+       ]
+      ],
+      "color": "red",
+      "at": 0.7,
+      "width": 0.8
+     },
+     {
+      "k": "badge",
+      "p": [
+       128.58,
+       36.12
+      ],
+      "text": "볼링장",
+      "color": "red",
+      "at": 1.1
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "tank",
+     "at": 0.6,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s102",
+   "lines": [
+    "국군이 양쪽 능선을 붙잡고, 미군 전차와 포병이 계곡 바닥을 지켰습니다.",
+    "국군과 미군이 한 몸처럼 싸운, 낙동강 전선의 대표적인 장면이었죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "rok_us",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s103",
+   "lines": [
+    {
+     "t": "8월 중순부터는, 국군 신병들이 미군 부대에 직접 배속되기 시작합니다.",
+     "say": "팔월 중순부터는, 국군 신병들이 미군 부대에 직접 배속되기 시작합니다."
+    },
+    "카투사의 시작이었죠. 말도 잘 통하지 않는 두 나라 병사가, 한 참호에서 함께 싸우게 된 겁니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "카투사의 시작",
+    "style": "yellow",
+    "sub": "1950. 8 · 미군 부대에 배속된 국군 병사",
+    "subAt": 0.5
+   }
+  },
+  {
+   "id": "s104",
+   "lines": [
+    "전차 한 대, 대대 하나가 아쉬운 싸움이었습니다.",
+    "그래서 워커는 날마다 경비행기를 타고, 전선 위를 직접 날아다녔죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s104-photo",
+    "kb": "in"
+   },
+   "label": "낙동강 전선의 미군 M24 전차 승무원 (1950. 8. 17)"
+  },
+  {
+   "id": "s105",
+   "lines": [
+    "전선은 얇게 펴되, 예비대는 손에 쥐고 있다가,",
+    "적이 뚫고 들어온 곳에만 한꺼번에 몰아넣는 것. 이것이 워커의 기동 방어였습니다."
+   ],
+   "visual": {
+    "type": "document",
+    "org": "미 제8군",
+    "head": "기동 방어",
+    "stamp": "1950. 8",
+    "rows": [
+     "전선은 얇게, 예비대는 두텁게",
+     "철도·도로로 신속 이동",
+     "돌파 지점에 집중 투입",
+     "반격 뒤 곧바로 다음 위기로"
+    ],
+    "note": "기동 방어 개념 · 재구성 화면"
+   },
+   "sfx": [
+    {
+     "id": "typewriter",
+     "at": 0.2,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s106",
+   "lines": [
+    "그 사이 바다 건너에서는, 증원 병력이 쉬지 않고 들어왔습니다.",
+    {
+     "t": "미 제2사단만 해도, 8월 4일 4천9백여 명에서 9월 1일 1만 7천여 명으로 불어났죠.",
+     "say": "미 제이 사단만 해도, 팔월 사 일 사천구백여 명에서 구월 일 일 만 칠천여 명으로 불어났죠."
+    }
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "8월 4일",
+     "big": "4,922명",
+     "icon": "none",
+     "color": "blue"
+    },
+    "right": {
+     "title": "9월 1일",
+     "big": "17,498명",
+     "icon": "none",
+     "color": "blue",
+     "at": 1
+    }
+   },
+   "callouts": [
+    {
+     "text": "미 제2보병사단 병력 · 미군 기록 기준",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s107",
+   "lines": [
+    {
+     "t": "9월 초, 미군 기록으로 방어선 안의 유엔군은 약 18만 명.",
+     "say": "구월 초, 미군 기록으로 방어선 안의 유엔군은 약 십팔만 명."
+    },
+    {
+     "t": "공세를 앞둔 북한군은 약 9만 8천 명, 그 가운데 3분의 1은 점령지에서 급히 끌어모은 신병이었습니다.",
+     "say": "공세를 앞둔 북한군은 약 구만 팔천 명, 그 가운데 삼분의 일은 점령지에서 급히 끌어모은 신병이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "versus",
+    "left": {
+     "n": 5,
+     "label": "유엔군 약 18만",
+     "color": "blue"
+    },
+    "right": {
+     "n": 3,
+     "label": "북한군 약 9만 8천",
+     "color": "red"
+    },
+    "at": 0.5
+   },
+   "callouts": [
+    {
+     "text": "병력: 미군 기록 기준 (1950. 9 초)",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s108",
+   "lines": [
+    "그리고 그 무렵 도쿄에서는, 맥아더가 이 방어선을 믿고 인천 상륙을 준비하고 있었습니다.",
+    "낙동강이 버텨 주는 한, 적의 등 뒤를 칠 시간이 생기는 셈이었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "korea",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        129.4,
+        36.42
+       ],
+       [
+        129.2,
+        36.4
+       ],
+       [
+        128.98,
+        36.42
+       ],
+       [
+        128.75,
+        36.38
+       ],
+       [
+        128.52,
+        36.42
+       ],
+       [
+        128.33,
+        36.4
+       ],
+       [
+        128.36,
+        36.2
+       ],
+       [
+        128.39,
+        36.05
+       ],
+       [
+        128.41,
+        35.95
+       ],
+       [
+        128.45,
+        35.84
+       ],
+       [
+        128.42,
+        35.72
+       ],
+       [
+        128.36,
+        35.68
+       ],
+       [
+        128.38,
+        35.63
+       ],
+       [
+        128.35,
+        35.57
+       ],
+       [
+        128.4,
+        35.5
+       ],
+       [
+        128.4,
+        35.44
+       ],
+       [
+        128.43,
+        35.4
+       ],
+       [
+        128.4,
+        35.33
+       ],
+       [
+        128.35,
+        35.25
+       ],
+       [
+        128.37,
+        35.17
+       ],
+       [
+        128.44,
+        35.1
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "inchon",
+      "text": "인천",
+      "color": "blue",
+      "at": 0.6,
+      "pulse": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        129.6,
+        34.9
+       ],
+       [
+        127.5,
+        35.6
+       ],
+       [
+        126.7,
+        37.3
+       ]
+      ],
+      "color": "blue",
+      "at": 0.9,
+      "width": 0.8
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1950. 8 · 인천상륙작전 준비",
+     "style": "blue",
+     "at": 0.3,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s109",
+   "lines": [
+    {
+     "t": "8월 31일 밤, 북한군은 마지막 도박에 나섭니다.",
+     "say": "팔월 삼십일 일 밤, 북한군은 마지막 도박에 나섭니다."
+    },
+    "마산, 낙동강 돌출부, 왜관과 다부동, 영천, 그리고 경주. 다섯 방향에서 한꺼번에 공세가 시작되죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "perimeter",
+    "to": "perimeter",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        129.4,
+        36.42
+       ],
+       [
+        129.2,
+        36.4
+       ],
+       [
+        128.98,
+        36.42
+       ],
+       [
+        128.75,
+        36.38
+       ],
+       [
+        128.52,
+        36.42
+       ],
+       [
+        128.33,
+        36.4
+       ],
+       [
+        128.36,
+        36.2
+       ],
+       [
+        128.39,
+        36.05
+       ],
+       [
+        128.41,
+        35.95
+       ],
+       [
+        128.45,
+        35.84
+       ],
+       [
+        128.42,
+        35.72
+       ],
+       [
+        128.36,
+        35.68
+       ],
+       [
+        128.38,
+        35.63
+       ],
+       [
+        128.35,
+        35.57
+       ],
+       [
+        128.4,
+        35.5
+       ],
+       [
+        128.4,
+        35.44
+       ],
+       [
+        128.43,
+        35.4
+       ],
+       [
+        128.4,
+        35.33
+       ],
+       [
+        128.35,
+        35.25
+       ],
+       [
+        128.37,
+        35.17
+       ],
+       [
+        128.44,
+        35.1
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.15,
+        35.2
+       ],
+       [
+        128.3,
+        35.22
+       ],
+       [
+        128.4,
+        35.22
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.25,
+        35.48
+       ],
+       [
+        128.35,
+        35.47
+       ],
+       [
+        128.45,
+        35.465
+       ]
+      ],
+      "color": "red",
+      "at": 0.4,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.3,
+        36.1
+       ],
+       [
+        128.4,
+        36.05
+       ],
+       [
+        128.5,
+        36.0
+       ]
+      ],
+      "color": "red",
+      "at": 0.6,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.85,
+        36.3
+       ],
+       [
+        128.9,
+        36.15
+       ],
+       [
+        128.93,
+        36.02
+       ]
+      ],
+      "color": "red",
+      "at": 0.8,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        129.2,
+        36.25
+       ],
+       [
+        129.22,
+        36.1
+       ],
+       [
+        129.22,
+        35.95
+       ]
+      ],
+      "color": "red",
+      "at": 1.0,
+      "width": 1.0
+     }
+    ]
+   },
+   "chapter": {
+    "num": "PART 7",
+    "title": "8월 위기를 넘어 9월 총공세를 꺾다"
+   },
+   "sfx": [
+    {
+     "id": "artillery",
+     "at": 0.3,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s110",
+   "lines": [
+    {
+     "t": "북한군이 이 공세에 쏟아부은 병력은, 13개 사단에 이르렀습니다.",
+     "say": "북한군이 이 공세에 쏟아부은 병력은, 십삼 개 사단에 이르렀습니다."
+    },
+    "전쟁이 시작된 뒤, 가장 큰 공세였죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "9월 대공세",
+    "style": "red",
+    "sub": "북한군 13개 사단 · 1950. 9. 1",
+    "subAt": 0.4
+   },
+   "sfx": [
+    {
+     "id": "drum",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s111",
+   "lines": [
+    "가장 위험했던 곳은, 또다시 낙동강 돌출부였습니다.",
+    {
+     "t": "새로 투입된 미 제2사단의 전선이 뚫리고, 북한군은 영산 코앞까지 밀려 들어왔죠.",
+     "say": "새로 투입된 미 제이 사단의 전선이 뚫리고, 북한군은 영산 코앞까지 밀려 들어왔죠."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "bulge",
+    "to": "bulge",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.3561,
+        35.5906
+       ],
+       [
+        128.3503,
+        35.5534
+       ],
+       [
+        128.3506,
+        35.5406
+       ],
+       [
+        128.3912,
+        35.5096
+       ],
+       [
+        128.4244,
+        35.4905
+       ],
+       [
+        128.42,
+        35.4755
+       ],
+       [
+        128.3828,
+        35.4581
+       ],
+       [
+        128.3748,
+        35.4469
+       ],
+       [
+        128.3887,
+        35.4259
+       ],
+       [
+        128.4219,
+        35.416
+       ],
+       [
+        128.4411,
+        35.3885
+       ],
+       [
+        128.4746,
+        35.3808
+       ],
+       [
+        128.498,
+        35.3957
+       ],
+       [
+        128.5328,
+        35.3874
+       ],
+       [
+        128.5523,
+        35.3798
+       ]
+      ],
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.36,
+        35.5
+       ],
+       [
+        128.43,
+        35.48
+       ],
+       [
+        128.5,
+        35.46
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.38,
+        35.42
+       ],
+       [
+        128.44,
+        35.43
+       ],
+       [
+        128.5,
+        35.445
+       ]
+      ],
+      "color": "red",
+      "at": 0.4,
+      "width": 1.0
+     },
+     {
+      "k": "unit",
+      "p": [
+       128.4,
+       35.53
+      ],
+      "text": "북한군 9사단",
+      "color": "red",
+      "at": 0.5
+     },
+     {
+      "k": "unit",
+      "p": "yongsan",
+      "text": "영산",
+      "color": "blue",
+      "at": 1.0,
+      "pulse": true
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 0.4,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s112",
+   "lines": [
+    {
+     "t": "9월 3일, 해병여단이 다시 돌출부로 불려 옵니다.",
+     "say": "구월 삼 일, 해병여단이 다시 돌출부로 불려 옵니다."
+    },
+    {
+     "t": "8월에 피로 되찾았던 바로 그 능선을, 다시 빼앗으러 가는 길이었죠.",
+     "say": "팔월에 피로 되찾았던 바로 그 능선을, 다시 빼앗으러 가는 길이었죠."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s112-photo",
+    "kb": "in"
+   },
+   "label": "낙동강을 건너올 적에 대비하는 미 제9보병연대 전차 (1950. 9. 3)"
+  },
+  {
+   "id": "s113",
+   "lines": [
+    {
+     "t": "해병대와 미 제2사단은 영산 서쪽에서 반격해, 북한군을 다시 강 쪽으로 밀어냅니다.",
+     "say": "해병대와 미 제이 사단은 영산 서쪽에서 반격해, 북한군을 다시 강 쪽으로 밀어냅니다."
+    },
+    "영산 근처에는, 해병 전차에 격파된 북한군 전차들이 나뒹굴었죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s113-photo",
+    "kb": "in"
+   },
+   "label": "영산 부근에서 해병 전차에 격파된 북한군 T-34-85 (1950. 9. 3~4)",
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0.3,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s114",
+   "lines": [
+    {
+     "t": "남쪽 마산 전선에서도, 9월 1일 밤 함안 일대의 방어선이 뚫립니다.",
+     "say": "남쪽 마산 전선에서도, 구월 일 일 밤 함안 일대의 방어선이 뚫립니다."
+    },
+    {
+     "t": "미 제25사단은 후방의 지원 부대까지 끌어모아, 간신히 그 구멍을 틀어막았죠.",
+     "say": "미 제이십오 사단은 후방의 지원 부대까지 끌어모아, 간신히 그 구멍을 틀어막았죠."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "masan",
+    "to": "sobuk",
+    "items": [
+     {
+      "k": "unit",
+      "p": "haman",
+      "text": "함안",
+      "color": "red",
+      "at": 0.2,
+      "pulse": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.3,
+        35.3
+       ],
+       [
+        128.36,
+        35.285
+       ],
+       [
+        128.4,
+        35.27
+       ]
+      ],
+      "color": "red",
+      "at": 0.4,
+      "width": 0.8
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.5,
+        35.24
+       ],
+       [
+        128.45,
+        35.26
+       ],
+       [
+        128.42,
+        35.27
+       ]
+      ],
+      "color": "blue",
+      "at": 1.0,
+      "width": 0.8
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "artillery",
+     "at": 0.3,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s115",
+   "lines": [
+    {
+     "t": "대구 북쪽에서는, 해발 9백m의 가산이 북한군의 손에 넘어갑니다.",
+     "say": "대구 북쪽에서는, 해발 구백 미터의 가산이 북한군의 손에 넘어갑니다."
+    },
+    "다부동 일대가 다시 흔들리면서, 대구가 또 한 번 위태로워졌죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "waegwan",
+    "to": "dabu",
+    "items": [
+     {
+      "k": "unit",
+      "p": "gasan",
+      "text": "가산",
+      "color": "red",
+      "at": 0.2,
+      "pulse": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.63,
+        36.15
+       ],
+       [
+        128.632,
+        36.11
+       ],
+       [
+        128.632,
+        36.085
+       ]
+      ],
+      "color": "red",
+      "at": 0.3,
+      "width": 0.8
+     },
+     {
+      "k": "marker",
+      "p": "daegu",
+      "color": "blue",
+      "at": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "id": "s116",
+   "lines": [
+    {
+     "t": "한국 측 기록으로, 9월 5일 하루에만 미군 1천245명이 죽거나 다치거나 실종되었습니다.",
+     "say": "한국 측 기록으로, 구월 오 일 하루에만 미군 천이백사십오 명이 죽거나 다치거나 실종되었습니다."
+    },
+    "개전 이후 미군에게, 가장 끔찍한 하루 가운데 하나였죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "하루 1,245명",
+    "style": "red",
+    "sub": "1950. 9. 5 · 미군 손실 · 한국 측 기록",
+    "subAt": 0.4
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s117",
+   "lines": [
+    {
+     "t": "이 무렵 워커는, 미 제8군 사령부를 대구에서 부산으로 옮깁니다.",
+     "say": "이 무렵 워커는, 미 제팔 군 사령부를 대구에서 부산으로 옮깁니다."
+    },
+    "최악의 경우에 대비해, 더 뒤쪽 방어선까지 미리 그어 두었죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s117-photo",
+    "kb": "in"
+   },
+   "label": "맥아더 원수와 워커 중장 (한국전쟁)"
+  },
+  {
+   "id": "s118",
+   "lines": [
+    "하지만 전선의 부대에게는, 물러나라는 명령이 끝내 내려가지 않았습니다.",
+    "워커 자신도 지프와 경비행기로, 하루도 빠짐없이 전선을 누볐죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "walker_jeep",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.3,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s119",
+   "lines": [
+    {
+     "t": "그렇게 2주. 방어선은 곳곳이 휘고 찢어졌지만, 끝내 끊어지지는 않았습니다.",
+     "say": "그렇게 이 주. 방어선은 곳곳이 휘고 찢어졌지만, 끝내 끊어지지는 않았습니다."
+    },
+    {
+     "t": "9월 중순, 북한군의 공세는 마침내 힘을 잃고 멈춰 섭니다.",
+     "say": "구월 중순, 북한군의 공세는 마침내 힘을 잃고 멈춰 섭니다."
+    }
+   ],
+   "visual": {
+    "type": "weekbar",
+    "title": "9월 공세 2주",
+    "days": [
+     "9.1",
+     "9.3",
+     "9.5",
+     "9.7",
+     "9.9",
+     "9.11",
+     "9.13"
+    ],
+    "start": 0,
+    "mark": 6,
+    "markText": "9.13 영천 회복",
+    "at": 0.5,
+    "hold": [
+     0,
+     5
+    ],
+    "holdText": "방어선 사수"
+   },
+   "sfx": [
+    {
+     "id": "clock",
+     "at": 0.3,
+     "volume": 0.34
+    }
+   ]
+  },
+  {
+   "id": "s120",
+   "lines": [
+    "탄약도, 식량도, 보충병도 바닥난 북한군에게는, 더 밀어붙일 힘이 남아 있지 않았죠.",
+    "그들의 보급로는 미군 폭격기 아래에서, 이미 수백 킬로미터나 늘어나 있었습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s120-photo",
+    "kb": "in"
+   },
+   "label": "격파된 북한군 T-34 전차 (1950. 9)"
+  },
+  {
+   "id": "s121",
+   "lines": [
+    "낙동강 방어선이 끝까지 버틸 수 있었던 이유.",
+    "네 가지로 정리해 보겠습니다."
+   ],
+   "visual": {
+    "type": "factors",
+    "items": [
+     "물러서지 않은 결단",
+     "강이라는 해자",
+     "기동 예비대",
+     "하늘과 바다의 화력"
+    ],
+    "head": "낙동강을 지킨 4가지",
+    "at": 1
+   }
+  },
+  {
+   "id": "s122",
+   "lines": [
+    "첫째, 물러서지 않은 결단입니다.",
+    "버티거나 죽거나. 이 단순한 명령이, 무너지던 군대에게 설 자리를 정해 주었죠."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s122-photo",
+    "num": "요인 1",
+    "title": "물러서지 않은 결단"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s123",
+   "lines": [
+    "둘째, 강이라는 해자입니다.",
+    "낙동강은 적의 전차와 보급을 강물 앞에서 멈춰 세운, 가장 길고 튼튼한 방벽이었습니다."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s123-photo",
+    "num": "요인 2",
+    "title": "강이라는 해자"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s124",
+   "lines": [
+    "셋째, 기동 예비대입니다.",
+    {
+     "t": "해병여단과 제27연대 같은 소방대가, 뚫린 곳마다 제때 도착했죠.",
+     "say": "해병여단과 제이십칠 연대 같은 소방대가, 뚫린 곳마다 제때 도착했죠."
+    }
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s124-photo",
+    "num": "요인 3",
+    "title": "기동 예비대"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s125",
+   "lines": [
+    "넷째, 하늘과 바다의 화력입니다.",
+    "전투기와 폭격기, 그리고 해안의 함포가, 낮 동안 북한군의 발을 묶어 두었습니다."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "q": "s125-photo",
+    "num": "요인 4",
+    "title": "하늘과 바다의 화력"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s126",
+   "lines": [
+    {
+     "t": "9월 15일 새벽, 낙동강에서 멀리 떨어진 서해의 인천 앞바다.",
+     "say": "구월 십오 일 새벽, 낙동강에서 멀리 떨어진 서해의 인천 앞바다."
+    },
+    {
+     "t": "7만여 명의 유엔군이, 북한군의 등 뒤로 상륙합니다.",
+     "say": "칠만여 명의 유엔군이, 북한군의 등 뒤로 상륙합니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "korea",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        129.4,
+        36.42
+       ],
+       [
+        129.2,
+        36.4
+       ],
+       [
+        128.98,
+        36.42
+       ],
+       [
+        128.75,
+        36.38
+       ],
+       [
+        128.52,
+        36.42
+       ],
+       [
+        128.33,
+        36.4
+       ],
+       [
+        128.36,
+        36.2
+       ],
+       [
+        128.39,
+        36.05
+       ],
+       [
+        128.41,
+        35.95
+       ],
+       [
+        128.45,
+        35.84
+       ],
+       [
+        128.42,
+        35.72
+       ],
+       [
+        128.36,
+        35.68
+       ],
+       [
+        128.38,
+        35.63
+       ],
+       [
+        128.35,
+        35.57
+       ],
+       [
+        128.4,
+        35.5
+       ],
+       [
+        128.4,
+        35.44
+       ],
+       [
+        128.43,
+        35.4
+       ],
+       [
+        128.4,
+        35.33
+       ],
+       [
+        128.35,
+        35.25
+       ],
+       [
+        128.37,
+        35.17
+       ],
+       [
+        128.44,
+        35.1
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        125.6,
+        36.4
+       ],
+       [
+        126.1,
+        37.1
+       ],
+       [
+        126.55,
+        37.45
+       ]
+      ],
+      "color": "blue",
+      "at": 0.3,
+      "width": 1.3
+     },
+     {
+      "k": "unit",
+      "p": "inchon",
+      "text": "인천",
+      "color": "blue",
+      "at": 0.9,
+      "pulse": true
+     }
+    ]
+   },
+   "chapter": {
+    "num": "에필로그",
+    "title": "낙동강을 지켜냈기에 가능했던 인천의 기적"
+   },
+   "sfx": [
+    {
+     "id": "whoosh",
+     "at": 0.3,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s127",
+   "lines": [
+    "인천상륙작전이었습니다.",
+    "북한군 주력이 모두 낙동강에 묶여 있었기에, 인천의 수비는 허술할 수밖에 없었죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "tide_dawn",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.3,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s128",
+   "lines": [
+    {
+     "t": "다음 날인 9월 16일, 낙동강의 유엔군도 일제히 반격에 나섭니다.",
+     "say": "다음 날인 구월 십육 일, 낙동강의 유엔군도 일제히 반격에 나섭니다."
+    },
+    {
+     "t": "6주 동안 바다를 등지고 버틴 군대가, 마침내 북쪽으로 몰려 나간 것이죠.",
+     "say": "육 주 동안 바다를 등지고 버틴 군대가, 마침내 북쪽으로 몰려 나간 것이죠."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "perimeter",
+    "to": "korea",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        129.4,
+        36.42
+       ],
+       [
+        129.2,
+        36.4
+       ],
+       [
+        128.98,
+        36.42
+       ],
+       [
+        128.75,
+        36.38
+       ],
+       [
+        128.52,
+        36.42
+       ],
+       [
+        128.33,
+        36.4
+       ],
+       [
+        128.36,
+        36.2
+       ],
+       [
+        128.39,
+        36.05
+       ],
+       [
+        128.41,
+        35.95
+       ],
+       [
+        128.45,
+        35.84
+       ],
+       [
+        128.42,
+        35.72
+       ],
+       [
+        128.36,
+        35.68
+       ],
+       [
+        128.38,
+        35.63
+       ],
+       [
+        128.35,
+        35.57
+       ],
+       [
+        128.4,
+        35.5
+       ],
+       [
+        128.4,
+        35.44
+       ],
+       [
+        128.43,
+        35.4
+       ],
+       [
+        128.4,
+        35.33
+       ],
+       [
+        128.35,
+        35.25
+       ],
+       [
+        128.37,
+        35.17
+       ],
+       [
+        128.44,
+        35.1
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.4,
+        35.95
+       ],
+       [
+        127.9,
+        36.4
+       ],
+       [
+        127.4,
+        36.8
+       ],
+       [
+        127.07,
+        37.15
+       ]
+      ],
+      "color": "blue",
+      "at": 0.2,
+      "width": 1.2
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        129.3,
+        36.1
+       ],
+       [
+        129.2,
+        36.8
+       ],
+       [
+        128.9,
+        37.5
+       ]
+      ],
+      "color": "blue",
+      "at": 0.5,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.65,
+        37.45
+       ],
+       [
+        126.9,
+        37.3
+       ],
+       [
+        127.07,
+        37.15
+       ]
+      ],
+      "color": "blue",
+      "at": 0.8,
+      "width": 1.0
+     },
+     {
+      "k": "unit",
+      "p": "osan",
+      "text": "오산",
+      "color": "blue",
+      "at": 1.3
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "bugle",
+     "at": 0.4,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s129",
+   "lines": [
+    "포항으로, 왜관으로, 국군과 유엔군이 다시 돌아왔습니다.",
+    {
+     "t": "그리고 9월 하순, 오산 근처에서 남쪽과 북쪽의 유엔군이 마침내 손을 맞잡죠.",
+     "say": "그리고 구월 하순, 오산 근처에서 남쪽과 북쪽의 유엔군이 마침내 손을 맞잡죠."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s129-photo",
+    "kb": "in"
+   },
+   "label": "노획한 박격포를 싣고 포항으로 돌아오는 국군 (1950. 10. 1)"
+  },
+  {
+   "id": "s130",
+   "lines": [
+    "만약 낙동강 방어선이 무너졌다면, 인천상륙작전도 없었을 겁니다.",
+    "상륙한 군대가 손을 맞잡을 동료도, 되찾을 나라의 터전도 남아 있지 않았을 테니까요."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "낙동강이 없었다면",
+    "style": "yellow",
+    "sub": "인천의 기적도 없었다",
+    "subAt": 0.6
+   }
+  },
+  {
+   "id": "s131",
+   "lines": [
+    "그해 여름, 낙동강 방어선에서 쓰러진 국군과 유엔군은 수만 명에 이릅니다.",
+    "이름 없이 산에 묻힌 학도병과 지게부대도, 그 안에 있었죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s131-photo",
+    "kb": "in"
+   },
+   "label": "오늘날의 낙동강 (경남 창원 북면 부근)",
+   "sfx": [
+    {
+     "id": "birds",
+     "at": 0,
+     "volume": 0.25
+    }
+   ]
+  },
+  {
+   "id": "s132",
+   "lines": [
+    {
+     "t": "그리고 그해 겨울, 12월 23일.",
+     "say": "그리고 그해 겨울, 십이월 이십삼 일."
+    },
+    "워커 장군은 전선으로 향하던 길에, 서울 북쪽에서 지프 사고로 세상을 떠납니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "1950. 12. 23",
+    "accent": "워커 장군 순직",
+    "accentAt": 1
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s133",
+   "lines": [
+    "그의 외아들 샘 워커 대위도, 이 전쟁에서 보병 중대장으로 싸우고 있었습니다.",
+    "아들은 아버지의 유해를 모시고, 고국으로 돌아갔죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "아버지와 아들",
+    "style": "yellow",
+    "sub": "워커 장군과 외아들 샘 워커 대위",
+    "subAt": 0.5
+   }
+  },
+  {
+   "id": "s134",
+   "lines": [
+    "서울의 '워커힐'이라는 이름은, 바로 이 장군을 기리기 위해 붙여진 것이죠.",
+    "그가 '버티거나 죽거나'를 외쳤던 강은, 오늘도 말없이 남쪽 바다로 흘러가고 있습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "q": "s134-photo",
+    "kb": "in"
+   },
+   "label": "오늘날의 낙동강"
+  },
+  {
+   "id": "s135",
+   "lines": [
+    "오늘 경북 칠곡 왜관에는, 그 여름을 기억하는 호국평화기념관이 서 있습니다.",
+    "끊어졌던 왜관철교 옆 강변에서는, 해마다 낙동강 방어선 전투를 기리는 행사가 열리죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "waegwan",
+    "to": "waegwan_z",
+    "items": [
+     {
+      "k": "unit",
+      "p": "bridge",
+      "text": "왜관철교",
+      "color": "blue",
+      "at": 0.3
+     },
+     {
+      "k": "badge",
+      "p": [
+       128.41,
+       36.0
+      ],
+      "text": "칠곡 호국평화기념관",
+      "color": "#22594a",
+      "at": 0.9,
+      "dy": -90
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "birds",
+     "at": 0,
+     "volume": 0.25
+    }
+   ]
+  },
+  {
+   "id": "s136",
+   "lines": [
+    "이 기록이 의미 있으셨다면, 구독과 좋아요로 함께해 주십시오.",
+    "물러설 곳 없던 그 강의 이야기를, 다음 편에서도 이어 가겠습니다."
+   ],
+   "visual": {
+    "type": "endcard",
+    "title": "1950년 여름, 낙동강.\n물러서지 않았기에 지켜 낸 나라.",
+    "q": "s136-photo"
+   },
+   "tail": 3.0
+  }
+ ]
+}
