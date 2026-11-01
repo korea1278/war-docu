@@ -178,7 +178,7 @@
 | 항목 | 값 |
 |---|---|
 | 러닝타임 | **8분 20초~8분 30초** (중간 광고). `timeline.py`가 장면 간격을 0.35~0.55초에서 자동 조정해 `target_sec`에 맞춤. 10초 넘게 벗어나면 대본 분량 조정 |
-| 해상도 / 인코딩 | 1920×1080, 30fps, H.264 `--crf=20 --x264-preset=veryfast --concurrency=4`, AAC 192k |
+| 해상도 / 인코딩 | 1920×1080, 30fps, H.264 `--video-bitrate=8M --x264-preset=veryfast --concurrency=4`, AAC 192k (2026-11-01 변경: crf 20은 23분 영상이 2GB를 넘어 Releases 업로드 실패(HTTP 422) → 8Mbps 고정, 23분 약 1.4GB. 렌더 후 1.9GB 초과 시 1.5GB 목표로 자동 재인코딩. Releases 스텝 `continue-on-error`, Artifacts 백업은 `if: always()`) |
 | 음량 | 렌더 후 `loudnorm` -15 LUFS |
 | 한국어 나레이션 | ElevenLabs 목소리 `ZJCNdZEjYwkOElxugmW2`, 1.05배속(`tighten.py`, 피치 유지) |
 | 영문 나레이션 | ElevenLabs 'Adam' `pNInz6obpgDQGcFmaJgB`, 1.02배속 |

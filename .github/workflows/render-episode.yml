@@ -183,7 +183,7 @@ jobs:
           export TMPDIR=$PWD/out/tmp && mkdir -p $TMPDIR && df -h /tmp | tail -1
           set -o pipefail
           if ! npx remotion render out/bundle Documentary out/$EP.mp4 \
-            --props="{\"ep\":\"$EP\"}" --concurrency=4 --codec=h264 --crf=20 --x264-preset=veryfast \
+            --props="{\"ep\":\"$EP\"}" --concurrency=4 --codec=h264 --video-bitrate=8M --x264-preset=veryfast \
             --audio-bitrate=192k --timeout=120000 --log=info 2>&1 | tee out/render.log; then
             { echo "== $EP 렌더 실패 $(date -u)"; df -h . | tail -1; free -m | head -2; tail -80 out/render.log; } > logs/render_fail_$EP.txt
             git config user.name "war-docu-bot"; git config user.email "actions@users.noreply.github.com"
@@ -193,9 +193,20 @@ jobs:
           # 유튜브 기준 음량 맞추기 (-15 LUFS), 영상은 그대로 복사
           ffmpeg -y -v error -i out/$EP.mp4 -c:v copy -af loudnorm=I=-15:TP=-1.5:LRA=11 -c:a aac -b:a 192k out/final.mp4
           mv out/final.mp4 out/$EP.mp4
+          # 안전장치 (2026-11-01, EP16 naktong 2GB 초과로 Releases 업로드 실패): 1.9GB를 넘으면 목표 1.5GB 비트레이트로 다시 인코딩
+          SIZE=$(stat -c %s out/$EP.mp4); echo "MP4 용량: $((SIZE/1024/1024)) MB"
+          if [ "$SIZE" -gt 1900000000 ]; then
+            DUR=$(ffprobe -v error -show_entries format=duration -of csv=p=0 out/$EP.mp4)
+            VB=$(python3 -c "print(int(1500*8*1024/float('$DUR') - 200))")
+            echo "용량 초과 → ${VB}k로 재인코딩"
+            ffmpeg -y -v error -i out/$EP.mp4 -c:v libx264 -preset veryfast -b:v ${VB}k -maxrate $((VB*3/2))k -bufsize $((VB*2))k -c:a copy -movflags +faststart out/small.mp4
+            mv out/small.mp4 out/$EP.mp4
+            echo "재인코딩 후: $(( $(stat -c %s out/$EP.mp4)/1024/1024 )) MB"
+          fi
 
       - name: 결과물 올리기 (Releases)
         if: inputs.mode == 'full'
+        continue-on-error: true   # 릴리스가 실패해도(용량 제한 등) 아래 Artifacts 백업은 진행
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -204,9 +215,12 @@ jobs:
             --title "$EP 완성 영상 ($(date +%m/%d\ %H:%M))" --notes "Actions에서 자동 생성된 영상입니다."
 
       - name: 결과물 올리기 (Artifacts 백업)
-        if: inputs.mode == 'full'
+        if: always() && inputs.mode == 'full'   # 앞 단계 성공·실패와 상관없이 항상 백업 (Artifacts는 5GB까지)
         uses: actions/upload-artifact@v4
         with:
           name: ${{ inputs.episode }}-video
-          path: out/${{ inputs.episode }}.mp4
+          path: |
+            out/${{ inputs.episode }}.mp4
+            public/ep/${{ inputs.episode }}/${{ inputs.episode }}.srt
+          if-no-files-found: warn
           retention-days: 3   # 3일 뒤 자동 삭제 (영상 원본은 Releases에 보관)
