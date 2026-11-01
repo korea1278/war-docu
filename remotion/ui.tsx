@@ -1,6 +1,6 @@
 import React, { createContext, useContext } from "react";
 import { AbsoluteFill, Img, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
-import { atSec, C, clamp, easeOut, F, popIn, Scene } from "./theme";
+import { atSec, C, clamp, easeOut, F, fitFont, NOBREAK, popIn, Scene } from "./theme";
 
 export const SceneCtx = createContext<Scene | null>(null);
 export const useScene = () => useContext(SceneCtx)!;
@@ -149,12 +149,15 @@ export const LabelBox: React.FC<{ label?: string | null; credit?: string | null 
 };
 
 /* ---------------- 강조 박스 ---------------- */
-export const CalloutBox: React.FC<{ text: string; style: "red" | "yellow" | "dark" | "blue"; size?: number; scale?: number }> = ({
+export const CalloutBox: React.FC<{ text: string; style: "red" | "yellow" | "dark" | "blue"; size?: number; scale?: number; maxW?: number }> = ({
   text,
   style,
   size = 74,
   scale = 1,
+  maxW = 1760,
 }) => {
+  // 2026-11-01 줄바꿈 패치 보강: 박스(pre)가 화면 밖으로 넘치지 않게 한 줄 폭에 맞춰 글자 크기 자동 축소 (좌우 패딩 60px 제외)
+  const fs = fitFont(text, Math.max(120, maxW / Math.max(scale, 0.01) - 60), size, Math.min(size, 34));
   const bg = style === "red" ? C.red : style === "yellow" ? C.yellow : style === "blue" ? C.blue : "#0f0f0f";
   const fg = style === "yellow" ? "#111" : "#fff";
   return (
@@ -164,9 +167,10 @@ export const CalloutBox: React.FC<{ text: string; style: "red" | "yellow" | "dar
         background: bg,
         color: fg,
         fontFamily: F.head,
-        fontSize: size,
+        fontSize: fs,
         lineHeight: 1.12,
         padding: "10px 30px 6px",
+        ...NOBREAK,
         border: style === "dark" ? "4px solid #fff" : "none",
         boxShadow: "0 8px 26px rgba(0,0,0,.45)",
         transform: `scale(${scale})`,

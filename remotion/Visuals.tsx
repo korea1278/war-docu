@@ -240,7 +240,7 @@ const TimelineV: React.FC = () => {
           <div key={i} style={{ position: "absolute", left: x, top: 474, transform: `translate(-50%,-50%)` }}>
             <div style={{ width: 44, height: 44, borderRadius: 99, background: C.red, border: "6px solid #fff", margin: "0 auto", transform: `scale(${k})` }} />
             <div style={{ position: "absolute", left: "50%", bottom: 70, transform: `translateX(-50%) scale(${k})`, textAlign: "center" }}>
-              <CalloutBox text={it.text} style="red" size={70} />
+              <CalloutBox text={it.text} style="red" size={70} maxW={1520 / n - 16} />
             </div>
             <div style={{ position: "absolute", left: "50%", top: 70, transform: "translateX(-50%)", fontFamily: F.head, fontSize: 56, color: "#fff", whiteSpace: "nowrap", opacity: clamp(k) }}>
               {it.date}
@@ -481,7 +481,7 @@ const BarsV: React.FC = () => {
           const w = Math.max(0.02, it.value / max) * 820 * k;
           return (
             <div key={i} style={{ display: "flex", alignItems: "center", marginBottom: 56, opacity: clamp((t - s0) * 4) }}>
-              <div style={{ width: 380, fontFamily: F.head, fontSize: 52, color: "#fff", textAlign: "right", paddingRight: 30 }}>{it.label}</div>
+              <div style={{ ...NOBREAK, width: 380, fontFamily: F.head, fontSize: fitFont(it.label, 350, 52, 32), color: "#fff", textAlign: "right", paddingRight: 30, whiteSpace: "nowrap" }}>{it.label}</div>
               <div style={{ height: 92, width: w, background: col, boxShadow: "0 6px 18px rgba(0,0,0,.4)" }} />
               <div style={{ fontFamily: F.head, fontSize: 64, whiteSpace: "nowrap", color: it.color === "red" ? "#ffb3b3" : "#b9cfff", marginLeft: 26, opacity: clamp((t - s0 - 0.6) * 3) }}>{it.display}</div>
             </div>
