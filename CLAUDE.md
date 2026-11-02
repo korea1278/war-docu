@@ -96,7 +96,13 @@
    - `curl -L -H "Authorization: token $(gh auth token)" -H "Accept: application/octet-stream" https://api.github.com/repos/korea1278/war-docu/releases/assets/<id>`
    - 길이 8:15~8:30(영문판 +10초까지 허용), 음량 -15 LUFS ±1 (`ffmpeg -af ebur128`), 장면 샘플 프레임 육안 확인(**지도 장면 프레임을 반드시 1장 이상 포함해 자막 확인**), SRT 확인
    - `logs/errors.txt`에 경고가 있으면 원인 해결 후 재실행
-9. **썸네일** — ★ **공통 썸네일 표준 (2026-10-25 사용자 확정 · EP09부터 모든 새 에피소드 A안 기본, 새 세션에서도 그대로 적용)**
+9. **썸네일** — ★★★ **썸네일 표준 v3 = '선 넘는 지도' 스타일 (2026-11-02 사용자 지정 · EP15 낙동강(`naktong`)·EP16 도솔산부터 한국어 A안 기본 — 아래 v2(EP09 피의 능선 기준)보다 우선)**
+   - 구현: `remotion/FrontThumb.tsx`의 `FRONT` 표에 에피소드 한 줄 → `Thumbnail` 한국어 A안이 이 디자인(1920×1080)으로 렌더. 기준 결과물 `thumbnails/naktong_ko_A.png`, `thumbnails/ep16-dosolsan_ko_A.png`
+   - 규격은 레퍼런스(1280×720) 단위로 적고 1.5배로 출력: 우측 상단 시대 뱃지(X 1040·Y 40, 반투명 다크 박스, 흰 굵은 28px) / 지명·좌표 라벨 전부 숨김 / 하단 40% 강한 블랙 그라데이션 / 하단 중앙 2줄 Black Han Sans — Line 1 흰색 68~72px·5px 검정 외곽선, Line 2 `#FFD000` 78~84px·6px 외곽선, line-height 1.15, 오른쪽 120px은 재생시간 배지 자리로 비움 (길면 규격 안에서 자동 축소). 인물 누끼·스탬프 없음
+   - 지도: 컬러 지형(`public/geo/thumbc/<래스터>.webp` — 새 래스터는 `python3 pipeline/thumb_color.py <이름…>`로 만들어 커밋). `front`(아군 방어선 = 형광 블루 `#00E5FF` 네온, 적 영역 경계) + `enemyClose`(화면 밖으로 돌아 닫는 점) = 붉게 달군 적 공세 영역, `fires`(불길·불씨·포연 중심), `arrows`(red = 적 돌격 / cyan = 아군 돌격), `points`(아군 거점 빛나는 점), `river`(선택)
+   - 썸네일 PNG가 2MB를 넘으면 업로드용 `_ko_A.jpg`도 만들어 JPG로 전달
+   - (이전) v2 표준은 아래 그대로 기록용 — `FRONT`에 없는 에피소드의 A안·영문 A안은 여전히 `MAPT`(v2)로 렌더됨
+   - (v2) **썸네일** — ★ **공통 썸네일 표준 (2026-10-25 사용자 확정 · EP09부터 모든 새 에피소드 A안 기본, 새 세션에서도 그대로 적용)**
    - 구현: `remotion/MapThumb.tsx`의 `MAPT` 표에 에피소드 한 줄 추가 → `Thumbnail`이 A안을 이 표준으로 렌더(`Root.tsx`가 자동으로 **1920×1080**).
    - ★★ **기준 결과물 = `thumbnails/bloodyridge_ko_A.png`, `_en_A.png` (2026-10-26 사용자 최종 확정 — "앞으로 썸네일이 이렇게 나오도록")**. 새 에피소드 썸네일은 반드시 이 두 장과 같은 모양·글꼴·배치로 만들고, 렌더 후 나란히 놓고 비교할 것. 사용자가 바꾸라고 하기 전에는 디자인을 임의로 바꾸지 말 것
    - **새 에피소드 썸네일 절차 (체크리스트)**

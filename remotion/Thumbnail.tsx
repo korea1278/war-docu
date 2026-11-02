@@ -3,6 +3,7 @@ import { AbsoluteFill, Img, staticFile } from "remotion";
 import "@fontsource/bebas-neue/400.css";
 import { C, F, setLang } from "./theme";
 import { MAPT, MapThumb } from "./MapThumb";
+import { FRONT, FrontThumb } from "./FrontThumb";
 
 const big = (size: number, color: string, stroke = "#000", sw = 10): React.CSSProperties => ({
   fontFamily: F.head,
@@ -420,6 +421,8 @@ export const Thumbnail: React.FC<{ ep: string; variant: "A" | "A2" | "A3" | "B";
   setLang(lang);
   const refKey = ep.replace(/_en$/, "");
   const refD = (lang === "en" ? REF_EN : REF)[refKey];
+  // ★ 썸네일 표준 v3 ('선 넘는 지도' 스타일, 2026-11-02~): FRONT 표에 있는 에피소드는 한국어 A안을 이 디자인으로
+  if (variant === "A" && lang !== "en" && FRONT[refKey]) return <FrontThumb d={FRONT[refKey]} />;
   // 공통 썸네일 표준(MAPT, 1920×1080)이 있는 에피소드는 A안을 이 표준으로
   if (variant === "A" && MAPT[refKey]) return <MapThumb a={refKey} d={MAPT[refKey]} en={lang === "en"} />;
   // EP16: 카피 시안 2·3 (같은 배경·인물, 한국어 문구만 교체)
