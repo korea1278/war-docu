@@ -416,12 +416,18 @@ const SplitThumb: React.FC<{ a: string; d: RefDef; en?: boolean }> = ({ a, d, en
   );
 };
 
-export const Thumbnail: React.FC<{ ep: string; variant: "A" | "B"; lang?: string }> = ({ ep, variant, lang }) => {
+export const Thumbnail: React.FC<{ ep: string; variant: "A" | "A2" | "A3" | "B"; lang?: string }> = ({ ep, variant, lang }) => {
   setLang(lang);
   const refKey = ep.replace(/_en$/, "");
   const refD = (lang === "en" ? REF_EN : REF)[refKey];
   // 공통 썸네일 표준(MAPT, 1920×1080)이 있는 에피소드는 A안을 이 표준으로
   if (variant === "A" && MAPT[refKey]) return <MapThumb a={refKey} d={MAPT[refKey]} en={lang === "en"} />;
+  // EP16: 카피 시안 2·3 (같은 배경·인물, 한국어 문구만 교체)
+  if ((variant === "A2" || variant === "A3") && MAPT[refKey]?.alts) {
+    const d = MAPT[refKey];
+    const alt = d.alts![variant === "A2" ? 0 : 1];
+    if (alt) return <MapThumb a={refKey} d={{ ...d, ko: alt }} en={false} />;
+  }
   if (variant === "A" && refD?.split) return <SplitThumb a={refKey} d={refD} en={lang === "en"} />;
   if (variant === "A" && (lang === "en" ? REF_EN : REF)[refKey]) return <RefThumb ep={ep} en={lang === "en"} />;
   if (ep.startsWith("jipyeong")) {

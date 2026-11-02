@@ -1,0 +1,6004 @@
+{
+ "title": "도솔산 전투",
+ "subtitle": "1951. 6. 4 ~ 6. 20",
+ "target_sec": 1230,
+ "midrolls": [
+  "s24",
+  "s56",
+  "s92"
+ ],
+ "places": {
+  "seoul": [
+   126.978,
+   37.566,
+   "서울"
+  ],
+  "kaesong": [
+   126.554,
+   37.971,
+   "개성"
+  ],
+  "yanggu": [
+   127.99,
+   38.106,
+   "양구"
+  ],
+  "inje": [
+   128.17,
+   38.07,
+   "인제"
+  ],
+  "punchbowl": [
+   128.14,
+   38.285,
+   "해안분지 (펀치볼)"
+  ],
+  "dosol": [
+   128.1,
+   38.238,
+   "도솔산 1,148m"
+  ],
+  "daeam": [
+   128.135,
+   38.212,
+   "대암산"
+  ],
+  "h1216": [
+   128.118,
+   38.198,
+   "1216고지"
+  ],
+  "usmc": [
+   128.25,
+   38.2,
+   "미 해병 제1사단"
+  ],
+  "kmc1": [
+   128.072,
+   38.17,
+   "1대대"
+  ],
+  "kmc2": [
+   128.1,
+   38.165,
+   "2대대"
+  ],
+  "kmc3": [
+   128.128,
+   38.17,
+   "3대대"
+  ],
+  "nk12": [
+   128.09,
+   38.262,
+   "북한군 제12사단"
+  ],
+  "nk32": [
+   128.16,
+   38.25,
+   "북한군 제32사단"
+  ]
+ },
+ "views": {
+  "korea": {
+   "center": [
+    127.75,
+    37.9
+   ],
+   "span": 4.6
+  },
+  "east": {
+   "center": [
+    128.1,
+    38.2
+   ],
+   "span": 1.0
+  },
+  "area": {
+   "center": [
+    128.11,
+    38.22
+   ],
+   "span": 0.3
+  },
+  "punch": {
+   "center": [
+    128.125,
+    38.25
+   ],
+   "span": 0.26
+  },
+  "dosol": {
+   "center": [
+    128.105,
+    38.222
+   ],
+   "span": 0.17
+  },
+  "daeam": {
+   "center": [
+    128.122,
+    38.205
+   ],
+   "span": 0.13
+  },
+  "objall": {
+   "center": [
+    128.11,
+    38.206
+   ],
+   "span": 0.21
+  },
+  "summit": {
+   "center": [
+    128.098,
+    38.236
+   ],
+   "span": 0.11
+  },
+  "west": {
+   "center": [
+    128.085,
+    38.238
+   ],
+   "span": 0.12
+  }
+ },
+ "music": [
+  {
+   "id": "drone",
+   "from": "s01",
+   "to": "s08",
+   "volume": 0.2
+  },
+  {
+   "id": "theme",
+   "from": "s09",
+   "to": "s23",
+   "volume": 0.16
+  },
+  {
+   "id": "tension",
+   "from": "s24",
+   "to": "s38",
+   "volume": 0.17
+  },
+  {
+   "id": "march",
+   "from": "s39",
+   "to": "s55",
+   "volume": 0.15
+  },
+  {
+   "id": "tension",
+   "from": "s56",
+   "to": "s75",
+   "volume": 0.17
+  },
+  {
+   "id": "march",
+   "from": "s76",
+   "to": "s91",
+   "volume": 0.15
+  },
+  {
+   "id": "somber",
+   "from": "s92",
+   "to": "s102",
+   "volume": 0.17
+  },
+  {
+   "id": "analysis",
+   "from": "s103",
+   "to": "s107",
+   "volume": 0.13
+  },
+  {
+   "id": "somber",
+   "from": "s108",
+   "to": "s112",
+   "volume": 0.17
+  }
+ ],
+ "ai_images": {
+  "dosol_cliff": "A towering jagged granite mountain peak in the Taebaek range of eastern Korea in June 1951, sheer rock cliffs and a razor-thin knife-edge ridge rising out of thick swirling white fog, shattered pine trees, faint orange flashes of distant artillery on the far ridges, ominous overcast dawn sky, cinematic wide shot, desaturated palette with a little orange glow, painterly realistic digital illustration, film grain, no people in focus, no text, no letters.",
+  "cave_mg": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: North Korean soldiers whose heads are round balls painted as the North Korean flag (blue, thin white and wide red stripes with a red star in a white circle), wearing khaki 1951 uniforms and soft caps manning a heavy machine gun inside a natural rock cave on a sheer granite cliff in Korea in June 1951, the gun barrel poking out of a narrow slit between boulders and logs, ammunition belts and stacked hand grenades, looking down a steep foggy slope far below, menacing low light, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "usmc_withdraw": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: exhausted and bloodied American marines whose heads are round balls painted as the United States flag, wearing 1951 M1 steel helmets with camouflage covers and olive drab summer utilities withdrawing down a steep rocky Korean mountain trail in June 1951, carrying wounded comrades on stretchers, smoke rising from the ridge above, artillery craters, grim defeated mood, overcast light, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "relief_handover": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean marines whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1951 M1 steel helmets with camouflage netting and olive drab herringbone summer field uniforms marching up a narrow mountain trail in single file with rifles slung, passing weary American marines whose heads are round balls painted as the United States flag, wearing 1951 M1 steel helmets with camouflage covers and olive drab summer utilities coming down the same trail, an American marine officer looking at them with a doubtful skeptical expression, the jagged foggy peak looming ahead, June 1951 Korea, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "day_crossfire": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean marines whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1951 M1 steel helmets with camouflage netting and olive drab herringbone summer field uniforms pinned down on an open steep rocky slope in broad daylight, crossing streams of machine gun tracers coming from two rock caves on the cliffs to the left and right, dust spurts, marines pressed flat behind boulders, harsh midday sun, June 1951 Korea, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "grenade_rain": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean marines whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1951 M1 steel helmets with camouflage netting and olive drab herringbone summer field uniforms climbing a sheer granite cliff face while enemy hand grenades bounce and tumble down the rocks toward them, mortar explosions shattering the rock, flying stone fragments, one marine shielding a wounded comrade, smoke, June 1951 Korea, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "council_night": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a South Korean marine colonel whose head is a round ball painted as the South Korean taegukgi flag, wearing a 1951 M1 helmet and olive field jacket, pointing firmly at a hand-drawn mountain map with numbered objective circles on a field table inside a dim command tent at night lit by a hanging lantern, an American marine general whose head is a round ball painted as the United States flag frowning with arms crossed, staff officers around, tense debate, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "night_climb": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean marines whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1951 M1 steel helmets with camouflage netting and olive drab herringbone summer field uniforms silently climbing a dark sheer cliff at night in heavy rain and thick fog, faces close to the wet rock, rifles with fixed bayonets slung on their backs, no lights at all, only faint moonlight through the fog, a small group moving through a narrow ravine below, June 1951 Korea, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "night_raid": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean marines whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1951 M1 steel helmets with camouflage netting and olive drab herringbone summer field uniforms bursting out of the darkness at the mouth of a rock cave bunker at night, throwing hand grenades into the firing slit, bright grenade explosion flash lighting the scene, startled North Korean soldiers whose heads are round balls painted as the North Korean flag (blue, thin white and wide red stripes with a red star in a white circle), wearing khaki 1951 uniforms and soft caps scrambling inside, marines with fixed bayonets charging behind, smoke and fog, June 1951 Korea, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "bayonet_charge": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean marines whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1951 M1 steel helmets with camouflage netting and olive drab herringbone summer field uniforms charging with fixed bayonets and shouting across a narrow rocky knife-edge ridge toward enemy cave positions at grey dawn in drizzling rain, North Korean soldiers whose heads are round balls painted as the North Korean flag (blue, thin white and wide red stripes with a red star in a white circle), wearing khaki 1951 uniforms and soft caps firing back from behind rocks, hand-to-hand fighting at the front, explosions and smoke, June 1951 Korea, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "summit_dawn": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean marines whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1951 M1 steel helmets with camouflage netting and olive drab herringbone summer field uniforms standing exhausted but victorious on the rocky summit of a high Korean mountain at sunrise, one marine planting a South Korean taegukgi flag on a pole between the boulders, the fog clearing below to reveal a sea of mountain ridges, golden dawn light, June 19 1951, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "comrades_graves": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean marines whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1951 M1 steel helmets with camouflage netting and olive drab herringbone summer field uniforms kneeling in silence beside simple fresh graves dug near a trench on a misty mountain ridge, helmets and rifles with bayonets planted as markers, one marine with head bowed holding a fallen comrade's helmet, soft grey light, somber mood, June 1951 Korea, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "thumb_subject": "photorealistic black-and-white portrait photograph of a young South Korean marine in 1951, wearing an M1 steel helmet with camouflage netting and a herringbone field uniform, mud and sweat on his face, determined fierce eyes, rifle with fixed bayonet over his shoulder, waist-up, face clearly visible and turned slightly toward the left of the frame, isolated on a plain pure white background, no shadows on the background, no text",
+  "rok_fog_attack": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1951 M1 steel helmets and olive drab summer field uniforms advancing in a long line through thick morning fog up a forested Korean mountain ridge in August 1951, bayonets fixed, officers waving them forward, distant flashes of explosions on the ridge crest above, grim determined faces, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "bunker_inside": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: North Korean soldiers whose heads are round balls painted as the North Korean flag (blue, thin white and wide red stripes with a red star in a white circle), wearing khaki 1951 uniforms and soft caps crouching inside a dim underground bunker built of thick logs covered with rocks and earth on a Korean mountain ridge in August 1951, dust and pebbles falling from the log ceiling as artillery shells explode outside, a machine gun pointed through a narrow firing slit, crates of hand grenades stacked along the wall, a narrow communication trench leading away, tense waiting faces lit by thin light through the slit, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters."
+ },
+ "scenes": [
+  {
+   "id": "s01",
+   "lines": [
+    {
+     "t": "1951년 6월, 강원도 양구 북쪽.",
+     "say": "천구백오십일 년 유월, 강원도 양구 북쪽."
+    },
+    {
+     "t": "짙은 안개 속에, 해발 1,148미터의 바위산 하나가 솟아 있었다.",
+     "say": "짙은 안개 속에, 해발 천백사십팔 미터의 바위산 하나가 솟아 있었다."
+    },
+    "사람들은 이 산을, 도솔산이라 불렀다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "dosol_cliff",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "1951. 6 · 강원도 양구 도솔산",
+     "style": "yellow",
+     "at": 0
+    }
+   ],
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0.1,
+     "volume": 0.35
+    },
+    {
+     "id": "artillery_far",
+     "at": 1,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "lines": [
+    "휴전선이 그어지기 전, 한반도의 허리를 동서로 가로지른 전선.",
+    "그 동쪽의 산악 지대 한가운데에, 이 산이 버티고 있었다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "east",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.68,
+        37.78
+       ],
+       [
+        126.95,
+        37.98
+       ],
+       [
+        127.25,
+        38.12
+       ],
+       [
+        127.55,
+        38.1
+       ],
+       [
+        127.8,
+        38.12
+       ],
+       [
+        127.97,
+        38.18
+       ],
+       [
+        128.06,
+        38.19
+       ],
+       [
+        128.15,
+        38.21
+       ],
+       [
+        128.3,
+        38.25
+       ],
+       [
+        128.5,
+        38.4
+       ],
+       [
+        128.62,
+        38.5
+       ]
+      ],
+      "at": 0.2
+     },
+     {
+      "k": "unit",
+      "p": "dosol",
+      "text": "도솔산",
+      "color": "red",
+      "at": 1,
+      "pulse": true
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.3,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "lines": [
+    {
+     "t": "세계 최강이라 불리던 미 해병 제1사단의 제5연대가, 이 산 앞에서 큰 피해만 입고 물러섰다.",
+     "say": "세계 최강이라 불리던 미 해병 제일 사단의 제오 연대가, 이 산 앞에서 큰 피해만 입고 물러섰다."
+    },
+    "하늘을 덮은 폭격도, 쉼 없이 쏟아진 포탄도 소용이 없었다.",
+    "산은 꿈쩍도 하지 않았고, 비탈에는 쓰러진 병사들만 늘어 갔다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "usmc_withdraw",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "artillery",
+     "at": 0.2,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "lines": [
+    {
+     "t": "그 자리를 넘겨받은 것은, 창설된 지 겨우 2년 남짓 된 한국 해병대였다.",
+     "say": "그 자리를 넘겨받은 것은, 창설된 지 겨우 이 년 남짓 된 한국 해병대였다."
+    },
+    "미군 장교들조차, 이들이 해낼 것이라 믿지 않았다.",
+    "그러나 이 젊은 해병들은, 모두의 예상을 뒤집는다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "미 해병도 물러선 산",
+    "style": "red",
+    "sub": "1951. 6 · 양구 도솔산 일대",
+    "subAt": 0.6
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0.2,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "lines": [
+    {
+     "t": "그로부터 17일.",
+     "say": "그로부터 십칠 일."
+    },
+    {
+     "t": "해병들은 24개의 봉우리를, 하나씩 피로 되찾아 나간다.",
+     "say": "해병들은 이십사 개의 봉우리를, 하나씩 피로 되찾아 나간다."
+    },
+    "낮에는 절벽에 몸을 붙이고, 밤에는 소리 없이 적진으로 스며들면서."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "그로부터 17일",
+    "accent": "24개 고지 쟁탈전",
+    "accentAt": 1
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.45
+    }
+   ],
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s06",
+   "lines": [
+    "같은 산, 같은 적.",
+    "화력도 장비도 모자랐던 이들이, 미군이 물러선 그 바위산을 어떻게 무너뜨렸을까?"
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "미 해병 제5연대",
+     "big": "돌파 실패",
+     "icon": "none",
+     "color": "blue"
+    },
+    "right": {
+     "title": "한국 해병 제1연대",
+     "big": "24개 고지",
+     "icon": "none",
+     "color": "red",
+     "at": 0.6
+    }
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0.3,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s07",
+   "lines": [
+    "도솔산 전투.",
+    {
+     "t": "오늘은 대한민국 해병대가 무적해병이라는 이름을 얻은, 17일의 기록이다.",
+     "say": "오늘은 대한민국 해병대가 무적해병이라는 이름을 얻은, 십칠 일의 기록이다."
+    }
+   ],
+   "visual": {
+    "type": "titlecard",
+    "title": "도솔산 전투",
+    "sub": "무적해병의 탄생 · 1951",
+    "at": 0,
+    "q": "s07-photo"
+   },
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0,
+     "volume": 0.5
+    }
+   ],
+   "flash": true
+  },
+  {
+   "id": "s08",
+   "lines": [
+    "본격적인 전투의 기록으로 들어가기에 앞서,",
+    "호국의 역사를 끝까지 기록할 수 있도록, 구독과 좋아요로 함께해 주십시오."
+   ],
+   "visual": {
+    "type": "cta",
+    "title": "호국의 기록, 함께 지켜 주십시오",
+    "at": 0
+   },
+   "sfx": [
+    {
+     "id": "pop",
+     "at": 0.3,
+     "volume": 0.45
+    }
+   ],
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s09",
+   "lines": [
+    {
+     "t": "1951년 4월과 5월, 중공군은 두 차례에 걸쳐 거대한 봄 공세를 퍼부었다.",
+     "say": "천구백오십일 년 사월과 오월, 중공군은 두 차례에 걸쳐 거대한 봄 공세를 퍼부었다."
+    },
+    {
+     "t": "그러나 그 공세는 끝내 꺾였고, 5월 말 유엔군은 다시 북쪽을 향해 반격에 나선다.",
+     "say": "그러나 그 공세는 끝내 꺾였고, 오월 말 유엔군은 다시 북쪽을 향해 반격에 나선다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "korea",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.68,
+        37.78
+       ],
+       [
+        126.95,
+        37.98
+       ],
+       [
+        127.25,
+        38.12
+       ],
+       [
+        127.55,
+        38.1
+       ],
+       [
+        127.8,
+        38.12
+       ],
+       [
+        127.97,
+        38.18
+       ],
+       [
+        128.06,
+        38.19
+       ],
+       [
+        128.15,
+        38.21
+       ],
+       [
+        128.3,
+        38.25
+       ],
+       [
+        128.5,
+        38.4
+       ],
+       [
+        128.62,
+        38.5
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.3,
+        37.8
+       ],
+       [
+        127.4,
+        37.98
+       ],
+       [
+        127.45,
+        38.12
+       ]
+      ],
+      "color": "blue",
+      "at": 1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.85,
+        37.85
+       ],
+       [
+        127.95,
+        38.0
+       ],
+       [
+        128.02,
+        38.15
+       ]
+      ],
+      "color": "blue",
+      "at": 1.2
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.4,
+        37.95
+       ],
+       [
+        128.45,
+        38.15
+       ],
+       [
+        128.5,
+        38.32
+       ]
+      ],
+      "color": "blue",
+      "at": 1.4
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.5,
+     "volume": 0.35
+    }
+   ],
+   "chapter": {
+    "num": "PART 1",
+    "title": "교착된 전선과 난공불락의 암벽"
+   }
+  },
+  {
+   "id": "s10",
+   "lines": [
+    {
+     "t": "목표는 캔자스선이었다. 임진강에서 동해안까지, 38선 북쪽의 높은 땅을 잇는 방어선이었다.",
+     "say": "목표는 캔자스선이었다. 임진강에서 동해안까지, 삼팔선 북쪽의 높은 땅을 잇는 방어선이었다."
+    },
+    "이 선을 차지해야, 다가올 휴전 협상에서도 한 뼘의 땅을 더 지킬 수 있었다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "east",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.68,
+        37.78
+       ],
+       [
+        126.95,
+        37.98
+       ],
+       [
+        127.25,
+        38.12
+       ],
+       [
+        127.55,
+        38.1
+       ],
+       [
+        127.8,
+        38.12
+       ],
+       [
+        127.97,
+        38.18
+       ],
+       [
+        128.06,
+        38.19
+       ],
+       [
+        128.15,
+        38.21
+       ],
+       [
+        128.3,
+        38.25
+       ],
+       [
+        128.5,
+        38.4
+       ],
+       [
+        128.62,
+        38.5
+       ]
+      ],
+      "color": "blue",
+      "glow": true,
+      "at": 0.2
+     },
+     {
+      "k": "badge",
+      "p": [
+       127.6,
+       38.12
+      ],
+      "text": "캔자스선",
+      "color": "blue",
+      "at": 0.5
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "캔자스선 · 개략 표시",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "lines": [
+    {
+     "t": "동부 전선의 이 구간을 맡은 것은, 미 제10군단에 속한 미 해병 제1사단이었다.",
+     "say": "동부 전선의 이 구간을 맡은 것은, 미 제십 군단에 속한 미 해병 제일 사단이었다."
+    },
+    "그리고 그 앞을 가로막은 것이, 양구 북쪽의 거대한 산줄기였다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "east",
+    "to": "area",
+    "items": [
+     {
+      "k": "unit",
+      "p": "usmc",
+      "text": "미 해병 제1사단",
+      "color": "blue",
+      "at": 0.2
+     },
+     {
+      "k": "marker",
+      "p": "yanggu",
+      "color": "blue",
+      "at": 0.6
+     },
+     {
+      "k": "unit",
+      "p": "dosol",
+      "text": "도솔산",
+      "color": "red",
+      "at": 1.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "s12",
+   "lines": [
+    "미군은 이 일대의 분지를, 화채 그릇을 닮았다 하여 펀치볼이라 불렀다.",
+    "그 남쪽 테두리를 따라, 대암산과 도솔산이 칼날처럼 솟아 있었다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "area",
+    "to": "punch",
+    "items": [
+     {
+      "k": "unit",
+      "p": "punchbowl",
+      "text": "펀치볼",
+      "color": "dark",
+      "at": 0.2,
+      "pulse": true
+     },
+     {
+      "k": "marker",
+      "p": "daeam",
+      "color": "red",
+      "at": 1.0
+     },
+     {
+      "k": "marker",
+      "p": "dosol",
+      "color": "red",
+      "at": 1.3
+     }
+    ]
+   }
+  },
+  {
+   "id": "s13",
+   "lines": [
+    "이 일대는 한 해 내내 날씨가 사납기로 이름난 곳이었다.",
+    "특히 여름이면, 산허리를 감싼 안개가 한 치 앞도 내다볼 수 없을 만큼 짙어졌다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "안개의 산",
+    "accent": "연중 이상 기후 지대",
+    "accentAt": 1
+   },
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "lines": [
+    {
+     "t": "해발 1,148미터. 바위 벼랑이 겹겹이 이어진, 태백산맥에서도 손꼽히는 험지였다.",
+     "say": "해발 천백사십팔 미터. 바위 벼랑이 겹겹이 이어진, 태백산맥에서도 손꼽히는 험지였다."
+    },
+    "능선은 사람 하나가 겨우 지날 만큼 좁았고, 양옆은 깎아지른 절벽이었다."
+   ],
+   "visual": {
+    "type": "profile",
+    "pts": [
+     [
+      0,
+      520
+     ],
+     [
+      0.08,
+      560
+     ],
+     [
+      0.16,
+      640
+     ],
+     [
+      0.22,
+      760
+     ],
+     [
+      0.28,
+      820
+     ],
+     [
+      0.33,
+      900
+     ],
+     [
+      0.38,
+      860
+     ],
+     [
+      0.43,
+      940
+     ],
+     [
+      0.48,
+      1010
+     ],
+     [
+      0.53,
+      1060
+     ],
+     [
+      0.57,
+      1110
+     ],
+     [
+      0.62,
+      1148
+     ],
+     [
+      0.66,
+      1120
+     ],
+     [
+      0.7,
+      1050
+     ],
+     [
+      0.76,
+      960
+     ],
+     [
+      0.84,
+      840
+     ],
+     [
+      0.92,
+      760
+     ],
+     [
+      1,
+      720
+     ]
+    ],
+    "grid": [
+     600,
+     800,
+     1000
+    ],
+    "title": "도솔산 지형 단면",
+    "note": "남→북 단면 모식도 (높이 과장)",
+    "left": "남 · 산기슭",
+    "right": "북 · 해안분지",
+    "marks": [
+     {
+      "x": 0.62,
+      "text": "도솔산 1,148m",
+      "style": "yellow",
+      "at": 0,
+      "lift": 120
+     },
+     {
+      "x": 0.33,
+      "text": "칼날 능선",
+      "style": "dark",
+      "at": 1,
+      "lift": 90,
+      "size": 44
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "lines": [
+    {
+     "t": "이 산을 지키던 것은, 북한군 제5군단에 속한 제12사단과 제32사단.",
+     "say": "이 산을 지키던 것은, 북한군 제오 군단에 속한 제십이 사단과 제삼십이 사단."
+    },
+    "그들은 바위 틈과 동굴마다 기관총을 걸어 두고, 산 전체를 하나의 요새로 만들었다.",
+    "아래에서 올려다보면, 어디에 총구가 숨어 있는지 알 길이 없었다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "cave_mg",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 0.4,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s16",
+   "lines": [
+    "통나무와 바위로 덮은 진지는, 웬만한 포탄에도 꿈쩍하지 않았다.",
+    "진지와 진지는 교통호로 이어져, 한쪽을 치면 다른 쪽에서 불을 뿜었다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s16-photo"
+   },
+   "label": "북한군 벙커 (1951. 12 · 참고 사진)"
+  },
+  {
+   "id": "s17",
+   "lines": [
+    "산으로 오르는 길목마다, 수많은 지뢰가 묻혀 있었다.",
+    "한 걸음을 내딛는 것조차, 목숨을 건 일이었다.",
+    "앞서 간 전우의 발자국을 그대로 밟으며, 병사들은 숨을 죽이고 올랐다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "길목마다 지뢰",
+    "style": "red",
+    "sub": "북한군 제12사단 방어 지대",
+    "subAt": 0.6
+   },
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0.8,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s18",
+   "lines": [
+    {
+     "t": "한국 측 기록으로, 이 일대를 지키던 북한군은 약 4,200명.",
+     "say": "한국 측 기록으로, 이 일대를 지키던 북한군은 약 사천이백 명."
+    },
+    "북한군 지상군 가운데서도 강하다고 손꼽히던 정예 부대였다.",
+    "그들은 이 산을, 결코 빼앗기지 않을 철옹성이라 장담했다."
+   ],
+   "visual": {
+    "type": "versus",
+    "left": {
+     "n": 3,
+     "label": "북한군 약 4,200명",
+     "color": "red"
+    },
+    "right": {
+     "n": 3,
+     "label": "천연 암벽 요새",
+     "color": "red"
+    },
+    "at": 0.4
+   },
+   "callouts": [
+    {
+     "text": "병력: 한국 측 기록 기준",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s19",
+   "lines": [
+    {
+     "t": "먼저 이 산에 달려든 것은, 미 해병 제5연대였다.",
+     "say": "먼저 이 산에 달려든 것은, 미 해병 제오 연대였다."
+    },
+    "강력한 항공 폭격과 포병 사격이, 연일 산등성이를 두들겼다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "area",
+    "to": "dosol",
+    "tilt": 45,
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.05,
+        38.19
+       ],
+       [
+        128.075,
+        38.196
+       ],
+       [
+        128.1,
+        38.2
+       ],
+       [
+        128.12,
+        38.205
+       ],
+       [
+        128.15,
+        38.215
+       ],
+       [
+        128.18,
+        38.222
+       ],
+       [
+        128.21,
+        38.226
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.08,
+        38.15
+       ],
+       [
+        128.09,
+        38.17
+       ],
+       [
+        128.095,
+        38.188
+       ]
+      ],
+      "color": "blue",
+      "at": 0.3
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.13,
+        38.15
+       ],
+       [
+        128.128,
+        38.17
+       ],
+       [
+        128.125,
+        38.192
+       ]
+      ],
+      "color": "blue",
+      "at": 0.5
+     },
+     {
+      "k": "clash",
+      "p": [
+       128.1,
+       38.2
+      ],
+      "at": 1
+     },
+     {
+      "k": "clash",
+      "p": [
+       128.125,
+       38.205
+      ],
+      "at": 1.3,
+      "period": 1.3
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "미 해병 제5연대 공격 · 1951. 6 초",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "artillery",
+     "at": 0.3,
+     "volume": 0.45
+    },
+    {
+     "id": "boom",
+     "at": 1.2,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s20",
+   "lines": [
+    {
+     "t": "6월 초, 미 해병 제5연대는 산 아래의 610고지와 680고지, 그리고 692고지를 차례로 공격했다.",
+     "say": "유월 초, 미 해병 제오 연대는 산 아래의 육백십 고지와 육백팔십 고지, 그리고 육백구십이 고지를 차례로 공격했다."
+    },
+    {
+     "t": "미군 기록에 따르면, 한 대대가 약 1.8킬로미터를 나아가는 데에만 꼬박 이틀이 걸렸다.",
+     "say": "미군 기록에 따르면, 한 대대가 약 일 점 팔 킬로미터를 나아가는 데에만 꼬박 이틀이 걸렸다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "dosol",
+    "to": "dosol",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.05,
+        38.19
+       ],
+       [
+        128.075,
+        38.196
+       ],
+       [
+        128.1,
+        38.2
+       ],
+       [
+        128.12,
+        38.205
+       ],
+       [
+        128.15,
+        38.215
+       ],
+       [
+        128.18,
+        38.222
+       ],
+       [
+        128.21,
+        38.226
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": [
+       128.075,
+       38.172
+      ],
+      "text": "610 · 680 · 692고지",
+      "color": "blue",
+      "at": 0.3
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.065,
+        38.15
+       ],
+       [
+        128.07,
+        38.162
+       ],
+       [
+        128.075,
+        38.172
+       ]
+      ],
+      "color": "blue",
+      "at": 0.6,
+      "dur": 3.0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "미 해병대 기록 기준 (1951. 6 초)",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 0.4,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s21",
+   "lines": [
+    "그러나 폭격이 그치면, 북한군은 동굴 속에서 다시 기어 나왔다.",
+    "그리고 비탈을 오르는 해병들을 향해, 위에서 아래로 총탄을 퍼부었다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s21-photo"
+   },
+   "label": "네이팜 폭격 (1951. 9 · 참고 사진)",
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 1.0,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s22",
+   "lines": [
+    "부상자를 실은 들것이, 끝없이 산을 내려왔다. 대가는 너무나 컸다.",
+    {
+     "t": "미 해병 제5연대는 큰 손실만 입은 채, 공격을 멈춰야 했다.",
+     "say": "미 해병 제오 연대는 큰 손실만 입은 채, 공격을 멈춰야 했다."
+    },
+    "세계 최강의 화력도, 이 바위산 앞에서는 길을 찾지 못한 것이다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s22-photo"
+   },
+   "label": "부상병을 후송하는 H-5 헬리콥터 (1951)"
+  },
+  {
+   "id": "s23",
+   "lines": [
+    "전선은 다시 얼어붙었다.",
+    "휴전 협상의 기운이 감도는 가운데, 누구도 이 산을 쉽게 포기할 수 없었다.",
+    {
+     "t": "그리고 6월 3일, 이 산을 넘겨받을 새로운 부대가 정해진다.",
+     "say": "그리고 유월 삼 일, 이 산을 넘겨받을 새로운 부대가 정해진다."
+    }
+   ],
+   "visual": {
+    "type": "black",
+    "text": "1951. 6. 3",
+    "accent": "임무 교대",
+    "accentAt": 1
+   },
+   "sfx": [
+    {
+     "id": "clock",
+     "at": 0,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s24",
+   "lines": [
+    {
+     "t": "그 부대는, 대한민국 해병대 제1연대였다.",
+     "say": "그 부대는, 대한민국 해병대 제일 연대였다."
+    }
+   ],
+   "visual": {
+    "type": "black",
+    "text": "제2막",
+    "accent": "해병 제1연대의 출격",
+    "accentAt": 0.4
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ],
+   "pauseBefore": 0.5
+  },
+  {
+   "id": "s25",
+   "lines": [
+    {
+     "t": "대한민국 해병대 제1연대. 연대장은 김대식 대령이었다.",
+     "say": "대한민국 해병대 제일 연대. 연대장은 김대식 대령이었다."
+    },
+    {
+     "t": "1949년 창설된 해병대는, 이때 겨우 두 돌을 넘긴 젊은 군대였다.",
+     "say": "천구백사십구 년 창설된 해병대는, 이때 겨우 두 돌을 넘긴 젊은 군대였다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "해병 제1연대",
+    "style": "yellow",
+    "sub": "연대장 김대식 대령",
+    "subAt": 0.5
+   },
+   "sfx": [
+    {
+     "id": "drum",
+     "at": 0,
+     "volume": 0.35
+    }
+   ],
+   "chapter": {
+    "num": "PART 2",
+    "title": "교대 명령과 해병 제1연대의 출격"
+   }
+  },
+  {
+   "id": "s26",
+   "lines": [
+    {
+     "t": "1949년 4월, 경상남도 진해에서 해병대가 처음 문을 열었을 때, 그 병력은 380명에 불과했다.",
+     "say": "천구백사십구 년 사월, 경상남도 진해에서 해병대가 처음 문을 열었을 때, 그 병력은 삼백팔십 명에 불과했다."
+    },
+    "장비도 변변치 않던 이 작은 부대가, 전쟁과 함께 빠르게 몸집을 키워 나갔다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "1949. 4. 15 · 진해",
+    "accent": "해병대 창설 · 380명",
+    "accentAt": 1
+   }
+  },
+  {
+   "id": "s27",
+   "lines": [
+    "통영 상륙작전에서는 귀신 잡는 해병이라는 별명을 얻었고,",
+    "인천상륙작전과 서울 수복에서도 앞장섰다."
+   ],
+   "visual": {
+    "type": "timeline",
+    "items": [
+     {
+      "date": "1949. 4",
+      "text": "해병대 창설",
+      "at": 0
+     },
+     {
+      "date": "1950. 8",
+      "text": "통영 상륙",
+      "at": 0.4
+     },
+     {
+      "date": "1950. 9",
+      "text": "인천·서울",
+      "at": 1.0
+     },
+     {
+      "date": "1951. 6",
+      "text": "도솔산",
+      "at": 1.5
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "clock",
+     "at": 0,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s28",
+   "lines": [
+    {
+     "t": "5월에는 화천 저수지 일대에서, 중공군을 상대로 큰 전과를 올리기도 했다.",
+     "say": "오월에는 화천 저수지 일대에서, 중공군을 상대로 큰 전과를 올리기도 했다."
+    },
+    {
+     "t": "그리고 이제, 미 해병 제1사단의 지휘를 받으며 이 험한 산 앞에 섰다.",
+     "say": "그리고 이제, 미 해병 제일 사단의 지휘를 받으며 이 험한 산 앞에 섰다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s28-photo"
+   },
+   "label": "화천 저수지 · 양구 부근 (1951. 7)"
+  },
+  {
+   "id": "s29",
+   "lines": [
+    {
+     "t": "6월 3일, 명령이 내려왔다.",
+     "say": "유월 삼 일, 명령이 내려왔다."
+    },
+    {
+     "t": "한국 해병 제1연대가 미 해병 제5연대의 임무를 넘겨받아, 이튿날 공격을 시작하라는 것이었다.",
+     "say": "한국 해병 제일 연대가 미 해병 제오 연대의 임무를 넘겨받아, 이튿날 공격을 시작하라는 것이었다."
+    }
+   ],
+   "visual": {
+    "type": "document",
+    "org": "미 해병 제1사단",
+    "head": "임무 교대 명령",
+    "stamp": "1951. 6. 3",
+    "rows": [
+     "미 해병 제5연대 → 후방 이동",
+     "한국 해병 제1연대 → 공격 인수",
+     "목표: 대암산·도솔산 일대",
+     "6월 4일 공격 개시"
+    ],
+    "note": "명령 요지 · 재구성 화면"
+   },
+   "sfx": [
+    {
+     "id": "typewriter",
+     "at": 0.2,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s30",
+   "lines": [
+    "산을 내려오는 미 해병들과, 산을 오르는 한국 해병들이 좁은 길 위에서 엇갈렸다.",
+    "지치고 다친 미군들의 얼굴에는, 이 산의 무서움이 그대로 새겨져 있었다.",
+    "그 얼굴을 바라보며, 한국 해병들은 앞으로 닥칠 싸움을 짐작할 수 있었다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "relief_handover",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s31",
+   "lines": [
+    "해병들이 짊어진 짐은, 무기와 탄약만이 아니었다.",
+    "물과 식량, 그리고 부상자를 실어 나를 들것까지, 모두 사람의 등으로 산을 올라야 했다.",
+    "차량이 들어갈 길은, 산 아래에서 이미 끊겨 있었다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "사람의 등으로 오른 산",
+    "style": "dark",
+    "sub": "도로 없는 산악 지대",
+    "subAt": 0.5
+   }
+  },
+  {
+   "id": "s32",
+   "lines": [
+    "미군 장교들의 시선은 싸늘했다.",
+    "화력도 장비도 부족한 한국 해병이, 저 산을 넘을 수 있겠느냐는 것이었다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "회의적인 시선",
+    "style": "dark",
+    "sub": "미 해병도 실패한 산",
+    "subAt": 0.6
+   }
+  },
+  {
+   "id": "s33",
+   "lines": [
+    "화력과 장비만 놓고 보면, 견주기조차 어려운 싸움이었다.",
+    "한국 해병에게는 중화기가 턱없이 모자랐고, 산악 전투의 경험도 많지 않았다."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "미 해병 제5연대",
+     "big": "압도적 화력",
+     "icon": "none",
+     "color": "blue"
+    },
+    "right": {
+     "title": "한국 해병 제1연대",
+     "big": "소총·수류탄",
+     "icon": "none",
+     "color": "red",
+     "at": 0.6
+    }
+   }
+  },
+  {
+   "id": "s34",
+   "lines": [
+    "연대는 세 개 대대로 이 산을 맡았다.",
+    {
+     "t": "1대대장 공정식 소령, 2대대장 윤영준 소령, 그리고 3대대장 김윤근 소령.",
+     "say": "일 대대장 공정식 소령, 이 대대장 윤영준 소령, 그리고 삼 대대장 김윤근 소령."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "area",
+    "to": "dosol",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.05,
+        38.19
+       ],
+       [
+        128.075,
+        38.196
+       ],
+       [
+        128.1,
+        38.2
+       ],
+       [
+        128.12,
+        38.205
+       ],
+       [
+        128.15,
+        38.215
+       ],
+       [
+        128.18,
+        38.222
+       ],
+       [
+        128.21,
+        38.226
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "kmc1",
+      "text": "1대대 · 공정식",
+      "color": "blue",
+      "at": 1.0
+     },
+     {
+      "k": "unit",
+      "p": "kmc2",
+      "text": "2대대 · 윤영준",
+      "color": "blue",
+      "at": 1.25
+     },
+     {
+      "k": "unit",
+      "p": "kmc3",
+      "text": "3대대 · 김윤근",
+      "color": "blue",
+      "at": 1.5
+     }
+    ]
+   }
+  },
+  {
+   "id": "s35",
+   "lines": [
+    {
+     "t": "연대가 넘어야 할 봉우리는 모두 24개.",
+     "say": "연대가 넘어야 할 봉우리는 모두 이십사 개."
+    },
+    {
+     "t": "작전 지도 위에는 목표 1번부터 24번까지, 번호가 매겨졌다.",
+     "say": "작전 지도 위에는 목표 일 번부터 이십사 번까지, 번호가 매겨졌다."
+    },
+    {
+     "t": "목표 15번은 대암산, 그리고 22번이 바로 도솔산 정상이었다.",
+     "say": "목표 십오 번은 대암산, 그리고 이십이 번이 바로 도솔산 정상이었다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "dosol",
+    "to": "objall",
+    "tilt": 34,
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.05,
+        38.19
+       ],
+       [
+        128.075,
+        38.196
+       ],
+       [
+        128.1,
+        38.2
+       ],
+       [
+        128.12,
+        38.205
+       ],
+       [
+        128.15,
+        38.215
+       ],
+       [
+        128.18,
+        38.222
+       ],
+       [
+        128.21,
+        38.226
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.07,
+       38.178
+      ],
+      "n": 1,
+      "at": 0.3
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.08,
+       38.183
+      ],
+      "n": 2,
+      "at": 0.36
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.091,
+       38.18
+      ],
+      "n": 3,
+      "at": 0.42
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.1,
+       38.186
+      ],
+      "n": 4,
+      "at": 0.48
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.108,
+       38.181
+      ],
+      "n": 5,
+      "at": 0.54
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.112,
+       38.19
+      ],
+      "n": 6,
+      "at": 0.6
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.122,
+       38.186
+      ],
+      "n": 7,
+      "at": 0.66
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.13,
+       38.192
+      ],
+      "n": 8,
+      "at": 0.72
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.142,
+       38.19
+      ],
+      "n": 9,
+      "at": 0.78
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.148,
+       38.198
+      ],
+      "n": 10,
+      "at": 0.84
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.118,
+       38.198
+      ],
+      "n": 11,
+      "at": 0.9
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.128,
+       38.203
+      ],
+      "n": 12,
+      "at": 0.96
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.145,
+       38.206
+      ],
+      "n": 13,
+      "at": 1.02
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.142,
+       38.214
+      ],
+      "n": 14,
+      "at": 1.08
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.135,
+       38.212
+      ],
+      "n": 15,
+      "at": 1.14,
+      "text": "대암산"
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.128,
+       38.219
+      ],
+      "n": 16,
+      "at": 1.2
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.12,
+       38.222
+      ],
+      "n": 17,
+      "at": 1.26
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.124,
+       38.229
+      ],
+      "n": 18,
+      "at": 1.32
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.113,
+       38.226
+      ],
+      "n": 19,
+      "at": 1.38
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.108,
+       38.232
+      ],
+      "n": 20,
+      "at": 1.44
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.106,
+       38.235
+      ],
+      "n": 21,
+      "at": 1.5
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.1,
+       38.238
+      ],
+      "n": 22,
+      "at": 1.56,
+      "text": "도솔산"
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.088,
+       38.242
+      ],
+      "n": 23,
+      "at": 1.62
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.076,
+       38.246
+      ],
+      "n": 24,
+      "at": 1.68
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "목표 번호 배치는 개략 모식",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "typewriter",
+     "at": 0.3,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s36",
+   "lines": [
+    "봉우리와 봉우리 사이는, 좁은 칼날 능선으로 이어져 있었다.",
+    "한 봉우리를 빼앗아도, 다음 봉우리의 적이 머리 위에서 내려다보는 구조였다."
+   ],
+   "visual": {
+    "type": "profile",
+    "pts": [
+     [
+      0,
+      520
+     ],
+     [
+      0.08,
+      560
+     ],
+     [
+      0.16,
+      640
+     ],
+     [
+      0.22,
+      760
+     ],
+     [
+      0.28,
+      820
+     ],
+     [
+      0.33,
+      900
+     ],
+     [
+      0.38,
+      860
+     ],
+     [
+      0.43,
+      940
+     ],
+     [
+      0.48,
+      1010
+     ],
+     [
+      0.53,
+      1060
+     ],
+     [
+      0.57,
+      1110
+     ],
+     [
+      0.62,
+      1148
+     ],
+     [
+      0.66,
+      1120
+     ],
+     [
+      0.7,
+      1050
+     ],
+     [
+      0.76,
+      960
+     ],
+     [
+      0.84,
+      840
+     ],
+     [
+      0.92,
+      760
+     ],
+     [
+      1,
+      720
+     ]
+    ],
+    "grid": [
+     600,
+     800,
+     1000
+    ],
+    "left": "남",
+    "right": "북",
+    "note": "지형 단면 모식도 (높이 과장)",
+    "marks": [
+     {
+      "x": 0.33,
+      "text": "목표 1",
+      "style": "blue",
+      "at": 0,
+      "lift": 80,
+      "size": 42
+     },
+     {
+      "x": 0.48,
+      "text": "적 기관총",
+      "style": "red",
+      "at": 0.6,
+      "lift": 110,
+      "size": 42
+     },
+     {
+      "x": 0.62,
+      "text": "도솔산",
+      "style": "red",
+      "at": 1.2,
+      "lift": 130,
+      "size": 46
+     }
+    ]
+   }
+  },
+  {
+   "id": "s37",
+   "lines": [
+    "공격 전날 밤, 해병들은 말없이 총검을 닦고 수류탄을 챙겼다.",
+    "고향에 보낼 편지를 품에 넣는 이도, 말없이 별을 올려다보는 이도 있었다.",
+    "많은 이들이, 살아서 이 산을 내려가지 못하리라는 것을 알고 있었다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "rok_fog_attack",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s38",
+   "lines": [
+    "미군이 실패한 곳에서 한국 해병마저 물러선다면,",
+    "이 전선의 활로는 영영 막힐 수도 있었다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "물러설 수 없다",
+    "style": "yellow",
+    "sub": "1951. 6. 3 밤",
+    "subAt": 0.8
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s39",
+   "lines": [
+    {
+     "t": "6월 4일 오전 8시, 공격이 시작됐다.",
+     "say": "유월 사 일 오전 여덟 시, 공격이 시작됐다."
+    },
+    {
+     "t": "항공기와 포병의 엄호 아래, 1대대와 2대대가 나란히 산기슭을 올랐다.",
+     "say": "항공기와 포병의 엄호 아래, 일 대대와 이 대대가 나란히 산기슭을 올랐다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "area",
+    "to": "dosol",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.05,
+        38.19
+       ],
+       [
+        128.075,
+        38.196
+       ],
+       [
+        128.1,
+        38.2
+       ],
+       [
+        128.12,
+        38.205
+       ],
+       [
+        128.15,
+        38.215
+       ],
+       [
+        128.18,
+        38.222
+       ],
+       [
+        128.21,
+        38.226
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.07,
+        38.158
+       ],
+       [
+        128.072,
+        38.168
+       ],
+       [
+        128.075,
+        38.178
+       ]
+      ],
+      "color": "blue",
+      "at": 0.4
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.1,
+        38.155
+       ],
+       [
+        128.098,
+        38.167
+       ],
+       [
+        128.095,
+        38.18
+       ]
+      ],
+      "color": "blue",
+      "at": 0.6
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1951. 6. 4 08:00 · 공격 개시",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "artillery",
+     "at": 0,
+     "volume": 0.45
+    },
+    {
+     "id": "bugle",
+     "at": 1.0,
+     "volume": 0.3
+    }
+   ],
+   "chapter": {
+    "num": "PART 3",
+    "title": "피로 물든 바위산"
+   }
+  },
+  {
+   "id": "s40",
+   "lines": [
+    "첫날, 해병들은 산 아래의 낮은 고지들을 하나씩 차지해 나갔다.",
+    {
+     "t": "1대대는 692고지를, 3중대는 611고지를 차지했다.",
+     "say": "일 대대는 육백구십이 고지를, 삼 중대는 육백십일 고지를 차지했다."
+    },
+    "그러나 그것은, 북한군 주 진지 앞에 놓인 바깥 울타리에 불과했다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "dosol",
+    "to": "dosol",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.05,
+        38.19
+       ],
+       [
+        128.075,
+        38.196
+       ],
+       [
+        128.1,
+        38.2
+       ],
+       [
+        128.12,
+        38.205
+       ],
+       [
+        128.15,
+        38.215
+       ],
+       [
+        128.18,
+        38.222
+       ],
+       [
+        128.21,
+        38.226
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.07,
+       38.178
+      ],
+      "n": 1,
+      "at": 0.0,
+      "takenAt": 0.3
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.08,
+       38.183
+      ],
+      "n": 2,
+      "at": 0.05,
+      "takenAt": 0.5
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.091,
+       38.18
+      ],
+      "n": 3,
+      "at": 0.1,
+      "takenAt": 0.7
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.1,
+       38.186
+      ],
+      "n": 4,
+      "at": 0.15
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.108,
+       38.181
+      ],
+      "n": 5,
+      "at": 0.2
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "6. 4 · 692고지·611고지 일대 확보",
+     "style": "blue",
+     "at": 0.4,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s41",
+   "lines": [
+    {
+     "t": "1대대는 전진을 시작하자마자, 적의 거센 사격에 부딪혔다.",
+     "say": "일 대대는 전진을 시작하자마자, 적의 거센 사격에 부딪혔다."
+    },
+    "산기슭의 낮은 고지들은 미끼였을 뿐, 진짜 싸움은 그 위에서 기다리고 있었다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "진짜 싸움은 그 위에",
+    "style": "red",
+    "sub": "1951. 6. 4 오후",
+    "subAt": 0.5
+   },
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 0.2,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s42",
+   "lines": [
+    "능선이 가팔라질수록, 적의 사격은 더욱 거세졌다.",
+    "좌우의 봉우리에서 날아든 기관총탄이, 비탈 위에서 엇갈렸다.",
+    "몸을 숨길 바위 하나 없는 곳에서, 해병들은 그대로 땅에 엎드릴 수밖에 없었다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "day_crossfire",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 0.2,
+     "volume": 0.45
+    },
+    {
+     "id": "mg",
+     "at": 1.0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s43",
+   "lines": [
+    "북한군은 이 산의 모든 길목을 미리 계산해 두고 있었다.",
+    "해병들이 오를 수 있는 비탈은, 하나도 빠짐없이 기관총의 사정권 안에 있었다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "dosol",
+    "to": "daeam",
+    "tilt": 40,
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.05,
+        38.19
+       ],
+       [
+        128.075,
+        38.196
+       ],
+       [
+        128.1,
+        38.2
+       ],
+       [
+        128.12,
+        38.205
+       ],
+       [
+        128.15,
+        38.215
+       ],
+       [
+        128.18,
+        38.222
+       ],
+       [
+        128.21,
+        38.226
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.112,
+        38.19
+       ],
+       [
+        128.112,
+        38.195
+       ],
+       [
+        128.106,
+        38.199
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 0.6
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.142,
+        38.19
+       ],
+       [
+        128.13,
+        38.197
+       ],
+       [
+        128.116,
+        38.2
+       ]
+      ],
+      "color": "red",
+      "at": 0.35,
+      "width": 0.6
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.118,
+        38.198
+       ],
+       [
+        128.11,
+        38.196
+       ],
+       [
+        128.1,
+        38.19
+       ]
+      ],
+      "color": "red",
+      "at": 0.5,
+      "width": 0.6
+     },
+     {
+      "k": "badge",
+      "p": [
+       128.11,
+       38.198
+      ],
+      "text": "십자 화망",
+      "color": "red",
+      "at": 1.0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.112,
+       38.19
+      ],
+      "n": 6,
+      "at": 0.0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.122,
+       38.186
+      ],
+      "n": 7,
+      "at": 0.05
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.13,
+       38.192
+      ],
+      "n": 8,
+      "at": 0.1
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.142,
+       38.19
+      ],
+      "n": 9,
+      "at": 0.15
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.118,
+       38.198
+      ],
+      "n": 11,
+      "at": 0.2
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "북한군 기관총 사계 · 개략 모식",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 0.4,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s44",
+   "lines": [
+    "대낮의 정면 공격은, 적에게 모든 것을 드러내는 일이었다.",
+    "위에서 내려다보는 적에게, 해병들의 움직임은 손바닥 보듯 훤했다."
+   ],
+   "visual": {
+    "type": "profile",
+    "pts": [
+     [
+      0,
+      520
+     ],
+     [
+      0.08,
+      560
+     ],
+     [
+      0.16,
+      640
+     ],
+     [
+      0.22,
+      760
+     ],
+     [
+      0.28,
+      820
+     ],
+     [
+      0.33,
+      900
+     ],
+     [
+      0.38,
+      860
+     ],
+     [
+      0.43,
+      940
+     ],
+     [
+      0.48,
+      1010
+     ],
+     [
+      0.53,
+      1060
+     ],
+     [
+      0.57,
+      1110
+     ],
+     [
+      0.62,
+      1148
+     ],
+     [
+      0.66,
+      1120
+     ],
+     [
+      0.7,
+      1050
+     ],
+     [
+      0.76,
+      960
+     ],
+     [
+      0.84,
+      840
+     ],
+     [
+      0.92,
+      760
+     ],
+     [
+      1,
+      720
+     ]
+    ],
+    "grid": [
+     600,
+     800,
+     1000
+    ],
+    "left": "남",
+    "right": "북",
+    "arrows": [
+     {
+      "from": 0.1,
+      "to": 0.3,
+      "color": "blue",
+      "at": 0,
+      "dur": 2,
+      "lift": 40
+     },
+     {
+      "from": 0.48,
+      "to": 0.33,
+      "color": "red",
+      "at": 0.6,
+      "dur": 0.8,
+      "lift": 30
+     }
+    ],
+    "marks": [
+     {
+      "x": 0.48,
+      "text": "적 관측·기관총",
+      "style": "red",
+      "at": 0.6,
+      "lift": 120,
+      "size": 42
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 0.6,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s45",
+   "lines": [
+    "벼랑 위에서는 수류탄이 굴러떨어졌다.",
+    "바위에 부딪혀 튀어 오른 수류탄이, 엎드린 해병들 사이에서 터졌다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "grenade_rain",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0.3,
+     "volume": 0.4
+    },
+    {
+     "id": "boom",
+     "at": 1.2,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s46",
+   "lines": [
+    "박격포탄이 바위를 깨뜨리면, 날카로운 돌 조각이 사방으로 튀었다.",
+    "바위산에서는, 포탄 파편만큼이나 깨진 돌이 무서웠다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s46-photo"
+   },
+   "label": "가파른 산비탈을 오르는 병사 (1951)",
+   "sfx": [
+    {
+     "id": "artillery",
+     "at": 0.4,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s47",
+   "lines": [
+    "하루, 이틀, 그리고 사흘.",
+    "해병들은 봉우리 하나를 빼앗았다가 다시 내주기를 되풀이했다."
+   ],
+   "visual": {
+    "type": "weekbar",
+    "title": "6월 4일 ~ 10일",
+    "days": [
+     "6.4",
+     "6.5",
+     "6.6",
+     "6.7",
+     "6.8",
+     "6.9",
+     "6.10"
+    ],
+    "start": 0,
+    "mark": 6,
+    "markText": "6.10 작전 회의",
+    "at": 0.4,
+    "hold": [
+     0,
+     6
+    ],
+    "holdText": "주 진지 앞 고착"
+   },
+   "sfx": [
+    {
+     "id": "clock",
+     "at": 0.2,
+     "volume": 0.34
+    }
+   ]
+  },
+  {
+   "id": "s48",
+   "lines": [
+    "낮에 피를 흘려 빼앗은 고지는,",
+    "밤이 되면 북한군의 역습에 다시 넘어가곤 했다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "점령, 그리고 다시 빼앗김",
+    "style": "red",
+    "sub": "6월 초 · 주간 공격",
+    "subAt": 0.8
+   }
+  },
+  {
+   "id": "s49",
+   "lines": [
+    "전사자와 부상자가 쏟아졌다.",
+    "들것을 들 사람마저 모자라, 다친 전우를 업고 벼랑을 내려와야 했다.",
+    "어제 함께 밥을 먹던 전우의 자리가, 하루가 다르게 비어 갔다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s49-photo"
+   },
+   "label": "부상병을 옮기는 위생병 (한국전쟁 · 참고 사진)"
+  },
+  {
+   "id": "s50",
+   "lines": [
+    "북한군은 포격이 시작되면 동굴과 벙커 깊숙이 몸을 숨겼다.",
+    "그리고 포격이 멎는 순간, 다시 총구를 내밀었다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "bunker_inside",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.2,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s51",
+   "lines": [
+    "맨 앞에서 쓰러지는 이들 가운데에는, 앳된 얼굴의 소대장들이 많았다.",
+    "소대장이 먼저 일어서야 소대가 움직이는, 그런 싸움이었다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "맨 앞의 소대장들",
+    "style": "yellow",
+    "sub": "해병 제1연대 초급 장교",
+    "subAt": 0.5
+   }
+  },
+  {
+   "id": "s52",
+   "lines": [
+    "엿새가 넘도록, 연대는 적의 주 진지에 발을 들이지 못했다.",
+    {
+     "t": "이대로라면, 미 해병 제5연대가 겪은 일을 똑같이 되풀이할 뿐이었다.",
+     "say": "이대로라면, 미 해병 제오 연대가 겪은 일을 똑같이 되풀이할 뿐이었다."
+    }
+   ],
+   "visual": {
+    "type": "gauges",
+    "big": "주간 공격의 한계",
+    "items": [
+     {
+      "label": "훤히 보이는 비탈",
+      "at": 0.5
+     },
+     {
+      "label": "피할 곳 없는 화망",
+      "at": 0.8
+     },
+     {
+      "label": "포격을 견디는 동굴",
+      "at": 1.1
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "clock",
+     "at": 0,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s53",
+   "lines": [
+    "그 무렵, 한 소대의 싸움이 연대장의 눈길을 붙잡았다.",
+    {
+     "t": "2중대 3소대장, 이근식 소위의 소대였다.",
+     "say": "이 중대 삼 소대장, 이근식 소위의 소대였다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s53-photo"
+   },
+   "label": "1951년, 중부 전선 (참고 사진)"
+  },
+  {
+   "id": "s54",
+   "lines": [
+    "이근식 소위는 수류탄을 앞세워, 해가 진 뒤에 중간 목표를 빼앗아 냈다.",
+    "낮 내내 꿈쩍도 하지 않던 적진이, 어둠 속에서는 무너진 것이다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "해가 진 뒤의 점령",
+    "style": "yellow",
+    "sub": "2중대 3소대장 이근식 소위",
+    "subAt": 0.4
+   },
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0.6,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s55",
+   "lines": [
+    "연대장 김대식 대령은, 바로 그 점에 주목했다.",
+    "적이 내려다볼 수 없는 시간. 바로 밤이었다.",
+    "낮에 막힌 길이라면, 밤에 열어 보자는 생각이었다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "council_night",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s56",
+   "lines": [
+    {
+     "t": "6월 10일 오후, 긴급 작전 회의가 열렸다.",
+     "say": "유월 십 일 오후, 긴급 작전 회의가 열렸다."
+    }
+   ],
+   "visual": {
+    "type": "black",
+    "text": "1951. 6. 10",
+    "accent": "긴급 작전 회의",
+    "accentAt": 0.4
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ],
+   "pauseBefore": 0.5
+  },
+  {
+   "id": "s57",
+   "lines": [
+    "김대식 대령은 주간 공격을 멈추고, 야간 공격으로 바꾸겠다고 밝혔다.",
+    "조명탄도, 공격 전 포격도 없이, 어둠 속에서 적진에 스며들겠다는 것이었다.",
+    "포탄과 폭격에 기대던 싸움을, 사람의 발과 손으로 바꾸겠다는 결단이었다."
+   ],
+   "visual": {
+    "type": "document",
+    "org": "해병 제1연대",
+    "head": "야간 공격 전환",
+    "stamp": "1951. 6. 10",
+    "rows": [
+     "주간 정면 공격 중지",
+     "야음을 이용한 기습",
+     "조명탄·사전 포격 없음",
+     "소부대 우회 침투"
+    ],
+    "note": "작전 요지 · 재구성 화면"
+   },
+   "sfx": [
+    {
+     "id": "typewriter",
+     "at": 0.2,
+     "volume": 0.4
+    }
+   ],
+   "chapter": {
+    "num": "PART 4",
+    "title": "전술의 대전환, 침묵의 야간 기습"
+   }
+  },
+  {
+   "id": "s58",
+   "lines": [
+    {
+     "t": "미 해병 제1사단 쪽의 반응은 차가웠다.",
+     "say": "미 해병 제일 사단 쪽의 반응은 차가웠다."
+    },
+    "산악 야간 공격의 경험도 없는 부대가, 어떻게 그런 작전을 하겠느냐는 것이었다.",
+    "어둠 속에서 길을 잃으면, 부대 전체가 몰살당할 수도 있었다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "무모한 도박인가",
+    "style": "dark",
+    "sub": "미군 지휘부의 반대",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s59",
+   "lines": [
+    "그러나 김대식 대령은 물러서지 않았다.",
+    "끈질긴 설득 끝에, 미군 지휘부는 마침내 야간 공격을 받아들인다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "집요한 건의",
+    "style": "yellow",
+    "sub": "연대장 김대식 대령",
+    "subAt": 0.4
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 1.0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s60",
+   "lines": [
+    "낮의 북한군은 산 위에서 모든 것을 내려다보았다.",
+    "하지만 밤이 되면, 그 높은 자리는 오히려 아무것도 볼 수 없는 자리가 되었다.",
+    "기관총의 사계도, 어둠 속에서는 반쯤 눈을 감은 셈이었다."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "낮",
+     "big": "적이 본다",
+     "icon": "none",
+     "color": "red"
+    },
+    "right": {
+     "title": "밤",
+     "big": "우리가 간다",
+     "icon": "none",
+     "color": "blue",
+     "at": 0.8
+    }
+   }
+  },
+  {
+   "id": "s61",
+   "lines": [
+    "공격 직전, 해병들은 소대와 분대 단위로 잘게 나뉘었다.",
+    "큰 부대는 소리가 나고 눈에 띄지만, 작은 무리는 어둠 속에서 바위처럼 숨을 수 있었다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "소부대 침투",
+    "accent": "소대·분대 단위",
+    "accentAt": 0.8
+   }
+  },
+  {
+   "id": "s62",
+   "lines": [
+    {
+     "t": "6월 11일 새벽 2시.",
+     "say": "유월 십일 일 새벽 두 시."
+    },
+    "해병들은 소리를 죽인 채, 칠흑 같은 어둠 속으로 들어갔다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "night_climb",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "1951. 6. 11 02:00",
+     "style": "yellow",
+     "at": 0
+    }
+   ],
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s63",
+   "lines": [
+    "조명탄은 쏘지 않았다. 산을 깨우는 공격 전 포격도 없었다.",
+    "총과 장비가 부딪히는 작은 소리 하나에도, 해병들은 숨을 죽였다."
+   ],
+   "visual": {
+    "type": "gauges",
+    "big": "침묵의 침투",
+    "items": [
+     {
+      "label": "조명탄 없음",
+      "at": 0.2
+     },
+     {
+      "label": "사전 포격 없음",
+      "at": 0.6
+     },
+     {
+      "label": "소리 없는 이동",
+      "at": 1.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "s64",
+   "lines": [
+    "해병들은 적이 지키는 능선 정면 대신, 어두운 계곡을 따라 돌아 들어갔다.",
+    "작은 무리로 나뉘어, 적 진지의 옆구리와 뒤쪽을 향해 기어올랐다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "dosol",
+    "to": "daeam",
+    "tilt": 45,
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.05,
+        38.19
+       ],
+       [
+        128.075,
+        38.196
+       ],
+       [
+        128.1,
+        38.2
+       ],
+       [
+        128.12,
+        38.205
+       ],
+       [
+        128.15,
+        38.215
+       ],
+       [
+        128.18,
+        38.222
+       ],
+       [
+        128.21,
+        38.226
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.095,
+        38.168
+       ],
+       [
+        128.1,
+        38.18
+       ],
+       [
+        128.11,
+        38.19
+       ],
+       [
+        128.116,
+        38.197
+       ]
+      ],
+      "color": "blue",
+      "at": 0.3,
+      "width": 0.7
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.14,
+        38.17
+       ],
+       [
+        128.148,
+        38.185
+       ],
+       [
+        128.14,
+        38.195
+       ],
+       [
+        128.125,
+        38.199
+       ]
+      ],
+      "color": "blue",
+      "at": 0.6,
+      "width": 0.7
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.12,
+        38.165
+       ],
+       [
+        128.123,
+        38.18
+       ],
+       [
+        128.12,
+        38.193
+       ]
+      ],
+      "color": "blue",
+      "at": 1.0,
+      "width": 0.6
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.118,
+       38.198
+      ],
+      "n": 11,
+      "at": 0.0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.128,
+       38.203
+      ],
+      "n": 12,
+      "at": 0.05
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "야간 계곡 우회 침투 · 개략",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "night": true
+  },
+  {
+   "id": "s65",
+   "lines": [
+    "짙은 안개가 산을 덮었고, 비까지 뿌렸다.",
+    "이 산의 여름 안개는, 한 치 앞을 분간하기 어려울 만큼 짙었다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s65-photo"
+   },
+   "label": "야간 조명탄 (1951. 7 · 참고 사진)",
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0.1,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s66",
+   "lines": [
+    "해병들은 손으로 바위를 더듬으며, 벼랑을 한 뼘씩 올랐다.",
+    "발밑에서 돌 하나만 굴러떨어져도, 모든 것이 끝날 수 있었다."
+   ],
+   "visual": {
+    "type": "profile",
+    "pts": [
+     [
+      0,
+      520
+     ],
+     [
+      0.08,
+      560
+     ],
+     [
+      0.16,
+      640
+     ],
+     [
+      0.22,
+      760
+     ],
+     [
+      0.28,
+      820
+     ],
+     [
+      0.33,
+      900
+     ],
+     [
+      0.38,
+      860
+     ],
+     [
+      0.43,
+      940
+     ],
+     [
+      0.48,
+      1010
+     ],
+     [
+      0.53,
+      1060
+     ],
+     [
+      0.57,
+      1110
+     ],
+     [
+      0.62,
+      1148
+     ],
+     [
+      0.66,
+      1120
+     ],
+     [
+      0.7,
+      1050
+     ],
+     [
+      0.76,
+      960
+     ],
+     [
+      0.84,
+      840
+     ],
+     [
+      0.92,
+      760
+     ],
+     [
+      1,
+      720
+     ]
+    ],
+    "grid": [
+     600,
+     800,
+     1000
+    ],
+    "left": "남",
+    "right": "북",
+    "note": "야간 암벽 등반 · 모식도",
+    "arrows": [
+     {
+      "from": 0.16,
+      "to": 0.45,
+      "color": "blue",
+      "at": 0,
+      "dur": 3.5,
+      "lift": 25
+     }
+    ],
+    "marks": [
+     {
+      "x": 0.48,
+      "text": "잠든 적 진지",
+      "style": "red",
+      "at": 0.5,
+      "lift": 110,
+      "size": 42
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s67",
+   "lines": [
+    "그리고 마침내, 적 진지 바로 아래까지 다가섰다.",
+    "동굴 속의 북한군은, 아직 아무것도 눈치채지 못하고 있었다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "새벽 2시",
+    "accent": "적진 바로 아래",
+    "accentAt": 0.8
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s68",
+   "lines": [
+    "신호와 함께, 해병들이 일제히 수류탄을 던지며 뛰어들었다.",
+    "잠에서 깬 북한군은, 공격이 어디서 오는지조차 알지 못했다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "daeam",
+    "to": "daeam",
+    "tilt": 40,
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.05,
+        38.19
+       ],
+       [
+        128.075,
+        38.196
+       ],
+       [
+        128.1,
+        38.2
+       ],
+       [
+        128.12,
+        38.205
+       ],
+       [
+        128.15,
+        38.215
+       ],
+       [
+        128.18,
+        38.222
+       ],
+       [
+        128.21,
+        38.226
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.118,
+       38.198
+      ],
+      "n": 11,
+      "at": 0.0,
+      "takenAt": 1.4
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.128,
+       38.203
+      ],
+      "n": 12,
+      "at": 0.05
+     },
+     {
+      "k": "clash",
+      "p": [
+       128.118,
+       38.198
+      ],
+      "at": 0.1
+     },
+     {
+      "k": "clash",
+      "p": [
+       128.122,
+       38.2
+      ],
+      "at": 0.3,
+      "period": 0.9
+     },
+     {
+      "k": "clash",
+      "p": [
+       128.112,
+       38.196
+      ],
+      "at": 0.6,
+      "period": 1.2
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0.1,
+     "volume": 0.5
+    },
+    {
+     "id": "charge",
+     "at": 0.6,
+     "volume": 0.45
+    }
+   ],
+   "night": true
+  },
+  {
+   "id": "s69",
+   "lines": [
+    "동굴 입구마다 수류탄이 날아들었고, 총검을 꽂은 해병들이 뒤따랐다.",
+    "낮 동안 그토록 단단했던 적의 주 저항선이, 몇 시간 만에 뚫렸다.",
+    "북한군은 무기와 탄약을 버려둔 채, 어둠 속으로 흩어졌다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "night_raid",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0.2,
+     "volume": 0.45
+    },
+    {
+     "id": "mg",
+     "at": 0.8,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s70",
+   "lines": [
+    {
+     "t": "이 야간 기습으로, 해병들은 1216고지를 손에 넣었다.",
+     "say": "이 야간 기습으로, 해병들은 천이백십육 고지를 손에 넣었다."
+    },
+    "엿새 동안 막혀 있던 길이, 하룻밤 사이에 열린 것이다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "daeam",
+    "to": "daeam",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.05,
+        38.19
+       ],
+       [
+        128.075,
+        38.196
+       ],
+       [
+        128.1,
+        38.2
+       ],
+       [
+        128.12,
+        38.205
+       ],
+       [
+        128.15,
+        38.215
+       ],
+       [
+        128.18,
+        38.222
+       ],
+       [
+        128.21,
+        38.226
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.118,
+       38.198
+      ],
+      "n": 11,
+      "at": 0.0,
+      "takenAt": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.128,
+       38.203
+      ],
+      "n": 12,
+      "at": 0.05,
+      "takenAt": 0.5
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.145,
+       38.206
+      ],
+      "n": 13,
+      "at": 0.1
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.142,
+       38.214
+      ],
+      "n": 14,
+      "at": 0.15
+     },
+     {
+      "k": "unit",
+      "p": "h1216",
+      "text": "1216고지 점령",
+      "color": "blue",
+      "at": 0.3,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1951. 6. 11 · 야간 기습 성공",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "bugle",
+     "at": 0.4,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s71",
+   "lines": [
+    "피해도 훨씬 적었다.",
+    "같은 부대, 같은 산이었다. 달라진 것은 오직, 싸우는 시간이었다."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "주간 공격 엿새",
+     "big": "막힘",
+     "icon": "none",
+     "color": "red"
+    },
+    "right": {
+     "title": "야간 기습 하룻밤",
+     "big": "돌파",
+     "icon": "none",
+     "color": "blue",
+     "at": 0.6
+    }
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0.6,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s72",
+   "lines": [
+    {
+     "t": "미 해병 제1사단의 지휘부도, 그제야 한국 해병을 다시 보기 시작했다.",
+     "say": "미 해병 제일 사단의 지휘부도, 그제야 한국 해병을 다시 보기 시작했다."
+    },
+    "반대하던 야간 공격이, 이 산을 여는 열쇠였다는 것이 드러난 것이다.",
+    "화력이 아니라 지휘관의 판단이, 전투의 흐름을 바꾼 순간이었다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "달라진 시선",
+    "style": "blue",
+    "sub": "1951. 6. 11 이후",
+    "subAt": 0.5
+   }
+  },
+  {
+   "id": "s73",
+   "lines": [
+    {
+     "t": "이날 이후, 해병 제1연대의 싸움은 밤의 싸움이 되었다.",
+     "say": "이날 이후, 해병 제일 연대의 싸움은 밤의 싸움이 되었다."
+    },
+    "낮에는 몸을 낮추고 숨을 고르다가, 해가 지면 다음 봉우리로 스며들었다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "밤의 해병",
+    "style": "yellow",
+    "sub": "1951. 6. 11 이후",
+    "subAt": 0.5
+   }
+  },
+  {
+   "id": "s74",
+   "lines": [
+    {
+     "t": "6월 14일, 미 해병 제1사단은 도솔산을 점령하라고 명령한다.",
+     "say": "유월 십사 일, 미 해병 제일 사단은 도솔산을 점령하라고 명령한다."
+    },
+    "도솔산은 대암산의 북서쪽, 이 일대를 내려다보는 핵심 봉우리였다.",
+    "이 봉우리를 쥐는 쪽이, 해안분지 남쪽 산줄기 전체를 쥐게 되는 것이었다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "daeam",
+    "to": "dosol",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.05,
+        38.19
+       ],
+       [
+        128.075,
+        38.196
+       ],
+       [
+        128.1,
+        38.2
+       ],
+       [
+        128.12,
+        38.205
+       ],
+       [
+        128.15,
+        38.215
+       ],
+       [
+        128.18,
+        38.222
+       ],
+       [
+        128.21,
+        38.226
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "daeam",
+      "color": "red",
+      "at": 0.3
+     },
+     {
+      "k": "unit",
+      "p": "dosol",
+      "text": "도솔산 · 목표 22",
+      "color": "red",
+      "at": 1.0,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1951. 6. 14 · 도솔산 점령 명령",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s75",
+   "lines": [
+    {
+     "t": "6월 15일, 2대대가 먼저 나섰다.",
+     "say": "유월 십오 일, 이 대대가 먼저 나섰다."
+    },
+    {
+     "t": "대암산을 공격한 2대대는 이튿날 그 일대를 차지하고, 도솔산으로 가는 발판을 마련했다.",
+     "say": "대암산을 공격한 이 대대는 이튿날 그 일대를 차지하고, 도솔산으로 가는 발판을 마련했다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "dosol",
+    "to": "daeam",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.05,
+        38.19
+       ],
+       [
+        128.075,
+        38.196
+       ],
+       [
+        128.1,
+        38.2
+       ],
+       [
+        128.12,
+        38.205
+       ],
+       [
+        128.15,
+        38.215
+       ],
+       [
+        128.18,
+        38.222
+       ],
+       [
+        128.21,
+        38.226
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.145,
+       38.206
+      ],
+      "n": 13,
+      "at": 0.0,
+      "takenAt": 0.6
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.142,
+       38.214
+      ],
+      "n": 14,
+      "at": 0.05,
+      "takenAt": 0.9
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.135,
+       38.212
+      ],
+      "n": 15,
+      "at": 0.1,
+      "takenAt": 1.2
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.128,
+       38.219
+      ],
+      "n": 16,
+      "at": 0.15
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.13,
+        38.19
+       ],
+       [
+        128.135,
+        38.2
+       ],
+       [
+        128.135,
+        38.208
+       ]
+      ],
+      "color": "blue",
+      "at": 0.2
+     },
+     {
+      "k": "clash",
+      "p": [
+       128.135,
+       38.212
+      ],
+      "at": 0.5
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "6. 15 ~ 16 · 2대대 대암산 일대 확보",
+     "style": "blue",
+     "at": 0.6,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "charge",
+     "at": 0.2,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s76",
+   "lines": [
+    {
+     "t": "6월 17일, 예비대였던 3대대가 도솔산 공격의 선봉에 섰다.",
+     "say": "유월 십칠 일, 예비대였던 삼 대대가 도솔산 공격의 선봉에 섰다."
+    },
+    {
+     "t": "앞선 싸움에서 2대대의 피해가 너무 컸기 때문이다.",
+     "say": "앞선 싸움에서 이 대대의 피해가 너무 컸기 때문이다."
+    },
+    "이제 연대에는, 뒤를 받쳐 줄 예비대조차 남아 있지 않았다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "daeam",
+    "to": "objall",
+    "tilt": 34,
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.05,
+        38.19
+       ],
+       [
+        128.075,
+        38.196
+       ],
+       [
+        128.1,
+        38.2
+       ],
+       [
+        128.12,
+        38.205
+       ],
+       [
+        128.15,
+        38.215
+       ],
+       [
+        128.18,
+        38.222
+       ],
+       [
+        128.21,
+        38.226
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.07,
+       38.178
+      ],
+      "n": 1,
+      "at": 0.0,
+      "takenAt": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.08,
+       38.183
+      ],
+      "n": 2,
+      "at": 0.0,
+      "takenAt": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.091,
+       38.18
+      ],
+      "n": 3,
+      "at": 0.0,
+      "takenAt": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.1,
+       38.186
+      ],
+      "n": 4,
+      "at": 0.0,
+      "takenAt": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.108,
+       38.181
+      ],
+      "n": 5,
+      "at": 0.0,
+      "takenAt": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.112,
+       38.19
+      ],
+      "n": 6,
+      "at": 0.0,
+      "takenAt": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.122,
+       38.186
+      ],
+      "n": 7,
+      "at": 0.0,
+      "takenAt": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.13,
+       38.192
+      ],
+      "n": 8,
+      "at": 0.0,
+      "takenAt": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.142,
+       38.19
+      ],
+      "n": 9,
+      "at": 0.0,
+      "takenAt": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.148,
+       38.198
+      ],
+      "n": 10,
+      "at": 0.0,
+      "takenAt": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.118,
+       38.198
+      ],
+      "n": 11,
+      "at": 0.0,
+      "takenAt": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.128,
+       38.203
+      ],
+      "n": 12,
+      "at": 0.0,
+      "takenAt": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.145,
+       38.206
+      ],
+      "n": 13,
+      "at": 0.0,
+      "takenAt": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.142,
+       38.214
+      ],
+      "n": 14,
+      "at": 0.0,
+      "takenAt": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.135,
+       38.212
+      ],
+      "n": 15,
+      "at": 0.0,
+      "takenAt": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.128,
+       38.219
+      ],
+      "n": 16,
+      "at": 0.2
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.12,
+       38.222
+      ],
+      "n": 17,
+      "at": 0.25
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.124,
+       38.229
+      ],
+      "n": 18,
+      "at": 0.3
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.113,
+       38.226
+      ],
+      "n": 19,
+      "at": 0.35
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.108,
+       38.232
+      ],
+      "n": 20,
+      "at": 0.4
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.106,
+       38.235
+      ],
+      "n": 21,
+      "at": 0.45
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.1,
+       38.238
+      ],
+      "n": 22,
+      "at": 0.5
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.088,
+       38.242
+      ],
+      "n": 23,
+      "at": 0.55
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.076,
+       38.246
+      ],
+      "n": 24,
+      "at": 0.6
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.135,
+        38.212
+       ],
+       [
+        128.13,
+        38.218
+       ],
+       [
+        128.128,
+        38.219
+       ]
+      ],
+      "color": "blue",
+      "at": 0.6
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1951. 6. 17 · 3대대 공격",
+     "style": "yellow",
+     "at": 0,
+     "pos": "lower"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "drum",
+     "at": 0,
+     "volume": 0.4
+    }
+   ],
+   "chapter": {
+    "num": "PART 5",
+    "title": "24개 고지의 착검 돌격"
+   }
+  },
+  {
+   "id": "s77",
+   "lines": [
+    "날씨는 최악이었다.",
+    "비구름이 산을 덮어, 포병과 항공기의 지원도 거의 힘을 쓰지 못했다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s77-photo"
+   },
+   "label": "포연 속에 고지를 오르는 병사들 (1951)",
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s78",
+   "lines": [
+    {
+     "t": "3대대는 스스로 교통호를 파 가며, 한 걸음씩 적진에 다가섰다.",
+     "say": "삼 대대는 스스로 교통호를 파 가며, 한 걸음씩 적진에 다가섰다."
+    },
+    "총알이 빗발치는 비탈에서, 땅을 파고 엎드리며 앞으로 나아간 것이다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "스스로 판 교통호",
+    "style": "yellow",
+    "sub": "1951. 6. 17 · 3대대",
+    "subAt": 0.5
+   }
+  },
+  {
+   "id": "s79",
+   "lines": [
+    "적진 코앞에 이르면, 해병들은 총검을 꽂았다.",
+    "그리고 함성과 함께, 동굴 진지를 향해 몸을 던졌다.",
+    "총구 앞으로 뛰어드는 그 몇 걸음이, 수많은 해병의 마지막 걸음이 되었다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "bayonet_charge",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "charge",
+     "at": 0.4,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s80",
+   "lines": [
+    "고지 하나를 빼앗으면, 북한군은 곧바로 역습해 왔다.",
+    "빼앗고, 빼앗기고, 다시 빼앗는 싸움이 밤낮없이 이어졌다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "dosol",
+    "to": "dosol",
+    "tilt": 45,
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.05,
+        38.19
+       ],
+       [
+        128.075,
+        38.196
+       ],
+       [
+        128.1,
+        38.2
+       ],
+       [
+        128.12,
+        38.205
+       ],
+       [
+        128.15,
+        38.215
+       ],
+       [
+        128.18,
+        38.222
+       ],
+       [
+        128.21,
+        38.226
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.128,
+       38.219
+      ],
+      "n": 16,
+      "at": 0.0,
+      "takenAt": 0.3
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.12,
+       38.222
+      ],
+      "n": 17,
+      "at": 0.05,
+      "takenAt": 0.8
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.124,
+       38.229
+      ],
+      "n": 18,
+      "at": 0.1,
+      "takenAt": 1.3
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.113,
+       38.226
+      ],
+      "n": 19,
+      "at": 0.15
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.108,
+       38.232
+      ],
+      "n": 20,
+      "at": 0.2
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.106,
+       38.235
+      ],
+      "n": 21,
+      "at": 0.25
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.1,
+       38.238
+      ],
+      "n": 22,
+      "at": 0.3
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.088,
+       38.242
+      ],
+      "n": 23,
+      "at": 0.35
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.076,
+       38.246
+      ],
+      "n": 24,
+      "at": 0.4
+     },
+     {
+      "k": "clash",
+      "p": [
+       128.128,
+       38.219
+      ],
+      "at": 0
+     },
+     {
+      "k": "clash",
+      "p": [
+       128.12,
+       38.222
+      ],
+      "at": 0.5,
+      "period": 0.9
+     },
+     {
+      "k": "clash",
+      "p": [
+       128.124,
+       38.229
+      ],
+      "at": 1.0,
+      "period": 1.3
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.108,
+        38.232
+       ],
+       [
+        128.114,
+        38.229
+       ],
+       [
+        128.12,
+        38.222
+       ]
+      ],
+      "color": "red",
+      "at": 1.2,
+      "width": 0.6
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 0,
+     "volume": 0.4
+    },
+    {
+     "id": "boom",
+     "at": 0.7,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s81",
+   "lines": [
+    "탄약이 떨어지면, 개머리판과 총검이 무기가 되었다.",
+    "사람 하나가 겨우 지나는 능선 위에서, 적과 아군이 뒤엉켜 싸웠다.",
+    "발을 헛디디면 그대로 벼랑 아래였고, 물러설 곳은 어디에도 없었다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "백병전",
+    "style": "red",
+    "sub": "좁은 칼날 능선 위의 육탄전",
+    "subAt": 0.5
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0.2,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s82",
+   "lines": [
+    "동굴 진지 하나를 무너뜨릴 때마다, 누군가는 쓰러졌다.",
+    "그래도 해병들은, 다음 동굴을 향해 다시 기어올랐다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s82-photo"
+   },
+   "label": "북한군 벙커 (1951. 12 · 참고 사진)"
+  },
+  {
+   "id": "s83",
+   "lines": [
+    "이근식, 오정근, 김의태 소위.",
+    "앞장서 적진에 뛰어든 젊은 소대장들의 이름은, 훗날 미국 정부의 은성무공훈장 명단에도 오르게 된다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "세 명의 소위",
+    "style": "yellow",
+    "sub": "이근식 · 오정근 · 김의태",
+    "subAt": 0.4
+   },
+   "sfx": [
+    {
+     "id": "drum",
+     "at": 0,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s84",
+   "lines": [
+    "열흘 가까이, 해병들은 제대로 잠들지 못했다.",
+    "쏟아지는 비와 안개 속에서, 젖은 군복은 마를 날이 없었다.",
+    "보급도 끊기기 일쑤여서, 허기진 채로 다음 봉우리를 오르는 날이 많았다."
+   ],
+   "visual": {
+    "type": "weekbar",
+    "title": "6월 11일 ~ 19일",
+    "days": [
+     "6.11",
+     "6.13",
+     "6.15",
+     "6.17",
+     "6.18",
+     "6.19"
+    ],
+    "start": 0,
+    "mark": 5,
+    "markText": "6.19 정상",
+    "at": 0.4,
+    "hold": [
+     0,
+     4
+    ],
+    "holdText": "밤낮없는 고지전"
+   },
+   "sfx": [
+    {
+     "id": "clock",
+     "at": 0.2,
+     "volume": 0.34
+    }
+   ]
+  },
+  {
+   "id": "s85",
+   "lines": [
+    {
+     "t": "6월 18일 오전, 3대대의 10중대와 11중대가 목표 21번 능선으로 돌격했다.",
+     "say": "유월 십팔 일 오전, 삼 대대의 십 중대와 십일 중대가 목표 이십일 번 능선으로 돌격했다."
+    },
+    {
+     "t": "오전 11시 30분 무렵, 그 능선은 마침내 해병들의 손에 들어왔다.",
+     "say": "오전 열한 시 삼십 분 무렵, 그 능선은 마침내 해병들의 손에 들어왔다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "dosol",
+    "to": "summit",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.05,
+        38.19
+       ],
+       [
+        128.075,
+        38.196
+       ],
+       [
+        128.1,
+        38.2
+       ],
+       [
+        128.12,
+        38.205
+       ],
+       [
+        128.15,
+        38.215
+       ],
+       [
+        128.18,
+        38.222
+       ],
+       [
+        128.21,
+        38.226
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.113,
+       38.226
+      ],
+      "n": 19,
+      "at": 0.0,
+      "takenAt": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.108,
+       38.232
+      ],
+      "n": 20,
+      "at": 0.05,
+      "takenAt": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.106,
+       38.235
+      ],
+      "n": 21,
+      "at": 0.1,
+      "takenAt": 1.3
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.1,
+       38.238
+      ],
+      "n": 22,
+      "at": 0.15
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.113,
+        38.226
+       ],
+       [
+        128.11,
+        38.231
+       ],
+       [
+        128.106,
+        38.235
+       ]
+      ],
+      "color": "blue",
+      "at": 0.3
+     },
+     {
+      "k": "clash",
+      "p": [
+       128.106,
+       38.235
+      ],
+      "at": 0.6
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "6. 18 11:30 · 목표 21 점령",
+     "style": "blue",
+     "at": 1.3,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "charge",
+     "at": 0.3,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s86",
+   "lines": [
+    {
+     "t": "이제 남은 것은 목표 22번, 도솔산 정상이었다.",
+     "say": "이제 남은 것은 목표 이십이 번, 도솔산 정상이었다."
+    },
+    {
+     "t": "김대식 대령은 3대대에 야간 공격을 명령하며, 이 작전에 도솔산 작전이라는 이름을 붙였다.",
+     "say": "김대식 대령은 삼 대대에 야간 공격을 명령하며, 이 작전에 도솔산 작전이라는 이름을 붙였다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "summit",
+    "to": "summit",
+    "tilt": 45,
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.05,
+        38.19
+       ],
+       [
+        128.075,
+        38.196
+       ],
+       [
+        128.1,
+        38.2
+       ],
+       [
+        128.12,
+        38.205
+       ],
+       [
+        128.15,
+        38.215
+       ],
+       [
+        128.18,
+        38.222
+       ],
+       [
+        128.21,
+        38.226
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.106,
+       38.235
+      ],
+      "n": 21,
+      "at": 0.0,
+      "takenAt": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.1,
+       38.238
+      ],
+      "n": 22,
+      "at": 0.05,
+      "text": "도솔산 정상"
+     },
+     {
+      "k": "unit",
+      "p": "dosol",
+      "text": "1,148m",
+      "color": "red",
+      "at": 0.4,
+      "pulse": true
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s87",
+   "lines": [
+    {
+     "t": "6월 19일 자정, 11중대가 정상의 동쪽 비탈로 스며들었다.",
+     "say": "유월 십구 일 자정, 십일 중대가 정상의 동쪽 비탈로 스며들었다."
+    },
+    "적의 눈과 귀가 동쪽에 쏠린 사이,",
+    {
+     "t": "새벽 3시 30분, 10중대가 정면에서 돌격을 시작했다.",
+     "say": "새벽 세 시 삼십 분, 십 중대가 정면에서 돌격을 시작했다."
+    }
+   ],
+   "visual": {
+    "type": "profile",
+    "pts": [
+     [
+      0,
+      520
+     ],
+     [
+      0.08,
+      560
+     ],
+     [
+      0.16,
+      640
+     ],
+     [
+      0.22,
+      760
+     ],
+     [
+      0.28,
+      820
+     ],
+     [
+      0.33,
+      900
+     ],
+     [
+      0.38,
+      860
+     ],
+     [
+      0.43,
+      940
+     ],
+     [
+      0.48,
+      1010
+     ],
+     [
+      0.53,
+      1060
+     ],
+     [
+      0.57,
+      1110
+     ],
+     [
+      0.62,
+      1148
+     ],
+     [
+      0.66,
+      1120
+     ],
+     [
+      0.7,
+      1050
+     ],
+     [
+      0.76,
+      960
+     ],
+     [
+      0.84,
+      840
+     ],
+     [
+      0.92,
+      760
+     ],
+     [
+      1,
+      720
+     ]
+    ],
+    "grid": [
+     600,
+     800,
+     1000
+    ],
+    "left": "남 · 정면",
+    "right": "북",
+    "note": "정상 협공 · 모식도",
+    "arrows": [
+     {
+      "from": 0.9,
+      "to": 0.66,
+      "color": "blue",
+      "at": 0,
+      "dur": 2.5,
+      "lift": 30
+     },
+     {
+      "from": 0.4,
+      "to": 0.58,
+      "color": "blue",
+      "at": 1.0,
+      "dur": 2.0,
+      "lift": 30
+     }
+    ],
+    "marks": [
+     {
+      "x": 0.62,
+      "text": "목표 22 · 정상",
+      "style": "red",
+      "at": 0,
+      "lift": 140,
+      "size": 44
+     },
+     {
+      "x": 0.84,
+      "text": "11중대 · 자정",
+      "style": "blue",
+      "at": 0.3,
+      "lift": 90,
+      "size": 40
+     },
+     {
+      "x": 0.43,
+      "text": "10중대 · 03:30",
+      "style": "blue",
+      "at": 1.0,
+      "lift": 90,
+      "size": 40
+     }
+    ]
+   },
+   "night": true
+  },
+  {
+   "id": "s88",
+   "lines": [
+    "양쪽에서 동시에 터져 나온 함성에, 정상의 북한군은 갈피를 잡지 못했다.",
+    "수류탄이 터지고 총검이 부딪히는 소리가, 새벽 안개를 갈랐다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "summit",
+    "to": "summit",
+    "tilt": 45,
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.05,
+        38.19
+       ],
+       [
+        128.075,
+        38.196
+       ],
+       [
+        128.1,
+        38.2
+       ],
+       [
+        128.12,
+        38.205
+       ],
+       [
+        128.15,
+        38.215
+       ],
+       [
+        128.18,
+        38.222
+       ],
+       [
+        128.21,
+        38.226
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.1,
+       38.238
+      ],
+      "n": 22,
+      "at": 0.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.115,
+        38.236
+       ],
+       [
+        128.108,
+        38.239
+       ],
+       [
+        128.102,
+        38.239
+       ]
+      ],
+      "color": "blue",
+      "at": 0,
+      "width": 0.8
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.1,
+        38.226
+       ],
+       [
+        128.1,
+        38.231
+       ],
+       [
+        128.1,
+        38.235
+       ]
+      ],
+      "color": "blue",
+      "at": 0.3,
+      "width": 0.8
+     },
+     {
+      "k": "clash",
+      "p": [
+       128.101,
+       38.237
+      ],
+      "at": 0.4,
+      "size": 1.4
+     },
+     {
+      "k": "clash",
+      "p": [
+       128.096,
+       38.24
+      ],
+      "at": 0.8,
+      "period": 0.9
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "charge",
+     "at": 0,
+     "volume": 0.5
+    },
+    {
+     "id": "boom",
+     "at": 0.8,
+     "volume": 0.45
+    }
+   ],
+   "night": true
+  },
+  {
+   "id": "s89",
+   "lines": [
+    "정상의 북한군은 끝까지 버텼다.",
+    "그러나 동쪽과 정면, 두 방향에서 조여 오는 해병들 앞에서, 마침내 진지가 하나둘 무너져 내렸다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "6. 19 새벽",
+    "accent": "정상 진지 붕괴",
+    "accentAt": 1
+   },
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0.4,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s90",
+   "lines": [
+    {
+     "t": "6월 19일 새벽 5시 30분.",
+     "say": "유월 십구 일 새벽 다섯 시 삼십 분."
+    },
+    "해병들은 마침내, 도솔산 정상에 올라섰다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "summit_dawn",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "1951. 6. 19 05:30 · 도솔산 점령",
+     "style": "blue",
+     "at": 0.5
+    }
+   ],
+   "sfx": [
+    {
+     "id": "bugle",
+     "at": 0.3,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s91",
+   "lines": [
+    "남은 목표들도 차례로 무너졌다.",
+    {
+     "t": "1대대가 정상 서쪽의 능선마저 차지하면서, 24개의 목표가 모두 해병의 손에 들어왔다.",
+     "say": "일 대대가 정상 서쪽의 능선마저 차지하면서, 이십사 개의 목표가 모두 해병의 손에 들어왔다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "summit",
+    "to": "objall",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.04,
+        38.25
+       ],
+       [
+        128.07,
+        38.252
+       ],
+       [
+        128.1,
+        38.248
+       ],
+       [
+        128.13,
+        38.247
+       ],
+       [
+        128.16,
+        38.25
+       ],
+       [
+        128.2,
+        38.255
+       ]
+      ],
+      "at": 0.6
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.07,
+       38.178
+      ],
+      "n": 1,
+      "at": 0.0,
+      "takenAt": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.08,
+       38.183
+      ],
+      "n": 2,
+      "at": 0.0,
+      "takenAt": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.091,
+       38.18
+      ],
+      "n": 3,
+      "at": 0.0,
+      "takenAt": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.1,
+       38.186
+      ],
+      "n": 4,
+      "at": 0.0,
+      "takenAt": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.108,
+       38.181
+      ],
+      "n": 5,
+      "at": 0.0,
+      "takenAt": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.112,
+       38.19
+      ],
+      "n": 6,
+      "at": 0.0,
+      "takenAt": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.122,
+       38.186
+      ],
+      "n": 7,
+      "at": 0.0,
+      "takenAt": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.13,
+       38.192
+      ],
+      "n": 8,
+      "at": 0.0,
+      "takenAt": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.142,
+       38.19
+      ],
+      "n": 9,
+      "at": 0.0,
+      "takenAt": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.148,
+       38.198
+      ],
+      "n": 10,
+      "at": 0.0,
+      "takenAt": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.118,
+       38.198
+      ],
+      "n": 11,
+      "at": 0.0,
+      "takenAt": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.128,
+       38.203
+      ],
+      "n": 12,
+      "at": 0.0,
+      "takenAt": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.145,
+       38.206
+      ],
+      "n": 13,
+      "at": 0.0,
+      "takenAt": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.142,
+       38.214
+      ],
+      "n": 14,
+      "at": 0.0,
+      "takenAt": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.135,
+       38.212
+      ],
+      "n": 15,
+      "at": 0.0,
+      "takenAt": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.128,
+       38.219
+      ],
+      "n": 16,
+      "at": 0.0,
+      "takenAt": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.12,
+       38.222
+      ],
+      "n": 17,
+      "at": 0.0,
+      "takenAt": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.124,
+       38.229
+      ],
+      "n": 18,
+      "at": 0.0,
+      "takenAt": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.113,
+       38.226
+      ],
+      "n": 19,
+      "at": 0.0,
+      "takenAt": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.108,
+       38.232
+      ],
+      "n": 20,
+      "at": 0.0,
+      "takenAt": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.106,
+       38.235
+      ],
+      "n": 21,
+      "at": 0.0,
+      "takenAt": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.1,
+       38.238
+      ],
+      "n": 22,
+      "at": 0.0,
+      "takenAt": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.088,
+       38.242
+      ],
+      "n": 23,
+      "at": 0.0,
+      "takenAt": 0.8
+     },
+     {
+      "k": "obj",
+      "p": [
+       128.076,
+       38.246
+      ],
+      "n": 24,
+      "at": 0.0,
+      "takenAt": 1.2
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "24개 목표 전부 확보",
+     "style": "blue",
+     "at": 1.3,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "bugle",
+     "at": 1.2,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s92",
+   "lines": [
+    {
+     "t": "6월 20일, 17일에 걸친 도솔산 작전은 마침내 막을 내렸다.",
+     "say": "유월 이십 일, 십칠 일에 걸친 도솔산 작전은 마침내 막을 내렸다."
+    }
+   ],
+   "visual": {
+    "type": "black",
+    "text": "1951. 6. 20",
+    "accent": "작전 종료",
+    "accentAt": 0.4
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ],
+   "pauseBefore": 0.5
+  },
+  {
+   "id": "s93",
+   "lines": [
+    "도솔산을 차지하면서, 아군은 해안분지 남쪽의 높은 땅을 손에 넣었다.",
+    "교착에 빠졌던 동부 전선에, 비로소 숨통이 트인 것이다.",
+    {
+     "t": "양구 북쪽의 38선 이북 땅이, 이렇게 대한민국의 품으로 돌아오기 시작했다.",
+     "say": "양구 북쪽의 삼팔선 이북 땅이, 이렇게 대한민국의 품으로 돌아오기 시작했다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "dosol",
+    "to": "punch",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.04,
+        38.25
+       ],
+       [
+        128.07,
+        38.252
+       ],
+       [
+        128.1,
+        38.248
+       ],
+       [
+        128.13,
+        38.247
+       ],
+       [
+        128.16,
+        38.25
+       ],
+       [
+        128.2,
+        38.255
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "punchbowl",
+      "text": "펀치볼",
+      "color": "dark",
+      "at": 0.6
+     },
+     {
+      "k": "unit",
+      "p": "dosol",
+      "text": "도솔산 확보",
+      "color": "blue",
+      "at": 0.2,
+      "pulse": true
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0,
+     "volume": 0.3
+    }
+   ],
+   "chapter": {
+    "num": "PART 6",
+    "title": "승리와 무적해병의 신화"
+   }
+  },
+  {
+   "id": "s94",
+   "lines": [
+    {
+     "t": "한국 측 기록으로, 해병 제1연대의 전사자는 123명, 부상자는 582명이었다.",
+     "say": "한국 측 기록으로, 해병 제일 연대의 전사자는 백이십삼 명, 부상자는 오백팔십이 명이었다."
+    },
+    {
+     "t": "기록에 따라서는, 전사자를 133명으로 적기도 한다.",
+     "say": "기록에 따라서는, 전사자를 백삼십삼 명으로 적기도 한다."
+    }
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "해병 제1연대 피해 · 한국 측 기록 기준 (기록마다 차이)",
+    "items": [
+     {
+      "label": "전사",
+      "value": 123,
+      "display": "123명",
+      "color": "red",
+      "at": 0.3
+     },
+     {
+      "label": "부상",
+      "value": 582,
+      "display": "582명",
+      "color": "red",
+      "at": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "id": "s95",
+   "lines": [
+    {
+     "t": "북한군은 2천 명이 넘는 전사자를 남기고 물러났다.",
+     "say": "북한군은 이천 명이 넘는 전사자를 남기고 물러났다."
+    },
+    {
+     "t": "17일 동안, 이 바위산 위에서 흘린 피의 무게였다.",
+     "say": "십칠 일 동안, 이 바위산 위에서 흘린 피의 무게였다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "적 사살 2천여 명",
+    "style": "red",
+    "sub": "한국 측 기록 · 기록마다 차이",
+    "subAt": 0.5
+   }
+  },
+  {
+   "id": "s96",
+   "lines": [
+    "해병들은 쓰러진 전우를 참호 곁에 묻었다.",
+    "전쟁이 끝나면 반드시 찾아, 고향으로 데려가겠다는 약속과 함께.",
+    {
+     "t": "그 약속은, 60여 년이 지나서야 조금씩 지켜지기 시작했다.",
+     "say": "그 약속은, 육십여 년이 지나서야 조금씩 지켜지기 시작했다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "comrades_graves",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s97",
+   "lines": [
+    "도솔산의 싸움은 끝이 아니었다.",
+    {
+     "t": "그해 8월 말부터 해병 제1연대는 펀치볼 북쪽으로 나아가, 북한군이 김일성고지, 모택동고지라 부르던 924고지와 1026고지를 빼앗는다.",
+     "say": "그해 팔월 말부터 해병 제일 연대는 펀치볼 북쪽으로 나아가, 북한군이 김일성고지, 모택동고지라 부르던 구백이십사 고지와 천이십육 고지를 빼앗는다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "punch",
+    "to": "area",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.04,
+        38.25
+       ],
+       [
+        128.07,
+        38.252
+       ],
+       [
+        128.1,
+        38.248
+       ],
+       [
+        128.13,
+        38.247
+       ],
+       [
+        128.16,
+        38.25
+       ],
+       [
+        128.2,
+        38.255
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "punchbowl",
+      "text": "펀치볼",
+      "color": "dark",
+      "at": 0.3
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.12,
+        38.255
+       ],
+       [
+        128.13,
+        38.29
+       ],
+       [
+        128.13,
+        38.33
+       ]
+      ],
+      "color": "blue",
+      "at": 1.0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1951. 8. 31 ~ 9. 20 · 펀치볼 전투",
+     "style": "yellow",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s98",
+   "lines": [
+    "미국은 이 승리를 높이 평가했다.",
+    "연대장과 참모장, 그리고 앞장선 소대장들에게는 은성무공훈장이,",
+    "세 대대장에게는 동성무공훈장이 수여됐다."
+   ],
+   "visual": {
+    "type": "document",
+    "org": "미국 정부",
+    "head": "무공훈장 수여",
+    "stamp": "1951",
+    "rows": [
+     "연대장 김대식 대령 · 은성무공훈장",
+     "참모장 김성은 대령 · 은성무공훈장",
+     "이근식·오정근·김의태 소위 · 은성무공훈장",
+     "대대장 공정식·윤영준·김윤근 소령 · 동성무공훈장"
+    ],
+    "note": "수여 요지 · 재구성 화면"
+   },
+   "sfx": [
+    {
+     "id": "typewriter",
+     "at": 0.2,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s99",
+   "lines": [
+    "그리고 이승만 대통령은 해병대에, 네 글자의 휘호를 내렸다.",
+    "무적해병. 그 누구도 꺾을 수 없는 해병이라는 뜻이었다."
+   ],
+   "visual": {
+    "type": "person",
+    "name": "이승만",
+    "years": "1875 - 1965",
+    "role": "대한민국 제1대 대통령",
+    "q": "s99-photo"
+   }
+  },
+  {
+   "id": "s100",
+   "lines": [
+    "귀신 잡는 해병에 이어, 또 하나의 이름이 새겨진 순간이었다.",
+    "이 네 글자는 지금도, 대한민국 해병대의 정신으로 이어지고 있다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "무적해병",
+    "style": "yellow",
+    "sub": "이승만 대통령 친필 휘호",
+    "subAt": 0.5
+   },
+   "sfx": [
+    {
+     "id": "drum",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s101",
+   "lines": [
+    "이 전투를 기려, 도솔산가라는 군가도 만들어졌다.",
+    "해병들은 지금도 이 노래를 부르며, 그 여름의 산을 기억한다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "도솔산가",
+    "style": "dark",
+    "sub": "도솔산 전투를 기리는 해병대 군가",
+    "subAt": 0.5
+   }
+  },
+  {
+   "id": "s102",
+   "lines": [
+    "도솔산 전투는, 상륙을 본업으로 하는 해병대가 치른 보기 드문 대규모 산악 공격 작전이었다.",
+    "바다가 아닌 산에서, 해병대는 스스로의 싸움 방식을 증명해 보였다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "바다가 아닌 산에서",
+    "style": "blue",
+    "sub": "해병대의 산악 공격 작전",
+    "subAt": 0.5
+   }
+  },
+  {
+   "id": "s103",
+   "lines": [
+    {
+     "t": "미군도 넘지 못한 산을, 17일 만에 무너뜨린 힘.",
+     "say": "미군도 넘지 못한 산을, 십칠 일 만에 무너뜨린 힘."
+    },
+    "네 가지로 정리해 볼 수 있다."
+   ],
+   "visual": {
+    "type": "factors",
+    "items": [
+     "낮을 버린 결단",
+     "침묵의 야간 기습",
+     "소부대 우회 침투",
+     "물러서지 않은 백병전"
+    ],
+    "head": "도솔산을 무너뜨린 4가지",
+    "at": 1
+   }
+  },
+  {
+   "id": "s104",
+   "lines": [
+    "첫째, 낮을 버린 결단이다.",
+    "훤히 내려다보이는 주간 공격을 멈추고, 적이 볼 수 없는 시간을 골랐다."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "num": "요인 1",
+    "title": "낮을 버린 결단",
+    "q": "s104-photo"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s105",
+   "lines": [
+    "둘째, 침묵의 야간 기습이다.",
+    "조명도 포격도 없이 다가간 해병들은, 적에게 대비할 틈조차 주지 않았다."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "num": "요인 2",
+    "title": "침묵의 야간 기습",
+    "q": "s105-photo"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s106",
+   "lines": [
+    "셋째, 소부대 우회 침투다.",
+    "정면 대신 계곡과 벼랑을 타고 돌아, 동굴 진지의 옆구리를 찔렀다."
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "num": "요인 3",
+    "title": "소부대 우회 침투",
+    "q": "s106-photo"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s107",
+   "lines": [
+    "넷째, 물러서지 않은 백병전이다.",
+    {
+     "t": "빼앗기면 다시 빼앗는 집념이, 24개의 봉우리를 하나씩 무너뜨렸다.",
+     "say": "빼앗기면 다시 빼앗는 집념이, 이십사 개의 봉우리를 하나씩 무너뜨렸다."
+    }
+   ],
+   "visual": {
+    "type": "chapterbig",
+    "num": "요인 4",
+    "title": "물러서지 않은 백병전",
+    "q": "s107-photo"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s108",
+   "lines": [
+    {
+     "t": "그해 7월 10일, 개성에서 휴전회담이 시작되었다.",
+     "say": "그해 칠월 십 일, 개성에서 휴전회담이 시작되었다."
+    },
+    "도솔산과 펀치볼 일대에서 지켜 낸 땅은, 훗날 휴전선이 그어지는 자리와 맞닿게 된다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "punch",
+    "to": "korea",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.68,
+        37.78
+       ],
+       [
+        126.95,
+        37.98
+       ],
+       [
+        127.25,
+        38.12
+       ],
+       [
+        127.55,
+        38.1
+       ],
+       [
+        127.8,
+        38.12
+       ],
+       [
+        127.97,
+        38.18
+       ],
+       [
+        128.06,
+        38.19
+       ],
+       [
+        128.15,
+        38.21
+       ],
+       [
+        128.3,
+        38.25
+       ],
+       [
+        128.5,
+        38.4
+       ],
+       [
+        128.62,
+        38.5
+       ]
+      ],
+      "at": 0.2
+     },
+     {
+      "k": "unit",
+      "p": "kaesong",
+      "text": "개성 휴전회담",
+      "color": "dark",
+      "at": 1.0,
+      "pulse": true
+     },
+     {
+      "k": "marker",
+      "p": "dosol",
+      "color": "blue",
+      "at": 0.6
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1951. 7. 10 · 휴전회담 개시",
+     "style": "yellow",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s109",
+   "lines": [
+    "오늘날 도솔산 자락에는, 그날의 해병들을 기리는 전적비가 서 있다.",
+    {
+     "t": "1998년부터 해마다 6월이면, 양구에서는 도솔산 전투를 기리는 전승 행사가 열린다.",
+     "say": "천구백구십팔 년부터 해마다 유월이면, 양구에서는 도솔산 전투를 기리는 전승 행사가 열린다."
+    },
+    "백발의 노병과 젊은 해병들이, 함께 그 산을 바라보며 고개를 숙인다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "도솔산 전적비",
+    "accent": "해마다 6월",
+    "accentAt": 1
+   }
+  },
+  {
+   "id": "s110",
+   "lines": [
+    {
+     "t": "2010년, 이곳 전적비에는 펀치볼 일대에서 숨진 미군 623명의 이름도 함께 새겨졌다.",
+     "say": "이천십 년, 이곳 전적비에는 펀치볼 일대에서 숨진 미군 육백이십삼 명의 이름도 함께 새겨졌다."
+    },
+    "같은 산에서 피를 흘린 두 나라의 해병이, 그렇게 한자리에서 기억되고 있다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "함께 새겨진 이름",
+    "style": "blue",
+    "sub": "미군 전사자 623명 · 2010. 6",
+    "subAt": 0.5
+   }
+  },
+  {
+   "id": "s111",
+   "lines": [
+    "이름조차 남기지 못한 채, 바위산에 잠든 젊은이들.",
+    "그들이 피로 되찾은 능선 위로, 지금도 안개가 흐른다.",
+    "그리고 그 안개 속에서, 무적해병의 이름은 오늘도 살아 있다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "dosol_cliff",
+    "kb": "out"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s112",
+   "lines": [
+    "이 기록이 의미 있으셨다면, 구독과 좋아요로 함께해 주십시오.",
+    "호국의 별이 된 해병들의 이야기를, 다음 편에서도 이어 가겠습니다."
+   ],
+   "visual": {
+    "type": "endcard",
+    "title": "1951년 6월, 도솔산.\n17일 만에 태어난 무적해병.",
+    "q": "s112-photo"
+   },
+   "tail": 3.0
+  }
+ ]
+}

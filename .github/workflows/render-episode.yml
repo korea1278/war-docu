@@ -76,8 +76,14 @@ jobs:
             npx remotion still out/bundle Thumbnail thumbnails/${EP}_ko_B.png --props="{\"ep\":\"$EP\",\"variant\":\"B\",\"lang\":\"ko\"}" --log=error
           fi
           npx remotion still out/bundle Thumbnail thumbnails/${EP}_en_A.png --props="{\"ep\":\"$EP\",\"variant\":\"A\",\"lang\":\"en\"}" --log=error
+          # EP16~: MAPT에 카피 시안(alts)이 있으면 A2·A3도 렌더 (같은 배경·인물, 문구만 교체)
+          if grep -q "ALTS:${EP}\b" remotion/MapThumb.tsx; then
+            for V in A2 A3; do
+              npx remotion still out/bundle Thumbnail thumbnails/${EP}_ko_${V}.png --props="{\"ep\":\"$EP\",\"variant\":\"$V\",\"lang\":\"ko\"}" --log=error
+            done
+          fi
           # 유튜브 썸네일 한도 2MB: 1.9MB 넘는 PNG는 업로드용 JPG를 함께 만든다
-          python3 -c "import glob,os; from PIL import Image; [Image.open(p).convert('RGB').save(p[:-4]+'.jpg', quality=90, optimize=True) for p in glob.glob('thumbnails/${EP}_*_A.png') if os.path.getsize(p) > 1900000]"
+          python3 -c "import glob,os; from PIL import Image; [Image.open(p).convert('RGB').save(p[:-4]+'.jpg', quality=90, optimize=True) for p in glob.glob('thumbnails/${EP}_*_A*.png') if os.path.getsize(p) > 1900000]"
           git config user.name "war-docu-bot" && git config user.email "actions@users.noreply.github.com"
           git add -A public/ep/$EP thumbnails && git commit -qm "썸네일: $EP" || echo "변경 없음"
           for i in 1 2 3 4 5; do

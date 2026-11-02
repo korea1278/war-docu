@@ -35,6 +35,8 @@ export type MapThumbDef = {
   stampPos?: { x: number; y: number; rot?: number };
   ko: Copy;
   en: Copy;
+  /** EP16: 추가 카피 시안(한국어). variant "A2" → alts[0], "A3" → alts[1] — 같은 배경·인물에 문구만 교체 */
+  alts?: Copy[];
 };
 
 /* ===== 에피소드 표 (새 에피소드는 여기 한 줄) ===== */
@@ -198,6 +200,30 @@ export const MAPT: Record<string, MapThumbDef> = {
     subjectX: 1500,
     ko: { stamp: "", line1: "물러서면 바다다, 240km 최후의 결전", line2: "낙동강 총력전" },
     en: { stamp: "", line1: "BEHIND THEM, ONLY THE SEA", line2: "STAND OR DIE" },
+  },
+  // EP16 도솔산 전투 (1951) — 공통 썸네일 표준(EP09 피의 능선 기준: 스탬프 + 솔리드 블랙 바 + 2줄 카피).
+  // 좌표는 episodes/ep16-dosolsan/storyboard.json과 동일(개략: 목표 1~24 모식 배치, 15 대암산 · 22 도솔산).
+  // 인물은 AI 상징 한국 해병(thumb_subject). 카피 시안 3종(사용자 지정): A = 시안 1, A2 = 시안 2, A3 = 시안 3   ALTS:ep16-dosolsan
+  "ep16-dosolsan": {
+    raster: "dosol_zoom",
+    rasterFallback: "bloody_zoom",
+    view: { center: [128.132, 38.214], span: 0.17 },
+    items: [
+      { k: "front", path: [[128.05, 38.19], [128.075, 38.196], [128.1, 38.2], [128.12, 38.205], [128.15, 38.215], [128.18, 38.222]] },
+      { k: "ridge", path: [[128.135, 38.212], [128.128, 38.219], [128.12, 38.222], [128.113, 38.226], [128.106, 38.235], [128.1, 38.238], [128.088, 38.242], [128.076, 38.246]] },
+      { k: "arrow", path: [[128.095, 38.168], [128.1, 38.18], [128.11, 38.19], [128.118, 38.198]], color: "blue" },
+      { k: "arrow", path: [[128.14, 38.17], [128.148, 38.188], [128.138, 38.205]], color: "blue" },
+      { k: "arrow", path: [[128.124, 38.214], [128.112, 38.228], [128.102, 38.236]], color: "blue" },
+      { k: "pin", p: [128.1, 38.238], text: { ko: "도솔산 1,148m", en: "MT. DOSOL 1,148M" }, color: "red", lift: 60 },
+      { k: "pin", p: [128.135, 38.212], text: { ko: "대암산", en: "MT. DAEAM" }, color: "red" },
+    ],
+    stampPos: { x: 330, y: 470, rot: -7 },
+    ko: { stamp: "야간 기습", line1: "미군도 포기한 암벽 요새", line2: "해병대가 피로 뚫었다!" },
+    en: { stamp: "NIGHT ASSAULT", line1: "THE CLIFF FORTRESS U.S. MARINES LEFT", line2: "ROK MARINES TOOK IT IN BLOOD" },
+    alts: [
+      { stamp: "착검 돌격", line1: "24개 고지 야간 착검 돌격", line2: "무적해병의 기적" },
+      { stamp: "17일 혈전", line1: "깎아지른 절벽 1,148m", line2: "북한군 철옹성을 끝장내다" },
+    ],
   },
 };
 

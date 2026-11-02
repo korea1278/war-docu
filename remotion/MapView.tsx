@@ -127,6 +127,11 @@ export const MapView: React.FC<{ tl: Timeline }> = ({ tl }) => {
   const moveDur = Math.min(2.6, sc.dur * 0.45);
   const k = easeInOut(t / moveDur);
   const drift = 1 + 0.035 * clamp(t / sc.dur);
+  const tiltTo = v.tilt ?? 16;
+  const tiltDeg = 16 + (tiltTo - 16) * easeInOut(clamp(t / 1.6));
+  // 많이 기울이면 위쪽이 멀어져 빈 곳이 생기므로 살짝 더 키움 (45도 → 약 1.36)
+  const tiltScale = 1.08 + Math.max(0, tiltDeg - 16) * 0.012;
+  const tiltOrigin = 55 - Math.max(0, tiltDeg - 16) * 0.75; // 45도 → 원점 약 33%: 위쪽 빈 띠 방지
   const toSpan = to.span / zoom;
   const span = Math.exp(Math.log(from.span) + (Math.log(toSpan) - Math.log(from.span)) * k) / drift;
   const center: LonLat = [from.center[0] + (to.center[0] - from.center[0]) * k, from.center[1] + (to.center[1] - from.center[1]) * k];
@@ -238,6 +243,49 @@ export const MapView: React.FC<{ tl: Timeline }> = ({ tl }) => {
         </g>
       );
       html.push(<Pill key={"h" + i} x={x} y={y - 52} text={it.text} bg={col} s={s} anchor="center" size={32} />);
+    } else if (it.k === "obj") {
+      // EP16 도솔산: 목표 번호 링 (Objective 1~24). takenAt(줄 번호)부터 푸른색 + 체크로 바뀜
+      const [x, y] = P(resolveP(tl, it.p));
+      const s = popIn(since / 0.35);
+      const taken = it.takenAt != null && t >= atSec(sc, it.takenAt) + 0.05;
+      const c = taken ? colorOf("blue") : colorOf(it.color || "red");
+      const r = it.r || 30;
+      if (!taken) {
+        const ph = ((t * 0.8 + i * 0.13) % 1 + 1) % 1;
+        svgItems.push(<circle key={`op${i}`} cx={x} cy={y} r={r + ph * 34} fill="none" stroke={c} strokeWidth={4} opacity={0.7 * (1 - ph)} />);
+      }
+      svgItems.push(
+        <g key={i} transform={`translate(${x},${y}) scale(${s})`} filter="url(#tacticalShadow)">
+          <circle r={r} fill="rgba(8,10,14,.78)" stroke={c} strokeWidth={6} />
+          <circle r={r - 9} fill="none" stroke="rgba(255,255,255,.5)" strokeWidth={1.5} strokeDasharray="4 4" />
+          <text y={r * 0.36} textAnchor="middle" fontFamily={F.head} fontSize={r * 1.05} fill="#fff" fontWeight={700}>
+            {it.n}
+          </text>
+          {taken && <path d={`M${r * 0.45},${-r * 1.15} l${r * 0.25},${r * 0.28} l${r * 0.5},${-r * 0.55}`} stroke="#7fd4ff" strokeWidth={6} fill="none" strokeLinecap="round" />}
+        </g>
+      );
+      if (it.text) html.push(<Pill key={"h" + i} x={x} y={y + r + 28} text={it.text} bg={taken ? colorOf("blue") : "#111"} s={s} anchor="center" size={28} />);
+    } else if (it.k === "clash") {
+      // EP16 도솔산: 백병전 충돌 지점 — 번쩍이는 타격 플래시 + 퍼지는 폭발 링 (반복)
+      const [x, y] = P(resolveP(tl, it.p));
+      const per = it.period || 1.1;
+      const ph = ((since % per) + per) % per / per;
+      const sz = it.size || 1;
+      const flash = Math.max(0, 1 - ph * 3.2);
+      svgItems.push(
+        <g key={i} transform={`translate(${x},${y})`}>
+          <circle r={(26 + ph * 120) * sz} fill="none" stroke="#ffb347" strokeWidth={7 * (1 - ph) + 1} opacity={0.9 * (1 - ph)} />
+          <circle r={(14 + ph * 70) * sz} fill="none" stroke="#fff" strokeWidth={4} opacity={0.8 * (1 - ph)} />
+          {[0, 1, 2, 3, 4, 5, 6, 7].map((j) => {
+            const a = (j / 8) * Math.PI * 2 + i;
+            const r1 = 18 * sz,
+              r2 = (40 + 50 * flash) * sz;
+            return <line key={j} x1={Math.cos(a) * r1} y1={Math.sin(a) * r1} x2={Math.cos(a) * r2} y2={Math.sin(a) * r2} stroke="#fff6d0" strokeWidth={5} opacity={flash} strokeLinecap="round" />;
+          })}
+          <circle r={(22 + 30 * flash) * sz} fill="#fff3c4" opacity={0.25 + 0.75 * flash} />
+          <circle r={12 * sz} fill="#ff6a00" opacity={0.9} />
+        </g>
+      );
     } else if (it.k === "badge") {
       const [x, y] = P(resolveP(tl, it.p));
       const s = popIn(since / 0.35);
@@ -301,8 +349,9 @@ export const MapView: React.FC<{ tl: Timeline }> = ({ tl }) => {
           // ★ 틸트 레이어를 자기 크기(2160×1320)로 자른다. 안 자르면 확대 지도에서 전국 래스터가 수만 px로 붙어
           //   크롬 합성 레이어가 한계를 넘고, 그 뒤에 그리는 자막·콜아웃·출처가 통째로 안 나온다 (EP10까지의 버그)
           overflow: "hidden",
-          transform: "perspective(1400px) rotateX(16deg) scale(1.08)",
-          transformOrigin: "50% 55%",
+          // EP16: v.tilt(도)로 장면별 틸트 — 시작 16도에서 1.6초 동안 서서히 기울여 칼날 능선 고저차를 부각 (기본 16도 그대로)
+          transform: `perspective(1400px) rotateX(${tiltDeg}deg) scale(${tiltScale})`,
+          transformOrigin: `50% ${tiltOrigin}%`,
         }}
       >
         {/* 지형 래스터 레이어 */}
