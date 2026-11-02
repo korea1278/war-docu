@@ -96,7 +96,18 @@
    - `curl -L -H "Authorization: token $(gh auth token)" -H "Accept: application/octet-stream" https://api.github.com/repos/korea1278/war-docu/releases/assets/<id>`
    - 길이 8:15~8:30(영문판 +10초까지 허용), 음량 -15 LUFS ±1 (`ffmpeg -af ebur128`), 장면 샘플 프레임 육안 확인(**지도 장면 프레임을 반드시 1장 이상 포함해 자막 확인**), SRT 확인
    - `logs/errors.txt`에 경고가 있으면 원인 해결 후 재실행
-9. **썸네일** — ★★★ **썸네일 표준 v3 = '선 넘는 지도' 스타일 (2026-11-02 사용자 지정 · EP15 낙동강(`naktong`)·EP16 도솔산부터 한국어 A안 기본 — 아래 v2(EP09 피의 능선 기준)보다 우선)**
+9. **썸네일** — ★★★★ **썸네일 표준 v4 = '스토리텔링 꼴라주 + 3D 몬스터 타이포' (2026-11-02 사용자 지시서 · 레퍼런스 별별역사 · EP15 낙동강(`naktong`)·EP16 도솔산(`ep16-dosolsan`)부터 한국어 A안 기본 — 아래 v3/v3.1 '선 넘는 지도' 방식은 폐기, 기록용)**
+   - 구현: `remotion/Thumbnail.tsx`의 `COLLAGE` 표에 에피소드 한 줄 → `CollageThumb`가 한국어 A안을 렌더 (1920×1080 픽셀 단위 그대로, FRONT·MAPT보다 우선). 기준 결과물 `thumbnails/naktong_ko_A.png`, `thumbnails/ep16-dosolsan_ko_A.png`
+   - [최상단] 인용구 배너: top 25 · 가운데 · 네온 레드 `#FF2222` · “ ” 큰따옴표 · 40px Pretendard Black · `-webkit-text-stroke: 4px #000` + 그림자 (`quote`)
+   - [중단 좌] 핵심 인물 고대비 흑백 누끼 left 30 · bottom 350 (`person`: src·h·w·pos — 하단·오른쪽 가장자리는 마스크로 녹임) + 입가 말풍선(흰 라운드 박스 · 6px 검정 보더 · 꼬리 `tail`은 입 좌표) + 15도 기울어진 붉은 사각 직인(`stamp`, 붉은 바탕 흰 글자 · 흰 이중 테두리)
+     - 인물 누끼가 배경째 남아 있으면 세션에서 `rembg`(isnet-general-use)로 다시 따서 `public/ep/<ep>/ai/thumb_cut.png`로 저장 (EP16에서 thumb_subject.png가 배경 불투명이라 재처리함)
+   - [중단 우] 흑백 전장 지도(`public/geo/thumbc/<래스터>` grayscale) + 타깃 영역 붉은 반투명 하이라이트(`red` 폴리곤 — 지형 위 #FF1A1A multiply라 산 질감이 살아 있음, 육지 안 경계면 `outline: true`) + 아군 방어선 푸른 라인(`blue`) + 대형 군기(`flags`: `kr` 태극기 / `nk` 인공기 / `marine` 해병대기, 깃대 밑동 좌표 `at`, `h`=깃발 높이) + **3D 골드 돌격 화살표 3개**(`arrows`, 옐로-골드 `#FFE600→#FFAA00` · 8px 블랙 보더 · 16px 돌출 측면 + 깊은 드롭섀도우, `arrowW` 굵기)
+     - 지도는 화면 전체에 깔되 전황이 오른쪽 위(x 1000~1900, y 60~650)에 오도록 `view`(center·span)를 맞춘다. 깃발·화살표가 상단 인용구(가운데 x 560~1360, y 25~75)와 겹치지 않게
+   - [하단 45%] 칠흑 블랙 딤: `linear-gradient(to top, #000 0%, #000 65%, rgba(0,0,0,.9) 85%, transparent 100%)`
+   - [최하단] 2줄 3D 몬스터 텍스트 bottom 25 · 가운데: Black Han Sans(400) · Line 1 흰색 96px / Line 2 레드 `#FF2222` 114px(핵심 키워드는 ‘ ’) · line-height 1.02 · 자간 -4px · `-webkit-text-stroke: 8px #000; paint-order: stroke fill; text-shadow: 0 3px 0 #000, 0 6px 0 #000, 0 9px 0 #000, 0 12px 0 #000, 0 16px 20px #000`. **96:114 비율 그대로 공통 배율** — 가장 긴 줄이 화면 폭 95%를 채우게 자동 확대·축소(실측 글꼴 폭)
+   - 렌더 후 확인: 인물 얼굴을 말풍선·직인이 가리지 않음, 말풍선 꼬리가 입을 가리킴, 깃발·화살표가 인용구·하단 텍스트와 안 겹침, Line 2가 화면 폭을 거의 꽉 채움. PNG 1.9MB 넘으면 JPG로 전달 (`_ko_A.jpg`도 함께 갱신)
+   - 이 아래 v3/v3.1은 **기록용** (`COLLAGE`에 없는 에피소드만 FRONT로 렌더됨)
+   - (v3 · 기록용) ★★★ **썸네일 표준 v3 = '선 넘는 지도' 스타일 (2026-11-02 사용자 지정 · EP15 낙동강(`naktong`)·EP16 도솔산부터 한국어 A안 기본 — 아래 v2(EP09 피의 능선 기준)보다 우선)**
    - 구현: `remotion/FrontThumb.tsx`의 `FRONT` 표에 에피소드 한 줄 → `remotion/Thumbnail.tsx`가 한국어 A안을 이 디자인(1920×1080)으로 렌더. 기준 결과물 `thumbnails/naktong_ko_A.png`, `thumbnails/ep16-dosolsan_ko_A.png`
    - ★ **v3.1 (2026-11-02 사용자 지시서 '실전 전황 디테일 & 3D 입체 텍스트' — 아래 v3 원안보다 우선)**. 규격은 레퍼런스(1280×720) 단위로 적고 1.5배로 출력
      1. **우측 상단 연월 뱃지 완전 삭제** (카피 느낌 — 다시 넣지 말 것)
