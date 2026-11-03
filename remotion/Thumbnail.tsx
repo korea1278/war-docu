@@ -92,8 +92,8 @@ export const COLLAGE: Record<string, CollageDef> = {
   // EP17 금성 전투 (1953) — 휴전 직전 최후의 결전 (ep17-kumsong)
   "ep17-kumsong": {
     quote: "휴전 서명 14일 전, 24만 대군이 쏟아졌다",
-    person: { src: "ep/ep17-kumsong/ai/thumb_subject.png", h: 690, w: 560, pos: "50% 0%" },
-    bubble: { text: "휴전 전에 땅 한 뼘이라도\n더 파고들어라!", x: 560, y: 110, tail: [372, 300], size: 42 },
+    person: { src: "ep/ep17-kumsong/ai/thumb_cut.png", h: 690, w: 560, pos: "50% 0%" },
+    bubble: { text: "휴전 전에 땅 한 뼘이라도\n더 파고들어라!", x: 560, y: 110, tail: [336, 428], size: 42 },
     stamp: { text: "총공세", x: 450, y: 560, rot: -15 },
     map: {
       rasters: ["korea", "kumsong", "kumsong_zoom"],
