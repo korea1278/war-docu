@@ -1,0 +1,7084 @@
+{
+ "title": "금성 전투",
+ "subtitle": "1953. 7. 13 ~ 7. 27",
+ "target_sec": 1320,
+ "voice": "U1cJYS4EdbaHmfR7YzHd",
+ "midrolls": [
+  "s34",
+  "s63",
+  "s94"
+ ],
+ "places": {
+  "seoul": [
+   126.978,
+   37.566,
+   "서울"
+  ],
+  "panmunjom": [
+   126.677,
+   37.956,
+   "판문점"
+  ],
+  "munsan": [
+   126.79,
+   37.86,
+   "문산"
+  ],
+  "kumhwa": [
+   127.43,
+   38.285,
+   "금화"
+  ],
+  "kumsong": [
+   127.585,
+   38.445,
+   "금성"
+  ],
+  "hwacheon": [
+   127.708,
+   38.106,
+   "화천"
+  ],
+  "hwares": [
+   127.82,
+   38.125,
+   "화천저수지"
+  ],
+  "jeokgeun": [
+   127.535,
+   38.29,
+   "적근산"
+  ],
+  "jupa": [
+   127.6,
+   38.3,
+   "주파령"
+  ],
+  "baegam": [
+   127.675,
+   38.293,
+   "백암산"
+  ],
+  "ccf": [
+   127.62,
+   38.52,
+   "중공군"
+  ],
+  "d_cap": [
+   127.47,
+   38.37,
+   "수도사단"
+  ],
+  "d6": [
+   127.545,
+   38.405,
+   "6사단"
+  ],
+  "d8": [
+   127.615,
+   38.41,
+   "8사단"
+  ],
+  "d3": [
+   127.69,
+   38.395,
+   "3사단"
+  ],
+  "d5": [
+   127.765,
+   38.36,
+   "5사단"
+  ],
+  "d11": [
+   127.565,
+   38.255,
+   "11사단"
+  ],
+  "d8b": [
+   127.625,
+   38.28,
+   "8사단"
+  ],
+  "d5b": [
+   127.705,
+   38.255,
+   "5사단"
+  ],
+  "us3": [
+   127.45,
+   38.255,
+   "미 3사단"
+  ],
+  "r7": [
+   127.66,
+   38.33,
+   "6사단 7연대"
+  ],
+  "cap1": [
+   127.455,
+   38.385,
+   "수도사단 1연대"
+  ],
+  "art1": [
+   127.49,
+   38.52
+  ],
+  "art2": [
+   127.61,
+   38.56
+  ],
+  "art3": [
+   127.74,
+   38.5
+  ],
+  "river_lbl": [
+   127.6,
+   38.378,
+   "금성천"
+  ]
+ },
+ "views": {
+  "korea": {
+   "center": [
+    127.4,
+    37.85
+   ],
+   "span": 4.0
+  },
+  "central": {
+   "center": [
+    127.62,
+    38.32
+   ],
+   "span": 1.1
+  },
+  "salient": {
+   "center": [
+    127.62,
+    38.37
+   ],
+   "span": 0.52
+  },
+  "south": {
+   "center": [
+    127.64,
+    38.27
+   ],
+   "span": 0.62
+  },
+  "ridge": {
+   "center": [
+    127.61,
+    38.32
+   ],
+   "span": 0.34
+  },
+  "west": {
+   "center": [
+    127.5,
+    38.36
+   ],
+   "span": 0.28
+  },
+  "east": {
+   "center": [
+    127.74,
+    38.35
+   ],
+   "span": 0.28
+  },
+  "north": {
+   "center": [
+    127.62,
+    38.45
+   ],
+   "span": 0.6
+  },
+  "river": {
+   "center": [
+    127.63,
+    38.35
+   ],
+   "span": 0.36
+  }
+ },
+ "music": [
+  {
+   "id": "drone",
+   "from": "s01",
+   "to": "s08",
+   "volume": 0.2
+  },
+  {
+   "id": "theme",
+   "from": "s09",
+   "to": "s33",
+   "volume": 0.16
+  },
+  {
+   "id": "tension",
+   "from": "s34",
+   "to": "s48",
+   "volume": 0.17
+  },
+  {
+   "id": "tension",
+   "from": "s49",
+   "to": "s62",
+   "volume": 0.17
+  },
+  {
+   "id": "somber",
+   "from": "s63",
+   "to": "s78",
+   "volume": 0.16
+  },
+  {
+   "id": "analysis",
+   "from": "s79",
+   "to": "s93",
+   "volume": 0.13
+  },
+  {
+   "id": "march",
+   "from": "s94",
+   "to": "s107",
+   "volume": 0.15
+  },
+  {
+   "id": "somber",
+   "from": "s108",
+   "to": "s120",
+   "volume": 0.17
+  }
+ ],
+ "ai_images": {
+  "night_barrage": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a massive night artillery barrage erupting along a long mountain ridge line in central Korea in July 1953, orange blasts and tracer arcs lighting low monsoon clouds, in the foreground South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1953 M1 steel helmets and olive drab summer field uniforms crouching in a muddy sandbagged trench, staring north at the flashes, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "chinese_wave": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a huge wave of Chinese People's Volunteer soldiers whose heads are round balls painted as the flag of the People's Republic of China (red with five yellow stars), wearing quilted khaki 1953 summer uniforms and soft caps pouring down a dark wooded mountain valley at night in July 1953, lit by drifting parachute flares, bugles and submachine guns in hand, hundreds of figures fading into the mist behind, leaving calm uncluttered dark background area in the upper left, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "cp_raid": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: chaos at a South Korean regimental command post dug into a hillside at night in July 1953, South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1953 M1 steel helmets and olive drab summer field uniforms grabbing rifles beside a field telephone and a map table lit by a hanging lantern, muzzle flashes and shadowy enemy figures on the slope outside, no gore, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "retreat_rain": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: pouring monsoon rain on a muddy mountain road in central Korea in July 1953, exhausted South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1953 M1 steel helmets and olive drab summer field uniforms withdrawing south in a long column with ponchos, stretchers and a stuck jeep, swollen stream beside the road, grey mist, leaving calm uncluttered dark background area in the upper left, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "baegam_line": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: dawn after heavy rain on a high rocky mountain ridge over 1,000 meters tall in Hwacheon, Korea, July 1953, South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1953 M1 steel helmets and olive drab summer field uniforms digging new foxholes and stringing barbed wire along the crest, an officer pointing north with binoculars, clouds below the ridge, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "counterattack": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1953 M1 steel helmets and olive drab summer field uniforms charging up a steep muddy slope with fixed bayonets in July 1953, friendly artillery bursting on the hilltop above, smoke and drizzle, determined poses, leaving calm uncluttered dark background area in the upper left, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "river_line": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: dusk over a winding river valley in central Korea in July 1953, South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1953 M1 steel helmets and olive drab summer field uniforms in a hilltop trench on the south bank looking across the river to dark enemy-held hills, a tattered taegukgi flag on a pole, quiet tension, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "armistice_quiet": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: the night of July 27, 1953 on a Korean mountain front line: the guns fall silent, South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1953 M1 steel helmets and olive drab summer field uniforms standing up slowly in their trench, helmets in hand, looking at the last fading flare in a starry sky, leaving calm uncluttered dark background area in the upper left, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "wooden_marker": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a lonely unmarked soldier's grave on a misty Korean mountain slope in the 1960s: a small mound of stones with a weathered wooden stake as its only marker, wild flowers and tall grass, soft morning light through pine trees, a young South Korean officer whose head is a round ball painted as the taegukgi flag standing silently nearby in a 1960s uniform, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "isolated_post": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a small isolated hilltop trench position at grey dawn in central Korea in July 1953, a handful of exhausted South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1953 M1 steel helmets and olive drab summer field uniforms holding the sandbagged parapet with M1 rifles and a Browning machine gun, empty ammunition boxes, drifting smoke and mist all around, shadowy enemy figures moving on the slopes below, no gore, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "flood_river": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a swollen muddy monsoon river in a Korean mountain valley at night in July 1953, South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1953 M1 steel helmets and olive drab summer field uniforms wading chest-deep through the brown rushing current holding rifles above their heads, a broken wooden footbridge half swept away, heavy rain, flares glowing in the low clouds, no gore, leaving calm uncluttered dark background area in the upper left, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "corps_hq": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: inside a South Korean army corps command bunker at night in July 1953, South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1953 M1 steel helmets and olive drab summer field uniforms officers gathered around a large paper operations map on a wooden table lit by hanging lanterns, field telephones and radio sets, rain dripping at the entrance, tense focused atmosphere, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "tot_barrage": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a line of American 155mm howitzers firing in unison at night in a rainy Korean valley in July 1953, United States soldiers whose heads are round balls painted as the United States flag (stars and stripes) wearing M1 helmets and ponchos loading shells, huge orange muzzle flashes reflecting on wet ground, stacked shell crates, leaving calm uncluttered dark background area in the upper left, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "monsoon_climb": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a steep muddy rain-soaked mountain slope in central Korea in July 1953, South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1953 M1 steel helmets and olive drab summer field uniforms climbing upward in a counterattack with fixed bayonets, grabbing roots and rocks, shell craters full of water, smoke and tracer fire on the ridge above, no gore, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "dmz_dawn": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a quiet misty dawn over layered green mountain ridges of Hwacheon and Cheorwon in Korea today, a long barbed wire fence and a lonely guard post on the ridgeline, soft golden light breaking through the clouds, peaceful and solemn, no people in focus, leaving calm uncluttered dark background area in the upper left, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters."
+ },
+ "thumb_photo": "File:General Peng Dehuai.jpg",
+ "scenes": [
+  {
+   "id": "s01",
+   "lines": [
+    {
+     "t": "1953년 7월 13일, 밤 9시.",
+     "say": "천구백오십삼 년 칠월 십삼 일, 밤 아홉 시."
+    },
+    "강원도 금성 남쪽의 산악 전선이, 한순간에 대낮처럼 밝아졌다.",
+    "북쪽 산줄기 전체가, 일제히 불을 뿜기 시작한 것이다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "night_barrage",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "1953. 7. 13 밤 · 강원도 금성 돌출부",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.2,
+     "volume": 0.4
+    },
+    {
+     "id": "boom",
+     "at": 1,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "lines": [
+    "천 문이 넘는 대포가, 거의 같은 순간에 입을 열었다.",
+    "포탄은 국군의 참호와 철조망 위로, 쉬지 않고 쏟아져 내렸다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "north",
+    "to": "north",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.42,
+        38.29
+       ],
+       [
+        127.47,
+        38.34
+       ],
+       [
+        127.51,
+        38.39
+       ],
+       [
+        127.56,
+        38.425
+       ],
+       [
+        127.62,
+        38.43
+       ],
+       [
+        127.68,
+        38.415
+       ],
+       [
+        127.74,
+        38.38
+       ],
+       [
+        127.8,
+        38.33
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "radar",
+      "p": "art1",
+      "at": 0,
+      "size": 0.9,
+      "color": "red"
+     },
+     {
+      "k": "radar",
+      "p": "art2",
+      "at": 0.2,
+      "size": 1.1,
+      "color": "red",
+      "text": "포병 발사 원점"
+     },
+     {
+      "k": "radar",
+      "p": "art3",
+      "at": 0.4,
+      "size": 0.9,
+      "color": "red"
+     },
+     {
+      "k": "shock",
+      "pts": [
+       [
+        127.47,
+        38.35
+       ],
+       [
+        127.53,
+        38.4
+       ],
+       [
+        127.6,
+        38.425
+       ],
+       [
+        127.67,
+        38.41
+       ],
+       [
+        127.73,
+        38.375
+       ],
+       [
+        127.79,
+        38.335
+       ]
+      ],
+      "at": 0.6,
+      "size": 1.0,
+      "period": 0.9
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "중공군 포병 집중 사격 (개략)",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "artillery",
+     "at": 0.1,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "lines": [
+    "포성이 잦아들기도 전에, 계곡마다 사람의 물결이 밀려 내려왔다.",
+    "중공군이었다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "chinese_wave",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "charge",
+     "at": 0.3,
+     "volume": 0.4
+    },
+    {
+     "id": "bugle",
+     "at": 1,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "lines": [
+    {
+     "t": "판문점에서 휴전 협정이 조인되기까지, 남은 시간은 단 14일.",
+     "say": "판문점에서 휴전 협정이 조인되기까지, 남은 시간은 단 십사 일."
+    },
+    "모두가 전쟁의 끝을 이야기하던, 바로 그때였다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "휴전 협정 조인까지",
+    "accent": "D-14",
+    "accentAt": 0.5
+   },
+   "pauseBefore": 0.3,
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "lines": [
+    {
+     "t": "적은 24만 명의 대군과, 1,360문의 대포를 이 좁은 전선에 쏟아부었다.",
+     "say": "적은 이십사만 명의 대군과, 천삼백육십 문의 대포를 이 좁은 전선에 쏟아부었다."
+    },
+    "휴전선이 그어지기 전에, 한 뼘의 땅이라도 더 남쪽으로 밀어붙이려는 것이었다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "24만 대군",
+    "style": "red",
+    "sub": "중공군 6개 군 · 포 1,360문 (영문 위키백과 · 중국 측 기록)",
+    "subAt": 0.6
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0.2,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s06",
+   "lines": [
+    "그 칼끝이 향한 곳은, 중부 전선에서 북쪽으로 불룩 튀어나온 땅.",
+    "금성 돌출부였다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "salient",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.68,
+        37.77
+       ],
+       [
+        126.95,
+        37.95
+       ],
+       [
+        127.1,
+        38.2
+       ],
+       [
+        127.3,
+        38.27
+       ],
+       [
+        127.44,
+        38.31
+       ],
+       [
+        127.51,
+        38.39
+       ],
+       [
+        127.56,
+        38.425
+       ],
+       [
+        127.62,
+        38.43
+       ],
+       [
+        127.68,
+        38.415
+       ],
+       [
+        127.74,
+        38.38
+       ],
+       [
+        127.8,
+        38.33
+       ],
+       [
+        127.85,
+        38.3
+       ],
+       [
+        128.1,
+        38.32
+       ],
+       [
+        128.3,
+        38.45
+       ],
+       [
+        128.37,
+        38.61
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "kumsong",
+      "text": "금성 돌출부",
+      "color": "red",
+      "at": 1,
+      "pulse": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "s07",
+   "lines": [
+    "금성 전투.",
+    {
+     "t": "오늘은 6·25 전쟁의 마지막 전면전, 휴전 직전 보름의 기록이다.",
+     "say": "오늘은 육이오 전쟁의 마지막 전면전, 휴전 직전 보름의 기록이다."
+    }
+   ],
+   "visual": {
+    "type": "titlecard",
+    "title": "금성 전투",
+    "sub": "휴전 직전 최후의 결전 · 1953",
+    "at": 0,
+    "q": "s07-photo"
+   },
+   "flash": true,
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s08",
+   "lines": [
+    "본격적인 기록으로 들어가기에 앞서,",
+    "호국의 역사를 끝까지 기록할 수 있도록, 구독과 좋아요로 함께해 주십시오."
+   ],
+   "visual": {
+    "type": "cta",
+    "title": "호국의 기록, 함께 지켜 주십시오",
+    "at": 0
+   },
+   "pauseBefore": 0.3,
+   "sfx": [
+    {
+     "id": "pop",
+     "at": 0.3,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s09",
+   "lines": [
+    {
+     "t": "1953년 여름, 전쟁은 이미 3년째로 접어들고 있었다.",
+     "say": "천구백오십삼 년 여름, 전쟁은 이미 삼 년째로 접어들고 있었다."
+    },
+    {
+     "t": "전선은 2년 가까이 38선 부근의 산줄기에 묶여, 좀처럼 움직이지 않았다.",
+     "say": "전선은 이 년 가까이 삼팔선 부근의 산줄기에 묶여, 좀처럼 움직이지 않았다."
+    },
+    "고지 하나를 두고, 같은 봉우리의 주인이 수십 번씩 바뀌는 싸움이 이어졌다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "korea",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.68,
+        37.77
+       ],
+       [
+        126.95,
+        37.95
+       ],
+       [
+        127.1,
+        38.2
+       ],
+       [
+        127.3,
+        38.27
+       ],
+       [
+        127.44,
+        38.31
+       ],
+       [
+        127.51,
+        38.39
+       ],
+       [
+        127.56,
+        38.425
+       ],
+       [
+        127.62,
+        38.43
+       ],
+       [
+        127.68,
+        38.415
+       ],
+       [
+        127.74,
+        38.38
+       ],
+       [
+        127.8,
+        38.33
+       ],
+       [
+        127.85,
+        38.3
+       ],
+       [
+        128.1,
+        38.32
+       ],
+       [
+        128.3,
+        38.45
+       ],
+       [
+        128.37,
+        38.61
+       ]
+      ],
+      "at": 0.2
+     },
+     {
+      "k": "marker",
+      "p": "seoul",
+      "color": "blue",
+      "at": 0.6
+     }
+    ]
+   },
+   "chapter": {
+    "num": "제1막",
+    "title": "1953년 7월, 폭풍전야"
+   },
+   "callouts": [
+    {
+     "text": "1953. 여름 · 고착된 전선 (개략)",
+     "style": "yellow",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "lines": [
+    {
+     "t": "1951년 7월에 시작된 휴전회담은, 포로 송환 문제로 오랫동안 제자리를 맴돌았다.",
+     "say": "천구백오십일 년 칠월에 시작된 휴전회담은, 포로 송환 문제로 오랫동안 제자리를 맴돌았다."
+    },
+    "회담장에서 말이 오가는 동안에도, 전선의 고지에서는 피가 흘렀다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s10-photo"
+   },
+   "label": "휴전회담을 취재하는 유엔군 측 기자들 · 개성 (1951)"
+  },
+  {
+   "id": "s11",
+   "lines": [
+    {
+     "t": "그러던 1953년 6월 8일, 마침내 포로 송환 협정이 조인되었다.",
+     "say": "그러던 천구백오십삼 년 유월 팔 일, 마침내 포로 송환 협정이 조인되었다."
+    },
+    {
+     "t": "2년을 끌어 온 마지막 걸림돌이 치워지면서, 휴전은 손에 잡힐 듯 가까워졌다.",
+     "say": "이 년을 끌어 온 마지막 걸림돌이 치워지면서, 휴전은 손에 잡힐 듯 가까워졌다."
+    }
+   ],
+   "visual": {
+    "type": "timeline",
+    "items": [
+     {
+      "date": "1951. 7",
+      "text": "휴전회담 시작",
+      "at": 0
+     },
+     {
+      "date": "1953. 6. 8",
+      "text": "포로 송환 협정",
+      "at": 0.4
+     },
+     {
+      "date": "1953. 6. 18",
+      "text": "반공 포로 석방",
+      "at": 1.0
+     },
+     {
+      "date": "1953. 7. 13",
+      "text": "중공군 총공세",
+      "at": 1.5
+     }
+    ]
+   }
+  },
+  {
+   "id": "s12",
+   "lines": [
+    "하지만 이승만 대통령은, 북진 없는 휴전에 끝까지 반대했다.",
+    {
+     "t": "6월 18일, 그는 송환을 거부한 반공 포로 2만 7천여 명을 전격 석방했다.",
+     "say": "유월 십팔 일, 그는 송환을 거부한 반공 포로 이만 칠천여 명을 전격 석방했다."
+    }
+   ],
+   "visual": {
+    "type": "person",
+    "q": "s12-photo",
+    "name": "이승만",
+    "years": "1875 - 1965",
+    "role": "대한민국 대통령"
+   },
+   "callouts": [
+    {
+     "text": "1953. 6. 18 · 반공 포로 약 2만 7천 명 석방",
+     "style": "red",
+     "at": 1,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "lines": [
+    "판문점의 공산군 측은 거세게 반발했다.",
+    "회담은 다시 흔들렸고, 휴전 서명 날짜도 기약 없이 밀려났다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s13-photo"
+   },
+   "label": "포로수용소에서 풀려나 서울에 도착한 반공 포로들 (1953)"
+  },
+  {
+   "id": "s14",
+   "lines": [
+    "중공군을 이끈 사령관은, 펑더화이였다.",
+    "중국 측 기록에 따르면, 그는 휴전 서명을 미루더라도 한국군에 큰 타격을 주자고 건의했다.",
+    "그리고 마오쩌둥은, 이 건의를 받아들였다."
+   ],
+   "visual": {
+    "type": "person",
+    "q": "s14-photo",
+    "name": "펑더화이 (팽덕회)",
+    "years": "1898 - 1974",
+    "role": "중국인민지원군 사령관"
+   },
+   "callouts": [
+    {
+     "text": "중국 측 기록 기준",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "lines": [
+    "유엔군 사령관 클라크 장군도, 이 공세의 노림수를 꿰뚫어 보았다.",
+    "휴전 직전, 한국군에게 피를 흘리게 해 본때를 보이려는 것이었다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "한국군을 노려라",
+    "style": "red",
+    "sub": "공세의 표적 · 국군 제2군단 정면",
+    "subAt": 0.6
+   }
+  },
+  {
+   "id": "s16",
+   "lines": [
+    {
+     "t": "7월 초, 금성 북쪽의 산골짜기로 중공군 부대들이 소리 없이 모여들었다.",
+     "say": "칠월 초, 금성 북쪽의 산골짜기로 중공군 부대들이 소리 없이 모여들었다."
+    },
+    {
+     "t": "제20병단의 5개 군에, 제24군까지 더한 6개 군이었다.",
+     "say": "제이십 병단의 오 개 군에, 제이십사 군까지 더한 육 개 군이었다."
+    },
+    "부대마다 새로 보충된 병력이 들어오며, 공격 준비는 착착 마무리되었다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "salient",
+    "to": "north",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.42,
+        38.29
+       ],
+       [
+        127.47,
+        38.34
+       ],
+       [
+        127.51,
+        38.39
+       ],
+       [
+        127.56,
+        38.425
+       ],
+       [
+        127.62,
+        38.43
+       ],
+       [
+        127.68,
+        38.415
+       ],
+       [
+        127.74,
+        38.38
+       ],
+       [
+        127.8,
+        38.33
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "ccf",
+      "text": "중공군 6개 군",
+      "color": "red",
+      "at": 0.3,
+      "pulse": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.5,
+        38.62
+       ],
+       [
+        127.52,
+        38.55
+       ],
+       [
+        127.53,
+        38.49
+       ]
+      ],
+      "color": "red",
+      "at": 0.8,
+      "width": 0.8
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.62,
+        38.66
+       ],
+       [
+        127.62,
+        38.6
+       ],
+       [
+        127.62,
+        38.52
+       ]
+      ],
+      "color": "red",
+      "at": 0.9,
+      "width": 0.8
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.76,
+        38.62
+       ],
+       [
+        127.75,
+        38.56
+       ],
+       [
+        127.73,
+        38.49
+       ]
+      ],
+      "color": "red",
+      "at": 1.0,
+      "width": 0.8
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "중공군 제20병단 5개 군 + 제24군 (중국 측 기록)",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s17",
+   "lines": [
+    {
+     "t": "병력은 약 24만 명, 맞서는 국군과 유엔군은 약 18만 7천 명.",
+     "say": "병력은 약 이십사만 명, 맞서는 국군과 유엔군은 약 십팔만 칠천 명."
+    },
+    "병력에서도, 화력에서도, 이번만큼은 적이 앞서 있었다."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "국군·유엔군",
+     "big": "약 18만 7천",
+     "icon": "none",
+     "color": "blue"
+    },
+    "right": {
+     "title": "공산군",
+     "big": "약 24만",
+     "icon": "none",
+     "color": "red",
+     "at": 0.6
+    }
+   },
+   "callouts": [
+    {
+     "text": "영문 위키백과 집계 기준",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s18",
+   "lines": [
+    "판문점에서는 휴전의 서명을, 전선에서는 마지막 총공세를.",
+    "두 개의 시계가, 동시에 돌아가기 시작했다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "1953. 7",
+    "accent": "폭풍전야",
+    "accentAt": 0.6
+   },
+   "sfx": [
+    {
+     "id": "clock",
+     "at": 0,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s19",
+   "lines": [
+    "그렇다면 적은, 왜 하필 이곳을 골랐을까?"
+   ],
+   "visual": {
+    "type": "black",
+    "text": "제2막",
+    "accent": "중부전선의 화약고",
+    "accentAt": 0.4
+   },
+   "pauseBefore": 0.5,
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s20",
+   "lines": [
+    "중부 전선, 강원도 철원과 화천 사이.",
+    "이곳의 전선은, 북쪽으로 혹처럼 불룩 솟아 있었다.",
+    "금성 쪽을 향해 튀어나온 이 땅을, 사람들은 금성 돌출부라 불렀다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "central",
+    "to": "salient",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.42,
+        38.29
+       ],
+       [
+        127.47,
+        38.34
+       ],
+       [
+        127.51,
+        38.39
+       ],
+       [
+        127.56,
+        38.425
+       ],
+       [
+        127.62,
+        38.43
+       ],
+       [
+        127.68,
+        38.415
+       ],
+       [
+        127.74,
+        38.38
+       ],
+       [
+        127.8,
+        38.33
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "kumhwa",
+      "color": "dark",
+      "at": 0.6
+     },
+     {
+      "k": "unit",
+      "p": "kumsong",
+      "text": "금성",
+      "color": "red",
+      "at": 1.0,
+      "pulse": true
+     }
+    ]
+   },
+   "chapter": {
+    "num": "제2막",
+    "title": "중부전선의 화약고, 금성 돌출부"
+   },
+   "callouts": [
+    {
+     "text": "금성 돌출부 (개략)",
+     "style": "blue",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s21",
+   "lines": [
+    "앞선 공방전 속에 생겨난 이 돌출부는, 세 방향이 모두 적과 맞닿아 있었다.",
+    "공격하는 쪽에게는 좋은 표적이었고, 지키는 쪽에게는 늘 불안한 땅이었다.",
+    "적의 포병은 세 방향에서, 이 돌출부를 내려다보며 겨눌 수 있었다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "salient",
+    "to": "salient",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.42,
+        38.29
+       ],
+       [
+        127.47,
+        38.34
+       ],
+       [
+        127.51,
+        38.39
+       ],
+       [
+        127.56,
+        38.425
+       ],
+       [
+        127.62,
+        38.43
+       ],
+       [
+        127.68,
+        38.415
+       ],
+       [
+        127.74,
+        38.38
+       ],
+       [
+        127.8,
+        38.33
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.38,
+        38.42
+       ],
+       [
+        127.43,
+        38.39
+       ],
+       [
+        127.48,
+        38.37
+       ]
+      ],
+      "color": "red",
+      "at": 0.3,
+      "width": 0.9
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.62,
+        38.55
+       ],
+       [
+        127.62,
+        38.49
+       ],
+       [
+        127.62,
+        38.44
+       ]
+      ],
+      "color": "red",
+      "at": 0.5,
+      "width": 0.9
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.88,
+        38.42
+       ],
+       [
+        127.82,
+        38.39
+       ],
+       [
+        127.77,
+        38.37
+       ]
+      ],
+      "color": "red",
+      "at": 0.7,
+      "width": 0.9
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "세 방향이 열린 돌출부",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s22",
+   "lines": [
+    "금성은 원래 강원도 김화군에 딸린 작은 고을이었다.",
+    "철원과 김화, 평강을 잇는 철의 삼각지대 바로 동쪽, 중부 전선의 길목이었다.",
+    "이 길목을 쥐는 쪽이, 중부 전선의 숨통을 쥐는 셈이었다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "salient",
+    "to": "west",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.42,
+        38.29
+       ],
+       [
+        127.47,
+        38.34
+       ],
+       [
+        127.51,
+        38.39
+       ],
+       [
+        127.56,
+        38.425
+       ],
+       [
+        127.62,
+        38.43
+       ],
+       [
+        127.68,
+        38.415
+       ],
+       [
+        127.74,
+        38.38
+       ],
+       [
+        127.8,
+        38.33
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "kumhwa",
+      "color": "dark",
+      "at": 0.3
+     },
+     {
+      "k": "unit",
+      "p": "kumsong",
+      "text": "금성",
+      "color": "red",
+      "at": 0.6,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "강원도 김화군 금성 (개략)",
+     "style": "dark",
+     "at": 0.3,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s23",
+   "lines": [
+    "돌출부의 약점은 분명했다.",
+    "양쪽 어깨가 뚫리는 순간, 안쪽의 부대들은 순식간에 포위될 수 있었다."
+   ],
+   "visual": {
+    "type": "gauges",
+    "big": "돌출부의 약점",
+    "items": [
+     {
+      "label": "세 방향으로 열린 전선",
+      "at": 0.3
+     },
+     {
+      "label": "약한 양쪽 어깨",
+      "at": 0.8
+     },
+     {
+      "label": "뒤를 가르는 금성천",
+      "at": 1.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "s24",
+   "lines": [
+    "그리고 돌출부 한가운데를, 금성천이 동서로 가로질러 흘렀다.",
+    "평소에는 걸어서 건널 만한 냇물이었지만, 장마철이면 사정이 완전히 달라졌다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "salient",
+    "to": "river",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.42,
+        38.29
+       ],
+       [
+        127.47,
+        38.34
+       ],
+       [
+        127.51,
+        38.39
+       ],
+       [
+        127.56,
+        38.425
+       ],
+       [
+        127.62,
+        38.43
+       ],
+       [
+        127.68,
+        38.415
+       ],
+       [
+        127.74,
+        38.38
+       ],
+       [
+        127.8,
+        38.33
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.46,
+        38.338
+       ],
+       [
+        127.5,
+        38.352
+       ],
+       [
+        127.55,
+        38.366
+       ],
+       [
+        127.6,
+        38.376
+       ],
+       [
+        127.645,
+        38.374
+       ],
+       [
+        127.69,
+        38.362
+       ],
+       [
+        127.73,
+        38.344
+       ],
+       [
+        127.78,
+        38.332
+       ],
+       [
+        127.83,
+        38.318
+       ]
+      ],
+      "color": "#00E5FF",
+      "glow": true,
+      "at": 0.3
+     },
+     {
+      "k": "badge",
+      "p": "river_lbl",
+      "text": "금성천",
+      "color": "#0090a8",
+      "at": 0.6,
+      "dy": -60
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "금성천 (개략)",
+     "style": "blue",
+     "at": 0.6,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "water",
+     "at": 0,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s25",
+   "lines": [
+    {
+     "t": "금성천 남쪽에는, 해발 1,000미터가 넘는 산줄기가 병풍처럼 서 있었다.",
+     "say": "금성천 남쪽에는, 해발 천 미터가 넘는 산줄기가 병풍처럼 서 있었다."
+    },
+    {
+     "t": "서쪽의 적근산은 1,073m, 동쪽의 백암산은 1,179m였다.",
+     "say": "서쪽의 적근산은 천칠십삼 미터, 동쪽의 백암산은 천백칠십구 미터였다."
+    }
+   ],
+   "visual": {
+    "type": "profile",
+    "pts": [
+     [
+      0,
+      560
+     ],
+     [
+      0.1,
+      640
+     ],
+     [
+      0.2,
+      600
+     ],
+     [
+      0.32,
+      470
+     ],
+     [
+      0.4,
+      430
+     ],
+     [
+      0.48,
+      520
+     ],
+     [
+      0.6,
+      760
+     ],
+     [
+      0.7,
+      980
+     ],
+     [
+      0.8,
+      1150
+     ],
+     [
+      0.9,
+      980
+     ],
+     [
+      1,
+      820
+     ]
+    ],
+    "grid": [
+     600,
+     800,
+     1000
+    ],
+    "yMin": 300,
+    "yMax": 1300,
+    "title": "금성–금성천–백암산 남북 단면",
+    "note": "모식도 (높이 과장)",
+    "left": "북 · 금성",
+    "right": "남 · 화천 방면",
+    "marks": [
+     {
+      "x": 0.12,
+      "text": "돌출부 전방 진지",
+      "style": "dark",
+      "at": 0,
+      "lift": 80,
+      "size": 36
+     },
+     {
+      "x": 0.4,
+      "text": "금성천",
+      "style": "blue",
+      "at": 0.6,
+      "lift": 70,
+      "size": 40
+     },
+     {
+      "x": 0.8,
+      "text": "백암산 1,179m",
+      "style": "yellow",
+      "at": 1,
+      "lift": 80,
+      "size": 40
+     }
+    ]
+   }
+  },
+  {
+   "id": "s26",
+   "lines": [
+    "그 산줄기 뒤로는, 화천저수지와 수력발전소가 자리하고 있었다.",
+    "남한의 전기를 책임지던, 결코 내줄 수 없는 시설이었다.",
+    {
+     "t": "1951년 봄, 국군과 유엔군이 큰 희생을 치르고 되찾은 곳이기도 했다.",
+     "say": "천구백오십일 년 봄, 국군과 유엔군이 큰 희생을 치르고 되찾은 곳이기도 했다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "salient",
+    "to": "south",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.42,
+        38.29
+       ],
+       [
+        127.47,
+        38.34
+       ],
+       [
+        127.51,
+        38.39
+       ],
+       [
+        127.56,
+        38.425
+       ],
+       [
+        127.62,
+        38.43
+       ],
+       [
+        127.68,
+        38.415
+       ],
+       [
+        127.74,
+        38.38
+       ],
+       [
+        127.8,
+        38.33
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "hwares",
+      "text": "화천 수력발전소",
+      "color": "blue",
+      "at": 0.6,
+      "pulse": true
+     },
+     {
+      "k": "marker",
+      "p": "hwacheon",
+      "color": "dark",
+      "at": 1.0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "화천 수력발전소 · 화천저수지",
+     "style": "blue",
+     "at": 0.6,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s27",
+   "lines": [
+    {
+     "t": "이 돌출부를 지킨 것은, 서쪽의 수도사단과 국군 제2군단의 사단들이었다.",
+     "say": "이 돌출부를 지킨 것은, 서쪽의 수도사단과 국군 제이 군단의 사단들이었다."
+    },
+    {
+     "t": "서쪽부터 수도사단, 6사단, 8사단, 3사단, 그리고 동쪽 끝의 5사단이 줄지어 섰다.",
+     "say": "서쪽부터 수도사단, 육 사단, 팔 사단, 삼 사단, 그리고 동쪽 끝의 오 사단이 줄지어 섰다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "salient",
+    "to": "salient",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.42,
+        38.29
+       ],
+       [
+        127.47,
+        38.34
+       ],
+       [
+        127.51,
+        38.39
+       ],
+       [
+        127.56,
+        38.425
+       ],
+       [
+        127.62,
+        38.43
+       ],
+       [
+        127.68,
+        38.415
+       ],
+       [
+        127.74,
+        38.38
+       ],
+       [
+        127.8,
+        38.33
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "d_cap",
+      "text": "수도사단",
+      "color": "blue",
+      "at": 0.1,
+      "dy": 0
+     },
+     {
+      "k": "badge",
+      "p": "d6",
+      "text": "6사단",
+      "color": "blue",
+      "at": 1.0,
+      "dy": 0
+     },
+     {
+      "k": "badge",
+      "p": "d8",
+      "text": "8사단",
+      "color": "blue",
+      "at": 1.2,
+      "dy": 0
+     },
+     {
+      "k": "badge",
+      "p": "d3",
+      "text": "3사단",
+      "color": "blue",
+      "at": 1.4,
+      "dy": 0
+     },
+     {
+      "k": "badge",
+      "p": "d5",
+      "text": "5사단",
+      "color": "blue",
+      "at": 1.6,
+      "dy": 0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "국군 5개 사단 · 서→동 (개략)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s28",
+   "lines": [
+    {
+     "t": "국군 제2군단장은 정일권 중장이었다.",
+     "say": "국군 제이 군단장은 정일권 중장이었다."
+    },
+    "한국군이 하나의 군단으로, 이만큼 넓은 산악 전선을 통째로 맡은 것이었다.",
+    "그리고 그의 군단을 향해, 전쟁의 마지막 폭풍이 다가오고 있었다."
+   ],
+   "visual": {
+    "type": "person",
+    "q": "s28-photo",
+    "name": "정일권",
+    "years": "1917 - 1994",
+    "role": "국군 제2군단장 (중장)"
+   }
+  },
+  {
+   "id": "s29",
+   "lines": [
+    "사실 경고는 이미 있었다.",
+    {
+     "t": "6월 10일, 중공군은 돌출부 동쪽의 국군 5사단을 먼저 두드렸다.",
+     "say": "유월 십 일, 중공군은 돌출부 동쪽의 국군 오 사단을 먼저 두드렸다."
+    },
+    {
+     "t": "5사단은 수 킬로미터를 밀려났고, 반격으로도 옛 진지를 다 되찾지 못했다.",
+     "say": "오 사단은 수 킬로미터를 밀려났고, 반격으로도 옛 진지를 다 되찾지 못했다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "salient",
+    "to": "east",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.42,
+        38.29
+       ],
+       [
+        127.47,
+        38.34
+       ],
+       [
+        127.51,
+        38.39
+       ],
+       [
+        127.56,
+        38.425
+       ],
+       [
+        127.62,
+        38.43
+       ],
+       [
+        127.68,
+        38.415
+       ],
+       [
+        127.74,
+        38.38
+       ],
+       [
+        127.8,
+        38.33
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "d5",
+      "text": "5사단",
+      "color": "blue",
+      "at": 0,
+      "dy": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.82,
+        38.45
+       ],
+       [
+        127.79,
+        38.4
+       ],
+       [
+        127.77,
+        38.35
+       ]
+      ],
+      "color": "red",
+      "at": 0.8,
+      "width": 1.0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1953. 6. 10~18 · 중공군 6월 공세",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s30",
+   "lines": [
+    {
+     "t": "6월의 공세는, 말하자면 탐색전이었다.",
+     "say": "유월의 공세는, 말하자면 탐색전이었다."
+    },
+    {
+     "t": "적은 국군 제2군단의 어디가 약한지를, 이미 손끝으로 더듬어 본 셈이었다.",
+     "say": "적은 국군 제이 군단의 어디가 약한지를, 이미 손끝으로 더듬어 본 셈이었다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "6월의 탐색전",
+    "style": "dark",
+    "sub": "1953. 6 · 국군 제2군단 정면",
+    "subAt": 0.5
+   }
+  },
+  {
+   "id": "s31",
+   "lines": [
+    "고지마다 참호와 교통호가 거미줄처럼 이어졌고, 병사들은 그 안에서 여름을 났다.",
+    "낮에는 포탄을 피해 땅속에 웅크리고, 밤에는 적의 기습에 대비해 눈을 부릅떴다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s31-photo"
+   },
+   "label": "철원 서쪽의 박격포 진지 (1952. 5 · 참고 사진)"
+  },
+  {
+   "id": "s32",
+   "lines": [
+    {
+     "t": "7월 초, 국군 진지에서는 휴전 소식에 귀를 기울이는 병사들이 늘어 갔다.",
+     "say": "칠월 초, 국군 진지에서는 휴전 소식에 귀를 기울이는 병사들이 늘어 갔다."
+    },
+    "조금만 더 버티면, 살아서 집에 돌아갈 수 있을지도 몰랐다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s32-photo"
+   },
+   "label": "선임하사에게 지시하는 국군 소대장 · 제9사단 (1953. 5 · 참고 사진)"
+  },
+  {
+   "id": "s33",
+   "lines": [
+    "그러나 그 기대가 커질수록, 전선 너머의 침묵은 점점 무거워졌다.",
+    "폭풍은, 바로 그 침묵 속에서 다가오고 있었다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "1953. 7. 13",
+    "accent": "폭풍의 날",
+    "accentAt": 0.8
+   },
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s34",
+   "lines": [
+    {
+     "t": "1953년 7월 13일, 해가 지고 전선에 어둠이 내려앉았다.",
+     "say": "천구백오십삼 년 칠월 십삼 일, 해가 지고 전선에 어둠이 내려앉았다."
+    }
+   ],
+   "visual": {
+    "type": "black",
+    "text": "제3막",
+    "accent": "7월 13일, 불의 밤",
+    "accentAt": 0.4
+   },
+   "pauseBefore": 0.5,
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s35",
+   "lines": [
+    {
+     "t": "밤 9시, 중공군 포병이 일제히 불을 뿜었다.",
+     "say": "밤 아홉 시, 중공군 포병이 일제히 불을 뿜었다."
+    },
+    {
+     "t": "서쪽 금화 부근에서 동쪽 북한강에 이르는 약 25km의 전선이, 한꺼번에 흔들렸다.",
+     "say": "서쪽 금화 부근에서 동쪽 북한강에 이르는 약 이십오 킬로미터의 전선이, 한꺼번에 흔들렸다."
+    },
+    "참호 속의 병사들은, 고개를 들 수조차 없었다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "night_barrage",
+    "kb": "out"
+   },
+   "label": "재연 일러스트",
+   "chapter": {
+    "num": "제3막",
+    "title": "7월 13일 야간 포격전"
+   },
+   "callouts": [
+    {
+     "text": "1953. 7. 13 21:00 · 공세 개시",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "artillery",
+     "at": 0,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s36",
+   "lines": [
+    {
+     "t": "중국 측 기록에 따르면, 첫 포격에만 1,100여 문의 대포가 동원되었다.",
+     "say": "중국 측 기록에 따르면, 첫 포격에만 천백여 문의 대포가 동원되었다."
+    },
+    "중공군이 참전한 이래, 가장 많은 대포를 한곳에 모은 공격이었다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "north",
+    "to": "north",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.42,
+        38.29
+       ],
+       [
+        127.47,
+        38.34
+       ],
+       [
+        127.51,
+        38.39
+       ],
+       [
+        127.56,
+        38.425
+       ],
+       [
+        127.62,
+        38.43
+       ],
+       [
+        127.68,
+        38.415
+       ],
+       [
+        127.74,
+        38.38
+       ],
+       [
+        127.8,
+        38.33
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "radar",
+      "p": "art1",
+      "at": 0,
+      "size": 1.0,
+      "color": "red"
+     },
+     {
+      "k": "radar",
+      "p": "art2",
+      "at": 0.1,
+      "size": 1.2,
+      "color": "red",
+      "text": "포병 발사 원점"
+     },
+     {
+      "k": "radar",
+      "p": "art3",
+      "at": 0.2,
+      "size": 1.0,
+      "color": "red"
+     },
+     {
+      "k": "shock",
+      "pts": [
+       [
+        127.47,
+        38.35
+       ],
+       [
+        127.53,
+        38.4
+       ],
+       [
+        127.6,
+        38.425
+       ],
+       [
+        127.67,
+        38.41
+       ],
+       [
+        127.73,
+        38.375
+       ],
+       [
+        127.79,
+        38.335
+       ]
+      ],
+      "at": 0.4,
+      "size": 1.1,
+      "period": 0.9
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "중국 측 기록 · 개전 포격 1,100여 문",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s37",
+   "lines": [
+    "짧고 강한 포격이, 국군의 참호와 철조망을 갈아엎었다.",
+    "포격이 이어진 시간은 길지 않았지만, 그 사이 진지의 상당수가 무너져 내렸다.",
+    "철조망과 지뢰밭에는, 순식간에 길이 뚫렸다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "salient",
+    "to": "salient",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.42,
+        38.29
+       ],
+       [
+        127.47,
+        38.34
+       ],
+       [
+        127.51,
+        38.39
+       ],
+       [
+        127.56,
+        38.425
+       ],
+       [
+        127.62,
+        38.43
+       ],
+       [
+        127.68,
+        38.415
+       ],
+       [
+        127.74,
+        38.38
+       ],
+       [
+        127.8,
+        38.33
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "shock",
+      "pts": [
+       [
+        127.47,
+        38.35
+       ],
+       [
+        127.53,
+        38.4
+       ],
+       [
+        127.6,
+        38.425
+       ],
+       [
+        127.67,
+        38.41
+       ],
+       [
+        127.73,
+        38.375
+       ],
+       [
+        127.79,
+        38.335
+       ]
+      ],
+      "at": 0,
+      "size": 1.3,
+      "period": 0.7
+     },
+     {
+      "k": "shock",
+      "pts": [
+       [
+        127.5,
+        38.37
+       ],
+       [
+        127.58,
+        38.41
+       ],
+       [
+        127.65,
+        38.395
+       ],
+       [
+        127.72,
+        38.37
+       ]
+      ],
+      "at": 0.5,
+      "size": 0.9,
+      "period": 0.8
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "연속 탄착 (개략)",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0.3,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s38",
+   "lines": [
+    {
+     "t": "7월 11일부터 열흘 동안, 공산군이 쏜 포탄은 19만 7천여 발.",
+     "say": "칠월 십일 일부터 열흘 동안, 공산군이 쏜 포탄은 십구만 칠천여 발."
+    },
+    {
+     "t": "전쟁 3년을 통틀어, 열흘 사이에 쏟아진 가장 많은 포탄이었다.",
+     "say": "전쟁 삼 년을 통틀어, 열흘 사이에 쏟아진 가장 많은 포탄이었다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "197,550발",
+    "style": "red",
+    "sub": "1953. 7. 11~20 공산군 포탄 · 열흘 기준 전쟁 중 최다 (미 육군 공간사)",
+    "subAt": 1
+   },
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s39",
+   "lines": [
+    "포탄은 전방 진지만이 아니라, 뒤쪽의 포병 진지까지 덮쳤다.",
+    "국군을 지원하던 미군 포대도, 이 밤에 큰 피해를 입었다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s39-photo"
+   },
+   "label": "중공군 공세로 파괴된 미군 155mm 곡사포 · 수도사단 지역 (1953. 7)"
+  },
+  {
+   "id": "s40",
+   "lines": [
+    "이번 공세의 주된 표적은, 미군이 아니라 국군 사단들이었다.",
+    "공산군 측은 이승만 정부의 포로 석방에 대한 대가를, 국군의 피로 받아 내려 했다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "표적은 국군",
+    "style": "red",
+    "sub": "수도사단 · 6사단 · 8사단 · 3사단 정면",
+    "subAt": 0.6
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0.2,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s41",
+   "lines": [
+    "포격이 멎자, 중공군 보병이 일제히 산을 타고 내려왔다.",
+    {
+     "t": "6개 군이 동시에, 돌출부의 정면과 양쪽 어깨를 찔러 들어왔다.",
+     "say": "육 개 군이 동시에, 돌출부의 정면과 양쪽 어깨를 찔러 들어왔다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "salient",
+    "to": "salient",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.42,
+        38.29
+       ],
+       [
+        127.47,
+        38.34
+       ],
+       [
+        127.51,
+        38.39
+       ],
+       [
+        127.56,
+        38.425
+       ],
+       [
+        127.62,
+        38.43
+       ],
+       [
+        127.68,
+        38.415
+       ],
+       [
+        127.74,
+        38.38
+       ],
+       [
+        127.8,
+        38.33
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.44,
+        38.47
+       ],
+       [
+        127.46,
+        38.41
+       ],
+       [
+        127.48,
+        38.355
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.52,
+        38.5
+       ],
+       [
+        127.535,
+        38.44
+       ],
+       [
+        127.55,
+        38.38
+       ]
+      ],
+      "color": "red",
+      "at": 0.35,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.6,
+        38.53
+       ],
+       [
+        127.6,
+        38.46
+       ],
+       [
+        127.61,
+        38.39
+       ]
+      ],
+      "color": "red",
+      "at": 0.5,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.67,
+        38.51
+       ],
+       [
+        127.665,
+        38.45
+       ],
+       [
+        127.66,
+        38.38
+       ]
+      ],
+      "color": "red",
+      "at": 0.6499999999999999,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.75,
+        38.47
+       ],
+       [
+        127.72,
+        38.41
+       ],
+       [
+        127.7,
+        38.35
+       ]
+      ],
+      "color": "red",
+      "at": 0.8,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.83,
+        38.42
+       ],
+       [
+        127.79,
+        38.37
+       ],
+       [
+        127.76,
+        38.33
+       ]
+      ],
+      "color": "red",
+      "at": 0.95,
+      "width": 1.0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "중공군 6개 군 동시 돌파 (개략)",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "charge",
+     "at": 0.2,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s42",
+   "lines": [
+    "중국 측 기록에 따르면, 공격군은 서쪽과 가운데, 동쪽의 세 집단으로 나뉘어 있었다.",
+    {
+     "t": "서쪽 집단은 수도사단을, 가운데 집단은 6사단과 8사단 쪽을, 동쪽 집단은 3사단 쪽을 노렸다.",
+     "say": "서쪽 집단은 수도사단을, 가운데 집단은 육 사단과 팔 사단 쪽을, 동쪽 집단은 삼 사단 쪽을 노렸다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "salient",
+    "to": "salient",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.42,
+        38.29
+       ],
+       [
+        127.47,
+        38.34
+       ],
+       [
+        127.51,
+        38.39
+       ],
+       [
+        127.56,
+        38.425
+       ],
+       [
+        127.62,
+        38.43
+       ],
+       [
+        127.68,
+        38.415
+       ],
+       [
+        127.74,
+        38.38
+       ],
+       [
+        127.8,
+        38.33
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": [
+       127.44,
+       38.47
+      ],
+      "text": "서집단",
+      "color": "red",
+      "at": 0.2,
+      "dy": 0
+     },
+     {
+      "k": "badge",
+      "p": [
+       127.6,
+       38.5
+      ],
+      "text": "중집단",
+      "color": "red",
+      "at": 0.6,
+      "dy": 0
+     },
+     {
+      "k": "badge",
+      "p": [
+       127.76,
+       38.46
+      ],
+      "text": "동집단",
+      "color": "red",
+      "at": 1.0,
+      "dy": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.44,
+        38.47
+       ],
+       [
+        127.46,
+        38.41
+       ],
+       [
+        127.48,
+        38.355
+       ]
+      ],
+      "color": "red",
+      "at": 0.3,
+      "width": 0.9
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.6,
+        38.53
+       ],
+       [
+        127.6,
+        38.46
+       ],
+       [
+        127.61,
+        38.39
+       ]
+      ],
+      "color": "red",
+      "at": 0.7,
+      "width": 0.9
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.75,
+        38.47
+       ],
+       [
+        127.72,
+        38.41
+       ],
+       [
+        127.7,
+        38.35
+       ]
+      ],
+      "color": "red",
+      "at": 1.1,
+      "width": 0.9
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "중국 측 기록 · 서·중·동 3개 공격 집단 (개략)",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s43",
+   "lines": [
+    "어둠과 포연 속에서, 국군의 첫 진지들은 순식간에 삼켜졌다.",
+    "중국 측은, 공격을 시작한 지 한 시간 만에 국군 전방 진지를 모두 뚫었다고 주장한다.",
+    "산비탈마다, 나팔 소리와 호루라기 소리가 울려 퍼졌다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "chinese_wave",
+    "kb": "out"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "중국 측 주장 · 개전 1시간 전방 돌파",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s44",
+   "lines": [
+    "적은 진지와 진지 사이의 틈으로 스며들어, 뒤쪽 지휘소까지 덮쳤다.",
+    {
+     "t": "서쪽 수도사단에서는, 1연대 지휘소가 적의 기습을 받아 무너졌다.",
+     "say": "서쪽 수도사단에서는, 일 연대 지휘소가 적의 기습을 받아 무너졌다."
+    },
+    "통신이 끊긴 지휘소는, 아래 부대에 아무런 명령도 내릴 수 없었다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "cp_raid",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 0.4,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s45",
+   "lines": [
+    "중국 측 기록은, 국군 군복으로 위장한 소부대가 이 지휘소를 습격했다고 전한다.",
+    "기록마다 내용은 엇갈리지만, 그만큼 적이 깊숙이 파고들었다는 뜻이었다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "salient",
+    "to": "west",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.42,
+        38.29
+       ],
+       [
+        127.47,
+        38.34
+       ],
+       [
+        127.51,
+        38.39
+       ],
+       [
+        127.56,
+        38.425
+       ],
+       [
+        127.62,
+        38.43
+       ],
+       [
+        127.68,
+        38.415
+       ],
+       [
+        127.74,
+        38.38
+       ],
+       [
+        127.8,
+        38.33
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "cap1",
+      "text": "수도사단 1연대",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.43,
+        38.45
+       ],
+       [
+        127.445,
+        38.42
+       ],
+       [
+        127.455,
+        38.395
+       ]
+      ],
+      "color": "red",
+      "at": 0.4,
+      "width": 0.8
+     },
+     {
+      "k": "lock",
+      "p": "cap1",
+      "at": 1.0,
+      "size": 1.0,
+      "text": "지휘소 피습"
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "중국 측 기록 (사실관계는 자료마다 차이)",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s46",
+   "lines": [
+    "돌출부 한가운데에서도, 사정은 다르지 않았다.",
+    {
+     "t": "6사단 정면에서는 적 4개 대대가, 국군 한 개 대대를 에워쌌다.",
+     "say": "육 사단 정면에서는 적 사 개 대대가, 국군 한 개 대대를 에워쌌다."
+    },
+    "포위된 대대는 동이 틀 때까지, 적과 뒤엉켜 싸워야 했다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "salient",
+    "to": "salient",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.42,
+        38.29
+       ],
+       [
+        127.47,
+        38.34
+       ],
+       [
+        127.51,
+        38.39
+       ],
+       [
+        127.56,
+        38.425
+       ],
+       [
+        127.62,
+        38.43
+       ],
+       [
+        127.68,
+        38.415
+       ],
+       [
+        127.74,
+        38.38
+       ],
+       [
+        127.8,
+        38.33
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "d6",
+      "text": "6사단",
+      "color": "blue",
+      "at": 0,
+      "dy": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.53,
+        38.47
+       ],
+       [
+        127.54,
+        38.44
+       ],
+       [
+        127.545,
+        38.415
+       ]
+      ],
+      "color": "red",
+      "at": 0.3,
+      "width": 0.8
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.58,
+        38.48
+       ],
+       [
+        127.565,
+        38.44
+       ],
+       [
+        127.55,
+        38.41
+       ]
+      ],
+      "color": "red",
+      "at": 0.5,
+      "width": 0.8
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "미 육군 공간사 · 6사단 19연대 정면",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s47",
+   "lines": [
+    {
+     "t": "미 육군 공간사는, 자정 무렵 적이 이미 국군 진지 1,000m 안쪽까지 파고든 곳도 있었다고 기록한다.",
+     "say": "미 육군 공간사는, 자정 무렵 적이 이미 국군 진지 천 미터 안쪽까지 파고든 곳도 있었다고 기록한다."
+    },
+    "날이 밝기도 전에, 돌출부 곳곳의 전선은 이미 조각나 있었다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "7. 13 자정 무렵",
+    "accent": "최대 1,000m 침투",
+    "accentAt": 0.6
+   }
+  },
+  {
+   "id": "s48",
+   "lines": [
+    "날이 밝아 올 무렵, 돌출부의 서쪽 어깨는 이미 크게 흔들리고 있었다.",
+    "부상병을 실은 들것이, 끝도 없이 남쪽으로 내려갔다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s48-photo"
+   },
+   "label": "중공군 7월 공세 중 부상한 국군 수도사단 병사 (1953. 7. 15)"
+  },
+  {
+   "id": "s49",
+   "lines": [
+    {
+     "t": "7월 14일 아침, 지도 위에 드러난 전황은 참담했다.",
+     "say": "칠월 십사 일 아침, 지도 위에 드러난 전황은 참담했다."
+    },
+    "돌출부의 서쪽 어깨와 동쪽 어깨가, 거의 동시에 뚫려 있었다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "salient",
+    "to": "salient",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.42,
+        38.29
+       ],
+       [
+        127.47,
+        38.34
+       ],
+       [
+        127.51,
+        38.39
+       ],
+       [
+        127.56,
+        38.425
+       ],
+       [
+        127.62,
+        38.43
+       ],
+       [
+        127.68,
+        38.415
+       ],
+       [
+        127.74,
+        38.38
+       ],
+       [
+        127.8,
+        38.33
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.44,
+        38.4
+       ],
+       [
+        127.47,
+        38.35
+       ],
+       [
+        127.5,
+        38.305
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 1.2
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.76,
+        38.43
+       ],
+       [
+        127.72,
+        38.36
+       ],
+       [
+        127.69,
+        38.29
+       ]
+      ],
+      "color": "red",
+      "at": 0.5,
+      "width": 1.2
+     },
+     {
+      "k": "lock",
+      "p": "d8",
+      "at": 1.0,
+      "size": 1.0,
+      "text": "포위 위험"
+     }
+    ]
+   },
+   "chapter": {
+    "num": "제4막",
+    "title": "무너지는 방어선"
+   },
+   "callouts": [
+    {
+     "text": "1953. 7. 14 · 양쪽 어깨 돌파 (개략)",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s50",
+   "lines": [
+    "서쪽의 수도사단은 세 방향에서 압박을 받으며, 진지를 하나씩 내주었다.",
+    {
+     "t": "사단의 기갑연대가 포위된 1연대를 구하러 나섰지만, 길목마다 적이 기다리고 있었다.",
+     "say": "사단의 기갑연대가 포위된 일 연대를 구하러 나섰지만, 길목마다 적이 기다리고 있었다."
+    },
+    "사단의 서쪽 전선은, 하룻밤 사이에 몇 킬로미터나 남쪽으로 밀려났다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "west",
+    "to": "west",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.42,
+        38.29
+       ],
+       [
+        127.47,
+        38.34
+       ],
+       [
+        127.51,
+        38.39
+       ],
+       [
+        127.56,
+        38.425
+       ],
+       [
+        127.62,
+        38.43
+       ],
+       [
+        127.68,
+        38.415
+       ],
+       [
+        127.74,
+        38.38
+       ],
+       [
+        127.8,
+        38.33
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "d_cap",
+      "text": "수도사단",
+      "color": "blue",
+      "at": 0,
+      "dy": 0
+     },
+     {
+      "k": "unit",
+      "p": "cap1",
+      "text": "1연대",
+      "color": "blue",
+      "at": 0.3
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.4,
+        38.42
+       ],
+       [
+        127.43,
+        38.4
+       ],
+       [
+        127.45,
+        38.385
+       ]
+      ],
+      "color": "red",
+      "at": 0.5,
+      "width": 0.8
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.5,
+        38.43
+       ],
+       [
+        127.475,
+        38.405
+       ],
+       [
+        127.46,
+        38.39
+       ]
+      ],
+      "color": "red",
+      "at": 0.7,
+      "width": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "id": "s51",
+   "lines": [
+    {
+     "t": "7월 14일 밤, 기갑연대장 육근수 대령은 직접 2대대를 이끌고 1연대 진지로 향했다.",
+     "say": "칠월 십사 일 밤, 기갑연대장 육근수 대령은 직접 이 대대를 이끌고 일 연대 진지로 향했다."
+    },
+    "그러나 산 중턱에 매복한 적의 기습에, 그는 끝내 그 자리에서 전사했다.",
+    "연대장이 직접 앞장서야 할 만큼, 전선은 다급했다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "故 육근수 대령",
+    "accent": "1953. 7. 14 밤 전사",
+    "accentAt": 0.6
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s52",
+   "lines": [
+    {
+     "t": "정부는 그에게 1계급 특진과 함께, 을지무공훈장을 추서했다.",
+     "say": "정부는 그에게 일 계급 특진과 함께, 을지무공훈장을 추서했다."
+    },
+    {
+     "t": "그리고 올해 7월, 그는 이달의 6·25 전쟁 영웅으로 선정되었다.",
+     "say": "그리고 올해 칠월, 그는 이달의 육이오 전쟁 영웅으로 선정되었다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "을지무공훈장",
+    "style": "yellow",
+    "sub": "육근수 준장 (추서) · 국가보훈부 2026년 7월 6·25전쟁영웅",
+    "subAt": 0.6
+   }
+  },
+  {
+   "id": "s53",
+   "lines": [
+    {
+     "t": "돌출부 한가운데의 6사단과 8사단 정면에서도, 진지들이 차례로 고립되었다.",
+     "say": "돌출부 한가운데의 육 사단과 팔 사단 정면에서도, 진지들이 차례로 고립되었다."
+    },
+    "전화선은 끊기고, 어느 진지가 아직 살아 있는지조차 알 수 없었다.",
+    "연락병이 산을 넘어 명령을 전하는 사이에도, 전황은 시시각각 바뀌었다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "salient",
+    "to": "salient",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.42,
+        38.29
+       ],
+       [
+        127.47,
+        38.34
+       ],
+       [
+        127.51,
+        38.39
+       ],
+       [
+        127.56,
+        38.425
+       ],
+       [
+        127.62,
+        38.43
+       ],
+       [
+        127.68,
+        38.415
+       ],
+       [
+        127.74,
+        38.38
+       ],
+       [
+        127.8,
+        38.33
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "d6",
+      "text": "6사단",
+      "color": "blue",
+      "at": 0,
+      "dy": 0
+     },
+     {
+      "k": "badge",
+      "p": "d8",
+      "text": "8사단",
+      "color": "blue",
+      "at": 0,
+      "dy": 0
+     },
+     {
+      "k": "shock",
+      "pts": [
+       [
+        127.55,
+        38.4
+       ],
+       [
+        127.6,
+        38.41
+       ],
+       [
+        127.63,
+        38.4
+       ]
+      ],
+      "at": 0.4,
+      "size": 0.8,
+      "period": 1.1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s54",
+   "lines": [
+    "고립된 소대와 중대들은, 사방에서 몰려오는 적을 상대로 탄약이 떨어질 때까지 버텼다.",
+    "그러나 병력과 화력의 차이는, 시간이 갈수록 벌어지기만 했다.",
+    "구원 부대는 오지 않았고, 날은 좀처럼 밝지 않았다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "isolated_post",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 0.5,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s55",
+   "lines": [
+    {
+     "t": "동쪽 어깨의 3사단 진지도, 중공군의 집중 공격에 무너져 내렸다.",
+     "say": "동쪽 어깨의 삼 사단 진지도, 중공군의 집중 공격에 무너져 내렸다."
+    },
+    "양쪽 어깨가 뚫리자, 돌출부 안쪽의 부대들은 포위될 위험에 놓였다.",
+    "중공군의 쐐기가 양쪽에서 조여 오며, 돌출부는 거대한 자루처럼 변해 갔다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "salient",
+    "to": "east",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.42,
+        38.29
+       ],
+       [
+        127.47,
+        38.34
+       ],
+       [
+        127.51,
+        38.39
+       ],
+       [
+        127.56,
+        38.425
+       ],
+       [
+        127.62,
+        38.43
+       ],
+       [
+        127.68,
+        38.415
+       ],
+       [
+        127.74,
+        38.38
+       ],
+       [
+        127.8,
+        38.33
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "d3",
+      "text": "3사단",
+      "color": "blue",
+      "at": 0,
+      "dy": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.76,
+        38.45
+       ],
+       [
+        127.73,
+        38.4
+       ],
+       [
+        127.7,
+        38.35
+       ]
+      ],
+      "color": "red",
+      "at": 0.3,
+      "width": 1.1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s56",
+   "lines": [
+    {
+     "t": "7월 14일, 미8군 사령관 테일러 장군은 결단을 내렸다.",
+     "say": "칠월 십사 일, 미팔 군 사령관 테일러 장군은 결단을 내렸다."
+    },
+    "돌출부를 포기하고, 금성천 남쪽으로 물러나 선을 다시 세우라는 명령이었다.",
+    "무리하게 돌출부를 붙들다 더 큰 피해를 입기보다, 높은 곳에 선을 다시 긋는 쪽을 택한 것이다."
+   ],
+   "visual": {
+    "type": "document",
+    "org": "미8군 사령부",
+    "head": "철수 명령",
+    "stamp": "1953. 7. 14",
+    "rows": [
+     "돌출부 북부 진지 포기",
+     "금성천 남쪽으로 철수",
+     "고지선 따라 새 방어선 구축",
+     "재정비 후 반격 준비"
+    ],
+    "note": "명령 요지 · 재구성 화면"
+   },
+   "sfx": [
+    {
+     "id": "typewriter",
+     "at": 0.2,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s57",
+   "lines": [
+    "철수는 공격보다 어렵다는 말이 있다.",
+    "적과 맞붙은 채 등을 보이는 순간, 부대는 가장 약해지기 때문이다.",
+    "금성 돌출부의 철수가, 바로 그랬다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "retreat_rain",
+    "kb": "left"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s58",
+   "lines": [
+    "목표는 금성천 남쪽의 고지들을 잇는, 새로운 방어선이었다.",
+    "부대들은 어둠을 틈타, 줄지어 남쪽으로 물러나기 시작했다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "salient",
+    "to": "river",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.42,
+        38.29
+       ],
+       [
+        127.47,
+        38.34
+       ],
+       [
+        127.51,
+        38.39
+       ],
+       [
+        127.56,
+        38.425
+       ],
+       [
+        127.62,
+        38.43
+       ],
+       [
+        127.68,
+        38.415
+       ],
+       [
+        127.74,
+        38.38
+       ],
+       [
+        127.8,
+        38.33
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.46,
+        38.338
+       ],
+       [
+        127.5,
+        38.352
+       ],
+       [
+        127.55,
+        38.366
+       ],
+       [
+        127.6,
+        38.376
+       ],
+       [
+        127.645,
+        38.374
+       ],
+       [
+        127.69,
+        38.362
+       ],
+       [
+        127.73,
+        38.344
+       ],
+       [
+        127.78,
+        38.332
+       ],
+       [
+        127.83,
+        38.318
+       ]
+      ],
+      "color": "#00E5FF",
+      "glow": false,
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.45,
+        38.3
+       ],
+       [
+        127.5,
+        38.325
+       ],
+       [
+        127.55,
+        38.345
+       ],
+       [
+        127.6,
+        38.36
+       ],
+       [
+        127.64,
+        38.36
+       ],
+       [
+        127.68,
+        38.35
+       ],
+       [
+        127.72,
+        38.328
+       ],
+       [
+        127.77,
+        38.322
+       ],
+       [
+        127.82,
+        38.31
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "color": "blue",
+      "at": 0.6
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.55,
+        38.41
+       ],
+       [
+        127.555,
+        38.38
+       ],
+       [
+        127.56,
+        38.35
+       ]
+      ],
+      "color": "blue",
+      "at": 0.9,
+      "width": 0.7
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.66,
+        38.4
+       ],
+       [
+        127.66,
+        38.375
+       ],
+       [
+        127.66,
+        38.35
+       ]
+      ],
+      "color": "blue",
+      "at": 1.0,
+      "width": 0.7
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1953. 7. 14 · 금성천 남쪽으로 철수 (개략)",
+     "style": "blue",
+     "at": 0.6,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s59",
+   "lines": [
+    "하지만 적의 추격은 멈추지 않았다.",
+    "혼란 속에서 일부 부대는 금성천마저 넘어, 명령보다 훨씬 남쪽까지 밀려났다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "river",
+    "to": "south",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.45,
+        38.285
+       ],
+       [
+        127.5,
+        38.3
+       ],
+       [
+        127.55,
+        38.305
+       ],
+       [
+        127.6,
+        38.31
+       ],
+       [
+        127.645,
+        38.3
+       ],
+       [
+        127.68,
+        38.275
+       ],
+       [
+        127.72,
+        38.29
+       ],
+       [
+        127.77,
+        38.305
+       ],
+       [
+        127.82,
+        38.305
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.46,
+        38.338
+       ],
+       [
+        127.5,
+        38.352
+       ],
+       [
+        127.55,
+        38.366
+       ],
+       [
+        127.6,
+        38.376
+       ],
+       [
+        127.645,
+        38.374
+       ],
+       [
+        127.69,
+        38.362
+       ],
+       [
+        127.73,
+        38.344
+       ],
+       [
+        127.78,
+        38.332
+       ],
+       [
+        127.83,
+        38.318
+       ]
+      ],
+      "color": "#00E5FF",
+      "glow": false,
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.6,
+        38.4
+       ],
+       [
+        127.6,
+        38.35
+       ],
+       [
+        127.6,
+        38.31
+       ]
+      ],
+      "color": "red",
+      "at": 0.3,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.7,
+        38.37
+       ],
+       [
+        127.69,
+        38.32
+       ],
+       [
+        127.68,
+        38.28
+       ]
+      ],
+      "color": "red",
+      "at": 0.5,
+      "width": 1.0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "중공군 최대 진출선 (개략)",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s60",
+   "lines": [
+    "국군은 무너진 전선 뒤에서, 적근산과 백암산을 잇는 산줄기에 필사적으로 매달렸다.",
+    "이 능선마저 내주면, 그 뒤로는 화천까지 막아설 높은 산이 없었다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "south",
+    "to": "ridge",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.45,
+        38.285
+       ],
+       [
+        127.5,
+        38.3
+       ],
+       [
+        127.55,
+        38.305
+       ],
+       [
+        127.6,
+        38.31
+       ],
+       [
+        127.645,
+        38.3
+       ],
+       [
+        127.68,
+        38.275
+       ],
+       [
+        127.72,
+        38.29
+       ],
+       [
+        127.77,
+        38.305
+       ],
+       [
+        127.82,
+        38.305
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.5,
+        38.29
+       ],
+       [
+        127.535,
+        38.293
+       ],
+       [
+        127.6,
+        38.3
+       ],
+       [
+        127.64,
+        38.298
+       ],
+       [
+        127.675,
+        38.293
+       ]
+      ],
+      "color": "blue",
+      "glow": true,
+      "at": 0.3
+     },
+     {
+      "k": "unit",
+      "p": "jeokgeun",
+      "text": "적근산",
+      "color": "blue",
+      "at": 1.0
+     },
+     {
+      "k": "marker",
+      "p": "jupa",
+      "color": "dark",
+      "at": 1.2
+     },
+     {
+      "k": "unit",
+      "p": "baegam",
+      "text": "백암산",
+      "color": "blue",
+      "at": 1.4,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "새 방어선 · 적근산–주파령–백암산 (개략)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s61",
+   "lines": [
+    "옛 전선은, 세 방향이 열린 낮은 돌출부였다.",
+    {
+     "t": "새 전선은, 1,000m가 넘는 봉우리들이 이어진 높은 산줄기였다.",
+     "say": "새 전선은, 천 미터가 넘는 봉우리들이 이어진 높은 산줄기였다."
+    },
+    "땅을 내준 대신, 국군은 높이를 얻은 것이다."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "옛 전선",
+     "big": "돌출부",
+     "icon": "none",
+     "color": "red"
+    },
+    "right": {
+     "title": "새 전선",
+     "big": "산줄기",
+     "icon": "none",
+     "color": "blue",
+     "at": 0.6
+    }
+   }
+  },
+  {
+   "id": "s62",
+   "lines": [
+    {
+     "t": "적근산 1,073m, 그 동쪽의 주파령, 그리고 백암산 1,179m.",
+     "say": "적근산 천칠십삼 미터, 그 동쪽의 주파령, 그리고 백암산 천백칠십구 미터."
+    },
+    "이 봉우리들이, 국군에게 남은 마지막 벽이었다."
+   ],
+   "visual": {
+    "type": "profile",
+    "pts": [
+     [
+      0,
+      520
+     ],
+     [
+      0.08,
+      700
+     ],
+     [
+      0.18,
+      1073
+     ],
+     [
+      0.27,
+      820
+     ],
+     [
+      0.36,
+      640
+     ],
+     [
+      0.45,
+      600
+     ],
+     [
+      0.53,
+      680
+     ],
+     [
+      0.62,
+      860
+     ],
+     [
+      0.72,
+      1179
+     ],
+     [
+      0.82,
+      900
+     ],
+     [
+      0.92,
+      650
+     ],
+     [
+      1,
+      520
+     ]
+    ],
+    "grid": [
+     600,
+     800,
+     1000
+    ],
+    "yMin": 300,
+    "yMax": 1300,
+    "title": "적근산–백암산 동서 단면",
+    "note": "모식도 (높이 과장)",
+    "left": "서 · 금화 방면",
+    "right": "동 · 북한강",
+    "marks": [
+     {
+      "x": 0.18,
+      "text": "적근산 1,073m",
+      "style": "blue",
+      "at": 0,
+      "lift": 80,
+      "size": 40
+     },
+     {
+      "x": 0.45,
+      "text": "주파령",
+      "style": "dark",
+      "at": 0.6,
+      "lift": 80,
+      "size": 36
+     },
+     {
+      "x": 0.72,
+      "text": "백암산 1,179m",
+      "style": "blue",
+      "at": 0.9,
+      "lift": 80,
+      "size": 40
+     }
+    ]
+   }
+  },
+  {
+   "id": "s63",
+   "lines": [
+    "그리고 바로 그 무렵, 하늘마저 국군의 편이 아니었다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "제5막",
+    "accent": "금성천의 비극",
+    "accentAt": 0.4
+   },
+   "pauseBefore": 0.5,
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s64",
+   "lines": [
+    {
+     "t": "7월 중순, 중부 전선에는 장맛비가 쉬지 않고 쏟아졌다.",
+     "say": "칠월 중순, 중부 전선에는 장맛비가 쉬지 않고 쏟아졌다."
+    },
+    "산길은 진흙탕이 되었고, 계곡의 물은 순식간에 불어났다.",
+    "젖은 군복과 군화는, 마를 틈이 없었다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "retreat_rain",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "chapter": {
+    "num": "제5막",
+    "title": "금성천의 비극과 고립"
+   },
+   "sfx": [
+    {
+     "id": "water",
+     "at": 0,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s65",
+   "lines": [
+    "평소 걸어서 건너던 금성천은, 누런 흙탕물이 넘실대는 강으로 변했다.",
+    "그리고 그 강이, 남쪽으로 물러나는 부대들의 앞을 가로막았다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "salient",
+    "to": "river",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.42,
+        38.29
+       ],
+       [
+        127.47,
+        38.34
+       ],
+       [
+        127.51,
+        38.39
+       ],
+       [
+        127.56,
+        38.425
+       ],
+       [
+        127.62,
+        38.43
+       ],
+       [
+        127.68,
+        38.415
+       ],
+       [
+        127.74,
+        38.38
+       ],
+       [
+        127.8,
+        38.33
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.46,
+        38.338
+       ],
+       [
+        127.5,
+        38.352
+       ],
+       [
+        127.55,
+        38.366
+       ],
+       [
+        127.6,
+        38.376
+       ],
+       [
+        127.645,
+        38.374
+       ],
+       [
+        127.69,
+        38.362
+       ],
+       [
+        127.73,
+        38.344
+       ],
+       [
+        127.78,
+        38.332
+       ],
+       [
+        127.83,
+        38.318
+       ]
+      ],
+      "color": "#00E5FF",
+      "glow": true,
+      "at": 0.2
+     },
+     {
+      "k": "unit",
+      "p": "d6",
+      "text": "6사단",
+      "color": "blue",
+      "at": 0.8
+     },
+     {
+      "k": "unit",
+      "p": "d8",
+      "text": "8사단",
+      "color": "blue",
+      "at": 1.0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "폭우로 불어난 금성천 (개략)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "water",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s66",
+   "lines": [
+    "다리와 여울목은, 적의 포격과 불어난 물에 끊겨 나갔다.",
+    "병사들은 가슴까지 차오르는 물살을 헤치며, 총을 머리 위로 든 채 강을 건너야 했다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "flood_river",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "water",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s67",
+   "lines": [
+    "강을 미처 건너지 못한 부대들은, 북쪽 기슭에 고립되었다.",
+    "앞에는 중공군이, 뒤에는 불어난 강이 버티고 있었다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "퇴로 차단",
+    "style": "red",
+    "sub": "불어난 금성천 · 끊어진 다리 (1953. 7 중순)",
+    "subAt": 0.6
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0.2,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s68",
+   "lines": [
+    "고립된 병사들은 흩어지지 않았다.",
+    "작은 무리를 이뤄 고지에 오르고, 마지막 탄약까지 쏘며 남쪽으로 길을 열었다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "isolated_post",
+    "kb": "out"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s69",
+   "lines": [
+    "흩어진 병사들은 며칠에 걸쳐, 삼삼오오 아군 전선으로 돌아왔다.",
+    "산속을 헤매다 적의 눈을 피해, 밤에만 움직이며 남쪽을 찾아온 이들이었다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "river",
+    "to": "river",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.45,
+        38.285
+       ],
+       [
+        127.5,
+        38.3
+       ],
+       [
+        127.55,
+        38.305
+       ],
+       [
+        127.6,
+        38.31
+       ],
+       [
+        127.645,
+        38.3
+       ],
+       [
+        127.68,
+        38.275
+       ],
+       [
+        127.72,
+        38.29
+       ],
+       [
+        127.77,
+        38.305
+       ],
+       [
+        127.82,
+        38.305
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.46,
+        38.338
+       ],
+       [
+        127.5,
+        38.352
+       ],
+       [
+        127.55,
+        38.366
+       ],
+       [
+        127.6,
+        38.376
+       ],
+       [
+        127.645,
+        38.374
+       ],
+       [
+        127.69,
+        38.362
+       ],
+       [
+        127.73,
+        38.344
+       ],
+       [
+        127.78,
+        38.332
+       ],
+       [
+        127.83,
+        38.318
+       ]
+      ],
+      "color": "#00E5FF",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.55,
+        38.37
+       ],
+       [
+        127.555,
+        38.34
+       ],
+       [
+        127.56,
+        38.31
+       ]
+      ],
+      "color": "blue",
+      "at": 0.3,
+      "width": 0.5
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.63,
+        38.38
+       ],
+       [
+        127.62,
+        38.35
+       ],
+       [
+        127.615,
+        38.315
+       ]
+      ],
+      "color": "blue",
+      "at": 0.6,
+      "width": 0.5
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.7,
+        38.36
+       ],
+       [
+        127.69,
+        38.33
+       ],
+       [
+        127.685,
+        38.3
+       ]
+      ],
+      "color": "blue",
+      "at": 0.9,
+      "width": 0.5
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "고립 부대의 복귀 (개략)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s70",
+   "lines": [
+    "부상당한 전우를 업은 채, 밤새 산을 넘어 아군 진지로 돌아온 병사들도 있었다.",
+    "그러나 끝내 돌아오지 못한 이들도, 그 못지않게 많았다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s70-photo"
+   },
+   "label": "참호를 따라 후송되는 국군 부상병 (1952 · 참고 사진)"
+  },
+  {
+   "id": "s71",
+   "lines": [
+    {
+     "t": "이 전투에서 국군의 전사자는 2,689명, 부상자는 7,548명.",
+     "say": "이 전투에서 국군의 전사자는 이천육백팔십구 명, 부상자는 칠천오백사십팔 명."
+    },
+    {
+     "t": "그리고 실종자가 4,136명에 이르렀다.",
+     "say": "그리고 실종자가 사천백삼십육 명에 이르렀다."
+    },
+    {
+     "t": "실종자가 4천 명을 넘었다는 사실이, 그날의 혼란을 그대로 보여 준다.",
+     "say": "실종자가 사천 명을 넘었다는 사실이, 그날의 혼란을 그대로 보여 준다."
+    }
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "국군 피해 · 영문 위키백과 집계 기준 (자료마다 차이)",
+    "items": [
+     {
+      "label": "전사",
+      "value": 2689,
+      "display": "2,689명",
+      "color": "red",
+      "at": 0.2
+     },
+     {
+      "label": "부상",
+      "value": 7548,
+      "display": "7,548명",
+      "color": "red",
+      "at": 0.5
+     },
+     {
+      "label": "실종",
+      "value": 4136,
+      "display": "4,136명",
+      "color": "red",
+      "at": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "s72",
+   "lines": [
+    {
+     "t": "중공군은 7월 14일과 15일, 금성천을 넘어 남쪽 깊숙이 밀고 내려왔다.",
+     "say": "중공군은 칠월 십사 일과 십오 일, 금성천을 넘어 남쪽 깊숙이 밀고 내려왔다."
+    },
+    "그들이 노린 다음 목표는, 화천저수지였다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "river",
+    "to": "south",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.45,
+        38.285
+       ],
+       [
+        127.5,
+        38.3
+       ],
+       [
+        127.55,
+        38.305
+       ],
+       [
+        127.6,
+        38.31
+       ],
+       [
+        127.645,
+        38.3
+       ],
+       [
+        127.68,
+        38.275
+       ],
+       [
+        127.72,
+        38.29
+       ],
+       [
+        127.77,
+        38.305
+       ],
+       [
+        127.82,
+        38.305
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.46,
+        38.338
+       ],
+       [
+        127.5,
+        38.352
+       ],
+       [
+        127.55,
+        38.366
+       ],
+       [
+        127.6,
+        38.376
+       ],
+       [
+        127.645,
+        38.374
+       ],
+       [
+        127.69,
+        38.362
+       ],
+       [
+        127.73,
+        38.344
+       ],
+       [
+        127.78,
+        38.332
+       ],
+       [
+        127.83,
+        38.318
+       ]
+      ],
+      "color": "#00E5FF",
+      "glow": false,
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.66,
+        38.3
+       ],
+       [
+        127.72,
+        38.22
+       ],
+       [
+        127.79,
+        38.15
+       ]
+      ],
+      "color": "red",
+      "at": 0.3,
+      "width": 1.1
+     },
+     {
+      "k": "lock",
+      "p": "hwares",
+      "at": 1.0,
+      "size": 1.0,
+      "text": "적의 다음 목표"
+     },
+     {
+      "k": "marker",
+      "p": "hwacheon",
+      "color": "dark",
+      "at": 1.2
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "중공군 최대 진출 (개략)",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s73",
+   "lines": [
+    "저수지와 발전소를 내주면, 전선 전체의 지도가 다시 그려질 수도 있었다.",
+    "휴전선이 그어지기 직전, 국군은 벼랑 끝에 서 있었다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "화천 발전소까지",
+    "accent": "남은 산줄기 하나",
+    "accentAt": 0.6
+   }
+  },
+  {
+   "id": "s74",
+   "lines": [
+    {
+     "t": "그러나 그사이, 국군 제2군단은 무너진 전선 뒤에서 숨을 고르고 있었다.",
+     "say": "그러나 그사이, 국군 제이 군단은 무너진 전선 뒤에서 숨을 고르고 있었다."
+    },
+    {
+     "t": "예비대인 11사단이 불려 올라왔고, 지친 6사단과 3사단은 뒤로 빠져 재정비에 들어갔다.",
+     "say": "예비대인 십일 사단이 불려 올라왔고, 지친 육 사단과 삼 사단은 뒤로 빠져 재정비에 들어갔다."
+    },
+    {
+     "t": "11사단은 그동안 군단 뒤에서 대기하던, 사실상 마지막 예비대였다.",
+     "say": "십일 사단은 그동안 군단 뒤에서 대기하던, 사실상 마지막 예비대였다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "south",
+    "to": "ridge",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.45,
+        38.285
+       ],
+       [
+        127.5,
+        38.3
+       ],
+       [
+        127.55,
+        38.305
+       ],
+       [
+        127.6,
+        38.31
+       ],
+       [
+        127.645,
+        38.3
+       ],
+       [
+        127.68,
+        38.275
+       ],
+       [
+        127.72,
+        38.29
+       ],
+       [
+        127.77,
+        38.305
+       ],
+       [
+        127.82,
+        38.305
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "d11",
+      "text": "11사단",
+      "color": "blue",
+      "at": 0.2,
+      "dy": 0
+     },
+     {
+      "k": "unit",
+      "p": "jeokgeun",
+      "text": "적근산",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "baegam",
+      "text": "백암산",
+      "color": "blue",
+      "at": 0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "7. 14~15 · 국군 11사단 투입",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s75",
+   "lines": [
+    {
+     "t": "서쪽에는 미 3사단이 달려왔고, 비행기로 급히 날아온 미 187공수연대전투단도 전선에 들어섰다.",
+     "say": "서쪽에는 미 삼 사단이 달려왔고, 비행기로 급히 날아온 미 백팔십칠 공수연대전투단도 전선에 들어섰다."
+    },
+    "무너진 틈이 더 벌어지기 전에, 증원 부대가 하루 이틀 만에 자리를 메운 것이다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "ridge",
+    "to": "south",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.45,
+        38.285
+       ],
+       [
+        127.5,
+        38.3
+       ],
+       [
+        127.55,
+        38.305
+       ],
+       [
+        127.6,
+        38.31
+       ],
+       [
+        127.645,
+        38.3
+       ],
+       [
+        127.68,
+        38.275
+       ],
+       [
+        127.72,
+        38.29
+       ],
+       [
+        127.77,
+        38.305
+       ],
+       [
+        127.82,
+        38.305
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "us3",
+      "text": "미 3사단",
+      "color": "blue",
+      "at": 0.2,
+      "dy": 0
+     },
+     {
+      "k": "badge",
+      "p": "d11",
+      "text": "11사단",
+      "color": "blue",
+      "at": 0,
+      "dy": 0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "미 3사단 · 미 187공수연대전투단 증원",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s76",
+   "lines": [
+    "증원 부대와 물자를 실어 나르기 위해, 수송기들이 쉴 새 없이 활주로를 오갔다.",
+    "하늘길과 산길이, 동시에 바빠졌다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s76-photo"
+   },
+   "label": "더글러스 C-124 수송기 (1952 · 참고 사진)"
+  },
+  {
+   "id": "s77",
+   "lines": [
+    "중공군은 공세에 앞서, 탄약과 식량을 전선 가까이 쌓아 두었다.",
+    "그러나 돌출부를 넘어 남쪽으로 내려올수록, 보급선은 길어지고 가늘어졌다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "길어진 보급선",
+    "style": "dark",
+    "sub": "남쪽으로 내려올수록 약해진 공세",
+    "subAt": 0.6
+   }
+  },
+  {
+   "id": "s78",
+   "lines": [
+    "그리고 폭우는, 공격하는 쪽의 발목도 함께 붙잡았다.",
+    "진흙탕 속에서 보급과 포병 이동이 늦어지면서, 중공군의 진격도 점점 무뎌져 갔다.",
+    "같은 비가, 양쪽 모두에게 서로 다른 얼굴을 보인 셈이었다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "baegam_line",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "water",
+     "at": 0,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s79",
+   "lines": [
+    "반격의 기회는, 바로 그 짧은 틈에 있었다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "제6막",
+    "accent": "제2군단의 결단",
+    "accentAt": 0.4
+   },
+   "pauseBefore": 0.5,
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s80",
+   "lines": [
+    {
+     "t": "7월 15일 밤, 국군 제2군단 사령부.",
+     "say": "칠월 십오 일 밤, 국군 제이 군단 사령부."
+    },
+    "작전 지도 위에는, 사흘 사이에 적에게 내준 땅이 붉게 칠해져 있었다.",
+    {
+     "t": "휴전까지 남은 시간은 길어야 2주. 서명 전에 되찾지 못한 땅은, 영원히 돌아오지 않을 수도 있었다.",
+     "say": "휴전까지 남은 시간은 길어야 이 주. 서명 전에 되찾지 못한 땅은, 영원히 돌아오지 않을 수도 있었다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "corps_hq",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "chapter": {
+    "num": "제6막",
+    "title": "제2군단 사령부의 결단"
+   },
+   "sfx": [
+    {
+     "id": "clock",
+     "at": 0,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s81",
+   "lines": [
+    "군단의 판단은 분명했다.",
+    "적이 숨을 고르는 지금 반격하지 않으면, 이 마지막 산줄기마저 지킬 수 없었다.",
+    "그리고 무엇보다, 휴전까지 남은 시간이 얼마 없었다."
+   ],
+   "visual": {
+    "type": "gauges",
+    "big": "지금이 아니면 안 된다",
+    "items": [
+     {
+      "label": "지쳐 가는 적의 공세",
+      "at": 0.3
+     },
+     {
+      "label": "도착한 예비대와 증원",
+      "at": 0.7
+     },
+     {
+      "label": "휴전까지 남은 시간",
+      "at": 1.1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s82",
+   "lines": [
+    "목표는 하나, 금성천 남쪽의 고지선을 되찾는 것이었다.",
+    {
+     "t": "11사단, 8사단, 5사단이 나란히 서고, 백암산 방면에는 6사단 7연대가 나섰다.",
+     "say": "십일 사단, 팔 사단, 오 사단이 나란히 서고, 백암산 방면에는 육 사단 칠 연대가 나섰다."
+    },
+    {
+     "t": "6사단 7연대는 원래 소속을 떠나, 5사단에 배속되어 싸우게 되었다.",
+     "say": "육 사단 칠 연대는 원래 소속을 떠나, 오 사단에 배속되어 싸우게 되었다."
+    }
+   ],
+   "visual": {
+    "type": "document",
+    "org": "국군 제2군단",
+    "head": "반격 작전 계획",
+    "stamp": "1953. 7. 16",
+    "rows": [
+     "목표: 금성천 남안 고지선",
+     "주공: 11사단 · 8사단 · 5사단",
+     "백암산 방면: 6사단 7연대 (5사단 배속)",
+     "미 포병 집중 지원"
+    ],
+    "note": "계획 요지 · 재구성 화면"
+   },
+   "sfx": [
+    {
+     "id": "typewriter",
+     "at": 0.2,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s83",
+   "lines": [
+    {
+     "t": "미8군 사령관 맥스웰 테일러 장군은, 그해 2월 밴플리트 장군의 뒤를 이어 부임했다.",
+     "say": "미팔 군 사령관 맥스웰 테일러 장군은, 그해 이월 밴플리트 장군의 뒤를 이어 부임했다."
+    },
+    {
+     "t": "그는 반격을 국군 제2군단에 맡기되, 미군의 화력으로 그 뒤를 받치기로 했다.",
+     "say": "그는 반격을 국군 제이 군단에 맡기되, 미군의 화력으로 그 뒤를 받치기로 했다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "맥스웰 테일러",
+    "style": "blue",
+    "sub": "미8군 사령관 · 1953. 2. 11 부임 (밴플리트 후임)",
+    "subAt": 0.6
+   }
+  },
+  {
+   "id": "s84",
+   "lines": [
+    "전쟁 내내, 유엔군은 포탄이 모자라 사격을 아껴야 했던 때가 많았다.",
+    {
+     "t": "1953년 봄에는 미국 의회에서, 전선의 포탄 부족이 큰 논란이 되기도 했다.",
+     "say": "천구백오십삼 년 봄에는 미국 의회에서, 전선의 포탄 부족이 큰 논란이 되기도 했다."
+    },
+    "그러나 금성의 위기 앞에서는, 그런 계산을 따질 여유가 없었다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "포탄 부족 논란",
+    "accent": "1953. 봄 · 미 의회",
+    "accentAt": 0.6
+   }
+  },
+  {
+   "id": "s85",
+   "lines": [
+    "이번만큼은, 포탄을 아끼지 않기로 했다.",
+    {
+     "t": "미8군의 포병은 물론, 인접한 미 9군단의 포병까지 금성 정면으로 포구를 돌렸다.",
+     "say": "미팔 군의 포병은 물론, 인접한 미 구 군단의 포병까지 금성 정면으로 포구를 돌렸다."
+    },
+    "무너진 전선을 다시 세울 마지막 기회에, 미군도 아낌없이 힘을 보탰다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "화력 총동원",
+    "style": "blue",
+    "sub": "미8군 · 미 9군단 포병 지원 (개략)",
+    "subAt": 0.6
+   },
+   "sfx": [
+    {
+     "id": "drum",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s86",
+   "lines": [
+    "포병은 여러 포대의 포탄이, 한 지점에 같은 순간 떨어지도록 시간을 맞춰 쏘았다.",
+    {
+     "t": "이른바 TOT, 동시 탄착 사격이었다.",
+     "say": "이른바 티오티, 동시 탄착 사격이었다."
+    },
+    "피할 틈도 없이 한꺼번에 떨어지는 포탄은, 적의 고지를 통째로 뒤흔들었다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "tot_barrage",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "artillery",
+     "at": 0.2,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s87",
+   "lines": [
+    "포병 진지는, 새 방어선 남쪽의 골짜기마다 자리를 잡았다.",
+    "사흘 전 적의 포병이 그랬듯, 이번에는 아군의 포구가 북쪽을 겨눴다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "south",
+    "to": "south",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.45,
+        38.285
+       ],
+       [
+        127.5,
+        38.3
+       ],
+       [
+        127.55,
+        38.305
+       ],
+       [
+        127.6,
+        38.31
+       ],
+       [
+        127.645,
+        38.3
+       ],
+       [
+        127.68,
+        38.275
+       ],
+       [
+        127.72,
+        38.29
+       ],
+       [
+        127.77,
+        38.305
+       ],
+       [
+        127.82,
+        38.305
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "radar",
+      "p": [
+       127.5,
+       38.2
+      ],
+      "at": 0.2,
+      "size": 0.8,
+      "color": "blue"
+     },
+     {
+      "k": "radar",
+      "p": [
+       127.63,
+       38.19
+      ],
+      "at": 0.4,
+      "size": 0.9,
+      "color": "blue",
+      "text": "아군 포병"
+     },
+     {
+      "k": "radar",
+      "p": [
+       127.76,
+       38.21
+      ],
+      "at": 0.6,
+      "size": 0.8,
+      "color": "blue"
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "아군 포병 배치 (개략)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.5,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s88",
+   "lines": [
+    "포병 관측반은, 적이 차지한 고지와 지휘소를 하나씩 표적으로 잡아 나갔다.",
+    "좌표가 불리면, 몇 분 뒤 그 봉우리는 불길에 휩싸였다.",
+    "포병의 시계가, 이제 국군의 편에서 돌아가기 시작했다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "ridge",
+    "to": "ridge",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.45,
+        38.285
+       ],
+       [
+        127.5,
+        38.3
+       ],
+       [
+        127.55,
+        38.305
+       ],
+       [
+        127.6,
+        38.31
+       ],
+       [
+        127.645,
+        38.3
+       ],
+       [
+        127.68,
+        38.275
+       ],
+       [
+        127.72,
+        38.29
+       ],
+       [
+        127.77,
+        38.305
+       ],
+       [
+        127.82,
+        38.305
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "lock",
+      "p": [
+       127.565,
+       38.33
+      ],
+      "at": 0.2,
+      "size": 1.0,
+      "text": "표적 1"
+     },
+     {
+      "k": "lock",
+      "p": [
+       127.625,
+       38.34
+      ],
+      "at": 0.6,
+      "size": 1.0,
+      "text": "표적 2"
+     },
+     {
+      "k": "lock",
+      "p": [
+       127.7,
+       38.31
+      ],
+      "at": 1.0,
+      "size": 1.0,
+      "text": "표적 3"
+     },
+     {
+      "k": "shock",
+      "pts": [
+       [
+        127.565,
+        38.33
+       ],
+       [
+        127.625,
+        38.34
+       ],
+       [
+        127.7,
+        38.31
+       ]
+      ],
+      "at": 1.4,
+      "size": 1.0,
+      "period": 0.8
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "반격 목표 고지 · 포병 집중 (개략)",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.8,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s89",
+   "lines": [
+    "적이 빼앗은 고지 위로, 이번에는 아군의 포탄이 비처럼 쏟아졌다.",
+    "어제까지 쫓기던 쪽이, 오늘은 먼저 주먹을 휘두르기 시작한 것이다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s89-photo"
+   },
+   "label": "155mm 롱톰 야간 사격 (한국전쟁 · 참고 사진)"
+  },
+  {
+   "id": "s90",
+   "lines": [
+    "국군 포병도, 끌어모을 수 있는 모든 포로 사격에 나섰다.",
+    {
+     "t": "전쟁 초기 변변한 대포조차 없던 국군은, 3년 만에 스스로 포병을 갖춘 군대가 되어 있었다.",
+     "say": "전쟁 초기 변변한 대포조차 없던 국군은, 삼 년 만에 스스로 포병을 갖춘 군대가 되어 있었다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s90-photo"
+   },
+   "label": "사격 제원을 확인하는 국군 포병 · 제2사단 (1953. 2 · 참고 사진)"
+  },
+  {
+   "id": "s91",
+   "lines": [
+    "하늘에서도 지원이 이어졌다.",
+    "비구름이 걷힐 때마다, 전투폭격기들이 적의 고지와 보급로를 두드렸다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s91-photo"
+   },
+   "label": "네이팜 폭격 (한국전쟁 · 참고 사진)"
+  },
+  {
+   "id": "s92",
+   "lines": [
+    "포성은 밤낮없이 이어졌다.",
+    "진흙탕에 발이 묶인 중공군은, 아군 포병의 좋은 표적이 되었다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s92-photo"
+   },
+   "label": "155mm 곡사포 사격 (한국전쟁 · 참고 사진)"
+  },
+  {
+   "id": "s93",
+   "lines": [
+    "공세가 시작된 지 사흘째.",
+    {
+     "t": "7월 16일, 마침내 국군 제2군단의 반격 명령이 떨어졌다.",
+     "say": "칠월 십육 일, 마침내 국군 제이 군단의 반격 명령이 떨어졌다."
+    },
+    "보름의 전투에서, 흐름이 뒤집히는 순간이었다."
+   ],
+   "visual": {
+    "type": "weekbar",
+    "title": "7월 13일 ~ 19일",
+    "days": [
+     "7.13",
+     "7.14",
+     "7.15",
+     "7.16",
+     "7.17",
+     "7.18",
+     "7.19"
+    ],
+    "start": 0,
+    "mark": 3,
+    "markText": "7.16 반격 개시",
+    "at": 0.4,
+    "hold": [
+     0,
+     2
+    ],
+    "holdText": "후퇴와 재정비"
+   }
+  },
+  {
+   "id": "s94",
+   "lines": [
+    "빗물에 젖은 비탈 아래에서, 병사들이 총검을 꽂았다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "제7막",
+    "accent": "대반격",
+    "accentAt": 0.4
+   },
+   "pauseBefore": 0.5,
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s95",
+   "lines": [
+    {
+     "t": "7월 16일, 국군 제2군단의 사단들이 일제히 북쪽으로 움직였다.",
+     "say": "칠월 십육 일, 국군 제이 군단의 사단들이 일제히 북쪽으로 움직였다."
+    },
+    {
+     "t": "11사단, 8사단, 5사단이 나란히, 산줄기를 타고 올랐다.",
+     "say": "십일 사단, 팔 사단, 오 사단이 나란히, 산줄기를 타고 올랐다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "ridge",
+    "to": "ridge",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.45,
+        38.285
+       ],
+       [
+        127.5,
+        38.3
+       ],
+       [
+        127.55,
+        38.305
+       ],
+       [
+        127.6,
+        38.31
+       ],
+       [
+        127.645,
+        38.3
+       ],
+       [
+        127.68,
+        38.275
+       ],
+       [
+        127.72,
+        38.29
+       ],
+       [
+        127.77,
+        38.305
+       ],
+       [
+        127.82,
+        38.305
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.56,
+        38.29
+       ],
+       [
+        127.565,
+        38.32
+       ],
+       [
+        127.57,
+        38.35
+       ]
+      ],
+      "color": "blue",
+      "at": 0.2,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.625,
+        38.295
+       ],
+       [
+        127.625,
+        38.325
+       ],
+       [
+        127.625,
+        38.357
+       ]
+      ],
+      "color": "blue",
+      "at": 0.4,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.7,
+        38.27
+       ],
+       [
+        127.705,
+        38.305
+       ],
+       [
+        127.71,
+        38.333
+       ]
+      ],
+      "color": "blue",
+      "at": 0.6,
+      "width": 1.0
+     },
+     {
+      "k": "badge",
+      "p": "d11",
+      "text": "11사단",
+      "color": "blue",
+      "at": 0.3,
+      "dy": 0
+     },
+     {
+      "k": "badge",
+      "p": "d8b",
+      "text": "8사단",
+      "color": "blue",
+      "at": 0.5,
+      "dy": 0
+     },
+     {
+      "k": "badge",
+      "p": "d5b",
+      "text": "5사단",
+      "color": "blue",
+      "at": 0.7,
+      "dy": 0
+     }
+    ]
+   },
+   "chapter": {
+    "num": "제7막",
+    "title": "대반격, 금성천을 향해"
+   },
+   "callouts": [
+    {
+     "text": "1953. 7. 16 · 국군 제2군단 반격",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "charge",
+     "at": 0.3,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s96",
+   "lines": [
+    "병사들은 빗물에 미끄러지는 비탈을, 손으로 땅을 짚으며 기어올랐다.",
+    "고지 하나를 되찾으면, 그날 밤에는 어김없이 적의 역습이 몰려왔다.",
+    "중공군 역시, 빼앗은 고지를 내주지 않으려 끝까지 버텼다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "monsoon_climb",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0.5,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s97",
+   "lines": [
+    "빼앗고, 빼앗기고, 다시 빼앗는 싸움이 사흘 밤낮으로 이어졌다.",
+    "같은 봉우리의 주인이, 하룻밤 사이에도 몇 번씩 바뀌었다.",
+    "병사들의 군복은, 빗물과 흙으로 같은 색이 되어 있었다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "counterattack",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "mg",
+     "at": 0.6,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s98",
+   "lines": [
+    {
+     "t": "중국 측 기록에도, 국군이 하루에 100차례가 넘는 공격을 퍼부은 날이 있었다고 적혀 있다.",
+     "say": "중국 측 기록에도, 국군이 하루에 백 차례가 넘는 공격을 퍼부은 날이 있었다고 적혀 있다."
+    },
+    "그만큼 이 반격은, 쉬지 않고 몰아친 싸움이었다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "하루 100여 차례",
+    "style": "yellow",
+    "sub": "중국 측 기록 · 국군의 반격 (1953. 7. 19)",
+    "subAt": 0.6
+   }
+  },
+  {
+   "id": "s99",
+   "lines": [
+    "박격포와 기관총이, 고지를 오르는 보병의 머리 위를 엄호했다.",
+    "한 봉우리를 넘으면, 다음 봉우리가 또 기다리고 있었다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s99-photo"
+   },
+   "label": "박격포 진지 (한국전쟁 · 참고 사진)"
+  },
+  {
+   "id": "s100",
+   "lines": [
+    "가장 치열했던 곳은, 중공군에게 넘어간 백암산이었다.",
+    {
+     "t": "정면에서 막힌 5사단 대신, 배속된 6사단 7연대가 북쪽으로 돌아 들어가 정상을 되찾았다.",
+     "say": "정면에서 막힌 오 사단 대신, 배속된 육 사단 칠 연대가 북쪽으로 돌아 들어가 정상을 되찾았다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "ridge",
+    "to": "ridge",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.45,
+        38.285
+       ],
+       [
+        127.5,
+        38.3
+       ],
+       [
+        127.55,
+        38.305
+       ],
+       [
+        127.6,
+        38.31
+       ],
+       [
+        127.645,
+        38.3
+       ],
+       [
+        127.68,
+        38.275
+       ],
+       [
+        127.72,
+        38.29
+       ],
+       [
+        127.77,
+        38.305
+       ],
+       [
+        127.82,
+        38.305
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "baegam",
+      "text": "백암산",
+      "color": "red",
+      "at": 0,
+      "pulse": true
+     },
+     {
+      "k": "lock",
+      "p": "baegam",
+      "at": 0.2,
+      "size": 1.0,
+      "text": "목표 · 백암산"
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.7,
+        38.26
+       ],
+       [
+        127.69,
+        38.278
+       ],
+       [
+        127.68,
+        38.288
+       ]
+      ],
+      "color": "blue",
+      "at": 0.5,
+      "width": 0.9
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.63,
+        38.29
+       ],
+       [
+        127.645,
+        38.315
+       ],
+       [
+        127.67,
+        38.31
+       ],
+       [
+        127.677,
+        38.298
+       ]
+      ],
+      "color": "blue",
+      "at": 1.0,
+      "width": 1.0
+     },
+     {
+      "k": "badge",
+      "p": "r7",
+      "text": "6사단 7연대",
+      "color": "blue",
+      "at": 1.1,
+      "dy": 0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "백암산 탈환 · 6사단 7연대 (5사단 배속)",
+     "style": "blue",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s101",
+   "lines": [
+    {
+     "t": "백암산 일대에서만, 국군 약 570명이 전사하거나 실종되었다.",
+     "say": "백암산 일대에서만, 국군 약 오백칠십 명이 전사하거나 실종되었다."
+    },
+    {
+     "t": "1,179m의 정상은, 그렇게 다시 국군의 손으로 돌아왔다.",
+     "say": "천백칠십구 미터의 정상은, 그렇게 다시 국군의 손으로 돌아왔다."
+    },
+    "그 정상에서 바라본 북쪽 골짜기에는, 아직도 포연이 걷히지 않고 있었다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "약 570명",
+    "style": "red",
+    "sub": "백암산 일대 국군 전사·실종 (한국 측 기록)",
+    "subAt": 0.6
+   }
+  },
+  {
+   "id": "s102",
+   "lines": [
+    "반격 첫날, 붙잡힌 중공군 포로들이 후방으로 끌려 내려오기 시작했다.",
+    "보름 가까운 공세 끝에, 적의 힘도 바닥을 드러내고 있었다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s102-photo"
+   },
+   "label": "붙잡혀 응급 처치와 심문을 받는 중공군 저격병 (1953. 7. 16)"
+  },
+  {
+   "id": "s103",
+   "lines": [
+    {
+     "t": "7월 19일, 국군은 마침내 금성천 남쪽의 고지선에 올라섰다.",
+     "say": "칠월 십구 일, 국군은 마침내 금성천 남쪽의 고지선에 올라섰다."
+    },
+    "적근산에서 백암산을 지나 북한강에 이르는, 새로운 전선이었다.",
+    "보름 전의 돌출부보다는 남쪽이었지만, 무너진 직후보다는 훨씬 북쪽이었다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "ridge",
+    "to": "river",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.45,
+        38.285
+       ],
+       [
+        127.5,
+        38.3
+       ],
+       [
+        127.55,
+        38.305
+       ],
+       [
+        127.6,
+        38.31
+       ],
+       [
+        127.645,
+        38.3
+       ],
+       [
+        127.68,
+        38.275
+       ],
+       [
+        127.72,
+        38.29
+       ],
+       [
+        127.77,
+        38.305
+       ],
+       [
+        127.82,
+        38.305
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.46,
+        38.338
+       ],
+       [
+        127.5,
+        38.352
+       ],
+       [
+        127.55,
+        38.366
+       ],
+       [
+        127.6,
+        38.376
+       ],
+       [
+        127.645,
+        38.374
+       ],
+       [
+        127.69,
+        38.362
+       ],
+       [
+        127.73,
+        38.344
+       ],
+       [
+        127.78,
+        38.332
+       ],
+       [
+        127.83,
+        38.318
+       ]
+      ],
+      "color": "#00E5FF",
+      "glow": false,
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.45,
+        38.3
+       ],
+       [
+        127.5,
+        38.325
+       ],
+       [
+        127.55,
+        38.345
+       ],
+       [
+        127.6,
+        38.36
+       ],
+       [
+        127.64,
+        38.36
+       ],
+       [
+        127.68,
+        38.35
+       ],
+       [
+        127.72,
+        38.328
+       ],
+       [
+        127.77,
+        38.322
+       ],
+       [
+        127.82,
+        38.31
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "color": "blue",
+      "glow": true,
+      "at": 0.3
+     },
+     {
+      "k": "unit",
+      "p": "jeokgeun",
+      "text": "적근산",
+      "color": "blue",
+      "at": 0.8
+     },
+     {
+      "k": "unit",
+      "p": "baegam",
+      "text": "백암산",
+      "color": "blue",
+      "at": 1.0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1953. 7. 19 · 금성천 남쪽 고지선 확보",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s104",
+   "lines": [
+    "국군은 강 건너 옛 진지까지 되찾으려 했다.",
+    {
+     "t": "그러나 불어난 금성천과 적의 거센 저항 앞에서, 7월 20일 이후 반격은 멈춰 섰다.",
+     "say": "그러나 불어난 금성천과 적의 거센 저항 앞에서, 칠월 이십 일 이후 반격은 멈춰 섰다."
+    },
+    "보름의 전투가, 그렇게 금성천을 사이에 두고 멈춰 섰다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "river",
+    "to": "river",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.42,
+        38.29
+       ],
+       [
+        127.47,
+        38.34
+       ],
+       [
+        127.51,
+        38.39
+       ],
+       [
+        127.56,
+        38.425
+       ],
+       [
+        127.62,
+        38.43
+       ],
+       [
+        127.68,
+        38.415
+       ],
+       [
+        127.74,
+        38.38
+       ],
+       [
+        127.8,
+        38.33
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.46,
+        38.338
+       ],
+       [
+        127.5,
+        38.352
+       ],
+       [
+        127.55,
+        38.366
+       ],
+       [
+        127.6,
+        38.376
+       ],
+       [
+        127.645,
+        38.374
+       ],
+       [
+        127.69,
+        38.362
+       ],
+       [
+        127.73,
+        38.344
+       ],
+       [
+        127.78,
+        38.332
+       ],
+       [
+        127.83,
+        38.318
+       ]
+      ],
+      "color": "#00E5FF",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.45,
+        38.3
+       ],
+       [
+        127.5,
+        38.325
+       ],
+       [
+        127.55,
+        38.345
+       ],
+       [
+        127.6,
+        38.36
+       ],
+       [
+        127.64,
+        38.36
+       ],
+       [
+        127.68,
+        38.35
+       ],
+       [
+        127.72,
+        38.328
+       ],
+       [
+        127.77,
+        38.322
+       ],
+       [
+        127.82,
+        38.31
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.6,
+        38.36
+       ],
+       [
+        127.6,
+        38.375
+       ],
+       [
+        127.6,
+        38.39
+       ]
+      ],
+      "color": "blue",
+      "at": 0.3,
+      "width": 0.8
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.68,
+        38.35
+       ],
+       [
+        127.68,
+        38.365
+       ],
+       [
+        127.68,
+        38.38
+       ]
+      ],
+      "color": "blue",
+      "at": 0.5,
+      "width": 0.8
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "7. 20 이후 · 금성천 도하 시도 중단",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s105",
+   "lines": [
+    {
+     "t": "바로 그 7월 19일, 판문점에서는 휴전의 남은 쟁점들이 최종 합의에 이르렀다.",
+     "say": "바로 그 칠월 십구 일, 판문점에서는 휴전의 남은 쟁점들이 최종 합의에 이르렀다."
+    },
+    "전선의 총성과 회담장의 서명이, 같은 날 맞물려 돌아가고 있었다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "1953. 7. 19",
+    "accent": "판문점 최종 합의",
+    "accentAt": 0.6
+   },
+   "sfx": [
+    {
+     "id": "clock",
+     "at": 0,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s106",
+   "lines": [
+    {
+     "t": "남은 마지막 일주일, 국군 제2군단은 금성천 남쪽의 선을 끝까지 지켰다.",
+     "say": "남은 마지막 일주일, 국군 제이 군단은 금성천 남쪽의 선을 끝까지 지켰다."
+    },
+    "크고 작은 공격이 이어졌지만, 그 선은 더 이상 남쪽으로 밀리지 않았다.",
+    "휴전 직전까지, 양측은 고지 하나를 두고 마지막 포탄을 주고받았다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "river_line",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s107",
+   "lines": [
+    "이 반격으로, 화천 발전소로 가는 길목은 끝내 지켜졌다.",
+    "적은 돌출부를 얻었지만, 그 너머로는 단 한 걸음도 더 나아가지 못했다."
+   ],
+   "visual": {
+    "type": "gauges",
+    "big": "반격이 지켜 낸 것",
+    "items": [
+     {
+      "label": "금성천 남쪽 고지선",
+      "at": 0.3
+     },
+     {
+      "label": "적근산·백암산 능선",
+      "at": 0.7
+     },
+     {
+      "label": "화천 수력발전소",
+      "at": 1.1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s108",
+   "lines": [
+    {
+     "t": "1953년 7월 27일 오전 10시, 판문점에서 휴전 협정이 조인되었다.",
+     "say": "천구백오십삼 년 칠월 이십칠 일 오전 열 시, 판문점에서 휴전 협정이 조인되었다."
+    },
+    {
+     "t": "그리고 12시간 뒤인 밤 10시, 전 전선에서 총성이 멎었다.",
+     "say": "그리고 십이 시간 뒤인 밤 열 시, 전 전선에서 총성이 멎었다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s108-photo"
+   },
+   "label": "정전협정 조인 · 판문점 (1953. 7. 27)",
+   "chapter": {
+    "num": "제8막",
+    "title": "1953년 7월 27일, 총성이 멈추다"
+   }
+  },
+  {
+   "id": "s109",
+   "lines": [
+    "유엔군 사령관 클라크 대장도, 이날 문산에서 협정문에 서명했다.",
+    "그는 훗날, 승리 없는 휴전에 서명한 첫 미군 사령관이 되었다고 회고했다.",
+    {
+     "t": "중공군 사령관 펑더화이는, 다음 날인 7월 28일 개성에서 서명했다.",
+     "say": "중공군 사령관 펑더화이는, 다음 날인 칠월 이십팔 일 개성에서 서명했다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s109-photo"
+   },
+   "label": "휴전 협정에 서명하는 유엔군 사령관 클라크 대장 (1953. 7. 27)"
+  },
+  {
+   "id": "s110",
+   "lines": [
+    "휴전선은, 바로 그 순간 양측이 마주 서 있던 선을 따라 그어졌다.",
+    {
+     "t": "서해에서 동해까지, 약 248km에 이르는 군사분계선이었다.",
+     "say": "서해에서 동해까지, 약 이백사십팔 킬로미터에 이르는 군사분계선이었다."
+    },
+    "그리고 그 마지막 조각 가운데 하나가, 바로 금성천 남쪽의 산줄기였다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "central",
+    "to": "korea",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.68,
+        37.77
+       ],
+       [
+        126.95,
+        37.95
+       ],
+       [
+        127.1,
+        38.2
+       ],
+       [
+        127.3,
+        38.27
+       ],
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.45,
+        38.3
+       ],
+       [
+        127.5,
+        38.325
+       ],
+       [
+        127.55,
+        38.345
+       ],
+       [
+        127.6,
+        38.36
+       ],
+       [
+        127.64,
+        38.36
+       ],
+       [
+        127.68,
+        38.35
+       ],
+       [
+        127.72,
+        38.328
+       ],
+       [
+        127.77,
+        38.322
+       ],
+       [
+        127.82,
+        38.31
+       ],
+       [
+        127.86,
+        38.3
+       ],
+       [
+        128.1,
+        38.32
+       ],
+       [
+        128.3,
+        38.45
+       ],
+       [
+        128.37,
+        38.61
+       ]
+      ],
+      "color": "#ffde00",
+      "glow": true,
+      "at": 0.2
+     },
+     {
+      "k": "unit",
+      "p": "panmunjom",
+      "text": "판문점",
+      "color": "dark",
+      "at": 1.0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "군사분계선 약 248km (개략)",
+     "style": "yellow",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s111",
+   "lines": [
+    "금성 돌출부는 끝내 적의 손에 넘어갔다.",
+    {
+     "t": "국군이 잃은 땅은, 약 170㎢에 이르렀다.",
+     "say": "국군이 잃은 땅은, 약 백칠십 제곱킬로미터에 이르렀다."
+    },
+    "중국은 지금도 이 전투를, 자신들의 마지막 승리로 기록하고 있다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "salient",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.42,
+        38.29
+       ],
+       [
+        127.47,
+        38.34
+       ],
+       [
+        127.51,
+        38.39
+       ],
+       [
+        127.56,
+        38.425
+       ],
+       [
+        127.62,
+        38.43
+       ],
+       [
+        127.68,
+        38.415
+       ],
+       [
+        127.74,
+        38.38
+       ],
+       [
+        127.8,
+        38.33
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.45,
+        38.3
+       ],
+       [
+        127.5,
+        38.325
+       ],
+       [
+        127.55,
+        38.345
+       ],
+       [
+        127.6,
+        38.36
+       ],
+       [
+        127.64,
+        38.36
+       ],
+       [
+        127.68,
+        38.35
+       ],
+       [
+        127.72,
+        38.328
+       ],
+       [
+        127.77,
+        38.322
+       ],
+       [
+        127.82,
+        38.31
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "color": "#ffde00",
+      "glow": true,
+      "at": 0.5
+     },
+     {
+      "k": "unit",
+      "p": "kumsong",
+      "text": "금성",
+      "color": "red",
+      "at": 0.8
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "잃은 땅 약 170㎢ (한국어 위키백과 · 중국 측 160여㎢)",
+     "style": "red",
+     "at": 0.6,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s112",
+   "lines": [
+    "하지만 국군이 피로 되찾은 금성천 남쪽의 고지선은, 지금 이 구간의 휴전선이 되었다.",
+    "그 선이 몇 킬로미터만 더 남쪽이었다면, 화천의 지도는 지금과 달랐을지도 모른다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "salient",
+    "to": "south",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.38,
+        38.27
+       ],
+       [
+        127.45,
+        38.3
+       ],
+       [
+        127.5,
+        38.325
+       ],
+       [
+        127.55,
+        38.345
+       ],
+       [
+        127.6,
+        38.36
+       ],
+       [
+        127.64,
+        38.36
+       ],
+       [
+        127.68,
+        38.35
+       ],
+       [
+        127.72,
+        38.328
+       ],
+       [
+        127.77,
+        38.322
+       ],
+       [
+        127.82,
+        38.31
+       ],
+       [
+        127.86,
+        38.3
+       ]
+      ],
+      "color": "#ffde00",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "baegam",
+      "text": "백암산",
+      "color": "blue",
+      "at": 0.3
+     },
+     {
+      "k": "unit",
+      "p": "jeokgeun",
+      "text": "적근산",
+      "color": "blue",
+      "at": 0.4
+     },
+     {
+      "k": "marker",
+      "p": "hwacheon",
+      "color": "dark",
+      "at": 1.0
+     },
+     {
+      "k": "unit",
+      "p": "hwares",
+      "text": "화천저수지",
+      "color": "blue",
+      "at": 1.2
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "금성천 남쪽 선 ≈ 오늘의 군사분계선 (개략)",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s113",
+   "lines": [
+    {
+     "t": "국군의 사상과 실종은 1만 4천여 명.",
+     "say": "국군의 사상과 실종은 만 사천여 명."
+    },
+    {
+     "t": "미8군은 중공군의 사상자를 2만 8천 명 이상으로 추정했고, 한국 측은 6만 명이 넘는다고 집계했다.",
+     "say": "미팔 군은 중공군의 사상자를 이만 팔천 명 이상으로 추정했고, 한국 측은 육만 명이 넘는다고 집계했다."
+    },
+    "그 숫자 하나하나가, 누군가의 아들이었고 아버지였다."
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "국군: 영문 위키백과 집계 · 중공군: 미8군 추정 / 한국 측 추정 (자료마다 차이)",
+    "items": [
+     {
+      "label": "국군 사상·실종",
+      "value": 14373,
+      "display": "약 1만 4천 명",
+      "color": "blue",
+      "at": 0.3
+     },
+     {
+      "label": "중공군 사상 (미8군 추정)",
+      "value": 28000,
+      "display": "2만 8천 명 이상",
+      "color": "red",
+      "at": 1.0
+     },
+     {
+      "label": "중공군 사상 (한국 측 추정)",
+      "value": 66000,
+      "display": "약 6만 6천 명",
+      "color": "red",
+      "at": 1.4
+     }
+    ]
+   }
+  },
+  {
+   "id": "s114",
+   "lines": [
+    "전쟁이 끝나고 십여 년 뒤, 백암산 일대에서 소대장으로 근무하던 한 젊은 장교가 있었다.",
+    "그는 산속에서, 나무 막대 하나만 꽂힌 이름 없는 무덤들을 보게 된다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "wooden_marker",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s115",
+   "lines": [
+    "그 장교, 한명희가 쓴 노랫말이 바로 가곡 비목이다.",
+    "노래 속 그 깊은 계곡이, 바로 이 산줄기였다.",
+    "지금도 많은 이들이 이 노래로, 이름 없이 잠든 병사들을 기억한다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "비목 (碑木)",
+    "style": "dark",
+    "sub": "작사 한명희 · 백암산 일대의 이름 없는 무덤에서",
+    "subAt": 0.6
+   }
+  },
+  {
+   "id": "s116",
+   "lines": [
+    {
+     "t": "2024년 가을, 철원의 한 이름 없는 고지에서 유해 한 구가 발굴되었다.",
+     "say": "이천이십사 년 가을, 철원의 한 이름 없는 고지에서 유해 한 구가 발굴되었다."
+    },
+    {
+     "t": "금성지구 전투에서 스무 살의 나이로 전사한, 6사단 7연대 김순식 하사였다.",
+     "say": "금성지구 전투에서 스무 살의 나이로 전사한, 육 사단 칠 연대 김순식 하사였다."
+    }
+   ],
+   "visual": {
+    "type": "black",
+    "text": "故 김순식 하사",
+    "accent": "6사단 7연대 · 금성지구 전투 전사",
+    "accentAt": 0.6
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s117",
+   "lines": [
+    "그가 전사할 무렵, 고향의 아내는 외아들을 품고 있었다.",
+    {
+     "t": "70여 년이 흘러, 그는 마침내 그 아들의 곁으로 돌아왔다.",
+     "say": "칠십여 년이 흘러, 그는 마침내 그 아들의 곁으로 돌아왔다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "armistice_quiet",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s118",
+   "lines": [
+    "오늘도 화천과 철원의 산줄기 위로, 그날의 휴전선이 지나간다.",
+    "그 선은 지도 위에 그은 선이 아니라, 수많은 이름 위에 그어진 선이다.",
+    "그리고 그 산줄기 아래에는, 아직 집으로 돌아오지 못한 이들이 잠들어 있다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "dmz_dawn",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "birds",
+     "at": 0,
+     "volume": 0.25
+    }
+   ]
+  },
+  {
+   "id": "s119",
+   "lines": [
+    {
+     "t": "휴전 14일 전, 24만 대군의 마지막 총공세.",
+     "say": "휴전 십사 일 전, 이십사만 대군의 마지막 총공세."
+    },
+    "그 앞에서 끝내 무너지지 않은 선이, 오늘의 휴전선이다."
+   ],
+   "visual": {
+    "type": "quotes",
+    "title": "금성 전투가 남긴 것",
+    "items": [
+     {
+      "text": "휴전 14일 전의 대공세",
+      "at": 0
+     },
+     {
+      "text": "피로 그어낸 마지막 선",
+      "at": 1
+     }
+    ]
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s120",
+   "lines": [
+    "이 기록이 의미 있으셨다면, 구독과 좋아요, 그리고 공유로 함께해 주십시오.",
+    "잊혀 가는 호국의 기록을, 다음 편에서도 이어 가겠습니다."
+   ],
+   "visual": {
+    "type": "endcard",
+    "title": "1953년 7월, 금성.\n피로 그어낸 휴전선의 마지막 조각.",
+    "q": "s120-photo"
+   },
+   "tail": 3.0
+  }
+ ]
+}

@@ -286,6 +286,80 @@ export const MapView: React.FC<{ tl: Timeline }> = ({ tl }) => {
           <circle r={12 * sz} fill="#ff6a00" opacity={0.9} />
         </g>
       );
+    } else if (it.k === "radar") {
+      // EP17 금성: 전술 HUD — 포병 발사 원점 레이더 스윕 (Lottie hud_radar_sweep 대체, SVG 네이티브)
+      const [x, y] = P(resolveP(tl, it.p));
+      const R = 150 * (it.size || 1);
+      const s = popIn(since / 0.4);
+      const ang = ((since * (it.speed || 140)) % 360) * (Math.PI / 180);
+      const c = colorOf(it.color || "red");
+      const wedge = (a0: number, a1: number) =>
+        `M0,0 L${Math.cos(a0) * R},${Math.sin(a0) * R} A${R},${R} 0 0 1 ${Math.cos(a1) * R},${Math.sin(a1) * R} Z`;
+      svgItems.push(
+        <g key={i} transform={`translate(${x},${y}) scale(${s})`} opacity={0.95}>
+          <circle r={R} fill="rgba(10,0,0,.35)" stroke={c} strokeWidth={3} />
+          <circle r={R * 0.66} fill="none" stroke={c} strokeOpacity={0.6} strokeWidth={2} strokeDasharray="6 6" />
+          <circle r={R * 0.33} fill="none" stroke={c} strokeOpacity={0.6} strokeWidth={2} strokeDasharray="6 6" />
+          <line x1={-R} y1={0} x2={R} y2={0} stroke={c} strokeOpacity={0.45} strokeWidth={1.5} />
+          <line x1={0} y1={-R} x2={0} y2={R} stroke={c} strokeOpacity={0.45} strokeWidth={1.5} />
+          {[0.5, 0.32, 0.18].map((k, j) => (
+            <path key={j} d={wedge(ang - k, ang)} fill={c} opacity={0.18 + j * 0.12} />
+          ))}
+          <line x1={0} y1={0} x2={Math.cos(ang) * R} y2={Math.sin(ang) * R} stroke="#fff" strokeWidth={4} />
+          {[0.7, 2.1, 3.6, 5.0].map((a, j) => {
+            const blip = Math.max(0, 1 - (((ang - a) % (Math.PI * 2)) + Math.PI * 2) % (Math.PI * 2) / 2.2);
+            const rr = R * (0.35 + 0.15 * j);
+            return <circle key={"b" + j} cx={Math.cos(a) * rr} cy={Math.sin(a) * rr} r={9} fill="#fff" opacity={blip} />;
+          })}
+        </g>
+      );
+      if (it.text) html.push(<Pill key={"h" + i} x={x} y={y + R * s + 34} text={it.text} bg={c} s={s} anchor="center" size={30} />);
+    } else if (it.k === "shock") {
+      // EP17 금성: 연속 탄착 충격파 (Lottie hud_shockwave 대체) — 여러 점에서 엇갈려 반복
+      const pts: LonLat[] = (it.pts || [it.p]).map((p: any) => resolveP(tl, p));
+      const per = it.period || 0.9;
+      const sz = it.size || 1;
+      pts.forEach((pp, j) => {
+        const [x, y] = P(pp);
+        const ph = (((since + j * 0.37) % per) + per) % per / per;
+        const fl = Math.max(0, 1 - ph * 4);
+        svgItems.push(
+          <g key={`${i}-${j}`} transform={`translate(${x},${y})`}>
+            <circle r={(10 + ph * 95) * sz} fill="none" stroke="#ff3b1f" strokeWidth={8 * (1 - ph) + 1} opacity={0.9 * (1 - ph)} />
+            <circle r={(6 + ph * 55) * sz} fill="none" stroke="#ffd27a" strokeWidth={3} opacity={0.8 * (1 - ph)} />
+            <circle r={(14 + 22 * fl) * sz} fill="#fff1c0" opacity={0.15 + 0.85 * fl} />
+            <circle r={7 * sz} fill="#ff5a00" opacity={0.85} />
+          </g>
+        );
+      });
+    } else if (it.k === "lock") {
+      // EP17 금성: 타깃 락온 HUD (Lottie hud_target_lock 대체) — 모서리 브래킷이 조여들고 점멸
+      const [x, y] = P(resolveP(tl, it.p));
+      const k = easeOut(since / 0.6);
+      const S0 = (it.size || 1) * (150 - 80 * k);
+      const L = S0 * 0.45;
+      const blink = k >= 1 ? (Math.floor(since * 4) % 2 === 0 ? 1 : 0.45) : 1;
+      const c = colorOf(it.color || "#ffde00");
+      const br = (sx: number, sy: number) => `M${sx * S0},${sy * (S0 - L)} L${sx * S0},${sy * S0} L${sx * (S0 - L)},${sy * S0}`;
+      svgItems.push(
+        <g key={i} transform={`translate(${x},${y})`} opacity={clamp(since * 5) * blink} filter="url(#tacticalShadow)">
+          {[
+            [-1, -1],
+            [1, -1],
+            [1, 1],
+            [-1, 1],
+          ].map(([sx, sy], j) => (
+            <path key={j} d={br(sx, sy)} stroke={c} strokeWidth={8} fill="none" strokeLinecap="square" />
+          ))}
+          <circle r={S0 * 0.28} fill="none" stroke={c} strokeWidth={3} />
+          <line x1={-S0 * 0.5} y1={0} x2={-S0 * 0.12} y2={0} stroke={c} strokeWidth={3} />
+          <line x1={S0 * 0.12} y1={0} x2={S0 * 0.5} y2={0} stroke={c} strokeWidth={3} />
+          <line x1={0} y1={-S0 * 0.5} x2={0} y2={-S0 * 0.12} stroke={c} strokeWidth={3} />
+          <line x1={0} y1={S0 * 0.12} x2={0} y2={S0 * 0.5} stroke={c} strokeWidth={3} />
+          <circle r={6} fill={c} />
+        </g>
+      );
+      if (it.text && k >= 1) html.push(<Pill key={"h" + i} x={x} y={y - S0 - 36} text={it.text} bg="#111" s={1} anchor="center" size={30} />);
     } else if (it.k === "badge") {
       const [x, y] = P(resolveP(tl, it.p));
       const s = popIn(since / 0.35);

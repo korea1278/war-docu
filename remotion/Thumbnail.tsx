@@ -18,7 +18,7 @@ import { FRONT, FrontThumb, NAKTONG_FRONT } from "./FrontThumb";
  *   에피소드는 COLLAGE 표에 한 줄 → 한국어 A안이 이 디자인으로 렌더 (FRONT·MAPT보다 우선)
  * ===================================================================================== */
 type CLL = [number, number];
-type FlagKind = "kr" | "nk" | "marine";
+type FlagKind = "kr" | "nk" | "marine" | "cn";
 export type CollageDef = {
   quote: string;
   person: { src: string; h: number; w: number; pos?: string; filter?: string };
@@ -89,6 +89,31 @@ export const COLLAGE: Record<string, CollageDef> = {
     line1: "미 해병대도 피 흘리며 후퇴했는데",
     line2: "한국 해병은 ‘바위산’을 어떻게 뚫었을까?",
   },
+  // EP17 금성 전투 (1953) — 휴전 직전 최후의 결전 (ep17-kumsong)
+  "ep17-kumsong": {
+    quote: "휴전 서명 14일 전, 24만 대군이 쏟아졌다",
+    person: { src: "ep/ep17-kumsong/ai/thumb_subject.png", h: 690, w: 560, pos: "50% 0%" },
+    bubble: { text: "휴전 전에 땅 한 뼘이라도\n더 파고들어라!", x: 560, y: 110, tail: [372, 300], size: 42 },
+    stamp: { text: "총공세", x: 450, y: 560, rot: -15 },
+    map: {
+      rasters: ["korea", "kumsong", "kumsong_zoom"],
+      view: { center: [127.357, 38.304], span: 1.1 },
+      outline: true,
+      // 붉은 영역 = 빼앗긴 금성 돌출부 (7. 13 이전 전선 ~ 금성천 남쪽 휴전선 사이, 약 170㎢)
+      red: [[127.38, 38.27], [127.42, 38.29], [127.47, 38.34], [127.51, 38.39], [127.56, 38.425], [127.62, 38.43], [127.68, 38.415], [127.74, 38.38], [127.8, 38.33], [127.86, 38.3],
+            [127.82, 38.31], [127.77, 38.322], [127.72, 38.328], [127.68, 38.35], [127.64, 38.36], [127.6, 38.36], [127.55, 38.345], [127.5, 38.325], [127.45, 38.3]],
+      blue: [[127.38, 38.27], [127.45, 38.3], [127.5, 38.325], [127.55, 38.345], [127.6, 38.36], [127.64, 38.36], [127.68, 38.35], [127.72, 38.328], [127.77, 38.322], [127.82, 38.31], [127.86, 38.3]],
+      arrows: [
+        [[127.47, 38.545], [127.495, 38.47], [127.515, 38.395]],
+        [[127.62, 38.56], [127.62, 38.49], [127.62, 38.415]],
+        [[127.77, 38.535], [127.745, 38.46], [127.72, 38.385]],
+      ],
+      arrowW: 36,
+      flags: [{ kind: "cn", at: [127.79, 38.45], h: 110, rot: -4 }],
+    },
+    line1: "휴전 14일 전 24만 대군이 몰려왔는데",
+    line2: "최후의 ‘금성 돌출부’는 어떻게 지켰을까?",
+  },
 };
 
 const CW = 1920;
@@ -141,6 +166,28 @@ const FlagKR: React.FC<{ w: number }> = ({ w }) => {
       {tri([B, S, B], p2[0], p2[1], 90 - ang, "gam")}
       {tri([S, B, S], p3[0], p3[1], 90 - ang, "ri")}
       {tri([B, B, B], p4[0], p4[1], 90 + ang, "gon")}
+    </svg>
+  );
+};
+
+/** 중공군(중국) 깃발 (3:2) — 붉은 바탕 + 노란 큰 별 1 + 작은 별 4 (EP17 금성) */
+const FlagCN: React.FC<{ w: number }> = ({ w }) => {
+  const h = (w * 2) / 3;
+  const u = w / 30;
+  const star = (cx: number, cy: number, r: number, rot = 0) =>
+    Array.from({ length: 10 }, (_, i) => {
+      const a = -Math.PI / 2 + rot + (i * Math.PI) / 5;
+      const rr = i % 2 ? r * 0.382 : r;
+      return `${(cx + Math.cos(a) * rr).toFixed(1)},${(cy + Math.sin(a) * rr).toFixed(1)}`;
+    }).join(" ");
+  const small: [number, number][] = [[10, 2], [12, 4], [12, 7], [10, 9]];
+  return (
+    <svg width={w} height={h} viewBox={`0 0 ${w} ${h}`}>
+      <rect width={w} height={h} fill="#DE2910" />
+      <polygon points={star(5 * u, 5 * u, 3 * u)} fill="#FFDE00" />
+      {small.map(([x, y], i) => (
+        <polygon key={i} points={star(x * u, y * u, u, Math.atan2(5 - y, 5 - x) + Math.PI / 2)} fill="#FFDE00" />
+      ))}
     </svg>
   );
 };
@@ -205,7 +252,7 @@ const FlagMarine: React.FC<{ w: number }> = ({ w }) => {
 const BigFlag: React.FC<{ kind: FlagKind; x: number; y: number; h: number; rot?: number }> = ({ kind, x, y, h, rot = 0 }) => {
   const fw = kind === "nk" ? h * 2 : h * 1.5;
   const pole = h * 1.6;
-  const inner = kind === "kr" ? <FlagKR w={fw} /> : kind === "nk" ? <FlagNK w={fw} /> : <FlagMarine w={fw} />;
+  const inner = kind === "kr" ? <FlagKR w={fw} /> : kind === "nk" ? <FlagNK w={fw} /> : kind === "cn" ? <FlagCN w={fw} /> : <FlagMarine w={fw} />;
   return (
     <div style={{ position: "absolute", left: x, top: y - pole, width: fw + 20, height: pole, transform: `rotate(${rot}deg)`, transformOrigin: "0 100%", filter: "drop-shadow(0 14px 18px rgba(0,0,0,.85))" }}>
       {/* 깃대 */}
@@ -392,7 +439,7 @@ export const CollageThumb: React.FC<{ d: CollageDef }> = ({ d }) => {
         <svg width={1} height={1} style={{ position: "absolute", overflow: "visible", left: 0, top: 0 }}>
           <polygon points={`40,${bs * 1.1} 110,${bs * 1.1} ${bub.tail[0] - bub.x},${bub.tail[1] - bub.y}`} fill="#fff" stroke="#000" strokeWidth={6} strokeLinejoin="round" />
         </svg>
-        <div style={{ position: "relative", background: "#fff", border: "6px solid #000", borderRadius: 40, padding: "16px 34px 14px", fontFamily: PRET, fontWeight: 900, fontSize: bs, lineHeight: 1.15, color: "#000", whiteSpace: "nowrap", letterSpacing: "-0.03em", boxShadow: "0 10px 0 #000, 0 16px 26px rgba(0,0,0,.7)" }}>
+        <div style={{ position: "relative", background: "#fff", border: "6px solid #000", borderRadius: 40, padding: "16px 34px 14px", fontFamily: PRET, fontWeight: 900, fontSize: bs, lineHeight: 1.15, color: "#000", whiteSpace: "pre", letterSpacing: "-0.03em", boxShadow: "0 10px 0 #000, 0 16px 26px rgba(0,0,0,.7)" }}>
           {bub.text}
         </div>
       </div>
