@@ -81,12 +81,12 @@
   ],
   "rok2": [
    126.42,
-   39.9,
+   39.7,
    "국군 제2군단"
   ],
   "id2": [
    125.95,
-   39.78,
+   39.7,
    "미 제2사단"
   ],
   "turk": [
@@ -151,24 +151,24 @@
   },
   "kunuri": {
    "center": [
-    125.9,
-    39.6
+    125.92,
+    39.585
    ],
-   "span": 0.62
+   "span": 1.0
   },
   "routes": {
    "center": [
-    125.8,
-    39.58
+    125.82,
+    39.575
    ],
-   "span": 0.75
+   "span": 1.0
   },
   "gauntlet": {
    "center": [
     125.92,
     39.6
    ],
-   "span": 0.3
+   "span": 0.34
   },
   "pass": {
    "center": [
@@ -183,6 +183,13 @@
     38.75
    ],
    "span": 3.2
+  },
+  "north1": {
+   "center": [
+    126.05,
+    40.05
+   ],
+   "span": 2.0
   }
  },
  "music": [
@@ -255,7 +262,7 @@
   "turk_stand": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Turkish soldiers whose heads are round balls painted as the Turkish flag (red with a white crescent and star), wearing 1950 American-style M1 helmets and olive drab winter coats holding a snowy ridge above a narrow road at dusk, firing rifles and a machine gun at advancing enemy troops, a Turkish flag on a short pole beside their foxhole, a column of American army trucks moving on the road below, determined, cinematic, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "engineers": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: US Army combat engineers whose heads are round balls painted as the United States flag, wearing 1950 M1 helmets and olive winter parkas, shovels and engineer tools set aside, manning rifles and a machine gun in shallow snowy foxholes at the edge of a small ruined North Korean village at night, enemy flares, tense, cinematic, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "colors_burn": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American soldiers whose heads are round balls painted as the United States flag, wearing 1950 M1 helmets and olive drab winter parkas solemnly standing around a small fire at night in a snowy ruined village, a folded military unit flag burning in the flames, glowing embers, distant gunfire flashes on the dark hills, grim and sorrowful, cinematic close shot, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "rangel_walk": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a young wounded African-American US Army soldier whose head is a round ball painted as the United States flag, wearing a 1950 M1 helmet and olive winter parka, his arm bandaged, leading a small group of weary soldiers on foot across snowy hills at grey dawn, the burning gorge far behind them, hopeful and determined, cinematic wide shot, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters."
+  "rangel_walk": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a young wounded African-American US Army soldier whose head is a round ball painted as the United States flag, wearing a 1950 M1 helmet and olive winter parka, his arm bandaged, leading a small group of weary American soldiers (all with United States flag ball heads, no other nations) on foot across snowy hills at grey dawn, the burning gorge far behind them, hopeful and determined, cinematic wide shot, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters."
  },
  "thumb_photo": "File:Laurence B. Keiser - Official Portrait.jpg",
  "scenes": [
@@ -792,8 +799,8 @@
    ],
    "visual": {
     "type": "map",
-    "from": "front",
-    "to": "front",
+    "from": "north1",
+    "to": "north1",
     "items": [
      {
       "k": "clash",
@@ -1483,15 +1490,15 @@
     "big": "열려 버린 옆구리",
     "items": [
      {
-      "label": "덕천 방면 우익 붕괴",
+      "label": "우익 붕괴",
       "at": 0.2
      },
      {
-      "label": "중공군 남서쪽 돌파",
+      "label": "남서쪽 돌파",
       "at": 0.7
      },
      {
-      "label": "제8군 퇴로 위협",
+      "label": "퇴로 위협",
       "at": 1.2
      }
     ]
@@ -2009,15 +2016,15 @@
       "path": [
        [
         126.15,
-        39.82
+        39.76
        ],
        [
-        126.05,
-        39.79
+        126.06,
+        39.73
        ],
        [
-        125.98,
-        39.77
+        125.99,
+        39.71
        ]
       ],
       "color": "red",
@@ -2051,7 +2058,7 @@
      "text": "1950. 11. 28 ~ 29 · 군우리 북쪽·동쪽 (개략)",
      "style": "yellow",
      "at": 0,
-     "pos": "top"
+     "pos": "lower"
     }
    ]
   },
@@ -3712,15 +3719,15 @@
     "big": "협곡의 함정",
     "items": [
      {
-      "label": "양쪽 고지를 먼저 차지한 적",
+      "label": "고지 선점",
       "at": 0.2
      },
      {
-      "label": "한 줄로 늘어선 차량 행렬",
+      "label": "한 줄 행렬",
       "at": 0.6
      },
      {
-      "label": "비켜 갈 우회로 없음",
+      "label": "우회로 없음",
       "at": 1.0
      }
     ]
@@ -4429,7 +4436,7 @@
      "text": "철수로의 터키군 (개략)",
      "style": "blue",
      "at": 0,
-     "pos": "top"
+     "pos": "lower"
     }
    ]
   },
@@ -4515,8 +4522,8 @@
      {
       "k": "unit",
       "p": [
-       125.86,
-       39.7
+       125.79,
+       39.685
       ],
       "text": "제23연대",
       "color": "blue",
@@ -4549,7 +4556,7 @@
      "text": "1950. 11. 30 · 군우리 후위 (개략)",
      "style": "yellow",
      "at": 0,
-     "pos": "top"
+     "pos": "lower"
     }
    ]
   },
@@ -5243,15 +5250,15 @@
     "big": "군우리가 남긴 교훈",
     "items": [
      {
-      "label": "적을 얕잡아 본 정보",
+      "label": "정보 실패",
       "at": 0.2
      },
      {
-      "label": "단 하나뿐인 퇴로",
+      "label": "유일한 퇴로",
       "at": 0.7
      },
      {
-      "label": "고지를 먼저 잡지 못한 철수",
+      "label": "고지 미확보",
       "at": 1.2
      }
     ]

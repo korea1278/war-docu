@@ -36,6 +36,7 @@ export type CollageDef = {
   };
   line1: string;
   line2: string;
+  sizes?: [number, number]; // EP18: Line1·Line2 기준 크기 비율 (기본 96:114) — 공통 배율로 화면 폭 95%에 맞춤
 };
 
 const NAK_ENEMY_CLOSE: CLL[] = [[128.3, 34.0], [125.0, 34.0], [124.0, 39.5], [124.0, 44.0], [131.5, 44.0], [129.42, 38.2], [129.42, 36.42]];
@@ -113,6 +114,31 @@ export const COLLAGE: Record<string, CollageDef> = {
     },
     line1: "휴전 14일 전 24만 대군이 몰려왔는데",
     line2: "최후의 ‘금성 돌출부’는 어떻게 지켰을까?",
+  },
+  // EP18 군우리 전투 & 청천강 철수전 (1950) — 인디언 태형 협곡 (ep18-kunuri) · 사용자 지시서: Line 1 92px / Line 2 112px, 스탬프 15도
+  "ep18-kunuri": {
+    quote: "10km 외통수 협곡, 위에서 쏟아지는 불지옥을 뚫어라",
+    person: { src: "ep/ep18-kunuri/ai/thumb_subject.png", h: 690, w: 560, pos: "50% 0%" },
+    bubble: { text: "길이 막혔어도 뒤는 없다,\n무조건 뚫어라!", x: 560, y: 120, tail: [330, 330], size: 42 },
+    stamp: { text: "결사", x: 450, y: 560, rot: -15 },
+    map: {
+      rasters: ["chongchon", "kunuri", "gauntlet_zoom"],
+      view: { center: [125.82, 39.561], span: 0.4 },
+      outline: true,
+      // 붉은 영역 = 양쪽 능선 매복 화망(킬존) — 군우리–순천 도로 약 10km 구간 양옆 (개략)
+      red: [[125.874, 39.645], [125.9, 39.648], [125.93, 39.645], [125.955, 39.64], [125.965, 39.6], [125.968, 39.565], [125.955, 39.548], [125.93, 39.545], [125.905, 39.55], [125.89, 39.568], [125.878, 39.6]],
+      blue: [[125.889, 39.707], [125.897, 39.68], [125.906, 39.655], [125.914, 39.63], [125.921, 39.605], [125.927, 39.58], [125.932, 39.558], [125.935, 39.53], [125.936, 39.49]],
+      arrows: [
+        [[125.903, 39.672], [125.91, 39.648], [125.917, 39.622]],
+        [[125.919, 39.615], [125.925, 39.59], [125.93, 39.566]],
+        [[125.931, 39.56], [125.934, 39.537], [125.936, 39.512]],
+      ],
+      arrowW: 34,
+      flags: [{ kind: "cn", at: [125.968, 39.615], h: 100, rot: -4 }],
+    },
+    line1: "10km 죽음의 협곡에 갇혔는데",
+    line2: "‘인디언 태형’을 어떻게 뚫고 살았을까?",
+    sizes: [92, 112],
   },
 };
 
@@ -367,9 +393,10 @@ export const CollageThumb: React.FC<{ d: CollageDef }> = ({ d }) => {
   const SW = 8;
   const width = (mm: number, text: string, size: number) => mm * size + LS * ([...text].length - 1) + SW;
   let k = 1;
-  if (m1 && m2) k = Math.min((CW * 0.95) / width(m1, d.line1, 96), (CW * 0.95) / width(m2, d.line2, 114), 1.6);
-  const s1 = Math.floor(96 * k);
-  const s2 = Math.floor(114 * k);
+  const [b1, b2] = d.sizes ?? [96, 114];
+  if (m1 && m2) k = Math.min((CW * 0.95) / width(m1, d.line1, b1), (CW * 0.95) / width(m2, d.line2, b2), 1.6);
+  const s1 = Math.floor(b1 * k);
+  const s2 = Math.floor(b2 * k);
   const MONSTER_STYLE: React.CSSProperties = {
     fontFamily: MONSTER, fontWeight: 400, lineHeight: 1.02, letterSpacing: LS, whiteSpace: "nowrap", textAlign: "center",
     WebkitTextStroke: `${SW}px #000000`, paintOrder: "stroke fill",
