@@ -146,8 +146,8 @@ export const COLLAGE: Record<string, CollageDef> = {
   // EP19 저격능선 & 삼각고지 (1952) — 쇼다운 작전 (ep19-sniper-ridge) · 사용자 지시서: 짧은 말풍선 꼬리 · Line 1 108px / Line 2 112px · 하단 딤 압축
   "ep19-sniper-ridge": {
     quote: "고지 형태가 통째로 바뀌었다, 28만 발 포탄의 지옥",
-    person: { src: "ep/ep19-sniper-ridge/ai/thumb_subject.png", h: 690, w: 560, pos: "50% 0%" },
-    bubble: { text: "수류탄을 던지며 전진하라,\n한 치도 물러설 수 없다!", x: 520, y: 110, tail: [0, 0], size: 42, tailStyle: "short" },
+    person: { src: "ep/ep19-sniper-ridge/ai/thumb_cut.png", h: 690, w: 600, pos: "45% 0%" },
+    bubble: { text: "수류탄을 던지며 전진하라,\n한 치도 물러설 수 없다!", x: 600, y: 110, tail: [0, 0], size: 42, tailStyle: "short" },
     stamp: { text: "사수", x: 450, y: 560, rot: -15 },
     map: {
       rasters: ["kumsong", "kumsong_zoom"],
