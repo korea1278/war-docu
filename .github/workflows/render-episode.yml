@@ -77,11 +77,11 @@ jobs:
           fi
           npx remotion still out/bundle Thumbnail thumbnails/${EP}_en_A.png --props="{\"ep\":\"$EP\",\"variant\":\"A\",\"lang\":\"en\"}" --log=error
           # EP16~: MAPT에 카피 시안(alts)이 있으면 A2·A3도 렌더 (같은 배경·인물, 문구만 교체)
-          if grep -q "ALTS:${EP}\b" remotion/MapThumb.tsx; then
-            for V in A2 A3; do
-              npx remotion still out/bundle Thumbnail thumbnails/${EP}_ko_${V}.png --props="{\"ep\":\"$EP\",\"variant\":\"$V\",\"lang\":\"ko\"}" --log=error
-            done
-          fi
+          ALTV=""
+          if grep -q "ALTS:${EP}\b" remotion/MapThumb.tsx; then ALTV="A2 A3"; elif grep -q "ALTS:${EP}\b" remotion/Thumbnail.tsx; then ALTV="A2"; fi  # EP19~: COLLAGE alt → A2만
+          for V in $ALTV; do
+            npx remotion still out/bundle Thumbnail thumbnails/${EP}_ko_${V}.png --props="{\"ep\":\"$EP\",\"variant\":\"$V\",\"lang\":\"ko\"}" --log=error
+          done
           # 유튜브 썸네일 한도 2MB: 1.9MB 넘는 PNG는 업로드용 JPG를 함께 만든다
           python3 -c "import glob,os; from PIL import Image; [Image.open(p).convert('RGB').save(p[:-4]+'.jpg', quality=90, optimize=True) for p in glob.glob('thumbnails/${EP}_*_A*.png') if os.path.getsize(p) > 1900000]"
           git config user.name "war-docu-bot" && git config user.email "actions@users.noreply.github.com"
@@ -178,6 +178,16 @@ jobs:
         run: |
           npx remotion browser ensure
           cd pipeline && python check_subs.py $EP ../out/bundle
+
+      # EP19~ 사용자 지시: 마지막 단어 발음 시점과 자막 종료 시간 오차 ±1.0초 이내 (자막이 몇 초씩 남아 도는 현상 방지)
+      - name: 음성–자막 싱크 검사
+        if: inputs.mode != 'thumb'
+        run: |
+          if ! (cd pipeline && python check_sync.py $EP); then
+            git config user.name "war-docu-bot"; git config user.email "actions@users.noreply.github.com"
+            git add logs && git commit -qm "싱크 검사 실패: $EP" && git pull --rebase -X theirs -q && git push -q || true
+            exit 1
+          fi
 
       - name: 최종 렌더링 (MP4)
         if: inputs.mode == 'full'

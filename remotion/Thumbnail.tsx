@@ -22,7 +22,8 @@ type FlagKind = "kr" | "nk" | "marine" | "cn";
 export type CollageDef = {
   quote: string;
   person: { src: string; h: number; w: number; pos?: string; filter?: string };
-  bubble: { text: string; x: number; y: number; tail: [number, number]; size?: number };
+  // tailStyle "short" (EP19 피드백): 얼굴·목을 가로지르는 긴 꼬리 대신 말풍선 좌측 하단에 15~20px 짧은 삼각 꼬리만 (뺨·귀 옆 여백 방향). tail 좌표는 무시
+  bubble: { text: string; x: number; y: number; tail: [number, number]; size?: number; tailStyle?: "long" | "short" };
   stamp: { text: string; x: number; y: number; rot?: number; size?: number };
   map: {
     rasters: string[];
@@ -37,6 +38,8 @@ export type CollageDef = {
   line1: string;
   line2: string;
   sizes?: [number, number]; // EP18: Line1·Line2 기준 크기 비율 (기본 96:114) — 공통 배율로 화면 폭 95%에 맞춤
+  alt?: { quote?: string; line1?: string; line2?: string }; // EP19: 카피 시안 A2 (같은 배경·인물, 문구만 교체 — 사료 확인 수치 버전)
+  dim?: string; // EP19: 하단 블랙 딤 그라데이션 덮어쓰기 (높이 압축 — 지형·인물 어깨선이 Line 1 바로 위까지 비치게)
 };
 
 const NAK_ENEMY_CLOSE: CLL[] = [[128.3, 34.0], [125.0, 34.0], [124.0, 39.5], [124.0, 44.0], [131.5, 44.0], [129.42, 38.2], [129.42, 36.42]];
@@ -139,6 +142,34 @@ export const COLLAGE: Record<string, CollageDef> = {
     line1: "10km 죽음의 협곡에 갇혔는데",
     line2: "‘인디언 태형’을 어떻게 뚫고 살았을까?",
     sizes: [92, 112],
+  },
+  // EP19 저격능선 & 삼각고지 (1952) — 쇼다운 작전 (ep19-sniper-ridge) · 사용자 지시서: 짧은 말풍선 꼬리 · Line 1 108px / Line 2 112px · 하단 딤 압축
+  "ep19-sniper-ridge": {
+    quote: "고지 형태가 통째로 바뀌었다, 28만 발 포탄의 지옥",
+    person: { src: "ep/ep19-sniper-ridge/ai/thumb_subject.png", h: 690, w: 560, pos: "50% 0%" },
+    bubble: { text: "수류탄을 던지며 전진하라,\n한 치도 물러설 수 없다!", x: 520, y: 110, tail: [0, 0], size: 42, tailStyle: "short" },
+    stamp: { text: "사수", x: 450, y: 560, rot: -15 },
+    map: {
+      rasters: ["kumsong", "kumsong_zoom"],
+      view: { center: [127.434, 38.3158], span: 0.2 },
+      outline: true,
+      // 붉은 영역 = 중공군 고지 거점 (삼각고지·저격능선 북쪽 오성산 기슭, 아군 주저항선 북쪽 — 개략)
+      red: [[127.4069, 38.3121], [127.433, 38.3142], [127.459, 38.3166], [127.485, 38.3184], [127.5111, 38.3187], [127.5371, 38.3178], [127.5371, 38.3607], [127.4225, 38.3607]],
+      blue: [[127.4048, 38.3101], [127.433, 38.3121], [127.459, 38.3146], [127.485, 38.3164], [127.5111, 38.3166], [127.5371, 38.3158]],
+      arrows: [
+        [[127.4528, 38.297], [127.4611, 38.3174], [127.4725, 38.3354]],
+        [[127.4861, 38.2954], [127.4861, 38.3158], [127.4861, 38.3395]],
+        [[127.5194, 38.2978], [127.5111, 38.3174], [127.5007, 38.3362]],
+      ],
+      arrowW: 40,
+      flags: [{ kind: "cn", at: [127.5132, 38.3424], h: 96, rot: -4 }],
+    },
+    line1: "43일간 포탄 28만 발이 갈아버렸는데",
+    line2: "‘저격능선’을 어떻게 끝까지 지켜냈을까?",
+    sizes: [108, 112],
+    // ALTS:ep19-sniper-ridge — A2: 사료로 확인되는 수치(중국 측 기록 포탄 190만여 발)로 바꾼 시안
+    alt: { quote: "고지 형태가 통째로 바뀌었다, 190만 발 포탄의 지옥", line1: "43일간 포탄 190만 발이 갈아버렸는데" },
+    dim: "linear-gradient(to top, #000000 0%, #000000 38%, rgba(0, 0, 0, 0.85) 55%, rgba(0, 0, 0, 0.4) 70%, transparent 100%)",
   },
 };
 
@@ -449,7 +480,7 @@ export const CollageThumb: React.FC<{ d: CollageDef }> = ({ d }) => {
       ))}
 
       {/* ── 하단 45% 칠흑 블랙 딤 ── */}
-      <div style={{ position: "absolute", left: 0, right: 0, bottom: 0, height: CH * 0.45, background: "linear-gradient(to top, #000000 0%, #000000 65%, rgba(0,0,0,0.9) 85%, transparent 100%)" }} />
+      <div style={{ position: "absolute", left: 0, right: 0, bottom: 0, height: CH * 0.45, background: d.dim ?? "linear-gradient(to top, #000000 0%, #000000 65%, rgba(0,0,0,0.9) 85%, transparent 100%)" }} />
 
       {/* ── 중단 좌측: 핵심 인물 고대비 흑백 누끼 ── */}
       <Img
@@ -463,11 +494,20 @@ export const CollageThumb: React.FC<{ d: CollageDef }> = ({ d }) => {
       />
       {/* 감정 말풍선 */}
       <div style={{ position: "absolute", left: bub.x, top: bub.y, zIndex: 3 }}>
-        <svg width={1} height={1} style={{ position: "absolute", overflow: "visible", left: 0, top: 0 }}>
-          <polygon points={`40,${bs * 1.1} 110,${bs * 1.1} ${bub.tail[0] - bub.x},${bub.tail[1] - bub.y}`} fill="#fff" stroke="#000" strokeWidth={6} strokeLinejoin="round" />
-        </svg>
+        {bub.tailStyle !== "short" && (
+          <svg width={1} height={1} style={{ position: "absolute", overflow: "visible", left: 0, top: 0 }}>
+            <polygon points={`40,${bs * 1.1} 110,${bs * 1.1} ${bub.tail[0] - bub.x},${bub.tail[1] - bub.y}`} fill="#fff" stroke="#000" strokeWidth={6} strokeLinejoin="round" />
+          </svg>
+        )}
         <div style={{ position: "relative", background: "#fff", border: "6px solid #000", borderRadius: 40, padding: "16px 34px 14px", fontFamily: PRET, fontWeight: 900, fontSize: bs, lineHeight: 1.15, color: "#000", whiteSpace: "pre", letterSpacing: "-0.03em", boxShadow: "0 10px 0 #000, 0 16px 26px rgba(0,0,0,.7)" }}>
           {bub.text}
+          {bub.tailStyle === "short" && (
+            // 좌측 하단 짧은 삼각 꼬리 (약 18px 돌출, 왼쪽 아래 = 뺨·귀 옆 여백 방향). 흰 띠로 말풍선 테두리와 이음새를 지움
+            <svg width={44} height={26} viewBox="0 0 44 26" style={{ position: "absolute", left: 28, top: "100%", marginTop: 2, overflow: "visible" }}>
+              <polygon points="12,-6 40,-6 4,18" fill="#fff" stroke="#000" strokeWidth={6} strokeLinejoin="round" />
+              <rect x={13} y={-15} width={25} height={12} fill="#fff" />
+            </svg>
+          )}
         </div>
       </div>
       {/* 15도 붉은 사각 직인 */}
@@ -917,6 +957,7 @@ export const Thumbnail: React.FC<{ ep: string; variant: "A" | "A2" | "A3" | "B";
   const refD = (lang === "en" ? REF_EN : REF)[refKey];
   // ★★ 썸네일 표준 v4 (스토리텔링 꼴라주 + 3D 몬스터 타이포, 2026-11-02~): COLLAGE 표에 있는 에피소드는 한국어 A안을 이 디자인으로
   if (variant === "A" && lang !== "en" && COLLAGE[refKey]) return <CollageThumb d={COLLAGE[refKey]} />;
+  if (variant === "A2" && lang !== "en" && COLLAGE[refKey]?.alt) return <CollageThumb d={{ ...COLLAGE[refKey], ...COLLAGE[refKey].alt }} />;
   // ★ 썸네일 표준 v3 ('선 넘는 지도' 스타일, 2026-11-02~): FRONT 표에 있는 에피소드는 한국어 A안을 이 디자인으로
   if (variant === "A" && lang !== "en" && FRONT[refKey]) return <FrontThumb d={FRONT[refKey]} />;
   // 공통 썸네일 표준(MAPT, 1920×1080)이 있는 에피소드는 A안을 이 표준으로
