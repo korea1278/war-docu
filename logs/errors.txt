@@ -49,3 +49,10 @@
 2026-11-05 14:28:21 하천 데이터(chongchon) 실패(기존 유지): 504 Server Error: Gateway Time-out for url: https://maps.mail.ru/osm/tools/overpass/api/interpreter
 2026-11-06 06:44:22 ep20-imjin-river: 러닝타임 19분 60초 — 목표 20분 30초와 10초 이상 차이 (대본 분량 조정 필요)
 2026-11-06 06:44:30 ep20-imjin-river: 러닝타임 19분 60초 — 목표 20분 30초와 10초 이상 차이 (대본 분량 조정 필요)
+2026-11-06 09:39:50 download: 400 Client Error: Use thumbnail sizes listed on https://w.wiki/GHai for url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/SonyArcS117_%2815207116111%29.jpg/240px-SonyArcS117_%2815207116111%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+2026-11-06 09:40:30 download: 400 Client Error: Use thumbnail sizes listed on https://w.wiki/GHai for url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/STS-117_Crew_Press_Photo.jpg/240px-STS-117_Crew_Press_Photo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+2026-11-06 09:41:11 download: 400 Client Error: Use thumbnail sizes listed on https://w.wiki/GHai for url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/STS-117_EVA2d.jpg/240px-STS-117_EVA2d.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+2026-11-06 09:41:51 download: 400 Client Error: Use thumbnail sizes listed on https://w.wiki/GHai for url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/STS-117_EVA4a.jpg/240px-STS-117_EVA4a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+2026-11-06 09:42:31 download: 400 Client Error: Use thumbnail sizes listed on https://w.wiki/GHai for url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/STS-117_EVA2b.jpg/240px-STS-117_EVA2b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+2026-11-06 09:49:09 ep21-gapyeong: 러닝타임 19분 58초 — 목표 20분 30초와 10초 이상 차이 (대본 분량 조정 필요)
+2026-11-06 09:49:20 ep21-gapyeong: 러닝타임 19분 58초 — 목표 20분 30초와 10초 이상 차이 (대본 분량 조정 필요)
