@@ -159,6 +159,27 @@
     37.882
    ],
    "span": 0.1
+  },
+  "h677s": {
+   "center": [
+    127.497,
+    37.874
+   ],
+   "span": 0.1
+  },
+  "gtown": {
+   "center": [
+    127.515,
+    37.85
+   ],
+   "span": 0.17
+  },
+  "arty": {
+   "center": [
+    127.53,
+    37.862
+   ],
+   "span": 0.17
   }
  },
  "music": [
@@ -236,6 +257,7 @@
   "exhausted_cpv": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: exhausted Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red Chinese flag with yellow stars, wearing 1951 quilted khaki uniforms and caps huddled in a rocky ravine at the foot of a hill, empty ration bags, thin and tired, no more strength to attack, grey morning, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "helmet_off": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Canadian soldiers whose heads are round balls painted as the 1951 Canadian Red Ensign flag (red with the Union Jack in the corner), wearing 1951 British-style steel helmets and khaki battledress taking off their steel helmets and sitting down in a trench in afternoon sunlight after the battle, one lighting a cigarette, a road in the valley below now open with vehicles, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "helmets_row": "A row of steel helmets resting on rifles planted in the ground on a Korean hillside at sunset in spring, wild flowers, solemn, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no people visible, no text, no letters.",
+  "digger_mates": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Australian soldiers whose heads are round balls painted as the Australian flag (dark blue with the Union Jack and white Southern Cross stars), wearing 1951 slouch hats or steel helmets and khaki battledress sharing a cigarette and a canteen in a hillside trench, one bandaging a mate's arm, rough but loyal comradeship, afternoon light, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "valley_sunset": "The peaceful Gapyeong river valley in Korea at sunset in spring, a river and road between two high hills, soft golden light, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no people visible, no text, no letters.",
   "four_nations": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: soldiers of Australia, Canada, New Zealand, Britain and the USA, heads round balls painted as their national flags of 1951, standing shoulder to shoulder on a hilltop at dawn, an artillery gun and a tank behind them, united, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "veterans": "Elderly Commonwealth war veterans with berets and medals, seen from behind, laying flowers at a stone war memorial in a green Korean valley in spring, soft light, painterly realistic digital illustration, no text, no letters.",
@@ -978,7 +1000,7 @@
    "visual": {
     "type": "map",
     "from": "axis",
-    "to": "valley",
+    "to": "gtown",
     "items": [
      {
       "k": "marker",
@@ -987,44 +1009,12 @@
       "at": 0
      },
      {
-      "k": "line",
-      "path": [
-       [
-        127.47,
-        37.965
-       ],
-       [
-        127.485,
-        37.94
-       ],
-       [
-        127.502,
-        37.918
-       ],
-       [
-        127.515,
-        37.9
-       ],
-       [
-        127.522,
-        37.885
-       ],
-       [
-        127.522,
-        37.868
-       ],
-       [
-        127.517,
-        37.852
-       ],
-       [
-        127.512,
-        37.835
-       ]
-      ],
-      "color": "#00E5FF",
-      "at": 0,
-      "glow": true
+      "k": "badge",
+      "p": "gapyeong",
+      "text": "가평",
+      "color": "blue",
+      "at": 0.4,
+      "dy": -60
      }
     ],
     "tilt": 26
@@ -1057,26 +1047,11 @@
     "서로 다른 나라의 병사들이, 한 여단 깃발 아래 모인 부대였죠."
    ],
    "visual": {
-    "type": "gauges",
+    "type": "text",
     "big": "영연방 제27여단",
-    "items": [
-     {
-      "label": "영국 미들섹스 대대",
-      "at": 0
-     },
-     {
-      "label": "오스트레일리아 제3대대",
-      "at": 0.3
-     },
-     {
-      "label": "캐나다 제2대대",
-      "at": 0.6
-     },
-     {
-      "label": "뉴질랜드 제16포병연대",
-      "at": 1.0
-     }
-    ]
+    "style": "yellow",
+    "sub": "영국 · 오스트레일리아 · 캐나다 · 뉴질랜드",
+    "subAt": 0.3
    }
   },
   {
@@ -1256,6 +1231,19 @@
    "label": "오스트레일리아 왕립연대 제3대대 병사 (한국)"
   },
   {
+   "id": "s25b",
+   "lines": [
+    "오스트레일리아 병사들은 스스로를 디거라고 불렀습니다.",
+    "거칠지만, 어떤 상황에서도 옆의 전우를 버리지 않는다는 끈끈한 전우애가 담긴 이름이었죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "digger_mates",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
    "id": "s26",
    "lines": [
     {
@@ -1330,81 +1318,6 @@
     "from": "valley",
     "to": "valley",
     "items": [
-     {
-      "k": "line",
-      "path": [
-       [
-        127.47,
-        37.965
-       ],
-       [
-        127.485,
-        37.94
-       ],
-       [
-        127.502,
-        37.918
-       ],
-       [
-        127.515,
-        37.9
-       ],
-       [
-        127.522,
-        37.885
-       ],
-       [
-        127.522,
-        37.868
-       ],
-       [
-        127.517,
-        37.852
-       ],
-       [
-        127.512,
-        37.835
-       ]
-      ],
-      "color": "#00E5FF",
-      "at": 0,
-      "glow": true
-     },
-     {
-      "k": "line",
-      "path": [
-       [
-        127.49,
-        37.95
-       ],
-       [
-        127.505,
-        37.925
-       ],
-       [
-        127.52,
-        37.902
-       ],
-       [
-        127.527,
-        37.885
-       ],
-       [
-        127.526,
-        37.866
-       ],
-       [
-        127.519,
-        37.848
-       ],
-       [
-        127.512,
-        37.832
-       ]
-      ],
-      "color": "#f4c430",
-      "at": 0.3
-     },
      {
       "k": "obj",
       "p": "h677",
@@ -1782,41 +1695,6 @@
     "from": "pass",
     "to": "pass",
     "items": [
-     {
-      "k": "line",
-      "path": [
-       [
-        127.49,
-        37.95
-       ],
-       [
-        127.505,
-        37.925
-       ],
-       [
-        127.52,
-        37.902
-       ],
-       [
-        127.527,
-        37.885
-       ],
-       [
-        127.526,
-        37.866
-       ],
-       [
-        127.519,
-        37.848
-       ],
-       [
-        127.512,
-        37.832
-       ]
-      ],
-      "color": "#f4c430",
-      "at": 0
-     },
      {
       "k": "unit",
       "p": "hq3",
@@ -2402,41 +2280,6 @@
     "to": "pass",
     "items": [
      {
-      "k": "line",
-      "path": [
-       [
-        127.49,
-        37.95
-       ],
-       [
-        127.505,
-        37.925
-       ],
-       [
-        127.52,
-        37.902
-       ],
-       [
-        127.527,
-        37.885
-       ],
-       [
-        127.526,
-        37.866
-       ],
-       [
-        127.519,
-        37.848
-       ],
-       [
-        127.512,
-        37.832
-       ]
-      ],
-      "color": "#ff3b3b",
-      "at": 0
-     },
-     {
       "k": "arrow",
       "path": [
        [
@@ -2513,8 +2356,8 @@
    ],
    "visual": {
     "type": "map",
-    "from": "valley",
-    "to": "valley",
+    "from": "arty",
+    "to": "arty",
     "items": [
      {
       "k": "unit",
@@ -2775,41 +2618,6 @@
     "from": "h504v",
     "to": "pass",
     "items": [
-     {
-      "k": "line",
-      "path": [
-       [
-        127.49,
-        37.95
-       ],
-       [
-        127.505,
-        37.925
-       ],
-       [
-        127.52,
-        37.902
-       ],
-       [
-        127.527,
-        37.885
-       ],
-       [
-        127.526,
-        37.866
-       ],
-       [
-        127.519,
-        37.848
-       ],
-       [
-        127.512,
-        37.832
-       ]
-      ],
-      "color": "#ff3b3b",
-      "at": 0
-     },
      {
       "k": "arrow",
       "path": [
@@ -3154,6 +2962,20 @@
    }
   },
   {
+   "id": "s74b",
+   "lines": [
+    "그는 부하들에게 단 한 가지를 분명히 했다고 전해집니다.",
+    "물러서지도, 항복하지도 않는다.",
+    "이 고지는 우리가 지킨다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "물러서지도, 항복하지도 않는다",
+    "accent": "이 고지는 우리가 지킨다",
+    "accentAt": 1.0
+   }
+  },
+  {
    "id": "s75",
    "lines": [
     {
@@ -3218,8 +3040,8 @@
    ],
    "visual": {
     "type": "map",
-    "from": "h677v",
-    "to": "h677v",
+    "from": "h677s",
+    "to": "h677s",
     "items": [
      {
       "k": "arrow",
@@ -4053,41 +3875,6 @@
       "at": 0
      },
      {
-      "k": "line",
-      "path": [
-       [
-        127.49,
-        37.95
-       ],
-       [
-        127.505,
-        37.925
-       ],
-       [
-        127.52,
-        37.902
-       ],
-       [
-        127.527,
-        37.885
-       ],
-       [
-        127.526,
-        37.866
-       ],
-       [
-        127.519,
-        37.848
-       ],
-       [
-        127.512,
-        37.832
-       ]
-      ],
-      "color": "#f4c430",
-      "at": 0
-     },
-     {
       "k": "badge",
       "p": [
        127.522,
@@ -4261,6 +4048,19 @@
     "kb": "in"
    },
    "label": "재연 일러스트"
+  },
+  {
+   "id": "s115b",
+   "lines": [
+    "그들 대부분은 이 땅의 이름조차 제대로 알지 못한 채 바다를 건너왔습니다.",
+    "그들이 지켜 낸 계곡 아래로, 지금은 평화로운 북한강과 기찻길이 흐르고 있죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s115b-photo"
+   },
+   "label": "오늘의 가평 · 북한강 철교 (2019)"
   },
   {
    "id": "s116",
