@@ -304,3 +304,62 @@ export const KenBurns: React.FC<{ src: string; kb?: string; bw?: boolean; fit?: 
     </AbsoluteFill>
   );
 };
+
+/* ---------- EP21 전술 HUD 스타일 '구독·좋아요' 오버레이 (장면 필드 hudCta: {at, dur}) ----------
+   화면(지도) 위 오른쪽 위에 군용 HUD 패널로 떠오름 — 하단 자막·중앙 지도와 겹치지 않게 */
+export const HudCta: React.FC = () => {
+  const sc = useScene();
+  const t = useT();
+  const h = (sc as any).hudCta || {};
+  const s0 = atSec(sc, h.at ?? 0);
+  const dur = h.dur ?? 6.5;
+  const k = t - s0;
+  if (k < 0 || k > dur + 0.6) return null;
+  const inK = easeOut(k / 0.5);
+  const outK = clamp((dur + 0.6 - k) / 0.6);
+  const op = Math.min(inK, outK);
+  const cy = "#00E5FF";
+  const blink = Math.floor(k * 3) % 2 === 0 ? 1 : 0.35;
+  const lockK = easeOut((k - 0.6) / 0.7); // 브래킷이 조여듦
+  const locked = k > 1.4;
+  const W = 640,
+    H = 330;
+  const br = (x: number, y: number, sx: number, sy: number, key: string) => (
+    <path key={key} d={`M ${x} ${y + sy * 34} L ${x} ${y} L ${x + sx * 34} ${y}`} stroke={cy} strokeWidth={5} fill="none" />
+  );
+  const btn = (label: string, at: number, red: boolean) => {
+    const bk = popIn((k - at) / 0.4);
+    return (
+      <div style={{ transform: `scale(${Math.max(0, bk)})`, display: "flex", alignItems: "center", justifyContent: "center", gap: 14, minWidth: 250, padding: "14px 26px 8px", border: `4px solid ${red ? "#ff3b3b" : cy}`, background: red ? "rgba(201,36,44,.85)" : "rgba(0,40,48,.8)", color: "#fff", fontFamily: F.head, fontSize: 64, letterSpacing: 2, boxShadow: `0 0 24px ${red ? "rgba(255,59,59,.7)" : "rgba(0,229,255,.6)"}`, whiteSpace: "nowrap" }}>
+        {label}
+      </div>
+    );
+  };
+  const pad = 26 * (1 - lockK);
+  return (
+    <div style={{ position: "absolute", top: 70, right: 70, width: W, height: H, opacity: op, transform: `translateX(${(1 - inK) * 80}px)` }}>
+      <div style={{ position: "absolute", inset: 0, background: "linear-gradient(180deg, rgba(0,18,24,.88), rgba(0,10,14,.92))", border: `2px solid rgba(0,229,255,.55)`, boxShadow: "0 0 40px rgba(0,229,255,.35), inset 0 0 40px rgba(0,229,255,.12)" }} />
+      {/* 스캔라인 */}
+      <div style={{ position: "absolute", inset: 0, background: "repeating-linear-gradient(0deg, rgba(0,229,255,.06) 0 2px, transparent 2px 6px)" }} />
+      <div style={{ position: "absolute", left: 0, right: 0, top: ((k * 120) % H), height: 3, background: "rgba(0,229,255,.45)" }} />
+      <svg width={W} height={H} style={{ position: "absolute", inset: 0, overflow: "visible" }}>
+        {br(-pad, -pad, 1, 1, "a")}
+        {br(W + pad, -pad, -1, 1, "b")}
+        {br(-pad, H + pad, 1, -1, "c")}
+        {br(W + pad, H + pad, -1, -1, "d")}
+      </svg>
+      <div style={{ position: "absolute", top: 22, left: 30, right: 30, display: "flex", justifyContent: "space-between", alignItems: "center", fontFamily: F.sub, fontSize: 34, color: cy, letterSpacing: 3 }}>
+        <span>◉ 작전 지원 요청</span>
+        <span style={{ opacity: blink, color: locked ? "#ff5252" : cy }}>{locked ? "■ 락온 완료" : "□ 조준 중"}</span>
+      </div>
+      <div style={{ position: "absolute", top: 80, left: 30, right: 30, height: 2, background: "rgba(0,229,255,.5)" }} />
+      <div style={{ position: "absolute", top: 108, left: 0, right: 0, display: "flex", justifyContent: "center", gap: 28 }}>
+        {btn("구독", 0.5, true)}
+        {btn("좋아요", 0.8, false)}
+      </div>
+      <div style={{ position: "absolute", bottom: 26, left: 0, right: 0, textAlign: "center", fontFamily: F.sub, fontSize: 38, color: "#e8fbff", opacity: clamp((k - 1.2) * 2), whiteSpace: "nowrap" }}>
+        ▶ 알림 설정으로 다음 작전에 합류
+      </div>
+    </div>
+  );
+};

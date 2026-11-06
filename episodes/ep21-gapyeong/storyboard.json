@@ -1,0 +1,4333 @@
+{
+ "title": "가평 전투",
+ "subtitle": "1951. 4. 22 ~ 4. 25",
+ "target_sec": 1230,
+ "voice": "U1cJYS4EdbaHmfR7YzHd",
+ "midrolls": [
+  "s36",
+  "s70",
+  "s104"
+ ],
+ "places": {
+  "seoul": [
+   126.978,
+   37.566,
+   "서울"
+  ],
+  "gapyeong": [
+   127.51,
+   37.831,
+   "가평"
+  ],
+  "cheongpyeong": [
+   127.424,
+   37.736,
+   "청평"
+  ],
+  "chuncheon": [
+   127.73,
+   37.881,
+   "춘천"
+  ],
+  "sachang": [
+   127.48,
+   38.085,
+   "사창리"
+  ],
+  "uijeongbu": [
+   127.047,
+   37.738,
+   "의정부"
+  ],
+  "imjin": [
+   126.93,
+   37.97,
+   "임진강"
+  ],
+  "h504": [
+   127.553,
+   37.888,
+   "504고지"
+  ],
+  "h677": [
+   127.497,
+   37.882,
+   "677고지"
+  ],
+  "hq3": [
+   127.528,
+   37.872,
+   "호주 대대 본부"
+  ],
+  "tanks": [
+   127.524,
+   37.878,
+   "미군 전차"
+  ],
+  "mx": [
+   127.516,
+   37.856,
+   "미들섹스 대대"
+  ],
+  "nz": [
+   127.51,
+   37.845,
+   "뉴질랜드 포병"
+  ],
+  "acoy": [
+   127.556,
+   37.896,
+   "A"
+  ],
+  "bcoy": [
+   127.541,
+   37.899,
+   "B"
+  ],
+  "dcoy": [
+   127.562,
+   37.886,
+   "D"
+  ],
+  "pd": [
+   127.488,
+   37.884,
+   "D"
+  ],
+  "pb": [
+   127.502,
+   37.892,
+   "B"
+  ],
+  "pa": [
+   127.505,
+   37.879,
+   "A"
+  ],
+  "pc": [
+   127.494,
+   37.874,
+   "C"
+  ]
+ },
+ "views": {
+  "korea": {
+   "center": [
+    127.6,
+    37.7
+   ],
+   "span": 6.0
+  },
+  "central": {
+   "center": [
+    127.25,
+    37.85
+   ],
+   "span": 1.4
+  },
+  "axis": {
+   "center": [
+    127.3,
+    37.82
+   ],
+   "span": 0.9
+  },
+  "valley": {
+   "center": [
+    127.522,
+    37.872
+   ],
+   "span": 0.17
+  },
+  "pass": {
+   "center": [
+    127.528,
+    37.874
+   ],
+   "span": 0.11
+  },
+  "h504v": {
+   "center": [
+    127.55,
+    37.886
+   ],
+   "span": 0.1
+  },
+  "h677v": {
+   "center": [
+    127.497,
+    37.882
+   ],
+   "span": 0.1
+  }
+ },
+ "music": [
+  {
+   "id": "drone",
+   "from": "s01",
+   "to": "s05",
+   "volume": 0.2
+  },
+  {
+   "id": "theme",
+   "from": "s06",
+   "to": "s35",
+   "volume": 0.16
+  },
+  {
+   "id": "tension",
+   "from": "s36",
+   "to": "s53",
+   "volume": 0.17
+  },
+  {
+   "id": "march",
+   "from": "s54",
+   "to": "s69",
+   "volume": 0.15
+  },
+  {
+   "id": "tension",
+   "from": "s70",
+   "to": "s87",
+   "volume": 0.17
+  },
+  {
+   "id": "march",
+   "from": "s88",
+   "to": "s103",
+   "volume": 0.15
+  },
+  {
+   "id": "somber",
+   "from": "s104",
+   "to": "s119",
+   "volume": 0.17
+  }
+ ],
+ "ai_images": {
+  "valley_column": "A narrow Korean mountain valley at dawn in April 1951, a dirt road beside a river, an endless dark column of figures streaming down the road from the north, smoke on the ridges on both sides, cold blue light, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no text, no letters.",
+  "radio_call": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a Canadian infantry officer, head a round ball painted as the 1951 Canadian Red Ensign flag, crouching in a hilltop trench at night shouting into a field radio handset, flares and tracer fire behind him, determined, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "cpv_column": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a long column of Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red Chinese flag with yellow stars, wearing 1951 quilted khaki uniforms and caps marching at night along a mountain path under moonlight, carrying rifles and heavy packs on their backs, endless line disappearing into the dark hills, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "brigade_rest": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a group of British soldiers whose heads are round balls painted as the British Union Jack flag, wearing 1951 berets and khaki battledress, Australian soldiers whose heads are round balls painted as the Australian flag (dark blue with the Union Jack and white Southern Cross stars), wearing 1951 slouch hats or steel helmets and khaki battledress, and Canadian soldiers whose heads are round balls painted as the 1951 Canadian Red Ensign flag (red with the Union Jack in the corner), wearing 1951 British-style steel helmets and khaki battledress resting together around a small campfire in a Korean valley in spring, mugs of tea, rifles stacked, relaxed but weary, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "rest_camp": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Australian soldiers whose heads are round balls painted as the Australian flag (dark blue with the Union Jack and white Southern Cross stars), wearing 1951 slouch hats or steel helmets and khaki battledress washing, shaving and cleaning rifles beside tents in a quiet Korean valley in April, spring blossoms, a messenger running toward them with a paper order, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "burke_map": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a British brigadier, head a round ball painted as the British Union Jack flag, wearing a beret, pointing at two hills on a large paper map spread on the bonnet of a jeep, officers of Australia and Canada (heads round balls painted as their flags) leaning in, dusk, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "digging_rock": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Australian soldiers whose heads are round balls painted as the Australian flag (dark blue with the Union Jack and white Southern Cross stars), wearing 1951 slouch hats or steel helmets and khaki battledress digging trenches with picks into rocky hard ground on a steep spring hillside, sweat, a valley and a winding river below, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "dusk_valley": "A Korean mountain valley at dusk in April 1951 seen from a hilltop trench, a dirt road and river below, a long line of refugees walking south, dark ridges on both sides, ominous red sky, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no text, no letters.",
+  "bugle_gong": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red Chinese flag with yellow stars, wearing 1951 quilted khaki uniforms and caps blowing long brass bugles, striking gongs and blowing whistles on a dark ridge at night, more soldiers behind them waiting to charge, eerie moonlight and mist, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "flare_slope": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Australian soldiers whose heads are round balls painted as the Australian flag (dark blue with the Union Jack and white Southern Cross stars), wearing 1951 slouch hats or steel helmets and khaki battledress looking out from a hilltop trench as a parachute flare lights up the night sky, revealing countless shadowy figures climbing the slope below, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "tank_night": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an American M4 Sherman tank on a narrow valley road at night with its hatches closed, firing its machine gun at shadowy figures in the dark, American tank crewmen whose heads are round balls painted as the USA flag, wearing 1951 tanker helmets inside visible through a vision port, tracer fire, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "aus_mg": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Australian soldiers whose heads are round balls painted as the Australian flag (dark blue with the Union Jack and white Southern Cross stars), wearing 1951 slouch hats or steel helmets and khaki battledress firing a Vickers machine gun from a sandbagged hilltop position at night, the barrel glowing red hot, empty cartridge cases piling up, tracer fire down the slope, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "melee_504": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Australian soldiers whose heads are round balls painted as the Australian flag (dark blue with the Union Jack and white Southern Cross stars), wearing 1951 slouch hats or steel helmets and khaki battledress fighting hand to hand with Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red Chinese flag with yellow stars, wearing 1951 quilted khaki uniforms and caps in a hilltop trench at night, bayonets and grenades, explosions lighting the scene, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "aus_radio_night": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an Australian radio operator, head a round ball painted as the Australian flag, slouch hat, shouting into a field radio in a dark trench, a wounded comrade beside him, flares above, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "dawn_slope": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: exhausted Australian soldiers whose heads are round balls painted as the Australian flag (dark blue with the Union Jack and white Southern Cross stars), wearing 1951 slouch hats or steel helmets and khaki battledress in a battered hilltop trench at dawn after a night battle, smoke on the slope below, empty ammunition boxes, cold blue light, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "ammo_low": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Australian soldiers whose heads are round balls painted as the Australian flag (dark blue with the Union Jack and white Southern Cross stars), wearing 1951 slouch hats or steel helmets and khaki battledress in a trench counting the last few rifle magazines and grenades on an empty ammunition box, bandaged wounded comrades lying behind them, tense faces, morning, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "stretcher_descent": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Australian soldiers whose heads are round balls painted as the Australian flag (dark blue with the Union Jack and white Southern Cross stars), wearing 1951 slouch hats or steel helmets and khaki battledress carrying wounded comrades on stretchers and a heavy radio down a steep rocky ridge in the late afternoon, enemy fire kicking up dust nearby, smoke, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "withdraw_smoke": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Australian soldiers whose heads are round balls painted as the Australian flag (dark blue with the Union Jack and white Southern Cross stars), wearing 1951 slouch hats or steel helmets and khaki battledress moving in a disciplined file down a ridge at dusk through drifting artillery smoke, one group kneeling and firing to cover the others, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "canada_alone": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Canadian soldiers whose heads are round balls painted as the 1951 Canadian Red Ensign flag (red with the Union Jack in the corner), wearing 1951 British-style steel helmets and khaki battledress crouching in a ring of trenches on a high rocky hilltop at dusk, looking outward in every direction, smoke rising from the valleys all around, isolated, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "melee_677": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Canadian soldiers whose heads are round balls painted as the 1951 Canadian Red Ensign flag (red with the Union Jack in the corner), wearing 1951 British-style steel helmets and khaki battledress fighting hand to hand with Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red Chinese flag with yellow stars, wearing 1951 quilted khaki uniforms and caps who leap into their hilltop trenches at night, bayonets and grenades, explosions, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "radio_urgent": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a Canadian signaller, head a round ball painted as the 1951 Canadian Red Ensign flag, pressing headphones to his ears in a trench at night, wide eyes, enemy silhouettes very close above the trench edge, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "mills_radio": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a calm Canadian company commander, head a round ball painted as the 1951 Canadian Red Ensign flag, wearing a steel helmet, speaking firmly into a field radio handset while his men crouch low in the trench around him, artillery flashes on the horizon, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "trench_shelter": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Canadian soldiers whose heads are round balls painted as the 1951 Canadian Red Ensign flag (red with the Union Jack in the corner), wearing 1951 British-style steel helmets and khaki battledress pressing themselves flat at the bottom of a deep trench with arms over their helmets while artillery shells burst in bright flashes just above the trench at night, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "shells_ridge": "A rocky Korean hill ridge at night struck by a barrage of artillery shells bursting in the air above the trenches, bright flashes and smoke, silhouettes of attacking soldiers swept away, dramatic, painterly realistic digital illustration, cinematic wide shot, dark palette, film grain, no text, no letters.",
+  "dawn_677": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Canadian soldiers whose heads are round balls painted as the 1951 Canadian Red Ensign flag (red with the Union Jack in the corner), wearing 1951 British-style steel helmets and khaki battledress slowly raising their heads out of a smoking hilltop trench at grey dawn, silence, scattered debris on the slope, exhausted but alive, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "dawn_supply_wait": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Canadian soldiers whose heads are round balls painted as the 1951 Canadian Red Ensign flag (red with the Union Jack in the corner), wearing 1951 British-style steel helmets and khaki battledress sitting exhausted in hilltop trenches in the morning, empty water bottles and empty ammunition pouches, looking up at the sky, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "crates": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Canadian soldiers whose heads are round balls painted as the 1951 Canadian Red Ensign flag (red with the Union Jack in the corner), wearing 1951 British-style steel helmets and khaki battledress dragging parachute supply crates across a hilltop and handing out ammunition boxes to comrades in trenches, white and colored parachutes on the ground, morning light, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "exhausted_cpv": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: exhausted Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red Chinese flag with yellow stars, wearing 1951 quilted khaki uniforms and caps huddled in a rocky ravine at the foot of a hill, empty ration bags, thin and tired, no more strength to attack, grey morning, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "helmet_off": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Canadian soldiers whose heads are round balls painted as the 1951 Canadian Red Ensign flag (red with the Union Jack in the corner), wearing 1951 British-style steel helmets and khaki battledress taking off their steel helmets and sitting down in a trench in afternoon sunlight after the battle, one lighting a cigarette, a road in the valley below now open with vehicles, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "helmets_row": "A row of steel helmets resting on rifles planted in the ground on a Korean hillside at sunset in spring, wild flowers, solemn, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no people visible, no text, no letters.",
+  "valley_sunset": "The peaceful Gapyeong river valley in Korea at sunset in spring, a river and road between two high hills, soft golden light, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no people visible, no text, no letters.",
+  "four_nations": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: soldiers of Australia, Canada, New Zealand, Britain and the USA, heads round balls painted as their national flags of 1951, standing shoulder to shoulder on a hilltop at dawn, an artillery gun and a tank behind them, united, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "veterans": "Elderly Commonwealth war veterans with berets and medals, seen from behind, laying flowers at a stone war memorial in a green Korean valley in spring, soft light, painterly realistic digital illustration, no text, no letters.",
+  "porkchop_teaser": "A small scarred Korean hill at night in 1953 under heavy artillery fire, trenches and sandbag bunkers on the crest, searchlights and flares, dramatic, painterly realistic digital illustration, cinematic wide shot, dark palette, film grain, no text, no letters.",
+  "thumb_subject": "Photorealistic black-and-white 1951 Korean War documentary portrait of a weary but defiant Commonwealth infantry officer, steel helmet, dirt- and smoke-streaked face, holding a field radio handset to his mouth as if shouting an order, determined eyes, battledress with webbing, waist-up, face clearly visible and turned slightly toward the right of the frame, sharp detail, high contrast monochrome, isolated on a plain pure white background, no shadows on the background, no text."
+ },
+ "scenes": [
+  {
+   "id": "s01",
+   "lines": [
+    {
+     "t": "1951년 4월 24일 새벽.",
+     "say": "천구백오십일 년 사월 이십사일 새벽."
+    },
+    "가평 계곡의 좁은 길 위로, 끝도 없는 사람의 물결이 밀려 내려옵니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "valley_column",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "1951. 4. 24 새벽 · 가평 계곡",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "lines": [
+    {
+     "t": "그 앞을 막아선 것은, 지구 반대편에서 온 2,000여 명의 병사들이었는데요.",
+     "say": "그 앞을 막아선 것은, 지구 반대편에서 온 이천여 명의 병사들이었는데요."
+    },
+    {
+     "t": "그들을 향해 쏟아지는 적은 약 1만 명.",
+     "say": "그들을 향해 쏟아지는 적은 약 만 명."
+    },
+    "다섯 배에 이르는 숫자였습니다."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "영연방 제27여단",
+     "big": "약 2천 명",
+     "icon": "none",
+     "color": "blue"
+    },
+    "right": {
+     "title": "중공군 제118사단",
+     "big": "약 1만 명",
+     "icon": "none",
+     "color": "red",
+     "at": 1.0
+    }
+   },
+   "callouts": [
+    {
+     "text": "전방 투입 병력 · 대략 (기록마다 다름)",
+     "style": "dark",
+     "at": 2,
+     "pos": "lower"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 1.0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "lines": [
+    "그런데 이 병사들은, 물러서지 않습니다.",
+    "오히려 무전기를 들고, 믿기 힘든 요청을 하거든요.",
+    "지금 우리 진지 위로, 포탄을 떨어뜨려 달라고 말이죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "radio_call",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s04",
+   "lines": [
+    "아군의 머리 위로 떨어지는 포탄.",
+    "그것이 이 전투의 운명을 가른, 마지막 한 수였습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "아군 머리 위로",
+    "accent": "진내사격",
+    "accentAt": 0.6
+   },
+   "pauseBefore": 0.3,
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "lines": [
+    "도대체 그 계곡에서 무슨 일이 있었던 걸까요.",
+    "그리고 이 이틀 밤이, 왜 서울의 운명을 바꿔놓았을까요."
+   ],
+   "visual": {
+    "type": "titlecard",
+    "title": "가평 전투",
+    "sub": "영연방 제27여단 · 서울 진격을 막은 이틀 밤 1951",
+    "at": 0,
+    "q": "s05-photo"
+   },
+   "flash": true,
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s06",
+   "lines": [
+    "시계를 조금 앞으로 돌려보겠습니다.",
+    {
+     "t": "4월 22일 밤, 중공군은 이른바 춘계 대공세를 시작합니다.",
+     "say": "사월 이십이일 밤, 중공군은 이른바 춘계 대공세를 시작합니다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s06-photo"
+   },
+   "label": "중공군 병사 (1951. 3)",
+   "chapter": {
+    "num": "제1막",
+    "title": "서울 동쪽을 노린 춘계 대공세"
+   }
+  },
+  {
+   "id": "s07",
+   "lines": [
+    {
+     "t": "30만이 넘는 병력이, 서부와 중부 전선을 한꺼번에 두드렸는데요.",
+     "say": "삼십만이 넘는 병력이, 서부와 중부 전선을 한꺼번에 두드렸는데요."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "central",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.1,
+        37.8
+       ],
+       [
+        126.6,
+        37.95
+       ],
+       [
+        126.95,
+        38.02
+       ],
+       [
+        127.2,
+        38.15
+       ],
+       [
+        127.5,
+        38.12
+       ],
+       [
+        127.8,
+        38.15
+       ],
+       [
+        128.2,
+        38.25
+       ],
+       [
+        128.6,
+        38.35
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.7,
+        38.3
+       ],
+       [
+        126.85,
+        38.05
+       ],
+       [
+        126.95,
+        37.78
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 1.2
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.3,
+        38.45
+       ],
+       [
+        127.25,
+        38.15
+       ],
+       [
+        127.1,
+        37.85
+       ]
+      ],
+      "color": "red",
+      "at": 0.4,
+      "width": 1.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.6,
+        38.5
+       ],
+       [
+        127.5,
+        38.2
+       ],
+       [
+        127.5,
+        37.9
+       ]
+      ],
+      "color": "red",
+      "at": 0.6,
+      "width": 1.1
+     },
+     {
+      "k": "marker",
+      "p": "seoul",
+      "color": "blue",
+      "at": 0.8
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1951. 4. 22 · 중공군 춘계 공세 (개략)",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s08",
+   "lines": [
+    "중공군 사령관 펑더화이는, 이 공세로 서울을 다시 손에 넣겠다는 뜻을 감추지 않았습니다.",
+    "불과 석 달 전 차지했던 서울을 다시 내준 쓰라린 기억이, 아직 생생했거든요."
+   ],
+   "visual": {
+    "type": "person",
+    "q": "s08-photo",
+    "name": "펑더화이",
+    "years": "1898 - 1974",
+    "role": "중공군 사령관"
+   }
+  },
+  {
+   "id": "s09",
+   "lines": [
+    "지난 편에서 보셨던 임진강의 글로스터 대대가, 서쪽 길목에서 사흘을 버티던 바로 그 시각이었습니다.",
+    "서쪽에서는 임진강을 건너 정면으로, 동쪽에서는 산맥을 타고 옆구리로.",
+    "두 갈래의 공세가, 같은 밤에 함께 시작된 겁니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "central",
+    "to": "central",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.1,
+        37.8
+       ],
+       [
+        126.6,
+        37.95
+       ],
+       [
+        126.95,
+        38.02
+       ],
+       [
+        127.2,
+        38.15
+       ],
+       [
+        127.5,
+        38.12
+       ],
+       [
+        127.8,
+        38.15
+       ],
+       [
+        128.2,
+        38.25
+       ],
+       [
+        128.6,
+        38.35
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.8,
+        38.2
+       ],
+       [
+        126.9,
+        38.0
+       ],
+       [
+        126.95,
+        37.8
+       ]
+      ],
+      "color": "red",
+      "at": 0.3,
+      "width": 1.1
+     },
+     {
+      "k": "badge",
+      "p": "imjin",
+      "text": "임진강 · 정면",
+      "color": "red",
+      "at": 0.6,
+      "dy": -60
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.5,
+        38.25
+       ],
+       [
+        127.49,
+        38.05
+       ],
+       [
+        127.51,
+        37.86
+       ]
+      ],
+      "color": "red",
+      "at": 1.0,
+      "width": 1.1
+     },
+     {
+      "k": "badge",
+      "p": [
+       127.55,
+       38.0
+      ],
+      "text": "가평 · 옆구리",
+      "color": "red",
+      "at": 1.3,
+      "dy": -60
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "두 갈래의 공세 (개략)",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "lines": [
+    "같은 밤, 동쪽에서는 또 하나의 칼날이 움직이고 있었습니다.",
+    {
+     "t": "사창리 일대를 지키던 국군 제6사단이 거센 공세에 밀려, 전선이 무너져 내린 겁니다.",
+     "say": "사창리 일대를 지키던 국군 제육사단이 거센 공세에 밀려, 전선이 무너져 내린 겁니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "central",
+    "to": "axis",
+    "items": [
+     {
+      "k": "unit",
+      "p": "sachang",
+      "color": "blue",
+      "text": "국군 제6사단",
+      "at": 0
+     },
+     {
+      "k": "clash",
+      "p": "sachang",
+      "at": 1.0,
+      "size": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.45,
+        38.2
+       ],
+       [
+        127.47,
+        38.12
+       ],
+       [
+        127.49,
+        38.05
+       ]
+      ],
+      "color": "red",
+      "at": 1.2,
+      "width": 1.0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "4. 22 밤 · 사창리 전선 붕괴 (개략)",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "lines": [
+    "불과 몇 시간 만에, 전선 곳곳에 커다란 구멍이 뚫렸습니다.",
+    "흩어진 병사들과 피란민이 남쪽으로, 또 남쪽으로 쏟아져 내려왔는데요.",
+    "그 뒤를 쫓는 중공군의 발걸음은, 놀라울 만큼 빨랐습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s11-photo"
+   },
+   "label": "중공군을 피해 남쪽으로 향하는 피란민 (한국전쟁)"
+  },
+  {
+   "id": "s12",
+   "lines": [
+    "훗날 이 사단은 한 달도 지나지 않아, 용문산에서 이 패배를 통쾌하게 되갚게 됩니다.",
+    "그 이야기는 격전의 지도 첫 편에서 다룬 바 있죠.",
+    "하지만 그날 밤만큼은, 걷잡을 수 없는 혼란이었습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "한 달 뒤, 용문산",
+    "style": "yellow",
+    "sub": "국군 제6사단의 설욕 · 격전의 지도 첫 편",
+    "subAt": 0.6
+   }
+  },
+  {
+   "id": "s13",
+   "lines": [
+    {
+     "t": "그 틈으로 파고든 부대가, 중공군 제40군 예하 제118사단이었죠.",
+     "say": "그 틈으로 파고든 부대가, 중공군 제사십군 예하 제백십팔사단이었죠."
+    },
+    {
+     "t": "1만 명 안팎의 병력.",
+     "say": "만 명 안팎의 병력."
+    },
+    "이들은 낮에는 숨고 밤에만 움직이며, 하룻밤에 수십 킬로미터를 걷는 부대였거든요."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "cpv_column",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "중공군 제40군 제118사단",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "lines": [
+    "이들이 노린 길은 분명했습니다.",
+    "가평천을 따라 남쪽으로 내려가, 가평을 지나 서울 동쪽으로 돌아 들어가는 길.",
+    "그 길이 뚫리면, 서부 전선의 유엔군 전체가 등 뒤를 내주게 됩니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "axis",
+    "to": "axis",
+    "items": [
+     {
+      "k": "marker",
+      "p": "sachang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.47,
+        37.965
+       ],
+       [
+        127.485,
+        37.94
+       ],
+       [
+        127.502,
+        37.918
+       ],
+       [
+        127.515,
+        37.9
+       ],
+       [
+        127.522,
+        37.885
+       ],
+       [
+        127.522,
+        37.868
+       ],
+       [
+        127.517,
+        37.852
+       ],
+       [
+        127.512,
+        37.835
+       ]
+      ],
+      "color": "#00E5FF",
+      "at": 0,
+      "glow": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.48,
+        38.08
+       ],
+       [
+        127.48,
+        37.98
+       ],
+       [
+        127.5,
+        37.9
+       ],
+       [
+        127.51,
+        37.84
+       ],
+       [
+        127.43,
+        37.74
+       ],
+       [
+        127.2,
+        37.65
+       ],
+       [
+        127.05,
+        37.6
+       ]
+      ],
+      "color": "red",
+      "at": 0.6,
+      "width": 1.2
+     },
+     {
+      "k": "marker",
+      "p": "gapyeong",
+      "color": "yellow",
+      "at": 1.0
+     },
+     {
+      "k": "marker",
+      "p": "seoul",
+      "color": "blue",
+      "at": 1.4
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "중공군 제118사단 진격로 (개략)",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "lines": [
+    "정면에서 서울로 밀고 오는 적과, 옆구리를 돌아 들어오는 적.",
+    "거대한 집게가, 닫히기 직전이었던 거죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "axis",
+    "to": "axis",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.93,
+        38.0
+       ],
+       [
+        126.97,
+        37.85
+       ],
+       [
+        127.0,
+        37.7
+       ]
+      ],
+      "color": "red",
+      "at": 0,
+      "width": 1.2
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.5,
+        37.95
+       ],
+       [
+        127.45,
+        37.78
+       ],
+       [
+        127.2,
+        37.66
+       ]
+      ],
+      "color": "red",
+      "at": 0.3,
+      "width": 1.2
+     },
+     {
+      "k": "marker",
+      "p": "seoul",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "lock",
+      "p": "seoul",
+      "at": 1.0,
+      "text": "집게"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s16",
+   "lines": [
+    "만약 이 집게가 닫혔다면 어땠을까요.",
+    "서울은 세 번째로 적의 손에 넘어가고, 전쟁의 판도 자체가 뒤바뀌었을지도 모릅니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "집게가 닫혔다면",
+    "accent": "서울, 세 번째 함락",
+    "accentAt": 0.8
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s17",
+   "lines": [
+    "그리고 그 집게 한쪽 날의 끝에, 가평이라는 작은 마을이 있었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "axis",
+    "to": "valley",
+    "items": [
+     {
+      "k": "marker",
+      "p": "gapyeong",
+      "color": "yellow",
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.47,
+        37.965
+       ],
+       [
+        127.485,
+        37.94
+       ],
+       [
+        127.502,
+        37.918
+       ],
+       [
+        127.515,
+        37.9
+       ],
+       [
+        127.522,
+        37.885
+       ],
+       [
+        127.522,
+        37.868
+       ],
+       [
+        127.517,
+        37.852
+       ],
+       [
+        127.512,
+        37.835
+       ]
+      ],
+      "color": "#00E5FF",
+      "at": 0,
+      "glow": true
+     }
+    ],
+    "tilt": 26
+   }
+  },
+  {
+   "id": "s18",
+   "lines": [
+    "그 무렵 가평 근처에는, 조금 특별한 부대 하나가 쉬고 있었습니다.",
+    {
+     "t": "영연방 제27여단이었는데요.",
+     "say": "영연방 제이십칠여단이었는데요."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "brigade_rest",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "chapter": {
+    "num": "제2막",
+    "title": "가평 계곡의 방패"
+   }
+  },
+  {
+   "id": "s19",
+   "lines": [
+    "영국, 오스트레일리아, 캐나다, 뉴질랜드.",
+    "서로 다른 나라의 병사들이, 한 여단 깃발 아래 모인 부대였죠."
+   ],
+   "visual": {
+    "type": "gauges",
+    "big": "영연방 제27여단",
+    "items": [
+     {
+      "label": "영국 미들섹스 대대",
+      "at": 0
+     },
+     {
+      "label": "오스트레일리아 제3대대",
+      "at": 0.3
+     },
+     {
+      "label": "캐나다 제2대대",
+      "at": 0.6
+     },
+     {
+      "label": "뉴질랜드 제16포병연대",
+      "at": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "s20",
+   "lines": [
+    "영국군은 홍콩에서 건너와 낙동강 전선부터 싸워 온 고참 부대였고, 오스트레일리아와 캐나다, 뉴질랜드의 병사들은 그 뒤로 하나둘 합류했습니다.",
+    "말도, 군복도, 계급장도 조금씩 달랐지만, 이들은 이미 몇 달 동안 함께 피를 흘린 사이였죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s20-photo"
+   },
+   "label": "오스트레일리아 왕립연대 제3대대 병사 (1952)"
+  },
+  {
+   "id": "s21",
+   "lines": [
+    "이들은 몇 달 동안 최전선을 누비다가, 막 예비대로 빠져 숨을 돌리던 참이었습니다.",
+    "하지만 그 휴식은, 단 며칠 만에 끝나버립니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "rest_camp",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s22",
+   "lines": [
+    {
+     "t": "4월 23일, 여단은 급히 북쪽으로 올라갑니다.",
+     "say": "사월 이십삼일, 여단은 급히 북쪽으로 올라갑니다."
+    },
+    {
+     "t": "무너진 국군 제6사단의 병사들을 받아내고, 가평 계곡을 틀어막으라는 명령이었거든요.",
+     "say": "무너진 국군 제육사단의 병사들을 받아내고, 가평 계곡을 틀어막으라는 명령이었거든요."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "axis",
+    "to": "axis",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.38,
+        37.7
+       ],
+       [
+        127.45,
+        37.76
+       ],
+       [
+        127.5,
+        37.83
+       ],
+       [
+        127.52,
+        37.88
+       ]
+      ],
+      "color": "blue",
+      "at": 0.2,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.48,
+        38.05
+       ],
+       [
+        127.5,
+        37.95
+       ],
+       [
+        127.51,
+        37.88
+       ]
+      ],
+      "color": "#8fa3b8",
+      "at": 0.8,
+      "width": 0.8
+     },
+     {
+      "k": "marker",
+      "p": "gapyeong",
+      "color": "yellow",
+      "at": 0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "4. 23 · 제27여단 가평 계곡으로 (개략)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s23",
+   "lines": [
+    "여단장 버크 준장은 지도를 펼쳐 놓고, 두 개의 봉우리를 짚었습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "burke_map",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s24",
+   "lines": [
+    {
+     "t": "가평천 동쪽, 해발 504m의 504고지.",
+     "say": "가평천 동쪽, 해발 오백사 미터의 오백사 고지."
+    },
+    {
+     "t": "이곳은 오스트레일리아 왕립연대 제3대대가 맡았습니다.",
+     "say": "이곳은 오스트레일리아 왕립연대 제삼대대가 맡았습니다."
+    },
+    "대대장은 퍼거슨 중령이었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "valley",
+    "to": "h504v",
+    "items": [
+     {
+      "k": "obj",
+      "p": "h504",
+      "n": "504",
+      "at": 0.3,
+      "text": "504고지"
+     },
+     {
+      "k": "unit",
+      "p": [
+       127.548,
+       37.895
+      ],
+      "color": "blue",
+      "text": "오스트레일리아 제3대대",
+      "at": 1.0,
+      "pulse": true
+     }
+    ],
+    "tilt": 24
+   },
+   "callouts": [
+    {
+     "text": "가평천 동쪽 · 504고지 (개략)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s25",
+   "lines": [
+    "이 대대는 그 전해 가을, 평양 북쪽까지 진격하며 숱한 전투를 치른 부대였습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s25-photo"
+   },
+   "label": "오스트레일리아 왕립연대 제3대대 병사 (한국)"
+  },
+  {
+   "id": "s26",
+   "lines": [
+    {
+     "t": "가평천 서쪽, 해발 677m의 677고지.",
+     "say": "가평천 서쪽, 해발 육백칠십칠 미터의 육백칠십칠 고지."
+    },
+    {
+     "t": "이곳에는 캐나다 프린세스 패트리샤 경보병연대 제2대대가 섰습니다.",
+     "say": "이곳에는 캐나다 프린세스 패트리샤 경보병연대 제이대대가 섰습니다."
+    },
+    "대대장은 스톤 중령이었는데요."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "valley",
+    "to": "h677v",
+    "items": [
+     {
+      "k": "obj",
+      "p": "h677",
+      "n": "677",
+      "at": 0.3,
+      "text": "677고지"
+     },
+     {
+      "k": "unit",
+      "p": [
+       127.497,
+       37.89
+      ],
+      "color": "blue",
+      "text": "캐나다 제2대대",
+      "at": 1.0,
+      "pulse": true
+     }
+    ],
+    "tilt": 24
+   },
+   "callouts": [
+    {
+     "text": "가평천 서쪽 · 677고지 (개략)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s27",
+   "lines": [
+    {
+     "t": "캐나다 대대는 그해 겨울 한국에 도착해, 훈련을 마친 뒤 2월부터 전선에 나선 부대였습니다.",
+     "say": "캐나다 대대는 그해 겨울 한국에 도착해, 훈련을 마친 뒤 이월부터 전선에 나선 부대였습니다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s27-photo"
+   },
+   "label": "가평 캐나다 기념비 · 패트리샤 경보병연대 비문"
+  },
+  {
+   "id": "s28",
+   "lines": [
+    "두 고지 사이로는 가평천과 도로가 흐릅니다.",
+    "적이 남쪽으로 내려가려면, 반드시 이 골짜기를 지나야 했죠.",
+    "두 고지는 마치, 문의 양쪽 기둥 같은 자리였습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "valley",
+    "to": "valley",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.47,
+        37.965
+       ],
+       [
+        127.485,
+        37.94
+       ],
+       [
+        127.502,
+        37.918
+       ],
+       [
+        127.515,
+        37.9
+       ],
+       [
+        127.522,
+        37.885
+       ],
+       [
+        127.522,
+        37.868
+       ],
+       [
+        127.517,
+        37.852
+       ],
+       [
+        127.512,
+        37.835
+       ]
+      ],
+      "color": "#00E5FF",
+      "at": 0,
+      "glow": true
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.49,
+        37.95
+       ],
+       [
+        127.505,
+        37.925
+       ],
+       [
+        127.52,
+        37.902
+       ],
+       [
+        127.527,
+        37.885
+       ],
+       [
+        127.526,
+        37.866
+       ],
+       [
+        127.519,
+        37.848
+       ],
+       [
+        127.512,
+        37.832
+       ]
+      ],
+      "color": "#f4c430",
+      "at": 0.3
+     },
+     {
+      "k": "obj",
+      "p": "h677",
+      "n": "677",
+      "at": 0
+     },
+     {
+      "k": "obj",
+      "p": "h504",
+      "n": "504",
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": [
+       127.522,
+       37.905
+      ],
+      "text": "가평 계곡",
+      "color": "blue",
+      "at": 1.2,
+      "dy": -50
+     }
+    ],
+    "tilt": 30
+   }
+  },
+  {
+   "id": "s29",
+   "lines": [
+    "만약 이 기둥 하나라도 쓰러진다면, 적은 그대로 계곡을 타고 가평 읍내까지 쏟아져 내려갈 수 있었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "valley",
+    "to": "valley",
+    "items": [
+     {
+      "k": "obj",
+      "p": "h677",
+      "n": "677",
+      "at": 0
+     },
+     {
+      "k": "obj",
+      "p": "h504",
+      "n": "504",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.505,
+        37.93
+       ],
+       [
+        127.52,
+        37.895
+       ],
+       [
+        127.524,
+        37.865
+       ],
+       [
+        127.513,
+        37.836
+       ]
+      ],
+      "color": "red",
+      "at": 0.3,
+      "width": 1.0
+     },
+     {
+      "k": "marker",
+      "p": "gapyeong",
+      "color": "yellow",
+      "at": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "s30",
+   "lines": [
+    {
+     "t": "그 뒤에는 뉴질랜드 제16포병연대의 대포들이, 계곡 바닥에는 미군 셔먼 전차 한 개 중대가 자리를 잡았습니다.",
+     "say": "그 뒤에는 뉴질랜드 제십육포병연대의 대포들이, 계곡 바닥에는 미군 셔먼 전차 한 개 중대가 자리를 잡았습니다."
+    },
+    "영국 미들섹스 대대는 뒤쪽에서 예비로 대기했고요."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "valley",
+    "to": "valley",
+    "items": [
+     {
+      "k": "unit",
+      "p": "nz",
+      "color": "blue",
+      "text": "뉴질랜드 포병",
+      "at": 0
+     },
+     {
+      "k": "radar",
+      "p": "nz",
+      "at": 0.2,
+      "size": 0.6,
+      "color": "#00E5FF",
+      "text": "24문"
+     },
+     {
+      "k": "unit",
+      "p": "tanks",
+      "color": "blue",
+      "text": "미군 전차 중대",
+      "at": 0.6
+     },
+     {
+      "k": "unit",
+      "p": "mx",
+      "color": "blue",
+      "text": "미들섹스 · 예비",
+      "at": 1.0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "제27여단 배치 (개략)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s31",
+   "lines": [
+    "문제는 시간이었습니다.",
+    "참호를 깊이 파고, 철조망을 치고, 지뢰를 묻을 시간이 거의 없었거든요.",
+    "봄이라고는 하지만 산 위의 땅은 아직 단단했고, 병사들은 곡괭이로 바위를 깨 가며 참호를 팠습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "digging_rock",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s32",
+   "lines": [
+    "게다가 두 고지 사이는 너무 넓었습니다.",
+    "서로 엄호해 주기에는, 골짜기 하나가 통째로 비어 있는 셈이었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "valley",
+    "to": "valley",
+    "items": [
+     {
+      "k": "obj",
+      "p": "h677",
+      "n": "677",
+      "at": 0
+     },
+     {
+      "k": "obj",
+      "p": "h504",
+      "n": "504",
+      "at": 0
+     },
+     {
+      "k": "lock",
+      "p": [
+       127.524,
+       37.888
+      ],
+      "at": 0.6,
+      "text": "빈 골짜기"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s33",
+   "lines": [
+    "여단 전체를 다 모아도, 두 고지와 계곡을 빈틈없이 메우기에는 턱없이 모자란 병력이었습니다.",
+    "버크 준장도, 그 사실을 누구보다 잘 알고 있었죠."
+   ],
+   "visual": {
+    "type": "profile",
+    "pts": [
+     [
+      0,
+      250
+     ],
+     [
+      0.12,
+      520
+     ],
+     [
+      0.22,
+      677
+     ],
+     [
+      0.32,
+      450
+     ],
+     [
+      0.42,
+      150
+     ],
+     [
+      0.5,
+      110
+     ],
+     [
+      0.58,
+      140
+     ],
+     [
+      0.68,
+      380
+     ],
+     [
+      0.78,
+      504
+     ],
+     [
+      0.88,
+      400
+     ],
+     [
+      1,
+      300
+     ]
+    ],
+    "grid": [
+     200,
+     400,
+     600
+    ],
+    "yMin": 0,
+    "yMax": 800,
+    "title": "677고지 → 가평천 → 504고지 동서 단면",
+    "note": "모식도 (높이 과장)",
+    "left": "서 · 캐나다 대대",
+    "right": "동 · 오스트레일리아 대대",
+    "marks": [
+     {
+      "x": 0.22,
+      "text": "677고지",
+      "style": "dark",
+      "at": 0,
+      "lift": 70
+     },
+     {
+      "x": 0.5,
+      "text": "가평천 · 도로",
+      "style": "dark",
+      "at": 0.4,
+      "lift": 70
+     },
+     {
+      "x": 0.78,
+      "text": "504고지",
+      "style": "dark",
+      "at": 0.8,
+      "lift": 70
+     }
+    ]
+   }
+  },
+  {
+   "id": "s34",
+   "lines": [
+    "그날 오후, 북쪽에서 피란민과 흩어진 국군 병사들이 끝없이 내려오기 시작했습니다.",
+    "그리고 해가 지자, 그 행렬 뒤를 적이 바짝 따라붙고 있었습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s34-photo"
+   },
+   "label": "피란민 남매와 전차 (1951 · 행주)"
+  },
+  {
+   "id": "s35",
+   "lines": [
+    "가평 계곡의 운명을 가를 밤이, 그렇게 다가오고 있었습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "dusk_valley",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s36",
+   "lines": [
+    {
+     "t": "4월 23일 밤 10시 무렵.",
+     "say": "사월 이십삼일 밤 열 시 무렵."
+    }
+   ],
+   "visual": {
+    "type": "black",
+    "text": "제3막",
+    "accent": "504고지의 혈전",
+    "accentAt": 0.4
+   },
+   "pauseBefore": 0.5,
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s37",
+   "lines": [
+    "어둠 속에서 날카로운 나팔 소리가 울려 퍼집니다.",
+    "이어서 꽹과리와 호루라기 소리가, 사방에서 터져 나오는데요."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "bugle_gong",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "chapter": {
+    "num": "제3막",
+    "title": "504고지의 혈전"
+   }
+  },
+  {
+   "id": "s38",
+   "lines": [
+    "중공군 특유의 야간 공격 신호였습니다.",
+    "어디서 몇 명이 올라오는지 알 수 없게 만드는, 공포의 소리였죠."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "나팔 · 꽹과리 · 호루라기",
+    "accent": "보이지 않는 공포",
+    "accentAt": 0.6
+   }
+  },
+  {
+   "id": "s39",
+   "lines": [
+    "병사들은 참호 속에서 숨을 죽였습니다.",
+    "조명탄이 하늘로 솟아오르자, 그제야 비탈을 가득 메운 그림자들이 드러났는데요."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "flare_slope",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s40",
+   "lines": [
+    "첫 충격은, 계곡 바닥의 전차들과 오스트레일리아 대대 본부를 덮쳤습니다.",
+    "피란민 행렬에 섞여 내려온 적이, 순식간에 도로 양옆으로 퍼진 겁니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "pass",
+    "to": "pass",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.49,
+        37.95
+       ],
+       [
+        127.505,
+        37.925
+       ],
+       [
+        127.52,
+        37.902
+       ],
+       [
+        127.527,
+        37.885
+       ],
+       [
+        127.526,
+        37.866
+       ],
+       [
+        127.519,
+        37.848
+       ],
+       [
+        127.512,
+        37.832
+       ]
+      ],
+      "color": "#f4c430",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "hq3",
+      "color": "blue",
+      "text": "대대 본부",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "tanks",
+      "color": "blue",
+      "text": "전차",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.515,
+        37.91
+       ],
+       [
+        127.522,
+        37.893
+       ],
+       [
+        127.526,
+        37.878
+       ]
+      ],
+      "color": "red",
+      "at": 0.3,
+      "width": 0.8
+     },
+     {
+      "k": "clash",
+      "p": "hq3",
+      "at": 1.0,
+      "size": 0.8
+     }
+    ],
+    "tilt": 28
+   },
+   "callouts": [
+    {
+     "text": "4. 23 밤 · 계곡 도로 기습 (개략)",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s41",
+   "lines": [
+    "대대 본부는 고지 위가 아니라, 계곡 아래 도로 가까이에 있었거든요.",
+    "적에게 가장 먼저 노출된 자리였죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "pass",
+    "to": "pass",
+    "items": [
+     {
+      "k": "unit",
+      "p": "hq3",
+      "color": "blue",
+      "text": "대대 본부",
+      "at": 0
+     },
+     {
+      "k": "lock",
+      "p": "hq3",
+      "at": 0.3,
+      "text": "노출"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s42",
+   "lines": [
+    "전차병들은 해치를 닫고, 어둠 속에서 다가오는 그림자를 향해 기관총을 쏘아 댔습니다.",
+    "몇몇 전차는 적에게 둘러싸인 채 밤을 지새웠다고 전해지는데요."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "tank_night",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s43",
+   "lines": [
+    {
+     "t": "그리고 곧, 504고지의 비탈을 따라 수백 명이 기어오르기 시작합니다.",
+     "say": "그리고 곧, 오백사 고지의 비탈을 따라 수백 명이 기어오르기 시작합니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "h504v",
+    "to": "h504v",
+    "items": [
+     {
+      "k": "obj",
+      "p": "h504",
+      "n": "504",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.545,
+        37.915
+       ],
+       [
+        127.552,
+        37.903
+       ],
+       [
+        127.556,
+        37.896
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 0.8
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.565,
+        37.915
+       ],
+       [
+        127.56,
+        37.903
+       ],
+       [
+        127.557,
+        37.897
+       ]
+      ],
+      "color": "red",
+      "at": 0.5,
+      "width": 0.8
+     }
+    ],
+    "tilt": 32
+   }
+  },
+  {
+   "id": "s44",
+   "lines": [
+    "맨 앞의 에이 중대가 그 파도를 받아냈습니다.",
+    "쏘고, 또 쏘고.",
+    "기관총 총신이 벌겋게 달아오를 때까지 말이죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "aus_mg",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s45",
+   "lines": [
+    "중공군은 한 방향에서만 오지 않았습니다.",
+    "정면을 두드리는 동시에, 작은 무리로 나뉘어 능선과 능선 사이 틈으로 스며들었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "h504v",
+    "to": "h504v",
+    "items": [
+     {
+      "k": "obj",
+      "p": "h504",
+      "n": "504",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.535,
+        37.91
+       ],
+       [
+        127.54,
+        37.898
+       ],
+       [
+        127.546,
+        37.89
+       ]
+      ],
+      "color": "red",
+      "at": 0.3,
+      "width": 0.6
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.575,
+        37.905
+       ],
+       [
+        127.568,
+        37.894
+       ],
+       [
+        127.562,
+        37.888
+       ]
+      ],
+      "color": "red",
+      "at": 0.6,
+      "width": 0.6
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.58,
+        37.885
+       ],
+       [
+        127.57,
+        37.88
+       ],
+       [
+        127.562,
+        37.882
+       ]
+      ],
+      "color": "red",
+      "at": 0.9,
+      "width": 0.6
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "틈으로 스며드는 침투 (개략)",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s46",
+   "lines": [
+    "쓰러진 자리를, 다음 대열이 밟고 올라옵니다.",
+    "진지 하나가 넘어가면, 병사들은 수류탄과 총검으로 다시 빼앗아 왔는데요."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "melee_504",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s47",
+   "lines": [
+    "비 중대는 코앞까지 밀려든 적을 향해 역습을 가했고, 디 중대는 꼭대기에서 밤새 이어진 파상공세를 막아냈습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "h504v",
+    "to": "h504v",
+    "items": [
+     {
+      "k": "obj",
+      "p": "acoy",
+      "n": "A",
+      "at": 0,
+      "text": "에이 중대"
+     },
+     {
+      "k": "obj",
+      "p": "bcoy",
+      "n": "B",
+      "at": 0.2,
+      "text": "비 중대"
+     },
+     {
+      "k": "obj",
+      "p": "dcoy",
+      "n": "D",
+      "at": 0.4,
+      "text": "디 중대"
+     },
+     {
+      "k": "clash",
+      "p": "acoy",
+      "at": 0.3,
+      "size": 0.7
+     },
+     {
+      "k": "clash",
+      "p": "dcoy",
+      "at": 0.6,
+      "size": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "id": "s48",
+   "lines": [
+    "고지 위의 무전기에서는, 밤새 다급한 목소리가 끊이지 않았습니다.",
+    "적이 또 온다, 탄약을 보내 달라, 부상병이 늘어난다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "aus_radio_night",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s49",
+   "lines": [
+    "그 와중에도 오스트레일리아 병사들은, 놀라울 만큼 침착했다고 전해집니다.",
+    {
+     "t": "상당수가 제2차 세계대전을 치른 고참들이었거든요.",
+     "say": "상당수가 제이차 세계대전을 치른 고참들이었거든요."
+    },
+    "탄약이 떨어지면 쓰러진 전우의 탄띠를 풀어 쓰고, 부상병은 서로 업어 가며 참호 뒤로 옮겼습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s49-photo"
+   },
+   "label": "오스트레일리아 왕립연대 제3대대 병사 (1951. 11)"
+  },
+  {
+   "id": "s50",
+   "lines": [
+    "새벽이 밝아올 무렵, 고지 비탈은 쓰러진 중공군으로 뒤덮여 있었습니다.",
+    "공격이 몇 번이나 되풀이됐는지, 병사들조차 셀 수 없었다고 하죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "dawn_slope",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s51",
+   "lines": [
+    "하지만 대대 역시 무사하지 않았죠.",
+    "탄약은 바닥을 보이고, 부상병은 늘어만 갔습니다."
+   ],
+   "visual": {
+    "type": "gauges",
+    "big": "4. 24 새벽 · 504고지",
+    "items": [
+     {
+      "label": "탄약",
+      "at": 0
+     },
+     {
+      "label": "부상병",
+      "at": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "id": "s52",
+   "lines": [
+    "그리고 날이 밝자, 더 무서운 사실이 드러납니다.",
+    "적은 고지 앞만이 아니라, 옆과 뒤까지 돌아 들어와 있었던 겁니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "h504v",
+    "to": "h504v",
+    "items": [
+     {
+      "k": "obj",
+      "p": "h504",
+      "n": "504",
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.538,
+        37.902
+       ],
+       [
+        127.57,
+        37.9
+       ],
+       [
+        127.575,
+        37.882
+       ],
+       [
+        127.56,
+        37.872
+       ],
+       [
+        127.535,
+        37.876
+       ],
+       [
+        127.53,
+        37.89
+       ],
+       [
+        127.538,
+        37.902
+       ]
+      ],
+      "color": "#ff3b3b",
+      "at": 0.6,
+      "glow": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.53,
+        37.87
+       ],
+       [
+        127.54,
+        37.878
+       ]
+      ],
+      "color": "red",
+      "at": 1.0,
+      "width": 0.6
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.575,
+        37.868
+       ],
+       [
+        127.566,
+        37.876
+       ]
+      ],
+      "color": "red",
+      "at": 1.2,
+      "width": 0.6
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "4. 24 아침 · 옆과 뒤로 돌아든 적 (개략)",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s53",
+   "lines": [
+    "여기서 잠시 숨을 고르겠습니다.",
+    "이렇게 잊혀 가는 전장의 기록을 끝까지 이어 갈 수 있도록, 구독 한 번으로 격전의 지도와 함께해 주시면 큰 힘이 됩니다.",
+    {
+     "t": "이제, 504고지가 사방에서 조여 오는 순간으로 들어가 보겠습니다.",
+     "say": "이제, 오백사 고지가 사방에서 조여 오는 순간으로 들어가 보겠습니다."
+    }
+   ],
+   "visual": {
+    "type": "cta",
+    "title": "격전의 기록, 함께 지켜 주십시오",
+    "at": 0
+   },
+   "pauseBefore": 0.3,
+   "sfx": [
+    {
+     "id": "pop",
+     "at": 0.3,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s54",
+   "lines": [
+    {
+     "t": "4월 24일 아침.",
+     "say": "사월 이십사일 아침."
+    },
+    {
+     "t": "504고지는, 사방이 적으로 둘러싸인 섬이 되어 있었습니다.",
+     "say": "오백사 고지는, 사방이 적으로 둘러싸인 섬이 되어 있었습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "h504v",
+    "to": "h504v",
+    "items": [
+     {
+      "k": "obj",
+      "p": "h504",
+      "n": "504",
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.538,
+        37.902
+       ],
+       [
+        127.57,
+        37.9
+       ],
+       [
+        127.575,
+        37.882
+       ],
+       [
+        127.56,
+        37.872
+       ],
+       [
+        127.535,
+        37.876
+       ],
+       [
+        127.53,
+        37.89
+       ],
+       [
+        127.538,
+        37.902
+       ]
+      ],
+      "color": "#ff3b3b",
+      "at": 0,
+      "glow": true
+     },
+     {
+      "k": "lock",
+      "p": "h504",
+      "at": 0.6,
+      "text": "완전 포위"
+     }
+    ],
+    "tilt": 30
+   },
+   "chapter": {
+    "num": "제4막",
+    "title": "360도 완전 포위"
+   }
+  },
+  {
+   "id": "s55",
+   "lines": [
+    "고지 아래 도로는 이미 적의 손에 들어갔고, 보급도, 증원도 올라올 수 없는 상황이었죠.",
+    "대대 본부는 이미 밤사이 뒤쪽으로 물러나 있었고, 고지 위의 중대들은 무전 하나에 의지해 버티고 있었는데요."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "pass",
+    "to": "pass",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.49,
+        37.95
+       ],
+       [
+        127.505,
+        37.925
+       ],
+       [
+        127.52,
+        37.902
+       ],
+       [
+        127.527,
+        37.885
+       ],
+       [
+        127.526,
+        37.866
+       ],
+       [
+        127.519,
+        37.848
+       ],
+       [
+        127.512,
+        37.832
+       ]
+      ],
+      "color": "#ff3b3b",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.528,
+        37.872
+       ],
+       [
+        127.522,
+        37.862
+       ],
+       [
+        127.518,
+        37.855
+       ]
+      ],
+      "color": "blue",
+      "at": 0.6,
+      "width": 0.7
+     },
+     {
+      "k": "unit",
+      "p": "mx",
+      "color": "blue",
+      "text": "미들섹스",
+      "at": 0.6
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "끊긴 도로 · 대대 본부 후퇴 (개략)",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s56",
+   "lines": [
+    "이때 계곡 바닥에서 버팀목이 되어 준 것이, 미군 셔먼 전차들이었습니다.",
+    "전차들은 도로를 오르내리며 비탈의 적을 향해 포를 쏘고, 부상병을 실어 날랐죠.",
+    "좁은 계곡 도로 위에서, 전차 몇 대가 밤새 적의 침투를 온몸으로 막아낸 겁니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s56-photo"
+   },
+   "label": "미 제72전차대대 셔먼 전차 (한국전쟁)"
+  },
+  {
+   "id": "s57",
+   "lines": [
+    "그리고 그 뒤에서는, 뉴질랜드 포병이 쉬지 않고 불을 뿜었습니다.",
+    {
+     "t": "제16포병연대의 대포는 24문.",
+     "say": "제십육포병연대의 대포는 스물네 문."
+    },
+    "포신이 달아올라, 사수들이 물을 끼얹어 가며 쏠 정도였다고 전해지는데요."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s57-photo"
+   },
+   "label": "영연방 25파운더 포진지에 포탄 보급 (1952)"
+  },
+  {
+   "id": "s58",
+   "lines": [
+    "포병 관측장교들은 고지 위에서 적의 움직임을 지켜보며, 좌표를 불러 주었습니다.",
+    "몇 분 뒤, 그 좌표 위로 포탄이 쏟아졌죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "valley",
+    "to": "valley",
+    "items": [
+     {
+      "k": "unit",
+      "p": "nz",
+      "color": "blue",
+      "text": "뉴질랜드 포병",
+      "at": 0
+     },
+     {
+      "k": "radar",
+      "p": "nz",
+      "at": 0,
+      "size": 0.7,
+      "color": "#00E5FF",
+      "text": "사격 원점"
+     },
+     {
+      "k": "shock",
+      "pts": [
+       [
+        127.552,
+        37.9
+       ],
+       [
+        127.562,
+        37.893
+       ],
+       [
+        127.545,
+        37.905
+       ]
+      ],
+      "at": 1.0,
+      "period": 0.9
+     }
+    ]
+   },
+   "hudCta": {
+    "at": 0,
+    "dur": 7.5
+   },
+   "callouts": [
+    {
+     "text": "뉴질랜드 제16포병연대 탄막 (개략)",
+     "style": "blue",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s59",
+   "lines": [
+    "고지 앞으로 몰려드는 적의 대열 위에, 포탄이 정확히 내리꽂힙니다.",
+    "오스트레일리아 병사들이 버틸 수 있었던, 단 하나의 숨구멍이었죠.",
+    "보병이 버티는 시간만큼, 포병이 적을 깎아 내고 있었던 겁니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "h504v",
+    "to": "h504v",
+    "items": [
+     {
+      "k": "obj",
+      "p": "h504",
+      "n": "504",
+      "at": 0
+     },
+     {
+      "k": "shock",
+      "pts": [
+       [
+        127.552,
+        37.905
+       ],
+       [
+        127.565,
+        37.896
+       ],
+       [
+        127.545,
+        37.9
+       ],
+       [
+        127.57,
+        37.885
+       ]
+      ],
+      "at": 0,
+      "period": 0.8
+     }
+    ],
+    "tilt": 30
+   }
+  },
+  {
+   "id": "s60",
+   "lines": [
+    "하지만 오후가 되자, 버크 준장은 결단을 내립니다.",
+    "더 버티면 대대 전체가 갇힌다.",
+    "지금 물러나야 한다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "지금 물러나야 한다",
+    "accent": "버크 준장의 결단",
+    "accentAt": 0.6
+   }
+  },
+  {
+   "id": "s61",
+   "lines": [
+    "그대로 남아 있으면, 대대는 탄약이 떨어지는 순간 하나씩 무너질 수밖에 없었습니다.",
+    "문제는 방법이었습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "ammo_low",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s62",
+   "lines": [
+    "적에게 둘러싸인 채 물러나는 것은, 전쟁에서 가장 어려운 일 가운데 하나거든요.",
+    "자칫하면 철수가 아니라, 붕괴가 됩니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "포위 속 철수",
+    "style": "red",
+    "sub": "전쟁에서 가장 어려운 작전",
+    "subAt": 0.6
+   }
+  },
+  {
+   "id": "s63",
+   "lines": [
+    "부상병을 업고, 들것을 메고, 무거운 무전기를 짊어진 채 비탈을 내려와야 했습니다.",
+    "적의 기관총은, 그 능선을 향해 끊임없이 불을 뿜고 있었죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "stretcher_descent",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s64",
+   "lines": [
+    "퍼거슨 중령은 중대를 하나씩, 차례로 빼내기로 합니다.",
+    "한 중대가 물러나는 동안, 다른 중대가 사격으로 엄호하는 방식이었는데요."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "h504v",
+    "to": "h504v",
+    "items": [
+     {
+      "k": "obj",
+      "p": "acoy",
+      "n": "A",
+      "at": 0
+     },
+     {
+      "k": "obj",
+      "p": "bcoy",
+      "n": "B",
+      "at": 0
+     },
+     {
+      "k": "obj",
+      "p": "dcoy",
+      "n": "D",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.541,
+        37.899
+       ],
+       [
+        127.535,
+        37.888
+       ],
+       [
+        127.53,
+        37.878
+       ]
+      ],
+      "color": "blue",
+      "at": 0.3,
+      "width": 0.6
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.556,
+        37.896
+       ],
+       [
+        127.547,
+        37.884
+       ],
+       [
+        127.535,
+        37.874
+       ]
+      ],
+      "color": "blue",
+      "at": 0.8,
+      "width": 0.6
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.562,
+        37.886
+       ],
+       [
+        127.55,
+        37.876
+       ],
+       [
+        127.537,
+        37.868
+       ]
+      ],
+      "color": "blue",
+      "at": 1.3,
+      "width": 0.6
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "중대별 차례 철수 (개략)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s65",
+   "lines": [
+    "물러나는 길도 문제였습니다.",
+    "도로는 적에게 막혀 있었으니, 능선을 타고 내려가 계곡을 건너는 수밖에 없었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "h504v",
+    "to": "pass",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.49,
+        37.95
+       ],
+       [
+        127.505,
+        37.925
+       ],
+       [
+        127.52,
+        37.902
+       ],
+       [
+        127.527,
+        37.885
+       ],
+       [
+        127.526,
+        37.866
+       ],
+       [
+        127.519,
+        37.848
+       ],
+       [
+        127.512,
+        37.832
+       ]
+      ],
+      "color": "#ff3b3b",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.556,
+        37.892
+       ],
+       [
+        127.545,
+        37.878
+       ],
+       [
+        127.53,
+        37.865
+       ],
+       [
+        127.52,
+        37.857
+       ]
+      ],
+      "color": "blue",
+      "at": 0.5,
+      "width": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "id": "s66",
+   "lines": [
+    "해가 기울 무렵, 마지막 중대가 능선을 따라 내려옵니다.",
+    "포병의 탄막이, 그 길을 가려 주었죠.",
+    "중공군은 끈질기게 뒤를 쫓았지만, 대대는 끝내 흩어지지 않았습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "withdraw_smoke",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s67",
+   "lines": [
+    "그날 밤, 오스트레일리아 대대는 미들섹스 대대의 진지 뒤편으로 빠져나갑니다.",
+    "무너지지 않고, 끝까지 질서를 지킨 채로 말이죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "pass",
+    "to": "pass",
+    "items": [
+     {
+      "k": "unit",
+      "p": "mx",
+      "color": "blue",
+      "text": "미들섹스 대대",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.535,
+        37.868
+       ],
+       [
+        127.525,
+        37.86
+       ],
+       [
+        127.516,
+        37.852
+       ]
+      ],
+      "color": "blue",
+      "at": 0.3,
+      "width": 0.8
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "4. 24 밤 · 호주 대대 철수 완료",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s68",
+   "lines": [
+    {
+     "t": "그 이틀 동안 대대는 30명이 넘는 전우를 잃었지만, 고지를 내줄 때조차 적에게 등을 보이지 않았던 겁니다.",
+     "say": "그 이틀 동안 대대는 서른 명이 넘는 전우를 잃었지만, 고지를 내줄 때조차 적에게 등을 보이지 않았던 겁니다."
+    }
+   ],
+   "visual": {
+    "type": "quotes",
+    "title": "오스트레일리아 제3대대",
+    "items": [
+     {
+      "text": "질서를 지킨 철수",
+      "at": 0
+     },
+     {
+      "text": "적에게 등을 보이지 않은 대대",
+      "at": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "id": "s69",
+   "lines": [
+    {
+     "t": "그런데 504고지가 비자, 적의 눈길은 이제 단 한 곳으로 쏠립니다.",
+     "say": "그런데 오백사 고지가 비자, 적의 눈길은 이제 단 한 곳으로 쏠립니다."
+    },
+    {
+     "t": "계곡 건너편, 677고지였습니다.",
+     "say": "계곡 건너편, 육백칠십칠 고지였습니다."
+    },
+    "그리고 그 고지 위에서, 이 전투의 가장 긴 밤이 시작됩니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "valley",
+    "to": "h677v",
+    "items": [
+     {
+      "k": "obj",
+      "p": "h677",
+      "n": "677",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.545,
+        37.9
+       ],
+       [
+        127.53,
+        37.9
+       ],
+       [
+        127.515,
+        37.895
+       ]
+      ],
+      "color": "red",
+      "at": 0.4,
+      "width": 0.9
+     },
+     {
+      "k": "lock",
+      "p": "h677",
+      "at": 1.2,
+      "text": "다음 목표"
+     }
+    ],
+    "tilt": 26
+   }
+  },
+  {
+   "id": "s70",
+   "lines": [
+    {
+     "t": "4월 24일 밤.",
+     "say": "사월 이십사일 밤."
+    }
+   ],
+   "visual": {
+    "type": "black",
+    "text": "제5막",
+    "accent": "677고지의 사투",
+    "accentAt": 0.4
+   },
+   "pauseBefore": 0.5,
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s71",
+   "lines": [
+    {
+     "t": "677고지의 캐나다 대대는, 이제 홀로 남았습니다.",
+     "say": "육백칠십칠 고지의 캐나다 대대는, 이제 홀로 남았습니다."
+    },
+    "동쪽의 오스트레일리아군은 빠져나갔고, 뒤쪽 보급로마저 적에게 끊겼거든요."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "h677v",
+    "to": "h677v",
+    "items": [
+     {
+      "k": "unit",
+      "p": [
+       127.497,
+       37.886
+      ],
+      "color": "blue",
+      "text": "캐나다 제2대대",
+      "at": 0,
+      "pulse": true
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.48,
+        37.896
+       ],
+       [
+        127.512,
+        37.9
+       ],
+       [
+        127.516,
+        37.878
+       ],
+       [
+        127.5,
+        37.866
+       ],
+       [
+        127.48,
+        37.87
+       ],
+       [
+        127.474,
+        37.884
+       ],
+       [
+        127.48,
+        37.896
+       ]
+      ],
+      "color": "#ff3b3b",
+      "at": 0.6,
+      "glow": true
+     }
+    ],
+    "tilt": 30
+   },
+   "chapter": {
+    "num": "제5막",
+    "title": "677고지의 사투"
+   }
+  },
+  {
+   "id": "s72",
+   "lines": [
+    "그야말로 사면초가였습니다.",
+    "적은 이제 남은 힘을 모두, 이 고지 하나에 쏟아부을 수 있게 됐으니까요."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "canada_alone",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s73",
+   "lines": [
+    "스톤 중령은 이 상황을 미리 내다보고 있었습니다.",
+    "그는 대대를 고지 위에 둥글게 모아, 어느 방향에서 적이 와도 맞설 수 있는 진지를 짰는데요.",
+    "탄약과 식량을 미리 고지 위로 끌어올려 두었고, 박격포와 기관총이 서로 겹쳐 쏠 수 있도록 자리를 잡아 두었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "h677v",
+    "to": "h677v",
+    "items": [
+     {
+      "k": "obj",
+      "p": "pa",
+      "n": "A",
+      "at": 0
+     },
+     {
+      "k": "obj",
+      "p": "pb",
+      "n": "B",
+      "at": 0.2
+     },
+     {
+      "k": "obj",
+      "p": "pc",
+      "n": "C",
+      "at": 0.4
+     },
+     {
+      "k": "obj",
+      "p": "pd",
+      "n": "D",
+      "at": 0.6
+     },
+     {
+      "k": "badge",
+      "p": "h677",
+      "text": "사방 방어 진지",
+      "color": "blue",
+      "at": 1.2,
+      "dy": -70
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "캐나다 대대 원형 방어 (개략)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s74",
+   "lines": [
+    {
+     "t": "스톤 중령은 제2차 세계대전 때 이탈리아와 네덜란드에서 싸운, 산전수전 다 겪은 지휘관이었습니다.",
+     "say": "스톤 중령은 제이차 세계대전 때 이탈리아와 네덜란드에서 싸운, 산전수전 다 겪은 지휘관이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "스톤 중령",
+    "style": "yellow",
+    "sub": "캐나다 제2대대장 · 제2차 세계대전 참전 지휘관",
+    "subAt": 0.5
+   }
+  },
+  {
+   "id": "s75",
+   "lines": [
+    {
+     "t": "밤 10시가 넘어, 첫 공격이 비 중대를 덮쳤습니다.",
+     "say": "밤 열 시가 넘어, 첫 공격이 비 중대를 덮쳤습니다."
+    },
+    "진지 일부가 밀렸지만, 병사들은 곧 자리를 되찾았죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "h677v",
+    "to": "h677v",
+    "items": [
+     {
+      "k": "obj",
+      "p": "pb",
+      "n": "B",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.51,
+        37.905
+       ],
+       [
+        127.505,
+        37.897
+       ],
+       [
+        127.502,
+        37.893
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 0.7
+     },
+     {
+      "k": "clash",
+      "p": "pb",
+      "at": 0.6,
+      "size": 0.7
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "4. 24 밤 10시 · 비 중대 피격",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s76",
+   "lines": [
+    "적은 고지 뒤쪽, 대대 본부 근처까지 돌아 들어와 공격을 가했습니다.",
+    "그러나 미리 맞춰 둔 박격포와 기관총의 사격 구역 안으로, 적은 스스로 걸어 들어온 셈이었는데요."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "h677v",
+    "to": "h677v",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.49,
+        37.86
+       ],
+       [
+        127.494,
+        37.868
+       ],
+       [
+        127.496,
+        37.874
+       ]
+      ],
+      "color": "red",
+      "at": 0,
+      "width": 0.7
+     },
+     {
+      "k": "shock",
+      "pts": [
+       [
+        127.495,
+        37.87
+       ],
+       [
+        127.49,
+        37.866
+       ]
+      ],
+      "at": 0.8,
+      "period": 0.8
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "고지 뒤쪽 침투 · 사격 구역 (개략)",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s77",
+   "lines": [
+    "진짜 위기는, 자정을 넘기면서 찾아옵니다.",
+    "고지 서쪽 능선을 지키던 디 중대 앞으로, 중공군이 새카맣게 몰려든 겁니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "h677v",
+    "to": "h677v",
+    "items": [
+     {
+      "k": "obj",
+      "p": "pd",
+      "n": "D",
+      "at": 0,
+      "text": "디 중대"
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.47,
+        37.895
+       ],
+       [
+        127.478,
+        37.889
+       ],
+       [
+        127.485,
+        37.885
+       ]
+      ],
+      "color": "red",
+      "at": 0.4,
+      "width": 0.8
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.47,
+        37.878
+       ],
+       [
+        127.478,
+        37.882
+       ],
+       [
+        127.485,
+        37.884
+       ]
+      ],
+      "color": "red",
+      "at": 0.7,
+      "width": 0.8
+     }
+    ],
+    "tilt": 32
+   }
+  },
+  {
+   "id": "s78",
+   "lines": [
+    "참호와 참호 사이로 적이 뛰어들고, 총검과 수류탄이 오가는 백병전이 벌어졌습니다.",
+    "소대 하나가 통째로 휩쓸릴 위기였는데요."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "melee_677",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s79",
+   "lines": [
+    "무전기 너머로 들려오는 보고는 다급했습니다.",
+    "적이 이미 참호 안까지 들어와 있다는 내용이었죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "radio_urgent",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s80",
+   "lines": [
+    "그때 디 중대장 밀스 대위가 무전기를 잡습니다.",
+    "그리고 포병에게, 이렇게 요청하죠.",
+    "지금 우리 진지 위로, 포탄을 쏴 달라."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "mills_radio",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s81",
+   "lines": [
+    "아군 머리 위로 포를 쏘는 것.",
+    "이른바 진내사격입니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "진내사격",
+    "accent": "아군 진지 위로 포탄을",
+    "accentAt": 0.6
+   },
+   "pauseBefore": 0.3,
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s82",
+   "lines": [
+    "병사들은 참호 바닥에 몸을 바짝 붙인 채, 머리 위로 쏟아지는 포탄을 견뎌야 했습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "trench_shelter",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s83",
+   "lines": [
+    "자칫 포탄 하나만 빗나가도, 아군이 아군을 죽이는 일이 벌어질 수 있었습니다.",
+    "포병을 끝까지 믿지 않고서는, 결코 내릴 수 없는 요청이었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "valley",
+    "to": "h677v",
+    "items": [
+     {
+      "k": "radar",
+      "p": "nz",
+      "at": 0,
+      "size": 0.6,
+      "color": "#00E5FF",
+      "text": "포병"
+     },
+     {
+      "k": "lock",
+      "p": "pd",
+      "at": 0.8,
+      "text": "디 중대 진지"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s84",
+   "lines": [
+    "한 번이 아니었습니다.",
+    "밀스 대위는 그날 새벽, 몇 차례나 같은 요청을 되풀이했다고 전해지는데요.",
+    "포탄이 떨어질 때마다 땅이 흔들리고, 참호 벽의 흙이 병사들의 등 위로 쏟아져 내렸습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "h677v",
+    "to": "h677v",
+    "items": [
+     {
+      "k": "obj",
+      "p": "pd",
+      "n": "D",
+      "at": 0
+     },
+     {
+      "k": "shock",
+      "pts": [
+       [
+        127.488,
+        37.884
+       ],
+       [
+        127.484,
+        37.887
+       ],
+       [
+        127.491,
+        37.881
+       ],
+       [
+        127.482,
+        37.882
+       ]
+      ],
+      "at": 0,
+      "period": 0.7
+     }
+    ],
+    "tilt": 30
+   },
+   "callouts": [
+    {
+     "text": "4. 25 새벽 · 디 중대 진내사격 (개략)",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s85",
+   "lines": [
+    "포탄이 능선 위에서 터지는 순간, 참호 밖에 서 있던 적은 그대로 쓸려 나갔습니다.",
+    "반면 참호 깊숙이 엎드린 캐나다 병사들은, 대부분 살아남았죠.",
+    "그 결단이 없었다면, 디 중대는 그날 밤 통째로 사라졌을지도 모릅니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "shells_ridge",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s86",
+   "lines": [
+    "자기 머리 위로 포탄을 부르는 결단.",
+    "그것은 절망이 아니라, 끝까지 고지를 지키겠다는 계산된 선택이었습니다."
+   ],
+   "visual": {
+    "type": "quotes",
+    "title": "밀스 대위의 결단",
+    "items": [
+     {
+      "text": "지금 우리 진지 위로",
+      "at": 0
+     },
+     {
+      "text": "절망이 아닌, 계산된 선택",
+      "at": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "s87",
+   "lines": [
+    "그리고 동이 틀 무렵, 디 중대 진지 앞에는 차가운 침묵만이 남아 있었습니다.",
+    {
+     "t": "그 고요 속에서도, 677고지는 여전히 캐나다 병사들의 손에 있었습니다.",
+     "say": "그 고요 속에서도, 육백칠십칠 고지는 여전히 캐나다 병사들의 손에 있었습니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "dawn_677",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s88",
+   "lines": [
+    {
+     "t": "4월 25일 아침.",
+     "say": "사월 이십오일 아침."
+    },
+    "고립된 캐나다 대대에는, 탄약도 식량도 거의 남아 있지 않았습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "dawn_supply_wait",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "chapter": {
+    "num": "제6막",
+    "title": "전선의 붕괴를 막다"
+   }
+  },
+  {
+   "id": "s89",
+   "lines": [
+    "그때 하늘에서 수송기들이 나타납니다.",
+    "낙하산에 매달린 보급품이, 고지 위로 하나둘 떨어져 내렸는데요."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s89-photo"
+   },
+   "label": "C-119 수송기 공중 투하 (1950. 10)"
+  },
+  {
+   "id": "s90",
+   "lines": [
+    "탄약과 식량, 그리고 물.",
+    "고립된 병사들에게는 생명줄이었죠.",
+    "병사들은 떨어진 상자를 끌어 모아, 탄약부터 진지 곳곳으로 나눠 날랐습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "crates",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s91",
+   "lines": [
+    "그런데 이상한 일이 벌어집니다.",
+    "그토록 끈질기던 적의 공격이, 더 이상 이어지지 않는 겁니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "멈춰 선 공격",
+    "accent": "1951. 4. 25",
+    "accentAt": 0.6
+   }
+  },
+  {
+   "id": "s92",
+   "lines": [
+    "적이 아예 사라진 것은 아니었습니다.",
+    "고지 아래 골짜기에는, 지친 중공군 무리가 여전히 웅크리고 있었죠.",
+    "하지만 그들에게는, 다시 고지를 오를 힘이 남아 있지 않았습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "exhausted_cpv",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s93",
+   "lines": [
+    {
+     "t": "중공군 제118사단은, 이틀 밤 동안 두 고지에 병력을 쏟아붓고도 끝내 계곡을 뚫지 못했습니다.",
+     "say": "중공군 제백십팔사단은, 이틀 밤 동안 두 고지에 병력을 쏟아붓고도 끝내 계곡을 뚫지 못했습니다."
+    },
+    {
+     "t": "사상자는 1,000명이 넘는 것으로 추정되는데요.",
+     "say": "사상자는 천 명이 넘는 것으로 추정되는데요."
+    },
+    "영연방 여단의 손실은, 그에 비하면 훨씬 적었습니다."
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "중공군 사상자는 추정 (기록마다 다름) · 영연방은 두 보병대대 전사자",
+    "items": [
+     {
+      "label": "중공군 사상자 추정",
+      "value": 1000,
+      "display": "1천 명 이상",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "label": "호주·캐나다 대대 전사",
+      "value": 42,
+      "display": "42명",
+      "color": "blue",
+      "at": 2.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "s94",
+   "lines": [
+    "게다가 이들은, 병사가 등에 지고 온 며칠 치 식량과 탄약으로 싸우는 군대였거든요.",
+    "그 며칠이 다하자, 공세는 스스로 멈춰 설 수밖에 없었습니다.",
+    "이른바 공세 종말점에 다다른 거죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "공세 종말점",
+    "style": "red",
+    "sub": "등에 지고 온 며칠 치 보급이 끝나다",
+    "subAt": 0.8
+   }
+  },
+  {
+   "id": "s95",
+   "lines": [
+    "이틀 밤의 혈전 끝에, 그토록 거세던 파도가 마침내 바위에 부딪혀 부서진 겁니다.",
+    {
+     "t": "실제로 중공군 제118사단은 이 전투 이후, 가평 방면에서 더 이상 남쪽으로 내려오지 못했습니다.",
+     "say": "실제로 중공군 제백십팔사단은 이 전투 이후, 가평 방면에서 더 이상 남쪽으로 내려오지 못했습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "valley",
+    "to": "valley",
+    "items": [
+     {
+      "k": "obj",
+      "p": "h677",
+      "n": "677",
+      "at": 0
+     },
+     {
+      "k": "obj",
+      "p": "h504",
+      "n": "504",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.505,
+        37.93
+       ],
+       [
+        127.515,
+        37.905
+       ]
+      ],
+      "color": "red",
+      "at": 0,
+      "width": 1.0
+     },
+     {
+      "k": "lock",
+      "p": [
+       127.517,
+       37.9
+      ],
+      "at": 0.6,
+      "text": "진격 차단"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s96",
+   "lines": [
+    "그날 오후, 끊겼던 도로가 다시 열리고, 캐나다 대대를 옥죄던 포위도 풀립니다.",
+    "이틀 밤 내내 참호를 지킨 병사들은, 그제야 처음으로 무거운 철모를 벗을 수 있었습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "helmet_off",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s97",
+   "lines": [
+    "가평 계곡이 버텨 준 덕분에, 유엔군은 서울 북쪽에 새 방어선을 그을 시간을 벌었습니다.",
+    "서부 전선이 등 뒤를 내주는 최악의 상황은, 그렇게 막아낸 거죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "axis",
+    "to": "axis",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.7,
+        37.68
+       ],
+       [
+        126.9,
+        37.7
+       ],
+       [
+        127.1,
+        37.72
+       ],
+       [
+        127.3,
+        37.76
+       ],
+       [
+        127.45,
+        37.8
+       ],
+       [
+        127.6,
+        37.83
+       ]
+      ],
+      "color": "#00E5FF",
+      "at": 0.2,
+      "glow": true
+     },
+     {
+      "k": "badge",
+      "p": [
+       127.15,
+       37.72
+      ],
+      "text": "서울 북방 새 방어선",
+      "color": "blue",
+      "at": 0.8,
+      "dy": 60
+     },
+     {
+      "k": "marker",
+      "p": "seoul",
+      "color": "blue",
+      "at": 0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1951. 4 말 · 서울 북방 방어선 (개략)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s98",
+   "lines": [
+    "임진강의 글로스터 대대가 서쪽 문을 지켰다면, 가평의 영연방 여단은 동쪽 문을 지켜낸 셈입니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "axis",
+    "to": "axis",
+    "items": [
+     {
+      "k": "badge",
+      "p": "imjin",
+      "text": "서쪽 문 · 임진강",
+      "color": "blue",
+      "at": 0,
+      "dy": -60
+     },
+     {
+      "k": "badge",
+      "p": "gapyeong",
+      "text": "동쪽 문 · 가평",
+      "color": "blue",
+      "at": 0.4,
+      "dy": -60
+     },
+     {
+      "k": "marker",
+      "p": "seoul",
+      "color": "blue",
+      "at": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "s99",
+   "lines": [
+    "춘계 대공세는 그렇게, 서울 문턱에서 힘을 잃어 갑니다.",
+    {
+     "t": "중공군은 서울을 손에 넣지 못한 채, 4월 말 공세를 멈출 수밖에 없었는데요.",
+     "say": "중공군은 서울을 손에 넣지 못한 채, 사월 말 공세를 멈출 수밖에 없었는데요."
+    }
+   ],
+   "visual": {
+    "type": "timeline",
+    "items": [
+     {
+      "date": "4. 22",
+      "text": "춘계 공세",
+      "at": 0
+     },
+     {
+      "date": "4. 23",
+      "text": "504고지 혈전",
+      "at": 0.3
+     },
+     {
+      "date": "4. 24",
+      "text": "호주군 철수",
+      "at": 0.6
+     },
+     {
+      "date": "4. 25",
+      "text": "677고지 사수",
+      "at": 0.9
+     },
+     {
+      "date": "4월 말",
+      "text": "공세 중지",
+      "at": 1.3
+     }
+    ]
+   }
+  },
+  {
+   "id": "s100",
+   "lines": [
+    "대가는 결코 가볍지 않았습니다.",
+    {
+     "t": "오스트레일리아 대대에서는 32명이 전사하고, 59명이 다쳤습니다.",
+     "say": "오스트레일리아 대대에서는 서른두 명이 전사하고, 쉰아홉 명이 다쳤습니다."
+    },
+    {
+     "t": "캐나다 대대에서도 10명이 전사하고, 23명이 부상을 입었는데요.",
+     "say": "캐나다 대대에서도 열 명이 전사하고, 스물세 명이 부상을 입었는데요."
+    }
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "오스트레일리아 전쟁기념관 · 캐나다 측 기록 기준",
+    "items": [
+     {
+      "label": "호주 3대대 전사",
+      "value": 32,
+      "display": "32명",
+      "color": "blue",
+      "at": 1.0
+     },
+     {
+      "label": "호주 3대대 부상",
+      "value": 59,
+      "display": "59명",
+      "color": "blue",
+      "at": 1.3
+     },
+     {
+      "label": "캐나다 2대대 전사",
+      "value": 10,
+      "display": "10명",
+      "color": "red",
+      "at": 2.0
+     },
+     {
+      "label": "캐나다 2대대 부상",
+      "value": 23,
+      "display": "23명",
+      "color": "red",
+      "at": 2.3
+     }
+    ]
+   }
+  },
+  {
+   "id": "s101",
+   "lines": [
+    "미군 전차병과 뉴질랜드 포병, 영국 미들섹스 대대에서도 희생자가 나왔습니다.",
+    "그들 한 사람 한 사람이, 서울로 가는 길 위에 쌓인 벽돌이었던 셈이죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "helmets_row",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s102",
+   "lines": [
+    {
+     "t": "그해 미국 대통령은, 오스트레일리아 제3대대와 캐나다 제2대대, 그리고 미군 전차 중대에 대통령 부대표창을 수여합니다.",
+     "say": "그해 미국 대통령은, 오스트레일리아 제삼대대와 캐나다 제이대대, 그리고 미군 전차 중대에 대통령 부대표창을 수여합니다."
+    },
+    "외국 부대로서는 매우 드문, 최고의 영예였죠."
+   ],
+   "visual": {
+    "type": "document",
+    "org": "미국 대통령",
+    "head": "대통령 부대표창",
+    "stamp": "1951",
+    "rows": [
+     "오스트레일리아 왕립연대 제3대대",
+     "캐나다 프린세스 패트리샤 경보병연대 제2대대",
+     "미 제72전차대대 에이 중대"
+    ],
+    "note": "수여 부대 · 재구성 화면"
+   }
+  },
+  {
+   "id": "s103",
+   "lines": [
+    "표창장에는, 압도적인 적 앞에서 보여 준 비범한 용기와 결의를 기린다는 내용이 담겼습니다.",
+    "다섯 배의 적을 막아선 이틀 밤이, 공식 기록으로 남게 된 거죠."
+   ],
+   "visual": {
+    "type": "quotes",
+    "title": "표창장이 기린 것",
+    "items": [
+     {
+      "text": "압도적인 적 앞의 비범한 용기",
+      "at": 0
+     },
+     {
+      "text": "다섯 배의 적을 막아선 이틀 밤",
+      "at": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "s104",
+   "lines": [
+    "다섯 배에 이르는 적."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "제7막",
+    "accent": "가평의 기적",
+    "accentAt": 0.4
+   },
+   "pauseBefore": 0.5,
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s105",
+   "lines": [
+    "준비할 시간도 없던 진지.",
+    "그리고 사방이 막힌 계곡."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "valley_sunset",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "chapter": {
+    "num": "제7막",
+    "title": "에필로그 · 가평의 기적"
+   }
+  },
+  {
+   "id": "s106",
+   "lines": [
+    "모든 조건이 불리했던 이 싸움을, 영연방 병사들은 어떻게 뒤집을 수 있었을까요."
+   ],
+   "visual": {
+    "type": "factors",
+    "head": "다섯 배의 열세, 어떻게 뒤집었나",
+    "items": [
+     "지형",
+     "포병",
+     "침착함",
+     "하나 된 힘"
+    ],
+    "at": 0
+   }
+  },
+  {
+   "id": "s107",
+   "lines": [
+    "첫째는 지형이었습니다.",
+    "두 고지가 골짜기 양쪽 기둥을 쥐고 있는 한, 적은 아래 도로로 마음 놓고 내려갈 수 없었거든요."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "valley",
+    "to": "valley",
+    "items": [
+     {
+      "k": "obj",
+      "p": "h677",
+      "n": "677",
+      "at": 0
+     },
+     {
+      "k": "obj",
+      "p": "h504",
+      "n": "504",
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.49,
+        37.95
+       ],
+       [
+        127.505,
+        37.925
+       ],
+       [
+        127.52,
+        37.902
+       ],
+       [
+        127.527,
+        37.885
+       ],
+       [
+        127.526,
+        37.866
+       ],
+       [
+        127.519,
+        37.848
+       ],
+       [
+        127.512,
+        37.832
+       ]
+      ],
+      "color": "#f4c430",
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": [
+       127.522,
+       37.905
+      ],
+      "text": "첫째 · 지형",
+      "color": "blue",
+      "at": 0,
+      "dy": -50
+     }
+    ],
+    "tilt": 28
+   }
+  },
+  {
+   "id": "s108",
+   "lines": [
+    "둘째는 포병이었습니다.",
+    {
+     "t": "뉴질랜드 포병의 정확한 탄막이 없었다면, 504고지의 철수도, 677고지의 진내사격도 불가능했겠죠.",
+     "say": "뉴질랜드 포병의 정확한 탄막이 없었다면, 오백사 고지의 철수도, 육백칠십칠 고지의 진내사격도 불가능했겠죠."
+    },
+    {
+     "t": "이틀 동안 쉬지 않고 불을 뿜은 24문의 대포는, 보병 수천 명 몫의 일을 해낸 셈이었습니다.",
+     "say": "이틀 동안 쉬지 않고 불을 뿜은 스물네 문의 대포는, 보병 수천 명 몫의 일을 해낸 셈이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "valley",
+    "to": "valley",
+    "items": [
+     {
+      "k": "radar",
+      "p": "nz",
+      "at": 0,
+      "size": 0.7,
+      "color": "#00E5FF",
+      "text": "둘째 · 포병"
+     },
+     {
+      "k": "shock",
+      "pts": [
+       [
+        127.552,
+        37.9
+       ],
+       [
+        127.488,
+        37.884
+       ]
+      ],
+      "at": 0.5,
+      "period": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "id": "s109",
+   "lines": [
+    "셋째는 침착함이었습니다.",
+    "포위 속에서도 질서를 잃지 않은 철수, 그리고 자기 머리 위로 포탄을 부른 결단."
+   ],
+   "visual": {
+    "type": "quotes",
+    "title": "셋째 · 침착함",
+    "items": [
+     {
+      "text": "포위 속에서도 질서 있는 철수",
+      "at": 0
+     },
+     {
+      "text": "자기 머리 위로 부른 포탄",
+      "at": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "s110",
+   "lines": [
+    "넷째는 하나 된 힘이었습니다.",
+    "서로 다른 나라에서 온 병사들이, 한 몸처럼 움직였거든요.",
+    "오스트레일리아 보병이 버티면 뉴질랜드 포병이 쏘고, 미군 전차가 길을 열었죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "four_nations",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s111",
+   "lines": [
+    "이 네 가지 가운데 하나라도 빠졌다면, 가평 계곡은 그날 밤 무너졌을지도 모릅니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "하나라도 빠졌다면",
+    "accent": "무너졌을 계곡",
+    "accentAt": 0.6
+   }
+  },
+  {
+   "id": "s112",
+   "lines": [
+    {
+     "t": "지금도 오스트레일리아와 캐나다에서는, 해마다 4월이 오면 가평을 기억합니다.",
+     "say": "지금도 오스트레일리아와 캐나다에서는, 해마다 사월이 오면 가평을 기억합니다."
+    },
+    {
+     "t": "오스트레일리아 군은 지금도 4월 24일을, 가평의 날로 기리고 있죠.",
+     "say": "오스트레일리아 군은 지금도 사월 이십사일을, 가평의 날로 기리고 있죠."
+    },
+    "캐나다에는 한때, 가평이라는 이름을 딴 병영이 있었을 정도인데요."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s112-photo"
+   },
+   "label": "가평 전투 75주년 · 오스트레일리아군 (2026. 4)"
+  },
+  {
+   "id": "s113",
+   "lines": [
+    "가평 읍내 가까이에는 지금도, 이들을 기리는 기념비들이 서 있습니다.",
+    "해마다 먼 나라의 노병과 가족들이 찾아와, 이 계곡을 향해 꽃을 바친다고 하죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s113-photo"
+   },
+   "label": "가평 전투 75주년 추모식 · 참전 노병 (2026. 4)"
+  },
+  {
+   "id": "s114",
+   "lines": [
+    "머나먼 남반구와 북미 대륙에서 온 청년들이, 이름조차 낯선 이 계곡에서 서울로 가는 길을 지켜낸 겁니다.",
+    "이것이 바로, 가평의 기적이죠."
+   ],
+   "visual": {
+    "type": "quotes",
+    "title": "가평의 기적",
+    "items": [
+     {
+      "text": "남반구와 북미 대륙에서 온 청년들",
+      "at": 0
+     },
+     {
+      "text": "서울로 가는 길을 지켜내다",
+      "at": 0.6
+     }
+    ]
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s115",
+   "lines": [
+    "숫자로는 질 수밖에 없던 싸움.",
+    "그 싸움을 뒤집은 것은, 결국 사람이었습니다.",
+    "끝까지 자리를 지킨 사람들, 그리고 서로를 믿은 사람들 말이죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "veterans",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s116",
+   "lines": [
+    "다음 편에서는, 또 하나의 고지로 향합니다.",
+    {
+     "t": "휴전을 눈앞에 둔 1953년, 중부 전선의 포크찹 고지.",
+     "say": "휴전을 눈앞에 둔 천구백오십삼 년, 중부 전선의 포크찹 고지."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "porkchop_teaser",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "다음 편 · EP22 포크찹 고지 전투",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s117",
+   "lines": [
+    "그곳에는 아프리카 에티오피아에서 온, 강뉴 대대가 있었습니다.",
+    "황제의 근위대에서 뽑혀 온 이들은, 단 한 명의 포로도 남기지 않았다는 전설로 기억되는데요."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s117-photo"
+   },
+   "label": "에티오피아 대대 병사들 (1953)"
+  },
+  {
+   "id": "s118",
+   "lines": [
+    "휴전 협상이 한창이던 그때, 병사들은 왜 이름 없는 작은 고지 하나를 두고 그토록 처절하게 싸워야 했을까요.",
+    {
+     "t": "그 전설의 진짜 이야기는, 곧 이어질 격전의 지도 22편, 포크찹 고지 전투에서 만나 보시죠.",
+     "say": "그 전설의 진짜 이야기는, 곧 이어질 격전의 지도 이십이 편, 포크찹 고지 전투에서 만나 보시죠."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "EP22 포크찹 고지 전투",
+    "style": "yellow",
+    "sub": "강뉴 대대의 전설 · 곧 공개",
+    "subAt": 0.5
+   }
+  },
+  {
+   "id": "s119",
+   "lines": [
+    "가평의 병사들을 오래 기억하고 싶으시다면, 구독과 좋아요, 그리고 알림 설정으로 함께해 주십시오.",
+    "다음 격전지에서, 다시 뵙겠습니다."
+   ],
+   "visual": {
+    "type": "endcard",
+    "title": "1951년 4월, 가평.\n다섯 배의 적을 막아선 이틀 밤.",
+    "q": "s119-photo"
+   },
+   "tail": 1.0
+  }
+ ]
+}

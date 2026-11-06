@@ -197,7 +197,7 @@ def build(ep, mock=False, gap=None):
         scenes_out.append({
             "id": sc["id"], "start": round(t, 3), "dur": round(dur, 3), "audio": audio, "audioAt": pre, "tempo": 1,
             "lines": lines, "visual": vis, "label": sc.get("label"), "callouts": sc.get("callouts", []),
-            "sfx": sc.get("sfx", []), "chapter": sc.get("chapter"), "flash": sc.get("flash", False),
+            "sfx": sc.get("sfx", []), "chapter": sc.get("chapter"), "flash": sc.get("flash", False), "hudCta": sc.get("hudCta"),
             "visuals": extra,
         })
         t += dur
