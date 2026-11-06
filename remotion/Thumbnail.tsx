@@ -18,7 +18,7 @@ import { FRONT, FrontThumb, NAKTONG_FRONT } from "./FrontThumb";
  *   에피소드는 COLLAGE 표에 한 줄 → 한국어 A안이 이 디자인으로 렌더 (FRONT·MAPT보다 우선)
  * ===================================================================================== */
 type CLL = [number, number];
-type FlagKind = "kr" | "nk" | "marine" | "cn";
+type FlagKind = "kr" | "nk" | "marine" | "cn" | "uk";
 export type CollageDef = {
   quote: string;
   person: { src: string; h: number; w: number; pos?: string; filter?: string };
@@ -171,6 +171,35 @@ export const COLLAGE: Record<string, CollageDef> = {
     alt: { quote: "고지 형태가 통째로 바뀌었다, 190만 발 포탄의 지옥", line1: "43일간 포탄 190만 발이 갈아버렸는데" },
     dim: "linear-gradient(to top, #000000 0%, #000000 38%, rgba(0, 0, 0, 0.85) 55%, rgba(0, 0, 0, 0.4) 70%, transparent 100%)",
   },
+  // EP20 임진강(설마리) 전투 (1951) — 글로스터 대대 최후 항전 (ep20-imjin-river) · 사용자 지시서: Line 1 108px 흰색 / Line 2 112px #FF2222 · 직인 '결사항전' · 짧은 말풍선 꼬리 · 하단 딤 압축
+  "ep20-imjin-river": {
+    quote: "앞에도 적, 뒤에도 적 — 360도 포위된 235고지",
+    person: { src: "ep/ep20-imjin-river/ai/thumb_cut.png", h: 690, w: 600, pos: "45% 0%" },
+    bubble: { text: "탄약이 다할 때까지,\n자리를 지켜라!", x: 600, y: 110, tail: [0, 0], size: 42, tailStyle: "short" },
+    stamp: { text: "결사항전", x: 450, y: 560, rot: -15 },
+    map: {
+      rasters: ["imjin_w", "gloster_zoom"],
+      view: { center: [126.853, 37.937], span: 0.4 },
+      outline: true,
+      // 붉은 영역 = 임진강 북쪽 중공군 제63군 도하 출발 지역 (개략) / 푸른 선 = 영국군 제29여단 임진강 방어선 (개략)
+      red: [[126.6, 37.99], [126.851, 37.988], [126.873, 37.971], [126.89, 37.966], [126.905, 37.994], [126.924, 37.985], [126.941, 37.982], [126.953, 37.989], [126.967, 38.015], [126.981, 38.025], [126.99, 38.01], [127.008, 38.005], [127.025, 38.035], [127.15, 38.05], [127.15, 38.2], [126.6, 38.2]],
+      blue: [[126.88, 37.975], [126.91, 37.982], [126.94, 37.983], [126.97, 37.99], [127.0, 38.0], [127.03, 38.01]],
+      arrows: [
+        [[126.925, 38.005], [126.935, 37.975], [126.945, 37.947]],
+        [[126.975, 38.012], [126.966, 37.98], [126.958, 37.95]],
+        [[127.03, 38.0], [126.995, 37.965], [126.968, 37.941]],
+      ],
+      arrowW: 40,
+      flags: [
+        { kind: "cn", at: [127.0, 37.995], h: 70, rot: -4 },
+        { kind: "uk", at: [126.955, 37.934], h: 80, rot: -3 },
+      ],
+    },
+    line1: "700명이 중공군 4만을 막아내다",
+    line2: "임진강 결전",
+    sizes: [108, 112],
+    dim: "linear-gradient(to top, #000000 0%, #000000 38%, rgba(0, 0, 0, 0.85) 55%, rgba(0, 0, 0, 0.4) 70%, transparent 100%)",
+  },
 };
 
 const CW = 1920;
@@ -271,6 +300,26 @@ const FlagNK: React.FC<{ w: number }> = ({ w }) => {
   );
 };
 
+/** 영국 국기 유니언 잭 (2:1) — EP20 임진강 글로스터 대대 */
+const FlagUK: React.FC<{ w: number }> = ({ w }) => {
+  const h = w / 2;
+  return (
+    <svg width={w} height={h} viewBox="0 0 60 30" preserveAspectRatio="none">
+      <defs>
+        <clipPath id="ukS"><path d="M0,0 v30 h60 v-30 z" /></clipPath>
+        <clipPath id="ukT"><path d="M30,15 h30 v15 z v15 h-30 z h-30 v-15 z v-15 h30 z" /></clipPath>
+      </defs>
+      <g clipPath="url(#ukS)">
+        <path d="M0,0 v30 h60 v-30 z" fill="#012169" />
+        <path d="M0,0 L60,30 M60,0 L0,30" stroke="#fff" strokeWidth={6} />
+        <path d="M0,0 L60,30 M60,0 L0,30" clipPath="url(#ukT)" stroke="#C8102E" strokeWidth={4} />
+        <path d="M30,0 v30 M0,15 h60" stroke="#fff" strokeWidth={10} />
+        <path d="M30,0 v30 M0,15 h60" stroke="#C8102E" strokeWidth={6} />
+      </g>
+    </svg>
+  );
+};
+
 /** 해병대 깃발 (3:2) — 붉은 바탕 + 노란 닻·별 + '해병대' */
 const FlagMarine: React.FC<{ w: number }> = ({ w }) => {
   const h = (w * 2) / 3;
@@ -307,16 +356,16 @@ const FlagMarine: React.FC<{ w: number }> = ({ w }) => {
 
 /** 깃대에 걸린 대형 군기 — at 지점에 깃대 밑동, 깃발은 오른쪽으로 펄럭 */
 const BigFlag: React.FC<{ kind: FlagKind; x: number; y: number; h: number; rot?: number }> = ({ kind, x, y, h, rot = 0 }) => {
-  const fw = kind === "nk" ? h * 2 : h * 1.5;
+  const fw = kind === "nk" || kind === "uk" ? h * 2 : h * 1.5;
   const pole = h * 1.6;
-  const inner = kind === "kr" ? <FlagKR w={fw} /> : kind === "nk" ? <FlagNK w={fw} /> : kind === "cn" ? <FlagCN w={fw} /> : <FlagMarine w={fw} />;
+  const inner = kind === "kr" ? <FlagKR w={fw} /> : kind === "nk" ? <FlagNK w={fw} /> : kind === "cn" ? <FlagCN w={fw} /> : kind === "uk" ? <FlagUK w={fw} /> : <FlagMarine w={fw} />;
   return (
     <div style={{ position: "absolute", left: x, top: y - pole, width: fw + 20, height: pole, transform: `rotate(${rot}deg)`, transformOrigin: "0 100%", filter: "drop-shadow(0 14px 18px rgba(0,0,0,.85))" }}>
       {/* 깃대 */}
       <div style={{ position: "absolute", left: -6, top: -10, width: 12, height: pole + 10, background: "linear-gradient(90deg,#5a5a5a,#f2f2f2 45%,#6a6a6a)", border: "2px solid #000", borderRadius: 6 }} />
       <div style={{ position: "absolute", left: -11, top: -24, width: 22, height: 22, borderRadius: 11, background: "radial-gradient(circle at 35% 35%,#fff3a0,#d4a000 60%,#6b4e00)", border: "2px solid #000" }} />
       {/* 깃발 — 살짝 원근 + 펄럭이는 음영 */}
-      <div style={{ position: "absolute", left: 6, top: 0, width: fw, height: kind === "nk" ? fw / 2 : (fw * 2) / 3, transform: "perspective(900px) rotateY(-14deg) skewY(3deg)", transformOrigin: "0 50%", border: "3px solid #000", overflow: "hidden" }}>
+      <div style={{ position: "absolute", left: 6, top: 0, width: fw, height: kind === "nk" || kind === "uk" ? fw / 2 : (fw * 2) / 3, transform: "perspective(900px) rotateY(-14deg) skewY(3deg)", transformOrigin: "0 50%", border: "3px solid #000", overflow: "hidden" }}>
         {inner}
         <div style={{ position: "absolute", inset: 0, background: "repeating-linear-gradient(90deg, rgba(0,0,0,.28) 0%, rgba(255,255,255,.12) 12%, rgba(0,0,0,.28) 25%)", mixBlendMode: "multiply" }} />
       </div>

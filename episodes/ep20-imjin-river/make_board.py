@@ -1,4 +1,4 @@
-# EP20 임진강(설마리) 전투 스토리보드 생성기 — 한 번만 실행. storyboard.json을 손으로 고친 뒤에는 다시 돌리지 말 것.
+# EP20 임진강(설마리) 전투 스토리보드 생성기 — 첫 생성용(기록). ⚠️ storyboard.json을 손으로 고쳤으므로(s25b·s108b 추가, 뷰 조정) 다시 돌리지 말 것.
 import json
 import pathlib
 

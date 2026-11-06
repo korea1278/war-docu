@@ -131,31 +131,31 @@
   },
   "glos": {
    "center": [
-    126.94,
-    37.955
+    126.935,
+    37.962
    ],
-   "span": 0.12
+   "span": 0.16
   },
   "front": {
    "center": [
-    126.93,
-    37.972
+    126.925,
+    37.975
    ],
-   "span": 0.07
+   "span": 0.1
   },
   "hill": {
    "center": [
     126.955,
-    37.938
+    37.936
    ],
-   "span": 0.06
+   "span": 0.12
   },
   "valley": {
    "center": [
-    126.958,
-    37.925
+    126.96,
+    37.922
    ],
-   "span": 0.08
+   "span": 0.14
   }
  },
  "music": [
@@ -244,7 +244,9 @@
   "hill_last_stand": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: British soldiers whose heads are round balls painted as the British Union Jack flag, wearing 1951 Brodie steel helmets or berets and khaki battledress crouching shoulder to shoulder in shallow trenches ringing a small rocky hilltop at dusk, looking outward in every direction, smoke rising from the valleys all around, no way out, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "filipino_tanks": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Filipino soldiers whose heads are round balls painted as the Philippine flag, wearing 1951 M1 helmets and olive drab uniforms, advancing beside British Centurion tanks into a narrow rocky mountain gorge, dust and smoke ahead, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "recon_plane": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a small single-engine UN spotter plane circling low over a Korean mountain valley, dropping a message streamer toward a column of tanks, tired British soldiers waving below, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "thumb_subject": "Photorealistic black-and-white 1951 Korean War documentary portrait of a weary but defiant British infantry soldier of the Gloucestershire Regiment, khaki beret with a regimental badge, dirt- and smoke-streaked face, mouth open as if shouting an order, determined eyes, battledress with webbing, holding a Lee-Enfield rifle, waist-up, face clearly visible and turned slightly toward the right of the frame, sharp detail, high contrast monochrome, isolated on a plain pure white background, no shadows on the background, no text."
+  "thumb_subject": "Photorealistic black-and-white 1951 Korean War documentary portrait of a weary but defiant British infantry soldier of the Gloucestershire Regiment, khaki beret with a regimental badge, dirt- and smoke-streaked face, mouth open as if shouting an order, determined eyes, battledress with webbing, holding a Lee-Enfield rifle, waist-up, face clearly visible and turned slightly toward the right of the frame, sharp detail, high contrast monochrome, isolated on a plain pure white background, no shadows on the background, no text.",
+  "winter_march": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a long column of British soldiers whose heads are round balls painted as the British Union Jack flag, wearing 1951 Brodie steel helmets or berets and khaki battledress in heavy greatcoats marching through deep snow on a frozen Korean mountain road in January 1951, icy wind, grey sky, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "pow_march": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a weary column of captured British soldiers whose heads are round balls painted as the British Union Jack flag, wearing 1951 Brodie steel helmets or berets and khaki battledress without helmets, hands tied, marching north along a dusty mountain road under guard of Chinese soldiers whose heads are round balls painted as the red Chinese flag with yellow stars, bleak sky, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters."
  },
  "scenes": [
   {
@@ -403,7 +405,7 @@
       "pulse": true
      }
     ],
-    "tilt": 28
+    "tilt": 18
    },
    "callouts": [
     {
@@ -988,20 +990,16 @@
     "포병과 센추리온 전차가 뒤를 받쳤습니다."
    ],
    "visual": {
-    "type": "gauges",
-    "big": "영국군 제29여단 전력",
+    "type": "quotes",
+    "title": "영국군 제29여단",
     "items": [
      {
-      "label": "영국 보병 3개 대대",
+      "text": "영국 보병 3개 대대 · 벨기에 대대",
       "at": 0
      },
      {
-      "label": "벨기에 대대",
-      "at": 0.3
-     },
-     {
-      "label": "포병·전차",
-      "at": 0.7
+      "text": "포병 · 센추리온 전차",
+      "at": 1.0
      }
     ]
    }
@@ -1257,6 +1255,19 @@
    "label": "센추리온 전차와 진격하는 글로스터 대대 (1951. 3)"
   },
   {
+   "id": "s25b",
+   "lines": [
+    "대대가 한국 땅을 밟은 것은, 천구백오십 년 겨울의 초입이었습니다.",
+    "영하 이십 도를 오르내리는 혹한 속에서, 이들은 이미 한 차례 서울 남쪽까지 물러섰다가 다시 북쪽으로 올라온 경험이 있었는데요."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "winter_march",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
    "id": "s26",
    "lines": [
     "대대는 파주 적성 일대, 감악산 자락의 고지들에 중대별로 흩어져 자리를 잡았습니다.",
@@ -1295,7 +1306,7 @@
       "at": 1.6
      }
     ],
-    "tilt": 24
+    "tilt": 18
    },
    "callouts": [
     {
@@ -1333,7 +1344,7 @@
       "at": 1.6
      }
     ],
-    "tilt": 32
+    "tilt": 18
    }
   },
   {
@@ -1489,7 +1500,7 @@
       "text": "엄호 불가 구간"
      }
     ],
-    "tilt": 24
+    "tilt": 18
    }
   },
   {
@@ -1618,7 +1629,7 @@
       "text": "여울목 · 수심 허리춤"
      }
     ],
-    "tilt": 30
+    "tilt": 18
    }
   },
   {
@@ -1781,7 +1792,7 @@
       "text": "도하 접근"
      }
     ],
-    "tilt": 30
+    "tilt": 18
    },
    "chapter": {
     "num": "제3막",
@@ -1925,7 +1936,7 @@
       "width": 0.9
      }
     ],
-    "tilt": 30
+    "tilt": 18
    }
   },
   {
@@ -2369,7 +2380,7 @@
       "width": 0.8
      }
     ],
-    "tilt": 26
+    "tilt": 18
    }
   },
   {
@@ -2397,7 +2408,7 @@
       "size": 0.9
      }
     ],
-    "tilt": 34
+    "tilt": 18
    }
   },
   {
@@ -2512,7 +2523,7 @@
       "text": "중공군 기관총 진지"
      }
     ],
-    "tilt": 36
+    "tilt": 18
    }
   },
   {
@@ -2777,7 +2788,7 @@
       "text": "보급로 차단"
      }
     ],
-    "tilt": 26
+    "tilt": 18
    }
   },
   {
@@ -2887,7 +2898,7 @@
       "width": 0.8
      }
     ],
-    "tilt": 28
+    "tilt": 18
    }
   },
   {
@@ -2978,7 +2989,7 @@
       "text": "360도 포위"
      }
     ],
-    "tilt": 30
+    "tilt": 18
    },
    "callouts": [
     {
@@ -3196,7 +3207,7 @@
       "width": 0.7
      }
     ],
-    "tilt": 32
+    "tilt": 18
    }
   },
   {
@@ -3266,7 +3277,7 @@
       "width": 0.5
      }
     ],
-    "tilt": 24
+    "tilt": 18
    }
   },
   {
@@ -3332,7 +3343,7 @@
       "dy": 40
      }
     ],
-    "tilt": 26
+    "tilt": 18
    }
   },
   {
@@ -3406,7 +3417,7 @@
       "text": "구출 실패"
      }
     ],
-    "tilt": 26
+    "tilt": 18
    }
   },
   {
@@ -3540,7 +3551,7 @@
       "period": 0.6
      }
     ],
-    "tilt": 34
+    "tilt": 18
    }
   },
   {
@@ -3735,7 +3746,7 @@
       "period": 0.8
      }
     ],
-    "tilt": 30
+    "tilt": 18
    }
   },
   {
@@ -4000,7 +4011,7 @@
       "size": 0.7
      }
     ],
-    "tilt": 24
+    "tilt": 18
    }
   },
   {
@@ -4081,7 +4092,7 @@
       "dy": 0
      }
     ],
-    "tilt": 22
+    "tilt": 18
    }
   },
   {
@@ -4176,6 +4187,19 @@
    }
   },
   {
+   "id": "s108b",
+   "lines": [
+    "포로가 된 병사들은, 압록강 가까운 수용소까지 수백 킬로미터를 걸어서 끌려갔습니다.",
+    "굶주림과 추위 속에서, 끝내 돌아오지 못한 병사들도 적지 않았죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "pow_march",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
    "id": "s109",
    "lines": [
     "그렇다면 이 사흘은, 패배였을까요.",
@@ -4198,7 +4222,7 @@
    "visual": {
     "type": "map",
     "from": "imjin",
-    "to": "axis",
+    "to": "imjin",
     "items": [
      {
       "k": "obj",
