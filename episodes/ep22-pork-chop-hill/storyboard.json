@@ -1,0 +1,4218 @@
+{
+ "title": "포크찹 고지 전투",
+ "subtitle": "1953. 4 ~ 7",
+ "target_sec": 1230,
+ "voice": "U1cJYS4EdbaHmfR7YzHd",
+ "midrolls": [
+  "s37",
+  "s76",
+  "s112"
+ ],
+ "places": {
+  "seoul": [
+   126.978,
+   37.566,
+   "서울"
+  ],
+  "panmun": [
+   126.677,
+   37.956,
+   "판문점"
+  ],
+  "yeoncheon": [
+   127.075,
+   38.096,
+   "연천"
+  ],
+  "cheorwon": [
+   127.21,
+   38.24,
+   "철원"
+  ],
+  "chuncheon": [
+   127.73,
+   37.881,
+   "춘천"
+  ],
+  "incheon": [
+   126.62,
+   37.46,
+   "인천"
+  ],
+  "jangsa": [
+   129.38,
+   36.28,
+   "장사리"
+  ],
+  "pc": [
+   127.0194,
+   38.2414,
+   "포크찹 (255고지)"
+  ],
+  "ob": [
+   127.003,
+   38.247,
+   "올드 발디 (266고지)"
+  ],
+  "tb": [
+   126.985,
+   38.262,
+   "티본 고지"
+  ],
+  "hasak": [
+   127.024,
+   38.254,
+   "중공군 고지"
+  ],
+  "kag": [
+   126.972,
+   38.247,
+   "강뉴 대대"
+  ],
+  "yoke": [
+   126.962,
+   38.256,
+   "요크 고지"
+  ],
+  "uncle": [
+   126.977,
+   38.258,
+   "엉클 고지"
+  ],
+  "arty": [
+   127.03,
+   38.21,
+   "미군 포병"
+  ]
+ },
+ "views": {
+  "korea": {
+   "center": [
+    127.6,
+    37.5
+   ],
+   "span": 6.0
+  },
+  "front53": {
+   "center": [
+    127.1,
+    38.15
+   ],
+   "span": 1.2
+  },
+  "sector": {
+   "center": [
+    127.0,
+    38.243
+   ],
+   "span": 0.16
+  },
+  "chop": {
+   "center": [
+    127.019,
+    38.243
+   ],
+   "span": 0.1
+  },
+  "kagv": {
+   "center": [
+    126.972,
+    38.252
+   ],
+   "span": 0.1
+  },
+  "east": {
+   "center": [
+    128.0,
+    37.0
+   ],
+   "span": 4.0
+  }
+ },
+ "music": [
+  {
+   "id": "drone",
+   "from": "s01",
+   "to": "s05",
+   "volume": 0.2
+  },
+  {
+   "id": "theme",
+   "from": "s06",
+   "to": "s36",
+   "volume": 0.16
+  },
+  {
+   "id": "tension",
+   "from": "s37",
+   "to": "s55",
+   "volume": 0.17
+  },
+  {
+   "id": "march",
+   "from": "s56",
+   "to": "s75",
+   "volume": 0.15
+  },
+  {
+   "id": "tension",
+   "from": "s76",
+   "to": "s94",
+   "volume": 0.17
+  },
+  {
+   "id": "march",
+   "from": "s95",
+   "to": "s111",
+   "volume": 0.15
+  },
+  {
+   "id": "somber",
+   "from": "s112",
+   "to": "s132",
+   "volume": 0.17
+  }
+ ],
+ "ai_images": {
+  "night_barrage": "A small barren Korean hill at night in April 1953 struck by a massive artillery barrage, sandbag bunkers and zigzag trenches on the crest, bright explosions and flares, smoke drifting, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no people visible, no text, no letters.",
+  "radio_vt": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an American infantry officer whose head is a round ball painted as the USA flag, wearing a 1953 M1 steel helmet and olive drab field jacket crouching inside a dark log-and-sandbag bunker shouting into a field radio handset, dust falling from the ceiling, flashes of explosions through the firing slit, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "ridge_shelled": "A bare Korean ridge in 1953 churned into craters by endless shelling, broken tree stumps, collapsed trenches, grey dawn light, smoke, desolate, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no people visible, no text, no letters.",
+  "outpost_fist": "A lonely fortified hilltop outpost in Korea in 1953 jutting out in front of the main defensive line, sandbag bunkers and barbed wire on the crest, enemy-held hills looming on three sides in the haze, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no people visible, no text, no letters.",
+  "night_wire": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red Chinese flag with yellow stars, wearing 1953 quilted khaki uniforms and caps crawling through barbed wire at the foot of a hill at night, one cutting the wire with cutters, faint moonlight, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "trench_listen": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American infantrymen whose heads are round balls painted as the USA flag, wearing 1953 M1 steel helmets and olive drab field jackets crouching silently in a dark trench at night, one with his hand cupped behind his ear listening, rifles ready, faint mist, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "night_carry": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American infantrymen whose heads are round balls painted as the USA flag, wearing 1953 M1 steel helmets and olive drab field jackets climbing a steep dark hillside at night carrying heavy water cans and ammunition boxes on A-frame back packs, bent under the weight, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "tunnel_cpv": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red Chinese flag with yellow stars, wearing 1953 quilted khaki uniforms and caps pouring out of the dark mouth of a tunnel dug into a hillside at night, carrying submachine guns and grenades, lantern light inside the tunnel, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "easy_trench": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American infantrymen whose heads are round balls painted as the USA flag, wearing 1953 M1 steel helmets and olive drab field jackets manning a sandbagged trench on a small hilltop at dusk, looking out toward dark enemy hills, calm before a storm, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "quiet_night": "A quiet small Korean hilltop outpost at night under starlight in April 1953, bunkers and trenches silhouetted, enemy hills dark in the distance, eerie stillness, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no people visible, no text, no letters.",
+  "ration_trench": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American infantrymen whose heads are round balls painted as the USA flag, wearing 1953 M1 steel helmets and olive drab field jackets eating cold ration cans in a trench at night, one dozing against the trench wall with his helmet tilted, a rifle propped beside him, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "bugle_tunnel": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red Chinese flag with yellow stars, wearing 1953 quilted khaki uniforms and caps blowing bugles and whistles while charging up a hillside at night in a dense wave, flares overhead, explosions, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "mg_hot": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American infantrymen whose heads are round balls painted as the USA flag, wearing 1953 M1 steel helmets and olive drab field jackets firing a machine gun from a sandbagged position at night, the barrel glowing red hot, cartridge cases piling up, tracer fire down the slope, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "radio_dead": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an American infantry officer whose head is a round ball painted as the USA flag, wearing a 1953 M1 steel helmet and olive drab field jacket shaking a silent field radio with a cut wire dangling from it in a trench at night, desperate, explosions in the background, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "bunker_inside": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American infantrymen whose heads are round balls painted as the USA flag, wearing 1953 M1 steel helmets and olive drab field jackets pressed against the walls inside a dark cramped log bunker at night, dust falling, a grenade rolling through the doorway, tense faces, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "vt_burst": "Artillery shells bursting in the air just above a small hilltop at night, bright airbursts raining shrapnel onto the trenches below, bunkers intact, attacking silhouettes on the slope, dramatic, painterly realistic digital illustration, cinematic wide shot, dark palette, film grain, no text, no letters.",
+  "command_decision": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American commanders, heads round balls painted as the USA flag, steel helmets, leaning over a map table in a lamp-lit command bunker before dawn, one pointing at a small hill on the map, grim faces, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "bunker_waiting": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a few exhausted American infantrymen whose heads are round balls painted as the USA flag, wearing 1953 M1 steel helmets and olive drab field jackets hiding in the corner of a half-collapsed bunker at dawn, a wounded comrade bandaged, light seeping through the cracks, waiting for rescue, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "emperor_decides": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an Ethiopian emperor, head a round ball painted as the 1950s Ethiopian imperial flag, wearing a dignified military uniform with medals and a cape, standing before a large world map in a palace hall, pointing at Korea, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "emperor_flag": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an Ethiopian emperor, head a round ball painted as the 1950s Ethiopian imperial flag, in a dignified military uniform with medals, handing a large green-yellow-red battalion flag to a kneeling Ethiopian officer before rows of Ethiopian soldiers whose heads are round balls painted as the 1950s Ethiopian imperial flag (green, yellow and red horizontal stripes with a golden crowned lion in the center), wearing 1953 American M1 steel helmets and olive drab uniforms on a parade ground, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "doubtful_officers": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: skeptical American officers, heads round balls painted as the USA flag, watching with folded arms as a column of Ethiopian soldiers whose heads are round balls painted as the 1950s Ethiopian imperial flag (green, yellow and red horizontal stripes with a golden crowned lion in the center), wearing 1953 American M1 steel helmets and olive drab uniforms marches past in perfect order, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "snow_ethiopian": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Ethiopian soldiers whose heads are round balls painted as the 1950s Ethiopian imperial flag (green, yellow and red horizontal stripes with a golden crowned lion in the center), wearing 1953 American M1 steel helmets and olive drab uniforms standing in deep snow on a Korean mountain in winter, one holding out his glove to catch falling snowflakes in wonder, breath steaming, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "night_patrol_eth": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Ethiopian soldiers whose heads are round balls painted as the 1950s Ethiopian imperial flag (green, yellow and red horizontal stripes with a golden crowned lion in the center), wearing 1953 American M1 steel helmets and olive drab uniforms moving silently in a low crouch across a dark valley at night on patrol, rifles ready, faint moonlight, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "tbone_raid": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: eight Ethiopian soldiers whose heads are round balls painted as the 1950s Ethiopian imperial flag (green, yellow and red horizontal stripes with a golden crowned lion in the center), wearing 1953 American M1 steel helmets and olive drab uniforms jumping into an enemy trench on a hillside in broad daylight, surprised Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red Chinese flag with yellow stars, wearing 1953 quilted khaki uniforms and caps raising their hands, smoke, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "cpv_fear": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red Chinese flag with yellow stars, wearing 1953 quilted khaki uniforms and caps whispering nervously to each other in a trench at night, glancing toward the dark enemy lines, fearful faces, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "carry_comrade": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an Ethiopian soldier whose head is a round ball painted as the 1950s Ethiopian imperial flag (green, yellow and red horizontal stripes with a golden crowned lion in the center), wearing a 1953 American M1 steel helmet and olive drab uniform carrying a wounded comrade on his back down a steep hillside at dawn, refusing to leave him behind, smoke behind them, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "clemons_lead": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an American infantry officer whose head is a round ball painted as the USA flag, wearing a 1953 M1 steel helmet and olive drab field jacket, a young first lieutenant, leading his company up a dark cratered hillside before dawn, turning back to wave his men forward, flares overhead, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "uphill_assault": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American infantrymen whose heads are round balls painted as the USA flag, wearing 1953 M1 steel helmets and olive drab field jackets charging up a steep cratered hillside before dawn under exploding grenades and shells, one soldier waving his comrades forward, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "captured_weapons": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American infantrymen whose heads are round balls painted as the USA flag, wearing 1953 M1 steel helmets and olive drab field jackets in a battered trench firing captured Chinese submachine guns, empty magazines scattered, smoke, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "find_survivors": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American infantrymen whose heads are round balls painted as the USA flag, wearing 1953 M1 steel helmets and olive drab field jackets pulling dust-covered survivors out of a collapsed bunker at dawn, embracing exhausted comrades, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "clemons_radio": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an American infantry officer whose head is a round ball painted as the USA flag, wearing a 1953 M1 steel helmet and olive drab field jacket shouting into a field radio handset in a shattered hilltop trench, only a handful of soldiers left around him, smoke and craters, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "bayonet_melee": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American infantrymen whose heads are round balls painted as the USA flag, wearing 1953 M1 steel helmets and olive drab field jackets fighting hand to hand with Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red Chinese flag with yellow stars, wearing 1953 quilted khaki uniforms and caps in a hilltop trench at night with bayonets, rifle butts and entrenching shovels, explosions lighting the scene, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "barren_crest": "The crest of a small Korean hill after a terrible battle in April 1953, completely bare grey earth covered in overlapping shell craters, collapsed bunkers and broken logs, no grass left, smoke, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no people visible, no text, no letters.",
+  "ambush_15": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: fifteen Ethiopian soldiers whose heads are round balls painted as the 1950s Ethiopian imperial flag (green, yellow and red horizontal stripes with a golden crowned lion in the center), wearing 1953 American M1 steel helmets and olive drab uniforms lying in ambush in the grass in front of a hill at night, rifles pointed into the dark, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "yoke_grenades": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Ethiopian soldiers whose heads are round balls painted as the 1950s Ethiopian imperial flag (green, yellow and red horizontal stripes with a golden crowned lion in the center), wearing 1953 American M1 steel helmets and olive drab uniforms in a hilltop trench at night as grenades fly in, flare light overhead, one throwing a grenade back, bayonets glinting, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "yoke_melee": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Ethiopian soldiers whose heads are round balls painted as the 1950s Ethiopian imperial flag (green, yellow and red horizontal stripes with a golden crowned lion in the center), wearing 1953 American M1 steel helmets and olive drab uniforms fighting hand to hand with Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red Chinese flag with yellow stars, wearing 1953 quilted khaki uniforms and caps who leap into their hilltop trench at night, bayonets, darkness and smoke, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "shield_fallen": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Ethiopian soldiers whose heads are round balls painted as the 1950s Ethiopian imperial flag (green, yellow and red horizontal stripes with a golden crowned lion in the center), wearing 1953 American M1 steel helmets and olive drab uniforms forming a protective ring around a fallen comrade in a trench at night, firing outward in every direction, refusing to give way, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "carry_down_dawn": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Ethiopian soldiers whose heads are round balls painted as the 1950s Ethiopian imperial flag (green, yellow and red horizontal stripes with a golden crowned lion in the center), wearing 1953 American M1 steel helmets and olive drab uniforms carrying their dead and wounded comrades on their backs and on stretchers down a hillside at dawn in a solemn line, no one left behind, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "rain_hill": "A small battered Korean hilltop outpost in heavy monsoon rain at night in July 1953, flooded trenches, artillery flashes through the downpour, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no people visible, no text, no letters.",
+  "mud_trench": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American infantrymen whose heads are round balls painted as the USA flag, wearing 1953 M1 steel helmets and olive drab field jackets standing knee-deep in muddy water in a flooded trench in pouring rain at night, firing rifles into the darkness, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "return_flag": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Ethiopian soldiers whose heads are round balls painted as the 1950s Ethiopian imperial flag (green, yellow and red horizontal stripes with a golden crowned lion in the center), wearing 1953 American M1 steel helmets and olive drab uniforms marching proudly down a gangway from a troop ship carrying their green-yellow-red battalion flag home, cheering crowds below, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "old_veteran": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an elderly Ethiopian Korean War veteran, head a round ball painted as the Ethiopian flag, wearing an old uniform jacket with medals, sitting alone in a modest room holding a faded photograph of his comrades in Korea, soft window light, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "memorial_flowers": "A quiet stone war memorial in a Korean city park in spring with fresh flowers laid at its base, an Ethiopian flag and a Korean flag side by side, soft morning light, painterly realistic digital illustration, no people, no text, no letters.",
+  "student_soldiers": "Young Korean student soldiers in 1950 in ill-fitting uniforms and school caps holding old rifles on the deck of an old transport ship at night on a rough sea, nervous determined faces, painterly realistic digital illustration, cinematic, dark palette, film grain, no text, no letters.",
+  "thumb_subject": "Photorealistic black-and-white 1953 Korean War documentary portrait of a fierce Ethiopian Imperial Bodyguard infantryman of the Kagnew Battalion, American M1 steel helmet, intense determined eyes, sweat and dust on his face, rifle with fixed bayonet held across his chest, waist-up, face clearly visible and turned slightly toward the right of the frame, sharp detail, high contrast monochrome, isolated on a plain pure white background, no shadows on the background, no text."
+ },
+ "scenes": [
+  {
+   "id": "s01",
+   "lines": [
+    {
+     "t": "1953년 4월 16일 밤.",
+     "say": "천구백오십삼 년 사월 십육일 밤."
+    },
+    "경기도 연천 북쪽의 작은 언덕 위로, 하늘을 찢는 듯한 포성이 쏟아집니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "night_barrage",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "1953. 4. 16 밤 · 연천 북방",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0.3,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "lines": [
+    "참호 속의 미군 병사들은 무전기를 붙잡고, 믿기 힘든 말을 외치는데요.",
+    "지금 이 고지 위로, 아군 포탄을 퍼부어 달라고 말이죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "radio_vt",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s03",
+   "lines": [
+    "같은 시각, 바로 옆 능선에는 아프리카에서 온 병사들이 있었습니다.",
+    "지구 반대편 에티오피아에서, 황제의 근위대가 건너온 겁니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s03-photo"
+   },
+   "label": "에티오피아 대대 병사들 · 미 제7사단 (1953)"
+  },
+  {
+   "id": "s04",
+   "lines": [
+    {
+     "t": "이 병사들은 이 전쟁에서 무려 253번을 싸웠습니다.",
+     "say": "이 병사들은 이 전쟁에서 무려 이백오십삼 번을 싸웠습니다."
+    },
+    "그리고 단 한 명도, 적의 포로가 되지 않았거든요."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "253번의 전투",
+    "accent": "포로 0명",
+    "accentAt": 0.7
+   },
+   "pauseBefore": 0.3,
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "lines": [
+    "도대체 이들은 어떤 사람들이었을까요.",
+    "그리고 휴전을 코앞에 둔 그해 봄, 왜 이 작은 언덕 하나를 놓고 그토록 많은 피를 흘려야 했을까요."
+   ],
+   "visual": {
+    "type": "titlecard",
+    "title": "포크찹 고지 전투",
+    "sub": "253전 253승 강뉴 대대의 전설 · 1953",
+    "at": 0,
+    "q": "s05-photo"
+   },
+   "flash": true,
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s06",
+   "lines": [
+    "시계를 조금 앞으로 돌려 보겠습니다.",
+    {
+     "t": "1953년 봄, 전쟁은 벌써 3년째로 접어들고 있었습니다.",
+     "say": "천구백오십삼 년 봄, 전쟁은 벌써 삼 년째로 접어들고 있었습니다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s06-photo"
+   },
+   "label": "전초로 이어지는 능선 · 아웃포스트 해리 (1953)",
+   "chapter": {
+    "num": "제1막",
+    "title": "돼지갈비를 닮은 고지"
+   }
+  },
+  {
+   "id": "s07",
+   "lines": [
+    "판문점에서는 휴전 회담이 이어지고 있었는데요.",
+    "협상장의 천막 안에서는 펜이 오갔지만, 전선에서는 총알이 오갔습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s07-photo"
+   },
+   "label": "유엔군 휴전 회담 대표단 (1951. 11)"
+  },
+  {
+   "id": "s08",
+   "lines": [
+    "휴전이 되는 순간 지금 서 있는 자리가 곧 국경선이 된다.",
+    "양쪽 모두 그 사실을 알고 있었거든요."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "front53",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.1,
+        37.75
+       ],
+       [
+        126.6,
+        37.95
+       ],
+       [
+        126.9,
+        38.1
+       ],
+       [
+        127.0,
+        38.225
+       ],
+       [
+        127.1,
+        38.27
+       ],
+       [
+        127.2,
+        38.3
+       ],
+       [
+        127.4,
+        38.31
+       ],
+       [
+        127.6,
+        38.36
+       ],
+       [
+        127.85,
+        38.33
+       ],
+       [
+        128.1,
+        38.3
+       ],
+       [
+        128.35,
+        38.38
+       ],
+       [
+        128.6,
+        38.55
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "panmun",
+      "color": "yellow",
+      "at": 0.5
+     },
+     {
+      "k": "marker",
+      "p": "seoul",
+      "color": "blue",
+      "at": 0.8
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1953년 봄 · 전선 (개략)",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s09",
+   "lines": [
+    {
+     "t": "그래서 마지막 1미터의 땅이라도 더 차지하려는 싸움이, 산꼭대기마다 벌어지고 있었습니다.",
+     "say": "그래서 마지막 일 미터의 땅이라도 더 차지하려는 싸움이, 산꼭대기마다 벌어지고 있었습니다."
+    },
+    "사람들은 이것을 고지전이라고 불렀죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "고지전",
+    "style": "red",
+    "sub": "마지막 1미터의 땅을 위한 싸움",
+    "subAt": 0.6
+   }
+  },
+  {
+   "id": "s10",
+   "lines": [
+    "한 번 빼앗기면 되찾고, 되찾으면 또 빼앗기는 싸움.",
+    "어떤 고지는 주인이 수십 번이나 바뀌었다고 합니다.",
+    "협상장의 지도 위에서는 손가락 한 마디에 불과한 땅이, 전선에서는 수백 명의 목숨값이었던 거죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "ridge_shelled",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s11",
+   "lines": [
+    "철원에서 연천으로 이어지는 서부 전선의 들판.",
+    "그 앞에 작은 언덕 하나가 불쑥 튀어나와 있었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "front53",
+    "to": "sector",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.1,
+        37.75
+       ],
+       [
+        126.6,
+        37.95
+       ],
+       [
+        126.9,
+        38.1
+       ],
+       [
+        127.0,
+        38.225
+       ],
+       [
+        127.1,
+        38.27
+       ],
+       [
+        127.2,
+        38.3
+       ],
+       [
+        127.4,
+        38.31
+       ],
+       [
+        127.6,
+        38.36
+       ],
+       [
+        127.85,
+        38.33
+       ],
+       [
+        128.1,
+        38.3
+       ],
+       [
+        128.35,
+        38.38
+       ],
+       [
+        128.6,
+        38.55
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "yeoncheon",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "cheorwon",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "pc",
+      "color": "yellow",
+      "at": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "s12",
+   "lines": [
+    {
+     "t": "지도에 적힌 이름은 255고지.",
+     "say": "지도에 적힌 이름은 이백오십오 고지."
+    },
+    {
+     "t": "높이 255m의 나지막한 언덕이었는데요.",
+     "say": "높이 이백오십오 미터의 나지막한 언덕이었는데요."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "sector",
+    "to": "chop",
+    "items": [
+     {
+      "k": "obj",
+      "p": "pc",
+      "n": "255",
+      "at": 0.3,
+      "text": "255고지"
+     }
+    ],
+    "tilt": 24
+   },
+   "callouts": [
+    {
+     "text": "255고지 · 연천 북방 (개략)",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "lines": [
+    "지도 위에 그려진 등고선 모양이, 마치 뼈가 붙은 돼지갈비 같았습니다.",
+    "그래서 미군 병사들은 이곳을 포크찹이라고 불렀죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "chop",
+    "to": "chop",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.0165,
+        38.2405
+       ],
+       [
+        127.018,
+        38.2435
+       ],
+       [
+        127.0215,
+        38.2448
+       ],
+       [
+        127.0238,
+        38.2427
+       ],
+       [
+        127.0222,
+        38.2397
+       ],
+       [
+        127.0197,
+        38.2386
+       ],
+       [
+        127.019,
+        38.2362
+       ],
+       [
+        127.0185,
+        38.2386
+       ],
+       [
+        127.0168,
+        38.2392
+       ],
+       [
+        127.0165,
+        38.2405
+       ]
+      ],
+      "color": "#FFD000",
+      "at": 0.3,
+      "glow": true
+     },
+     {
+      "k": "badge",
+      "p": "pc",
+      "text": "포크찹",
+      "color": "blue",
+      "at": 1.0,
+      "dy": -70
+     }
+    ],
+    "tilt": 20
+   },
+   "callouts": [
+    {
+     "text": "등고선 모양 = 돼지갈비 (모식)",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "lines": [
+    "이 고지는 아군 주저항선보다 한참 앞쪽으로 나와 있었습니다.",
+    "삼면이 적의 고지로 둘러싸인, 위험한 전초였던 겁니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "sector",
+    "to": "sector",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.94,
+        38.233
+       ],
+       [
+        126.97,
+        38.236
+       ],
+       [
+        126.995,
+        38.232
+       ],
+       [
+        127.015,
+        38.235
+       ],
+       [
+        127.035,
+        38.233
+       ],
+       [
+        127.06,
+        38.238
+       ],
+       [
+        127.09,
+        38.242
+       ]
+      ],
+      "color": "#00E5FF",
+      "at": 0,
+      "glow": true
+     },
+     {
+      "k": "obj",
+      "p": "pc",
+      "n": "255",
+      "at": 0.3
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.022,
+        38.262
+       ],
+       [
+        127.021,
+        38.25
+       ],
+       [
+        127.0205,
+        38.2445
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 0.6
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.003,
+        38.252
+       ],
+       [
+        127.012,
+        38.247
+       ],
+       [
+        127.017,
+        38.243
+       ]
+      ],
+      "color": "red",
+      "at": 0.5,
+      "width": 0.6
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.04,
+        38.252
+       ],
+       [
+        127.03,
+        38.247
+       ],
+       [
+        127.024,
+        38.243
+       ]
+      ],
+      "color": "red",
+      "at": 0.8,
+      "width": 0.6
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "주저항선 앞으로 튀어나온 전초 (개략)",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "lines": [
+    "마치 적진을 향해 내민 주먹 같았는데요.",
+    "적의 움직임을 내려다보기에는 더없이 좋은 자리였지만, 그만큼 적에게도 가장 먼저 두들겨 맞는 자리였습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "outpost_fist",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s16",
+   "lines": [
+    {
+     "t": "서쪽에는 대머리처럼 민둥산이 된 266고지, 올드 발디가 있었고요.",
+     "say": "서쪽에는 대머리처럼 민둥산이 된 이백육십육 고지, 올드 발디가 있었고요."
+    },
+    "북서쪽에는 적이 차지한 티본 고지가 버티고 있었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "sector",
+    "to": "sector",
+    "items": [
+     {
+      "k": "obj",
+      "p": "pc",
+      "n": "255",
+      "at": 0
+     },
+     {
+      "k": "obj",
+      "p": "ob",
+      "n": "266",
+      "at": 0.2,
+      "text": "올드 발디"
+     },
+     {
+      "k": "obj",
+      "p": "tb",
+      "n": "T",
+      "at": 1.0,
+      "text": "티본 고지"
+     }
+    ],
+    "tilt": 22
+   },
+   "callouts": [
+    {
+     "text": "올드 발디 · 티본 고지 (개략)",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s17",
+   "lines": [
+    "한 해 전 겨울, 이 고지를 지키던 태국군 병사들은 벙커 벽에 이런 글을 남기고 떠났다고 합니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s17-photo"
+   },
+   "label": "태국군 제21연대 제1대대 표지판 (한국전쟁)"
+  },
+  {
+   "id": "s18",
+   "lines": [
+    "우리 포크찹을 잘 지켜 달라."
+   ],
+   "visual": {
+    "type": "quotes",
+    "title": "태국군이 벙커 벽에 남긴 글",
+    "items": [
+     {
+      "text": "우리 포크찹을 잘 지켜 달라",
+      "at": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "s19",
+   "lines": [
+    {
+     "t": "그 부탁을 받은 부대가, 미 제7보병사단이었습니다.",
+     "say": "그 부탁을 받은 부대가, 미 제칠보병사단이었습니다."
+    },
+    "그리고 그 사단 안에, 에티오피아에서 온 강뉴 대대가 함께 있었죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s19-photo"
+   },
+   "label": "미 제7보병사단 제32연대 병사 (한국전쟁)"
+  },
+  {
+   "id": "s20",
+   "lines": [
+    {
+     "t": "1953년 봄, 이 일대를 맡은 미 제7보병사단의 사단장은 아서 트루도 소장이었습니다.",
+     "say": "천구백오십삼 년 봄, 이 일대를 맡은 미 제칠보병사단의 사단장은 아서 트루도 소장이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "person",
+    "q": "s20-photo",
+    "name": "아서 트루도",
+    "years": "1902 - 1991",
+    "role": "미 제7보병사단장"
+   },
+   "chapter": {
+    "num": "제2막",
+    "title": "삼면이 적, 피의 고지"
+   }
+  },
+  {
+   "id": "s21",
+   "lines": [
+    "사단은 고지 앞쪽에 여러 개의 전초를 띄엄띄엄 세워 두었는데요.",
+    "포크찹과 올드 발디, 그리고 그 사이사이의 작은 언덕들이었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "sector",
+    "to": "sector",
+    "items": [
+     {
+      "k": "obj",
+      "p": "pc",
+      "n": "255",
+      "at": 0
+     },
+     {
+      "k": "obj",
+      "p": "ob",
+      "n": "266",
+      "at": 0.3
+     },
+     {
+      "k": "obj",
+      "p": [
+       127.04,
+       38.238
+      ],
+      "n": "·",
+      "at": 0.6
+     },
+     {
+      "k": "obj",
+      "p": [
+       126.985,
+       38.24
+      ],
+      "n": "·",
+      "at": 0.8
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "띄엄띄엄 세운 전초들 (개략)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s22",
+   "lines": [
+    {
+     "t": "전초 하나를 지키는 병력은 고작 중대 하나, 많아야 100여 명이었습니다.",
+     "say": "전초 하나를 지키는 병력은 고작 중대 하나, 많아야 백여 명이었습니다."
+    },
+    "나머지는 뒤쪽 주저항선에서, 포병의 힘으로 이 전초들을 엄호하는 구조였거든요."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "sector",
+    "to": "sector",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.94,
+        38.233
+       ],
+       [
+        126.97,
+        38.236
+       ],
+       [
+        126.995,
+        38.232
+       ],
+       [
+        127.015,
+        38.235
+       ],
+       [
+        127.035,
+        38.233
+       ],
+       [
+        127.06,
+        38.238
+       ],
+       [
+        127.09,
+        38.242
+       ]
+      ],
+      "color": "#00E5FF",
+      "at": 0,
+      "glow": true
+     },
+     {
+      "k": "obj",
+      "p": "pc",
+      "n": "255",
+      "at": 0
+     },
+     {
+      "k": "radar",
+      "p": "arty",
+      "at": 0.6,
+      "size": 0.6,
+      "color": "#00E5FF",
+      "text": "포병"
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "전초 1개 = 중대 1개 · 뒤에서 포병 엄호",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s23",
+   "lines": [
+    "참호는 깊게 팠고, 벙커 위에는 통나무와 모래주머니를 몇 겹씩 쌓았습니다.",
+    "고지 둘레에는 철조망과 지뢰가 깔렸죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s23-photo"
+   },
+   "label": "올드 발디의 미군 진지 · 항공 촬영 (1953. 3. 22)"
+  },
+  {
+   "id": "s24",
+   "lines": [
+    {
+     "t": "그런데 3월 23일 밤, 첫 번째 균열이 생깁니다.",
+     "say": "그런데 삼월 이십삼일 밤, 첫 번째 균열이 생깁니다."
+    },
+    "중공군이 기습으로 올드 발디를 빼앗아 버린 겁니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "sector",
+    "to": "sector",
+    "items": [
+     {
+      "k": "obj",
+      "p": "pc",
+      "n": "255",
+      "at": 0
+     },
+     {
+      "k": "obj",
+      "p": "ob",
+      "n": "266",
+      "at": 0,
+      "text": "올드 발디"
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.995,
+        38.262
+       ],
+       [
+        127.0,
+        38.253
+       ],
+       [
+        127.003,
+        38.248
+       ]
+      ],
+      "color": "red",
+      "at": 0.4,
+      "width": 0.6
+     },
+     {
+      "k": "clash",
+      "p": "ob",
+      "at": 1.0,
+      "size": 0.8
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1953. 3. 23 밤 · 올드 발디 함락",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s25",
+   "lines": [
+    "그곳을 지키던 콜롬비아 대대의 한 중대는, 압도적인 적에게 순식간에 밀려났습니다.",
+    "미군은 몇 번이나 되찾으려 했지만, 결국 올드 발디는 적의 손에 남았는데요."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s25-photo"
+   },
+   "label": "철원 서쪽 적진에 사격하는 미 제31중박격포중대 (1953. 2)"
+  },
+  {
+   "id": "s26",
+   "lines": [
+    "이제 포크찹은 정면과 왼쪽, 그리고 오른쪽 앞까지, 세 방향에서 적을 마주하게 됩니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "sector",
+    "to": "chop",
+    "items": [
+     {
+      "k": "obj",
+      "p": "pc",
+      "n": "255",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.022,
+        38.262
+       ],
+       [
+        127.021,
+        38.25
+       ],
+       [
+        127.0205,
+        38.2445
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 0.6
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.003,
+        38.252
+       ],
+       [
+        127.012,
+        38.247
+       ],
+       [
+        127.017,
+        38.243
+       ]
+      ],
+      "color": "red",
+      "at": 0.5,
+      "width": 0.6
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.04,
+        38.252
+       ],
+       [
+        127.03,
+        38.247
+       ],
+       [
+        127.024,
+        38.243
+       ]
+      ],
+      "color": "red",
+      "at": 0.8,
+      "width": 0.6
+     },
+     {
+      "k": "lock",
+      "p": "pc",
+      "at": 1.2,
+      "text": "삼면 노출"
+     }
+    ],
+    "tilt": 24
+   }
+  },
+  {
+   "id": "s27",
+   "lines": [
+    "그날부터 밤마다 중공군 정찰대가 고지 아래를 더듬었습니다.",
+    "철조망을 끊는 소리, 낮게 깔린 발소리, 그리고 이따금 터지는 수류탄."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "night_wire",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s28",
+   "lines": [
+    "병사들은 어둠 속에서 귀를 세운 채, 다음 공격이 언제 올지만 기다렸습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "trench_listen",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s29",
+   "lines": [
+    "낮에는 적의 저격과 박격포 때문에 참호 밖으로 고개를 내밀 수조차 없었습니다.",
+    "물과 탄약은 밤에만, 등짐을 진 병사들이 비탈을 기어올라 날랐죠.",
+    "잠을 자도 군화를 벗지 못하는 날들이, 몇 주씩 이어졌습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "night_carry",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s30",
+   "lines": [
+    "중공군은 이 일대의 산 밑으로 긴 갱도를 파 놓고 있었습니다.",
+    "낮에는 땅속에 숨어 미군 포격을 피하고, 밤이 되면 갱도 입구에서 한꺼번에 쏟아져 나오는 방식이었거든요."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "tunnel_cpv",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s31",
+   "lines": [
+    "하늘에서는 미군이 우세했지만, 땅속에서는 중공군이 한 수 위였던 겁니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "하늘은 미군",
+    "accent": "땅속은 중공군",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s32",
+   "lines": [
+    "그렇다면 미군은 이 고지를 무엇으로 지켰을까요.",
+    "답은 포병이었습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s32-photo"
+   },
+   "label": "미군 155mm 곡사포 사격 (한국전쟁)"
+  },
+  {
+   "id": "s33",
+   "lines": [
+    "주저항선 뒤쪽에는 수십 문의 대포가, 전초 둘레에 미리 좌표를 맞춰 두고 있었습니다.",
+    "이것을 플래시 사격이라고 불렀는데요."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "sector",
+    "to": "sector",
+    "items": [
+     {
+      "k": "radar",
+      "p": "arty",
+      "at": 0,
+      "size": 0.7,
+      "color": "#00E5FF",
+      "text": "사격 원점"
+     },
+     {
+      "k": "obj",
+      "p": "pc",
+      "n": "255",
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "pc",
+      "text": "플래시 사격",
+      "color": "blue",
+      "at": 1.2,
+      "dy": -70
+     }
+    ]
+   }
+  },
+  {
+   "id": "s34",
+   "lines": [
+    "전초에서 신호만 보내면, 고지를 말발굽 모양으로 감싸는 포탄의 벽이 몇 분 만에 떨어지는 방식이었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "chop",
+    "to": "chop",
+    "items": [
+     {
+      "k": "obj",
+      "p": "pc",
+      "n": "255",
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.012,
+        38.2385
+       ],
+       [
+        127.011,
+        38.245
+       ],
+       [
+        127.016,
+        38.2495
+       ],
+       [
+        127.023,
+        38.2495
+       ],
+       [
+        127.028,
+        38.245
+       ],
+       [
+        127.027,
+        38.2385
+       ]
+      ],
+      "color": "#00E5FF",
+      "at": 0.2,
+      "glow": true
+     },
+     {
+      "k": "shock",
+      "pts": [
+       [
+        127.012,
+        38.243
+       ],
+       [
+        127.019,
+        38.2495
+       ],
+       [
+        127.027,
+        38.243
+       ]
+      ],
+      "at": 0.6,
+      "period": 0.8
+     }
+    ],
+    "tilt": 26
+   },
+   "callouts": [
+    {
+     "text": "말발굽 모양 포탄의 벽 (모식)",
+     "style": "blue",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s35",
+   "lines": [
+    "그리고 바로 옆, 북서쪽의 티본 고지 맞은편에서는 에티오피아 병사들이 밤마다 적진 깊숙이 정찰을 나가고 있었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "sector",
+    "to": "sector",
+    "items": [
+     {
+      "k": "obj",
+      "p": "tb",
+      "n": "T",
+      "at": 0,
+      "text": "티본 고지"
+     },
+     {
+      "k": "unit",
+      "p": "kag",
+      "color": "blue",
+      "text": "강뉴 대대",
+      "at": 0.3,
+      "pulse": true
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "티본 고지 맞은편 · 에티오피아 병사들 (개략)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s36",
+   "lines": [
+    "포크찹과 티본, 그리고 그 사이의 골짜기.",
+    "이 작은 땅덩어리 위에서, 그해 봄 가장 처절한 싸움이 시작되려 하고 있었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "sector",
+    "to": "sector",
+    "items": [
+     {
+      "k": "obj",
+      "p": "pc",
+      "n": "255",
+      "at": 0
+     },
+     {
+      "k": "obj",
+      "p": "tb",
+      "n": "T",
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": [
+       127.0,
+       38.256
+      ],
+      "text": "골짜기",
+      "color": "red",
+      "at": 0.6,
+      "dy": -50
+     }
+    ],
+    "tilt": 30
+   }
+  },
+  {
+   "id": "s37",
+   "lines": [
+    {
+     "t": "4월 16일 밤, 포크찹에는 미 제31연대의 이지 중대가 올라가 있었습니다.",
+     "say": "사월 십육일 밤, 포크찹에는 미 제삼십일연대의 이지 중대가 올라가 있었습니다."
+    }
+   ],
+   "visual": {
+    "type": "black",
+    "text": "제3막",
+    "accent": "중공군의 야간 폭풍",
+    "accentAt": 0.4
+   },
+   "pauseBefore": 0.5,
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s38",
+   "lines": [
+    "지휘관은 토머스 해럴드 중위였는데요."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "easy_trench",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "chapter": {
+    "num": "제3막",
+    "title": "중공군의 야간 폭풍"
+   },
+   "callouts": [
+    {
+     "text": "4. 16 밤 · 미 제31연대 이지 중대",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s39",
+   "lines": [
+    "그날 밤에도 고지는 조용했습니다.",
+    "적어도 자정이 오기 직전까지는 말이죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "quiet_night",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s40",
+   "lines": [
+    "병사들은 참호 속에서 식은 전투식량을 먹고, 교대로 눈을 붙였습니다.",
+    "그날 밤이 그들 대부분에게 마지막 밤이 되리라고는, 아무도 알지 못했죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "ration_trench",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s41",
+   "lines": [
+    {
+     "t": "밤 11시 무렵, 북쪽 하늘이 한꺼번에 번쩍입니다.",
+     "say": "밤 열한 시 무렵, 북쪽 하늘이 한꺼번에 번쩍입니다."
+    },
+    "중공군의 포탄이 고지 꼭대기로 쏟아지기 시작한 겁니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "chop",
+    "to": "chop",
+    "items": [
+     {
+      "k": "obj",
+      "p": "pc",
+      "n": "255",
+      "at": 0
+     },
+     {
+      "k": "shock",
+      "pts": [
+       [
+        127.019,
+        38.242
+       ],
+       [
+        127.021,
+        38.2435
+       ],
+       [
+        127.0175,
+        38.2405
+       ],
+       [
+        127.0225,
+        38.2412
+       ]
+      ],
+      "at": 0.3,
+      "period": 0.6
+     }
+    ],
+    "tilt": 28
+   },
+   "callouts": [
+    {
+     "text": "밤 11시 무렵 · 중공군 포격 개시",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0.2,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s42",
+   "lines": [
+    "이어서 날카로운 나팔 소리와 호루라기 소리가 어둠을 찢었습니다.",
+    "갱도에서 쏟아져 나온 중공군이, 고지 비탈을 새까맣게 메우며 올라왔는데요."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "bugle_tunnel",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s43",
+   "lines": [
+    {
+     "t": "이 공격을 맡은 것은 중공군 제201연대의 한 대대였습니다.",
+     "say": "이 공격을 맡은 것은 중공군 제이백일연대의 한 대대였습니다."
+    },
+    "이들은 포격이 그치기도 전에, 이미 철조망 바로 아래까지 다가와 있었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "chop",
+    "to": "chop",
+    "items": [
+     {
+      "k": "obj",
+      "p": "pc",
+      "n": "255",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.022,
+        38.262
+       ],
+       [
+        127.021,
+        38.25
+       ],
+       [
+        127.0205,
+        38.2445
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 0.6
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.003,
+        38.252
+       ],
+       [
+        127.012,
+        38.247
+       ],
+       [
+        127.017,
+        38.243
+       ]
+      ],
+      "color": "red",
+      "at": 0.5,
+      "width": 0.6
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.04,
+        38.252
+       ],
+       [
+        127.03,
+        38.247
+       ],
+       [
+        127.024,
+        38.243
+       ]
+      ],
+      "color": "red",
+      "at": 0.8,
+      "width": 0.6
+     },
+     {
+      "k": "unit",
+      "p": [
+       127.022,
+       38.256
+      ],
+      "color": "red",
+      "text": "중공군 제201연대 1개 대대",
+      "at": 0.4
+     }
+    ],
+    "tilt": 28
+   },
+   "callouts": [
+    {
+     "text": "4. 16 밤 · 세 방향 돌격 (개략)",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s44",
+   "lines": [
+    "병사들은 총구가 뜨거워질 때까지 쏘고 또 쐈습니다.",
+    "하지만 적은 쓰러지는 동료를 넘어, 계속해서 밀려 올라왔습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "mg_hot",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s45",
+   "lines": [
+    "무전선은 포격에 끊어졌고, 고지와 지휘부를 잇는 목소리는 점점 희미해져 갔습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "radio_dead",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s46",
+   "lines": [
+    "순식간에 참호선이 무너졌습니다.",
+    "이지 중대의 병사들은 고지 곳곳의 벙커 안으로 흩어져, 각자 고립된 채 버티기 시작했는데요."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "chop",
+    "to": "chop",
+    "items": [
+     {
+      "k": "obj",
+      "p": "pc",
+      "n": "255",
+      "at": 0
+     },
+     {
+      "k": "clash",
+      "p": "pc",
+      "at": 0.2,
+      "size": 0.9
+     },
+     {
+      "k": "lock",
+      "p": "pc",
+      "at": 0.8,
+      "text": "참호선 붕괴"
+     }
+    ],
+    "tilt": 28
+   }
+  },
+  {
+   "id": "s47",
+   "lines": [
+    "벙커 바로 위에서 중공군의 발소리가 들려 왔습니다.",
+    "문틈으로 수류탄이 굴러 들어오고, 기관단총 소리가 바로 귀 옆에서 터졌죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "bunker_inside",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s48",
+   "lines": [
+    "그때 전방 관측장교가 무전기에 대고 외칩니다.",
+    "플래시 포크찹.",
+    {
+     "t": "그리고 이어서, VT 사격을 요청합니다.",
+     "say": "그리고 이어서, 브이티 사격을 요청합니다."
+    }
+   ],
+   "visual": {
+    "type": "black",
+    "text": "플래시 포크찹",
+    "accent": "VT 사격 요청",
+    "accentAt": 0.55
+   },
+   "pauseBefore": 0.2,
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0.5,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s49",
+   "lines": [
+    {
+     "t": "VT 신관은 땅에 닿기 전, 공중에서 먼저 터지는 포탄이었습니다.",
+     "say": "브이티 신관은 땅에 닿기 전, 공중에서 먼저 터지는 포탄이었습니다."
+    },
+    "땅 위에 서 있는 적에게는 소나기 같은 파편을 뿌리지만, 두꺼운 벙커 안에 엎드린 아군은 살아남을 수 있었거든요."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "VT 신관",
+    "style": "yellow",
+    "sub": "땅에 닿기 전 공중에서 먼저 터지는 포탄",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s50",
+   "lines": [
+    "아군의 머리 위로, 아군의 포탄을 불러들인 겁니다.",
+    "고지 위에서 버티는 전우들이 아직 그 벙커 안에 있다는 걸 알면서도 말이죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "vt_burst",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s51",
+   "lines": [
+    "밤새 포탄이 고지를 두드렸습니다.",
+    "조명탄이 하늘에 걸릴 때마다, 비탈 위로 수백 개의 그림자가 드러났다가 사라졌는데요."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "chop",
+    "to": "chop",
+    "items": [
+     {
+      "k": "obj",
+      "p": "pc",
+      "n": "255",
+      "at": 0
+     },
+     {
+      "k": "shock",
+      "pts": [
+       [
+        127.018,
+        38.2425
+       ],
+       [
+        127.0205,
+        38.244
+       ],
+       [
+        127.022,
+        38.2415
+       ],
+       [
+        127.0175,
+        38.2398
+       ],
+       [
+        127.0198,
+        38.2405
+       ]
+      ],
+      "at": 0,
+      "period": 0.5
+     }
+    ],
+    "tilt": 30
+   },
+   "callouts": [
+    {
+     "text": "아군 진지 위 진내사격 (모식)",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s52",
+   "lines": [
+    "새벽이 가까워질 무렵, 포크찹의 꼭대기는 사실상 중공군의 손에 넘어가 있었습니다.",
+    "벙커 몇 곳에만, 살아남은 미군 몇 명이 숨을 죽이고 있었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "chop",
+    "to": "chop",
+    "items": [
+     {
+      "k": "obj",
+      "p": "pc",
+      "n": "255",
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.0165,
+        38.2405
+       ],
+       [
+        127.018,
+        38.2435
+       ],
+       [
+        127.0215,
+        38.2448
+       ],
+       [
+        127.0238,
+        38.2427
+       ],
+       [
+        127.0222,
+        38.2397
+       ],
+       [
+        127.0197,
+        38.2386
+       ],
+       [
+        127.019,
+        38.2362
+       ],
+       [
+        127.0185,
+        38.2386
+       ],
+       [
+        127.0168,
+        38.2392
+       ],
+       [
+        127.0165,
+        38.2405
+       ]
+      ],
+      "color": "#ff3b3b",
+      "at": 0.2,
+      "glow": true
+     },
+     {
+      "k": "lock",
+      "p": "pc",
+      "at": 0.8,
+      "text": "고지 함락 직전"
+     }
+    ],
+    "tilt": 28
+   },
+   "callouts": [
+    {
+     "text": "4. 17 새벽 · 벙커 몇 곳만 남아",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s53",
+   "lines": [
+    "지휘부는 결정을 내려야 했습니다.",
+    "이 고지를 포기할 것인가, 아니면 다시 피를 흘려 되찾을 것인가."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "command_decision",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s54",
+   "lines": [
+    "잠깐만요, 여기서 잠시 숨을 고르겠습니다.",
+    "지금 이 순간에도 포크찹의 벙커 안에는, 언제 올지 모르는 구원을 기다리는 병사들이 있었는데요."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "bunker_waiting",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s55",
+   "lines": [
+    "이렇게 잊혀 가는 전투의 기록을, 격전의 지도는 지도 위에 하나씩 다시 새기고 있습니다.",
+    "이 기록이 계속 이어지길 바라신다면, 구독 버튼 한 번 눌러 주시죠.",
+    "그 작은 클릭이, 다음 전장을 여는 힘이 됩니다.",
+    "자, 이제 그 밤의 한가운데로 다시 들어가 보겠습니다."
+   ],
+   "visual": {
+    "type": "cta",
+    "title": "잊혀 가는 격전의 기록, 함께 지켜 주십시오",
+    "at": 0
+   },
+   "pauseBefore": 0.3,
+   "sfx": [
+    {
+     "id": "pop",
+     "at": 0.3,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s56",
+   "lines": [
+    {
+     "t": "포크찹이 불타던 바로 그날 밤, 4월 16일.",
+     "say": "포크찹이 불타던 바로 그날 밤, 사월 십육일."
+    },
+    "철원 서쪽의 다른 고지들에서도 총성이 울리고 있었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "sector",
+    "to": "kagv",
+    "items": [
+     {
+      "k": "unit",
+      "p": "kag",
+      "color": "blue",
+      "text": "강뉴 대대",
+      "at": 0
+     },
+     {
+      "k": "clash",
+      "p": [
+       126.968,
+       38.256
+      ],
+      "at": 0.8,
+      "size": 0.7
+     }
+    ],
+    "tilt": 24
+   },
+   "chapter": {
+    "num": "제4막",
+    "title": "아프리카의 사자들"
+   },
+   "callouts": [
+    {
+     "text": "4. 16 · 철원 서쪽 고지의 강뉴 대대 (개략)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s57",
+   "lines": [
+    "그 고지를 지키던 병사들은, 미군도 국군도 아니었는데요.",
+    "단단한 눈빛을 가진, 에티오피아 병사들이었습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s57-photo"
+   },
+   "label": "에티오피아 병사들 (한국전쟁)"
+  },
+  {
+   "id": "s58",
+   "lines": [
+    "이들의 이름은 강뉴 대대.",
+    "에티오피아 황제 하일레 셀라시에가 직접 보낸, 황실 근위대의 정예들이었죠."
+   ],
+   "visual": {
+    "type": "person",
+    "q": "s58-photo",
+    "name": "하일레 셀라시에 1세",
+    "years": "1892 - 1975",
+    "role": "에티오피아 황제"
+   }
+  },
+  {
+   "id": "s59",
+   "lines": [
+    "강뉴라는 이름에는 사연이 있습니다.",
+    "황제의 아버지가 오래전 이탈리아의 침략에 맞서 싸울 때 타던 군마의 이름이, 바로 강뉴였거든요."
+   ],
+   "visual": {
+    "type": "person",
+    "q": "s59-photo",
+    "name": "라스 마콘넨",
+    "years": "1852 - 1906",
+    "role": "황제의 아버지 · 군마 '강뉴'의 주인"
+   }
+  },
+  {
+   "id": "s60",
+   "lines": [
+    "에티오피아는 아프리카에서 끝까지 식민지가 되지 않고 버틴 나라였습니다.",
+    "그리고 침략당한 나라의 고통이 어떤 것인지, 누구보다 잘 아는 나라였죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "에티오피아",
+    "style": "yellow",
+    "sub": "아프리카에서 끝까지 독립을 지킨 나라",
+    "subAt": 0.5
+   }
+  },
+  {
+   "id": "s61",
+   "lines": [
+    "그래서 황제는 지구 반대편의 작은 나라 한국이 침략당했다는 소식을 듣고, 망설이지 않았다고 합니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "emperor_decides",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s62",
+   "lines": [
+    {
+     "t": "1951년 5월, 첫 번째 강뉴 대대가 부산항에 내렸습니다.",
+     "say": "천구백오십일 년 오월, 첫 번째 강뉴 대대가 부산항에 내렸습니다."
+    },
+    {
+     "t": "그 뒤로 대대는 일 년마다 교대하며, 전쟁이 끝날 때까지 미 제7보병사단과 함께 싸웠는데요.",
+     "say": "그 뒤로 대대는 일 년마다 교대하며, 전쟁이 끝날 때까지 미 제칠보병사단과 함께 싸웠는데요."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s62-photo"
+   },
+   "label": "한국에 도착한 에티오피아·네덜란드·그리스군 (1951. 5. 8)",
+   "callouts": [
+    {
+     "text": "1951. 5 · 부산 도착",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s63",
+   "lines": [
+    {
+     "t": "전쟁 기간 동안 한국 땅을 밟은 에티오피아 병사는 3,000명이 넘었습니다.",
+     "say": "전쟁 기간 동안 한국 땅을 밟은 에티오피아 병사는 삼천 명이 넘었습니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "3,000명+",
+    "style": "yellow",
+    "sub": "전쟁 중 한국에 온 에티오피아 병사",
+    "subAt": 0.3
+   }
+  },
+  {
+   "id": "s64",
+   "lines": [
+    "황제는 대대가 떠날 때마다 직접 병사들 앞에 섰습니다.",
+    "그리고 이렇게 당부했다고 전해지죠.",
+    "이 깃발을, 반드시 다시 가지고 돌아오라."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "emperor_flag",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "“이 깃발을 반드시 다시 가지고 돌아오라”",
+     "style": "yellow",
+     "at": 2,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s65",
+   "lines": [
+    "처음에 미군 장교들은 이들을 반신반의했습니다.",
+    "아프리카에서 온 낯선 군대가, 과연 이 혹독한 고지전을 견딜 수 있을까 하고 말이죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "doubtful_officers",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s66",
+   "lines": [
+    "게다가 에티오피아 병사들 대부분은, 눈이라는 것을 한국에서 처음 보았다고 합니다.",
+    {
+     "t": "고원의 나라에서 온 병사들에게, 영하 20도의 한국 겨울은 또 하나의 적이었는데요.",
+     "say": "고원의 나라에서 온 병사들에게, 영하 이십 도의 한국 겨울은 또 하나의 적이었는데요."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "snow_ethiopian",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s67",
+   "lines": [
+    "그 의심은 오래가지 않았습니다.",
+    "강뉴 대대는 가장 위험한 임무에 먼저 손을 드는 부대였거든요."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "kagv",
+    "to": "kagv",
+    "items": [
+     {
+      "k": "unit",
+      "p": "kag",
+      "color": "blue",
+      "text": "강뉴 대대",
+      "at": 0,
+      "pulse": true
+     },
+     {
+      "k": "obj",
+      "p": "tb",
+      "n": "T",
+      "at": 0.4,
+      "text": "티본 고지"
+     }
+    ],
+    "tilt": 26
+   },
+   "hudCta": {
+    "at": 0,
+    "dur": 7.5
+   }
+  },
+  {
+   "id": "s68",
+   "lines": [
+    "적진 깊숙이 들어가는 야간 정찰, 적의 참호를 기습하는 매복.",
+    "다른 부대가 꺼리는 임무일수록, 에티오피아 병사들은 앞장섰습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "night_patrol_eth",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s69",
+   "lines": [
+    "그해 봄, 미군의 전쟁사가 마셜 준장은 포크찹 일대의 전투를 기록하다가, 믿기 힘든 장면 하나를 적어 둡니다."
+   ],
+   "visual": {
+    "type": "person",
+    "q": "s69-photo",
+    "name": "S. L. A. 마셜",
+    "years": "1900 - 1977",
+    "role": "미군 전쟁사가 · 『포크찹 고지』 저자"
+   }
+  },
+  {
+   "id": "s70",
+   "lines": [
+    {
+     "t": "대낮에, 적이 훤히 내려다보는 들판을 에티오피아 병사 8명이 걸어서 건너갔다는 겁니다.",
+     "say": "대낮에, 적이 훤히 내려다보는 들판을 에티오피아 병사 여덟 명이 걸어서 건너갔다는 겁니다."
+    },
+    {
+     "t": "거리는 700m가 넘었는데요.",
+     "say": "거리는 칠백 미터가 넘었는데요."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "kagv",
+    "to": "kagv",
+    "items": [
+     {
+      "k": "unit",
+      "p": "kag",
+      "color": "blue",
+      "text": "에티오피아 8명",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.972,
+        38.249
+       ],
+       [
+        126.977,
+        38.255
+       ],
+       [
+        126.983,
+        38.26
+       ]
+      ],
+      "color": "blue",
+      "at": 0.3,
+      "width": 0.6
+     },
+     {
+      "k": "obj",
+      "p": "tb",
+      "n": "T",
+      "at": 0,
+      "text": "티본 고지"
+     }
+    ],
+    "tilt": 26
+   },
+   "callouts": [
+    {
+     "text": "대낮 · 700m 넘는 무인지대 (개략)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s71",
+   "lines": [
+    "그들은 그대로 티본 고지의 비탈을 올라, 적의 참호 안으로 뛰어들었습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "tbone_raid",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s72",
+   "lines": [
+    {
+     "t": "잠시 뒤 다시 보았을 때, 8명은 10명이 되어 있었다고 합니다.",
+     "say": "잠시 뒤 다시 보았을 때, 여덟 명은 열 명이 되어 있었다고 합니다."
+    },
+    {
+     "t": "적의 대대 한가운데서, 중공군 포로 2명을 끌고 나온 거죠.",
+     "say": "적의 대대 한가운데서, 중공군 포로 두 명을 끌고 나온 거죠."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "8명 → 10명",
+    "style": "yellow",
+    "sub": "중공군 포로 2명을 끌고 돌아오다",
+    "subAt": 0.5
+   }
+  },
+  {
+   "id": "s73",
+   "lines": [
+    "마셜은 이 병사들을, 다리를 홀로 지킨 고대 로마의 영웅에 빗대어 적었습니다.",
+    "그리고 기자들이 이런 이야기를 놓치고 있다고, 안타까워했죠."
+   ],
+   "visual": {
+    "type": "quotes",
+    "title": "마셜, 『포크찹 고지』",
+    "items": [
+     {
+      "text": "다리를 지킨 호라티우스처럼",
+      "at": 0
+     },
+     {
+      "text": "기자들이 놓친 에티오피아의 전공",
+      "at": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "s74",
+   "lines": [
+    "중공군 사이에서는 에티오피아 병사들을 둘러싼 무시무시한 소문이 돌았다고 합니다.",
+    "그 소문 덕분에, 강뉴 대대는 적에게 더욱 두려운 존재가 되었는데요."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "cpv_fear",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s75",
+   "lines": [
+    "하지만 이들이 정말로 무서웠던 이유는 따로 있었습니다.",
+    "강뉴 대대는 쓰러진 전우를, 절대 전장에 두고 오지 않았거든요."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "carry_comrade",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s76",
+   "lines": [
+    "다시 포크찹입니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "제5막",
+    "accent": "아군 진지 위로 쏟아진 포탄",
+    "accentAt": 0.4
+   },
+   "pauseBefore": 0.5,
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s77",
+   "lines": [
+    {
+     "t": "4월 17일 새벽 4시 30분, 마침내 역습이 시작됩니다.",
+     "say": "사월 십칠일 새벽 네 시 삼십 분, 마침내 역습이 시작됩니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "chop",
+    "to": "chop",
+    "items": [
+     {
+      "k": "obj",
+      "p": "pc",
+      "n": "255",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.019,
+        38.229
+       ],
+       [
+        127.0195,
+        38.235
+       ],
+       [
+        127.0195,
+        38.24
+       ]
+      ],
+      "color": "blue",
+      "at": 0.3,
+      "width": 0.7
+     }
+    ],
+    "tilt": 28
+   },
+   "chapter": {
+    "num": "제5막",
+    "title": "아군 진지 위로 쏟아진 포탄"
+   },
+   "callouts": [
+    {
+     "text": "4. 17 새벽 4시 30분 · 역습",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s78",
+   "lines": [
+    {
+     "t": "선두에 선 것은 제31연대의 킹 중대와 러브 중대였습니다.",
+     "say": "선두에 선 것은 제삼십일연대의 킹 중대와 러브 중대였습니다."
+    },
+    "킹 중대를 이끈 사람은 조지프 클레먼스 중위였는데요.",
+    "그는 이 역습을 지휘하기 직전에 중대장이 된, 아직 젊은 장교였습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "clemons_lead",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "킹 중대장 · 조지프 클레먼스 중위",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s79",
+   "lines": [
+    "비탈을 오르는 동안, 중공군의 포탄과 수류탄이 쉴 새 없이 쏟아졌습니다.",
+    "러브 중대는 적의 포격에 크게 무너졌고, 킹 중대만이 겨우 꼭대기 참호에 닿았는데요."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "uphill_assault",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s80",
+   "lines": [
+    "날이 밝았을 때, 클레먼스 곁에 다치지 않고 남은 병사는 손에 꼽을 정도였습니다.",
+    {
+     "t": "135명으로 시작한 킹 중대에서, 125명이 죽거나 다쳤거든요.",
+     "say": "백삼십오 명으로 시작한 킹 중대에서, 백이십오 명이 죽거나 다쳤거든요."
+    },
+    {
+     "t": "10명 가운데 9명이 쓰러진 셈입니다.",
+     "say": "열 명 가운데 아홉 명이 쓰러진 셈입니다."
+    }
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "킹 중대 출발",
+     "big": "135명",
+     "icon": "none",
+     "color": "blue"
+    },
+    "right": {
+     "title": "죽거나 다친 병사",
+     "big": "125명",
+     "icon": "none",
+     "color": "red",
+     "at": 1.0
+    }
+   },
+   "callouts": [
+    {
+     "text": "영문 위키백과 집계 (자료마다 차이)",
+     "style": "dark",
+     "at": 2,
+     "pos": "lower"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 1.0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s81",
+   "lines": [
+    "남은 병사들은 적이 버리고 간 총까지 주워 들고 싸웠다고 하죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "captured_weapons",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s82",
+   "lines": [
+    "킹 중대는 벙커 안에 갇혀 있던 이지 중대의 생존자들을 찾아냈습니다.",
+    "그들은 고작 몇 명뿐이었죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "find_survivors",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s83",
+   "lines": [
+    "그런데 적은 또 다른 대대를 고지로 밀어 넣고 있었습니다.",
+    "클레먼스는 무전기에 대고 다시 외칩니다.",
+    "증원이 필요하다고."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "clemons_radio",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s84",
+   "lines": [
+    {
+     "t": "그날 저녁, 제17연대의 중대들이 차례로 고지를 향해 달려 올라갔습니다.",
+     "say": "그날 저녁, 제십칠연대의 중대들이 차례로 고지를 향해 달려 올라갔습니다."
+    },
+    {
+     "t": "첫 번째 중대는 꼭대기 참호에 닿기까지, 19명을 잃었는데요.",
+     "say": "첫 번째 중대는 꼭대기 참호에 닿기까지, 열아홉 명을 잃었는데요."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "chop",
+    "to": "chop",
+    "items": [
+     {
+      "k": "obj",
+      "p": "pc",
+      "n": "255",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.016,
+        38.229
+       ],
+       [
+        127.017,
+        38.235
+       ],
+       [
+        127.018,
+        38.2395
+       ]
+      ],
+      "color": "blue",
+      "at": 0.2,
+      "width": 0.6
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.022,
+        38.229
+       ],
+       [
+        127.021,
+        38.235
+       ],
+       [
+        127.0205,
+        38.2395
+       ]
+      ],
+      "color": "blue",
+      "at": 0.6,
+      "width": 0.6
+     }
+    ],
+    "tilt": 28
+   },
+   "callouts": [
+    {
+     "text": "4. 17 저녁 · 제17연대 증원 (개략)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s85",
+   "lines": [
+    "이어서 또 하나의 중대가, 포탄을 피해 고지 오른쪽을 돌아 적의 정면을 향해 올라갔습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "chop",
+    "to": "chop",
+    "items": [
+     {
+      "k": "obj",
+      "p": "pc",
+      "n": "255",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.028,
+        38.232
+       ],
+       [
+        127.029,
+        38.239
+       ],
+       [
+        127.025,
+        38.2435
+       ]
+      ],
+      "color": "blue",
+      "at": 0.2,
+      "width": 0.6
+     }
+    ],
+    "tilt": 28
+   },
+   "callouts": [
+    {
+     "text": "오른쪽으로 돌아 오른 중대 (개략)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s86",
+   "lines": [
+    {
+     "t": "그리고 4월 18일 새벽, 중공군이 다시 한 번 몰려옵니다.",
+     "say": "그리고 사월 십팔일 새벽, 중공군이 다시 한 번 몰려옵니다."
+    },
+    "고지 위의 병사들은 남은 탄약을 모두 끌어모았습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "chop",
+    "to": "chop",
+    "items": [
+     {
+      "k": "obj",
+      "p": "pc",
+      "n": "255",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.022,
+        38.262
+       ],
+       [
+        127.021,
+        38.25
+       ],
+       [
+        127.0205,
+        38.2445
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 0.6
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.003,
+        38.252
+       ],
+       [
+        127.012,
+        38.247
+       ],
+       [
+        127.017,
+        38.243
+       ]
+      ],
+      "color": "red",
+      "at": 0.5,
+      "width": 0.6
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.04,
+        38.252
+       ],
+       [
+        127.03,
+        38.247
+       ],
+       [
+        127.024,
+        38.243
+       ]
+      ],
+      "color": "red",
+      "at": 0.8,
+      "width": 0.6
+     },
+     {
+      "k": "clash",
+      "p": "pc",
+      "at": 1.2,
+      "size": 0.9
+     }
+    ],
+    "tilt": 28
+   },
+   "callouts": [
+    {
+     "text": "4. 18 새벽 · 중공군 재공격",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s87",
+   "lines": [
+    "총알이 떨어진 병사들은 총검을 꽂았고, 그마저 없으면 개머리판과 삽을 휘둘렀습니다.",
+    "참호 안에서 서로의 숨소리가 들릴 만큼 가까운, 백병전이었죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "bayonet_melee",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s88",
+   "lines": [
+    {
+     "t": "그 머리 위로, 다시 아군의 VT 포탄이 터졌습니다.",
+     "say": "그 머리 위로, 다시 아군의 브이티 포탄이 터졌습니다."
+    },
+    "고지에 남은 미군은 벙커 속에 몸을 숨기고, 땅 위로 올라선 적은 파편의 비를 맞았는데요."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "chop",
+    "to": "chop",
+    "items": [
+     {
+      "k": "obj",
+      "p": "pc",
+      "n": "255",
+      "at": 0
+     },
+     {
+      "k": "shock",
+      "pts": [
+       [
+        127.018,
+        38.2425
+       ],
+       [
+        127.0215,
+        38.2435
+       ],
+       [
+        127.0195,
+        38.2402
+       ],
+       [
+        127.023,
+        38.2418
+       ]
+      ],
+      "at": 0,
+      "period": 0.5
+     }
+    ],
+    "tilt": 30
+   },
+   "callouts": [
+    {
+     "text": "다시 쏟아진 VT 포탄 (모식)",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s89",
+   "lines": [
+    {
+     "t": "이틀 동안 유엔군 포병이 이 일대의 전초를 지키기 위해 쏜 포탄은 7만 7천 발이 넘었습니다.",
+     "say": "이틀 동안 유엔군 포병이 이 일대의 전초를 지키기 위해 쏜 포탄은 칠만 칠천 발이 넘었습니다."
+    },
+    {
+     "t": "그 가운데 4월 18일 하루에만, 포크찹 한 곳에 4만 발 가까운 포탄이 떨어졌죠.",
+     "say": "그 가운데 사월 십팔일 하루에만, 포크찹 한 곳에 사만 발 가까운 포탄이 떨어졌죠."
+    }
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "4. 16~18 · 영문 위키백과 집계",
+    "items": [
+     {
+      "label": "유엔군 포탄 · 세 전초 합계",
+      "value": 77000,
+      "display": "7만 7천 발+",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "label": "4. 18 하루 · 포크찹",
+      "value": 40000,
+      "display": "약 4만 발",
+      "color": "red",
+      "at": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "s90",
+   "lines": [
+    "중공군도 그에 못지않은 포탄을 쏟아부었다고 기록되어 있습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s90-photo"
+   },
+   "label": "미군 8인치 곡사포 사격 (1951)"
+  },
+  {
+   "id": "s91",
+   "lines": [
+    {
+     "t": "날이 밝자, 제17연대의 또 다른 중대가 고지로 올라왔습니다.",
+     "say": "날이 밝자, 제십칠연대의 또 다른 중대가 고지로 올라왔습니다."
+    },
+    "마침내 그날 저녁, 중공군은 포크찹에서 물러납니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "chop",
+    "to": "chop",
+    "items": [
+     {
+      "k": "obj",
+      "p": "pc",
+      "n": "255",
+      "at": 0,
+      "text": "255고지",
+      "takenAt": 0
+     },
+     {
+      "k": "badge",
+      "p": "pc",
+      "text": "고지 사수",
+      "color": "blue",
+      "at": 0.6,
+      "dy": -70
+     }
+    ],
+    "tilt": 24
+   },
+   "callouts": [
+    {
+     "text": "4. 18 저녁 · 중공군 퇴각",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s92",
+   "lines": [
+    "고지는 지켜 냈습니다.",
+    "하지만 그 대가는 너무나 컸습니다.",
+    "이 이틀의 전투는, 훗날 할리우드 영화로까지 만들어지게 되죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s92-photo"
+   },
+   "label": "부상병을 돕는 미 제31연대 제1대대 의무병 (한국전쟁)"
+  },
+  {
+   "id": "s93",
+   "lines": [
+    "벙커는 무너지고, 참호는 포탄 구덩이로 뒤덮였습니다.",
+    "고지 꼭대기는 풀 한 포기 남지 않은 잿빛 흙더미가 되어 있었는데요."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "barren_crest",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s94",
+   "lines": [
+    {
+     "t": "그리고 그 무렵, 바로 옆 강뉴 대대의 진지에서는 새로 도착한 제3 강뉴 대대가, 전쟁의 마지막 혈전을 준비하고 있었습니다.",
+     "say": "그리고 그 무렵, 바로 옆 강뉴 대대의 진지에서는 새로 도착한 제삼 강뉴 대대가, 전쟁의 마지막 혈전을 준비하고 있었습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "sector",
+    "to": "kagv",
+    "items": [
+     {
+      "k": "unit",
+      "p": "kag",
+      "color": "blue",
+      "text": "제3 강뉴 대대",
+      "at": 0.3,
+      "pulse": true
+     }
+    ],
+    "tilt": 22
+   }
+  },
+  {
+   "id": "s95",
+   "lines": [
+    {
+     "t": "1953년 오월, 교대를 마친 제3 강뉴 대대가 철원 서쪽의 고지에 자리를 잡습니다.",
+     "say": "천구백오십삼 년 오월, 교대를 마친 제삼 강뉴 대대가 철원 서쪽의 고지에 자리를 잡습니다."
+    },
+    "그들의 정면에는, 요크 고지라는 작은 언덕이 있었습니다.",
+    "강뉴 대대가 지켜야 할 전초였죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "kagv",
+    "to": "kagv",
+    "items": [
+     {
+      "k": "unit",
+      "p": "kag",
+      "color": "blue",
+      "text": "제3 강뉴 대대",
+      "at": 0
+     },
+     {
+      "k": "obj",
+      "p": "yoke",
+      "n": "Y",
+      "at": 1.0,
+      "text": "요크 고지"
+     }
+    ],
+    "tilt": 26
+   },
+   "chapter": {
+    "num": "제6막",
+    "title": "253전 253승의 신화"
+   },
+   "callouts": [
+    {
+     "text": "1953. 5 · 요크 고지 (위치 개략)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s96",
+   "lines": [
+    {
+     "t": "5월 15일부터 18일까지, 나흘 동안 중공군은 4번이나 요크 고지를 두드렸습니다.",
+     "say": "오월 십오일부터 십팔일까지, 나흘 동안 중공군은 네 번이나 요크 고지를 두드렸습니다."
+    },
+    "그때마다 강뉴 대대는 집중 사격으로 적을 밀어냈는데요."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "kagv",
+    "to": "kagv",
+    "items": [
+     {
+      "k": "obj",
+      "p": "yoke",
+      "n": "Y",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.958,
+        38.268
+       ],
+       [
+        126.96,
+        38.261
+       ],
+       [
+        126.961,
+        38.258
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 0.5
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.948,
+        38.262
+       ],
+       [
+        126.955,
+        38.258
+       ],
+       [
+        126.959,
+        38.257
+       ]
+      ],
+      "color": "red",
+      "at": 0.5,
+      "width": 0.5
+     },
+     {
+      "k": "shock",
+      "pts": [
+       [
+        126.96,
+        38.259
+       ],
+       [
+        126.957,
+        38.26
+       ]
+      ],
+      "at": 0.9,
+      "period": 0.8
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "5. 15~18 · 네 차례 공격 격퇴",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s97",
+   "lines": [
+    {
+     "t": "그리고 5월 19일 밤, 15명의 에티오피아 수색대가 요크 고지 앞으로 나갑니다.",
+     "say": "그리고 오월 십구일 밤, 열다섯 명의 에티오피아 수색대가 요크 고지 앞으로 나갑니다."
+    },
+    "매복을 했다가, 적을 사로잡아 오려는 작전이었죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "ambush_15",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s98",
+   "lines": [
+    "그런데 중공군은 이 매복조를 피해 크게 돌아 들어왔습니다.",
+    "그리고 요크 고지와 옆의 엉클 고지를, 한꺼번에 에워싸 버립니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "kagv",
+    "to": "kagv",
+    "items": [
+     {
+      "k": "obj",
+      "p": "yoke",
+      "n": "Y",
+      "at": 0,
+      "text": "요크"
+     },
+     {
+      "k": "obj",
+      "p": "uncle",
+      "n": "U",
+      "at": 0,
+      "text": "엉클"
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        126.953,
+        38.262
+       ],
+       [
+        126.972,
+        38.264
+       ],
+       [
+        126.984,
+        38.258
+       ],
+       [
+        126.978,
+        38.25
+       ],
+       [
+        126.96,
+        38.249
+       ],
+       [
+        126.952,
+        38.255
+       ],
+       [
+        126.953,
+        38.262
+       ]
+      ],
+      "color": "#ff3b3b",
+      "at": 0.4,
+      "glow": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.945,
+        38.27
+       ],
+       [
+        126.95,
+        38.258
+       ],
+       [
+        126.958,
+        38.25
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 0.5
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "5. 19 밤 · 매복조를 피해 우회 포위 (개략)",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s99",
+   "lines": [
+    {
+     "t": "5월 20일 새벽, 요크 고지 위에서 처절한 백병전이 벌어졌습니다.",
+     "say": "오월 이십일 새벽, 요크 고지 위에서 처절한 백병전이 벌어졌습니다."
+    }
+   ],
+   "visual": {
+    "type": "black",
+    "text": "5월 20일 새벽",
+    "accent": "요크 고지 백병전",
+    "accentAt": 0.5
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s100",
+   "lines": [
+    "수류탄이 참호 안으로 날아들고, 조명탄 불빛 아래로 총검이 번뜩였습니다.",
+    "기관총 사수가 쓰러지면, 옆의 병사가 곧바로 그 자리를 이어받았는데요."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "yoke_grenades",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s101",
+   "lines": [
+    "참호 속으로 뛰어든 적과, 총검을 꽂은 에티오피아 병사들이 뒤엉켰습니다.",
+    "어둠 속에서는 누가 적이고 누가 아군인지, 숨소리로 겨우 가려낼 정도였는데요."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "yoke_melee",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s102",
+   "lines": [
+    "한 참전 용사는 훗날 이렇게 회고했습니다.",
+    {
+     "t": "그날 밤, 14명의 에티오피아 병사와 미군 한 명이, 300명 가까운 중공군에게 둘러싸였다고 말이죠.",
+     "say": "그날 밤, 열네 명의 에티오피아 병사와 미군 한 명이, 삼백 명 가까운 중공군에게 둘러싸였다고 말이죠."
+    }
+   ],
+   "visual": {
+    "type": "quotes",
+    "title": "참전 용사의 회고",
+    "items": [
+     {
+      "text": "에티오피아 병사 14명과 미군 1명",
+      "at": 0
+     },
+     {
+      "text": "300명 가까운 중공군에 포위",
+      "at": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "s103",
+   "lines": [
+    "대원 몇 명이 그 자리에서 쓰러졌습니다.",
+    "그래도 남은 병사들은 물러서지 않았습니다.",
+    "쓰러진 전우의 몸을, 적에게 넘겨줄 수는 없었거든요."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "shield_fallen",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s104",
+   "lines": [
+    "날이 밝았을 때, 물러난 쪽은 중공군이었습니다.",
+    {
+     "t": "우리 보훈 기록에 따르면, 적은 110명의 시신을 남기고 퇴각했는데요.",
+     "say": "우리 보훈 기록에 따르면, 적은 백십 명의 시신을 남기고 퇴각했는데요."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "kagv",
+    "to": "kagv",
+    "items": [
+     {
+      "k": "obj",
+      "p": "yoke",
+      "n": "Y",
+      "at": 0,
+      "text": "요크 고지",
+      "takenAt": 0
+     },
+     {
+      "k": "badge",
+      "p": "yoke",
+      "text": "고지 사수",
+      "color": "blue",
+      "at": 0.4,
+      "dy": -60
+     }
+    ],
+    "tilt": 24
+   },
+   "callouts": [
+    {
+     "text": "적 110명 사망 · 퇴각 (국가보훈부 기록)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s105",
+   "lines": [
+    "대한민국 정부는 이 전투를 기려, 강뉴 대대에 부대 표창을 수여했습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "대한민국 부대 표창",
+    "style": "yellow",
+    "sub": "요크 고지 전투 · 제3 강뉴 대대",
+    "subAt": 0.3
+   }
+  },
+  {
+   "id": "s106",
+   "lines": [
+    "그리고 강뉴 대대는, 그날 밤에도 쓰러진 전우들을 모두 업고 고지를 내려왔습니다.",
+    "죽은 자도, 다친 자도, 단 한 명도 남겨 두지 않았죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "carry_down_dawn",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s107",
+   "lines": [
+    "이것이 강뉴 대대의 철칙이었습니다.",
+    "살아서 돌아가든, 죽어서 돌아가든, 반드시 함께 돌아간다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "살아서든 죽어서든",
+    "accent": "반드시 함께 돌아간다",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s108",
+   "lines": [
+    "그래서 이런 기록이 남았습니다.",
+    {
+     "t": "강뉴 대대가 한국 전쟁에서 치른 전투는 253번.",
+     "say": "강뉴 대대가 한국 전쟁에서 치른 전투는 이백오십삼 번."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "253전",
+    "style": "yellow",
+    "sub": "강뉴 대대가 한국에서 치른 전투",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s109",
+   "lines": [
+    "그리고 그 모든 전투에서, 단 한 번도 패하지 않았다는 겁니다.",
+    "명령 없이 땅을 내준 적은 한 번도 없었다고 하죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "253승",
+    "style": "red",
+    "sub": "명령 없이 내준 땅은 없었다",
+    "subAt": 0.5
+   }
+  },
+  {
+   "id": "s110",
+   "lines": [
+    {
+     "t": "전쟁 동안 강뉴 대대에서는 121명이 전사하고, 536명이 다쳤습니다.",
+     "say": "전쟁 동안 강뉴 대대에서는 백이십일 명이 전사하고, 오백삼십육 명이 다쳤습니다."
+    },
+    "그런데 포로가 된 병사는, 단 한 명도 없었습니다.",
+    "부상을 입고 쓰러진 병사도, 전우들이 끝까지 찾아내 업고 돌아왔기 때문이죠."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "전사 · 부상",
+     "big": "121 · 536명",
+     "icon": "none",
+     "color": "blue"
+    },
+    "right": {
+     "title": "포로",
+     "big": "0명",
+     "icon": "none",
+     "color": "red",
+     "at": 1.0
+    }
+   },
+   "callouts": [
+    {
+     "text": "국가보훈부 · 유엔군사령부 집계",
+     "style": "dark",
+     "at": 2,
+     "pos": "lower"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 1.0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s111",
+   "lines": [
+    "수백 번을 싸우고, 수백 명이 쓰러지면서도, 적의 손에 끌려간 병사가 단 한 명도 없는 군대.",
+    "전쟁의 역사에서도 쉽게 찾아보기 힘든 기록입니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s111-photo"
+   },
+   "label": "무반동총을 겨누는 에티오피아 병사들 (한국전쟁)"
+  },
+  {
+   "id": "s112",
+   "lines": [
+    "그렇다면 포크찹 고지는 어떻게 되었을까요."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "제7막",
+    "accent": "머나먼 땅에서 온 영웅들",
+    "accentAt": 0.4
+   },
+   "pauseBefore": 0.5,
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s113",
+   "lines": [
+    "이야기는 아직 끝나지 않았습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "rain_hill",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "chapter": {
+    "num": "제7막",
+    "title": "에필로그 · 머나먼 땅에서 온 영웅들"
+   }
+  },
+  {
+   "id": "s114",
+   "lines": [
+    {
+     "t": "7월 6일 밤, 거센 장맛비 속에서 중공군이 다시 포크찹을 덮칩니다.",
+     "say": "칠월 육일 밤, 거센 장맛비 속에서 중공군이 다시 포크찹을 덮칩니다."
+    },
+    {
+     "t": "휴전을 불과 3주 앞둔 때였습니다.",
+     "say": "휴전을 불과 삼 주 앞둔 때였습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "chop",
+    "to": "chop",
+    "items": [
+     {
+      "k": "obj",
+      "p": "pc",
+      "n": "255",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.022,
+        38.262
+       ],
+       [
+        127.021,
+        38.25
+       ],
+       [
+        127.0205,
+        38.2445
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 0.6
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.003,
+        38.252
+       ],
+       [
+        127.012,
+        38.247
+       ],
+       [
+        127.017,
+        38.243
+       ]
+      ],
+      "color": "red",
+      "at": 0.5,
+      "width": 0.6
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.04,
+        38.252
+       ],
+       [
+        127.03,
+        38.247
+       ],
+       [
+        127.024,
+        38.243
+       ]
+      ],
+      "color": "red",
+      "at": 0.8,
+      "width": 0.6
+     },
+     {
+      "k": "shock",
+      "pts": [
+       [
+        127.019,
+        38.242
+       ],
+       [
+        127.021,
+        38.2435
+       ]
+      ],
+      "at": 1.0,
+      "period": 0.7
+     }
+    ],
+    "tilt": 26
+   },
+   "callouts": [
+    {
+     "text": "1953. 7. 6 밤 · 장맛비 속 재공격",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s115",
+   "lines": [
+    "이번에는 닷새 동안 싸움이 이어졌습니다.",
+    "공격하고, 되찾고, 다시 빼앗기는 일이 밤낮으로 되풀이되었는데요.",
+    "빗물이 고인 참호는 진흙탕이 되었고, 병사들은 무릎까지 차오른 물속에서 총을 쏘았습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "mud_trench",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s116",
+   "lines": [
+    {
+     "t": "결국 7월 11일, 미군 지휘부는 고지에서 물러나기로 결정합니다.",
+     "say": "결국 칠월 십일일, 미군 지휘부는 고지에서 물러나기로 결정합니다."
+    },
+    "끝없이 병력을 쏟아붓는 적 앞에서, 더 이상 이 언덕에 목숨을 바칠 수는 없다는 판단이었죠."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "1953. 7. 11",
+    "accent": "포크찹 철수 결정",
+    "accentAt": 0.4
+   }
+  },
+  {
+   "id": "s117",
+   "lines": [
+    {
+     "t": "그리고 보름 남짓 뒤인 7월 27일, 마침내 휴전 협정이 맺어집니다.",
+     "say": "그리고 보름 남짓 뒤인 칠월 이십칠일, 마침내 휴전 협정이 맺어집니다."
+    },
+    "포크찹 고지는, 휴전선 너머 비무장지대 속으로 사라졌습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s117-photo"
+   },
+   "label": "휴전 협정에 서명하는 클라크 유엔군 사령관 (1953. 7. 27)"
+  },
+  {
+   "id": "s118",
+   "lines": [
+    "그렇다면 그 모든 피는 헛된 것이었을까요.",
+    "그렇지 않습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "sector",
+    "to": "sector",
+    "items": [
+     {
+      "k": "obj",
+      "p": "pc",
+      "n": "255",
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        126.94,
+        38.25
+       ],
+       [
+        126.97,
+        38.252
+       ],
+       [
+        127.0,
+        38.248
+       ],
+       [
+        127.02,
+        38.247
+       ],
+       [
+        127.05,
+        38.25
+       ],
+       [
+        127.09,
+        38.255
+       ]
+      ],
+      "color": "#ff3b3b",
+      "at": 0.3,
+      "glow": true
+     },
+     {
+      "k": "badge",
+      "p": [
+       127.05,
+       38.25
+      ],
+      "text": "군사분계선",
+      "color": "red",
+      "at": 0.8,
+      "dy": -50
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "휴전선 언저리로 사라진 포크찹 (개략)",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s119",
+   "lines": [
+    "휴전선이 그어진 지도를 보면, 포크찹이 있던 자리는 군사분계선 바로 언저리입니다.",
+    "몇 번의 밤을 버티지 못했다면, 그 선은 훨씬 남쪽으로 내려왔을지도 모릅니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "front53",
+    "to": "front53",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.1,
+        37.75
+       ],
+       [
+        126.6,
+        37.95
+       ],
+       [
+        126.9,
+        38.1
+       ],
+       [
+        127.0,
+        38.225
+       ],
+       [
+        127.1,
+        38.27
+       ],
+       [
+        127.2,
+        38.3
+       ],
+       [
+        127.4,
+        38.31
+       ],
+       [
+        127.6,
+        38.36
+       ],
+       [
+        127.85,
+        38.33
+       ],
+       [
+        128.1,
+        38.3
+       ],
+       [
+        128.35,
+        38.38
+       ],
+       [
+        128.6,
+        38.55
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "yeoncheon",
+      "color": "blue",
+      "at": 0.3
+     },
+     {
+      "k": "marker",
+      "p": "cheorwon",
+      "color": "blue",
+      "at": 0.5
+     },
+     {
+      "k": "marker",
+      "p": "seoul",
+      "color": "blue",
+      "at": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "id": "s120",
+   "lines": [
+    "이들이 지켜 낸 것은 언덕 하나가 아니라, 그 뒤에 있던 연천과 철원, 그리고 서울로 이어지는 땅이었으니까요.",
+    "전쟁이 끝난 뒤, 강뉴 대대의 병사들은 약속대로 깃발을 들고 고향으로 돌아갔습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "return_flag",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s121",
+   "lines": [
+    "그리고 쓰러진 전우들도, 함께 데리고 갔죠.",
+    "하지만 그들을 기다린 것은 영광만이 아니었습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s121-photo"
+   },
+   "label": "아디스아바바의 강뉴 대대 기념비"
+  },
+  {
+   "id": "s122",
+   "lines": [
+    {
+     "t": "1974년, 에티오피아에 공산 군사 정권이 들어서면서, 참전 용사들은 오히려 핍박을 받게 되거든요.",
+     "say": "천구백칠십사 년, 에티오피아에 공산 군사 정권이 들어서면서, 참전 용사들은 오히려 핍박을 받게 되거든요."
+    },
+    "공산군과 싸웠다는 이유로 재산을 빼앗기고, 기념비가 부서지고, 교과서에서도 이름이 지워졌습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "1974 · 공산 군사 정권",
+    "accent": "지워진 이름",
+    "accentAt": 0.6
+   }
+  },
+  {
+   "id": "s123",
+   "lines": [
+    "그 긴 세월 동안에도, 노병들은 한국을 잊지 않았다고 합니다.",
+    "자기들이 피를 흘려 지킨 나라가 어떻게 되었는지, 늘 궁금해했다고 하죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "old_veteran",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s124",
+   "lines": [
+    "그리고 오늘날, 강원도 춘천에는 에티오피아 한국전 참전 기념관이 서 있습니다.",
+    "한국을 다시 찾은 노병들은, 몰라보게 달라진 이 나라를 보며 눈시울을 붉혔다고 하는데요."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s124-photo"
+   },
+   "label": "춘천 에티오피아 한국전 참전기념관을 찾은 노병들 (2010)"
+  },
+  {
+   "id": "s125",
+   "lines": [
+    "그들이 남긴 말은 단순했습니다.",
+    "우리가 흘린 피는, 헛되지 않았다."
+   ],
+   "visual": {
+    "type": "quotes",
+    "title": "70년 만에 방한한 노병들 (2023)",
+    "items": [
+     {
+      "text": "목숨 걸고 싸운 일, 결코 헛되지 않았다",
+      "at": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "id": "s126",
+   "lines": [
+    "혹시 춘천을 지나시게 되면, 잠시 걸음을 멈추고 한번 들러 보시죠.",
+    "지구 반대편에서 온 청년들의 이름이, 그곳에 새겨져 있습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "memorial_flowers",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s127",
+   "lines": [
+    "그런데 말이죠, 이 전쟁에는 또 다른 이름 없는 영웅들이 있었습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "또 다른",
+    "accent": "이름 없는 영웅들",
+    "accentAt": 0.4
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s128",
+   "lines": [
+    {
+     "t": "1950년 9월, 인천 상륙 작전을 하루 앞둔 밤.",
+     "say": "천구백오십 년 구월, 인천 상륙 작전을 하루 앞둔 밤."
+    },
+    "경상북도 영덕의 장사리 바닷가로, 낡은 배 한 척이 다가갑니다.",
+    "그 배의 이름은 문산호였는데요."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "east",
+    "items": [
+     {
+      "k": "marker",
+      "p": "incheon",
+      "color": "blue",
+      "at": 0.2
+     },
+     {
+      "k": "marker",
+      "p": "jangsa",
+      "color": "yellow",
+      "at": 0.8
+     },
+     {
+      "k": "badge",
+      "p": "jangsa",
+      "text": "장사리",
+      "color": "red",
+      "at": 1.2,
+      "dy": -60
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1950. 9 · 경북 영덕 장사리",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s129",
+   "lines": [
+    "배에 탄 병사들은 대부분 학도병이었습니다.",
+    {
+     "t": "총을 잡은 지 겨우 며칠 된, 772명의 어린 청년들이었죠.",
+     "say": "총을 잡은 지 겨우 며칠 된, 칠백칠십이 명의 어린 청년들이었죠."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "student_soldiers",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s130",
+   "lines": [
+    "그들에게 주어진 임무는, 적의 눈을 동해안으로 돌려 인천 상륙을 성공시키는 것.",
+    "사실상 돌아올 수 없는 결사대였습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "east",
+    "to": "east",
+    "items": [
+     {
+      "k": "marker",
+      "p": "incheon",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "jangsa",
+      "color": "yellow",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        129.9,
+        36.3
+       ],
+       [
+        129.6,
+        36.29
+       ],
+       [
+        129.4,
+        36.28
+       ]
+      ],
+      "color": "blue",
+      "at": 0.3,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        125.8,
+        37.3
+       ],
+       [
+        126.2,
+        37.4
+       ],
+       [
+        126.58,
+        37.46
+       ]
+      ],
+      "color": "blue",
+      "at": 1.0,
+      "width": 1.0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "적의 눈을 동해안으로 · 양동 작전",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s131",
+   "lines": [
+    {
+     "t": "다음 시간, 격전의 지도 23화는 바로 그 이야기입니다.",
+     "say": "다음 시간, 격전의 지도 이십삼 화는 바로 그 이야기입니다."
+    },
+    {
+     "t": "장사 상륙 작전, 인천을 살린 772명 학도병의 문산호 결사대.",
+     "say": "장사 상륙 작전, 인천을 살린 칠백칠십이 명 학도병의 문산호 결사대."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "EP23 장사상륙작전",
+    "style": "yellow",
+    "sub": "인천을 살린 772명 학도병의 문산호 결사대 · 곧 공개",
+    "subAt": 0.5
+   }
+  },
+  {
+   "id": "s132",
+   "lines": [
+    "놓치지 않으시려면 지금 구독 버튼과 함께, 알림 설정까지 꼭 눌러 주시죠.",
+    {
+     "t": "253번을 싸워 단 한 번도 지지 않은 강뉴 대대의 병사들을 기억하며, 격전의 지도는 다음 전장에서 다시 찾아뵙겠습니다.",
+     "say": "이백오십삼 번을 싸워 단 한 번도 지지 않은 강뉴 대대의 병사들을 기억하며, 격전의 지도는 다음 전장에서 다시 찾아뵙겠습니다."
+    }
+   ],
+   "visual": {
+    "type": "endcard",
+    "title": "1953년 봄, 포크찹 고지.\n253전 253승, 포로 0명.",
+    "q": "s132-photo"
+   },
+   "tail": 1.0
+  }
+ ]
+}
