@@ -49,7 +49,7 @@ const PhotoV: React.FC = () => {
       </AbsoluteFill>
     );
   }
-  return <PhotoOrSlate src={v.src} kb={v.kb} bw={v.bw !== false} />;
+  return <PhotoOrSlate src={v.src} kb={v.kb} bw={v.bw !== false} pos={v.pos} />; // EP22: 세로 사진 얼굴 위치용 pos
 };
 
 const AiV: React.FC = () => {

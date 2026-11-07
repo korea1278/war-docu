@@ -18,7 +18,7 @@ import { FRONT, FrontThumb, NAKTONG_FRONT } from "./FrontThumb";
  *   에피소드는 COLLAGE 표에 한 줄 → 한국어 A안이 이 디자인으로 렌더 (FRONT·MAPT보다 우선)
  * ===================================================================================== */
 type CLL = [number, number];
-type FlagKind = "kr" | "nk" | "marine" | "cn" | "uk";
+type FlagKind = "kr" | "nk" | "marine" | "cn" | "uk" | "et";
 export type CollageDef = {
   quote: string;
   person: { src: string; h: number; w: number; pos?: string; filter?: string };
@@ -229,6 +229,35 @@ export const COLLAGE: Record<string, CollageDef> = {
     sizes: [108, 112],
     dim: "linear-gradient(to top, #000000 0%, #000000 38%, rgba(0, 0, 0, 0.85) 55%, rgba(0, 0, 0, 0.4) 70%, transparent 100%)",
   },
+  // EP22 포크찹 고지 전투 (1953) — 인물: 강뉴 대대원 사료 사진(미 제7사단 에티오피아 대대, 1953 · 퍼블릭 도메인) 세션 rembg 누끼
+  "ep22-pork-chop-hill": {
+    quote: "253번을 싸워 단 한 번도 지지 않은 부대",
+    person: { src: "ep/ep22-pork-chop-hill/ai/thumb_cut.png", h: 690, w: 620, pos: "50% 0%" },
+    bubble: { text: "전우의 시신을 두고는\n단 한 발짝도 물러서지 않는다!", x: 600, y: 110, tail: [0, 0], size: 40, tailStyle: "short" },
+    stamp: { text: "무적강뉴", x: 450, y: 560, rot: -15 },
+    map: {
+      rasters: ["imjin", "porkchop_zoom"],
+      view: { center: [126.93, 38.235], span: 0.3 },
+      outline: true,
+      // 붉은 영역 = 중공군 고지대(올드 발디·티본 북쪽, 개략) / 푸른 선 = 미 제7사단 주저항선 (개략)
+      red: [[126.85, 38.252], [126.94, 38.25], [126.97, 38.252], [127.0, 38.248], [127.02, 38.247], [127.05, 38.25], [127.12, 38.255], [127.12, 38.34], [126.85, 38.34]],
+      blue: [[126.94, 38.233], [126.97, 38.236], [126.995, 38.232], [127.015, 38.235], [127.035, 38.233], [127.06, 38.238], [127.09, 38.242]],
+      arrows: [
+        [[127.0, 38.29], [127.012, 38.262], [127.018, 38.245]],
+        [[127.04, 38.29], [127.03, 38.262], [127.022, 38.246]],
+        [[126.97, 38.29], [126.975, 38.268], [126.972, 38.252]],
+      ],
+      arrowW: 40,
+      flags: [
+        { kind: "cn", at: [127.07, 38.285], h: 80, rot: -4 },
+        { kind: "et", at: [126.972, 38.24], h: 80, rot: -3 },
+      ],
+    },
+    line1: "단 한 명의 포로도 없었다",
+    line2: "포크찹 고지 혈전",
+    sizes: [108, 112],
+    dim: "linear-gradient(to top, #000000 0%, #000000 38%, rgba(0, 0, 0, 0.85) 55%, rgba(0, 0, 0, 0.4) 70%, transparent 100%)",
+  },
 };
 
 const CW = 1920;
@@ -349,6 +378,18 @@ const FlagUK: React.FC<{ w: number }> = ({ w }) => {
   );
 };
 
+/** 에티오피아 삼색기 (2:1) — 초록·노랑·빨강 가로 줄 (EP22 강뉴 대대) */
+const FlagET: React.FC<{ w: number }> = ({ w }) => {
+  const h = w / 2;
+  return (
+    <svg width={w} height={h} viewBox="0 0 60 30" preserveAspectRatio="none">
+      <rect width={60} height={10} fill="#078930" />
+      <rect y={10} width={60} height={10} fill="#FCDD09" />
+      <rect y={20} width={60} height={10} fill="#DA121A" />
+    </svg>
+  );
+};
+
 /** 해병대 깃발 (3:2) — 붉은 바탕 + 노란 닻·별 + '해병대' */
 const FlagMarine: React.FC<{ w: number }> = ({ w }) => {
   const h = (w * 2) / 3;
@@ -385,16 +426,17 @@ const FlagMarine: React.FC<{ w: number }> = ({ w }) => {
 
 /** 깃대에 걸린 대형 군기 — at 지점에 깃대 밑동, 깃발은 오른쪽으로 펄럭 */
 const BigFlag: React.FC<{ kind: FlagKind; x: number; y: number; h: number; rot?: number }> = ({ kind, x, y, h, rot = 0 }) => {
-  const fw = kind === "nk" || kind === "uk" ? h * 2 : h * 1.5;
+  const wide = kind === "nk" || kind === "uk" || kind === "et";
+  const fw = wide ? h * 2 : h * 1.5;
   const pole = h * 1.6;
-  const inner = kind === "kr" ? <FlagKR w={fw} /> : kind === "nk" ? <FlagNK w={fw} /> : kind === "cn" ? <FlagCN w={fw} /> : kind === "uk" ? <FlagUK w={fw} /> : <FlagMarine w={fw} />;
+  const inner = kind === "kr" ? <FlagKR w={fw} /> : kind === "nk" ? <FlagNK w={fw} /> : kind === "cn" ? <FlagCN w={fw} /> : kind === "uk" ? <FlagUK w={fw} /> : kind === "et" ? <FlagET w={fw} /> : <FlagMarine w={fw} />;
   return (
     <div style={{ position: "absolute", left: x, top: y - pole, width: fw + 20, height: pole, transform: `rotate(${rot}deg)`, transformOrigin: "0 100%", filter: "drop-shadow(0 14px 18px rgba(0,0,0,.85))" }}>
       {/* 깃대 */}
       <div style={{ position: "absolute", left: -6, top: -10, width: 12, height: pole + 10, background: "linear-gradient(90deg,#5a5a5a,#f2f2f2 45%,#6a6a6a)", border: "2px solid #000", borderRadius: 6 }} />
       <div style={{ position: "absolute", left: -11, top: -24, width: 22, height: 22, borderRadius: 11, background: "radial-gradient(circle at 35% 35%,#fff3a0,#d4a000 60%,#6b4e00)", border: "2px solid #000" }} />
       {/* 깃발 — 살짝 원근 + 펄럭이는 음영 */}
-      <div style={{ position: "absolute", left: 6, top: 0, width: fw, height: kind === "nk" || kind === "uk" ? fw / 2 : (fw * 2) / 3, transform: "perspective(900px) rotateY(-14deg) skewY(3deg)", transformOrigin: "0 50%", border: "3px solid #000", overflow: "hidden" }}>
+      <div style={{ position: "absolute", left: 6, top: 0, width: fw, height: wide ? fw / 2 : (fw * 2) / 3, transform: "perspective(900px) rotateY(-14deg) skewY(3deg)", transformOrigin: "0 50%", border: "3px solid #000", overflow: "hidden" }}>
         {inner}
         <div style={{ position: "absolute", inset: 0, background: "repeating-linear-gradient(90deg, rgba(0,0,0,.28) 0%, rgba(255,255,255,.12) 12%, rgba(0,0,0,.28) 25%)", mixBlendMode: "multiply" }} />
       </div>

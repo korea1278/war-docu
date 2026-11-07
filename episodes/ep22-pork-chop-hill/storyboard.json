@@ -81,7 +81,7 @@
   ],
   "arty": [
    127.03,
-   38.21,
+   38.224,
    "미군 포병"
   ]
  },
@@ -124,9 +124,9 @@
   "east": {
    "center": [
     128.0,
-    37.0
+    36.85
    ],
-   "span": 4.0
+   "span": 4.3
   }
  },
  "music": [
@@ -200,7 +200,7 @@
   "tbone_raid": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: eight Ethiopian soldiers whose heads are round balls painted as the 1950s Ethiopian imperial flag (green, yellow and red horizontal stripes with a golden crowned lion in the center), wearing 1953 American M1 steel helmets and olive drab uniforms jumping into an enemy trench on a hillside in broad daylight, surprised Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red Chinese flag with yellow stars, wearing 1953 quilted khaki uniforms and caps raising their hands, smoke, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "cpv_fear": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red Chinese flag with yellow stars, wearing 1953 quilted khaki uniforms and caps whispering nervously to each other in a trench at night, glancing toward the dark enemy lines, fearful faces, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "carry_comrade": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an Ethiopian soldier whose head is a round ball painted as the 1950s Ethiopian imperial flag (green, yellow and red horizontal stripes with a golden crowned lion in the center), wearing a 1953 American M1 steel helmet and olive drab uniform carrying a wounded comrade on his back down a steep hillside at dawn, refusing to leave him behind, smoke behind them, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "clemons_lead": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an American infantry officer whose head is a round ball painted as the USA flag, wearing a 1953 M1 steel helmet and olive drab field jacket, a young first lieutenant, leading his company up a dark cratered hillside before dawn, turning back to wave his men forward, flares overhead, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "clemons_lead": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an American infantry officer whose head is a round ball painted as the USA flag, wearing a 1953 M1 steel helmet and olive drab field jacket, a young first lieutenant, leading his company up a dark cratered hillside before dawn, turning back to wave his men forward, only American soldiers (heads painted as the USA flag) behind him, no other flags or nations anywhere, nothing lying on the ground, flares overhead, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "uphill_assault": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American infantrymen whose heads are round balls painted as the USA flag, wearing 1953 M1 steel helmets and olive drab field jackets charging up a steep cratered hillside before dawn under exploding grenades and shells, one soldier waving his comrades forward, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "captured_weapons": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American infantrymen whose heads are round balls painted as the USA flag, wearing 1953 M1 steel helmets and olive drab field jackets in a battered trench firing captured Chinese submachine guns, empty magazines scattered, smoke, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "find_survivors": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American infantrymen whose heads are round balls painted as the USA flag, wearing 1953 M1 steel helmets and olive drab field jackets pulling dust-covered survivors out of a collapsed bunker at dawn, embracing exhausted comrades, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
@@ -217,7 +217,7 @@
   "return_flag": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Ethiopian soldiers whose heads are round balls painted as the 1950s Ethiopian imperial flag (green, yellow and red horizontal stripes with a golden crowned lion in the center), wearing 1953 American M1 steel helmets and olive drab uniforms marching proudly down a gangway from a troop ship carrying their green-yellow-red battalion flag home, cheering crowds below, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "old_veteran": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an elderly Ethiopian Korean War veteran, head a round ball painted as the Ethiopian flag, wearing an old uniform jacket with medals, sitting alone in a modest room holding a faded photograph of his comrades in Korea, soft window light, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "memorial_flowers": "A quiet stone war memorial in a Korean city park in spring with fresh flowers laid at its base, an Ethiopian flag and a Korean flag side by side, soft morning light, painterly realistic digital illustration, no people, no text, no letters.",
-  "student_soldiers": "Young Korean student soldiers in 1950 in ill-fitting uniforms and school caps holding old rifles on the deck of an old transport ship at night on a rough sea, nervous determined faces, painterly realistic digital illustration, cinematic, dark palette, film grain, no text, no letters.",
+  "student_soldiers": "Young South Korean teenage student volunteers in 1950 wearing plain black high-school uniforms and plain black school caps with NO stars and NO red insignia, some with white headbands, holding old M1 rifles on the deck of an old transport ship at night on a rough sea, nervous determined faces, painterly realistic digital illustration, cinematic, dark palette, film grain, no text, no letters.",
   "thumb_subject": "Photorealistic black-and-white 1953 Korean War documentary portrait of a fierce Ethiopian Imperial Bodyguard infantryman of the Kagnew Battalion, American M1 steel helmet, intense determined eyes, sweat and dust on his face, rifle with fixed bayonet held across his chest, waist-up, face clearly visible and turned slightly toward the right of the frame, sharp detail, high contrast monochrome, isolated on a plain pure white background, no shadows on the background, no text."
  },
  "scenes": [
@@ -1739,7 +1739,7 @@
      "text": "4. 16 밤 · 세 방향 돌격 (개략)",
      "style": "red",
      "at": 0,
-     "pos": "top"
+     "pos": "lower"
     }
    ]
   },
@@ -2111,7 +2111,8 @@
    "visual": {
     "type": "photo",
     "kb": "in",
-    "q": "s57-photo"
+    "q": "s57-photo",
+    "pos": "50% 12%"
    },
    "label": "에티오피아 병사들 (한국전쟁)"
   },
@@ -2281,13 +2282,6 @@
       "text": "강뉴 대대",
       "at": 0,
       "pulse": true
-     },
-     {
-      "k": "obj",
-      "p": "tb",
-      "n": "T",
-      "at": 0.4,
-      "text": "티본 고지"
      }
     ],
     "tilt": 26
@@ -3540,8 +3534,8 @@
    "visual": {
     "type": "compare",
     "left": {
-     "title": "전사 · 부상",
-     "big": "121 · 536명",
+     "title": "전사 (부상 536명)",
+     "big": "121명",
      "icon": "none",
      "color": "blue"
     },
@@ -4068,14 +4062,6 @@
       "p": "jangsa",
       "color": "yellow",
       "at": 0.8
-     },
-     {
-      "k": "badge",
-      "p": "jangsa",
-      "text": "장사리",
-      "color": "red",
-      "at": 1.2,
-      "dy": -60
      }
     ]
    },

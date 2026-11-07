@@ -144,7 +144,7 @@ P = {
     "kag": [126.972, 38.247, "강뉴 대대"],
     "yoke": [126.962, 38.256, "요크 고지"],
     "uncle": [126.977, 38.258, "엉클 고지"],
-    "arty": [127.03, 38.21, "미군 포병"],
+    "arty": [127.03, 38.224, "미군 포병"],
 }
 V = {
     "korea": {"center": [127.6, 37.5], "span": 6.0},
@@ -152,7 +152,7 @@ V = {
     "sector": {"center": [127.0, 38.243], "span": 0.16},
     "chop": {"center": [127.019, 38.243], "span": 0.1},
     "kagv": {"center": [126.972, 38.252], "span": 0.1},
-    "east": {"center": [128.0, 37.0], "span": 4.0},
+    "east": {"center": [128.0, 36.85], "span": 4.3},
 }
 FRONT53 = [[126.1, 37.75], [126.6, 37.95], [126.9, 38.1], [127.0, 38.225], [127.1, 38.27], [127.2, 38.3], [127.4, 38.31], [127.6, 38.36], [127.85, 38.33], [128.1, 38.3], [128.35, 38.38], [128.6, 38.55]]
 MLR = [[126.94, 38.233], [126.97, 38.236], [126.995, 38.232], [127.015, 38.235], [127.035, 38.233], [127.06, 38.238], [127.09, 38.242]]
@@ -255,7 +255,7 @@ sc(2, m("chop", "chop", [o("pc", "255", None, 0), {"k": "shock", "pts": [[127.01
    callouts=[{"text": "밤 11시 무렵 · 중공군 포격 개시", "style": "red", "at": 0, "pos": "top"}], sfx=[{"id": "boom", "at": 0.2, "volume": 0.45}])
 sc(2, ai("bugle_tunnel"), label=DRAMA)
 sc(2, m("chop", "chop", [o("pc", "255", None, 0)] + RED3 + [{"k": "unit", "p": [127.022, 38.256], "color": "red", "text": "중공군 제201연대 1개 대대", "at": 0.4}], tilt=28),
-   callouts=[{"text": "4. 16 밤 · 세 방향 돌격 (개략)", "style": "red", "at": 0, "pos": "top"}])
+   callouts=[{"text": "4. 16 밤 · 세 방향 돌격 (개략)", "style": "red", "at": 0, "pos": "lower"}])
 sc(2, ai("mg_hot"), label=DRAMA)
 sc(1, ai("radio_dead"), label=DRAMA)
 sc(2, m("chop", "chop", [o("pc", "255", None, 0), {"k": "clash", "p": "pc", "at": 0.2, "size": 0.9},
@@ -278,6 +278,7 @@ next_act()
 sc(2, m("sector", "kagv", [{"k": "unit", "p": "kag", "color": "blue", "text": "강뉴 대대", "at": 0}, {"k": "clash", "p": [126.968, 38.256], "at": 0.8, "size": 0.7}], tilt=24),
    chapter={"num": "제4막", "title": "아프리카의 사자들"}, callouts=[{"text": "4. 16 · 철원 서쪽 고지의 강뉴 대대 (개략)", "style": "blue", "at": 0, "pos": "top"}])
 v, lb = ph("kag2", "에티오피아 병사들 (한국전쟁)")
+v["pos"] = "50% 12%"
 sc(2, v, label=lb)
 sc(2, {"type": "person", "q": pin("selassie"), "name": "하일레 셀라시에 1세", "years": "1892 - 1975", "role": "에티오피아 황제"})
 sc(2, {"type": "person", "q": pin("makonnen"), "name": "라스 마콘넨", "years": "1852 - 1906", "role": "황제의 아버지 · 군마 '강뉴'의 주인"})
@@ -289,7 +290,7 @@ sc(1, {"type": "text", "big": "3,000명+", "style": "yellow", "sub": "전쟁 중
 sc(3, ai("emperor_flag"), label=DRAMA, callouts=[{"text": "“이 깃발을 반드시 다시 가지고 돌아오라”", "style": "yellow", "at": 2, "pos": "top"}])
 sc(2, ai("doubtful_officers"), label=DRAMA)
 sc(2, ai("snow_ethiopian"), label=DRAMA)
-sc(2, m("kagv", "kagv", [{"k": "unit", "p": "kag", "color": "blue", "text": "강뉴 대대", "at": 0, "pulse": True}, o("tb", "T", "티본 고지", 0.4)], tilt=26),
+sc(2, m("kagv", "kagv", [{"k": "unit", "p": "kag", "color": "blue", "text": "강뉴 대대", "at": 0, "pulse": True}], tilt=26),
    hudCta={"at": 0, "dur": 7.5})
 sc(2, ai("night_patrol_eth"), label=DRAMA)
 sc(1, {"type": "person", "q": pin("marshall"), "name": "S. L. A. 마셜", "years": "1900 - 1977", "role": "미군 전쟁사가 · 『포크찹 고지』 저자"})
@@ -363,7 +364,7 @@ sc(2, ai("carry_down_dawn"), label=DRAMA)
 sc(2, {"type": "black", "text": "살아서든 죽어서든", "accent": "반드시 함께 돌아간다", "accentAt": 0.5})
 sc(2, {"type": "text", "big": "253전", "style": "yellow", "sub": "강뉴 대대가 한국에서 치른 전투", "subAt": 0.4})
 sc(2, {"type": "text", "big": "253승", "style": "red", "sub": "명령 없이 내준 땅은 없었다", "subAt": 0.5})
-sc(3, {"type": "compare", "left": {"title": "전사 · 부상", "big": "121 · 536명", "icon": "none", "color": "blue"},
+sc(3, {"type": "compare", "left": {"title": "전사 (부상 536명)", "big": "121명", "icon": "none", "color": "blue"},
        "right": {"title": "포로", "big": "0명", "icon": "none", "color": "red", "at": 1.0}},
    callouts=[{"text": "국가보훈부 · 유엔군사령부 집계", "style": "dark", "at": 2, "pos": "lower"}], sfx=[{"id": "hit", "at": 1.0, "volume": 0.45}])
 v, lb = ph("kag4", "무반동총을 겨누는 에티오피아 병사들 (한국전쟁)")
@@ -395,8 +396,8 @@ sc(2, v, label=lb)
 sc(2, {"type": "quotes", "title": "70년 만에 방한한 노병들 (2023)", "items": [{"text": "목숨 걸고 싸운 일, 결코 헛되지 않았다", "at": 0.3}]})
 sc(2, ai("memorial_flowers"), label=DRAMA)
 sc(1, {"type": "black", "text": "또 다른", "accent": "이름 없는 영웅들", "accentAt": 0.4}, pauseBefore=0.3)
-sc(3, m("korea", "east", [{"k": "marker", "p": "incheon", "color": "blue", "at": 0.2}, {"k": "marker", "p": "jangsa", "color": "yellow", "at": 0.8},
-                          {"k": "badge", "p": "jangsa", "text": "장사리", "color": "red", "at": 1.2, "dy": -60}]),
+sc(3, m("korea", "east", [{"k": "marker", "p": "incheon", "color": "blue", "at": 0.2}, {"k": "marker", "p": "jangsa", "color": "yellow", "at": 0.8}
+                          ]),
    callouts=[{"text": "1950. 9 · 경북 영덕 장사리", "style": "yellow", "at": 0, "pos": "top"}])
 sc(2, ai("student_soldiers"), label=DRAMA)
 sc(2, m("east", "east", [{"k": "marker", "p": "incheon", "color": "blue", "at": 0}, {"k": "marker", "p": "jangsa", "color": "yellow", "at": 0},
@@ -444,7 +445,7 @@ AI = {
     "tbone_raid": CB + "eight " + ETH + " jumping into an enemy trench on a hillside in broad daylight, surprised " + CN + " raising their hands, smoke" + END,
     "cpv_fear": CB + CN + " whispering nervously to each other in a trench at night, glancing toward the dark enemy lines, fearful faces" + END,
     "carry_comrade": CB + ETH1 + " carrying a wounded comrade on his back down a steep hillside at dawn, refusing to leave him behind, smoke behind them" + END,
-    "clemons_lead": CB + US1 + ", a young first lieutenant, leading his company up a dark cratered hillside before dawn, turning back to wave his men forward, flares overhead" + END,
+    "clemons_lead": CB + US1 + ", a young first lieutenant, leading his company up a dark cratered hillside before dawn, turning back to wave his men forward, only American soldiers (heads painted as the USA flag) behind him, no other flags or nations anywhere, nothing lying on the ground, flares overhead" + END,
     "uphill_assault": CB + US + " charging up a steep cratered hillside before dawn under exploding grenades and shells, one soldier waving his comrades forward" + END,
     "captured_weapons": CB + US + " in a battered trench firing captured Chinese submachine guns, empty magazines scattered, smoke" + END,
     "find_survivors": CB + US + " pulling dust-covered survivors out of a collapsed bunker at dawn, embracing exhausted comrades" + END,
@@ -461,7 +462,7 @@ AI = {
     "return_flag": CB + ETH + " marching proudly down a gangway from a troop ship carrying their green-yellow-red battalion flag home, cheering crowds below" + END,
     "old_veteran": CB + "an elderly Ethiopian Korean War veteran, head a round ball painted as the Ethiopian flag, wearing an old uniform jacket with medals, sitting alone in a modest room holding a faded photograph of his comrades in Korea, soft window light" + END,
     "memorial_flowers": "A quiet stone war memorial in a Korean city park in spring with fresh flowers laid at its base, an Ethiopian flag and a Korean flag side by side, soft morning light, painterly realistic digital illustration, no people, no text, no letters.",
-    "student_soldiers": "Young Korean student soldiers in 1950 in ill-fitting uniforms and school caps holding old rifles on the deck of an old transport ship at night on a rough sea, nervous determined faces, painterly realistic digital illustration, cinematic, dark palette, film grain, no text, no letters.",
+    "student_soldiers": "Young South Korean teenage student volunteers in 1950 wearing plain black high-school uniforms and plain black school caps with NO stars and NO red insignia, some with white headbands, holding old M1 rifles on the deck of an old transport ship at night on a rough sea, nervous determined faces, painterly realistic digital illustration, cinematic, dark palette, film grain, no text, no letters.",
     "thumb_subject": "Photorealistic black-and-white 1953 Korean War documentary portrait of a fierce Ethiopian Imperial Bodyguard infantryman of the Kagnew Battalion, American M1 steel helmet, intense determined eyes, sweat and dust on his face, rifle with fixed bayonet held across his chest, waist-up, face clearly visible and turned slightly toward the right of the frame, sharp detail, high contrast monochrome, isolated on a plain pure white background, no shadows on the background, no text.",
 }
 
