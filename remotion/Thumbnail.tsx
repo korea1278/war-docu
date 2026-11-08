@@ -261,7 +261,7 @@ export const COLLAGE: Record<string, CollageDef> = {
   // EP23 장사상륙작전 (1950) — 인물: AI 상징 학도병(사료풍 흑백, 세션 rembg 누끼)
   "ep23-jangsari": {
     quote: "군번도 계급도 없었던 772명",
-    person: { src: "ep/ep23-jangsari/ai/thumb_cut.png", h: 690, w: 620, pos: "50% 0%" },
+    person: { src: "ep/ep23-jangsari/ai/thumb_subject.png", h: 690, w: 620, pos: "50% 0%" },
     bubble: { text: "우리가 여기서 버텨야\n인천이 산다!", x: 600, y: 110, tail: [0, 0], size: 44, tailStyle: "short" },
     stamp: { text: "학 도 의 용", x: 450, y: 560, rot: -15 },
     map: {
@@ -1140,10 +1140,10 @@ export const PAROHO_STD: Record<string, ThumbnailProps> = {
     characterCutout: "ep/ep23-jangsari/ai/thumb_subject.png",
     stampText: "학 도 의 용",
     mapCrop: { cx: 0.6127, cy: 0.638, zoom: 1.6 },
-    targets: [{ x: 550, y: 393, r: 72, label: "200고지" }],
-    places: [{ x: 655, y: 345, label: "문산호" }, { x: 640, y: 195, label: "7번 국도" }, { x: 900, y: 250, label: "동해" }],
+    targets: [{ x: 550, y: 393, r: 72 }],
+    places: [{ x: 655, y: 345, label: "문산호" }, { x: 640, y: 195, label: "7번 국도" }, { x: 900, y: 250, label: "동해" }, { x: 400, y: 395, label: "200고지" }],
     arrows: [
-      { pts: [[640, 130], [628, 250], [585, 330]], color: "red" },
+      { pts: [[250, 215], [370, 275], [492, 345]], color: "red" },
       { pts: [[960, 345], [800, 350], [680, 355]], color: "ally" },
     ],
     characterPos: "50% 0%",
