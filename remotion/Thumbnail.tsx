@@ -1110,7 +1110,7 @@ const SplitThumb: React.FC<{ a: string; d: RefDef; en?: boolean }> = ({ a, d, en
  * ===================================================================================== */
 export type ThumbTarget = { x: number; y: number; r?: number; label?: string }; // 캔버스 픽셀 좌표(1920×1080)
 export type ThumbPlace = { x: number; y: number; label: string }; // 캔버스 픽셀 좌표, 점은 (x,y) 이름표는 그 위
-export type ThumbArrow = { pts: [number, number][]; color?: "red" | "blue" }; // 마지막 점이 화살촉
+export type ThumbArrow = { pts: [number, number][]; color?: "red" | "ally" } // red = 적, ally = 아군(노랑 — 강·호수 파랑과 겹치지 않게); // 마지막 점이 화살촉
 
 export interface ThumbnailProps {
   quote: string; // 예: "호수 전체가 시체로 뒤덮였다" (따옴표는 자동으로 붙음)
@@ -1142,14 +1142,14 @@ export const PAROHO_STD: Record<string, ThumbnailProps> = {
     places: [{ x: 840, y: 375, label: "파로호" }],
     arrows: [
       { pts: [[860, 690], [760, 600], [600, 385]], color: "red" },
-      { pts: [[175, 690], [178, 450]], color: "blue" },
-      { pts: [[470, 690], [512, 505]], color: "blue" },
+      { pts: [[175, 690], [178, 450]], color: "ally" },
+      { pts: [[470, 690], [512, 505]], color: "ally" },
     ],
   },
 };
 
 const P5 = {
-  red: "#FF2222", blue: "#4A90FF", water: "#1E8FFF", font: "'Pretendard', 'Black Han Sans', sans-serif",
+  red: "#FF2222", ally: "#FFD400", water: "#1E8FFF", font: "'Pretendard', 'Black Han Sans', sans-serif",
   left: 60, safeRight: 200, bottom: 34, mapW: 1056,
   maxMain: 190, ratio: 0.86, maxBlock: 400, minLine: 84, // 강조 줄 상한 / 다른 줄은 강조 줄의 86%까지 / 글자 묶음 높이 상한(얼굴 보호) / 이보다 작아지면 두 줄로 나눔
   stroke: 10, quoteMax: 64, quoteMin: 40,
@@ -1222,7 +1222,7 @@ const P5Target: React.FC<{ t: ThumbTarget }> = ({ t }) => {
 };
 
 const P5Arrow: React.FC<{ a: ThumbArrow }> = ({ a }) => {
-  const c = a.color === "blue" ? P5.blue : P5.red;
+  const c = a.color === "ally" ? P5.ally : P5.red;
   const n = a.pts.length;
   const [x1, y1] = a.pts[n - 2];
   const [x2, y2] = a.pts[n - 1];
