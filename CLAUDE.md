@@ -109,7 +109,13 @@
    - `curl -L -H "Authorization: token $(gh auth token)" -H "Accept: application/octet-stream" https://api.github.com/repos/korea1278/war-docu/releases/assets/<id>`
    - 길이 8:15~8:30(영문판 +10초까지 허용), 음량 -15 LUFS ±1 (`ffmpeg -af ebur128`), 장면 샘플 프레임 육안 확인(**지도 장면 프레임을 반드시 1장 이상 포함해 자막 확인**), SRT 확인
    - `logs/errors.txt`에 경고가 있으면 원인 해결 후 재실행
-9. **썸네일** — ★★★★ **썸네일 표준 v4 = '스토리텔링 꼴라주 + 3D 몬스터 타이포' (2026-11-02 사용자 지시서 · 레퍼런스 별별역사 · EP15 낙동강(`naktong`)·EP16 도솔산(`ep16-dosolsan`)부터 한국어 A안 기본 — 아래 v3/v3.1 '선 넘는 지도' 방식은 폐기, 기록용)**
+9. **썸네일** — ★★★★★ **썸네일 표준 v5 = '파로호 공식' (2026-11-08 사용자 지시서 · 채널 최고 성과 EP13 분석 · 앞으로 만드는 모든 롱폼 한국어 A안 기본 — 아래 v4 이하는 기존 에피소드 기록용)**
+   - 구현: `remotion/Thumbnail.tsx`의 `PAROHO_STD` 표에 에피소드 한 줄(`ThumbnailProps`) → `ParohoThumb`가 렌더 (COLLAGE·FRONT·MAPT보다 우선). 기존 에피소드는 표에 없으므로 그대로. `paroho:sample`은 지시서 예시 검수용
+   - 필수: `quote`(따옴표 자동) · `titleLine1` · `titleLine2` · `mapImage` · `characterCutout` (public 기준 경로), 선택: `stampText` · `targets`(타깃 링 `{x,y,r,label}`) · `arrows`(`{pts,color}`, 마지막 점이 화살촉) · `mapCrop`(`{cx,cy,zoom}`) · `characterPos` · `stampPos` — 좌표는 캔버스 픽셀(1920×1080), 전황은 x 1056 안쪽에
+   - 규격: 좌 55% 흑백 고대비 지도 + 붉은 타깃 링·진격 화살표 / 우 45% 인물 흑백 누끼 + 흰 림 외곽선 / 좌상단 따옴표 56~64px `#FF2222` / 하단 2줄 좌측 정렬 left 60 — Line 1 흰색, Line 2 `#FF2222`, Pretendard Black. **글자 크기 (2026-11-08 사용자 수정, 지시서의 고정 104/116px 대체)**: 더 중요한 줄(`emphasis`, 기본 2)이 안전 폭을 꽉 채우고(상한 190px), 다른 줄도 강조 줄의 86% 안에서 최대한 폭을 채워 빈 공간을 없앰. 글자 묶음 높이 400px 상한으로 얼굴 보호 / 그라데이션은 텍스트 높이만큼만
+   - ★ **재생시간 배지 안전 여백**: 오른쪽 200px 비움(글자 x 1720 이내). 모든 크기는 실측 폭으로 계산, Line 2가 한 줄로 84px 밑으로 내려가야 하면 가운데 띄어쓰기에서 두 줄로 나눔
+   - 렌더 후 확인: 글자가 x 1720을 넘지 않음, 얼굴을 글자·도장이 가리지 않음, 타깃 링·화살표가 인물과 안 겹침
+   - (v4) ★★★★ **썸네일 표준 v4 = '스토리텔링 꼴라주 + 3D 몬스터 타이포' (2026-11-02 사용자 지시서 · 레퍼런스 별별역사 · EP15 낙동강(`naktong`)·EP16 도솔산(`ep16-dosolsan`)부터 한국어 A안 기본 — 아래 v3/v3.1 '선 넘는 지도' 방식은 폐기, 기록용)**
    - 구현: `remotion/Thumbnail.tsx`의 `COLLAGE` 표에 에피소드 한 줄 → `CollageThumb`가 한국어 A안을 렌더 (1920×1080 픽셀 단위 그대로, FRONT·MAPT보다 우선). 기준 결과물 `thumbnails/naktong_ko_A.png`, `thumbnails/ep16-dosolsan_ko_A.png`
    - [최상단] 인용구 배너: top 25 · 가운데 · 네온 레드 `#FF2222` · “ ” 큰따옴표 · 40px Pretendard Black · `-webkit-text-stroke: 4px #000` + 그림자 (`quote`)
    - [중단 좌] 핵심 인물 고대비 흑백 누끼 left 30 · bottom 350 (`person`: src·h·w·pos — 하단·오른쪽 가장자리는 마스크로 녹임) + 입가 말풍선(흰 라운드 박스 · 6px 검정 보더 · 꼬리 `tail`은 입 좌표) + 15도 기울어진 붉은 사각 직인(`stamp`, 붉은 바탕 흰 글자 · 흰 이중 테두리)

@@ -1100,10 +1100,204 @@ const SplitThumb: React.FC<{ a: string; d: RefDef; en?: boolean }> = ({ a, d, en
   );
 };
 
+/* =====================================================================================
+ * ★★★ 썸네일 표준 v5 — '파로호 공식' (2026-11-08 사용자 지시서, 채널 최고 성과 파로호 전투 분석)
+ *   앞으로 만드는 롱폼 에피소드는 PAROHO_STD 표에 한 줄 → 한국어 A안이 이 디자인으로 렌더 (COLLAGE·FRONT·MAPT보다 우선)
+ *   [좌 55%] 고대비 흑백 3D 작전 지도 + 붉은 타깃 링 + 기동 진격 화살표   [우 45%] 인물 흑백 누끼 + 선명한 외곽선
+ *   [좌상단] 네온 레드 증언 따옴표 56~64px   [하단] 텍스트 뒤에만 깔리는 블랙 그라데이션
+ *   [최하단] 좌측 정렬 2줄 — Line1 흰색 / Line2 레드 #FF2222. 중요한 줄(emphasis, 기본 2)이 폭을 꽉 채우고 다른 줄도 86% 안에서 최대한 채움 (2026-11-08 사용자 수정)
+ *   ⚠️ 오른쪽 200px은 유튜브 재생시간 배지 자리: 글자가 x 1720을 절대 넘지 않게 실측 폭으로 축소, 그래도 너무 작아지면 Line2를 두 줄로
+ * ===================================================================================== */
+export type ThumbTarget = { x: number; y: number; r?: number; label?: string }; // 캔버스 픽셀 좌표(1920×1080)
+export type ThumbArrow = { pts: [number, number][]; color?: "red" | "blue" }; // 마지막 점이 화살촉
+
+export interface ThumbnailProps {
+  quote: string; // 예: "호수 전체가 시체로 뒤덮였다" (따옴표는 자동으로 붙음)
+  titleLine1: string; // 예: "사흘 밤낮 60km를 쫓아가"
+  titleLine2: string; // 예: "3만 대군이 몰살당한 이유"
+  mapImage: string; // 좌측 3D 전술 지도 이미지 경로 (public 기준, 예: geo/paroho_zoom.webp)
+  characterCutout: string; // 우측 사료 인물 누끼 이미지 경로 (public 기준)
+  stampText?: string; // 선택: 직인 도장 문구 (예: "결 사항 전")
+  emphasis?: 1 | 2; // 더 중요해서 크게 키울 줄 (기본 2 = 결과·호기심 줄)
+  // ↓ 지시서 인터페이스에 없는 선택 항목: 타깃 링·화살표 좌표와 지도·인물 구도는 에피소드마다 달라 값이 필요함
+  targets?: ThumbTarget[];
+  arrows?: ThumbArrow[];
+  mapCrop?: { cx: number; cy: number; zoom: number }; // 이미지 안에서 화면 중앙에 올 지점(0~1)과 확대 배율
+  characterPos?: string; // 인물 object-position (기본 "50% 0%")
+  stampPos?: { x: number; y: number }; // 도장 중심 좌표 (기본 지도 왼쪽 아래)
+}
+
+// 표의 열쇠 = 에피소드 id. "paroho:sample"은 지시서 예시 검수용이라 실제 EP13 썸네일에는 영향 없음
+export const PAROHO_STD: Record<string, ThumbnailProps> = {
+  "paroho:sample": {
+    quote: "호수 전체가 시체로 뒤덮였다",
+    titleLine1: "사흘 밤낮 60km를 쫓아가",
+    titleLine2: "3만 대군이 몰살당한 이유",
+    mapImage: "geo/paroho_zoom.webp",
+    characterCutout: "ep/paroho/ai/thumb_subject.png",
+    mapCrop: { cx: 0.4853, cy: 0.5428, zoom: 1.465 },
+    targets: [{ x: 560, y: 355, r: 76, label: "화천댐" }],
+    arrows: [
+      { pts: [[860, 690], [760, 600], [600, 385]], color: "red" },
+      { pts: [[175, 690], [178, 450]], color: "blue" },
+      { pts: [[470, 690], [512, 505]], color: "blue" },
+    ],
+  },
+};
+
+const P5 = {
+  red: "#FF2222", blue: "#4A90FF", font: "'Pretendard', 'Black Han Sans', sans-serif",
+  left: 60, safeRight: 200, bottom: 34, mapW: 1056,
+  maxMain: 190, ratio: 0.86, maxBlock: 400, minLine: 84, // 강조 줄 상한 / 다른 줄은 강조 줄의 86%까지 / 글자 묶음 높이 상한(얼굴 보호) / 이보다 작아지면 두 줄로 나눔
+  stroke: 10, quoteMax: 64, quoteMin: 40,
+};
+const P5_TEXT_W = CW - P5.left - P5.safeRight - P5.stroke;
+
+const splitMiddle = (t: string): string[] => {
+  const sp = [...t.matchAll(/ /g)].map((m) => m.index as number);
+  if (!sp.length) return [t];
+  const i = sp.reduce((a, b) => (Math.abs(b - t.length / 2) < Math.abs(a - t.length / 2) ? b : a));
+  return [t.slice(0, i), t.slice(i + 1)];
+};
+
+// 글꼴 실측 폭 (100px 기준, 자간 -0.02em 반영) — 측정 끝날 때까지 렌더를 멈춤
+const useP5Measure = (texts: string[]) => {
+  const [fn, setFn] = useState<((t: string) => number) | null>(null);
+  const [hd] = useState(() => delayRender("p5-measure"));
+  useEffect(() => {
+    document.fonts.load(`900 100px 'Pretendard'`, texts.join(""))
+      .then(() => document.fonts.ready)
+      .then(() => {
+        const ctx = document.createElement("canvas").getContext("2d")!;
+        ctx.font = `900 100px ${P5.font}`;
+        setFn(() => (t: string) => (ctx.measureText(t).width - 2 * Math.max(0, [...t].length - 1)) / 100);
+      })
+      .finally(() => continueRender(hd));
+  }, [texts.join("|")]);
+  return fn;
+};
+
+const P5Target: React.FC<{ t: ThumbTarget }> = ({ t }) => {
+  const r = t.r ?? 76;
+  const tick = r * 0.28;
+  const ticks: [number, number, number, number][] = [
+    [-r - tick * 1.5, 0, -r + tick, 0], [r - tick, 0, r + tick * 1.5, 0], [0, -r - tick * 1.5, 0, -r + tick], [0, r - tick, 0, r + tick * 1.5],
+  ];
+  return (
+    <g transform={`translate(${t.x} ${t.y})`}>
+      <circle r={r} fill="rgba(255,34,34,.28)" stroke="#000" strokeWidth={14} opacity={0.55} />
+      <circle r={r} fill="none" stroke={P5.red} strokeWidth={9} />
+      <circle r={r * 1.3} fill="none" stroke={P5.red} strokeWidth={4} strokeDasharray="20 14" />
+      {ticks.map(([a, b, c, d], i) => <line key={i} x1={a} y1={b} x2={c} y2={d} stroke={P5.red} strokeWidth={7} />)}
+      <circle r={9} fill="#fff" stroke={P5.red} strokeWidth={5} />
+    </g>
+  );
+};
+
+const P5Arrow: React.FC<{ a: ThumbArrow }> = ({ a }) => {
+  const c = a.color === "blue" ? P5.blue : P5.red;
+  const n = a.pts.length;
+  const [x1, y1] = a.pts[n - 2];
+  const [x2, y2] = a.pts[n - 1];
+  const ang = Math.atan2(y2 - y1, x2 - x1);
+  const L = 58, W = 32;
+  const bx = x2 - Math.cos(ang) * L, by = y2 - Math.sin(ang) * L;
+  const nx = -Math.sin(ang) * W, ny = Math.cos(ang) * W;
+  const shaft = [...a.pts.slice(0, -1), [bx, by]].map((p) => p.join(",")).join(" ");
+  const head = `${x2},${y2} ${bx + nx},${by + ny} ${bx - nx},${by - ny}`;
+  return (
+    <g>
+      <polyline points={shaft} fill="none" stroke="#000" strokeOpacity={0.6} strokeWidth={20} strokeLinejoin="round" />
+      <polygon points={head} fill="#000" fillOpacity={0.6} stroke="#000" strokeOpacity={0.6} strokeWidth={8} strokeLinejoin="round" />
+      <polyline points={shaft} fill="none" stroke={c} strokeWidth={12} strokeLinejoin="round" />
+      <polygon points={head} fill={c} />
+    </g>
+  );
+};
+
+export const ParohoThumb: React.FC<{ d: ThumbnailProps }> = ({ d }) => {
+  const quoteText = /^["“]/.test(d.quote) ? d.quote : `“${d.quote}”`;
+  const measure = useP5Measure([quoteText, d.titleLine1, d.titleLine2]);
+
+  // ── 크기 규칙: 강조 줄은 안전 폭(x 1720까지)을 꽉 채우고, 다른 줄도 강조 줄의 86% 안에서 최대한 폭을 채운다 ──
+  const main = d.emphasis ?? 2;
+  const fitW = (t: string) => (measure ? P5_TEXT_W / measure(t) : 100);
+  let line2 = [d.titleLine2];
+  if (fitW(d.titleLine2) < P5.minLine) line2 = splitMiddle(d.titleLine2);
+  const w1 = fitW(d.titleLine1);
+  const w2 = Math.min(...line2.map(fitW));
+  let sMain = Math.min(P5.maxMain, main === 1 ? w1 : w2);
+  let sSub = Math.min(main === 1 ? w2 : w1, sMain * P5.ratio);
+  const rows = (main === 1 ? [sMain, ...line2.map(() => sSub)] : [sSub, ...line2.map(() => sMain)]).reduce((a, v) => a + v * 1.12, 0);
+  const shrink = Math.min(1, P5.maxBlock / rows);
+  sMain *= shrink;
+  sSub *= shrink;
+  const s1 = Math.floor(main === 1 ? sMain : sSub);
+  const s2 = Math.floor(main === 1 ? sSub : sMain);
+  const blockH = s1 * 1.12 + s2 * 1.12 * line2.length;
+  const dimH = Math.round(blockH + P5.bottom + 110); // 텍스트 뒤에만 깔리는 컴팩트 그라데이션
+
+  const qs = measure ? Math.max(P5.quoteMin, Math.min(P5.quoteMax, Math.floor((P5.mapW - P5.left - 8) / measure(quoteText)))) : P5.quoteMax;
+  const crop = d.mapCrop ?? { cx: 0.5, cy: 0.5, zoom: 1 };
+  const mapW = CW * crop.zoom;
+  const stamp = d.stampPos ?? { x: 860, y: CH - dimH - 70 };
+  const titleStyle: React.CSSProperties = {
+    fontFamily: P5.font, fontWeight: 900, lineHeight: 1.12, letterSpacing: "-0.02em", whiteSpace: "nowrap",
+    WebkitTextStroke: `${P5.stroke}px #000`, paintOrder: "stroke fill", textShadow: "0 5px 0 #000, 0 10px 16px rgba(0,0,0,.95)",
+  };
+
+  return (
+    <AbsoluteFill style={{ background: "#0a0a0a", overflow: "hidden" }}>
+      <style>{`@font-face{font-family:'Pretendard';font-weight:900;font-style:normal;src:url(${staticFile("fonts/Pretendard-Black.woff2")}) format('woff2');}`}</style>
+      {/* 지도: 끊김 없이 전체에 깔되 전황은 좌측 55%에, 우측은 눌러서 인물을 분리 */}
+      <Img
+        src={staticFile(d.mapImage)}
+        style={{ position: "absolute", width: mapW, height: "auto", left: CW / 2 - crop.cx * mapW, top: CH / 2 - crop.cy * mapW, filter: "grayscale(1) brightness(0.42) contrast(1.45)" }}
+      />
+      <AbsoluteFill style={{ background: `linear-gradient(to right, transparent ${((P5.mapW - 120) / CW) * 100}%, rgba(0,0,0,.55) ${((P5.mapW + 180) / CW) * 100}%)` }} />
+      <svg width={CW} height={CH} style={{ position: "absolute", inset: 0 }}>
+        {(d.arrows ?? []).map((a, i) => <P5Arrow key={i} a={a} />)}
+        {(d.targets ?? []).map((t, i) => <P5Target key={i} t={t} />)}
+      </svg>
+      {(d.targets ?? []).filter((t) => t.label).map((t, i) => (
+        <div key={i} style={{ position: "absolute", left: t.x, top: t.y - (t.r ?? 76) * 1.3 - 66, transform: "translateX(-50%)", background: "#000", border: "2px solid #fff", borderRadius: 6, padding: "4px 16px", color: "#fff", fontFamily: P5.font, fontWeight: 900, fontSize: 38, whiteSpace: "nowrap" }}>{t.label}</div>
+      ))}
+
+      {/* 우측 45%: 인물 흑백 누끼 + 흰 림 외곽선 */}
+      <Img
+        src={staticFile(d.characterCutout)}
+        style={{
+          position: "absolute", left: P5.mapW - 60, top: 0, width: CW - P5.mapW + 60, height: CH, objectFit: "cover", objectPosition: d.characterPos ?? "50% 0%",
+          filter: "grayscale(1) contrast(1.3) drop-shadow(0 0 1.5px #fff) drop-shadow(0 0 1.5px #fff) drop-shadow(0 0 22px rgba(0,0,0,.9))",
+          WebkitMaskImage: "linear-gradient(to right, transparent 0, #000 13%)",
+        }}
+      />
+
+      {/* 하단 블랙 그라데이션 — 텍스트 뒤쪽만 */}
+      <div style={{ position: "absolute", left: 0, right: 0, bottom: 0, height: dimH, background: "linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,.82) 30%, #000 58%, #000 100%)" }} />
+
+      {d.stampText && (
+        <div style={{ position: "absolute", left: stamp.x, top: stamp.y, transform: "translate(-50%,-50%) rotate(-8deg)", border: `7px solid ${P5.red}`, outline: `3px solid ${P5.red}`, outlineOffset: 5, padding: "4px 24px", color: P5.red, background: "rgba(0,0,0,.55)", fontFamily: P5.font, fontWeight: 900, fontSize: 68, whiteSpace: "nowrap" }}>{d.stampText}</div>
+      )}
+
+      {/* 좌상단 증언 따옴표 */}
+      <div style={{ position: "absolute", left: P5.left, top: 40, fontFamily: P5.font, fontWeight: 900, fontSize: qs, lineHeight: 1.15, letterSpacing: "-0.02em", color: P5.red, whiteSpace: "nowrap", WebkitTextStroke: "8px #000", paintOrder: "stroke fill", textShadow: "0 4px 10px rgba(0,0,0,.95)" }}>{quoteText}</div>
+
+      {/* 하단 2단 카피 — 오른쪽 200px 비움 */}
+      <div style={{ position: "absolute", left: P5.left, right: P5.safeRight, bottom: P5.bottom }}>
+        <div style={{ ...titleStyle, fontSize: s1, color: "#FFFFFF" }}>{d.titleLine1}</div>
+        {line2.map((t, i) => <div key={i} style={{ ...titleStyle, fontSize: s2, color: P5.red }}>{t}</div>)}
+      </div>
+    </AbsoluteFill>
+  );
+};
+
 export const Thumbnail: React.FC<{ ep: string; variant: "A" | "A2" | "A3" | "B"; lang?: string }> = ({ ep, variant, lang }) => {
   setLang(lang);
   const refKey = ep.replace(/_en$/, "");
   const refD = (lang === "en" ? REF_EN : REF)[refKey];
+  // ★★★ 썸네일 표준 v5 (파로호 공식, 2026-11-08~): PAROHO_STD 표에 있는 에피소드는 한국어 A안을 이 디자인으로
+  if (variant === "A" && lang !== "en" && PAROHO_STD[refKey]) return <ParohoThumb d={PAROHO_STD[refKey]} />;
   // ★★ 썸네일 표준 v4 (스토리텔링 꼴라주 + 3D 몬스터 타이포, 2026-11-02~): COLLAGE 표에 있는 에피소드는 한국어 A안을 이 디자인으로
   if (variant === "A" && lang !== "en" && COLLAGE[refKey]) return <CollageThumb d={COLLAGE[refKey]} />;
   if (variant === "A2" && lang !== "en" && COLLAGE[refKey]?.alt) return <CollageThumb d={{ ...COLLAGE[refKey], ...COLLAGE[refKey].alt }} />;
