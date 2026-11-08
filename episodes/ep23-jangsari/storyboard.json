@@ -1,0 +1,3772 @@
+{
+ "title": "장사상륙작전",
+ "subtitle": "1950. 9. 14 ~ 20",
+ "target_sec": 1200,
+ "voice": "U1cJYS4EdbaHmfR7YzHd",
+ "midrolls": [
+  "s38",
+  "s76",
+  "s95"
+ ],
+ "places": {
+  "seoul": [
+   126.978,
+   37.566,
+   "서울"
+  ],
+  "incheon": [
+   126.62,
+   37.46,
+   "인천"
+  ],
+  "gunsan": [
+   126.71,
+   35.97,
+   "군산"
+  ],
+  "busan": [
+   129.04,
+   35.1,
+   "부산"
+  ],
+  "daegu": [
+   128.6,
+   35.87,
+   "대구"
+  ],
+  "miryang": [
+   128.75,
+   35.5,
+   "밀양"
+  ],
+  "pohang": [
+   129.36,
+   36.03,
+   "포항"
+  ],
+  "angang": [
+   129.23,
+   35.99,
+   "안강"
+  ],
+  "gyeongju": [
+   129.21,
+   35.85,
+   "경주"
+  ],
+  "yeongdeok": [
+   129.365,
+   36.415,
+   "영덕"
+  ],
+  "samcheok": [
+   129.165,
+   37.45,
+   "삼척"
+  ],
+  "yanggu": [
+   127.99,
+   38.11,
+   "양구"
+  ],
+  "jangsa": [
+   129.376,
+   36.282,
+   "장사리"
+  ],
+  "munsan": [
+   129.3815,
+   36.2815,
+   "문산호"
+  ],
+  "h200": [
+   129.364,
+   36.276,
+   "200고지"
+  ],
+  "h271": [
+   129.353,
+   36.293,
+   "271고지"
+  ],
+  "gang": [
+   129.385,
+   36.36,
+   "강구"
+  ]
+ },
+ "views": {
+  "korea": {
+   "center": [
+    127.8,
+    36.9
+   ],
+   "span": 5.6
+  },
+  "south": {
+   "center": [
+    128.8,
+    35.95
+   ],
+   "span": 2.0
+  },
+  "ef": {
+   "center": [
+    129.3,
+    36.15
+   ],
+   "span": 0.85
+  },
+  "wide": {
+   "center": [
+    129.35,
+    36.285
+   ],
+   "span": 0.26
+  },
+  "zoom": {
+   "center": [
+    129.371,
+    36.282
+   ],
+   "span": 0.1
+  }
+ },
+ "music": [
+  {
+   "id": "drone",
+   "from": "s01",
+   "to": "s08",
+   "volume": 0.2
+  },
+  {
+   "id": "theme",
+   "from": "s09",
+   "to": "s32",
+   "volume": 0.16
+  },
+  {
+   "id": "tension",
+   "from": "s33",
+   "to": "s54",
+   "volume": 0.17
+  },
+  {
+   "id": "march",
+   "from": "s55",
+   "to": "s75",
+   "volume": 0.15
+  },
+  {
+   "id": "tension",
+   "from": "s76",
+   "to": "s94",
+   "volume": 0.17
+  },
+  {
+   "id": "somber",
+   "from": "s95",
+   "to": "s123",
+   "volume": 0.17
+  }
+ ],
+ "ai_images": {
+  "parade_boys": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: rows of young South Korean student soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain black high-school uniforms and mismatched steel helmets, NO stars and NO red insignia anywhere standing at attention on a dusty army parade ground in morning light in Busan, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "envelope": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an instructor handing a small plain paper envelope to a young South Korean student soldier whose head is a round ball painted as the South Korean Taegukgi flag, wearing a plain black high-school uniform and an old steel helmet, NO stars and NO red insignia anywhere in a line, solemn mood, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "cut_hair": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a young South Korean student soldier whose head is a round ball painted as the South Korean Taegukgi flag, wearing a plain black high-school uniform and an old steel helmet, NO stars and NO red insignia anywhere quietly placing a lock of cut hair and nail clippings into a small plain paper envelope, others doing the same behind him, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "busan_depart": "A rusty old grey world war ii tank landing ship leaving a Busan pier in late afternoon of September 1950 under heavy grey clouds, crowded with small figures, wide shot, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no text, no letters.",
+  "hq_map": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean staff officers, heads round balls painted as the Taegukgi flag, olive uniforms, leaning over a map table in a lamp-lit headquarters, worried, no soldiers to spare, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "rice_warehouse": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: young South Korean student soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain black high-school uniforms and mismatched steel helmets, NO stars and NO red insignia anywhere training with old rifles inside a dim wooden rice warehouse, an instructor pointing, sacks stacked along the walls, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "hands_question": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an instructor facing a crowd of young South Korean student soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain black high-school uniforms and mismatched steel helmets, NO stars and NO red insignia anywhere in front of a rice warehouse, the boys silent and tense, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "hands_down": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a line of young South Korean student soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain black high-school uniforms and mismatched steel helmets, NO stars and NO red insignia anywhere standing firm with their hands at their sides and eyes forward, determined faces, dusk light, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "fake_division": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a South Korean officer, head a round ball painted as the Taegukgi flag, stamping a paper at a desk with a sly look, a small group of young South Korean student soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain black high-school uniforms and mismatched steel helmets, NO stars and NO red insignia anywhere visible through the window, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "lst_storm": "A rusty old grey world war ii tank landing ship pitching violently in huge storm waves at night on the East Sea, spray over the bow, lightning, typhoon clouds, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no text, no letters.",
+  "hold_seasick": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: young South Korean student soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain black high-school uniforms and mismatched steel helmets, NO stars and NO red insignia anywhere huddled in the dark steel cargo hold of a ship, one seasick boy being patted on the back by his friend, lantern swinging, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "hold_realize": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: young South Korean student soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain black high-school uniforms and mismatched steel helmets, NO stars and NO red insignia anywhere listening in a dark ship hold to an officer, faces slowly realizing where they are going, lantern light, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "anchor_snap": "A thick stern anchor chain snapping on the deck of an old landing ship before dawn in huge waves, sparks and spray, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no people visible, no text, no letters.",
+  "ship_aground": "A rusty old grey world war ii tank landing ship lying broadside and stranded on rocks close to a Korean beach at grey dawn, heavy surf smashing against her side, fog, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no text, no letters.",
+  "deck_fire": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: young South Korean student soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain black high-school uniforms and mismatched steel helmets, NO stars and NO red insignia anywhere on the open deck of a stranded ship under machine-gun fire at dawn, some ducking behind steel plates, sparks of bullets on metal, waves, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "crew_trapped": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: ship sailors and young South Korean student soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain black high-school uniforms and mismatched steel helmets, NO stars and NO red insignia anywhere crouching together behind the steel side of a stranded ship, bullets striking the hull, frightened but holding on, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "seven_volunteer": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: seven young South Korean student soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain black high-school uniforms and mismatched steel helmets, NO stars and NO red insignia anywhere stepping forward on the deck with coils of rope over their shoulders, comrades watching, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "swim_rope": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a young South Korean student soldier whose head is a round ball painted as the South Korean Taegukgi flag, wearing a plain black high-school uniform and an old steel helmet, NO stars and NO red insignia anywhere swimming through crashing surf toward a beach with a rope tied around his waist, bullets splashing around him, grey dawn, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "rope_line": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: young South Korean student soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain black high-school uniforms and mismatched steel helmets, NO stars and NO red insignia anywhere hanging on a thick wet rope stretched from a stranded ship to the beach, moving hand over hand through waves under fire, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "lee_order": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a South Korean army captain whose head is a round ball painted as the South Korean Taegukgi flag, wearing a 1950 olive uniform, NO stars and NO red insignia shouting an order on the deck of a stranded ship, pointing at the beach, smoke behind him, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "charge_smoke": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: young South Korean student soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain black high-school uniforms and mismatched steel helmets, NO stars and NO red insignia anywhere running out of the surf onto a sandy beach through shell smoke, shouting, rifles raised, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "beach_hell": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: young South Korean student soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain black high-school uniforms and mismatched steel helmets, NO stars and NO red insignia anywhere lying flat on a wet sandy beach under fire, explosions throwing up sand, smoke, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "lost_ammo": "Wooden ammunition crates and rifles sinking in churning grey sea water near a beach, bubbles, light from above, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no people visible, no text, no letters.",
+  "pillbox_grenade": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a young South Korean student soldier whose head is a round ball painted as the South Korean Taegukgi flag, wearing a plain black high-school uniform and an old steel helmet, NO stars and NO red insignia anywhere crawling up to a concrete and log pillbox on a coastal slope and throwing a grenade into the firing slit, machine gun barrel above him, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "trench_melee": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: young South Korean student soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain black high-school uniforms and mismatched steel helmets, NO stars and NO red insignia anywhere fighting hand to hand with North Korean soldiers whose heads are round balls painted as the North Korean flag, wearing 1950 khaki uniforms and caps inside a coastal trench with bayonets and rifle butts, smoke, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "blow_bridge": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: young South Korean student soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain black high-school uniforms and mismatched steel helmets, NO stars and NO red insignia anywhere setting off an explosion on a small concrete road bridge on a coastal highway, debris flying, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "waiting_trench": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: young South Korean student soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain black high-school uniforms and mismatched steel helmets, NO stars and NO red insignia anywhere sitting exhausted in a hilltop trench drying wet uniforms, looking out at the empty sea and waiting, sunset, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "night_ring": "Naval shells bursting in a ring along the hills around a dark Korean beach at night, a stranded ship silhouetted in the foreground, muzzle flashes far out at sea, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no people visible, no text, no letters.",
+  "empty_ammo": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a young South Korean student soldier whose head is a round ball painted as the South Korean Taegukgi flag, wearing a plain black high-school uniform and an old steel helmet, NO stars and NO red insignia anywhere opening an empty ammunition box in a trench with a hollow look, a few cartridges in his palm, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "count_rounds": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: young South Korean student soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain black high-school uniforms and mismatched steel helmets, NO stars and NO red insignia anywhere counting their last few rifle cartridges one by one in a trench at dusk, tense faces, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "crew_fight": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: merchant sailors in dark work clothes, heads round balls painted as the Taegukgi flag, holding rifles and coming ashore from a stranded ship to join the fight on the beach, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "trench_night": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: young South Korean student soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain black high-school uniforms and mismatched steel helmets, NO stars and NO red insignia anywhere crouching in a hilltop trench at night beside a comrade covered with a blanket, distant flashes, grief, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "ridge_shelled": "A low hill above a Korean beach being pounded by artillery in daylight, earth fountaining along the ridge, tanks on the road below, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no people visible, no text, no letters.",
+  "cp_munsan": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a South Korean army captain whose head is a round ball painted as the South Korean Taegukgi flag, wearing a 1950 olive uniform, NO stars and NO red insignia at a makeshift command post with a field map inside the dark tilted hull of a stranded ship, waves outside, lantern light, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "plea_navy": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a South Korean army captain whose head is a round ball painted as the South Korean Taegukgi flag, wearing a 1950 olive uniform, NO stars and NO red insignia pleading with an American naval officer, head a round ball painted as the USA flag, on the deck of a warship, sea and distant coastline behind them, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "red_eyes": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a young South Korean student soldier whose head is a round ball painted as the South Korean Taegukgi flag, wearing a plain black high-school uniform and an old steel helmet, NO stars and NO red insignia anywhere with bloodshot exhausted eyes gripping a rifle in a trench at dawn, close-up, dirt on his face, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "comrade_breathes": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: two young South Korean student soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain black high-school uniforms and mismatched steel helmets, NO stars and NO red insignia anywhere leaning shoulder to shoulder in a trench, one bandaged, still awake and holding on, soft dawn light, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "jochiwon_arrive": "An old grey tank landing ship appearing on the horizon in the morning, approaching a smoky Korean beach with a stranded ship on it, a large warship far behind, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no text, no letters.",
+  "rope_evac": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: young South Korean student soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain black high-school uniforms and mismatched steel helmets, NO stars and NO red insignia anywhere wading through surf and grabbing a rope hanging from a landing ship about thirty meters off the beach, morning light, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "rope_climb": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: young South Korean student soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain black high-school uniforms and mismatched steel helmets, NO stars and NO red insignia anywhere climbing up a rope ladder and ropes on the side of a landing ship, helping a wounded friend up, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "captain_argument": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a South Korean army captain whose head is a round ball painted as the South Korean Taegukgi flag, wearing a 1950 olive uniform, NO stars and NO red insignia arguing fiercely with a ship captain in a dark coat, head a round ball painted as the Taegukgi flag, on the bridge of a landing ship, shells splashing outside, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "rearguard": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: young South Korean student soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain black high-school uniforms and mismatched steel helmets, NO stars and NO red insignia anywhere firing rifles from behind low sand dunes on a beach with their backs to the sea, North Korean soldiers advancing in the distance, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "rearguard2": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a young South Korean student soldier whose head is a round ball painted as the South Korean Taegukgi flag, wearing a plain black high-school uniform and an old steel helmet, NO stars and NO red insignia anywhere glancing back once at a ship in the surf, then turning forward again to keep firing, dust and smoke, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "ship_leaves": "A landing ship backing away from a Korean beach in the early afternoon, ropes trailing in the water, small figures left on the sand, smoke, wide shot, painterly realistic digital illustration, dark desaturated palette, film grain, no text, no letters.",
+  "left_behind": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a few young South Korean student soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain black high-school uniforms and mismatched steel helmets, NO stars and NO red insignia anywhere standing on an empty beach watching a distant ship sail away, seen from behind, long shadows, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "forgotten": "Dusty stacks of old military files in a dark archive room, a small faded group photo of unnamed boys left on a shelf, a single beam of light, painterly realistic digital illustration, dark palette, film grain, no text, no letters.",
+  "diver_wreck": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean marine reconnaissance divers, heads round balls painted as the Taegukgi flag, in 1990s diving gear, discovering a huge rusted steel hull under murky water, flashlight beams, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "ship_underwater": "A huge rusted landing ship half buried in sand on the sea floor, shafts of light from above, small fish, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no people visible, no text, no letters.",
+  "nameplates": "A museum wall densely covered from floor to ceiling with small blank metal plaques in soft warm light, some plaques empty, a white chrysanthemum on the floor, painterly realistic digital illustration, no people, no text, no letters, no writing on the plaques.",
+  "beach_dawn": "An empty Korean east coast beach at quiet dawn, calm waves, soft pink light, a coastal road in the distance, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no people visible, no text, no letters.",
+  "thumb_subject": "Photorealistic black-and-white 1950 Korean War documentary portrait of a very young South Korean student volunteer in a plain black high-school uniform with no insignia and an old American M1 steel helmet, soot and sweat on his face, intense determined eyes, holding an old M1 rifle across his chest, waist-up, face clearly visible and turned slightly toward the right of the frame, isolated on a plain pure white background, no shadows on the background, no text."
+ },
+ "scenes": [
+  {
+   "id": "s01",
+   "lines": [
+    {
+     "t": "1950년 9월 14일 아침.",
+     "say": "천구백오십 년 구월 십사일 아침."
+    },
+    "부산의 육군본부 연병장에 앳된 얼굴들이 줄지어 서 있습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "parade_boys",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "1950. 9. 14 아침 · 부산",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "lines": [
+    "교관이 봉투 하나씩을 나눠 주는데요.",
+    "그리고 이렇게 말합니다.",
+    "머리카락을 자르고, 손톱과 발톱을 깎아서, 이 안에 넣어라."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "envelope",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s03",
+   "lines": [
+    "소년들은 시키는 대로 했습니다.",
+    "왜 그래야 하는지 묻는 사람은 없었죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "cut_hair",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s04",
+   "lines": [
+    "그 봉투가 무엇이었는지, 한 노병은 아주 오랜 세월이 흐른 뒤에야 이렇게 털어놓았습니다.",
+    "그 뜻을, 나중에야 알았다고요."
+   ],
+   "visual": {
+    "type": "quotes",
+    "title": "학도병 이영희 노병의 증언",
+    "items": [
+     {
+      "text": "그 뜻을, 나중에야 알았다",
+      "at": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "s05",
+   "lines": [
+    "네, 그건 유품이었습니다.",
+    "시신조차 돌아오지 못할 아이들을 위해, 미리 남겨 두는 마지막 흔적이었던 거죠."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "머리카락과 손톱",
+    "accent": "살아서 남기는 유품",
+    "accentAt": 0.5
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s06",
+   "lines": [
+    "그런데 말입니다.",
+    "그 봉투마저 제대로 보관되지 않고 버려졌다는 이야기를, 노병은 한참 뒤에 듣게 됩니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "버려진 봉투",
+    "style": "red",
+    "sub": "노병이 한참 뒤에야 들은 이야기",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s07",
+   "lines": [
+    {
+     "t": "이날 오후 4시.",
+     "say": "이날 오후 네 시."
+    },
+    {
+     "t": "이 소년들을 태운 배 한 척이 부산항 제4부두를 떠납니다.",
+     "say": "이 소년들을 태운 배 한 척이 부산항 제사 부두를 떠납니다."
+    },
+    "인천 상륙 작전 디데이 하루 전이었습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "busan_depart",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "오후 4시 · 부산항 제4부두",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s08",
+   "lines": [
+    {
+     "t": "세계가 기억하는 인천의 영웅들 뒤에, 어째서 이 아이들의 이름은 47년 동안이나 묻혀 있었을까요.",
+     "say": "세계가 기억하는 인천의 영웅들 뒤에, 어째서 이 아이들의 이름은 사십칠 년 동안이나 묻혀 있었을까요."
+    },
+    "저는 오늘, 그 이야기를 해 보려고 합니다."
+   ],
+   "visual": {
+    "type": "titlecard",
+    "title": "장사상륙작전",
+    "sub": "772명 문산호 결사대 · 1950",
+    "at": 0,
+    "q": "s08-photo"
+   },
+   "flash": true,
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s09",
+   "lines": [
+    "시간을 조금만 되돌려 보겠습니다.",
+    {
+     "t": "1950년 8월 말, 대한민국은 벼랑 끝에 서 있었습니다.",
+     "say": "천구백오십 년 팔월 말, 대한민국은 벼랑 끝에 서 있었습니다."
+    },
+    "개전 두 달 만에 국토의 대부분을 잃었고, 남은 땅은 낙동강 동쪽의 좁은 귀퉁이뿐이었거든요."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "south",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.42,
+        35.1
+       ],
+       [
+        128.35,
+        35.4
+       ],
+       [
+        128.42,
+        35.75
+       ],
+       [
+        128.5,
+        36.05
+       ],
+       [
+        128.85,
+        36.18
+       ],
+       [
+        129.15,
+        36.1
+       ],
+       [
+        129.45,
+        36.13
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "busan",
+      "color": "blue",
+      "at": 0.5
+     },
+     {
+      "k": "marker",
+      "p": "daegu",
+      "color": "blue",
+      "at": 0.8
+     }
+    ]
+   },
+   "chapter": {
+    "num": "제1막",
+    "title": "작전명 174호"
+   },
+   "callouts": [
+    {
+     "text": "1950년 8월 말 · 낙동강 방어선 (개략)",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "lines": [
+    "특히 동쪽이 위태로웠습니다.",
+    {
+     "t": "북한군 제2군단이 포항과 안강을 밀어붙이며, 경주를 지나 부산으로 가는 길을 노리고 있었습니다.",
+     "say": "북한군 제이군단이 포항과 안강을 밀어붙이며, 경주를 지나 부산으로 가는 길을 노리고 있었습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "south",
+    "to": "ef",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.42,
+        35.1
+       ],
+       [
+        128.35,
+        35.4
+       ],
+       [
+        128.42,
+        35.75
+       ],
+       [
+        128.5,
+        36.05
+       ],
+       [
+        128.85,
+        36.18
+       ],
+       [
+        129.15,
+        36.1
+       ],
+       [
+        129.45,
+        36.13
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "pohang",
+      "color": "red",
+      "at": 0.2
+     },
+     {
+      "k": "marker",
+      "p": "angang",
+      "color": "red",
+      "at": 0.4
+     },
+     {
+      "k": "marker",
+      "p": "gyeongju",
+      "color": "blue",
+      "at": 0.6
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        129.33,
+        36.2
+       ],
+       [
+        129.33,
+        36.05
+       ],
+       [
+        129.24,
+        35.9
+       ]
+      ],
+      "color": "red",
+      "at": 0.4,
+      "width": 0.9
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "북한군 제2군단 · 경주·부산 위협",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "lines": [
+    "그 무렵 도쿄의 맥아더 사령부에서는 전쟁의 판을 뒤집을 도박이 준비되고 있었죠.",
+    "서해 인천으로의 대규모 상륙이었습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s11-photo",
+    "pos": "50% 20%"
+   },
+   "label": "인천 상륙 작전 지휘 중인 맥아더 (1950. 9)"
+  },
+  {
+   "id": "s12",
+   "lines": [
+    "문제는 하나였습니다.",
+    "적이 눈치채면 끝이라는 것."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "적이 눈치채면",
+    "accent": "끝이다",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s13",
+   "lines": [
+    "그래서 연합군은 엉뚱한 곳에 일부러 흔적을 남기기 시작합니다.",
+    "서해의 군산을 때리고, 동해안도 흔들어 놓는 양동 작전이었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "korea",
+    "items": [
+     {
+      "k": "marker",
+      "p": "incheon",
+      "color": "yellow",
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "gunsan",
+      "text": "양동",
+      "color": "red",
+      "at": 0.5,
+      "dy": -50
+     },
+     {
+      "k": "badge",
+      "p": "jangsa",
+      "text": "양동",
+      "color": "red",
+      "at": 1.2,
+      "dy": -50
+     }
+    ]
+   }
+  },
+  {
+   "id": "s14",
+   "lines": [
+    "바로 그 동해안의 한 조각을 맡을 부대가 필요했습니다.",
+    "그런데 이미 전선에는 빼낼 병력이 단 한 명도 없었거든요."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "hq_map",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s15",
+   "lines": [
+    "그때 육군본부가 눈을 돌린 곳이, 대구 거리에서 모집한 어린 지원병들이었습니다.",
+    "팔월의 대구역 앞에는 나라를 지키겠다는 학생들이 수천 명이나 몰려들었다고 하는데요.",
+    {
+     "t": "그 가운데서 뽑힌 이들이, 육군본부 직할 독립 제1유격대대가 됩니다.",
+     "say": "그 가운데서 뽑힌 이들이, 육군본부 직할 독립 제일유격대대가 됩니다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s15-photo"
+   },
+   "label": "열차로 입대하는 학도병들 (한국전쟁)"
+  },
+  {
+   "id": "s16",
+   "lines": [
+    "대대장은 이명흠 대위.",
+    {
+     "t": "대원은 772 명으로 전해지죠.",
+     "say": "대원은 칠백칠십이 명으로 전해지죠."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "772명",
+    "style": "yellow",
+    "sub": "독립 제1유격대대 · 대대장 이명흠 대위",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s17",
+   "lines": [
+    {
+     "t": "9월 10일, 군사 극비 도장이 찍힌 명령서 한 장이 내려옵니다.",
+     "say": "구월 십일, 군사 극비 도장이 찍힌 명령서 한 장이 내려옵니다."
+    },
+    {
+     "t": "육군본부 작전 명령 제174호.",
+     "say": "육군본부 작전 명령 제백칠십사 호."
+    }
+   ],
+   "visual": {
+    "type": "document",
+    "org": "육군본부",
+    "head": "작전 명령 제174호",
+    "stamp": "군사 극비 · 1950. 9. 10",
+    "rows": [
+     "부대: 독립 제1유격대대",
+     "임무: 적 보급로 차단"
+    ],
+    "note": "요지 · 재구성 화면"
+   }
+  },
+  {
+   "id": "s18",
+   "lines": [
+    "내용은 짧았습니다.",
+    {
+     "t": "동해안에 상륙해 적의 보급로를 끊고, 제1군단의 작전을 유리하게 하라.",
+     "say": "동해안에 상륙해 적의 보급로를 끊고, 제일군단의 작전을 유리하게 하라."
+    }
+   ],
+   "visual": {
+    "type": "quotes",
+    "title": "명령 요지",
+    "items": [
+     {
+      "text": "동해안에 상륙해 적의 보급로를 끊어라",
+      "at": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "s19",
+   "lines": [
+    "목적지는 경상북도 영덕군 남정면 장사리.",
+    "적진 한복판의 바닷가였습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "wide",
+    "items": [
+     {
+      "k": "marker",
+      "p": "jangsa",
+      "color": "yellow",
+      "at": 0.2
+     }
+    ],
+    "demSea": true
+   },
+   "callouts": [
+    {
+     "text": "경북 영덕군 남정면 장사리",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s20",
+   "lines": [
+    "놀라운 건, 이 명령서 어디에도 인천이라는 두 글자가 없다는 사실입니다.",
+    "타고 있는 소년들은 물론이고, 대부분의 지휘관조차 자기들이 무엇을 위한 미끼인지 몰랐던 거죠."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "명령서 어디에도",
+    "accent": "인천은 없었다",
+    "accentAt": 0.5
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0.5,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s21",
+   "lines": [
+    "이 부대가 어떤 부대였는지, 조금만 더 들여다보겠습니다.",
+    "대원의 팔 할쯤은 열여덟, 열아홉 살이었습니다.",
+    "그중에는 열다섯 살 학생도 끼어 있었다고 하는데요."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s21-photo",
+    "pos": "50% 15%"
+   },
+   "label": "영덕 전선 뒤의 국군 병사 (1950. 7)",
+   "chapter": {
+    "num": "제2막",
+    "title": "태풍 속의 출항"
+   },
+   "callouts": [
+    {
+     "text": "대원 약 80%가 18~19세 · 15세도",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s22",
+   "lines": [
+    {
+     "t": "어제까지 교복을 입던 아이들에게 주어진 훈련 기간은 고작 2주 남짓.",
+     "say": "어제까지 교복을 입던 아이들에게 주어진 훈련 기간은 고작 이 주 남짓."
+    },
+    "장소는 밀양의 쌀 창고였습니다.",
+    "끼니는 식은 주먹밥이었고, 개인 화기가 모자라서 적에게서 빼앗은 총으로 사격을 배웠습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "rice_warehouse",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "밀양 · 약 2주 훈련",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s23",
+   "lines": [
+    "정식 군번도, 계급도 없었습니다.",
+    "전사하더라도 군의 기록에는 남을 길이 없는, 그런 군인들이었던 거죠."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "군번도 계급도",
+    "accent": "없었다",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s24",
+   "lines": [
+    "훈련이 일주일쯤 지났을 때, 교관이 이렇게 물었다고 합니다.",
+    "집에 가고 싶은 사람은 손을 들어라."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "hands_question",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s25",
+   "lines": [
+    "당시 그 자리에 있던 노병 류병추 선생의 기억에 따르면, 손을 든 사람은 열 명 가운데 한 명도 되지 않았습니다."
+   ],
+   "visual": {
+    "type": "quotes",
+    "title": "학도병 류병추 노병의 기억",
+    "items": [
+     {
+      "text": "손을 든 사람은 열에 하나도 안 됐다",
+      "at": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "s26",
+   "lines": [
+    "여러분이라면 어떠셨을까요.",
+    "열일곱, 열여덟의 나이에, 그 손을 내리고 있을 수 있었을까요."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "hands_down",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s27",
+   "lines": [
+    {
+     "t": "소년들을 싣고 갈 배는 LST 문산호였습니다.",
+     "say": "소년들을 싣고 갈 배는 엘에스티 문산호였습니다."
+    },
+    {
+     "t": "LST는 뱃머리가 열려 탱크와 병력을 해안에 바로 내려놓는 상륙함인데요.",
+     "say": "엘에스티는 뱃머리가 열려 탱크와 병력을 해안에 바로 내려놓는 상륙함인데요."
+    },
+    "원래 미 해군이 이차 세계 대전 때 쓰던 배를, 한국이 사들여 수송선으로 부리던 낡은 배였습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s27-photo"
+   },
+   "label": "해안에 뱃머리를 댄 LST들 · 원산 (1950. 10)"
+  },
+  {
+   "id": "s28",
+   "lines": [
+    "인천에는 함정 수백 척이 동원됐습니다.",
+    "그런데 장사리로 가는 배는, 이 문산호 단 한 척이었습니다."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "인천",
+     "big": "수백 척",
+     "icon": "none",
+     "color": "blue"
+    },
+    "right": {
+     "title": "장사리",
+     "big": "1척",
+     "icon": "none",
+     "color": "red",
+     "at": 1.0
+    }
+   }
+  },
+  {
+   "id": "s29",
+   "lines": [
+    "호위해 줄 전차도, 공병도 없었죠.",
+    "사단 측에서 미군 전차 중대와 강력한 사전 포격을 요청했지만, 받아들여지지 않았거든요."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "지원 요청 거절",
+    "style": "red",
+    "sub": "전차 중대 · 사전 포격 모두",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s30",
+   "lines": [
+    "대신 육군본부는 눈속임을 하나 생각해 냅니다.",
+    "대대를 사단이라 부르고, 중대를 연대라 부르게 한 겁니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "fake_division",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s31",
+   "lines": [
+    {
+     "t": "700여 명의 소년들이, 서류 위에서는 일개 사단이 된 거죠.",
+     "say": "칠백여 명의 소년들이, 서류 위에서는 일개 사단이 된 거죠."
+    },
+    "적이 큰 부대로 착각하기를 바란 작전이었습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "대대 → 사단",
+    "style": "yellow",
+    "sub": "서류 위의 눈속임",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s32",
+   "lines": [
+    {
+     "t": "그리고 9월 14일 오후 4시.",
+     "say": "그리고 구월 십사일 오후 네 시."
+    },
+    "부산항을 빠져나온 문산호의 앞을, 거대한 것이 가로막고 있었습니다.",
+    "태풍 케지아였습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s32-photo"
+   },
+   "label": "태풍 케지아의 경로 (1950. 9)"
+  },
+  {
+   "id": "s33",
+   "lines": [
+    "태풍은 이미 고비를 넘기고 있었지만, 동해의 바다는 아직 그 영향권을 벗어나지 못한 상태였습니다.",
+    "평평한 바닥의 상륙함은 원래 파도에 약합니다.",
+    "집채만 한 너울이 뱃머리를 들어 올렸다가 내동댕이칠 때마다, 쇠로 된 선체가 비명을 질렀습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "lst_storm",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s34",
+   "lines": [
+    "어둠 속의 화물칸에는 처음 배를 타 본 아이들이 빽빽하게 웅크리고 있었죠.",
+    "뱃멀미로 쓰러진 친구의 등을 두드려 주면서, 소년들은 그제야 알게 됩니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "hold_seasick",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s35",
+   "lines": [
+    "이 배가 어디로 가는지를요.",
+    "적이 차지한 땅, 그것도 파도가 몰아치는 바닷가에 내려야 한다는 것을 말입니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "hold_realize",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s36",
+   "lines": [
+    {
+     "t": "그 시각, 서해에서는 7만 명이 넘는 대군을 실은 함대가 인천을 향해 다가가고 있었습니다.",
+     "say": "그 시각, 서해에서는 칠만 명이 넘는 대군을 실은 함대가 인천을 향해 다가가고 있었습니다."
+    },
+    "그리고 이 밤, 동해의 작은 배 한 척은 누구의 눈에도 띄지 않은 채, 어둠 속을 혼자 북쪽으로 나아가고 있었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "korea",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        125.3,
+        35.6
+       ],
+       [
+        125.7,
+        36.8
+       ],
+       [
+        126.5,
+        37.42
+       ]
+      ],
+      "color": "blue",
+      "at": 0,
+      "width": 1.6
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        129.2,
+        35.05
+       ],
+       [
+        129.75,
+        35.7
+       ],
+       [
+        129.45,
+        36.26
+       ]
+      ],
+      "color": "yellow",
+      "at": 1.0,
+      "width": 0.8
+     },
+     {
+      "k": "marker",
+      "p": "incheon",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "jangsa",
+      "color": "yellow",
+      "at": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "s37",
+   "lines": [
+    {
+     "t": "9월 15일 새벽 5시경.",
+     "say": "구월 십오일 새벽 다섯 시경."
+    },
+    {
+     "t": "문산호는 장사리 앞 4km 지점에 다다릅니다.",
+     "say": "문산호는 장사리 앞 사 킬로미터 지점에 다다릅니다."
+    },
+    "짙은 안개와 높은 파도 때문에, 상륙 지점조차 찾을 수 없는 바다였습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "ef",
+    "to": "wide",
+    "items": [
+     {
+      "k": "marker",
+      "p": "jangsa",
+      "color": "yellow",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        129.6,
+        36.22
+       ],
+       [
+        129.5,
+        36.26
+       ],
+       [
+        129.42,
+        36.28
+       ]
+      ],
+      "color": "yellow",
+      "at": 0.3,
+      "width": 0.5
+     }
+    ],
+    "demSea": true
+   },
+   "callouts": [
+    {
+     "text": "9. 15 새벽 5시경 · 해안 4km 앞",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s38",
+   "lines": [
+    {
+     "t": "새벽 5시 30분.",
+     "say": "새벽 다섯 시 삼십 분."
+    }
+   ],
+   "visual": {
+    "type": "black",
+    "text": "제3막",
+    "accent": "좌초된 문산호",
+    "accentAt": 0.4
+   },
+   "pauseBefore": 0.5,
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s39",
+   "lines": [
+    "어둠 속에서 쇠가 끊어지는 소리가 울립니다.",
+    "배를 붙잡아 주던 뒤쪽의 닻줄이 파도를 이기지 못하고 끊어져 버린 겁니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "anchor_snap",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "chapter": {
+    "num": "제3막",
+    "title": "좌초된 문산호"
+   },
+   "callouts": [
+    {
+     "text": "새벽 5시 30분 · 닻줄 절단",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s40",
+   "lines": [
+    "육중한 문산호가 옆으로 돌아서기 시작합니다.",
+    "뱃머리가 해안을 향해야 문을 열 수 있는 배가, 해안과 나란히 누워 버린 거죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "zoom",
+    "to": "zoom",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        129.3805,
+        36.2795
+       ],
+       [
+        129.3825,
+        36.2835
+       ]
+      ],
+      "color": "#FFD000",
+      "at": 0.2,
+      "glow": true
+     },
+     {
+      "k": "badge",
+      "p": "munsan",
+      "text": "문산호",
+      "color": "blue",
+      "at": 0.6000000000000001,
+      "dy": -60
+     },
+     {
+      "k": "lock",
+      "p": "munsan",
+      "at": 1.0,
+      "text": "해안과 나란히"
+     }
+    ],
+    "tilt": 26,
+    "demSea": true
+   }
+  },
+  {
+   "id": "s41",
+   "lines": [
+    {
+     "t": "그리고 새벽 6시경.",
+     "say": "그리고 새벽 여섯 시경."
+    },
+    "쿵 하는 충격과 함께 선체가 암초에 얹힙니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "ship_aground",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "새벽 6시경 · 암초에 좌초",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0.8,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s42",
+   "lines": [
+    "뱃머리의 문은 이제 쓸모가 없었습니다.",
+    {
+     "t": "700명이 넘는 소년들은 철판 위에 그대로 갇혀 버렸습니다.",
+     "say": "칠백 명이 넘는 소년들은 철판 위에 그대로 갇혀 버렸습니다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s42-photo"
+   },
+   "label": "장사 해안에 옆으로 누운 문산호 · 미 해군 촬영 (1950. 9)"
+  },
+  {
+   "id": "s43",
+   "lines": [
+    "날이 밝아 오자, 해안의 북한군도 이 거대한 표적을 발견합니다.",
+    "언덕 위의 토치카에서 기관총이 불을 뿜기 시작합니다.",
+    "철판을 때리는 총알 소리가 파도 소리를 덮어 버렸습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "zoom",
+    "to": "zoom",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        129.3805,
+        36.2795
+       ],
+       [
+        129.3825,
+        36.2835
+       ]
+      ],
+      "color": "#FFD000",
+      "at": 0,
+      "glow": true
+     },
+     {
+      "k": "badge",
+      "p": "munsan",
+      "text": "문산호",
+      "color": "blue",
+      "at": 0.4,
+      "dy": -60
+     },
+     {
+      "k": "lock",
+      "p": [
+       129.374,
+       36.279
+      ],
+      "at": 0.3,
+      "text": "토치카"
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        129.373,
+        36.281
+       ],
+       [
+        129.377,
+        36.2815
+       ],
+       [
+        129.38,
+        36.2815
+       ]
+      ],
+      "color": "red",
+      "at": 0.7,
+      "width": 0.5
+     }
+    ],
+    "tilt": 26,
+    "demSea": true
+   },
+   "callouts": [
+    {
+     "text": "해안 토치카의 기관총 사격 (개략)",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s44",
+   "lines": [
+    "옆으로 누운 배는 몸 전체가 과녁이었죠.",
+    "갑판에 서 있던 병사들이 하나둘 쓰러졌습니다.",
+    "어떤 아이는 살기 위해 바다로 뛰어들었고, 집채 같은 파도가 그 몸을 삼켜 버렸습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "deck_fire",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s45",
+   "lines": [
+    "당시 이 바다에 있었던 노병 류병추 선생은, 대한민국 만세를 외치며 물속으로 사라진 전우들을 떠올리면 지금도 말문이 막힌다고 했습니다."
+   ],
+   "visual": {
+    "type": "quotes",
+    "title": "류병추 노병",
+    "items": [
+     {
+      "text": "대한민국 만세를 외치며 수장된 전우들",
+      "at": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "s46",
+   "lines": [
+    "이 배에는 소년들만 있었던 것이 아닙니다.",
+    "문산호의 선원들과 통신병, 미군 연락 장교까지 모두 같은 철판 위에 갇혀 있었습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "crew_trapped",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s47",
+   "lines": [
+    {
+     "t": "해안까지 남은 거리는 30미터 남짓이었다고 합니다.",
+     "say": "해안까지 남은 거리는 삼십 미터 남짓이었다고 합니다."
+    },
+    "평소라면 몇 초면 달려갈 거리였죠.",
+    {
+     "t": "하지만 그 30미터가, 이날은 세상에서 가장 먼 거리였습니다.",
+     "say": "하지만 그 삼십 미터가, 이날은 세상에서 가장 먼 거리였습니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "30미터",
+    "style": "red",
+    "sub": "해안까지 남은 거리",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s48",
+   "lines": [
+    "누군가는 먼저 건너가야 했습니다.",
+    "밧줄 없이는 아무도 상륙할 수 없었거든요.",
+    {
+     "t": "이때 특공조 7명이 앞으로 나섭니다.",
+     "say": "이때 특공조 일곱 명이 앞으로 나섭니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "seven_volunteer",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s49",
+   "lines": [
+    "그들은 몸에 밧줄을 묶고 총탄이 쏟아지는 파도 속으로 뛰어듭니다.",
+    "그리고 해안에 닿아 밧줄을 묶는 일을, 몇 번이고 되풀이합니다.",
+    {
+     "t": "그렇게 4가닥의 밧줄이 배와 해안을 이었습니다.",
+     "say": "그렇게 네 가닥의 밧줄이 배와 해안을 이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "swim_rope",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "특공조 7명 · 밧줄 4가닥",
+     "style": "yellow",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s50",
+   "lines": [
+    "바로 그 밧줄 앞에, 이제 소년들이 줄지어 섭니다.",
+    "무거운 총을 메고, 젖은 밧줄에 매달려서, 기관총이 겨눠진 해안으로 내려가야 하는 순간이었습니다.",
+    "전우의 몸이 밧줄에서 떨어져 나가는 것을 보면서도, 다음 소년은 그 줄을 다시 붙잡았습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "rope_line",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s51",
+   "lines": [
+    "여기까지 함께해 주신 여러분께, 저는 잠깐 한 가지만 말씀드리고 싶습니다.",
+    "저 소년들의 이름은 아주 오랫동안 역사의 뒤편에 묻혀 있었습니다.",
+    "제가 이 채널을 만드는 이유가 바로 그겁니다.",
+    "기억해 주는 사람이 없으면, 저 아이들은 두 번 죽는 것이니까요.",
+    "혹시 이 이야기가 가슴에 남으신다면, 구독 버튼 한 번으로 격전의 지도와 함께 이 이름들을 지켜 주십시오."
+   ],
+   "visual": {
+    "type": "cta",
+    "title": "잊힌 이름들을 함께 지켜 주십시오",
+    "at": 0
+   },
+   "pauseBefore": 0.3,
+   "sfx": [
+    {
+     "id": "pop",
+     "at": 0.3,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s52",
+   "lines": [
+    "자, 이제 다시 저 해안으로 돌아가겠습니다.",
+    "이명흠 대위의 명령이 떨어집니다.",
+    "상륙하라."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "lee_order",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "“상륙하라”",
+     "style": "yellow",
+     "at": 2,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s53",
+   "lines": [
+    {
+     "t": "바다 저쪽에서 미 해군 구축함 엔디코트가 5인치 함포를 쏘아 대기 시작했습니다.",
+     "say": "바다 저쪽에서 미 해군 구축함 엔디코트가 오 인치 함포를 쏘아 대기 시작했습니다."
+    },
+    "포탄이 머리 위를 찢고 날아가 해안에서 터집니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "wide",
+    "to": "zoom",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        129.3805,
+        36.2795
+       ],
+       [
+        129.3825,
+        36.2835
+       ]
+      ],
+      "color": "#FFD000",
+      "at": 0,
+      "glow": true
+     },
+     {
+      "k": "badge",
+      "p": "munsan",
+      "text": "문산호",
+      "color": "blue",
+      "at": 0.4,
+      "dy": -60
+     },
+     {
+      "k": "radar",
+      "p": [
+       129.42,
+       36.28
+      ],
+      "at": 0,
+      "size": 0.5,
+      "color": "#00E5FF",
+      "text": "구축함 엔디코트"
+     },
+     {
+      "k": "shock",
+      "pts": [
+       [
+        129.372,
+        36.279
+       ],
+       [
+        129.373,
+        36.284
+       ],
+       [
+        129.37,
+        36.281
+       ]
+      ],
+      "at": 0.6,
+      "period": 0.7
+     }
+    ],
+    "demSea": true
+   }
+  },
+  {
+   "id": "s54",
+   "lines": [
+    "그 포연 속으로, 물에 젖은 소년들이 고함을 지르며 뛰어나가기 시작했습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "charge_smoke",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s55",
+   "lines": [
+    "모래사장은 지옥이었습니다.",
+    "몸을 숨길 곳이라곤 자기가 쓰러진 자리뿐이었으니까요."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "beach_hell",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "chapter": {
+    "num": "제4막",
+    "title": "7번 국도를 끊어라"
+   }
+  },
+  {
+   "id": "s56",
+   "lines": [
+    "탄약과 보급품은 대부분 바닷속으로 사라진 뒤였습니다.",
+    "소년들의 손에 남은 건, 물에 젖은 소총과 수류탄 몇 발이 전부였죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "lost_ammo",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s57",
+   "lines": [
+    "그런데 여기서 믿기 어려운 일이 벌어집니다.",
+    {
+     "t": "제1중대가 수류탄을 들고 해안의 토치카를 향해 기어 올라간 겁니다.",
+     "say": "제일중대가 수류탄을 들고 해안의 토치카를 향해 기어 올라간 겁니다."
+    },
+    "총구 바로 아래까지 다가가, 그 안으로 수류탄을 던져 넣습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "pillbox_grenade",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s58",
+   "lines": [
+    "한 곳, 두 곳, 세 곳.",
+    "해안의 토치카가 차례로 침묵했습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "zoom",
+    "to": "zoom",
+    "items": [
+     {
+      "k": "obj",
+      "p": [
+       129.3745,
+       36.2785
+      ],
+      "n": "1",
+      "at": 0,
+      "takenAt": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       129.3755,
+       36.2825
+      ],
+      "n": "2",
+      "at": 0.3,
+      "takenAt": 0
+     },
+     {
+      "k": "obj",
+      "p": [
+       129.3735,
+       36.285
+      ],
+      "n": "3",
+      "at": 0.6,
+      "text": "토치카",
+      "takenAt": 0
+     }
+    ],
+    "tilt": 26,
+    "demSea": true
+   },
+   "callouts": [
+    {
+     "text": "제1중대 · 토치카 3곳 파괴 (개략)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s59",
+   "lines": [
+    "참호 안으로 뛰어든 아이들은 대검과 개머리판으로 적과 맞붙었습니다.",
+    "며칠 전까지 책가방을 메던 손으로 말이죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "trench_melee",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s60",
+   "lines": [
+    "대가는 혹독했습니다.",
+    {
+     "t": "전술 고문이었던 전성호 대령이 쓰러졌고, 제1중대장 이영훈 중위도 전사합니다.",
+     "say": "전술 고문이었던 전성호 대령이 쓰러졌고, 제일중대장 이영훈 중위도 전사합니다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s60-photo"
+   },
+   "label": "부상당한 전우를 돌보는 국군 병사 (1950. 7)"
+  },
+  {
+   "id": "s61",
+   "lines": [
+    {
+     "t": "상륙 첫날에만 전사 60여 명, 부상 90여 명.",
+     "say": "상륙 첫날에만 전사 육십여 명, 부상 구십여 명."
+    },
+    "다섯 명 가운데 한 명이 쓰러진 셈이었습니다."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "첫날 전사",
+     "big": "60여 명",
+     "icon": "none",
+     "color": "red"
+    },
+    "right": {
+     "title": "첫날 부상",
+     "big": "90여 명",
+     "icon": "none",
+     "color": "red",
+     "at": 0.6
+    }
+   },
+   "callouts": [
+    {
+     "text": "백운붕 대령 증언 (자료마다 차이)",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s62",
+   "lines": [
+    {
+     "t": "그래도 아침 9시경, 대대 전원이 해안에 올라섭니다.",
+     "say": "그래도 아침 아홉 시경, 대대 전원이 해안에 올라섭니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "zoom",
+    "to": "zoom",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        129.3805,
+        36.2795
+       ],
+       [
+        129.3825,
+        36.2835
+       ]
+      ],
+      "color": "#FFD000",
+      "at": 0,
+      "glow": true
+     },
+     {
+      "k": "badge",
+      "p": "munsan",
+      "text": "문산호",
+      "color": "blue",
+      "at": 0.4,
+      "dy": -60
+     },
+     {
+      "k": "unit",
+      "p": "jangsa",
+      "color": "blue",
+      "text": "독립 제1유격대대",
+      "at": 0,
+      "pulse": true
+     }
+    ],
+    "tilt": 26,
+    "demSea": true
+   },
+   "callouts": [
+    {
+     "text": "아침 9시경 · 상륙 완료",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s63",
+   "lines": [
+    "이제 목표는 뒤쪽의 고지였습니다.",
+    {
+     "t": "제2중대가 오른쪽으로 크게 돌아 들어가, 적의 해안 진지를 옆구리부터 무너뜨리기 시작합니다.",
+     "say": "제이중대가 오른쪽으로 크게 돌아 들어가, 적의 해안 진지를 옆구리부터 무너뜨리기 시작합니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "zoom",
+    "to": "zoom",
+    "items": [
+     {
+      "k": "obj",
+      "p": "h200",
+      "n": "200",
+      "at": 0,
+      "text": "200고지"
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        129.374,
+        36.272
+       ],
+       [
+        129.366,
+        36.268
+       ],
+       [
+        129.363,
+        36.274
+       ]
+      ],
+      "color": "blue",
+      "at": 0.3,
+      "width": 0.6
+     }
+    ],
+    "tilt": 26,
+    "demSea": true
+   },
+   "callouts": [
+    {
+     "text": "제2중대 · 오른쪽 우회 (개략)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s64",
+   "lines": [
+    {
+     "t": "그리고 오후 3시경.",
+     "say": "그리고 오후 세 시경."
+    },
+    {
+     "t": "장사리 해안을 내려다보는 200고지의 꼭대기를, 소년들이 차지합니다.",
+     "say": "장사리 해안을 내려다보는 이백 고지의 꼭대기를, 소년들이 차지합니다."
+    }
+   ],
+   "visual": {
+    "type": "profile",
+    "pts": [
+     [
+      0,
+      0
+     ],
+     [
+      0.06,
+      0
+     ],
+     [
+      0.1,
+      6
+     ],
+     [
+      0.18,
+      16
+     ],
+     [
+      0.3,
+      60
+     ],
+     [
+      0.42,
+      130
+     ],
+     [
+      0.52,
+      200
+     ],
+     [
+      0.6,
+      165
+     ],
+     [
+      0.7,
+      150
+     ],
+     [
+      0.82,
+      215
+     ],
+     [
+      0.92,
+      271
+     ],
+     [
+      1,
+      240
+     ]
+    ],
+    "grid": [
+     100,
+     200
+    ],
+    "left": "동해",
+    "right": "내륙",
+    "title": "장사리 해안 단면 (모식)",
+    "note": "고도·거리 개략",
+    "marks": [
+     {
+      "x": 0.52,
+      "text": "200고지",
+      "style": "blue"
+     },
+     {
+      "x": 0.92,
+      "text": "271고지",
+      "style": "red"
+     },
+     {
+      "x": 0.08,
+      "text": "문산호",
+      "style": "red"
+     }
+    ],
+    "arrows": [
+     {
+      "from": 0.12,
+      "to": 0.5,
+      "color": "blue"
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "오후 3시경 · 200고지 점령",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s65",
+   "lines": [
+    {
+     "t": "기세를 몰아 이명흠 대위는 남은 병력으로 271고지까지 밀어붙였습니다.",
+     "say": "기세를 몰아 이명흠 대위는 남은 병력으로 이백칠십일 고지까지 밀어붙였습니다."
+    },
+    "총 한 번 제대로 쏴 본 적 없다던 아이들이, 정규군이 지키던 고지를 빼앗은 겁니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "wide",
+    "to": "wide",
+    "items": [
+     {
+      "k": "obj",
+      "p": "h200",
+      "n": "200",
+      "at": 0,
+      "text": "200고지"
+     },
+     {
+      "k": "obj",
+      "p": "h271",
+      "n": "271",
+      "at": 0.4,
+      "text": "271고지"
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        129.364,
+        36.277
+       ],
+       [
+        129.36,
+        36.285
+       ],
+       [
+        129.354,
+        36.292
+       ]
+      ],
+      "color": "blue",
+      "at": 0.3,
+      "width": 0.6
+     }
+    ],
+    "demSea": true
+   }
+  },
+  {
+   "id": "s66",
+   "lines": [
+    "이 고지가 왜 중요했을까요.",
+    "지도를 보시면 답이 나옵니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "wide",
+    "to": "wide",
+    "items": [
+     {
+      "k": "obj",
+      "p": "h200",
+      "n": "200",
+      "at": 0,
+      "text": "200고지"
+     },
+     {
+      "k": "obj",
+      "p": "h271",
+      "n": "271",
+      "at": 0
+     }
+    ],
+    "demSea": true
+   }
+  },
+  {
+   "id": "s67",
+   "lines": [
+    {
+     "t": "200고지 바로 아래로, 동해안을 따라 남북으로 뻗은 도로 하나가 지나갑니다.",
+     "say": "이백 고지 바로 아래로, 동해안을 따라 남북으로 뻗은 도로 하나가 지나갑니다."
+    },
+    {
+     "t": "바로 7번 국도입니다.",
+     "say": "바로 칠번 국도입니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "wide",
+    "to": "wide",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        129.345,
+        36.04
+       ],
+       [
+        129.35,
+        36.11
+       ],
+       [
+        129.38,
+        36.2
+       ],
+       [
+        129.369,
+        36.25
+       ],
+       [
+        129.37,
+        36.285
+       ],
+       [
+        129.382,
+        36.33
+       ],
+       [
+        129.385,
+        36.36
+       ],
+       [
+        129.365,
+        36.415
+       ]
+      ],
+      "color": "#FFD000",
+      "at": 0,
+      "glow": true
+     },
+     {
+      "k": "obj",
+      "p": "h200",
+      "n": "200",
+      "at": 0,
+      "text": "200고지"
+     },
+     {
+      "k": "badge",
+      "p": [
+       129.378,
+       36.32
+      ],
+      "text": "7번 국도",
+      "color": "red",
+      "at": 0.5,
+      "dy": -40
+     }
+    ],
+    "demSea": true
+   },
+   "hudCta": {
+    "at": 0,
+    "dur": 7.5
+   }
+  },
+  {
+   "id": "s68",
+   "lines": [
+    {
+     "t": "포항 전선의 북한군 제2군단에게 이 길은, 탄약과 식량이 내려오는 생명줄이었습니다.",
+     "say": "포항 전선의 북한군 제이군단에게 이 길은, 탄약과 식량이 내려오는 생명줄이었습니다."
+    },
+    "소년들은 그 생명줄 위에 올라앉았습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "ef",
+    "to": "ef",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        129.345,
+        36.04
+       ],
+       [
+        129.35,
+        36.11
+       ],
+       [
+        129.38,
+        36.2
+       ],
+       [
+        129.369,
+        36.25
+       ],
+       [
+        129.37,
+        36.285
+       ],
+       [
+        129.382,
+        36.33
+       ],
+       [
+        129.385,
+        36.36
+       ],
+       [
+        129.365,
+        36.415
+       ]
+      ],
+      "color": "#FFD000",
+      "at": 0,
+      "glow": true
+     },
+     {
+      "k": "marker",
+      "p": "pohang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "jangsa",
+      "color": "yellow",
+      "at": 0
+     },
+     {
+      "k": "lock",
+      "p": "jangsa",
+      "at": 0.8,
+      "text": "생명줄 차단"
+     }
+    ],
+    "demSea": true
+   },
+   "callouts": [
+    {
+     "text": "북한군 제2군단의 보급로",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s69",
+   "lines": [
+    "유격대는 곧장 도로와 다리를 부수기 시작합니다.",
+    {
+     "t": "이 작전으로 끊어 놓은 곳이 교량 2곳, 도로 6곳이었다고 기록돼 있습니다.",
+     "say": "이 작전으로 끊어 놓은 곳이 교량 두 곳, 도로 여섯 곳이었다고 기록돼 있습니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "blow_bridge",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "교량 2곳 · 도로 6곳 파괴",
+     "style": "yellow",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s70",
+   "lines": [
+    {
+     "t": "적의 보급 차량이 멈춰 섰고, 토치카 9곳이 파괴됐죠.",
+     "say": "적의 보급 차량이 멈춰 섰고, 토치카 아홉 곳이 파괴됐죠."
+    },
+    "직사포와 기관총, 포탄 상자까지 빼앗았습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "토치카 9곳 파괴",
+    "style": "yellow",
+    "sub": "직사포 · 기관총 · 포탄 상자 노획",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s71",
+   "lines": [
+    {
+     "t": "그리고 같은 날, 9월 15일.",
+     "say": "그리고 같은 날, 구월 십오일."
+    },
+    "지구 반대편까지 소식이 퍼져 나갈 그 일이 벌어집니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "같은 날 · 9월 15일",
+    "accent": "인천",
+    "accentAt": 0.6
+   },
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0.6,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s72",
+   "lines": [
+    "서해의 인천에 연합군이 상륙합니다.",
+    "맥아더의 도박이 맞아떨어진 거죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s72-photo"
+   },
+   "label": "사다리로 인천 방파제를 넘는 미 해병 (1950. 9. 15)"
+  },
+  {
+   "id": "s73",
+   "lines": [
+    "세계의 눈이 온통 인천으로 쏠렸습니다.",
+    "신문의 일면도, 사령부의 지도도, 모두 서해만을 바라보고 있었습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s73-photo"
+   },
+   "label": "인천으로 향하는 제1파 상륙정 (1950. 9. 15)"
+  },
+  {
+   "id": "s74",
+   "lines": [
+    "장사리의 소년들은 그 사실을 알지 못했습니다.",
+    {
+     "t": "그저 200고지의 참호 안에서 젖은 군복을 말리며, 약속된 지원이 오기를 기다리고 있었을 뿐이었죠.",
+     "say": "그저 이백 고지의 참호 안에서 젖은 군복을 말리며, 약속된 지원이 오기를 기다리고 있었을 뿐이었죠."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "waiting_trench",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s75",
+   "lines": [
+    {
+     "t": "그런데 7번 국도 북쪽에서, 흙먼지가 일기 시작합니다.",
+     "say": "그런데 칠번 국도 북쪽에서, 흙먼지가 일기 시작합니다."
+    },
+    {
+     "t": "생명줄을 끊긴 북한군 제2군단이, 이 작은 부대를 그냥 둘 리가 없었던 겁니다.",
+     "say": "생명줄을 끊긴 북한군 제이군단이, 이 작은 부대를 그냥 둘 리가 없었던 겁니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "wide",
+    "to": "wide",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        129.345,
+        36.04
+       ],
+       [
+        129.35,
+        36.11
+       ],
+       [
+        129.38,
+        36.2
+       ],
+       [
+        129.369,
+        36.25
+       ],
+       [
+        129.37,
+        36.285
+       ],
+       [
+        129.382,
+        36.33
+       ],
+       [
+        129.385,
+        36.36
+       ],
+       [
+        129.365,
+        36.415
+       ]
+      ],
+      "color": "#FFD000",
+      "at": 0,
+      "glow": true
+     },
+     {
+      "k": "obj",
+      "p": "h200",
+      "n": "200",
+      "at": 0,
+      "text": "200고지"
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        129.385,
+        36.4
+       ],
+       [
+        129.382,
+        36.33
+       ],
+       [
+        129.372,
+        36.295
+       ]
+      ],
+      "color": "red",
+      "at": 0.3,
+      "width": 0.7
+     }
+    ],
+    "demSea": true
+   },
+   "callouts": [
+    {
+     "text": "7번 국도 북쪽 · 적 접근 (개략)",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s76",
+   "lines": [
+    "상륙 당일 저녁부터 북한군의 반격이 시작됩니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "제5막",
+    "accent": "고립과 최후의 방어선",
+    "accentAt": 0.4
+   },
+   "pauseBefore": 0.5,
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s77",
+   "lines": [
+    "처음엔 대대 규모였습니다.",
+    "그러나 곧 정예 연대들이 몰려왔고, 그 뒤에는 전차까지 따라붙고 있었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "wide",
+    "to": "wide",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        129.345,
+        36.04
+       ],
+       [
+        129.35,
+        36.11
+       ],
+       [
+        129.38,
+        36.2
+       ],
+       [
+        129.369,
+        36.25
+       ],
+       [
+        129.37,
+        36.285
+       ],
+       [
+        129.382,
+        36.33
+       ],
+       [
+        129.385,
+        36.36
+       ],
+       [
+        129.365,
+        36.415
+       ]
+      ],
+      "color": "#FFD000",
+      "at": 0,
+      "glow": true
+     },
+     {
+      "k": "obj",
+      "p": "h200",
+      "n": "200",
+      "at": 0,
+      "text": "200고지"
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        129.385,
+        36.4
+       ],
+       [
+        129.382,
+        36.33
+       ],
+       [
+        129.372,
+        36.295
+       ]
+      ],
+      "color": "red",
+      "at": 0.3,
+      "width": 0.7
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        129.335,
+        36.25
+       ],
+       [
+        129.35,
+        36.265
+       ],
+       [
+        129.36,
+        36.272
+       ]
+      ],
+      "color": "red",
+      "at": 0.8,
+      "width": 0.7
+     }
+    ],
+    "demSea": true
+   },
+   "chapter": {
+    "num": "제5막",
+    "title": "고립과 최후의 방어선"
+   },
+   "callouts": [
+    {
+     "text": "9. 15 저녁 · 북한군 반격",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s78",
+   "lines": [
+    {
+     "t": "기록에 따르면 이 작은 부대를 향해 북한군 제2군단의 2개 연대와 전차가 몰려왔습니다.",
+     "say": "기록에 따르면 이 작은 부대를 향해 북한군 제이군단의 이 개 연대와 전차가 몰려왔습니다."
+    },
+    {
+     "t": "바꿔 말하면, 700명 남짓의 아이들이 낙동강 전선으로 갈 수 있었던 적의 병력을 자기 앞에 붙들어 둔 셈이었죠.",
+     "say": "바꿔 말하면, 칠백 명 남짓의 아이들이 낙동강 전선으로 갈 수 있었던 적의 병력을 자기 앞에 붙들어 둔 셈이었죠."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "ef",
+    "to": "ef",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        129.345,
+        36.04
+       ],
+       [
+        129.35,
+        36.11
+       ],
+       [
+        129.38,
+        36.2
+       ],
+       [
+        129.369,
+        36.25
+       ],
+       [
+        129.37,
+        36.285
+       ],
+       [
+        129.382,
+        36.33
+       ],
+       [
+        129.385,
+        36.36
+       ],
+       [
+        129.365,
+        36.415
+       ]
+      ],
+      "color": "#FFD000",
+      "at": 0,
+      "glow": true
+     },
+     {
+      "k": "unit",
+      "p": [
+       129.3,
+       36.33
+      ],
+      "color": "red",
+      "text": "북한군 2개 연대 + 전차",
+      "at": 0.2
+     },
+     {
+      "k": "marker",
+      "p": "jangsa",
+      "color": "blue",
+      "at": 0
+     }
+    ],
+    "demSea": true
+   }
+  },
+  {
+   "id": "s79",
+   "lines": [
+    "밤이 되면 바다에서 미 해군 함정들이 포탄으로 고리를 그려 주었습니다.",
+    "해안의 소년들을 둘러싸듯 포격을 퍼부어, 적의 접근을 막은 겁니다.",
+    "그 불빛에 의지해서, 아이들은 하룻밤을 또 넘깁니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "night_ring",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s80",
+   "lines": [
+    "문제는 시간이 흐를수록 분명해졌습니다.",
+    "탄약이 없었습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "탄약이",
+    "accent": "없다",
+    "accentAt": 0.5
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0.5,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s81",
+   "lines": [
+    "상륙 때 바다에 잃어버린 탄약은 끝내 채워지지 않았습니다.",
+    "식량도 바닥을 드러냈고요."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "empty_ammo",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s82",
+   "lines": [
+    "기록에 따르면 지원을 맡을 미 해군 기동 전단은 그날 삼척을 포격하라는 명령을 받고 있었습니다.",
+    "장사리 앞바다에 남은 함정은 처음엔 구축함 엔디코트 한 척뿐이었던 거죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "korea",
+    "items": [
+     {
+      "k": "marker",
+      "p": "samcheok",
+      "color": "yellow",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "jangsa",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "samcheok",
+      "text": "미 기동 전단 포격 명령",
+      "color": "red",
+      "at": 0.5,
+      "dy": -50
+     }
+    ]
+   }
+  },
+  {
+   "id": "s83",
+   "lines": [
+    "소년들은 남은 탄약을 세어 가며 한 발 한 발을 아껴 쏠 수밖에 없었습니다.",
+    "게다가 원래 계획되어 있던 공중 지원은 오지 않았고, 구축함과의 무선마저 끊겨 버렸습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "count_rounds",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s84",
+   "lines": [
+    "문산호의 선원들까지 총을 들고 해안으로 내려왔습니다.",
+    {
+     "t": "그리고 이 싸움에서 선장을 포함한 7명이 목숨을 잃습니다.",
+     "say": "그리고 이 싸움에서 선장을 포함한 일곱 명이 목숨을 잃습니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "crew_fight",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "문산호 선장 등 선원 7명 전사",
+     "style": "red",
+     "at": 1,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s85",
+   "lines": [
+    "낮이면 적의 포탄이, 밤이면 적의 기습이 번갈아 찾아왔습니다.",
+    "소년들은 참호 속에서 전우의 시신 곁에 웅크린 채 날을 샜습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "trench_night",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s86",
+   "lines": [
+    {
+     "t": "9월 16일, 멀리 낙동강 전선에서는 유엔군의 대반격이 시작되고 있었습니다.",
+     "say": "구월 십육일, 멀리 낙동강 전선에서는 유엔군의 대반격이 시작되고 있었습니다."
+    },
+    "그러나 그 소식도, 이 해안까지는 닿지 않았습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "south",
+    "to": "south",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.42,
+        35.1
+       ],
+       [
+        128.35,
+        35.4
+       ],
+       [
+        128.42,
+        35.75
+       ],
+       [
+        128.5,
+        36.05
+       ],
+       [
+        128.85,
+        36.18
+       ],
+       [
+        129.15,
+        36.1
+       ],
+       [
+        129.45,
+        36.13
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.6,
+        35.75
+       ],
+       [
+        128.5,
+        36.1
+       ],
+       [
+        128.5,
+        36.45
+       ]
+      ],
+      "color": "blue",
+      "at": 0.3,
+      "width": 1.0
+     },
+     {
+      "k": "marker",
+      "p": "jangsa",
+      "color": "yellow",
+      "at": 0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "9. 16 · 낙동강 대반격 개시",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s87",
+   "lines": [
+    {
+     "t": "9월 17일, 북한군은 드디어 전차를 앞세워 맹공을 퍼붓습니다.",
+     "say": "구월 십칠일, 북한군은 드디어 전차를 앞세워 맹공을 퍼붓습니다."
+    },
+    {
+     "t": "200고지 위의 소년들에게 전차를 멈출 무기 같은 건 없었습니다.",
+     "say": "이백 고지 위의 소년들에게 전차를 멈출 무기 같은 건 없었습니다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s87-photo"
+   },
+   "label": "격파된 북한군 T-34 전차 (한국전쟁)",
+   "callouts": [
+    {
+     "text": "9. 17 · 전차 앞세운 맹공",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s88",
+   "lines": [
+    "적의 포탄이 능선을 갈아엎는 동안, 아이들은 참호 바닥에 납작 엎드려 있다가 보병이 올라오면 다시 일어나 맞섰습니다.",
+    "한 번 밀리면 끝이었습니다.",
+    "뒤는 바다였거든요."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "ridge_shelled",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s89",
+   "lines": [
+    "이명흠 대위는 더 이상 버틸 수 없음을 직감합니다.",
+    {
+     "t": "9월 18일 새벽, 그는 앞으로 나가 있던 제1중대와 제3중대를 200고지로 불러들입니다.",
+     "say": "구월 십팔일 새벽, 그는 앞으로 나가 있던 제일중대와 제삼중대를 이백 고지로 불러들입니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "wide",
+    "to": "zoom",
+    "items": [
+     {
+      "k": "obj",
+      "p": "h200",
+      "n": "200",
+      "at": 0,
+      "text": "200고지"
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        129.352,
+        36.293
+       ],
+       [
+        129.358,
+        36.285
+       ],
+       [
+        129.363,
+        36.278
+       ]
+      ],
+      "color": "blue",
+      "at": 0.3,
+      "width": 0.6
+     }
+    ],
+    "demSea": true
+   },
+   "callouts": [
+    {
+     "text": "9. 18 새벽 · 200고지로 집결",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s90",
+   "lines": [
+    "그리고 대대 지휘소를 좌초된 문산호 안으로 옮겼습니다.",
+    "자신들을 싣고 왔다가 파도에 부서진 바로 그 배가, 이제 마지막 요새가 된 겁니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "cp_munsan",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s91",
+   "lines": [
+    "바다 쪽에서 미 해군 함정이 다가오자, 이 대위는 직접 찾아가 호소합니다.",
+    "탄약이 없다, 식량이 없다.",
+    "약속은 돌아왔지만, 해안의 상황은 시시각각 나빠지고 있었습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "plea_navy",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s92",
+   "lines": [
+    "사흘 밤낮을 잠들지 못한 소년들의 눈은 벌겋게 충혈됐습니다.",
+    "총을 쥔 손가락에는 이미 감각이 없었죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "red_eyes",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s93",
+   "lines": [
+    "그들은 인천이 어떻게 됐는지 알지 못했습니다.",
+    "자신들의 싸움이 어떤 의미인지도 알지 못했습니다.",
+    "그저 옆에 있는 전우가 아직 숨 쉬고 있으니까, 그래서 버텼던 겁니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "comrade_breathes",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s94",
+   "lines": [
+    "바로 그날, 기다리던 명령이 도착합니다.",
+    "철수하라.",
+    "그런데 철수라는 그 말이, 이 소년들에게는 가장 잔인한 시험이 됩니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "철수하라",
+    "accent": "가장 잔인한 시험",
+    "accentAt": 0.6
+   }
+  },
+  {
+   "id": "s95",
+   "lines": [
+    {
+     "t": "9월 19일 아침.",
+     "say": "구월 십구일 아침."
+    }
+   ],
+   "visual": {
+    "type": "black",
+    "text": "제6막",
+    "accent": "조치원호의 철수",
+    "accentAt": 0.4
+   },
+   "pauseBefore": 0.5,
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s96",
+   "lines": [
+    "수평선 위로 배 한 척이 나타납니다.",
+    {
+     "t": "해군본부가 급히 보낸 LST 조치원호였습니다.",
+     "say": "해군본부가 급히 보낸 엘에스티 조치원호였습니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "jochiwon_arrive",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "chapter": {
+    "num": "제6막",
+    "title": "조치원호의 철수와 에필로그"
+   },
+   "callouts": [
+    {
+     "text": "9. 19 아침 · LST 조치원호",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s97",
+   "lines": [
+    "그 뒤로는 미 해군 순양함 헬레나가 거대한 포신을 해안으로 돌리고 있었습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s97-photo"
+   },
+   "label": "주포를 쏘는 미 중순양함 헬레나 (1950. 10)"
+  },
+  {
+   "id": "s98",
+   "lines": [
+    "함포가 불을 뿜고, 항공기가 머리 위를 지나갑니다.",
+    "소년들이 그토록 기다렸던 지원이, 떠나는 날에야 도착한 거죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "wide",
+    "to": "zoom",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        129.3805,
+        36.2795
+       ],
+       [
+        129.3825,
+        36.2835
+       ]
+      ],
+      "color": "#FFD000",
+      "at": 0,
+      "glow": true
+     },
+     {
+      "k": "badge",
+      "p": "munsan",
+      "text": "문산호",
+      "color": "blue",
+      "at": 0.4,
+      "dy": -60
+     },
+     {
+      "k": "radar",
+      "p": [
+       129.42,
+       36.285
+      ],
+      "at": 0,
+      "size": 0.5,
+      "color": "#00E5FF",
+      "text": "중순양함 헬레나"
+     },
+     {
+      "k": "shock",
+      "pts": [
+       [
+        129.366,
+        36.28
+       ],
+       [
+        129.362,
+        36.285
+       ],
+       [
+        129.368,
+        36.273
+       ]
+      ],
+      "at": 0.5,
+      "period": 0.7
+     }
+    ],
+    "demSea": true
+   }
+  },
+  {
+   "id": "s99",
+   "lines": [
+    {
+     "t": "조치원호는 해안에서 30미터쯤 떨어진 곳에 멈춰 섭니다.",
+     "say": "조치원호는 해안에서 삼십 미터쯤 떨어진 곳에 멈춰 섭니다."
+    },
+    "이번에도 밧줄이었습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "rope_evac",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s100",
+   "lines": [
+    "철수 순서가 정해집니다.",
+    {
+     "t": "제1중대, 제5중대, 대대 본부, 제3중대, 그리고 맨 마지막이 제2중대였습니다.",
+     "say": "제일중대, 제오중대, 대대 본부, 제삼중대, 그리고 맨 마지막이 제이중대였습니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "철수 순서",
+    "style": "yellow",
+    "sub": "1중대 → 5중대 → 본부 → 3중대 → 2중대",
+    "subAt": 0.3
+   }
+  },
+  {
+   "id": "s101",
+   "lines": [
+    "소년들은 들어올 때 매달렸던 그 밧줄에 다시 몸을 맡기고, 파도를 헤치며 배로 기어올랐습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "rope_climb",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s102",
+   "lines": [
+    "적은 그 순간을 놓치지 않았습니다.",
+    "해안으로 다가온 북한군의 박격포탄이 조치원호 주변에 떨어지기 시작합니다.",
+    "배 위에서도 사상자가 잇달아 나왔습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "zoom",
+    "to": "zoom",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        129.3805,
+        36.2795
+       ],
+       [
+        129.3825,
+        36.2835
+       ]
+      ],
+      "color": "#FFD000",
+      "at": 0,
+      "glow": true
+     },
+     {
+      "k": "badge",
+      "p": "munsan",
+      "text": "문산호",
+      "color": "blue",
+      "at": 0.4,
+      "dy": -60
+     },
+     {
+      "k": "shock",
+      "pts": [
+       [
+        129.3825,
+        36.2775
+       ],
+       [
+        129.384,
+        36.281
+       ],
+       [
+        129.3815,
+        36.285
+       ]
+      ],
+      "at": 0.3,
+      "period": 0.6
+     }
+    ],
+    "tilt": 26,
+    "demSea": true
+   },
+   "callouts": [
+    {
+     "text": "조치원호 주변 박격포탄 (개략)",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s103",
+   "lines": [
+    "철수를 끝내야 할 시각은 정오였습니다.",
+    {
+     "t": "그런데 정오가 되어도 해안에는 아직 60여 명이 남아 있었습니다.",
+     "say": "그런데 정오가 되어도 해안에는 아직 육십여 명이 남아 있었습니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "정오",
+    "style": "red",
+    "sub": "해안에 남은 60여 명",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s104",
+   "lines": [
+    "선장은 배를 빼야 한다고 재촉합니다.",
+    "이명흠 대위는 한 명이라도 더 태워야 한다고 버팁니다.",
+    {
+     "t": "그 실랑이 끝에 30명 남짓이 더 배에 오를 수 있었습니다.",
+     "say": "그 실랑이 끝에 삼십 명 남짓이 더 배에 오를 수 있었습니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "captain_argument",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s105",
+   "lines": [
+    "그런데 해안에는, 아직 총을 쏘고 있는 소년들이 있었습니다.",
+    {
+     "t": "제2중대 5소대.",
+     "say": "제이중대 오소대."
+    },
+    "친구들이 밧줄을 오르는 동안 등 뒤에서 적을 막아 내던, 바로 그 아이들이었습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "rearguard",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "제2중대 5소대",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s106",
+   "lines": [
+    "그들이 물러나면 해안 전체가 무너집니다.",
+    "그래서 그들은 끝까지 돌아서지 않았습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "rearguard2",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s107",
+   "lines": [
+    {
+     "t": "오후 1시 33분경.",
+     "say": "오후 한 시 삼십삼 분경."
+    },
+    "조치원호의 엔진이 움직이기 시작합니다.",
+    "배와 해안을 잇던 마지막 끈이, 그렇게 끊어졌습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "ship_leaves",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "오후 1시 33분경",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s108",
+   "lines": [
+    {
+     "t": "39명.",
+     "say": "서른아홉 명."
+    },
+    {
+     "t": "다른 기록으로는 32명.",
+     "say": "다른 기록으로는 서른두 명."
+    }
+   ],
+   "visual": {
+    "type": "black",
+    "text": "39명",
+    "accent": "다른 기록은 32명",
+    "accentAt": 0.6
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s109",
+   "lines": [
+    "그들은 멀어져 가는 배를 바라보며, 텅 빈 모래사장에 남았습니다.",
+    "그리고 모두 북한군의 포로가 되었습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "left_behind",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s110",
+   "lines": [
+    {
+     "t": "9월 20일 새벽.",
+     "say": "구월 이십일 새벽."
+    },
+    "조치원호가 부산항으로 돌아옵니다.",
+    {
+     "t": "살아 돌아온 사람은 부상자를 포함해 640여 명으로 전해집니다.",
+     "say": "살아 돌아온 사람은 부상자를 포함해 육백사십여 명으로 전해집니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "south",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        129.45,
+        36.26
+       ],
+       [
+        129.75,
+        35.7
+       ],
+       [
+        129.2,
+        35.05
+       ]
+      ],
+      "color": "blue",
+      "at": 0.2,
+      "width": 0.8
+     },
+     {
+      "k": "marker",
+      "p": "busan",
+      "color": "blue",
+      "at": 0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "9. 20 새벽 · 640여 명 귀환 (725명 기록도)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s111",
+   "lines": [
+    "상륙에서 철수까지 닷새.",
+    {
+     "t": "전사 139명, 부상 92명.",
+     "say": "전사 백삼십구 명, 부상 구십이 명."
+    },
+    "그리고 끝내 찾지 못한 행방불명자들이 있었습니다."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "전사",
+     "big": "139명",
+     "icon": "none",
+     "color": "red"
+    },
+    "right": {
+     "title": "부상",
+     "big": "92명",
+     "icon": "none",
+     "color": "red",
+     "at": 0.6
+    }
+   },
+   "callouts": [
+    {
+     "text": "한국 측 기록 · 행방불명 다수",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s112",
+   "lines": [
+    "이 작전이 인천의 성공에 얼마나 기여했는지는, 지금도 평가가 엇갈립니다.",
+    "미군 쪽 기록은 실패한 습격으로 적기도 했고요."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "평가는 엇갈린다",
+    "style": "yellow",
+    "sub": "기여인가, 실패한 습격인가",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s113",
+   "lines": [
+    "그러나 분명한 것이 하나 있습니다.",
+    {
+     "t": "소년들은 7번 국도를 끊었고, 적의 연대들을 자기 앞에 붙잡아 두었습니다.",
+     "say": "소년들은 칠번 국도를 끊었고, 적의 연대들을 자기 앞에 붙잡아 두었습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "wide",
+    "to": "wide",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        129.345,
+        36.04
+       ],
+       [
+        129.35,
+        36.11
+       ],
+       [
+        129.38,
+        36.2
+       ],
+       [
+        129.369,
+        36.25
+       ],
+       [
+        129.37,
+        36.285
+       ],
+       [
+        129.382,
+        36.33
+       ],
+       [
+        129.385,
+        36.36
+       ],
+       [
+        129.365,
+        36.415
+       ]
+      ],
+      "color": "#FFD000",
+      "at": 0,
+      "glow": true
+     },
+     {
+      "k": "obj",
+      "p": "h200",
+      "n": "200",
+      "at": 0,
+      "text": "200고지"
+     },
+     {
+      "k": "lock",
+      "p": [
+       129.37,
+       36.285
+      ],
+      "at": 0.4,
+      "text": "7번 국도 차단"
+     }
+    ],
+    "demSea": true
+   }
+  },
+  {
+   "id": "s114",
+   "lines": [
+    "그런데 전쟁이 끝난 뒤, 이 이야기는 어디에도 없었습니다.",
+    "극비 작전이었고, 군번도 없었기에, 나라는 이들의 이름조차 제대로 갖고 있지 않았거든요."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "forgotten",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s115",
+   "lines": [
+    "당시 소년이었던 노병 한 분은 훗날 이렇게 말했습니다.",
+    "아마도 우리는 희생양이었던 것 같다고요."
+   ],
+   "visual": {
+    "type": "quotes",
+    "title": "류병추 노병",
+    "items": [
+     {
+      "text": "아마도 우리들은 희생양이었던 것 같다",
+      "at": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "s116",
+   "lines": [
+    {
+     "t": "1997년 3월 6일.",
+     "say": "천구백구십칠 년 삼월 육일."
+    },
+    "해병대 수색대원들이 장사리 앞바다 밑에서 거대한 철 덩어리 하나를 찾아냅니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "diver_wreck",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "1997. 3. 6 · 해병대 수색대",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s117",
+   "lines": [
+    {
+     "t": "47년 동안 파도 아래 잠들어 있던 문산호였습니다.",
+     "say": "사십칠 년 동안 파도 아래 잠들어 있던 문산호였습니다."
+    },
+    "잊힌 소년들이, 그제야 세상으로 돌아온 겁니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "ship_underwater",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s118",
+   "lines": [
+    "지금 장사리 해변에는 문산호를 본뜬 커다란 기념관이 서 있습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s118-photo"
+   },
+   "label": "문산호를 본뜬 장사상륙작전 전승기념관 앞 (2024)"
+  },
+  {
+   "id": "s119",
+   "lines": [
+    {
+     "t": "그 안의 사방 벽에는 772 개의 명패가 빼곡히 걸려 있는데요.",
+     "say": "그 안의 사방 벽에는 칠백칠십이 개의 명패가 빼곡히 걸려 있는데요."
+    },
+    "어떤 명패에는 이름의 끝 글자가 비어 있고, 어떤 명패에는 성이 없습니다.",
+    "아무 글자도 없는 명패도 있습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "nameplates",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s120",
+   "lines": [
+    {
+     "t": "혹시 동해안 7번 국도를 지나시게 되면, 잠시 장사리에 들러 그 빈칸을 한번 바라봐 주시죠.",
+     "say": "혹시 동해안 칠번 국도를 지나시게 되면, 잠시 장사리에 들러 그 빈칸을 한번 바라봐 주시죠."
+    },
+    "거기, 열일곱 살의 시간이 아직 멈춰 있습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "beach_dawn",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s121",
+   "lines": [
+    "다음 시간 이야기도 미리 말씀드리겠습니다.",
+    {
+     "t": "1951년 8월, 강원도 양구의 이름 없는 능선 하나.",
+     "say": "천구백오십일 년 팔월, 강원도 양구의 이름 없는 능선 하나."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "korea",
+    "items": [
+     {
+      "k": "marker",
+      "p": "yanggu",
+      "color": "yellow",
+      "at": 0.3
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "다음 전장 · 강원도 양구",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s122",
+   "lines": [
+    {
+     "t": "18일 동안 포탄이 산의 모양을 바꿔 놓았고, 북한군 사상자만 1만 5천 명으로 추산되는 곳.",
+     "say": "십팔 일 동안 포탄이 산의 모양을 바꿔 놓았고, 북한군 사상자만 일만 오천 명으로 추산되는 곳."
+    },
+    "미군 종군 기자들이 몸서리치며 붙인 이름, 피의 능선입니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "EP 24",
+    "accent": "피의 능선",
+    "accentAt": 0.5
+   },
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0.5,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s123",
+   "lines": [
+    {
+     "t": "격전의 지도 24화, 피의 능선 전투.",
+     "say": "격전의 지도 이십사 화, 피의 능선 전투."
+    },
+    "놓치지 않으시려면 지금 구독 버튼과 알림 설정까지 꼭 눌러 주시죠.",
+    {
+     "t": "772 명의 소년들을 기억하며, 격전의 지도는 다음 전장에서 다시 찾아뵙겠습니다.",
+     "say": "칠백칠십이 명의 소년들을 기억하며, 격전의 지도는 다음 전장에서 다시 찾아뵙겠습니다."
+    }
+   ],
+   "visual": {
+    "type": "endcard",
+    "title": "1950년 9월, 장사리.\n772명의 소년들을 기억하며.",
+    "q": "s123-photo"
+   },
+   "tail": 1.0
+  }
+ ]
+}
