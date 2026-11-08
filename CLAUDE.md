@@ -113,6 +113,7 @@
    - 구현: `remotion/Thumbnail.tsx`의 `PAROHO_STD` 표에 에피소드 한 줄(`ThumbnailProps`) → `ParohoThumb`가 렌더 (COLLAGE·FRONT·MAPT보다 우선). 기존 에피소드는 표에 없으므로 그대로. `paroho:sample`은 지시서 예시 검수용
    - 필수: `quote`(따옴표 자동) · `titleLine1` · `titleLine2` · `mapImage` · `characterCutout` (public 기준 경로), 선택: `stampText` · `targets`(타깃 링 `{x,y,r,label}`) · `arrows`(`{pts,color}`, 마지막 점이 화살촉) · `mapCrop`(`{cx,cy,zoom}`) · `characterPos` · `stampPos` — 좌표는 캔버스 픽셀(1920×1080), 전황은 x 1056 안쪽에
    - 규격: 좌 55% 흑백 고대비 지도 + 붉은 타깃 링·진격 화살표 / 우 45% 인물 흑백 누끼 + 흰 림 외곽선 / 좌상단 따옴표 56~64px `#FF2222` / 하단 2줄 좌측 정렬 left 60 — Line 1 흰색, Line 2 `#FF2222`, Pretendard Black. **글자 크기 (2026-11-08 사용자 수정, 지시서의 고정 104/116px 대체)**: 더 중요한 줄(`emphasis`, 기본 2)이 안전 폭을 꽉 채우고(상한 190px), 다른 줄도 강조 줄의 86% 안에서 최대한 폭을 채워 빈 공간을 없앰. 글자 묶음 높이 400px 상한으로 얼굴 보호 / 그라데이션은 텍스트 높이만큼만
+   - ★ **지형지물은 한눈에 (2026-11-08 사용자 수정)**: 지도 필터 `grayscale(1) brightness(0.58) contrast(1.7)`로 산세를 또렷하게. `mapImage` 파일명이 `rasters.json`에 있으면 호수·강을 `water.json`에서 선명한 파랑 `#1E8FFF` + 짙은 테두리로 자동 칠함. 호수·강·산 이름표는 `places`(`{x,y,label}`, 46px)로 표기 — 핵심 지형지물 1~3개는 꼭 넣을 것
    - ★ **재생시간 배지 안전 여백**: 오른쪽 200px 비움(글자 x 1720 이내). 모든 크기는 실측 폭으로 계산, Line 2가 한 줄로 84px 밑으로 내려가야 하면 가운데 띄어쓰기에서 두 줄로 나눔
    - 렌더 후 확인: 글자가 x 1720을 넘지 않음, 얼굴을 글자·도장이 가리지 않음, 타깃 링·화살표가 인물과 안 겹침
    - (v4) ★★★★ **썸네일 표준 v4 = '스토리텔링 꼴라주 + 3D 몬스터 타이포' (2026-11-02 사용자 지시서 · 레퍼런스 별별역사 · EP15 낙동강(`naktong`)·EP16 도솔산(`ep16-dosolsan`)부터 한국어 A안 기본 — 아래 v3/v3.1 '선 넘는 지도' 방식은 폐기, 기록용)**

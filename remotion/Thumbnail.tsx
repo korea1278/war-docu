@@ -1109,6 +1109,7 @@ const SplitThumb: React.FC<{ a: string; d: RefDef; en?: boolean }> = ({ a, d, en
  *   ⚠️ 오른쪽 200px은 유튜브 재생시간 배지 자리: 글자가 x 1720을 절대 넘지 않게 실측 폭으로 축소, 그래도 너무 작아지면 Line2를 두 줄로
  * ===================================================================================== */
 export type ThumbTarget = { x: number; y: number; r?: number; label?: string }; // 캔버스 픽셀 좌표(1920×1080)
+export type ThumbPlace = { x: number; y: number; label: string }; // 캔버스 픽셀 좌표, 점은 (x,y) 이름표는 그 위
 export type ThumbArrow = { pts: [number, number][]; color?: "red" | "blue" }; // 마지막 점이 화살촉
 
 export interface ThumbnailProps {
@@ -1121,6 +1122,7 @@ export interface ThumbnailProps {
   emphasis?: 1 | 2; // 더 중요해서 크게 키울 줄 (기본 2 = 결과·호기심 줄)
   // ↓ 지시서 인터페이스에 없는 선택 항목: 타깃 링·화살표 좌표와 지도·인물 구도는 에피소드마다 달라 값이 필요함
   targets?: ThumbTarget[];
+  places?: ThumbPlace[]; // 호수·강·산 등 지형지물 이름표
   arrows?: ThumbArrow[];
   mapCrop?: { cx: number; cy: number; zoom: number }; // 이미지 안에서 화면 중앙에 올 지점(0~1)과 확대 배율
   characterPos?: string; // 인물 object-position (기본 "50% 0%")
@@ -1137,6 +1139,7 @@ export const PAROHO_STD: Record<string, ThumbnailProps> = {
     characterCutout: "ep/paroho/ai/thumb_subject.png",
     mapCrop: { cx: 0.4853, cy: 0.5428, zoom: 1.465 },
     targets: [{ x: 560, y: 355, r: 76, label: "화천댐" }],
+    places: [{ x: 840, y: 375, label: "파로호" }],
     arrows: [
       { pts: [[860, 690], [760, 600], [600, 385]], color: "red" },
       { pts: [[175, 690], [178, 450]], color: "blue" },
@@ -1146,7 +1149,7 @@ export const PAROHO_STD: Record<string, ThumbnailProps> = {
 };
 
 const P5 = {
-  red: "#FF2222", blue: "#4A90FF", font: "'Pretendard', 'Black Han Sans', sans-serif",
+  red: "#FF2222", blue: "#4A90FF", water: "#1E8FFF", font: "'Pretendard', 'Black Han Sans', sans-serif",
   left: 60, safeRight: 200, bottom: 34, mapW: 1056,
   maxMain: 190, ratio: 0.86, maxBlock: 400, minLine: 84, // 강조 줄 상한 / 다른 줄은 강조 줄의 86%까지 / 글자 묶음 높이 상한(얼굴 보호) / 이보다 작아지면 두 줄로 나눔
   stroke: 10, quoteMax: 64, quoteMin: 40,
@@ -1161,6 +1164,30 @@ const splitMiddle = (t: string): string[] => {
 };
 
 // 글꼴 실측 폭 (100px 기준, 자간 -0.02em 반영) — 측정 끝날 때까지 렌더를 멈춤
+// 지형지물: water.json의 호수·강을 지도 이미지와 같은 좌표로 또렷한 파랑으로 칠함 (mapImage 파일명이 rasters.json에 있을 때)
+type P5Water = { r: CRaster & { w: number; h: number }; lakes: number[][][]; rivers: number[][][] };
+const useP5Water = (mapImage: string) => {
+  const [data, setData] = useState<P5Water | null>(null);
+  const [hd] = useState(() => delayRender("p5-water"));
+  useEffect(() => {
+    const stem = mapImage.split("/").pop()!.replace(/\.[a-z]+$/i, "");
+    Promise.all([fetch(staticFile("geo/rasters.json")).then((x) => x.json()), fetch(staticFile("geo/water.json")).then((x) => x.json())])
+      .then(([rs, w]) => {
+        const r = rs.find((x: any) => x.name === stem);
+        if (!r) return;
+        const inside = (q: number[]) => q[0] > r.west && q[0] < r.east && q[1] > r.south && q[1] < r.north;
+        setData({
+          r,
+          lakes: (w.lakes as number[][][]).filter((ring) => ring.some(inside)),
+          rivers: (w.rivers as { lines: number[][][] }[]).flatMap((x) => x.lines).filter((l) => l.some(inside)),
+        });
+      })
+      .catch(() => setData(null))
+      .finally(() => continueRender(hd));
+  }, [mapImage]);
+  return data;
+};
+
 const useP5Measure = (texts: string[]) => {
   const [fn, setFn] = useState<((t: string) => number) | null>(null);
   const [hd] = useState(() => delayRender("p5-measure"));
@@ -1207,8 +1234,8 @@ const P5Arrow: React.FC<{ a: ThumbArrow }> = ({ a }) => {
   const head = `${x2},${y2} ${bx + nx},${by + ny} ${bx - nx},${by - ny}`;
   return (
     <g>
-      <polyline points={shaft} fill="none" stroke="#000" strokeOpacity={0.6} strokeWidth={20} strokeLinejoin="round" />
-      <polygon points={head} fill="#000" fillOpacity={0.6} stroke="#000" strokeOpacity={0.6} strokeWidth={8} strokeLinejoin="round" />
+      <polyline points={shaft} fill="none" stroke="#000" strokeOpacity={0.95} strokeWidth={22} strokeLinejoin="round" />
+      <polygon points={head} fill="#000" fillOpacity={0.95} stroke="#000" strokeOpacity={0.95} strokeWidth={10} strokeLinejoin="round" />
       <polyline points={shaft} fill="none" stroke={c} strokeWidth={12} strokeLinejoin="round" />
       <polygon points={head} fill={c} />
     </g>
@@ -1218,6 +1245,7 @@ const P5Arrow: React.FC<{ a: ThumbArrow }> = ({ a }) => {
 export const ParohoThumb: React.FC<{ d: ThumbnailProps }> = ({ d }) => {
   const quoteText = /^["“]/.test(d.quote) ? d.quote : `“${d.quote}”`;
   const measure = useP5Measure([quoteText, d.titleLine1, d.titleLine2]);
+  const water = useP5Water(d.mapImage);
 
   // ── 크기 규칙: 강조 줄은 안전 폭(x 1720까지)을 꽉 채우고, 다른 줄도 강조 줄의 86% 안에서 최대한 폭을 채운다 ──
   const main = d.emphasis ?? 2;
@@ -1240,6 +1268,14 @@ export const ParohoThumb: React.FC<{ d: ThumbnailProps }> = ({ d }) => {
   const qs = measure ? Math.max(P5.quoteMin, Math.min(P5.quoteMax, Math.floor((P5.mapW - P5.left - 8) / measure(quoteText)))) : P5.quoteMax;
   const crop = d.mapCrop ?? { cx: 0.5, cy: 0.5, zoom: 1 };
   const mapW = CW * crop.zoom;
+  const mapL = CW / 2 - crop.cx * mapW;
+  const mapT = CH / 2 - crop.cy * mapW;
+  const merc = (la: number) => Math.log(Math.tan(Math.PI / 4 + (la * Math.PI) / 360));
+  const wxy = (q: number[]) => {
+    const r = water!.r;
+    const fy = (merc(r.north) - merc(q[1])) / (merc(r.north) - merc(r.south));
+    return `${(mapL + ((q[0] - r.west) / (r.east - r.west)) * mapW).toFixed(1)},${(mapT + fy * mapW * (r.h / r.w)).toFixed(1)}`;
+  };
   const stamp = d.stampPos ?? { x: 860, y: CH - dimH - 70 };
   const titleStyle: React.CSSProperties = {
     fontFamily: P5.font, fontWeight: 900, lineHeight: 1.12, letterSpacing: "-0.02em", whiteSpace: "nowrap",
@@ -1252,15 +1288,30 @@ export const ParohoThumb: React.FC<{ d: ThumbnailProps }> = ({ d }) => {
       {/* 지도: 끊김 없이 전체에 깔되 전황은 좌측 55%에, 우측은 눌러서 인물을 분리 */}
       <Img
         src={staticFile(d.mapImage)}
-        style={{ position: "absolute", width: mapW, height: "auto", left: CW / 2 - crop.cx * mapW, top: CH / 2 - crop.cy * mapW, filter: "grayscale(1) brightness(0.42) contrast(1.45)" }}
+        style={{ position: "absolute", width: mapW, height: "auto", left: mapL, top: mapT, filter: "grayscale(1) brightness(0.58) contrast(1.7)" }}
       />
-      <AbsoluteFill style={{ background: `linear-gradient(to right, transparent ${((P5.mapW - 120) / CW) * 100}%, rgba(0,0,0,.55) ${((P5.mapW + 180) / CW) * 100}%)` }} />
+      {water && (
+        <svg width={CW} height={CH} style={{ position: "absolute", inset: 0 }}>
+          {water.rivers.map((l, i) => <polyline key={`c${i}`} points={l.map(wxy).join(" ")} fill="none" stroke="#04152e" strokeWidth={13} strokeLinejoin="round" strokeLinecap="round" />)}
+          {water.lakes.map((ring, i) => <polygon key={`d${i}`} points={ring.map(wxy).join(" ")} fill="#04152e" stroke="#04152e" strokeWidth={7} strokeLinejoin="round" />)}
+          {water.rivers.map((l, i) => <polyline key={`r${i}`} points={l.map(wxy).join(" ")} fill="none" stroke={P5.water} strokeWidth={7} strokeLinejoin="round" strokeLinecap="round" />)}
+          {water.lakes.map((ring, i) => <polygon key={`l${i}`} points={ring.map(wxy).join(" ")} fill={P5.water} />)}
+        </svg>
+      )}
+      <AbsoluteFill style={{ background: `linear-gradient(to right, transparent ${((P5.mapW - 120) / CW) * 100}%, rgba(0,0,0,.5) ${((P5.mapW + 180) / CW) * 100}%)` }} />
       <svg width={CW} height={CH} style={{ position: "absolute", inset: 0 }}>
         {(d.arrows ?? []).map((a, i) => <P5Arrow key={i} a={a} />)}
         {(d.targets ?? []).map((t, i) => <P5Target key={i} t={t} />)}
       </svg>
       {(d.targets ?? []).filter((t) => t.label).map((t, i) => (
-        <div key={i} style={{ position: "absolute", left: t.x, top: t.y - (t.r ?? 76) * 1.3 - 66, transform: "translateX(-50%)", background: "#000", border: "2px solid #fff", borderRadius: 6, padding: "4px 16px", color: "#fff", fontFamily: P5.font, fontWeight: 900, fontSize: 38, whiteSpace: "nowrap" }}>{t.label}</div>
+        <div key={i} style={{ position: "absolute", left: t.x, top: t.y - (t.r ?? 76) * 1.3 - 78, transform: "translateX(-50%)", background: "#000", border: "3px solid #fff", borderRadius: 6, padding: "4px 18px", color: "#fff", fontFamily: P5.font, fontWeight: 900, fontSize: 46, whiteSpace: "nowrap" }}>{t.label}</div>
+      ))}
+
+      {(d.places ?? []).map((t, i) => (
+        <React.Fragment key={i}>
+          <div style={{ position: "absolute", left: t.x - 11, top: t.y - 11, width: 22, height: 22, borderRadius: 11, background: "#fff", border: "5px solid #000" }} />
+          <div style={{ position: "absolute", left: t.x, top: t.y - 82, transform: "translateX(-50%)", background: "#000", border: "3px solid #fff", borderRadius: 6, padding: "4px 18px", color: "#fff", fontFamily: P5.font, fontWeight: 900, fontSize: 46, whiteSpace: "nowrap" }}>{t.label}</div>
+        </React.Fragment>
       ))}
 
       {/* 우측 45%: 인물 흑백 누끼 + 흰 림 외곽선 */}
