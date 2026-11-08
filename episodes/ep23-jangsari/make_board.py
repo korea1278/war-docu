@@ -20,7 +20,7 @@ SUBS = [
     ("엘에스티", "LST"), ("특공조 일곱 명", "특공조 7명"), ("일곱 명이", "7명이"), ("삼십 미터", "30미터"), ("사 킬로미터", "4km"), ("네 가닥", "4가닥"), ("오 인치", "5인치"),
     ("이백칠십일 고지", "271고지"), ("이백 고지", "200고지"), ("칠번 국도", "7번 국도"), ("교량 두 곳", "교량 2곳"), ("도로 여섯 곳", "도로 6곳"), ("토치카 아홉 곳", "토치카 9곳"),
     ("육십여 명", "60여 명"), ("구십여 명", "90여 명"), ("삼십 명", "30명"), ("서른아홉 명", "39명"), ("서른두 명", "32명"), ("육백사십여 명", "640여 명"), ("백삼십구 명", "139명"), ("구십이 명", "92명"),
-    ("십팔 일", "18일"), ("일만 오천 명", "1만 5천 명"), ("이십사 화", "24화"), ("이 주 남짓", "2주 남짓"),
+    ("칠백육십사 명", "764명"), ("칠백육십 명", "760명"), ("이백칠십여 명", "270여 명"), ("포로 네 명", "포로 4명"), ("십팔 일", "18일"), ("일만 오천 명", "1만 5천 명"), ("이십사 화", "24화"), ("이 주 남짓", "2주 남짓"),
 ]
 
 
@@ -55,9 +55,11 @@ def nid():
     return f"s{NUM['n'] + 1:02d}"
 
 
-def sc(n, visual, **kw):
-    i = nid()
-    NUM["n"] += 1
+def sc(n, visual, sid=None, **kw):
+    i = sid
+    if i is None:
+        i = nid()
+        NUM["n"] += 1
     d = {"id": i, "lines": take(n), "visual": visual}
     d.update(kw)
     S.append(d)
@@ -112,7 +114,7 @@ P = {
 }
 V = {
     "korea": {"center": [127.8, 36.9], "span": 5.6}, "south": {"center": [128.8, 35.95], "span": 2.0},
-    "ef": {"center": [129.3, 36.15], "span": 0.85}, "wide": {"center": [129.35, 36.285], "span": 0.26},
+    "koreaC": {"center": [127.8, 36.35], "span": 5.6}, "koreaN": {"center": [127.8, 37.35], "span": 5.6}, "ef": {"center": [129.3, 36.12], "span": 1.05}, "wide": {"center": [129.35, 36.285], "span": 0.26},
     "zoom": {"center": [129.371, 36.282], "span": 0.1},
 }
 PERI = [[128.42, 35.1], [128.35, 35.4], [128.42, 35.75], [128.5, 36.05], [128.85, 36.18], [129.15, 36.1], [129.45, 36.13]]
@@ -136,7 +138,7 @@ def ship(at=0):
 rt7 = {"k": "line", "path": RT7, "color": "#FFD000", "at": 0, "glow": True}
 H200 = o("h200", "200", "200고지")
 PROF = {"type": "profile", "pts": [[0, 0], [0.06, 0], [0.1, 6], [0.18, 16], [0.3, 60], [0.42, 130], [0.52, 200], [0.6, 165], [0.7, 150], [0.82, 215], [0.92, 271], [1, 240]],
-        "grid": [100, 200], "left": "동해", "right": "내륙", "title": "장사리 해안 단면 (모식)", "note": "고도·거리 개략"}
+        "grid": [100, 200], "left": "동해", "right": "내륙", "note": "장사리 해안 단면 모식도 · 고도·거리 개략"}
 red_n = {"k": "arrow", "path": [[129.385, 36.4], [129.382, 36.33], [129.372, 36.295]], "color": "red", "at": 0.3, "width": 0.7}
 
 # ===== 제1막 =====
@@ -155,10 +157,12 @@ sc(2, m("south", "ef", [{"k": "front", "path": PERI, "at": 0}, {"k": "marker", "
    callouts=[{"text": "북한군 제2군단 · 경주·부산 위협", "style": "red", "at": 0, "pos": "top"}])
 sc(2, ph("macarthur", "50% 20%"), label="인천 상륙 작전 지휘 중인 맥아더 (1950. 9)")
 sc(2, {"type": "black", "text": "적이 눈치채면", "accent": "끝이다", "accentAt": 0.5})
-sc(2, m("korea", "korea", [{"k": "marker", "p": "incheon", "color": "yellow", "at": 0}, {"k": "badge", "p": "gunsan", "text": "양동", "color": "red", "at": 0.5, "dy": -50}, {"k": "badge", "p": "jangsa", "text": "양동", "color": "red", "at": 1.2, "dy": -50}]))
+sc(2, m("koreaC", "koreaC", [{"k": "marker", "p": "incheon", "color": "yellow", "at": 0}, {"k": "badge", "p": "gunsan", "text": "양동", "color": "red", "at": 0.5, "dy": -50}, {"k": "badge", "p": "jangsa", "text": "양동", "color": "red", "at": 1.2, "dy": -50}]))
 sc(2, ai("hq_map"), label=DRAMA)
 sc(3, ph("students"), label="열차로 입대하는 학도병들 (한국전쟁)")
 sc(2, {"type": "text", "big": "772명", "style": "yellow", "sub": "독립 제1유격대대 · 대대장 이명흠 대위", "subAt": 0.4})
+sc(3, {"type": "text", "big": "기록마다 다른 숫자", "style": "yellow", "sub": "772명 · 764명 · 760명", "subAt": 0.4}, sid="s16b")
+sc(2, m("south", "south", [{"k": "marker", "p": "daegu", "color": "yellow", "at": 0.2}, {"k": "marker", "p": "miryang", "color": "blue", "at": 0.8}]), sid="s16c", callouts=[{"text": "대구에서 모병 · 밀양에서 편성", "style": "yellow", "at": 0, "pos": "top"}])
 sc(2, {"type": "document", "org": "육군본부", "head": "작전 명령 제174호", "stamp": "군사 극비 · 1950. 9. 10", "rows": ["부대: 독립 제1유격대대", "임무: 적 보급로 차단"], "note": "요지 · 재구성 화면"})
 sc(2, {"type": "quotes", "title": "명령 요지", "items": [{"text": "동해안에 상륙해 적의 보급로를 끊어라", "at": 0}]})
 sc(2, m("korea", "wide", [{"k": "marker", "p": "jangsa", "color": "yellow", "at": 0.2}], demSea=True), callouts=[{"text": "경북 영덕군 남정면 장사리", "style": "yellow", "at": 0, "pos": "top"}])
@@ -178,13 +182,14 @@ sc(2, {"type": "compare", "left": {"title": "인천", "big": "수백 척", "icon
 sc(2, {"type": "text", "big": "지원 요청 거절", "style": "red", "sub": "전차 중대 · 사전 포격 모두", "subAt": 0.4})
 sc(2, ai("fake_division"), label=DRAMA)
 sc(2, {"type": "text", "big": "대대 → 사단", "style": "yellow", "sub": "서류 위의 눈속임", "subAt": 0.4})
+sc(3, ai("parade_boys", "out"), sid="s31b", label=DRAMA, callouts=[{"text": "9. 14 출정식 · 부산 시가지 행진", "style": "yellow", "at": 0, "pos": "top"}])
 sc(3, ph("kezia"), label="태풍 케지아의 경로 (1950. 9)")
 sc(3, ai("lst_storm"), label=DRAMA)
 sc(2, ai("hold_seasick"), label=DRAMA)
 sc(2, ai("hold_realize"), label=DRAMA)
 sc(2, m("korea", "korea", [{"k": "arrow", "path": [[125.3, 35.6], [125.7, 36.8], [126.5, 37.42]], "color": "blue", "at": 0, "width": 1.6},
                            {"k": "arrow", "path": [[129.2, 35.05], [129.75, 35.7], [129.45, 36.26]], "color": "yellow", "at": 1.0, "width": 0.8}, {"k": "marker", "p": "incheon", "color": "blue", "at": 0}, {"k": "marker", "p": "jangsa", "color": "yellow", "at": 1.0}]))
-sc(3, m("ef", "wide", [{"k": "marker", "p": "jangsa", "color": "yellow", "at": 0}, {"k": "arrow", "path": [[129.6, 36.22], [129.5, 36.26], [129.42, 36.28]], "color": "yellow", "at": 0.3, "width": 0.5}], demSea=True),
+sc(3, m("wide", "wide", [{"k": "marker", "p": "jangsa", "color": "yellow", "at": 0}, {"k": "arrow", "path": [[129.6, 36.22], [129.5, 36.26], [129.42, 36.28]], "color": "yellow", "at": 0.3, "width": 0.5}], demSea=True),
    callouts=[{"text": "9. 15 새벽 5시경 · 해안 4km 앞", "style": "yellow", "at": 0, "pos": "top"}])
 next_act()
 
@@ -206,7 +211,7 @@ sc(3, ai("swim_rope"), label=DRAMA, callouts=[{"text": "특공조 7명 · 밧줄
 sc(3, ai("rope_line"), label=DRAMA)
 sc(5, {"type": "cta", "title": "잊힌 이름들을 함께 지켜 주십시오", "at": 0}, pauseBefore=0.3, sfx=[{"id": "pop", "at": 0.3, "volume": 0.45}])
 sc(3, ai("lee_order"), label=DRAMA, callouts=[{"text": "“상륙하라”", "style": "yellow", "at": 2, "pos": "top"}])
-sc(2, m("wide", "zoom", ship() + [{"k": "radar", "p": [129.42, 36.28], "at": 0, "size": 0.5, "color": BLUE, "text": "구축함 엔디코트"}, {"k": "shock", "pts": [[129.372, 36.279], [129.373, 36.284], [129.37, 36.281]], "at": 0.6, "period": 0.7}], demSea=True))
+sc(2, m("wide", "zoom", ship() + [{"k": "radar", "p": [129.402, 36.28], "at": 0, "size": 0.45, "color": BLUE, "text": "구축함 엔디코트"}, {"k": "shock", "pts": [[129.372, 36.279], [129.373, 36.284], [129.37, 36.281]], "at": 0.6, "period": 0.7}], demSea=True))
 sc(1, ai("charge_smoke"), label=DRAMA)
 next_act()
 
@@ -214,21 +219,21 @@ next_act()
 sc(2, ai("beach_hell"), label=DRAMA, chapter={"num": "제4막", "title": "7번 국도를 끊어라"})
 sc(2, ai("lost_ammo"), label=DRAMA)
 sc(3, ai("pillbox_grenade"), label=DRAMA)
-sc(2, m("zoom", "zoom", [o([129.3745, 36.2785], "1", None, 0, takenAt=0), o([129.3755, 36.2825], "2", None, 0.3, takenAt=0), o([129.3735, 36.285], "3", "토치카", 0.6, takenAt=0)], tilt=26, demSea=True),
+sc(2, m("zoom", "zoom", [o([129.3745, 36.2785], "1", None, 0, takenAt=0), o([129.3755, 36.2825], "2", None, 0.3, takenAt=0), o([129.3735, 36.285], "3", None, 0.6, takenAt=0)], tilt=26, demSea=True),
    callouts=[{"text": "제1중대 · 토치카 3곳 파괴 (개략)", "style": "blue", "at": 0, "pos": "top"}])
 sc(2, ai("trench_melee"), label=DRAMA)
 sc(2, ph("wounded"), label="부상당한 전우를 돌보는 국군 병사 (1950. 7)")
 sc(2, {"type": "compare", "left": {"title": "첫날 전사", "big": "60여 명", "icon": "none", "color": "red"}, "right": {"title": "첫날 부상", "big": "90여 명", "icon": "none", "color": "red", "at": 0.6}},
    callouts=[{"text": "백운붕 대령 증언 (자료마다 차이)", "style": "dark", "at": 1, "pos": "lower"}])
-sc(1, m("zoom", "zoom", ship() + [{"k": "unit", "p": "jangsa", "color": "blue", "text": "독립 제1유격대대", "at": 0, "pulse": True}], tilt=26, demSea=True), callouts=[{"text": "아침 9시경 · 상륙 완료", "style": "blue", "at": 0, "pos": "top"}])
+sc(1, m("zoom", "zoom", ship()[:1] + [{"k": "unit", "p": "jangsa", "color": "blue", "text": "독립 제1유격대대", "at": 0, "pulse": True}], tilt=26, demSea=True), callouts=[{"text": "아침 9시경 · 상륙 완료", "style": "blue", "at": 0, "pos": "top"}])
 sc(2, m("zoom", "zoom", [H200, {"k": "arrow", "path": [[129.374, 36.272], [129.366, 36.268], [129.363, 36.274]], "color": "blue", "at": 0.3, "width": 0.6}], tilt=26, demSea=True), callouts=[{"text": "제2중대 · 오른쪽 우회 (개략)", "style": "blue", "at": 0, "pos": "top"}])
 sc(2, dict(PROF, marks=[{"x": 0.52, "text": "200고지", "style": "blue"}, {"x": 0.92, "text": "271고지", "style": "red"}, {"x": 0.08, "text": "문산호", "style": "red"}], arrows=[{"from": 0.12, "to": 0.5, "color": "blue"}]),
    callouts=[{"text": "오후 3시경 · 200고지 점령", "style": "blue", "at": 0, "pos": "top"}])
 sc(2, m("wide", "wide", [H200, o("h271", "271", "271고지", 0.4), {"k": "arrow", "path": [[129.364, 36.277], [129.36, 36.285], [129.354, 36.292]], "color": "blue", "at": 0.3, "width": 0.6}], demSea=True))
 sc(2, m("wide", "wide", [H200, o("h271", "271", None, 0)], demSea=True))
 sc(2, m("wide", "wide", [rt7, H200, {"k": "badge", "p": [129.378, 36.32], "text": "7번 국도", "color": "red", "at": 0.5, "dy": -40}], demSea=True), hudCta={"at": 0, "dur": 7.5})
-sc(2, m("ef", "ef", [rt7, {"k": "marker", "p": "pohang", "color": "red", "at": 0}, {"k": "marker", "p": "jangsa", "color": "yellow", "at": 0}, {"k": "lock", "p": "jangsa", "at": 0.8, "text": "생명줄 차단"}], demSea=True),
-   callouts=[{"text": "북한군 제2군단의 보급로", "style": "red", "at": 0, "pos": "top"}])
+sc(2, m("ef", "ef", [rt7, {"k": "marker", "p": "pohang", "color": "red", "at": 0}, {"k": "marker", "p": "jangsa", "color": "yellow", "at": 0}, {"k": "lock", "p": "jangsa", "at": 0.8, "text": "생명줄 차단"}]),
+   callouts=[{"text": "북한군 제2군단의 보급로", "style": "red", "at": 0}])
 sc(2, ai("blow_bridge"), label=DRAMA, callouts=[{"text": "교량 2곳 · 도로 6곳 파괴", "style": "yellow", "at": 1, "pos": "top"}])
 sc(2, {"type": "text", "big": "토치카 9곳 파괴", "style": "yellow", "sub": "직사포 · 기관총 · 포탄 상자 노획", "subAt": 0.4})
 sc(2, {"type": "black", "text": "같은 날 · 9월 15일", "accent": "인천", "accentAt": 0.6}, sfx=[{"id": "boom", "at": 0.6, "volume": 0.45}])
@@ -243,7 +248,7 @@ MID.append(nid())
 sc(1, {"type": "black", "text": "제5막", "accent": "고립과 최후의 방어선", "accentAt": 0.4}, pauseBefore=0.5, sfx=[{"id": "heartbeat", "at": 0, "volume": 0.4}])
 sc(2, m("wide", "wide", [rt7, H200, red_n, {"k": "arrow", "path": [[129.335, 36.25], [129.35, 36.265], [129.36, 36.272]], "color": "red", "at": 0.8, "width": 0.7}], demSea=True),
    chapter={"num": "제5막", "title": "고립과 최후의 방어선"}, callouts=[{"text": "9. 15 저녁 · 북한군 반격", "style": "red", "at": 0, "pos": "top"}])
-sc(2, m("ef", "ef", [rt7, {"k": "unit", "p": [129.3, 36.33], "color": "red", "text": "북한군 2개 연대 + 전차", "at": 0.2}, {"k": "marker", "p": "jangsa", "color": "blue", "at": 0}], demSea=True))
+sc(2, m("ef", "ef", [rt7, {"k": "unit", "p": [129.27, 36.28], "color": "red", "text": "북한군 2개 연대 + 전차", "at": 0.2}, {"k": "marker", "p": "jangsa", "color": "blue", "at": 0}]))
 sc(3, ai("night_ring"), label=DRAMA)
 sc(2, {"type": "black", "text": "탄약이", "accent": "없다", "accentAt": 0.5}, sfx=[{"id": "hit", "at": 0.5, "volume": 0.4}])
 sc(2, ai("empty_ammo"), label=DRAMA)
@@ -268,7 +273,7 @@ MID.append(nid())
 sc(1, {"type": "black", "text": "제6막", "accent": "조치원호의 철수", "accentAt": 0.4}, pauseBefore=0.5, sfx=[{"id": "heartbeat", "at": 0, "volume": 0.4}])
 sc(2, ai("jochiwon_arrive"), label=DRAMA, chapter={"num": "제6막", "title": "조치원호의 철수와 에필로그"}, callouts=[{"text": "9. 19 아침 · LST 조치원호", "style": "yellow", "at": 0, "pos": "top"}])
 sc(1, ph("helena"), label="주포를 쏘는 미 중순양함 헬레나 (1950. 10)")
-sc(2, m("wide", "zoom", ship() + [{"k": "radar", "p": [129.42, 36.285], "at": 0, "size": 0.5, "color": BLUE, "text": "중순양함 헬레나"}, {"k": "shock", "pts": [[129.366, 36.28], [129.362, 36.285], [129.368, 36.273]], "at": 0.5, "period": 0.7}], demSea=True))
+sc(2, m("wide", "zoom", ship() + [{"k": "radar", "p": [129.402, 36.285], "at": 0, "size": 0.45, "color": BLUE, "text": "중순양함 헬레나"}, {"k": "shock", "pts": [[129.366, 36.28], [129.362, 36.285], [129.368, 36.273]], "at": 0.5, "period": 0.7}], demSea=True))
 sc(2, ai("rope_evac"), label=DRAMA)
 sc(2, {"type": "text", "big": "철수 순서", "style": "yellow", "sub": "1중대 → 5중대 → 본부 → 3중대 → 2중대", "subAt": 0.3})
 sc(1, ai("rope_climb"), label=DRAMA)
@@ -280,10 +285,11 @@ sc(2, ai("rearguard2"), label=DRAMA)
 sc(3, ai("ship_leaves"), label=DRAMA, callouts=[{"text": "오후 1시 33분경", "style": "yellow", "at": 0, "pos": "top"}])
 sc(2, {"type": "black", "text": "39명", "accent": "다른 기록은 32명", "accentAt": 0.6}, sfx=[{"id": "heartbeat", "at": 0, "volume": 0.4}])
 sc(2, ai("left_behind"), label=DRAMA)
-sc(3, m("korea", "south", [{"k": "arrow", "path": [[129.45, 36.26], [129.75, 35.7], [129.2, 35.05]], "color": "blue", "at": 0.2, "width": 0.8}, {"k": "marker", "p": "busan", "color": "blue", "at": 0}]),
+sc(3, m("korea", "korea", [{"k": "arrow", "path": [[129.45, 36.26], [129.75, 35.7], [129.2, 35.05]], "color": "blue", "at": 0.2, "width": 0.8}, {"k": "marker", "p": "busan", "color": "blue", "at": 0}]),
    callouts=[{"text": "9. 20 새벽 · 640여 명 귀환 (725명 기록도)", "style": "blue", "at": 0, "pos": "top"}])
 sc(3, {"type": "compare", "left": {"title": "전사", "big": "139명", "icon": "none", "color": "red"}, "right": {"title": "부상", "big": "92명", "icon": "none", "color": "red", "at": 0.6}},
    callouts=[{"text": "한국 측 기록 · 행방불명 다수", "style": "dark", "at": 1, "pos": "lower"}])
+sc(2, {"type": "compare", "left": {"title": "북한군 사살", "big": "270여 명", "icon": "none", "color": "blue"}, "right": {"title": "포로", "big": "4명", "icon": "none", "color": "blue", "at": 0.6}}, sid="s111b", callouts=[{"text": "한국 측 기록", "style": "dark", "at": 1, "pos": "lower"}])
 sc(2, {"type": "text", "big": "평가는 엇갈린다", "style": "yellow", "sub": "기여인가, 실패한 습격인가", "subAt": 0.4})
 sc(2, m("wide", "wide", [rt7, H200, {"k": "lock", "p": [129.37, 36.285], "at": 0.4, "text": "7번 국도 차단"}], demSea=True))
 sc(2, ai("forgotten"), label=DRAMA)
@@ -293,7 +299,7 @@ sc(2, ai("ship_underwater"), label=DRAMA)
 sc(1, ph("memorial"), label="문산호를 본뜬 장사상륙작전 전승기념관 앞 (2024)")
 sc(3, ai("nameplates"), label=DRAMA)
 sc(2, ai("beach_dawn"), label=DRAMA)
-sc(2, m("korea", "korea", [{"k": "marker", "p": "yanggu", "color": "yellow", "at": 0.3}]), callouts=[{"text": "다음 전장 · 강원도 양구", "style": "yellow", "at": 0, "pos": "top"}])
+sc(2, m("koreaN", "koreaN", [{"k": "marker", "p": "yanggu", "color": "yellow", "at": 0.3}]), callouts=[{"text": "다음 전장 · 강원도 양구", "style": "yellow", "at": 0}])
 sc(2, {"type": "black", "text": "EP 24", "accent": "피의 능선", "accentAt": 0.5}, sfx=[{"id": "boom", "at": 0.5, "volume": 0.4}])
 sc(3, {"type": "endcard", "title": "1950년 9월, 장사리.\n772명의 소년들을 기억하며.", "q": pin("munsan")}, tail=1.0)
 next_act() if False else None
@@ -302,21 +308,21 @@ assert CUR["i"] == len(ACTS[5])
 CB = "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: "
 KR = "young South Korean student soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain black high-school uniforms and mismatched steel helmets, NO stars and NO red insignia anywhere"
 KR1 = "a young South Korean student soldier whose head is a round ball painted as the South Korean Taegukgi flag, wearing a plain black high-school uniform and an old steel helmet, NO stars and NO red insignia anywhere"
-OF = "a South Korean army captain whose head is a round ball painted as the South Korean Taegukgi flag, wearing a 1950 olive uniform, NO stars and NO red insignia"
+OF = "a South Korean army captain whose head is a round ball painted as the South Korean Taegukgi flag, wearing a plain khaki American-style field uniform with no collar tabs, no shoulder boards, no stars, no medals and absolutely no red on the uniform"
 NK = "North Korean soldiers whose heads are round balls painted as the North Korean flag, wearing 1950 khaki uniforms and caps"
 END = ", leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters."
 LAND = "painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no people visible, no text, no letters."
 LST = "a rusty old grey World War II tank landing ship"
 AI = {
     "parade_boys": CB + "rows of " + KR + " standing at attention on a dusty army parade ground in morning light in Busan" + END,
-    "envelope": CB + "an instructor handing a small plain paper envelope to " + KR1 + " in a line, solemn mood" + END,
+    "envelope": CB + "a South Korean instructor, head a round ball painted as the Taegukgi flag, wearing a plain khaki American-style field uniform with no collar tabs, no shoulder boards, no stars, no medals and absolutely no red on the uniform, handing a small plain paper envelope to " + KR1 + " in a line, solemn mood" + END,
     "cut_hair": CB + KR1 + " quietly placing a lock of cut hair and nail clippings into a small plain paper envelope, others doing the same behind him" + END,
     "busan_depart": LST.capitalize() + " leaving a Busan pier in late afternoon of September 1950 under heavy grey clouds, crowded with small figures, wide shot, " + LAND.replace("no people visible, ", ""),
-    "hq_map": CB + "South Korean staff officers, heads round balls painted as the Taegukgi flag, olive uniforms, leaning over a map table in a lamp-lit headquarters, worried, no soldiers to spare" + END,
-    "rice_warehouse": CB + KR + " training with old rifles inside a dim wooden rice warehouse, an instructor pointing, sacks stacked along the walls" + END,
-    "hands_question": CB + "an instructor facing a crowd of " + KR + " in front of a rice warehouse, the boys silent and tense" + END,
+    "hq_map": CB + "South Korean staff officers, heads round balls painted as the Taegukgi flag, wearing a plain khaki American-style field uniform with no collar tabs, no shoulder boards, no stars, no medals and absolutely no red on the uniform, leaning over a map table in a lamp-lit headquarters, worried, no soldiers to spare" + END,
+    "rice_warehouse": CB + KR + " training with old rifles inside a dim wooden rice warehouse, sacks stacked along the walls" + END,
+    "hands_question": CB + "a South Korean instructor seen from behind, head a round ball painted as the Taegukgi flag, wearing a plain khaki American-style field uniform with no collar tabs, no shoulder boards, no stars, no medals and absolutely no red on the uniform, facing a crowd of " + KR + " in front of a rice warehouse, the boys silent and tense" + END,
     "hands_down": CB + "a line of " + KR + " standing firm with their hands at their sides and eyes forward, determined faces, dusk light" + END,
-    "fake_division": CB + "a South Korean officer, head a round ball painted as the Taegukgi flag, stamping a paper at a desk with a sly look, a small group of " + KR + " visible through the window" + END,
+    "fake_division": CB + "a South Korean officer, head a round ball painted as the Taegukgi flag, wearing a plain khaki American-style field uniform with no collar tabs, no shoulder boards, no stars, no medals and absolutely no red on the uniform, stamping a paper at a desk with a sly look, a small group of " + KR + " visible through the window" + END,
     "lst_storm": LST.capitalize() + " pitching violently in huge storm waves at night on the East Sea, spray over the bow, lightning, typhoon clouds, " + LAND.replace("no people visible, ", ""),
     "hold_seasick": CB + KR + " huddled in the dark steel cargo hold of a ship, one seasick boy being patted on the back by his friend, lantern swinging" + END,
     "hold_realize": CB + KR + " listening in a dark ship hold to an officer, faces slowly realizing where they are going, lantern light" + END,

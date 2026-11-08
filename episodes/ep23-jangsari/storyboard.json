@@ -110,12 +110,26 @@
    ],
    "span": 2.0
   },
+  "koreaC": {
+   "center": [
+    127.8,
+    36.35
+   ],
+   "span": 5.6
+  },
+  "koreaN": {
+   "center": [
+    127.8,
+    37.35
+   ],
+   "span": 5.6
+  },
   "ef": {
    "center": [
     129.3,
-    36.15
+    36.12
    ],
-   "span": 0.85
+   "span": 1.05
   },
   "wide": {
    "center": [
@@ -142,12 +156,12 @@
   {
    "id": "theme",
    "from": "s09",
-   "to": "s32",
+   "to": "s31b",
    "volume": 0.16
   },
   {
    "id": "tension",
-   "from": "s33",
+   "from": "s32",
    "to": "s54",
    "volume": 0.17
   },
@@ -172,14 +186,14 @@
  ],
  "ai_images": {
   "parade_boys": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: rows of young South Korean student soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain black high-school uniforms and mismatched steel helmets, NO stars and NO red insignia anywhere standing at attention on a dusty army parade ground in morning light in Busan, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "envelope": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an instructor handing a small plain paper envelope to a young South Korean student soldier whose head is a round ball painted as the South Korean Taegukgi flag, wearing a plain black high-school uniform and an old steel helmet, NO stars and NO red insignia anywhere in a line, solemn mood, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "envelope": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a South Korean instructor, head a round ball painted as the Taegukgi flag, wearing a plain khaki American-style field uniform with no collar tabs, no shoulder boards, no stars, no medals and absolutely no red on the uniform, handing a small plain paper envelope to a young South Korean student soldier whose head is a round ball painted as the South Korean Taegukgi flag, wearing a plain black high-school uniform and an old steel helmet, NO stars and NO red insignia anywhere in a line, solemn mood, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "cut_hair": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a young South Korean student soldier whose head is a round ball painted as the South Korean Taegukgi flag, wearing a plain black high-school uniform and an old steel helmet, NO stars and NO red insignia anywhere quietly placing a lock of cut hair and nail clippings into a small plain paper envelope, others doing the same behind him, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "busan_depart": "A rusty old grey world war ii tank landing ship leaving a Busan pier in late afternoon of September 1950 under heavy grey clouds, crowded with small figures, wide shot, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no text, no letters.",
-  "hq_map": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean staff officers, heads round balls painted as the Taegukgi flag, olive uniforms, leaning over a map table in a lamp-lit headquarters, worried, no soldiers to spare, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "rice_warehouse": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: young South Korean student soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain black high-school uniforms and mismatched steel helmets, NO stars and NO red insignia anywhere training with old rifles inside a dim wooden rice warehouse, an instructor pointing, sacks stacked along the walls, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "hands_question": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an instructor facing a crowd of young South Korean student soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain black high-school uniforms and mismatched steel helmets, NO stars and NO red insignia anywhere in front of a rice warehouse, the boys silent and tense, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "hq_map": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean staff officers, heads round balls painted as the Taegukgi flag, wearing a plain khaki American-style field uniform with no collar tabs, no shoulder boards, no stars, no medals and absolutely no red on the uniform, leaning over a map table in a lamp-lit headquarters, worried, no soldiers to spare, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "rice_warehouse": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: young South Korean student soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain black high-school uniforms and mismatched steel helmets, NO stars and NO red insignia anywhere training with old rifles inside a dim wooden rice warehouse, sacks stacked along the walls, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "hands_question": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a South Korean instructor seen from behind, head a round ball painted as the Taegukgi flag, wearing a plain khaki American-style field uniform with no collar tabs, no shoulder boards, no stars, no medals and absolutely no red on the uniform, facing a crowd of young South Korean student soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain black high-school uniforms and mismatched steel helmets, NO stars and NO red insignia anywhere in front of a rice warehouse, the boys silent and tense, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "hands_down": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a line of young South Korean student soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain black high-school uniforms and mismatched steel helmets, NO stars and NO red insignia anywhere standing firm with their hands at their sides and eyes forward, determined faces, dusk light, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "fake_division": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a South Korean officer, head a round ball painted as the Taegukgi flag, stamping a paper at a desk with a sly look, a small group of young South Korean student soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain black high-school uniforms and mismatched steel helmets, NO stars and NO red insignia anywhere visible through the window, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "fake_division": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a South Korean officer, head a round ball painted as the Taegukgi flag, wearing a plain khaki American-style field uniform with no collar tabs, no shoulder boards, no stars, no medals and absolutely no red on the uniform, stamping a paper at a desk with a sly look, a small group of young South Korean student soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain black high-school uniforms and mismatched steel helmets, NO stars and NO red insignia anywhere visible through the window, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "lst_storm": "A rusty old grey world war ii tank landing ship pitching violently in huge storm waves at night on the East Sea, spray over the bow, lightning, typhoon clouds, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no text, no letters.",
   "hold_seasick": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: young South Korean student soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain black high-school uniforms and mismatched steel helmets, NO stars and NO red insignia anywhere huddled in the dark steel cargo hold of a ship, one seasick boy being patted on the back by his friend, lantern swinging, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "hold_realize": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: young South Korean student soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain black high-school uniforms and mismatched steel helmets, NO stars and NO red insignia anywhere listening in a dark ship hold to an officer, faces slowly realizing where they are going, lantern light, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
@@ -190,7 +204,7 @@
   "seven_volunteer": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: seven young South Korean student soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain black high-school uniforms and mismatched steel helmets, NO stars and NO red insignia anywhere stepping forward on the deck with coils of rope over their shoulders, comrades watching, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "swim_rope": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a young South Korean student soldier whose head is a round ball painted as the South Korean Taegukgi flag, wearing a plain black high-school uniform and an old steel helmet, NO stars and NO red insignia anywhere swimming through crashing surf toward a beach with a rope tied around his waist, bullets splashing around him, grey dawn, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "rope_line": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: young South Korean student soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain black high-school uniforms and mismatched steel helmets, NO stars and NO red insignia anywhere hanging on a thick wet rope stretched from a stranded ship to the beach, moving hand over hand through waves under fire, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "lee_order": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a South Korean army captain whose head is a round ball painted as the South Korean Taegukgi flag, wearing a 1950 olive uniform, NO stars and NO red insignia shouting an order on the deck of a stranded ship, pointing at the beach, smoke behind him, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "lee_order": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a South Korean army captain whose head is a round ball painted as the South Korean Taegukgi flag, wearing a plain khaki American-style field uniform with no collar tabs, no shoulder boards, no stars, no medals and absolutely no red on the uniform shouting an order on the deck of a stranded ship, pointing at the beach, smoke behind him, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "charge_smoke": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: young South Korean student soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain black high-school uniforms and mismatched steel helmets, NO stars and NO red insignia anywhere running out of the surf onto a sandy beach through shell smoke, shouting, rifles raised, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "beach_hell": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: young South Korean student soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain black high-school uniforms and mismatched steel helmets, NO stars and NO red insignia anywhere lying flat on a wet sandy beach under fire, explosions throwing up sand, smoke, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "lost_ammo": "Wooden ammunition crates and rifles sinking in churning grey sea water near a beach, bubbles, light from above, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no people visible, no text, no letters.",
@@ -204,14 +218,14 @@
   "crew_fight": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: merchant sailors in dark work clothes, heads round balls painted as the Taegukgi flag, holding rifles and coming ashore from a stranded ship to join the fight on the beach, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "trench_night": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: young South Korean student soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain black high-school uniforms and mismatched steel helmets, NO stars and NO red insignia anywhere crouching in a hilltop trench at night beside a comrade covered with a blanket, distant flashes, grief, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "ridge_shelled": "A low hill above a Korean beach being pounded by artillery in daylight, earth fountaining along the ridge, tanks on the road below, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no people visible, no text, no letters.",
-  "cp_munsan": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a South Korean army captain whose head is a round ball painted as the South Korean Taegukgi flag, wearing a 1950 olive uniform, NO stars and NO red insignia at a makeshift command post with a field map inside the dark tilted hull of a stranded ship, waves outside, lantern light, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "plea_navy": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a South Korean army captain whose head is a round ball painted as the South Korean Taegukgi flag, wearing a 1950 olive uniform, NO stars and NO red insignia pleading with an American naval officer, head a round ball painted as the USA flag, on the deck of a warship, sea and distant coastline behind them, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "cp_munsan": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a South Korean army captain whose head is a round ball painted as the South Korean Taegukgi flag, wearing a plain khaki American-style field uniform with no collar tabs, no shoulder boards, no stars, no medals and absolutely no red on the uniform at a makeshift command post with a field map inside the dark tilted hull of a stranded ship, waves outside, lantern light, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "plea_navy": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a South Korean army captain whose head is a round ball painted as the South Korean Taegukgi flag, wearing a plain khaki American-style field uniform with no collar tabs, no shoulder boards, no stars, no medals and absolutely no red on the uniform pleading with an American naval officer, head a round ball painted as the USA flag, on the deck of a warship, sea and distant coastline behind them, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "red_eyes": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a young South Korean student soldier whose head is a round ball painted as the South Korean Taegukgi flag, wearing a plain black high-school uniform and an old steel helmet, NO stars and NO red insignia anywhere with bloodshot exhausted eyes gripping a rifle in a trench at dawn, close-up, dirt on his face, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "comrade_breathes": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: two young South Korean student soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain black high-school uniforms and mismatched steel helmets, NO stars and NO red insignia anywhere leaning shoulder to shoulder in a trench, one bandaged, still awake and holding on, soft dawn light, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "jochiwon_arrive": "An old grey tank landing ship appearing on the horizon in the morning, approaching a smoky Korean beach with a stranded ship on it, a large warship far behind, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no text, no letters.",
   "rope_evac": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: young South Korean student soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain black high-school uniforms and mismatched steel helmets, NO stars and NO red insignia anywhere wading through surf and grabbing a rope hanging from a landing ship about thirty meters off the beach, morning light, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "rope_climb": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: young South Korean student soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain black high-school uniforms and mismatched steel helmets, NO stars and NO red insignia anywhere climbing up a rope ladder and ropes on the side of a landing ship, helping a wounded friend up, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "captain_argument": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a South Korean army captain whose head is a round ball painted as the South Korean Taegukgi flag, wearing a 1950 olive uniform, NO stars and NO red insignia arguing fiercely with a ship captain in a dark coat, head a round ball painted as the Taegukgi flag, on the bridge of a landing ship, shells splashing outside, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "captain_argument": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a South Korean army captain whose head is a round ball painted as the South Korean Taegukgi flag, wearing a plain khaki American-style field uniform with no collar tabs, no shoulder boards, no stars, no medals and absolutely no red on the uniform arguing fiercely with a ship captain in a dark coat, head a round ball painted as the Taegukgi flag, on the bridge of a landing ship, shells splashing outside, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "rearguard": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: young South Korean student soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain black high-school uniforms and mismatched steel helmets, NO stars and NO red insignia anywhere firing rifles from behind low sand dunes on a beach with their backs to the sea, North Korean soldiers advancing in the distance, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "rearguard2": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a young South Korean student soldier whose head is a round ball painted as the South Korean Taegukgi flag, wearing a plain black high-school uniform and an old steel helmet, NO stars and NO red insignia anywhere glancing back once at a ship in the surf, then turning forward again to keep firing, dust and smoke, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "ship_leaves": "A landing ship backing away from a Korean beach in the early afternoon, ropes trailing in the water, small figures left on the sand, smoke, wide shot, painterly realistic digital illustration, dark desaturated palette, film grain, no text, no letters.",
@@ -587,8 +601,8 @@
    ],
    "visual": {
     "type": "map",
-    "from": "korea",
-    "to": "korea",
+    "from": "koreaC",
+    "to": "koreaC",
     "items": [
      {
       "k": "marker",
@@ -661,6 +675,58 @@
     "sub": "독립 제1유격대대 · 대대장 이명흠 대위",
     "subAt": 0.4
    }
+  },
+  {
+   "id": "s16b",
+   "lines": [
+    "사실 이 부대의 정확한 인원은 지금도 기록마다 조금씩 다릅니다.",
+    {
+     "t": "760명, 764명이라는 자료도 있는데요.",
+     "say": "칠백육십 명, 칠백육십사 명이라는 자료도 있는데요."
+    },
+    "이름 없이 떠난 아이들의 숫자조차, 우리는 정확히 알지 못하는 거죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "기록마다 다른 숫자",
+    "style": "yellow",
+    "sub": "772명 · 764명 · 760명",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s16c",
+   "lines": [
+    "이명흠 대위는 애국단 단원 몇 명을 데리고 대구역 광장과 시내를 돌며 직접 병사를 모았습니다.",
+    "군에서 따로 빼 올 병력이 없으니, 거리에서 구할 수밖에 없었던 거죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "south",
+    "to": "south",
+    "items": [
+     {
+      "k": "marker",
+      "p": "daegu",
+      "color": "yellow",
+      "at": 0.2
+     },
+     {
+      "k": "marker",
+      "p": "miryang",
+      "color": "blue",
+      "at": 0.8
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "대구에서 모병 · 밀양에서 편성",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
   },
   {
    "id": "s17",
@@ -950,6 +1016,28 @@
    }
   },
   {
+   "id": "s31b",
+   "lines": [
+    "출항 전, 육군본부 연병장의 출정식에는 정일권 참모총장도 참석했습니다.",
+    "소년들은 대낮에 시가지를 지나 부산항 부두까지 이동했는데요.",
+    "그 행렬이 어디로 향하는지, 거리의 시민들은 알지 못했습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "parade_boys",
+    "kb": "out"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "9. 14 출정식 · 부산 시가지 행진",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
    "id": "s32",
    "lines": [
     {
@@ -1090,7 +1178,7 @@
    ],
    "visual": {
     "type": "map",
-    "from": "ef",
+    "from": "wide",
     "to": "wide",
     "items": [
      {
@@ -1556,11 +1644,11 @@
      {
       "k": "radar",
       "p": [
-       129.42,
+       129.402,
        36.28
       ],
       "at": 0,
-      "size": 0.5,
+      "size": 0.45,
       "color": "#00E5FF",
       "text": "구축함 엔디코트"
      },
@@ -1685,7 +1773,6 @@
       ],
       "n": "3",
       "at": 0.6,
-      "text": "토치카",
       "takenAt": 0
      }
     ],
@@ -1792,14 +1879,6 @@
       "color": "#FFD000",
       "at": 0,
       "glow": true
-     },
-     {
-      "k": "badge",
-      "p": "munsan",
-      "text": "문산호",
-      "color": "blue",
-      "at": 0.4,
-      "dy": -60
      },
      {
       "k": "unit",
@@ -1946,8 +2025,7 @@
     ],
     "left": "동해",
     "right": "내륙",
-    "title": "장사리 해안 단면 (모식)",
-    "note": "고도·거리 개략",
+    "note": "장사리 해안 단면 모식도 · 고도·거리 개략",
     "marks": [
      {
       "x": 0.52,
@@ -2217,15 +2295,13 @@
       "at": 0.8,
       "text": "생명줄 차단"
      }
-    ],
-    "demSea": true
+    ]
    },
    "callouts": [
     {
      "text": "북한군 제2군단의 보급로",
      "style": "red",
-     "at": 0,
-     "pos": "top"
+     "at": 0
     }
    ]
   },
@@ -2625,8 +2701,8 @@
      {
       "k": "unit",
       "p": [
-       129.3,
-       36.33
+       129.27,
+       36.28
       ],
       "color": "red",
       "text": "북한군 2개 연대 + 전차",
@@ -2638,8 +2714,7 @@
       "color": "blue",
       "at": 0
      }
-    ],
-    "demSea": true
+    ]
    }
   },
   {
@@ -3121,11 +3196,11 @@
      {
       "k": "radar",
       "p": [
-       129.42,
+       129.402,
        36.285
       ],
       "at": 0,
-      "size": 0.5,
+      "size": 0.45,
       "color": "#00E5FF",
       "text": "중순양함 헬레나"
      },
@@ -3417,7 +3492,7 @@
    "visual": {
     "type": "map",
     "from": "korea",
-    "to": "south",
+    "to": "korea",
     "items": [
      {
       "k": "arrow",
@@ -3485,6 +3560,40 @@
    "callouts": [
     {
      "text": "한국 측 기록 · 행방불명 다수",
+     "style": "dark",
+     "at": 1,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s111b",
+   "lines": [
+    {
+     "t": "적에게 준 피해는 사살 270여 명, 포로 4명으로 기록돼 있습니다.",
+     "say": "적에게 준 피해는 사살 이백칠십여 명, 포로 네 명으로 기록돼 있습니다."
+    },
+    "작은 부대가 치른 싸움치고는 결코 작지 않은 숫자였죠."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "북한군 사살",
+     "big": "270여 명",
+     "icon": "none",
+     "color": "blue"
+    },
+    "right": {
+     "title": "포로",
+     "big": "4명",
+     "icon": "none",
+     "color": "blue",
+     "at": 0.6
+    }
+   },
+   "callouts": [
+    {
+     "text": "한국 측 기록",
      "style": "dark",
      "at": 1,
      "pos": "lower"
@@ -3705,8 +3814,8 @@
    ],
    "visual": {
     "type": "map",
-    "from": "korea",
-    "to": "korea",
+    "from": "koreaN",
+    "to": "koreaN",
     "items": [
      {
       "k": "marker",
@@ -3720,8 +3829,7 @@
     {
      "text": "다음 전장 · 강원도 양구",
      "style": "yellow",
-     "at": 0,
-     "pos": "top"
+     "at": 0
     }
    ]
   },
