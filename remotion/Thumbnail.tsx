@@ -1131,6 +1131,24 @@ export interface ThumbnailProps {
 
 // 표의 열쇠 = 에피소드 id. "paroho:sample"은 지시서 예시 검수용이라 실제 EP13 썸네일에는 영향 없음
 export const PAROHO_STD: Record<string, ThumbnailProps> = {
+  // EP23 장사상륙작전 — 지도 좌표는 개략, 인물은 AI 상징 학도병(사료풍)
+  "ep23-jangsari": {
+    quote: "우리가 여기서 버텨야 인천이 산다!",
+    titleLine1: "인천을 위해 목숨을 던진 학도병",
+    titleLine2: "장사상륙작전",
+    mapImage: "geo/jangsa_sea.webp",
+    characterCutout: "ep/ep23-jangsari/ai/thumb_subject.png",
+    stampText: "학 도 의 용",
+    mapCrop: { cx: 0.6127, cy: 0.638, zoom: 1.6 },
+    targets: [{ x: 550, y: 393, r: 72, label: "200고지" }],
+    places: [{ x: 655, y: 345, label: "문산호" }, { x: 640, y: 195, label: "7번 국도" }, { x: 900, y: 250, label: "동해" }],
+    arrows: [
+      { pts: [[640, 130], [628, 250], [585, 330]], color: "red" },
+      { pts: [[960, 345], [800, 350], [680, 355]], color: "ally" },
+    ],
+    characterPos: "50% 0%",
+    stampPos: { x: 860, y: 560 },
+  },
   "paroho:sample": {
     quote: "호수 전체가 시체로 뒤덮였다",
     titleLine1: "사흘 밤낮 60km를 쫓아가",
