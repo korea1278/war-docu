@@ -107,17 +107,45 @@
   },
   "bt": {
    "center": [
-    128.3,
-    37.98
+    128.28,
+    38.05
    ],
-   "span": 0.62
+   "span": 0.95
   },
   "zoom": {
    "center": [
     128.3,
-    37.93
+    37.94
    ],
    "span": 0.17
+  },
+  "bang": {
+   "center": [
+    128.33,
+    37.93
+   ],
+   "span": 0.32
+  },
+  "cut": {
+   "center": [
+    128.29,
+    37.91
+   ],
+   "span": 0.24
+  },
+  "koreaN": {
+   "center": [
+    127.8,
+    37.6
+   ],
+   "span": 5.6
+  },
+  "cw": {
+   "center": [
+    127.7,
+    38.0
+   ],
+   "span": 1.6
   },
   "flee": {
    "center": [
@@ -129,9 +157,9 @@
   "south": {
    "center": [
     128.4,
-    37.45
+    37.35
    ],
-   "span": 1.3
+   "span": 1.7
   }
  },
  "music": [
@@ -185,19 +213,19 @@
   "pva_east": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: long columns of Chinese soldiers whose heads are round balls painted as the flag of the People's Republic of China, wearing padded mustard-khaki uniforms and soft caps, carrying rifles and rice bags marching east at night through Korean mountains, avoiding the road, moonless sky, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "recon_map": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an American general whose head is a round ball painted as the USA flag, wearing a 1951 US Army field jacket and an American staff officer frowning over a large map of Korea with scattered reconnaissance photographs, lamp light, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "omi_today": "A quiet modern two-lane road winding over a gentle forested mountain pass in Gangwon Province, Korea, soft morning light, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no people visible, no text, no letters.",
-  "trucks_pass": "A convoy of 1950s military trucks crawling up a narrow dirt road through a steep Korean mountain gap, dust, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no text, no letters.",
+  "trucks_pass": "A convoy of 1950s military trucks crawling up a narrow dirt road over a forested Korean mountain pass between pine-covered ridges, no rock arches, dust, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no text, no letters.",
   "bottle": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a huge glass bottle lying on a table-top relief map of mountains, tiny South Korean soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain olive American-style 1951 field uniforms and M1 steel helmets, NO stars and NO red insignia anywhere crowded inside it, a giant cork hovering above the narrow neck, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "yu_map": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a South Korean army general whose head is a round ball painted as the South Korean Taegukgi flag, wearing a plain khaki American-style field uniform with no collar tabs, no shoulder boards, no stars, no medals and absolutely no red on the uniform pointing at a field map in a tent command post, worried face, lantern, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "road_only": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain olive American-style 1951 field uniforms and M1 steel helmets, NO stars and NO red insignia anywhere pushing a truck and a towed howitzer on a muddy one-lane mountain road, steep slopes both sides, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "pva_ridge": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Chinese soldiers whose heads are round balls painted as the flag of the People's Republic of China, wearing padded mustard-khaki uniforms and soft caps, carrying rifles and rice bags walking in single file along a steep forested ridgeline with no road, looking down at a distant valley road, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "barrage": "Artillery shells bursting along Korean mountain ridges at late afternoon, plumes of earth and smoke, a river valley below, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no people visible, no text, no letters.",
-  "seventh_chaos": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain olive American-style 1951 field uniforms and M1 steel helmets, NO stars and NO red insignia anywhere falling back from a hilltop trench at dusk under fire, a radio operator shouting into a dead handset, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "seventh_chaos": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain olive American-style 1951 field uniforms and M1 steel helmets, absolutely NO collar tabs, NO shoulder patches, NO arm patches, NO stars, and NO red anywhere on the uniform falling back from a hilltop trench at dusk under fire, a radio operator shouting into a dead handset, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "slip_between": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Chinese soldiers whose heads are round balls painted as the flag of the People's Republic of China, wearing padded mustard-khaki uniforms and soft caps, carrying rifles and rice bags quietly slipping through a dark valley between two hilltop positions, campfires of the unaware defenders visible on the ridges above, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "night_march": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Chinese soldiers whose heads are round balls painted as the flag of the People's Republic of China, wearing padded mustard-khaki uniforms and soft caps, carrying rifles and rice bags marching fast along a dark mountain trail at night, carrying rifles and ammunition, exhausted but relentless, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "corps_cp": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a South Korean army general whose head is a round ball painted as the South Korean Taegukgi flag, wearing a plain khaki American-style field uniform with no collar tabs, no shoulder boards, no stars, no medals and absolutely no red on the uniform and staff officers around a map with blank areas in a command tent at night, telephones lying unanswered, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "corps_cp": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a South Korean army general whose head is a round ball painted as the South Korean Taegukgi flag, wearing a plain khaki American-style field uniform with no collar tabs, no shoulder boards, no stars, no medals and absolutely no red on the uniform and two South Korean staff officers with the same flag-ball heads around a map with blank areas in a command tent at night, telephones lying unanswered, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "basin_jam": "A narrow Korean mountain basin packed with 1950s military trucks, howitzers, and crowds of soldiers in a chaotic traffic jam, dust, afternoon, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no text, no letters.",
-  "rumor": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain olive American-style 1951 field uniforms and M1 steel helmets, NO stars and NO red insignia anywhere whispering to each other in a crowded column, one pointing back toward the mountains, fear on their faces, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "radio_dead": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a South Korean soldier whose head is a round ball painted as the South Korean Taegukgi flag, wearing a plain olive American-style 1951 field uniform and M1 steel helmet, NO stars and NO red insignia anywhere cranking a field telephone and shouting into a radio in a cramped trench, cut wires on the ground, static sparks, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "rumor": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain olive American-style 1951 field uniforms and M1 steel helmets, absolutely NO collar tabs, NO shoulder patches, NO arm patches, NO stars, and NO red anywhere on the uniform whispering to each other in a crowded column, one pointing back toward the mountains, fear on their faces, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "radio_dead": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a South Korean soldier whose head is a round ball painted as the South Korean Taegukgi flag, wearing a plain olive American-style 1951 field uniform and M1 steel helmet, absolutely NO collar tabs, NO shoulder patches, NO arm patches, NO stars, and NO red anywhere on the uniform cranking a field telephone and shouting into a radio in a cramped trench, cut wires on the ground, static sparks, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "liaison_land": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a South Korean army general whose head is a round ball painted as the South Korean Taegukgi flag, wearing a plain khaki American-style field uniform with no collar tabs, no shoulder boards, no stars, no medals and absolutely no red on the uniform stepping out of a small 1950s liaison airplane on a dirt strip in a mountain valley, officers saluting, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "liaison_fly": "A small single-engine liaison airplane taking off from a dirt strip in a crowded Korean mountain valley, afternoon, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no text, no letters.",
   "watch_plane": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain olive American-style 1951 field uniforms and M1 steel helmets, NO stars and NO red insignia anywhere on the ground looking up at a small airplane flying away, seen from behind, dread in their posture, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
@@ -207,20 +235,20 @@
   "destroy_gear": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain olive American-style 1951 field uniforms and M1 steel helmets, NO stars and NO red insignia anywhere sadly disabling a howitzer and setting fire to trucks on a mountain road at dusk, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "scatter_up": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain olive American-style 1951 field uniforms and M1 steel helmets, NO stars and NO red insignia anywhere climbing a steep forested mountain slope in disorder, no formation, dropping helmets and packs, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "hide_mortar": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain olive American-style 1951 field uniforms and M1 steel helmets, NO stars and NO red insignia anywhere hiding a mortar tube under a large rock on a forested mountain slope, covering it with branches, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "lost_valley": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a South Korean soldier whose head is a round ball painted as the South Korean Taegukgi flag, wearing a plain olive American-style 1951 field uniform and M1 steel helmet, NO stars and NO red insignia anywhere alone in a deep forested valley at dusk, lost, looking around, no map, hungry, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "lost_valley": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a South Korean soldier whose head is a round ball painted as the South Korean Taegukgi flag, wearing a plain olive American-style 1951 field uniform and M1 steel helmet, absolutely NO collar tabs, NO shoulder patches, NO arm patches, NO stars, and NO red anywhere on the uniform alone in a deep forested valley at dusk, lost, looking around, no map, hungry, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "straggler_ridge": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: many South Korean soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain olive American-style 1951 field uniforms and M1 steel helmets, NO stars and NO red insignia anywhere scattered in small groups across several forested ridgelines, no formation, walking in different directions, dusk, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "riceball": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain olive American-style 1951 field uniforms and M1 steel helmets, NO stars and NO red insignia anywhere finding a few rice balls left on a flat rock beside a mountain trail, surprised and grateful, forest around, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "roll_call": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a thin line of South Korean soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain olive American-style 1951 field uniforms and M1 steel helmets, NO stars and NO red insignia anywhere at roll call in a village square, large gaps in the ranks, an officer with a list, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "empty_ranks": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a few South Korean soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain olive American-style 1951 field uniforms and M1 steel helmets, NO stars and NO red insignia anywhere sitting exhausted by a stream in a mountain village, many empty places around them, bandages, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "stragglers": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain olive American-style 1951 field uniforms and M1 steel helmets, NO stars and NO red insignia anywhere straggling one by one out of the forest onto a road, thin and tired, a sentry waving them in, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "vanfleet_angry": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an American general whose head is a round ball painted as the USA flag, wearing a 1951 US Army field jacket furious, slamming his fist on a map table in a headquarters tent, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "empty_ranks": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a few South Korean soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain olive American-style 1951 field uniforms and M1 steel helmets, absolutely NO collar tabs, NO shoulder patches, NO arm patches, NO stars, and NO red anywhere on the uniform sitting exhausted by a stream in a mountain village, many empty places around them, bandages, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "stragglers": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain olive American-style 1951 field uniforms and M1 steel helmets, absolutely NO collar tabs, NO shoulder patches, NO arm patches, NO stars, and NO red anywhere on the uniform straggling one by one out of the forest onto a road, thin and tired, a sentry waving them in, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "vanfleet_angry": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an American general whose head is a round ball painted as the USA flag, wearing a 1951 US Army field jacket alone, furious, slamming his fist on a map table in a headquarters tent, nobody else in the scene, no other flags, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "meeting": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an American general whose head is a round ball painted as the USA flag, wearing a 1951 US Army field jacket questioning a South Korean army general whose head is a round ball painted as the South Korean Taegukgi flag, wearing a plain khaki American-style field uniform with no collar tabs, no shoulder boards, no stars, no medals and absolutely no red on the uniform across a bare table in a tent, tense silence, the Korean general looking down, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "yu_alone": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a South Korean army general whose head is a round ball painted as the South Korean Taegukgi flag, wearing a plain khaki American-style field uniform with no collar tabs, no shoulder boards, no stars, no medals and absolutely no red on the uniform standing alone in an empty command tent, a folded flag on the table, dim light, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "yu_alone": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a South Korean army general whose head is a round ball painted as the South Korean Taegukgi flag, wearing a plain khaki American-style field uniform with no collar tabs, no shoulder boards, no stars, no medals and absolutely no red anywhere on the uniform, plain collar standing alone in an empty command tent, a folded flag on the table, dim light, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "hq_map_dim": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean staff officers, heads round balls painted as the Taegukgi flag, plain khaki uniforms with no insignia, watching American officers take a map off their wall, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "dawn_valley": "A quiet Korean mountain valley at dawn, mist lifting, a few rusted wheel marks in a dirt road, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no people visible, no text, no letters.",
   "memorial": "A simple stone war memorial on a small hill in a Korean mountain village, white chrysanthemums at its base, soft afternoon light, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no people visible, no text, no letters, the stone is blank.",
   "next_hill": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain olive American-style 1951 field uniforms and M1 steel helmets, NO stars and NO red insignia anywhere holding a bare, shell-torn hilltop under fire, determined, flying dirt, a trench line, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "thumb_subject": "Photorealistic black-and-white 1951 Korean War documentary portrait of an exhausted South Korean army soldier in a plain olive field jacket with no insignia and an M1 steel helmet, soot and sweat on his face, hollow anguished eyes looking into the distance, waist-up, face clearly visible and turned slightly toward the left of the frame, isolated on a plain pure white background, no shadows on the background, no text."
+  "thumb_subject": "Photorealistic black-and-white 1951 Korean War documentary portrait of an exhausted young Korean man, clearly East Asian Korean face with black hair, a South Korean army soldier in a plain olive field jacket with no insignia and an M1 steel helmet, soot and sweat on his face, hollow anguished eyes looking into the distance, waist-up, face clearly visible and turned slightly toward the left of the frame, isolated on a plain pure white background, no shadows on the background, no text."
  },
  "scenes": [
   {
@@ -541,8 +569,8 @@
    ],
    "visual": {
     "type": "map",
-    "from": "korea",
-    "to": "korea",
+    "from": "koreaN",
+    "to": "koreaN",
     "items": [
      {
       "k": "front",
@@ -630,7 +658,7 @@
     "type": "photo",
     "kb": "in",
     "q": "s13-photo",
-    "pos": "50% 20%"
+    "pos": "50% 45%"
    },
    "label": "중공군 사령관 펑더화이"
   },
@@ -1069,7 +1097,7 @@
       "k": "unit",
       "p": [
        128.2,
-       38.26
+       38.21
       ],
       "color": "red",
       "text": "중공군 제20군",
@@ -1079,7 +1107,7 @@
       "k": "unit",
       "p": [
        127.98,
-       38.25
+       38.21
       ],
       "color": "red",
       "text": "중공군 제27군",
@@ -1088,8 +1116,8 @@
      {
       "k": "unit",
       "p": [
-       128.56,
-       38.42
+       128.6,
+       38.21
       ],
       "color": "red",
       "text": "북한군 제5군단",
@@ -1796,7 +1824,8 @@
    "visual": {
     "type": "photo",
     "kb": "in",
-    "q": "s38-photo"
+    "q": "s38-photo",
+    "pos": "50% 5%"
    },
    "label": "브리핑 중인 알몬드 등 미군 지휘부 (1950. 9. 17)",
    "callouts": [
@@ -1893,7 +1922,8 @@
    "visual": {
     "type": "photo",
     "kb": "in",
-    "q": "s42-photo"
+    "q": "s42-photo",
+    "pos": "50% 0%"
    },
    "label": "105mm 포를 손질하는 국군 포병 (1950. 9)"
   },
@@ -2823,7 +2853,7 @@
    "id": "s65",
    "lines": [
     {
-     "t": "5월 17일 새벽 4시.",
+     "t": "오월 17일 새벽 4시.",
      "say": "오월 십칠일 새벽 네 시."
     },
     "앞서 달리던 첨병 중대가 오마치고개에 도착합니다."
@@ -3094,11 +3124,11 @@
   {
    "id": "s70",
    "lines": [
+    "물러나던 그 길에서야 부대는, 뒤쪽 고개가 이미 넘어갔다는 사실을 알게 됩니다.",
     {
      "t": "5월 17일 오후 1시경.",
      "say": "오월 십칠일 오후 한 시경."
-    },
-    "군단의 병력이 하나둘 현리 분지로 모여듭니다."
+    }
    ],
    "visual": {
     "type": "map",
@@ -3127,9 +3157,67 @@
      "text": "5. 17 오후 1시경",
      "style": "blue",
      "at": 0,
-     "pos": "top"
+     "pos": "lower"
     }
    ]
+  },
+  {
+   "id": "s70b",
+   "lines": [
+    "군단의 병력이 하나둘 현리 분지로 모여듭니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "zoom",
+    "to": "zoom",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.37,
+        38.1
+       ],
+       [
+        128.33,
+        38.02
+       ],
+       [
+        128.317,
+        37.957
+       ],
+       [
+        128.285,
+        37.925
+       ],
+       [
+        128.255,
+        37.89
+       ],
+       [
+        128.22,
+        37.85
+       ]
+      ],
+      "color": "#FFD000",
+      "at": 0,
+      "glow": true
+     },
+     {
+      "k": "marker",
+      "p": "omachi",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "lock",
+      "p": "omachi",
+      "at": 0.2,
+      "text": "이미 피탈"
+     }
+    ],
+    "tilt": 26
+   }
   },
   {
    "id": "s71",
@@ -3151,7 +3239,7 @@
    "id": "s72",
    "lines": [
     {
-     "t": "규모는 2만 5천 명 안팎으로 전해지는데요.",
+     "t": "규모는 이만 5천 명 안팎으로 전해지는데요.",
      "say": "규모는 이만 오천 명 안팎으로 전해지는데요."
     },
     "트럭과 대포, 탄약 차량이 좁은 길을 메우고, 부대와 부대가 엉켜 누가 어느 소속인지조차 알아보기 어려워집니다."
@@ -3586,7 +3674,7 @@
    "visual": {
     "type": "map",
     "from": "bt",
-    "to": "zoom",
+    "to": "cut",
     "items": [
      {
       "k": "line",
@@ -3789,7 +3877,7 @@
    "visual": {
     "type": "map",
     "from": "zoom",
-    "to": "bt",
+    "to": "bang",
     "items": [
      {
       "k": "marker",
@@ -4362,7 +4450,7 @@
      "text": "5. 21 · 다시 철수",
      "style": "red",
      "at": 0,
-     "pos": "top"
+     "pos": "lower"
     }
    ]
   },
@@ -4563,6 +4651,18 @@
     "sub": "창설 약 8개월 만",
     "subAt": 0.4
    }
+  },
+  {
+   "id": "s129b",
+   "lines": [
+    "유재흥 소장도 군단장 자리에서 물러나게 됩니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "yu_alone",
+    "kb": "out"
+   },
+   "label": "재연 일러스트"
   },
   {
    "id": "s130",
@@ -4840,6 +4940,23 @@
      "pos": "top"
     }
    ]
+  },
+  {
+   "id": "s140b",
+   "lines": [
+    {
+     "t": "중공군 측 종군기자의 회고에 따르면, 이 작전의 전과는 5천 명 안팎으로 기대에 못 미쳤다고 합니다.",
+     "say": "중공군 측 종군기자의 회고에 따르면, 이 작전의 전과는 오천 명 안팎으로 기대에 못 미쳤다고 합니다."
+    },
+    "문을 닫고도 그물 안의 물고기를 다 잡지는 못했던 겁니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "기대에 못 미친 전과",
+    "style": "yellow",
+    "sub": "중공군 종군기자 회고 · 5천 명 안팎",
+    "subAt": 0.4
+   }
   },
   {
    "id": "s141",
@@ -5158,6 +5275,48 @@
    ]
   },
   {
+   "id": "s149b",
+   "lines": [
+    "시각을 다시 짚어 보겠습니다.",
+    {
+     "t": "포성이 울린 것이 5월 16일 오후 4시, 고개가 넘어간 것이 17일 새벽 4시입니다.",
+     "say": "포성이 울린 것이 오월 십육일 오후 네 시, 고개가 넘어간 것이 십칠일 새벽 네 시입니다."
+    },
+    {
+     "t": "12시간 만이죠.",
+     "say": "열두 시간 만이죠."
+    },
+    {
+     "t": "그리고 돌파 작전이 시작된 건 그날 오후 5시 30분이었습니다.",
+     "say": "그리고 돌파 작전이 시작된 건 그날 오후 다섯 시 삼십 분이었습니다."
+    },
+    {
+     "t": "고개를 잃고 13시간 반이 지나서야 움직인 겁니다.",
+     "say": "고개를 잃고 열세 시간 반이 지나서야 움직인 겁니다."
+    }
+   ],
+   "visual": {
+    "type": "timeline",
+    "items": [
+     {
+      "date": "5. 16 16시",
+      "text": "공격 개시",
+      "at": 0
+     },
+     {
+      "date": "5. 17 04시",
+      "text": "고개 피탈",
+      "at": 0.4
+     },
+     {
+      "date": "5. 17 17:30",
+      "text": "돌파 시도",
+      "at": 0.8
+     }
+    ]
+   }
+  },
+  {
    "id": "s150",
    "lines": [
     "넷째, 그리고 가장 무서운 것, 지휘입니다.",
@@ -5283,7 +5442,7 @@
    "visual": {
     "type": "map",
     "from": "east",
-    "to": "korea",
+    "to": "koreaN",
     "items": [
      {
       "k": "marker",
@@ -5372,8 +5531,8 @@
    ],
    "visual": {
     "type": "map",
-    "from": "korea",
-    "to": "east",
+    "from": "koreaN",
+    "to": "cw",
     "items": [
      {
       "k": "marker",

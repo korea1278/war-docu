@@ -1149,6 +1149,22 @@ export const PAROHO_STD: Record<string, ThumbnailProps> = {
     characterPos: "50% 0%",
     stampPos: { x: 860, y: 560 },
   },
+  // EP24 현리 전투 — 지도 좌표는 개략, 인물은 AI 상징 국군 병사(사료풍)
+  "ep24-hyeonri": {
+    quote: "퇴로가 끊겼다, 전 군단은 산으로 분산하라",
+    titleLine1: "하룻밤 만에 군단 전체가 증발해버린",
+    titleLine2: "현리 오마치고개의 비극",
+    mapImage: "geo/hyeonri_zoom.webp",
+    characterCutout: "ep/ep24-hyeonri/ai/thumb_subject.png",
+    mapCrop: { cx: 0.6766, cy: 0.4347, zoom: 1.1 },
+    targets: [{ x: 480, y: 520, r: 80, label: "오마치고개" }],
+    places: [{ x: 734, y: 195, label: "현리" }],
+    arrows: [
+      { pts: [[120, 200], [290, 350], [425, 470]], color: "red" },
+      { pts: [[720, 230], [630, 360], [545, 465]], color: "ally" },
+    ],
+    characterPos: "50% 0%",
+  },
   "paroho:sample": {
     quote: "호수 전체가 시체로 뒤덮였다",
     titleLine1: "사흘 밤낮 60km를 쫓아가",
