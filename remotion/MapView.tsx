@@ -77,6 +77,100 @@ const partial = (pts: [number, number][], k: number) => {
 
 const d = (pts: [number, number][]) => "M" + pts.map((p) => `${p[0].toFixed(1)},${p[1].toFixed(1)}`).join("L");
 
+/** EP25: 카메라 경로용 Catmull-Rom (THREE.CatmullRomCurve3와 같은 균일 공식) — 값 배열 여러 개를 u(0~1)로 보간 */
+const catmull = (P: number[][], u: number) => {
+  const n = P.length - 1;
+  const x = clamp(u) * n;
+  const i = Math.min(n - 1, Math.floor(x));
+  const s = x - i;
+  const p0 = P[Math.max(0, i - 1)],
+    p1 = P[i],
+    p2 = P[i + 1],
+    p3 = P[Math.min(n, i + 2)];
+  const s2 = s * s,
+    s3 = s2 * s;
+  return p1.map((_, k) => 0.5 * (2 * p1[k] + (-p0[k] + p2[k]) * s + (2 * p0[k] - 5 * p1[k] + 4 * p2[k] - p3[k]) * s2 + (-p0[k] + 3 * p1[k] - 3 * p2[k] + p3[k]) * s3));
+};
+
+/** EP25: 결정론적 의사 난수 (프레임마다 같은 값 — Math.random 금지) */
+const hash = (n: number) => {
+  const x = Math.sin(n * 127.1 + 311.7) * 43758.5453;
+  return x - Math.floor(x);
+};
+
+/** EP25: 전술 HUD — 조준 레티클 · 회전 나침반 눈금 · 위경도/고도 카운터. 장면 visual.hud = true 일 때만 */
+const TacticalHud: React.FC<{ t: number; center: LonLat; span: number; heading: number }> = ({ t, center, span, heading }) => {
+  const c = "rgba(120,255,170,0.85)";
+  const dim = "rgba(120,255,170,0.35)";
+  const op = clamp(t / 0.6);
+  const alt = Math.round(span * 111000 * 0.9); // 화면 폭(도) → 대략의 관측 고도(m)
+  const dms = (v: number, pos: string, neg: string) => {
+    const a = Math.abs(v),
+      dd = Math.floor(a),
+      mm = Math.floor((a - dd) * 60),
+      ss = ((a - dd) * 60 - mm) * 60;
+    return `${dd}°${String(mm).padStart(2, "0")}'${ss.toFixed(1).padStart(4, "0")}"${v >= 0 ? pos : neg}`;
+  };
+  const ticks: React.ReactNode[] = [];
+  for (let deg = -60; deg <= 60; deg += 5) {
+    const hd = Math.round(heading / 5) * 5 + deg;
+    const x = 960 + (hd - heading) * 7;
+    const norm = ((hd % 360) + 360) % 360;
+    const major = norm % 30 === 0;
+    const lab = norm === 0 ? "N" : norm === 90 ? "E" : norm === 180 ? "S" : norm === 270 ? "W" : String(norm).padStart(3, "0");
+    ticks.push(
+      <g key={deg}>
+        <line x1={x} y1={58} x2={x} y2={major ? 34 : 46} stroke={major ? c : dim} strokeWidth={major ? 3 : 2} />
+        {major && (
+          <text x={x} y={26} textAnchor="middle" fontFamily="monospace" fontSize={20} fill={c} fontWeight={700}>
+            {lab}
+          </text>
+        )}
+      </g>
+    );
+  }
+  const R = 70;
+  const sp = (t * 40) % 360;
+  return (
+    <svg width={1920} height={1080} style={{ position: "absolute", left: 0, top: 0, opacity: op, pointerEvents: "none" }}>
+      <defs>
+        <linearGradient id="hudFade" x1="0" x2="1">
+          <stop offset="0" stopColor="#fff" stopOpacity="0" />
+          <stop offset="0.25" stopColor="#fff" stopOpacity="1" />
+          <stop offset="0.75" stopColor="#fff" stopOpacity="1" />
+          <stop offset="1" stopColor="#fff" stopOpacity="0" />
+        </linearGradient>
+        <mask id="hudMask">
+          <rect x={540} y={0} width={840} height={80} fill="url(#hudFade)" />
+        </mask>
+      </defs>
+      {/* 회전 나침반 눈금 (상단 가운데) */}
+      <rect x={560} y={6} width={800} height={60} fill="rgba(0,0,0,0.35)" rx={6} />
+      <g mask="url(#hudMask)">{ticks}</g>
+      <path d="M960,62 l-10,14 h20 Z" fill={c} />
+      {/* 조준 레티클 (화면 가운데, 반투명) */}
+      <g transform="translate(960,540)" opacity={0.55}>
+        <circle r={R} fill="none" stroke={c} strokeWidth={2} />
+        <circle r={R * 1.9} fill="none" stroke={dim} strokeWidth={1.5} strokeDasharray="3 9" transform={`rotate(${sp})`} />
+        {[0, 90, 180, 270].map((a) => (
+          <line key={a} x1={0} y1={-R - 8} x2={0} y2={-R - 34} stroke={c} strokeWidth={3} transform={`rotate(${a})`} />
+        ))}
+        <line x1={-24} y1={0} x2={-8} y2={0} stroke={c} strokeWidth={2} />
+        <line x1={8} y1={0} x2={24} y2={0} stroke={c} strokeWidth={2} />
+        <line x1={0} y1={-24} x2={0} y2={-8} stroke={c} strokeWidth={2} />
+        <line x1={0} y1={8} x2={0} y2={24} stroke={c} strokeWidth={2} />
+      </g>
+      {/* 실시간 좌표·고도 카운터 (좌측 상단) */}
+      <g fontFamily="monospace" fontSize={22} fill={c} fontWeight={700}>
+        <rect x={20} y={48} width={330} height={104} fill="rgba(0,0,0,0.45)" stroke={dim} strokeWidth={1.5} rx={4} />
+        <text x={34} y={78}>LAT {dms(center[1], "N", "S")}</text>
+        <text x={34} y={108}>LON {dms(center[0], "E", "W")}</text>
+        <text x={34} y={138}>ALT {String(alt).padStart(6, "0")} M · HDG {String(Math.round(((heading % 360) + 360) % 360)).padStart(3, "0")}</text>
+      </g>
+    </svg>
+  );
+};
+
 const Pill: React.FC<{ x: number; y: number; text: string; bg: string; fg?: string; s: number; anchor?: "left" | "right" | "center"; size?: number }> = ({
   x,
   y,
@@ -133,8 +227,23 @@ export const MapView: React.FC<{ tl: Timeline }> = ({ tl }) => {
   const tiltScale = 1.08 + Math.max(0, tiltDeg - 16) * 0.012;
   const tiltOrigin = 55 - Math.max(0, tiltDeg - 16) * 0.75; // 45도 → 원점 약 33%: 위쪽 빈 띠 방지
   const toSpan = to.span / zoom;
-  const span = Math.exp(Math.log(from.span) + (Math.log(toSpan) - Math.log(from.span)) * k) / drift;
-  const center: LonLat = [from.center[0] + (to.center[0] - from.center[0]) * k, from.center[1] + (to.center[1] - from.center[1]) * k];
+  let span = Math.exp(Math.log(from.span) + (Math.log(toSpan) - Math.log(from.span)) * k) / drift;
+  let center: LonLat = [from.center[0] + (to.center[0] - from.center[0]) * k, from.center[1] + (to.center[1] - from.center[1]) * k];
+  // EP25: v.flight = [뷰 키…] → 카메라가 Catmull-Rom 곡선(중심 경위도 + log 폭)을 따라 저공 비행. 프레임(t) 기반, flightDur 초 동안
+  let heading = 0;
+  if (Array.isArray(v.flight) && v.flight.length >= 2) {
+    const keys: any[] = v.flight.map((kk: string) => tl.views[kk] || from);
+    const ctrl = keys.map((w) => [w.center[0], w.center[1], Math.log(w.span)]);
+    const fd = v.flightDur || sc.dur * 0.9;
+    const u = easeInOut(clamp(t / fd));
+    const q = catmull(ctrl, u);
+    const q2 = catmull(ctrl, Math.min(1, u + 0.02));
+    center = [q[0], q[1]];
+    span = Math.exp(q[2]) / drift;
+    if (Math.hypot(q2[0] - q[0], q2[1] - q[1]) > 1e-6) heading = (Math.atan2(q2[0] - q[0], q2[1] - q[1]) * 180) / Math.PI;
+  } else {
+    heading = (t * 6) % 360; // 정지 화면에서도 나침반이 천천히 돈다 (HUD 연출)
+  }
 
   // 1920x1080 기준 투영
   const proj: GeoProjection = geoMercator()
@@ -360,6 +469,48 @@ export const MapView: React.FC<{ tl: Timeline }> = ({ tl }) => {
         </g>
       );
       if (it.text && k >= 1) html.push(<Pill key={"h" + i} x={x} y={y - S0 - 36} text={it.text} bg="#111" s={1} anchor="center" size={30} />);
+    } else if (it.k === "swarm") {
+      // EP25: 파티클 스웜 — 공세 축선(path)을 따라 붉은 발광 입자 n개(기본 200)가 대열을 이뤄 진격. 결정론적(hash) 배치
+      const pts = smooth((it.path as LonLat[]).map(P), 14);
+      const L: number[] = [0];
+      for (let j = 1; j < pts.length; j++) L.push(L[j - 1] + Math.hypot(pts[j][0] - pts[j - 1][0], pts[j][1] - pts[j - 1][1]));
+      const total = L[L.length - 1] || 1;
+      const at = (dist: number) => {
+        let j = 1;
+        while (j < L.length - 1 && L[j] < dist) j++;
+        const r = (dist - L[j - 1]) / (L[j] - L[j - 1] || 1);
+        const a = pts[j - 1],
+          b = pts[j];
+        return { x: a[0] + (b[0] - a[0]) * r, y: a[1] + (b[1] - a[1]) * r, nx: -(b[1] - a[1]), ny: b[0] - a[0] };
+      };
+      const n = it.n || 200;
+      const head = easeOut(since / (it.dur || 2.2)); // 선두가 축선 끝까지 나아가는 비율
+      const spd = (it.speed || 0.12) * total; // px/초 흐름
+      const wid = 26 * (it.width || 1);
+      const c = colorOf(it.color || "#ff3b30");
+      const dots: React.ReactNode[] = [];
+      for (let j = 0; j < n; j++) {
+        const lag = hash(j) * 0.55; // 대열 뒤쪽일수록 늦게 출발
+        let s = (head - lag) * total + ((since * spd + hash(j + 7) * total) % (total * 0.18));
+        if (s < 0 || s > head * total) continue;
+        s = Math.min(s, total - 1);
+        const p = at(s);
+        const nl = Math.hypot(p.nx, p.ny) || 1;
+        const off = (hash(j + 13) - 0.5) * 2 * wid + Math.sin(since * 3 + j) * 3;
+        const x = p.x + (p.nx / nl) * off,
+          y = p.y + (p.ny / nl) * off;
+        const flick = 0.6 + 0.4 * Math.sin(since * 9 + j * 1.7);
+        const r = (4.5 + hash(j + 29) * 3.5) * (it.size || 1);
+        dots.push(<circle key={j} cx={x} cy={y} r={r * 2.4} fill={c} opacity={0.32 * flick} />);
+        dots.push(<circle key={"c" + j} cx={x} cy={y} r={r} fill={c} stroke="#2a0000" strokeWidth={1.5} opacity={0.95} />);
+        dots.push(<circle key={"h" + j} cx={x - r * 0.25} cy={y - r * 0.25} r={r * 0.4} fill="#ffe2d8" opacity={0.85 * flick} />);
+      }
+      // 밝은 지형 위에서도 보이게 일반 합성 + 붉은 발광(그림자 필터)
+      svgItems.push(
+        <g key={i} filter="url(#swarmGlow)">
+          {dots}
+        </g>
+      );
     } else if (it.k === "badge") {
       const [x, y] = P(resolveP(tl, it.p));
       const s = popIn(since / 0.35);
@@ -445,6 +596,10 @@ export const MapView: React.FC<{ tl: Timeline }> = ({ tl }) => {
               <feDropShadow dx="0" dy="2" stdDeviation="6" floodColor="#000" floodOpacity="0.7" />
               <feDropShadow dx="0" dy="0" stdDeviation="4" floodColor="#fff" floodOpacity="0.3" />
             </filter>
+            {/* EP25 파티클 스웜 붉은 발광 */}
+            <filter id="swarmGlow" x="-10%" y="-10%" width="120%" height="120%">
+              <feDropShadow dx="0" dy="0" stdDeviation="5" floodColor="#ff2a1a" floodOpacity="0.9" />
+            </filter>
             {/* 묵직한 그림자 필터 */}
             <filter id="tacticalShadow" x="-30%" y="-30%" width="160%" height="160%">
               <feDropShadow dx="0" dy="6" stdDeviation="8" floodColor="#000" floodOpacity="0.8" />
@@ -477,6 +632,9 @@ export const MapView: React.FC<{ tl: Timeline }> = ({ tl }) => {
           pointerEvents: "none",
         }}
       />
+
+      {/* EP25: 밀리터리 Tactical HUD (visual.hud = true) — 틸트 레이어 밖에 그려 화면에 고정 */}
+      {v.hud && <TacticalHud t={t} center={center} span={span} heading={heading} />}
 
       {/* 군용 전술 HUD 모서리 표식 */}
       <div style={{ position: "absolute", top: 20, left: 24, fontFamily: F.body, fontSize: 13, color: "rgba(255,255,255,0.4)", letterSpacing: 2 }}>
