@@ -1,5 +1,6 @@
 # EP25 수도고지·지형능선 전투 스토리보드 생성기 — 첫 생성용(기록). 나레이션은 script.md 문장을 순서대로 그대로 가져온다.
 # ⚠️ storyboard.json을 손으로 고친 뒤에는 다시 돌리지 말 것 (수정 사항이 덮어써짐)
+# ⚠️ 2026-11-11 미리보기 뒤 storyboard.json을 손으로 고침(s29b·s86b·s114b·s144b 추가, 뷰·그림 프롬프트 수정) — 이 스크립트를 다시 돌리지 말 것
 # 새 지도 기능(EP25): visual.flight(뷰 키 목록 → Catmull-Rom 카메라 비행) · visual.hud(전술 HUD) · 아이템 swarm(파티클 200개)
 import glob
 import json
