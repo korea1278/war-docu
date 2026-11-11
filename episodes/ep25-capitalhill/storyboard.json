@@ -1955,7 +1955,7 @@
      "text": "중공군 제12군",
      "style": "red",
      "at": 0,
-     "pos": "top"
+     "pos": "lower"
     }
    ]
   },
@@ -4274,14 +4274,12 @@
      {
       "k": "lock",
       "p": "baengma",
-      "at": 0.3,
-      "text": "백마고지"
+      "at": 0.3
      },
      {
       "k": "lock",
       "p": "capital",
-      "at": 0.6,
-      "text": "수도고지"
+      "at": 0.6
      }
     ]
    },
