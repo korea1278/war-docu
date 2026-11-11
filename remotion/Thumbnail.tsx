@@ -1165,6 +1165,27 @@ export const PAROHO_STD: Record<string, ThumbnailProps> = {
     ],
     characterPos: "50% 0%",
   },
+  // EP25 수도고지·지형능선 — 지시서 카피 그대로 ('7번'은 사료 미확인 · 사용자 지시로 유지). 좌표는 capital_zoom 위 미군 그리드(수도고지 CT 905493 · 지형능선 CT 878498), 공세 축선은 개략
+  "ep25-capitalhill": {
+    quote: "진지를 뺏기면 우리 사단은 갈 곳이 없다",
+    titleLine1: "7번 빼앗기고 7번 되찾아낸",
+    titleLine2: "수도고지 피의 사투",
+    mapImage: "geo/capital_zoom.webp",
+    characterCutout: "ep/ep25-capitalhill/ai/thumb_cut.png",
+    mapCrop: { cx: 0.6792, cy: 0.3874, zoom: 1.2 },
+    targets: [
+      { x: 640, y: 480, r: 84, label: "수도고지" },
+      { x: 279, y: 421, r: 62, label: "지형능선" },
+    ],
+    places: [{ x: 936, y: 598, label: "북한강" }],
+    arrows: [
+      { pts: [[560, 150], [600, 300], [628, 385]], color: "red" },
+      { pts: [[960, 170], [820, 300], [705, 420]], color: "red" },
+      { pts: [[250, 180], [268, 290], [276, 345]], color: "red" },
+      { pts: [[612, 760], [628, 660], [638, 575]], color: "ally" },
+    ],
+    characterPos: "50% 0%",
+  },
   "paroho:sample": {
     quote: "호수 전체가 시체로 뒤덮였다",
     titleLine1: "사흘 밤낮 60km를 쫓아가",
