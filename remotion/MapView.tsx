@@ -519,6 +519,72 @@ export const MapView: React.FC<{ tl: Timeline }> = ({ tl }) => {
           {dots}
         </g>
       );
+    } else if (it.k === "plane") {
+      // EP26: 전투기 편대 비행 궤적 — path를 따라 위에서 본 프로펠러기 실루엣 n대(기본 1)가 날아감 + 비행운.
+      // dur(초)·size·n(편대 대수)·gap(편대 간격, 경로 비율)·trail(false면 비행운 없음)·hit(true면 끝점에 폭발 링)
+      const pts = smooth((it.path as LonLat[]).map(P), 16);
+      const L: number[] = [0];
+      for (let j = 1; j < pts.length; j++) L.push(L[j - 1] + Math.hypot(pts[j][0] - pts[j - 1][0], pts[j][1] - pts[j - 1][1]));
+      const total = L[L.length - 1] || 1;
+      const posAt = (dist: number) => {
+        dist = Math.max(0, Math.min(total, dist));
+        let j = 1;
+        while (j < L.length - 1 && L[j] < dist) j++;
+        const r = (dist - L[j - 1]) / (L[j] - L[j - 1] || 1);
+        const a = pts[j - 1],
+          b = pts[j];
+        return { x: a[0] + (b[0] - a[0]) * r, y: a[1] + (b[1] - a[1]) * r, ang: Math.atan2(b[1] - a[1], b[0] - a[0]) };
+      };
+      const dur = it.dur || 3;
+      const n = it.n || 1;
+      const gap = it.gap ?? 0.06;
+      const sz = 46 * (it.size || 1);
+      const c = colorOf(it.color || "#f4f4f4");
+      const lead = easeInOut(clamp(since / dur));
+      if (it.trail !== false)
+        svgItems.push(
+          <path key={"tr" + i} d={d(partial(pts, lead))} stroke="rgba(255,255,255,.85)" strokeWidth={5} strokeDasharray="14 10" fill="none" strokeLinecap="round" filter="url(#tacticalShadow)" />
+        );
+      const planes: React.ReactNode[] = [];
+      for (let j = 0; j < n; j++) {
+        const k = lead - j * gap;
+        if (k <= 0) continue;
+        const side = j === 0 ? 0 : (j % 2 ? 1 : -1) * Math.ceil(j / 2);
+        const p = posAt(k * total);
+        const ox = -Math.sin(p.ang) * side * sz * 0.9,
+          oy = Math.cos(p.ang) * side * sz * 0.9;
+        planes.push(
+          <g key={j} transform={`translate(${p.x + ox},${p.y + oy}) rotate(${(p.ang * 180) / Math.PI}) scale(${sz / 40})`}>
+            <ellipse cx={-6} cy={9} rx={22} ry={18} fill="rgba(0,0,0,.28)" />
+            {/* 위에서 본 프로펠러 전투기 (기수 +x) */}
+            <path
+              d="M22 0 L16 -3 L4 -3 L2 -21 L-4 -21 L-6 -3 L-15 -3 L-17 -9 L-21 -9 L-20 0 L-21 9 L-17 9 L-15 3 L-6 3 L-4 21 L2 21 L4 3 L16 3 Z"
+              fill={c}
+              stroke="#111"
+              strokeWidth={1.8}
+              strokeLinejoin="round"
+            />
+            <circle cx={-1} cy={-12} r={3} fill="#1b4fa8" stroke="#fff" strokeWidth={0.8} />
+            <circle cx={-1} cy={12} r={3} fill="#1b4fa8" stroke="#fff" strokeWidth={0.8} />
+            <line x1={23} y1={-6} x2={23} y2={6} stroke="#111" strokeWidth={1.5} opacity={0.5 + 0.5 * Math.sin(t * 40)} />
+          </g>
+        );
+      }
+      svgItems.push(
+        <g key={i} filter="url(#tacticalShadow)">
+          {planes}
+        </g>
+      );
+      if (it.hit && since > dur) {
+        const e = pts[pts.length - 1];
+        const hk = clamp((since - dur) / 0.9);
+        svgItems.push(
+          <g key={"hit" + i}>
+            <circle cx={e[0]} cy={e[1]} r={20 + 120 * easeOut(hk)} fill="none" stroke="#ffb020" strokeWidth={10 * (1 - hk) + 2} opacity={1 - hk} />
+            <circle cx={e[0]} cy={e[1]} r={30 * (1 - hk) + 8} fill="#fff3c0" opacity={1 - hk * 0.7} />
+          </g>
+        );
+      }
     } else if (it.k === "badge") {
       const [x, y] = P(resolveP(tl, it.p));
       const s = popIn(since / 0.35);
