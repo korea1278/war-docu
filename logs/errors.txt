@@ -65,3 +65,4 @@
 2026-11-12 11:04:10 ep08-chosin: 러닝타임 20분 18초 — 목표 20분 30초와 10초 이상 차이 (대본 분량 조정 필요)
 2026-11-12 11:04:17 ep08-chosin: 러닝타임 20분 18초 — 목표 20분 30초와 10초 이상 차이 (대본 분량 조정 필요)
 2026-11-12 12:24:06 하천 데이터(pyongyang) 실패(기존 유지): 504 Server Error: Gateway Time-out for url: https://maps.mail.ru/osm/tools/overpass/api/interpreter
+2026-11-12 12:55:01 하천 데이터(pyongyang) 실패(기존 유지): 504 Server Error: Gateway Timeout for url: https://maps.mail.ru/osm/tools/overpass/api/interpreter
