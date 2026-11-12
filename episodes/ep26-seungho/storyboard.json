@@ -2,7 +2,7 @@
  "title": "승호리 철교 폭파작전",
  "subtitle": "1952. 1. 12 ~ 15",
  "style": 2,
- "sfx": false,
+ "sfx_policy": "doc",
  "bgm_rel_db": -24,
  "target_sec": 1200,
  "voice": "U1cJYS4EdbaHmfR7YzHd",
@@ -249,7 +249,13 @@
     ],
     "tilt": 30,
     "hud": true
-   }
+   },
+   "sfx": [
+    {
+     "id": "ping",
+     "at": 0.2
+    }
+   ]
   },
   {
    "id": "s003",
@@ -321,7 +327,13 @@
     ],
     "tilt": 38,
     "hud": true
-   }
+   },
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.1
+    }
+   ]
   },
   {
    "id": "s006",
@@ -333,7 +345,13 @@
     "img": "dive_start",
     "kb": "in"
    },
-   "label": "재연 일러스트"
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0
+    }
+   ]
   },
   {
    "id": "s007",
@@ -345,7 +363,13 @@
     "img": "dive_flak",
     "kb": "in"
    },
-   "label": "재연 일러스트"
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0
+    }
+   ]
   },
   {
    "id": "s008",
@@ -644,7 +668,13 @@
    "chapter": {
     "num": "제1막",
     "title": "500번을 버틴 다리"
-   }
+   },
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0
+    }
+   ]
   },
   {
    "id": "s020",
@@ -1183,6 +1213,16 @@
      "at": 0,
      "pos": "top"
     }
+   ],
+   "sfx": [
+    {
+     "id": "whoosh",
+     "at": 0
+    },
+    {
+     "id": "ping",
+     "at": 0.8
+    }
    ]
   },
   {
@@ -1645,7 +1685,13 @@
     ],
     "tilt": 36,
     "hud": true
-   }
+   },
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.1
+    }
+   ]
   },
   {
    "id": "s048",
@@ -1657,7 +1703,13 @@
     "img": "flak_valley",
     "kb": "in"
    },
-   "label": "재연 일러스트"
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0
+    }
+   ]
   },
   {
    "id": "s049",
@@ -1750,7 +1802,13 @@
     "img": "bomb_miss",
     "kb": "in"
    },
-   "label": "재연 일러스트"
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0
+    }
+   ]
   },
   {
    "id": "s052",
@@ -1769,6 +1827,12 @@
      "style": "dark",
      "at": 0,
      "pos": "lower"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0
     }
    ]
   },
@@ -2734,7 +2798,17 @@
      "north",
      "pyong"
     ]
-   }
+   },
+   "sfx": [
+    {
+     "id": "whoosh",
+     "at": 0
+    },
+    {
+     "id": "ping",
+     "at": 0.6
+    }
+   ]
   },
   {
    "id": "s093",
@@ -2958,7 +3032,13 @@
     "img": "winter_cockpit",
     "kb": "in"
    },
-   "label": "재연 일러스트"
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0
+    }
+   ]
   },
   {
    "id": "s097",
@@ -2977,6 +3057,12 @@
      "style": "dark",
      "at": 0,
      "pos": "lower"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0
     }
    ]
   },
@@ -3060,6 +3146,12 @@
      "at": 0,
      "pos": "top"
     }
+   ],
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0
+    }
    ]
   },
   {
@@ -3134,7 +3226,13 @@
     ],
     "tilt": 30,
     "hud": true
-   }
+   },
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.1
+    }
+   ]
   },
   {
    "id": "s103",
@@ -3188,6 +3286,12 @@
      "at": 0,
      "pos": "top"
     }
+   ],
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.1
+    }
    ]
   },
   {
@@ -3219,6 +3323,12 @@
      "style": "dark",
      "at": 0,
      "pos": "lower"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0
     }
    ]
   },
@@ -4720,7 +4830,13 @@
     "img": "dawn_base",
     "kb": "in"
    },
-   "label": "재연 일러스트"
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0
+    }
+   ]
   },
   {
    "id": "s162",
@@ -4780,6 +4896,12 @@
      "at": 0,
      "pos": "top"
     }
+   ],
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0
+    }
    ]
   },
   {
@@ -4795,7 +4917,13 @@
     "img": "engine_start",
     "kb": "in"
    },
-   "label": "재연 일러스트"
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0
+    }
+   ]
   },
   {
    "id": "s166",
@@ -5005,7 +5133,13 @@
     ],
     "tilt": 36,
     "hud": true
-   }
+   },
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.1
+    }
+   ]
   },
   {
    "id": "s170",
@@ -5027,6 +5161,12 @@
      "style": "blue",
      "at": 0,
      "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0
     }
    ]
   },
@@ -5103,7 +5243,13 @@
     ],
     "tilt": 38,
     "hud": true
-   }
+   },
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.1
+    }
+   ]
   },
   {
    "id": "s172",
@@ -5115,7 +5261,13 @@
     "img": "rocket_fire",
     "kb": "in"
    },
-   "label": "재연 일러스트"
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0
+    }
+   ]
   },
   {
    "id": "s173",
@@ -5161,6 +5313,12 @@
      "at": 0,
      "pos": "top"
     }
+   ],
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.1
+    }
    ]
   },
   {
@@ -5195,6 +5353,12 @@
      "style": "red",
      "at": 0,
      "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0
     }
    ]
   },
@@ -5358,6 +5522,12 @@
      "at": 0,
      "pos": "top"
     }
+   ],
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.1
+    }
    ]
   },
   {
@@ -5424,6 +5594,12 @@
      "at": 0,
      "pos": "top"
     }
+   ],
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0
+    }
    ]
   },
   {
@@ -5475,7 +5651,13 @@
     "img": "flak_close",
     "kb": "in"
    },
-   "label": "재연 일러스트"
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0
+    }
+   ]
   },
   {
    "id": "s184",
@@ -5562,7 +5744,13 @@
     ],
     "tilt": 40,
     "hud": true
-   }
+   },
+   "sfx": [
+    {
+     "id": "ping",
+     "at": 0
+    }
+   ]
   },
   {
    "id": "s188",
@@ -5577,7 +5765,13 @@
     "img": "bridge_explode",
     "kb": "in"
    },
-   "label": "재연 일러스트"
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0
+    }
+   ]
   },
   {
    "id": "s189",
@@ -6722,6 +6916,12 @@
      "at": 0,
      "pos": "lower"
     }
+   ],
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0
+    }
    ]
   },
   {
@@ -6979,7 +7179,13 @@
     "img": "snow_ridges",
     "kb": "in"
    },
-   "label": "재연 일러스트"
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0
+    }
+   ]
   },
   {
    "id": "s241",
@@ -7031,7 +7237,13 @@
     "img": "empty_slot",
     "kb": "in"
    },
-   "label": "재연 일러스트"
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0
+    }
+   ]
   },
   {
    "id": "s245",

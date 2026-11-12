@@ -10,8 +10,11 @@ const SceneAudio: React.FC<{ tl: Timeline; i: number }> = ({ tl, i }) => {
   const has = (id: string) => tl.sfx.includes(id);
   const sfx = [...sc.sfx];
   // 자동 효과음: 강조 박스 등장 → pop, 챕터 → whoosh
-  sc.callouts.forEach((c) => sfx.push({ id: "pop", at: c.at, volume: 0.35, _auto: true } as any));
-  if (sc.chapter) sfx.push({ id: "whoosh", at: -1, volume: 0.5 } as any);
+  // 다큐 SFX 기준(sfxPolicy "doc", docs/LONGFORM_STANDARD.md)이면 timeline.py가 막 전환 스윕까지 정리해 두므로 자동 효과음 없음
+  if ((tl as any).sfxPolicy !== "doc") {
+    sc.callouts.forEach((c) => sfx.push({ id: "pop", at: c.at, volume: 0.35, _auto: true } as any));
+    if (sc.chapter) sfx.push({ id: "whoosh", at: -1, volume: 0.5 } as any);
+  }
   return (
     <>
       {sc.audio && (
