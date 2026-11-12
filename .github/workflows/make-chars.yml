@@ -1,0 +1,39 @@
+name: 캐릭터 라이브러리 만들기
+
+# 화면 업그레이드 2단계 ① — 정장 차림 볼 캐릭터(나라 7 × 포즈 6)를 Gemini로 그리고 rembg로 누끼
+on:
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "다시 만들 캐릭터 (공백으로, 예: kr_point us_idle) — 비우면 없는 것만"
+        default: ""
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: make-chars
+  cancel-in-progress: false
+
+jobs:
+  chars:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: 설치
+        run: pip install -q requests numpy pillow "rembg[cpu]"
+      - name: 캐릭터 생성
+        run: cd pipeline && python chars.py ${{ github.event.inputs.only }}
+      - name: 저장
+        if: always()
+        run: |
+          git config user.name "war-docu-bot" && git config user.email "actions@users.noreply.github.com"
+          git add -A public/chars && git commit -qm "캐릭터 라이브러리" || echo "변경 없음"
+          for i in 1 2 3 4 5; do git pull --rebase -X theirs -q && git push -q && break; sleep 15; done
