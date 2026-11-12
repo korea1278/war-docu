@@ -19,6 +19,94 @@ def scene_tts_text(sc):
     return " ".join(line_say(l).strip() for l in sc["lines"])
 
 
+def cut_mp3(src, dst, a, b):
+    import subprocess
+    cmd = ["ffmpeg", "-v", "error", "-y", "-i", str(src), "-ss", f"{a:.3f}"]
+    if b is not None:
+        cmd += ["-to", f"{b:.3f}"]
+    subprocess.run(cmd + ["-c:a", "libmp3lame", "-b:a", "192k", str(dst)], check=True)
+
+
+def main_acts(ep, board, key, voice, model, settings, s, adir):
+    """막(act) 단위 생성 (2026-11-12 ep08-chosin 지시서: 문장 단위 쪼개기 금지, 1막 = 통 MP3 1개).
+    장면마다 "act": n 을 달면 같은 막 장면들을 이어 붙여 일레븐랩스 1회 호출 → tts/acts/act<n>.mp3 (원본 보존)
+    → 글자 타임스탬프로 장면 경계(앞 장면 마지막 글자 끝 ~ 다음 장면 첫 글자 시작의 가운데)를 잘라 장면별 mp3·json을 만든다.
+    그래서 tighten·timeline·자막은 기존 그대로 동작하고, 목소리의 호흡·억양은 막 전체로 한 번에 이어진다."""
+    acts = {}
+    for sc in board["scenes"]:
+        if sc["lines"]:
+            acts.setdefault(sc["act"], []).append(sc)
+    ddir = adir / "acts"
+    ddir.mkdir(exist_ok=True)
+    order = sorted(acts)
+    for n in order:
+        group = acts[n]
+        texts = [scene_tts_text(sc) for sc in group]
+        text = " ".join(texts)
+        sig = hashlib.sha1(json.dumps([text, voice, model, settings, "act"], ensure_ascii=False).encode()).hexdigest()[:12]
+        mp3_p, meta_p = ddir / f"act{n}.mp3", ddir / f"act{n}.json"
+        meta = read_json(meta_p, {})
+        if not (meta.get("sig") == sig and mp3_p.exists()):
+            body = {"text": text, "model_id": model, "voice_settings": settings}
+            i = order.index(n)
+            if i > 0:
+                body["previous_text"] = " ".join(scene_tts_text(x) for x in acts[order[i - 1]])[-1000:]
+            if i + 1 < len(order):
+                body["next_text"] = " ".join(scene_tts_text(x) for x in acts[order[i + 1]])[:1000]
+
+            def call():
+                r = s.post(
+                    f"https://api.elevenlabs.io/v1/text-to-speech/{voice}/with-timestamps",
+                    params={"output_format": "mp3_44100_128"},
+                    headers={"xi-api-key": key, "Content-Type": "application/json"},
+                    json=body,
+                    timeout=600,
+                )
+                if r.status_code >= 400:
+                    raise RuntimeError(f"{r.status_code} {r.text[:300]}")
+                return r.json()
+
+            print(f"TTS act{n}: {len(group)}장면 · {len(text)}자 (1회 호출)")
+            data = retry(call, label=f"tts act{n}")
+            mp3_p.write_bytes(base64.b64decode(data["audio_base64"]))
+            al = data.get("alignment") or data.get("normalized_alignment")
+            meta = {"sig": sig, "text": text, "chars": al["characters"],
+                    "starts": al["character_start_times_seconds"], "ends": al["character_end_times_seconds"]}
+            write_json(meta_p, meta)
+        chars, st, en = meta["chars"], meta["starts"], meta["ends"]
+        joined = "".join(chars)
+        # 장면별 글자 범위 (정렬 글자열에서 순서대로 찾기 — 보통은 입력 텍스트와 1:1)
+        spans, pos = [], 0
+        for t in texts:
+            j = joined.find(t, pos)
+            if j < 0:
+                j = pos
+            spans.append((j, j + len(t)))
+            pos = j + len(t)
+        cuts = [0.0]
+        for (a0, a1), (b0, _) in zip(spans, spans[1:]):
+            end_prev = max(en[a0:a1]) if a1 > a0 else st[a0]
+            start_next = st[b0]
+            cuts.append((end_prev + start_next) / 2)
+        cuts.append(None)
+        for k, sc in enumerate(group):
+            a, b = cuts[k], cuts[k + 1]
+            (c0, c1) = spans[k]
+            ssig = hashlib.sha1(f"{sig}|{sc['id']}|{a}|{b}".encode()).hexdigest()[:12]
+            sm, sj = adir / f"{sc['id']}.mp3", adir / f"{sc['id']}.json"
+            if read_json(sj, {}).get("sig") == ssig and sm.exists():
+                continue
+            cut_mp3(mp3_p, sm, a, b)
+            write_json(sj, {
+                "sig": ssig, "text": texts[k], "act": n,
+                "chars": chars[c0:c1],
+                "starts": [max(0.0, x - a) for x in st[c0:c1]],
+                "ends": [max(0.0, x - a) for x in en[c0:c1]],
+            })
+        print(f"  act{n} → 장면 {len(group)}개로 분할 (원본 tts/acts/act{n}.mp3)")
+    print("TTS 완료 (막 단위)")
+
+
 def main(ep):
     key = env("ELEVENLABS_API_KEY", required=True)
     board = load_board(ep)
@@ -36,6 +124,8 @@ def main(ep):
     adir = out / "tts"
     adir.mkdir(exist_ok=True)
     s = session()
+    if board.get("tts_mode") == "act":
+        return main_acts(ep, board, key, voice, model, settings, s, adir)
     scenes = board["scenes"]
     for i, sc in enumerate(scenes):
         if not sc["lines"]:

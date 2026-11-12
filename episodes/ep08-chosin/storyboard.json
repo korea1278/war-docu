@@ -1,0 +1,3874 @@
+{
+ "title": "Battle of Chosin Reservoir (1950): The 17-Day March Out of Frozen Hell",
+ "subtitle": "Nov 27 – Dec 13, 1950",
+ "target_sec": 1230,
+ "lang": "en",
+ "voice": "pNInz6obpgDQGcFmaJgB",
+ "tempo": 1.02,
+ "tts_mode": "act",
+ "midrolls": [
+  "s31",
+  "s56",
+  "s80"
+ ],
+ "places": {
+  "seoul": [
+   126.978,
+   37.566,
+   "Seoul"
+  ],
+  "inchon": [
+   126.62,
+   37.47,
+   "Inchon"
+  ],
+  "pyongyang": [
+   125.754,
+   39.02,
+   "Pyongyang"
+  ],
+  "sinuiju": [
+   124.4,
+   40.1,
+   "Yalu River"
+  ],
+  "hyesan": [
+   128.18,
+   41.4,
+   "Hyesanjin"
+  ],
+  "yudam": [
+   127.12,
+   40.48,
+   "Yudam-ni"
+  ],
+  "toktong": [
+   127.18,
+   40.43,
+   "Toktong Pass"
+  ],
+  "hagaru": [
+   127.25,
+   40.38,
+   "Hagaru-ri"
+  ],
+  "kotori": [
+   127.3,
+   40.29,
+   "Koto-ri"
+  ],
+  "bridge": [
+   127.33,
+   40.24,
+   "Funchilin Pass"
+  ],
+  "chinhung": [
+   127.37,
+   40.19,
+   "Chinhung-ni"
+  ],
+  "hamhung": [
+   127.54,
+   39.92,
+   "Hamhung"
+  ],
+  "hungnam": [
+   127.62,
+   39.83,
+   "Hungnam"
+  ],
+  "sudong": [
+   127.42,
+   40.11,
+   "Sudong"
+  ],
+  "sinhung": [
+   127.32,
+   40.46,
+   "Sinhung-ni"
+  ],
+  "reservoir": [
+   127.22,
+   40.43,
+   "Chosin Reservoir"
+  ],
+  "h1282": [
+   127.105,
+   40.505,
+   "Hill 1282"
+  ],
+  "h1240": [
+   127.14,
+   40.51,
+   "Hill 1240"
+  ],
+  "h1403": [
+   127.085,
+   40.468,
+   "Hill 1403"
+  ],
+  "foxhill": [
+   127.183,
+   40.437,
+   "Fox Hill"
+  ],
+  "easthill": [
+   127.265,
+   40.388,
+   "East Hill"
+  ],
+  "hellfire": [
+   127.275,
+   40.335,
+   "Hell Fire Valley"
+  ],
+  "h1081": [
+   127.35,
+   40.232,
+   "Hill 1081"
+  ],
+  "strip": [
+   127.245,
+   40.372,
+   "Airstrip"
+  ]
+ },
+ "views": {
+  "korea": {
+   "center": [
+    127.3,
+    38.6
+   ],
+   "span": 7.0
+  },
+  "nk": {
+   "center": [
+    126.9,
+    40.2
+   ],
+   "span": 4.2
+  },
+  "route": {
+   "center": [
+    127.38,
+    40.15
+   ],
+   "span": 1.0
+  },
+  "chosin": {
+   "center": [
+    127.22,
+    40.4
+   ],
+   "span": 0.42
+  },
+  "yudam": {
+   "center": [
+    127.125,
+    40.485
+   ],
+   "span": 0.2
+  },
+  "toktong": {
+   "center": [
+    127.18,
+    40.44
+   ],
+   "span": 0.14
+  },
+  "hagaru": {
+   "center": [
+    127.25,
+    40.38
+   ],
+   "span": 0.14
+  },
+  "south": {
+   "center": [
+    127.28,
+    40.32
+   ],
+   "span": 0.34
+  },
+  "kotori": {
+   "center": [
+    127.31,
+    40.28
+   ],
+   "span": 0.16
+  },
+  "pass": {
+   "center": [
+    127.33,
+    40.25
+   ],
+   "span": 0.2
+  },
+  "bridge": {
+   "center": [
+    127.345,
+    40.236
+   ],
+   "span": 0.12
+  },
+  "coast": {
+   "center": [
+    127.5,
+    39.98
+   ],
+   "span": 0.75
+  }
+ },
+ "music": [
+  {
+   "id": "drone",
+   "from": "s01",
+   "to": "s03",
+   "volume": 0.2
+  },
+  {
+   "id": "theme",
+   "from": "s04",
+   "to": "s18",
+   "volume": 0.16
+  },
+  {
+   "id": "tension",
+   "from": "s19",
+   "to": "s43",
+   "volume": 0.17
+  },
+  {
+   "id": "march",
+   "from": "s44",
+   "to": "s66",
+   "volume": 0.15
+  },
+  {
+   "id": "tension",
+   "from": "s67",
+   "to": "s79",
+   "volume": 0.16
+  },
+  {
+   "id": "somber",
+   "from": "s80",
+   "to": "s92",
+   "volume": 0.17
+  }
+ ],
+ "ai_images": {
+  "night_march": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a long silent column of Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red Chinese flag with yellow stars, wearing padded mustard-khaki quilted winter uniforms and fur-flap caps marching at night through deep snow in a pine forest in the North Korean mountains, no fires, no lights, moonlight on the snow, stealthy, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "hidden_ridges": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: hundreds of Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red Chinese flag with yellow stars, wearing padded mustard-khaki quilted winter uniforms and fur-flap caps lying hidden in the snow along high ridgelines at dusk, looking down at a single narrow road in a frozen valley far below where tiny trucks move, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "frozen_rations": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American Marines whose heads are round balls painted as the United States flag, wearing 1950 M1 helmets with fur-lined parkas, frost on their gear huddled around a tiny fire in a snowy foxhole trying to thaw frozen canned rations, ice crystals on the cans, breath steaming, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "frostbite_aid": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a navy corpsman with American Marine whose head is a round ball painted as the United States flag, wearing a 1950 M1 helmet and a fur-lined parka, frost on his gear treating another Marine's frostbitten feet inside a snowy tent by lantern light, rubber boots beside them, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "dig_foxhole": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American Marines whose heads are round balls painted as the United States flag, wearing 1950 M1 helmets with fur-lined parkas, frost on their gear struggling to dig foxholes in rock-hard frozen ground on a snowy ridge, a shovel bouncing off the earth, one Marine setting a small explosive charge to blast a hole, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "cooks_hill": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a group of cooks, clerks and truck drivers who are American Marines whose heads are round balls painted as the United States flag, wearing 1950 M1 helmets with fur-lined parkas, frost on their gear grabbing rifles and climbing a steep snowy hill at night toward the sound of battle, tracers above, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "dawn_ridge": "Grey dawn over a snow-covered ridge above Yudam-ni, North Korea, after a night battle, smoke drifting, abandoned weapons and torn snow, a frozen lake in the distance, painterly realistic digital illustration, cinematic wide shot, cold desaturated icy palette, film grain, no people visible, no text, no letters.",
+  "hagaru_line": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: truck drivers, engineers and clerks who are American Marines whose heads are round balls painted as the United States flag, wearing 1950 M1 helmets with fur-lined parkas, frost on their gear standing in a thin defensive line of shallow snow trenches around a supply camp at night, rifles ready, tents and supply crates behind them, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "barber_stretcher": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a wounded Marine captain whose head is a round ball painted as the United States flag, lying on a stretcher carried by two Marines through snowy foxholes on a hilltop at night, pointing and directing the defense, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "davis_march": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a long single-file column of American Marines whose heads are round balls painted as the United States flag, wearing 1950 M1 helmets with fur-lined parkas, frost on their gear trudging cross-country through knee-deep snow over a mountain ridge at night under bright stars, no trail, exhausted but determined, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "fox_relief": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: exhausted, bandaged American Marines whose heads are round balls painted as the United States flag, wearing 1950 M1 helmets with fur-lined parkas, frost on their gear climbing out of snowy foxholes on a hilltop at dawn to greet a relieving column of Marines arriving over the ridge, emotional reunion, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "bridge_crossing": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American Marines whose heads are round balls painted as the United States flag, wearing 1950 M1 helmets with fur-lined parkas, frost on their gear guiding trucks, ambulances and a tank slowly across a narrow steel treadway bridge over a deep frozen gorge at night, a crowd of Korean refugees in white winter clothes following behind in the snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "chosin_today": "The frozen Chosin Reservoir in the North Korean mountains at dawn today, silent snow-covered peaks, soft pink light, a lonely empty mountain road winding beside the ice, peaceful and solemn, painterly realistic digital illustration, cinematic wide shot, cold desaturated icy palette, film grain, no people visible, no text, no letters.",
+  "thumb_subject": "Photorealistic black-and-white 1950 Korean War documentary portrait of a young American U.S. Marine at the Chosin Reservoir, wearing a hooded fur-lined M1951-style winter parka over an M1 steel helmet, frost and ice on his eyebrows and stubble, exhausted resolute eyes, waist-up, face clearly visible and turned slightly toward the left of the frame, isolated on a plain pure white background, no shadows on the background, no text.",
+  "snow_column": "A long column of trucks and soldiers moving through a narrow frozen mountain gorge in North Korea in December 1950, deep snow, blizzard, steep icy cliffs on both sides, distant orange muzzle flashes on the ridgelines, cold blue night with harsh white parachute flare light, cinematic wide shot, desaturated icy palette with orange glow, painterly realistic digital illustration, film grain, no text, no letters.",
+  "pva_ambush": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a Chinese People's Volunteer Army commander whose head is a round ball painted as the red Chinese flag with yellow stars, wearing a padded winter uniform and fur cap, smiling coldly while pointing at a paper map showing a single mountain road surrounded by many red circles, inside a snow-covered dugout lit by an oil lamp, officers behind him, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "frozen_night": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American Marines whose heads are round balls painted as the United States flag, wearing 1950 M1 helmets with fur-lined parkas, frost on their gear, huddled in shallow snow foxholes on a frozen ridge at night, breath freezing in the air, icicles on their helmets, one Marine trying to thaw a frozen rifle under his parka, blizzard, extreme cold, tense waiting, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "wave_snow": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a massive wave of Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red Chinese flag with yellow stars, wearing white snow-covered quilted uniforms and fur-flap caps charging across a snowy slope at night toward a ring of foxholes, blowing bugles and whistles, under parachute flares, tracer fire and explosions kicking up snow, dramatic low-angle shot, cold white light and orange fire, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "fox_hill": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a small company of American Marines whose heads are round balls painted as the United States flag, wearing 1950 M1 helmets with fur-lined parkas, frost on their gear holding a lonely snowy hilltop above a narrow mountain pass, surrounded on all sides, firing machine guns at night, a determined captain on crutches directing them, ammunition crates dropped by parachute lying in the snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "smith_quote": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a calm, grey-haired American Marine major general whose head is a round ball painted as the United States flag, wearing a fur-lined parka and helmet, standing in a snowy command tent beside a field map, speaking firmly to war correspondents, quiet determination, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "airstrip": "A rough airstrip carved into a frozen valley at Hagaru-ri, North Korea, December 1950, a C-47 transport plane taking off through falling snow while stretcher bearers carry wounded soldiers toward another plane, tents and supply dumps, frozen reservoir in the background, cold blue dawn light, painterly realistic digital illustration, film grain, no text, no letters.",
+  "bridge_drop": "Eight C-119 Flying Boxcar transport planes flying low over a snowy mountain pass in North Korea, December 1950, dropping huge steel bridge sections under giant parachutes, a destroyed concrete bridge over a deep gorge below, steep icy cliffs, overcast sky, dramatic wide shot, painterly realistic digital illustration, film grain, no text, no letters.",
+  "carry_dead": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American Marines whose heads are round balls painted as the United States flag, wearing 1950 M1 helmets with fur-lined parkas, frost on their gear walking in a long column down a frozen mountain road, carrying wounded comrades on stretchers and laying fallen comrades with covered faces on the hoods of trucks, snow falling, exhausted but unbroken, solemn and heroic, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters."
+ },
+ "scenes": [
+  {
+   "id": "s01",
+   "act": 1,
+   "lines": [
+    "In the autumn of 1950 the war in Korea seemed almost over.",
+    "American and South Korean troops had smashed the North Korean army after the landing at Inchon."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "korea",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.62,
+        37.47
+       ],
+       [
+        126.9,
+        38.4
+       ],
+       [
+        125.8,
+        39.0
+       ]
+      ],
+      "color": "blue",
+      "at": 0.1,
+      "width": 0.9
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        125.8,
+        39.1
+       ],
+       [
+        125.0,
+        39.8
+       ],
+       [
+        124.5,
+        40.0
+       ]
+      ],
+      "color": "blue",
+      "at": 0.6,
+      "width": 0.9
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "AUTUMN 1950 · KOREA",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "act": 1,
+   "lines": [
+    "They had taken Pyongyang.",
+    "Now they were racing north toward the Yalu River and the border with China."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "nk",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.5,
+        39.9
+       ],
+       [
+        127.3,
+        40.5
+       ],
+       [
+        127.6,
+        41.1
+       ]
+      ],
+      "color": "blue",
+      "at": 0.4,
+      "width": 0.9
+     },
+     {
+      "k": "marker",
+      "p": "sinuiju",
+      "color": "dark",
+      "at": 0.6
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "RACE TO THE YALU",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "act": 1,
+   "lines": [
+    "General Douglas MacArthur was confident.",
+    "Word spread through the ranks that the boys would be home by Christmas.",
+    {
+     "t": "On November 24 he launched what he believed would be the final offensive of the war.",
+     "say": "On November twenty-fourth he launched what he believed would be the final offensive of the war."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s03-photo"
+   },
+   "label": "Gen. Douglas MacArthur in Korea (1950)",
+   "callouts": [
+    {
+     "text": "“HOME BY CHRISTMAS”",
+     "style": "yellow",
+     "at": 0.4,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "act": 1,
+   "lines": [
+    {
+     "t": "On the eastern side of the peninsula the job fell to X Corps.",
+     "say": "On the eastern side of the peninsula the job fell to Ten Corps."
+    },
+    "At its spearhead was the First Marine Division.",
+    {
+     "t": "15,000 men under Major General Oliver Prince Smith.",
+     "say": "Fifteen thousand men under Major General Oliver Prince Smith."
+    }
+   ],
+   "visual": {
+    "type": "titlecard",
+    "title": "BATTLE OF CHOSIN RESERVOIR",
+    "sub": "The 17-Day March Out of Frozen Hell · 1950",
+    "at": 0,
+    "q": "s04-photo"
+   },
+   "flash": true,
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "act": 1,
+   "lines": [
+    "Their road led north from the port of Hungnam into the high country around a man-made lake the Americans called the Chosin Reservoir."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "nk",
+    "to": "chosin",
+    "items": [
+     {
+      "k": "marker",
+      "p": "hungnam",
+      "color": "blue",
+      "at": 0.1
+     },
+     {
+      "k": "unit",
+      "p": "reservoir",
+      "color": "blue",
+      "text": "Chosin Reservoir",
+      "at": 0.5,
+      "pulse": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "s06",
+   "act": 1,
+   "lines": [
+    "Smith did not like what he saw.",
+    "His division was being strung out along a single narrow road."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s06-photo"
+   },
+   "label": "Maj. Gen. Oliver P. Smith · 1st Marine Division"
+  },
+  {
+   "id": "s07",
+   "act": 1,
+   "lines": [
+    {
+     "t": "78 miles of dirt and gravel climbed from the coast into mountains more than 4,000 feet high.",
+     "say": "Seventy-eight miles of dirt and gravel climbed from the coast into mountains more than four thousand feet high."
+    },
+    "One road in.",
+    "One road out.",
+    "The planners called it the Main Supply Route.",
+    "The Marines simply called it the MSR."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "chosin",
+    "to": "route",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.12,
+        40.48
+       ],
+       [
+        127.17,
+        40.44
+       ],
+       [
+        127.21,
+        40.41
+       ],
+       [
+        127.25,
+        40.38
+       ],
+       [
+        127.27,
+        40.34
+       ],
+       [
+        127.3,
+        40.29
+       ],
+       [
+        127.32,
+        40.25
+       ],
+       [
+        127.34,
+        40.22
+       ],
+       [
+        127.37,
+        40.19
+       ],
+       [
+        127.43,
+        40.08
+       ],
+       [
+        127.54,
+        39.92
+       ],
+       [
+        127.62,
+        39.83
+       ]
+      ],
+      "color": "#d98b2b",
+      "at": 0.1
+     },
+     {
+      "k": "marker",
+      "p": "yudam",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "hungnam",
+      "color": "dark",
+      "at": 0.5
+     }
+    ],
+    "flight": [
+     "chosin",
+     "south",
+     "route"
+    ],
+    "hud": true,
+    "tilt": 28,
+    "temp": "-8°F"
+   },
+   "callouts": [
+    {
+     "text": "ONE ROAD · 78 MILES · THE MSR",
+     "style": "yellow",
+     "at": 0.3,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s08",
+   "act": 1,
+   "lines": [
+    "His corps commander Major General Edward Almond wanted speed.",
+    "Smith wanted caution.",
+    "So he quietly slowed his advance."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "ALMOND · X CORPS",
+     "big": "SPEED",
+     "icon": "none",
+     "color": "red"
+    },
+    "right": {
+     "title": "SMITH · 1ST MARDIV",
+     "big": "CAUTION",
+     "icon": "none",
+     "color": "blue",
+     "at": 0.6
+    }
+   }
+  },
+  {
+   "id": "s09",
+   "act": 1,
+   "lines": [
+    "He stockpiled ammunition at a mountain village called Hagaru-ri.",
+    "He ordered his engineers to begin cutting an airstrip into the frozen ground.",
+    "Some officers thought he was being timid.",
+    "Within days that caution would save his division."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s09-photo"
+   },
+   "label": "Marines at Hagaru-ri on Thanksgiving (Nov 22, 1950)"
+  },
+  {
+   "id": "s10",
+   "act": 1,
+   "lines": [
+    "Because the mountains were not empty."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "THE MOUNTAINS",
+    "accent": "WERE NOT EMPTY",
+    "accentAt": 0.5
+   },
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "act": 1,
+   "lines": [
+    "Since October an entire Chinese army group had been slipping across the Yalu.",
+    "The Ninth Army Group under General Song Shilun.",
+    {
+     "t": "12 divisions.",
+     "say": "Twelve divisions."
+    },
+    {
+     "t": "Roughly 120,000 men.",
+     "say": "Roughly one hundred twenty thousand men."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "nk",
+    "to": "chosin",
+    "items": [
+     {
+      "k": "swarm",
+      "path": [
+       [
+        126.6,
+        41.0
+       ],
+       [
+        126.85,
+        40.75
+       ],
+       [
+        127.05,
+        40.55
+       ],
+       [
+        127.12,
+        40.5
+       ]
+      ],
+      "at": 0.15,
+      "n": 200
+     },
+     {
+      "k": "swarm",
+      "path": [
+       [
+        127.6,
+        41.1
+       ],
+       [
+        127.45,
+        40.8
+       ],
+       [
+        127.33,
+        40.55
+       ],
+       [
+        127.3,
+        40.47
+       ]
+      ],
+      "at": 0.35,
+      "n": 200
+     },
+     {
+      "k": "marker",
+      "p": "reservoir",
+      "color": "red",
+      "at": 0.6
+     }
+    ],
+    "hud": true
+   },
+   "callouts": [
+    {
+     "text": "CHINESE 9TH ARMY GROUP · ~120,000 MEN",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "act": 1,
+   "lines": [
+    "They marched at night.",
+    "They hid in villages and forests by day.",
+    "They lit no fires.",
+    "American reconnaissance planes flew over the same ridges again and again and saw nothing."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "night_march",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s13",
+   "act": 1,
+   "lines": [
+    "There had been warnings.",
+    "In early November the Seventh Marines fought a sharp battle near a village called Sudong against Chinese troops.",
+    "Prisoners were taken.",
+    "They said many more were coming."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s13-photo"
+   },
+   "label": "First Chinese prisoners in Korea (Oct–Nov 1950)",
+   "callouts": [
+    {
+     "text": "EARLY NOVEMBER · SUDONG",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "act": 1,
+   "lines": [
+    "But in Tokyo MacArthur's headquarters did not believe China would intervene in force."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "“CHINA WILL NOT\nINTERVENE IN FORCE”",
+    "style": "red",
+    "sub": "MacArthur's headquarters · Tokyo",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s15",
+   "act": 1,
+   "lines": [
+    "Mao Zedong had a different plan.",
+    "He did not want to push the Americans back.",
+    "He wanted to destroy them."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "pva_ambush",
+    "kb": "in",
+    "bubbles": [
+     {
+      "text": "Cut the one road\nand it is over.",
+      "x": 0.7,
+      "y": 0.2,
+      "at": 1
+     }
+    ]
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s16",
+   "act": 1,
+   "lines": [
+    "Let the Marines climb deep into the mountains.",
+    "Let them stretch their line thin along that single road.",
+    "Then cut it into pieces and annihilate each piece one by one."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "chosin",
+    "to": "chosin",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.12,
+        40.48
+       ],
+       [
+        127.17,
+        40.44
+       ],
+       [
+        127.21,
+        40.41
+       ],
+       [
+        127.25,
+        40.38
+       ],
+       [
+        127.27,
+        40.34
+       ],
+       [
+        127.3,
+        40.29
+       ],
+       [
+        127.32,
+        40.25
+       ],
+       [
+        127.34,
+        40.22
+       ],
+       [
+        127.37,
+        40.19
+       ],
+       [
+        127.43,
+        40.08
+       ],
+       [
+        127.54,
+        39.92
+       ],
+       [
+        127.62,
+        39.83
+       ]
+      ],
+      "color": "#d98b2b",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.0,
+        40.56
+       ],
+       [
+        127.1,
+        40.49
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 0.7
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.05,
+        40.37
+       ],
+       [
+        127.17,
+        40.43
+       ]
+      ],
+      "color": "red",
+      "at": 0.4,
+      "width": 0.7
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.36,
+        40.47
+       ],
+       [
+        127.26,
+        40.39
+       ]
+      ],
+      "color": "red",
+      "at": 0.6,
+      "width": 0.7
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.42,
+        40.3
+       ],
+       [
+        127.31,
+        40.3
+       ]
+      ],
+      "color": "red",
+      "at": 0.8,
+      "width": 0.7
+     }
+    ],
+    "tilt": 30
+   },
+   "callouts": [
+    {
+     "text": "MAO'S PLAN · CUT THE ROAD INTO PIECES",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s17",
+   "act": 1,
+   "lines": [
+    "By the last week of November the trap was set.",
+    "The Fifth and Seventh Marines had pushed west of the reservoir to a cluster of huts called Yudam-ni.",
+    "Behind them small garrisons held Hagaru-ri and Koto-ri.",
+    "East of the reservoir an Army regimental combat team was moving into position."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "chosin",
+    "to": "chosin",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.12,
+        40.48
+       ],
+       [
+        127.17,
+        40.44
+       ],
+       [
+        127.21,
+        40.41
+       ],
+       [
+        127.25,
+        40.38
+       ],
+       [
+        127.27,
+        40.34
+       ],
+       [
+        127.3,
+        40.29
+       ],
+       [
+        127.32,
+        40.25
+       ],
+       [
+        127.34,
+        40.22
+       ],
+       [
+        127.37,
+        40.19
+       ],
+       [
+        127.43,
+        40.08
+       ],
+       [
+        127.54,
+        39.92
+       ],
+       [
+        127.62,
+        39.83
+       ]
+      ],
+      "color": "#d98b2b",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "yudam",
+      "color": "blue",
+      "text": "5th & 7th Marines",
+      "at": 0.1,
+      "pulse": true
+     },
+     {
+      "k": "unit",
+      "p": "hagaru",
+      "color": "blue",
+      "text": "Hagaru-ri garrison",
+      "at": 0.35
+     },
+     {
+      "k": "unit",
+      "p": "kotori",
+      "color": "blue",
+      "text": "Koto-ri garrison",
+      "at": 0.55
+     },
+     {
+      "k": "unit",
+      "p": "sinhung",
+      "color": "blue",
+      "text": "Army RCT-31",
+      "at": 0.8
+     }
+    ],
+    "hud": true,
+    "tilt": 32,
+    "temp": "-12°F"
+   },
+   "callouts": [
+    {
+     "text": "LATE NOVEMBER 1950",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s18",
+   "act": 1,
+   "lines": [
+    {
+     "t": "And all around them in the snow lay 120,000 men waiting for the signal.",
+     "say": "And all around them in the snow lay one hundred twenty thousand men waiting for the signal."
+    },
+    "Then the temperature began to fall."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "hidden_ridges",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s19",
+   "act": 2,
+   "lines": [
+    "The cold arrived like an enemy offensive of its own.",
+    "A Siberian front swept down over the high plateau.",
+    {
+     "t": "In a single day the temperature dropped by more than 40 degrees.",
+     "say": "In a single day the temperature dropped by more than forty degrees."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "route",
+    "to": "chosin",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.12,
+        40.48
+       ],
+       [
+        127.17,
+        40.44
+       ],
+       [
+        127.21,
+        40.41
+       ],
+       [
+        127.25,
+        40.38
+       ],
+       [
+        127.27,
+        40.34
+       ],
+       [
+        127.3,
+        40.29
+       ],
+       [
+        127.32,
+        40.25
+       ],
+       [
+        127.34,
+        40.22
+       ],
+       [
+        127.37,
+        40.19
+       ],
+       [
+        127.43,
+        40.08
+       ],
+       [
+        127.54,
+        39.92
+       ],
+       [
+        127.62,
+        39.83
+       ]
+      ],
+      "color": "#d98b2b",
+      "at": 0
+     }
+    ],
+    "hud": true,
+    "tilt": 26,
+    "temp": "-20°F"
+   },
+   "chapter": {
+    "num": "ACT 2",
+    "title": "SUB-ZERO NIGHTMARE"
+   },
+   "callouts": [
+    {
+     "text": "SIBERIAN COLD FRONT",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0,
+     "volume": 0.55
+    }
+   ]
+  },
+  {
+   "id": "s20",
+   "act": 2,
+   "lines": [
+    {
+     "t": "At night it fell to 20 below zero.",
+     "say": "At night it fell to twenty below zero."
+    },
+    {
+     "t": "Then 30 below.",
+     "say": "Then thirty below."
+    },
+    {
+     "t": "On the worst nights it approached 40 below.",
+     "say": "On the worst nights it approached forty below."
+    },
+    "The wind howling through the passes made it feel even colder."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "-40°F",
+    "style": "blue",
+    "sub": "Chosin Reservoir · nights of late Nov–Dec 1950",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s21",
+   "act": 2,
+   "lines": [
+    "Nothing worked the way it should.",
+    "Gun oil turned thick as glue.",
+    "Carbines jammed after a single shot.",
+    "Browning Automatic Rifles fired slowly or not at all.",
+    "Mortar baseplates cracked when they struck the frozen earth.",
+    "Artillery shells fell short because the powder burned slowly in the cold."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "frozen_night",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s22",
+   "act": 2,
+   "lines": [
+    "Batteries died.",
+    "Truck engines had to be run all night or they would never start again.",
+    "Blood plasma froze solid in its bottles.",
+    "Medics carried morphine syrettes in their mouths to keep them from freezing."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s22-photo"
+   },
+   "label": "7th Marines advance north in cold-weather gear (1950)"
+  },
+  {
+   "id": "s23",
+   "act": 2,
+   "lines": [
+    "Canned rations froze into blocks of ice.",
+    "A Marine who warmed a can over a small fire would eat hot food around a frozen core.",
+    "Dysentery spread through the ranks."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "frozen_rations",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s24",
+   "act": 2,
+   "lines": [
+    "Frostbite was everywhere.",
+    "Feet sweated inside rubber boots called shoe-pacs during the day and froze at night.",
+    "Fingers lost all feeling inside thick mittens.",
+    "Men who pulled off a glove to fire a rifle could lose the skin of their hand to the frozen steel."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "frostbite_aid",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s25",
+   "act": 2,
+   "lines": [
+    "The ground was frozen nearly a foot deep.",
+    "Shovels bounced off it.",
+    "Men used explosives just to blast out a foxhole.",
+    "Others built walls of rock and packed snow and lay behind them all night."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "dig_foxhole",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s26",
+   "act": 2,
+   "lines": [
+    "The terrain made everything worse.",
+    "The reservoir sat on a high plateau ringed by peaks.",
+    "Ridges climbed steeply from the road on both sides.",
+    "Whoever held the high ground could fire straight down onto anything that moved along the MSR."
+   ],
+   "visual": {
+    "type": "profile",
+    "title": "THE MSR GORGE · CROSS-SECTION",
+    "pts": [
+     [
+      0,
+      1500
+     ],
+     [
+      0.15,
+      1380
+     ],
+     [
+      0.32,
+      1180
+     ],
+     [
+      0.44,
+      1020
+     ],
+     [
+      0.5,
+      1000
+     ],
+     [
+      0.56,
+      1030
+     ],
+     [
+      0.68,
+      1200
+     ],
+     [
+      0.85,
+      1400
+     ],
+     [
+      1,
+      1520
+     ]
+    ],
+    "bare": true,
+    "yMin": 900,
+    "yMax": 1600,
+    "marks": [
+     {
+      "x": 0.5,
+      "text": "MSR · ONE TRUCK WIDE",
+      "style": "yellow"
+     },
+     {
+      "x": 0.18,
+      "text": "ENEMY RIDGE",
+      "style": "red",
+      "lift": 40
+     },
+     {
+      "x": 0.82,
+      "text": "ENEMY RIDGE",
+      "style": "red",
+      "lift": 40
+     }
+    ],
+    "arrows": [
+     {
+      "from": 0.2,
+      "to": 0.48,
+      "color": "red"
+     },
+     {
+      "from": 0.8,
+      "to": 0.52,
+      "color": "red"
+     }
+    ],
+    "left": "WEST",
+    "right": "EAST",
+    "note": "Schematic · not to scale"
+   }
+  },
+  {
+   "id": "s27",
+   "act": 2,
+   "lines": [
+    "And the road itself was barely wide enough for a single truck.",
+    "In places it clung to cliffs with a sheer drop on one side."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s27-photo"
+   },
+   "label": "Tanks and trucks on the road south of Koto-ri (Dec 1950)"
+  },
+  {
+   "id": "s28",
+   "act": 2,
+   "lines": [
+    "Yet the cold did not choose sides.",
+    "The Chinese suffered even more.",
+    "Many wore quilted cotton uniforms and canvas shoes.",
+    "Some had no gloves at all."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s28-photo"
+   },
+   "label": "Chinese prisoners in canvas shoes near Koto-ri (Dec 1950)"
+  },
+  {
+   "id": "s29",
+   "act": 2,
+   "lines": [
+    "They had marched for weeks on handfuls of rice and frozen potatoes.",
+    "Whole units lost more men to frostbite than to American bullets.",
+    "Later some Chinese soldiers would be found frozen to death in their fighting positions with their weapons still in their hands."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s29-photo"
+   },
+   "label": "Chinese prisoner in a quilted cotton uniform · Chosin (Dec 1950)"
+  },
+  {
+   "id": "s30",
+   "act": 2,
+   "lines": [
+    "This was the stage for one of the most brutal battles of the twentieth century.",
+    "Two armies would fight on a frozen plateau where the weather killed without mercy.",
+    {
+     "t": "And on the night of November 27 the bugles began to sound.",
+     "say": "And on the night of November twenty-seventh the bugles began to sound."
+    }
+   ],
+   "visual": {
+    "type": "black",
+    "text": "NOVEMBER 27, 1950",
+    "accent": "THE BUGLES",
+    "accentAt": 0.5
+   },
+   "sfx": [
+    {
+     "id": "bugle",
+     "at": 1.5,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s31",
+   "act": 3,
+   "lines": [
+    "It started in the dark.",
+    "Whistles.",
+    "Bugles.",
+    "Shepherd's horns.",
+    "Then shapes moving across the snow."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "ACT 3",
+    "accent": "THE AMBUSH AT YUDAM-NI",
+    "accentAt": 0.5
+   },
+   "sfx": [
+    {
+     "id": "bugle",
+     "at": 0.4,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s32",
+   "act": 3,
+   "lines": [
+    "At Yudam-ni the Fifth and Seventh Marines had settled in around the village.",
+    "They held the surrounding ridges in a rough ring.",
+    {
+     "t": "That night 2 Chinese divisions came for them and a third moved to cut the road behind them.",
+     "say": "That night two Chinese divisions came for them and a third moved to cut the road behind them."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "chosin",
+    "to": "yudam",
+    "items": [
+     {
+      "k": "unit",
+      "p": "yudam",
+      "color": "blue",
+      "text": "5th & 7th Marines",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.08,
+        40.56
+       ],
+       [
+        127.11,
+        40.5
+       ]
+      ],
+      "color": "red",
+      "at": 0.3,
+      "width": 0.7
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.02,
+        40.46
+       ],
+       [
+        127.09,
+        40.47
+       ]
+      ],
+      "color": "red",
+      "at": 0.5,
+      "width": 0.7
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.22,
+        40.5
+       ],
+       [
+        127.17,
+        40.45
+       ]
+      ],
+      "color": "red",
+      "at": 0.75,
+      "width": 0.7
+     }
+    ],
+    "hud": true,
+    "tilt": 34,
+    "temp": "-25°F"
+   },
+   "chapter": {
+    "num": "ACT 3",
+    "title": "THE AMBUSH AT YUDAM-NI"
+   },
+   "callouts": [
+    {
+     "text": "NIGHT OF NOV 27 · 2 DIVISIONS ATTACK · 1 CUTS THE ROAD",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s33",
+   "act": 3,
+   "lines": [
+    "The attackers came in waves.",
+    "They hit the hills the Marines knew by their map numbers.",
+    {
+     "t": "Hill 1282.",
+     "say": "Hill twelve-eighty-two."
+    },
+    {
+     "t": "Hill 1240.",
+     "say": "Hill twelve-forty."
+    },
+    {
+     "t": "Hill 1403.",
+     "say": "Hill fourteen-oh-three."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "yudam",
+    "to": "yudam",
+    "items": [
+     {
+      "k": "obj",
+      "p": "h1282",
+      "n": "1282",
+      "at": 0.3,
+      "color": "red"
+     },
+     {
+      "k": "obj",
+      "p": "h1240",
+      "n": "1240",
+      "at": 0.45,
+      "color": "red"
+     },
+     {
+      "k": "obj",
+      "p": "h1403",
+      "n": "1403",
+      "at": 0.6,
+      "color": "red"
+     },
+     {
+      "k": "clash",
+      "p": "h1282",
+      "at": 0.7
+     },
+     {
+      "k": "clash",
+      "p": "h1240",
+      "at": 0.9
+     },
+     {
+      "k": "clash",
+      "p": "h1403",
+      "at": 1.1
+     }
+    ],
+    "hud": true,
+    "tilt": 36
+   },
+   "callouts": [
+    {
+     "text": "HILLS 1282 · 1240 · 1403 (approx.)",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s34",
+   "act": 3,
+   "lines": [
+    "Grenades bounced down the slopes.",
+    "Machine guns fired until their barrels glowed.",
+    "Marines fought from foxholes they had barely scraped into the frozen ground."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "wave_snow",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.3,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s35",
+   "act": 3,
+   "lines": [
+    "Company after company was cut to pieces.",
+    "Some positions held.",
+    "Some were overrun and then retaken before dawn.",
+    {
+     "t": "On Hill 1282 one Marine company was reduced to a handful of men.",
+     "say": "On Hill twelve-eighty-two one Marine company was reduced to a handful of men."
+    },
+    "Cooks and clerks and drivers grabbed rifles and climbed the hill to fill the gaps."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "cooks_hill",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s36",
+   "act": 3,
+   "lines": [
+    "By morning the snow around Yudam-ni was dark with fallen soldiers.",
+    "The Marines had held.",
+    "But they soon learned the true scale of the attack."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "dawn_ridge",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s37",
+   "act": 3,
+   "lines": [
+    "The Chinese had not only struck at Yudam-ni.",
+    "They had struck everywhere at once.",
+    "The road south to Hagaru-ri was cut.",
+    "At Toktong Pass halfway down a single rifle company was surrounded on a lonely hill.",
+    "At Hagaru-ri itself enemy troops stormed toward the half-finished airstrip.",
+    "East of the reservoir the Army regiment known as Task Force Faith was fighting for its life."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "chosin",
+    "to": "chosin",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.12,
+        40.48
+       ],
+       [
+        127.17,
+        40.44
+       ],
+       [
+        127.21,
+        40.41
+       ],
+       [
+        127.25,
+        40.38
+       ],
+       [
+        127.27,
+        40.34
+       ],
+       [
+        127.3,
+        40.29
+       ],
+       [
+        127.32,
+        40.25
+       ],
+       [
+        127.34,
+        40.22
+       ],
+       [
+        127.37,
+        40.19
+       ],
+       [
+        127.43,
+        40.08
+       ],
+       [
+        127.54,
+        39.92
+       ],
+       [
+        127.62,
+        39.83
+       ]
+      ],
+      "color": "#d98b2b",
+      "at": 0
+     },
+     {
+      "k": "shock",
+      "pts": [
+       "yudam",
+       "foxhill",
+       "hagaru",
+       "sinhung"
+      ],
+      "at": 0.2,
+      "period": 0.9
+     },
+     {
+      "k": "marker",
+      "p": "foxhill",
+      "color": "blue",
+      "at": 0.45
+     },
+     {
+      "k": "marker",
+      "p": "strip",
+      "color": "blue",
+      "at": 0.6
+     }
+    ],
+    "hud": true,
+    "tilt": 30
+   },
+   "callouts": [
+    {
+     "text": "STRUCK EVERYWHERE AT ONCE",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s38",
+   "act": 3,
+   "lines": [
+    "The Ninth Army Group had done exactly what Mao wanted.",
+    "It had cut the First Marine Division into isolated pockets.",
+    "Each one surrounded.",
+    "Each one alone."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "chosin",
+    "to": "chosin",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.12,
+        40.48
+       ],
+       [
+        127.17,
+        40.44
+       ],
+       [
+        127.21,
+        40.41
+       ],
+       [
+        127.25,
+        40.38
+       ],
+       [
+        127.27,
+        40.34
+       ],
+       [
+        127.3,
+        40.29
+       ],
+       [
+        127.32,
+        40.25
+       ],
+       [
+        127.34,
+        40.22
+       ],
+       [
+        127.37,
+        40.19
+       ],
+       [
+        127.43,
+        40.08
+       ],
+       [
+        127.54,
+        39.92
+       ],
+       [
+        127.62,
+        39.83
+       ]
+      ],
+      "color": "#d98b2b",
+      "at": 0
+     },
+     {
+      "k": "lock",
+      "p": "yudam",
+      "at": 0.1
+     },
+     {
+      "k": "lock",
+      "p": "foxhill",
+      "at": 0.3
+     },
+     {
+      "k": "lock",
+      "p": "hagaru",
+      "at": 0.5
+     },
+     {
+      "k": "lock",
+      "p": "kotori",
+      "at": 0.7
+     },
+     {
+      "k": "lock",
+      "p": "sinhung",
+      "at": 0.9
+     }
+    ],
+    "tilt": 30
+   },
+   "callouts": [
+    {
+     "text": "EACH ONE SURROUNDED",
+     "style": "red",
+     "at": 0.5,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s39",
+   "act": 3,
+   "lines": [
+    "In Tokyo the mood shifted from confidence to shock.",
+    "MacArthur sent word to Washington that his forces now faced an entirely new war."
+   ],
+   "visual": {
+    "type": "document",
+    "org": "GHQ FAR EAST COMMAND · TOKYO",
+    "head": "TO: JOINT CHIEFS OF STAFF",
+    "stamp": "SECRET",
+    "rows": [
+     "WE FACE AN ENTIRELY NEW WAR",
+     "28 NOVEMBER 1950"
+    ],
+    "note": "Reconstruction · gist of MacArthur's report"
+   }
+  },
+  {
+   "id": "s40",
+   "act": 3,
+   "lines": [
+    {
+     "t": "On November 29 a relief column of British Royal Marine commandos and American troops fought north from Koto-ri.",
+     "say": "On November twenty-ninth a relief column of British Royal Marine commandos and American troops fought north from Koto-ri."
+    },
+    "The Chinese ambushed it in a narrow valley.",
+    "Trucks burned.",
+    "The column was split apart.",
+    "Survivors would call that stretch of road Hell Fire Valley.",
+    "Only part of the force broke through."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "south",
+    "to": "south",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.12,
+        40.48
+       ],
+       [
+        127.17,
+        40.44
+       ],
+       [
+        127.21,
+        40.41
+       ],
+       [
+        127.25,
+        40.38
+       ],
+       [
+        127.27,
+        40.34
+       ],
+       [
+        127.3,
+        40.29
+       ],
+       [
+        127.32,
+        40.25
+       ],
+       [
+        127.34,
+        40.22
+       ],
+       [
+        127.37,
+        40.19
+       ],
+       [
+        127.43,
+        40.08
+       ],
+       [
+        127.54,
+        39.92
+       ],
+       [
+        127.62,
+        39.83
+       ]
+      ],
+      "color": "#d98b2b",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.3,
+        40.29
+       ],
+       [
+        127.28,
+        40.33
+       ]
+      ],
+      "color": "blue",
+      "at": 0.1,
+      "width": 0.7
+     },
+     {
+      "k": "clash",
+      "p": "hellfire",
+      "at": 0.5
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.22,
+        40.33
+       ],
+       [
+        127.27,
+        40.335
+       ]
+      ],
+      "color": "red",
+      "at": 0.4,
+      "width": 0.6
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.34,
+        40.34
+       ],
+       [
+        127.285,
+        40.335
+       ]
+      ],
+      "color": "red",
+      "at": 0.55,
+      "width": 0.6
+     },
+     {
+      "k": "badge",
+      "p": "hellfire",
+      "text": "HELL FIRE VALLEY",
+      "color": "red",
+      "at": 0.7,
+      "dy": -80
+     }
+    ],
+    "tilt": 32
+   },
+   "callouts": [
+    {
+     "text": "NOV 29 · TASK FORCE DRYSDALE",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s41",
+   "act": 3,
+   "lines": [
+    "For the men at Yudam-ni the situation was now clear.",
+    {
+     "t": "They were 14 miles from Hagaru-ri.",
+     "say": "They were fourteen miles from Hagaru-ri."
+    },
+    "Every mile of that road was controlled by the enemy.",
+    "And they had hundreds of wounded who could not walk."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "chosin",
+    "to": "toktong",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.12,
+        40.48
+       ],
+       [
+        127.17,
+        40.44
+       ],
+       [
+        127.21,
+        40.41
+       ],
+       [
+        127.25,
+        40.38
+       ]
+      ],
+      "color": "#ff5252",
+      "at": 0.1
+     },
+     {
+      "k": "unit",
+      "p": "yudam",
+      "color": "blue",
+      "text": "Yudam-ni",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "hagaru",
+      "color": "blue",
+      "text": "Hagaru-ri",
+      "at": 0.2
+     }
+    ],
+    "hud": true,
+    "tilt": 28
+   },
+   "callouts": [
+    {
+     "text": "14 MILES · ENEMY-HELD",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s42",
+   "act": 3,
+   "lines": [
+    "So what happens to an army when every road is closed and the enemy surrounds it on all sides?"
+   ],
+   "visual": {
+    "type": "black",
+    "text": "EVERY ROAD CLOSED",
+    "accent": "WHAT NOW?",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s43",
+   "act": 3,
+   "lines": [
+    "Before we answer that question here is a quick request.",
+    "If this story is worth your time please subscribe to Map of War.",
+    "We bring the great battles of history to life with maps you can actually follow.",
+    "Every subscription helps us build more stories like this one.",
+    "Now back to the frozen hills of Chosin."
+   ],
+   "visual": {
+    "type": "cta",
+    "title": "Follow every mile of the breakout on the map",
+    "at": 0
+   },
+   "pauseBefore": 0.3,
+   "sfx": [
+    {
+     "id": "pop",
+     "at": 0.3,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s44",
+   "act": 4,
+   "lines": [
+    "The answer depended on one man and one place.",
+    "The man was Oliver Smith.",
+    "Quiet.",
+    "Methodical.",
+    "A pipe smoker who rarely raised his voice.",
+    "Some of his officers called him the Professor."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s44-photo"
+   },
+   "label": "Almond, MacArthur and Smith (right) at Inchon (Sept. 1950)",
+   "chapter": {
+    "num": "ACT 4",
+    "title": "“RETREAT, HELL!”"
+   }
+  },
+  {
+   "id": "s45",
+   "act": 4,
+   "lines": [
+    "The place was Hagaru-ri.",
+    "Hagaru-ri sat at the southern tip of the reservoir.",
+    "It was the hub of the entire campaign.",
+    "Supplies.",
+    "Fuel.",
+    "Ammunition.",
+    "A field hospital.",
+    "And the airstrip Smith had ordered weeks earlier."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "chosin",
+    "to": "hagaru",
+    "items": [
+     {
+      "k": "unit",
+      "p": "hagaru",
+      "color": "blue",
+      "text": "Hagaru-ri",
+      "at": 0,
+      "pulse": true
+     },
+     {
+      "k": "marker",
+      "p": "strip",
+      "color": "blue",
+      "at": 0.5
+     }
+    ],
+    "flight": [
+     "chosin",
+     "hagaru"
+    ],
+    "hud": true,
+    "tilt": 34,
+    "temp": "-24°F"
+   },
+   "callouts": [
+    {
+     "text": "HAGARU-RI · HUB OF THE CAMPAIGN",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s46",
+   "act": 4,
+   "lines": [
+    {
+     "t": "On the night of November 28 it was held by a single understrength Marine battalion under Lieutenant Colonel Thomas Ridge.",
+     "say": "On the night of November twenty-eighth it was held by a single understrength Marine battalion under Lieutenant Colonel Thomas Ridge."
+    },
+    {
+     "t": "He had only a few thousand men to defend a perimeter about 4 miles around.",
+     "say": "He had only a few thousand men to defend a perimeter about four miles around."
+    },
+    "Truck drivers and engineers and clerks were handed rifles and sent to the line."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "hagaru_line",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s47",
+   "act": 4,
+   "lines": [
+    "The Chinese struck from the southwest and from a height the Marines called East Hill.",
+    "They broke into the perimeter more than once.",
+    "Each time they were pushed back.",
+    "Engineers fought through the night and climbed back onto their bulldozers at dawn."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "hagaru",
+    "to": "hagaru",
+    "items": [
+     {
+      "k": "unit",
+      "p": "hagaru",
+      "color": "blue",
+      "text": "3/1 Marines",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.2,
+        40.35
+       ],
+       [
+        127.24,
+        40.375
+       ]
+      ],
+      "color": "red",
+      "at": 0.15,
+      "width": 0.6
+     },
+     {
+      "k": "obj",
+      "p": "easthill",
+      "n": "E",
+      "at": 0.35,
+      "color": "red",
+      "text": "East Hill"
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.3,
+        40.4
+       ],
+       [
+        127.27,
+        40.39
+       ]
+      ],
+      "color": "red",
+      "at": 0.5,
+      "width": 0.6
+     },
+     {
+      "k": "clash",
+      "p": "easthill",
+      "at": 0.7
+     }
+    ],
+    "tilt": 36,
+    "hud": true
+   },
+   "callouts": [
+    {
+     "text": "NOV 28–29 · HAGARU-RI PERIMETER",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s48",
+   "act": 4,
+   "lines": [
+    "The airstrip was everything.",
+    "Without it the wounded would die and the division would have no lifeline.",
+    "The engineers kept working around the clock under floodlights even as enemy fire swept across the field.",
+    "The ground was so hard it fought every blade.",
+    "They kept going."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "airstrip",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s49",
+   "act": 4,
+   "lines": [
+    {
+     "t": "On December 1 the first transport plane landed on the half-finished strip.",
+     "say": "On December first the first transport plane landed on the half-finished strip."
+    },
+    {
+     "t": "Over the following days aircraft lifted out more than 4,000 wounded and frostbitten men.",
+     "say": "Over the following days aircraft lifted out more than four thousand wounded and frostbitten men."
+    },
+    "They flew in ammunition and medical supplies.",
+    "They flew in replacements.",
+    "For the men surrounded on that plateau the sound of those engines meant hope."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "4,000+ WOUNDED",
+    "style": "yellow",
+    "sub": "flown out from the Hagaru-ri airstrip · Dec 1950",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s50",
+   "act": 4,
+   "lines": [
+    "Meanwhile Smith made the most important decision of the campaign.",
+    "The division would come out together.",
+    "All of it.",
+    "Every man who could walk.",
+    "Every wounded Marine who could not.",
+    "As much equipment as the trucks could carry.",
+    "Nothing that could help the enemy would be left behind."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "carry_dead",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s51",
+   "act": 4,
+   "lines": [
+    "There was talk of flying the Marines out and abandoning their equipment.",
+    "Smith would not hear of it.",
+    "They would walk out as a fighting division."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "FLY OUT",
+     "big": "ABANDON THE GUNS",
+     "icon": "none",
+     "color": "red"
+    },
+    "right": {
+     "title": "WALK OUT",
+     "big": "AS A DIVISION",
+     "icon": "none",
+     "color": "blue",
+     "at": 0.6
+    }
+   }
+  },
+  {
+   "id": "s52",
+   "act": 4,
+   "lines": [
+    "It was during these days at Hagaru-ri that reporters asked Smith if the Marines were retreating.",
+    "His answer became legend.",
+    "The newspapers reported it in four famous words and a promise.",
+    "Retreat, hell! We're just attacking in another direction."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "smith_quote",
+    "kb": "in",
+    "bubbles": [
+     {
+      "text": "Retreat, hell!",
+      "x": 0.7,
+      "y": 0.2,
+      "at": 3
+     }
+    ]
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s53",
+   "act": 4,
+   "lines": [
+    "Historians still debate his exact words.",
+    "Smith later explained what he meant.",
+    "When you are surrounded there is no rear.",
+    "There is nowhere to retreat to.",
+    "You can only break out.",
+    "But the meaning was the same either way."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "NO REAR",
+    "accent": "ONLY A BREAKOUT",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s54",
+   "act": 4,
+   "lines": [
+    "The Marines would not run.",
+    "They would fight their way out.",
+    "First the regiments at Yudam-ni had to reach him."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s54-photo"
+   },
+   "label": "Marines clear a ridge during the breakout (Dec 1950)"
+  },
+  {
+   "id": "s55",
+   "act": 4,
+   "lines": [
+    {
+     "t": "On December 1 they began their breakout.",
+     "say": "On December first they began their breakout."
+    },
+    {
+     "t": "14 miles.",
+     "say": "Fourteen miles."
+    },
+    "Wounded men were strapped to trucks and tanks and the hoods of jeeps.",
+    "Some of the dead were carried too.",
+    "And between them and Hagaru-ri sat Toktong Pass."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "hagaru",
+    "to": "chosin",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.12,
+        40.48
+       ],
+       [
+        127.17,
+        40.44
+       ],
+       [
+        127.21,
+        40.41
+       ],
+       [
+        127.25,
+        40.38
+       ],
+       [
+        127.27,
+        40.34
+       ],
+       [
+        127.3,
+        40.29
+       ],
+       [
+        127.32,
+        40.25
+       ],
+       [
+        127.34,
+        40.22
+       ],
+       [
+        127.37,
+        40.19
+       ],
+       [
+        127.43,
+        40.08
+       ],
+       [
+        127.54,
+        39.92
+       ],
+       [
+        127.62,
+        39.83
+       ]
+      ],
+      "color": "#d98b2b",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.12,
+        40.48
+       ],
+       [
+        127.17,
+        40.44
+       ],
+       [
+        127.21,
+        40.41
+       ],
+       [
+        127.25,
+        40.385
+       ]
+      ],
+      "color": "blue",
+      "at": 0.2,
+      "width": 0.8
+     },
+     {
+      "k": "obj",
+      "p": "foxhill",
+      "n": "F",
+      "at": 0.7,
+      "color": "red",
+      "text": "Toktong Pass"
+     }
+    ],
+    "hud": true,
+    "tilt": 30,
+    "temp": "-30°F"
+   },
+   "callouts": [
+    {
+     "text": "DEC 1 · THE BREAKOUT BEGINS",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s56",
+   "act": 5,
+   "lines": [
+    {
+     "t": "On a barren hill above Toktong Pass a single company had been holding out for 5 days.",
+     "say": "On a barren hill above Toktong Pass a single company had been holding out for five days."
+    }
+   ],
+   "visual": {
+    "type": "black",
+    "text": "ACT 5",
+    "accent": "THE BREAKOUT ALONG THE MSR",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s57",
+   "act": 5,
+   "lines": [
+    "Fox Company of the Second Battalion Seventh Marines.",
+    {
+     "t": "Around 240 men under Captain William Barber.",
+     "say": "Around two hundred forty men under Captain William Barber."
+    },
+    "Their job was to keep the pass open.",
+    "On the very first night the Chinese surrounded them."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "chosin",
+    "to": "toktong",
+    "items": [
+     {
+      "k": "obj",
+      "p": "foxhill",
+      "n": "F",
+      "at": 0,
+      "color": "red",
+      "text": "Fox Hill"
+     },
+     {
+      "k": "swarm",
+      "path": [
+       [
+        127.15,
+        40.47
+       ],
+       [
+        127.17,
+        40.45
+       ],
+       [
+        127.183,
+        40.438
+       ]
+      ],
+      "at": 0.3,
+      "n": 120
+     },
+     {
+      "k": "swarm",
+      "path": [
+       [
+        127.22,
+        40.41
+       ],
+       [
+        127.2,
+        40.425
+       ],
+       [
+        127.185,
+        40.436
+       ]
+      ],
+      "at": 0.5,
+      "n": 120
+     }
+    ],
+    "hud": true,
+    "tilt": 36,
+    "temp": "-28°F"
+   },
+   "chapter": {
+    "num": "ACT 5",
+    "title": "THE BREAKOUT ALONG THE MSR"
+   },
+   "callouts": [
+    {
+     "text": "FOX COMPANY · 2/7 MARINES · ~240 MEN",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s58",
+   "act": 5,
+   "lines": [
+    "The attacks came night after night.",
+    "The Marines held a small ring of foxholes on the slope.",
+    "Planes dropped ammunition and food.",
+    "Some bundles landed among the enemy.",
+    "Men crawled out under fire to drag back the rest."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "fox_hill",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s59",
+   "act": 5,
+   "lines": [
+    "Barber was shot in the leg on the second day.",
+    "He refused to be relieved.",
+    "He was carried on a stretcher from position to position to direct the defense.",
+    "By the end most of the company had been killed or wounded or crippled by frostbite.",
+    "But Fox Hill never fell."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "barber_stretcher",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s60",
+   "act": 5,
+   "lines": [
+    "The men at Yudam-ni knew that if the pass fell they would never make it out.",
+    "So Lieutenant Colonel Raymond Davis was given a desperate task.",
+    "He would take the First Battalion Seventh Marines off the road entirely.",
+    "They would march cross-country at night over the mountains and reach Fox Company from behind."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "toktong",
+    "to": "yudam",
+    "items": [
+     {
+      "k": "unit",
+      "p": "yudam",
+      "color": "blue",
+      "text": "1/7 Marines · Davis",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.12,
+        40.48
+       ],
+       [
+        127.14,
+        40.475
+       ],
+       [
+        127.16,
+        40.462
+       ],
+       [
+        127.175,
+        40.448
+       ],
+       [
+        127.183,
+        40.438
+       ]
+      ],
+      "color": "blue",
+      "at": 0.4,
+      "width": 0.6
+     },
+     {
+      "k": "obj",
+      "p": "foxhill",
+      "n": "F",
+      "at": 0.2,
+      "color": "red",
+      "text": "Fox Hill"
+     }
+    ],
+    "hud": true,
+    "tilt": 36
+   },
+   "callouts": [
+    {
+     "text": "CROSS-COUNTRY · AT NIGHT · OVER THE MOUNTAINS",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s61",
+   "act": 5,
+   "lines": [
+    {
+     "t": "On the night of December 1 Davis led his men into the dark.",
+     "say": "On the night of December first Davis led his men into the dark."
+    },
+    "Snow lay knee-deep and deeper.",
+    "The temperature sank far below zero.",
+    "There was no trail.",
+    "Some men dozed off on their feet and had to be shaken awake.",
+    "The battalion steered by the stars and fought small battles along the ridgelines."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "davis_march",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s62",
+   "act": 5,
+   "lines": [
+    {
+     "t": "On the morning of December 2 they reached Fox Hill.",
+     "say": "On the morning of December second they reached Fox Hill."
+    },
+    "The survivors of Fox Company came out to meet them.",
+    "Both Barber and Davis would later receive the Medal of Honor."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "fox_relief",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "callouts": [
+    {
+     "text": "MEDAL OF HONOR · BARBER & DAVIS",
+     "style": "yellow",
+     "at": 2,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s63",
+   "act": 5,
+   "lines": [
+    "Down on the road the main column ground forward.",
+    "Infantry cleared the ridges on both sides while trucks and artillery crawled along between them.",
+    "Every hill had to be taken.",
+    "Every roadblock had to be broken.",
+    "Marine Corsair fighters flew so close overhead that spent shell casings rained down on the troops below."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s63-photo"
+   },
+   "label": "Marine Corsair fires rockets at Chosin (Dec 1950)"
+  },
+  {
+   "id": "s64",
+   "act": 5,
+   "lines": [
+    {
+     "t": "It took the column nearly 80 hours to cover those 14 miles.",
+     "say": "It took the column nearly eighty hours to cover those fourteen miles."
+    },
+    {
+     "t": "On the evening of December 3 the lead elements marched down into Hagaru-ri.",
+     "say": "On the evening of December third the lead elements marched down into Hagaru-ri."
+    },
+    "Behind them came the wounded and the frostbitten and the guns.",
+    "Witnesses remembered that some of the men were singing the Marines' Hymn as they came in."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s64-photo"
+   },
+   "label": "Marines on the road between Yudam-ni and Hagaru-ri (Dec 1950)",
+   "callouts": [
+    {
+     "text": "~80 HOURS · 14 MILES",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s65",
+   "act": 5,
+   "lines": [
+    "The division was together again.",
+    "Almost.",
+    "From the east the news was grim.",
+    "Task Force Faith had been destroyed.",
+    {
+     "t": "Of roughly 3,000 Army soldiers only about 1,000 reached Marine lines alive.",
+     "say": "Of roughly three thousand Army soldiers only about a thousand reached Marine lines alive."
+    },
+    "Many of them had crawled across the frozen surface of the reservoir."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "chosin",
+    "to": "chosin",
+    "items": [
+     {
+      "k": "clash",
+      "p": "sinhung",
+      "at": 0.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.31,
+        40.44
+       ],
+       [
+        127.29,
+        40.41
+       ],
+       [
+        127.26,
+        40.39
+       ]
+      ],
+      "color": "blue",
+      "at": 0.5,
+      "width": 0.5
+     },
+     {
+      "k": "unit",
+      "p": "hagaru",
+      "color": "blue",
+      "text": "Marine lines",
+      "at": 0.3
+     }
+    ],
+    "tilt": 30
+   },
+   "callouts": [
+    {
+     "text": "TASK FORCE FAITH · ~3,000 MEN · ~1,000 SURVIVORS",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s66",
+   "act": 5,
+   "lines": [
+    "But Hagaru-ri was only a stopping point.",
+    {
+     "t": "Koto-ri lay 11 more miles to the south.",
+     "say": "Koto-ri lay eleven more miles to the south."
+    },
+    "And the Chinese were waiting there too."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "hagaru",
+    "to": "south",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.12,
+        40.48
+       ],
+       [
+        127.17,
+        40.44
+       ],
+       [
+        127.21,
+        40.41
+       ],
+       [
+        127.25,
+        40.38
+       ],
+       [
+        127.27,
+        40.34
+       ],
+       [
+        127.3,
+        40.29
+       ],
+       [
+        127.32,
+        40.25
+       ],
+       [
+        127.34,
+        40.22
+       ],
+       [
+        127.37,
+        40.19
+       ],
+       [
+        127.43,
+        40.08
+       ],
+       [
+        127.54,
+        39.92
+       ],
+       [
+        127.62,
+        39.83
+       ]
+      ],
+      "color": "#d98b2b",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.25,
+        40.38
+       ],
+       [
+        127.27,
+        40.34
+       ],
+       [
+        127.3,
+        40.295
+       ]
+      ],
+      "color": "blue",
+      "at": 0.3,
+      "width": 0.8
+     },
+     {
+      "k": "unit",
+      "p": "kotori",
+      "color": "blue",
+      "text": "Koto-ri",
+      "at": 0.6
+     }
+    ],
+    "hud": true,
+    "tilt": 30
+   },
+   "callouts": [
+    {
+     "text": "NEXT · 11 MILES TO KOTO-RI",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s67",
+   "act": 6,
+   "lines": [
+    {
+     "t": "On December 6 the division broke out of Hagaru-ri.",
+     "say": "On December sixth the division broke out of Hagaru-ri."
+    },
+    {
+     "t": "It took nearly 2 days of hard fighting to cover the 11 miles to Koto-ri.",
+     "say": "It took nearly two days of hard fighting to cover the eleven miles to Koto-ri."
+    },
+    {
+     "t": "10,000 men in a column that stretched for miles.",
+     "say": "Ten thousand men in a column that stretched for miles."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s67-photo"
+   },
+   "label": "7th Marines just south of Hagaru-ri (Dec 6, 1950)",
+   "chapter": {
+    "num": "ACT 6",
+    "title": "THE MIRACLE AT FUNCHILIN PASS"
+   }
+  },
+  {
+   "id": "s68",
+   "act": 6,
+   "lines": [
+    "At Koto-ri the legendary Colonel Lewis Chesty Puller held the town with the First Marines.",
+    "He is credited with a famous line about being surrounded.",
+    "They are on our left.",
+    "They are on our right.",
+    "They are in front of us.",
+    "They are behind us.",
+    "They can't get away this time."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s68-photo"
+   },
+   "label": "Col. Lewis “Chesty” Puller (right) with MacArthur (Sept. 1950)"
+  },
+  {
+   "id": "s69",
+   "act": 6,
+   "lines": [
+    "But at Koto-ri the Marines faced a problem that no amount of courage could solve.",
+    "South of the town the road dropped into Funchilin Pass.",
+    "A steep descent toward the coastal plain."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "kotori",
+    "to": "pass",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.12,
+        40.48
+       ],
+       [
+        127.17,
+        40.44
+       ],
+       [
+        127.21,
+        40.41
+       ],
+       [
+        127.25,
+        40.38
+       ],
+       [
+        127.27,
+        40.34
+       ],
+       [
+        127.3,
+        40.29
+       ],
+       [
+        127.32,
+        40.25
+       ],
+       [
+        127.34,
+        40.22
+       ],
+       [
+        127.37,
+        40.19
+       ],
+       [
+        127.43,
+        40.08
+       ],
+       [
+        127.54,
+        39.92
+       ],
+       [
+        127.62,
+        39.83
+       ]
+      ],
+      "color": "#d98b2b",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "kotori",
+      "color": "blue",
+      "text": "Koto-ri",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "bridge",
+      "color": "red",
+      "at": 0.5
+     }
+    ],
+    "flight": [
+     "kotori",
+     "pass",
+     "bridge"
+    ],
+    "hud": true,
+    "tilt": 38,
+    "temp": "-24°F"
+   },
+   "callouts": [
+    {
+     "text": "FUNCHILIN PASS",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s70",
+   "act": 6,
+   "lines": [
+    "At one point the road crossed a narrow gap above the pipes of a hydroelectric power plant.",
+    "The Chinese had blown the bridge there.",
+    {
+     "t": "The gap was about 29 feet wide.",
+     "say": "The gap was about twenty-nine feet wide."
+    },
+    "On one side rose a cliff.",
+    "On the other side was a sheer drop."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s70-photo"
+   },
+   "label": "The blown bridge at Funchilin Pass (Dec 1950)",
+   "callouts": [
+    {
+     "text": "GAP · ~29 FEET",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s71",
+   "act": 6,
+   "lines": [
+    "Without that bridge no truck and no tank and no gun could pass.",
+    {
+     "t": "14,000 men and well over 1,000 vehicles would be trapped on the plateau.",
+     "say": "Fourteen thousand men and well over a thousand vehicles would be trapped on the plateau."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "14,000 MEN\n1,000+ VEHICLES",
+    "style": "red",
+    "sub": "trapped above the gap",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s72",
+   "act": 6,
+   "lines": [
+    "The division engineer Lieutenant Colonel John Partridge had an answer.",
+    "No one had ever tried it in combat before.",
+    "They would drop a bridge from the sky."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "DROP A BRIDGE",
+    "accent": "FROM THE SKY",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s73",
+   "act": 6,
+   "lines": [
+    {
+     "t": "In Japan Air Force crews loaded steel bridge sections onto C-119 Flying Boxcar transports.",
+     "say": "In Japan Air Force crews loaded steel bridge sections onto C-one-nineteen Flying Boxcar transports."
+    },
+    {
+     "t": "Each section weighed about 2.5 tons.",
+     "say": "Each section weighed about two and a half tons."
+    },
+    "A test drop smashed one section into the ground.",
+    "So they switched to larger parachutes."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s73-photo"
+   },
+   "label": "C-119 Flying Boxcars at Yonpo airfield (Dec 1950)"
+  },
+  {
+   "id": "s74",
+   "act": 6,
+   "lines": [
+    {
+     "t": "On December 7 8 sections floated down over Koto-ri.",
+     "say": "On December seventh eight sections floated down over Koto-ri."
+    },
+    "One was damaged on landing.",
+    "One drifted into Chinese lines.",
+    "The rest landed where they were needed.",
+    "It was enough."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s74-photo"
+   },
+   "label": "A bridge section falls from a C-119 over Koto-ri (Dec 7, 1950)",
+   "callouts": [
+    {
+     "text": "8 SECTIONS DROPPED · DEC 7",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s75",
+   "act": 6,
+   "lines": [
+    "But first the Marines had to take the heights above the pass.",
+    {
+     "t": "On the night of December 8 a battalion of the First Marines climbed toward a peak called Hill 1081 in a blinding blizzard.",
+     "say": "On the night of December eighth a battalion of the First Marines climbed toward a peak called Hill ten-eighty-one in a blinding blizzard."
+    },
+    "They attacked Chinese positions in the snow.",
+    "The fighting lasted into the next day.",
+    "When it ended the high ground belonged to the Marines."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "pass",
+    "to": "bridge",
+    "items": [
+     {
+      "k": "obj",
+      "p": "h1081",
+      "n": "1081",
+      "at": 0.2,
+      "color": "red",
+      "text": "Hill 1081"
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.36,
+        40.205
+       ],
+       [
+        127.352,
+        40.226
+       ]
+      ],
+      "color": "blue",
+      "at": 0.4,
+      "width": 0.5
+     },
+     {
+      "k": "clash",
+      "p": "h1081",
+      "at": 0.6
+     },
+     {
+      "k": "marker",
+      "p": "bridge",
+      "color": "red",
+      "at": 0
+     }
+    ],
+    "hud": true,
+    "tilt": 40,
+    "temp": "-30°F"
+   },
+   "callouts": [
+    {
+     "text": "DEC 8–9 · HILL 1081 · BLIZZARD",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s76",
+   "act": 6,
+   "lines": [
+    {
+     "t": "On December 9 the engineers hauled the bridge sections down the road on trucks.",
+     "say": "On December ninth the engineers hauled the bridge sections down the road on trucks."
+    },
+    "They laid the steel across the gap.",
+    "The span was barely wide enough.",
+    "Tanks could ride on the two steel treadways.",
+    "Jeeps needed wooden panels laid between them.",
+    "One wrong move and a vehicle would tumble into the gorge below."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s76-photo"
+   },
+   "label": "The treadway bridge in place at Funchilin Pass (Dec 9, 1950)"
+  },
+  {
+   "id": "s77",
+   "act": 6,
+   "lines": [
+    "That night the column began to cross.",
+    "Trucks.",
+    "Artillery.",
+    "Ambulances.",
+    "Tanks at the rear.",
+    "Thousands of Korean refugees followed behind the Marines in the snow."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "bridge_crossing",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s78",
+   "act": 6,
+   "lines": [
+    "The impossible had happened.",
+    "A bridge had fallen from the sky and an entire division had walked across it."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "bridge_drop",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s79",
+   "act": 6,
+   "lines": [
+    "Below the pass the road opened toward the sea.",
+    "Army troops waited at the bottom.",
+    {
+     "t": "By December 11 the last Marines had come down from the mountains.",
+     "say": "By December eleventh the last Marines had come down from the mountains."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s79-photo"
+   },
+   "label": "Marines on the road between Funchilin Pass and Chinhung-ni (Dec 1950)",
+   "callouts": [
+    {
+     "text": "DEC 11 · OUT OF THE MOUNTAINS",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s80",
+   "act": 7,
+   "lines": [
+    "The Marines reached Hungnam on the coast.",
+    "But the story did not end there."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "ACT 7",
+    "accent": "EPILOGUE & LEGACY",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s81",
+   "act": 7,
+   "lines": [
+    "In mid-December the United Nations carried out one of the largest evacuations by sea in military history.",
+    {
+     "t": "Over about 2 weeks ships carried more than 100,000 troops out of Hungnam.",
+     "say": "Over about two weeks ships carried more than one hundred thousand troops out of Hungnam."
+    },
+    {
+     "t": "They also carried nearly 100,000 Korean civilians fleeing the North.",
+     "say": "They also carried nearly one hundred thousand Korean civilians fleeing the North."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s81-photo"
+   },
+   "label": "Ships gathered off Hungnam (Dec 14, 1950)",
+   "chapter": {
+    "num": "ACT 7",
+    "title": "EPILOGUE & LEGACY"
+   },
+   "callouts": [
+    {
+     "text": "HUNGNAM EVACUATION · DEC 1950",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s82",
+   "act": 7,
+   "lines": [
+    {
+     "t": "One freighter called the Meredith Victory was built to carry just 12 passengers.",
+     "say": "One freighter called the Meredith Victory was built to carry just twelve passengers."
+    },
+    {
+     "t": "It took on about 14,000 refugees.",
+     "say": "It took on about fourteen thousand refugees."
+    },
+    "Not one life was lost on the voyage.",
+    {
+     "t": "5 babies were born along the way.",
+     "say": "Five babies were born along the way."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s82-photo"
+   },
+   "label": "Refugees aboard SS Meredith Victory (Dec 1950)",
+   "callouts": [
+    {
+     "text": "~14,000 REFUGEES · ONE SHIP",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s83",
+   "act": 7,
+   "lines": [
+    "On Christmas Eve demolition teams blew up the port.",
+    "The last ships pulled away."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s83-photo"
+   },
+   "label": "Demolition of Hungnam port (Dec 24, 1950)",
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0.6,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s84",
+   "act": 7,
+   "lines": [
+    "The cost had been terrible.",
+    {
+     "t": "The First Marine Division suffered more than 4,000 battle casualties.",
+     "say": "The First Marine Division suffered more than four thousand battle casualties."
+    },
+    "Thousands more were struck down by frostbite.",
+    {
+     "t": "Across all United Nations forces the campaign cost roughly 17,000 casualties.",
+     "say": "Across all United Nations forces the campaign cost roughly seventeen thousand casualties."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s84-photo"
+   },
+   "label": "1st Marine Division cemetery at Hamhung (Dec 13, 1950)",
+   "callouts": [
+    {
+     "text": "UN FORCES · ~17,000 CASUALTIES",
+     "style": "dark",
+     "at": 2,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s85",
+   "act": 7,
+   "lines": [
+    "But the cost to the enemy was far greater.",
+    "Chinese records later showed the Ninth Army Group lost tens of thousands killed and wounded.",
+    "Tens of thousands more were taken out of action by the cold.",
+    "The army group sent to annihilate the Marines was so badly broken that it could not return to battle for months."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "chosin",
+    "to": "nk",
+    "items": [
+     {
+      "k": "lock",
+      "p": "reservoir",
+      "at": 0.2,
+      "text": "9TH ARMY GROUP"
+     },
+     {
+      "k": "marker",
+      "p": "reservoir",
+      "color": "red",
+      "at": 0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "OUT OF ACTION FOR MONTHS",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s86",
+   "act": 7,
+   "lines": [
+    "That was the strategic meaning of Chosin.",
+    "Mao had ordered the destruction of the First Marine Division.",
+    "Instead the Marines fought their way through a force many times their size.",
+    "They brought out their wounded.",
+    "They brought out their guns.",
+    "And they left one of China's finest army groups too shattered to pursue."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "MAO'S ORDER",
+     "big": "DESTROY THEM",
+     "icon": "none",
+     "color": "red"
+    },
+    "right": {
+     "title": "THE RESULT",
+     "big": "THEY CAME OUT",
+     "icon": "none",
+     "color": "blue",
+     "at": 0.6
+    }
+   }
+  },
+  {
+   "id": "s87",
+   "act": 7,
+   "lines": [
+    "The men who survived called themselves the Chosin Few.",
+    "For the rest of their lives many carried the scars of that winter.",
+    "Numb fingers.",
+    "Damaged feet.",
+    "Memories that never thawed."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s87-photo"
+   },
+   "label": "Chosin Few Memorial dedication"
+  },
+  {
+   "id": "s88",
+   "act": 7,
+   "lines": [
+    "They also carried something else.",
+    "The knowledge that they had walked out of a trap that was meant to be their grave.",
+    "Historians have compared the march to the retreat of Xenophon's Ten Thousand in ancient Greece.",
+    "A fighting withdrawal so disciplined that it became a kind of victory of its own."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "chosin_today",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s89",
+   "act": 7,
+   "lines": [
+    {
+     "t": "17 days.",
+     "say": "Seventeen days."
+    },
+    {
+     "t": "78 miles.",
+     "say": "Seventy-eight miles."
+    },
+    {
+     "t": "40 below.",
+     "say": "Forty below."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "route",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.12,
+        40.48
+       ],
+       [
+        127.17,
+        40.44
+       ],
+       [
+        127.21,
+        40.41
+       ],
+       [
+        127.25,
+        40.38
+       ],
+       [
+        127.27,
+        40.34
+       ],
+       [
+        127.3,
+        40.29
+       ],
+       [
+        127.32,
+        40.25
+       ],
+       [
+        127.34,
+        40.22
+       ],
+       [
+        127.37,
+        40.19
+       ],
+       [
+        127.43,
+        40.08
+       ],
+       [
+        127.54,
+        39.92
+       ],
+       [
+        127.62,
+        39.83
+       ]
+      ],
+      "color": "#d98b2b",
+      "at": 0.1
+     }
+    ],
+    "flight": [
+     "nk",
+     "chosin",
+     "route"
+    ],
+    "hud": true,
+    "tilt": 28,
+    "temp": "-40°F"
+   },
+   "callouts": [
+    {
+     "text": "17 DAYS · 78 MILES · 40 BELOW",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s90",
+   "act": 7,
+   "lines": [
+    "And one simple decision made in the snow.",
+    "We are not retreating.",
+    "We are coming out together."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "snow_column",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s91",
+   "act": 7,
+   "lines": [
+    "If this story moved you please subscribe to Map of War and turn on notifications.",
+    "Leave a comment below and tell us which battle you want us to map next.",
+    "And share this video with someone who should know what happened at the Chosin Reservoir."
+   ],
+   "visual": {
+    "type": "cta",
+    "title": "Which battle should we map next?",
+    "at": 0
+   },
+   "pauseBefore": 0.3,
+   "sfx": [
+    {
+     "id": "pop",
+     "at": 0.3,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s92",
+   "act": 7,
+   "lines": [
+    "Thank you for watching."
+   ],
+   "visual": {
+    "type": "endcard",
+    "title": "Chosin Reservoir · 1950\nIn memory of the Chosin Few.",
+    "q": "s92-photo"
+   },
+   "tail": 1.0
+  }
+ ]
+}

@@ -11,15 +11,15 @@ On the eastern side of the peninsula the job fell to Ten Corps. At its spearhead
 
 Smith did not like what he saw. His division was being strung out along a single narrow road. Seventy-eight miles of dirt and gravel climbed from the coast into mountains more than four thousand feet high. One road in. One road out. The planners called it the Main Supply Route. The Marines simply called it the MSR.
 
-His corps commander Major General Edward Almond wanted speed. Smith wanted caution. So he quietly slowed his advance. He stockpiled supplies at a mountain village called Hagaru-ri and ordered an airstrip cut into the frozen ground. Within days that caution would save his division.
+His corps commander Major General Edward Almond wanted speed. Smith wanted caution. So he quietly slowed his advance. He stockpiled ammunition at a mountain village called Hagaru-ri. He ordered his engineers to begin cutting an airstrip into the frozen ground. Some officers thought he was being timid. Within days that caution would save his division.
 
 Because the mountains were not empty.
 
 Since October an entire Chinese army group had been slipping across the Yalu. The Ninth Army Group under General Song Shilun. Twelve divisions. Roughly one hundred twenty thousand men. They marched at night. They hid in villages and forests by day. They lit no fires. American reconnaissance planes flew over the same ridges again and again and saw nothing.
 
-There had been warnings. In early November the Seventh Marines had already clashed with Chinese troops near Sudong. But in Tokyo MacArthur's headquarters did not believe China would intervene in force.
+There had been warnings. In early November the Seventh Marines fought a sharp battle near a village called Sudong against Chinese troops. Prisoners were taken. They said many more were coming. But in Tokyo MacArthur's headquarters did not believe China would intervene in force.
 
-Mao Zedong had a different plan. He did not want to push the Americans back. He wanted to destroy them. Let the Marines stretch their line thin along that single road. Then cut it into pieces.
+Mao Zedong had a different plan. He did not want to push the Americans back. He wanted to destroy them. Let the Marines climb deep into the mountains. Let them stretch their line thin along that single road. Then cut it into pieces and annihilate each piece one by one.
 
 By the last week of November the trap was set. The Fifth and Seventh Marines had pushed west of the reservoir to a cluster of huts called Yudam-ni. Behind them small garrisons held Hagaru-ri and Koto-ri. East of the reservoir an Army regimental combat team was moving into position.
 
@@ -39,13 +39,13 @@ Canned rations froze into blocks of ice. A Marine who warmed a can over a small 
 
 Frostbite was everywhere. Feet sweated inside rubber boots called shoe-pacs during the day and froze at night. Fingers lost all feeling inside thick mittens. Men who pulled off a glove to fire a rifle could lose the skin of their hand to the frozen steel.
 
-The ground was frozen nearly a foot deep. Shovels bounced off it. Men used explosives just to blast out a foxhole.
+The ground was frozen nearly a foot deep. Shovels bounced off it. Men used explosives just to blast out a foxhole. Others built walls of rock and packed snow and lay behind them all night.
 
 The terrain made everything worse. The reservoir sat on a high plateau ringed by peaks. Ridges climbed steeply from the road on both sides. Whoever held the high ground could fire straight down onto anything that moved along the MSR. And the road itself was barely wide enough for a single truck. In places it clung to cliffs with a sheer drop on one side.
 
 Yet the cold did not choose sides. The Chinese suffered even more. Many wore quilted cotton uniforms and canvas shoes. Some had no gloves at all. They had marched for weeks on handfuls of rice and frozen potatoes. Whole units lost more men to frostbite than to American bullets. Later some Chinese soldiers would be found frozen to death in their fighting positions with their weapons still in their hands.
 
-Two armies would now fight on a frozen plateau where the weather killed without mercy.
+This was the stage for one of the most brutal battles of the twentieth century. Two armies would fight on a frozen plateau where the weather killed without mercy.
 
 And on the night of November twenty-seventh the bugles began to sound.
 
@@ -57,9 +57,9 @@ At Yudam-ni the Fifth and Seventh Marines had settled in around the village. The
 
 The attackers came in waves. They hit the hills the Marines knew by their map numbers. Hill twelve-eighty-two. Hill twelve-forty. Hill fourteen-oh-three. Grenades bounced down the slopes. Machine guns fired until their barrels glowed. Marines fought from foxholes they had barely scraped into the frozen ground.
 
-Some positions were overrun and then retaken before dawn. On Hill twelve-eighty-two one Marine company was reduced to a handful of men. Cooks and clerks grabbed rifles and climbed the hill to fill the gaps.
+Company after company was cut to pieces. Some positions held. Some were overrun and then retaken before dawn. On Hill twelve-eighty-two one Marine company was reduced to a handful of men. Cooks and clerks and drivers grabbed rifles and climbed the hill to fill the gaps.
 
-By morning the Marines had held. But they soon learned the true scale of the attack.
+By morning the snow around Yudam-ni was dark with fallen soldiers. The Marines had held. But they soon learned the true scale of the attack.
 
 The Chinese had not only struck at Yudam-ni. They had struck everywhere at once. The road south to Hagaru-ri was cut. At Toktong Pass halfway down a single rifle company was surrounded on a lonely hill. At Hagaru-ri itself enemy troops stormed toward the half-finished airstrip. East of the reservoir the Army regiment known as Task Force Faith was fighting for its life.
 
@@ -67,7 +67,7 @@ The Ninth Army Group had done exactly what Mao wanted. It had cut the First Mari
 
 In Tokyo the mood shifted from confidence to shock. MacArthur sent word to Washington that his forces now faced an entirely new war.
 
-On November twenty-ninth a relief column of British Royal Marine commandos and American troops fought north from Koto-ri. The Chinese ambushed it in a narrow valley. Trucks burned. Survivors would call it Hell Fire Valley. Only part of the force broke through.
+On November twenty-ninth a relief column of British Royal Marine commandos and American troops fought north from Koto-ri. The Chinese ambushed it in a narrow valley. Trucks burned. The column was split apart. Survivors would call that stretch of road Hell Fire Valley. Only part of the force broke through.
 
 For the men at Yudam-ni the situation was now clear. They were fourteen miles from Hagaru-ri. Every mile of that road was controlled by the enemy. And they had hundreds of wounded who could not walk.
 
@@ -81,17 +81,17 @@ Now back to the frozen hills of Chosin.
 
 The answer depended on one man and one place.
 
-The man was Oliver P. Smith. Quiet. Methodical. A pipe smoker who rarely raised his voice. Some of his officers called him the Professor.
+The man was Oliver Smith. Quiet. Methodical. A pipe smoker who rarely raised his voice. Some of his officers called him the Professor.
 
 The place was Hagaru-ri.
 
-Hagaru-ri sat at the southern tip of the reservoir. Supplies. Fuel. Ammunition. A field hospital. And the airstrip Smith had ordered weeks earlier.
+Hagaru-ri sat at the southern tip of the reservoir. It was the hub of the entire campaign. Supplies. Fuel. Ammunition. A field hospital. And the airstrip Smith had ordered weeks earlier.
 
-On the night of November twenty-eighth it was held by a single understrength Marine battalion under Lieutenant Colonel Thomas Ridge. Truck drivers and engineers and clerks were handed rifles and sent to the line.
+On the night of November twenty-eighth it was held by a single understrength Marine battalion under Lieutenant Colonel Thomas Ridge. He had only a few thousand men to defend a perimeter about four miles around. Truck drivers and engineers and clerks were handed rifles and sent to the line.
 
-The Chinese struck from the southwest and from a height the Marines called East Hill. They broke into the perimeter more than once. Each time they were pushed back.
+The Chinese struck from the southwest and from a height the Marines called East Hill. They broke into the perimeter more than once. Each time they were pushed back. Engineers fought through the night and climbed back onto their bulldozers at dawn.
 
-The airstrip was everything. Without it the wounded would die. The engineers kept working under floodlights even as enemy fire swept across the field.
+The airstrip was everything. Without it the wounded would die and the division would have no lifeline. The engineers kept working around the clock under floodlights even as enemy fire swept across the field. The ground was so hard it fought every blade. They kept going.
 
 On December first the first transport plane landed on the half-finished strip. Over the following days aircraft lifted out more than four thousand wounded and frostbitten men. They flew in ammunition and medical supplies. They flew in replacements. For the men surrounded on that plateau the sound of those engines meant hope.
 
@@ -115,17 +115,17 @@ On a barren hill above Toktong Pass a single company had been holding out for fi
 
 Fox Company of the Second Battalion Seventh Marines. Around two hundred forty men under Captain William Barber. Their job was to keep the pass open. On the very first night the Chinese surrounded them.
 
-The attacks came night after night. Planes dropped ammunition and food. Men crawled out under fire to drag the bundles back.
+The attacks came night after night. The Marines held a small ring of foxholes on the slope. Planes dropped ammunition and food. Some bundles landed among the enemy. Men crawled out under fire to drag back the rest.
 
 Barber was shot in the leg on the second day. He refused to be relieved. He was carried on a stretcher from position to position to direct the defense. By the end most of the company had been killed or wounded or crippled by frostbite. But Fox Hill never fell.
 
 The men at Yudam-ni knew that if the pass fell they would never make it out. So Lieutenant Colonel Raymond Davis was given a desperate task. He would take the First Battalion Seventh Marines off the road entirely. They would march cross-country at night over the mountains and reach Fox Company from behind.
 
-On the night of December first Davis led his men into the dark. Snow lay knee-deep. There was no trail. Some men dozed off on their feet and had to be shaken awake. The battalion steered by the stars and fought small battles along the ridgelines.
+On the night of December first Davis led his men into the dark. Snow lay knee-deep and deeper. The temperature sank far below zero. There was no trail. Some men dozed off on their feet and had to be shaken awake. The battalion steered by the stars and fought small battles along the ridgelines.
 
 On the morning of December second they reached Fox Hill. The survivors of Fox Company came out to meet them. Both Barber and Davis would later receive the Medal of Honor.
 
-Down on the road the main column ground forward. Infantry cleared the ridges while trucks crawled along below. Marine Corsair fighters flew so close overhead that spent shell casings rained down on the troops below.
+Down on the road the main column ground forward. Infantry cleared the ridges on both sides while trucks and artillery crawled along between them. Every hill had to be taken. Every roadblock had to be broken. Marine Corsair fighters flew so close overhead that spent shell casings rained down on the troops below.
 
 It took the column nearly eighty hours to cover those fourteen miles. On the evening of December third the lead elements marched down into Hagaru-ri. Behind them came the wounded and the frostbitten and the guns. Witnesses remembered that some of the men were singing the Marines' Hymn as they came in.
 
@@ -153,9 +153,9 @@ In Japan Air Force crews loaded steel bridge sections onto C-one-nineteen Flying
 
 On December seventh eight sections floated down over Koto-ri. One was damaged on landing. One drifted into Chinese lines. The rest landed where they were needed. It was enough.
 
-But first the Marines had to take the heights above the pass. On December eighth a battalion of the First Marines attacked Hill ten-eighty-one in a blinding blizzard. By the next day the high ground was theirs.
+But first the Marines had to take the heights above the pass. On the night of December eighth a battalion of the First Marines climbed toward a peak called Hill ten-eighty-one in a blinding blizzard. They attacked Chinese positions in the snow. The fighting lasted into the next day. When it ended the high ground belonged to the Marines.
 
-On December ninth the engineers laid the steel across the gap. The span was barely wide enough. Tanks could ride on the two steel treadways. Jeeps needed wooden panels laid between them. One wrong move and a vehicle would tumble into the gorge below.
+On December ninth the engineers hauled the bridge sections down the road on trucks. They laid the steel across the gap. The span was barely wide enough. Tanks could ride on the two steel treadways. Jeeps needed wooden panels laid between them. One wrong move and a vehicle would tumble into the gorge below.
 
 That night the column began to cross. Trucks. Artillery. Ambulances. Tanks at the rear. Thousands of Korean refugees followed behind the Marines in the snow.
 
@@ -173,9 +173,9 @@ One freighter called the Meredith Victory was built to carry just twelve passeng
 
 On Christmas Eve demolition teams blew up the port. The last ships pulled away.
 
-The cost had been terrible. The First Marine Division suffered more than four thousand battle casualties and thousands more from frostbite.
+The cost had been terrible. The First Marine Division suffered more than four thousand battle casualties. Thousands more were struck down by frostbite. Across all United Nations forces the campaign cost roughly seventeen thousand casualties.
 
-But the cost to the enemy was far greater. The Ninth Army Group lost tens of thousands to combat and tens of thousands more to the cold. It was so badly broken that it could not return to battle for months.
+But the cost to the enemy was far greater. Chinese records later showed the Ninth Army Group lost tens of thousands killed and wounded. Tens of thousands more were taken out of action by the cold. The army group sent to annihilate the Marines was so badly broken that it could not return to battle for months.
 
 That was the strategic meaning of Chosin. Mao had ordered the destruction of the First Marine Division. Instead the Marines fought their way through a force many times their size. They brought out their wounded. They brought out their guns. And they left one of China's finest army groups too shattered to pursue.
 

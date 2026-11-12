@@ -1,6 +1,6 @@
 import React, { createContext, useContext } from "react";
 import { AbsoluteFill, Img, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
-import { atSec, C, clamp, easeOut, F, fitFont, NOBREAK, popIn, Scene } from "./theme";
+import { atSec, C, clamp, easeOut, F, fitFont, LANG, NOBREAK, popIn, Scene } from "./theme";
 
 export const SceneCtx = createContext<Scene | null>(null);
 export const useScene = () => useContext(SceneCtx)!;
@@ -349,16 +349,16 @@ export const HudCta: React.FC = () => {
         {br(W + pad, H + pad, -1, -1, "d")}
       </svg>
       <div style={{ position: "absolute", top: 22, left: 30, right: 30, display: "flex", justifyContent: "space-between", alignItems: "center", fontFamily: F.sub, fontSize: 34, color: cy, letterSpacing: 3 }}>
-        <span>◉ 작전 지원 요청</span>
-        <span style={{ opacity: blink, color: locked ? "#ff5252" : cy }}>{locked ? "■ 락온 완료" : "□ 조준 중"}</span>
+        <span>{LANG === "en" ? "◉ SUPPORT REQUEST" : "◉ 작전 지원 요청"}</span>
+        <span style={{ opacity: blink, color: locked ? "#ff5252" : cy }}>{locked ? (LANG === "en" ? "■ LOCKED" : "■ 락온 완료") : (LANG === "en" ? "□ ACQUIRING" : "□ 조준 중")}</span>
       </div>
       <div style={{ position: "absolute", top: 80, left: 30, right: 30, height: 2, background: "rgba(0,229,255,.5)" }} />
       <div style={{ position: "absolute", top: 108, left: 0, right: 0, display: "flex", justifyContent: "center", gap: 28 }}>
-        {btn("구독", 0.5, true)}
-        {btn("좋아요", 0.8, false)}
+        {btn(LANG === "en" ? "SUBSCRIBE" : "구독", 0.5, true)}
+        {btn(LANG === "en" ? "LIKE" : "좋아요", 0.8, false)}
       </div>
       <div style={{ position: "absolute", bottom: 26, left: 0, right: 0, textAlign: "center", fontFamily: F.sub, fontSize: 38, color: "#e8fbff", opacity: clamp((k - 1.2) * 2), whiteSpace: "nowrap" }}>
-        ▶ 알림 설정으로 다음 작전에 합류
+        {LANG === "en" ? "▶ TURN ON ALERTS FOR THE NEXT MISSION" : "▶ 알림 설정으로 다음 작전에 합류"}
       </div>
     </div>
   );

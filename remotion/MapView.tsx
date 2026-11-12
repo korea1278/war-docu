@@ -99,7 +99,7 @@ const hash = (n: number) => {
 };
 
 /** EP25: 전술 HUD — 조준 레티클 · 회전 나침반 눈금 · 위경도/고도 카운터. 장면 visual.hud = true 일 때만 */
-const TacticalHud: React.FC<{ t: number; center: LonLat; span: number; heading: number }> = ({ t, center, span, heading }) => {
+const TacticalHud: React.FC<{ t: number; center: LonLat; span: number; heading: number; temp?: string }> = ({ t, center, span, heading, temp }) => {
   const c = "rgba(120,255,170,0.85)";
   const dim = "rgba(120,255,170,0.35)";
   const op = clamp(t / 0.6);
@@ -167,6 +167,14 @@ const TacticalHud: React.FC<{ t: number; center: LonLat; span: number; heading: 
         <text x={34} y={108}>LON {dms(center[0], "E", "W")}</text>
         <text x={34} y={138}>ALT {String(alt).padStart(6, "0")} M · HDG {String(Math.round(((heading % 360) + 360) % 360)).padStart(3, "0")}</text>
       </g>
+      {/* EP08 장진호(영문): 혹한 온도 표시 (visual.temp, 예: "-40°F") */}
+      {temp && (
+        <g fontFamily="monospace" fontWeight={700}>
+          <rect x={20} y={162} width={330} height={58} fill="rgba(0,20,40,0.6)" stroke="rgba(140,220,255,0.7)" strokeWidth={1.5} rx={4} />
+          <text x={34} y={200} fontSize={22} fill="rgba(140,220,255,0.9)">TEMP</text>
+          <text x={336} y={203} fontSize={34} textAnchor="end" fill="#bfe9ff" opacity={0.75 + 0.25 * Math.sin(t * 4)}>{temp}</text>
+        </g>
+      )}
     </svg>
   );
 };
@@ -634,7 +642,7 @@ export const MapView: React.FC<{ tl: Timeline }> = ({ tl }) => {
       />
 
       {/* EP25: 밀리터리 Tactical HUD (visual.hud = true) — 틸트 레이어 밖에 그려 화면에 고정 */}
-      {v.hud && <TacticalHud t={t} center={center} span={span} heading={heading} />}
+      {v.hud && <TacticalHud t={t} center={center} span={span} heading={heading} temp={v.temp} />}
 
       {/* 군용 전술 HUD 모서리 표식 */}
       <div style={{ position: "absolute", top: 20, left: 24, fontFamily: F.body, fontSize: 13, color: "rgba(255,255,255,0.4)", letterSpacing: 2 }}>
