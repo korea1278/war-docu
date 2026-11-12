@@ -97,7 +97,7 @@
 > - checklist `items[{text, at|on, checkOn, bad}]` · reasons `items[{text, sub, at|on, xOn, later}]`(later=번호만) · flaggrid `items[{flag, name, at|on}]` · photo `tag`(좌상단 출처·연도), `marks[{text, x, y, at|on, color, ring}]`
 > - 지도 아이템 `plane`(EP26): `path`, `n`(편대 대수), `dur`, `size`, `color`, `hit`(끝점 폭발), `trail`
 > - timeline.py: `on` 외에 `checkOn`→checkAt, `xOn`→xAt 변환, 타임라인에 `chars` 목록
-1. **고정 캐릭터 라이브러리 — 무료 SVG 코드로 (2026-11-12 사용자 확정: 수익 창출 전이라 Gemini 그림 비용 금지, 비용 0원)** — 정장 차림 볼(countryball) 캐릭터를 Remotion 컴포넌트(`remotion/chars/`)로 직접 그린다: 국기 원(국기는 오픈소스 `flag-icons` SVG, MIT) + 눈·표정 + 정장 몸 + 팔 포즈(기본·애원·어깨 으쓱·경례·가리키기·놀람). 눈 깜빡임·팔 흔들기·고개 갸웃 애니메이션 가능, 나라 무제한 추가 0원. 아이콘은 `lucide` (ISC). **AI 이미지(Gemini)로 캐릭터를 만들지 말 것**
+1. **캐릭터 라이브러리 = 이미 만든 42장을 계속 재사용 (2026-11-12 사용자 지시: 수익 창출 전이라 추가 그림 비용 금지)** — `public/chars/` 7개국 × 6포즈는 EP26 때 한 번 생성 완료(일회성 비용, 다시 만들지 말 것 — `make-chars.yml` 재실행 금지). 새 나라가 필요하면 Gemini로 그리지 말고 `Stage.tsx`의 **SVG 볼 자동 대체**(국기 SVG `Flag`에 나라 추가)로 0원 처리. 아이콘이 필요하면 무료 오픈소스 `lucide`(ISC)
 2. **새 화면 `stage` (종이 무대)** — 구겨진 흰 종이 배경(SVG 노이즈 필터로 생성, 이미지 파일 불필요) 위 캐릭터 1~3명 배치, 말풍선·아이콘·물음표·느낌표가 `on` 단어 타이밍에 팝업, 살짝 흔들리는 등장 애니메이션
 3. **새 화면 `flatmap` (플랫 지도)** — 바다 청록·땅 베이지·국가 단색 칠하기, 거리 곡선 + 라벨("직선 약 9,500km"), 국기 핀. 세계·지역 개요 설명용 (전투 장면은 기존 3D 전술 지도 유지 — 채널 강점)
 4. **설명 카드 3종** — `flaggrid`(국기 줄 세우기 + 이름 부를 때 하나씩 강조·"?" 칸), `checklist`(노란 체크가 하나씩), `reasons`(이유 1·2·3 번호 카드 + 붉은 X로 지우기). 배경은 어두운 석판 질감 (`document` 카드도 같은 톤으로)
