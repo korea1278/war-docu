@@ -1,0 +1,7260 @@
+{
+ "title": "승호리 철교 폭파작전",
+ "subtitle": "1952. 1. 12 ~ 15",
+ "style": 2,
+ "target_sec": 1200,
+ "voice": "U1cJYS4EdbaHmfR7YzHd",
+ "midrolls": [
+  "s054",
+  "s124",
+  "s164"
+ ],
+ "places": {
+  "pyongyang": [
+   125.754,
+   39.02,
+   "평양"
+  ],
+  "bridge": [
+   125.955,
+   39.008,
+   "승호리 철교"
+  ],
+  "seungho": [
+   125.98,
+   39.03,
+   "승호리"
+  ],
+  "gangneung": [
+   128.944,
+   37.753,
+   "강릉 기지"
+  ],
+  "sinuiju": [
+   124.4,
+   40.1,
+   "신의주"
+  ],
+  "wonsan": [
+   127.44,
+   39.15,
+   "원산"
+  ],
+  "seoul": [
+   126.978,
+   37.566,
+   "서울"
+  ],
+  "panmun": [
+   126.677,
+   37.956,
+   "판문점"
+  ],
+  "daegu": [
+   128.6,
+   35.87,
+   "대구"
+  ]
+ },
+ "views": {
+  "korea": {
+   "center": [
+    127.3,
+    38.3
+   ],
+   "span": 6.6
+  },
+  "north": {
+   "center": [
+    126.6,
+    39.1
+   ],
+   "span": 4.2
+  },
+  "route": {
+   "center": [
+    127.4,
+    38.5
+   ],
+   "span": 4.4
+  },
+  "pyong": {
+   "center": [
+    125.9,
+    39.02
+   ],
+   "span": 0.62
+  },
+  "valley": {
+   "center": [
+    125.955,
+    39.01
+   ],
+   "span": 0.16
+  },
+  "bridge": {
+   "center": [
+    125.955,
+    39.008
+   ],
+   "span": 0.1
+  }
+ },
+ "music": [
+  {
+   "id": "drone",
+   "from": "s001",
+   "to": "s018",
+   "volume": 0.2
+  },
+  {
+   "id": "theme",
+   "from": "s019",
+   "to": "s092",
+   "volume": 0.16
+  },
+  {
+   "id": "tension",
+   "from": "s093",
+   "to": "s123",
+   "volume": 0.17
+  },
+  {
+   "id": "analysis",
+   "from": "s124",
+   "to": "s163",
+   "volume": 0.16
+  },
+  {
+   "id": "march",
+   "from": "s164",
+   "to": "s205",
+   "volume": 0.16
+  },
+  {
+   "id": "somber",
+   "from": "s206",
+   "to": "s248",
+   "volume": 0.17
+  }
+ ],
+ "ai_images": {
+  "mustang_formation": "Six 1952 Republic of Korea Air Force F-51D Mustang propeller fighter-bombers, natural silver metal finish, with South Korean red-and-blue taeguk roundels on the wings flying in two tight formations over snowy mountains in North Korea on a cold clear winter morning in January 1952, low sun, painterly realistic digital illustration, cinematic, dark desaturated winter palette, film grain, no people visible, no text, no letters.",
+  "taeguk_wing": "Close-up of the silver wing of a 1952 Republic of Korea Air Force F-51D Mustang propeller fighter-bomber, natural silver metal finish, with the South Korean roundel (red-and-blue taeguk circle) on the wings and fuselage, the red-and-blue taeguk roundel clearly visible, rockets and a bomb hanging under the wing, snowy mountains far below, winter morning, painterly realistic digital illustration, cinematic, dark desaturated winter palette, film grain, no people visible, no text, no letters.",
+  "bridge_intact": "a long steel truss railway bridge on many wooden crib piers over a frozen river in a snowy North Korean valley in winter 1952, countless bomb craters in the snow and ice around it but the bridge still standing, anti-aircraft gun positions on the hills on both sides, painterly realistic digital illustration, cinematic, dark desaturated winter palette, film grain, no people visible, no text, no letters.",
+  "dive_start": "a 1952 Republic of Korea Air Force F-51D Mustang propeller fighter-bomber, natural silver metal finish, with the South Korean roundel (red-and-blue taeguk circle) on the wings and fuselage rolling over and starting a steep dive toward a railway bridge in a snowy river valley far below, black flak bursts around it, dramatic angle from above and behind, painterly realistic digital illustration, cinematic, dark desaturated winter palette, film grain, no people visible, no text, no letters.",
+  "dive_flak": "View from just behind the cockpit of a 1952 Republic of Korea Air Force F-51D Mustang propeller fighter-bomber, natural silver metal finish, with the South Korean roundel (red-and-blue taeguk circle) on the wings and fuselage diving steeply into a narrow snowy river valley toward a railway bridge, dense black anti-aircraft flak bursts and tracer fire all around, painterly realistic digital illustration, cinematic, dark desaturated winter palette, film grain, no people visible, no text, no letters.",
+  "crib_pier": "Close-up of a wooden railway bridge pier in North Korea 1952 built from railway sleepers stacked in a criss-cross square tic-tac-toe pattern, filled with sandbags, frozen river, bomb craters nearby, painterly realistic digital illustration, cinematic, dark desaturated winter palette, film grain, no people visible, no text, no letters.",
+  "flak_valley": "North Korean anti-aircraft gun crews with 37mm guns firing upward from snowy hillside sandbagged pits overlooking a railway bridge in a river valley, winter 1952, tracer streaks in the sky, silhouettes only, painterly realistic digital illustration, cinematic, dark desaturated winter palette, film grain, no people visible, no text, no letters.",
+  "bomb_miss": "Bombs exploding in a frozen river and on sandbars beside a long railway bridge in a snowy North Korean valley, tall water columns, the bridge itself untouched, painterly realistic digital illustration, cinematic, dark desaturated winter palette, film grain, no people visible, no text, no letters.",
+  "rail_repair": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: North Korean workers whose heads are round balls painted as the North Korean flag repairing a bombed railway track at night by lantern light, carrying rails and sleepers, winter 1951, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "hand_bomb": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a South Korean Air Force pilot whose head is a round ball painted as the South Korean Taegukgi flag, wearing a 1950s brown leather flight jacket, a red silk scarf around the neck and a leather flight helmet with goggles in the rear seat of a small yellow 1950 trainer airplane, holding a small hand-made bomb ready to drop over the side, summer 1950, determined, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "red_scarf": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a South Korean Air Force pilot whose head is a round ball painted as the South Korean Taegukgi flag, wearing a 1950s brown leather flight jacket, a red silk scarf around the neck and a leather flight helmet with goggles standing proudly beside a silver F-51 Mustang on a snowy airfield at Gangneung, the red scarf blowing in the wind, winter 1952, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "paper_flowers": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Korean high school girls whose heads are round balls painted as the South Korean Taegukgi flag, in 1950s school uniforms, placing handmade paper flower garlands around the necks of South Korean Air Force pilots whose heads are round balls painted as the South Korean Taegukgi flag, wearing 1950s brown leather flight jackets and red silk scarves around their necks beside silver F-51 Mustangs on a winter airfield, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "winter_cockpit": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a South Korean Air Force pilot whose head is a round ball painted as the South Korean Taegukgi flag, wearing a 1950s brown leather flight jacket, a red silk scarf around the neck and a leather flight helmet with goggles in the cramped cockpit of an F-51 Mustang in flight, breath fogging in the freezing air, frost on the canopy, snowy mountains below, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "snow_ridges": "Endless snow-covered mountain ridges of North Korea seen from a fighter cockpit at altitude in winter, a silver propeller fighter wingtip at the edge of the frame, painterly realistic digital illustration, cinematic, dark desaturated winter palette, film grain, no people visible, no text, no letters.",
+  "takeoff_dawn": "Five 1952 Republic of Korea Air Force F-51D Mustang propeller fighter-bombers, natural silver metal finish, with South Korean red-and-blue taeguk roundels on the wings taking off one after another from a snowy coastal airfield at Gangneung at dawn in January 1952, the East Sea in the background, painterly realistic digital illustration, cinematic, dark desaturated winter palette, film grain, no people visible, no text, no letters.",
+  "ops_room_night": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean Air Force officers whose heads are round balls painted as the South Korean Taegukgi flag, in 1950s olive uniforms, leaning over a large map table with aerial photos of a railway bridge in a small wooden operations room at night, a single bulb, cigarette smoke, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "ops_map": "Close-up of a 1952 military operations map table with an aerial reconnaissance photo of a railway bridge over a river, pencil lines drawing a steep dive angle, a protractor and ruler, lamp light, no readable text, no letters, painterly realistic digital illustration, cinematic, dark desaturated winter palette, film grain, no people visible, no text, no letters.",
+  "infantry_barrage": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: North Korean infantry soldiers whose heads are round balls painted as the North Korean flag, lying on their backs in the snow on a hillside, all firing rifles and submachine guns straight up into the sky together at a low-flying propeller fighter, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "dawn_base": "A snowy airfield at Gangneung at dawn in January 1952 with a row of six silver F-51 Mustang fighters waiting, ground crew lanterns, frost, quiet, painterly realistic digital illustration, cinematic, dark desaturated winter palette, film grain, no people visible, no text, no letters.",
+  "pilots_map": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: six south Korean Air Force pilots whose heads are round balls painted as the South Korean Taegukgi flag, wearing 1950s brown leather flight jackets and red silk scarves around their necks gathered around a hand-drawn map of a river valley by lamplight in a barracks the night before a mission, serious faces, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "frozen_runway": "A frozen snowy airfield at Gangneung on a bitter cold January morning in 1952, ground crew in heavy coats, six silver F-51 Mustangs lined up with propellers, breath steam, painterly realistic digital illustration, cinematic, dark desaturated winter palette, film grain, no people visible, no text, no letters.",
+  "engine_start": "Close-up of the propeller and exhaust stacks of a 1952 Republic of Korea Air Force F-51D Mustang propeller fighter-bomber, natural silver metal finish, with the South Korean roundel (red-and-blue taeguk circle) on the wings and fuselage starting up on a frozen airfield, blue exhaust smoke and blowing snow, winter morning, painterly realistic digital illustration, cinematic, dark desaturated winter palette, film grain, no people visible, no text, no letters.",
+  "bomb_load": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean Air Force ground crew whose heads are round balls painted as the South Korean Taegukgi flag, in heavy winter coats, loading a 500-pound bomb and rockets under the wing of a silver F-51 Mustang on a frozen airfield, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "rocket_fire": "a 1952 Republic of Korea Air Force F-51D Mustang propeller fighter-bomber, natural silver metal finish, with the South Korean roundel (red-and-blue taeguk circle) on the wings and fuselage firing rockets from under its wings in a steep dive toward a railway bridge in a snowy valley, rocket smoke trails, flak bursts, painterly realistic digital illustration, cinematic, dark desaturated winter palette, film grain, no people visible, no text, no letters.",
+  "second_flight": "Three 1952 Republic of Korea Air Force F-51D Mustang propeller fighter-bombers, natural silver metal finish, with South Korean red-and-blue taeguk roundels on the wings in a line rolling in one after another to dive on a railway bridge in a snowy river valley, while other Mustangs strafe hillside anti-aircraft positions, painterly realistic digital illustration, cinematic, dark desaturated winter palette, film grain, no people visible, no text, no letters.",
+  "flak_close": "Extreme close view from the cockpit of a diving F-51 Mustang, a black flak burst exploding just beside the wing, shrapnel streaks, the railway bridge rushing closer below, painterly realistic digital illustration, cinematic, dark desaturated winter palette, film grain, no people visible, no text, no letters.",
+  "bomb_release": "a 1952 Republic of Korea Air Force F-51D Mustang propeller fighter-bomber, natural silver metal finish, with the South Korean roundel (red-and-blue taeguk circle) on the wings and fuselage releasing a 500-pound bomb at very low altitude just above a railway bridge in a snowy valley, the bomb falling away, flak all around, painterly realistic digital illustration, cinematic, dark desaturated winter palette, film grain, no people visible, no text, no letters.",
+  "pull_up": "a 1952 Republic of Korea Air Force F-51D Mustang propeller fighter-bomber, natural silver metal finish, with the South Korean roundel (red-and-blue taeguk circle) on the wings and fuselage pulling up hard out of a narrow snowy river valley after a bomb run, vapor trails off the wingtips, flak bursts behind, painterly realistic digital illustration, cinematic, dark desaturated winter palette, film grain, no people visible, no text, no letters.",
+  "bridge_explode": "A huge explosion in the middle of a long steel railway bridge over a frozen river in a snowy North Korean valley, twisted steel girders flying into the air, painterly realistic digital illustration, cinematic, dark desaturated winter palette, film grain, no people visible, no text, no letters.",
+  "bridge_broken": "The broken railway bridge after the bombing, two big gaps in the middle with fallen spans in the frozen river, smoke drifting, snowy valley, painterly realistic digital illustration, cinematic, dark desaturated winter palette, film grain, no people visible, no text, no letters.",
+  "landing": "Silver F-51 Mustangs landing one after another on a snowy airfield at Gangneung in the late morning, ground crew waving, the East Sea in the background, painterly realistic digital illustration, cinematic, dark desaturated winter palette, film grain, no people visible, no text, no letters.",
+  "film_develop": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a South Korean Air Force photo technician whose head is a round ball painted as the South Korean Taegukgi flag, holding up a strip of developed film to a red darkroom light, excited, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "empty_slot": "An empty parking spot on a snowy airfield at dusk where one fighter plane did not return, a single red scarf laid on the snow, a paper flower garland beside it, solemn, painterly realistic digital illustration, cinematic, dark desaturated winter palette, film grain, no people visible, no text, no letters.",
+  "mustang_sunset": "A lone silver F-51 Mustang propeller fighter flying over the East Sea coast near Gangneung at sunset, warm golden light, peaceful, painterly realistic digital illustration, cinematic, dark desaturated winter palette, film grain, no people visible, no text, no letters.",
+  "thumb_subject": "Photorealistic black-and-white 1952 Korean War documentary portrait of a young Korean fighter pilot, clearly East Asian Korean face with black hair, wearing a 1950s leather flight jacket, a scarf around the neck and a leather flight helmet with goggles pushed up on the forehead, resolute determined eyes looking into the distance, waist-up, face clearly visible and turned slightly toward the left of the frame, isolated on a plain pure white background, no shadows on the background, no text."
+ },
+ "scenes": [
+  {
+   "id": "s001",
+   "lines": [
+    {
+     "t": "1952년 1월 15일, 오전 8시 25분.",
+     "say": "천구백오십이 년 일월 십오일, 오전 여덟 시 이십오 분."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "mustang_formation",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "1952. 1. 15 오전 8:25",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s002",
+   "lines": [
+    {
+     "t": "평양 동쪽 하늘에 프로펠러 전투기 6대가 나타납니다.",
+     "say": "평양 동쪽 하늘에 프로펠러 전투기 여섯 대가 나타납니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "pyong",
+    "to": "valley",
+    "items": [
+     {
+      "k": "lock",
+      "p": "bridge",
+      "at": 0.2,
+      "text": "승호리 철교"
+     },
+     {
+      "k": "plane",
+      "path": [
+       [
+        126.05,
+        39.02
+       ],
+       [
+        126.0,
+        39.012
+       ],
+       [
+        125.975,
+        39.01
+       ],
+       [
+        125.955,
+        39.008
+       ]
+      ],
+      "at": 0.1,
+      "n": 6,
+      "dur": 3.2,
+      "hit": false,
+      "size": 1.0
+     }
+    ],
+    "tilt": 30,
+    "hud": true
+   }
+  },
+  {
+   "id": "s003",
+   "lines": [
+    "날개에는 태극 마크가 그려져 있습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "taeguk_wing",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s004",
+   "lines": [
+    "아래에는 강 위를 가로지르는 철교 하나가 놓여 있죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "bridge_intact",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s005",
+   "lines": [
+    "그리고 그 철교를 둘러싼 산마다, 대공포가 하늘을 향해 불을 뿜고 있습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "valley",
+    "to": "bridge",
+    "items": [
+     {
+      "k": "lock",
+      "p": "bridge",
+      "at": 0,
+      "text": "승호리 철교"
+     },
+     {
+      "k": "shock",
+      "pts": [
+       [
+        125.94,
+        39.018
+       ],
+       [
+        125.968,
+        39.02
+       ],
+       [
+        125.945,
+        38.998
+       ],
+       [
+        125.972,
+        38.999
+       ],
+       [
+        125.957,
+        39.025
+       ]
+      ],
+      "at": 0.1,
+      "period": 0.5
+     }
+    ],
+    "tilt": 38,
+    "hud": true
+   },
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0.3,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s006",
+   "lines": [
+    "선두 비행기가 기수를 꺾습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "dive_start",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "whoosh",
+     "at": 0.2,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s007",
+   "lines": [
+    "그리고 그대로, 대공포가 쏟아지는 계곡 속으로 내리꽂힙니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "dive_flak",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0.4,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s008",
+   "lines": [
+    {
+     "t": "그런데 이 다리, 사실은 미군이 이미 500번 가까이 폭격했던 다리입니다.",
+     "say": "그런데 이 다리, 사실은 미군이 이미 오백 번 가까이 폭격했던 다리입니다."
+    }
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "us_shrug",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 520,
+      "at": 0
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.22,
+      "text": "약 500번 폭격",
+      "on": "오백 번",
+      "color": "red"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s009",
+   "lines": [
+    {
+     "t": "세계 최강이던 미 공군이 500번을 때리고도 끊지 못한 다리.",
+     "say": "세계 최강이던 미 공군이 오백 번을 때리고도 끊지 못한 다리."
+    }
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "us_idle",
+      "x": 0.32,
+      "y": 0.9,
+      "h": 480,
+      "at": 0
+     },
+     {
+      "c": "us_point",
+      "x": 0.7,
+      "y": 0.9,
+      "h": 480,
+      "at": 0,
+      "flip": true
+     }
+    ],
+    "pops": [
+     {
+      "kind": "bubble",
+      "x": 0.5,
+      "y": 0.3,
+      "text": "세계 최강 미 공군도..",
+      "at": 0.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "s010",
+   "lines": [
+    "미군 비행단들끼리 누가 먼저 끊나 돈을 걸고 내기를 할 정도였죠."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "us_point",
+      "x": 0.3,
+      "y": 0.9,
+      "h": 460,
+      "at": 0
+     },
+     {
+      "c": "us_shrug",
+      "x": 0.72,
+      "y": 0.9,
+      "h": 460,
+      "at": 0,
+      "flip": true
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.2,
+      "text": "누가 먼저 끊나? 내기",
+      "on": "내기",
+      "color": "yellow"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s011",
+   "lines": [
+    "그런데 이 다리를, 전쟁이 터질 때 전투기가 단 한 대도 없던 나라의 공군이 끊어 버립니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "kr_plead",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 500,
+      "at": 0
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.18,
+      "text": "전투기 0대로 시작한 공군",
+      "on": "단 한 대도",
+      "color": "dark"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s012",
+   "lines": [
+    {
+     "t": "그것도 단 14번의 출격 만에 말이죠.",
+     "say": "그것도 단 열네 번의 출격 만에 말이죠."
+    }
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "kr_salute",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 520,
+      "at": 0
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.2,
+      "text": "단 14번 출격",
+      "on": "열네 번",
+      "color": "red"
+     },
+     {
+      "kind": "ex",
+      "x": 0.75,
+      "y": 0.3,
+      "on": "출격"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s013",
+   "lines": [
+    {
+     "t": "500번 대 14번.",
+     "say": "오백 번 대 열네 번."
+    }
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "미 공군",
+     "big": "약 500번",
+     "icon": "none",
+     "color": "red"
+    },
+    "right": {
+     "title": "한국 공군",
+     "big": "14번",
+     "icon": "none",
+     "color": "blue",
+     "at": 0.6
+    }
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0.6,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s014",
+   "lines": [
+    "도대체 무엇이 이 차이를 만들었을까요."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "us_shrug",
+      "x": 0.3,
+      "y": 0.9,
+      "h": 440,
+      "at": 0
+     },
+     {
+      "c": "kr_idle",
+      "x": 0.7,
+      "y": 0.9,
+      "h": 440,
+      "at": 0
+     }
+    ],
+    "pops": [
+     {
+      "kind": "q",
+      "x": 0.5,
+      "y": 0.3,
+      "at": 0.2,
+      "size": 220
+     }
+    ]
+   }
+  },
+  {
+   "id": "s015",
+   "lines": [
+    "그 답은, 단 하나의 숫자에 숨어 있습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "답은",
+    "accent": "숫자 하나에",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s016",
+   "lines": [
+    {
+     "t": "1,500.",
+     "say": "천오백."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "1,500",
+    "style": "red",
+    "sub": "이 숫자의 뜻은 영상 끝에서",
+    "subAt": 0.4
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s017",
+   "lines": [
+    "이 숫자가 무슨 뜻인지는, 영상 끝에서 확실히 보여 드리겠습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "1,500의 뜻은",
+    "accent": "끝까지 보시면 알게 됩니다",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s018",
+   "lines": [
+    "격전의 지도, 오늘은 승호리 철교 폭파작전입니다."
+   ],
+   "visual": {
+    "type": "titlecard",
+    "title": "승호리 철교 폭파작전",
+    "sub": "미군 500번 실패한 다리 · 1952",
+    "at": 0,
+    "q": "s018-photo"
+   },
+   "flash": true,
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s019",
+   "lines": [
+    "시간을 조금 되돌려 보겠습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "1951년 겨울"
+   },
+   "chapter": {
+    "num": "제1막",
+    "title": "500번을 버틴 다리"
+   }
+  },
+  {
+   "id": "s020",
+   "lines": [
+    {
+     "t": "1951년 겨울, 전선은 38선 근처에서 꽉 멈춰 있었습니다.",
+     "say": "천구백오십일 년 겨울, 전선은 삼팔선 근처에서 꽉 멈춰 있었습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "korea",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.1,
+        37.72
+       ],
+       [
+        126.6,
+        37.92
+       ],
+       [
+        127.0,
+        38.15
+       ],
+       [
+        127.4,
+        38.32
+       ],
+       [
+        127.8,
+        38.33
+       ],
+       [
+        128.15,
+        38.3
+       ],
+       [
+        128.4,
+        38.55
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "panmun",
+      "color": "red",
+      "at": 0.6
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1951년 겨울 · 38선 부근 전선 고착 · 위치 개략",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s021",
+   "lines": [
+    "판문점에서는 휴전회담이 이어지고 있었죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s021-photo",
+    "tag": "미 해군 사진"
+   },
+   "label": "판문점 휴전 회담"
+  },
+  {
+   "id": "s022",
+   "lines": [
+    "땅 위의 싸움이 멈추자, 유엔군은 하늘에서 다른 싸움을 시작합니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "un_point",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 480,
+      "at": 0
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.2,
+      "text": "땅 → 하늘의 싸움",
+      "on": "하늘에서",
+      "color": "blue"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s023",
+   "lines": [
+    "바로 적의 보급로를 끊는 싸움이었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "north",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.1,
+        37.72
+       ],
+       [
+        126.6,
+        37.92
+       ],
+       [
+        127.0,
+        38.15
+       ],
+       [
+        127.4,
+        38.32
+       ],
+       [
+        127.8,
+        38.33
+       ],
+       [
+        128.15,
+        38.3
+       ],
+       [
+        128.4,
+        38.55
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        124.4,
+        40.1
+       ],
+       [
+        125.75,
+        39.02
+       ],
+       [
+        126.6,
+        38.4
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 1.2
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "적의 보급로",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s024",
+   "lines": [
+    {
+     "t": "1951년 여름부터 시작된 이 작전에는, 섬뜩한 이름이 붙었습니다.",
+     "say": "천구백오십일 년 여름부터 시작된 이 작전에는, 섬뜩한 이름이 붙었습니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "1951년 여름 시작",
+    "style": "yellow",
+    "sub": "유엔 공군의 보급로 차단 작전",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s025",
+   "lines": [
+    "목을 조른다는 뜻의 교살 작전이었죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "교살 작전",
+    "style": "red",
+    "sub": "Operation Strangle · 목을 조르다",
+    "subAt": 0.4
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0.3,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s026",
+   "lines": [
+    "적의 목줄인 철길과 도로를 하늘에서 조여, 전선의 적을 말려 죽이겠다는 계획이었습니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "un_idle",
+      "x": 0.3,
+      "y": 0.9,
+      "h": 440,
+      "at": 0
+     },
+     {
+      "c": "cn_shock",
+      "x": 0.72,
+      "y": 0.9,
+      "h": 440,
+      "at": 0,
+      "flip": true
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.3,
+      "y": 0.18,
+      "text": "철길 · 도로 차단",
+      "at": 0.2,
+      "color": "blue"
+     },
+     {
+      "kind": "bubble",
+      "x": 0.72,
+      "y": 0.3,
+      "text": "보급이..!",
+      "on": "말려"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s027",
+   "lines": [
+    "북한군과 중공군은 무기와 식량 대부분을 기차로 날랐습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s027-photo",
+    "tag": "미 육군 사진"
+   },
+   "label": "공격받는 북한의 보급 열차"
+  },
+  {
+   "id": "s028",
+   "lines": [
+    "중국에서 압록강을 건너온 물자가, 철길을 따라 평양을 거쳐 전선으로 내려가는 거죠."
+   ],
+   "visual": {
+    "type": "flatmap",
+    "center": [
+     125.7,
+     39.25
+    ],
+    "span": 5.4,
+    "fill": {
+     "410": "#f1e4c6",
+     "408": "#e8b6a5",
+     "156": "#dcc9a3",
+     "392": "#e6d9bd",
+     "643": "#dcc9a3"
+    },
+    "pins": [
+     {
+      "ll": [
+       124.4,
+       40.1
+      ],
+      "text": "신의주",
+      "side": "right",
+      "at": 0,
+      "flag": "cn"
+     },
+     {
+      "ll": [
+       125.754,
+       39.02
+      ],
+      "text": "평양",
+      "side": "left",
+      "on": "평양"
+     },
+     {
+      "ll": [
+       126.9,
+       38.4
+      ],
+      "text": "전선",
+      "side": "below",
+      "on": "전선",
+      "color": "#111"
+     }
+    ],
+    "routes": [
+     {
+      "from": [
+       124.4,
+       40.1
+      ],
+      "to": [
+       125.754,
+       39.02
+      ],
+      "bend": 0.05,
+      "dur": 1.4,
+      "on": "압록강",
+      "color": "#D32F2F"
+     },
+     {
+      "from": [
+       125.754,
+       39.02
+      ],
+      "to": [
+       126.9,
+       38.4
+      ],
+      "bend": -0.1,
+      "dur": 1.4,
+      "on": "평양을",
+      "color": "#D32F2F"
+     }
+    ],
+    "labels": [
+     {
+      "ll": [
+       124.0,
+       38.6
+      ],
+      "text": "황해",
+      "style": "sea"
+     },
+     {
+      "ll": [
+       124.95,
+       40.35
+      ],
+      "text": "압록강",
+      "size": 40
+     }
+    ],
+    "zoomTo": 0.92
+   }
+  },
+  {
+   "id": "s029",
+   "lines": [
+    "그러니 철길을 끊으면, 전선의 적은 굶고 탄약이 떨어집니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "cn_shock",
+      "x": 0.35,
+      "y": 0.9,
+      "h": 460,
+      "at": 0
+     },
+     {
+      "c": "nk_shock",
+      "x": 0.68,
+      "y": 0.9,
+      "h": 460,
+      "at": 0
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.18,
+      "text": "식량 ↓ 탄약 ↓",
+      "on": "굶고",
+      "color": "red"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s030",
+   "lines": [
+    "문제는 철길이 너무 길었다는 겁니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "rail_repair",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s031",
+   "lines": [
+    "레일 몇 미터를 부숴도, 하룻밤이면 다시 이어 붙였죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "rail_repair",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "하룻밤이면 복구",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s032",
+   "lines": [
+    "그래서 정말 끊어야 하는 곳은 따로 있었습니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "un_point",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 480,
+      "at": 0
+     }
+    ],
+    "pops": [
+     {
+      "kind": "q",
+      "x": 0.78,
+      "y": 0.3,
+      "at": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "id": "s033",
+   "lines": [
+    "강을 건너는 다리, 바로 철교입니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s033-photo",
+    "tag": "미 공군 사진 · 1950"
+   },
+   "label": "폭격으로 끊긴 박천 철교 (1950)",
+   "callouts": [
+    {
+     "text": "목표 = 철교",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s034",
+   "lines": [
+    "철교는 부수기도 어렵지만, 다시 짓기는 더 어렵거든요."
+   ],
+   "visual": {
+    "type": "checklist",
+    "title": "철교가 표적인 이유",
+    "items": [
+     {
+      "text": "부수기 어렵다",
+      "at": 0,
+      "checkOn": "부수기도"
+     },
+     {
+      "text": "다시 짓기는 더 어렵다",
+      "on": "다시 짓기는",
+      "checkOn": "더 어렵"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s035",
+   "lines": [
+    "그리고 그 가운데서도 손꼽히는 표적이 바로 승호리 철교였습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "north",
+    "to": "pyong",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "lock",
+      "p": "bridge",
+      "at": 0.8,
+      "text": "승호리 철교"
+     }
+    ],
+    "flight": [
+     "north",
+     "pyong"
+    ]
+   },
+   "callouts": [
+    {
+     "text": "승호리 철교",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s036",
+   "lines": [
+    "지도로 보면 이렇습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "pyong",
+    "to": "pyong",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "lock",
+      "p": "bridge",
+      "at": 0.2,
+      "text": "승호리 철교"
+     }
+    ],
+    "tilt": 24
+   }
+  },
+  {
+   "id": "s037",
+   "lines": [
+    "평양에서 동쪽으로 조금 떨어진 곳, 대동강으로 흘러드는 남강 위에 이 철교가 있었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "pyong",
+    "to": "pyong",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": [
+       125.86,
+       38.97
+      ],
+      "text": "대동강",
+      "color": "#1E8FFF",
+      "at": 0.3,
+      "dy": 0
+     },
+     {
+      "k": "badge",
+      "p": [
+       126.0,
+       38.97
+      ],
+      "text": "남강",
+      "color": "#1E8FFF",
+      "at": 0.6,
+      "dy": 0
+     },
+     {
+      "k": "lock",
+      "p": "bridge",
+      "at": 0.8,
+      "text": "승호리 철교"
+     }
+    ],
+    "tilt": 26
+   },
+   "callouts": [
+    {
+     "text": "평양 동쪽 · 남강 철교 · 위치 개략",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s038",
+   "lines": [
+    "중국에서 평양으로 들어온 보급품이, 이 다리를 건너 동쪽과 중부 전선으로 갔습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "pyong",
+    "to": "pyong",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        125.74,
+        39.012
+       ],
+       [
+        125.8,
+        39.0
+       ],
+       [
+        125.86,
+        38.998
+       ],
+       [
+        125.92,
+        39.0
+       ],
+       [
+        125.955,
+        39.008
+       ],
+       [
+        125.99,
+        39.025
+       ],
+       [
+        126.05,
+        39.05
+       ],
+       [
+        126.14,
+        39.08
+       ]
+      ],
+      "color": "#ffb020",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "lock",
+      "p": "bridge",
+      "at": 0,
+      "text": "승호리 철교"
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        125.76,
+        39.03
+       ],
+       [
+        125.955,
+        39.03
+       ],
+       [
+        126.15,
+        39.1
+       ]
+      ],
+      "color": "red",
+      "at": 0.4,
+      "width": 0.8
+     }
+    ],
+    "tilt": 26
+   },
+   "callouts": [
+    {
+     "text": "평양 → 동부·중부 전선",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s039",
+   "lines": [
+    "말하자면 평양에서 전선으로 이어지는 혈관의 한가운데였죠."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "nk_point",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 480,
+      "at": 0
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.18,
+      "text": "보급의 혈관",
+      "on": "혈관",
+      "color": "red"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s040",
+   "lines": [
+    {
+     "t": "미 제5공군은 이 다리를 끊기 위해 전폭기를 계속 보냈습니다.",
+     "say": "미 제오공군은 이 다리를 끊기 위해 전폭기를 계속 보냈습니다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s040-photo",
+    "tag": "미 공군 사진"
+   },
+   "label": "북한 표적을 폭격하는 미 공군 F-51"
+  },
+  {
+   "id": "s041",
+   "lines": [
+    {
+     "t": "기록에 따라 조금씩 다르지만, 출격 횟수는 약 500회에 이릅니다.",
+     "say": "기록에 따라 조금씩 다르지만, 출격 횟수는 약 오백 회에 이릅니다."
+    }
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "국방부 군사편찬연구소 기준 · 기록에 따라 다름",
+    "items": [
+     {
+      "label": "미 제5공군 출격",
+      "value": 500,
+      "display": "약 500회",
+      "color": "red",
+      "at": 0.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "s042",
+   "lines": [
+    "실제로 원래 있던 철교는 한 번 끊기기도 했습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "bridge",
+    "to": "bridge",
+    "items": [
+     {
+      "k": "marker",
+      "p": [
+       125.953,
+       39.006
+      ],
+      "color": "red",
+      "at": 0,
+      "text": "옛 철교"
+     }
+    ],
+    "tilt": 34
+   },
+   "callouts": [
+    {
+     "text": "원래 철교 · 끊김",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s043",
+   "lines": [
+    {
+     "t": "그러자 북한은 하류 쪽으로 200m쯤 떨어진 곳에 새 철교를 놓아 버립니다.",
+     "say": "그러자 북한은 하류 쪽으로 이백 미터쯤 떨어진 곳에 새 철교를 놓아 버립니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "bridge",
+    "to": "bridge",
+    "items": [
+     {
+      "k": "marker",
+      "p": [
+       125.953,
+       39.006
+      ],
+      "color": "red",
+      "at": 0,
+      "text": "옛 철교"
+     },
+     {
+      "k": "lock",
+      "p": "bridge",
+      "at": 0.4,
+      "text": "새 철교"
+     },
+     {
+      "k": "badge",
+      "p": [
+       125.955,
+       39.01
+      ],
+      "text": "약 200m",
+      "color": "#111",
+      "at": 0.7,
+      "dy": -110
+     }
+    ],
+    "tilt": 34
+   },
+   "callouts": [
+    {
+     "text": "하류 쪽 새 철교 · 위치 개략",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s044",
+   "lines": [
+    "그리고 이번에는 단단히 준비를 했죠."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "nk_salute",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 500,
+      "at": 0
+     }
+    ],
+    "pops": [
+     {
+      "kind": "bubble",
+      "x": 0.5,
+      "y": 0.3,
+      "text": "이번엔 단단히!",
+      "at": 0.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "s045",
+   "lines": [
+    {
+     "t": "교각 10개는 침목을 우물 정 자 모양으로 쌓아 올리고, 그 안을 모래주머니로 채웠습니다.",
+     "say": "교각 열 개는 침목을 우물 정 자 모양으로 쌓아 올리고, 그 안을 모래주머니로 채웠습니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "crib_pier",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "교각 10개 · 井 자 침목 + 모래주머니",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s046",
+   "lines": [
+    "폭탄이 근처에 떨어져도 충격을 흡수하고, 기관총 탄은 모래가 막아 버리는 구조였습니다."
+   ],
+   "visual": {
+    "type": "checklist",
+    "title": "침목 교각의 비밀",
+    "items": [
+     {
+      "text": "폭탄 충격 흡수",
+      "on": "충격을",
+      "checkOn": "흡수"
+     },
+     {
+      "text": "기관총 탄 막기",
+      "on": "기관총",
+      "checkOn": "막아"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s047",
+   "lines": [
+    "게다가 다리를 둘러싼 산에는 대공포 진지가 빽빽하게 들어섰습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "valley",
+    "to": "valley",
+    "items": [
+     {
+      "k": "lock",
+      "p": "bridge",
+      "at": 0,
+      "text": "승호리 철교"
+     },
+     {
+      "k": "shock",
+      "pts": [
+       [
+        125.94,
+        39.018
+       ],
+       [
+        125.968,
+        39.02
+       ],
+       [
+        125.945,
+        38.998
+       ],
+       [
+        125.972,
+        38.999
+       ],
+       [
+        125.957,
+        39.025
+       ]
+      ],
+      "at": 0.3,
+      "period": 0.7
+     },
+     {
+      "k": "badge",
+      "p": [
+       125.94,
+       39.02
+      ],
+      "text": "대공포",
+      "color": "#c9242c",
+      "at": 0.4,
+      "dy": -50
+     },
+     {
+      "k": "badge",
+      "p": [
+       125.972,
+       38.998
+      ],
+      "text": "대공포",
+      "color": "#c9242c",
+      "at": 0.7,
+      "dy": 50
+     }
+    ],
+    "tilt": 36,
+    "hud": true
+   }
+  },
+  {
+   "id": "s048",
+   "lines": [
+    "계곡으로 들어오는 비행기는, 사방에서 날아오는 포화를 뚫어야 했던 거죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "flak_valley",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0.3,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s049",
+   "lines": [
+    "미군 조종사들은 높은 하늘에서 폭탄을 떨어뜨렸습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "valley",
+    "to": "valley",
+    "items": [
+     {
+      "k": "lock",
+      "p": "bridge",
+      "at": 0,
+      "text": "승호리 철교"
+     },
+     {
+      "k": "plane",
+      "path": [
+       [
+        126.03,
+        39.05
+       ],
+       [
+        125.98,
+        39.03
+       ],
+       [
+        125.93,
+        39.03
+       ],
+       [
+        125.88,
+        39.05
+       ]
+      ],
+      "at": 0.1,
+      "n": 3,
+      "dur": 3.5,
+      "hit": false,
+      "size": 0.7
+     }
+    ],
+    "tilt": 20
+   },
+   "callouts": [
+    {
+     "text": "미군 · 높은 고도 투하",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s050",
+   "lines": [
+    "대공포를 피하려면 그럴 수밖에 없었거든요."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "us_shrug",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 480,
+      "at": 0
+     }
+    ],
+    "pops": [
+     {
+      "kind": "bubble",
+      "x": 0.5,
+      "y": 0.3,
+      "text": "대공포는 피해야지..",
+      "at": 0.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "s051",
+   "lines": [
+    "하지만 높은 곳에서 떨어뜨린 폭탄은 폭이 좁은 다리에 좀처럼 맞지 않았습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "bomb_miss",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s052",
+   "lines": [
+    "폭탄은 강물과 모래톱에 떨어졌고, 다리는 그대로 서 있었습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "bomb_miss",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "강물 · 모래톱에 빗나간 폭탄",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s053",
+   "lines": [
+    "그렇게 승호리 철교는, 끊어지지 않는 다리가 되어 갔습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "끊어지지 않는",
+    "accent": "다리",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s054",
+   "lines": [
+    "그렇다면 이 다리를 끊은 한국 공군은 어떤 부대였을까요."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "kr_idle",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 480,
+      "at": 0
+     }
+    ],
+    "pops": [
+     {
+      "kind": "q",
+      "x": 0.72,
+      "y": 0.3,
+      "at": 0.3
+     }
+    ],
+    "title": "이 다리를 끊은 공군은?"
+   },
+   "pauseBefore": 0.5,
+   "chapter": {
+    "num": "제2막",
+    "title": "빨간 마후라의 탄생"
+   }
+  },
+  {
+   "id": "s055",
+   "lines": [
+    {
+     "t": "이야기는 1950년 6월로 거슬러 올라갑니다.",
+     "say": "이야기는 천구백오십 년 유월로 거슬러 올라갑니다."
+    }
+   ],
+   "visual": {
+    "type": "black",
+    "text": "1950년 6월"
+   }
+  },
+  {
+   "id": "s056",
+   "lines": [
+    "전쟁이 터진 그날, 대한민국 공군에는 전투기가 단 한 대도 없었습니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "kr_shock",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 500,
+      "at": 0
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.18,
+      "text": "전투기 0대",
+      "on": "한 대도",
+      "color": "red"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s057",
+   "lines": [
+    {
+     "t": "가진 것이라고는 연락기와 훈련기, 경항공기 22대가 전부였죠.",
+     "say": "가진 것이라고는 연락기와 훈련기, 경항공기 스물두 대가 전부였죠."
+    }
+   ],
+   "visual": {
+    "type": "checklist",
+    "title": "1950년 6월 25일 · 한국 공군 보유 항공기",
+    "items": [
+     {
+      "text": "연락기·훈련기 등 경항공기 22대",
+      "at": 0,
+      "checkOn": "스물두"
+     },
+     {
+      "text": "전투기 0대",
+      "on": "전부",
+      "checkOn": "전부",
+      "bad": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "s058",
+   "lines": [
+    "조종사들은 훈련기 뒷자리에 폭탄을 싣고, 손으로 던져 떨어뜨리며 싸웠습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "hand_bomb",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s059",
+   "lines": [
+    {
+     "t": "전쟁이 터진 다음 날, 조종사 10명이 급히 일본으로 건너갑니다.",
+     "say": "전쟁이 터진 다음 날, 조종사 열 명이 급히 일본으로 건너갑니다."
+    }
+   ],
+   "visual": {
+    "type": "flatmap",
+    "center": [
+     131.0,
+     36.0
+    ],
+    "span": 9,
+    "fill": {
+     "410": "#f1e4c6",
+     "408": "#e8b6a5",
+     "156": "#dcc9a3",
+     "392": "#e6d9bd",
+     "643": "#dcc9a3"
+    },
+    "pins": [
+     {
+      "ll": [
+       126.9,
+       37.5
+      ],
+      "text": "서울",
+      "side": "left",
+      "at": 0,
+      "flag": "kr"
+     },
+     {
+      "ll": [
+       130.43,
+       33.58
+      ],
+      "text": "이타즈케 (일본)",
+      "side": "right",
+      "on": "일본",
+      "flag": "us"
+     }
+    ],
+    "routes": [
+     {
+      "from": [
+       126.9,
+       37.5
+      ],
+      "to": [
+       130.43,
+       33.58
+      ],
+      "bend": 0.15,
+      "dur": 1.4,
+      "on": "일본으로",
+      "color": "#2e66d8"
+     }
+    ],
+    "labels": [],
+    "zoomTo": 0.92
+   }
+  },
+  {
+   "id": "s060",
+   "lines": [
+    {
+     "t": "미 공군 기지에서 F-51 무스탕 전투기를 넘겨받기 위해서였죠.",
+     "say": "미 공군 기지에서 F 오십일 무스탕 전투기를 넘겨받기 위해서였죠."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s060-photo",
+    "tag": "미 공군 사진 · 1950. 7"
+   },
+   "label": "F-51 인수 교육을 마친 한국 조종사들 (1950. 7. 2)"
+  },
+  {
+   "id": "s061",
+   "lines": [
+    "제대로 된 훈련은 며칠뿐이었습니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "kr_shock",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 480,
+      "at": 0
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.2,
+      "text": "훈련 단 며칠",
+      "on": "며칠",
+      "color": "yellow"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s062",
+   "lines": [
+    {
+     "t": "그들은 낡은 무스탕 10대를 몰고 바다를 건너 대구로 돌아왔고, 곧바로 출격합니다.",
+     "say": "그들은 낡은 무스탕 열 대를 몰고 바다를 건너 대구로 돌아왔고, 곧바로 출격합니다."
+    }
+   ],
+   "visual": {
+    "type": "flatmap",
+    "center": [
+     129.5,
+     35.0
+    ],
+    "span": 6,
+    "fill": {
+     "410": "#f1e4c6",
+     "408": "#e8b6a5",
+     "156": "#dcc9a3",
+     "392": "#e6d9bd",
+     "643": "#dcc9a3"
+    },
+    "pins": [
+     {
+      "ll": [
+       130.43,
+       33.58
+      ],
+      "text": "이타즈케",
+      "side": "right",
+      "at": 0
+     },
+     {
+      "ll": [
+       128.6,
+       35.87
+      ],
+      "text": "대구",
+      "side": "left",
+      "on": "대구로",
+      "flag": "kr"
+     }
+    ],
+    "routes": [
+     {
+      "from": [
+       130.43,
+       33.58
+      ],
+      "to": [
+       128.6,
+       35.87
+      ],
+      "bend": -0.2,
+      "dur": 1.4,
+      "on": "바다를",
+      "color": "#2e66d8"
+     }
+    ],
+    "labels": [],
+    "zoomTo": 0.92
+   }
+  },
+  {
+   "id": "s063",
+   "lines": [
+    "그리고 첫 출격 바로 다음 날, 이 부대를 이끌던 이근석 대령이 적 전차를 공격하다 전사합니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "이근석 대령 전사",
+    "style": "red",
+    "sub": "1950. 7. 4 · 첫 출격 다음 날",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s064",
+   "lines": [
+    "한국 공군의 전투기 역사는 이렇게 피로 시작됐습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "피로 시작된",
+    "accent": "한국 공군 전투기의 역사",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s065",
+   "lines": [
+    {
+     "t": "그 뒤로 1년 넘게, 한국 공군은 미 공군과 함께 싸우며 실력을 키웠습니다.",
+     "say": "그 뒤로 일 년 넘게, 한국 공군은 미 공군과 함께 싸우며 실력을 키웠습니다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s065-photo",
+    "tag": "미 공군 사진 · 1951. 4",
+    "marks": [
+     {
+      "text": "미 공군과 함께 · 1년",
+      "x": 0.5,
+      "y": 0.12,
+      "on": "일 년",
+      "color": "yellow"
+     }
+    ]
+   },
+   "label": "출격 전 정비사와 의논하는 한국 공군 조종사 (1951. 4)"
+  },
+  {
+   "id": "s066",
+   "lines": [
+    {
+     "t": "그리고 1951년 가을, 드디어 혼자 설 기회가 찾아옵니다.",
+     "say": "그리고 천구백오십일 년 가을, 드디어 혼자 설 기회가 찾아옵니다."
+    }
+   ],
+   "visual": {
+    "type": "black",
+    "text": "1951년 가을",
+    "accent": "혼자 설 기회",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s067",
+   "lines": [
+    "동해안의 강릉 기지에 한국 공군 전투비행부대가 자리를 잡은 겁니다."
+   ],
+   "visual": {
+    "type": "flatmap",
+    "center": [
+     127.4,
+     38.6
+    ],
+    "span": 6.8,
+    "fill": {
+     "410": "#f1e4c6",
+     "408": "#e8b6a5",
+     "156": "#dcc9a3",
+     "392": "#e6d9bd",
+     "643": "#dcc9a3"
+    },
+    "pins": [
+     {
+      "ll": [
+       128.944,
+       37.753
+      ],
+      "text": "강릉 기지",
+      "side": "right",
+      "on": "강릉",
+      "flag": "kr"
+     }
+    ],
+    "routes": [],
+    "labels": [
+     {
+      "ll": [
+       130.4,
+       39.3
+      ],
+      "text": "동해",
+      "style": "sea"
+     },
+     {
+      "ll": [
+       124.2,
+       37.6
+      ],
+      "text": "황해",
+      "style": "sea"
+     }
+    ],
+    "zoomTo": 0.92
+   }
+  },
+  {
+   "id": "s068",
+   "lines": [
+    {
+     "t": "제1전투비행단 예하, 제10전투비행전대.",
+     "say": "제일전투비행단 예하, 제십전투비행전대."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "제1전투비행단 제10전투비행전대",
+    "style": "blue",
+    "sub": "강릉 기지 · 1951년 가을부터",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s069",
+   "lines": [
+    "이곳에서 한국 공군은 처음으로 스스로 작전을 짜고, 스스로 출격하기 시작합니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "kr_point",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 500,
+      "at": 0
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.18,
+      "text": "첫 단독 작전",
+      "on": "스스로 출격",
+      "color": "yellow"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s070",
+   "lines": [
+    "그전까지 한국 공군 조종사들은 미군 비행단의 지휘를 받으며, 미군 편대에 섞여 날았습니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "us_point",
+      "x": 0.3,
+      "y": 0.9,
+      "h": 460,
+      "at": 0
+     },
+     {
+      "c": "kr_idle",
+      "x": 0.7,
+      "y": 0.9,
+      "h": 400,
+      "at": 0,
+      "flip": true
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.3,
+      "y": 0.16,
+      "text": "미군 지휘",
+      "at": 0.2,
+      "color": "blue"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s071",
+   "lines": [
+    "이제는 한국인 지휘관이 표적을 정하고, 한국인 편대장이 편대를 이끌게 된 거죠."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "kr_point",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 500,
+      "at": 0
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.16,
+      "text": "한국인 지휘관 · 한국인 편대장",
+      "on": "한국인 지휘관",
+      "color": "yellow"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s072",
+   "lines": [
+    "신생 공군에게는 진짜 실력을 증명해야 하는 시험대이기도 했습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "신생 공군의",
+    "accent": "시험대",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s073",
+   "lines": [
+    "이 부대를 이끈 사람은 김신 대령이었습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s073-photo",
+    "tag": "해방 직후"
+   },
+   "label": "백범 김구 선생과 아들 김신",
+   "callouts": [
+    {
+     "text": "제10전투비행전대장 김신 대령",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s074",
+   "lines": [
+    "독립운동가 백범 김구 선생의 둘째 아들이죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "백범 김구의 둘째 아들",
+    "style": "yellow"
+   }
+  },
+  {
+   "id": "s075",
+   "lines": [
+    "그리고 이 강릉 기지의 조종사들이 목에 두른 것이 있었습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "red_scarf",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s076",
+   "lines": [
+    "바로 빨간 마후라입니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "red_scarf",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "빨간 마후라",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s077",
+   "lines": [
+    "강릉이 오늘날 빨간 마후라의 고향이라고 불리는 이유죠."
+   ],
+   "visual": {
+    "type": "flatmap",
+    "center": [
+     127.4,
+     38.6
+    ],
+    "span": 5.2,
+    "fill": {
+     "410": "#f1e4c6",
+     "408": "#e8b6a5",
+     "156": "#dcc9a3",
+     "392": "#e6d9bd",
+     "643": "#dcc9a3"
+    },
+    "pins": [
+     {
+      "ll": [
+       128.944,
+       37.753
+      ],
+      "text": "빨간 마후라의 고향 · 강릉",
+      "side": "left",
+      "at": 0,
+      "flag": "kr"
+     }
+    ],
+    "routes": [],
+    "labels": [
+     {
+      "ll": [
+       130.4,
+       39.3
+      ],
+      "text": "동해",
+      "style": "sea"
+     },
+     {
+      "ll": [
+       124.2,
+       37.6
+      ],
+      "text": "황해",
+      "style": "sea"
+     }
+    ],
+    "zoomTo": 0.92
+   }
+  },
+  {
+   "id": "s078",
+   "lines": [
+    "당시 강릉의 여학생들은 조종사들에게 화환을 걸어 주었다고 합니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "paper_flowers",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s079",
+   "lines": [
+    "전쟁 중이라 생화가 없어서, 흰 종이에 물감을 들여 꽃을 만들었다고 하죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "paper_flowers",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "흰 종이에 물감을 들인 꽃",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s080",
+   "lines": [
+    {
+     "t": "조종사들이 탄 F-51 무스탕은 제2차 세계대전 때 이름을 날린 명기였습니다.",
+     "say": "조종사들이 탄 F 오십일 무스탕은 제이차 세계대전 때 이름을 날린 명기였습니다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s080-photo",
+    "tag": "전쟁기념관 전시"
+   },
+   "label": "전쟁기념관의 한국 공군 F-51"
+  },
+  {
+   "id": "s081",
+   "lines": [
+    "하지만 한국 전쟁 무렵에는 이미 제트기의 시대가 시작되고 있었습니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "us_idle",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 460,
+      "at": 0
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.18,
+      "text": "제트기의 시대",
+      "on": "제트기",
+      "color": "dark"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s082",
+   "lines": [
+    "그런데도 무스탕이 한국 하늘에 다시 불려 나온 데에는 이유가 있었습니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "kr_idle",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 460,
+      "at": 0
+     }
+    ],
+    "pops": [
+     {
+      "kind": "q",
+      "x": 0.72,
+      "y": 0.3,
+      "on": "이유가"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s083",
+   "lines": [
+    "제트기보다 느린 대신, 연료를 덜 먹어 오래 떠 있을 수 있었고, 거친 활주로에서도 뜨고 내릴 수 있었죠."
+   ],
+   "visual": {
+    "type": "checklist",
+    "title": "무스탕이 불려 나온 이유",
+    "items": [
+     {
+      "text": "오래 떠 있을 수 있다",
+      "on": "오래",
+      "checkOn": "오래"
+     },
+     {
+      "text": "거친 활주로에서도 뜬다",
+      "on": "거친",
+      "checkOn": "거친"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s084",
+   "lines": [
+    "낮게 날며 땅 위의 표적을 때리는 데는 오히려 쓸모가 있었던 겁니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s084-photo",
+    "tag": "미 공군 사진"
+   },
+   "label": "북한 상공의 F-51"
+  },
+  {
+   "id": "s085",
+   "lines": [
+    "무스탕은 느리고, 낡았고, 엔진이 갑자기 멈추는 일도 잦았습니다."
+   ],
+   "visual": {
+    "type": "reasons",
+    "title": "무스탕의 약점",
+    "items": [
+     {
+      "text": "느리다",
+      "at": 0
+     },
+     {
+      "text": "낡았다",
+      "on": "낡았고"
+     },
+     {
+      "text": "엔진 고장",
+      "on": "엔진이"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s086",
+   "lines": [
+    "특히 동체 아래쪽 냉각 장치에 총알 한 발만 맞아도, 엔진이 금세 과열됐죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s086-photo",
+    "tag": "미 공군 사진",
+    "pos": "50% 50%"
+   },
+   "label": "진창 활주로를 달리는 F-51",
+   "callouts": [
+    {
+     "text": "동체 아래 냉각 장치 = 급소",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s087",
+   "lines": [
+    "낮게 나는 무스탕에게 적의 지상 사격은 치명적이었습니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "kr_shock",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 480,
+      "at": 0
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.18,
+      "text": "지상 사격 = 치명적",
+      "on": "치명적",
+      "color": "red"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s088",
+   "lines": [
+    "그런데도 한국 공군 조종사들은 이 비행기로 하루에도 몇 번씩 출격했습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s088-photo",
+    "tag": "국방화보 · 공군"
+   },
+   "label": "F-51로 달려가는 한국 공군 조종사들"
+  },
+  {
+   "id": "s089",
+   "lines": [
+    {
+     "t": "그리고 1952년 1월 초, 강릉 기지에 명령 하나가 떨어집니다.",
+     "say": "그리고 천구백오십이 년 일월 초, 강릉 기지에 명령 하나가 떨어집니다."
+    }
+   ],
+   "visual": {
+    "type": "black",
+    "text": "1952년 1월 초"
+   }
+  },
+  {
+   "id": "s090",
+   "lines": [
+    {
+     "t": "미 제5공군이 보낸 명령이었습니다.",
+     "say": "미 제오공군이 보낸 명령이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "us_point",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 500,
+      "at": 0
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.18,
+      "text": "미 제5공군 명령",
+      "at": 0.2,
+      "color": "blue"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s091",
+   "lines": [
+    "승호리 철교를 차단하라."
+   ],
+   "visual": {
+    "type": "document",
+    "org": "미 제5공군",
+    "head": "작전 명령",
+    "rows": [
+     "발신: 미 제5공군",
+     "수신: 강릉 기지 (한국 공군)",
+     "",
+     "승호리 철교를 차단하라"
+    ],
+    "stamp": "긴급",
+    "note": "재구성 · 내용 요약"
+   }
+  },
+  {
+   "id": "s092",
+   "lines": [
+    {
+     "t": "미군이 500번 가까이 때리고도 끊지 못한 바로 그 다리였습니다.",
+     "say": "미군이 오백 번 가까이 때리고도 끊지 못한 바로 그 다리였습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "pyong",
+    "items": [
+     {
+      "k": "lock",
+      "p": "bridge",
+      "at": 0.6,
+      "text": "승호리 철교 · 약 500번 실패",
+      "color": "red"
+     }
+    ],
+    "flight": [
+     "korea",
+     "north",
+     "pyong"
+    ]
+   }
+  },
+  {
+   "id": "s093",
+   "lines": [
+    {
+     "t": "강릉에서 승호리까지는 직선으로 약 300km입니다.",
+     "say": "강릉에서 승호리까지는 직선으로 약 삼백 킬로미터입니다."
+    }
+   ],
+   "visual": {
+    "type": "flatmap",
+    "center": [
+     127.4,
+     38.4
+    ],
+    "span": 5.2,
+    "fill": {
+     "410": "#f1e4c6",
+     "408": "#e8b6a5",
+     "156": "#dcc9a3",
+     "392": "#e6d9bd",
+     "643": "#dcc9a3"
+    },
+    "pins": [
+     {
+      "ll": [
+       128.944,
+       37.753
+      ],
+      "text": "강릉 기지",
+      "side": "right",
+      "at": 0,
+      "flag": "kr"
+     },
+     {
+      "ll": [
+       125.955,
+       39.008
+      ],
+      "text": "승호리 철교",
+      "side": "left",
+      "on": "승호리",
+      "color": "#111"
+     }
+    ],
+    "routes": [
+     {
+      "from": [
+       128.944,
+       37.753
+      ],
+      "to": [
+       125.955,
+       39.008
+      ],
+      "bend": -0.16,
+      "dur": 1.4,
+      "label": "직선 약 300km",
+      "on": "직선"
+     }
+    ],
+    "labels": [
+     {
+      "ll": [
+       130.4,
+       39.3
+      ],
+      "text": "동해",
+      "style": "sea"
+     },
+     {
+      "ll": [
+       124.2,
+       37.6
+      ],
+      "text": "황해",
+      "style": "sea"
+     }
+    ],
+    "zoomTo": 0.92
+   },
+   "chapter": {
+    "num": "제3막",
+    "title": "1월 12일, 첫 번째 실패"
+   }
+  },
+  {
+   "id": "s094",
+   "lines": [
+    "휴전선 너머 적진을 가로질러, 평양 코앞까지 날아가야 하는 거리죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "route",
+    "to": "route",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.1,
+        37.72
+       ],
+       [
+        126.6,
+        37.92
+       ],
+       [
+        127.0,
+        38.15
+       ],
+       [
+        127.4,
+        38.32
+       ],
+       [
+        127.8,
+        38.33
+       ],
+       [
+        128.15,
+        38.3
+       ],
+       [
+        128.4,
+        38.55
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "plane",
+      "path": [
+       [
+        128.944,
+        37.753
+       ],
+       [
+        128.3,
+        38.1
+       ],
+       [
+        127.5,
+        38.55
+       ],
+       [
+        126.7,
+        38.85
+       ],
+       [
+        126.1,
+        38.98
+       ],
+       [
+        125.955,
+        39.008
+       ]
+      ],
+      "at": 0.1,
+      "n": 1,
+      "dur": 4.0,
+      "hit": false,
+      "size": 0.8
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "적진 횡단",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s095",
+   "lines": [
+    {
+     "t": "왕복으로는 600km, 무스탕의 연료로는 표적 위에서 오래 머물 수도 없었습니다.",
+     "say": "왕복으로는 육백 킬로미터, 무스탕의 연료로는 표적 위에서 오래 머물 수도 없었습니다."
+    }
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "kr_shock",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 460,
+      "at": 0
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.18,
+      "text": "왕복 600km",
+      "on": "육백",
+      "color": "yellow"
+     },
+     {
+      "kind": "bubble",
+      "x": 0.5,
+      "y": 0.36,
+      "text": "연료가..",
+      "on": "연료"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s096",
+   "lines": [
+    "한겨울의 조종석은 영하의 추위였고, 아래로는 눈 덮인 산맥이 끝없이 이어졌습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "winter_cockpit",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s097",
+   "lines": [
+    "엔진이 멈추면 내릴 곳은 적진 한가운데뿐이었죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "snow_ridges",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "엔진이 멈추면 = 적진 한가운데",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s098",
+   "lines": [
+    "김신 대령은 이 첫 임무를 김두만 소령에게 맡겼습니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "kr_salute",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 500,
+      "at": 0
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.18,
+      "text": "김두만 소령",
+      "at": 0.1,
+      "color": "dark"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s099",
+   "lines": [
+    {
+     "t": "한국 공군 조종사 가운데 처음으로 100회 출격을 기록한 베테랑이었습니다.",
+     "say": "한국 공군 조종사 가운데 처음으로 백 회 출격을 기록한 베테랑이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "한국 공군 첫 100회 출격",
+    "style": "yellow",
+    "sub": "김두만 소령",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s100",
+   "lines": [
+    {
+     "t": "1952년 1월 12일, 아침 7시 40분.",
+     "say": "천구백오십이 년 일월 십이일, 아침 일곱 시 사십 분."
+    }
+   ],
+   "visual": {
+    "type": "black",
+    "text": "1952년 1월 12일",
+    "accent": "아침 7시 40분",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s101",
+   "lines": [
+    {
+     "t": "김두만 소령이 이끄는 무스탕 5대가 강릉 기지를 이륙합니다.",
+     "say": "김두만 소령이 이끄는 무스탕 다섯 대가 강릉 기지를 이륙합니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "takeoff_dawn",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "F-51 5대 이륙",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s102",
+   "lines": [
+    "편대는 표적 상공에 도착하자 먼저 로켓탄과 기관총으로 대공포 진지를 두들겼습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "valley",
+    "to": "valley",
+    "items": [
+     {
+      "k": "lock",
+      "p": "bridge",
+      "at": 0,
+      "text": "승호리 철교"
+     },
+     {
+      "k": "plane",
+      "path": [
+       [
+        126.03,
+        38.96
+       ],
+       [
+        125.995,
+        38.985
+       ],
+       [
+        125.97,
+        39.0
+       ],
+       [
+        125.955,
+        39.008
+       ]
+      ],
+      "at": 0.1,
+      "n": 5,
+      "dur": 3.0,
+      "hit": false,
+      "size": 1.0
+     },
+     {
+      "k": "shock",
+      "pts": [
+       [
+        125.94,
+        39.018
+       ],
+       [
+        125.968,
+        39.02
+       ],
+       [
+        125.945,
+        38.998
+       ],
+       [
+        125.972,
+        38.999
+       ],
+       [
+        125.957,
+        39.025
+       ]
+      ],
+      "at": 0.4,
+      "period": 0.6
+     }
+    ],
+    "tilt": 30,
+    "hud": true
+   },
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0.8,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s103",
+   "lines": [
+    {
+     "t": "그리고 500파운드 폭탄 10발을 철교를 향해 떨어뜨렸죠.",
+     "say": "그리고 오백 파운드 폭탄 열 발을 철교를 향해 떨어뜨렸죠."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "bridge",
+    "to": "bridge",
+    "items": [
+     {
+      "k": "lock",
+      "p": "bridge",
+      "at": 0,
+      "text": "승호리 철교"
+     },
+     {
+      "k": "shock",
+      "pts": [
+       [
+        125.948,
+        39.004
+       ],
+       [
+        125.962,
+        39.002
+       ],
+       [
+        125.951,
+        39.013
+       ],
+       [
+        125.96,
+        39.014
+       ]
+      ],
+      "at": 0.3,
+      "period": 0.9
+     }
+    ],
+    "tilt": 36
+   },
+   "callouts": [
+    {
+     "text": "500파운드 폭탄 10발",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s104",
+   "lines": [
+    "결과는 실패였습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "결과는",
+    "accent": "실패",
+    "accentAt": 0.5
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0.5,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s105",
+   "lines": [
+    "폭탄은 교각과 교각 사이, 모래바닥과 강물 속으로 떨어졌습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "bomb_miss",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "교각 사이 모래바닥 · 강물",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s106",
+   "lines": [
+    "다리는 멀쩡했습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "bridge_intact",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s107",
+   "lines": [
+    "교각 사이의 간격은 생각보다 넓었고, 모래주머니로 채운 침목 교각은 근처에 떨어진 폭발을 그대로 삼켜 버렸습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "crib_pier",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s108",
+   "lines": [
+    "폭탄이 다리 위에 정확히 떨어지지 않는 한, 이 다리는 꿈쩍도 하지 않았던 겁니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "kr_shrug",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 480,
+      "at": 0
+     }
+    ],
+    "pops": [
+     {
+      "kind": "bubble",
+      "x": 0.5,
+      "y": 0.28,
+      "text": "정확히 맞혀야 한다..",
+      "at": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "id": "s109",
+   "lines": [
+    {
+     "t": "같은 날 오후 2시, 이번에는 윤응렬 대위가 이끄는 3대가 다시 이륙합니다.",
+     "say": "같은 날 오후 두 시, 이번에는 윤응렬 대위가 이끄는 세 대가 다시 이륙합니다."
+    }
+   ],
+   "visual": {
+    "type": "black",
+    "text": "오후 2시",
+    "accent": "윤응렬 대위 · F-51 3대",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s110",
+   "lines": [
+    "이번에는 폭탄이 다리 위의 철로를 때렸습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "bridge",
+    "to": "bridge",
+    "items": [
+     {
+      "k": "lock",
+      "p": "bridge",
+      "at": 0,
+      "text": "승호리 철교"
+     },
+     {
+      "k": "plane",
+      "path": [
+       [
+        126.05,
+        39.02
+       ],
+       [
+        126.0,
+        39.012
+       ],
+       [
+        125.975,
+        39.01
+       ],
+       [
+        125.955,
+        39.008
+       ]
+      ],
+      "at": 0.1,
+      "n": 3,
+      "dur": 2.6,
+      "hit": true,
+      "size": 0.8
+     }
+    ],
+    "tilt": 36
+   },
+   "callouts": [
+    {
+     "text": "철로 명중",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s111",
+   "lines": [
+    "하지만 철로만 조금 상했을 뿐, 다리 자체는 끄떡없었습니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "kr_shrug",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 480,
+      "at": 0
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.18,
+      "text": "철로만 손상",
+      "on": "철로만",
+      "color": "red"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s112",
+   "lines": [
+    {
+     "t": "하루 동안 8번 출격하고, 철교는 그대로 서 있었던 겁니다.",
+     "say": "하루 동안 여덟 번 출격하고, 철교는 그대로 서 있었던 겁니다."
+    }
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "1월 12일 출격",
+     "big": "8번",
+     "icon": "none",
+     "color": "blue"
+    },
+    "right": {
+     "title": "철교",
+     "big": "그대로",
+     "icon": "none",
+     "color": "red",
+     "at": 0.6
+    }
+   }
+  },
+  {
+   "id": "s113",
+   "lines": [
+    {
+     "t": "미군의 500번이 왜 실패했는지, 한국 조종사들도 몸으로 알게 된 하루였습니다.",
+     "say": "미군의 오백 번이 왜 실패했는지, 한국 조종사들도 몸으로 알게 된 하루였습니다."
+    }
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "kr_shock",
+      "x": 0.35,
+      "y": 0.9,
+      "h": 440,
+      "at": 0
+     },
+     {
+      "c": "us_shrug",
+      "x": 0.7,
+      "y": 0.9,
+      "h": 440,
+      "at": 0,
+      "flip": true
+     }
+    ],
+    "pops": [
+     {
+      "kind": "bubble",
+      "x": 0.7,
+      "y": 0.28,
+      "text": "그것 봐..",
+      "at": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "id": "s114",
+   "lines": [
+    "문제는 폭격하는 방식 그 자체에 있었습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "문제는",
+    "accent": "폭격 방식 그 자체",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s115",
+   "lines": [
+    "당시 미군이 쓰던 방식은 이랬습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "미군 표준 방식",
+    "style": "blue"
+   }
+  },
+  {
+   "id": "s116",
+   "lines": [
+    {
+     "t": "8,000피트, 약 2,400m 높이에서 급강하를 시작합니다.",
+     "say": "팔천 피트, 약 이천사백 미터 높이에서 급강하를 시작합니다."
+    }
+   ],
+   "visual": {
+    "type": "profile",
+    "pts": [
+     [
+      0,
+      2400
+     ],
+     [
+      0.35,
+      2400
+     ],
+     [
+      0.55,
+      1500
+     ],
+     [
+      0.7,
+      900
+     ],
+     [
+      0.8,
+      1100
+     ],
+     [
+      1,
+      1800
+     ]
+    ],
+    "grid": [
+     900,
+     1500,
+     2400
+    ],
+    "yMin": 0,
+    "yMax": 2800,
+    "title": "미군 방식",
+    "note": "모식도 · 피트는 근사 환산",
+    "left": "강하 시작 8,000피트 (약 2,400m)",
+    "right": "",
+    "marks": [
+     {
+      "x": 0.35,
+      "text": "강하 시작",
+      "style": "yellow",
+      "at": 0,
+      "lift": 60,
+      "size": 40
+     }
+    ]
+   }
+  },
+  {
+   "id": "s117",
+   "lines": [
+    {
+     "t": "그리고 3,000피트, 약 900m에서 폭탄을 떨어뜨리고 곧바로 기수를 들어 올리죠.",
+     "say": "그리고 삼천 피트, 약 구백 미터에서 폭탄을 떨어뜨리고 곧바로 기수를 들어 올리죠."
+    }
+   ],
+   "visual": {
+    "type": "profile",
+    "pts": [
+     [
+      0,
+      2400
+     ],
+     [
+      0.35,
+      2400
+     ],
+     [
+      0.55,
+      1500
+     ],
+     [
+      0.7,
+      900
+     ],
+     [
+      0.8,
+      1100
+     ],
+     [
+      1,
+      1800
+     ]
+    ],
+    "grid": [
+     900,
+     1500,
+     2400
+    ],
+    "yMin": 0,
+    "yMax": 2800,
+    "title": "미군 방식",
+    "note": "모식도 · 피트는 근사 환산",
+    "left": "강하 시작 8,000피트",
+    "right": "투하 3,000피트 (약 900m)",
+    "marks": [
+     {
+      "x": 0.35,
+      "text": "강하 시작",
+      "style": "yellow",
+      "at": 0,
+      "lift": 60,
+      "size": 40
+     },
+     {
+      "x": 0.7,
+      "text": "투하",
+      "style": "red",
+      "at": 0.3,
+      "lift": 60,
+      "size": 44
+     }
+    ]
+   }
+  },
+  {
+   "id": "s118",
+   "lines": [
+    "대공포에 오래 노출되지 않으니, 조종사에게는 안전한 방식이었습니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "us_idle",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 480,
+      "at": 0
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.18,
+      "text": "조종사는 안전",
+      "on": "안전한",
+      "color": "blue"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s119",
+   "lines": [
+    {
+     "t": "하지만 900m 위에서 떨어뜨린 폭탄은, 폭이 좁은 다리를 맞히기가 너무 어려웠습니다.",
+     "say": "하지만 구백 미터 위에서 떨어뜨린 폭탄은, 폭이 좁은 다리를 맞히기가 너무 어려웠습니다."
+    }
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "us_shrug",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 480,
+      "at": 0
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.18,
+      "text": "다리는 너무 좁다",
+      "on": "좁은",
+      "color": "red"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s120",
+   "lines": [
+    {
+     "t": "작은 바람 한 줄기, 손끝의 작은 흔들림 하나에도 폭탄은 수십 m씩 빗나갔거든요.",
+     "say": "작은 바람 한 줄기, 손끝의 작은 흔들림 하나에도 폭탄은 몇십 미터씩 빗나갔거든요."
+    }
+   ],
+   "visual": {
+    "type": "reasons",
+    "title": "폭탄이 빗나간 이유",
+    "items": [
+     {
+      "text": "바람 한 줄기",
+      "on": "바람"
+     },
+     {
+      "text": "손끝 흔들림",
+      "on": "흔들림"
+     },
+     {
+      "text": "수십 m 오차",
+      "on": "몇십"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s121",
+   "lines": [
+    "이 방식으로는 몇 번을 더 가도 결과는 똑같을 것이었습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "이 방식으로는",
+    "accent": "몇 번을 가도 같다",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s122",
+   "lines": [
+    "그날 밤, 강릉 기지의 작전실에는 불이 꺼지지 않았습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "ops_room_night",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s123",
+   "lines": [
+    "여기까지 보셨다면, 잠깐 구독과 좋아요 한 번 눌러 주세요.",
+    "다음 이야기, 이 다리를 끊어 낸 결단으로 넘어가 보겠습니다."
+   ],
+   "visual": {
+    "type": "cta",
+    "title": "구독 · 좋아요로 다음 이야기까지 함께해 주세요",
+    "at": 0
+   },
+   "sfx": [
+    {
+     "id": "pop",
+     "at": 0.2,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s124",
+   "lines": [
+    "김신 대령은 참모들과 밤늦게까지 머리를 맞댔습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "ops_room_night",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "pauseBefore": 0.5,
+   "chapter": {
+    "num": "제4막",
+    "title": "김신의 결단, 1,500피트"
+   }
+  },
+  {
+   "id": "s125",
+   "lines": [
+    "작전처장 강호륜도 함께 출격 편대와 폭격 방법을 다시 짰습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s125-photo",
+    "tag": "미 육군 사진",
+    "pos": "50% 30%"
+   },
+   "label": "브리핑을 받는 한국 공군 조종사들 (앞줄 강호륜 등)",
+   "callouts": [
+    {
+     "text": "작전처장 강호륜 · 출격 편대와 폭격 방법 재설계",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s126",
+   "lines": [
+    "그리고 결론을 내립니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "그리고",
+    "accent": "결론",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s127",
+   "lines": [
+    "지금의 미군 방식으로는, 이 다리를 절대 끊을 수 없다."
+   ],
+   "visual": {
+    "type": "document",
+    "org": "대한민국 공군",
+    "head": "작전 회의 결론",
+    "rows": [
+     "미군 방식(고고도 투하)으로는",
+     "승호리 철교를 끊을 수 없다"
+    ],
+    "stamp": "결론",
+    "note": "재구성 · 내용 요약"
+   }
+  },
+  {
+   "id": "s128",
+   "lines": [
+    "그렇다면 방법은 하나뿐이었습니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "kr_idle",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 480,
+      "at": 0
+     }
+    ],
+    "pops": [
+     {
+      "kind": "q",
+      "x": 0.72,
+      "y": 0.3,
+      "at": 0.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "s129",
+   "lines": [
+    "더 낮게 내려가는 것."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "더 낮게",
+    "style": "red"
+   },
+   "sfx": [
+    {
+     "id": "whoosh",
+     "at": 0,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s130",
+   "lines": [
+    {
+     "t": "강하를 시작하는 높이는 8,000피트에서 4,000피트로.",
+     "say": "강하를 시작하는 높이는 팔천 피트에서 사천 피트로."
+    }
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "강하 시작 · 미군",
+     "big": "8,000피트",
+     "icon": "none",
+     "color": "blue"
+    },
+    "right": {
+     "title": "강하 시작 · 한국 공군",
+     "big": "4,000피트",
+     "icon": "none",
+     "color": "red",
+     "at": 0.6
+    }
+   }
+  },
+  {
+   "id": "s131",
+   "lines": [
+    {
+     "t": "폭탄을 떨어뜨리는 높이는 3,000피트에서 1,500피트로.",
+     "say": "폭탄을 떨어뜨리는 높이는 삼천 피트에서 천오백 피트로."
+    }
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "투하 · 미군",
+     "big": "3,000피트",
+     "icon": "none",
+     "color": "blue"
+    },
+    "right": {
+     "title": "투하 · 한국 공군",
+     "big": "1,500피트",
+     "icon": "none",
+     "color": "red",
+     "at": 0.6
+    }
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0.7,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s132",
+   "lines": [
+    {
+     "t": "네, 영상 처음에 말씀드린 그 숫자, 1,500이 바로 이것입니다.",
+     "say": "네, 영상 처음에 말씀드린 그 숫자, 천오백이 바로 이것입니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "1,500",
+    "style": "red",
+    "sub": "영상 처음의 그 숫자",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s133",
+   "lines": [
+    {
+     "t": "1,500피트는 약 450m입니다.",
+     "say": "천오백 피트는 약 사백오십 미터입니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "1,500피트 ≈ 450m",
+    "style": "yellow"
+   }
+  },
+  {
+   "id": "s134",
+   "lines": [
+    "남산서울타워 꼭대기와 비슷한 높이죠."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "kr_point",
+      "x": 0.3,
+      "y": 0.9,
+      "h": 440,
+      "at": 0
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.68,
+      "y": 0.3,
+      "text": "남산서울타워 꼭대기 높이",
+      "on": "남산",
+      "color": "yellow"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s135",
+   "lines": [
+    "폭탄을 놓는 높이를 절반으로 줄인 겁니다."
+   ],
+   "visual": {
+    "type": "profile",
+    "pts": [
+     [
+      0,
+      1200
+     ],
+     [
+      0.3,
+      1200
+     ],
+     [
+      0.5,
+      800
+     ],
+     [
+      0.62,
+      450
+     ],
+     [
+      0.72,
+      650
+     ],
+     [
+      1,
+      1100
+     ]
+    ],
+    "grid": [
+     450,
+     900,
+     1200
+    ],
+    "yMin": 0,
+    "yMax": 2800,
+    "title": "한국 공군 방식",
+    "note": "모식도 · 피트는 근사 환산",
+    "left": "강하 시작 4,000피트 (약 1,200m)",
+    "right": "투하 1,500피트 (약 450m)",
+    "marks": [
+     {
+      "x": 0.62,
+      "text": "투하 = 절반 높이",
+      "style": "red",
+      "at": 0,
+      "lift": 60,
+      "size": 44
+     }
+    ]
+   }
+  },
+  {
+   "id": "s136",
+   "lines": [
+    "높이가 절반이 되면 폭탄이 날아가는 거리도 짧아지고, 그만큼 빗나갈 여유도 줄어듭니다."
+   ],
+   "visual": {
+    "type": "checklist",
+    "title": "높이가 절반이 되면",
+    "items": [
+     {
+      "text": "폭탄이 날아가는 거리 ↓",
+      "on": "날아가는",
+      "checkOn": "짧아지고"
+     },
+     {
+      "text": "빗나갈 여유 ↓",
+      "on": "빗나갈",
+      "checkOn": "줄어듭"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s137",
+   "lines": [
+    "명중률은 확실히 올라가죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "명중률 ↑",
+    "style": "yellow"
+   }
+  },
+  {
+   "id": "s138",
+   "lines": [
+    "쉽게 말하면 다트 던지기와 같습니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "kr_point",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 480,
+      "at": 0
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.18,
+      "text": "= 다트 던지기",
+      "on": "다트",
+      "color": "yellow"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s139",
+   "lines": [
+    "과녁에서 열 걸음 떨어져 던지는 것과 다섯 걸음 떨어져 던지는 것, 어느 쪽이 더 잘 맞을까요."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "kr_idle",
+      "x": 0.25,
+      "y": 0.9,
+      "h": 420,
+      "at": 0
+     },
+     {
+      "c": "kr_idle",
+      "x": 0.75,
+      "y": 0.9,
+      "h": 420,
+      "at": 0
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.25,
+      "y": 0.2,
+      "text": "10걸음",
+      "on": "열 걸음",
+      "color": "dark"
+     },
+     {
+      "kind": "label",
+      "x": 0.75,
+      "y": 0.2,
+      "text": "5걸음",
+      "on": "다섯 걸음",
+      "color": "yellow"
+     },
+     {
+      "kind": "q",
+      "x": 0.5,
+      "y": 0.32,
+      "on": "어느 쪽"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s140",
+   "lines": [
+    "당연히 가까이서 던질수록 잘 맞습니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "kr_salute",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 480,
+      "at": 0
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.18,
+      "text": "가까울수록 명중",
+      "on": "가까이서",
+      "color": "yellow"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s141",
+   "lines": [
+    "문제는 이 다트판이, 사방에서 총을 쏘아 대는 과녁이라는 거였죠."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "kr_shock",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 480,
+      "at": 0
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.18,
+      "text": "총을 쏘는 과녁",
+      "on": "쏘아 대는",
+      "color": "red"
+     },
+     {
+      "kind": "ex",
+      "x": 0.78,
+      "y": 0.3,
+      "on": "과녁"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s142",
+   "lines": [
+    "하지만 이 결정이 조종사들에게 무엇을 뜻하는지는, 모두가 알고 있었습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "모두가",
+    "accent": "알고 있었다",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s143",
+   "lines": [
+    "첫째, 대공포에 훨씬 오래, 훨씬 가까이 노출됩니다."
+   ],
+   "visual": {
+    "type": "reasons",
+    "title": "1,500피트의 대가",
+    "items": [
+     {
+      "text": "대공포 노출",
+      "on": "대공포에"
+     },
+     {
+      "text": "보병 사거리",
+      "later": true
+     },
+     {
+      "text": "내 폭탄 파편",
+      "later": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "s144",
+   "lines": [
+    "둘째, 계곡 아래 엎드린 적 보병의 소총과 기관총 사거리 안으로 들어갑니다."
+   ],
+   "visual": {
+    "type": "reasons",
+    "title": "1,500피트의 대가",
+    "items": [
+     {
+      "text": "대공포 노출",
+      "at": 0
+     },
+     {
+      "text": "보병 사거리",
+      "on": "보병의"
+     },
+     {
+      "text": "내 폭탄 파편",
+      "later": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "s145",
+   "lines": [
+    "셋째, 너무 낮게 폭탄을 떨어뜨리면 내 폭탄의 파편과 폭풍에 내 비행기가 휘말릴 수 있습니다."
+   ],
+   "visual": {
+    "type": "reasons",
+    "title": "1,500피트의 대가",
+    "items": [
+     {
+      "text": "대공포 노출",
+      "at": 0
+     },
+     {
+      "text": "보병 사거리",
+      "at": 0
+     },
+     {
+      "text": "내 폭탄 파편",
+      "on": "파편과"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s146",
+   "lines": [
+    "훗날 윤응렬 장군은 이렇게 회고합니다."
+   ],
+   "visual": {
+    "type": "document",
+    "org": "공군본부 『6·25전쟁 증언록』",
+    "head": "윤응렬 장군의 회고",
+    "rows": [
+     "저공으로 내려가면",
+     "대공포보다 무서운 것은",
+     "적 보병의 소총 사격"
+    ],
+    "stamp": "증언",
+    "note": "요지 · 재구성"
+   }
+  },
+  {
+   "id": "s147",
+   "lines": [
+    "저공으로 내려가면 오히려 대공포는 별 소용이 없다고요."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "kr_shrug",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 480,
+      "at": 0
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.18,
+      "text": "저공 → 대공포는 별 소용 없다",
+      "on": "대공포는",
+      "color": "dark"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s148",
+   "lines": [
+    "정말 무서운 것은 땅에 엎드린 적 보병들이었다고 합니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "kr_shock",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 480,
+      "at": 0
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.18,
+      "text": "진짜 공포 = 적 보병",
+      "on": "보병들",
+      "color": "red"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s149",
+   "lines": [
+    {
+     "t": "열 명이고 스무 명이고 땅에 누워서, 비행기 앞쪽 20~30m 허공을 향해 한꺼번에 총을 쏘아 올린다는 거죠.",
+     "say": "열 명이고 스무 명이고 땅에 누워서, 비행기 앞쪽 이삼십 미터 허공을 향해 한꺼번에 총을 쏘아 올린다는 거죠."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "infantry_barrage",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "비행기 앞 20~30m 허공에 집중 사격",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s150",
+   "lines": [
+    "그러면 그 탄막 속으로 날아드는 무스탕은 어딘가에 반드시 총알을 맞게 되어 있었습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "infantry_barrage",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s151",
+   "lines": [
+    "게다가 무스탕은 냉각 장치에 한 발만 맞아도 엔진이 멈출 수 있는 비행기였죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s151-photo",
+    "tag": "미 공군 사진",
+    "pos": "50% 50%"
+   },
+   "label": "진창 활주로를 달리는 F-51",
+   "callouts": [
+    {
+     "text": "냉각 장치 한 발 = 엔진 정지",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s152",
+   "lines": [
+    "평양 근처에서 엔진이 멈추면, 돌아올 방법이 없습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "pyong",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.1,
+        37.72
+       ],
+       [
+        126.6,
+        37.92
+       ],
+       [
+        127.0,
+        38.15
+       ],
+       [
+        127.4,
+        38.32
+       ],
+       [
+        127.8,
+        38.33
+       ],
+       [
+        128.15,
+        38.3
+       ],
+       [
+        128.4,
+        38.55
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "lock",
+      "p": "bridge",
+      "at": 0.5,
+      "text": "평양 근처",
+      "color": "red"
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "돌아올 방법이 없다",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s153",
+   "lines": [
+    "그럼에도 김신 대령은 이 방식을 실행하기로 결정합니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "그럼에도",
+    "accent": "실행",
+    "accentAt": 0.5
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0.5,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s154",
+   "lines": [
+    "그리고 이번에는 역할을 둘로 나누기로 합니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "역할을 둘로",
+    "style": "yellow"
+   }
+  },
+  {
+   "id": "s155",
+   "lines": [
+    {
+     "t": "제1편대는 먼저 들어가 로켓탄과 기관총으로 대공포를 누르고, 제2편대가 그 틈에 폭탄을 꽂는다.",
+     "say": "제일편대는 먼저 들어가 로켓탄과 기관총으로 대공포를 누르고, 제이편대가 그 틈에 폭탄을 꽂는다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "valley",
+    "to": "valley",
+    "items": [
+     {
+      "k": "lock",
+      "p": "bridge",
+      "at": 0,
+      "text": "승호리 철교"
+     },
+     {
+      "k": "plane",
+      "path": [
+       [
+        126.05,
+        39.02
+       ],
+       [
+        126.0,
+        39.012
+       ],
+       [
+        125.975,
+        39.01
+       ],
+       [
+        125.955,
+        39.008
+       ]
+      ],
+      "at": 0.1,
+      "n": 3,
+      "dur": 2.6,
+      "hit": false,
+      "size": 0.8,
+      "color": "#2e66d8"
+     },
+     {
+      "k": "badge",
+      "p": [
+       126.02,
+       39.03
+      ],
+      "text": "제1편대 · 대공포 제압",
+      "color": "#2e66d8",
+      "at": 0.3,
+      "dy": -60
+     },
+     {
+      "k": "plane",
+      "path": [
+       [
+        126.03,
+        38.96
+       ],
+       [
+        125.995,
+        38.985
+       ],
+       [
+        125.97,
+        39.0
+       ],
+       [
+        125.955,
+        39.008
+       ]
+      ],
+      "at": 2.0,
+      "n": 3,
+      "dur": 2.8,
+      "hit": true,
+      "size": 0.8,
+      "color": "#c9242c"
+     },
+     {
+      "k": "badge",
+      "p": [
+       126.02,
+       38.97
+      ],
+      "text": "제2편대 · 폭격",
+      "color": "#c9242c",
+      "at": 1.0,
+      "dy": 60
+     }
+    ],
+    "tilt": 32,
+    "hud": true
+   }
+  },
+  {
+   "id": "s156",
+   "lines": [
+    "누군가는 대공포의 시선을 끌어야 하고, 누군가는 그 틈에 가장 낮게 내려가야 하는 작전이었습니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "kr_point",
+      "x": 0.3,
+      "y": 0.9,
+      "h": 440,
+      "at": 0
+     },
+     {
+      "c": "kr_salute",
+      "x": 0.72,
+      "y": 0.9,
+      "h": 440,
+      "at": 0,
+      "flip": true
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.3,
+      "y": 0.16,
+      "text": "시선 끌기",
+      "on": "시선을",
+      "color": "blue"
+     },
+     {
+      "kind": "label",
+      "x": 0.72,
+      "y": 0.16,
+      "text": "가장 낮게",
+      "on": "가장 낮게",
+      "color": "red"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s157",
+   "lines": [
+    "출격 명단이 정해집니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "출격 명단"
+   }
+  },
+  {
+   "id": "s158",
+   "lines": [
+    {
+     "t": "제1편대장 윤응렬 대위, 2번기 정주량 대위, 3번기 장성태 대위.",
+     "say": "제일편대장 윤응렬 대위, 이번기 정주량 대위, 삼번기 장성태 대위."
+    }
+   ],
+   "visual": {
+    "type": "document",
+    "org": "대한민국 공군",
+    "head": "제1편대",
+    "rows": [
+     "편대장 윤응렬 대위",
+     "2번기 정주량 대위",
+     "3번기 장성태 대위"
+    ],
+    "stamp": "軍 秘",
+    "note": "재구성 · 내용 요약"
+   }
+  },
+  {
+   "id": "s159",
+   "lines": [
+    {
+     "t": "제2편대장 옥만호 대위, 2번기 유치곤 대위, 3번기 박재호 대위.",
+     "say": "제이편대장 옥만호 대위, 이번기 유치곤 대위, 삼번기 박재호 대위."
+    }
+   ],
+   "visual": {
+    "type": "document",
+    "org": "대한민국 공군",
+    "head": "제2편대",
+    "rows": [
+     "편대장 옥만호 대위",
+     "2번기 유치곤 대위",
+     "3번기 박재호 대위"
+    ],
+    "stamp": "軍 秘",
+    "note": "재구성 · 내용 요약"
+   }
+  },
+  {
+   "id": "s160",
+   "lines": [
+    {
+     "t": "6명이었습니다.",
+     "say": "여섯 명이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "kr_salute",
+      "x": 0.2,
+      "y": 0.9,
+      "h": 380,
+      "at": 0
+     },
+     {
+      "c": "kr_salute",
+      "x": 0.4,
+      "y": 0.9,
+      "h": 380,
+      "at": 0
+     },
+     {
+      "c": "kr_salute",
+      "x": 0.6,
+      "y": 0.9,
+      "h": 380,
+      "at": 0,
+      "flip": true
+     },
+     {
+      "c": "kr_salute",
+      "x": 0.8,
+      "y": 0.9,
+      "h": 380,
+      "at": 0,
+      "flip": true
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.16,
+      "text": "6명",
+      "at": 0.1,
+      "color": "yellow"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s161",
+   "lines": [
+    "그리고 사흘 뒤, 다시 그 계곡으로 들어가는 날이 밝습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "dawn_base",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s162",
+   "lines": [
+    "출격 전날 밤, 조종사들은 지도 위에 계곡의 모양과 대공포 진지의 위치를 몇 번이고 그려 보았을 겁니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "pilots_map",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s163",
+   "lines": [
+    "어느 방향에서 들어가 어느 쪽으로 빠져나올지, 한 번의 실수도 허락되지 않는 비행이었으니까요."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "pilots_map",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "한 번의 실수도 허락되지 않는 비행",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s164",
+   "lines": [
+    {
+     "t": "1952년 1월 15일 아침, 강릉은 살을 엘 듯한 한파에 휩싸여 있었습니다.",
+     "say": "천구백오십이 년 일월 십오일 아침, 강릉은 살을 엘 듯한 한파에 휩싸여 있었습니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "frozen_runway",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "pauseBefore": 0.5,
+   "chapter": {
+    "num": "제5막",
+    "title": "오전 8시 25분"
+   },
+   "callouts": [
+    {
+     "text": "1952. 1. 15 · 강릉",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s165",
+   "lines": [
+    {
+     "t": "얼어붙은 활주로 위에서 무스탕 6대의 엔진이 하나씩 깨어납니다.",
+     "say": "얼어붙은 활주로 위에서 무스탕 여섯 대의 엔진이 하나씩 깨어납니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "engine_start",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s166",
+   "lines": [
+    {
+     "t": "날개 밑에는 500파운드 폭탄과 로켓탄이 매달려 있었습니다.",
+     "say": "날개 밑에는 오백 파운드 폭탄과 로켓탄이 매달려 있었습니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "bomb_load",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s167",
+   "lines": [
+    "편대는 강릉을 떠나 서쪽으로, 적진 깊숙이 날아갑니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "route",
+    "to": "route",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.1,
+        37.72
+       ],
+       [
+        126.6,
+        37.92
+       ],
+       [
+        127.0,
+        38.15
+       ],
+       [
+        127.4,
+        38.32
+       ],
+       [
+        127.8,
+        38.33
+       ],
+       [
+        128.15,
+        38.3
+       ],
+       [
+        128.4,
+        38.55
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "plane",
+      "path": [
+       [
+        128.944,
+        37.753
+       ],
+       [
+        128.3,
+        38.1
+       ],
+       [
+        127.5,
+        38.55
+       ],
+       [
+        126.7,
+        38.85
+       ],
+       [
+        126.1,
+        38.98
+       ],
+       [
+        125.955,
+        39.008
+       ]
+      ],
+      "at": 0.1,
+      "n": 6,
+      "dur": 4.0,
+      "hit": false,
+      "size": 0.75
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "적진 깊숙이",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s168",
+   "lines": [
+    {
+     "t": "그리고 오전 8시 25분, 승호리 철교 상공에 도착합니다.",
+     "say": "그리고 오전 여덟 시 이십오 분, 승호리 철교 상공에 도착합니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "pyong",
+    "to": "valley",
+    "items": [
+     {
+      "k": "lock",
+      "p": "bridge",
+      "at": 0.2,
+      "text": "승호리 철교"
+     },
+     {
+      "k": "plane",
+      "path": [
+       [
+        126.05,
+        39.02
+       ],
+       [
+        126.0,
+        39.012
+       ],
+       [
+        125.975,
+        39.01
+       ],
+       [
+        125.955,
+        39.008
+       ]
+      ],
+      "at": 0.1,
+      "n": 6,
+      "dur": 3.2,
+      "hit": false,
+      "size": 0.8
+     }
+    ],
+    "tilt": 28,
+    "hud": true
+   },
+   "callouts": [
+    {
+     "text": "오전 8:25 · 표적 상공",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s169",
+   "lines": [
+    "기다렸다는 듯 계곡 사방에서 대공포가 불을 뿜기 시작합니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "valley",
+    "to": "valley",
+    "items": [
+     {
+      "k": "lock",
+      "p": "bridge",
+      "at": 0,
+      "text": "승호리 철교"
+     },
+     {
+      "k": "shock",
+      "pts": [
+       [
+        125.94,
+        39.018
+       ],
+       [
+        125.968,
+        39.02
+       ],
+       [
+        125.945,
+        38.998
+       ],
+       [
+        125.972,
+        38.999
+       ],
+       [
+        125.957,
+        39.025
+       ]
+      ],
+      "at": 0,
+      "period": 0.45
+     }
+    ],
+    "tilt": 36,
+    "hud": true
+   },
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0.1,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s170",
+   "lines": [
+    {
+     "t": "먼저 윤응렬 대위의 제1편대가 기수를 꺾습니다.",
+     "say": "먼저 윤응렬 대위의 제일편대가 기수를 꺾습니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "dive_start",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "제1편대 · 윤응렬",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s171",
+   "lines": [
+    "편대장기를 선두로, 대공포 사이를 비집고 철교를 향해 내리꽂히죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "valley",
+    "to": "bridge",
+    "items": [
+     {
+      "k": "lock",
+      "p": "bridge",
+      "at": 0,
+      "text": "승호리 철교"
+     },
+     {
+      "k": "shock",
+      "pts": [
+       [
+        125.94,
+        39.018
+       ],
+       [
+        125.968,
+        39.02
+       ],
+       [
+        125.945,
+        38.998
+       ],
+       [
+        125.972,
+        38.999
+       ],
+       [
+        125.957,
+        39.025
+       ]
+      ],
+      "at": 0,
+      "period": 0.5
+     },
+     {
+      "k": "plane",
+      "path": [
+       [
+        126.05,
+        39.02
+       ],
+       [
+        126.0,
+        39.012
+       ],
+       [
+        125.975,
+        39.01
+       ],
+       [
+        125.955,
+        39.008
+       ]
+      ],
+      "at": 0.1,
+      "n": 3,
+      "dur": 2.6,
+      "hit": false,
+      "size": 0.85,
+      "color": "#2e66d8"
+     }
+    ],
+    "tilt": 38,
+    "hud": true
+   },
+   "sfx": [
+    {
+     "id": "whoosh",
+     "at": 0.3,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s172",
+   "lines": [
+    "로켓탄이 발사됩니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "rocket_fire",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "whoosh",
+     "at": 0.1,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s173",
+   "lines": [
+    {
+     "t": "철교의 경간 2곳에서 검붉은 불기둥이 솟아오릅니다.",
+     "say": "철교의 경간 두 곳에서 검붉은 불기둥이 솟아오릅니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "bridge",
+    "to": "bridge",
+    "items": [
+     {
+      "k": "lock",
+      "p": "bridge",
+      "at": 0,
+      "text": "승호리 철교"
+     },
+     {
+      "k": "shock",
+      "pts": [
+       [
+        125.952,
+        39.007
+       ],
+       [
+        125.958,
+        39.009
+       ]
+      ],
+      "at": 0.1,
+      "period": 0.7
+     }
+    ],
+    "tilt": 38
+   },
+   "callouts": [
+    {
+     "text": "경간 2곳 불기둥",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0.2,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s174",
+   "lines": [
+    "하지만 아직 끝이 아니었습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "하지만",
+    "accent": "아직 끝이 아니었다",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s175",
+   "lines": [
+    {
+     "t": "이제 옥만호 대위의 제2편대가 진입할 차례였습니다.",
+     "say": "이제 옥만호 대위의 제이편대가 진입할 차례였습니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "second_flight",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "제2편대 · 옥만호",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s176",
+   "lines": [
+    {
+     "t": "제2편대가 표적을 향해 들어서는 순간, 제1편대는 다시 기수를 돌립니다.",
+     "say": "제이편대가 표적을 향해 들어서는 순간, 제일편대는 다시 기수를 돌립니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "valley",
+    "to": "valley",
+    "items": [
+     {
+      "k": "lock",
+      "p": "bridge",
+      "at": 0,
+      "text": "승호리 철교"
+     },
+     {
+      "k": "plane",
+      "path": [
+       [
+        125.99,
+        39.03
+       ],
+       [
+        125.96,
+        39.035
+       ],
+       [
+        125.935,
+        39.02
+       ],
+       [
+        125.94,
+        39.0
+       ]
+      ],
+      "at": 0.1,
+      "n": 3,
+      "dur": 2.4,
+      "hit": false,
+      "size": 0.8,
+      "color": "#2e66d8"
+     },
+     {
+      "k": "plane",
+      "path": [
+       [
+        126.03,
+        38.96
+       ],
+       [
+        125.995,
+        38.985
+       ],
+       [
+        125.97,
+        39.0
+       ],
+       [
+        125.955,
+        39.008
+       ]
+      ],
+      "at": 0.6,
+      "n": 3,
+      "dur": 2.8,
+      "hit": false,
+      "size": 0.8,
+      "color": "#c9242c"
+     }
+    ],
+    "tilt": 32,
+    "hud": true
+   }
+  },
+  {
+   "id": "s177",
+   "lines": [
+    "남은 로켓탄과 기관총을 모두 대공포 진지에 쏟아붓기 시작하죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "valley",
+    "to": "valley",
+    "items": [
+     {
+      "k": "lock",
+      "p": "bridge",
+      "at": 0,
+      "text": "승호리 철교"
+     },
+     {
+      "k": "shock",
+      "pts": [
+       [
+        125.94,
+        39.018
+       ],
+       [
+        125.968,
+        39.02
+       ],
+       [
+        125.945,
+        38.998
+       ],
+       [
+        125.972,
+        38.999
+       ],
+       [
+        125.957,
+        39.025
+       ]
+      ],
+      "at": 0,
+      "period": 0.6
+     },
+     {
+      "k": "shock",
+      "pts": [
+       [
+        125.94,
+        39.018
+       ],
+       [
+        125.968,
+        39.02
+       ],
+       [
+        125.945,
+        38.998
+       ],
+       [
+        125.972,
+        38.999
+       ],
+       [
+        125.957,
+        39.025
+       ]
+      ],
+      "at": 0.4,
+      "period": 0.35,
+      "color": "#2e66d8"
+     }
+    ],
+    "tilt": 32,
+    "hud": true
+   },
+   "callouts": [
+    {
+     "text": "제1편대 · 대공포 진지 제압",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s178",
+   "lines": [
+    "동료가 폭탄을 꽂을 수 있도록, 대공포의 눈을 자기들 쪽으로 끌어당긴 겁니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "kr_point",
+      "x": 0.3,
+      "y": 0.9,
+      "h": 440,
+      "at": 0
+     },
+     {
+      "c": "kr_salute",
+      "x": 0.72,
+      "y": 0.9,
+      "h": 440,
+      "at": 0,
+      "flip": true
+     }
+    ],
+    "pops": [
+     {
+      "kind": "bubble",
+      "x": 0.3,
+      "y": 0.26,
+      "text": "이쪽이다..!",
+      "at": 0.2
+     },
+     {
+      "kind": "label",
+      "x": 0.72,
+      "y": 0.16,
+      "text": "동료를 위해",
+      "on": "동료가",
+      "color": "yellow"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s179",
+   "lines": [
+    {
+     "t": "그 틈을 타 제2편대의 무스탕 3대가 4,000피트에서 강하를 시작합니다.",
+     "say": "그 틈을 타 제이편대의 무스탕 세 대가 사천 피트에서 강하를 시작합니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "dive_flak",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "4,000피트 · 강하 시작",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s180",
+   "lines": [
+    {
+     "t": "3,000피트.",
+     "say": "삼천 피트."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "3,000피트",
+    "style": "dark"
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s181",
+   "lines": [
+    "아직 아닙니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "아직",
+    "style": "yellow"
+   }
+  },
+  {
+   "id": "s182",
+   "lines": [
+    {
+     "t": "2,000피트.",
+     "say": "이천 피트."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "2,000피트",
+    "style": "dark"
+   },
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s183",
+   "lines": [
+    "대공포의 불꽃이 바로 옆을 스쳐 지나갑니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "flak_close",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0.1,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s184",
+   "lines": [
+    {
+     "t": "그리고 1,500피트.",
+     "say": "그리고 천오백 피트."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "1,500피트",
+    "style": "red"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0.1,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s185",
+   "lines": [
+    "폭탄이 떨어져 나갑니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "bomb_release",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "whoosh",
+     "at": 0.1,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s186",
+   "lines": [
+    "조종사들은 이를 악물고 조종간을 당겨 계곡을 빠져나옵니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "pull_up",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s187",
+   "lines": [
+    "다음 순간, 철교 한가운데서 거대한 폭발이 일어납니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "bridge",
+    "to": "bridge",
+    "items": [
+     {
+      "k": "lock",
+      "p": "bridge",
+      "at": 0,
+      "text": "승호리 철교",
+      "color": "red"
+     },
+     {
+      "k": "plane",
+      "path": [
+       [
+        126.03,
+        38.96
+       ],
+       [
+        125.995,
+        38.985
+       ],
+       [
+        125.97,
+        39.0
+       ],
+       [
+        125.955,
+        39.008
+       ]
+      ],
+      "at": 0,
+      "n": 1,
+      "dur": 1.2,
+      "hit": true,
+      "size": 1.0,
+      "color": "#c9242c"
+     }
+    ],
+    "tilt": 40,
+    "hud": true
+   },
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 1.2,
+     "volume": 0.6
+    }
+   ]
+  },
+  {
+   "id": "s188",
+   "lines": [
+    {
+     "t": "교각 2개 사이의 경간이 통째로 부서지고, 쇳조각들이 허공으로 솟구쳤다가 강물로 떨어집니다.",
+     "say": "교각 두 개 사이의 경간이 통째로 부서지고, 쇳조각들이 허공으로 솟구쳤다가 강물로 떨어집니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "bridge_explode",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0.2,
+     "volume": 0.6
+    }
+   ]
+  },
+  {
+   "id": "s189",
+   "lines": [
+    {
+     "t": "연기가 걷히자, 철교 한가운데에 커다란 구멍 2개가 뚫려 있었습니다.",
+     "say": "연기가 걷히자, 철교 한가운데에 커다란 구멍 두 개가 뚫려 있었습니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "bridge_broken",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "철교 한가운데 큰 구멍 2개",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s190",
+   "lines": [
+    "승호리 철교가 끊어진 겁니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "승호리 철교",
+    "accent": "끊어지다",
+    "accentAt": 0.5
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0.5,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s191",
+   "lines": [
+    {
+     "t": "이날 무스탕 6대가 쓴 무기는 폭탄 12발, 로켓탄 20발, 기관총탄 4,700발이었습니다.",
+     "say": "이날 무스탕 여섯 대가 쓴 무기는 폭탄 열두 발, 로켓탄 스무 발, 기관총탄 사천칠백 발이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "1952. 1. 15 · F-51 6대 사용 탄약 (국방부 군사편찬연구소)",
+    "items": [
+     {
+      "label": "폭탄",
+      "value": 12,
+      "display": "12발",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "label": "로켓탄",
+      "value": 20,
+      "display": "20발",
+      "color": "red",
+      "at": 0.3
+     },
+     {
+      "label": "기관총탄",
+      "value": 47,
+      "display": "4,700발",
+      "color": "blue",
+      "at": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "s192",
+   "lines": [
+    {
+     "t": "철교뿐만 아니라 포진지 6곳, 보급품 집적소 1곳, 벙커 3곳, 건물 1동도 함께 부쉈죠.",
+     "say": "철교뿐만 아니라 포진지 여섯 곳, 보급품 집적소 한 곳, 벙커 세 곳, 건물 한 동도 함께 부쉈죠."
+    }
+   ],
+   "visual": {
+    "type": "checklist",
+    "title": "함께 부순 표적",
+    "items": [
+     {
+      "text": "포진지 6곳",
+      "on": "포진지",
+      "checkOn": "포진지"
+     },
+     {
+      "text": "보급품 집적소 1곳",
+      "on": "집적소",
+      "checkOn": "집적소"
+     },
+     {
+      "text": "벙커 3곳 · 건물 1동",
+      "on": "벙커",
+      "checkOn": "건물"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s193",
+   "lines": [
+    "그리고 무엇보다, 건 카메라에 그 명중 장면이 고스란히 찍혀 있었습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s193-photo",
+    "tag": "미 공군 사진"
+   },
+   "label": "F-51 건 카메라 화면 (참고 · 미 공군)"
+  },
+  {
+   "id": "s194",
+   "lines": [
+    "누구도 부정할 수 없는 증거였습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "누구도 부정할 수 없는",
+    "accent": "증거",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s195",
+   "lines": [
+    {
+     "t": "6대의 무스탕은 다시 산맥을 넘어 강릉으로 향합니다.",
+     "say": "여섯 대의 무스탕은 다시 산맥을 넘어 강릉으로 향합니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "route",
+    "to": "route",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.1,
+        37.72
+       ],
+       [
+        126.6,
+        37.92
+       ],
+       [
+        127.0,
+        38.15
+       ],
+       [
+        127.4,
+        38.32
+       ],
+       [
+        127.8,
+        38.33
+       ],
+       [
+        128.15,
+        38.3
+       ],
+       [
+        128.4,
+        38.55
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "plane",
+      "path": [
+       [
+        125.955,
+        39.008
+       ],
+       [
+        126.1,
+        38.98
+       ],
+       [
+        126.7,
+        38.85
+       ],
+       [
+        127.5,
+        38.55
+       ],
+       [
+        128.3,
+        38.1
+       ],
+       [
+        128.944,
+        37.753
+       ]
+      ],
+      "at": 0.1,
+      "n": 6,
+      "dur": 4.0,
+      "hit": false,
+      "size": 0.75
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "귀환",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s196",
+   "lines": [
+    "얼어붙은 활주로에 한 대, 또 한 대 바퀴가 닿습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "landing",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s197",
+   "lines": [
+    "기지에서는 곧바로 건 카메라 필름을 현상했습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "film_develop",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s198",
+   "lines": [
+    "그리고 필름 속에서, 철교 한가운데로 폭탄이 빨려 들어가는 장면이 확인됩니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s198-photo",
+    "tag": "공군 자료",
+    "pos": "50% 50%",
+    "marks": [
+     {
+      "text": "폭격 전",
+      "x": 0.3,
+      "y": 0.8,
+      "at": 0,
+      "color": "yellow"
+     },
+     {
+      "text": "폭격 후 · 경간 파괴",
+      "x": 0.72,
+      "y": 0.8,
+      "at": 0.5,
+      "color": "red"
+     }
+    ]
+   },
+   "label": "승호리 철교 폭격 전 · 후 항공사진"
+  },
+  {
+   "id": "s199",
+   "lines": [
+    {
+     "t": "1월 12일의 8번, 그리고 1월 15일의 6번.",
+     "say": "일월 십이일의 여덟 번, 그리고 일월 십오일의 여섯 번."
+    }
+   ],
+   "visual": {
+    "type": "timeline",
+    "items": [
+     {
+      "date": "1952. 1. 12",
+      "text": "8번 출격 · 실패",
+      "at": 0
+     },
+     {
+      "date": "1. 15",
+      "text": "6번 출격 · 파괴",
+      "at": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "s200",
+   "lines": [
+    {
+     "t": "한국 공군은 단 14번의 출격으로, 미군이 500번 가까이 때려도 끊지 못한 다리를 끊어 냈습니다.",
+     "say": "한국 공군은 단 열네 번의 출격으로, 미군이 오백 번 가까이 때려도 끊지 못한 다리를 끊어 냈습니다."
+    }
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "미 공군",
+     "big": "약 500번",
+     "icon": "none",
+     "color": "red"
+    },
+    "right": {
+     "title": "한국 공군",
+     "big": "14번",
+     "icon": "none",
+     "color": "blue",
+     "at": 0.6
+    }
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0.7,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s201",
+   "lines": [
+    "영상 처음의 질문, 기억하시나요."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "kr_idle",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 460,
+      "at": 0
+     }
+    ],
+    "pops": [
+     {
+      "kind": "q",
+      "x": 0.72,
+      "y": 0.3,
+      "at": 0.2
+     }
+    ],
+    "title": "처음의 질문"
+   }
+  },
+  {
+   "id": "s202",
+   "lines": [
+    {
+     "t": "500번과 14번을 가른 것은 더 좋은 비행기도, 더 많은 폭탄도 아니었습니다.",
+     "say": "오백 번과 열네 번을 가른 것은 더 좋은 비행기도, 더 많은 폭탄도 아니었습니다."
+    }
+   ],
+   "visual": {
+    "type": "reasons",
+    "title": "차이를 만든 것은?",
+    "items": [
+     {
+      "text": "더 좋은\n비행기",
+      "at": 0,
+      "xOn": "비행기도"
+     },
+     {
+      "text": "더 많은\n폭탄",
+      "on": "더 많은",
+      "xOn": "아니었"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s203",
+   "lines": [
+    {
+     "t": "1,500피트.",
+     "say": "천오백 피트."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "1,500피트",
+    "style": "red"
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0.1,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s204",
+   "lines": [
+    {
+     "t": "폭탄을 놓는 높이를 절반으로 낮추고, 그 위험을 조종사 6명이 온몸으로 받아 낸 것.",
+     "say": "폭탄을 놓는 높이를 절반으로 낮추고, 그 위험을 조종사 여섯 명이 온몸으로 받아 낸 것."
+    }
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "kr_salute",
+      "x": 0.2,
+      "y": 0.9,
+      "h": 360,
+      "at": 0
+     },
+     {
+      "c": "kr_salute",
+      "x": 0.35,
+      "y": 0.9,
+      "h": 360,
+      "at": 0
+     },
+     {
+      "c": "kr_salute",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 360,
+      "at": 0
+     },
+     {
+      "c": "kr_salute",
+      "x": 0.65,
+      "y": 0.9,
+      "h": 360,
+      "at": 0,
+      "flip": true
+     },
+     {
+      "c": "kr_salute",
+      "x": 0.8,
+      "y": 0.9,
+      "h": 360,
+      "at": 0,
+      "flip": true
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.16,
+      "text": "절반의 높이 · 6명의 각오",
+      "at": 0.2,
+      "color": "yellow"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s205",
+   "lines": [
+    "그것이 답이었습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "그것이",
+    "accent": "답이었다",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s206",
+   "lines": [
+    {
+     "t": "한 달쯤 뒤인 2월 21일, 미 제5공군 예하 각 비행단의 지휘관 회의가 열렸습니다.",
+     "say": "한 달쯤 뒤인 이월 이십일일, 미 제오공군 예하 각 비행단의 지휘관 회의가 열렸습니다."
+    }
+   ],
+   "visual": {
+    "type": "black",
+    "text": "1952년 2월 21일",
+    "accent": "미 제5공군 지휘관 회의",
+    "accentAt": 0.5
+   },
+   "chapter": {
+    "num": "제6막",
+    "title": "500 대 14가 남긴 것"
+   }
+  },
+  {
+   "id": "s207",
+   "lines": [
+    "이 자리에서 승호리 철교 폭파 소식이 소개되자, 회의장에 박수가 터졌다고 합니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "us_idle",
+      "x": 0.22,
+      "y": 0.9,
+      "h": 380,
+      "at": 0
+     },
+     {
+      "c": "us_point",
+      "x": 0.45,
+      "y": 0.9,
+      "h": 380,
+      "at": 0
+     },
+     {
+      "c": "us_idle",
+      "x": 0.68,
+      "y": 0.9,
+      "h": 380,
+      "at": 0,
+      "flip": true
+     },
+     {
+      "c": "kr_salute",
+      "x": 0.88,
+      "y": 0.9,
+      "h": 380,
+      "at": 0,
+      "flip": true
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.16,
+      "text": "박수",
+      "on": "박수",
+      "color": "yellow"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s208",
+   "lines": [
+    "김신 대령이 훗날 남긴 증언에는 재미있는 일화가 하나 있습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s208-photo",
+    "tag": "해방 직후"
+   },
+   "label": "백범 김구 선생과 아들 김신",
+   "callouts": [
+    {
+     "text": "김신 장군 증언 · 공군 『6·25전쟁 증언록』",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s209",
+   "lines": [
+    "회의가 끝나자 한 미 해병대 장교가 다가와, 정말 반갑다며 축하 인사를 건넸다고 합니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "us_point",
+      "x": 0.32,
+      "y": 0.9,
+      "h": 460,
+      "at": 0
+     },
+     {
+      "c": "kr_idle",
+      "x": 0.7,
+      "y": 0.9,
+      "h": 440,
+      "at": 0,
+      "flip": true
+     }
+    ],
+    "pops": [
+     {
+      "kind": "bubble",
+      "x": 0.32,
+      "y": 0.26,
+      "text": "정말 반갑소!",
+      "on": "반갑다"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s210",
+   "lines": [
+    "알고 보니 사정이 있었습니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "kr_shrug",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 460,
+      "at": 0
+     }
+    ],
+    "pops": [
+     {
+      "kind": "q",
+      "x": 0.7,
+      "y": 0.3,
+      "at": 0.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "s211",
+   "lines": [
+    {
+     "t": "미군 장교 2명이 한국 공군이 그 다리를 끊을 수 있을지를 두고 돈 내기를 했던 거죠.",
+     "say": "미군 장교 두 사람이 한국 공군이 그 다리를 끊을 수 있을지를 두고 돈 내기를 했던 거죠."
+    }
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "us_point",
+      "x": 0.3,
+      "y": 0.9,
+      "h": 440,
+      "at": 0
+     },
+     {
+      "c": "us_shrug",
+      "x": 0.7,
+      "y": 0.9,
+      "h": 440,
+      "at": 0,
+      "flip": true
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.16,
+      "text": "한국 공군이 끊을까?",
+      "on": "돈 내기",
+      "color": "yellow"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s212",
+   "lines": [
+    "한 사람은 못 끊는다는 쪽에, 이 해병대 장교는 끊는다는 쪽에 걸었습니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "us_shrug",
+      "x": 0.3,
+      "y": 0.9,
+      "h": 440,
+      "at": 0
+     },
+     {
+      "c": "us_point",
+      "x": 0.7,
+      "y": 0.9,
+      "h": 440,
+      "at": 0,
+      "flip": true
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.3,
+      "y": 0.16,
+      "text": "못 끊는다",
+      "on": "못 끊는다",
+      "color": "dark"
+     },
+     {
+      "kind": "label",
+      "x": 0.7,
+      "y": 0.16,
+      "text": "끊는다 (해병대)",
+      "on": "끊는다는",
+      "color": "yellow"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s213",
+   "lines": [
+    "그리고 한국 공군 덕분에, 이 해병대 장교가 내기에서 이긴 겁니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "us_shock",
+      "x": 0.3,
+      "y": 0.9,
+      "h": 440,
+      "at": 0
+     },
+     {
+      "c": "us_salute",
+      "x": 0.7,
+      "y": 0.9,
+      "h": 440,
+      "at": 0,
+      "flip": true
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.7,
+      "y": 0.16,
+      "text": "내기 승리",
+      "on": "이긴",
+      "color": "yellow"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s214",
+   "lines": [
+    {
+     "t": "출격했던 조종사 6명은 모두 표창을 받았습니다.",
+     "say": "출격했던 조종사 여섯 명은 모두 표창을 받았습니다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s214-photo",
+    "tag": "국방화보 · 공군"
+   },
+   "label": "출격 전 경례하는 한국 공군 F-51 조종사들",
+   "callouts": [
+    {
+     "text": "출격 조종사 6명 전원 표창",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s215",
+   "lines": [
+    {
+     "t": "그날 제1편대를 이끈 윤응렬 대위의 나이는, 겨우 24살이었습니다.",
+     "say": "그날 제일편대를 이끈 윤응렬 대위의 나이는, 겨우 스물네 살이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "윤응렬 대위 · 24살",
+    "style": "dark",
+    "sub": "1927년생",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s216",
+   "lines": [
+    "그날의 조종사들은 그 뒤에도 계속 하늘을 지켰습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "pilots_map",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s217",
+   "lines": [
+    {
+     "t": "제2편대장 옥만호 대위는 훗날 공군참모총장에 올라, 대장으로 군복을 벗습니다.",
+     "say": "제이편대장 옥만호 대위는 훗날 공군참모총장에 올라, 대장으로 군복을 벗습니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "옥만호",
+    "style": "blue",
+    "sub": "훗날 공군참모총장 · 대장 예편",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s218",
+   "lines": [
+    {
+     "t": "제1편대장 윤응렬 대위는 공군사관학교 교장을 지내며 이 작전의 경험을 후배들에게 전했습니다.",
+     "say": "제일편대장 윤응렬 대위는 공군사관학교 교장을 지내며 이 작전의 경험을 후배들에게 전했습니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "윤응렬",
+    "style": "blue",
+    "sub": "훗날 공군사관학교 교장",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s219",
+   "lines": [
+    "그리고 이 작전을 결정한 김신 대령 역시, 훗날 공군참모총장이 됩니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "김신",
+    "style": "blue",
+    "sub": "훗날 공군참모총장",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s220",
+   "lines": [
+    {
+     "t": "그렇다면 500 대 14이라는 차이는, 어디서 나왔을까요.",
+     "say": "그렇다면 오백 대 열넷이라는 차이는, 어디서 나왔을까요."
+    }
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "kr_idle",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 460,
+      "at": 0
+     }
+    ],
+    "pops": [
+     {
+      "kind": "q",
+      "x": 0.72,
+      "y": 0.3,
+      "at": 0.2
+     }
+    ],
+    "title": "500 대 14의 차이는?"
+   }
+  },
+  {
+   "id": "s221",
+   "lines": [
+    "지도 위에서 정리해 보면, 세 가지로 모을 수 있습니다."
+   ],
+   "visual": {
+    "type": "reasons",
+    "title": "500 대 14를 가른 것",
+    "items": [
+     {
+      "text": "실패를\n인정하는 용기",
+      "at": 0
+     },
+     {
+      "text": "역할을 나눈\n팀워크",
+      "at": 0
+     },
+     {
+      "text": "실행한\n조종사의 각오",
+      "at": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "s222",
+   "lines": [
+    "첫째, 실패를 인정하는 용기였습니다."
+   ],
+   "visual": {
+    "type": "reasons",
+    "title": "500 대 14를 가른 것",
+    "items": [
+     {
+      "text": "실패를\n인정하는 용기",
+      "on": "용기"
+     },
+     {
+      "text": "역할을 나눈\n팀워크",
+      "later": true
+     },
+     {
+      "text": "실행한\n조종사의 각오",
+      "later": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "s223",
+   "lines": [
+    {
+     "t": "첫날 8번의 출격이 실패하자, 김신 대령은 미군의 교범을 그대로 따르지 않았습니다.",
+     "say": "첫날 여덟 번의 출격이 실패하자, 김신 대령은 미군의 교범을 그대로 따르지 않았습니다."
+    }
+   ],
+   "visual": {
+    "type": "document",
+    "org": "대한민국 공군",
+    "head": "1월 12일 이후",
+    "rows": [
+     "미군 교범: 3,000피트 투하",
+     "김신 대령: 1,500피트로 바꾼다"
+    ],
+    "stamp": "변경",
+    "note": "재구성 · 내용 요약"
+   }
+  },
+  {
+   "id": "s224",
+   "lines": [
+    "안전한 방식이 통하지 않는다면, 방식을 바꿔야 한다고 판단한 거죠."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "통하지 않으면",
+    "accent": "방식을 바꾼다",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s225",
+   "lines": [
+    "둘째, 역할을 나눈 팀워크였습니다."
+   ],
+   "visual": {
+    "type": "reasons",
+    "title": "500 대 14를 가른 것",
+    "items": [
+     {
+      "text": "실패를\n인정하는 용기",
+      "at": 0
+     },
+     {
+      "text": "역할을 나눈\n팀워크",
+      "on": "팀워크"
+     },
+     {
+      "text": "실행한\n조종사의 각오",
+      "later": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "s226",
+   "lines": [
+    {
+     "t": "제1편대가 대공포의 시선을 끌어 주지 않았다면, 제2편대가 1,500피트까지 내려갈 수 없었을 겁니다.",
+     "say": "제일편대가 대공포의 시선을 끌어 주지 않았다면, 제이편대가 천오백 피트까지 내려갈 수 없었을 겁니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "valley",
+    "to": "valley",
+    "items": [
+     {
+      "k": "lock",
+      "p": "bridge",
+      "at": 0,
+      "text": "승호리 철교"
+     },
+     {
+      "k": "plane",
+      "path": [
+       [
+        125.99,
+        39.03
+       ],
+       [
+        125.96,
+        39.035
+       ],
+       [
+        125.935,
+        39.02
+       ],
+       [
+        125.94,
+        39.0
+       ]
+      ],
+      "at": 0.1,
+      "n": 3,
+      "dur": 2.4,
+      "hit": false,
+      "size": 0.8,
+      "color": "#2e66d8"
+     },
+     {
+      "k": "plane",
+      "path": [
+       [
+        126.03,
+        38.96
+       ],
+       [
+        125.995,
+        38.985
+       ],
+       [
+        125.97,
+        39.0
+       ],
+       [
+        125.955,
+        39.008
+       ]
+      ],
+      "at": 0.5,
+      "n": 3,
+      "dur": 2.6,
+      "hit": true,
+      "size": 0.8,
+      "color": "#c9242c"
+     }
+    ],
+    "tilt": 30,
+    "hud": true
+   }
+  },
+  {
+   "id": "s227",
+   "lines": [
+    "누군가의 공격은 누군가를 지키기 위한 것이었습니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "kr_point",
+      "x": 0.3,
+      "y": 0.9,
+      "h": 440,
+      "at": 0
+     },
+     {
+      "c": "kr_salute",
+      "x": 0.72,
+      "y": 0.9,
+      "h": 440,
+      "at": 0,
+      "flip": true
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.16,
+      "text": "공격 = 동료를 지키는 일",
+      "on": "지키기",
+      "color": "yellow"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s228",
+   "lines": [
+    "셋째, 그 결정을 실행한 조종사들의 각오였습니다."
+   ],
+   "visual": {
+    "type": "reasons",
+    "title": "500 대 14를 가른 것",
+    "items": [
+     {
+      "text": "실패를\n인정하는 용기",
+      "at": 0
+     },
+     {
+      "text": "역할을 나눈\n팀워크",
+      "at": 0
+     },
+     {
+      "text": "실행한\n조종사의 각오",
+      "on": "각오"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s229",
+   "lines": [
+    "작전 회의에서 그은 선 하나는 종이 위에서는 쉽습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "ops_map",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s230",
+   "lines": [
+    {
+     "t": "하지만 실제로 대공포가 쏟아지는 계곡 속으로 450m까지 내려가는 것은, 사람의 몫이었습니다.",
+     "say": "하지만 실제로 대공포가 쏟아지는 계곡 속으로 사백오십 미터까지 내려가는 것은, 사람의 몫이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "dive_flak",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "450m · 사람의 몫",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s231",
+   "lines": [
+    "물론 승호리 철교 하나가 끊어졌다고 전쟁의 흐름이 바뀐 것은 아닙니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "물론",
+    "accent": "전쟁의 흐름이 바뀐 것은 아니다",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s232",
+   "lines": [
+    "북한은 끊어진 다리를 다시 고치려 했을 것이고, 유엔군의 철도 차단 작전도 끝내 적의 보급을 완전히 막지는 못했습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "교살 작전의 한계",
+    "style": "dark",
+    "sub": "적의 보급을 완전히 막지는 못했다",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s233",
+   "lines": [
+    "하지만 이 작전이 남긴 것은 다리 하나보다 훨씬 컸습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "하지만 남긴 것은",
+    "accent": "다리 하나보다 컸다",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s234",
+   "lines": [
+    "그해 여름, 유엔 공군이 평양 일대를 대규모로 폭격할 때도 강릉의 무스탕들은 그 편대에 이름을 올렸습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "north",
+    "to": "pyong",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "plane",
+      "path": [
+       [
+        126.4,
+        38.4
+       ],
+       [
+        126.1,
+        38.75
+       ],
+       [
+        125.85,
+        38.98
+       ],
+       [
+        125.76,
+        39.02
+       ]
+      ],
+      "at": 0.2,
+      "n": 6,
+      "dur": 3.5,
+      "hit": true,
+      "size": 0.7
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1952년 여름 · 평양 일대 대규모 폭격",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s235",
+   "lines": [
+    "미군의 보조가 아니라, 한 몫을 맡는 공군으로 인정받기 시작한 겁니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "us_idle",
+      "x": 0.32,
+      "y": 0.9,
+      "h": 440,
+      "at": 0
+     },
+     {
+      "c": "kr_salute",
+      "x": 0.68,
+      "y": 0.9,
+      "h": 440,
+      "at": 0,
+      "flip": true
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.16,
+      "text": "보조가 아닌 한 몫",
+      "on": "한 몫",
+      "color": "yellow"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s236",
+   "lines": [
+    "전투기 한 대 없이 시작한 공군이, 처음으로 스스로 작전을 짜고, 스스로 해냈다는 자신감이었죠."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "kr_salute",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 500,
+      "at": 0
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.16,
+      "text": "스스로 짜고 · 스스로 해냈다",
+      "on": "스스로 해냈다",
+      "color": "yellow"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s237",
+   "lines": [
+    {
+     "t": "이후 한국 공군은 휴전 때까지 F-51로 모두 8,495회를 출격합니다.",
+     "say": "이후 한국 공군은 휴전 때까지 F 오십일로 모두 팔천사백구십오 회를 출격합니다."
+    }
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "한국 공군 F-51 · 1950~1953 (공군 집계)",
+    "items": [
+     {
+      "label": "F-51 총 출격",
+      "value": 8495,
+      "display": "8,495회",
+      "color": "blue",
+      "at": 0.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "s238",
+   "lines": [
+    "그 대부분이 바로 승호리 같은 적의 보급로를 끊는 작전이었습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "62.9% = 후방 차단 작전",
+    "style": "yellow",
+    "sub": "5,337회 · 공군 집계",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s239",
+   "lines": [
+    {
+     "t": "그 가운데 강릉 기지 한 곳에서 떠오른 출격만 7,800여 회에 이릅니다.",
+     "say": "그 가운데 강릉 기지 한 곳에서 떠오른 출격만 칠천팔백여 회에 이릅니다."
+    }
+   ],
+   "visual": {
+    "type": "flatmap",
+    "center": [
+     127.4,
+     38.6
+    ],
+    "span": 5.2,
+    "fill": {
+     "410": "#f1e4c6",
+     "408": "#e8b6a5",
+     "156": "#dcc9a3",
+     "392": "#e6d9bd",
+     "643": "#dcc9a3"
+    },
+    "pins": [
+     {
+      "ll": [
+       128.944,
+       37.753
+      ],
+      "text": "강릉 기지 · 7,800여 회",
+      "side": "left",
+      "on": "강릉",
+      "flag": "kr"
+     }
+    ],
+    "routes": [],
+    "labels": [
+     {
+      "ll": [
+       130.4,
+       39.3
+      ],
+      "text": "동해",
+      "style": "sea"
+     },
+     {
+      "ll": [
+       124.2,
+       37.6
+      ],
+      "text": "황해",
+      "style": "sea"
+     }
+    ],
+    "zoomTo": 0.92
+   }
+  },
+  {
+   "id": "s240",
+   "lines": [
+    "하루하루가 승호리처럼 적진 깊숙이 들어갔다 돌아오는 비행이었습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "snow_ridges",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s241",
+   "lines": [
+    "그 대가도 컸습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "그 대가도",
+    "accent": "컸다",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s242",
+   "lines": [
+    {
+     "t": "전쟁 기간 동안 한국 공군은 조종사 39명을 잃었습니다.",
+     "say": "전쟁 기간 동안 한국 공군은 조종사 서른아홉 명을 잃었습니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "조종사 39명",
+    "style": "red",
+    "sub": "6·25전쟁 중 한국 공군 조종사 손실",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s243",
+   "lines": [
+    "강릉 기지에서 화환을 걸어 주던 여학생은 훗날 이렇게 기억했습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "paper_flowers",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s244",
+   "lines": [
+    "돌아오지 않는 비행기가 있는 날에는, 무사히 돌아온 조종사들의 눈에서도 눈물을 보았다고요."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "empty_slot",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s245",
+   "lines": [
+    "오늘 강릉 기지에는 최신예 전투기들이 뜨고 내립니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s245-photo",
+    "tag": "미 공군 사진"
+   },
+   "label": "오늘의 한국 공군 전투기 (한·미·일 공중 훈련)"
+  },
+  {
+   "id": "s246",
+   "lines": [
+    {
+     "t": "그리고 그 조종사들의 목에는, 70여 년 전 그 겨울처럼 여전히 빨간 마후라가 둘려 있습니다.",
+     "say": "그리고 그 조종사들의 목에는, 칠십여 년 전 그 겨울처럼 여전히 빨간 마후라가 둘려 있습니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "red_scarf",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s247",
+   "lines": [
+    {
+     "t": "1,500피트까지 내려갔던 6명의 무스탕 조종사들, 그리고 끝내 돌아오지 못한 39명의 조종사들을 기억하며 오늘 이야기를 마칩니다.",
+     "say": "천오백 피트까지 내려갔던 여섯 명의 무스탕 조종사들, 그리고 끝내 돌아오지 못한 서른아홉 명의 조종사들을 기억하며 오늘 이야기를 마칩니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "mustang_sunset",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s248",
+   "lines": [
+    "오늘 영상이 도움이 되셨다면 구독과 좋아요 부탁드립니다.",
+    "여러분이 알고 계신 한국 공군의 이야기가 있다면 댓글로 남겨 주세요."
+   ],
+   "visual": {
+    "type": "endcard",
+    "title": "1,500피트까지 내려간 여섯 명,\n돌아오지 못한 서른아홉 명을 기억하며",
+    "q": "s248-photo"
+   },
+   "tail": 1.0
+  }
+ ]
+}

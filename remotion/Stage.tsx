@@ -535,7 +535,7 @@ export const ReasonsV: React.FC = () => {
   const sc = useScene();
   const v = sc.visual;
   const t = useT();
-  const items: { text: string; sub?: string; at?: number; xAt?: number }[] = v.items || [];
+  const items: { text: string; sub?: string; at?: number; xAt?: number; later?: boolean }[] = v.items || []; // later = 이 장면에선 번호만 (다음 장면에서 공개)
   const n = items.length;
   const cw = Math.min(520, 1700 / n - 40);
   return (
@@ -545,7 +545,7 @@ export const ReasonsV: React.FC = () => {
       <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", paddingTop: 110, paddingBottom: 160 }}>
         <div style={{ display: "flex", gap: 40 }}>
           {items.map((it, i) => {
-            const k = (t - atSec(sc, it.at) - 0.05) / 0.4;
+            const k = it.later ? -1 : (t - atSec(sc, it.at) - 0.05) / 0.4;
             const xk = it.xAt === undefined ? -1 : (t - atSec(sc, it.xAt)) / 0.45;
             const crossed = xk > 0;
             return (
