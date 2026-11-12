@@ -2,6 +2,8 @@
  "title": "승호리 철교 폭파작전",
  "subtitle": "1952. 1. 12 ~ 15",
  "style": 2,
+ "sfx": false,
+ "bgm_rel_db": -24,
  "target_sec": 1200,
  "voice": "U1cJYS4EdbaHmfR7YzHd",
  "midrolls": [
@@ -319,14 +321,7 @@
     ],
     "tilt": 38,
     "hud": true
-   },
-   "sfx": [
-    {
-     "id": "boom",
-     "at": 0.3,
-     "volume": 0.45
-    }
-   ]
+   }
   },
   {
    "id": "s006",
@@ -338,14 +333,7 @@
     "img": "dive_start",
     "kb": "in"
    },
-   "label": "재연 일러스트",
-   "sfx": [
-    {
-     "id": "whoosh",
-     "at": 0.2,
-     "volume": 0.5
-    }
-   ]
+   "label": "재연 일러스트"
   },
   {
    "id": "s007",
@@ -357,14 +345,7 @@
     "img": "dive_flak",
     "kb": "in"
    },
-   "label": "재연 일러스트",
-   "sfx": [
-    {
-     "id": "boom",
-     "at": 0.4,
-     "volume": 0.45
-    }
-   ]
+   "label": "재연 일러스트"
   },
   {
    "id": "s008",
@@ -559,14 +540,7 @@
      "color": "blue",
      "at": 0.6
     }
-   },
-   "sfx": [
-    {
-     "id": "hit",
-     "at": 0.6,
-     "volume": 0.4
-    }
-   ]
+   }
   },
   {
    "id": "s014",
@@ -628,14 +602,7 @@
     "style": "red",
     "sub": "이 숫자의 뜻은 영상 끝에서",
     "subAt": 0.4
-   },
-   "sfx": [
-    {
-     "id": "heartbeat",
-     "at": 0,
-     "volume": 0.4
-    }
-   ]
+   }
   },
   {
    "id": "s017",
@@ -661,14 +628,7 @@
     "at": 0,
     "q": "s018-photo"
    },
-   "flash": true,
-   "sfx": [
-    {
-     "id": "boom",
-     "at": 0,
-     "volume": 0.5
-    }
-   ]
+   "flash": true
   },
   {
    "id": "s019",
@@ -893,14 +853,7 @@
     "style": "red",
     "sub": "Operation Strangle · 목을 조르다",
     "subAt": 0.4
-   },
-   "sfx": [
-    {
-     "id": "hit",
-     "at": 0.3,
-     "volume": 0.4
-    }
-   ]
+   }
   },
   {
    "id": "s026",
@@ -1704,14 +1657,7 @@
     "img": "flak_valley",
     "kb": "in"
    },
-   "label": "재연 일러스트",
-   "sfx": [
-    {
-     "id": "boom",
-     "at": 0.3,
-     "volume": 0.45
-    }
-   ]
+   "label": "재연 일러스트"
   },
   {
    "id": "s049",
@@ -3188,14 +3134,7 @@
     ],
     "tilt": 30,
     "hud": true
-   },
-   "sfx": [
-    {
-     "id": "boom",
-     "at": 0.8,
-     "volume": 0.45
-    }
-   ]
+   }
   },
   {
    "id": "s103",
@@ -3261,14 +3200,7 @@
     "text": "결과는",
     "accent": "실패",
     "accentAt": 0.5
-   },
-   "sfx": [
-    {
-     "id": "hit",
-     "at": 0.5,
-     "volume": 0.4
-    }
-   ]
+   }
   },
   {
    "id": "s105",
@@ -3770,14 +3702,7 @@
     "type": "cta",
     "title": "구독 · 좋아요로 다음 이야기까지 함께해 주세요",
     "at": 0
-   },
-   "sfx": [
-    {
-     "id": "pop",
-     "at": 0.2,
-     "volume": 0.45
-    }
-   ]
+   }
   },
   {
    "id": "s124",
@@ -3882,14 +3807,7 @@
     "type": "text",
     "big": "더 낮게",
     "style": "red"
-   },
-   "sfx": [
-    {
-     "id": "whoosh",
-     "at": 0,
-     "volume": 0.5
-    }
-   ]
+   }
   },
   {
    "id": "s130",
@@ -3939,14 +3857,7 @@
      "color": "red",
      "at": 0.6
     }
-   },
-   "sfx": [
-    {
-     "id": "hit",
-     "at": 0.7,
-     "volume": 0.45
-    }
-   ]
+   }
   },
   {
    "id": "s132",
@@ -4521,14 +4432,7 @@
     "text": "그럼에도",
     "accent": "실행",
     "accentAt": 0.5
-   },
-   "sfx": [
-    {
-     "id": "hit",
-     "at": 0.5,
-     "volume": 0.45
-    }
-   ]
+   }
   },
   {
    "id": "s154",
@@ -5101,14 +5005,7 @@
     ],
     "tilt": 36,
     "hud": true
-   },
-   "sfx": [
-    {
-     "id": "boom",
-     "at": 0.1,
-     "volume": 0.5
-    }
-   ]
+   }
   },
   {
    "id": "s170",
@@ -5206,14 +5103,7 @@
     ],
     "tilt": 38,
     "hud": true
-   },
-   "sfx": [
-    {
-     "id": "whoosh",
-     "at": 0.3,
-     "volume": 0.5
-    }
-   ]
+   }
   },
   {
    "id": "s172",
@@ -5225,14 +5115,7 @@
     "img": "rocket_fire",
     "kb": "in"
    },
-   "label": "재연 일러스트",
-   "sfx": [
-    {
-     "id": "whoosh",
-     "at": 0.1,
-     "volume": 0.5
-    }
-   ]
+   "label": "재연 일러스트"
   },
   {
    "id": "s173",
@@ -5277,13 +5160,6 @@
      "style": "red",
      "at": 0,
      "pos": "top"
-    }
-   ],
-   "sfx": [
-    {
-     "id": "boom",
-     "at": 0.2,
-     "volume": 0.45
     }
    ]
   },
@@ -5562,14 +5438,7 @@
     "type": "text",
     "big": "3,000피트",
     "style": "dark"
-   },
-   "sfx": [
-    {
-     "id": "heartbeat",
-     "at": 0,
-     "volume": 0.45
-    }
-   ]
+   }
   },
   {
    "id": "s181",
@@ -5594,14 +5463,7 @@
     "type": "text",
     "big": "2,000피트",
     "style": "dark"
-   },
-   "sfx": [
-    {
-     "id": "heartbeat",
-     "at": 0,
-     "volume": 0.45
-    }
-   ]
+   }
   },
   {
    "id": "s183",
@@ -5613,14 +5475,7 @@
     "img": "flak_close",
     "kb": "in"
    },
-   "label": "재연 일러스트",
-   "sfx": [
-    {
-     "id": "boom",
-     "at": 0.1,
-     "volume": 0.5
-    }
-   ]
+   "label": "재연 일러스트"
   },
   {
    "id": "s184",
@@ -5634,14 +5489,7 @@
     "type": "text",
     "big": "1,500피트",
     "style": "red"
-   },
-   "sfx": [
-    {
-     "id": "hit",
-     "at": 0.1,
-     "volume": 0.5
-    }
-   ]
+   }
   },
   {
    "id": "s185",
@@ -5653,14 +5501,7 @@
     "img": "bomb_release",
     "kb": "in"
    },
-   "label": "재연 일러스트",
-   "sfx": [
-    {
-     "id": "whoosh",
-     "at": 0.1,
-     "volume": 0.5
-    }
-   ]
+   "label": "재연 일러스트"
   },
   {
    "id": "s186",
@@ -5721,14 +5562,7 @@
     ],
     "tilt": 40,
     "hud": true
-   },
-   "sfx": [
-    {
-     "id": "boom",
-     "at": 1.2,
-     "volume": 0.6
-    }
-   ]
+   }
   },
   {
    "id": "s188",
@@ -5743,14 +5577,7 @@
     "img": "bridge_explode",
     "kb": "in"
    },
-   "label": "재연 일러스트",
-   "sfx": [
-    {
-     "id": "boom",
-     "at": 0.2,
-     "volume": 0.6
-    }
-   ]
+   "label": "재연 일러스트"
   },
   {
    "id": "s189",
@@ -5785,14 +5612,7 @@
     "text": "승호리 철교",
     "accent": "끊어지다",
     "accentAt": 0.5
-   },
-   "sfx": [
-    {
-     "id": "hit",
-     "at": 0.5,
-     "volume": 0.5
-    }
-   ]
+   }
   },
   {
    "id": "s191",
@@ -6078,14 +5898,7 @@
      "color": "blue",
      "at": 0.6
     }
-   },
-   "sfx": [
-    {
-     "id": "hit",
-     "at": 0.7,
-     "volume": 0.45
-    }
-   ]
+   }
   },
   {
    "id": "s201",
@@ -6151,14 +5964,7 @@
     "type": "text",
     "big": "1,500피트",
     "style": "red"
-   },
-   "sfx": [
-    {
-     "id": "hit",
-     "at": 0.1,
-     "volume": 0.5
-    }
-   ]
+   }
   },
   {
    "id": "s204",

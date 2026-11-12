@@ -367,6 +367,13 @@ def build(ep, mock=False, gap=None):
         })
         t += dur
     idx = {s["id"]: s for s in scenes_out}
+    # 롱폼 표준 (docs/LONGFORM_STANDARD.md, 2026-11-13): bgm_rel_db = 나레이션 대비 BGM 음량(dB, 예 -24)
+    rel = board.get("bgm_rel_db")
+    narr = loud = None
+    if rel is not None:
+        loud = read_json(ROOT / "public" / "bgm" / "loudness.json", {})
+        narr = narration_lufs([ROOT / "public" / s["audio"] for s in scenes_out if s.get("audio")])
+        print(f"BGM: 나레이션 {narr:.1f} LUFS 기준 {rel} dB")
     music = []
     for cue in board.get("music", []):
         a, b = idx[cue["from"]], idx[cue["to"]]
@@ -376,10 +383,15 @@ def build(ep, mock=False, gap=None):
         if not f.exists():  # 공용 BGM 라이브러리 (public/bgm)
             f = ROOT / "public" / "bgm" / f"{cue['id']}.mp3"
             src = f"bgm/{cue['id']}.mp3"
+        vol = cue["volume"] * MUSIC_GAIN
+        if rel is not None and cue["id"] in loud:
+            vol = min(1.0, 10 ** ((narr + rel - loud[cue["id"]]) / 20))
         music.append({"id": cue["id"], "start": round(start, 3), "dur": round(end - start, 3),
-                      "volume": round(cue["volume"] * MUSIC_GAIN, 3), "src": src if f.exists() else None,
+                      "volume": round(vol, 4), "src": src if f.exists() else None,
                       "fileDur": mp3_dur(f) if f.exists() else None})
     sfx_avail = sorted(p.stem for p in (ROOT / "public" / "sfx").glob("*.mp3"))
+    if board.get("sfx") is False:  # 롱폼 표준: 효과음 전부 끔 (장면 sfx·자동 pop/whoosh 모두 — Video.tsx가 목록에 있는 것만 재생)
+        sfx_avail = []
     tl = {"lang": lang, "fps": FPS, "duration": round(t, 3), "title": board["title"], "places": board["places"],
           "views": board["views"], "scenes": scenes_out, "music": music, "rasters": rasters, "sfx": sfx_avail,
           "hasWater": (ROOT / "public" / "geo" / "water.json").exists(),
@@ -389,6 +401,25 @@ def build(ep, mock=False, gap=None):
     write_srt(scenes_out, out / f"{ep}.srt")
     print(f"timeline: {len(scenes_out)}장면, {int(t // 60)}분 {t % 60:.1f}초 (장면 간격 {GAP_:.3f}초)")
     return t, sum(1 for x in scenes_out if x["lines"]), board.get("target_sec", TARGET_SEC)
+
+
+def narration_lufs(files):
+    """나레이션 통합 음량(LUFS) — 파일 최대 24개를 이어 붙여 ffmpeg ebur128로 측정. 실패하면 -18."""
+    files = [f for f in files if f.exists()]
+    if not files:
+        return -18.0
+    pick = files[:: max(1, len(files) // 24)][:24]
+    lst = ROOT / "logs" / "_lufs_list.txt"
+    lst.write_text("".join(f"file '{f}'\n" for f in pick), encoding="utf-8")
+    try:
+        r = subprocess.run(["ffmpeg", "-nostats", "-f", "concat", "-safe", "0", "-i", str(lst), "-af", "ebur128", "-f", "null", "-"],
+                           capture_output=True, text=True, timeout=300)
+        m = re.findall(r"I:\s+(-?[\d.]+) LUFS", r.stderr)
+        return float(m[-1]) if m else -18.0
+    except Exception:  # noqa: BLE001
+        return -18.0
+    finally:
+        lst.unlink(missing_ok=True)
 
 
 def fit(ep, mock=False):

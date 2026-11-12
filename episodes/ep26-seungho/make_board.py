@@ -591,7 +591,8 @@ music = [{"id": "drone", "from": "s001", "to": sid(chap[0] - 1), "volume": 0.2},
          {"id": "march", "from": sid(chap[4]), "to": sid(chap[5] - 1), "volume": 0.16},
          {"id": "somber", "from": sid(chap[5]), "to": ids[-1], "volume": 0.17}]
 (HERE / "photo_pins.json").write_text(json.dumps(PINS, ensure_ascii=False, indent=1), encoding="utf-8")
-board = {"title": "승호리 철교 폭파작전", "subtitle": "1952. 1. 12 ~ 15", "style": 2, "target_sec": 1200, "voice": "U1cJYS4EdbaHmfR7YzHd", "midrolls": MID,
+# 2026-11-13: docs/LONGFORM_STANDARD.md 소급 적용 — 효과음 끔(sfx False, 아래 sfx 큐는 엔진이 무시) · BGM 나레이션 대비 -24dB
+board = {"title": "승호리 철교 폭파작전", "subtitle": "1952. 1. 12 ~ 15", "style": 2, "sfx": False, "bgm_rel_db": -24, "target_sec": 1200, "voice": "U1cJYS4EdbaHmfR7YzHd", "midrolls": MID,
          "places": P, "views": V, "music": music, "ai_images": AI, "scenes": S}
 (HERE / "storyboard.json").write_text(json.dumps(board, ensure_ascii=False, indent=1), encoding="utf-8")
 say = lambda l: l if isinstance(l, str) else l["say"]
