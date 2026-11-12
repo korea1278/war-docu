@@ -89,8 +89,14 @@
   4. 문서·조약·신문은 `document` 카드로 요점 2~4줄 + 도장/붉은 X, 목록·이유는 체크리스트·번호 카드로 하나씩 `on`에 맞춰 띄우고 지워 나간다
   5. 사료 사진은 좌상단 작은 출처 라벨 + 말하는 순간 뜨는 노란/빨간 강조 라벨
 
-## ☐ 예정: 화면 업그레이드 2단계 — 레퍼런스 수준 디자인 통일 (2026-11-12 사용자 확정 · **다음 편 제작 때 먼저 구현**하고 시작 · war-docu·map-of-war 공통)
-> 아직 구현 안 됨. 다음 새 에피소드 작업 지시가 오면 대본보다 먼저 아래를 만들고, 시험 장면을 레퍼런스('강뉴부대' 영상)와 나란히 비교한 이미지를 사용자에게 보여 준 뒤 진행한다.
+## ☑ 화면 업그레이드 2단계 — 레퍼런스 수준 디자인 통일 (2026-11-12 사용자 확정 · **EP26 승호리에서 구현 완료** · war-docu·map-of-war 공통)
+> 구현: `remotion/Stage.tsx` (stage · flatmap · flaggrid · checklist · reasons · PhotoTag/PhotoMarks · 국기 SVG `Flag` kr/us/cn/nk/uk/su/un/et/jp/?), 종이 질감 `public/ui/paper.jpg`, 캐릭터 생성 `pipeline/chars.py` + Actions "캐릭터 라이브러리 만들기"(`make-chars.yml`, 입력 only=다시 만들 이름). 사용 예시는 `episodes/ep26-seungho/make_board.py` 헬퍼(C·pop·stage·flat·fpin·route·reasons·checklist)
+> - 캐릭터 42장 `public/chars/<kr|us|cn|nk|uk|su|un>_<idle|plead|shrug|salute|point|shock>.png` — 그림이 없는 이름은 SVG 볼로 자동 대체. **누끼는 rembg 금지**(흰 국기·흰 눈까지 지움) → 테두리에서 이어진 흰 배경만 flood fill로 지움
+> - stage: `chars[{c, x, y(발 위치 0~1), h, at|on, flip, until}]`, `pops[{kind: bubble|q|ex|label|flag|text, x, y, text, at|on, color}]`, `title`
+> - flatmap: `center`, `span`(경도 폭), `fill`(나라 id→색), `pins[{ll, text, flag, side, at|on}]`, `routes[{from, to, label, bend, at|on, dash}]`, `labels[{ll, text, style:"sea"}]` — ⚠️ 좌표는 `ll`(at은 시간으로 바뀜)
+> - checklist `items[{text, at|on, checkOn, bad}]` · reasons `items[{text, sub, at|on, xOn, later}]`(later=번호만) · flaggrid `items[{flag, name, at|on}]` · photo `tag`(좌상단 출처·연도), `marks[{text, x, y, at|on, color, ring}]`
+> - 지도 아이템 `plane`(EP26): `path`, `n`(편대 대수), `dur`, `size`, `color`, `hit`(끝점 폭발), `trail`
+> - timeline.py: `on` 외에 `checkOn`→checkAt, `xOn`→xAt 변환, 타임라인에 `chars` 목록
 1. **고정 캐릭터 라이브러리** `public/chars/<나라>_<포즈>.png` — 정장 차림 볼(countryball) 캐릭터, 플랫 2D, 투명 누끼(rembg). 나라: 한국·미국·중국·북한·영국·소련·UN(+에피소드별 추가), 포즈 6종(기본·애원·어깨 으쓱·경례·가리키기·놀람). 한 번 만들어 모든 편에서 재사용 (Gemini 약 48장 ≈ 2,600원). 같은 캐릭터가 계속 나와 화면 톤이 통일됨
 2. **새 화면 `stage` (종이 무대)** — 구겨진 흰 종이 배경 위 캐릭터 1~3명 배치, 말풍선·아이콘·물음표·느낌표가 `on` 단어 타이밍에 팝업, 살짝 흔들리는 등장 애니메이션
 3. **새 화면 `flatmap` (플랫 지도)** — 바다 청록·땅 베이지·국가 단색 칠하기, 거리 곡선 + 라벨("직선 약 9,500km"), 국기 핀. 세계·지역 개요 설명용 (전투 장면은 기존 3D 전술 지도 유지 — 채널 강점)

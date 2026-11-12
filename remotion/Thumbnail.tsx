@@ -1186,6 +1186,23 @@ export const PAROHO_STD: Record<string, ThumbnailProps> = {
     ],
     characterPos: "50% 0%",
   },
+  // EP26 승호리 철교 — 지시서 카피 그대로 (미군 약 500소티 · 한국 공군 14소티: 국방부 군사편찬연구소). 철교 위치는 개략
+  "ep26-seungho": {
+    quote: "미군도 포기한 다리, 우리가 깨부순다",
+    titleLine1: "미군 500번 실패한 철교를",
+    titleLine2: "한국 공군이 박살 낸 방법",
+    mapImage: "geo/seungho_zoom.webp",
+    characterCutout: "ep/ep26-seungho/ai/thumb_cut.png",
+    mapCrop: { cx: 0.5, cy: 0.517, zoom: 1.15 },
+    targets: [{ x: 528, y: 520, r: 90, label: "승호리 철교" }],
+    places: [{ x: 300, y: 700, label: "남강" }],
+    arrows: [
+      { pts: [[960, 140], [780, 300], [600, 470]], color: "ally" },
+      { pts: [[1010, 400], [820, 460], [625, 510]], color: "ally" },
+    ],
+    stampText: "1,500피트",
+    characterPos: "50% 0%",
+  },
   "paroho:sample": {
     quote: "호수 전체가 시체로 뒤덮였다",
     titleLine1: "사흘 밤낮 60km를 쫓아가",
