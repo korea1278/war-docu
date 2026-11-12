@@ -3,12 +3,13 @@
 python pipeline/timeline.py yongmunsan [--mock]
 --mock : TTS 없이 글자 수로 길이를 추정 (레이아웃 미리보기용)
 """
+import json
 import math
 import re
 import subprocess
 import sys
 
-from common import ROOT, ep_dirs, line_say, line_text, load_board, read_json, write_json
+from common import ROOT, ep_dirs, line_say, line_text, load_board, log_error, read_json, write_json
 
 FPS = 30
 GAP = 0.42          # 장면 사이 간격 (앞 장면 꼬리 0.08초 + 이 값 ≈ 0.4초)
@@ -88,6 +89,109 @@ def split_chunks(t):
     return out
 
 
+
+# ===================== style 2 (2026-11-12 사용자 지시 · 레퍼런스 영상 방식) =====================
+# 보드에 "style": 2 를 켠 새 에피소드에만 적용 (기존 편은 그대로)
+#  1) 뜻 단위 자막: 쉼표·문장 끝·이음말에서 우선 끊고, 이름·숫자+단위·조사 '의' 뒤는 끊지 않음 (최소 비용 분할)
+#  2) 숫자로 바꿔 쓴 자막(t≠say)도 단어 대응으로 실제 발음 시각에 맞춤 (자막이 말보다 먼저 넘어가지 않게)
+#  3) "on": "단어" — 콜아웃·말풍선·지도 아이템·효과음·visuals 어디든 그 단어를 말하는 순간에 맞춰 나타남
+STYLE = 1
+KO_CONN = ("는데", "지만", "면서", "니까", "어서", "아서", "해서", "다가", "려고", "도록", "으며", "고", "며", "면", "서", "데")
+KO_AUX = ("있", "없", "않", "못", "싶", "버리", "버렸", "주", "줬", "보", "봤", "말", "놓", "두")
+KO_PART = ("에서", "으로", "에게", "부터", "까지", "은", "는", "이", "가", "을", "를", "에", "로", "와", "과", "도", "만")
+EN_CONJ = {"and", "but", "which", "who", "when", "while", "because", "so", "as", "after", "before", "until", "where", "then", "or", "yet", "though"}
+EN_PREP = {"in", "on", "at", "of", "from", "with", "for", "by", "across", "over", "into", "toward", "towards", "through", "under", "against", "to", "that"}
+
+
+def _brk_cost(w, nxt, lang):
+    """단어 w 뒤(다음 단어 nxt 앞)에서 끊을 때의 비용 — 낮을수록 자연스러운 끊김."""
+    core = w.rstrip("\"'”’)")
+    if core and core[-1] in ",.?!…;:":
+        return 0.0
+    if any(ch.isdigit() for ch in w) and nxt and not any(ch.isdigit() for ch in nxt):
+        return 8.0  # 숫자 + 단위/명사
+    if lang == "ko":
+        if nxt and nxt.startswith(KO_AUX) and core.endswith(("고", "어", "아", "지", "게", "해")):
+            return 10.0  # 보조 용언 (~고 있다, ~지 않다, ~어 버리다)
+        if core.endswith("의"):
+            return 7.0
+        if core.endswith(KO_CONN):
+            return 1.5
+        if core.endswith(KO_PART):
+            return 3.0
+        return 6.0
+    a, b = core.strip("\"'“‘("), nxt.strip("\"'“‘(")
+    if a[:1].isupper() and b[:1].isupper():
+        return 20.0  # 사람·부대·지명 이름 안
+    if b.lower() in EN_CONJ:
+        return 1.5
+    if b.lower() in EN_PREP:
+        return 3.0
+    if a.lower() in {"the", "a", "an", "of", "to", "in", "on", "at", "his", "her", "their", "its"}:
+        return 12.0
+    return 5.0
+
+
+def split_phrase(t, lang):
+    """뜻 단위 최소 비용 분할. 반환: [(chunk, start_frac, end_frac)] — split_chunks와 같은 형식."""
+    n = len(t)
+    if n <= MAX_SUB:
+        return [(t, 0.0, 1.0)]
+    words = [(m.group(), m.start(), m.end()) for m in re.finditer(r"\S+", t)]
+    W = len(words)
+    short = 6 if lang == "ko" else 12
+    INF = 1e18
+    best = [INF] * (W + 1)
+    prev = [0] * (W + 1)
+    best[0] = 0.0
+    for j in range(1, W + 1):
+        for i in range(j - 1, -1, -1):
+            ln = words[j - 1][2] - words[i][1]
+            if ln > MAX_SUB + 3 and j - i > 1:
+                break
+            c = best[i] + 2.0 + max(0, ln - MAX_SUB) * 3.0 + ((ln - 0.62 * MAX_SUB) / MAX_SUB) ** 2 * 3.0
+            if j < W:
+                c += _brk_cost(words[j - 1][0], words[j][0], lang)
+            if ln < short and W > 1:
+                c += 4.0
+            if c < best[j]:
+                best[j], prev[j] = c, i
+    cuts, j = [], W
+    while j > 0:
+        cuts.append((prev[j], j))
+        j = prev[j]
+    out = []
+    for i, j in reversed(cuts):
+        a, b = words[i][1], words[j - 1][2]
+        out.append((t[a:b], a / n, b / n))
+    return out
+
+
+def _norm(w):
+    return re.sub(r"[^\w]", "", w.lower())
+
+
+def disp2say(disp, say, pos):
+    """자막 글자 위치 pos → 낭독 문장(say)의 글자 위치 (단어 대응, 숫자 표기가 달라도)."""
+    import difflib
+    dw = [(m.start(), m.end(), _norm(m.group())) for m in re.finditer(r"\S+", disp)]
+    sw = [(m.start(), m.end(), _norm(m.group())) for m in re.finditer(r"\S+", say)]
+    if not dw or not sw:
+        return round(pos / max(1, len(disp)) * len(say))
+    k = next((i for i, (a, b, _) in enumerate(dw) if b > pos), len(dw))
+    if k >= len(dw):
+        return len(say)
+    sm = difflib.SequenceMatcher(a=[x[2] for x in dw], b=[x[2] for x in sw], autojunk=False)
+    for tag, i1, i2, j1, j2 in sm.get_opcodes():
+        if i1 <= k < i2:
+            if tag == "equal":
+                return sw[j1 + (k - i1)][0]
+            if j2 > j1:
+                jj = j1 + int((k - i1) / max(1, i2 - i1) * (j2 - j1))
+                return sw[min(jj, j2 - 1)][0]
+            return sw[min(j1, len(sw) - 1)][0]
+    return len(say)
+
 def line_spans(text, says):
     """tts 전체 텍스트에서 각 줄의 [시작, 끝) 글자 위치."""
     spans, pos = [], 0
@@ -128,6 +232,8 @@ def build(ep, mock=False, gap=None):
     ai = read_json(aout / "ai.json", {})
     global MAX_SUB
     MAX_SUB = 44 if lang != "ko" else 21
+    global STYLE
+    STYLE = int(board.get("style", 1))
     rasters = read_json(ROOT / "public" / "geo" / "rasters.json", [])
     scenes_out = []
     t = 0.0
@@ -156,7 +262,16 @@ def build(ep, mock=False, gap=None):
             sub = clean_sub(disp)
             chunks = []
             exact = disp.strip() == say.strip() and not sc.get("tts")
-            for c, fa, fb in split_chunks(sub):
+            if STYLE >= 2:
+                parts = split_phrase(sub, lang)
+                starts_s = [disp2say(sub, say, round(fa * len(sub))) for _, fa, _ in parts]
+                for ci, (c, fa, fb) in enumerate(parts):
+                    sa = a + min(starts_s[ci], b - a - 1)
+                    sb = (a + starts_s[ci + 1] - 1) if ci + 1 < len(parts) else b - 1
+                    cs = time_at(meta, sa)
+                    ce = time_at(meta, max(sa, sb), end=True)
+                    chunks.append({"text": c, "start": round(pre + cs, 3), "end": round(pre + ce, 3)})
+            for c, fa, fb in ([] if STYLE >= 2 else split_chunks(sub)):
                 if exact and len(sub) == len(disp.strip()):
                     cs = time_at(meta, a + int(fa * (b - a)))
                     ce = time_at(meta, a + max(int(fb * (b - a)) - 1, 0), end=True)
@@ -177,11 +292,61 @@ def build(ep, mock=False, gap=None):
                 vis["credit"] = None
             return vis
 
+        # "on": "단어" → 그 단어를 말하는 시각을 atSec 형식(줄 번호 + 줄 안 비율)의 at 값으로 바꿈
+        say_full = (meta.get("text") if isinstance(meta, dict) and meta.get("text") else tts_text) or ""
+
+        def word_time(w):
+            wl = w.lower()
+            for li2, ((a2, b2), disp2, say2) in enumerate(zip(spans, texts, says)):
+                j = say2.lower().find(wl)
+                if j < 0:
+                    jd = disp2.lower().find(wl)
+                    if jd < 0:
+                        continue
+                    j = disp2say(disp2, say2, jd)
+                return pre + time_at(meta, min(a2 + j, max(a2, b2 - 1)))
+            j = say_full.lower().find(wl)
+            if j >= 0:
+                return pre + time_at(meta, j)
+            log_error(f"{ep} {sc['id']}: on 단어를 대사에서 못 찾음 — '{w}'")
+            return None
+
+        def sec2at(s):
+            if not lines:
+                return 0
+            for li2 in range(len(lines) - 1, -1, -1):
+                l = lines[li2]
+                if s >= l["start"] - 1e-6 or li2 == 0:
+                    span = max(0.6, l["end"] - l["start"])
+                    return round(li2 + min(0.999, max(0.0, (s - l["start"]) / span)), 4)
+            return 0
+
+        def apply_on(o):
+            if isinstance(o, list):
+                return [apply_on(x) for x in o]
+            if not isinstance(o, dict):
+                return o
+            o = {k: apply_on(v) for k, v in o.items()}
+            for key, tgt in (("on", "at"), ("untilOn", "until"), ("takenOn", "takenAt")):
+                if isinstance(o.get(key), str):
+                    s = word_time(o[key])
+                    if s is not None:
+                        o[tgt] = sec2at(s)
+                        if key == "on":
+                            o["_onSec"] = round(s, 3)
+                    del o[key]
+            return o
+
+        if STYLE >= 2 or '"on":' in json.dumps(sc, ensure_ascii=False):
+            sc = apply_on(sc)
+
         extra = []
         for v2 in sc.get("visuals", []):
             r = resolve(v2)
-            fi = v2["atLine"]
+            fi = v2.get("atLine", 0)
             r["start"] = round(lines[fi]["start"] - 0.05, 3) if fi < len(lines) else 0
+            if v2.get("_onSec") is not None:
+                r["start"] = round(v2["_onSec"] - 0.05, 3)
             extra.append(r)
         vis = dict(sc["visual"])
         if vis.get("q"):
