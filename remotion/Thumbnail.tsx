@@ -1201,6 +1201,7 @@ export const PAROHO_STD: Record<string, ThumbnailProps> = {
       { pts: [[1010, 400], [820, 460], [625, 510]], color: "ally" },
     ],
     stampText: "1,500피트",
+    stampPos: { x: 300, y: 250 },
     characterPos: "50% 0%",
   },
   "paroho:sample": {
