@@ -71,24 +71,21 @@ def gen(s, prompt):
 
 
 def cut(img):
-    """rembg isnet 누끼 → 여백 잘라 높이 900px 이내로."""
-    img = img.convert("RGB")
-    try:
-        from rembg import new_session, remove
-        global _RS
-        try:
-            _RS
-        except NameError:
-            _RS = new_session("isnet-general-use")
-        out = remove(img, session=_RS)
-    except Exception as e:  # noqa: BLE001
-        print(f"  rembg 실패({e}) → 흰 배경 알파")
-        from PIL import ImageFilter, ImageOps
-        g = ImageOps.grayscale(img)
-        a = g.point(lambda v: 255 if v < 232 else int((255 - v) * 255 / 23))
-        out = img.copy()
-        out.putalpha(a.filter(ImageFilter.GaussianBlur(1)))
-    bbox = out.getchannel("A").point(lambda v: 255 if v > 24 else 0).getbbox()
+    """누끼: 테두리에서 이어진 흰 배경만 지움 (flood fill).
+    rembg는 태극기 흰 몸통·흰 눈까지 투명하게 만들어서(2026-11-12 시험) 쓰지 않는다 — 검은 외곽선이 닫혀 있어 안쪽 흰색은 보존됨."""
+    import numpy as np
+    from PIL import ImageFilter
+    from scipy import ndimage
+    rgb = np.asarray(img.convert("RGB")).astype(np.int16)
+    white = (rgb.min(axis=2) > 222) & ((rgb.max(axis=2) - rgb.min(axis=2)) < 28)
+    lab, _ = ndimage.label(white)
+    edge = set(np.unique(np.concatenate([lab[0], lab[-1], lab[:, 0], lab[:, -1]]))) - {0}
+    bg = np.isin(lab, list(edge))
+    bg = ndimage.binary_opening(bg, iterations=1)
+    a = Image.fromarray(np.where(bg, 0, 255).astype(np.uint8)).filter(ImageFilter.MinFilter(3)).filter(ImageFilter.GaussianBlur(1.1))
+    out = img.convert("RGB")
+    out.putalpha(a)
+    bbox = a.point(lambda v: 255 if v > 24 else 0).getbbox()
     if bbox:
         out = out.crop(bbox)
     if out.height > 900:
@@ -112,7 +109,10 @@ def main(only):
             if not only and man.get(k) == sig and dst.exists():
                 continue
             print(f"CHAR {k}")
-            img = retry(lambda: gen(s, prompt), tries=4, wait=20, label=f"char {k}")
+            if man.get(k) == sig and (OUT / "raw" / f"{k}.jpg").exists() and "--recut" in sys.argv:
+                img = Image.open(OUT / "raw" / f"{k}.jpg")
+            else:
+                img = retry(lambda: gen(s, prompt), tries=4, wait=20, label=f"char {k}")
             img.convert("RGB").save(OUT / "raw" / f"{k}.jpg", quality=92)
             cut(img).save(dst, optimize=True)
             man[k] = sig
@@ -122,4 +122,4 @@ def main(only):
 
 
 if __name__ == "__main__":
-    main(set(sys.argv[1:]))
+    main({a for a in sys.argv[1:] if not a.startswith("--")})

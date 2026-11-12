@@ -3,6 +3,7 @@ import { AbsoluteFill, Img, staticFile } from "remotion";
 import { atSec, C, clamp, easeInOut, easeOut, F, fitFont, NOBREAK, popIn, S, Timeline } from "./theme";
 import { Bubble, CalloutBox, KenBurns, Slate, useScene, useSince, useT } from "./ui";
 import { MapView } from "./MapView";
+import { ChecklistV, FlagGridV, FlatMapV, PhotoMarks, PhotoTag, Pops, ReasonsV, StageV } from "./Stage";
 
 /** 사진이 없을 때 대체 배경 */
 const PhotoOrSlate: React.FC<{ src?: string | null; kb?: string; bw?: boolean; dim?: number; pos?: string }> = ({ src, kb, bw = true, dim = 0, pos }) =>
@@ -49,7 +50,14 @@ const PhotoV: React.FC = () => {
       </AbsoluteFill>
     );
   }
-  return <PhotoOrSlate src={v.src} kb={v.kb} bw={v.bw !== false} pos={v.pos} />; // EP22: 세로 사진 얼굴 위치용 pos
+  return (
+    <AbsoluteFill>
+      <PhotoOrSlate src={v.src} kb={v.kb} bw={v.bw !== false} pos={v.pos} />
+      {/* 화면 업그레이드 2단계: 좌상단 출처·연도 tag + on 강조 라벨 marks */}
+      <PhotoTag text={v.tag} />
+      <PhotoMarks marks={v.marks} />
+    </AbsoluteFill>
+  ); // EP22: 세로 사진 얼굴 위치용 pos
 };
 
 const AiV: React.FC = () => {
@@ -60,6 +68,7 @@ const AiV: React.FC = () => {
       {(v.bubbles || []).map((b: any, i: number) => (
         <Bubble key={i} {...b} />
       ))}
+      <Pops pops={v.pops} />
     </AbsoluteFill>
   );
 };
@@ -897,6 +906,16 @@ export const Visual: React.FC<{ tl: Timeline }> = ({ tl }) => {
       return <ProfileV />;
     case "cta":
       return <CtaV />;
+    case "stage":
+      return <StageV tl={tl} />;
+    case "flatmap":
+      return <FlatMapV tl={tl} />;
+    case "flaggrid":
+      return <FlagGridV />;
+    case "checklist":
+      return <ChecklistV />;
+    case "reasons":
+      return <ReasonsV />;
     default:
       return <Slate />;
   }

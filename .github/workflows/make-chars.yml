@@ -28,7 +28,7 @@ jobs:
         with:
           python-version: "3.11"
       - name: 설치
-        run: pip install -q requests numpy pillow "rembg[cpu]"
+        run: pip install -q requests numpy pillow scipy
       - name: 캐릭터 생성
         run: cd pipeline && python chars.py ${{ github.event.inputs.only }}
       - name: 저장

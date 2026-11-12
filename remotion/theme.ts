@@ -80,6 +80,7 @@ export type Timeline = {
   rasters: { name: string; file: string; west: number; east: number; north: number; south: number; w: number; h: number }[];
   sfx: string[];
   hasWater: boolean;
+  chars?: string[];
 };
 
 /** 스토리보드의 at(줄 번호, 소수 허용) → 장면 내 초 */
