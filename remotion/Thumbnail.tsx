@@ -1204,6 +1204,28 @@ export const PAROHO_STD: Record<string, ThumbnailProps> = {
     stampPos: { x: 300, y: 250 },
     characterPos: "50% 0%",
   },
+  // EP27 통영상륙작전 — 사용자 지시서 카피 그대로 (따옴표의 '1개 연대'는 사료 미확인 · 전달 때 고지). 지도 = 통영반도 목(원문고개) 근접 z14, 좌표 개략
+  "ep27-tongyeong": {
+    quote: "원문고개를 막아라, 적 1개 연대를 가둔다",
+    titleLine1: "한국 최초의 단독 상륙작전",
+    titleLine2: "귀신 잡는 해병의 탄생",
+    mapImage: "geo/tongyeong_zoom_sea.webp",
+    characterCutout: "ep/ep27-tongyeong/ai/thumb_cut.png",
+    mapCrop: { cx: 0.685, cy: 0.5134, zoom: 1.0 },
+    targets: [
+      { x: 380, y: 300, r: 92, label: "원문고개" },
+      { x: 497, y: 489, r: 58, label: "망일봉" },
+    ],
+    places: [{ x: 860, y: 110, label: "견내량" }, { x: 470, y: 618, label: "통영" }],
+    arrows: [
+      { pts: [[990, 190], [820, 262], [690, 318], [500, 304]], color: "ally" },
+      { pts: [[690, 340], [600, 410], [535, 455]], color: "ally" },
+      { pts: [[150, 70], [250, 160], [320, 245]], color: "red" },
+    ],
+    stampText: "퇴로 차단",
+    stampPos: { x: 820, y: 470 },
+    characterPos: "50% 0%",
+  },
   "paroho:sample": {
     quote: "호수 전체가 시체로 뒤덮였다",
     titleLine1: "사흘 밤낮 60km를 쫓아가",
