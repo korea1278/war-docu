@@ -1216,11 +1216,11 @@ export const PAROHO_STD: Record<string, ThumbnailProps> = {
       { x: 380, y: 300, r: 92, label: "원문고개" },
       { x: 497, y: 489, r: 58, label: "망일봉" },
     ],
-    places: [{ x: 860, y: 110, label: "견내량" }, { x: 470, y: 618, label: "통영" }],
+    places: [{ x: 905, y: 335, label: "견내량" }, { x: 470, y: 618, label: "통영" }],
     arrows: [
       { pts: [[990, 190], [820, 262], [690, 318], [500, 304]], color: "ally" },
       { pts: [[690, 340], [600, 410], [535, 455]], color: "ally" },
-      { pts: [[150, 70], [250, 160], [320, 245]], color: "red" },
+      { pts: [[70, 190], [180, 245], [275, 285]], color: "red" },
     ],
     stampText: "퇴로 차단",
     stampPos: { x: 820, y: 470 },
