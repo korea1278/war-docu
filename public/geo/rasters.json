@@ -488,5 +488,25 @@
   "south": 38.942320979479014,
   "w": 2304,
   "h": 2048
+ },
+ {
+  "name": "tongyeong_sea",
+  "file": "geo/tongyeong_sea.webp",
+  "west": 128.14453125,
+  "east": 128.935546875,
+  "north": 35.31736632923788,
+  "south": 34.66935854524544,
+  "w": 2304,
+  "h": 2304
+ },
+ {
+  "name": "tongyeong_zoom_sea",
+  "file": "geo/tongyeong_zoom_sea.webp",
+  "west": 128.34228515625,
+  "east": 128.5400390625,
+  "north": 34.93998515156042,
+  "south": 34.79576153473033,
+  "w": 2304,
+  "h": 2048
  }
 ]
