@@ -196,42 +196,197 @@ export const SvgBall: React.FC<{ kind: FlagKind; size: number; pose?: string }> 
   );
 };
 
-type CharSpec = { c: string; x: number; y: number; h?: number; at?: number; flip?: boolean; until?: number };
+type CharSpec = { c: string; x: number; y: number; h?: number; at?: number; flip?: boolean; until?: number; face?: string; prop?: string; anim?: string };
+
+/* ===== 캐릭터 반복 방지 (2026-11-12 사용자 지시 · EP27 첫 구현): 표정 덧그리기 face · 소품 prop · 움직임 anim — 그림 생성 없이 SVG 코드로 ===== */
+/** 그림마다 공(머리) 가운데 x 비율 (그림 폭 기준, 맨 윗줄 픽셀로 측정). 공 지름 ≈ 그림 높이 0.66 */
+const BALL_CX: Record<string, number> = {"cn_idle": 0.499, "cn_plead": 0.5, "cn_point": 0.403, "cn_salute": 0.565, "cn_shock": 0.5, "cn_shrug": 0.498, "kr_idle": 0.499, "kr_plead": 0.499, "kr_point": 0.373, "kr_salute": 0.56, "kr_shock": 0.498, "kr_shrug": 0.5, "nk_idle": 0.495, "nk_plead": 0.499, "nk_point": 0.392, "nk_salute": 0.439, "nk_shock": 0.498, "nk_shrug": 0.499, "su_idle": 0.499, "su_plead": 0.498, "su_point": 0.367, "su_salute": 0.546, "su_shock": 0.498, "su_shrug": 0.499, "uk_idle": 0.5, "uk_plead": 0.498, "uk_point": 0.387, "uk_salute": 0.547, "uk_shock": 0.498, "uk_shrug": 0.499, "un_idle": 0.499, "un_plead": 0.499, "un_point": 0.389, "un_salute": 0.562, "un_shock": 0.499, "un_shrug": 0.499, "us_idle": 0.499, "us_plead": 0.499, "us_point": 0.368, "us_salute": 0.539, "us_shock": 0.499, "us_shrug": 0.498};
+
+/** 표정·소품 레이어: viewBox 0~100에서 공 = 가운데 (50,50) 반지름 30. 눈 ≈ (38,53)·(62,53) */
+const FaceProp: React.FC<{ face?: string; prop?: string; t: number }> = ({ face, prop, t }) => {
+  const S = "#111";
+  const tw = 0.6 + 0.4 * Math.abs(Math.sin(t * 3));
+  const f: React.ReactNode[] = [];
+  const brow = (a: number[], b: number[]) => (
+    <>
+      <path d={`M${a[0]},${a[1]} L${a[2]},${a[3]}`} stroke={S} strokeWidth={4.2} strokeLinecap="round" />
+      <path d={`M${b[0]},${b[1]} L${b[2]},${b[3]}`} stroke={S} strokeWidth={4.2} strokeLinecap="round" />
+    </>
+  );
+  for (const k of (face || "").split("+").filter(Boolean)) {
+    if (k === "angry") f.push(<g key={k}>{brow([31, 37, 45, 44], [69, 37, 55, 44])}</g>);
+    if (k === "determined") f.push(<g key={k}>{brow([32, 40, 45, 43], [68, 40, 55, 43])}</g>);
+    if (k === "worried") f.push(<g key={k}>{brow([32, 43, 45, 37], [68, 43, 55, 37])}</g>);
+    if (k === "sweat")
+      f.push(<path key={k} d={`M82,${24 + tw * 4} q-6,9 0,13 q6,-4 0,-13z`} fill="#8fd3ff" stroke={S} strokeWidth={1.6} />);
+    if (k === "coldsweat")
+      f.push(
+        <g key={k} stroke="#3b6fd6" strokeWidth={2.2} strokeLinecap="round" opacity={0.85}>
+          <path d="M36,26 L36,36" /><path d="M42,24 L42,35" /><path d="M48,25 L48,33" />
+        </g>,
+      );
+    if (k === "tears")
+      f.push(
+        <g key={k} stroke="#4fb3ff" strokeWidth={3.4} strokeLinecap="round" fill="none">
+          <path d={`M37,61 q-2,${6 + tw * 4} -1,${12 + tw * 5}`} /><path d={`M63,61 q2,${6 + tw * 4} 1,${12 + tw * 5}`} />
+        </g>,
+      );
+    if (k === "shock")
+      f.push(
+        <g key={k} stroke={S} strokeWidth={2.6} strokeLinecap="round">
+          <path d="M38,15 L34,6" /><path d="M50,13 L50,3" /><path d="M62,15 L66,6" />
+          <path d="M20,30 L12,26" /><path d="M80,30 L88,26" />
+        </g>,
+      );
+    if (k === "smug" || k === "blush")
+      f.push(
+        <g key={k}>
+          <ellipse cx={31} cy={63} rx={6} ry={3.2} fill="#ff7f9a" opacity={0.75} />
+          <ellipse cx={69} cy={63} rx={6} ry={3.2} fill="#ff7f9a" opacity={0.75} />
+          {k === "smug" && <path d={`M84,20 l2,${5 * tw} l5,2 l-5,2 l-2,${5 * tw} l-2,-${5 * tw} l-5,-2 l5,-2z`} fill="#ffd400" stroke={S} strokeWidth={1} />}
+        </g>,
+      );
+    if (k === "sparkle")
+      f.push(<path key={k} d={`M84,22 l2,${6 * tw} l6,2 l-6,2 l-2,${6 * tw} l-2,-${6 * tw} l-6,-2 l6,-2z`} fill="#ffd400" stroke={S} strokeWidth={1} />);
+  }
+  const p: React.ReactNode[] = [];
+  for (const k of (prop || "").split("+").filter(Boolean)) {
+    if (k === "helmet")
+      p.push(
+        <g key={k}>
+          <path d="M15,40 C15,12 85,12 85,40 Z" fill="#59663a" stroke={S} strokeWidth={2.5} />
+          <path d="M11,40 L89,40" stroke={S} strokeWidth={5} strokeLinecap="round" />
+          <path d="M11,40 L89,40" stroke="#6f7d48" strokeWidth={2.6} strokeLinecap="round" />
+          <path d="M28,24 C38,17 50,16 60,18" stroke="#7d8b55" strokeWidth={2.5} fill="none" opacity={0.8} />
+        </g>,
+      );
+    if (k === "cap" || k === "nkcap")
+      p.push(
+        <g key={k}>
+          <path d="M24,30 C24,12 76,12 76,30 Z" fill={k === "nkcap" ? "#6b6a3f" : "#4f5f36"} stroke={S} strokeWidth={2.4} />
+          <path d="M22,30 L62,30 Q74,31 80,35 L22,34 Z" fill={k === "nkcap" ? "#5a5934" : "#43522d"} stroke={S} strokeWidth={2} />
+          {k === "nkcap" && <path d="M50,17 l2.6,5.4 6,.8 -4.4,4.1 1.1,5.9 -5.3,-2.9 -5.3,2.9 1.1,-5.9 -4.4,-4.1 6,-.8z" fill="#d81e2c" stroke="#7a0b12" strokeWidth={0.8} />}
+          {k === "cap" && <path d="M50,17 l2.2,4.6 5,.7 -3.6,3.5 .9,5 -4.5,-2.4 -4.5,2.4 .9,-5 -3.6,-3.5 5,-.7z" fill="#e8c24a" stroke="#6d5410" strokeWidth={0.8} />}
+        </g>,
+      );
+    if (k === "officer")
+      p.push(
+        <g key={k}>
+          <path d="M18,22 C30,8 70,8 82,22 L74,30 L26,30 Z" fill="#33402a" stroke={S} strokeWidth={2.4} />
+          <rect x={26} y={27} width={48} height={6} fill="#c9a227" stroke={S} strokeWidth={1.5} />
+          <path d="M24,33 L76,33 Q66,39 50,39 Q34,39 24,33 Z" fill="#1b1b1b" />
+          <circle cx={50} cy={20} r={3.6} fill="#e8c24a" stroke={S} strokeWidth={1} />
+        </g>,
+      );
+    if (k === "crown")
+      p.push(<path key={k} d="M30,24 L33,8 L42,18 L50,4 L58,18 L67,8 L70,24 Z" fill="#f2c230" stroke={S} strokeWidth={2.4} strokeLinejoin="round" />);
+    if (k === "headband")
+      p.push(
+        <g key={k}>
+          <path d="M21,34 Q50,24 79,34 L79,41 Q50,31 21,41 Z" fill="#fff" stroke={S} strokeWidth={2} />
+          <circle cx={50} cy={32} r={3.4} fill="#d81e2c" />
+        </g>,
+      );
+    if (k === "glasses")
+      p.push(
+        <g key={k} fill="none" stroke={S} strokeWidth={2.4}>
+          <circle cx={38} cy={53} r={10} /><circle cx={62} cy={53} r={10} /><path d="M48,52 Q50,49 52,52" /><path d="M28,51 L20,47" /><path d="M72,51 L80,47" />
+        </g>,
+      );
+    if (k === "medal")
+      p.push(
+        <g key={k}>
+          <path d="M44,84 L50,96 L56,84 Z" fill="#2e66d8" stroke={S} strokeWidth={1.4} />
+          <circle cx={50} cy={99} r={6} fill="#f2c230" stroke={S} strokeWidth={1.6} />
+        </g>,
+      );
+    if (k === "pipe")
+      p.push(
+        <g key={k}>
+          <path d="M56,68 L74,72" stroke="#5b3a1e" strokeWidth={3} strokeLinecap="round" />
+          <path d="M72,66 L80,66 L79,76 Q76,79 73,76 Z" fill="#6b4423" stroke={S} strokeWidth={1.6} />
+          <path d={`M76,${62 - tw * 3} q3,-4 0,-8`} stroke="#bbb" strokeWidth={1.5} fill="none" opacity={0.7} />
+        </g>,
+      );
+    if (k === "notebook")
+      p.push(
+        <g key={k}>
+          <rect x={74} y={74} width={18} height={22} rx={1.5} fill="#f4efe1" stroke={S} strokeWidth={1.6} transform="rotate(8 83 85)" />
+          <path d="M77,80 L88,81 M77,85 L88,86 M77,90 L86,91" stroke="#666" strokeWidth={1} transform="rotate(8 83 85)" />
+        </g>,
+      );
+  }
+  if (!f.length && !p.length) return null;
+  return (
+    <>
+      {p}
+      {f}
+    </>
+  );
+};
 
 const Character: React.FC<{ tl: Timeline; ch: CharSpec; i: number }> = ({ tl, ch, i }) => {
   const sc = useScene();
   const t = useT();
   const s0 = atSec(sc, ch.at);
-  const k = (t - s0) / 0.5;
+  const anim = (ch.anim || "").split("+");
+  const enter = anim.includes("enter");
+  const exit = anim.includes("exit");
+  const k = (t - s0) / (enter ? 0.9 : 0.5);
   if (k < 0) return null;
-  if (ch.until !== undefined && t > atSec(sc, ch.until) + 0.3) return null;
-  const out = ch.until !== undefined ? clamp((t - atSec(sc, ch.until)) / 0.3) : 0;
+  const tu = ch.until !== undefined ? atSec(sc, ch.until) : undefined;
+  if (tu !== undefined && t > tu + (exit ? 0.9 : 0.3)) return null;
+  const out = tu !== undefined ? clamp((t - tu) / (exit ? 0.9 : 0.3)) : 0;
   const h = ch.h ?? 520;
-  const e = popIn(k);
-  // 살짝 흔들리는 대기 동작 (캐릭터마다 위상 다르게)
+  const e = enter ? 1 : popIn(k);
+  // 살짝 흔들리는 대기 동작 (캐릭터마다 위상 다르게) + anim: bounce(통통) · tilt(갸웃) · shake(부들부들) · enter/exit(걸어 들어오기·나가기)
   const ph = i * 1.9;
-  const sway = Math.sin(t * 2.1 + ph) * 2.2 * clamp(k);
-  const bob = Math.abs(Math.sin(t * 2.1 + ph)) * -6 * clamp(k);
+  let sway = Math.sin(t * 2.1 + ph) * 2.2 * clamp(k);
+  let bob = Math.abs(Math.sin(t * 2.1 + ph)) * -6 * clamp(k);
+  let dx = 0;
+  if (anim.includes("bounce")) bob = Math.abs(Math.sin(t * 5.2 + ph)) * -26 * clamp(k);
+  if (anim.includes("tilt")) sway = Math.sin(t * 1.7 + ph) * 8;
+  if (anim.includes("shake")) dx += Math.sin(t * 47 + ph) * 5;
+  const side = ch.x < 0.5 ? -1 : 1;
+  if (enter) {
+    const ke = easeOut(clamp(k));
+    dx += side * (1 - ke) * 1100;
+    bob += Math.abs(Math.sin(t * 9 + ph)) * -18 * (1 - clamp(k));
+  }
+  if (exit && out > 0) dx += side * easeOut(out) * 1100;
   const has = (tl.chars || []).includes(ch.c);
   const [country, pose] = ch.c.split("_");
+  const bcx = BALL_CX[ch.c] ?? 0.5;
+  const fade = exit ? 1 : 1 - out;
+  const shrink = exit ? 1 : 1 - out * 0.4;
   return (
     <div
       style={{
         position: "absolute",
         left: ch.x * 1920,
         top: ch.y * 1080,
-        transform: `translate(-50%,-100%) translateY(${(1 - easeOut(k)) * 120 + bob}px) scale(${(0.55 + 0.45 * e) * (1 - out * 0.4)}) rotate(${sway}deg)`,
+        transform: `translate(-50%,-100%) translateX(${dx}px) translateY(${(enter ? 0 : (1 - easeOut(clamp(k))) * 120) + bob}px) scale(${(0.55 + 0.45 * e) * shrink}) rotate(${sway}deg)`,
         transformOrigin: "50% 100%",
-        opacity: clamp(k * 3) * (1 - out),
+        opacity: clamp(k * 3) * fade,
       }}
     >
       {/* 바닥 그림자 */}
       <div style={{ position: "absolute", left: "50%", bottom: -14, width: h * 0.62, height: h * 0.07, marginLeft: -h * 0.31, borderRadius: "50%", background: "rgba(40,30,20,.22)", filter: "blur(6px)" }} />
-      {has ? (
-        <Img src={staticFile(`chars/${ch.c}.png`)} style={{ height: h, display: "block", transform: ch.flip ? "scaleX(-1)" : undefined, filter: "drop-shadow(0 6px 0 rgba(0,0,0,.12))" }} />
-      ) : (
-        <SvgBall kind={country as FlagKind} size={h * 0.8} pose={pose} />
-      )}
+      <div style={{ position: "relative", transform: ch.flip ? "scaleX(-1)" : undefined }}>
+        {has ? (
+          <Img src={staticFile(`chars/${ch.c}.png`)} style={{ height: h, display: "block", filter: "drop-shadow(0 6px 0 rgba(0,0,0,.12))" }} />
+        ) : (
+          <SvgBall kind={country as FlagKind} size={h * 0.8} pose={pose} />
+        )}
+        {(ch.face || ch.prop) && (
+          <svg
+            viewBox="0 0 100 100"
+            style={{ position: "absolute", overflow: "visible", width: h * 1.1, height: h * 1.1, left: has ? `calc(${bcx * 100}% - ${h * 0.55}px)` : -h * 0.15, top: has ? -h * 0.22 : -h * 0.15 }}
+          >
+            <FaceProp face={ch.face} prop={ch.prop} t={t} />
+          </svg>
+        )}
+      </div>
     </div>
   );
 };

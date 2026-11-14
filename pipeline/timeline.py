@@ -231,7 +231,8 @@ def build(ep, mock=False, gap=None):
     photos = read_json(aout / "photos.json", {})
     ai = read_json(aout / "ai.json", {})
     global MAX_SUB
-    MAX_SUB = 44 if lang != "ko" else 21
+    # 2026-11-13 롱폼 표준(LONGFORM_STANDARD 3): 한 줄 25~35자 — 스토리보드 "sub_max"로 지정 (EP27부터 28, 없으면 예전 21)
+    MAX_SUB = 44 if lang != "ko" else int(board.get("sub_max", 21))
     global STYLE
     STYLE = int(board.get("style", 1))
     rasters = read_json(ROOT / "public" / "geo" / "rasters.json", [])

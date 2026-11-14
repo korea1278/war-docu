@@ -1,0 +1,8787 @@
+{
+ "title": "통영상륙작전",
+ "subtitle": "1950. 8. 17 ~ 9. 22",
+ "style": 2,
+ "tts_mode": "act",
+ "sfx_policy": "doc",
+ "bgm_rel_db": -24,
+ "sub_max": 28,
+ "sync_limit": 0.5,
+ "target_sec": 1170,
+ "voice": "U1cJYS4EdbaHmfR7YzHd",
+ "midrolls": [
+  "s053",
+  "s151",
+  "s192"
+ ],
+ "places": {
+  "tongyeong": [
+   128.425,
+   34.846,
+   "통영"
+  ],
+  "wonmun": [
+   128.418,
+   34.877,
+   "원문고개"
+  ],
+  "mangil": [
+   128.43,
+   34.861,
+   "망일봉"
+  ],
+  "jangpyeong": [
+   128.447,
+   34.875,
+   "장평리"
+  ],
+  "nammang": [
+   128.431,
+   34.842,
+   "남망산"
+  ],
+  "sambong": [
+   128.44,
+   34.882,
+   "삼봉산"
+  ],
+  "geoje": [
+   128.62,
+   34.88,
+   "거제도"
+  ],
+  "gyeonnae": [
+   128.468,
+   34.892,
+   "견내량"
+  ],
+  "goseong": [
+   128.322,
+   34.973,
+   "고성"
+  ],
+  "masan": [
+   128.57,
+   35.21,
+   "마산"
+  ],
+  "jinhae": [
+   128.7,
+   35.135,
+   "진해"
+  ],
+  "jindong": [
+   128.48,
+   35.108,
+   "진동리"
+  ],
+  "busan": [
+   129.04,
+   35.18,
+   "부산"
+  ],
+  "hansan": [
+   128.5,
+   34.79,
+   "한산도"
+  ],
+  "daegu": [
+   128.6,
+   35.87,
+   "대구"
+  ],
+  "seoul": [
+   126.978,
+   37.566,
+   "서울"
+  ],
+  "incheon": [
+   126.62,
+   37.47,
+   "인천"
+  ]
+ },
+ "views": {
+  "korea": {
+   "center": [
+    127.6,
+    36.4
+   ],
+   "span": 4.6
+  },
+  "perimeter": {
+   "center": [
+    128.7,
+    35.65
+   ],
+   "span": 1.9
+  },
+  "sw": {
+   "center": [
+    128.68,
+    35.08
+   ],
+   "span": 0.95
+  },
+  "south": {
+   "center": [
+    128.5,
+    34.95
+   ],
+   "span": 0.62
+  },
+  "strait": {
+   "center": [
+    128.5,
+    34.84
+   ],
+   "span": 0.3
+  },
+  "peninsula": {
+   "center": [
+    128.43,
+    34.87
+   ],
+   "span": 0.26
+  },
+  "neck": {
+   "center": [
+    128.43,
+    34.872
+   ],
+   "span": 0.12
+  },
+  "town": {
+   "center": [
+    128.428,
+    34.856
+   ],
+   "span": 0.1
+  }
+ },
+ "music": [
+  {
+   "id": "drone",
+   "from": "s001",
+   "to": "s024",
+   "volume": 0.2
+  },
+  {
+   "id": "theme",
+   "from": "s025",
+   "to": "s101",
+   "volume": 0.16
+  },
+  {
+   "id": "tension",
+   "from": "s102",
+   "to": "s150",
+   "volume": 0.17
+  },
+  {
+   "id": "march",
+   "from": "s151",
+   "to": "s191",
+   "volume": 0.16
+  },
+  {
+   "id": "tension",
+   "from": "s192",
+   "to": "s241",
+   "volume": 0.17
+  },
+  {
+   "id": "somber",
+   "from": "s242",
+   "to": "s288",
+   "volume": 0.17
+  }
+ ],
+ "ai_images": {
+  "naval_feint_dusk": "Three small grey 1950 South Korean navy patrol boats and minesweepers firing their deck guns toward a small 1950 Korean harbor town of dark tile-roofed and thatched houses on a hillside around a narrow harbor full of wooden fishing boats, green hills behind, southern coast at dusk, orange muzzle flashes over dark water, smoke over the harbor, August 1950, painterly realistic digital illustration, cinematic, desaturated summer palette, film grain, no text, no letters.",
+  "landing_dusk": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean marines whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1950 M1 steel helmets and plain olive drab herringbone field uniforms with absolutely NO collar tabs, NO patches, NO red insignia jumping from a small wooden-hulled transport boat into knee-deep water on a quiet rocky cove at dusk and wading ashore with rifles held high, dark wooded hills just behind the beach, August 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "nk_column_coast": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a long column of North Korean soldiers whose heads are round balls painted as the North Korean flag (blue, red and white stripes with a red star), wearing 1950 olive-brown uniforms and soft field caps marching along a dusty coastal dirt road beside rice paddies toward a southern harbor town, a few trucks, confident and fast, hot summer haze, August 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "tongyeong_1950": "a small 1950 Korean harbor town of dark tile-roofed and thatched houses on a hillside around a narrow harbor full of wooden fishing boats, green hills behind, southern coast, quiet and tense under a hazy summer sky, empty streets, a few people hurrying, distant smoke on the hills, August 1950, painterly realistic digital illustration, cinematic, desaturated summer palette, film grain, no text, no letters.",
+  "tongyeong_occupied": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: North Korean soldiers whose heads are round balls painted as the North Korean flag (blue, red and white stripes with a red star), wearing 1950 olive-brown uniforms and soft field caps entering the narrow streets of a small 1950 Korean harbor town of dark tile-roofed and thatched houses on a hillside around a narrow harbor full of wooden fishing boats, green hills behind, southern coast, red flags hung from a building, frightened villagers hiding behind doors, August 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "jindong_ambush": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean marines whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1950 M1 steel helmets and plain olive drab herringbone field uniforms with absolutely NO collar tabs, NO patches, NO red insignia springing an ambush from a wooded hillside above a dusty road and rice paddies on a hot summer day, firing rifles and a machine gun down at a startled column of North Korean soldiers whose heads are round balls painted as the North Korean flag (blue, red and white stripes with a red star), wearing 1950 olive-brown uniforms and soft field caps on the road below, smoke and dust, August 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "strait_night": "Two small 1950 South Korean navy ships moving silently through a narrow dark strait between rocky islands at night, no lights, faint moonlight on calm water, soldiers' helmets silhouetted on deck, painterly realistic digital illustration, cinematic, desaturated summer palette, film grain, no text, no letters.",
+  "hansan_1592": "A historical 1592 Korean naval battle off Hansan island: a crescent crane-wing formation of large Korean Joseon panokseon warships and a turtle ship firing cannons at a fleet of Japanese warships in open sea, smoke, dramatic sky, painterly realistic historical illustration, no text, no letters.",
+  "recon_boat": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a young South Korean marine colonel whose head is a round ball painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing a 1950 M1 steel helmet and a plain olive drab field jacket with absolutely NO collar tabs, NO patches, NO red insignia crouching in a small wooden fishing boat rowed by an old Korean fisherman in white hanbok before dawn, looking through binoculars toward a dark hilly peninsula and a harbor town across calm water, August 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "kim_map": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a young South Korean marine colonel whose head is a round ball painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing a 1950 M1 steel helmet and a plain olive drab field jacket with absolutely NO collar tabs, NO patches, NO red insignia pointing firmly at the narrow neck of a hand-drawn peninsula map spread on an ammunition crate by lantern light at night, other marine officers leaning in with serious faces, a tense moment of realization, August 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "marines_climb": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean marines whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1950 M1 steel helmets and plain olive drab herringbone field uniforms with absolutely NO collar tabs, NO patches, NO red insignia climbing quickly up a steep wooded hillside from a cove at last light, rifles slung, the sea and a small boat behind them below, August 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "night_trail": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean marines whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1950 M1 steel helmets and plain olive drab herringbone field uniforms with absolutely NO collar tabs, NO patches, NO red insignia moving in single file along a narrow dark mountain trail at night, guided by Korean villagers whose heads are round balls painted as the South Korean taegukgi flag, wearing white 1950 hanbok work clothes carrying wooden A-frame backpacks (jige) loaded with ammunition boxes and water jars, faint moonlight, August 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "pass_dig": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean marines whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1950 M1 steel helmets and plain olive drab herringbone field uniforms with absolutely NO collar tabs, NO patches, NO red insignia digging foxholes and stacking stones at dawn on a low mountain pass where a dirt road crosses the narrow neck of a peninsula, the sea visible on both sides, a machine gun being set up facing the road, August 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "peak_view": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean marines whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1950 M1 steel helmets and plain olive drab herringbone field uniforms with absolutely NO collar tabs, NO patches, NO red insignia crouching on a rocky hilltop at sunrise looking down over a small 1950 Korean harbor town of dark tile-roofed and thatched houses on a hillside around a narrow harbor full of wooden fishing boats, green hills behind, southern coast and the harbor below, one marine with binoculars, a taegukgi flag on a pole, August 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "crest_wait": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean marines whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1950 M1 steel helmets and plain olive drab herringbone field uniforms with absolutely NO collar tabs, NO patches, NO red insignia lying silently in shallow foxholes along a hill crest at early morning, rifles aimed down the grassy slope, one marine raising a hand to hold fire, tense silence, August 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "mangil_ambush": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean marines whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1950 M1 steel helmets and plain olive drab herringbone field uniforms with absolutely NO collar tabs, NO patches, NO red insignia firing down from a hill crest at a group of North Korean soldiers whose heads are round balls painted as the North Korean flag (blue, red and white stripes with a red star), wearing 1950 olive-brown uniforms and soft field caps climbing the slope below, muzzle flashes, the enemy soldiers scattering and tumbling down the slope, harbor town in the background, August 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "boy_soldier": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a very young boy soldier whose head is a round ball painted as the North Korean flag, wearing an oversized 1950 olive-brown uniform and soft cap, sitting on the ground exhausted and frightened after surrendering, a South Korean marine whose head is a round ball painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing a 1950 M1 steel helmet and a plain olive drab herringbone field uniform with absolutely NO collar tabs, NO patches, NO red insignia kneeling and offering him a canteen of water, somber and humane mood, August 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "street_fight": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean marines whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1950 M1 steel helmets and plain olive drab herringbone field uniforms with absolutely NO collar tabs, NO patches, NO red insignia advancing carefully through a narrow alley between tile-roofed houses of a harbor town, one marine peeking around a stone wall corner with a rifle, smoke in the street, August 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "shrine_pass": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean marines whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1950 M1 steel helmets and plain olive drab herringbone field uniforms with absolutely NO collar tabs, NO patches, NO red insignia walking carefully past the old wooden gate and stone steps of a traditional Korean Joseon-era shrine in a harbor town, rifles lowered, one marine signaling the others not to fire, respectful mood, August 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "jeep_escape": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a military jeep full of panicked North Korean officers whose heads are round balls painted as the North Korean flag, abandoned and stopped askew on a dusty mountain pass road with bullet holes in the windshield, the officers jumping out and running into a tall sorghum field beside the road, August 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "boats_sunk": "A small grey 1950 South Korean navy minesweeper firing its deck gun at three small wooden fishing boats fleeing across a calm bay at dusk, one boat sinking and splintering, water splashes, painterly realistic digital illustration, cinematic, desaturated summer palette, film grain, no text, no letters.",
+  "town_liberated": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean marines whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1950 M1 steel helmets and plain olive drab herringbone field uniforms with absolutely NO collar tabs, NO patches, NO red insignia walking down the main street of a small 1950 Korean harbor town of dark tile-roofed and thatched houses on a hillside around a narrow harbor full of wooden fishing boats, green hills behind, southern coast while relieved Korean villagers whose heads are round balls painted as the South Korean taegukgi flag, wearing white 1950 hanbok work clothes come out of their houses waving small taegukgi flags, morning light, August 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "trench_wait": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean marines whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1950 M1 steel helmets and plain olive drab herringbone field uniforms with absolutely NO collar tabs, NO patches, NO red insignia crouching in a dug-in trench on a mountain pass, holding fire and waiting with grim faces as enemy soldiers creep closer up the slope below, a few grenades lined up on the parapet, dusk, August 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "pass_defense": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean marines whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1950 M1 steel helmets and plain olive drab herringbone field uniforms with absolutely NO collar tabs, NO patches, NO red insignia in trenches on a mountain pass throwing grenades and firing rifles down at waves of North Korean soldiers whose heads are round balls painted as the North Korean flag (blue, red and white stripes with a red star), wearing 1950 olive-brown uniforms and soft field caps charging up the slope along a dirt road, explosions and dust, dusk, August 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "coast_creep": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: North Korean soldiers whose heads are round balls painted as the North Korean flag (blue, red and white stripes with a red star), wearing 1950 olive-brown uniforms and soft field caps creeping at night along a rocky shoreline below a dark hill, crouching low between rocks at the water's edge, a parachute flare suddenly lighting them up from above, August 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "memorial": "A modern granite war memorial monument with a bronze statue of soldiers on a small green park on a hill pass beside a road in a Korean coastal city, bouquets of white chrysanthemums laid in front, soft evening light, no readable text, no letters, painterly realistic, cinematic.",
+  "temple_dusk": "A small quiet Korean Buddhist temple hall on a wooded hillside at dusk, lanterns glowing, incense smoke, the sea faintly visible below, peaceful and solemn, painterly realistic digital illustration, no text, no letters.",
+  "thumb_subject": "Photorealistic black-and-white 1950 Korean War documentary portrait of a young South Korean marine, clearly East Asian Korean face with black hair, M1 steel helmet with chin strap, plain herringbone field uniform with no insignia, sweat and dust on his face, fierce determined eyes, rifle sling on shoulder, waist-up, face clearly visible and turned slightly toward the left of the frame, isolated on a plain pure white background, no shadows on the background, no text.",
+  "jige_porters": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Korean civilian porters whose heads are round balls painted as the South Korean taegukgi flag, wearing white 1950 hanbok work clothes, carrying wooden A-frame backpacks (jige) loaded with ammunition boxes and rice sacks up a steep mountain trail in summer heat, soldiers above on the ridge, sweat and determination, cinematic, no text, no letters.",
+  "comrades_graves": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean marines whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1951 M1 steel helmets with camouflage netting and olive drab herringbone summer field uniforms kneeling in silence beside simple fresh graves dug near a trench on a misty mountain ridge, helmets and rifles with bayonets planted as markers, one marine with head bowed holding a fallen comrade's helmet, soft grey light, somber mood, June 1951 Korea, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "summit_dawn": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean marines whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1951 M1 steel helmets with camouflage netting and olive drab herringbone summer field uniforms standing exhausted but victorious on the rocky summit of a high Korean mountain at sunrise, one marine planting a South Korean taegukgi flag on a pole between the boulders, the fog clearing below to reveal a sea of mountain ridges, golden dawn light, June 19 1951, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters."
+ },
+ "scenes": [
+  {
+   "id": "s001",
+   "lines": [
+    {
+     "t": "1950년 8월 17일 저녁 6시.",
+     "say": "천구백오십년 팔월 십칠일 저녁 여섯 시."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "naval_feint_dusk",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "1950. 8. 17 · 저녁 6시",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s002",
+   "lines": [
+    "경상남도 통영 앞바다에 작은 함정들이 모여듭니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "south",
+    "to": "peninsula",
+    "items": [
+     {
+      "k": "marker",
+      "p": "tongyeong",
+      "color": "red",
+      "at": 0.3
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.52,
+        34.81
+       ],
+       [
+        128.47,
+        34.835
+       ],
+       [
+        128.44,
+        34.843
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0.5
+     },
+     {
+      "k": "badge",
+      "p": [
+       128.5,
+       34.82
+      ],
+      "text": "해군 함정",
+      "color": "#2e66d8",
+      "dy": 0,
+      "at": 0.9
+     }
+    ],
+    "demSea": true,
+    "flight": [
+     "south",
+     "peninsula"
+    ],
+    "flightDur": 3.0
+   },
+   "sfx": [
+    {
+     "id": "whoosh",
+     "at": 0
+    }
+   ]
+  },
+  {
+   "id": "s003",
+   "lines": [
+    "함정들이 통영항을 향해 포를 쏘기 시작합니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "peninsula",
+    "to": "peninsula",
+    "items": [
+     {
+      "k": "marker",
+      "p": "tongyeong",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "shock",
+      "pts": [
+       [
+        128.424,
+        34.843
+       ],
+       [
+        128.432,
+        34.847
+       ],
+       [
+        128.419,
+        34.848
+       ],
+       [
+        128.428,
+        34.851
+       ]
+      ],
+      "at": 0.2,
+      "period": 0.6
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.52,
+        34.81
+       ],
+       [
+        128.47,
+        34.835
+       ],
+       [
+        128.44,
+        34.843
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0
+     }
+    ],
+    "demSea": true,
+    "tilt": 26
+   },
+   "callouts": [
+    {
+     "text": "통영항 · 양동 포격",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s004",
+   "lines": [
+    "적의 눈과 귀가 모두 항구 쪽으로 쏠립니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "nk_shock",
+      "x": 0.62,
+      "y": 0.9,
+      "h": 480,
+      "at": 0,
+      "flip": true,
+      "face": "sweat",
+      "prop": "nkcap",
+      "anim": "shake"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "ex",
+      "x": 0.3,
+      "y": 0.32,
+      "on": "항구"
+     },
+     {
+      "kind": "label",
+      "x": 0.62,
+      "y": 0.17,
+      "text": "항구 쪽이다!",
+      "on": "쏠립니다",
+      "color": "red"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s005",
+   "lines": [
+    "바로 그때 반대편 조용한 해안에 배 한 척이 소리 없이 다가옵니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "neck",
+    "to": "neck",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.51,
+        34.89
+       ],
+       [
+        128.48,
+        34.881
+       ],
+       [
+        128.452,
+        34.876
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0.3
+     },
+     {
+      "k": "badge",
+      "p": "jangpyeong",
+      "text": "반대편 조용한 해안",
+      "color": "#2e66d8",
+      "dy": -70,
+      "at": 0.8
+     }
+    ],
+    "demSea": true,
+    "tilt": 30,
+    "hud": true
+   },
+   "sfx": [
+    {
+     "id": "water",
+     "at": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s006",
+   "lines": [
+    "배에서 뛰어내린 것은 대한민국 해병대였습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "landing_dusk",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "대한민국 해병대",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s007",
+   "lines": [
+    "그런데 이상한 점이 하나 있습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "그런데",
+    "accent": "이상한 점 하나",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s008",
+   "lines": [
+    "이들이 받은 명령은 통영이 아니었거든요."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "받은 명령은",
+    "accent": "통영이 아니었다",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s009",
+   "lines": [
+    "상부의 명령은 분명했습니다.",
+    "통영은 포기하고 거제도를 지켜라."
+   ],
+   "visual": {
+    "type": "document",
+    "org": "해군 지휘부",
+    "head": "작전 명령",
+    "rows": [
+     "통영은 포기한다",
+     "거제도를 지켜라"
+    ],
+    "stamp": "命令",
+    "note": "재구성 · 내용 요약"
+   }
+  },
+  {
+   "id": "s010",
+   "lines": [
+    "그런데 이 해병들은 명령받은 거제도가 아니라 적이 점령한 통영으로 뛰어들었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "south",
+    "to": "south",
+    "items": [
+     {
+      "k": "marker",
+      "p": "geoje",
+      "color": "blue",
+      "text": "명령: 거제도",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "tongyeong",
+      "color": "red",
+      "text": "적 점령: 통영",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.6,
+        34.86
+       ],
+       [
+        128.52,
+        34.86
+       ],
+       [
+        128.45,
+        34.86
+       ]
+      ],
+      "color": "blue",
+      "width": 1.2,
+      "on": "통영으로"
+     }
+    ],
+    "demSea": true
+   }
+  },
+  {
+   "id": "s011",
+   "lines": [
+    {
+     "t": "병력은 대대급 300여 명.",
+     "say": "병력은 대대급 삼백여 명."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "대대급 300여 명",
+    "style": "yellow",
+    "sub": "김성은 부대 · 기록에 따라 330명 등",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s012",
+   "lines": [
+    "한국군이 단 한 번도 혼자서 해 본 적 없는 상륙작전이었죠."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "kr_salute",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 500,
+      "at": 0,
+      "face": "determined",
+      "prop": "helmet"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.16,
+      "text": "한국군 첫 단독 상륙작전",
+      "on": "혼자서",
+      "color": "yellow"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s013",
+   "lines": [
+    "상대는 남쪽 끝까지 거침없이 밀고 내려온 북한군이었습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "nk_column_coast",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s014",
+   "lines": [
+    "그런데 결과는 놀라웠습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "그런데",
+    "accent": "결과는 놀라웠다",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s015",
+   "lines": [
+    "해병대는 이틀 만에 통영을 되찾습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "town",
+    "to": "town",
+    "items": [
+     {
+      "k": "marker",
+      "p": "tongyeong",
+      "color": "blue",
+      "at": 0.1
+     },
+     {
+      "k": "obj",
+      "n": 1,
+      "p": "mangil",
+      "text": "망일봉",
+      "at": 0,
+      "takenAt": 0.5
+     }
+    ],
+    "demSea": true,
+    "tilt": 24
+   },
+   "callouts": [
+    {
+     "text": "이틀 만에 탈환",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s016",
+   "lines": [
+    "그리고 한 달 넘게 단 한 번도 다시 내주지 않았습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "한 달 넘게 사수",
+    "style": "blue",
+    "sub": "1950. 8. 17 ~ 9. 22",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s017",
+   "lines": [
+    "이 전투가 끝난 뒤 한 외국인 기자가 이런 말을 남겼다고 전해집니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s017-photo",
+    "tag": "공개 자료 사진"
+   },
+   "label": "종군기자 마거리트 히긴스 (한국전쟁 당시)"
+  },
+  {
+   "id": "s018",
+   "lines": [
+    "귀신도 잡을 해병."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "귀신도 잡을 해병",
+    "style": "red"
+   }
+  },
+  {
+   "id": "s019",
+   "lines": [
+    "도대체 이들은 왜 명령과 다른 길을 택했을까요."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "kr_shrug",
+      "x": 0.4,
+      "y": 0.9,
+      "h": 460,
+      "at": 0,
+      "face": "worried",
+      "prop": "helmet"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "q",
+      "x": 0.68,
+      "y": 0.32,
+      "at": 0.2,
+      "size": 220
+     }
+    ],
+    "title": "왜 명령과 다른 길을?"
+   }
+  },
+  {
+   "id": "s020",
+   "lines": [
+    {
+     "t": "그리고 300여 명은 어떻게 통영의 적을 독 안에 가둘 수 있었을까요.",
+     "say": "그리고 삼백여 명은 어떻게 통영의 적을 독 안에 가둘 수 있었을까요."
+    }
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "nk_plead",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 440,
+      "at": 0,
+      "face": "tears",
+      "prop": "nkcap",
+      "anim": "shake"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.16,
+      "text": "독 안에 갇힌 적?",
+      "on": "독 안에",
+      "color": "red"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s021",
+   "lines": [
+    "그 답은 지도 위의 좁은 고개 하나에 숨어 있습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "peninsula",
+    "to": "neck",
+    "items": [
+     {
+      "k": "lock",
+      "p": "wonmun",
+      "text": "원문고개",
+      "at": 0.6
+     }
+    ],
+    "demSea": true,
+    "flight": [
+     "peninsula",
+     "neck"
+    ],
+    "flightDur": 2.6,
+    "hud": true
+   },
+   "sfx": [
+    {
+     "id": "whoosh",
+     "at": 0
+    },
+    {
+     "id": "ping",
+     "at": 0.7
+    }
+   ]
+  },
+  {
+   "id": "s022",
+   "lines": [
+    "원문고개."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "neck",
+    "to": "neck",
+    "items": [
+     {
+      "k": "lock",
+      "p": "wonmun",
+      "text": "원문고개",
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "wonmun",
+      "text": "원문고개",
+      "color": "#c9242c",
+      "dy": -110,
+      "at": 0.2
+     }
+    ],
+    "demSea": true,
+    "tilt": 36
+   }
+  },
+  {
+   "id": "s023",
+   "lines": [
+    "이 고개가 왜 모든 것을 갈랐는지 끝까지 보시면 알게 됩니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "이 고개가 왜 모든 것을 갈랐는지",
+    "accent": "끝까지 보시면 알게 됩니다",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s024",
+   "lines": [
+    "격전의 지도 오늘은 통영상륙작전입니다."
+   ],
+   "visual": {
+    "type": "titlecard",
+    "title": "통영상륙작전",
+    "sub": "귀신 잡는 해병의 탄생 · 1950",
+    "at": 0,
+    "q": "s024-photo"
+   },
+   "flash": true
+  },
+  {
+   "id": "s025",
+   "lines": [
+    "시간을 조금 되돌려 보겠습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s025-photo",
+    "tag": "미 육군 사진 · 1950. 8"
+   },
+   "label": "낙동강 방어선의 미군 포병 (1950. 8)",
+   "chapter": {
+    "num": "제1막",
+    "title": "반도의 목을 노려라"
+   }
+  },
+  {
+   "id": "s026",
+   "lines": [
+    {
+     "t": "1950년 8월 대한민국은 벼랑 끝에 서 있었습니다.",
+     "say": "천구백오십년 팔월 대한민국은 벼랑 끝에 서 있었습니다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s026-photo",
+    "tag": "6·25전쟁 기록 사진"
+   },
+   "label": "김해·마산 사이 전투지를 빠져나온 피란민 가족"
+  },
+  {
+   "id": "s027",
+   "lines": [
+    "전쟁이 터진 지 두 달도 안 돼 국군과 유엔군은 낙동강까지 밀려 내려왔죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "perimeter",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.36,
+        35.04
+       ],
+       [
+        128.38,
+        35.25
+       ],
+       [
+        128.45,
+        35.4
+       ],
+       [
+        128.42,
+        35.6
+       ],
+       [
+        128.38,
+        35.85
+       ],
+       [
+        128.42,
+        36.02
+       ],
+       [
+        128.62,
+        36.12
+       ],
+       [
+        128.95,
+        36.16
+       ],
+       [
+        129.3,
+        36.2
+       ],
+       [
+        129.42,
+        36.12
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.0,
+        37.4
+       ],
+       [
+        127.5,
+        36.6
+       ],
+       [
+        128.1,
+        35.95
+       ]
+      ],
+      "color": "red",
+      "width": 1.3,
+      "at": 0.2
+     }
+    ],
+    "flight": [
+     "korea",
+     "perimeter"
+    ],
+    "flightDur": 3.0
+   },
+   "callouts": [
+    {
+     "text": "1950년 8월 · 낙동강까지",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "whoosh",
+     "at": 0
+    }
+   ]
+  },
+  {
+   "id": "s028",
+   "lines": [
+    "남은 땅은 부산을 둘러싼 작은 사각형 하나뿐이었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "perimeter",
+    "to": "perimeter",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.36,
+        35.04
+       ],
+       [
+        128.38,
+        35.25
+       ],
+       [
+        128.45,
+        35.4
+       ],
+       [
+        128.42,
+        35.6
+       ],
+       [
+        128.38,
+        35.85
+       ],
+       [
+        128.42,
+        36.02
+       ],
+       [
+        128.62,
+        36.12
+       ],
+       [
+        128.95,
+        36.16
+       ],
+       [
+        129.3,
+        36.2
+       ],
+       [
+        129.42,
+        36.12
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "busan",
+      "color": "blue",
+      "on": "부산을"
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "부산을 둘러싼 마지막 땅 · 위치 개략",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s029",
+   "lines": [
+    "정부도 서울과 대전을 떠나 부산으로 내려와 있었죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "임시 수도 부산",
+    "style": "yellow",
+    "sub": "1950년 8월 · 정부 부산 이전",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s030",
+   "lines": [
+    "부산이 무너지면 대한민국도 끝이었습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "부산이 무너지면",
+    "accent": "대한민국도 끝",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s031",
+   "lines": [
+    "이것이 바로 낙동강 방어선입니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "perimeter",
+    "to": "perimeter",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.36,
+        35.04
+       ],
+       [
+        128.38,
+        35.25
+       ],
+       [
+        128.45,
+        35.4
+       ],
+       [
+        128.42,
+        35.6
+       ],
+       [
+        128.38,
+        35.85
+       ],
+       [
+        128.42,
+        36.02
+       ],
+       [
+        128.62,
+        36.12
+       ],
+       [
+        128.95,
+        36.16
+       ],
+       [
+        129.3,
+        36.2
+       ],
+       [
+        129.42,
+        36.12
+       ]
+      ],
+      "at": 0,
+      "glow": true
+     },
+     {
+      "k": "badge",
+      "p": [
+       128.42,
+       35.55
+      ],
+      "text": "낙동강 방어선",
+      "color": "#2e66d8",
+      "dy": 0,
+      "at": 0.3
+     }
+    ],
+    "tilt": 22
+   }
+  },
+  {
+   "id": "s032",
+   "lines": [
+    "북쪽과 동쪽에서는 매일같이 혈전이 벌어지고 있었습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s032-photo",
+    "tag": "미 육군 통신대 사진"
+   },
+   "label": "안동 북쪽 고지로 오르는 국군 (1950. 8. 6)"
+  },
+  {
+   "id": "s033",
+   "lines": [
+    "그런데 진짜 위험한 곳은 따로 있었습니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "kr_shock",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 460,
+      "at": 0,
+      "face": "worried",
+      "prop": "helmet"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "ex",
+      "x": 0.75,
+      "y": 0.3,
+      "on": "따로"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s034",
+   "lines": [
+    "방어선의 서남쪽 끝 마산이었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "perimeter",
+    "to": "sw",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.36,
+        35.04
+       ],
+       [
+        128.38,
+        35.25
+       ],
+       [
+        128.45,
+        35.4
+       ],
+       [
+        128.42,
+        35.6
+       ],
+       [
+        128.38,
+        35.85
+       ],
+       [
+        128.42,
+        36.02
+       ],
+       [
+        128.62,
+        36.12
+       ],
+       [
+        128.95,
+        36.16
+       ],
+       [
+        129.3,
+        36.2
+       ],
+       [
+        129.42,
+        36.12
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "lock",
+      "p": "masan",
+      "text": "마산",
+      "at": 0.8
+     }
+    ],
+    "flight": [
+     "perimeter",
+     "sw"
+    ],
+    "flightDur": 2.4
+   },
+   "sfx": [
+    {
+     "id": "ping",
+     "at": 0.9
+    }
+   ]
+  },
+  {
+   "id": "s035",
+   "lines": [
+    "마산을 넘으면 부산까지는 그야말로 코앞이었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "sw",
+    "to": "sw",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.36,
+        35.04
+       ],
+       [
+        128.38,
+        35.25
+       ],
+       [
+        128.45,
+        35.4
+       ],
+       [
+        128.42,
+        35.6
+       ],
+       [
+        128.38,
+        35.85
+       ],
+       [
+        128.42,
+        36.02
+       ],
+       [
+        128.62,
+        36.12
+       ],
+       [
+        128.95,
+        36.16
+       ],
+       [
+        129.3,
+        36.2
+       ],
+       [
+        129.42,
+        36.12
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "masan",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "busan",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.57,
+        35.21
+       ],
+       [
+        128.8,
+        35.2
+       ],
+       [
+        129.0,
+        35.18
+       ]
+      ],
+      "color": "red",
+      "width": 1.0,
+      "at": 0.3
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "마산 → 부산",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s036",
+   "lines": [
+    "그래서 미군은 이곳에 병력을 집중했습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s036-photo",
+    "tag": "미 해병대 사진"
+   },
+   "label": "낙동강 방어선의 미 해병대 (1950. 8)"
+  },
+  {
+   "id": "s037",
+   "lines": [
+    "북한군은 마산을 뚫기 위해 계속 공격을 퍼부었습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s037-photo",
+    "tag": "미 육군 통신대 사진"
+   },
+   "label": "마산 지역에서 응사하는 미군 박격포 (1950)"
+  },
+  {
+   "id": "s038",
+   "lines": [
+    "하지만 마산 서쪽 진동리에서 국군과 미군이 버텨 내자 북한군은 길을 바꿉니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "sw",
+    "to": "sw",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.36,
+        35.04
+       ],
+       [
+        128.38,
+        35.25
+       ],
+       [
+        128.45,
+        35.4
+       ],
+       [
+        128.42,
+        35.6
+       ],
+       [
+        128.38,
+        35.85
+       ],
+       [
+        128.42,
+        36.02
+       ],
+       [
+        128.62,
+        36.12
+       ],
+       [
+        128.95,
+        36.16
+       ],
+       [
+        129.3,
+        36.2
+       ],
+       [
+        129.42,
+        36.12
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "jindong",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.25,
+        35.15
+       ],
+       [
+        128.38,
+        35.12
+       ],
+       [
+        128.45,
+        35.11
+       ]
+      ],
+      "color": "red",
+      "width": 1.0,
+      "at": 0.1
+     },
+     {
+      "k": "clash",
+      "p": "jindong",
+      "at": 0.5,
+      "period": 0.9,
+      "size": 1.0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "진동리에서 막힌 북한군 · 위치 개략",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s039",
+   "lines": [
+    "정면이 막히면 옆으로 돌아간다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "nk_point",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 480,
+      "at": 0,
+      "face": "smug",
+      "prop": "nkcap",
+      "anim": "bounce"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.16,
+      "text": "정면이 막히면 옆으로!",
+      "at": 0.2,
+      "color": "red"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s040",
+   "lines": [
+    "북한군 부대 일부가 고성을 거쳐 남쪽 바닷가로 내려오기 시작했습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "sw",
+    "to": "south",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.36,
+        35.04
+       ],
+       [
+        128.38,
+        35.25
+       ],
+       [
+        128.45,
+        35.4
+       ],
+       [
+        128.42,
+        35.6
+       ],
+       [
+        128.38,
+        35.85
+       ],
+       [
+        128.42,
+        36.02
+       ],
+       [
+        128.62,
+        36.12
+       ],
+       [
+        128.95,
+        36.16
+       ],
+       [
+        129.3,
+        36.2
+       ],
+       [
+        129.42,
+        36.12
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.3,
+        35.12
+       ],
+       [
+        128.3,
+        35.03
+       ],
+       [
+        128.322,
+        34.973
+       ],
+       [
+        128.39,
+        34.9
+       ]
+      ],
+      "color": "red",
+      "width": 1.1,
+      "at": 0.2
+     }
+    ],
+    "flight": [
+     "sw",
+     "south"
+    ],
+    "flightDur": 2.6
+   },
+   "callouts": [
+    {
+     "text": "고성을 거쳐 남쪽 바닷가로",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s041",
+   "lines": [
+    "목표는 남해안의 항구 도시 통영이었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "south",
+    "to": "south",
+    "items": [
+     {
+      "k": "marker",
+      "p": "goseong",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "lock",
+      "p": "tongyeong",
+      "text": "통영",
+      "at": 0.3,
+      "color": "#c9242c"
+     }
+    ],
+    "demSea": true
+   },
+   "sfx": [
+    {
+     "id": "ping",
+     "at": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s042",
+   "lines": [
+    "전선의 가장 끝 바닷가라 지키는 병력이 거의 없던 곳이었죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "tongyeong_1950",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "지키는 병력이 거의 없던 항구",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s043",
+   "lines": [
+    "통영은 지도로 보면 바다로 불쑥 튀어나온 반도 끝에 있습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "peninsula",
+    "to": "peninsula",
+    "items": [
+     {
+      "k": "marker",
+      "p": "tongyeong",
+      "color": "red",
+      "at": 0.2
+     }
+    ],
+    "demSea": true,
+    "tilt": 28
+   }
+  },
+  {
+   "id": "s044",
+   "lines": [
+    "마치 사람의 머리처럼 생긴 땅이죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "peninsula",
+    "to": "peninsula",
+    "items": [
+     {
+      "k": "marker",
+      "p": "tongyeong",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": [
+       128.43,
+       34.85
+      ],
+      "text": "머리",
+      "color": "#111",
+      "dy": 0,
+      "on": "머리처럼"
+     }
+    ],
+    "demSea": true,
+    "tilt": 28
+   }
+  },
+  {
+   "id": "s045",
+   "lines": [
+    "그리고 그 머리와 몸통을 잇는 가느다란 목이 있습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "peninsula",
+    "to": "peninsula",
+    "items": [
+     {
+      "k": "badge",
+      "p": [
+       128.43,
+       34.85
+      ],
+      "text": "머리",
+      "color": "#111",
+      "dy": 0,
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": [
+       128.41,
+       34.9
+      ],
+      "text": "몸통",
+      "color": "#111",
+      "dy": 0,
+      "on": "몸통을"
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        128.405,
+        34.879
+       ],
+       [
+        128.418,
+        34.877
+       ],
+       [
+        128.436,
+        34.874
+       ]
+      ],
+      "color": "#2e9bff",
+      "glow": true,
+      "on": "목이"
+     }
+    ],
+    "demSea": true,
+    "tilt": 28
+   }
+  },
+  {
+   "id": "s046",
+   "lines": [
+    "그 목을 지나는 고개가 바로 원문고개였습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "neck",
+    "to": "neck",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.405,
+        34.879
+       ],
+       [
+        128.418,
+        34.877
+       ],
+       [
+        128.436,
+        34.874
+       ]
+      ],
+      "color": "#2e9bff",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "lock",
+      "p": "wonmun",
+      "text": "원문고개",
+      "at": 0.4
+     }
+    ],
+    "demSea": true,
+    "tilt": 34,
+    "hud": true
+   },
+   "sfx": [
+    {
+     "id": "ping",
+     "at": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s047",
+   "lines": [
+    "통영을 쥐면 바로 앞의 거제도도 넘볼 수 있었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "south",
+    "to": "south",
+    "items": [
+     {
+      "k": "marker",
+      "p": "tongyeong",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.45,
+        34.86
+       ],
+       [
+        128.53,
+        34.87
+       ],
+       [
+        128.6,
+        34.88
+       ]
+      ],
+      "color": "red",
+      "width": 1.0,
+      "at": 0.3
+     }
+    ],
+    "demSea": true
+   },
+   "callouts": [
+    {
+     "text": "통영 → 거제도",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s048",
+   "lines": [
+    "그리고 바다 건너에는 해군의 심장 진해 기지가 있었죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s048-photo",
+    "tag": "미 해군 사진 · 1951"
+   },
+   "label": "진해의 한국 해군 수병 (1951)"
+  },
+  {
+   "id": "s049",
+   "lines": [
+    "진해와 마산의 바닷길이 막히면 부산으로 가는 남쪽 문이 흔들립니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "sw",
+    "to": "sw",
+    "items": [
+     {
+      "k": "marker",
+      "p": "jinhae",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "masan",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "busan",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.45,
+        34.87
+       ],
+       [
+        128.6,
+        35.0
+       ],
+       [
+        128.7,
+        35.12
+       ]
+      ],
+      "color": "red",
+      "width": 1.0,
+      "at": 0.3
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "남쪽 바닷길이 흔들린다",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s050",
+   "lines": [
+    {
+     "t": "8월 중순 북한군은 결국 통영 시내로 밀고 들어옵니다.",
+     "say": "팔월 중순 북한군은 결국 통영 시내로 밀고 들어옵니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "peninsula",
+    "to": "peninsula",
+    "items": [
+     {
+      "k": "swarm",
+      "path": [
+       [
+        128.322,
+        34.973
+       ],
+       [
+        128.37,
+        34.93
+       ],
+       [
+        128.405,
+        34.892
+       ],
+       [
+        128.418,
+        34.877
+       ],
+       [
+        128.424,
+        34.855
+       ]
+      ],
+      "at": 0.1,
+      "n": 120
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.322,
+        34.973
+       ],
+       [
+        128.37,
+        34.93
+       ],
+       [
+        128.405,
+        34.892
+       ],
+       [
+        128.418,
+        34.877
+       ],
+       [
+        128.424,
+        34.855
+       ]
+      ],
+      "color": "red",
+      "width": 1.0,
+      "at": 0.3
+     }
+    ],
+    "demSea": true,
+    "tilt": 26
+   },
+   "callouts": [
+    {
+     "text": "8월 중순 · 통영 진입",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s051",
+   "lines": [
+    "통영에는 적을 막을 만한 병력이 거의 없었습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "tongyeong_occupied",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s052",
+   "lines": [
+    "통영은 그렇게 적의 손에 넘어갔습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "통영 함락",
+    "style": "red",
+    "sub": "1950년 8월 중순",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s053",
+   "lines": [
+    "이 위기에 불려 나온 부대가 있었습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s053-photo",
+    "tag": "미 육군 통신대 사진"
+   },
+   "label": "태극기를 들고 이동하는 한국 해병대 (1950. 9. 20)",
+   "pauseBefore": 0.5,
+   "chapter": {
+    "num": "제2막",
+    "title": "창설 1년 4개월의 해병대"
+   }
+  },
+  {
+   "id": "s054",
+   "lines": [
+    "바로 대한민국 해병대였습니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "kr_salute",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 520,
+      "at": 0,
+      "face": "smug",
+      "prop": "helmet"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.15,
+      "text": "대한민국 해병대",
+      "at": 0.1,
+      "color": "blue"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s055",
+   "lines": [
+    "그런데 이 해병대는 아주 젊은 군대였습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "아주 젊은 군대",
+    "style": "yellow"
+   }
+  },
+  {
+   "id": "s056",
+   "lines": [
+    {
+     "t": "창설된 것은 1949년 4월 15일.",
+     "say": "창설된 것은 천구백사십구년 사월 십오일."
+    },
+    "경상남도 진해의 덕산 비행장에서였죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "1949. 4. 15 창설",
+    "style": "blue",
+    "sub": "경상남도 진해 덕산 비행장",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s057",
+   "lines": [
+    {
+     "t": "처음 모인 인원은 장교와 병사를 합쳐 400명 남짓이었습니다.",
+     "say": "처음 모인 인원은 장교와 병사를 합쳐 사백 명 남짓이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "약 400명",
+    "style": "yellow",
+    "sub": "창설 당시 장교·병사 합계",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s058",
+   "lines": [
+    {
+     "t": "전쟁이 터졌을 때 창설된 지 겨우 1년 2개월이었습니다.",
+     "say": "전쟁이 터졌을 때 창설된 지 겨우 일 년 이 개월이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "창설 1년 2개월 만에 전쟁",
+    "style": "red"
+   }
+  },
+  {
+   "id": "s059",
+   "lines": [
+    "해병대라는 이름은 있었지만 상륙작전은 한 번도 해 본 적이 없었죠.",
+    "상륙함도 없고 상륙 장갑차도 없었습니다."
+   ],
+   "visual": {
+    "type": "checklist",
+    "title": "1950년 6월의 해병대",
+    "items": [
+     {
+      "text": "상륙작전 경험",
+      "on": "상륙작전은",
+      "checkOn": "없었죠",
+      "bad": true
+     },
+     {
+      "text": "상륙함",
+      "on": "상륙함도",
+      "checkOn": "상륙함도",
+      "bad": true
+     },
+     {
+      "text": "상륙 장갑차",
+      "on": "장갑차도",
+      "checkOn": "없었습니다",
+      "bad": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "s060",
+   "lines": [
+    "그런 해병대를 이끈 지휘관이 김성은이었습니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "kr_point",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 480,
+      "at": 0,
+      "face": "determined",
+      "prop": "officer"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.15,
+      "text": "지휘관 김성은",
+      "on": "김성은",
+      "color": "dark"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s061",
+   "lines": [
+    "해병대 창설 때부터 함께한 이십 대 젊은 장교였죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "김성은",
+    "style": "blue",
+    "sub": "해병대 창설 멤버 · 1924년생",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s062",
+   "lines": [
+    "그가 이끄는 대대급 부대를 사람들은 김성은 부대라고 불렀습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s062-photo",
+    "tag": "미 육군 통신대 사진"
+   },
+   "label": "상륙 장갑차에 오르는 한국 해병대 (1950. 9)"
+  },
+  {
+   "id": "s063",
+   "lines": [
+    "김성은 부대는 통영에 오기 직전 큰 싸움을 치르고 왔습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "통영 직전",
+    "accent": "큰 싸움",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s064",
+   "lines": [
+    {
+     "t": "8월 초 마산 서쪽 진동리 전투였습니다.",
+     "say": "팔월 초 마산 서쪽 진동리 전투였습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "sw",
+    "to": "sw",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.36,
+        35.04
+       ],
+       [
+        128.38,
+        35.25
+       ],
+       [
+        128.45,
+        35.4
+       ],
+       [
+        128.42,
+        35.6
+       ],
+       [
+        128.38,
+        35.85
+       ],
+       [
+        128.42,
+        36.02
+       ],
+       [
+        128.62,
+        36.12
+       ],
+       [
+        128.95,
+        36.16
+       ],
+       [
+        129.3,
+        36.2
+       ],
+       [
+        129.42,
+        36.12
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "lock",
+      "p": "jindong",
+      "text": "진동리",
+      "at": 0.3
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "8월 초 · 진동리 전투",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "ping",
+     "at": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s065",
+   "lines": [
+    "미군 부대와 함께 북한군 정찰대를 매복으로 크게 무찔렀죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "jindong_ambush",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s066",
+   "lines": [
+    "이 공으로 김성은 부대장은 한 계급 특진합니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "kr_salute",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 500,
+      "at": 0,
+      "face": "smug",
+      "prop": "officer+medal"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.15,
+      "text": "1계급 특진",
+      "on": "특진",
+      "color": "yellow"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s067",
+   "lines": [
+    "그래서 통영 작전 때 계급은 대령이었습니다.",
+    "중령으로 적은 자료도 많지만 특진 기록을 따르면 대령입니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "대령 김성은",
+    "style": "yellow",
+    "sub": "중령으로 적은 자료도 있음 · 8월 초 특진 기록 기준",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s068",
+   "lines": [
+    "하지만 쉴 틈은 없었습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "쉴 틈은",
+    "accent": "없었다",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s069",
+   "lines": [
+    {
+     "t": "8월 16일 해군 지휘부에 다급한 소식이 들어옵니다.",
+     "say": "팔월 십육일 해군 지휘부에 다급한 소식이 들어옵니다."
+    }
+   ],
+   "visual": {
+    "type": "document",
+    "org": "해군 지휘부",
+    "head": "긴급 보고",
+    "rows": [
+     "북한군 통영 진입",
+     "다음 목표는 거제도?"
+    ],
+    "stamp": "緊急",
+    "note": "재구성 · 내용 요약"
+   }
+  },
+  {
+   "id": "s070",
+   "lines": [
+    "북한군이 통영에 들어왔다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "peninsula",
+    "to": "peninsula",
+    "items": [
+     {
+      "k": "unit",
+      "p": "tongyeong",
+      "text": "북한군",
+      "color": "red",
+      "pulse": true,
+      "at": 0.1
+     }
+    ],
+    "demSea": true,
+    "tilt": 24
+   }
+  },
+  {
+   "id": "s071",
+   "lines": [
+    "다음 차례는 바로 앞의 거제도였죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "south",
+    "to": "south",
+    "items": [
+     {
+      "k": "marker",
+      "p": "tongyeong",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.45,
+        34.86
+       ],
+       [
+        128.53,
+        34.87
+       ],
+       [
+        128.6,
+        34.88
+       ]
+      ],
+      "color": "red",
+      "width": 1.0,
+      "at": 0.2
+     },
+     {
+      "k": "badge",
+      "p": "geoje",
+      "text": "거제도?",
+      "color": "#c9242c",
+      "dy": -60,
+      "at": 0.6
+     }
+    ],
+    "demSea": true
+   }
+  },
+  {
+   "id": "s072",
+   "lines": [
+    "거제도까지 넘어가면 진해 앞바다가 적의 코앞이 됩니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "sw",
+    "to": "sw",
+    "items": [
+     {
+      "k": "marker",
+      "p": "geoje",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "jinhae",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.62,
+        34.92
+       ],
+       [
+        128.66,
+        35.04
+       ],
+       [
+        128.7,
+        35.12
+       ]
+      ],
+      "color": "red",
+      "width": 1.0,
+      "at": 0.3
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "거제도 → 진해 앞바다",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s073",
+   "lines": [
+    "손원일 해군참모총장은 김성은 부대에 명령을 내립니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s073-photo",
+    "tag": "미 해군 사진 · 1951"
+   },
+   "label": "손원일 해군참모총장 (1951)"
+  },
+  {
+   "id": "s074",
+   "lines": [
+    "거제도로 들어가 적이 바다를 건너오지 못하게 막아라."
+   ],
+   "visual": {
+    "type": "document",
+    "org": "해군참모총장",
+    "head": "작전 명령",
+    "rows": [
+     "김성은 부대는 거제도로 이동",
+     "적이 바다를 건너오지 못하게 막아라"
+    ],
+    "stamp": "命令",
+    "note": "재구성 · 내용 요약"
+   }
+  },
+  {
+   "id": "s075",
+   "lines": [
+    "지극히 상식적인 명령이었습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "상식적인 명령",
+    "style": "dark"
+   }
+  },
+  {
+   "id": "s076",
+   "lines": [
+    "병력은 적고 장비는 모자랐으니까요.",
+    "섬을 지키는 것이 안전한 선택이었습니다."
+   ],
+   "visual": {
+    "type": "checklist",
+    "title": "거제 방어가 안전해 보인 이유",
+    "items": [
+     {
+      "text": "병력이 적다",
+      "on": "병력은",
+      "checkOn": "병력은"
+     },
+     {
+      "text": "장비가 모자라다",
+      "on": "장비는",
+      "checkOn": "모자랐"
+     },
+     {
+      "text": "섬을 지키면 바다가 방패",
+      "on": "섬을",
+      "checkOn": "안전한"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s077",
+   "lines": [
+    {
+     "t": "8월 16일 밤 10시 김성은 부대는 함정에 올라 출동합니다.",
+     "say": "팔월 십육일 밤 열 시 김성은 부대는 함정에 올라 출동합니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "strait_night",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "8. 16 밤 10시 · 출동",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s078",
+   "lines": [
+    "향한 곳은 통영과 거제 사이의 좁은 바다 견내량이었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "south",
+    "to": "strait",
+    "items": [
+     {
+      "k": "marker",
+      "p": "gyeonnae",
+      "color": "blue",
+      "at": 0.6
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.7,
+        34.98
+       ],
+       [
+        128.56,
+        34.93
+       ],
+       [
+        128.47,
+        34.895
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0.3
+     }
+    ],
+    "demSea": true,
+    "flight": [
+     "south",
+     "strait"
+    ],
+    "flightDur": 2.4
+   },
+   "sfx": [
+    {
+     "id": "whoosh",
+     "at": 0
+    }
+   ]
+  },
+  {
+   "id": "s079",
+   "lines": [
+    "견내량은 역사에도 이름이 남은 바다입니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "strait",
+    "to": "strait",
+    "items": [
+     {
+      "k": "badge",
+      "p": "gyeonnae",
+      "text": "견내량",
+      "color": "#2e66d8",
+      "dy": -60,
+      "at": 0.2
+     }
+    ],
+    "demSea": true,
+    "tilt": 28
+   }
+  },
+  {
+   "id": "s080",
+   "lines": [
+    {
+     "t": "358년 전 이순신 장군이 이 좁은 물길에 숨어 있던 왜군 함대를 넓은 바다로 끌어냈죠.",
+     "say": "삼백오십팔 년 전 이순신 장군이 이 좁은 물길에 숨어 있던 왜군 함대를 넓은 바다로 끌어냈죠."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "hansan_1592",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "1592년 · 견내량",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s081",
+   "lines": [
+    "그리고 한산도 앞바다에서 크게 무찔렀습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "strait",
+    "to": "strait",
+    "items": [
+     {
+      "k": "marker",
+      "p": "hansan",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.468,
+        34.892
+       ],
+       [
+        128.49,
+        34.85
+       ],
+       [
+        128.5,
+        34.81
+       ]
+      ],
+      "color": "blue",
+      "width": 1.1,
+      "at": 0.2
+     }
+    ],
+    "demSea": true,
+    "tilt": 24
+   },
+   "callouts": [
+    {
+     "text": "견내량 → 한산도 앞바다",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s082",
+   "lines": [
+    "바로 한산도대첩입니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "한산도대첩",
+    "style": "yellow",
+    "sub": "1592년 · 이순신",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s083",
+   "lines": [
+    "그 바다로 이번에는 해병대가 들어간 겁니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "strait",
+    "to": "strait",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.56,
+        34.93
+       ],
+       [
+        128.5,
+        34.91
+       ],
+       [
+        128.468,
+        34.892
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0.2
+     },
+     {
+      "k": "badge",
+      "p": "gyeonnae",
+      "text": "김성은 부대",
+      "color": "#2e66d8",
+      "dy": -60,
+      "at": 0.7
+     }
+    ],
+    "demSea": true,
+    "tilt": 28
+   }
+  },
+  {
+   "id": "s084",
+   "lines": [
+    {
+     "t": "8월 17일 새벽 3시 부대는 통영반도 동북쪽 앞바다의 작은 섬에 닿습니다.",
+     "say": "팔월 십칠일 새벽 세 시 부대는 통영반도 동북쪽 앞바다의 작은 섬에 닿습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "neck",
+    "to": "neck",
+    "items": [
+     {
+      "k": "badge",
+      "p": [
+       128.445,
+       34.9
+      ],
+      "text": "작은 섬 도착 · 개략",
+      "color": "#2e66d8",
+      "dy": 0,
+      "at": 0.3
+     }
+    ],
+    "demSea": true,
+    "tilt": 26
+   },
+   "callouts": [
+    {
+     "text": "8. 17 새벽 3시",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s085",
+   "lines": [
+    "김성은 부대장은 날이 밝기 전 작은 목선을 빌려 통영 쪽을 살폈습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "recon_boat",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s086",
+   "lines": [
+    "그리고 지도를 들여다보다 한 가지를 깨닫습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "kim_map",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s087",
+   "lines": [
+    "통영반도는 머리가 크고 목이 가는 땅입니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "peninsula",
+    "to": "peninsula",
+    "items": [
+     {
+      "k": "badge",
+      "p": [
+       128.43,
+       34.85
+      ],
+      "text": "머리",
+      "color": "#111",
+      "dy": 0,
+      "on": "머리가"
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        128.405,
+        34.879
+       ],
+       [
+        128.418,
+        34.877
+       ],
+       [
+        128.436,
+        34.874
+       ]
+      ],
+      "color": "#2e9bff",
+      "glow": true,
+      "on": "목이"
+     }
+    ],
+    "demSea": true,
+    "tilt": 26
+   }
+  },
+  {
+   "id": "s088",
+   "lines": [
+    "적이 통영에 들어왔다면 들어온 길도 그 목 하나뿐이죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "peninsula",
+    "to": "peninsula",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.405,
+        34.879
+       ],
+       [
+        128.418,
+        34.877
+       ],
+       [
+        128.436,
+        34.874
+       ]
+      ],
+      "color": "#2e9bff",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.322,
+        34.973
+       ],
+       [
+        128.37,
+        34.93
+       ],
+       [
+        128.405,
+        34.892
+       ],
+       [
+        128.418,
+        34.877
+       ],
+       [
+        128.424,
+        34.855
+       ]
+      ],
+      "color": "red",
+      "width": 1.0,
+      "on": "들어온"
+     }
+    ],
+    "demSea": true,
+    "tilt": 26
+   }
+  },
+  {
+   "id": "s089",
+   "lines": [
+    "나가는 길도 마찬가지로 그 목 하나뿐입니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "peninsula",
+    "to": "peninsula",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.405,
+        34.879
+       ],
+       [
+        128.418,
+        34.877
+       ],
+       [
+        128.436,
+        34.874
+       ]
+      ],
+      "color": "#2e9bff",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.424,
+        34.855
+       ],
+       [
+        128.418,
+        34.877
+       ],
+       [
+        128.405,
+        34.892
+       ],
+       [
+        128.37,
+        34.93
+       ],
+       [
+        128.322,
+        34.973
+       ]
+      ],
+      "color": "red",
+      "width": 0.9,
+      "on": "나가는"
+     }
+    ],
+    "demSea": true,
+    "tilt": 26
+   }
+  },
+  {
+   "id": "s090",
+   "lines": [
+    "그렇다면 그 목을 막으면 어떻게 될까요."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "kr_point",
+      "x": 0.4,
+      "y": 0.9,
+      "h": 480,
+      "at": 0,
+      "face": "determined",
+      "prop": "helmet"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "q",
+      "x": 0.72,
+      "y": 0.3,
+      "on": "막으면"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s091",
+   "lines": [
+    "통영 안의 적은 독 안에 든 쥐가 됩니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "neck",
+    "to": "neck",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.405,
+        34.879
+       ],
+       [
+        128.418,
+        34.877
+       ],
+       [
+        128.436,
+        34.874
+       ]
+      ],
+      "color": "#2e9bff",
+      "glow": true,
+      "at": 0.1
+     },
+     {
+      "k": "lock",
+      "p": "wonmun",
+      "text": "원문고개",
+      "at": 0.2
+     },
+     {
+      "k": "badge",
+      "p": "tongyeong",
+      "text": "독 안의 쥐",
+      "color": "#c9242c",
+      "dy": -60,
+      "on": "독 안에"
+     }
+    ],
+    "demSea": true,
+    "tilt": 30,
+    "hud": true
+   },
+   "sfx": [
+    {
+     "id": "ping",
+     "at": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s092",
+   "lines": [
+    "뒤따라오는 적의 지원군도 들어올 수 없게 되죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "peninsula",
+    "to": "peninsula",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.405,
+        34.879
+       ],
+       [
+        128.418,
+        34.877
+       ],
+       [
+        128.436,
+        34.874
+       ]
+      ],
+      "color": "#2e9bff",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.33,
+        34.96
+       ],
+       [
+        128.38,
+        34.915
+       ],
+       [
+        128.41,
+        34.888
+       ],
+       [
+        128.416,
+        34.88
+       ]
+      ],
+      "color": "red",
+      "width": 1.0,
+      "at": 0.2
+     },
+     {
+      "k": "clash",
+      "p": "wonmun",
+      "at": 0.6,
+      "period": 0.9,
+      "size": 1.0
+     }
+    ],
+    "demSea": true,
+    "tilt": 26
+   },
+   "callouts": [
+    {
+     "text": "뒤따르는 적 지원군 차단",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s093",
+   "lines": [
+    "거제도에서 적이 오기를 기다리는 것보다 이쪽이 훨씬 유리했습니다."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "거제도 방어",
+     "big": "기다리는 싸움",
+     "icon": "none",
+     "color": "dark"
+    },
+    "right": {
+     "title": "통영 상륙",
+     "big": "가두는 싸움",
+     "icon": "none",
+     "color": "blue",
+     "at": 0.6
+    }
+   }
+  },
+  {
+   "id": "s094",
+   "lines": [
+    "문제는 이것이 명령에 없는 공격이라는 점이었습니다."
+   ],
+   "visual": {
+    "type": "reasons",
+    "title": "위험 요소",
+    "items": [
+     {
+      "text": "명령에 없는 공격",
+      "on": "명령에"
+     },
+     {
+      "text": "첫 적전 상륙",
+      "later": true
+     },
+     {
+      "text": "실패하면 고립",
+      "later": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "s095",
+   "lines": [
+    "게다가 한국군 혼자서 해 본 적 없는 적전 상륙이었죠."
+   ],
+   "visual": {
+    "type": "reasons",
+    "title": "위험 요소",
+    "items": [
+     {
+      "text": "명령에 없는 공격",
+      "at": 0
+     },
+     {
+      "text": "첫 적전 상륙",
+      "on": "적전"
+     },
+     {
+      "text": "실패하면 고립",
+      "later": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "s096",
+   "lines": [
+    "실패하면 부대가 통째로 바다에 갇힐 수도 있었습니다."
+   ],
+   "visual": {
+    "type": "reasons",
+    "title": "위험 요소",
+    "items": [
+     {
+      "text": "명령에 없는 공격",
+      "at": 0
+     },
+     {
+      "text": "첫 적전 상륙",
+      "at": 0
+     },
+     {
+      "text": "실패하면 고립",
+      "on": "실패하면"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s097",
+   "lines": [
+    "그래도 김성은 부대장은 상부에 작전을 건의합니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "kr_plead",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 480,
+      "at": 0,
+      "face": "determined",
+      "prop": "officer",
+      "anim": "tilt"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "bubble",
+      "x": 0.5,
+      "y": 0.3,
+      "text": "통영으로 가겠습니다!",
+      "on": "건의"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s098",
+   "lines": [
+    "거제를 지키는 가장 좋은 방법은 통영을 되찾는 것이다."
+   ],
+   "visual": {
+    "type": "document",
+    "org": "해병대 김성은 부대",
+    "head": "김성은 부대 건의",
+    "rows": [
+     "거제를 지키는 가장 좋은 방법은",
+     "통영을 되찾는 것"
+    ],
+    "stamp": "建議",
+    "note": "재구성 · 내용 요약"
+   }
+  },
+  {
+   "id": "s099",
+   "lines": [
+    {
+     "t": "8월 17일 오후 5시쯤 마침내 답이 옵니다.",
+     "say": "팔월 십칠일 오후 다섯 시쯤 마침내 답이 옵니다."
+    }
+   ],
+   "visual": {
+    "type": "black",
+    "text": "8월 17일",
+    "accent": "오후 5시쯤",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s100",
+   "lines": [
+    "통영 상륙작전 승인."
+   ],
+   "visual": {
+    "type": "document",
+    "org": "해군 지휘부",
+    "head": "회신",
+    "rows": [
+     "통영 상륙작전 승인"
+    ],
+    "stamp": "承認",
+    "note": "재구성 · 내용 요약"
+   }
+  },
+  {
+   "id": "s101",
+   "lines": [
+    "상륙까지 남은 시간은 단 한 시간이었습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "상륙까지 1시간",
+    "style": "red"
+   }
+  },
+  {
+   "id": "s102",
+   "lines": [
+    "김성은 부대장의 계획은 단순하지만 대담했습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "south",
+    "to": "neck",
+    "items": [
+     {
+      "k": "lock",
+      "p": "wonmun",
+      "text": "원문고개",
+      "at": 0.8
+     }
+    ],
+    "demSea": true,
+    "flight": [
+     "south",
+     "peninsula",
+     "neck"
+    ],
+    "flightDur": 3.2,
+    "hud": true
+   },
+   "chapter": {
+    "num": "제3막",
+    "title": "8월 17일 저녁 6시"
+   },
+   "sfx": [
+    {
+     "id": "whoosh",
+     "at": 0
+    }
+   ]
+  },
+  {
+   "id": "s103",
+   "lines": [
+    "먼저 적의 시선을 엉뚱한 곳으로 돌립니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "peninsula",
+    "to": "peninsula",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.52,
+        34.81
+       ],
+       [
+        128.47,
+        34.835
+       ],
+       [
+        128.44,
+        34.843
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0.2
+     },
+     {
+      "k": "badge",
+      "p": [
+       128.47,
+       34.83
+      ],
+      "text": "양동",
+      "color": "#2e66d8",
+      "dy": 0,
+      "at": 0.6
+     }
+    ],
+    "demSea": true,
+    "tilt": 24
+   }
+  },
+  {
+   "id": "s104",
+   "lines": [
+    "해군 함정들이 통영항 정면을 향해 포를 쏘는 겁니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s104-photo",
+    "tag": "6·25전쟁 기록 사진"
+   },
+   "label": "6·25전쟁 당시 한국 해군 함정의 함포"
+  },
+  {
+   "id": "s105",
+   "lines": [
+    "적은 국군이 항구로 쳐들어온다고 생각하겠죠."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "nk_idle",
+      "x": 0.6,
+      "y": 0.9,
+      "h": 460,
+      "at": 0,
+      "flip": true,
+      "face": "sweat",
+      "prop": "nkcap"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.6,
+      "y": 0.16,
+      "text": "항구로 쳐들어온다!",
+      "on": "항구로",
+      "color": "red"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s106",
+   "lines": [
+    "그 사이 해병대 본대는 반도 동쪽의 조용한 해안에 내립니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "neck",
+    "to": "neck",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.51,
+        34.89
+       ],
+       [
+        128.48,
+        34.881
+       ],
+       [
+        128.452,
+        34.876
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0.2
+     }
+    ],
+    "demSea": true,
+    "tilt": 30
+   }
+  },
+  {
+   "id": "s107",
+   "lines": [
+    "그곳이 바로 장평리 해안이었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "neck",
+    "to": "neck",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.51,
+        34.89
+       ],
+       [
+        128.48,
+        34.881
+       ],
+       [
+        128.452,
+        34.876
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0
+     },
+     {
+      "k": "lock",
+      "p": "jangpyeong",
+      "text": "장평리",
+      "at": 0.3
+     }
+    ],
+    "demSea": true,
+    "tilt": 30
+   },
+   "callouts": [
+    {
+     "text": "장평리 해안 · 위치 개략",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s108",
+   "lines": [
+    "지금의 통영시 용남면 바닷가입니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s108-photo",
+    "tag": "공개 자료 사진"
+   },
+   "label": "오늘의 통영 (항공 사진)"
+  },
+  {
+   "id": "s109",
+   "lines": [
+    "장평리는 원문고개와 아주 가까운 곳이었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "neck",
+    "to": "neck",
+    "items": [
+     {
+      "k": "marker",
+      "p": "jangpyeong",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "wonmun",
+      "color": "red",
+      "at": 0.3
+     }
+    ],
+    "demSea": true,
+    "tilt": 30
+   }
+  },
+  {
+   "id": "s110",
+   "lines": [
+    "내리자마자 산을 타고 고개로 올라갈 수 있는 위치였습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "neck",
+    "to": "neck",
+    "items": [
+     {
+      "k": "marker",
+      "p": "jangpyeong",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.447,
+        34.875
+       ],
+       [
+        128.433,
+        34.878
+       ],
+       [
+        128.42,
+        34.877
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0.2
+     }
+    ],
+    "demSea": true,
+    "tilt": 34
+   }
+  },
+  {
+   "id": "s111",
+   "lines": [
+    {
+     "t": "이 작전에 해군 함정 7척이 힘을 보탰습니다.",
+     "say": "이 작전에 해군 함정 일곱 척이 힘을 보탰습니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "해군 함정 7척",
+    "style": "blue"
+   }
+  },
+  {
+   "id": "s112",
+   "lines": [
+    "대부분 작은 경비정과 소해정이었죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s112-photo",
+    "tag": "미 해군 사진 · 1950. 12"
+   },
+   "label": "한국 해군 경비정 703함 승조원들 (1950. 12)"
+  },
+  {
+   "id": "s113",
+   "lines": [
+    "병력을 실어 나른 배 중에는 평택호라는 수송선도 있었습니다."
+   ],
+   "visual": {
+    "type": "document",
+    "org": "국방부 군사편찬연구소 자료 요약",
+    "head": "참가 함정 (기록 기준)",
+    "rows": [
+     "경비정 PC-703 · JMS-302 · JMS-307",
+     "소해정 YMS-504 · YMS-512",
+     "수송선 AKL-901 · 평택호"
+    ],
+    "stamp": "海軍",
+    "note": "기록에 따라 다름"
+   }
+  },
+  {
+   "id": "s114",
+   "lines": [
+    "번듯한 상륙함은 한 척도 없었던 셈입니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "상륙함 0척",
+    "style": "red"
+   }
+  },
+  {
+   "id": "s115",
+   "lines": [
+    "한 달 뒤의 인천상륙작전과 비교하면 차이가 확 느껴집니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s115-photo",
+    "tag": "미 해군 사진 · 1950. 9"
+   },
+   "label": "인천 상륙 다음 날 해안에 늘어선 LST (1950. 9. 16)"
+  },
+  {
+   "id": "s116",
+   "lines": [
+    {
+     "t": "인천에는 함정 260여 척이 동원됐습니다.",
+     "say": "인천에는 함정 이백육십여 척이 동원됐습니다."
+    },
+    {
+     "t": "통영에는 7척이었죠.",
+     "say": "통영에는 일곱 척이었죠."
+    }
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "인천상륙작전",
+     "big": "260여 척",
+     "icon": "none",
+     "color": "dark"
+    },
+    "right": {
+     "title": "통영상륙작전",
+     "big": "7척",
+     "icon": "none",
+     "color": "blue",
+     "at": 0.6
+    }
+   }
+  },
+  {
+   "id": "s117",
+   "lines": [
+    "말 그대로 맨손에 가까운 상륙이었습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "맨손에 가까운",
+    "accent": "상륙",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s118",
+   "lines": [
+    {
+     "t": "오후 6시 해군 함정들의 포성이 통영항에 울립니다.",
+     "say": "오후 여섯 시 해군 함정들의 포성이 통영항에 울립니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "peninsula",
+    "to": "peninsula",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.52,
+        34.81
+       ],
+       [
+        128.47,
+        34.835
+       ],
+       [
+        128.44,
+        34.843
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0
+     },
+     {
+      "k": "shock",
+      "pts": [
+       [
+        128.424,
+        34.843
+       ],
+       [
+        128.432,
+        34.847
+       ],
+       [
+        128.419,
+        34.848
+       ],
+       [
+        128.428,
+        34.851
+       ]
+      ],
+      "at": 0.1,
+      "period": 0.55
+     }
+    ],
+    "demSea": true,
+    "tilt": 26
+   },
+   "callouts": [
+    {
+     "text": "오후 6시 · 통영항 포격",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.1
+    }
+   ]
+  },
+  {
+   "id": "s119",
+   "lines": [
+    "적의 눈이 항구로 쏠린 그 순간 해병대가 장평리 해안에 내립니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "neck",
+    "to": "neck",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.51,
+        34.89
+       ],
+       [
+        128.48,
+        34.881
+       ],
+       [
+        128.452,
+        34.876
+       ]
+      ],
+      "color": "blue",
+      "width": 1.2,
+      "at": 0.2
+     },
+     {
+      "k": "badge",
+      "p": "jangpyeong",
+      "text": "상륙",
+      "color": "#2e66d8",
+      "dy": -70,
+      "on": "장평리"
+     }
+    ],
+    "demSea": true,
+    "tilt": 32,
+    "hud": true
+   },
+   "sfx": [
+    {
+     "id": "water",
+     "at": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s120",
+   "lines": [
+    "적은 해병대가 상륙한 것을 눈치채지 못했습니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "nk_idle",
+      "x": 0.4,
+      "y": 0.9,
+      "h": 460,
+      "at": 0,
+      "face": "smug",
+      "prop": "nkcap",
+      "anim": "tilt"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "q",
+      "x": 0.7,
+      "y": 0.28,
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "id": "s121",
+   "lines": [
+    "해병대는 해안에 내리자마자 곧장 산으로 올라갑니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "marines_climb",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s122",
+   "lines": [
+    "먼저 상륙 지점 뒤의 삼봉산을 단숨에 차지했습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "neck",
+    "to": "neck",
+    "items": [
+     {
+      "k": "obj",
+      "n": 1,
+      "p": "sambong",
+      "text": "삼봉산",
+      "at": 0,
+      "takenOn": "단숨에"
+     }
+    ],
+    "demSea": true,
+    "tilt": 32
+   }
+  },
+  {
+   "id": "s123",
+   "lines": [
+    "해안을 내려다보는 산을 쥐어야 뒤따르는 병력이 안전하게 내릴 수 있었죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "고지부터",
+    "style": "yellow",
+    "sub": "해안을 내려다보는 산 = 상륙 지점의 방패",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s124",
+   "lines": [
+    "그날 밤 해병대는 적에게 들키지 않고 탄약과 물자를 모두 뭍으로 옮겼습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "그날 밤",
+    "accent": "적에게 들키지 않고",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s125",
+   "lines": [
+    "그리고 새벽 총공격을 준비합니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "neck",
+    "to": "neck",
+    "items": [
+     {
+      "k": "obj",
+      "n": 1,
+      "p": "wonmun",
+      "text": "원문고개",
+      "at": 0.2
+     },
+     {
+      "k": "obj",
+      "n": 2,
+      "p": "mangil",
+      "text": "망일봉",
+      "at": 0.5
+     }
+    ],
+    "demSea": true,
+    "tilt": 30,
+    "hud": true
+   }
+  },
+  {
+   "id": "s126",
+   "lines": [
+    "목표는 두 곳이었습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "목표 2곳",
+    "style": "yellow"
+   }
+  },
+  {
+   "id": "s127",
+   "lines": [
+    "한쪽은 원문고개로."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "neck",
+    "to": "neck",
+    "items": [
+     {
+      "k": "lock",
+      "p": "wonmun",
+      "text": "원문고개",
+      "at": 0.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.447,
+        34.875
+       ],
+       [
+        128.433,
+        34.878
+       ],
+       [
+        128.42,
+        34.877
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0.3
+     }
+    ],
+    "demSea": true,
+    "tilt": 32
+   }
+  },
+  {
+   "id": "s128",
+   "lines": [
+    "다른 한쪽은 통영 시내를 내려다보는 높은 봉우리로."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "neck",
+    "to": "town",
+    "items": [
+     {
+      "k": "lock",
+      "p": "mangil",
+      "text": "망일봉",
+      "at": 0.4
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.447,
+        34.875
+       ],
+       [
+        128.438,
+        34.868
+       ],
+       [
+        128.431,
+        34.862
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0.2
+     }
+    ],
+    "demSea": true,
+    "tilt": 30
+   }
+  },
+  {
+   "id": "s129",
+   "lines": [
+    "상륙 성공."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "상륙 성공",
+    "style": "blue"
+   }
+  },
+  {
+   "id": "s130",
+   "lines": [
+    "하지만 진짜 싸움은 이제부터였습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "진짜 싸움은",
+    "accent": "이제부터",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s131",
+   "lines": [
+    "밤이 깊어지자 해병들은 어둠 속에서 산길을 탔습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "night_trail",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s132",
+   "lines": [
+    "낯선 산이었지만 길잡이가 있었습니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "kr_point",
+      "x": 0.32,
+      "y": 0.9,
+      "h": 440,
+      "at": 0,
+      "prop": "helmet"
+     },
+     {
+      "c": "kr_idle",
+      "x": 0.7,
+      "y": 0.9,
+      "h": 400,
+      "at": 0,
+      "flip": true,
+      "prop": "headband",
+      "anim": "bounce"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.7,
+      "y": 0.2,
+      "text": "길잡이",
+      "on": "길잡이가",
+      "color": "yellow"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s133",
+   "lines": [
+    "바로 그 마을 주민들이었죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "길잡이 = 마을 주민",
+    "style": "yellow"
+   }
+  },
+  {
+   "id": "s134",
+   "lines": [
+    "주민들은 지게에 탄약과 물을 지고 해병들을 따라 산을 올랐다고 전해집니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "jige_porters",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s135",
+   "lines": [
+    "김성은 장군도 훗날 주민들이 함께 싸웠다고 증언했습니다."
+   ],
+   "visual": {
+    "type": "document",
+    "org": "통영신문 보도 요지",
+    "head": "김성은 장군 증언 (요지)",
+    "rows": [
+     "주민들이 탄약을 나르며",
+     "해병과 함께 싸웠다"
+    ],
+    "stamp": "證言",
+    "note": "요지 · 재구성"
+   }
+  },
+  {
+   "id": "s136",
+   "lines": [
+    "그리고 날이 밝기 전 해병대는 두 곳의 급소를 손에 넣습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "neck",
+    "to": "neck",
+    "items": [
+     {
+      "k": "obj",
+      "n": 1,
+      "p": "wonmun",
+      "text": "원문고개",
+      "at": 0,
+      "takenOn": "급소를"
+     },
+     {
+      "k": "obj",
+      "n": 2,
+      "p": "mangil",
+      "text": "망일봉",
+      "at": 0,
+      "takenOn": "급소를"
+     }
+    ],
+    "demSea": true,
+    "tilt": 30,
+    "hud": true
+   }
+  },
+  {
+   "id": "s137",
+   "lines": [
+    "첫째는 원문고개였습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "neck",
+    "to": "neck",
+    "items": [
+     {
+      "k": "obj",
+      "n": 1,
+      "p": "wonmun",
+      "text": "원문고개",
+      "at": 0,
+      "takenAt": 0
+     },
+     {
+      "k": "lock",
+      "p": "wonmun",
+      "text": "원문고개",
+      "at": 0.2
+     }
+    ],
+    "demSea": true,
+    "tilt": 36
+   },
+   "sfx": [
+    {
+     "id": "ping",
+     "at": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s138",
+   "lines": [
+    {
+     "t": "제2중대가 고개를 막고 진지를 파기 시작했죠.",
+     "say": "제이중대가 고개를 막고 진지를 파기 시작했죠."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "pass_dig",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "제2중대 · 원문고개",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s139",
+   "lines": [
+    "이제 통영 안의 적은 밖으로 나갈 수 없고 밖의 적은 안으로 들어올 수 없게 됐습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "peninsula",
+    "to": "peninsula",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.405,
+        34.879
+       ],
+       [
+        128.418,
+        34.877
+       ],
+       [
+        128.436,
+        34.874
+       ]
+      ],
+      "color": "#2e9bff",
+      "glow": true,
+      "at": 0.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.33,
+        34.96
+       ],
+       [
+        128.38,
+        34.915
+       ],
+       [
+        128.41,
+        34.888
+       ],
+       [
+        128.416,
+        34.88
+       ]
+      ],
+      "color": "red",
+      "width": 1.0,
+      "at": 0.3
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.424,
+        34.855
+       ],
+       [
+        128.42,
+        34.868
+       ],
+       [
+        128.418,
+        34.874
+       ]
+      ],
+      "color": "red",
+      "at": 0.5
+     },
+     {
+      "k": "clash",
+      "p": "wonmun",
+      "at": 0.8,
+      "period": 0.9,
+      "size": 1.0
+     }
+    ],
+    "demSea": true,
+    "tilt": 26
+   }
+  },
+  {
+   "id": "s140",
+   "lines": [
+    "둘째는 망일봉이었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "neck",
+    "to": "town",
+    "items": [
+     {
+      "k": "lock",
+      "p": "mangil",
+      "text": "망일봉",
+      "at": 0.3
+     }
+    ],
+    "demSea": true,
+    "tilt": 30
+   }
+  },
+  {
+   "id": "s141",
+   "lines": [
+    "통영 시내와 항구를 한눈에 내려다보는 봉우리였죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "peak_view",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s142",
+   "lines": [
+    {
+     "t": "제7중대가 그 꼭대기를 먼저 차지했습니다.",
+     "say": "제칠중대가 그 꼭대기를 먼저 차지했습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "town",
+    "to": "town",
+    "items": [
+     {
+      "k": "obj",
+      "n": 2,
+      "p": "mangil",
+      "text": "망일봉",
+      "at": 0,
+      "takenOn": "꼭대기를"
+     },
+     {
+      "k": "badge",
+      "p": "mangil",
+      "text": "제7중대",
+      "color": "#2e66d8",
+      "dy": -90,
+      "on": "제칠중대"
+     }
+    ],
+    "demSea": true,
+    "tilt": 30
+   }
+  },
+  {
+   "id": "s143",
+   "lines": [
+    "높은 곳을 쥔 쪽이 시가지 싸움의 주도권을 쥐게 됩니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "고지 = 주도권",
+    "style": "yellow",
+    "sub": "높은 곳을 쥔 쪽이 시가지 싸움을 이끈다",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s144",
+   "lines": [
+    "그런데 이 시각 북한군도 같은 생각을 하고 있었습니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "nk_point",
+      "x": 0.55,
+      "y": 0.9,
+      "h": 480,
+      "at": 0,
+      "flip": true,
+      "face": "determined",
+      "prop": "nkcap"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.55,
+      "y": 0.15,
+      "text": "같은 생각",
+      "on": "같은",
+      "color": "red"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s145",
+   "lines": [
+    "망일봉으로 올라가 그곳에 진지를 차리려고 했던 거죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "town",
+    "to": "town",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.425,
+        34.848
+       ],
+       [
+        128.428,
+        34.855
+       ],
+       [
+        128.43,
+        34.86
+       ]
+      ],
+      "color": "red",
+      "width": 1.0,
+      "at": 0.2
+     }
+    ],
+    "demSea": true,
+    "tilt": 30
+   },
+   "callouts": [
+    {
+     "text": "북한군도 망일봉으로",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s146",
+   "lines": [
+    "북한군은 해병대가 이미 꼭대기에 있다는 사실을 몰랐습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "북한군은 몰랐다",
+    "style": "red",
+    "sub": "망일봉 꼭대기의 해병대",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s147",
+   "lines": [
+    "원래 북한군은 통영에 들어온 뒤 해안선과 남망산 그리고 망일봉에 진지를 만들 계획이었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "town",
+    "to": "town",
+    "items": [
+     {
+      "k": "badge",
+      "p": "nammang",
+      "text": "남망산",
+      "color": "#c9242c",
+      "dy": -50,
+      "on": "남망산"
+     },
+     {
+      "k": "badge",
+      "p": "mangil",
+      "text": "망일봉",
+      "color": "#c9242c",
+      "dy": -80,
+      "on": "망일봉에"
+     }
+    ],
+    "demSea": true,
+    "tilt": 28
+   },
+   "callouts": [
+    {
+     "text": "북한군 진지 계획",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s148",
+   "lines": [
+    "바다에서 국군이 올라올 것에 대비한 거죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "town",
+    "to": "town",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.41,
+        34.845
+       ],
+       [
+        128.42,
+        34.842
+       ],
+       [
+        128.43,
+        34.84
+       ],
+       [
+        128.44,
+        34.845
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.43,
+        34.82
+       ],
+       [
+        128.43,
+        34.835
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0.3
+     }
+    ],
+    "demSea": true,
+    "tilt": 28
+   },
+   "callouts": [
+    {
+     "text": "바다 쪽만 대비",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s149",
+   "lines": [
+    "하지만 해병대는 바다 쪽이 아니라 등 뒤의 산에서 내려오고 있었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "neck",
+    "to": "town",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.44,
+        34.88
+       ],
+       [
+        128.435,
+        34.87
+       ],
+       [
+        128.43,
+        34.861
+       ]
+      ],
+      "color": "blue",
+      "width": 1.2,
+      "at": 0.2
+     }
+    ],
+    "demSea": true,
+    "tilt": 30
+   },
+   "callouts": [
+    {
+     "text": "등 뒤의 산에서",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s150",
+   "lines": [
+    "여기까지 흥미롭게 보셨다면 구독과 좋아요 한 번 눌러 주세요."
+   ],
+   "visual": {
+    "type": "cta",
+    "title": "구독 · 좋아요로 다음 이야기까지 함께해 주세요",
+    "at": 0
+   }
+  },
+  {
+   "id": "s151",
+   "lines": [
+    {
+     "t": "8월 18일 아침 망일봉 비탈.",
+     "say": "팔월 십팔일 아침 망일봉 비탈."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "crest_wait",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "pauseBefore": 0.5,
+   "chapter": {
+    "num": "제4막",
+    "title": "망일봉과 독 안의 쥐"
+   },
+   "callouts": [
+    {
+     "text": "1950. 8. 18 · 망일봉",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s152",
+   "lines": [
+    "북한군 한 무리가 줄지어 봉우리로 올라옵니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "town",
+    "to": "town",
+    "items": [
+     {
+      "k": "swarm",
+      "path": [
+       [
+        128.424,
+        34.852
+       ],
+       [
+        128.427,
+        34.857
+       ],
+       [
+        128.43,
+        34.861
+       ]
+      ],
+      "at": 0.1,
+      "n": 60,
+      "width": 0.6
+     }
+    ],
+    "demSea": true,
+    "tilt": 32,
+    "hud": true
+   }
+  },
+  {
+   "id": "s153",
+   "lines": [
+    {
+     "t": "그 위에서 제7중대가 숨을 죽이고 기다리고 있었습니다.",
+     "say": "그 위에서 제칠중대가 숨을 죽이고 기다리고 있었습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "town",
+    "to": "town",
+    "items": [
+     {
+      "k": "obj",
+      "n": 2,
+      "p": "mangil",
+      "text": "망일봉",
+      "at": 0,
+      "takenAt": 0
+     },
+     {
+      "k": "badge",
+      "p": "mangil",
+      "text": "제7중대 대기",
+      "color": "#2e66d8",
+      "dy": -90,
+      "at": 0.2
+     }
+    ],
+    "demSea": true,
+    "tilt": 32
+   }
+  },
+  {
+   "id": "s154",
+   "lines": [
+    "적이 사정거리 안에 들어오자 해병들의 총구가 일제히 불을 뿜습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "mangil_ambush",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.2
+    }
+   ]
+  },
+  {
+   "id": "s155",
+   "lines": [
+    "기습을 당한 적은 비탈을 굴러 내려갑니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "town",
+    "to": "town",
+    "items": [
+     {
+      "k": "clash",
+      "p": "mangil",
+      "at": 0.1,
+      "period": 0.9,
+      "size": 0.9
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.43,
+        34.86
+       ],
+       [
+        128.427,
+        34.855
+       ],
+       [
+        128.424,
+        34.85
+       ]
+      ],
+      "color": "red",
+      "width": 1.0,
+      "at": 0.5
+     }
+    ],
+    "demSea": true,
+    "tilt": 32
+   }
+  },
+  {
+   "id": "s156",
+   "lines": [
+    "그리고 다시 한 번 올라왔다가 또 무너졌습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "town",
+    "to": "town",
+    "items": [
+     {
+      "k": "clash",
+      "p": "mangil",
+      "at": 0.1,
+      "period": 0.9,
+      "size": 1.1
+     },
+     {
+      "k": "badge",
+      "p": "mangil",
+      "text": "2차 교전",
+      "color": "#c9242c",
+      "dy": -90,
+      "on": "다시"
+     }
+    ],
+    "demSea": true,
+    "tilt": 32
+   }
+  },
+  {
+   "id": "s157",
+   "lines": [
+    {
+     "t": "두 차례의 교전으로 올라온 적 100여 명 가운데 50명 정도가 쓰러졌습니다.",
+     "say": "두 차례의 교전으로 올라온 적 백여 명 가운데 쉰 명 정도가 쓰러졌습니다."
+    }
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "통영신문 보도 기준",
+    "items": [
+     {
+      "label": "올라온 적",
+      "value": 100,
+      "display": "약 100명",
+      "color": "red",
+      "at": 0.1
+     },
+     {
+      "label": "쓰러진 적",
+      "value": 50,
+      "display": "약 50명",
+      "color": "dark",
+      "on": "쉰"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s158",
+   "lines": [
+    "그런데 쓰러진 적병의 얼굴을 본 해병들은 할 말을 잃었다고 합니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "kr_shock",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 460,
+      "at": 0,
+      "face": "coldsweat",
+      "prop": "helmet"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.16,
+      "text": "할 말을 잃다",
+      "on": "할 말을",
+      "color": "dark"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s159",
+   "lines": [
+    "대부분 앳된 소년병이었거든요."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "boy_soldier",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s160",
+   "lines": [
+    "점령지에서 강제로 끌려온 어린 병사들이 많았습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s160-photo",
+    "tag": "미 육군 통신대 사진"
+   },
+   "label": "진주 남쪽에서 붙잡힌 북한군 (1950. 7. 29)"
+  },
+  {
+   "id": "s161",
+   "lines": [
+    "전쟁이 얼마나 잔인한지 보여 주는 장면이었죠."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "전쟁의",
+    "accent": "잔인한 얼굴",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s162",
+   "lines": [
+    "해병들 역시 대부분 스무 살 안팎이었습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s162-photo",
+    "tag": "미 육군 통신대 사진"
+   },
+   "label": "북한군 포로를 수색하는 한국 해병 (1950. 9. 20)"
+  },
+  {
+   "id": "s163",
+   "lines": [
+    "어린 병사들끼리 서로 총을 겨눈 비극이었습니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "kr_shrug",
+      "x": 0.3,
+      "y": 0.9,
+      "h": 440,
+      "at": 0,
+      "face": "tears",
+      "prop": "helmet"
+     },
+     {
+      "c": "nk_plead",
+      "x": 0.7,
+      "y": 0.9,
+      "h": 400,
+      "at": 0,
+      "flip": true,
+      "face": "tears",
+      "prop": "nkcap"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.15,
+      "text": "어린 병사들끼리",
+      "on": "어린",
+      "color": "dark"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s164",
+   "lines": [
+    "망일봉을 빼앗긴 적은 해안과 시내 쪽으로 흩어져 달아났습니다.",
+    "바닷가 마을과 북신동 쪽 고개로 뿔뿔이 흩어졌죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "town",
+    "to": "town",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.43,
+        34.86
+       ],
+       [
+        128.422,
+        34.852
+       ],
+       [
+        128.416,
+        34.848
+       ]
+      ],
+      "color": "red",
+      "width": 1.0,
+      "at": 0.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.43,
+        34.86
+       ],
+       [
+        128.436,
+        34.852
+       ],
+       [
+        128.44,
+        34.846
+       ]
+      ],
+      "color": "red",
+      "width": 1.0,
+      "at": 0.2
+     },
+     {
+      "k": "badge",
+      "p": [
+       128.42,
+       34.866
+      ],
+      "text": "북신동 쪽",
+      "color": "#c9242c",
+      "dy": 0,
+      "on": "북신동"
+     }
+    ],
+    "demSea": true,
+    "tilt": 30
+   }
+  },
+  {
+   "id": "s165",
+   "lines": [
+    "이제 해병대가 통영의 하늘을 쥐었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "town",
+    "to": "town",
+    "items": [
+     {
+      "k": "obj",
+      "n": 2,
+      "p": "mangil",
+      "text": "망일봉",
+      "at": 0,
+      "takenAt": 0
+     },
+     {
+      "k": "radar",
+      "p": "mangil",
+      "at": 0.2,
+      "size": 1.0,
+      "color": "#2e9bff"
+     }
+    ],
+    "demSea": true,
+    "tilt": 34,
+    "hud": true
+   }
+  },
+  {
+   "id": "s166",
+   "lines": [
+    {
+     "t": "같은 날 오후 2시 통영 시내에서 시가전이 벌어집니다.",
+     "say": "같은 날 오후 두 시 통영 시내에서 시가전이 벌어집니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "street_fight",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "8. 18 오후 2시 · 시가전",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s167",
+   "lines": [
+    "해병들은 골목과 집을 하나하나 뒤지며 앞으로 나아갔습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s167-photo",
+    "tag": "미 육군 통신대 사진"
+   },
+   "label": "숨은 북한군을 찾는 한국 해병 (1950. 9. 20)"
+  },
+  {
+   "id": "s168",
+   "lines": [
+    "망일봉 위에서는 적이 어디로 움직이는지 훤히 보였습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "town",
+    "to": "town",
+    "items": [
+     {
+      "k": "radar",
+      "p": "mangil",
+      "at": 0,
+      "size": 1.2,
+      "color": "#2e9bff"
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.42,
+        34.85
+       ],
+       [
+        128.425,
+        34.846
+       ]
+      ],
+      "color": "red",
+      "width": 0.7,
+      "at": 0.4
+     }
+    ],
+    "demSea": true,
+    "tilt": 30
+   },
+   "callouts": [
+    {
+     "text": "망일봉 = 관측소",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s169",
+   "lines": [
+    "위에서 내려다보며 알려 주고 아래에서 몰아붙이는 싸움이었습니다."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "망일봉 위",
+     "big": "관측",
+     "icon": "none",
+     "color": "blue"
+    },
+    "right": {
+     "title": "시가지 아래",
+     "big": "돌격",
+     "icon": "none",
+     "color": "yellow",
+     "at": 0.6
+    }
+   }
+  },
+  {
+   "id": "s170",
+   "lines": [
+    "그런데 해병대에는 한 가지 원칙이 있었다고 전해집니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "한 가지",
+    "accent": "원칙",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s171",
+   "lines": [
+    "통영에는 이순신 장군의 사당 충렬사와 삼도수군통제영의 세병관이 있었죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s171-photo",
+    "tag": "문화체육관광부 · 2014"
+   },
+   "label": "통영 충렬사 (이순신 장군 사당)"
+  },
+  {
+   "id": "s172",
+   "lines": [
+    "해병대는 이 문화재와 주민들의 집이 다치지 않도록 화력을 아꼈다고 합니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "shrine_pass",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "전해지는 이야기",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s173",
+   "lines": [
+    "적을 몰아내는 것도 중요하지만 지켜야 할 도시를 부술 수는 없었던 거죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "지켜야 할 도시",
+    "style": "yellow",
+    "sub": "전해지는 이야기",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s174",
+   "lines": [
+    "퇴로가 끊긴 적은 점점 궁지로 몰렸습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "peninsula",
+    "to": "peninsula",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.405,
+        34.879
+       ],
+       [
+        128.418,
+        34.877
+       ],
+       [
+        128.436,
+        34.874
+       ]
+      ],
+      "color": "#2e9bff",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "lock",
+      "p": "wonmun",
+      "text": "원문고개",
+      "at": 0.1
+     },
+     {
+      "k": "unit",
+      "p": "tongyeong",
+      "text": "고립된 적",
+      "color": "red",
+      "at": 0.3
+     }
+    ],
+    "demSea": true,
+    "tilt": 26
+   }
+  },
+  {
+   "id": "s175",
+   "lines": [
+    "적의 지휘부는 차를 몰고 원문고개 쪽으로 달아나려 했습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "neck",
+    "to": "neck",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.405,
+        34.879
+       ],
+       [
+        128.418,
+        34.877
+       ],
+       [
+        128.436,
+        34.874
+       ]
+      ],
+      "color": "#2e9bff",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.424,
+        34.852
+       ],
+       [
+        128.42,
+        34.866
+       ],
+       [
+        128.418,
+        34.875
+       ]
+      ],
+      "color": "red",
+      "width": 1.0,
+      "at": 0.2
+     }
+    ],
+    "demSea": true,
+    "tilt": 32
+   },
+   "callouts": [
+    {
+     "text": "적 지휘부 차량 · 원문고개로",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s176",
+   "lines": [
+    "하지만 고개는 이미 해병대가 막고 있었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "neck",
+    "to": "neck",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.405,
+        34.879
+       ],
+       [
+        128.418,
+        34.877
+       ],
+       [
+        128.436,
+        34.874
+       ]
+      ],
+      "color": "#2e9bff",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "lock",
+      "p": "wonmun",
+      "text": "원문고개",
+      "at": 0
+     },
+     {
+      "k": "clash",
+      "p": "wonmun",
+      "at": 0.3,
+      "period": 0.9,
+      "size": 1.0
+     }
+    ],
+    "demSea": true,
+    "tilt": 34
+   }
+  },
+  {
+   "id": "s177",
+   "lines": [
+    "고개 앞에서 총탄을 맞은 적은 차를 버리고 수수밭으로 뛰어들었습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "jeep_escape",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s178",
+   "lines": [
+    "그러자 일부는 바다로 도망칠 길을 찾았습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "town",
+    "to": "town",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.425,
+        34.845
+       ],
+       [
+        128.43,
+        34.835
+       ],
+       [
+        128.44,
+        34.825
+       ]
+      ],
+      "color": "red",
+      "width": 1.0,
+      "at": 0.2
+     }
+    ],
+    "demSea": true,
+    "tilt": 26
+   },
+   "callouts": [
+    {
+     "text": "바다로",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s179",
+   "lines": [
+    {
+     "t": "목선 3척에 나눠 타고 통영 앞바다로 빠져나가려 한 겁니다.",
+     "say": "목선 세 척에 나눠 타고 통영 앞바다로 빠져나가려 한 겁니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "목선 3척",
+    "style": "red"
+   }
+  },
+  {
+   "id": "s180",
+   "lines": [
+    "하지만 바다에는 우리 해군 함정이 기다리고 있었습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s180-photo",
+    "tag": "6·25전쟁 기록 사진"
+   },
+   "label": "6·25전쟁 당시 한국 해군 함정"
+  },
+  {
+   "id": "s181",
+   "lines": [
+    {
+     "t": "소해정 2척이 목선을 모두 바다에 가라앉혔습니다.",
+     "say": "소해정 두 척이 목선을 모두 바다에 가라앉혔습니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "boats_sunk",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "소해정 YMS-504 · 512",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s182",
+   "lines": [
+    "바다로도 땅으로도 빠져나갈 길이 없었던 겁니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "peninsula",
+    "to": "peninsula",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.405,
+        34.879
+       ],
+       [
+        128.418,
+        34.877
+       ],
+       [
+        128.436,
+        34.874
+       ]
+      ],
+      "color": "#2e9bff",
+      "glow": true,
+      "at": 0.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.36,
+        34.84
+       ],
+       [
+        128.4,
+        34.82
+       ],
+       [
+        128.46,
+        34.82
+       ],
+       [
+        128.5,
+        34.85
+       ]
+      ],
+      "color": "blue",
+      "width": 0.8,
+      "at": 0.3
+     },
+     {
+      "k": "badge",
+      "p": [
+       128.47,
+       34.82
+      ],
+      "text": "해군 경계",
+      "color": "#2e66d8",
+      "dy": 0,
+      "at": 0.8
+     }
+    ],
+    "demSea": true,
+    "tilt": 26
+   }
+  },
+  {
+   "id": "s183",
+   "lines": [
+    "시내에 남은 적 가운데는 군복을 벗어 던지고 주민 옷으로 갈아입은 자들도 있었습니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "nk_shrug",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 460,
+      "at": 0,
+      "face": "sweat",
+      "anim": "shake"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.15,
+      "text": "군복을 벗고 주민 옷으로",
+      "on": "군복을",
+      "color": "red"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s184",
+   "lines": [
+    "빈집에 숨어 피란민 행세를 한 거죠."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "nk_shock",
+      "x": 0.45,
+      "y": 0.9,
+      "h": 440,
+      "at": 0,
+      "face": "coldsweat"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "q",
+      "x": 0.72,
+      "y": 0.3,
+      "on": "빈집에"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s185",
+   "lines": [
+    "하지만 이들도 주민들의 신고로 하나둘 붙잡혔습니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "kr_idle",
+      "x": 0.3,
+      "y": 0.9,
+      "h": 400,
+      "at": 0,
+      "face": "angry",
+      "prop": "headband"
+     },
+     {
+      "c": "nk_plead",
+      "x": 0.72,
+      "y": 0.9,
+      "h": 400,
+      "at": 0,
+      "flip": true,
+      "face": "sweat",
+      "anim": "shake"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.3,
+      "y": 0.18,
+      "text": "신고!",
+      "on": "신고로",
+      "color": "yellow"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s186",
+   "lines": [
+    {
+     "t": "8월 19일 오전 10시.",
+     "say": "팔월 십구일 오전 열 시."
+    }
+   ],
+   "visual": {
+    "type": "black",
+    "text": "1950. 8. 19",
+    "accent": "오전 10시",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s187",
+   "lines": [
+    "해병대는 통영 시내와 주변 고지를 모두 손에 넣습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "town",
+    "to": "town",
+    "items": [
+     {
+      "k": "obj",
+      "n": 1,
+      "p": "mangil",
+      "text": "망일봉",
+      "at": 0,
+      "takenAt": 0
+     },
+     {
+      "k": "obj",
+      "n": 2,
+      "p": "nammang",
+      "text": "남망산",
+      "at": 0,
+      "takenOn": "모두"
+     },
+     {
+      "k": "marker",
+      "p": "tongyeong",
+      "color": "blue",
+      "on": "시내와"
+     }
+    ],
+    "demSea": true,
+    "tilt": 28
+   }
+  },
+  {
+   "id": "s188",
+   "lines": [
+    "통영 시내에서 총소리가 멎습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "town_liberated",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s189",
+   "lines": [
+    "상륙한 지 이틀도 안 돼 해병대가 통영을 완전히 되찾은 겁니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "통영 탈환",
+    "style": "blue",
+    "sub": "상륙 약 40시간 만",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s190",
+   "lines": [
+    "문자 그대로 독 안에 든 쥐였습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "peninsula",
+    "to": "peninsula",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.405,
+        34.879
+       ],
+       [
+        128.418,
+        34.877
+       ],
+       [
+        128.436,
+        34.874
+       ]
+      ],
+      "color": "#2e9bff",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "lock",
+      "p": "wonmun",
+      "text": "원문고개",
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "tongyeong",
+      "text": "독 안의 쥐",
+      "color": "#c9242c",
+      "dy": -60,
+      "on": "독 안에"
+     }
+    ],
+    "demSea": true,
+    "tilt": 26
+   }
+  },
+  {
+   "id": "s191",
+   "lines": [
+    "들어올 때 지나온 목이 잠기자 적은 갈 곳이 없었던 거죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "neck",
+    "to": "neck",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.405,
+        34.879
+       ],
+       [
+        128.418,
+        34.877
+       ],
+       [
+        128.436,
+        34.874
+       ]
+      ],
+      "color": "#2e9bff",
+      "glow": true,
+      "at": 0,
+      "width": 1.5
+     },
+     {
+      "k": "lock",
+      "p": "wonmun",
+      "text": "원문고개",
+      "at": 0.2
+     }
+    ],
+    "demSea": true,
+    "tilt": 36,
+    "hud": true
+   }
+  },
+  {
+   "id": "s192",
+   "lines": [
+    "하지만 통영을 되찾은 것으로 끝이 아니었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "peninsula",
+    "to": "neck",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.405,
+        34.879
+       ],
+       [
+        128.418,
+        34.877
+       ],
+       [
+        128.436,
+        34.874
+       ]
+      ],
+      "color": "#2e9bff",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "lock",
+      "p": "wonmun",
+      "text": "원문고개",
+      "at": 0.8
+     }
+    ],
+    "demSea": true,
+    "flight": [
+     "peninsula",
+     "neck"
+    ],
+    "flightDur": 2.6
+   },
+   "pauseBefore": 0.5,
+   "chapter": {
+    "num": "제5막",
+    "title": "원문고개를 사수하라"
+   },
+   "sfx": [
+    {
+     "id": "whoosh",
+     "at": 0
+    }
+   ]
+  },
+  {
+   "id": "s193",
+   "lines": [
+    "고개 너머 고성 쪽에는 북한군 본대가 버티고 있었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "south",
+    "to": "south",
+    "items": [
+     {
+      "k": "unit",
+      "p": "goseong",
+      "text": "북한군 본대",
+      "color": "red",
+      "pulse": true,
+      "at": 0.2
+     },
+     {
+      "k": "marker",
+      "p": "tongyeong",
+      "color": "blue",
+      "at": 0
+     }
+    ],
+    "demSea": true
+   }
+  },
+  {
+   "id": "s194",
+   "lines": [
+    "통영을 잃은 북한군은 어떻게든 다시 고개를 넘으려 했습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "peninsula",
+    "to": "neck",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.405,
+        34.879
+       ],
+       [
+        128.418,
+        34.877
+       ],
+       [
+        128.436,
+        34.874
+       ]
+      ],
+      "color": "#2e9bff",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "swarm",
+      "path": [
+       [
+        128.33,
+        34.96
+       ],
+       [
+        128.38,
+        34.915
+       ],
+       [
+        128.41,
+        34.888
+       ],
+       [
+        128.416,
+        34.88
+       ]
+      ],
+      "at": 0.1,
+      "n": 140
+     }
+    ],
+    "demSea": true,
+    "tilt": 30
+   }
+  },
+  {
+   "id": "s195",
+   "lines": [
+    "그들이 통영을 그냥 내줄 리 없었죠."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "nk_salute",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 480,
+      "at": 0,
+      "face": "angry",
+      "prop": "nkcap",
+      "anim": "shake"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.15,
+      "text": "통영을 되찾아라!",
+      "at": 0.2,
+      "color": "red"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s196",
+   "lines": [
+    {
+     "t": "8월 19일 오후 3시 40분.",
+     "say": "팔월 십구일 오후 세 시 사십 분."
+    }
+   ],
+   "visual": {
+    "type": "black",
+    "text": "8월 19일",
+    "accent": "오후 3시 40분",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s197",
+   "lines": [
+    "원문고개 쪽으로 포탄이 쏟아지기 시작합니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "neck",
+    "to": "neck",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.405,
+        34.879
+       ],
+       [
+        128.418,
+        34.877
+       ],
+       [
+        128.436,
+        34.874
+       ]
+      ],
+      "color": "#2e9bff",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "shock",
+      "pts": [
+       [
+        128.413,
+        34.879
+       ],
+       [
+        128.421,
+        34.878
+       ],
+       [
+        128.416,
+        34.874
+       ],
+       [
+        128.425,
+        34.876
+       ],
+       [
+        128.41,
+        34.882
+       ]
+      ],
+      "at": 0.1,
+      "period": 0.5
+     }
+    ],
+    "demSea": true,
+    "tilt": 34,
+    "hud": true
+   },
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.1
+    }
+   ]
+  },
+  {
+   "id": "s198",
+   "lines": [
+    {
+     "t": "3시간 동안 날아든 포탄만 580발이었습니다.",
+     "say": "세 시간 동안 날아든 포탄만 오백팔십 발이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "포탄 580발",
+    "style": "red",
+    "sub": "약 3시간 · 국내 언론 보도 기준",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s199",
+   "lines": [
+    "포격이 멎자 북한군 보병이 고개를 향해 밀려옵니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "neck",
+    "to": "neck",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.405,
+        34.879
+       ],
+       [
+        128.418,
+        34.877
+       ],
+       [
+        128.436,
+        34.874
+       ]
+      ],
+      "color": "#2e9bff",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "swarm",
+      "path": [
+       [
+        128.38,
+        34.915
+       ],
+       [
+        128.41,
+        34.888
+       ],
+       [
+        128.416,
+        34.88
+       ],
+       [
+        128.418,
+        34.877
+       ]
+      ],
+      "at": 0,
+      "n": 160
+     }
+    ],
+    "demSea": true,
+    "tilt": 34
+   }
+  },
+  {
+   "id": "s200",
+   "lines": [
+    {
+     "t": "제2중대와 제7중대가 지키는 진지였습니다.",
+     "say": "제이중대와 제칠중대가 지키는 진지였습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "neck",
+    "to": "neck",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.405,
+        34.879
+       ],
+       [
+        128.418,
+        34.877
+       ],
+       [
+        128.436,
+        34.874
+       ]
+      ],
+      "color": "#2e9bff",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": [
+       128.414,
+       34.879
+      ],
+      "text": "제2중대",
+      "color": "#2e66d8",
+      "dy": -60,
+      "at": 0.2
+     },
+     {
+      "k": "badge",
+      "p": [
+       128.426,
+       34.874
+      ],
+      "text": "제7중대",
+      "color": "#2e66d8",
+      "dy": 60,
+      "at": 0.5
+     }
+    ],
+    "demSea": true,
+    "tilt": 34
+   }
+  },
+  {
+   "id": "s201",
+   "lines": [
+    "해병들은 참호 속에서 버텼습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "trench_wait",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0
+    }
+   ]
+  },
+  {
+   "id": "s202",
+   "lines": [
+    "적이 고개 앞 비탈을 기어오르면 위에서 총과 수류탄이 쏟아졌습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "pass_defense",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.2
+    }
+   ]
+  },
+  {
+   "id": "s203",
+   "lines": [
+    "해병대의 화력은 넉넉하지 않았습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "화력 부족",
+    "style": "red",
+    "sub": "탄약을 아껴야 했다",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s204",
+   "lines": [
+    "그래서 해병들은 적이 가까이 올 때까지 기다렸다가 쏘았다고 합니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "trench_wait",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "가까이 올 때까지",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s205",
+   "lines": [
+    "탄 한 발 한 발이 귀했던 거죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "한 발 한 발",
+    "style": "yellow"
+   }
+  },
+  {
+   "id": "s206",
+   "lines": [
+    "고개는 좁았습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "neck",
+    "to": "neck",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.405,
+        34.879
+       ],
+       [
+        128.418,
+        34.877
+       ],
+       [
+        128.436,
+        34.874
+       ]
+      ],
+      "color": "#2e9bff",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "lock",
+      "p": "wonmun",
+      "text": "원문고개",
+      "at": 0.1
+     }
+    ],
+    "demSea": true,
+    "tilt": 40,
+    "hud": true
+   }
+  },
+  {
+   "id": "s207",
+   "lines": [
+    "좁은 길로 밀려드는 적은 한꺼번에 많은 병력을 펼칠 수 없었죠."
+   ],
+   "visual": {
+    "type": "profile",
+    "pts": [
+     [
+      0,
+      160
+     ],
+     [
+      0.3,
+      140
+     ],
+     [
+      0.42,
+      70
+     ],
+     [
+      0.58,
+      70
+     ],
+     [
+      0.7,
+      140
+     ],
+     [
+      1,
+      170
+     ]
+    ],
+    "grid": [
+     70,
+     140
+    ],
+    "yMin": 0,
+    "yMax": 220,
+    "title": "원문고개 (모식도)",
+    "note": "모식도 · 실제 지형과 다름",
+    "left": "고성 쪽",
+    "right": "통영 쪽",
+    "marks": [
+     {
+      "x": 0.5,
+      "text": "좁은 길목",
+      "style": "red",
+      "at": 0.2,
+      "lift": 50,
+      "size": 44
+     }
+    ]
+   }
+  },
+  {
+   "id": "s208",
+   "lines": [
+    "지키는 쪽에서 보면 길목 하나만 막으면 되는 싸움이었습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "길목 하나만 막으면 된다",
+    "style": "yellow"
+   }
+  },
+  {
+   "id": "s209",
+   "lines": [
+    "바로 김성은 부대장이 지도에서 읽어 낸 그 원리였습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "kim_map",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "지도에서 읽어 낸 원리",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s210",
+   "lines": [
+    "고개 하나가 수백 명의 병력보다 큰 역할을 한 겁니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "고개 하나 > 병력 수백",
+    "style": "yellow"
+   }
+  },
+  {
+   "id": "s211",
+   "lines": [
+    "정면 공격이 막히자 적은 꾀를 냅니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "nk_point",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 480,
+      "at": 0,
+      "face": "smug",
+      "prop": "nkcap",
+      "anim": "tilt"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.15,
+      "text": "옆으로 돌아가자",
+      "on": "꾀를",
+      "color": "red"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s212",
+   "lines": [
+    {
+     "t": "8월 20일 새벽 2시 40분.",
+     "say": "팔월 이십일 새벽 두 시 사십 분."
+    }
+   ],
+   "visual": {
+    "type": "black",
+    "text": "8월 20일",
+    "accent": "새벽 2시 40분",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s213",
+   "lines": [
+    "북한군은 고개 남쪽 양쪽 해안선을 따라 몰래 숨어들었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "neck",
+    "to": "neck",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.405,
+        34.879
+       ],
+       [
+        128.418,
+        34.877
+       ],
+       [
+        128.436,
+        34.874
+       ]
+      ],
+      "color": "#2e9bff",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.39,
+        34.885
+       ],
+       [
+        128.4,
+        34.874
+       ],
+       [
+        128.408,
+        34.868
+       ]
+      ],
+      "color": "red",
+      "width": 0.8,
+      "at": 0.2
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.42,
+        34.892
+       ],
+       [
+        128.436,
+        34.884
+       ],
+       [
+        128.44,
+        34.879
+       ]
+      ],
+      "color": "red",
+      "width": 0.8,
+      "at": 0.4
+     }
+    ],
+    "demSea": true,
+    "tilt": 32
+   },
+   "callouts": [
+    {
+     "text": "양쪽 해안선 침투 · 위치 개략",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s214",
+   "lines": [
+    "고개를 피해 바닷가로 돌아 들어오려는 것이었죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "coast_creep",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s215",
+   "lines": [
+    "하지만 해병들은 이 침투도 놓치지 않았습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "neck",
+    "to": "neck",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.405,
+        34.879
+       ],
+       [
+        128.418,
+        34.877
+       ],
+       [
+        128.436,
+        34.874
+       ]
+      ],
+      "color": "#2e9bff",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "clash",
+      "p": [
+       128.404,
+       34.871
+      ],
+      "at": 0.1,
+      "period": 0.9,
+      "size": 0.8
+     },
+     {
+      "k": "clash",
+      "p": [
+       128.438,
+       34.881
+      ],
+      "at": 0.3,
+      "period": 0.9,
+      "size": 0.8
+     }
+    ],
+    "demSea": true,
+    "tilt": 32
+   }
+  },
+  {
+   "id": "s216",
+   "lines": [
+    "해안으로 숨어든 적은 다시 물러났습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "neck",
+    "to": "neck",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.405,
+        34.879
+       ],
+       [
+        128.418,
+        34.877
+       ],
+       [
+        128.436,
+        34.874
+       ]
+      ],
+      "color": "#2e9bff",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.408,
+        34.868
+       ],
+       [
+        128.4,
+        34.874
+       ],
+       [
+        128.39,
+        34.885
+       ]
+      ],
+      "color": "red",
+      "width": 0.7,
+      "at": 0.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.44,
+        34.879
+       ],
+       [
+        128.436,
+        34.884
+       ],
+       [
+        128.42,
+        34.892
+       ]
+      ],
+      "color": "red",
+      "width": 0.7,
+      "at": 0.3
+     }
+    ],
+    "demSea": true,
+    "tilt": 32
+   }
+  },
+  {
+   "id": "s217",
+   "lines": [
+    "그 뒤로도 공격은 멈추지 않았습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "neck",
+    "to": "neck",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.405,
+        34.879
+       ],
+       [
+        128.418,
+        34.877
+       ],
+       [
+        128.436,
+        34.874
+       ]
+      ],
+      "color": "#2e9bff",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "shock",
+      "pts": [
+       [
+        128.413,
+        34.879
+       ],
+       [
+        128.421,
+        34.878
+       ],
+       [
+        128.416,
+        34.874
+       ]
+      ],
+      "at": 0.1,
+      "period": 0.8
+     }
+    ],
+    "demSea": true,
+    "tilt": 34
+   },
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.2
+    }
+   ]
+  },
+  {
+   "id": "s218",
+   "lines": [
+    {
+     "t": "기록에 따르면 북한군은 한 달 동안 9차례나 원문고개로 쳐들어왔습니다.",
+     "say": "기록에 따르면 북한군은 한 달 동안 아홉 차례나 원문고개로 쳐들어왔습니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "9차례 공격",
+    "style": "red",
+    "sub": "약 한 달 · 국방부 군사편찬연구소 연구 기준",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s219",
+   "lines": [
+    {
+     "t": "그리고 9번 모두 고개 앞에서 무너졌습니다.",
+     "say": "그리고 아홉 번 모두 고개 앞에서 무너졌습니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "9번 모두 격퇴",
+    "style": "blue",
+    "sub": "원문고개 사수",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s220",
+   "lines": [
+    "만약 이 고개가 뚫렸다면 어떻게 됐을까요."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "kr_shock",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 480,
+      "at": 0,
+      "face": "shock",
+      "prop": "helmet"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "q",
+      "x": 0.76,
+      "y": 0.3,
+      "at": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "id": "s221",
+   "lines": [
+    "북한군은 다시 통영으로 쏟아져 들어왔을 겁니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "peninsula",
+    "to": "peninsula",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.322,
+        34.973
+       ],
+       [
+        128.37,
+        34.93
+       ],
+       [
+        128.405,
+        34.892
+       ],
+       [
+        128.418,
+        34.877
+       ],
+       [
+        128.424,
+        34.855
+       ]
+      ],
+      "color": "red",
+      "at": 0.1,
+      "dash": true
+     }
+    ],
+    "demSea": true,
+    "tilt": 26
+   },
+   "callouts": [
+    {
+     "text": "가정 · 고개가 뚫렸다면",
+     "style": "dark",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s222",
+   "lines": [
+    "그리고 거제와 진해 앞바다가 다시 위험해졌겠죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "south",
+    "to": "south",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.45,
+        34.86
+       ],
+       [
+        128.53,
+        34.87
+       ],
+       [
+        128.6,
+        34.88
+       ]
+      ],
+      "color": "red",
+      "dash": true,
+      "at": 0.1
+     },
+     {
+      "k": "marker",
+      "p": "geoje",
+      "color": "blue",
+      "at": 0
+     }
+    ],
+    "demSea": true
+   },
+   "callouts": [
+    {
+     "text": "가정",
+     "style": "dark",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s223",
+   "lines": [
+    "마산을 지키는 국군과 미군도 등 뒤를 걱정해야 했을 겁니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "sw",
+    "to": "sw",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.36,
+        35.04
+       ],
+       [
+        128.38,
+        35.25
+       ],
+       [
+        128.45,
+        35.4
+       ],
+       [
+        128.42,
+        35.6
+       ],
+       [
+        128.38,
+        35.85
+       ],
+       [
+        128.42,
+        36.02
+       ],
+       [
+        128.62,
+        36.12
+       ],
+       [
+        128.95,
+        36.16
+       ],
+       [
+        129.3,
+        36.2
+       ],
+       [
+        129.42,
+        36.12
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.42,
+        34.9
+       ],
+       [
+        128.48,
+        35.05
+       ],
+       [
+        128.56,
+        35.18
+       ]
+      ],
+      "color": "red",
+      "dash": true,
+      "at": 0.2
+     },
+     {
+      "k": "marker",
+      "p": "masan",
+      "color": "blue",
+      "at": 0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "가정 · 마산의 등 뒤",
+     "style": "dark",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s224",
+   "lines": [
+    "원문고개는 그 모든 것을 막는 마개였습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "peninsula",
+    "to": "peninsula",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.405,
+        34.879
+       ],
+       [
+        128.418,
+        34.877
+       ],
+       [
+        128.436,
+        34.874
+       ]
+      ],
+      "color": "#2e9bff",
+      "glow": true,
+      "at": 0,
+      "width": 1.6
+     },
+     {
+      "k": "lock",
+      "p": "wonmun",
+      "text": "원문고개",
+      "at": 0.1
+     },
+     {
+      "k": "badge",
+      "p": "wonmun",
+      "text": "마개",
+      "color": "#2e66d8",
+      "dy": -110,
+      "on": "마개였습니다"
+     }
+    ],
+    "demSea": true,
+    "tilt": 28
+   }
+  },
+  {
+   "id": "s225",
+   "lines": [
+    "그 사이 낙동강 방어선 곳곳에서도 국군과 유엔군이 이를 악물고 버티고 있었습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s225-photo",
+    "tag": "미 육군 통신대 사진"
+   },
+   "label": "미 제25사단과 합류하러 이동하는 국군 (1950. 8. 25)"
+  },
+  {
+   "id": "s226",
+   "lines": [
+    {
+     "t": "그리고 1950년 9월 15일.",
+     "say": "그리고 천구백오십년 구월 십오일."
+    }
+   ],
+   "visual": {
+    "type": "black",
+    "text": "1950. 9. 15"
+   }
+  },
+  {
+   "id": "s227",
+   "lines": [
+    "유엔군이 인천에 상륙합니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s227-photo",
+    "tag": "미 해군 사진 · 1950. 9"
+   },
+   "label": "인천으로 향하는 상륙정 (1950. 9. 15)"
+  },
+  {
+   "id": "s228",
+   "lines": [
+    "허리가 끊긴 북한군은 남쪽 전선에서 무너지기 시작했죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "korea",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.36,
+        35.04
+       ],
+       [
+        128.38,
+        35.25
+       ],
+       [
+        128.45,
+        35.4
+       ],
+       [
+        128.42,
+        35.6
+       ],
+       [
+        128.38,
+        35.85
+       ],
+       [
+        128.42,
+        36.02
+       ],
+       [
+        128.62,
+        36.12
+       ],
+       [
+        128.95,
+        36.16
+       ],
+       [
+        129.3,
+        36.2
+       ],
+       [
+        129.42,
+        36.12
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "incheon",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        125.9,
+        37.3
+       ],
+       [
+        126.62,
+        37.47
+       ],
+       [
+        126.98,
+        37.56
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0.2
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.6,
+        35.9
+       ],
+       [
+        128.2,
+        36.6
+       ],
+       [
+        127.6,
+        37.2
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0.5
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "허리가 끊긴 북한군",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s229",
+   "lines": [
+    "원문고개 앞의 북한군도 결국 북쪽으로 물러납니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "south",
+    "to": "south",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.33,
+        34.96
+       ],
+       [
+        128.3,
+        35.05
+       ],
+       [
+        128.28,
+        35.18
+       ]
+      ],
+      "color": "red",
+      "at": 0.2
+     },
+     {
+      "k": "marker",
+      "p": "tongyeong",
+      "color": "blue",
+      "at": 0
+     }
+    ],
+    "demSea": true
+   },
+   "callouts": [
+    {
+     "text": "북쪽으로 물러나는 북한군",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s230",
+   "lines": [
+    {
+     "t": "통영상륙작전은 9월 22일에 막을 내립니다.",
+     "say": "통영상륙작전은 구월 이십이일에 막을 내립니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "작전 종료",
+    "style": "blue",
+    "sub": "1950. 9. 22",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s231",
+   "lines": [
+    {
+     "t": "상륙한 날부터 꼭 37일이었습니다.",
+     "say": "상륙한 날부터 꼭 삼십칠 일이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "37일",
+    "style": "yellow",
+    "sub": "1950. 8. 17 ~ 9. 22",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s232",
+   "lines": [
+    "해병대의 기록에 남은 전과는 이렇습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "해병대 기록",
+    "accent": "전과",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s233",
+   "lines": [
+    {
+     "t": "적 사살 469명.",
+     "say": "적 사살 사백육십구 명."
+    },
+    {
+     "t": "포로 83명.",
+     "say": "포로 팔십삼 명."
+    }
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "해병대 기록 기준",
+    "items": [
+     {
+      "label": "적 사살",
+      "value": 469,
+      "display": "469명",
+      "color": "red",
+      "on": "사살"
+     },
+     {
+      "label": "포로",
+      "value": 83,
+      "display": "83명",
+      "color": "dark",
+      "on": "포로"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s234",
+   "lines": [
+    {
+     "t": "사살된 적은 통영에 들어온 북한군의 4분의 3에 이른다는 평가도 있습니다.",
+     "say": "사살된 적은 통영에 들어온 북한군의 사분의 삼에 이른다는 평가도 있습니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "약 4분의 3",
+    "style": "red",
+    "sub": "통영에 들어온 북한군 대비 · 일부 평가",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s235",
+   "lines": [
+    "노획한 총과 박격포 차량도 적지 않았습니다."
+   ],
+   "visual": {
+    "type": "document",
+    "org": "해병대 기록 요약",
+    "head": "노획 (해병대 기록)",
+    "rows": [
+     "따발총 128정 · 소총 107정",
+     "박격포 2문 · 트럭 10대 · 지프 2대"
+    ],
+    "stamp": "戰果",
+    "note": "재구성 · 내용 요약"
+   }
+  },
+  {
+   "id": "s236",
+   "lines": [
+    "그렇다면 해병대의 피해는 어땠을까요."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "kr_idle",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 440,
+      "at": 0,
+      "face": "worried",
+      "prop": "helmet"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "q",
+      "x": 0.74,
+      "y": 0.3,
+      "at": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "id": "s237",
+   "lines": [
+    {
+     "t": "전사 15명 부상 47명.",
+     "say": "전사 열다섯 명 부상 마흔일곱 명."
+    }
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "해병대 기록 기준",
+    "items": [
+     {
+      "label": "전사",
+      "value": 15,
+      "display": "15명",
+      "color": "blue",
+      "at": 0.1
+     },
+     {
+      "label": "부상",
+      "value": 47,
+      "display": "47명",
+      "color": "blue",
+      "on": "부상"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s238",
+   "lines": [
+    {
+     "t": "기록에 따라 전사자를 19명으로 적기도 합니다.",
+     "say": "기록에 따라 전사자를 열아홉 명으로 적기도 합니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "전사 15명 · 19명",
+    "style": "dark",
+    "sub": "기록에 따라 다름",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s239",
+   "lines": [
+    "숫자로만 보면 일방적인 승리였습니다."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "해병대 전사",
+     "big": "15명",
+     "icon": "none",
+     "color": "blue"
+    },
+    "right": {
+     "title": "적 사살",
+     "big": "469명",
+     "icon": "none",
+     "color": "red",
+     "at": 0.6
+    }
+   }
+  },
+  {
+   "id": "s240",
+   "lines": [
+    "적을 독 안에 가뒀기 때문에 가능한 결과였죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "peninsula",
+    "to": "peninsula",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.405,
+        34.879
+       ],
+       [
+        128.418,
+        34.877
+       ],
+       [
+        128.436,
+        34.874
+       ]
+      ],
+      "color": "#2e9bff",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "lock",
+      "p": "wonmun",
+      "text": "원문고개",
+      "at": 0.1,
+      "color": "#2e9bff"
+     }
+    ],
+    "demSea": true,
+    "tilt": 26
+   }
+  },
+  {
+   "id": "s241",
+   "lines": [
+    {
+     "t": "하지만 그 15명 혹은 19명은 대부분 스무 살 안팎의 젊은 해병이었습니다.",
+     "say": "하지만 그 열다섯 명 혹은 열아홉 명은 대부분 스무 살 안팎의 젊은 해병이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "comrades_graves",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s242",
+   "lines": [
+    "통영의 승전 소식은 바다 건너까지 퍼져 나갔습니다."
+   ],
+   "visual": {
+    "type": "flatmap",
+    "center": [
+     132.5,
+     36.0
+    ],
+    "span": 14,
+    "fill": {
+     "410": "#f1e4c6",
+     "408": "#e8b6a5",
+     "392": "#e6d9bd",
+     "156": "#dcc9a3"
+    },
+    "pins": [
+     {
+      "ll": [
+       128.42,
+       34.85
+      ],
+      "text": "통영",
+      "side": "left",
+      "at": 0,
+      "flag": "kr"
+     },
+     {
+      "ll": [
+       139.7,
+       35.7
+      ],
+      "text": "도쿄 · 외신 기자들",
+      "side": "right",
+      "on": "건너"
+     }
+    ],
+    "routes": [
+     {
+      "from": [
+       128.42,
+       34.85
+      ],
+      "to": [
+       139.7,
+       35.7
+      ],
+      "bend": -0.2,
+      "dur": 1.4,
+      "on": "건너",
+      "color": "#2e66d8"
+     }
+    ],
+    "labels": [
+     {
+      "ll": [
+       131.0,
+       37.6
+      ],
+      "text": "동해",
+      "style": "sea"
+     }
+    ],
+    "zoomTo": 0.92
+   },
+   "chapter": {
+    "num": "제6막",
+    "title": "귀신 잡는 해병의 탄생"
+   }
+  },
+  {
+   "id": "s243",
+   "lines": [
+    "그리고 한 외국인 기자의 귀에도 들어갑니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "us_point",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 480,
+      "at": 0,
+      "face": "sparkle",
+      "prop": "notebook",
+      "anim": "enter"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.15,
+      "text": "외국인 기자",
+      "on": "기자의",
+      "color": "dark"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s244",
+   "lines": [
+    "미국 뉴욕 헤럴드 트리뷴의 종군기자 마거리트 히긴스였습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s244-photo",
+    "tag": "공개 자료 사진"
+   },
+   "label": "종군기자 마거리트 히긴스 (한국전쟁 당시)"
+  },
+  {
+   "id": "s245",
+   "lines": [
+    "전쟁터 맨 앞까지 들어가 기사를 쓰던 여성 기자였죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "최전선의 여성 종군기자",
+    "style": "yellow"
+   }
+  },
+  {
+   "id": "s246",
+   "lines": [
+    "이듬해 한국전쟁 보도로 퓰리처상을 받는 인물입니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s246-photo",
+    "tag": "미국 공공 아카이브"
+   },
+   "label": "퓰리처상 수상 기자 히긴스 강연 전단 (1951)"
+  },
+  {
+   "id": "s247",
+   "lines": [
+    "히긴스는 통영 소식을 듣고 한국 해병대를 이렇게 불렀다고 전해집니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "us_idle",
+      "x": 0.4,
+      "y": 0.9,
+      "h": 460,
+      "at": 0,
+      "face": "smug",
+      "prop": "notebook+glasses"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "bubble",
+      "x": 0.4,
+      "y": 0.28,
+      "text": "한국 해병대는..",
+      "on": "이렇게"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s248",
+   "lines": [
+    "그들은 귀신이라도 잡을 것이다."
+   ],
+   "visual": {
+    "type": "document",
+    "org": "마거리트 히긴스 (전해지는 말)",
+    "head": "전해지는 말",
+    "rows": [
+     "They might capture",
+     "even the devil."
+    ],
+    "stamp": "傳言",
+    "note": "원문 기사 미확인"
+   }
+  },
+  {
+   "id": "s249",
+   "lines": [
+    "이 말이 한국어로 옮겨지며 하나의 이름이 됩니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "하나의",
+    "accent": "이름",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s250",
+   "lines": [
+    "귀신 잡는 해병."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "귀신 잡는 해병",
+    "style": "red"
+   }
+  },
+  {
+   "id": "s251",
+   "lines": [
+    "다만 히긴스가 쓴 원래 기사는 아직 확실히 확인되지 않았습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "원문 기사 미확인",
+    "style": "dark",
+    "sub": "히긴스가 쓴 기사 원문은 확인되지 않음",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s252",
+   "lines": [
+    "그래서 이 말은 전해지는 이야기로 소개하는 것이 정확합니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "전해지는",
+    "accent": "이야기",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s253",
+   "lines": [
+    "그래도 한 가지는 분명합니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "그래도 한 가지는",
+    "accent": "분명하다",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s254",
+   "lines": [
+    "그 별명이 통영에서 싸운 해병들에게서 시작됐다는 사실이죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "town_liberated",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "통영에서 싸운 해병들",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s255",
+   "lines": [
+    "그 별명은 지금도 해병대를 상징하는 말로 남아 있습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s255-photo",
+    "tag": "미 해군 사진 · 2007"
+   },
+   "label": "오늘의 한국 해병대 상륙 훈련 (2007, 포항)"
+  },
+  {
+   "id": "s256",
+   "lines": [
+    "이듬해 강원도 도솔산에서 해병대는 또 하나의 이름을 얻습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "summit_dawn",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "1951 · 도솔산",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s257",
+   "lines": [
+    "바로 무적해병입니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "무적해병",
+    "style": "red",
+    "sub": "1951년 도솔산 전투",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s258",
+   "lines": [
+    "귀신 잡는 해병과 무적해병.",
+    "두 별명 모두 전쟁터에서 해병들이 피로 얻은 이름이었습니다."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "1950 통영",
+     "big": "귀신 잡는 해병",
+     "icon": "none",
+     "color": "red"
+    },
+    "right": {
+     "title": "1951 도솔산",
+     "big": "무적해병",
+     "icon": "none",
+     "color": "blue",
+     "at": 0.6
+    }
+   }
+  },
+  {
+   "id": "s259",
+   "lines": [
+    "그렇다면 처음에 던진 질문으로 돌아가 보겠습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "처음의",
+    "accent": "질문",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s260",
+   "lines": [
+    "왜 해병대는 명령받은 거제도가 아니라 통영으로 갔을까요."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "kr_shrug",
+      "x": 0.4,
+      "y": 0.9,
+      "h": 460,
+      "at": 0,
+      "face": "worried",
+      "prop": "helmet",
+      "anim": "tilt"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "q",
+      "x": 0.7,
+      "y": 0.3,
+      "at": 0.2
+     }
+    ],
+    "title": "왜 거제가 아니라 통영이었나?"
+   }
+  },
+  {
+   "id": "s261",
+   "lines": [
+    "답은 지도에 있었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "peninsula",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.405,
+        34.879
+       ],
+       [
+        128.418,
+        34.877
+       ],
+       [
+        128.436,
+        34.874
+       ]
+      ],
+      "color": "#2e9bff",
+      "glow": true,
+      "at": 0.8
+     }
+    ],
+    "flight": [
+     "korea",
+     "south",
+     "peninsula"
+    ],
+    "flightDur": 3.4,
+    "hud": true
+   },
+   "sfx": [
+    {
+     "id": "whoosh",
+     "at": 0
+    }
+   ]
+  },
+  {
+   "id": "s262",
+   "lines": [
+    "거제도를 지키는 것은 적이 언제 어디로 건너올지 모른 채 기다리는 싸움입니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "south",
+    "to": "south",
+    "items": [
+     {
+      "k": "marker",
+      "p": "geoje",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.45,
+        34.86
+       ],
+       [
+        128.55,
+        34.86
+       ]
+      ],
+      "color": "red",
+      "dash": true,
+      "at": 0.2
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.42,
+        34.82
+       ],
+       [
+        128.52,
+        34.8
+       ]
+      ],
+      "color": "red",
+      "dash": true,
+      "at": 0.4
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.48,
+        34.93
+       ],
+       [
+        128.56,
+        34.93
+       ]
+      ],
+      "color": "red",
+      "dash": true,
+      "at": 0.6
+     }
+    ],
+    "demSea": true
+   },
+   "callouts": [
+    {
+     "text": "언제 · 어디로?",
+     "style": "dark",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s263",
+   "lines": [
+    "하지만 통영의 목 원문고개를 막으면 싸움의 주도권이 이쪽으로 넘어옵니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "peninsula",
+    "to": "peninsula",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.405,
+        34.879
+       ],
+       [
+        128.418,
+        34.877
+       ],
+       [
+        128.436,
+        34.874
+       ]
+      ],
+      "color": "#2e9bff",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "lock",
+      "p": "wonmun",
+      "text": "원문고개",
+      "on": "원문고개를"
+     }
+    ],
+    "demSea": true,
+    "tilt": 28
+   }
+  },
+  {
+   "id": "s264",
+   "lines": [
+    "적은 들어올 수도 나갈 수도 없게 되죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "neck",
+    "to": "neck",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.405,
+        34.879
+       ],
+       [
+        128.418,
+        34.877
+       ],
+       [
+        128.436,
+        34.874
+       ]
+      ],
+      "color": "#2e9bff",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.41,
+        34.888
+       ],
+       [
+        128.416,
+        34.88
+       ]
+      ],
+      "color": "red",
+      "width": 0.8,
+      "at": 0.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.424,
+        34.855
+       ],
+       [
+        128.42,
+        34.868
+       ]
+      ],
+      "color": "red",
+      "at": 0.3
+     },
+     {
+      "k": "clash",
+      "p": "wonmun",
+      "at": 0.6,
+      "period": 0.9,
+      "size": 1.0
+     }
+    ],
+    "demSea": true,
+    "tilt": 32
+   }
+  },
+  {
+   "id": "s265",
+   "lines": [
+    {
+     "t": "300여 명의 해병은 숫자로 싸운 것이 아니라 지형으로 싸운 겁니다.",
+     "say": "삼백여 명의 해병은 숫자로 싸운 것이 아니라 지형으로 싸운 겁니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "숫자보다 지형",
+    "style": "yellow",
+    "sub": "대대급 300여 명 · 고개 하나",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s266",
+   "lines": [
+    "그리고 통영을 되찾는 것이 결국 거제와 진해를 지키는 가장 확실한 길이었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "south",
+    "to": "south",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        128.405,
+        34.879
+       ],
+       [
+        128.418,
+        34.877
+       ],
+       [
+        128.436,
+        34.874
+       ]
+      ],
+      "color": "#2e9bff",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "tongyeong",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "geoje",
+      "color": "blue",
+      "on": "거제와"
+     },
+     {
+      "k": "marker",
+      "p": "jinhae",
+      "color": "blue",
+      "on": "진해를"
+     }
+    ],
+    "demSea": true
+   }
+  },
+  {
+   "id": "s267",
+   "lines": [
+    "명령의 글자가 아니라 명령의 목적을 본 판단이었던 거죠."
+   ],
+   "visual": {
+    "type": "document",
+    "org": "재구성",
+    "head": "명령의 목적",
+    "rows": [
+     "글자: 거제도를 지켜라",
+     "목적: 남쪽 바다를 지켜라"
+    ],
+    "stamp": "判斷",
+    "note": "재구성 · 내용 요약"
+   }
+  },
+  {
+   "id": "s268",
+   "lines": [
+    "물론 이 판단은 상부가 승인했기에 작전이 될 수 있었습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s268-photo",
+    "tag": "미 해군 사진 · 1951"
+   },
+   "label": "손원일 해군참모총장 (1951)"
+  },
+  {
+   "id": "s269",
+   "lines": [
+    "건의를 받아들인 해군 지휘부와 바다에서 함께 싸운 해군 함정들도 이 승리의 주인공입니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s269-photo",
+    "tag": "국방화보"
+   },
+   "label": "한국 해군 최초의 전투함 백두산함 (1949)"
+  },
+  {
+   "id": "s270",
+   "lines": [
+    "통영상륙작전에는 몇 가지 기록이 따라붙습니다.",
+    "한국군이 처음으로 혼자서 해낸 상륙작전.",
+    "그리고 낙동강까지 밀리던 시기에 국군이 펼친 보기 드문 공격작전."
+   ],
+   "visual": {
+    "type": "checklist",
+    "title": "통영상륙작전의 기록",
+    "items": [
+     {
+      "text": "한국군 첫 단독 상륙작전",
+      "on": "처음으로",
+      "checkOn": "해낸"
+     },
+     {
+      "text": "낙동강 방어 시기의 공격작전",
+      "on": "공격작전",
+      "checkOn": "공격작전"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s271",
+   "lines": [
+    "몇 달 동안 밀리기만 하던 국민들에게 이 소식은 작은 희망이 됐습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s271-photo",
+    "tag": "유엔 사진 · 1950. 10"
+   },
+   "label": "마산 인근 피란민 가족 (1950. 10)"
+  },
+  {
+   "id": "s272",
+   "lines": [
+    "통영 주민들은 해병대를 통영의 은인이라 부르며 기념탑이라도 세워야 한다고 했다고 합니다.",
+    "그해 가을 부산의 한 신문에 실린 통영 소식입니다."
+   ],
+   "visual": {
+    "type": "document",
+    "org": "부산일보 1950. 11. 5",
+    "head": "통영전선 회고기 (요지)",
+    "rows": [
+     "참 우리 통영의 은인이라",
+     "해병대 기념탑이라도 세워야 된다"
+    ],
+    "stamp": "1950",
+    "note": "요지 · 현대어"
+   }
+  },
+  {
+   "id": "s273",
+   "lines": [
+    "한 달 뒤 해병대는 인천상륙작전에도 뛰어듭니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s273-photo",
+    "tag": "미 해군 사진 · 1950. 9"
+   },
+   "label": "인천으로 떠나는 수송선을 기다리는 한국 해병대 (1950. 9. 12)"
+  },
+  {
+   "id": "s274",
+   "lines": [
+    "이번에는 연대 규모로 커진 부대였죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "해병대 제1연대",
+    "style": "blue",
+    "sub": "1950. 9 인천상륙작전",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s275",
+   "lines": [
+    "그리고 서울 수복 작전에서도 앞장섰습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s275-photo",
+    "tag": "미 육군 통신대 사진"
+   },
+   "label": "서울 수복 작전에 나선 한·미 해병대 (1950. 9. 20)"
+  },
+  {
+   "id": "s276",
+   "lines": [
+    "김성은 부대장은 훗날 해병대사령관을 거쳐 국방부 장관까지 지냅니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s276-photo",
+    "tag": "미 해군 사진 · 2007"
+   },
+   "label": "김성은 전 해병대사령관·국방부 장관 (2007)"
+  },
+  {
+   "id": "s277",
+   "lines": [
+    {
+     "t": "그는 2007년 세상을 떠났습니다.",
+     "say": "그는 이천칠년 세상을 떠났습니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "김성은 1924 ~ 2007",
+    "style": "dark"
+   }
+  },
+  {
+   "id": "s278",
+   "lines": [
+    "통영상륙작전 기념관에는 지금도 그의 유품이 전시돼 있죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "통영상륙작전 기념관",
+    "style": "blue",
+    "sub": "김성은 장군 유품 전시",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s279",
+   "lines": [
+    "오늘 통영 원문고개에는 그날을 기리는 전적비가 서 있습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "memorial",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "원문고개 전적비",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s280",
+   "lines": [
+    "그리고 고개 아래에는 통영상륙작전 기념관이 세워졌죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "통영상륙작전 기념관",
+    "style": "yellow",
+    "sub": "2011년 개관 · 통영 원문공원",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s281",
+   "lines": [
+    {
+     "t": "해마다 8월이면 이곳에서 전승 기념식이 열립니다.",
+     "say": "해마다 팔월이면 이곳에서 전승 기념식이 열립니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "매년 8월 전승 기념식",
+    "style": "blue",
+    "sub": "통영 원문고개",
+    "subAt": 0.4
+   }
+  },
+  {
+   "id": "s282",
+   "lines": [
+    "전사한 젊은 해병들의 넋은 통영 용남면의 한 절에 모셔져 있습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "temple_dusk",
+    "kb": "in"
+   },
+   "label": "재연 일러스트"
+  },
+  {
+   "id": "s283",
+   "lines": [
+    "명령을 그대로 따르는 것은 쉬운 일입니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "명령을 따르는 것은",
+    "accent": "쉽다",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s284",
+   "lines": [
+    "하지만 명령의 진짜 목적을 생각하고 더 나은 길을 찾는 것은 어렵습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "목적을 생각하는 것은",
+    "accent": "어렵다",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s285",
+   "lines": [
+    "거제를 지키라는 명령의 목적은 결국 남쪽 바다를 지키는 것이었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "south",
+    "to": "south",
+    "items": [
+     {
+      "k": "marker",
+      "p": "geoje",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "jinhae",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "tongyeong",
+      "color": "blue",
+      "at": 0
+     }
+    ],
+    "demSea": true
+   },
+   "callouts": [
+    {
+     "text": "목적 = 남쪽 바다",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s286",
+   "lines": [
+    "김성은 부대는 그 목적을 위해 더 위험하고 더 확실한 길을 골랐습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "strait",
+    "to": "neck",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.51,
+        34.89
+       ],
+       [
+        128.48,
+        34.881
+       ],
+       [
+        128.452,
+        34.876
+       ]
+      ],
+      "color": "blue",
+      "width": 1.2,
+      "at": 0.2
+     },
+     {
+      "k": "lock",
+      "p": "wonmun",
+      "text": "원문고개",
+      "at": 0.7
+     }
+    ],
+    "demSea": true,
+    "flight": [
+     "strait",
+     "neck"
+    ],
+    "flightDur": 2.8
+   },
+   "sfx": [
+    {
+     "id": "whoosh",
+     "at": 0
+    }
+   ]
+  },
+  {
+   "id": "s287",
+   "lines": [
+    "그리고 그 선택이 귀신 잡는 해병이라는 이름을 낳았습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "peak_view",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "귀신 잡는 해병",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ]
+  },
+  {
+   "id": "s288",
+   "lines": [
+    "격전의 지도는 다음 편에서도 지도 위에 숨은 승부의 순간을 찾아가겠습니다.",
+    "오늘 이야기가 의미 있으셨다면 구독과 좋아요로 함께해 주세요.",
+    "여러분의 응원이 다음 이야기를 만드는 힘이 됩니다."
+   ],
+   "visual": {
+    "type": "endcard",
+    "title": "명령의 글자가 아닌 목적을 본 300여 명,\n돌아오지 못한 젊은 해병들을 기억하며",
+    "q": "s288-photo"
+   },
+   "tail": 1.0
+  }
+ ]
+}

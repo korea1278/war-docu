@@ -10,7 +10,7 @@ import re
 import subprocess
 import sys
 
-from common import ROOT, ep_dirs, read_json
+from common import ROOT, ep_dirs, load_board, read_json
 
 LIMIT = 1.0
 
@@ -30,6 +30,9 @@ def voice_end(mp3):
 
 
 def main(ep):
+    global LIMIT
+    # 2026-11-13 롱폼 표준(LONGFORM_STANDARD 3): 스토리보드 "sync_limit"(EP27부터 0.5초) — 없으면 예전 1.0초
+    LIMIT = float(load_board(ep).get("sync_limit", LIMIT))
     _, out = ep_dirs(ep)
     tl = read_json(out / "timeline.json")
     rows, bad = [], []
