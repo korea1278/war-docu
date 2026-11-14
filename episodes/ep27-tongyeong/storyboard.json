@@ -202,10 +202,10 @@
   "landing_dusk": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean marines whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1950 M1 steel helmets and plain olive drab herringbone field uniforms with absolutely NO collar tabs, NO patches, NO red insignia jumping from a small wooden-hulled transport boat into knee-deep water on a quiet rocky cove at dusk and wading ashore with rifles held high, dark wooded hills just behind the beach, August 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "nk_column_coast": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a long column of North Korean soldiers whose heads are round balls painted as the North Korean flag (blue, red and white stripes with a red star), wearing 1950 olive-brown uniforms and soft field caps marching along a dusty coastal dirt road beside rice paddies toward a southern harbor town, a few trucks, confident and fast, hot summer haze, August 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "tongyeong_1950": "a small 1950 Korean harbor town of dark tile-roofed and thatched houses on a hillside around a narrow harbor full of wooden fishing boats, green hills behind, southern coast, quiet and tense under a hazy summer sky, empty streets, a few people hurrying, distant smoke on the hills, August 1950, painterly realistic digital illustration, cinematic, desaturated summer palette, film grain, no text, no letters.",
-  "tongyeong_occupied": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: North Korean soldiers whose heads are round balls painted as the North Korean flag (blue, red and white stripes with a red star), wearing 1950 olive-brown uniforms and soft field caps entering the narrow streets of a small 1950 Korean harbor town of dark tile-roofed and thatched houses on a hillside around a narrow harbor full of wooden fishing boats, green hills behind, southern coast, red flags hung from a building, frightened villagers hiding behind doors, August 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "tongyeong_occupied": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: North Korean soldiers whose heads are round balls painted as the North Korean flag (blue, red and white stripes with a red star), wearing 1950 olive-brown uniforms and soft field caps entering the narrow streets of a small 1950 Korean harbor town of dark tile-roofed and thatched houses on a hillside around a narrow harbor full of wooden fishing boats, green hills behind, southern coast, North Korean national flags (blue-red-blue stripes with a white circle and red star) hung from a building, absolutely NO hammer and sickle, NO Soviet flags, frightened villagers hiding behind doors, August 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "jindong_ambush": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean marines whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1950 M1 steel helmets and plain olive drab herringbone field uniforms with absolutely NO collar tabs, NO patches, NO red insignia springing an ambush from a wooded hillside above a dusty road and rice paddies on a hot summer day, firing rifles and a machine gun down at a startled column of North Korean soldiers whose heads are round balls painted as the North Korean flag (blue, red and white stripes with a red star), wearing 1950 olive-brown uniforms and soft field caps on the road below, smoke and dust, August 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "strait_night": "Two small 1950 South Korean navy ships moving silently through a narrow dark strait between rocky islands at night, no lights, faint moonlight on calm water, soldiers' helmets silhouetted on deck, painterly realistic digital illustration, cinematic, desaturated summer palette, film grain, no text, no letters.",
-  "hansan_1592": "A historical 1592 Korean naval battle off Hansan island: a crescent crane-wing formation of large Korean Joseon panokseon warships and a turtle ship firing cannons at a fleet of Japanese warships in open sea, smoke, dramatic sky, painterly realistic historical illustration, no text, no letters.",
+  "hansan_1592": "A historical 1592 naval battle off Hansan island in Korea: a crescent crane-wing formation of large Korean Joseon panokseon warships (flat-bottomed two-deck wooden oared ships with a high fortress-like upper deck and plain square sails) and one geobukseon turtle ship with a spiked armored roof and a dragon head firing cannons at a fleet of Japanese wooden atakebune warships, smoke, dramatic sky, absolutely NO modern flags, NO taegukgi, NO European galleons, only plain cloth banners, painterly realistic historical illustration, no text, no letters.",
   "recon_boat": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a young South Korean marine colonel whose head is a round ball painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing a 1950 M1 steel helmet and a plain olive drab field jacket with absolutely NO collar tabs, NO patches, NO red insignia crouching in a small wooden fishing boat rowed by an old Korean fisherman in white hanbok before dawn, looking through binoculars toward a dark hilly peninsula and a harbor town across calm water, August 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "kim_map": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a young South Korean marine colonel whose head is a round ball painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing a 1950 M1 steel helmet and a plain olive drab field jacket with absolutely NO collar tabs, NO patches, NO red insignia pointing firmly at the narrow neck of a hand-drawn peninsula map spread on an ammunition crate by lantern light at night, other marine officers leaning in with serious faces, a tense moment of realization, August 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "marines_climb": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean marines whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1950 M1 steel helmets and plain olive drab herringbone field uniforms with absolutely NO collar tabs, NO patches, NO red insignia climbing quickly up a steep wooded hillside from a cove at last light, rifles slung, the sea and a small boat behind them below, August 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
@@ -258,7 +258,8 @@
      "id": "artillery_far",
      "at": 0.3
     }
-   ]
+   ],
+   "act": 0
   },
   {
    "id": "s002",
@@ -320,7 +321,8 @@
      "id": "whoosh",
      "at": 0
     }
-   ]
+   ],
+   "act": 0
   },
   {
    "id": "s003",
@@ -392,7 +394,8 @@
      "at": 0,
      "pos": "top"
     }
-   ]
+   ],
+   "act": 0
   },
   {
    "id": "s004",
@@ -430,7 +433,8 @@
       "color": "red"
      }
     ]
-   }
+   },
+   "act": 0
   },
   {
    "id": "s005",
@@ -480,7 +484,8 @@
      "id": "water",
      "at": 0.4
     }
-   ]
+   ],
+   "act": 0
   },
   {
    "id": "s006",
@@ -500,7 +505,8 @@
      "at": 0,
      "pos": "lower"
     }
-   ]
+   ],
+   "act": 0
   },
   {
    "id": "s007",
@@ -512,7 +518,8 @@
     "text": "그런데",
     "accent": "이상한 점 하나",
     "accentAt": 0.5
-   }
+   },
+   "act": 0
   },
   {
    "id": "s008",
@@ -524,7 +531,8 @@
     "text": "받은 명령은",
     "accent": "통영이 아니었다",
     "accentAt": 0.5
-   }
+   },
+   "act": 0
   },
   {
    "id": "s009",
@@ -542,7 +550,8 @@
     ],
     "stamp": "命令",
     "note": "재구성 · 내용 요약"
-   }
+   },
+   "act": 0
   },
   {
    "id": "s010",
@@ -590,7 +599,8 @@
      }
     ],
     "demSea": true
-   }
+   },
+   "act": 0
   },
   {
    "id": "s011",
@@ -606,7 +616,8 @@
     "style": "yellow",
     "sub": "김성은 부대 · 기록에 따라 330명 등",
     "subAt": 0.4
-   }
+   },
+   "act": 0
   },
   {
    "id": "s012",
@@ -636,7 +647,8 @@
       "color": "yellow"
      }
     ]
-   }
+   },
+   "act": 0
   },
   {
    "id": "s013",
@@ -648,7 +660,8 @@
     "img": "nk_column_coast",
     "kb": "in"
    },
-   "label": "재연 일러스트"
+   "label": "재연 일러스트",
+   "act": 0
   },
   {
    "id": "s014",
@@ -660,7 +673,8 @@
     "text": "그런데",
     "accent": "결과는 놀라웠다",
     "accentAt": 0.5
-   }
+   },
+   "act": 0
   },
   {
    "id": "s015",
@@ -697,7 +711,8 @@
      "at": 0,
      "pos": "top"
     }
-   ]
+   ],
+   "act": 0
   },
   {
    "id": "s016",
@@ -710,7 +725,8 @@
     "style": "blue",
     "sub": "1950. 8. 17 ~ 9. 22",
     "subAt": 0.4
-   }
+   },
+   "act": 0
   },
   {
    "id": "s017",
@@ -723,7 +739,8 @@
     "q": "s017-photo",
     "tag": "공개 자료 사진"
    },
-   "label": "종군기자 마거리트 히긴스 (한국전쟁 당시)"
+   "label": "종군기자 마거리트 히긴스 (한국전쟁 당시)",
+   "act": 0
   },
   {
    "id": "s018",
@@ -734,7 +751,8 @@
     "type": "text",
     "big": "귀신도 잡을 해병",
     "style": "red"
-   }
+   },
+   "act": 0
   },
   {
    "id": "s019",
@@ -764,7 +782,8 @@
      }
     ],
     "title": "왜 명령과 다른 길을?"
-   }
+   },
+   "act": 0
   },
   {
    "id": "s020",
@@ -798,7 +817,8 @@
       "color": "red"
      }
     ]
-   }
+   },
+   "act": 0
   },
   {
    "id": "s021",
@@ -834,7 +854,8 @@
      "id": "ping",
      "at": 0.7
     }
-   ]
+   ],
+   "act": 0
   },
   {
    "id": "s022",
@@ -863,7 +884,8 @@
     ],
     "demSea": true,
     "tilt": 36
-   }
+   },
+   "act": 0
   },
   {
    "id": "s023",
@@ -875,7 +897,8 @@
     "text": "이 고개가 왜 모든 것을 갈랐는지",
     "accent": "끝까지 보시면 알게 됩니다",
     "accentAt": 0.5
-   }
+   },
+   "act": 0
   },
   {
    "id": "s024",
@@ -889,7 +912,8 @@
     "at": 0,
     "q": "s024-photo"
    },
-   "flash": true
+   "flash": true,
+   "act": 0
   },
   {
    "id": "s025",
@@ -906,7 +930,8 @@
    "chapter": {
     "num": "제1막",
     "title": "반도의 목을 노려라"
-   }
+   },
+   "act": 1
   },
   {
    "id": "s026",
@@ -922,7 +947,8 @@
     "q": "s026-photo",
     "tag": "6·25전쟁 기록 사진"
    },
-   "label": "김해·마산 사이 전투지를 빠져나온 피란민 가족"
+   "label": "김해·마산 사이 전투지를 빠져나온 피란민 가족",
+   "act": 1
   },
   {
    "id": "s027",
@@ -1020,7 +1046,8 @@
      "id": "whoosh",
      "at": 0
     }
-   ]
+   ],
+   "act": 1
   },
   {
    "id": "s028",
@@ -1093,7 +1120,8 @@
      "at": 0,
      "pos": "lower"
     }
-   ]
+   ],
+   "act": 1
   },
   {
    "id": "s029",
@@ -1106,7 +1134,8 @@
     "style": "yellow",
     "sub": "1950년 8월 · 정부 부산 이전",
     "subAt": 0.4
-   }
+   },
+   "act": 1
   },
   {
    "id": "s030",
@@ -1118,7 +1147,8 @@
     "text": "부산이 무너지면",
     "accent": "대한민국도 끝",
     "accentAt": 0.5
-   }
+   },
+   "act": 1
   },
   {
    "id": "s031",
@@ -1190,7 +1220,8 @@
      }
     ],
     "tilt": 22
-   }
+   },
+   "act": 1
   },
   {
    "id": "s032",
@@ -1203,7 +1234,8 @@
     "q": "s032-photo",
     "tag": "미 육군 통신대 사진"
    },
-   "label": "안동 북쪽 고지로 오르는 국군 (1950. 8. 6)"
+   "label": "안동 북쪽 고지로 오르는 국군 (1950. 8. 6)",
+   "act": 1
   },
   {
    "id": "s033",
@@ -1231,7 +1263,8 @@
       "on": "따로"
      }
     ]
-   }
+   },
+   "act": 1
   },
   {
    "id": "s034",
@@ -1307,7 +1340,8 @@
      "id": "ping",
      "at": 0.9
     }
-   ]
+   ],
+   "act": 1
   },
   {
    "id": "s035",
@@ -1406,7 +1440,8 @@
      "at": 0,
      "pos": "top"
     }
-   ]
+   ],
+   "act": 1
   },
   {
    "id": "s036",
@@ -1419,7 +1454,8 @@
     "q": "s036-photo",
     "tag": "미 해병대 사진"
    },
-   "label": "낙동강 방어선의 미 해병대 (1950. 8)"
+   "label": "낙동강 방어선의 미 해병대 (1950. 8)",
+   "act": 1
   },
   {
    "id": "s037",
@@ -1432,7 +1468,8 @@
     "q": "s037-photo",
     "tag": "미 육군 통신대 사진"
    },
-   "label": "마산 지역에서 응사하는 미군 박격포 (1950)"
+   "label": "마산 지역에서 응사하는 미군 박격포 (1950)",
+   "act": 1
   },
   {
    "id": "s038",
@@ -1532,7 +1569,8 @@
      "at": 0,
      "pos": "lower"
     }
-   ]
+   ],
+   "act": 1
   },
   {
    "id": "s039",
@@ -1563,7 +1601,8 @@
       "color": "red"
      }
     ]
-   }
+   },
+   "act": 1
   },
   {
    "id": "s040",
@@ -1659,7 +1698,8 @@
      "at": 0,
      "pos": "top"
     }
-   ]
+   ],
+   "act": 1
   },
   {
    "id": "s041",
@@ -1692,7 +1732,8 @@
      "id": "ping",
      "at": 0.4
     }
-   ]
+   ],
+   "act": 1
   },
   {
    "id": "s042",
@@ -1712,7 +1753,8 @@
      "at": 0,
      "pos": "lower"
     }
-   ]
+   ],
+   "act": 1
   },
   {
    "id": "s043",
@@ -1733,7 +1775,8 @@
     ],
     "demSea": true,
     "tilt": 28
-   }
+   },
+   "act": 1
   },
   {
    "id": "s044",
@@ -1765,7 +1808,8 @@
     ],
     "demSea": true,
     "tilt": 28
-   }
+   },
+   "act": 1
   },
   {
    "id": "s045",
@@ -1822,7 +1866,8 @@
     ],
     "demSea": true,
     "tilt": 28
-   }
+   },
+   "act": 1
   },
   {
    "id": "s046",
@@ -1870,7 +1915,8 @@
      "id": "ping",
      "at": 0.5
     }
-   ]
+   ],
+   "act": 1
   },
   {
    "id": "s047",
@@ -1918,7 +1964,8 @@
      "at": 0,
      "pos": "lower"
     }
-   ]
+   ],
+   "act": 1
   },
   {
    "id": "s048",
@@ -1931,7 +1978,8 @@
     "q": "s048-photo",
     "tag": "미 해군 사진 · 1951"
    },
-   "label": "진해의 한국 해군 수병 (1951)"
+   "label": "진해의 한국 해군 수병 (1951)",
+   "act": 1
   },
   {
    "id": "s049",
@@ -1990,7 +2038,8 @@
      "at": 0,
      "pos": "top"
     }
-   ]
+   ],
+   "act": 1
   },
   {
    "id": "s050",
@@ -2071,7 +2120,8 @@
      "at": 0,
      "pos": "top"
     }
-   ]
+   ],
+   "act": 1
   },
   {
    "id": "s051",
@@ -2083,7 +2133,8 @@
     "img": "tongyeong_occupied",
     "kb": "in"
    },
-   "label": "재연 일러스트"
+   "label": "재연 일러스트",
+   "act": 1
   },
   {
    "id": "s052",
@@ -2096,7 +2147,8 @@
     "style": "red",
     "sub": "1950년 8월 중순",
     "subAt": 0.4
-   }
+   },
+   "act": 1
   },
   {
    "id": "s053",
@@ -2114,7 +2166,8 @@
    "chapter": {
     "num": "제2막",
     "title": "창설 1년 4개월의 해병대"
-   }
+   },
+   "act": 2
   },
   {
    "id": "s054",
@@ -2144,7 +2197,8 @@
       "color": "blue"
      }
     ]
-   }
+   },
+   "act": 2
   },
   {
    "id": "s055",
@@ -2155,7 +2209,8 @@
     "type": "text",
     "big": "아주 젊은 군대",
     "style": "yellow"
-   }
+   },
+   "act": 2
   },
   {
    "id": "s056",
@@ -2172,7 +2227,8 @@
     "style": "blue",
     "sub": "경상남도 진해 덕산 비행장",
     "subAt": 0.4
-   }
+   },
+   "act": 2
   },
   {
    "id": "s057",
@@ -2188,7 +2244,8 @@
     "style": "yellow",
     "sub": "창설 당시 장교·병사 합계",
     "subAt": 0.4
-   }
+   },
+   "act": 2
   },
   {
    "id": "s058",
@@ -2202,7 +2259,8 @@
     "type": "text",
     "big": "창설 1년 2개월 만에 전쟁",
     "style": "red"
-   }
+   },
+   "act": 2
   },
   {
    "id": "s059",
@@ -2233,7 +2291,8 @@
       "bad": true
      }
     ]
-   }
+   },
+   "act": 2
   },
   {
    "id": "s060",
@@ -2263,7 +2322,8 @@
       "color": "dark"
      }
     ]
-   }
+   },
+   "act": 2
   },
   {
    "id": "s061",
@@ -2276,7 +2336,8 @@
     "style": "blue",
     "sub": "해병대 창설 멤버 · 1924년생",
     "subAt": 0.4
-   }
+   },
+   "act": 2
   },
   {
    "id": "s062",
@@ -2289,7 +2350,8 @@
     "q": "s062-photo",
     "tag": "미 육군 통신대 사진"
    },
-   "label": "상륙 장갑차에 오르는 한국 해병대 (1950. 9)"
+   "label": "상륙 장갑차에 오르는 한국 해병대 (1950. 9)",
+   "act": 2
   },
   {
    "id": "s063",
@@ -2301,7 +2363,8 @@
     "text": "통영 직전",
     "accent": "큰 싸움",
     "accentAt": 0.5
-   }
+   },
+   "act": 2
   },
   {
    "id": "s064",
@@ -2383,7 +2446,8 @@
      "id": "ping",
      "at": 0.4
     }
-   ]
+   ],
+   "act": 2
   },
   {
    "id": "s065",
@@ -2395,7 +2459,8 @@
     "img": "jindong_ambush",
     "kb": "in"
    },
-   "label": "재연 일러스트"
+   "label": "재연 일러스트",
+   "act": 2
   },
   {
    "id": "s066",
@@ -2425,7 +2490,8 @@
       "color": "yellow"
      }
     ]
-   }
+   },
+   "act": 2
   },
   {
    "id": "s067",
@@ -2439,7 +2505,8 @@
     "style": "yellow",
     "sub": "중령으로 적은 자료도 있음 · 8월 초 특진 기록 기준",
     "subAt": 0.4
-   }
+   },
+   "act": 2
   },
   {
    "id": "s068",
@@ -2451,7 +2518,8 @@
     "text": "쉴 틈은",
     "accent": "없었다",
     "accentAt": 0.5
-   }
+   },
+   "act": 2
   },
   {
    "id": "s069",
@@ -2471,7 +2539,8 @@
     ],
     "stamp": "緊急",
     "note": "재구성 · 내용 요약"
-   }
+   },
+   "act": 2
   },
   {
    "id": "s070",
@@ -2494,7 +2563,8 @@
     ],
     "demSea": true,
     "tilt": 24
-   }
+   },
+   "act": 2
   },
   {
    "id": "s071",
@@ -2542,7 +2612,8 @@
      }
     ],
     "demSea": true
-   }
+   },
+   "act": 2
   },
   {
    "id": "s072",
@@ -2595,7 +2666,8 @@
      "at": 0,
      "pos": "lower"
     }
-   ]
+   ],
+   "act": 2
   },
   {
    "id": "s073",
@@ -2608,7 +2680,8 @@
     "q": "s073-photo",
     "tag": "미 해군 사진 · 1951"
    },
-   "label": "손원일 해군참모총장 (1951)"
+   "label": "손원일 해군참모총장 (1951)",
+   "act": 2
   },
   {
    "id": "s074",
@@ -2625,7 +2698,8 @@
     ],
     "stamp": "命令",
     "note": "재구성 · 내용 요약"
-   }
+   },
+   "act": 2
   },
   {
    "id": "s075",
@@ -2636,7 +2710,8 @@
     "type": "text",
     "big": "상식적인 명령",
     "style": "dark"
-   }
+   },
+   "act": 2
   },
   {
    "id": "s076",
@@ -2664,7 +2739,8 @@
       "checkOn": "안전한"
      }
     ]
-   }
+   },
+   "act": 2
   },
   {
    "id": "s077",
@@ -2687,7 +2763,8 @@
      "at": 0,
      "pos": "top"
     }
-   ]
+   ],
+   "act": 2
   },
   {
    "id": "s078",
@@ -2738,7 +2815,8 @@
      "id": "whoosh",
      "at": 0
     }
-   ]
+   ],
+   "act": 2
   },
   {
    "id": "s079",
@@ -2761,7 +2839,8 @@
     ],
     "demSea": true,
     "tilt": 28
-   }
+   },
+   "act": 2
   },
   {
    "id": "s080",
@@ -2784,7 +2863,8 @@
      "at": 0,
      "pos": "top"
     }
-   ]
+   ],
+   "act": 2
   },
   {
    "id": "s081",
@@ -2833,7 +2913,8 @@
      "at": 0,
      "pos": "lower"
     }
-   ]
+   ],
+   "act": 2
   },
   {
    "id": "s082",
@@ -2846,7 +2927,8 @@
     "style": "yellow",
     "sub": "1592년 · 이순신",
     "subAt": 0.4
-   }
+   },
+   "act": 2
   },
   {
    "id": "s083",
@@ -2889,7 +2971,8 @@
     ],
     "demSea": true,
     "tilt": 28
-   }
+   },
+   "act": 2
   },
   {
    "id": "s084",
@@ -2926,7 +3009,8 @@
      "at": 0,
      "pos": "top"
     }
-   ]
+   ],
+   "act": 2
   },
   {
    "id": "s085",
@@ -2938,7 +3022,8 @@
     "img": "recon_boat",
     "kb": "in"
    },
-   "label": "재연 일러스트"
+   "label": "재연 일러스트",
+   "act": 2
   },
   {
    "id": "s086",
@@ -2950,7 +3035,8 @@
     "img": "kim_map",
     "kb": "in"
    },
-   "label": "재연 일러스트"
+   "label": "재연 일러스트",
+   "act": 2
   },
   {
    "id": "s087",
@@ -2996,7 +3082,8 @@
     ],
     "demSea": true,
     "tilt": 26
-   }
+   },
+   "act": 2
   },
   {
    "id": "s088",
@@ -3059,7 +3146,8 @@
     ],
     "demSea": true,
     "tilt": 26
-   }
+   },
+   "act": 2
   },
   {
    "id": "s089",
@@ -3122,7 +3210,8 @@
     ],
     "demSea": true,
     "tilt": 26
-   }
+   },
+   "act": 2
   },
   {
    "id": "s090",
@@ -3150,7 +3239,8 @@
       "on": "막으면"
      }
     ]
-   }
+   },
+   "act": 2
   },
   {
    "id": "s091",
@@ -3206,7 +3296,8 @@
      "id": "ping",
      "at": 0.3
     }
-   ]
+   ],
+   "act": 2
   },
   {
    "id": "s092",
@@ -3280,7 +3371,8 @@
      "at": 0,
      "pos": "lower"
     }
-   ]
+   ],
+   "act": 2
   },
   {
    "id": "s093",
@@ -3302,7 +3394,8 @@
      "color": "blue",
      "at": 0.6
     }
-   }
+   },
+   "act": 2
   },
   {
    "id": "s094",
@@ -3326,7 +3419,8 @@
       "later": true
      }
     ]
-   }
+   },
+   "act": 2
   },
   {
    "id": "s095",
@@ -3350,7 +3444,8 @@
       "later": true
      }
     ]
-   }
+   },
+   "act": 2
   },
   {
    "id": "s096",
@@ -3374,7 +3469,8 @@
       "on": "실패하면"
      }
     ]
-   }
+   },
+   "act": 2
   },
   {
    "id": "s097",
@@ -3404,7 +3500,8 @@
       "on": "건의"
      }
     ]
-   }
+   },
+   "act": 2
   },
   {
    "id": "s098",
@@ -3421,7 +3518,8 @@
     ],
     "stamp": "建議",
     "note": "재구성 · 내용 요약"
-   }
+   },
+   "act": 2
   },
   {
    "id": "s099",
@@ -3436,7 +3534,8 @@
     "text": "8월 17일",
     "accent": "오후 5시쯤",
     "accentAt": 0.5
-   }
+   },
+   "act": 2
   },
   {
    "id": "s100",
@@ -3452,7 +3551,8 @@
     ],
     "stamp": "承認",
     "note": "재구성 · 내용 요약"
-   }
+   },
+   "act": 2
   },
   {
    "id": "s101",
@@ -3463,7 +3563,8 @@
     "type": "text",
     "big": "상륙까지 1시간",
     "style": "red"
-   }
+   },
+   "act": 2
   },
   {
    "id": "s102",
@@ -3500,7 +3601,8 @@
      "id": "whoosh",
      "at": 0
     }
-   ]
+   ],
+   "act": 3
   },
   {
    "id": "s103",
@@ -3546,7 +3648,8 @@
     ],
     "demSea": true,
     "tilt": 24
-   }
+   },
+   "act": 3
   },
   {
    "id": "s104",
@@ -3559,7 +3662,8 @@
     "q": "s104-photo",
     "tag": "6·25전쟁 기록 사진"
    },
-   "label": "6·25전쟁 당시 한국 해군 함정의 함포"
+   "label": "6·25전쟁 당시 한국 해군 함정의 함포",
+   "act": 3
   },
   {
    "id": "s105",
@@ -3590,7 +3694,8 @@
       "color": "red"
      }
     ]
-   }
+   },
+   "act": 3
   },
   {
    "id": "s106",
@@ -3625,7 +3730,8 @@
     ],
     "demSea": true,
     "tilt": 30
-   }
+   },
+   "act": 3
   },
   {
    "id": "s107",
@@ -3674,7 +3780,8 @@
      "at": 0,
      "pos": "lower"
     }
-   ]
+   ],
+   "act": 3
   },
   {
    "id": "s108",
@@ -3687,7 +3794,8 @@
     "q": "s108-photo",
     "tag": "공개 자료 사진"
    },
-   "label": "오늘의 통영 (항공 사진)"
+   "label": "오늘의 통영 (항공 사진)",
+   "act": 3
   },
   {
    "id": "s109",
@@ -3714,7 +3822,8 @@
     ],
     "demSea": true,
     "tilt": 30
-   }
+   },
+   "act": 3
   },
   {
    "id": "s110",
@@ -3755,7 +3864,8 @@
     ],
     "demSea": true,
     "tilt": 34
-   }
+   },
+   "act": 3
   },
   {
    "id": "s111",
@@ -3769,7 +3879,8 @@
     "type": "text",
     "big": "해군 함정 7척",
     "style": "blue"
-   }
+   },
+   "act": 3
   },
   {
    "id": "s112",
@@ -3782,7 +3893,8 @@
     "q": "s112-photo",
     "tag": "미 해군 사진 · 1950. 12"
    },
-   "label": "한국 해군 경비정 703함 승조원들 (1950. 12)"
+   "label": "한국 해군 경비정 703함 승조원들 (1950. 12)",
+   "act": 3
   },
   {
    "id": "s113",
@@ -3800,7 +3912,8 @@
     ],
     "stamp": "海軍",
     "note": "기록에 따라 다름"
-   }
+   },
+   "act": 3
   },
   {
    "id": "s114",
@@ -3811,7 +3924,8 @@
     "type": "text",
     "big": "상륙함 0척",
     "style": "red"
-   }
+   },
+   "act": 3
   },
   {
    "id": "s115",
@@ -3824,7 +3938,8 @@
     "q": "s115-photo",
     "tag": "미 해군 사진 · 1950. 9"
    },
-   "label": "인천 상륙 다음 날 해안에 늘어선 LST (1950. 9. 16)"
+   "label": "인천 상륙 다음 날 해안에 늘어선 LST (1950. 9. 16)",
+   "act": 3
   },
   {
    "id": "s116",
@@ -3853,7 +3968,8 @@
      "color": "blue",
      "at": 0.6
     }
-   }
+   },
+   "act": 3
   },
   {
    "id": "s117",
@@ -3865,7 +3981,8 @@
     "text": "맨손에 가까운",
     "accent": "상륙",
     "accentAt": 0.5
-   }
+   },
+   "act": 3
   },
   {
    "id": "s118",
@@ -3940,7 +4057,8 @@
      "id": "artillery_far",
      "at": 0.1
     }
-   ]
+   ],
+   "act": 3
   },
   {
    "id": "s119",
@@ -3990,7 +4108,8 @@
      "id": "water",
      "at": 0.3
     }
-   ]
+   ],
+   "act": 3
   },
   {
    "id": "s120",
@@ -4019,7 +4138,8 @@
       "at": 0.4
      }
     ]
-   }
+   },
+   "act": 3
   },
   {
    "id": "s121",
@@ -4031,7 +4151,8 @@
     "img": "marines_climb",
     "kb": "in"
    },
-   "label": "재연 일러스트"
+   "label": "재연 일러스트",
+   "act": 3
   },
   {
    "id": "s122",
@@ -4054,7 +4175,8 @@
     ],
     "demSea": true,
     "tilt": 32
-   }
+   },
+   "act": 3
   },
   {
    "id": "s123",
@@ -4067,7 +4189,8 @@
     "style": "yellow",
     "sub": "해안을 내려다보는 산 = 상륙 지점의 방패",
     "subAt": 0.4
-   }
+   },
+   "act": 3
   },
   {
    "id": "s124",
@@ -4079,7 +4202,8 @@
     "text": "그날 밤",
     "accent": "적에게 들키지 않고",
     "accentAt": 0.5
-   }
+   },
+   "act": 3
   },
   {
    "id": "s125",
@@ -4109,7 +4233,8 @@
     "demSea": true,
     "tilt": 30,
     "hud": true
-   }
+   },
+   "act": 3
   },
   {
    "id": "s126",
@@ -4120,7 +4245,8 @@
     "type": "text",
     "big": "목표 2곳",
     "style": "yellow"
-   }
+   },
+   "act": 3
   },
   {
    "id": "s127",
@@ -4161,7 +4287,8 @@
     ],
     "demSea": true,
     "tilt": 32
-   }
+   },
+   "act": 3
   },
   {
    "id": "s128",
@@ -4202,7 +4329,8 @@
     ],
     "demSea": true,
     "tilt": 30
-   }
+   },
+   "act": 3
   },
   {
    "id": "s129",
@@ -4213,7 +4341,8 @@
     "type": "text",
     "big": "상륙 성공",
     "style": "blue"
-   }
+   },
+   "act": 3
   },
   {
    "id": "s130",
@@ -4225,7 +4354,8 @@
     "text": "진짜 싸움은",
     "accent": "이제부터",
     "accentAt": 0.5
-   }
+   },
+   "act": 3
   },
   {
    "id": "s131",
@@ -4237,7 +4367,8 @@
     "img": "night_trail",
     "kb": "in"
    },
-   "label": "재연 일러스트"
+   "label": "재연 일러스트",
+   "act": 3
   },
   {
    "id": "s132",
@@ -4276,7 +4407,8 @@
       "color": "yellow"
      }
     ]
-   }
+   },
+   "act": 3
   },
   {
    "id": "s133",
@@ -4287,7 +4419,8 @@
     "type": "text",
     "big": "길잡이 = 마을 주민",
     "style": "yellow"
-   }
+   },
+   "act": 3
   },
   {
    "id": "s134",
@@ -4299,7 +4432,8 @@
     "img": "jige_porters",
     "kb": "in"
    },
-   "label": "재연 일러스트"
+   "label": "재연 일러스트",
+   "act": 3
   },
   {
    "id": "s135",
@@ -4316,7 +4450,8 @@
     ],
     "stamp": "證言",
     "note": "요지 · 재구성"
-   }
+   },
+   "act": 3
   },
   {
    "id": "s136",
@@ -4348,7 +4483,8 @@
     "demSea": true,
     "tilt": 30,
     "hud": true
-   }
+   },
+   "act": 3
   },
   {
    "id": "s137",
@@ -4383,7 +4519,8 @@
      "id": "ping",
      "at": 0.3
     }
-   ]
+   ],
+   "act": 3
   },
   {
    "id": "s138",
@@ -4406,7 +4543,8 @@
      "at": 0,
      "pos": "top"
     }
-   ]
+   ],
+   "act": 3
   },
   {
    "id": "s139",
@@ -4491,7 +4629,8 @@
     ],
     "demSea": true,
     "tilt": 26
-   }
+   },
+   "act": 3
   },
   {
    "id": "s140",
@@ -4512,7 +4651,8 @@
     ],
     "demSea": true,
     "tilt": 30
-   }
+   },
+   "act": 3
   },
   {
    "id": "s141",
@@ -4524,7 +4664,8 @@
     "img": "peak_view",
     "kb": "in"
    },
-   "label": "재연 일러스트"
+   "label": "재연 일러스트",
+   "act": 3
   },
   {
    "id": "s142",
@@ -4558,7 +4699,8 @@
     ],
     "demSea": true,
     "tilt": 30
-   }
+   },
+   "act": 3
   },
   {
    "id": "s143",
@@ -4571,7 +4713,8 @@
     "style": "yellow",
     "sub": "높은 곳을 쥔 쪽이 시가지 싸움을 이끈다",
     "subAt": 0.4
-   }
+   },
+   "act": 3
   },
   {
    "id": "s144",
@@ -4602,7 +4745,8 @@
       "color": "red"
      }
     ]
-   }
+   },
+   "act": 3
   },
   {
    "id": "s145",
@@ -4645,7 +4789,8 @@
      "at": 0,
      "pos": "lower"
     }
-   ]
+   ],
+   "act": 3
   },
   {
    "id": "s146",
@@ -4658,7 +4803,8 @@
     "style": "red",
     "sub": "망일봉 꼭대기의 해병대",
     "subAt": 0.4
-   }
+   },
+   "act": 3
   },
   {
    "id": "s147",
@@ -4697,7 +4843,8 @@
      "at": 0,
      "pos": "top"
     }
-   ]
+   ],
+   "act": 3
   },
   {
    "id": "s148",
@@ -4758,7 +4905,8 @@
      "at": 0,
      "pos": "lower"
     }
-   ]
+   ],
+   "act": 3
   },
   {
    "id": "s149",
@@ -4801,7 +4949,8 @@
      "at": 0,
      "pos": "top"
     }
-   ]
+   ],
+   "act": 3
   },
   {
    "id": "s150",
@@ -4812,7 +4961,8 @@
     "type": "cta",
     "title": "구독 · 좋아요로 다음 이야기까지 함께해 주세요",
     "at": 0
-   }
+   },
+   "act": 3
   },
   {
    "id": "s151",
@@ -4840,7 +4990,8 @@
      "at": 0,
      "pos": "top"
     }
-   ]
+   ],
+   "act": 4
   },
   {
    "id": "s152",
@@ -4876,7 +5027,8 @@
     "demSea": true,
     "tilt": 32,
     "hud": true
-   }
+   },
+   "act": 4
   },
   {
    "id": "s153",
@@ -4910,7 +5062,8 @@
     ],
     "demSea": true,
     "tilt": 32
-   }
+   },
+   "act": 4
   },
   {
    "id": "s154",
@@ -4928,7 +5081,8 @@
      "id": "artillery_far",
      "at": 0.2
     }
-   ]
+   ],
+   "act": 4
   },
   {
    "id": "s155",
@@ -4970,7 +5124,8 @@
     ],
     "demSea": true,
     "tilt": 32
-   }
+   },
+   "act": 4
   },
   {
    "id": "s156",
@@ -5000,7 +5155,8 @@
     ],
     "demSea": true,
     "tilt": 32
-   }
+   },
+   "act": 4
   },
   {
    "id": "s157",
@@ -5029,7 +5185,8 @@
       "on": "쉰"
      }
     ]
-   }
+   },
+   "act": 4
   },
   {
    "id": "s158",
@@ -5059,7 +5216,8 @@
       "color": "dark"
      }
     ]
-   }
+   },
+   "act": 4
   },
   {
    "id": "s159",
@@ -5071,7 +5229,8 @@
     "img": "boy_soldier",
     "kb": "in"
    },
-   "label": "재연 일러스트"
+   "label": "재연 일러스트",
+   "act": 4
   },
   {
    "id": "s160",
@@ -5084,7 +5243,8 @@
     "q": "s160-photo",
     "tag": "미 육군 통신대 사진"
    },
-   "label": "진주 남쪽에서 붙잡힌 북한군 (1950. 7. 29)"
+   "label": "진주 남쪽에서 붙잡힌 북한군 (1950. 7. 29)",
+   "act": 4
   },
   {
    "id": "s161",
@@ -5096,7 +5256,8 @@
     "text": "전쟁의",
     "accent": "잔인한 얼굴",
     "accentAt": 0.5
-   }
+   },
+   "act": 4
   },
   {
    "id": "s162",
@@ -5109,7 +5270,8 @@
     "q": "s162-photo",
     "tag": "미 육군 통신대 사진"
    },
-   "label": "북한군 포로를 수색하는 한국 해병 (1950. 9. 20)"
+   "label": "북한군 포로를 수색하는 한국 해병 (1950. 9. 20)",
+   "act": 4
   },
   {
    "id": "s163",
@@ -5149,7 +5311,8 @@
       "color": "dark"
      }
     ]
-   }
+   },
+   "act": 4
   },
   {
    "id": "s164",
@@ -5216,7 +5379,8 @@
     ],
     "demSea": true,
     "tilt": 30
-   }
+   },
+   "act": 4
   },
   {
    "id": "s165",
@@ -5247,7 +5411,8 @@
     "demSea": true,
     "tilt": 34,
     "hud": true
-   }
+   },
+   "act": 4
   },
   {
    "id": "s166",
@@ -5270,7 +5435,8 @@
      "at": 0,
      "pos": "top"
     }
-   ]
+   ],
+   "act": 4
   },
   {
    "id": "s167",
@@ -5283,7 +5449,8 @@
     "q": "s167-photo",
     "tag": "미 육군 통신대 사진"
    },
-   "label": "숨은 북한군을 찾는 한국 해병 (1950. 9. 20)"
+   "label": "숨은 북한군을 찾는 한국 해병 (1950. 9. 20)",
+   "act": 4
   },
   {
    "id": "s168",
@@ -5329,7 +5496,8 @@
      "at": 0,
      "pos": "lower"
     }
-   ]
+   ],
+   "act": 4
   },
   {
    "id": "s169",
@@ -5351,7 +5519,8 @@
      "color": "yellow",
      "at": 0.6
     }
-   }
+   },
+   "act": 4
   },
   {
    "id": "s170",
@@ -5363,7 +5532,8 @@
     "text": "한 가지",
     "accent": "원칙",
     "accentAt": 0.5
-   }
+   },
+   "act": 4
   },
   {
    "id": "s171",
@@ -5376,7 +5546,8 @@
     "q": "s171-photo",
     "tag": "문화체육관광부 · 2014"
    },
-   "label": "통영 충렬사 (이순신 장군 사당)"
+   "label": "통영 충렬사 (이순신 장군 사당)",
+   "act": 4
   },
   {
    "id": "s172",
@@ -5396,7 +5567,8 @@
      "at": 0,
      "pos": "lower"
     }
-   ]
+   ],
+   "act": 4
   },
   {
    "id": "s173",
@@ -5409,7 +5581,8 @@
     "style": "yellow",
     "sub": "전해지는 이야기",
     "subAt": 0.4
-   }
+   },
+   "act": 4
   },
   {
    "id": "s174",
@@ -5457,7 +5630,8 @@
     ],
     "demSea": true,
     "tilt": 26
-   }
+   },
+   "act": 4
   },
   {
    "id": "s175",
@@ -5520,7 +5694,8 @@
      "at": 0,
      "pos": "lower"
     }
-   ]
+   ],
+   "act": 4
   },
   {
    "id": "s176",
@@ -5568,7 +5743,8 @@
     ],
     "demSea": true,
     "tilt": 34
-   }
+   },
+   "act": 4
   },
   {
    "id": "s177",
@@ -5580,7 +5756,8 @@
     "img": "jeep_escape",
     "kb": "in"
    },
-   "label": "재연 일러스트"
+   "label": "재연 일러스트",
+   "act": 4
   },
   {
    "id": "s178",
@@ -5623,7 +5800,8 @@
      "at": 0,
      "pos": "lower"
     }
-   ]
+   ],
+   "act": 4
   },
   {
    "id": "s179",
@@ -5637,7 +5815,8 @@
     "type": "text",
     "big": "목선 3척",
     "style": "red"
-   }
+   },
+   "act": 4
   },
   {
    "id": "s180",
@@ -5650,7 +5829,8 @@
     "q": "s180-photo",
     "tag": "6·25전쟁 기록 사진"
    },
-   "label": "6·25전쟁 당시 한국 해군 함정"
+   "label": "6·25전쟁 당시 한국 해군 함정",
+   "act": 4
   },
   {
    "id": "s181",
@@ -5673,7 +5853,8 @@
      "at": 0,
      "pos": "top"
     }
-   ]
+   ],
+   "act": 4
   },
   {
    "id": "s182",
@@ -5743,7 +5924,8 @@
     ],
     "demSea": true,
     "tilt": 26
-   }
+   },
+   "act": 4
   },
   {
    "id": "s183",
@@ -5773,7 +5955,8 @@
       "color": "red"
      }
     ]
-   }
+   },
+   "act": 4
   },
   {
    "id": "s184",
@@ -5800,7 +5983,8 @@
       "on": "빈집에"
      }
     ]
-   }
+   },
+   "act": 4
   },
   {
    "id": "s185",
@@ -5840,7 +6024,8 @@
       "color": "yellow"
      }
     ]
-   }
+   },
+   "act": 4
   },
   {
    "id": "s186",
@@ -5855,7 +6040,8 @@
     "text": "1950. 8. 19",
     "accent": "오전 10시",
     "accentAt": 0.5
-   }
+   },
+   "act": 4
   },
   {
    "id": "s187",
@@ -5892,7 +6078,8 @@
     ],
     "demSea": true,
     "tilt": 28
-   }
+   },
+   "act": 4
   },
   {
    "id": "s188",
@@ -5904,7 +6091,8 @@
     "img": "town_liberated",
     "kb": "in"
    },
-   "label": "재연 일러스트"
+   "label": "재연 일러스트",
+   "act": 4
   },
   {
    "id": "s189",
@@ -5917,7 +6105,8 @@
     "style": "blue",
     "sub": "상륙 약 40시간 만",
     "subAt": 0.4
-   }
+   },
+   "act": 4
   },
   {
    "id": "s190",
@@ -5966,7 +6155,8 @@
     ],
     "demSea": true,
     "tilt": 26
-   }
+   },
+   "act": 4
   },
   {
    "id": "s191",
@@ -6009,7 +6199,8 @@
     "demSea": true,
     "tilt": 36,
     "hud": true
-   }
+   },
+   "act": 4
   },
   {
    "id": "s192",
@@ -6065,7 +6256,8 @@
      "id": "whoosh",
      "at": 0
     }
-   ]
+   ],
+   "act": 5
   },
   {
    "id": "s193",
@@ -6093,7 +6285,8 @@
      }
     ],
     "demSea": true
-   }
+   },
+   "act": 5
   },
   {
    "id": "s194",
@@ -6151,7 +6344,8 @@
     ],
     "demSea": true,
     "tilt": 30
-   }
+   },
+   "act": 5
   },
   {
    "id": "s195",
@@ -6182,7 +6376,8 @@
       "color": "red"
      }
     ]
-   }
+   },
+   "act": 5
   },
   {
    "id": "s196",
@@ -6197,7 +6392,8 @@
     "text": "8월 19일",
     "accent": "오후 3시 40분",
     "accentAt": 0.5
-   }
+   },
+   "act": 5
   },
   {
    "id": "s197",
@@ -6266,7 +6462,8 @@
      "id": "artillery_far",
      "at": 0.1
     }
-   ]
+   ],
+   "act": 5
   },
   {
    "id": "s198",
@@ -6282,7 +6479,8 @@
     "style": "red",
     "sub": "약 3시간 · 국내 언론 보도 기준",
     "subAt": 0.4
-   }
+   },
+   "act": 5
   },
   {
    "id": "s199",
@@ -6340,7 +6538,8 @@
     ],
     "demSea": true,
     "tilt": 34
-   }
+   },
+   "act": 5
   },
   {
    "id": "s200",
@@ -6400,7 +6599,8 @@
     ],
     "demSea": true,
     "tilt": 34
-   }
+   },
+   "act": 5
   },
   {
    "id": "s201",
@@ -6418,7 +6618,8 @@
      "id": "wind",
      "at": 0
     }
-   ]
+   ],
+   "act": 5
   },
   {
    "id": "s202",
@@ -6436,7 +6637,8 @@
      "id": "artillery_far",
      "at": 0.2
     }
-   ]
+   ],
+   "act": 5
   },
   {
    "id": "s203",
@@ -6449,7 +6651,8 @@
     "style": "red",
     "sub": "탄약을 아껴야 했다",
     "subAt": 0.4
-   }
+   },
+   "act": 5
   },
   {
    "id": "s204",
@@ -6469,7 +6672,8 @@
      "at": 0,
      "pos": "lower"
     }
-   ]
+   ],
+   "act": 5
   },
   {
    "id": "s205",
@@ -6480,7 +6684,8 @@
     "type": "text",
     "big": "한 발 한 발",
     "style": "yellow"
-   }
+   },
+   "act": 5
   },
   {
    "id": "s206",
@@ -6522,7 +6727,8 @@
     "demSea": true,
     "tilt": 40,
     "hud": true
-   }
+   },
+   "act": 5
   },
   {
    "id": "s207",
@@ -6577,7 +6783,8 @@
       "size": 44
      }
     ]
-   }
+   },
+   "act": 5
   },
   {
    "id": "s208",
@@ -6588,7 +6795,8 @@
     "type": "text",
     "big": "길목 하나만 막으면 된다",
     "style": "yellow"
-   }
+   },
+   "act": 5
   },
   {
    "id": "s209",
@@ -6608,7 +6816,8 @@
      "at": 0,
      "pos": "lower"
     }
-   ]
+   ],
+   "act": 5
   },
   {
    "id": "s210",
@@ -6619,7 +6828,8 @@
     "type": "text",
     "big": "고개 하나 > 병력 수백",
     "style": "yellow"
-   }
+   },
+   "act": 5
   },
   {
    "id": "s211",
@@ -6650,7 +6860,8 @@
       "color": "red"
      }
     ]
-   }
+   },
+   "act": 5
   },
   {
    "id": "s212",
@@ -6665,7 +6876,8 @@
     "text": "8월 20일",
     "accent": "새벽 2시 40분",
     "accentAt": 0.5
-   }
+   },
+   "act": 5
   },
   {
    "id": "s213",
@@ -6748,7 +6960,8 @@
      "at": 0,
      "pos": "lower"
     }
-   ]
+   ],
+   "act": 5
   },
   {
    "id": "s214",
@@ -6760,7 +6973,8 @@
     "img": "coast_creep",
     "kb": "in"
    },
-   "label": "재연 일러스트"
+   "label": "재연 일러스트",
+   "act": 5
   },
   {
    "id": "s215",
@@ -6815,7 +7029,8 @@
     ],
     "demSea": true,
     "tilt": 32
-   }
+   },
+   "act": 5
   },
   {
    "id": "s216",
@@ -6890,7 +7105,8 @@
     ],
     "demSea": true,
     "tilt": 32
-   }
+   },
+   "act": 5
   },
   {
    "id": "s217",
@@ -6950,7 +7166,8 @@
      "id": "artillery_far",
      "at": 0.2
     }
-   ]
+   ],
+   "act": 5
   },
   {
    "id": "s218",
@@ -6966,7 +7183,8 @@
     "style": "red",
     "sub": "약 한 달 · 국방부 군사편찬연구소 연구 기준",
     "subAt": 0.4
-   }
+   },
+   "act": 5
   },
   {
    "id": "s219",
@@ -6982,7 +7200,8 @@
     "style": "blue",
     "sub": "원문고개 사수",
     "subAt": 0.4
-   }
+   },
+   "act": 5
   },
   {
    "id": "s220",
@@ -7010,7 +7229,8 @@
       "at": 0.3
      }
     ]
-   }
+   },
+   "act": 5
   },
   {
    "id": "s221",
@@ -7061,7 +7281,8 @@
      "at": 0,
      "pos": "top"
     }
-   ]
+   ],
+   "act": 5
   },
   {
    "id": "s222",
@@ -7109,7 +7330,8 @@
      "at": 0,
      "pos": "top"
     }
-   ]
+   ],
+   "act": 5
   },
   {
    "id": "s223",
@@ -7202,7 +7424,8 @@
      "at": 0,
      "pos": "top"
     }
-   ]
+   ],
+   "act": 5
   },
   {
    "id": "s224",
@@ -7252,7 +7475,8 @@
     ],
     "demSea": true,
     "tilt": 28
-   }
+   },
+   "act": 5
   },
   {
    "id": "s225",
@@ -7265,7 +7489,8 @@
     "q": "s225-photo",
     "tag": "미 육군 통신대 사진"
    },
-   "label": "미 제25사단과 합류하러 이동하는 국군 (1950. 8. 25)"
+   "label": "미 제25사단과 합류하러 이동하는 국군 (1950. 8. 25)",
+   "act": 5
   },
   {
    "id": "s226",
@@ -7278,7 +7503,8 @@
    "visual": {
     "type": "black",
     "text": "1950. 9. 15"
-   }
+   },
+   "act": 5
   },
   {
    "id": "s227",
@@ -7291,7 +7517,8 @@
     "q": "s227-photo",
     "tag": "미 해군 사진 · 1950. 9"
    },
-   "label": "인천으로 향하는 상륙정 (1950. 9. 15)"
+   "label": "인천으로 향하는 상륙정 (1950. 9. 15)",
+   "act": 5
   },
   {
    "id": "s228",
@@ -7404,7 +7631,8 @@
      "at": 0,
      "pos": "top"
     }
-   ]
+   ],
+   "act": 5
   },
   {
    "id": "s229",
@@ -7451,7 +7679,8 @@
      "at": 0,
      "pos": "lower"
     }
-   ]
+   ],
+   "act": 5
   },
   {
    "id": "s230",
@@ -7467,7 +7696,8 @@
     "style": "blue",
     "sub": "1950. 9. 22",
     "subAt": 0.4
-   }
+   },
+   "act": 5
   },
   {
    "id": "s231",
@@ -7483,7 +7713,8 @@
     "style": "yellow",
     "sub": "1950. 8. 17 ~ 9. 22",
     "subAt": 0.4
-   }
+   },
+   "act": 5
   },
   {
    "id": "s232",
@@ -7495,7 +7726,8 @@
     "text": "해병대 기록",
     "accent": "전과",
     "accentAt": 0.5
-   }
+   },
+   "act": 5
   },
   {
    "id": "s233",
@@ -7528,7 +7760,8 @@
       "on": "포로"
      }
     ]
-   }
+   },
+   "act": 5
   },
   {
    "id": "s234",
@@ -7544,7 +7777,8 @@
     "style": "red",
     "sub": "통영에 들어온 북한군 대비 · 일부 평가",
     "subAt": 0.4
-   }
+   },
+   "act": 5
   },
   {
    "id": "s235",
@@ -7561,7 +7795,8 @@
     ],
     "stamp": "戰果",
     "note": "재구성 · 내용 요약"
-   }
+   },
+   "act": 5
   },
   {
    "id": "s236",
@@ -7589,7 +7824,8 @@
       "at": 0.3
      }
     ]
-   }
+   },
+   "act": 5
   },
   {
    "id": "s237",
@@ -7618,7 +7854,8 @@
       "on": "부상"
      }
     ]
-   }
+   },
+   "act": 5
   },
   {
    "id": "s238",
@@ -7634,7 +7871,8 @@
     "style": "dark",
     "sub": "기록에 따라 다름",
     "subAt": 0.4
-   }
+   },
+   "act": 5
   },
   {
    "id": "s239",
@@ -7656,7 +7894,8 @@
      "color": "red",
      "at": 0.6
     }
-   }
+   },
+   "act": 5
   },
   {
    "id": "s240",
@@ -7698,7 +7937,8 @@
     ],
     "demSea": true,
     "tilt": 26
-   }
+   },
+   "act": 5
   },
   {
    "id": "s241",
@@ -7713,7 +7953,8 @@
     "img": "comrades_graves",
     "kb": "in"
    },
-   "label": "재연 일러스트"
+   "label": "재연 일러스트",
+   "act": 5
   },
   {
    "id": "s242",
@@ -7785,7 +8026,8 @@
    "chapter": {
     "num": "제6막",
     "title": "귀신 잡는 해병의 탄생"
-   }
+   },
+   "act": 6
   },
   {
    "id": "s243",
@@ -7816,7 +8058,8 @@
       "color": "dark"
      }
     ]
-   }
+   },
+   "act": 6
   },
   {
    "id": "s244",
@@ -7829,7 +8072,8 @@
     "q": "s244-photo",
     "tag": "공개 자료 사진"
    },
-   "label": "종군기자 마거리트 히긴스 (한국전쟁 당시)"
+   "label": "종군기자 마거리트 히긴스 (한국전쟁 당시)",
+   "act": 6
   },
   {
    "id": "s245",
@@ -7840,7 +8084,8 @@
     "type": "text",
     "big": "최전선의 여성 종군기자",
     "style": "yellow"
-   }
+   },
+   "act": 6
   },
   {
    "id": "s246",
@@ -7853,7 +8098,8 @@
     "q": "s246-photo",
     "tag": "미국 공공 아카이브"
    },
-   "label": "퓰리처상 수상 기자 히긴스 강연 전단 (1951)"
+   "label": "퓰리처상 수상 기자 히긴스 강연 전단 (1951)",
+   "act": 6
   },
   {
    "id": "s247",
@@ -7882,7 +8128,8 @@
       "on": "이렇게"
      }
     ]
-   }
+   },
+   "act": 6
   },
   {
    "id": "s248",
@@ -7899,7 +8146,8 @@
     ],
     "stamp": "傳言",
     "note": "원문 기사 미확인"
-   }
+   },
+   "act": 6
   },
   {
    "id": "s249",
@@ -7911,7 +8159,8 @@
     "text": "하나의",
     "accent": "이름",
     "accentAt": 0.5
-   }
+   },
+   "act": 6
   },
   {
    "id": "s250",
@@ -7922,7 +8171,8 @@
     "type": "text",
     "big": "귀신 잡는 해병",
     "style": "red"
-   }
+   },
+   "act": 6
   },
   {
    "id": "s251",
@@ -7935,7 +8185,8 @@
     "style": "dark",
     "sub": "히긴스가 쓴 기사 원문은 확인되지 않음",
     "subAt": 0.4
-   }
+   },
+   "act": 6
   },
   {
    "id": "s252",
@@ -7947,7 +8198,8 @@
     "text": "전해지는",
     "accent": "이야기",
     "accentAt": 0.5
-   }
+   },
+   "act": 6
   },
   {
    "id": "s253",
@@ -7959,7 +8211,8 @@
     "text": "그래도 한 가지는",
     "accent": "분명하다",
     "accentAt": 0.5
-   }
+   },
+   "act": 6
   },
   {
    "id": "s254",
@@ -7979,7 +8232,8 @@
      "at": 0,
      "pos": "lower"
     }
-   ]
+   ],
+   "act": 6
   },
   {
    "id": "s255",
@@ -7992,7 +8246,8 @@
     "q": "s255-photo",
     "tag": "미 해군 사진 · 2007"
    },
-   "label": "오늘의 한국 해병대 상륙 훈련 (2007, 포항)"
+   "label": "오늘의 한국 해병대 상륙 훈련 (2007, 포항)",
+   "act": 6
   },
   {
    "id": "s256",
@@ -8012,7 +8267,8 @@
      "at": 0,
      "pos": "top"
     }
-   ]
+   ],
+   "act": 6
   },
   {
    "id": "s257",
@@ -8025,7 +8281,8 @@
     "style": "red",
     "sub": "1951년 도솔산 전투",
     "subAt": 0.4
-   }
+   },
+   "act": 6
   },
   {
    "id": "s258",
@@ -8048,7 +8305,8 @@
      "color": "blue",
      "at": 0.6
     }
-   }
+   },
+   "act": 6
   },
   {
    "id": "s259",
@@ -8060,7 +8318,8 @@
     "text": "처음의",
     "accent": "질문",
     "accentAt": 0.5
-   }
+   },
+   "act": 6
   },
   {
    "id": "s260",
@@ -8090,7 +8349,8 @@
      }
     ],
     "title": "왜 거제가 아니라 통영이었나?"
-   }
+   },
+   "act": 6
   },
   {
    "id": "s261",
@@ -8136,7 +8396,8 @@
      "id": "whoosh",
      "at": 0
     }
-   ]
+   ],
+   "act": 6
   },
   {
    "id": "s262",
@@ -8212,7 +8473,8 @@
      "at": 0,
      "pos": "top"
     }
-   ]
+   ],
+   "act": 6
   },
   {
    "id": "s263",
@@ -8253,7 +8515,8 @@
     ],
     "demSea": true,
     "tilt": 28
-   }
+   },
+   "act": 6
   },
   {
    "id": "s264",
@@ -8326,7 +8589,8 @@
     ],
     "demSea": true,
     "tilt": 32
-   }
+   },
+   "act": 6
   },
   {
    "id": "s265",
@@ -8342,7 +8606,8 @@
     "style": "yellow",
     "sub": "대대급 300여 명 · 고개 하나",
     "subAt": 0.4
-   }
+   },
+   "act": 6
   },
   {
    "id": "s266",
@@ -8394,7 +8659,8 @@
      }
     ],
     "demSea": true
-   }
+   },
+   "act": 6
   },
   {
    "id": "s267",
@@ -8411,7 +8677,8 @@
     ],
     "stamp": "判斷",
     "note": "재구성 · 내용 요약"
-   }
+   },
+   "act": 6
   },
   {
    "id": "s268",
@@ -8424,7 +8691,8 @@
     "q": "s268-photo",
     "tag": "미 해군 사진 · 1951"
    },
-   "label": "손원일 해군참모총장 (1951)"
+   "label": "손원일 해군참모총장 (1951)",
+   "act": 6
   },
   {
    "id": "s269",
@@ -8437,7 +8705,8 @@
     "q": "s269-photo",
     "tag": "국방화보"
    },
-   "label": "한국 해군 최초의 전투함 백두산함 (1949)"
+   "label": "한국 해군 최초의 전투함 백두산함 (1949)",
+   "act": 6
   },
   {
    "id": "s270",
@@ -8461,7 +8730,8 @@
       "checkOn": "공격작전"
      }
     ]
-   }
+   },
+   "act": 6
   },
   {
    "id": "s271",
@@ -8474,7 +8744,8 @@
     "q": "s271-photo",
     "tag": "유엔 사진 · 1950. 10"
    },
-   "label": "마산 인근 피란민 가족 (1950. 10)"
+   "label": "마산 인근 피란민 가족 (1950. 10)",
+   "act": 6
   },
   {
    "id": "s272",
@@ -8492,7 +8763,8 @@
     ],
     "stamp": "1950",
     "note": "요지 · 현대어"
-   }
+   },
+   "act": 6
   },
   {
    "id": "s273",
@@ -8505,7 +8777,8 @@
     "q": "s273-photo",
     "tag": "미 해군 사진 · 1950. 9"
    },
-   "label": "인천으로 떠나는 수송선을 기다리는 한국 해병대 (1950. 9. 12)"
+   "label": "인천으로 떠나는 수송선을 기다리는 한국 해병대 (1950. 9. 12)",
+   "act": 6
   },
   {
    "id": "s274",
@@ -8518,7 +8791,8 @@
     "style": "blue",
     "sub": "1950. 9 인천상륙작전",
     "subAt": 0.4
-   }
+   },
+   "act": 6
   },
   {
    "id": "s275",
@@ -8531,7 +8805,8 @@
     "q": "s275-photo",
     "tag": "미 육군 통신대 사진"
    },
-   "label": "서울 수복 작전에 나선 한·미 해병대 (1950. 9. 20)"
+   "label": "서울 수복 작전에 나선 한·미 해병대 (1950. 9. 20)",
+   "act": 6
   },
   {
    "id": "s276",
@@ -8544,7 +8819,8 @@
     "q": "s276-photo",
     "tag": "미 해군 사진 · 2007"
    },
-   "label": "김성은 전 해병대사령관·국방부 장관 (2007)"
+   "label": "김성은 전 해병대사령관·국방부 장관 (2007)",
+   "act": 6
   },
   {
    "id": "s277",
@@ -8558,7 +8834,8 @@
     "type": "text",
     "big": "김성은 1924 ~ 2007",
     "style": "dark"
-   }
+   },
+   "act": 6
   },
   {
    "id": "s278",
@@ -8571,7 +8848,8 @@
     "style": "blue",
     "sub": "김성은 장군 유품 전시",
     "subAt": 0.4
-   }
+   },
+   "act": 6
   },
   {
    "id": "s279",
@@ -8591,7 +8869,8 @@
      "at": 0,
      "pos": "lower"
     }
-   ]
+   ],
+   "act": 6
   },
   {
    "id": "s280",
@@ -8604,7 +8883,8 @@
     "style": "yellow",
     "sub": "2011년 개관 · 통영 원문공원",
     "subAt": 0.4
-   }
+   },
+   "act": 6
   },
   {
    "id": "s281",
@@ -8620,7 +8900,8 @@
     "style": "blue",
     "sub": "통영 원문고개",
     "subAt": 0.4
-   }
+   },
+   "act": 6
   },
   {
    "id": "s282",
@@ -8632,7 +8913,8 @@
     "img": "temple_dusk",
     "kb": "in"
    },
-   "label": "재연 일러스트"
+   "label": "재연 일러스트",
+   "act": 6
   },
   {
    "id": "s283",
@@ -8644,7 +8926,8 @@
     "text": "명령을 따르는 것은",
     "accent": "쉽다",
     "accentAt": 0.5
-   }
+   },
+   "act": 6
   },
   {
    "id": "s284",
@@ -8656,7 +8939,8 @@
     "text": "목적을 생각하는 것은",
     "accent": "어렵다",
     "accentAt": 0.5
-   }
+   },
+   "act": 6
   },
   {
    "id": "s285",
@@ -8696,7 +8980,8 @@
      "at": 0,
      "pos": "top"
     }
-   ]
+   ],
+   "act": 6
   },
   {
    "id": "s286",
@@ -8747,7 +9032,8 @@
      "id": "whoosh",
      "at": 0
     }
-   ]
+   ],
+   "act": 6
   },
   {
    "id": "s287",
@@ -8767,7 +9053,8 @@
      "at": 0,
      "pos": "lower"
     }
-   ]
+   ],
+   "act": 6
   },
   {
    "id": "s288",
@@ -8781,7 +9068,8 @@
     "title": "명령의 글자가 아닌 목적을 본 300여 명,\n돌아오지 못한 젊은 해병들을 기억하며",
     "q": "s288-photo"
    },
-   "tail": 1.0
+   "tail": 1.0,
+   "act": 6
   }
  ]
 }

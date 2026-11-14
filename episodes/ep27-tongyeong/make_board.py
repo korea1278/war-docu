@@ -610,10 +610,10 @@ AI = {
     "landing_dusk": CB + KM + " jumping from a small wooden-hulled transport boat into knee-deep water on a quiet rocky cove at dusk and wading ashore with rifles held high, dark wooded hills just behind the beach" + END,
     "nk_column_coast": CB + "a long column of " + NK + " marching along a dusty coastal dirt road beside rice paddies toward a southern harbor town, a few trucks, confident and fast, hot summer haze" + END,
     "tongyeong_1950": TOWN + ", quiet and tense under a hazy summer sky, empty streets, a few people hurrying, distant smoke on the hills, August 1950, " + LAND,
-    "tongyeong_occupied": CB + NK + " entering the narrow streets of " + TOWN + ", red flags hung from a building, frightened villagers hiding behind doors" + END,
+    "tongyeong_occupied": CB + NK + " entering the narrow streets of " + TOWN + ", North Korean national flags (blue-red-blue stripes with a white circle and red star) hung from a building, absolutely NO hammer and sickle, NO Soviet flags, frightened villagers hiding behind doors" + END,
     "jindong_ambush": CB + KM + " springing an ambush from a wooded hillside above a dusty road and rice paddies on a hot summer day, firing rifles and a machine gun down at a startled column of " + NK + " on the road below, smoke and dust" + END,
     "strait_night": "Two small 1950 South Korean navy ships moving silently through a narrow dark strait between rocky islands at night, no lights, faint moonlight on calm water, soldiers' helmets silhouetted on deck, " + LAND,
-    "hansan_1592": "A historical 1592 Korean naval battle off Hansan island: a crescent crane-wing formation of large Korean Joseon panokseon warships and a turtle ship firing cannons at a fleet of Japanese warships in open sea, smoke, dramatic sky, painterly realistic historical illustration, no text, no letters.",
+    "hansan_1592": "A historical 1592 naval battle off Hansan island in Korea: a crescent crane-wing formation of large Korean Joseon panokseon warships (flat-bottomed two-deck wooden oared ships with a high fortress-like upper deck and plain square sails) and one geobukseon turtle ship with a spiked armored roof and a dragon head firing cannons at a fleet of Japanese wooden atakebune warships, smoke, dramatic sky, absolutely NO modern flags, NO taegukgi, NO European galleons, only plain cloth banners, painterly realistic historical illustration, no text, no letters.",
     "recon_boat": CB + KIM + " crouching in a small wooden fishing boat rowed by an old Korean fisherman in white hanbok before dawn, looking through binoculars toward a dark hilly peninsula and a harbor town across calm water" + END,
     "kim_map": CB + KIM + " pointing firmly at the narrow neck of a hand-drawn peninsula map spread on an ammunition crate by lantern light at night, other marine officers leaning in with serious faces, a tense moment of realization" + END,
     "marines_climb": CB + KM + " climbing quickly up a steep wooded hillside from a cove at last light, rifles slung, the sea and a small boat behind them below" + END,
@@ -659,6 +659,12 @@ assert not over, ("같은 조합 3회 초과", over)
 looks = collections.Counter((ch["c"], ch.get("face"), ch.get("prop"), ch.get("anim"), bool(ch.get("flip"))) for s in stages for ch in s["visual"]["chars"])
 assert all(v == 1 for v in looks.values()), ("완전히 같은 모습 반복", [k for k, v in looks.items() if v > 1])
 
+# 막 단위 통파일 TTS(tts_mode act): 콜드 오프닝 = 0, chapter가 달린 장면마다 1씩 증가
+_a = 0
+for s in S:
+    if s.get("chapter"):
+        _a += 1
+    s["act"] = _a
 ids = [s["id"] for s in S]
 chap = [i for i, s in enumerate(S) if s.get("chapter")]
 sid = lambda i: S[i]["id"]
