@@ -1,0 +1,137 @@
+{
+ "student_train": {
+  "file": "File:한국전쟁-학도병 입대 (7445955888).jpg",
+  "label": "열차로 입대하는 학도병들 (1950)",
+  "tag": "국방화보 · 국방부"
+ },
+ "refugee_woman": {
+  "file": "File:IDP woman fleeing Pohang, South Korea in 1950.jpg",
+  "label": "포항을 떠나는 피란민 (1950)",
+  "tag": "미 해군 사진"
+ },
+ "pohang_ruins": {
+  "file": "File:ROK military police pose before the ruins of a devastated building in Pohang HD-SN-99-03161.jpg",
+  "label": "포항 시내 폐허 앞의 국군 헌병 (1950. 10. 17)",
+  "tag": "미 해군 사진"
+ },
+ "pohang_return": {
+  "file": "File:USN No.420663 - 1 October 1950 (52562552521).png",
+  "label": "노획한 박격포를 싣고 포항으로 돌아오는 국군 (1950. 10)",
+  "tag": "미 해군 사진"
+ },
+ "cav_land": {
+  "file": "File:1st Cavalry Division arrives in Korea.jpg",
+  "label": "포항 해안에 상륙한 미군 (1950. 7)",
+  "tag": "미 육군 통신대 사진"
+ },
+ "refugees_road": {
+  "file": "File:Refugees in Korea.jpg",
+  "label": "남쪽으로 향하는 피란 행렬 (1950)",
+  "tag": "공개 자료 사진"
+ },
+ "yongdok_rest": {
+  "file": "File:SC 345349 FEC-50-5044 - 29 July 1950 (52567968811).jpg",
+  "label": "밤새 싸우고 쉬는 국군 장병 · 영덕 (1950. 7. 29)",
+  "tag": "미 육군 통신대 사진"
+ },
+ "yongdok_57": {
+  "file": "File:SC 345337 FEC-50-5040 - 29 July 1950 (52568503003).jpg",
+  "label": "새 대전차포를 받은 국군 제3사단 장병 · 영덕 (1950. 7)",
+  "tag": "미 육군 통신대 사진"
+ },
+ "yongdok_ammo": {
+  "file": "File:SC 345335 FEC-50-5033 - 29 July 1950 (52568415665).jpg",
+  "label": "탄약을 나르는 주민들 · 영덕 외곽 (1950. 7)",
+  "tag": "미 육군 통신대 사진"
+ },
+ "yongdok_m1": {
+  "file": "File:SC 345344 FEC-50-5046 - 29 July 1950 (52568421695).jpg",
+  "label": "M1 소총을 든 국군 병사 · 영덕 (1950. 7. 29)",
+  "tag": "미 육군 통신대 사진"
+ },
+ "capital_howitzer": {
+  "file": "File:SC 347792 FEC-50-7713 - 27 August 1950 (52563099526).jpg",
+  "label": "산포를 쏘는 국군 수도사단 포병 (1950. 8. 27)",
+  "tag": "미 육군 통신대 사진"
+ },
+ "helena": {
+  "file": "File:USS Helena (CA-75) firing at targets in Korea, in August 1950 (NH 96898).jpg",
+  "label": "포격하는 미 해군 순양함 헬레나 (1950. 8)",
+  "tag": "미 해군 사진"
+ },
+ "f51_arm": {
+  "file": "File:공군F-51전투기 정비 무장장착 (7445434766).jpg",
+  "label": "F-51 전투기에 무장을 다는 정비병 (1950. 8)",
+  "tag": "국방화보 · 국방부"
+ },
+ "f51_line": {
+  "file": "File:67th Fighter-Bomber Squadron F-51s South Korea 1950.jpg",
+  "label": "미 공군 F-51 무스탕 전투기 (1950)",
+  "tag": "미 공군 사진"
+ },
+ "hyeongsan_today": {
+  "file": "File:Hyeonsan River.JPG",
+  "label": "오늘의 형산강 (포항)",
+  "tag": "CC BY-SA 3.0"
+ },
+ "iss_pohang": {
+  "file": "File:Pohang Korea ISS020-E-09011 lrg.jpg",
+  "label": "우주에서 본 포항과 영일만 (오늘)",
+  "tag": "NASA 국제우주정거장"
+ },
+ "kyongju_map": {
+  "file": "File:Battle of Kyongju.jpg",
+  "label": "동부 전선 북한군 공격도 (1950. 8. 27 ~ 9. 15)",
+  "tag": "미 육군 공간사 지도"
+ },
+ "hyeongsan_map": {
+  "file": "File:형산강 방어 전투 9.6일자.jpg",
+  "label": "형산강 방어선 상황도 (1950. 9. 6)",
+  "tag": "CC BY-SA 3.0"
+ },
+ "macarthur_walker": {
+  "file": "File:MacArthur e Walton Walker.jpg",
+  "label": "맥아더 원수(왼쪽)와 워커 중장",
+  "tag": "공개 자료 사진"
+ },
+ "rok_march": {
+  "file": "File:SC 345022 50-16198 - August 1950 (52567230758).jpg",
+  "label": "전선으로 향하는 국군 장병 (1950. 8)",
+  "tag": "미 육군 통신대 사진"
+ },
+ "rok_hills": {
+  "file": "File:SC 345059 FEC-50-5398 - 6 August 1950 (52573525634).jpg",
+  "label": "반격을 위해 고지로 오르는 국군 (1950. 8. 6)",
+  "tag": "미 육군 통신대 사진"
+ },
+ "food_bearers": {
+  "file": "File:SC 345023 FEC-50-5306 - 1 August 1950 (52576783830).jpg",
+  "label": "국군에게 식량을 나르는 주민들 (1950. 8. 1)",
+  "tag": "미 육군 통신대 사진"
+ },
+ "captured": {
+  "file": "File:SC 346817 FEC-50-6759 - 21 August 1950 (52566700936).jpg",
+  "label": "노획한 북한군 장비를 살펴보는 국군 (1950. 8. 21)",
+  "tag": "미 육군 통신대 사진"
+ },
+ "howitzer105": {
+  "file": "File:105mm-howitzer-korea-195008.jpg",
+  "label": "105mm 곡사포를 쏘는 미군 (1950. 8)",
+  "tag": "미 육군 사진"
+ },
+ "refugees_pohang": {
+  "file": "File:G420658 (17029571576).jpg",
+  "label": "포항 일대의 피란민 (1950. 10)",
+  "tag": "미 해군 사진"
+ },
+ "inchon_craft": {
+  "file": "File:Landing craft approaching Inchon, Korea, on 15 September 1950 (NH 42351).jpg",
+  "label": "인천으로 향하는 상륙정 (1950. 9. 15)",
+  "tag": "미 해군 사진 · 1950. 9"
+ },
+ "inchon_lst": {
+  "file": "File:80-G-420027 Inchon Invasion, September 1950.jpg",
+  "label": "인천 상륙 다음 날 해안에 늘어선 LST (1950. 9. 16)",
+  "tag": "미 해군 사진 · 1950. 9"
+ }
+}
