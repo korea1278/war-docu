@@ -1226,6 +1226,25 @@ export const PAROHO_STD: Record<string, ThumbnailProps> = {
     stampPos: { x: 820, y: 470 },
     characterPos: "50% 0%",
   },
+  // EP28 포항 안강·기계 & 형산강 — 사용자 지시서 카피 그대로 (따옴표 '10시간'은 기록상 11시간 · 전달 때 고지). 지도 = 포항 시가지·형산강 하구 z14, 포항여중 위치 개략
+  "ep28-pohang": {
+    quote: "우리가 10시간을 버텨야 부산이 산다",
+    titleLine1: "부산 턱밑까지 밀려온 적을 막아선",
+    titleLine2: "학도병 71명과 포항 결전",
+    mapImage: "geo/pohang_zoom_sea.webp",
+    characterCutout: "ep/ep28-pohang/ai/thumb_cut.png",
+    mapCrop: { cx: 0.7166, cy: 0.5088, zoom: 0.8 },
+    targets: [{ x: 470, y: 230, r: 82 }],
+    places: [{ x: 470, y: 405, label: "포항여중" }, { x: 760, y: 560, label: "형산강" }, { x: 900, y: 235, label: "영일만" }],
+    arrows: [
+      { pts: [[150, 360], [280, 310], [392, 262]], color: "red" },
+      { pts: [[110, 80], [270, 160], [395, 210]], color: "red" },
+      { pts: [[520, 320], [555, 440], [585, 550]], color: "ally" },
+    ],
+    stampText: "11시간 사수",
+    stampPos: { x: 800, y: 400 },
+    characterPos: "50% 0%",
+  },
   "paroho:sample": {
     quote: "호수 전체가 시체로 뒤덮였다",
     titleLine1: "사흘 밤낮 60km를 쫓아가",
