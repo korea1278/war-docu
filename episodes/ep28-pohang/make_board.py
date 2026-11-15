@@ -242,9 +242,9 @@ P = {
     "masan": [128.57, 35.21, "마산"], "seoul": [126.978, 37.566, "서울"], "incheon": [126.62, 37.47, "인천"],
 }
 V = {
-    "korea": {"center": [127.6, 36.4], "span": 4.6}, "perimeter": {"center": [128.75, 35.75], "span": 1.9},
-    "ne": {"center": [129.22, 36.2], "span": 1.0}, "east": {"center": [129.2, 36.0], "span": 0.85}, "coast": {"center": [129.32, 36.22], "span": 0.6},
-    "pohang": {"center": [129.3, 36.02], "span": 0.32}, "corridor": {"center": [129.225, 36.0], "span": 0.24}, "river": {"center": [129.31, 35.995], "span": 0.24},
+    "korea": {"center": [127.6, 36.4], "span": 4.6}, "perimeter": {"center": [128.8, 35.66], "span": 2.5},
+    "ne": {"center": [129.2, 36.18], "span": 1.4}, "east": {"center": [129.2, 35.98], "span": 1.0}, "coast": {"center": [129.32, 36.22], "span": 0.6},
+    "pohang": {"center": [129.3, 36.025], "span": 0.45}, "corridor": {"center": [129.22, 36.0], "span": 0.36}, "river": {"center": [129.31, 35.995], "span": 0.24},
     "city": {"center": [129.365, 36.025], "span": 0.12}, "gonje": {"center": [129.22, 35.955], "span": 0.12},
 }
 # 1950년 8월 낙동강 방어선 (개략)
@@ -293,21 +293,21 @@ CTA_TEXT = "구독 · 좋아요로 다음 이야기까지 함께해 주세요"
 sc(1, ai("school_dawn"), label=DRAMA, callouts=top("1950. 8. 11 · 새벽 4시"), sfx=WIND(0.2))
 sc(1, m("coast", "city", [LOCK("school", 0.8)], flight=["coast", "pohang", "city"], flightDur=3.0, hud=True), sfx=SW(0) + PING(0.9))
 sc(1, ai("wall_boys"), label=DRAMA)
-sc(1, stage([C("kr_idle", 0.5, 480, prop="cap", face="worried")], [pop("label", 0.5, 0.16, "중학생 · 고등학생", on="중학생과", color="yellow")]))
+sc(1, stage([C("kr_idle", 0.5, 480, face="worried")], [pop("label", 0.5, 0.16, "중학생 · 고등학생", on="중학생과", color="yellow")]))
 sc(1, ai("red_eyes"), label=DRAMA, callouts=low("지급받은 M1 소총"))
 sc(1, text("훈련은 며칠", "red", "총 쏘는 법 정도가 전부"))
-sc(1, ai("fog_mountain"), label=DRAMA)
+sc(1, ai("coast_creep"), label=DRAMA)
 sc(1, stage([C("nk_point", 0.55, 480, flip=True, prop=NKC, face="angry", anim="enter")], [pop("label", 0.55, 0.15, "북한군 정규군", on="정규군이었습니다", color="red")]))
 sc(1, text("71명", "yellow", "학도의용군"))
 sc(1, checklist("그날 새벽 학도병에게 없던 것", [{"text": "지휘할 장교", "on": "장교도", "checkOn": "장교도", "bad": True}, {"text": "지원 병력", "on": "지원", "checkOn": "않았습니다", "bad": True}]))
 sc(1, text("11시간", "blue", "1950. 8. 11 새벽 ~ 오후"))
 sc(1, bars("기록 기준 · 자료에 따라 47명", [{"label": "학도병", "value": 71, "display": "71명", "color": "blue", "at": 0.1}, {"label": "전사", "value": 48, "display": "48명", "color": "red", "on": "마흔여덟"}]))
-sc(1, stage([C("kr_shrug", 0.4, 460, prop="cap", face="sweat")], [pop("q", 0.7, 0.3, at=0.2, size=220)], title="왜 학생들이 그곳에?"))
+sc(1, stage([C("kr_shrug", 0.4, 460, prop="notebook", face="sweat")], [pop("q", 0.7, 0.3, at=0.2, size=220)], title="왜 학생들이 그곳에?"))
 sc(1, black("그 11시간은", "무엇을 바꿨나"))
 sc(1, m("korea", "perimeter", [front], flight=["korea", "perimeter"], flightDur=3.0), sfx=SW(0))
 sc(1, m("perimeter", "perimeter", [front, mark("pohang", "red", 0), {"k": "line", "path": ROAD_BUSAN, "color": "#ffd400", "glow": True, "on": "경주가"}, mark("busan", "blue", on="부산이")]))
 sc(1, m("perimeter", "perimeter", [front, dash_r(ROAD_BUSAN, 0.2)]), callouts=top("동해안이 뚫리면", "red"))
-sc(1, m("perimeter", "perimeter", [dict(front, glow=True), badge([129.42, 36.08], "마지막 문", "#c9242c", 0.3, -60)], tilt=22))
+sc(1, m("perimeter", "perimeter", [dict(front, glow=True), badge([129.3, 35.95], "마지막 문", "#c9242c", 0.3, -60)], tilt=22))
 sc(1, cmp("학생들의", "11시간", "형산강의", "마지막 방어선", "blue", "red"))
 sc(1, black("둘은 어떻게 이어질까", "끝까지 보시면 알게 됩니다"))
 sc(1, {"type": "titlecard", "title": "포항 결전", "sub": "안강·기계 전투와 형산강 방어선 · 1950", "at": 0, "q": pin("student_train")}, flash=True)
@@ -315,8 +315,8 @@ next_act()
 
 # ===== 제1막 동해안의 문이 열리다 =====
 sc(1, m("korea", "perimeter", [front], flight=["korea", "perimeter"], flightDur=3.0), chapter={"num": "제1막", "title": "동해안의 문이 열리다"}, callouts=top("1950년 8월 초 · 부산을 둘러싼 땅"))
-sc(1, m("perimeter", "perimeter", [front, badge([128.28, 35.55], "낙동강", "#2e66d8", on="낙동강이", dy=0), badge([128.85, 36.3], "산줄기", "#111", on="산줄기가", dy=0)]))
-sc(1, m("perimeter", "perimeter", [dict(front, glow=True), badge([128.4, 35.4], "낙동강 방어선", "#2e66d8", 0.3, 0)], tilt=22))
+sc(1, m("perimeter", "perimeter", [front, badge([128.28, 35.55], "낙동강", "#2e66d8", on="낙동강이", dy=0), badge([128.8, 36.05], "산줄기", "#111", on="산줄기가", dy=0)]))
+sc(1, m("perimeter", "perimeter", [dict(front, glow=True), badge([128.25, 35.8], "낙동강 방어선", "#2e66d8", 0.3, 0)], tilt=22))
 sc(1, m("perimeter", "east", [front, LOCK("pohang", 0.8)], flight=["perimeter", "east"], flightDur=2.4), sfx=PING(0.9))
 sc(1, ph("cav_land"), label=plabel("cav_land"))
 sc(1, text("세 개의 길", "yellow", "포항에 모인 길"))
@@ -394,7 +394,7 @@ next_act()
 # ===== 제3막 교복을 입은 일흔한 명 =====
 MID = [nid()]
 sc(1, ai("classroom_1950"), label=DRAMA, pauseBefore=0.5, chapter={"num": "제3막", "title": "교복을 입은 71명"})
-sc(1, stage([C("kr_idle", 0.3, 420, prop="cap+glasses", face="sparkle"), C("kr_point", 0.7, 420, flip=True, prop="cap", face="blush")], [pop("label", 0.5, 0.15, "중학생 · 고등학생", on="중학생과", color="yellow")]))
+sc(1, stage([C("kr_idle", 0.3, 420, prop="glasses", face="sparkle"), C("kr_point", 0.7, 420, flip=True, face="blush")], [pop("label", 0.5, 0.15, "중학생 · 고등학생", on="중학생과", color="yellow")]))
 sc(1, ph("refugees_road"), label=plabel("refugees_road"))
 sc(1, ph("student_train"), label=plabel("student_train"))
 sc(1, text("학도의용군", "yellow", "나라를 지키겠다며 자원한 학생들"))
@@ -413,7 +413,7 @@ sc(1, text("2개 소대", "blue"))
 sc(1, doc("부대 이름", ["제3사단 직할", "학도의용군 중대"], "學徒", "국군 제3사단", "재구성"))
 sc(1, black("훈련은", "거의 없었다"))
 sc(1, checklist("배운 것", [{"text": "분해", "on": "분해하고", "checkOn": "분해하고"}, {"text": "조립", "on": "조립하는", "checkOn": "조립하는"}, {"text": "사격", "on": "쏘는", "checkOn": "전부였죠"}]))
-sc(1, stage([C("kr_plead", 0.5, 480, prop="cap", face="determined", anim="bounce")], [pop("label", 0.5, 0.15, "임무 · 학교를 지켜라", on="학교를", color="yellow")]))
+sc(1, stage([C("kr_plead", 0.5, 480, prop="headband", face="determined", anim="bounce")], [pop("label", 0.5, 0.15, "임무 · 학교를 지켜라", on="학교를", color="yellow")]))
 sc(1, m("pohang", "pohang", [mark("heunghae", "red", 0), red_a([[129.345, 36.11], [129.35, 36.075], [129.355, 36.05]], 0.3)], tilt=26), callouts=top("8. 10 · 흥해에서 남쪽으로", "red"))
 sc(1, ai("trucks"), label=DRAMA)
 sc(1, ph("yongdok_ammo"), label=plabel("yongdok_ammo"))
@@ -429,7 +429,7 @@ sc(1, black("편지는", "이렇게 시작한다"))
 sc(1, doc("어머니께", ["어머니 나는", "사람을 죽였습니다"], "1950", "학도병 이우근의 편지 (1950. 8. 10)", "첫 문장 · 원문 요지"))
 sc(1, black("중학교 3학년 소년의", "첫 문장"))
 sc(1, black("두려움과", "그리움"))
-sc(1, stage([C("kr_shrug", 0.35, 440, prop="cap", face="tears"), C("kr_idle", 0.7, 400, flip=True, prop="headband", face="worried")], [pop("label", 0.5, 0.15, "너무 어린 동료들", on="어리다는", color="dark")]))
+sc(1, stage([C("kr_shrug", 0.35, 440, face="tears"), C("kr_idle", 0.7, 400, flip=True, prop="headband", face="worried")], [pop("label", 0.5, 0.15, "너무 어린 동료들", on="어리다는", color="dark")]))
 sc(1, ai("mother_home"), label=DRAMA)
 sc(1, black("편지의 행방은", "잠시 뒤에"))
 sc(1, ai("comrade_breathes"), label=DRAMA)
@@ -455,10 +455,10 @@ sc(1, m("pohang", "city", [plane([[129.42, 35.988], [129.4, 36.01], [129.37, 36.
 sc(1, ph("pohang_ruins"), label=plabel("pohang_ruins"))
 sc(1, ph("refugee_woman"), label=plabel("refugee_woman"))
 sc(1, m("city", "city", [blue_a([[129.36, 36.035], [129.37, 36.02], [129.375, 36.003]], 0.2), river(0)], tilt=28), callouts=low("후방 지휘소 · 형산강 남쪽으로"))
-sc(1, stage([C("kr_salute", 0.5, 480, prop="cap", face="tears")], [pop("label", 0.5, 0.15, "자리를 지킨다", on="자리를", color="yellow")]))
+sc(1, stage([C("kr_salute", 0.5, 480, prop="headband", face="tears")], [pop("label", 0.5, 0.15, "자리를 지킨다", on="자리를", color="yellow")]))
 sc(1, black("그리고", "세 번째 공격"))
 sc(1, ai("armored_car"), label=DRAMA)
-sc(1, stage([C("kr_shock", 0.45, 460, prop="cap", face="shock")], [pop("q", 0.75, 0.3, at=0.3)]))
+sc(1, stage([C("kr_shock", 0.45, 460, face="shock")], [pop("q", 0.75, 0.3, at=0.3)]))
 sc(1, ai("empty_ammo"), label=DRAMA)
 sc(1, bars("1인당 실탄 · 전해지는 이야기", [{"label": "처음", "value": 250, "display": "250발", "color": "blue", "at": 0.1}, {"label": "몇 시간 뒤", "value": 15, "display": "바닥", "color": "red", "on": "떨어져"}]))
 sc(1, m("city", "city", [swarm([[129.35, 36.06], [129.357, 36.041]], 0, 150), clash("school", 0.4)], tilt=34))
@@ -491,7 +491,7 @@ sc(1, m("pohang", "pohang", [mark("school", "blue", 0)], tilt=26), pauseBefore=0
 sc(1, black("더 큰 위기가", "기다리고 있었다"))
 sc(1, m("pohang", "pohang", [LOCK("airfield", 0.2)], tilt=28), callouts=top("첫 번째 위기"), sfx=PING(0.3))
 sc(1, doc("명령", ["영일 비행장을 비워라"], "命令", "미 제5공군", "1950. 8. 13 · 재구성"))
-sc(1, stage([C("us_point", 0.5, 480, prop="cap", face="sweat")], [pop("label", 0.5, 0.15, "적이 너무 가깝다!", on="가까이", color="dark")]))
+sc(1, stage([C("us_point", 0.5, 480, prop="helmet+glasses", face="sweat")], [pop("label", 0.5, 0.15, "적이 너무 가깝다!", on="가까이", color="dark")]))
 sc(1, flat([131.0, 34.9], 7, [fpin([129.42, 35.99], "영일 비행장", at=0, flag="kr", side="left"), fpin([131.04, 33.68], "규슈 쓰이키 기지", on="규슈로", side="right")], [route([129.42, 35.99], [131.04, 33.68], "F-51 45대", on="옮겨", bend=0.2, color="#2e66d8")], [{"ll": [130.6, 36.2], "text": "동해", "style": "sea"}]))
 sc(1, stage([C("us_plead", 0.5, 500, prop="pipe+glasses", face="angry", anim="shake")], [pop("label", 0.5, 0.15, "맥아더 · 비행장을 지켜라!", on="화를", color="red")]))
 sc(1, m("pohang", "pohang", [mark("airfield", "blue", 0), badge("airfield", "브래들리 부대", "#2e66d8", 0.3, -70)], tilt=28))
@@ -616,7 +616,7 @@ sc(1, stage([C("kr_plead", 0.4, 460, prop="officer", face="worried", anim="tilt"
 sc(1, m("perimeter", "perimeter", [front, {"k": "line", "path": [[129.215, 36.06], [129.225, 35.99], [129.225, 35.86], [129.2, 35.6], [129.04, 35.18]], "color": "#ffd400", "glow": True, "at": 0.1}]), callouts=top("부산으로 가는 가장 짧은 길"))
 sc(1, m("perimeter", "perimeter", [front, mark("pohang", "blue", 0), mark("daegu", "blue", on="대구의")]))
 sc(1, m("perimeter", "perimeter", [front, dash_r([[129.36, 36.03], [128.9, 35.95], [128.6, 35.88]], 0.1), shock([[128.6, 35.88], [128.45, 35.5]], 0.5, 0.8)]), callouts=low("가정 · 뒤에서 무너지는 방어선"))
-sc(1, stage([C("kr_shock", 0.5, 460, prop="cap+medal", face="worried", anim="tilt")], [pop("q", 0.76, 0.3, at=0.2)], title="학생들의 11시간은 무엇을 바꿨나?"))
+sc(1, stage([C("kr_shock", 0.5, 460, prop="medal", face="worried", anim="tilt")], [pop("q", 0.76, 0.3, at=0.2)], title="학생들의 11시간은 무엇을 바꿨나?"))
 sc(1, m("pohang", "pohang", [blue_a(OUT_SOUTH, 0.1), river(0)], tilt=26), callouts=top("그 11시간 동안", "blue"))
 sc(1, m("city", "city", [obj(1, "school", "포항여중", 0), clash("school", 0.2)], tilt=32, hud=True))
 sc(1, m("ne", "ne", [{"k": "arrow", "path": EVAC, "color": "blue", "at": 0.1, "width": 1.1}]), callouts=low("며칠 뒤 · 제3사단 해상 철수"))
@@ -681,9 +681,9 @@ AI = {
     "thumb_subject": "Photorealistic black-and-white 1950 Korean War documentary portrait of a very young South Korean student volunteer soldier, clearly East Asian Korean face with black hair, plain black high-school uniform with no insignia and an old American M1 steel helmet, soot and sweat on his face, fierce determined eyes, holding an M1 rifle across his chest, waist-up, face clearly visible and turned slightly toward the left of the frame, isolated on a plain pure white background, no shadows on the background, no text.",
 }
 # 재사용 그림 (파일·서명 복사, 추가 비용 0): 원래 프롬프트 그대로
-REUSE = {"walker_map": "naktong", "ship_evac": "naktong", "rain_attack": "naktong", "tank_break": "naktong", "fog_mountain": "naktong", "trucks": "naktong",
+REUSE = {"walker_map": "naktong", "ship_evac": "naktong", "rain_attack": "naktong", "tank_break": "naktong", "trucks": "naktong",
          "empty_ammo": "ep23-jangsari", "trench_melee": "ep23-jangsari", "red_eyes": "ep23-jangsari", "comrade_breathes": "ep23-jangsari", "parade_boys": "ep23-jangsari", "night_ring": "ep23-jangsari",
-         "nk_column_coast": "ep27-tongyeong", "memorial": "ep27-tongyeong"}
+         "nk_column_coast": "ep27-tongyeong", "coast_creep": "ep27-tongyeong", "memorial": "ep27-tongyeong"}
 import hashlib
 import shutil
 AIDIR = ROOT / "public" / "ep" / EP / "ai"

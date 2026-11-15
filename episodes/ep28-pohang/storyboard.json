@@ -131,24 +131,24 @@
   },
   "perimeter": {
    "center": [
-    128.75,
-    35.75
+    128.8,
+    35.66
    ],
-   "span": 1.9
+   "span": 2.5
   },
   "ne": {
    "center": [
-    129.22,
-    36.2
+    129.2,
+    36.18
    ],
-   "span": 1.0
+   "span": 1.4
   },
   "east": {
    "center": [
     129.2,
-    36.0
+    35.98
    ],
-   "span": 0.85
+   "span": 1.0
   },
   "coast": {
    "center": [
@@ -160,16 +160,16 @@
   "pohang": {
    "center": [
     129.3,
-    36.02
+    36.025
    ],
-   "span": 0.32
+   "span": 0.45
   },
   "corridor": {
    "center": [
-    129.225,
+    129.22,
     36.0
    ],
-   "span": 0.24
+   "span": 0.36
   },
   "river": {
    "center": [
@@ -276,7 +276,6 @@
   "ship_evac": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean flag (white with the red and blue taegeuk circle and black trigrams), wearing 1950 M1 steel helmets and olive drab summer field uniforms wading out from a small rocky beach at dawn and climbing ramps into grey US Navy tank landing ships (LST) in August 1950, Korean police and porters with A-frames among them, a cruiser firing its guns offshore in the background, smoke on the hills behind the beach, urgent mood, leaving calm uncluttered dark background area in the upper part of the frame, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "rain_attack": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: North Korean soldiers whose heads are round balls painted as the North Korean flag (blue, thin white and wide red stripes with a red star in a white circle), wearing khaki 1950 uniforms and soft caps, advancing at night in heavy rain down a muddy mountain road in Korea in September 1950 behind a column of T-34/85 tanks with headlights off, steep dark forested mountains on both sides, rain streaks and puddles, tense ominous mood, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "tank_break": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a North Korean T-34/85 tank smashing through behind a line of hillside foxholes, South Korean soldiers whose heads are round balls painted as the South Korean flag (white with the red and blue taegeuk circle and black trigrams), wearing 1950 M1 steel helmets and olive drab summer field uniforms scattering in shock and confusion, mud and rain, smoke from a burning truck, September 1950 Korea, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "fog_mountain": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: North Korean soldiers whose heads are round balls painted as the North Korean flag (blue, thin white and wide red stripes with a red star in a white circle), wearing khaki 1950 uniforms and soft caps crawling silently up a steep rocky pine-covered mountain ridge in thick morning fog in Korea in September 1950, while American soldiers whose heads are round balls painted as the United States flag, wearing 1950 M1 helmets and olive drab summer uniforms wait in foxholes near the summit peering into the white fog with rifles ready, eerie tense mood, muted grey-green palette, leaving calm uncluttered dark background area in the upper part of the frame, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "trucks": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean flag (white with the red and blue taegeuk circle and black trigrams), wearing 1950 M1 steel helmets and olive drab summer field uniforms riding in the backs of 1950 army trucks in a long column along a dusty Korean country road between rice paddies, rifles in hand, determined faces, hurrying to the front, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "empty_ammo": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a young South Korean student soldier whose head is a round ball painted as the South Korean Taegukgi flag, wearing a plain black high-school uniform and an old steel helmet, NO stars and NO red insignia anywhere opening an empty ammunition box in a trench with a hollow look, a few cartridges in his palm, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "trench_melee": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: young South Korean student soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain black high-school uniforms and mismatched steel helmets, NO stars and NO red insignia anywhere fighting hand to hand with North Korean soldiers whose heads are round balls painted as the North Korean flag, wearing 1950 khaki uniforms and caps inside a coastal trench with bayonets and rifle butts, smoke, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
@@ -285,6 +284,7 @@
   "parade_boys": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: rows of young South Korean student soldiers whose heads are round balls painted as the South Korean Taegukgi flag, wearing plain black high-school uniforms and mismatched steel helmets, NO stars and NO red insignia anywhere standing at attention on a dusty army parade ground in morning light in Busan, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "night_ring": "Naval shells bursting in a ring along the hills around a dark Korean beach at night, a stranded ship silhouetted in the foreground, muzzle flashes far out at sea, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no people visible, no text, no letters.",
   "nk_column_coast": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a long column of North Korean soldiers whose heads are round balls painted as the North Korean flag (blue, red and white stripes with a red star), wearing 1950 olive-brown uniforms and soft field caps marching along a dusty coastal dirt road beside rice paddies toward a southern harbor town, a few trucks, confident and fast, hot summer haze, August 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "coast_creep": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: North Korean soldiers whose heads are round balls painted as the North Korean flag (blue, red and white stripes with a red star), wearing 1950 olive-brown uniforms and soft field caps creeping at night along a rocky shoreline below a dark hill, crouching low between rocks at the water's edge, a parachute flare suddenly lighting them up from above, August 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "memorial": "A modern granite war memorial monument with a bronze statue of soldiers on a small green park on a hill pass beside a road in a Korean coastal city, bouquets of white chrysanthemums laid in front, soft evening light, no readable text, no letters, painterly realistic, cinematic."
  },
  "scenes": [
@@ -383,8 +383,7 @@
       "y": 0.9,
       "h": 480,
       "at": 0,
-      "face": "worried",
-      "prop": "cap"
+      "face": "worried"
      }
     ],
     "pops": [
@@ -445,7 +444,7 @@
    ],
    "visual": {
     "type": "ai",
-    "img": "fog_mountain",
+    "img": "coast_creep",
     "kb": "in"
    },
    "label": "재연 일러스트",
@@ -588,7 +587,7 @@
       "h": 460,
       "at": 0,
       "face": "sweat",
-      "prop": "cap"
+      "prop": "notebook"
      }
     ],
     "pops": [
@@ -939,8 +938,8 @@
      {
       "k": "badge",
       "p": [
-       129.42,
-       36.08
+       129.3,
+       35.95
       ],
       "text": "마지막 문",
       "color": "#c9242c",
@@ -1156,8 +1155,8 @@
      {
       "k": "badge",
       "p": [
-       128.85,
-       36.3
+       128.8,
+       36.05
       ],
       "text": "산줄기",
       "color": "#111",
@@ -1228,8 +1227,8 @@
      {
       "k": "badge",
       "p": [
-       128.4,
-       35.4
+       128.25,
+       35.8
       ],
       "text": "낙동강 방어선",
       "color": "#2e66d8",
@@ -3978,7 +3977,7 @@
       "h": 420,
       "at": 0,
       "face": "sparkle",
-      "prop": "cap+glasses"
+      "prop": "glasses"
      },
      {
       "c": "kr_point",
@@ -3987,8 +3986,7 @@
       "h": 420,
       "at": 0,
       "flip": true,
-      "face": "blush",
-      "prop": "cap"
+      "face": "blush"
      }
     ],
     "pops": [
@@ -4400,7 +4398,7 @@
       "h": 480,
       "at": 0,
       "face": "determined",
-      "prop": "cap",
+      "prop": "headband",
       "anim": "bounce"
      }
     ],
@@ -4727,8 +4725,7 @@
       "y": 0.9,
       "h": 440,
       "at": 0,
-      "face": "tears",
-      "prop": "cap"
+      "face": "tears"
      },
      {
       "c": "kr_idle",
@@ -5308,7 +5305,7 @@
       "h": 480,
       "at": 0,
       "face": "tears",
-      "prop": "cap"
+      "prop": "headband"
      }
     ],
     "pops": [
@@ -5364,8 +5361,7 @@
       "y": 0.9,
       "h": 460,
       "at": 0,
-      "face": "shock",
-      "prop": "cap"
+      "face": "shock"
      }
     ],
     "pops": [
@@ -6075,7 +6071,7 @@
       "h": 480,
       "at": 0,
       "face": "sweat",
-      "prop": "cap"
+      "prop": "helmet+glasses"
      }
     ],
     "pops": [
@@ -10490,7 +10486,7 @@
       "h": 460,
       "at": 0,
       "face": "worried",
-      "prop": "cap+medal",
+      "prop": "medal",
       "anim": "tilt"
      }
     ],
