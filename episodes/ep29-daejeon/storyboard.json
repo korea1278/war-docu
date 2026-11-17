@@ -1,0 +1,8779 @@
+{
+ "title": "대전의 이틀",
+ "subtitle": "3.5인치 바주카의 첫 일격과 딘 소장의 실종 · 1950. 7",
+ "style": 2,
+ "tts_mode": "act",
+ "sfx_policy": "doc",
+ "bgm_rel_db": -24,
+ "sub_max": 28,
+ "sync_limit": 0.5,
+ "target_sec": 1230,
+ "voice": "U1cJYS4EdbaHmfR7YzHd",
+ "midrolls": [
+  "s098",
+  "s168",
+  "s258"
+ ],
+ "places": {
+  "daejeon": [
+   127.425,
+   36.33,
+   "대전"
+  ],
+  "station": [
+   127.434,
+   36.332,
+   "대전역"
+  ],
+  "airfield": [
+   127.375,
+   36.365,
+   "대전 비행장"
+  ],
+  "westx": [
+   127.395,
+   36.343,
+   "서쪽 교차로"
+  ],
+  "downtown": [
+   127.423,
+   36.327,
+   "시내 중심가"
+  ],
+  "tunnel": [
+   127.488,
+   36.321,
+   "터널 구간"
+  ],
+  "okcheon": [
+   127.571,
+   36.306,
+   "옥천"
+  ],
+  "geumsan": [
+   127.488,
+   36.108,
+   "금산"
+  ],
+  "yeongdong": [
+   127.783,
+   36.175,
+   "영동"
+  ],
+  "jinan": [
+   127.425,
+   35.792,
+   "진안"
+  ],
+  "osan": [
+   127.077,
+   37.15,
+   "오산"
+  ],
+  "jukmi": [
+   127.04,
+   37.19,
+   "죽미령"
+  ],
+  "pyeongtaek": [
+   127.09,
+   36.99,
+   "평택"
+  ],
+  "cheonan": [
+   127.152,
+   36.815,
+   "천안"
+  ],
+  "jeonui": [
+   127.2,
+   36.68,
+   "전의"
+  ],
+  "jochiwon": [
+   127.295,
+   36.6,
+   "조치원"
+  ],
+  "gongju": [
+   127.12,
+   36.465,
+   "공주"
+  ],
+  "daepyeong": [
+   127.27,
+   36.49,
+   "대평리"
+  ],
+  "yuseong": [
+   127.34,
+   36.36,
+   "유성"
+  ],
+  "seoul": [
+   126.978,
+   37.566,
+   "서울"
+  ],
+  "busan": [
+   129.04,
+   35.18,
+   "부산"
+  ],
+  "pohang": [
+   129.365,
+   36.032,
+   "포항"
+  ],
+  "sangju": [
+   128.16,
+   36.41,
+   "상주"
+  ],
+  "daegu": [
+   128.6,
+   35.87,
+   "대구"
+  ]
+ },
+ "views": {
+  "korea": {
+   "center": [
+    127.6,
+    36.4
+   ],
+   "span": 4.6
+  },
+  "south": {
+   "center": [
+    128.3,
+    35.95
+   ],
+   "span": 3.4
+  },
+  "corridor": {
+   "center": [
+    127.25,
+    36.75
+   ],
+   "span": 2.3
+  },
+  "north": {
+   "center": [
+    127.12,
+    37.0
+   ],
+   "span": 1.0
+  },
+  "osan": {
+   "center": [
+    127.06,
+    37.17
+   ],
+   "span": 0.35
+  },
+  "geum": {
+   "center": [
+    127.28,
+    36.42
+   ],
+   "span": 0.7
+  },
+  "djwide": {
+   "center": [
+    127.48,
+    36.24
+   ],
+   "span": 0.95
+  },
+  "dj": {
+   "center": [
+    127.42,
+    36.335
+   ],
+   "span": 0.3
+  },
+  "city": {
+   "center": [
+    127.42,
+    36.335
+   ],
+   "span": 0.14
+  },
+  "east": {
+   "center": [
+    127.5,
+    36.32
+   ],
+   "span": 0.2
+  },
+  "retreat": {
+   "center": [
+    127.6,
+    36.05
+   ],
+   "span": 1.3
+  }
+ },
+ "music": [
+  {
+   "id": "drone",
+   "from": "s001",
+   "to": "s014",
+   "volume": 0.2
+  },
+  {
+   "id": "theme",
+   "from": "s015",
+   "to": "s056",
+   "volume": 0.16
+  },
+  {
+   "id": "tension",
+   "from": "s057",
+   "to": "s097",
+   "volume": 0.17
+  },
+  {
+   "id": "analysis",
+   "from": "s098",
+   "to": "s134",
+   "volume": 0.16
+  },
+  {
+   "id": "march",
+   "from": "s135",
+   "to": "s208",
+   "volume": 0.16
+  },
+  {
+   "id": "tension",
+   "from": "s209",
+   "to": "s257",
+   "volume": 0.17
+  },
+  {
+   "id": "analysis",
+   "from": "s258",
+   "to": "s299",
+   "volume": 0.16
+  },
+  {
+   "id": "somber",
+   "from": "s300",
+   "to": "s310",
+   "volume": 0.17
+  }
+ ],
+ "ai_images": {
+  "daejeon_burning": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: the streets of a small 1950 Korean provincial city with two-story brick and wooden shop buildings, tiled roofs and power poles burning at dawn, a Soviet-made T-34/85 tank with a red star painted on its turret rolling through thick smoke between the buildings, a small group of American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1950 M1 steel helmets and olive drab summer uniforms crouching behind a wall with a bazooka, July 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "dean_chase": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an American two-star general whose head is a round ball painted as the United States flag (stars and stripes), wearing an M1 steel helmet with two small silver stars, an olive drab summer field uniform, carrying an M1 Garand rifle leading a small bazooka team of American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1950 M1 steel helmets and olive drab summer uniforms running through a burning street after a Soviet-made T-34/85 tank with a red star painted on its turret disappearing around a corner, July 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "mountain_lost": "A lone exhausted figure in a torn olive drab uniform hiding among dark pine trees on a steep Korean mountainside at night, moonlight, mist in the valley below, lonely and desperate, painterly realistic digital illustration, cinematic, desaturated palette, film grain, no text, no letters.",
+  "masquerade": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American officers whose heads are round balls painted as the United States flag at a 1950 officers' club masquerade costume party in Kokura, Japan, wearing silly costumes, paper lanterns, a small band, drinks, festive mood at night, July 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "dean_gat": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an American general whose head is a round ball painted as the United States flag, wearing a traditional Korean black horsehair gat hat that is too small for him and a white Korean dopo robe, at a costume party, other guests laughing, July 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "occupation_life": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: young American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1950 M1 steel helmets and olive drab summer uniforms in a 1950 occupation barracks in Japan, playing cards and polishing shoes, old worn World War II rifles and a rusty jeep, relaxed and untrained, July 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "jukmi_rain": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1950 M1 steel helmets and olive drab summer uniforms in rain ponchos dug into foxholes on a muddy rain-soaked ridge above a road at dawn, staring down at a column of tanks coming out of the mist, rain falling, July 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "bazooka_236": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: two American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1950 M1 steel helmets and olive drab summer uniforms aiming an old slim 2.36-inch bazooka from a muddy roadside ditch in the rain at an approaching tank, July 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "rocket_hit": "A bazooka rocket striking the sloped front armor of a Soviet-made T-34/85 tank with a red star painted on its turret on a rainy muddy road, a bright small explosion flash, painterly realistic, cinematic, film grain, no text, no letters.",
+  "rocket_bounce": "Close-up of a small bazooka rocket glancing off the thick sloped armor of a Soviet-made T-34/85 tank with a red star painted on its turret, sparks flying, the tank undamaged and still moving forward in the rain, painterly realistic, cinematic, film grain, no text, no letters.",
+  "tfs_retreat": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: exhausted American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1950 M1 steel helmets and olive drab summer uniforms retreating in small groups through flooded rice paddies in the rain, some helping wounded comrades, abandoned equipment behind them, July 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "rumor_campfire": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: frightened young American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1950 M1 steel helmets and olive drab summer uniforms whispering to each other around a small dim fire at night in a Korean village, worried faces, rifles leaning on a wall, July 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "martin_bazooka": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an American colonel whose head is a round ball painted as the United States flag, wearing an M1 helmet, holding an old 2.36-inch bazooka on his shoulder in a narrow street of a small Korean town at dawn, determined, July 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "martin_tank": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a Soviet-made T-34/85 tank with a red star painted on its turret turning its gun toward a bazooka team in a narrow Korean town street at dawn, the muzzle flashing, dust and debris, July 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "bridge_blow": "Army engineers blowing up a long concrete bridge over a wide brown Korean river in July 1950, a huge explosion in the middle span, smoke and debris, green hills on the far bank, painterly realistic digital illustration, cinematic, desaturated palette, film grain, no text, no letters.",
+  "geum_rafts": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: North Korean soldiers whose heads are round balls painted as the North Korean flag (blue, red and white stripes with a red star in a white circle), wearing 1950 khaki uniforms and soft field caps crossing a wide brown river at dawn on small wooden boats and log rafts, pushing with poles, mist over the water, July 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "artillery_rifles": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1950 M1 steel helmets and olive drab summer uniforms artillerymen firing rifles and carbines from behind their 155mm howitzers as enemy infantry attack through the bushes, smoke, chaos, July 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "exhausted_gi": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: exhausted, sweating American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1950 M1 steel helmets and olive drab summer uniforms sitting at the roadside in the hot July sun, empty canteens, thousand-yard stares, fearful glances toward the north, July 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "travis_c54": "A 1950 four-engine C-54 Skymaster transport plane taking off from a California air base at sunset, mechanics watching, painterly realistic digital illustration, cinematic, desaturated palette, film grain, no text, no letters.",
+  "long_crates": "The inside of a 1950 military transport plane cabin packed with long olive green wooden crates stenciled only with plain stripes, two instructors in khaki sitting beside them, dim light, painterly realistic digital illustration, cinematic, desaturated palette, film grain, no text, no letters.",
+  "bazooka_training": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an instructor teaching American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1950 M1 steel helmets and olive drab summer uniforms how to load and aim a large new 3.5-inch M20 rocket launcher on a dusty airfield in Korea, soldiers watching closely, July 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "shaped_charge": "A clean cutaway technical illustration of a 1950 shaped-charge anti-tank rocket hitting thick armor plate, a jet of molten metal piercing through like an awl, dark background, glowing orange, no text, no letters, no labels.",
+  "dean_stays": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an American two-star general whose head is a round ball painted as the United States flag (stars and stripes), wearing an M1 steel helmet with two small silver stars, an olive drab summer field uniform, carrying an M1 Garand rifle standing alone at night by a window in a small command post office lit by a lantern, maps on the table, looking out at the dark city, July 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "radio_dead": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a frustrated an American soldier whose head is a round ball painted as the United States flag (stars and stripes), wearing a 1950 M1 steel helmet and an olive drab summer uniform radio operator shaking a dead field radio in a dark room, cut telephone wires hanging outside the window, July 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "refugee_column": "A long column of Korean refugees in white clothes carrying bundles on their heads and A-frames on their backs, walking south along a dusty road out of a small city in hot July 1950, painterly realistic digital illustration, cinematic, desaturated palette, film grain, no text, no letters.",
+  "white_clothes": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a few North Korean soldiers whose heads are round balls painted as the North Korean flag (blue, red and white stripes with a red star in a white circle), wearing 1950 khaki uniforms and soft field caps partly disguised in white Korean civilian clothes, hiding rifles under bundles, slipping into a crowd of refugees on a road at dusk, July 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "first_aim": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: two American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1950 M1 steel helmets and olive drab summer uniforms kneeling in the dark at a city crossroads before dawn, aiming a large new 3.5-inch bazooka at the silhouette of a Soviet-made T-34/85 tank with a red star painted on its turret approaching, July 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "first_fire": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a large 3.5-inch bazooka firing at a dark city crossroads before dawn, a bright rocket flash and backblast lighting up two American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1950 M1 steel helmets and olive drab summer uniforms, July 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "first_kill": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a Soviet-made T-34/85 tank with a red star painted on its turret exploding from inside at a dark city crossroads before dawn, flames bursting out of the hatches, two American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1950 M1 steel helmets and olive drab summer uniforms ducking behind rubble, July 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "darr_cover": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a lone an American soldier whose head is a round ball painted as the United States flag (stars and stripes), wearing a 1950 M1 steel helmet and an olive drab summer uniform sergeant firing his rifle from a hillside position near an airfield, covering his platoon as it withdraws behind him, enemy approaching through the grass, July 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "tank_street": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a Soviet-made T-34/85 tank with a red star painted on its turret rolling down the streets of a small 1950 Korean provincial city with two-story brick and wooden shop buildings, tiled roofs and power poles in daylight, civilians fleeing, smoke rising from buildings, July 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "dean_out": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an American two-star general whose head is a round ball painted as the United States flag (stars and stripes), wearing an M1 steel helmet with two small silver stars, an olive drab summer field uniform, carrying an M1 Garand rifle walking out of a command post with a young lieutenant and a few American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1950 M1 steel helmets and olive drab summer uniforms carrying bazookas, smoke over the city behind them, July 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "dean_hunt": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an American two-star general whose head is a round ball painted as the United States flag (stars and stripes), wearing an M1 steel helmet with two small silver stars, an olive drab summer field uniform, carrying an M1 Garand rifle pointing the way for a bazooka team of American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1950 M1 steel helmets and olive drab summer uniforms moving carefully along the streets of a small 1950 Korean provincial city with two-story brick and wooden shop buildings, tiled roofs and power poles, searching for tanks, July 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "alley_chase": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an American two-star general whose head is a round ball painted as the United States flag (stars and stripes), wearing an M1 steel helmet with two small silver stars, an olive drab summer field uniform, carrying an M1 Garand rifle and a few American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1950 M1 steel helmets and olive drab summer uniforms running through a narrow alley between brick buildings and climbing over a low wall, chasing a tank heard nearby, July 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "tank_stops": "a Soviet-made T-34/85 tank with a red star painted on its turret stopped at the side of a street in a small 1950 Korean city, engine smoking, the commander's hatch closed, two-story buildings around it, afternoon light, painterly realistic, cinematic, film grain, no text, no letters.",
+  "backblast": "A 3.5-inch bazooka firing inside a room with a huge backblast flame shooting out behind it, debris flying, dramatic, painterly realistic, cinematic, film grain, no text, no letters.",
+  "window_view": "View from a second-floor window looking straight down at the turret of a Soviet-made T-34/85 tank with a red star painted on its turret stopped in the street right below, afternoon light, tense, painterly realistic, cinematic, film grain, no text, no letters.",
+  "window_shot": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a an American soldier whose head is a round ball painted as the United States flag (stars and stripes), wearing a 1950 M1 steel helmet and an olive drab summer uniform corporal firing a large 3.5-inch bazooka from a second-floor window straight down at the turret of a Soviet-made T-34/85 tank with a red star painted on its turret in the street below, an American two-star general whose head is a round ball painted as the United States flag (stars and stripes), wearing an M1 steel helmet with two small silver stars, an olive drab summer field uniform, carrying an M1 Garand rifle beside him pointing, July 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "tank_burning": "a Soviet-made T-34/85 tank with a red star painted on its turret engulfed in flames and black smoke in a street of a small 1950 Korean city, burning, the turret hatch open, painterly realistic, cinematic, film grain, no text, no letters.",
+  "sniper_city": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1950 M1 steel helmets and olive drab summer uniforms ducking behind a wall as snipers fire from the windows of buildings in the streets of a small 1950 Korean provincial city with two-story brick and wooden shop buildings, tiled roofs and power poles, dust kicking up, smoke, July 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "watch_check": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an American two-star general whose head is a round ball painted as the United States flag (stars and stripes), wearing an M1 steel helmet with two small silver stars, an olive drab summer field uniform, carrying an M1 Garand rifle looking down at his wristwatch at dusk in a smoky city street, worried but resolute, July 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "convoy_out": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a long column of trucks and jeeps full of American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1950 M1 steel helmets and olive drab summer uniforms rushing out of a burning city along a road at dusk, dust and smoke, July 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "ambush_tunnel": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a convoy of trucks and jeeps ambushed near a railway tunnel on a narrow road between steep hills at dusk, machine gun fire from both hillsides, the lead truck on fire, American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1950 M1 steel helmets and olive drab summer uniforms jumping out, July 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "libby_truck": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a wounded an American soldier whose head is a round ball painted as the United States flag (stars and stripes), wearing a 1950 M1 steel helmet and an olive drab summer uniform sergeant standing on the running board of an army truck full of wounded soldiers, shielding the driver with his body as the truck speeds through a burning roadblock at dusk, July 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "jeep_abandon": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an American two-star general whose head is a round ball painted as the United States flag (stars and stripes), wearing an M1 steel helmet with two small silver stars, an olive drab summer field uniform, carrying an M1 Garand rifle and a few American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1950 M1 steel helmets and olive drab summer uniforms leaving their jeep and climbing up a dark hillside at night, helping wounded soldiers, burning vehicles on the road below, July 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "night_mountain": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a small group of exhausted American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1950 M1 steel helmets and olive drab summer uniforms with wounded comrades resting in the dark on a pine-covered Korean mountain at night, moonlight, July 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "dean_water": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an American two-star general whose head is a round ball painted as the United States flag (stars and stripes), wearing an M1 steel helmet with two small silver stars, an olive drab summer field uniform, carrying an M1 Garand rifle carefully climbing down a steep dark slope alone at night, holding an empty canteen, the faint sound of a stream below in the moonlight, July 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "dean_fall": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an American two-star general whose head is a round ball painted as the United States flag (stars and stripes), wearing an M1 steel helmet with two small silver stars, an olive drab summer field uniform, carrying an M1 Garand rifle slipping and tumbling down a steep rocky slope in the dark at night, his helmet flying off, July 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "hide_forest": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a thin exhausted an American soldier whose head is a round ball painted as the United States flag (stars and stripes), wearing a 1950 M1 steel helmet and an olive drab summer uniform in a torn uniform with a bandaged head and his arm in a sling, hiding under bushes in a Korean forest in daylight, July 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "farmer_rice": "An elderly Korean farmer in white clothes secretly handing a bowl of rice to a thin exhausted American man in a torn uniform behind a thatched farmhouse at night, lamplight, kindness and fear, painterly realistic digital illustration, cinematic, desaturated palette, film grain, no text, no letters.",
+  "betrayal": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: two Korean men in white civilian clothes leading a thin exhausted an American soldier whose head is a round ball painted as the United States flag (stars and stripes), wearing a 1950 M1 steel helmet and an olive drab summer uniform with a bandaged head along a mountain path at dusk, glancing at each other, July 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "capture_struggle": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a thin, exhausted American general whose head is a round ball painted as the United States flag, struggling weakly as North Korean soldiers whose heads are round balls painted as the North Korean flag (blue, red and white stripes with a red star in a white circle), wearing 1950 khaki uniforms and soft field caps surround him on a mountain path at dusk, July 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "daejeon_night_fall": "A small 1950 Korean city burning at night seen from a distant hill, orange glow on the clouds, smoke columns, silhouettes of tanks entering, painterly realistic digital illustration, cinematic, desaturated palette, film grain, no text, no letters.",
+  "superbazooka_flow": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1950 M1 steel helmets and olive drab summer uniforms and South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag unloading many new 3.5-inch bazookas from trucks at a busy supply point, July 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "dean_return": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a thin American general whose head is a round ball painted as the United States flag, in a plain uniform, stepping out of a truck at a prisoner exchange point in 1953, soldiers saluting, emotional, July 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "dean_beside": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an American two-star general whose head is a round ball painted as the United States flag (stars and stripes), wearing an M1 steel helmet with two small silver stars, an olive drab summer field uniform, carrying an M1 Garand rifle crouching right beside young frightened American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1950 M1 steel helmets and olive drab summer uniforms in a burning street, pointing at a tank and encouraging them, July 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "memorial_daejeon": "A modern memorial ceremony in Daejeon, South Korea, with South Korean and American soldiers in dress uniforms standing in formation before a war memorial, wreaths of white flowers, summer, painterly realistic digital illustration, cinematic, desaturated palette, film grain, no text, no letters.",
+  "thumb_bg": "Cinematic photorealistic war film still, 16:9 wide shot: from the second-floor window of a burning 1950 Korean brick shop building, an American soldier fires a large 3.5-inch bazooka straight down at a Soviet T-34/85 tank in the street, the rocket exploding on the turret in a bright fireball, huge backblast flame, the burning city street at dusk, orange fire and black smoke, high contrast, dramatic, the lower third of the frame darker, no text, no letters, no logos.",
+  "t34_column": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a column of Soviet-made T-34 tanks with North Korean soldiers whose heads are round balls painted as the North Korean flag (red with blue stripes and a white circle with a red star) as tank commanders in the hatches, advancing down a narrow valley road at night, headlights off, moonlight, exhaust smoke, infantry following, ominous, low angle, cold blue night palette, no text, no letters."
+ },
+ "scenes": [
+  {
+   "id": "s001",
+   "lines": [
+    {
+     "t": "1950년 7월 20일 대전.",
+     "say": "천구백오십년 칠월 이십일 대전."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "daejeon_burning",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "hook": {
+    "hud": [
+     {
+      "big": "1950. 7. 20",
+      "sub": "대전",
+      "sub2": "불타는 시가지",
+      "at": 0.0,
+      "count": false
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0.2
+    }
+   ],
+   "act": 0
+  },
+  {
+   "id": "s002",
+   "lines": [
+    "불타는 시가지 한복판에서 한 장군이 적 전차를 쫓고 있었습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "dean_chase",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.3
+    }
+   ],
+   "act": 0
+  },
+  {
+   "id": "s003",
+   "lines": [
+    {
+     "t": "미 제24사단장 윌리엄 딘 소장입니다.",
+     "say": "미 제이십사사단장 윌리엄 딘 소장입니다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s003-photo",
+    "tag": "미 육군",
+    "pos": "70% 30%",
+    "marks": [
+     {
+      "text": "딘 소장",
+      "x": 0.68,
+      "y": 0.2,
+      "on": "윌리엄",
+      "color": "yellow"
+     }
+    ]
+   },
+   "label": "워커 중장(왼쪽)과 딘 소장 (1950)",
+   "act": 0
+  },
+  {
+   "id": "s004",
+   "lines": [
+    {
+     "t": "그와 함께 대전을 지키던 미군은 3,933명.",
+     "say": "그와 함께 대전을 지키던 미군은 삼천구백삼십삼 명."
+    }
+   ],
+   "visual": {
+    "type": "troops",
+    "n": 32,
+    "cols": 8,
+    "side": "us",
+    "title": "대전의 미군",
+    "labels": [
+     {
+      "x": 0.5,
+      "y": 0.86,
+      "text": "3,933명",
+      "on": "삼천구백삼십삼",
+      "color": "blue"
+     }
+    ]
+   },
+   "hook": {
+    "hud": [
+     {
+      "big": "3,933명",
+      "sub": "대전을 지킨 미군",
+      "sub2": "제24사단 투입 병력",
+      "on": "삼천구백삼십삼"
+     }
+    ]
+   },
+   "act": 0
+  },
+  {
+   "id": "s005",
+   "lines": [
+    {
+     "t": "그중 1,150명이 단 이틀 만에 쓰러지거나 사라집니다.",
+     "say": "그중 천백오십 명이 단 이틀 만에 쓰러지거나 사라집니다."
+    }
+   ],
+   "visual": {
+    "type": "troops",
+    "n": 32,
+    "cols": 8,
+    "side": "us",
+    "keep": 22,
+    "keepAt": 0.35,
+    "title": "단 이틀"
+   },
+   "hook": {
+    "hud": [
+     {
+      "big": "1,150명",
+      "sub": "쓰러지거나 사라진 병력",
+      "sub2": "단 이틀 만에",
+      "on": "천백오십",
+      "color": "#FF3B3B"
+     }
+    ]
+   },
+   "act": 0
+  },
+  {
+   "id": "s006",
+   "lines": [
+    {
+     "t": "그날 미군은 새 무기로 적 전차 10대를 부쉈습니다.",
+     "say": "그날 미군은 새 무기로 적 전차 열 대를 부쉈습니다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s006-photo",
+    "tag": "미 육군 통신대"
+   },
+   "label": "대전에서 격파된 북한군 전차 (1950. 7. 20)",
+   "hook": {
+    "hud": [
+     {
+      "big": "10대",
+      "sub": "새 무기로 부순 적 전차",
+      "sub2": "1950. 7. 20 하루",
+      "on": "열 대"
+     }
+    ]
+   },
+   "act": 0
+  },
+  {
+   "id": "s007",
+   "lines": [
+    "그런데도 대전은 하루 만에 무너졌습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "하루 만에 함락",
+    "style": "red",
+    "sub": "1950. 7. 20 · 대전",
+    "subAt": 0.4
+   },
+   "act": 0
+  },
+  {
+   "id": "s008",
+   "lines": [
+    "사단장은 끝까지 도시에 남아 싸웠습니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "us_salute",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 500,
+      "at": 0,
+      "face": "determined",
+      "prop": "officer+helmet",
+      "anim": "bounce"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.15,
+      "text": "끝까지 남은 사단장",
+      "on": "끝까지",
+      "color": "yellow"
+     }
+    ]
+   },
+   "act": 0
+  },
+  {
+   "id": "s009",
+   "lines": [
+    "그런데 그 사단장이 퇴각 길에서 사라집니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "djwide",
+    "to": "djwide",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.425,
+        36.32
+       ],
+       [
+        127.44,
+        36.25
+       ],
+       [
+        127.47,
+        36.18
+       ],
+       [
+        127.488,
+        36.108
+       ]
+      ],
+      "color": "#ff3b3b",
+      "glow": true,
+      "at": 0.1
+     },
+     {
+      "k": "marker",
+      "p": "geumsan",
+      "color": "red",
+      "on": "퇴각"
+     }
+    ],
+    "tilt": 24
+   },
+   "callouts": [
+    {
+     "text": "퇴로 · 개략",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ],
+   "act": 0
+  },
+  {
+   "id": "s010",
+   "lines": [
+    {
+     "t": "산속을 36일 동안 헤매다 결국 포로가 되죠.",
+     "say": "산속을 삼십육 일 동안 헤매다 결국 포로가 되죠."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "mountain_lost",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "hook": {
+    "hud": [
+     {
+      "big": "36일",
+      "sub": "홀로 산속을 헤맨 시간",
+      "sub2": "그리고 포로",
+      "on": "삼십육",
+      "color": "#FF3B3B"
+     }
+    ]
+   },
+   "act": 0
+  },
+  {
+   "id": "s011",
+   "lines": [
+    "장군을 잃고 도시를 내준 싸움 누가 봐도 참패였죠.",
+    "그런데 정말 그랬을까요."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "누가 봐도",
+    "accent": "참패",
+    "accentAt": 0.5
+   },
+   "hook": {
+    "neg": {
+     "text": "참패",
+     "at": 0.2,
+     "xOn": "그랬을까요"
+    }
+   },
+   "act": 0
+  },
+  {
+   "id": "s012",
+   "lines": [
+    "놀랍게도 미 육군의 공식 전사는 이 패배가 귀중한 시간을 벌었다고 적습니다."
+   ],
+   "visual": {
+    "type": "document",
+    "org": "애플먼 『낙동강에서 압록강까지』",
+    "head": "미 육군 공식 전사",
+    "rows": [
+     "대전 · 북한군의 큰 승리",
+     "그러나 귀중한 시간을 벌었다"
+    ],
+    "stamp": "公刊",
+    "note": "요지"
+   },
+   "act": 0
+  },
+  {
+   "id": "s013",
+   "lines": [
+    "사단장까지 잃은 이 패배는 어떻게 대한민국을 살렸을까요."
+   ],
+   "visual": {
+    "type": "black",
+    "text": " "
+   },
+   "hook": {
+    "question": {
+     "text": "사단장까지 잃은 이 패배는\n어떻게 대한민국을 살렸나",
+     "at": 0.05
+    }
+   },
+   "act": 0
+  },
+  {
+   "id": "s014",
+   "lines": [
+    "이야기는 대전에서 멀리 떨어진 일본 규슈의 한 파티장에서 시작합니다."
+   ],
+   "visual": {
+    "type": "titlecard",
+    "title": "대전의 이틀",
+    "sub": "3.5인치 바주카의 첫 일격과 딘 소장의 실종 · 1950",
+    "at": 0,
+    "q": "s014-photo"
+   },
+   "flash": true,
+   "act": 0
+  },
+  {
+   "id": "s015",
+   "lines": [
+    {
+     "t": "1950년 6월 24일 밤 일본 규슈의 고쿠라.",
+     "say": "천구백오십년 유월 이십사일 밤 일본 규슈의 고쿠라."
+    }
+   ],
+   "visual": {
+    "type": "flatmap",
+    "center": [
+     131.5,
+     34.6
+    ],
+    "span": 7,
+    "fill": {
+     "410": "#f1e4c6",
+     "408": "#e8b6a5",
+     "392": "#e6d9bd",
+     "156": "#dcc9a3"
+    },
+    "pins": [
+     {
+      "ll": [
+       130.88,
+       33.88
+      ],
+      "text": "고쿠라 (규슈)",
+      "side": "right",
+      "at": 0.2,
+      "flag": "us"
+     }
+    ],
+    "routes": [],
+    "labels": [
+     {
+      "ll": [
+       129.6,
+       33.2
+      ],
+      "text": "대한해협",
+      "style": "sea"
+     }
+    ],
+    "zoomTo": 0.92
+   },
+   "chapter": {
+    "num": "제1막",
+    "title": "가장 가까이 있던 사단"
+   },
+   "callouts": [
+    {
+     "text": "1950. 6. 24 밤",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "act": 1
+  },
+  {
+   "id": "s016",
+   "lines": [
+    {
+     "t": "미 제24사단 사령부에서 가장 무도회가 열리고 있었습니다.",
+     "say": "미 제이십사사단 사령부에서 가장 무도회가 열리고 있었습니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "masquerade",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "act": 1
+  },
+  {
+   "id": "s017",
+   "lines": [
+    "사람들의 눈길을 끈 것은 사단장 딘 소장의 차림이었죠."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "us_idle",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 500,
+      "at": 0,
+      "face": "smug",
+      "prop": "officer",
+      "anim": "tilt"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.15,
+      "text": "사단장 딘 소장",
+      "on": "딘 소장",
+      "color": "dark"
+     }
+    ]
+   },
+   "act": 1
+  },
+  {
+   "id": "s018",
+   "lines": [
+    "머리에 맞지도 않는 갓을 쓰고 한국 도포를 입고 나타난 겁니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "dean_gat",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "act": 1
+  },
+  {
+   "id": "s019",
+   "lines": [
+    {
+     "t": "딘은 2년 전 한국에서 미군정 장관으로 일한 적이 있었습니다.",
+     "say": "딘은 이 년 전 한국에서 미군정 장관으로 일한 적이 있었습니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "미군정 장관",
+    "style": "dark",
+    "sub": "딘 소장 · 1947~1948",
+    "subAt": 0.4
+   },
+   "act": 1
+  },
+  {
+   "id": "s020",
+   "lines": [
+    "하지만 그는 훗날 회고록에 이렇게 적습니다."
+   ],
+   "visual": {
+    "type": "document",
+    "org": "윌리엄 딘 『딘 장군 이야기』",
+    "head": "딘 소장 회고록",
+    "rows": [
+     "그날 밤 한국 옷을 입었지만",
+     "한국 생각은 거의 하지 않았다"
+    ],
+    "stamp": "回顧",
+    "note": "요지"
+   },
+   "act": 1
+  },
+  {
+   "id": "s021",
+   "lines": [
+    "그날 밤 한국 옷을 입었지만 한국 생각은 거의 하지 않았다고요."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "한국 옷을 입고",
+    "accent": "한국을 잊은 밤",
+    "accentAt": 0.5
+   },
+   "act": 1
+  },
+  {
+   "id": "s022",
+   "lines": [
+    "몇 시간 뒤 바다 건너 한반도에서 전쟁이 터집니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "korea",
+    "items": [],
+    "tilt": 10
+   },
+   "callouts": [
+    {
+     "text": "몇 시간 뒤",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "act": 1
+  },
+  {
+   "id": "s023",
+   "lines": [
+    {
+     "t": "6월 25일 새벽 북한군이 38선을 넘어 일제히 쳐 내려온 겁니다.",
+     "say": "유월 이십오일 새벽 북한군이 삼팔선을 넘어 일제히 쳐 내려온 겁니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "korea",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        124.6,
+        38.0
+       ],
+       [
+        126.5,
+        38.0
+       ],
+       [
+        128.6,
+        38.0
+       ]
+      ],
+      "color": "#ffffff",
+      "at": 0,
+      "dash": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.9,
+        38.5
+       ],
+       [
+        126.98,
+        37.6
+       ]
+      ],
+      "color": "red",
+      "width": 1.0,
+      "at": 0.2
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.8,
+        38.5
+       ],
+       [
+        127.75,
+        37.9
+       ]
+      ],
+      "color": "red",
+      "width": 1.0,
+      "at": 0.4
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.6,
+        38.5
+       ],
+       [
+        128.9,
+        37.8
+       ]
+      ],
+      "color": "red",
+      "width": 1.0,
+      "at": 0.6
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1950. 6. 25 새벽 · 38선",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ],
+   "act": 1
+  },
+  {
+   "id": "s024",
+   "lines": [
+    {
+     "t": "선두에는 소련제 T-34 전차가 있었습니다.",
+     "say": "선두에는 소련제 티삼십사 전차가 있었습니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "t34_column",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "act": 1
+  },
+  {
+   "id": "s025",
+   "lines": [
+    "국군에게는 이 전차를 막을 무기가 거의 없었죠."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s025-photo",
+    "tag": "Wikimedia Commons"
+   },
+   "label": "소련제 T-34 전차 (전쟁기념관 전시)",
+   "act": 1
+  },
+  {
+   "id": "s026",
+   "lines": [
+    "사흘 만에 서울이 떨어졌습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "korea",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.98,
+        37.56
+       ],
+       [
+        126.98,
+        37.75
+       ],
+       [
+        126.98,
+        37.6
+       ]
+      ],
+      "color": "red",
+      "width": 1.0,
+      "at": 0.1
+     },
+     {
+      "k": "marker",
+      "p": "seoul",
+      "color": "red",
+      "on": "서울이"
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "사흘 만에 서울 함락",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "act": 1
+  },
+  {
+   "id": "s027",
+   "lines": [
+    "미국은 지상군을 보내기로 결정합니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "us_point",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 480,
+      "at": 0,
+      "face": "determined",
+      "prop": "pipe"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.15,
+      "text": "지상군 파병",
+      "on": "지상군을",
+      "color": "blue"
+     }
+    ]
+   },
+   "act": 1
+  },
+  {
+   "id": "s028",
+   "lines": [
+    "그런데 어느 부대를 보낼 것인가."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "un_shrug",
+      "x": 0.45,
+      "y": 0.9,
+      "h": 470,
+      "at": 0,
+      "face": "worried",
+      "prop": "officer+glasses",
+      "anim": "tilt"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "q",
+      "x": 0.75,
+      "y": 0.3,
+      "on": "부대를"
+     }
+    ]
+   },
+   "act": 1
+  },
+  {
+   "id": "s029",
+   "lines": [
+    "답은 간단했습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "답은",
+    "accent": "간단했다",
+    "accentAt": 0.5
+   },
+   "act": 1
+  },
+  {
+   "id": "s030",
+   "lines": [
+    "한반도에서 가장 가까운 곳에 있던 사단."
+   ],
+   "visual": {
+    "type": "flatmap",
+    "center": [
+     130.0,
+     35.0
+    ],
+    "span": 8,
+    "fill": {
+     "410": "#f1e4c6",
+     "408": "#e8b6a5",
+     "392": "#e6d9bd",
+     "156": "#dcc9a3"
+    },
+    "pins": [
+     {
+      "ll": [
+       130.88,
+       33.88
+      ],
+      "text": "제24사단",
+      "side": "right",
+      "at": 0,
+      "flag": "us"
+     },
+     {
+      "ll": [
+       127.4,
+       36.35
+      ],
+      "text": "한반도",
+      "side": "left",
+      "at": 0.3,
+      "flag": "kr"
+     }
+    ],
+    "routes": [
+     {
+      "from": [
+       130.88,
+       33.88
+      ],
+      "to": [
+       129.05,
+       35.15
+      ],
+      "bend": 0.2,
+      "dur": 1.4,
+      "label": "가장 가까운 사단",
+      "on": "가장",
+      "color": "#2e66d8"
+     }
+    ],
+    "labels": [],
+    "zoomTo": 0.92
+   },
+   "act": 1
+  },
+  {
+   "id": "s031",
+   "lines": [
+    {
+     "t": "바로 규슈의 제24사단이었죠.",
+     "say": "바로 규슈의 제이십사사단이었죠."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "미 제24보병사단",
+    "style": "blue",
+    "sub": "일본 규슈 주둔",
+    "subAt": 0.4
+   },
+   "act": 1
+  },
+  {
+   "id": "s032",
+   "lines": [
+    "문제는 이 사단의 상태였습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "문제는",
+    "accent": "이 사단의 상태",
+    "accentAt": 0.5
+   },
+   "act": 1
+  },
+  {
+   "id": "s033",
+   "lines": [
+    "일본 점령 임무를 오래 하면서 병사들은 실전 훈련을 거의 받지 못했습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "occupation_life",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "act": 1
+  },
+  {
+   "id": "s034",
+   "lines": [
+    {
+     "t": "부대마다 정원이 모자랐고 장비는 2차 세계 대전 때 쓰던 낡은 것들이었죠.",
+     "say": "부대마다 정원이 모자랐고 장비는 이차 세계 대전 때 쓰던 낡은 것들이었죠."
+    }
+   ],
+   "visual": {
+    "type": "checklist",
+    "title": "제24사단의 현실",
+    "items": [
+     {
+      "text": "정원 부족",
+      "on": "정원이",
+      "checkOn": "모자랐고",
+      "bad": true
+     },
+     {
+      "text": "2차 대전 때 쓰던 낡은 장비",
+      "on": "장비는",
+      "checkOn": "낡은",
+      "bad": true
+     }
+    ]
+   },
+   "act": 1
+  },
+  {
+   "id": "s035",
+   "lines": [
+    "대부분은 전투를 한 번도 겪어 보지 못한 젊은 병사들이었습니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "us_shock",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 460,
+      "at": 0,
+      "face": "sweat",
+      "prop": "helmet",
+      "anim": "shake"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.15,
+      "text": "실전 경험 없음",
+      "on": "한 번도",
+      "color": "red"
+     }
+    ]
+   },
+   "act": 1
+  },
+  {
+   "id": "s036",
+   "lines": [
+    {
+     "t": "가장 먼저 한국에 도착한 것은 제21연대 1대대의 일부였습니다.",
+     "say": "가장 먼저 한국에 도착한 것은 제이십일연대 일대대의 일부였습니다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s036-photo",
+    "tag": "미 육군 군사사 연구소"
+   },
+   "label": "대전역에 도착한 스미스 특수임무부대 (1950. 7)",
+   "act": 1
+  },
+  {
+   "id": "s037",
+   "lines": [
+    "지휘관의 이름을 따서 스미스 특수임무부대라고 불렸죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "스미스 특수임무부대",
+    "style": "yellow",
+    "sub": "지휘관 찰스 스미스 중령",
+    "subAt": 0.4
+   },
+   "act": 1
+  },
+  {
+   "id": "s038",
+   "lines": [
+    {
+     "t": "병력은 500명 남짓.",
+     "say": "병력은 오백 명 남짓."
+    }
+   ],
+   "visual": {
+    "type": "troops",
+    "n": 16,
+    "cols": 6,
+    "side": "us",
+    "title": "약 500명",
+    "labels": [
+     {
+      "x": 0.5,
+      "y": 0.86,
+      "text": "보병 2개 중대 + 포병 일부",
+      "at": 0.3,
+      "color": "dark"
+     }
+    ]
+   },
+   "act": 1
+  },
+  {
+   "id": "s039",
+   "lines": [
+    "이들의 임무는 단 하나였습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "임무는",
+    "accent": "단 하나",
+    "accentAt": 0.5
+   },
+   "act": 1
+  },
+  {
+   "id": "s040",
+   "lines": [
+    "북한군 앞에 미군이 서 있다는 것을 보여 주는 것."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "us_salute",
+      "x": 0.45,
+      "y": 0.9,
+      "h": 470,
+      "at": 0,
+      "flip": true,
+      "face": "smug",
+      "prop": "helmet"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "bubble",
+      "x": 0.72,
+      "y": 0.28,
+      "text": "미군이 왔다!",
+      "on": "미군이"
+     }
+    ]
+   },
+   "act": 1
+  },
+  {
+   "id": "s041",
+   "lines": [
+    "미군을 보면 북한군이 멈칫할 거라고 믿었던 겁니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "nk_idle",
+      "x": 0.55,
+      "y": 0.9,
+      "h": 480,
+      "at": 0,
+      "face": "smug",
+      "prop": "nkcap",
+      "anim": "tilt"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "q",
+      "x": 0.25,
+      "y": 0.3,
+      "on": "멈칫할"
+     }
+    ]
+   },
+   "act": 1
+  },
+  {
+   "id": "s042",
+   "lines": [
+    {
+     "t": "7월 5일 아침 7시 경기도 오산 북쪽 죽미령.",
+     "say": "칠월 오일 아침 일곱 시 경기도 오산 북쪽 죽미령."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "north",
+    "to": "osan",
+    "items": [
+     {
+      "k": "lock",
+      "p": "jukmi",
+      "text": "죽미령",
+      "at": 0.8
+     }
+    ],
+    "flight": [
+     "corridor",
+     "north",
+     "osan"
+    ],
+    "flightDur": 3.0,
+    "hud": true
+   },
+   "callouts": [
+    {
+     "text": "1950. 7. 5 · 아침 7시",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "whoosh",
+     "at": 0
+    },
+    {
+     "id": "ping",
+     "at": 0.9
+    }
+   ],
+   "act": 1
+  },
+  {
+   "id": "s043",
+   "lines": [
+    "비가 내리는 고개 위로 전차의 굉음이 들려옵니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "jukmi_rain",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0
+    }
+   ],
+   "act": 1
+  },
+  {
+   "id": "s044",
+   "lines": [
+    {
+     "t": "북한군 전차 33대가 줄지어 내려오고 있었습니다.",
+     "say": "북한군 전차 서른세 대가 줄지어 내려오고 있었습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "osan",
+    "to": "osan",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.07,
+        37.27
+       ],
+       [
+        127.05,
+        37.21
+       ],
+       [
+        127.04,
+        37.17
+       ]
+      ],
+      "color": "red",
+      "width": 1.2,
+      "at": 0.1
+     },
+     {
+      "k": "swarm",
+      "path": [
+       [
+        127.07,
+        37.27
+       ],
+       [
+        127.05,
+        37.2
+       ],
+       [
+        127.04,
+        37.15
+       ]
+      ],
+      "at": 0.2,
+      "n": 60,
+      "width": 0.4
+     }
+    ],
+    "tilt": 30
+   },
+   "callouts": [
+    {
+     "text": "T-34 33대",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ],
+   "act": 1
+  },
+  {
+   "id": "s045",
+   "lines": [
+    {
+     "t": "미군 병사들은 2.36인치 바주카포를 겨눴습니다.",
+     "say": "미군 병사들은 이점삼육인치 바주카포를 겨눴습니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "bazooka_236",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "act": 1
+  },
+  {
+   "id": "s046",
+   "lines": [
+    {
+     "t": "제2차 세계 대전 때 쓰던 휴대용 대전차 로켓포였죠.",
+     "say": "제이차 세계 대전 때 쓰던 휴대용 대전차 로켓포였죠."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "2.36인치 바주카",
+    "style": "dark",
+    "sub": "2차 대전 때의 휴대용 대전차 로켓포",
+    "subAt": 0.4
+   },
+   "act": 1
+  },
+  {
+   "id": "s047",
+   "lines": [
+    "로켓이 날아가 전차에 정확히 맞았습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "rocket_hit",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "act": 1
+  },
+  {
+   "id": "s048",
+   "lines": [
+    "그런데 전차는 멈추지 않았습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "그런데",
+    "accent": "전차는 멈추지 않았다",
+    "accentAt": 0.5
+   },
+   "act": 1
+  },
+  {
+   "id": "s049",
+   "lines": [
+    "로켓이 두꺼운 장갑에 튕겨 나간 겁니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "rocket_bounce",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "act": 1
+  },
+  {
+   "id": "s050",
+   "lines": [
+    {
+     "t": "한 병사는 같은 전차에 22발을 쐈다고 증언합니다.",
+     "say": "한 병사는 같은 전차에 스물두 발을 쐈다고 증언합니다."
+    }
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "같은 전차 한 대 · 병사 증언",
+    "items": [
+     {
+      "label": "쏜 로켓",
+      "value": 22,
+      "display": "22발",
+      "color": "blue",
+      "on": "스물두"
+     },
+     {
+      "label": "멈춘 전차",
+      "value": 0.4,
+      "display": "0대",
+      "color": "red",
+      "at": 0.7
+     }
+    ]
+   },
+   "act": 1
+  },
+  {
+   "id": "s051",
+   "lines": [
+    "그래도 전차는 그대로 지나갔습니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "nk_shrug",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 470,
+      "at": 0,
+      "flip": true,
+      "face": "smug",
+      "prop": "nkcap"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.15,
+      "text": "그대로 통과",
+      "on": "지나갔습니다",
+      "color": "red"
+     }
+    ]
+   },
+   "act": 1
+  },
+  {
+   "id": "s052",
+   "lines": [
+    {
+     "t": "7시간의 싸움 끝에 스미스 부대는 무너졌습니다.",
+     "say": "일곱 시간의 싸움 끝에 스미스 부대는 무너졌습니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "tfs_retreat",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "act": 1
+  },
+  {
+   "id": "s053",
+   "lines": [
+    {
+     "t": "기록에 따라 다르지만 150명 넘게 죽거나 다치거나 포로가 됐습니다.",
+     "say": "기록에 따라 다르지만 백오십 명 넘게 죽거나 다치거나 포로가 됐습니다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s053-photo",
+    "tag": "미 공군 사진"
+   },
+   "label": "오산 죽미령 스미스 부대 기념비",
+   "act": 1
+  },
+  {
+   "id": "s054",
+   "lines": [
+    "미군과 북한군의 첫 싸움은 이렇게 끝났습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "미군의 첫 전투",
+    "style": "red",
+    "sub": "1950. 7. 5 · 오산 죽미령",
+    "subAt": 0.4
+   },
+   "act": 1
+  },
+  {
+   "id": "s055",
+   "lines": [
+    "그리고 미군 병사들 사이에 무서운 소문이 퍼지기 시작합니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "rumor_campfire",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "act": 1
+  },
+  {
+   "id": "s056",
+   "lines": [
+    "저 전차는 우리 무기로는 잡을 수 없다는 소문이었죠."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "저 전차는",
+    "accent": "우리 무기로 잡을 수 없다",
+    "accentAt": 0.5
+   },
+   "act": 1
+  },
+  {
+   "id": "s057",
+   "lines": [
+    "딘 소장은 사단의 나머지 병력을 서둘러 한국으로 실어 왔습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s057-photo",
+    "tag": "NARA · 국사편찬위원회"
+   },
+   "label": "한국에 들어온 미군 장비 (1950. 7. 7)",
+   "chapter": {
+    "num": "제2막",
+    "title": "밀리고 또 밀리다"
+   },
+   "act": 2
+  },
+  {
+   "id": "s058",
+   "lines": [
+    {
+     "t": "7월 4일 그는 대전에 사령부를 차립니다.",
+     "say": "칠월 사일 그는 대전에 사령부를 차립니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "corridor",
+    "to": "dj",
+    "items": [
+     {
+      "k": "lock",
+      "p": "daejeon",
+      "text": "대전",
+      "at": 0.8
+     }
+    ],
+    "flight": [
+     "corridor",
+     "geum",
+     "dj"
+    ],
+    "flightDur": 3.0
+   },
+   "callouts": [
+    {
+     "text": "7. 4 · 대전에 사단 사령부",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "whoosh",
+     "at": 0
+    },
+    {
+     "id": "ping",
+     "at": 0.9
+    }
+   ],
+   "act": 2
+  },
+  {
+   "id": "s059",
+   "lines": [
+    "대전은 서울에서 부산으로 가는 길의 한가운데였습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "korea",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.98,
+        37.56
+       ],
+       [
+        127.15,
+        36.82
+       ],
+       [
+        127.425,
+        36.33
+       ],
+       [
+        128.6,
+        35.87
+       ],
+       [
+        129.04,
+        35.18
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "at": 0.1
+     },
+     {
+      "k": "marker",
+      "p": "daejeon",
+      "color": "blue",
+      "on": "한가운데"
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "서울 → 대전 → 부산",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ],
+   "act": 2
+  },
+  {
+   "id": "s060",
+   "lines": [
+    "경부선 철도와 큰길이 모두 이곳을 지났죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "corridor",
+    "to": "corridor",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.0,
+        37.2
+       ],
+       [
+        127.15,
+        36.82
+       ],
+       [
+        127.3,
+        36.55
+       ],
+       [
+        127.425,
+        36.33
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "on": "경부선"
+     },
+     {
+      "k": "marker",
+      "p": "daejeon",
+      "color": "blue",
+      "at": 0
+     }
+    ]
+   },
+   "act": 2
+  },
+  {
+   "id": "s061",
+   "lines": [
+    "호남으로 가는 길도 대전에서 갈라졌습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "djwide",
+    "to": "retreat",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.425,
+        36.33
+       ],
+       [
+        127.3,
+        36.1
+       ],
+       [
+        127.15,
+        35.82
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "at": 0.3
+     },
+     {
+      "k": "badge",
+      "p": "daejeon",
+      "text": "갈림길",
+      "color": "#111",
+      "dy": -60,
+      "at": 0.2
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "호남 방면 · 개략",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ],
+   "act": 2
+  },
+  {
+   "id": "s062",
+   "lines": [
+    "대전을 잃으면 남쪽으로 가는 문이 활짝 열리는 셈이었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "retreat",
+    "to": "retreat",
+    "items": [
+     {
+      "k": "marker",
+      "p": "daejeon",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.425,
+        36.33
+       ],
+       [
+        127.6,
+        36.0
+       ],
+       [
+        127.9,
+        35.7
+       ]
+      ],
+      "color": "red",
+      "dash": true,
+      "at": 0.3
+     }
+    ],
+    "tilt": 22
+   },
+   "callouts": [
+    {
+     "text": "대전을 잃으면",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "act": 2
+  },
+  {
+   "id": "s063",
+   "lines": [
+    "딘이 받은 명령은 지연전이었습니다."
+   ],
+   "visual": {
+    "type": "document",
+    "org": "미 극동군 · 제24사단",
+    "head": "작전 명령",
+    "rows": [
+     "지연전",
+     "최대한 오래 버텨라"
+    ],
+    "stamp": "命令",
+    "note": "1950. 7 · 재구성"
+   },
+   "act": 2
+  },
+  {
+   "id": "s064",
+   "lines": [
+    "이기라는 것이 아니었습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "이기라는 명령이 아니었다",
+    "style": "dark"
+   },
+   "act": 2
+  },
+  {
+   "id": "s065",
+   "lines": [
+    "최대한 오래 버티면서 북한군의 발을 묶으라는 것이었죠."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "us_plead",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 480,
+      "at": 0,
+      "face": "sweat",
+      "prop": "officer+helmet"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.15,
+      "text": "버텨라 · 발을 묶어라",
+      "on": "발을",
+      "color": "yellow"
+     }
+    ]
+   },
+   "act": 2
+  },
+  {
+   "id": "s066",
+   "lines": [
+    "그 사이 일본과 미국 본토에서 증원군이 건너올 수 있었습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s066-photo",
+    "tag": "미 해군 사진"
+   },
+   "label": "미 본토에서 한국으로 떠나는 증원 전력 (1950. 7)",
+   "act": 2
+  },
+  {
+   "id": "s067",
+   "lines": [
+    "하지만 버티는 일조차 쉽지 않았습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "버티는 일조차",
+    "accent": "쉽지 않았다",
+    "accentAt": 0.5
+   },
+   "act": 2
+  },
+  {
+   "id": "s068",
+   "lines": [
+    {
+     "t": "7월 8일 천안.",
+     "say": "칠월 팔일 천안."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "north",
+    "to": "north",
+    "items": [
+     {
+      "k": "lock",
+      "p": "cheonan",
+      "text": "천안",
+      "at": 0.3
+     }
+    ],
+    "tilt": 26
+   },
+   "callouts": [
+    {
+     "text": "1950. 7. 8 · 천안",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "ping",
+     "at": 0.4
+    }
+   ],
+   "act": 2
+  },
+  {
+   "id": "s069",
+   "lines": [
+    {
+     "t": "제34연대장 로버트 마틴 대령은 병사들이 겁에 질려 있는 것을 봤습니다.",
+     "say": "제삼십사연대장 로버트 마틴 대령은 병사들이 겁에 질려 있는 것을 봤습니다."
+    }
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "us_shock",
+      "x": 0.4,
+      "y": 0.9,
+      "h": 460,
+      "at": 0,
+      "flip": true,
+      "face": "coldsweat",
+      "prop": "helmet+glasses"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.15,
+      "text": "제34연대장 마틴 대령",
+      "on": "마틴",
+      "color": "dark"
+     }
+    ]
+   },
+   "act": 2
+  },
+  {
+   "id": "s070",
+   "lines": [
+    "그는 직접 바주카포를 들고 시가지로 나갑니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "martin_bazooka",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "act": 2
+  },
+  {
+   "id": "s071",
+   "lines": [
+    "그리고 다가오는 전차를 향해 방아쇠를 당기려는 순간이었습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "martin_tank",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "act": 2
+  },
+  {
+   "id": "s072",
+   "lines": [
+    "전차의 포탄이 먼저 날아왔습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "전차의 포탄이",
+    "accent": "먼저 날아왔다",
+    "accentAt": 0.5
+   },
+   "act": 2
+  },
+  {
+   "id": "s073",
+   "lines": [
+    "마틴 대령은 그 자리에서 전사합니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "마틴 대령 전사",
+    "style": "red",
+    "sub": "1950. 7. 8 · 천안 시가지",
+    "subAt": 0.4
+   },
+   "act": 2
+  },
+  {
+   "id": "s074",
+   "lines": [
+    "연대장이 쓰러지자 천안은 무너졌습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "north",
+    "to": "north",
+    "items": [
+     {
+      "k": "marker",
+      "p": "cheonan",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.12,
+        36.95
+       ],
+       [
+        127.15,
+        36.82
+       ],
+       [
+        127.18,
+        36.72
+       ]
+      ],
+      "color": "red",
+      "width": 1.0,
+      "at": 0.2
+     }
+    ],
+    "tilt": 24
+   },
+   "act": 2
+  },
+  {
+   "id": "s075",
+   "lines": [
+    {
+     "t": "조치원과 전의에서는 제21연대가 사흘을 버텼습니다.",
+     "say": "조치원과 전의에서는 제이십일연대가 사흘을 버텼습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "corridor",
+    "to": "corridor",
+    "items": [
+     {
+      "k": "unit",
+      "p": "jochiwon",
+      "text": "제21연대",
+      "color": "blue",
+      "at": 0.1
+     },
+     {
+      "k": "marker",
+      "p": "jeonui",
+      "color": "blue",
+      "at": 0.3
+     },
+     {
+      "k": "clash",
+      "p": [
+       127.25,
+       36.64
+      ],
+      "at": 0.5,
+      "period": 0.9,
+      "size": 1.0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "전의 · 조치원 · 사흘",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ],
+   "act": 2
+  },
+  {
+   "id": "s076",
+   "lines": [
+    {
+     "t": "오산부터 이어진 싸움에서 이 연대가 잃은 병력은 1,400명이 넘었습니다.",
+     "say": "오산부터 이어진 싸움에서 이 연대가 잃은 병력은 천사백 명이 넘었습니다."
+    }
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "제21연대 · 오산부터 조치원까지",
+    "items": [
+     {
+      "label": "잃은 병력",
+      "value": 1400,
+      "display": "1,400명+",
+      "color": "red",
+      "on": "천사백"
+     }
+    ]
+   },
+   "act": 2
+  },
+  {
+   "id": "s077",
+   "lines": [
+    {
+     "t": "남은 병사는 1,100명 남짓이었죠.",
+     "say": "남은 병사는 천백 명 남짓이었죠."
+    }
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "제21연대 · 남은 병사",
+    "items": [
+     {
+      "label": "남은 병사",
+      "value": 1100,
+      "display": "1,100명 남짓",
+      "color": "blue",
+      "on": "천백"
+     }
+    ]
+   },
+   "act": 2
+  },
+  {
+   "id": "s078",
+   "lines": [
+    {
+     "t": "7월 12일 사단은 금강 남쪽으로 물러납니다.",
+     "say": "칠월 십이일 사단은 금강 남쪽으로 물러납니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "corridor",
+    "to": "geum",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.48,
+        36.47
+       ],
+       [
+        127.38,
+        36.5
+       ],
+       [
+        127.3,
+        36.49
+       ],
+       [
+        127.22,
+        36.475
+       ],
+       [
+        127.12,
+        36.465
+       ],
+       [
+        127.03,
+        36.4
+       ],
+       [
+        126.93,
+        36.29
+       ]
+      ],
+      "color": "#00E5FF",
+      "glow": true,
+      "at": 0.2
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.29,
+        36.6
+       ],
+       [
+        127.3,
+        36.52
+       ],
+       [
+        127.32,
+        36.45
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0.3
+     }
+    ],
+    "flight": [
+     "corridor",
+     "geum"
+    ],
+    "flightDur": 2.4
+   },
+   "callouts": [
+    {
+     "text": "7. 12 · 금강 남쪽으로",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "whoosh",
+     "at": 0
+    }
+   ],
+   "act": 2
+  },
+  {
+   "id": "s079",
+   "lines": [
+    "금강은 대전 앞을 휘감아 흐르는 마지막 큰 강이었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "geum",
+    "to": "geum",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.48,
+        36.47
+       ],
+       [
+        127.38,
+        36.5
+       ],
+       [
+        127.3,
+        36.49
+       ],
+       [
+        127.22,
+        36.475
+       ],
+       [
+        127.12,
+        36.465
+       ],
+       [
+        127.03,
+        36.4
+       ],
+       [
+        126.93,
+        36.29
+       ]
+      ],
+      "color": "#00E5FF",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": [
+       127.3,
+       36.49
+      ],
+      "text": "금강",
+      "color": "#2e66d8",
+      "dy": -40,
+      "at": 0.3
+     }
+    ],
+    "tilt": 24
+   },
+   "act": 2
+  },
+  {
+   "id": "s080",
+   "lines": [
+    "공병들은 강 위의 다리를 모두 폭파했습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "bridge_blow",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "act": 2
+  },
+  {
+   "id": "s081",
+   "lines": [
+    "이제 이 강이 대전의 마지막 방패였죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "geum",
+    "to": "geum",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.48,
+        36.47
+       ],
+       [
+        127.38,
+        36.5
+       ],
+       [
+        127.3,
+        36.49
+       ],
+       [
+        127.22,
+        36.475
+       ],
+       [
+        127.12,
+        36.465
+       ],
+       [
+        127.03,
+        36.4
+       ],
+       [
+        126.93,
+        36.29
+       ]
+      ],
+      "color": "#00E5FF",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "daejeon",
+      "text": "대전",
+      "color": "#111",
+      "dy": -50,
+      "at": 0.4
+     }
+    ],
+    "tilt": 28
+   },
+   "callouts": [
+    {
+     "text": "대전의 마지막 방패",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ],
+   "act": 2
+  },
+  {
+   "id": "s082",
+   "lines": [
+    "그러나 북한군은 미군이 예상하지 못한 방법으로 강을 건넜습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "북한군은",
+    "accent": "예상 못 한 방법으로",
+    "accentAt": 0.5
+   },
+   "act": 2
+  },
+  {
+   "id": "s083",
+   "lines": [
+    {
+     "t": "7월 14일 공주 쪽에서는 북한군 제4사단이 배와 뗏목으로 강을 넘어옵니다.",
+     "say": "칠월 십사일 공주 쪽에서는 북한군 제사사단이 배와 뗏목으로 강을 넘어옵니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "geum",
+    "to": "geum",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.48,
+        36.47
+       ],
+       [
+        127.38,
+        36.5
+       ],
+       [
+        127.3,
+        36.49
+       ],
+       [
+        127.22,
+        36.475
+       ],
+       [
+        127.12,
+        36.465
+       ],
+       [
+        127.03,
+        36.4
+       ],
+       [
+        126.93,
+        36.29
+       ]
+      ],
+      "color": "#00E5FF",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.1,
+        36.53
+       ],
+       [
+        127.12,
+        36.46
+       ],
+       [
+        127.15,
+        36.4
+       ]
+      ],
+      "color": "red",
+      "width": 1.0,
+      "at": 0.2
+     },
+     {
+      "k": "unit",
+      "p": [
+       127.06,
+       36.55
+      ],
+      "text": "북한군 제4사단",
+      "color": "red",
+      "at": 0.4
+     }
+    ],
+    "tilt": 26
+   },
+   "callouts": [
+    {
+     "text": "7. 14 · 공주 방면",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "act": 2
+  },
+  {
+   "id": "s084",
+   "lines": [
+    "강가를 지키던 보병 중대는 순식간에 밀려났고 뒤에 있던 포병 대대가 습격을 받았습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "geum_rafts",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "act": 2
+  },
+  {
+   "id": "s085",
+   "lines": [
+    "대포를 쏘던 병사들이 소총을 들고 싸워야 했죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "artillery_rifles",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "act": 2
+  },
+  {
+   "id": "s086",
+   "lines": [
+    {
+     "t": "7월 16일에는 대평리의 제19연대 차례였습니다.",
+     "say": "칠월 십육일에는 대평리의 제십구연대 차례였습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "geum",
+    "to": "geum",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.48,
+        36.47
+       ],
+       [
+        127.38,
+        36.5
+       ],
+       [
+        127.3,
+        36.49
+       ],
+       [
+        127.22,
+        36.475
+       ],
+       [
+        127.12,
+        36.465
+       ],
+       [
+        127.03,
+        36.4
+       ],
+       [
+        126.93,
+        36.29
+       ]
+      ],
+      "color": "#00E5FF",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "daepyeong",
+      "text": "제19연대",
+      "color": "blue",
+      "at": 0.1
+     }
+    ],
+    "tilt": 26
+   },
+   "callouts": [
+    {
+     "text": "7. 16 · 대평리",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "act": 2
+  },
+  {
+   "id": "s087",
+   "lines": [
+    {
+     "t": "북한군 제3사단이 강을 건너 정면과 옆구리를 동시에 찔러 왔습니다.",
+     "say": "북한군 제삼사단이 강을 건너 정면과 옆구리를 동시에 찔러 왔습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "geum",
+    "to": "geum",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.48,
+        36.47
+       ],
+       [
+        127.38,
+        36.5
+       ],
+       [
+        127.3,
+        36.49
+       ],
+       [
+        127.22,
+        36.475
+       ],
+       [
+        127.12,
+        36.465
+       ],
+       [
+        127.03,
+        36.4
+       ],
+       [
+        126.93,
+        36.29
+       ]
+      ],
+      "color": "#00E5FF",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "daepyeong",
+      "text": "제19연대",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.27,
+        36.55
+       ],
+       [
+        127.27,
+        36.49
+       ],
+       [
+        127.3,
+        36.44
+       ]
+      ],
+      "color": "red",
+      "width": 1.0,
+      "at": 0.2
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.2,
+        36.53
+       ],
+       [
+        127.22,
+        36.48
+       ],
+       [
+        127.25,
+        36.45
+       ]
+      ],
+      "color": "red",
+      "width": 1.0,
+      "at": 0.5
+     }
+    ],
+    "tilt": 28
+   },
+   "callouts": [
+    {
+     "text": "북한군 제3사단 · 정면과 옆구리",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ],
+   "act": 2
+  },
+  {
+   "id": "s088",
+   "lines": [
+    "연대장 가이 멜로이 대령은 다리에 부상을 입었습니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "us_idle",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 470,
+      "at": 0,
+      "face": "tears",
+      "prop": "officer+helmet",
+      "anim": "shake"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.15,
+      "text": "제19연대장 멜로이 대령 부상",
+      "on": "멜로이",
+      "color": "red"
+     }
+    ]
+   },
+   "act": 2
+  },
+  {
+   "id": "s089",
+   "lines": [
+    "연대는 뒤로 빠지는 길까지 막혀 큰 피해를 입었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "geum",
+    "to": "geum",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.48,
+        36.47
+       ],
+       [
+        127.38,
+        36.5
+       ],
+       [
+        127.3,
+        36.49
+       ],
+       [
+        127.22,
+        36.475
+       ],
+       [
+        127.12,
+        36.465
+       ],
+       [
+        127.03,
+        36.4
+       ],
+       [
+        126.93,
+        36.29
+       ]
+      ],
+      "color": "#00E5FF",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "clash",
+      "p": "daepyeong",
+      "at": 0.1,
+      "period": 0.9,
+      "size": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.3,
+        36.47
+       ],
+       [
+        127.32,
+        36.42
+       ]
+      ],
+      "color": "red",
+      "width": 1.0,
+      "at": 0.4
+     }
+    ],
+    "tilt": 28
+   },
+   "act": 2
+  },
+  {
+   "id": "s090",
+   "lines": [
+    "금강을 지키던 사흘 동안 쓰러진 미군만 수백 명이었습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "금강의 사흘",
+    "style": "red",
+    "sub": "쓰러진 미군 수백 명",
+    "subAt": 0.4
+   },
+   "act": 2
+  },
+  {
+   "id": "s091",
+   "lines": [
+    "북한군은 이제 대전 코앞에 와 있었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "geum",
+    "to": "dj",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.48,
+        36.47
+       ],
+       [
+        127.38,
+        36.5
+       ],
+       [
+        127.3,
+        36.49
+       ],
+       [
+        127.22,
+        36.475
+       ],
+       [
+        127.12,
+        36.465
+       ],
+       [
+        127.03,
+        36.4
+       ],
+       [
+        126.93,
+        36.29
+       ]
+      ],
+      "color": "#00E5FF",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": [
+       127.3,
+       36.43
+      ],
+      "text": "북한군",
+      "color": "red",
+      "at": 0.2,
+      "pulse": true
+     },
+     {
+      "k": "marker",
+      "p": "daejeon",
+      "color": "blue",
+      "at": 0
+     }
+    ],
+    "flight": [
+     "geum",
+     "dj"
+    ],
+    "flightDur": 2.4
+   },
+   "act": 2
+  },
+  {
+   "id": "s092",
+   "lines": [
+    {
+     "t": "제24사단이 한국에 들어올 때 병력은 1만 5,000명이 넘었습니다.",
+     "say": "제이십사사단이 한국에 들어올 때 병력은 만오천 명이 넘었습니다."
+    }
+   ],
+   "visual": {
+    "type": "troops",
+    "n": 30,
+    "cols": 8,
+    "side": "us",
+    "title": "한국에 들어올 때",
+    "labels": [
+     {
+      "x": 0.5,
+      "y": 0.86,
+      "text": "1만 5,000명+",
+      "on": "만오천",
+      "color": "blue"
+     }
+    ]
+   },
+   "act": 2
+  },
+  {
+   "id": "s093",
+   "lines": [
+    {
+     "t": "대전 앞에 섰을 때는 1만 1,400명으로 줄어 있었죠.",
+     "say": "대전 앞에 섰을 때는 만천사백 명으로 줄어 있었죠."
+    }
+   ],
+   "visual": {
+    "type": "troops",
+    "n": 30,
+    "cols": 8,
+    "side": "us",
+    "keep": 23,
+    "keepAt": 0.3,
+    "title": "대전 앞에서",
+    "labels": [
+     {
+      "x": 0.5,
+      "y": 0.86,
+      "text": "1만 1,400명",
+      "on": "만천사백",
+      "color": "red"
+     }
+    ]
+   },
+   "act": 2
+  },
+  {
+   "id": "s094",
+   "lines": [
+    "병사들은 지쳐 있었고 무엇보다 전차를 두려워했습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "exhausted_gi",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "act": 2
+  },
+  {
+   "id": "s095",
+   "lines": [
+    "딘 소장은 생각합니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "us_plead",
+      "x": 0.4,
+      "y": 0.9,
+      "h": 470,
+      "at": 0,
+      "flip": true,
+      "face": "worried",
+      "prop": "officer",
+      "anim": "tilt"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "q",
+      "x": 0.72,
+      "y": 0.3,
+      "at": 0.3
+     }
+    ]
+   },
+   "act": 2
+  },
+  {
+   "id": "s096",
+   "lines": [
+    "병사들에게 필요한 것은 단 하나였습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "병사들에게 필요한 것",
+    "accent": "단 하나",
+    "accentAt": 0.5
+   },
+   "act": 2
+  },
+  {
+   "id": "s097",
+   "lines": [
+    "저 전차도 부서진다는 것을 눈으로 보여 주는 것이었죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "전차도 부서진다",
+    "style": "yellow",
+    "sub": "눈으로 보여 줘야 한다",
+    "subAt": 0.4
+   },
+   "act": 2
+  },
+  {
+   "id": "s098",
+   "lines": [
+    "사실 그 답은 이미 대전에 도착해 있었습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "그 답은",
+    "accent": "이미 대전에 와 있었다",
+    "accentAt": 0.5
+   },
+   "pauseBefore": 0.5,
+   "chapter": {
+    "num": "제3막",
+    "title": "상자 속의 새 무기"
+   },
+   "act": 3
+  },
+  {
+   "id": "s099",
+   "lines": [
+    {
+     "t": "7월 8일 미국 캘리포니아의 트래비스 공군 기지에서 수송기 한 대가 떠났습니다.",
+     "say": "칠월 팔일 미국 캘리포니아의 트래비스 공군 기지에서 수송기 한 대가 떠났습니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "travis_c54",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "1950. 7. 8 · 미국 캘리포니아",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "act": 3
+  },
+  {
+   "id": "s100",
+   "lines": [
+    "기내에는 길쭉한 나무 상자들과 교관 몇 명이 타고 있었죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "long_crates",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "act": 3
+  },
+  {
+   "id": "s101",
+   "lines": [
+    {
+     "t": "상자 안에 든 것은 3.5인치 로켓포였습니다.",
+     "say": "상자 안에 든 것은 삼점오인치 로켓포였습니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "3.5인치 로켓포",
+    "style": "yellow",
+    "sub": "M20 로켓 발사기",
+    "subAt": 0.4
+   },
+   "act": 3
+  },
+  {
+   "id": "s102",
+   "lines": [
+    "병사들은 이 무기를 슈퍼 바주카라고 불렀습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "슈퍼 바주카",
+    "style": "blue"
+   },
+   "act": 3
+  },
+  {
+   "id": "s103",
+   "lines": [
+    {
+     "t": "수송기는 7월 10일 대전에 내립니다.",
+     "say": "수송기는 칠월 십일 대전에 내립니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "dj",
+    "to": "dj",
+    "items": [
+     {
+      "k": "plane",
+      "path": [
+       [
+        127.2,
+        36.45
+       ],
+       [
+        127.3,
+        36.4
+       ],
+       [
+        127.375,
+        36.365
+       ]
+      ],
+      "at": 0.1,
+      "n": 1,
+      "dur": 3.0,
+      "hit": false,
+      "size": 1.0
+     },
+     {
+      "k": "marker",
+      "p": "airfield",
+      "color": "blue",
+      "at": 0.8
+     }
+    ],
+    "tilt": 26
+   },
+   "callouts": [
+    {
+     "text": "7. 10 · 대전 비행장",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ],
+   "act": 3
+  },
+  {
+   "id": "s104",
+   "lines": [
+    {
+     "t": "그리고 7월 12일부터 병사들에게 쏘는 법을 가르치기 시작했죠.",
+     "say": "그리고 칠월 십이일부터 병사들에게 쏘는 법을 가르치기 시작했죠."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "bazooka_training",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "7. 12부터 사격 교육",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "act": 3
+  },
+  {
+   "id": "s105",
+   "lines": [
+    "두 무기를 나란히 놓고 보면 차이가 분명합니다."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "옛 바주카",
+     "big": "2.36인치",
+     "icon": "none",
+     "color": "dark"
+    },
+    "right": {
+     "title": "슈퍼 바주카",
+     "big": "3.5인치",
+     "icon": "none",
+     "color": "blue",
+     "at": 0.6
+    }
+   },
+   "act": 3
+  },
+  {
+   "id": "s106",
+   "lines": [
+    {
+     "t": "옛 바주카의 로켓은 지름이 2.36인치 약 6cm였습니다.",
+     "say": "옛 바주카의 로켓은 지름이 이점삼육인치 약 육 센티미터였습니다."
+    }
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "로켓 지름",
+    "items": [
+     {
+      "label": "옛 바주카",
+      "value": 6,
+      "display": "약 6cm",
+      "color": "dark",
+      "on": "이점삼육인치"
+     }
+    ]
+   },
+   "act": 3
+  },
+  {
+   "id": "s107",
+   "lines": [
+    {
+     "t": "새 바주카는 3.5인치 약 9cm.",
+     "say": "새 바주카는 삼점오인치 약 구 센티미터."
+    }
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "로켓 지름",
+    "items": [
+     {
+      "label": "옛 바주카",
+      "value": 6,
+      "display": "약 6cm",
+      "color": "dark",
+      "at": 0
+     },
+     {
+      "label": "슈퍼 바주카",
+      "value": 9,
+      "display": "약 9cm",
+      "color": "blue",
+      "on": "삼점오인치"
+     }
+    ]
+   },
+   "act": 3
+  },
+  {
+   "id": "s108",
+   "lines": [
+    {
+     "t": "로켓의 무게는 8.5파운드 약 4kg에 가까웠습니다.",
+     "say": "로켓의 무게는 팔 파운드 반 약 사 킬로그램에 가까웠습니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "로켓 무게 약 4kg",
+    "style": "dark",
+    "sub": "8.5파운드",
+    "subAt": 0.4
+   },
+   "act": 3
+  },
+  {
+   "id": "s109",
+   "lines": [
+    {
+     "t": "길이 60cm 남짓한 이 로켓 앞부분에는 특수한 성형 작약이 들어 있었습니다.",
+     "say": "길이 육십 센티미터 남짓한 이 로켓 앞부분에는 특수한 성형 작약이 들어 있었습니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "shaped_charge",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "성형 작약 · 개념도",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ],
+   "act": 3
+  },
+  {
+   "id": "s110",
+   "lines": [
+    "터지는 순간 녹은 금속 줄기가 송곳처럼 장갑을 뚫고 들어가는 구조였죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "녹은 금속 줄기",
+    "style": "red",
+    "sub": "송곳처럼 장갑을 뚫는다",
+    "subAt": 0.4
+   },
+   "act": 3
+  },
+  {
+   "id": "s111",
+   "lines": [
+    "당시 알려진 어떤 전차의 장갑도 뚫을 수 있다는 무기였습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "당시 어떤 전차든",
+    "style": "blue",
+    "sub": "뚫을 수 있다는 무기",
+    "subAt": 0.4
+   },
+   "act": 3
+  },
+  {
+   "id": "s112",
+   "lines": [
+    {
+     "t": "T-34의 앞면 장갑은 두께가 4.5cm이었습니다.",
+     "say": "티삼십사의 앞면 장갑은 두께가 사 센티미터 반이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s112-photo",
+    "tag": "미 육군 사진"
+   },
+   "label": "격파된 북한군 T-34 전차 (1950. 9)",
+   "callouts": [
+    {
+     "text": "T-34 앞면 장갑 4.5cm",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "act": 3
+  },
+  {
+   "id": "s113",
+   "lines": [
+    "하지만 비스듬히 눕혀 있어서 실제로는 훨씬 두꺼운 벽처럼 작용했죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "경사 장갑",
+    "style": "dark",
+    "sub": "비스듬히 눕혀 실제로는 훨씬 두꺼운 벽",
+    "subAt": 0.4
+   },
+   "act": 3
+  },
+  {
+   "id": "s114",
+   "lines": [
+    "옛 바주카의 로켓은 이 경사 장갑에 맞으면 미끄러지거나 튕겨 나가기 일쑤였습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "미끄러지거나 튕겨 나간다",
+    "style": "red",
+    "sub": "옛 바주카 로켓 vs 경사 장갑",
+    "subAt": 0.4
+   },
+   "act": 3
+  },
+  {
+   "id": "s115",
+   "lines": [
+    "문제는 수량이었습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "문제는",
+    "accent": "수량",
+    "accentAt": 0.5
+   },
+   "act": 3
+  },
+  {
+   "id": "s116",
+   "lines": [
+    "처음 들어온 것은 몇 정에 불과했고 탄약도 넉넉하지 않았습니다."
+   ],
+   "visual": {
+    "type": "checklist",
+    "title": "슈퍼 바주카의 약점",
+    "items": [
+     {
+      "text": "처음엔 몇 정뿐",
+      "on": "몇 정에",
+      "checkOn": "불과했고",
+      "bad": true
+     },
+     {
+      "text": "넉넉하지 않은 탄약",
+      "on": "탄약도",
+      "checkOn": "않았습니다",
+      "bad": true
+     }
+    ]
+   },
+   "act": 3
+  },
+  {
+   "id": "s117",
+   "lines": [
+    "한 번도 실전에서 써 본 적 없는 무기이기도 했죠."
+   ],
+   "visual": {
+    "type": "checklist",
+    "title": "슈퍼 바주카의 약점",
+    "items": [
+     {
+      "text": "처음엔 몇 정뿐",
+      "at": 0,
+      "checkAt": 0,
+      "bad": true
+     },
+     {
+      "text": "넉넉하지 않은 탄약",
+      "at": 0,
+      "checkAt": 0,
+      "bad": true
+     },
+     {
+      "text": "실전 경험 0회",
+      "on": "실전에서",
+      "checkOn": "없는",
+      "bad": true
+     }
+    ]
+   },
+   "act": 3
+  },
+  {
+   "id": "s118",
+   "lines": [
+    {
+     "t": "정말 T-34를 잡을 수 있을지는 아무도 장담하지 못했습니다.",
+     "say": "정말 티삼십사를 잡을 수 있을지는 아무도 장담하지 못했습니다."
+    }
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "us_shrug",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 470,
+      "at": 0,
+      "flip": true,
+      "face": "worried",
+      "prop": "helmet+notebook"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "q",
+      "x": 0.75,
+      "y": 0.28,
+      "at": 0.2
+     },
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.15,
+      "text": "정말 T-34를?",
+      "on": "장담하지",
+      "color": "dark"
+     }
+    ]
+   },
+   "act": 3
+  },
+  {
+   "id": "s119",
+   "lines": [
+    {
+     "t": "7월 18일 오전.",
+     "say": "칠월 십팔일 오전."
+    }
+   ],
+   "visual": {
+    "type": "black",
+    "text": "1950년 7월 18일",
+    "accent": "오전",
+    "accentAt": 0.5
+   },
+   "act": 3
+  },
+  {
+   "id": "s120",
+   "lines": [
+    {
+     "t": "미 제8군 사령관 월턴 워커 중장이 대전으로 날아옵니다.",
+     "say": "미 제팔군 사령관 월턴 워커 중장이 대전으로 날아옵니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "south",
+    "to": "dj",
+    "items": [
+     {
+      "k": "plane",
+      "path": [
+       [
+        128.6,
+        35.87
+       ],
+       [
+        128.0,
+        36.1
+       ],
+       [
+        127.42,
+        36.33
+       ]
+      ],
+      "at": 0.1,
+      "n": 1,
+      "dur": 2.6,
+      "hit": false,
+      "size": 1.0
+     },
+     {
+      "k": "lock",
+      "p": "daejeon",
+      "text": "대전",
+      "at": 0.9
+     }
+    ],
+    "flight": [
+     "south",
+     "dj"
+    ],
+    "flightDur": 2.6
+   },
+   "callouts": [
+    {
+     "text": "미 제8군 사령관 워커 중장",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "whoosh",
+     "at": 0
+    }
+   ],
+   "act": 3
+  },
+  {
+   "id": "s121",
+   "lines": [
+    {
+     "t": "그는 제34연대 지휘소에서 딘을 만났습니다.",
+     "say": "그는 제삼십사연대 지휘소에서 딘을 만났습니다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s121-photo",
+    "tag": "미 육군"
+   },
+   "label": "워커 중장(왼쪽)과 딘 소장 (1950)",
+   "act": 3
+  },
+  {
+   "id": "s122",
+   "lines": [
+    "워커가 꺼낸 이야기는 무거웠습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "워커의",
+    "accent": "무거운 이야기",
+    "accentAt": 0.5
+   },
+   "act": 3
+  },
+  {
+   "id": "s123",
+   "lines": [
+    {
+     "t": "바로 그날 미 제1기병사단이 포항에 상륙하고 있었습니다.",
+     "say": "바로 그날 미 제일기병사단이 포항에 상륙하고 있었습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "south",
+    "to": "south",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        129.365,
+        36.032
+       ],
+       [
+        128.9,
+        36.0
+       ],
+       [
+        128.4,
+        36.1
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0.2
+     },
+     {
+      "k": "marker",
+      "p": "pohang",
+      "color": "blue",
+      "on": "포항에"
+     },
+     {
+      "k": "badge",
+      "p": "pohang",
+      "text": "제1기병사단 상륙",
+      "color": "#2e66d8",
+      "dy": -60,
+      "at": 0.4
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1950. 7. 18",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ],
+   "act": 3
+  },
+  {
+   "id": "s124",
+   "lines": [
+    "그 사단이 대전 동남쪽 영동 일대에 자리를 잡으려면 시간이 필요했죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "retreat",
+    "to": "retreat",
+    "items": [
+     {
+      "k": "marker",
+      "p": "yeongdong",
+      "color": "blue",
+      "at": 0.1
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.571,
+        36.306
+       ],
+       [
+        127.66,
+        36.25
+       ],
+       [
+        127.783,
+        36.175
+       ]
+      ],
+      "color": "#7fd3ff",
+      "glow": true,
+      "at": 0.3
+     },
+     {
+      "k": "badge",
+      "p": "yeongdong",
+      "text": "영동",
+      "color": "#2e66d8",
+      "dy": -50,
+      "at": 0.2
+     }
+    ],
+    "tilt": 22
+   },
+   "callouts": [
+    {
+     "text": "자리 잡을 시간이 필요하다",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "act": 3
+  },
+  {
+   "id": "s125",
+   "lines": [
+    "워커는 대전을 이틀쯤 더 지켜 달라고 말합니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "us_point",
+      "x": 0.45,
+      "y": 0.9,
+      "h": 490,
+      "at": 0,
+      "face": "determined",
+      "prop": "officer+helmet",
+      "anim": "bounce"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "bubble",
+      "x": 0.75,
+      "y": 0.28,
+      "text": "이틀만 더!",
+      "on": "이틀쯤"
+     }
+    ]
+   },
+   "act": 3
+  },
+  {
+   "id": "s126",
+   "lines": [
+    "다만 상황이 나빠지면 언제든 철수해도 자신이 책임지겠다고 덧붙였죠."
+   ],
+   "visual": {
+    "type": "document",
+    "org": "미 제8군 사령관",
+    "head": "워커 중장의 말 (요지)",
+    "rows": [
+     "대전을 이틀쯤 더 지켜 달라",
+     "나빠지면 철수 · 책임은 내가"
+    ],
+    "stamp": "口頭",
+    "note": "1950. 7. 18 · 재구성"
+   },
+   "act": 3
+  },
+  {
+   "id": "s127",
+   "lines": [
+    {
+     "t": "딘은 원래 7월 19일에 대전을 빠져나갈 계획이었습니다.",
+     "say": "딘은 원래 칠월 십구일에 대전을 빠져나갈 계획이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "원래 계획 · 7월 19일 철수",
+    "style": "dark"
+   },
+   "act": 3
+  },
+  {
+   "id": "s128",
+   "lines": [
+    "그는 그 계획을 하루 미룹니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "딘은",
+    "accent": "하루를 미룬다",
+    "accentAt": 0.5
+   },
+   "act": 3
+  },
+  {
+   "id": "s129",
+   "lines": [
+    {
+     "t": "철수는 7월 20일로 늦춰졌습니다.",
+     "say": "철수는 칠월 이십일로 늦춰졌습니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "철수 → 7월 20일",
+    "style": "yellow"
+   },
+   "act": 3
+  },
+  {
+   "id": "s130",
+   "lines": [
+    "그리고 딘은 또 하나의 결정을 내립니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "그리고",
+    "accent": "또 하나의 결정",
+    "accentAt": 0.5
+   },
+   "act": 3
+  },
+  {
+   "id": "s131",
+   "lines": [
+    "사단 사령부는 뒤쪽 영동으로 옮기면서 자신은 대전에 남기로 한 겁니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "retreat",
+    "to": "dj",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.425,
+        36.33
+       ],
+       [
+        127.6,
+        36.27
+       ],
+       [
+        127.783,
+        36.175
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0.1
+     },
+     {
+      "k": "badge",
+      "p": "daejeon",
+      "text": "딘 소장은 잔류",
+      "color": "#c9242c",
+      "dy": -60,
+      "at": 0.6
+     }
+    ],
+    "flight": [
+     "retreat",
+     "dj"
+    ],
+    "flightDur": 2.4
+   },
+   "callouts": [
+    {
+     "text": "사단 사령부 → 영동",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ],
+   "act": 3
+  },
+  {
+   "id": "s132",
+   "lines": [
+    "사단장이 최전선 도시에 머문다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "dean_stays",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "act": 3
+  },
+  {
+   "id": "s133",
+   "lines": [
+    "병사들에게는 큰 힘이 됐지만 이 결정은 훗날 두고두고 논란이 됩니다."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "병사들에게",
+     "big": "큰 힘",
+     "icon": "none",
+     "color": "blue"
+    },
+    "right": {
+     "title": "훗날",
+     "big": "두고두고 논란",
+     "icon": "none",
+     "color": "red",
+     "at": 0.6
+    }
+   },
+   "act": 3
+  },
+  {
+   "id": "s134",
+   "lines": [
+    "사단 전체를 보는 눈이 대전 한 도시에 묶여 버렸기 때문이죠."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "us_idle",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 470,
+      "at": 0,
+      "flip": true,
+      "face": "worried",
+      "prop": "glasses+notebook"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.15,
+      "text": "사단 전체는 누가 보나?",
+      "on": "묶여",
+      "color": "red"
+     }
+    ]
+   },
+   "hudCta": {
+    "at": 0,
+    "dur": 7.0
+   },
+   "act": 3
+  },
+  {
+   "id": "s135",
+   "lines": [
+    {
+     "t": "7월 19일 북한군의 공격이 시작됩니다.",
+     "say": "칠월 십구일 북한군의 공격이 시작됩니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "geum",
+    "to": "dj",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.15,
+        36.4
+       ],
+       [
+        127.28,
+        36.37
+       ],
+       [
+        127.37,
+        36.36
+       ]
+      ],
+      "color": "red",
+      "width": 1.0,
+      "at": 0.3
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.3,
+        36.47
+       ],
+       [
+        127.38,
+        36.41
+       ],
+       [
+        127.42,
+        36.36
+       ]
+      ],
+      "color": "red",
+      "width": 1.0,
+      "at": 0.5
+     }
+    ],
+    "flight": [
+     "geum",
+     "dj"
+    ],
+    "flightDur": 2.6
+   },
+   "chapter": {
+    "num": "제4막",
+    "title": "7월 20일 새벽"
+   },
+   "callouts": [
+    {
+     "text": "1950. 7. 19 · 공격 개시",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "whoosh",
+     "at": 0
+    }
+   ],
+   "act": 4
+  },
+  {
+   "id": "s136",
+   "lines": [
+    {
+     "t": "북한군 제4사단이 서쪽에서 제3사단이 북쪽에서 대전으로 다가왔습니다.",
+     "say": "북한군 제사사단이 서쪽에서 제삼사단이 북쪽에서 대전으로 다가왔습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "dj",
+    "to": "dj",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.15,
+        36.4
+       ],
+       [
+        127.28,
+        36.37
+       ],
+       [
+        127.37,
+        36.36
+       ]
+      ],
+      "color": "red",
+      "width": 1.0,
+      "at": 0.1
+     },
+     {
+      "k": "unit",
+      "p": [
+       127.3,
+       36.37
+      ],
+      "text": "제4사단",
+      "color": "red",
+      "at": 0.2
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.3,
+        36.47
+       ],
+       [
+        127.38,
+        36.41
+       ],
+       [
+        127.42,
+        36.36
+       ]
+      ],
+      "color": "red",
+      "width": 1.0,
+      "at": 0.4
+     },
+     {
+      "k": "unit",
+      "p": [
+       127.38,
+       36.42
+      ],
+      "text": "제3사단",
+      "color": "red",
+      "at": 0.5
+     }
+    ],
+    "tilt": 24
+   },
+   "act": 4
+  },
+  {
+   "id": "s137",
+   "lines": [
+    "두 사단 앞에는 전차 연대가 하나씩 붙어 있었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "dj",
+    "to": "dj",
+    "items": [
+     {
+      "k": "unit",
+      "p": [
+       127.3,
+       36.37
+      ],
+      "text": "전차 연대",
+      "color": "red",
+      "at": 0.1
+     },
+     {
+      "k": "unit",
+      "p": [
+       127.38,
+       36.42
+      ],
+      "text": "전차 연대",
+      "color": "red",
+      "at": 0.4
+     }
+    ],
+    "tilt": 26
+   },
+   "callouts": [
+    {
+     "text": "사단마다 전차 연대 하나씩",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ],
+   "act": 4
+  },
+  {
+   "id": "s138",
+   "lines": [
+    {
+     "t": "서쪽 비행장 앞을 지키던 제34연대는 하루 종일 포탄을 맞았습니다.",
+     "say": "서쪽 비행장 앞을 지키던 제삼십사연대는 하루 종일 포탄을 맞았습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "dj",
+    "to": "dj",
+    "items": [
+     {
+      "k": "marker",
+      "p": "airfield",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "shock",
+      "pts": [
+       [
+        127.37,
+        36.37
+       ],
+       [
+        127.38,
+        36.36
+       ],
+       [
+        127.365,
+        36.355
+       ]
+      ],
+      "at": 0.2,
+      "period": 0.7
+     }
+    ],
+    "tilt": 30
+   },
+   "callouts": [
+    {
+     "text": "제34연대 · 비행장 앞",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.2
+    }
+   ],
+   "act": 4
+  },
+  {
+   "id": "s139",
+   "lines": [
+    "그런데 진짜 위험은 정면이 아니었습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "진짜 위험은",
+    "accent": "정면이 아니었다",
+    "accentAt": 0.5
+   },
+   "act": 4
+  },
+  {
+   "id": "s140",
+   "lines": [
+    {
+     "t": "북한군 제4사단의 2개 연대가 산길을 타고 대전의 서쪽과 남쪽으로 크게 돌아 들어오고 있었던 겁니다.",
+     "say": "북한군 제사사단의 두 개 연대가 산길을 타고 대전의 서쪽과 남쪽으로 크게 돌아 들어오고 있었던 겁니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "djwide",
+    "to": "djwide",
+    "items": [
+     {
+      "k": "swarm",
+      "path": [
+       [
+        127.13,
+        36.42
+       ],
+       [
+        127.22,
+        36.33
+       ],
+       [
+        127.33,
+        36.23
+       ],
+       [
+        127.43,
+        36.2
+       ],
+       [
+        127.46,
+        36.24
+       ]
+      ],
+      "at": 0.1,
+      "n": 160
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.13,
+        36.42
+       ],
+       [
+        127.22,
+        36.33
+       ],
+       [
+        127.33,
+        36.23
+       ],
+       [
+        127.43,
+        36.2
+       ],
+       [
+        127.46,
+        36.24
+       ]
+      ],
+      "color": "red",
+      "width": 1.0,
+      "at": 0.3
+     }
+    ],
+    "tilt": 24
+   },
+   "callouts": [
+    {
+     "text": "제4사단 2개 연대 · 산길 우회 · 개략",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ],
+   "act": 4
+  },
+  {
+   "id": "s141",
+   "lines": [
+    "그들이 노린 것은 대전에서 남쪽으로 빠지는 금산 길이었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "djwide",
+    "to": "djwide",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.425,
+        36.32
+       ],
+       [
+        127.44,
+        36.25
+       ],
+       [
+        127.47,
+        36.18
+       ],
+       [
+        127.488,
+        36.108
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "at": 0.1
+     },
+     {
+      "k": "lock",
+      "p": "geumsan",
+      "text": "금산",
+      "at": 0.5
+     }
+    ],
+    "tilt": 24
+   },
+   "callouts": [
+    {
+     "text": "노린 곳 · 금산 길",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "ping",
+     "at": 0.6
+    }
+   ],
+   "act": 4
+  },
+  {
+   "id": "s142",
+   "lines": [
+    {
+     "t": "7월 19일 밤 금산 길 위에 북한군의 차단선이 생깁니다.",
+     "say": "칠월 십구일 밤 금산 길 위에 북한군의 차단선이 생깁니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "djwide",
+    "to": "djwide",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.425,
+        36.32
+       ],
+       [
+        127.44,
+        36.25
+       ],
+       [
+        127.47,
+        36.18
+       ],
+       [
+        127.488,
+        36.108
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "front",
+      "path": [
+       [
+        127.41,
+        36.22
+       ],
+       [
+        127.45,
+        36.235
+       ],
+       [
+        127.49,
+        36.25
+       ]
+      ],
+      "at": 0.3,
+      "glow": true
+     },
+     {
+      "k": "badge",
+      "p": [
+       127.45,
+       36.235
+      ],
+      "text": "차단선",
+      "color": "#c9242c",
+      "dy": -50,
+      "at": 0.6
+     }
+    ],
+    "tilt": 26
+   },
+   "callouts": [
+    {
+     "text": "7. 19 밤",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ],
+   "act": 4
+  },
+  {
+   "id": "s143",
+   "lines": [
+    "대전의 뒷문이 조용히 닫히고 있었죠."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "대전의 뒷문이",
+    "accent": "조용히 닫히고 있었다",
+    "accentAt": 0.5
+   },
+   "act": 4
+  },
+  {
+   "id": "s144",
+   "lines": [
+    "하지만 대전 안의 미군은 이 사실을 거의 알지 못했습니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "us_shrug",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 470,
+      "at": 0,
+      "face": "smug",
+      "prop": "helmet",
+      "anim": "tilt"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.15,
+      "text": "아무것도 모른다",
+      "on": "거의",
+      "color": "dark"
+     }
+    ]
+   },
+   "act": 4
+  },
+  {
+   "id": "s145",
+   "lines": [
+    "무전기가 모자랐고 그나마 있는 것도 산에 막혀 자주 끊겼습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "radio_dead",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "act": 4
+  },
+  {
+   "id": "s146",
+   "lines": [
+    "전화선은 북한군 침투조가 끊어 버렸죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "끊어진 전화선",
+    "style": "red",
+    "sub": "북한군 침투조",
+    "subAt": 0.4
+   },
+   "act": 4
+  },
+  {
+   "id": "s147",
+   "lines": [
+    "게다가 대전 거리는 남쪽으로 내려가는 피란민으로 가득했습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "refugee_column",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "act": 4
+  },
+  {
+   "id": "s148",
+   "lines": [
+    "북한군 일부가 흰옷을 입고 피란민 행렬에 섞여 들어왔다는 증언도 남아 있습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "white_clothes",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "증언 · 흰옷 차림의 침투",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ],
+   "act": 4
+  },
+  {
+   "id": "s149",
+   "lines": [
+    "누가 적이고 누가 민간인인지 가려내기조차 어려웠죠."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "us_point",
+      "x": 0.35,
+      "y": 0.9,
+      "h": 450,
+      "at": 0,
+      "face": "coldsweat",
+      "prop": "helmet+glasses",
+      "anim": "shake"
+     },
+     {
+      "c": "kr_idle",
+      "x": 0.72,
+      "y": 0.9,
+      "h": 400,
+      "at": 0,
+      "flip": true,
+      "face": "worried"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "q",
+      "x": 0.53,
+      "y": 0.25,
+      "on": "누가"
+     }
+    ]
+   },
+   "act": 4
+  },
+  {
+   "id": "s150",
+   "lines": [
+    {
+     "t": "7월 20일 동이 트기 전.",
+     "say": "칠월 이십일 동이 트기 전."
+    }
+   ],
+   "visual": {
+    "type": "black",
+    "text": "1950년 7월 20일",
+    "accent": "동이 트기 전",
+    "accentAt": 0.5
+   },
+   "act": 4
+  },
+  {
+   "id": "s151",
+   "lines": [
+    "북한군 전차들이 대전 서쪽 비행장 근처를 지나 시내 쪽으로 밀고 들어옵니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "dj",
+    "to": "city",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.375,
+        36.365
+       ],
+       [
+        127.395,
+        36.345
+       ],
+       [
+        127.415,
+        36.333
+       ]
+      ],
+      "color": "red",
+      "width": 1.0,
+      "at": 0.3
+     }
+    ],
+    "flight": [
+     "dj",
+     "city"
+    ],
+    "flightDur": 2.6,
+    "hud": true
+   },
+   "sfx": [
+    {
+     "id": "whoosh",
+     "at": 0
+    }
+   ],
+   "act": 4
+  },
+  {
+   "id": "s152",
+   "lines": [
+    "날이 밝기 전 대전 서쪽 교차로."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "city",
+    "to": "city",
+    "items": [
+     {
+      "k": "lock",
+      "p": "westx",
+      "text": "서쪽 교차로",
+      "at": 0.3
+     }
+    ],
+    "tilt": 32,
+    "hud": true
+   },
+   "callouts": [
+    {
+     "text": "대전 서쪽 교차로 · 위치 개략",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "ping",
+     "at": 0.4
+    }
+   ],
+   "act": 4
+  },
+  {
+   "id": "s153",
+   "lines": [
+    {
+     "t": "제34연대의 병사 몇 명이 어둠 속에서 새 바주카를 겨눴습니다.",
+     "say": "제삼십사연대의 병사 몇 명이 어둠 속에서 새 바주카를 겨눴습니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "first_aim",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "act": 4
+  },
+  {
+   "id": "s154",
+   "lines": [
+    "첫 번째 로켓이 날아갔습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "first_fire",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "act": 4
+  },
+  {
+   "id": "s155",
+   "lines": [
+    "이번에는 튕겨 나가지 않았습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "이번에는",
+    "accent": "튕겨 나가지 않았다",
+    "accentAt": 0.5
+   },
+   "act": 4
+  },
+  {
+   "id": "s156",
+   "lines": [
+    "로켓은 장갑을 뚫고 들어가 전차 안에서 폭발했죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "first_kill",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "act": 4
+  },
+  {
+   "id": "s157",
+   "lines": [
+    "불길이 치솟았습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "불길",
+    "style": "red"
+   },
+   "act": 4
+  },
+  {
+   "id": "s158",
+   "lines": [
+    {
+     "t": "3.5인치 로켓포가 실전에서 T-34를 잡은 첫 순간이었습니다.",
+     "say": "삼점오인치 로켓포가 실전에서 티삼십사를 잡은 첫 순간이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "3.5인치 로켓포 첫 T-34 격파",
+    "style": "yellow",
+    "sub": "1950. 7. 20 새벽 · 대전",
+    "subAt": 0.4
+   },
+   "act": 4
+  },
+  {
+   "id": "s159",
+   "lines": [
+    "그 소식은 병사들 사이로 빠르게 퍼졌습니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "us_salute",
+      "x": 0.35,
+      "y": 0.9,
+      "h": 450,
+      "at": 0,
+      "face": "sparkle",
+      "prop": "helmet",
+      "anim": "bounce"
+     },
+     {
+      "c": "kr_point",
+      "x": 0.72,
+      "y": 0.9,
+      "h": 410,
+      "at": 0,
+      "flip": true,
+      "face": "sparkle",
+      "prop": "helmet"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "ex",
+      "x": 0.53,
+      "y": 0.25,
+      "on": "빠르게"
+     }
+    ]
+   },
+   "act": 4
+  },
+  {
+   "id": "s160",
+   "lines": [
+    "전차도 부서진다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "전차도",
+    "accent": "부서진다",
+    "accentAt": 0.5
+   },
+   "act": 4
+  },
+  {
+   "id": "s161",
+   "lines": [
+    "보름 동안 미군을 짓눌렀던 공포에 처음으로 금이 간 순간이었죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "공포에 금이 가다",
+    "style": "blue",
+    "sub": "보름 만의 첫 승전보",
+    "subAt": 0.4
+   },
+   "act": 4
+  },
+  {
+   "id": "s162",
+   "lines": [
+    "아침이 되자 북한군의 공격은 더 거세졌습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "city",
+    "to": "city",
+    "items": [
+     {
+      "k": "marker",
+      "p": "airfield",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "swarm",
+      "path": [
+       [
+        127.33,
+        36.38
+       ],
+       [
+        127.36,
+        36.37
+       ],
+       [
+        127.375,
+        36.365
+       ]
+      ],
+      "at": 0.1,
+      "n": 140
+     }
+    ],
+    "tilt": 30
+   },
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.2
+    }
+   ],
+   "act": 4
+  },
+  {
+   "id": "s163",
+   "lines": [
+    {
+     "t": "비행장 앞의 K중대는 정면으로 밀려드는 북한군에 포위될 위기에 놓였습니다.",
+     "say": "비행장 앞의 케이 중대는 정면으로 밀려드는 북한군에 포위될 위기에 놓였습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "city",
+    "to": "city",
+    "items": [
+     {
+      "k": "unit",
+      "p": "airfield",
+      "text": "K중대",
+      "color": "blue",
+      "at": 0.1,
+      "pulse": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.35,
+        36.385
+       ],
+       [
+        127.37,
+        36.37
+       ]
+      ],
+      "color": "red",
+      "width": 1.0,
+      "at": 0.3
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.36,
+        36.35
+       ],
+       [
+        127.372,
+        36.36
+       ]
+      ],
+      "color": "red",
+      "width": 1.0,
+      "at": 0.5
+     }
+    ],
+    "tilt": 32
+   },
+   "act": 4
+  },
+  {
+   "id": "s164",
+   "lines": [
+    "로버트 데어 중사는 앞에 나가 있던 소대가 빠져나갈 때까지 끝까지 남아 엄호했습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "darr_cover",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "로버트 데어 중사",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "act": 4
+  },
+  {
+   "id": "s165",
+   "lines": [
+    "그리고 그 자리에서 전사했죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "데어 중사 전사",
+    "style": "red",
+    "sub": "소대가 빠져나갈 때까지",
+    "subAt": 0.4
+   },
+   "act": 4
+  },
+  {
+   "id": "s166",
+   "lines": [
+    "아침이 되자 북한군 전차 몇 대가 시내까지 밀고 들어왔습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "city",
+    "to": "city",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.375,
+        36.365
+       ],
+       [
+        127.395,
+        36.345
+       ],
+       [
+        127.415,
+        36.333
+       ]
+      ],
+      "color": "red",
+      "width": 1.0,
+      "at": 0.1
+     },
+     {
+      "k": "marker",
+      "p": "downtown",
+      "color": "red",
+      "on": "시내까지"
+     }
+    ],
+    "tilt": 32
+   },
+   "act": 4
+  },
+  {
+   "id": "s167",
+   "lines": [
+    "대전 시가지 한복판에 적 전차가 돌아다니기 시작한 겁니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "tank_street",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "act": 4
+  },
+  {
+   "id": "s168",
+   "lines": [
+    {
+     "t": "딘 소장은 이 무렵 제34연대 지휘소에 있었습니다.",
+     "say": "딘 소장은 이 무렵 제삼십사연대 지휘소에 있었습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "city",
+    "to": "city",
+    "items": [
+     {
+      "k": "lock",
+      "p": "downtown",
+      "text": "제34연대 지휘소",
+      "at": 0.4
+     }
+    ],
+    "tilt": 30,
+    "hud": true
+   },
+   "pauseBefore": 0.5,
+   "chapter": {
+    "num": "제5막",
+    "title": "사단장의 전차 사냥"
+   },
+   "act": 5
+  },
+  {
+   "id": "s169",
+   "lines": [
+    "그는 전선의 사정을 제대로 알 수 없었습니다."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "us_shrug",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 480,
+      "at": 0,
+      "face": "sweat",
+      "prop": "officer+helmet",
+      "anim": "tilt"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "q",
+      "x": 0.76,
+      "y": 0.3,
+      "at": 0.2
+     }
+    ]
+   },
+   "act": 5
+  },
+  {
+   "id": "s170",
+   "lines": [
+    "무전은 끊겼고 전령은 돌아오지 않았죠."
+   ],
+   "visual": {
+    "type": "checklist",
+    "title": "끊어진 눈과 귀",
+    "items": [
+     {
+      "text": "무전",
+      "on": "무전은",
+      "checkOn": "끊겼고",
+      "bad": true
+     },
+     {
+      "text": "전령",
+      "on": "전령은",
+      "checkOn": "돌아오지",
+      "bad": true
+     }
+    ]
+   },
+   "act": 5
+  },
+  {
+   "id": "s171",
+   "lines": [
+    "그래서 딘은 가장 단순한 방법을 고릅니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "가장 단순한",
+    "accent": "방법",
+    "accentAt": 0.5
+   },
+   "act": 5
+  },
+  {
+   "id": "s172",
+   "lines": [
+    "자기 눈으로 직접 보고 자기 손으로 싸우는 것이었습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "직접 보고 직접 싸운다",
+    "style": "yellow"
+   },
+   "act": 5
+  },
+  {
+   "id": "s173",
+   "lines": [
+    {
+     "t": "50세의 소장은 부관 클라크 중위와 몇 명의 병사를 데리고 시내로 나갑니다.",
+     "say": "쉰 살의 소장은 부관 클라크 중위와 몇 명의 병사를 데리고 시내로 나갑니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "dean_out",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "50세 · 딘 소장과 부관 클라크 중위",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "act": 5
+  },
+  {
+   "id": "s174",
+   "lines": [
+    "그리고 바주카 팀을 이끌고 전차를 찾아다니기 시작했죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "dean_hunt",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "act": 5
+  },
+  {
+   "id": "s175",
+   "lines": [
+    {
+     "t": "오전 11시까지 대전 안팎에서 북한군 전차 8대가 부서졌습니다.",
+     "say": "오전 열한 시까지 대전 안팎에서 북한군 전차 여덟 대가 부서졌습니다."
+    }
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "오전 11시까지 · 북한군 전차 격파",
+    "items": [
+     {
+      "label": "격파",
+      "value": 8,
+      "display": "8대",
+      "color": "blue",
+      "on": "여덟"
+     }
+    ]
+   },
+   "act": 5
+  },
+  {
+   "id": "s176",
+   "lines": [
+    {
+     "t": "6대는 새 바주카가 2대는 포병이 잡은 것이었습니다.",
+     "say": "여섯 대는 새 바주카가 두 대는 포병이 잡은 것이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "오전 11시까지 · 누가 잡았나",
+    "items": [
+     {
+      "label": "슈퍼 바주카",
+      "value": 6,
+      "display": "6대",
+      "color": "blue",
+      "on": "여섯"
+     },
+     {
+      "label": "포병",
+      "value": 2,
+      "display": "2대",
+      "color": "dark",
+      "on": "두 대는"
+     }
+    ]
+   },
+   "act": 5
+  },
+  {
+   "id": "s177",
+   "lines": [
+    "그런데도 전차들은 계속 들어왔습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "그런데도",
+    "accent": "전차는 계속 들어왔다",
+    "accentAt": 0.5
+   },
+   "act": 5
+  },
+  {
+   "id": "s178",
+   "lines": [
+    "오후가 되자 시내 중심가에 전차 한 대가 나타납니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "city",
+    "to": "city",
+    "items": [
+     {
+      "k": "lock",
+      "p": "downtown",
+      "text": "전차 1대",
+      "at": 0.3,
+      "color": "#c9242c"
+     }
+    ],
+    "tilt": 32,
+    "hud": true
+   },
+   "callouts": [
+    {
+     "text": "오후 · 시내 중심가",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "ping",
+     "at": 0.4
+    }
+   ],
+   "act": 5
+  },
+  {
+   "id": "s179",
+   "lines": [
+    "딘의 일행은 그 뒤를 쫓기 시작했습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "city",
+    "to": "city",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.432,
+        36.336
+       ],
+       [
+        127.427,
+        36.331
+       ],
+       [
+        127.423,
+        36.327
+       ],
+       [
+        127.419,
+        36.324
+       ]
+      ],
+      "color": "red",
+      "width": 0.7,
+      "at": 0.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.436,
+        36.338
+       ],
+       [
+        127.43,
+        36.333
+       ],
+       [
+        127.425,
+        36.329
+       ]
+      ],
+      "color": "blue",
+      "width": 0.6,
+      "at": 0.4
+     }
+    ],
+    "tilt": 34
+   },
+   "act": 5
+  },
+  {
+   "id": "s180",
+   "lines": [
+    "건물과 건물 사이 골목을 지나고 담을 넘었습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "alley_chase",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "act": 5
+  },
+  {
+   "id": "s181",
+   "lines": [
+    "한 시간이 넘는 추격이었죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "1시간 넘는 추격",
+    "style": "yellow"
+   },
+   "act": 5
+  },
+  {
+   "id": "s182",
+   "lines": [
+    "마침내 전차가 길가에 멈춰 섰습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "tank_stops",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "act": 5
+  },
+  {
+   "id": "s183",
+   "lines": [
+    {
+     "t": "딘은 2층짜리 상가 건물로 올라갑니다.",
+     "say": "딘은 이 층짜리 상가 건물로 올라갑니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "2층 상가 건물",
+    "style": "yellow",
+    "sub": "창문 아래로 전차가 보이는 자리",
+    "subAt": 0.4
+   },
+   "act": 5
+  },
+  {
+   "id": "s184",
+   "lines": [
+    "로켓포는 쏘는 순간 뒤로 거센 불길을 내뿜습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "backblast",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "후폭풍 · 뒤를 비워야 한다",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "act": 5
+  },
+  {
+   "id": "s185",
+   "lines": [
+    "그래서 사수는 등 뒤를 비워 둔 채 창가에 자리를 잡아야 했죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "창가에 자리를",
+    "style": "yellow",
+    "sub": "등 뒤를 비운 채",
+    "subAt": 0.4
+   },
+   "act": 5
+  },
+  {
+   "id": "s186",
+   "lines": [
+    "창문 아래로 전차의 포탑이 바로 내려다보였습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "window_view",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "act": 5
+  },
+  {
+   "id": "s187",
+   "lines": [
+    {
+     "t": "오후 2시 무렵이었습니다.",
+     "say": "오후 두 시 무렵이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "black",
+    "text": "오후 2시",
+    "accent": "무렵",
+    "accentAt": 0.5
+   },
+   "act": 5
+  },
+  {
+   "id": "s188",
+   "lines": [
+    "바주카를 든 상병이 첫 발을 쐈습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "window_shot",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "act": 5
+  },
+  {
+   "id": "s189",
+   "lines": [
+    "두 번째 그리고 세 번째."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "두 번째 · 세 번째",
+    "style": "red"
+   },
+   "act": 5
+  },
+  {
+   "id": "s190",
+   "lines": [
+    "전차에서 연기가 치솟고 곧 불길에 휩싸였습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "tank_burning",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "act": 5
+  },
+  {
+   "id": "s191",
+   "lines": [
+    "딘은 나중에 짧게 말했습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "딘은 나중에",
+    "accent": "짧게 말했다",
+    "accentAt": 0.5
+   },
+   "act": 5
+  },
+  {
+   "id": "s192",
+   "lines": [
+    "내가 전차 한 대 잡았지."
+   ],
+   "visual": {
+    "type": "document",
+    "org": "딘 소장의 말",
+    "head": "딘 소장",
+    "rows": [
+     "내가 전차 한 대 잡았지"
+    ],
+    "stamp": "1950",
+    "note": "전해지는 말 · 요지"
+   },
+   "act": 5
+  },
+  {
+   "id": "s193",
+   "lines": [
+    {
+     "t": "이날 대전에서 부서진 북한군 전차는 모두 10대.",
+     "say": "이날 대전에서 부서진 북한군 전차는 모두 열 대."
+    }
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "1950. 7. 20 · 대전에서 부서진 북한군 전차",
+    "items": [
+     {
+      "label": "모두",
+      "value": 10,
+      "display": "10대",
+      "color": "red",
+      "on": "열 대"
+     }
+    ]
+   },
+   "act": 5
+  },
+  {
+   "id": "s194",
+   "lines": [
+    {
+     "t": "그중 8대가 3.5인치 로켓포의 몫이었습니다.",
+     "say": "그중 여덟 대가 삼점오인치 로켓포의 몫이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "그중",
+    "items": [
+     {
+      "label": "모두",
+      "value": 10,
+      "display": "10대",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "label": "3.5인치 로켓포",
+      "value": 8,
+      "display": "8대",
+      "color": "blue",
+      "on": "여덟"
+     }
+    ]
+   },
+   "act": 5
+  },
+  {
+   "id": "s195",
+   "lines": [
+    {
+     "t": "대전으로 오기 전 공중 공격으로 부서진 전차까지 더하면 북한군은 이곳에서 적어도 15대를 잃었습니다.",
+     "say": "대전으로 오기 전 공중 공격으로 부서진 전차까지 더하면 북한군은 이곳에서 적어도 열다섯 대를 잃었습니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "적어도 15대",
+    "style": "yellow",
+    "sub": "공중 공격 포함 · 미 육군 공간사 기준",
+    "subAt": 0.4
+   },
+   "act": 5
+  },
+  {
+   "id": "s196",
+   "lines": [
+    {
+     "t": "오산에서 22발을 맞고도 지나가던 그 전차였습니다.",
+     "say": "오산에서 스물두 발을 맞고도 지나가던 그 전차였습니다."
+    }
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "오산",
+     "big": "22발에도 통과",
+     "icon": "none",
+     "color": "red"
+    },
+    "right": {
+     "title": "대전",
+     "big": "3.5인치로 격파",
+     "icon": "none",
+     "color": "blue",
+     "at": 0.6
+    }
+   },
+   "act": 5
+  },
+  {
+   "id": "s197",
+   "lines": [
+    "하지만 전차를 잡는 것만으로는 도시를 지킬 수 없었습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "전차를 잡아도",
+    "accent": "도시는 지킬 수 없었다",
+    "accentAt": 0.5
+   },
+   "act": 5
+  },
+  {
+   "id": "s198",
+   "lines": [
+    "그 사이 북한군 보병은 대전을 거의 둘러싸고 있었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "dj",
+    "to": "dj",
+    "items": [
+     {
+      "k": "swarm",
+      "path": [
+       [
+        127.33,
+        36.23
+       ],
+       [
+        127.43,
+        36.2
+       ],
+       [
+        127.46,
+        36.24
+       ]
+      ],
+      "at": 0.1,
+      "n": 100
+     },
+     {
+      "k": "swarm",
+      "path": [
+       [
+        127.3,
+        36.47
+       ],
+       [
+        127.38,
+        36.41
+       ],
+       [
+        127.42,
+        36.36
+       ]
+      ],
+      "at": 0.2,
+      "n": 100
+     },
+     {
+      "k": "marker",
+      "p": "daejeon",
+      "color": "blue",
+      "at": 0
+     }
+    ],
+    "tilt": 26
+   },
+   "callouts": [
+    {
+     "text": "거의 포위된 대전",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ],
+   "act": 5
+  },
+  {
+   "id": "s199",
+   "lines": [
+    {
+     "t": "북한군 제3사단 병력이 오후부터 시내로 스며들기 시작했죠.",
+     "say": "북한군 제삼사단 병력이 오후부터 시내로 스며들기 시작했죠."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "city",
+    "to": "city",
+    "items": [
+     {
+      "k": "swarm",
+      "path": [
+       [
+        127.4,
+        36.37
+       ],
+       [
+        127.415,
+        36.345
+       ],
+       [
+        127.423,
+        36.33
+       ]
+      ],
+      "at": 0.1,
+      "n": 120
+     }
+    ],
+    "tilt": 32
+   },
+   "callouts": [
+    {
+     "text": "제3사단 · 시내로 스며들다",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "act": 5
+  },
+  {
+   "id": "s200",
+   "lines": [
+    "건물 곳곳에서 저격이 시작됐습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "sniper_city",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "act": 5
+  },
+  {
+   "id": "s201",
+   "lines": [
+    {
+     "t": "오후 3시 무렵 또 하나의 비보가 날아듭니다.",
+     "say": "오후 세 시 무렵 또 하나의 비보가 날아듭니다."
+    }
+   ],
+   "visual": {
+    "type": "black",
+    "text": "오후 3시 무렵",
+    "accent": "또 하나의 비보",
+    "accentAt": 0.5
+   },
+   "act": 5
+  },
+  {
+   "id": "s202",
+   "lines": [
+    {
+     "t": "제34연대장 찰스 뷰챔프 대령이 지휘소를 나간 뒤 연락이 끊긴 겁니다.",
+     "say": "제삼십사연대장 찰스 뷰챔프 대령이 지휘소를 나간 뒤 연락이 끊긴 겁니다."
+    }
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "us_shock",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 470,
+      "at": 0,
+      "flip": true,
+      "face": "shock",
+      "prop": "officer+helmet",
+      "anim": "shake"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.15,
+      "text": "제34연대장 뷰챔프 대령 연락 두절",
+      "on": "뷰챔프",
+      "color": "red"
+     }
+    ]
+   },
+   "act": 5
+  },
+  {
+   "id": "s203",
+   "lines": [
+    "지휘관과 연락이 끊긴 연대는 흔들리기 시작했습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "지휘관을 잃은 연대",
+    "accent": "흔들리다",
+    "accentAt": 0.5
+   },
+   "act": 5
+  },
+  {
+   "id": "s204",
+   "lines": [
+    {
+     "t": "오후 5시 55분.",
+     "say": "오후 다섯 시 오십오 분."
+    }
+   ],
+   "visual": {
+    "type": "black",
+    "text": "오후 5시 55분"
+   },
+   "act": 5
+  },
+  {
+   "id": "s205",
+   "lines": [
+    "딘은 손목시계를 내려다봤습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "watch_check",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "act": 5
+  },
+  {
+   "id": "s206",
+   "lines": [
+    "워커와 약속한 시간은 이미 지켜 낸 셈이었죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "약속한 시간은 지켰다",
+    "style": "blue",
+    "sub": "워커와의 약속",
+    "subAt": 0.4
+   },
+   "act": 5
+  },
+  {
+   "id": "s207",
+   "lines": [
+    {
+     "t": "6시 무렵 마침내 철수가 시작됩니다.",
+     "say": "여섯 시 무렵 마침내 철수가 시작됩니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "city",
+    "to": "east",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.435,
+        36.33
+       ],
+       [
+        127.47,
+        36.325
+       ],
+       [
+        127.5,
+        36.318
+       ],
+       [
+        127.571,
+        36.306
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0.2
+     }
+    ],
+    "flight": [
+     "city",
+     "east"
+    ],
+    "flightDur": 2.4
+   },
+   "callouts": [
+    {
+     "text": "오후 6시 무렵 · 철수 시작",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "whoosh",
+     "at": 0
+    }
+   ],
+   "act": 5
+  },
+  {
+   "id": "s208",
+   "lines": [
+    "하지만 그때는 이미 늦어 있었습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "그때는 이미",
+    "accent": "늦어 있었다",
+    "accentAt": 0.5
+   },
+   "act": 5
+  },
+  {
+   "id": "s209",
+   "lines": [
+    "대전에서 빠져나갈 길은 두 갈래였습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "djwide",
+    "to": "djwide",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.435,
+        36.33
+       ],
+       [
+        127.47,
+        36.325
+       ],
+       [
+        127.5,
+        36.318
+       ],
+       [
+        127.571,
+        36.306
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "at": 0.2
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.425,
+        36.32
+       ],
+       [
+        127.44,
+        36.25
+       ],
+       [
+        127.47,
+        36.18
+       ],
+       [
+        127.488,
+        36.108
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "at": 0.4
+     }
+    ],
+    "tilt": 24
+   },
+   "chapter": {
+    "num": "제6막",
+    "title": "불타는 퇴로"
+   },
+   "callouts": [
+    {
+     "text": "빠져나갈 길은 두 갈래",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "act": 6
+  },
+  {
+   "id": "s210",
+   "lines": [
+    "동쪽 옥천으로 가는 길과 남쪽 금산으로 가는 길."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "djwide",
+    "to": "djwide",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.435,
+        36.33
+       ],
+       [
+        127.47,
+        36.325
+       ],
+       [
+        127.5,
+        36.318
+       ],
+       [
+        127.571,
+        36.306
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.425,
+        36.32
+       ],
+       [
+        127.44,
+        36.25
+       ],
+       [
+        127.47,
+        36.18
+       ],
+       [
+        127.488,
+        36.108
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "okcheon",
+      "text": "옥천",
+      "color": "#2e66d8",
+      "dy": -50,
+      "on": "옥천으로"
+     },
+     {
+      "k": "badge",
+      "p": "geumsan",
+      "text": "금산",
+      "color": "#2e66d8",
+      "dy": -50,
+      "on": "금산으로"
+     }
+    ],
+    "tilt": 24
+   },
+   "act": 6
+  },
+  {
+   "id": "s211",
+   "lines": [
+    "금산 길은 전날 밤부터 이미 막혀 있었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "djwide",
+    "to": "djwide",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.435,
+        36.33
+       ],
+       [
+        127.47,
+        36.325
+       ],
+       [
+        127.5,
+        36.318
+       ],
+       [
+        127.571,
+        36.306
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        127.425,
+        36.32
+       ],
+       [
+        127.44,
+        36.25
+       ],
+       [
+        127.47,
+        36.18
+       ],
+       [
+        127.488,
+        36.108
+       ]
+      ],
+      "color": "#ff3b3b",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "front",
+      "path": [
+       [
+        127.41,
+        36.22
+       ],
+       [
+        127.45,
+        36.235
+       ],
+       [
+        127.49,
+        36.25
+       ]
+      ],
+      "at": 0,
+      "glow": true
+     }
+    ],
+    "tilt": 24
+   },
+   "callouts": [
+    {
+     "text": "금산 길 · 전날 밤부터 차단",
+     "style": "red",
+     "at": 0,
+     "pos": "lower"
+    }
+   ],
+   "act": 6
+  },
+  {
+   "id": "s212",
+   "lines": [
+    "남은 것은 옥천 길 하나뿐이었죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "djwide",
+    "to": "djwide",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.435,
+        36.33
+       ],
+       [
+        127.47,
+        36.325
+       ],
+       [
+        127.5,
+        36.318
+       ],
+       [
+        127.571,
+        36.306
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "at": 0.1
+     },
+     {
+      "k": "marker",
+      "p": "okcheon",
+      "color": "blue",
+      "at": 0.3
+     }
+    ],
+    "tilt": 24
+   },
+   "callouts": [
+    {
+     "text": "남은 길 · 옥천 길 하나",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "act": 6
+  },
+  {
+   "id": "s213",
+   "lines": [
+    "트럭과 지프가 줄지어 옥천 길로 쏟아져 나갔습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "convoy_out",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "act": 6
+  },
+  {
+   "id": "s214",
+   "lines": [
+    {
+     "t": "대전 동쪽 약 3km 지점.",
+     "say": "대전 동쪽 약 삼 킬로미터 지점."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "east",
+    "to": "east",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.435,
+        36.33
+       ],
+       [
+        127.47,
+        36.325
+       ],
+       [
+        127.5,
+        36.318
+       ],
+       [
+        127.571,
+        36.306
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "lock",
+      "p": "tunnel",
+      "text": "대전 동쪽 약 3km",
+      "at": 0.4
+     }
+    ],
+    "tilt": 32,
+    "hud": true
+   },
+   "sfx": [
+    {
+     "id": "ping",
+     "at": 0.5
+    }
+   ],
+   "act": 6
+  },
+  {
+   "id": "s215",
+   "lines": [
+    {
+     "t": "그곳부터 철도 터널과 도로 터널까지 약 1.5km의 구간이었습니다.",
+     "say": "그곳부터 철도 터널과 도로 터널까지 약 일 킬로미터 반의 구간이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "east",
+    "to": "east",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.435,
+        36.33
+       ],
+       [
+        127.47,
+        36.325
+       ],
+       [
+        127.5,
+        36.318
+       ],
+       [
+        127.571,
+        36.306
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "front",
+      "path": [
+       [
+        127.475,
+        36.323
+       ],
+       [
+        127.488,
+        36.321
+       ],
+       [
+        127.5,
+        36.318
+       ]
+      ],
+      "at": 0.2,
+      "glow": true
+     }
+    ],
+    "tilt": 32
+   },
+   "callouts": [
+    {
+     "text": "철도 터널 · 도로 터널 · 약 1.5km 구간",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ],
+   "act": 6
+  },
+  {
+   "id": "s216",
+   "lines": [
+    "여기서 기다리고 있던 것은 북한군의 매복이었습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "기다리고 있던 것은",
+    "accent": "매복",
+    "accentAt": 0.5
+   },
+   "act": 6
+  },
+  {
+   "id": "s217",
+   "lines": [
+    "양쪽 산비탈에서 기관총과 박격포가 불을 뿜었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "east",
+    "to": "east",
+    "items": [
+     {
+      "k": "shock",
+      "pts": [
+       [
+        127.48,
+        36.326
+       ],
+       [
+        127.49,
+        36.317
+       ],
+       [
+        127.497,
+        36.325
+       ]
+      ],
+      "at": 0.1,
+      "period": 0.6
+     },
+     {
+      "k": "marker",
+      "p": [
+       127.485,
+       36.33
+      ],
+      "color": "red",
+      "at": 0.3
+     },
+     {
+      "k": "marker",
+      "p": [
+       127.495,
+       36.313
+      ],
+      "color": "red",
+      "at": 0.4
+     }
+    ],
+    "tilt": 34
+   },
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.1
+    }
+   ],
+   "act": 6
+  },
+  {
+   "id": "s218",
+   "lines": [
+    "맨 앞 트럭이 불타자 뒤따르던 차량이 모두 멈춰 섰죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "ambush_tunnel",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "act": 6
+  },
+  {
+   "id": "s219",
+   "lines": [
+    "불타는 차량이 길을 막았고 병사들은 차에서 뛰어내려 도랑으로 몸을 던졌습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "병사들은",
+    "accent": "도랑으로 몸을 던졌다",
+    "accentAt": 0.5
+   },
+   "act": 6
+  },
+  {
+   "id": "s220",
+   "lines": [
+    "공병대의 조지 리비 중사는 부상병들을 트럭에 실었습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "조지 리비 중사",
+    "style": "dark",
+    "sub": "공병대",
+    "subAt": 0.4
+   },
+   "act": 6
+  },
+  {
+   "id": "s221",
+   "lines": [
+    "그리고 운전병을 자기 몸으로 가린 채 차단선을 뚫고 나갔죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "libby_truck",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "act": 6
+  },
+  {
+   "id": "s222",
+   "lines": [
+    "몇 번이고 총에 맞으면서도 그는 차를 멈추게 하지 않았습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "총에 맞으면서도",
+    "style": "red",
+    "sub": "멈추지 않았다",
+    "subAt": 0.4
+   },
+   "act": 6
+  },
+  {
+   "id": "s223",
+   "lines": [
+    "리비 중사는 그날 밤 숨을 거둡니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "리비 중사",
+    "accent": "그날 밤 숨지다",
+    "accentAt": 0.5
+   },
+   "act": 6
+  },
+  {
+   "id": "s224",
+   "lines": [
+    "그리고 훗날 명예훈장이 추서됐습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "명예훈장 추서",
+    "style": "yellow",
+    "sub": "조지 리비 중사",
+    "subAt": 0.4
+   },
+   "act": 6
+  },
+  {
+   "id": "s225",
+   "lines": [
+    "딘 소장의 지프는 혼란 속에서 옥천으로 꺾어지는 길목을 놓쳐 버립니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "djwide",
+    "to": "djwide",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.435,
+        36.33
+       ],
+       [
+        127.47,
+        36.325
+       ],
+       [
+        127.5,
+        36.318
+       ],
+       [
+        127.571,
+        36.306
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.425,
+        36.32
+       ],
+       [
+        127.44,
+        36.25
+       ],
+       [
+        127.47,
+        36.18
+       ]
+      ],
+      "color": "red",
+      "width": 0.7,
+      "at": 0.2
+     },
+     {
+      "k": "badge",
+      "p": [
+       127.44,
+       36.3
+      ],
+      "text": "길목을 놓치다",
+      "color": "#c9242c",
+      "dy": -50,
+      "at": 0.4
+     }
+    ],
+    "tilt": 26
+   },
+   "callouts": [
+    {
+     "text": "딘 소장의 지프 · 경로 개략",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ],
+   "act": 6
+  },
+  {
+   "id": "s226",
+   "lines": [
+    "그리고 이미 막혀 있던 금산 길로 들어서고 말았죠."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "djwide",
+    "to": "djwide",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.425,
+        36.32
+       ],
+       [
+        127.44,
+        36.25
+       ],
+       [
+        127.47,
+        36.18
+       ],
+       [
+        127.488,
+        36.108
+       ]
+      ],
+      "color": "#ff3b3b",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": [
+       127.455,
+       36.24
+      ],
+      "color": "red",
+      "text": "막힌 길",
+      "at": 0.2
+     }
+    ],
+    "tilt": 26
+   },
+   "act": 6
+  },
+  {
+   "id": "s227",
+   "lines": [
+    "불타는 트럭들 사이에서 총탄이 쏟아졌습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "djwide",
+    "to": "djwide",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.425,
+        36.32
+       ],
+       [
+        127.44,
+        36.25
+       ],
+       [
+        127.47,
+        36.18
+       ],
+       [
+        127.488,
+        36.108
+       ]
+      ],
+      "color": "#ff3b3b",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "shock",
+      "pts": [
+       [
+        127.44,
+        36.27
+       ],
+       [
+        127.45,
+        36.24
+       ],
+       [
+        127.46,
+        36.255
+       ]
+      ],
+      "at": 0.1,
+      "period": 0.6
+     }
+    ],
+    "tilt": 26
+   },
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.1
+    }
+   ],
+   "act": 6
+  },
+  {
+   "id": "s228",
+   "lines": [
+    "딘의 일행은 차를 버리고 산으로 올라갑니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "jeep_abandon",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "act": 6
+  },
+  {
+   "id": "s229",
+   "lines": [
+    "부상병 몇 명이 함께였습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "부상병 몇 명과 함께",
+    "style": "dark"
+   },
+   "act": 6
+  },
+  {
+   "id": "s230",
+   "lines": [
+    "밤이 깊어 갔습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "night_mountain",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0
+    }
+   ],
+   "act": 6
+  },
+  {
+   "id": "s231",
+   "lines": [
+    "부상병 하나가 목이 마르다고 신음했습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "목이 마르다",
+    "style": "dark",
+    "sub": "부상병의 신음",
+    "subAt": 0.4
+   },
+   "act": 6
+  },
+  {
+   "id": "s232",
+   "lines": [
+    "딘은 어둠 속에서 물소리를 듣고 혼자 산비탈을 내려갑니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "dean_water",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "act": 6
+  },
+  {
+   "id": "s233",
+   "lines": [
+    "그리고 그 순간 발을 헛디뎠습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "그 순간",
+    "accent": "발을 헛디뎠다",
+    "accentAt": 0.5
+   },
+   "act": 6
+  },
+  {
+   "id": "s234",
+   "lines": [
+    "가파른 비탈 아래로 굴러떨어진 딘은 정신을 잃었습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "dean_fall",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "act": 6
+  },
+  {
+   "id": "s235",
+   "lines": [
+    "깨어났을 때 그는 혼자였습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "깨어났을 때",
+    "accent": "혼자였다",
+    "accentAt": 0.5
+   },
+   "act": 6
+  },
+  {
+   "id": "s236",
+   "lines": [
+    "머리가 찢어졌고 어깨뼈가 부러져 있었습니다."
+   ],
+   "visual": {
+    "type": "checklist",
+    "title": "딘 소장의 부상",
+    "items": [
+     {
+      "text": "머리가 찢어짐",
+      "on": "머리가",
+      "checkOn": "찢어졌고",
+      "bad": true
+     },
+     {
+      "text": "어깨뼈 골절",
+      "on": "어깨뼈가",
+      "checkOn": "부러져",
+      "bad": true
+     }
+    ]
+   },
+   "act": 6
+  },
+  {
+   "id": "s237",
+   "lines": [
+    "부관 클라크 중위는 날이 밝기 전 남은 병사들을 이끌고 산을 내려갔습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "부관 클라크 중위",
+    "style": "dark",
+    "sub": "날이 밝기 전 남은 병사들과 하산",
+    "subAt": 0.4
+   },
+   "act": 6
+  },
+  {
+   "id": "s238",
+   "lines": [
+    {
+     "t": "사흘 뒤 이들은 영동의 제1기병사단 진지에 닿았습니다.",
+     "say": "사흘 뒤 이들은 영동의 제일기병사단 진지에 닿았습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "retreat",
+    "to": "retreat",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.47,
+        36.22
+       ],
+       [
+        127.62,
+        36.2
+       ],
+       [
+        127.783,
+        36.175
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0.2
+     },
+     {
+      "k": "marker",
+      "p": "yeongdong",
+      "color": "blue",
+      "on": "영동의"
+     }
+    ],
+    "tilt": 22
+   },
+   "callouts": [
+    {
+     "text": "사흘 뒤 · 제1기병사단 진지",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "act": 6
+  },
+  {
+   "id": "s239",
+   "lines": [
+    "하지만 사단장은 그 안에 없었습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "사단장은",
+    "accent": "그 안에 없었다",
+    "accentAt": 0.5
+   },
+   "act": 6
+  },
+  {
+   "id": "s240",
+   "lines": [
+    "딘은 혼자서 남쪽으로 걷기 시작했습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "retreat",
+    "to": "retreat",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.47,
+        36.2
+       ],
+       [
+        127.46,
+        36.1
+       ],
+       [
+        127.45,
+        35.98
+       ]
+      ],
+      "color": "blue",
+      "dash": true,
+      "at": 0.2,
+      "width": 0.7
+     }
+    ],
+    "tilt": 22
+   },
+   "callouts": [
+    {
+     "text": "딘 소장의 길 · 개략",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ],
+   "act": 6
+  },
+  {
+   "id": "s241",
+   "lines": [
+    "낮에는 숲에 숨고 밤에만 움직였습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "hide_forest",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "act": 6
+  },
+  {
+   "id": "s242",
+   "lines": [
+    "먹을 것은 거의 없었고 부러진 어깨는 제대로 치료받지 못했습니다."
+   ],
+   "visual": {
+    "type": "checklist",
+    "title": "홀로 남은 사단장",
+    "items": [
+     {
+      "text": "먹을 것 없음",
+      "on": "먹을",
+      "checkOn": "거의",
+      "bad": true
+     },
+     {
+      "text": "치료 못 받은 어깨",
+      "on": "어깨는",
+      "checkOn": "못했습니다",
+      "bad": true
+     }
+    ]
+   },
+   "act": 6
+  },
+  {
+   "id": "s243",
+   "lines": [
+    "때로는 그를 알아본 한국 농민이 몰래 밥을 내주기도 했죠."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "farmer_rice",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "act": 6
+  },
+  {
+   "id": "s244",
+   "lines": [
+    {
+     "t": "그렇게 36일이 흘렀습니다.",
+     "say": "그렇게 삼십육 일이 흘렀습니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "36일",
+    "style": "yellow",
+    "sub": "1950. 7. 20 ~ 8. 25",
+    "subAt": 0.4
+   },
+   "act": 6
+  },
+  {
+   "id": "s245",
+   "lines": [
+    {
+     "t": "전쟁 전 190파운드였던 몸무게는 130파운드로 줄었습니다.",
+     "say": "전쟁 전 백구십 파운드였던 몸무게는 백삼십 파운드로 줄었습니다."
+    }
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "딘 소장의 몸무게",
+    "items": [
+     {
+      "label": "전쟁 전",
+      "value": 190,
+      "display": "190파운드",
+      "color": "blue",
+      "at": 0.1
+     },
+     {
+      "label": "36일 뒤",
+      "value": 130,
+      "display": "130파운드",
+      "color": "red",
+      "on": "백삼십"
+     }
+    ]
+   },
+   "act": 6
+  },
+  {
+   "id": "s246",
+   "lines": [
+    {
+     "t": "약 86kg에서 59kg.",
+     "say": "약 팔십육 킬로그램에서 오십구 킬로그램."
+    }
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "딘 소장의 몸무게 (킬로그램)",
+    "items": [
+     {
+      "label": "전쟁 전",
+      "value": 86,
+      "display": "약 86kg",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "label": "36일 뒤",
+      "value": 59,
+      "display": "약 59kg",
+      "color": "red",
+      "on": "오십구"
+     }
+    ]
+   },
+   "act": 6
+  },
+  {
+   "id": "s247",
+   "lines": [
+    "그는 훗날 팔다리가 막대기 같았다고 회고합니다."
+   ],
+   "visual": {
+    "type": "document",
+    "org": "윌리엄 딘 『딘 장군 이야기』",
+    "head": "딘 소장 회고",
+    "rows": [
+     "팔다리가 막대기 같았다"
+    ],
+    "stamp": "回顧",
+    "note": "요지"
+   },
+   "act": 6
+  },
+  {
+   "id": "s248",
+   "lines": [
+    {
+     "t": "8월 25일 전라북도 진안 근처.",
+     "say": "팔월 이십오일 전라북도 진안 근처."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "retreat",
+    "to": "retreat",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.47,
+        36.2
+       ],
+       [
+        127.46,
+        36.1
+       ],
+       [
+        127.45,
+        35.98
+       ],
+       [
+        127.43,
+        35.86
+       ],
+       [
+        127.425,
+        35.795
+       ]
+      ],
+      "color": "blue",
+      "dash": true,
+      "at": 0,
+      "width": 0.7
+     },
+     {
+      "k": "lock",
+      "p": "jinan",
+      "text": "진안 근처",
+      "at": 0.4
+     }
+    ],
+    "tilt": 22
+   },
+   "callouts": [
+    {
+     "text": "1950. 8. 25 · 전라북도 진안 근처",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "ping",
+     "at": 0.5
+    }
+   ],
+   "act": 6
+  },
+  {
+   "id": "s249",
+   "lines": [
+    "길을 안내해 주겠다던 한국인 두 사람이 그를 북한군에게 넘깁니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "betrayal",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "act": 6
+  },
+  {
+   "id": "s250",
+   "lines": [
+    "딘은 끝까지 몸부림쳤지만 이미 힘이 남아 있지 않았습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "capture_struggle",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "act": 6
+  },
+  {
+   "id": "s251",
+   "lines": [
+    "한국전쟁에서 포로가 된 미군 가운데 가장 계급이 높은 장군."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "가장 계급이 높은 포로",
+    "style": "red",
+    "sub": "한국전쟁 미군 포로 가운데",
+    "subAt": 0.4
+   },
+   "act": 6
+  },
+  {
+   "id": "s252",
+   "lines": [
+    "윌리엄 딘은 이렇게 북한의 포로가 됩니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "윌리엄 딘",
+    "accent": "북한의 포로가 되다",
+    "accentAt": 0.5
+   },
+   "act": 6
+  },
+  {
+   "id": "s253",
+   "lines": [
+    "미국은 그가 살아 있는지조차 알지 못했습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "살아 있는지조차",
+    "accent": "알 수 없었다",
+    "accentAt": 0.5
+   },
+   "act": 6
+  },
+  {
+   "id": "s254",
+   "lines": [
+    {
+     "t": "1951년 1월 9일 백악관.",
+     "say": "천구백오십일년 일월 구일 백악관."
+    }
+   ],
+   "visual": {
+    "type": "black",
+    "text": "1951년 1월 9일",
+    "accent": "백악관",
+    "accentAt": 0.5
+   },
+   "act": 6
+  },
+  {
+   "id": "s255",
+   "lines": [
+    "트루먼 대통령이 딘의 아내에게 훈장 하나를 건넵니다."
+   ],
+   "visual": {
+    "type": "document",
+    "org": "미국 대통령",
+    "head": "명예훈장 공적서 (요지)",
+    "rows": [
+     "윌리엄 F. 딘 소장",
+     "1950. 7. 20~21 대전",
+     "전차 공격을 직접 지휘"
+    ],
+    "stamp": "名譽",
+    "note": "1951. 1. 9 수여 · 요지"
+   },
+   "act": 6
+  },
+  {
+   "id": "s256",
+   "lines": [
+    "미군 최고의 무공 훈장인 명예훈장이었습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "명예훈장",
+    "style": "yellow",
+    "sub": "미군 최고의 무공 훈장",
+    "subAt": 0.4
+   },
+   "act": 6
+  },
+  {
+   "id": "s257",
+   "lines": [
+    "훈장의 주인은 실종자 명단에 올라 있었습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "실종자 명단",
+    "style": "dark",
+    "sub": "훈장의 주인은 행방불명",
+    "subAt": 0.4
+   },
+   "act": 6
+  },
+  {
+   "id": "s258",
+   "lines": [
+    {
+     "t": "7월 20일 밤 대전은 북한군의 손에 넘어갔습니다.",
+     "say": "칠월 이십일 밤 대전은 북한군의 손에 넘어갔습니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "daejeon_night_fall",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "pauseBefore": 0.5,
+   "chapter": {
+    "num": "제7막",
+    "title": "패배가 번 시간"
+   },
+   "act": 7
+  },
+  {
+   "id": "s259",
+   "lines": [
+    "이제 숫자로 이 싸움을 정리해 보겠습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "숫자로",
+    "accent": "정리해 보면",
+    "accentAt": 0.5
+   },
+   "act": 7
+  },
+  {
+   "id": "s260",
+   "lines": [
+    {
+     "t": "대전 전투에 투입된 제24사단 병력은 3,933명.",
+     "say": "대전 전투에 투입된 제이십사사단 병력은 삼천구백삼십삼 명."
+    }
+   ],
+   "visual": {
+    "type": "troops",
+    "n": 32,
+    "cols": 8,
+    "side": "us",
+    "title": "대전 전투 투입",
+    "labels": [
+     {
+      "x": 0.5,
+      "y": 0.86,
+      "text": "3,933명",
+      "on": "삼천구백삼십삼",
+      "color": "blue"
+     }
+    ]
+   },
+   "act": 7
+  },
+  {
+   "id": "s261",
+   "lines": [
+    {
+     "t": "그중 1,150명이 피해를 입었습니다.",
+     "say": "그중 천백오십 명이 피해를 입었습니다."
+    }
+   ],
+   "visual": {
+    "type": "troops",
+    "n": 32,
+    "cols": 8,
+    "side": "us",
+    "keep": 23,
+    "keepAt": 0.3,
+    "title": "피해",
+    "labels": [
+     {
+      "x": 0.5,
+      "y": 0.86,
+      "text": "1,150명",
+      "on": "천백오십",
+      "color": "red"
+     }
+    ]
+   },
+   "act": 7
+  },
+  {
+   "id": "s262",
+   "lines": [
+    {
+     "t": "전사 48명 부상 228명.",
+     "say": "전사 사십팔 명 부상 이백이십팔 명."
+    }
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "제24사단 · 대전 전투 피해 (미 육군 공간사 기준)",
+    "items": [
+     {
+      "label": "전사",
+      "value": 48,
+      "display": "48명",
+      "color": "red",
+      "on": "사십팔"
+     },
+     {
+      "label": "부상",
+      "value": 228,
+      "display": "228명",
+      "color": "dark",
+      "on": "이백이십팔"
+     }
+    ]
+   },
+   "act": 7
+  },
+  {
+   "id": "s263",
+   "lines": [
+    {
+     "t": "그리고 실종 874명.",
+     "say": "그리고 실종 팔백칠십사 명."
+    }
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "제24사단 · 대전 전투 피해 (미 육군 공간사 기준)",
+    "items": [
+     {
+      "label": "전사",
+      "value": 48,
+      "display": "48명",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "label": "부상",
+      "value": 228,
+      "display": "228명",
+      "color": "dark",
+      "at": 0
+     },
+     {
+      "label": "실종",
+      "value": 874,
+      "display": "874명",
+      "color": "red",
+      "on": "팔백칠십사"
+     }
+    ]
+   },
+   "act": 7
+  },
+  {
+   "id": "s264",
+   "lines": [
+    "실종자의 대부분은 끝내 돌아오지 못했습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "끝내 돌아오지 못한 실종자",
+    "style": "dark"
+   },
+   "act": 7
+  },
+  {
+   "id": "s265",
+   "lines": [
+    {
+     "t": "3명 중 1명이 쓰러진 셈이었죠.",
+     "say": "세 명 중 한 명이 쓰러진 셈이었죠."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "3명 중 1명",
+    "style": "red"
+   },
+   "act": 7
+  },
+  {
+   "id": "s266",
+   "lines": [
+    {
+     "t": "제34연대의 L중대는 153명 가운데 107명을 잃었습니다.",
+     "say": "제삼십사연대의 엘 중대는 백오십삼 명 가운데 백칠 명을 잃었습니다."
+    }
+   ],
+   "visual": {
+    "type": "troops",
+    "n": 30,
+    "cols": 6,
+    "side": "us",
+    "keep": 9,
+    "keepAt": 0.4,
+    "title": "제34연대 L중대",
+    "labels": [
+     {
+      "x": 0.5,
+      "y": 0.86,
+      "text": "153명 중 107명 손실",
+      "on": "백칠",
+      "color": "red"
+     }
+    ]
+   },
+   "act": 7
+  },
+  {
+   "id": "s267",
+   "lines": [
+    "장비 손실은 더 참담했습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "장비 손실은",
+    "accent": "더 참담했다",
+    "accentAt": 0.5
+   },
+   "act": 7
+  },
+  {
+   "id": "s268",
+   "lines": [
+    {
+     "t": "연대 차량 가운데 빠져나온 것은 35대 남짓이었습니다.",
+     "say": "연대 차량 가운데 빠져나온 것은 서른다섯 대 남짓이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "빠져나온 차량 35대 남짓",
+    "style": "dark",
+    "sub": "제34연대",
+    "subAt": 0.4
+   },
+   "act": 7
+  },
+  {
+   "id": "s269",
+   "lines": [
+    {
+     "t": "보급 중대는 트럭 34대 가운데 30대를 잃었고 한 포대는 155mm 곡사포 5문을 모두 잃었죠.",
+     "say": "보급 중대는 트럭 서른네 대 가운데 서른 대를 잃었고 한 포대는 백오십오 밀리 곡사포 다섯 문을 모두 잃었죠."
+    }
+   ],
+   "visual": {
+    "type": "checklist",
+    "title": "잃어버린 장비",
+    "items": [
+     {
+      "text": "보급 중대 트럭 34대 중 30대",
+      "on": "보급",
+      "checkOn": "서른 대를",
+      "bad": true
+     },
+     {
+      "text": "155mm 곡사포 5문 전부",
+      "on": "곡사포",
+      "checkOn": "모두",
+      "bad": true
+     }
+    ]
+   },
+   "act": 7
+  },
+  {
+   "id": "s270",
+   "lines": [
+    "사단장까지 사라졌습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "사단장까지",
+    "accent": "사라졌다",
+    "accentAt": 0.5
+   },
+   "act": 7
+  },
+  {
+   "id": "s271",
+   "lines": [
+    "누가 봐도 참패였습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "누가 봐도 참패",
+    "style": "red"
+   },
+   "act": 7
+  },
+  {
+   "id": "s272",
+   "lines": [
+    "이제 처음의 질문으로 돌아가 보겠습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "이제",
+    "accent": "처음의 질문으로",
+    "accentAt": 0.5
+   },
+   "act": 7
+  },
+  {
+   "id": "s273",
+   "lines": [
+    "사단장까지 잃은 이 패배는 어떻게 대한민국을 살렸을까요."
+   ],
+   "visual": {
+    "type": "black",
+    "text": " "
+   },
+   "hook": {
+    "question": {
+     "text": "사단장까지 잃은 이 패배는\n어떻게 대한민국을 살렸나",
+     "at": 0.05,
+     "kicker": "■ 처음의 질문 ■"
+    }
+   },
+   "act": 7
+  },
+  {
+   "id": "s274",
+   "lines": [
+    "답은 날짜 속에 있습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "답은 날짜 속에",
+    "style": "yellow"
+   },
+   "act": 7
+  },
+  {
+   "id": "s275",
+   "lines": [
+    {
+     "t": "7월 5일 오산에서 시작된 제24사단의 지연전.",
+     "say": "칠월 오일 오산에서 시작된 제이십사사단의 지연전."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "corridor",
+    "to": "corridor",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.04,
+        37.2
+       ],
+       [
+        127.09,
+        36.99
+       ],
+       [
+        127.15,
+        36.82
+       ],
+       [
+        127.2,
+        36.68
+       ],
+       [
+        127.29,
+        36.6
+       ],
+       [
+        127.3,
+        36.5
+       ],
+       [
+        127.4,
+        36.36
+       ]
+      ],
+      "color": "red",
+      "width": 1.0,
+      "at": 0.2
+     },
+     {
+      "k": "marker",
+      "p": "osan",
+      "color": "blue",
+      "on": "오산에서"
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1950. 7. 5 · 지연전 시작",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "act": 7
+  },
+  {
+   "id": "s276",
+   "lines": [
+    {
+     "t": "대전이 떨어진 날은 7월 20일이었습니다.",
+     "say": "대전이 떨어진 날은 칠월 이십일이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "corridor",
+    "to": "corridor",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.04,
+        37.2
+       ],
+       [
+        127.09,
+        36.99
+       ],
+       [
+        127.15,
+        36.82
+       ],
+       [
+        127.2,
+        36.68
+       ],
+       [
+        127.29,
+        36.6
+       ],
+       [
+        127.3,
+        36.5
+       ],
+       [
+        127.4,
+        36.36
+       ]
+      ],
+      "color": "red",
+      "width": 1.0,
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "daejeon",
+      "color": "red",
+      "on": "칠월 이십일"
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "1950. 7. 20 · 대전 함락",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ],
+   "act": 7
+  },
+  {
+   "id": "s277",
+   "lines": [
+    {
+     "t": "그 17일 동안 북한군이 하루에 나아간 거리는 평균 약 10km에 그쳤습니다.",
+     "say": "그 십칠 일 동안 북한군이 하루에 나아간 거리는 평균 약 십 킬로미터에 그쳤습니다."
+    }
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "북한군 하루 진격 거리 (평균)",
+    "items": [
+     {
+      "label": "오산→대전 17일",
+      "value": 10,
+      "display": "약 10km",
+      "color": "blue",
+      "on": "십 킬로미터"
+     }
+    ]
+   },
+   "act": 7
+  },
+  {
+   "id": "s278",
+   "lines": [
+    "전차를 앞세워 사흘 만에 서울을 떨어뜨린 군대였는데 말이죠."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "6월 · 서울까지",
+     "big": "사흘",
+     "icon": "none",
+     "color": "red"
+    },
+    "right": {
+     "title": "7월 · 오산→대전",
+     "big": "17일",
+     "icon": "none",
+     "color": "blue",
+     "at": 0.6
+    }
+   },
+   "act": 7
+  },
+  {
+   "id": "s279",
+   "lines": [
+    "워커 장군이 부탁한 대전의 이틀."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "워커가 부탁한 이틀",
+    "style": "yellow"
+   },
+   "act": 7
+  },
+  {
+   "id": "s280",
+   "lines": [
+    {
+     "t": "그 이틀 동안 제1기병사단은 포항에 내려 영동까지 올라왔습니다.",
+     "say": "그 이틀 동안 제일기병사단은 포항에 내려 영동까지 올라왔습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "south",
+    "to": "south",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        129.365,
+        36.032
+       ],
+       [
+        128.9,
+        36.0
+       ],
+       [
+        128.4,
+        36.1
+       ],
+       [
+        127.95,
+        36.15
+       ],
+       [
+        127.783,
+        36.175
+       ]
+      ],
+      "color": "blue",
+      "width": 1.1,
+      "at": 0.2
+     },
+     {
+      "k": "marker",
+      "p": "yeongdong",
+      "color": "blue",
+      "on": "영동까지"
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "제1기병사단 · 포항 → 영동",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "act": 7
+  },
+  {
+   "id": "s281",
+   "lines": [
+    {
+     "t": "7월 22일 지친 제24사단은 영동의 진지를 제1기병사단에 넘깁니다.",
+     "say": "칠월 이십이일 지친 제이십사사단은 영동의 진지를 제일기병사단에 넘깁니다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s281-photo",
+    "tag": "미 육군 사진"
+   },
+   "label": "미 제1기병사단 병사들 (1950. 7. 29)",
+   "callouts": [
+    {
+     "text": "7. 22 · 영동 진지 인계",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "act": 7
+  },
+  {
+   "id": "s282",
+   "lines": [
+    {
+     "t": "그 사이 제25사단도 상주 방면에 자리를 잡았죠.",
+     "say": "그 사이 제이십오사단도 상주 방면에 자리를 잡았죠."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s282-photo",
+    "tag": "미 해군 사진"
+   },
+   "label": "한국으로 떠나는 미 제25사단 (1950. 7. 12 · 일본 사세보)",
+   "act": 7
+  },
+  {
+   "id": "s283",
+   "lines": [
+    {
+     "t": "그리고 8월 초 미군과 국군은 낙동강을 따라 마지막 방어선을 완성합니다.",
+     "say": "그리고 팔월 초 미군과 국군은 낙동강을 따라 마지막 방어선을 완성합니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "south",
+    "to": "south",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        128.36,
+        35.04
+       ],
+       [
+        128.38,
+        35.25
+       ],
+       [
+        128.45,
+        35.4
+       ],
+       [
+        128.42,
+        35.6
+       ],
+       [
+        128.38,
+        35.85
+       ],
+       [
+        128.42,
+        36.02
+       ],
+       [
+        128.62,
+        36.12
+       ],
+       [
+        128.95,
+        36.16
+       ],
+       [
+        129.3,
+        36.2
+       ],
+       [
+        129.42,
+        36.12
+       ]
+      ],
+      "at": 0,
+      "glow": true
+     }
+    ],
+    "tilt": 22
+   },
+   "callouts": [
+    {
+     "text": "1950. 8월 초 · 마지막 방어선",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "act": 7
+  },
+  {
+   "id": "s284",
+   "lines": [
+    "바로 낙동강 방어선입니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "낙동강 방어선",
+    "style": "blue"
+   },
+   "act": 7
+  },
+  {
+   "id": "s285",
+   "lines": [
+    "만약 대전이 일주일 일찍 무너졌다면 어땠을까요."
+   ],
+   "visual": {
+    "type": "stage",
+    "chars": [
+     {
+      "c": "us_plead",
+      "x": 0.4,
+      "y": 0.9,
+      "h": 470,
+      "at": 0,
+      "flip": true,
+      "face": "worried",
+      "prop": "helmet",
+      "anim": "tilt"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "q",
+      "x": 0.73,
+      "y": 0.3,
+      "at": 0.2
+     }
+    ],
+    "title": "대전이 일주일 일찍 무너졌다면?"
+   },
+   "act": 7
+  },
+  {
+   "id": "s286",
+   "lines": [
+    "증원 부대가 자리를 잡기 전에 북한군이 남쪽으로 쏟아져 내려왔을지도 모릅니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "south",
+    "to": "south",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.425,
+        36.33
+       ],
+       [
+        128.0,
+        35.9
+       ],
+       [
+        128.6,
+        35.5
+       ],
+       [
+        129.04,
+        35.18
+       ]
+      ],
+      "color": "red",
+      "dash": true,
+      "at": 0.2
+     },
+     {
+      "k": "shock",
+      "pts": [
+       [
+        128.6,
+        35.5
+       ],
+       [
+        129.04,
+        35.18
+       ]
+      ],
+      "at": 0.6,
+      "period": 0.8
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "가정 · 자리 잡기 전에 쏟아져 내려오는 적",
+     "style": "red",
+     "at": 0,
+     "pos": "lower"
+    }
+   ],
+   "act": 7
+  },
+  {
+   "id": "s287",
+   "lines": [
+    "미 육군의 공식 전사는 대전 전투를 북한군의 큰 승리로 기록합니다."
+   ],
+   "visual": {
+    "type": "document",
+    "org": "애플먼 『낙동강에서 압록강까지』",
+    "head": "미 육군 공식 전사 (요지)",
+    "rows": [
+     "대전 전투 · 북한군의 큰 승리"
+    ],
+    "stamp": "公刊",
+    "note": "요지"
+   },
+   "act": 7
+  },
+  {
+   "id": "s288",
+   "lines": [
+    {
+     "t": "동시에 딘 소장이 번 시간 덕분에 제8군이 증원군을 불러올 수 있었다고 적었죠.",
+     "say": "동시에 딘 소장이 번 시간 덕분에 제팔군이 증원군을 불러올 수 있었다고 적었죠."
+    }
+   ],
+   "visual": {
+    "type": "document",
+    "org": "애플먼 『낙동강에서 압록강까지』",
+    "head": "미 육군 공식 전사 (요지)",
+    "rows": [
+     "대전 전투 · 북한군의 큰 승리",
+     "딘 소장이 번 시간으로",
+     "제8군은 증원군을 불러왔다"
+    ],
+    "stamp": "公刊",
+    "note": "요지"
+   },
+   "act": 7
+  },
+  {
+   "id": "s289",
+   "lines": [
+    "전술에서는 졌지만 전략에서는 이긴 싸움."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "전술",
+     "big": "패배",
+     "icon": "none",
+     "color": "red"
+    },
+    "right": {
+     "title": "전략",
+     "big": "승리",
+     "icon": "none",
+     "color": "blue",
+     "at": 0.6
+    }
+   },
+   "act": 7
+  },
+  {
+   "id": "s290",
+   "lines": [
+    "대전 전투가 오늘날 이렇게 불리는 이유입니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "대전 전투",
+    "style": "yellow",
+    "sub": "전술에서 지고 전략에서 이긴 싸움",
+    "subAt": 0.4
+   },
+   "act": 7
+  },
+  {
+   "id": "s291",
+   "lines": [
+    "그리고 대전은 한 가지를 더 남겼습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "대전이 남긴",
+    "accent": "또 하나",
+    "accentAt": 0.5
+   },
+   "act": 7
+  },
+  {
+   "id": "s292",
+   "lines": [
+    {
+     "t": "3.5인치 로켓포는 이 싸움 이후 빠르게 전선으로 보급됐습니다.",
+     "say": "삼점오인치 로켓포는 이 싸움 이후 빠르게 전선으로 보급됐습니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "superbazooka_flow",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "act": 7
+  },
+  {
+   "id": "s293",
+   "lines": [
+    {
+     "t": "사흘 뒤 영동에서도 제1기병사단이 같은 무기로 전차 3대를 잡았죠.",
+     "say": "사흘 뒤 영동에서도 제일기병사단이 같은 무기로 전차 세 대를 잡았죠."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "retreat",
+    "to": "retreat",
+    "items": [
+     {
+      "k": "marker",
+      "p": "yeongdong",
+      "color": "blue",
+      "at": 0.1
+     },
+     {
+      "k": "clash",
+      "p": "yeongdong",
+      "at": 0.4,
+      "period": 0.9,
+      "size": 0.8
+     }
+    ],
+    "tilt": 24
+   },
+   "callouts": [
+    {
+     "text": "사흘 뒤 · 영동 · 전차 3대 격파",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "act": 7
+  },
+  {
+   "id": "s294",
+   "lines": [
+    "국군도 이 무기를 손에 쥐게 됩니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s294-photo",
+    "tag": "NARA · 국사편찬위원회"
+   },
+   "label": "전선으로 향하는 국군 (1950. 7. 5)",
+   "act": 7
+  },
+  {
+   "id": "s295",
+   "lines": [
+    "전차는 더 이상 무적이 아니었습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s295-photo",
+    "tag": "미 육군 사진"
+   },
+   "label": "격파된 북한군 T-34 전차 (1950. 9)",
+   "act": 7
+  },
+  {
+   "id": "s296",
+   "lines": [
+    "그 첫 증거가 대전의 불타는 거리였습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s296-photo",
+    "tag": "미 육군 통신대"
+   },
+   "label": "대전에서 격파된 북한군 전차 (1950. 7. 20)",
+   "act": 7
+  },
+  {
+   "id": "s297",
+   "lines": [
+    {
+     "t": "1953년 9월 4일 판문점.",
+     "say": "천구백오십삼년 구월 사일 판문점."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s297-photo",
+    "tag": "NARA"
+   },
+   "label": "판문점 포로 교환 '빅 스위치' (1953)",
+   "callouts": [
+    {
+     "text": "1953. 9. 4 · 판문점",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "act": 7
+  },
+  {
+   "id": "s298",
+   "lines": [
+    {
+     "t": "3년 동안 포로로 잡혀 있던 딘 소장이 돌아옵니다.",
+     "say": "삼 년 동안 포로로 잡혀 있던 딘 소장이 돌아옵니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "dean_return",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "act": 7
+  },
+  {
+   "id": "s299",
+   "lines": [
+    "그는 그제야 자신이 명예훈장을 받았다는 사실을 알게 됩니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "명예훈장",
+    "style": "yellow",
+    "sub": "3년 만에 안 사실",
+    "subAt": 0.4
+   },
+   "act": 7
+  },
+  {
+   "id": "s300",
+   "lines": [
+    "그런데 딘은 오히려 이렇게 말했습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "그런데 딘은",
+    "accent": "오히려",
+    "accentAt": 0.5
+   },
+   "act": 7
+  },
+  {
+   "id": "s301",
+   "lines": [
+    "자신은 군사 재판에 설 줄 알았다고."
+   ],
+   "visual": {
+    "type": "document",
+    "org": "타임 「The Dean Story」 1953",
+    "head": "딘 소장 (요지)",
+    "rows": [
+     "나는 군사 재판에 설 줄 알았다"
+    ],
+    "stamp": "回顧",
+    "note": "요지"
+   },
+   "act": 7
+  },
+  {
+   "id": "s302",
+   "lines": [
+    "나의 영웅담은 크게 부풀려졌다고요."
+   ],
+   "visual": {
+    "type": "document",
+    "org": "타임 「The Dean Story」 1953",
+    "head": "딘 소장 (요지)",
+    "rows": [
+     "나는 군사 재판에 설 줄 알았다",
+     "나의 영웅담은 크게 부풀려졌다"
+    ],
+    "stamp": "回顧",
+    "note": "요지"
+   },
+   "act": 7
+  },
+  {
+   "id": "s303",
+   "lines": [
+    "사단을 지휘해야 할 장군이 병사처럼 싸우다 길을 잃었다는 비판도 그는 피하지 않았습니다."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "비판",
+     "big": "병사처럼 싸운 장군",
+     "icon": "none",
+     "color": "red"
+    },
+    "right": {
+     "title": "그는",
+     "big": "피하지 않았다",
+     "icon": "none",
+     "color": "dark",
+     "at": 0.6
+    }
+   },
+   "act": 7
+  },
+  {
+   "id": "s304",
+   "lines": [
+    "하지만 그와 함께 대전의 거리에 섰던 병사들은 다르게 기억합니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "하지만 병사들은",
+    "accent": "다르게 기억한다",
+    "accentAt": 0.5
+   },
+   "act": 7
+  },
+  {
+   "id": "s305",
+   "lines": [
+    "가장 무서운 순간에 사단장이 바로 곁에서 전차를 쫓고 있었다고요."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "dean_beside",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "act": 7
+  },
+  {
+   "id": "s306",
+   "lines": [
+    "지금도 해마다 칠월이면 대전에서는 그날 싸운 이들을 기리는 추모식이 열립니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "memorial_daejeon",
+    "kb": "in"
+   },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "해마다 7월 · 대전 전투 추모식",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "act": 7
+  },
+  {
+   "id": "s307",
+   "lines": [
+    "한국과 미국의 군인들이 함께 그 자리에 서죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "함께 선 두 나라의 군인",
+    "style": "blue",
+    "sub": "한국 · 미국",
+    "subAt": 0.4
+   },
+   "act": 7
+  },
+  {
+   "id": "s308",
+   "lines": [
+    "사단장을 잃고 도시를 내준 이틀."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "대전의 이틀",
+    "style": "red",
+    "sub": "사단장을 잃고 도시를 내준",
+    "subAt": 0.4
+   },
+   "act": 7
+  },
+  {
+   "id": "s309",
+   "lines": [
+    "그 이틀이 낙동강 방어선의 첫 벽돌이 됐습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s309-photo",
+    "tag": "미 육군 통신대"
+   },
+   "label": "낙동강 전선의 제24사단 제19연대 (1950. 9. 19)",
+   "callouts": [
+    {
+     "text": "낙동강 방어선의 첫 벽돌",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "act": 7
+  },
+  {
+   "id": "s310",
+   "lines": [
+    "오늘 이야기가 마음에 남으셨다면 구독과 좋아요 그리고 주변 분들께 공유 부탁드립니다.",
+    "격전의 지도는 다음 이야기에서 또 다른 전장을 찾아가겠습니다."
+   ],
+   "visual": {
+    "type": "endcard",
+    "title": "대전의 거리에서 시간을 번\n모든 이들을 기억하며",
+    "q": "s310-photo"
+   },
+   "tail": 1.0,
+   "act": 7
+  }
+ ]
+}

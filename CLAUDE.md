@@ -63,6 +63,8 @@
 
 | 28 포항 안강·기계 전투 & 형산강 방어선 (1950) — 학도병 71명 · 콜드 오프닝 + 제1~7막 · **한국어 단일 · Minho · 스타일 v2** · 목표 21:00 | `ep28-pohang` | 대본 8,862자 · 318장면 · target_sec 1260 (첫 미리보기 21:00 그대로) | 21:00.1 · -15.0 LUFS · 1.29GB · 자막 441줄 · 렌더 약 3시간 15분 · 릴리스 `ep28-pohang-20261115-0422` | 없음 — 미드롤 `s094`·`s181`·`s265`(제3·5·7막 직전), CTA1 3막 끝 `cta`. 지형 `pohang_sea`(z12, 바다 씨앗)·`pohang_zoom_sea`(z14)·`angang_zoom`(z14) 추가 — 포항여중·곤제봉·운제산·기관총 진지·형산강 강조선 좌표 개략. **뷰 세로 범위는 경도 폭의 약 0.42배**(span 1.9는 위도 0.8뿐 — 첫 미리보기에서 부산·영덕이 화면 밖으로 잘려 perimeter 2.5·ne 1.4·pohang 0.45·corridor 0.36으로 키움). ⚠️ stage 소품 `cap`은 별 달린 군모라 학도병에 쓰면 북한군처럼 보임 → 학생은 소품 없이·glasses·headband. 재사용 그림 14장(naktong·ep23·ep27, 파일·서명 복사) — ⚠️ naktong `fog_mountain`은 미군 볼이 섞여 있어 북한군 장면에 쓰지 말 것. 새 그림 26장 + thumb_subject(세션 rembg → `thumb_cut.png`, 총에 시대에 안 맞는 탄창 — 하단 글자에 가려짐). 사진 25장 스카우트 핀. 썸네일 v5 `PAROHO_STD["ep28-pohang"]`(지시서 카피 그대로 — 따옴표 '10시간'은 기록상 11시간, 도장 '11시간 사수'). 지시서 교정: 안강·기계 차단은 '수도사단+제8사단' → 수도사단+포항 지구 전투 사령부(제8사단은 영천 방면), 영일 비행장은 8. 13 공군 철수(지상 부대는 잔류) |
 
+| 29 대전 전투 (1950) — 3.5인치 바주카의 첫 일격 & 딘 소장 실종 · 콜드 오프닝 + 제1~7막 · **한국어 단일 · Minho · 스타일 v2 · 초반 후킹 표준·썸네일 v2 첫 적용** · 목표 20:30 | `ep29-daejeon` | 대본 8,632자 · 310장면 · target_sec 1230 | (렌더 후 기록) | 없음 — **새 기능 (docs/HOOK_STANDARD.md)**: 장면 필드 `hook`(`hud[]` 좌측 상단 수치 카드 카운트업 · `neg` 통념 붉은 X · `question` 핵심 질문 카드 — `remotion/Hook.tsx`, `timeline.py`가 `hook` 통과), 화면 `troops`(3D 아이소메트릭 병력 대열, `keep`/`keepAt`로 손실 비율). 썸네일 v2 `PAROHO_V2["ep29-daejeon"]`(고정 인물 폐기 · `thumb_bg` Full-Bleed · 대형 2줄 카피 · 시안 `alt`). 미드롤 `s098`·`s168`·`s258`(제3·5·7막 첫 장면), HUD 구독 오버레이 3막 끝. 지형 `chungcheong`(z11)·`daejeon_zoom`(z14) 추가 — 대전 비행장·서쪽 교차로·터널 구간·금산 길 차단선·금강 강조선 좌표 개략. 사진 13종은 다른 에피소드 스카우트 catalog에서 설명을 확인한 파일 재사용(스카우트 생략), 그림 58장 새로 + `t34_column` 재사용(dabudong). 2026-11-18 세션: 이전 세션 zip에 빠진 storyboard·문서는 이 세션에서 새로 작성 |
+
 | EN-08 장진호 전투 (1950) — 《Map of War》 영문 단독판 | `ep08-chosin` | → **2026-11-12 `korea1278/map-of-war`로 이전** (대본·스토리보드·재료·미리보기 전부). 이 저장소에 남은 관련 엔진 개선: `tts.py` 막 단위 모드(`tts_mode: "act"`), 지도 HUD `temp`, HUD 구독 오버레이 영문화, 지형 `yudam_zoom`·`funchilin_zoom` | | |
 
 → **분량 환산 (EP14·15 실측)**: 콜드 오프닝 6막 구조에서 190자 늘리면 약 25초 늘어남(약 7.6자/초) → **7,980자 = 19:20, 8,170자 = 19:45**. 19:30~20:00을 맞추려면 8,100~8,300자
@@ -96,6 +98,11 @@
   3. **질문 → 짧은 답 → 반응**: "그런데 이 목록에 좀 뜻밖의 나라가 하나 끼어 있습니다" → "바로 아프리카의 에티오피아" → 캐릭터 반응 말풍선("어? 여긴..?", "도와주세요!!"). 어려운 개념은 생활 비유로("보험 증서", "보험료 납부")
   4. 문서·조약·신문은 `document` 카드로 요점 2~4줄 + 도장/붉은 X, 목록·이유는 체크리스트·번호 카드로 하나씩 `on`에 맞춰 띄우고 지워 나간다
   5. 사료 사진은 좌상단 작은 출처 라벨 + 말하는 순간 뜨는 노란/빨간 강조 라벨
+
+## ★ 초반 후킹 표준 + 썸네일 v2 (2026-11-18 사용자 지시서 · EP29 `ep29-daejeon`부터 모든 신규 롱폼 · 필수 참조 `docs/HOOK_STANDARD.md`)
+- 콜드 오프닝 60초 = 절정 장면 → 좌측 상단 수치 HUD 누적(`hook.hud`) + 병력 대열(`troops`) → 통념 붉은 X(`hook.neg`) → 핵심 질문 카드(`hook.question`) → 타이틀. 질문 카드는 회수 장면에서 같은 문구로 다시 띄운다
+- 썸네일 한국어 A안은 **v2 `PAROHO_V2`가 v5(`PAROHO_STD`)보다 우선**: 고정 흑백 인물 폐기, 에피소드 고유 장면 `thumb_bg` Full-Bleed, 하단 대형 2줄(줄당 6~9자) — 카피 프레임 '열세를 뒤집은 통쾌한 역전·기습 승리'
+- 분석 근거 `docs/HOOK_ANALYSIS_JIDOSA.md`
 
 ## ☑ 화면 업그레이드 2단계 — 레퍼런스 수준 디자인 통일 (2026-11-12 사용자 확정 · **EP26 승호리에서 구현 완료** · war-docu·map-of-war 공통)
 > 구현: `remotion/Stage.tsx` (stage · flatmap · flaggrid · checklist · reasons · PhotoTag/PhotoMarks · 국기 SVG `Flag` kr/us/cn/nk/uk/su/un/et/jp/?), 종이 질감 `public/ui/paper.jpg`, 캐릭터 생성 `pipeline/chars.py` + Actions "캐릭터 라이브러리 만들기"(`make-chars.yml`, 입력 only=다시 만들 이름). 사용 예시는 `episodes/ep26-seungho/make_board.py` 헬퍼(C·pop·stage·flat·fpin·route·reasons·checklist)
@@ -175,7 +182,7 @@
    - `curl -L -H "Authorization: token $(gh auth token)" -H "Accept: application/octet-stream" https://api.github.com/repos/korea1278/war-docu/releases/assets/<id>`
    - 길이 8:15~8:30(영문판 +10초까지 허용), 음량 -15 LUFS ±1 (`ffmpeg -af ebur128`), 장면 샘플 프레임 육안 확인(**지도 장면 프레임을 반드시 1장 이상 포함해 자막 확인**), SRT 확인
    - `logs/errors.txt`에 경고가 있으면 원인 해결 후 재실행
-9. **썸네일** — ★★★★★ **썸네일 표준 v5 = '파로호 공식' (2026-11-08 사용자 지시서 · 채널 최고 성과 EP13 분석 · 앞으로 만드는 모든 롱폼 한국어 A안 기본 — 아래 v4 이하는 기존 에피소드 기록용)**
+9. **썸네일** — (2026-11-18~ 신규 편은 위 '초반 후킹 표준 + 썸네일 v2'의 `PAROHO_V2`가 우선 · 아래 v5는 EP23~28 기록용) ★★★★★ **썸네일 표준 v5 = '파로호 공식' (2026-11-08 사용자 지시서 · 채널 최고 성과 EP13 분석 · 앞으로 만드는 모든 롱폼 한국어 A안 기본 — 아래 v4 이하는 기존 에피소드 기록용)**
    - 구현: `remotion/Thumbnail.tsx`의 `PAROHO_STD` 표에 에피소드 한 줄(`ThumbnailProps`) → `ParohoThumb`가 렌더 (COLLAGE·FRONT·MAPT보다 우선). 기존 에피소드는 표에 없으므로 그대로. `paroho:sample`은 지시서 예시 검수용
    - 필수: `quote`(따옴표 자동) · `titleLine1` · `titleLine2` · `mapImage` · `characterCutout` (public 기준 경로), 선택: `stampText` · `targets`(타깃 링 `{x,y,r,label}`) · `arrows`(`{pts,color}`, 마지막 점이 화살촉 · color는 `red`=적 / `ally`=아군 노랑 `#FFD400` — **강·호수와 같은 파랑 금지**, 2026-11-08 사용자 수정) · `mapCrop`(`{cx,cy,zoom}`) · `characterPos` · `stampPos` — 좌표는 캔버스 픽셀(1920×1080), 전황은 x 1056 안쪽에
    - 규격: 좌 55% 흑백 고대비 지도 + 붉은 타깃 링·진격 화살표 / 우 45% 인물 흑백 누끼 + 흰 림 외곽선 / 좌상단 따옴표 56~64px `#FF2222` / 하단 2줄 좌측 정렬 left 60 — Line 1 흰색, Line 2 `#FF2222`, Pretendard Black. **글자 크기 (2026-11-08 사용자 수정, 지시서의 고정 104/116px 대체)**: 더 중요한 줄(`emphasis`, 기본 2)이 안전 폭을 꽉 채우고(상한 190px), 다른 줄도 강조 줄의 86% 안에서 최대한 폭을 채워 빈 공간을 없앰. 글자 묶음 높이 400px 상한으로 얼굴 보호 / 그라데이션은 텍스트 높이만큼만

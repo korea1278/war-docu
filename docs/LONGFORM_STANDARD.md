@@ -42,3 +42,10 @@
 | 4. 결정론 렌더 | Remotion `useCurrentFrame()`/fps 기반만 사용 — 새 컴포넌트에서도 `Date.now()`·`setTimeout`·`Math.random()` 금지 (난수는 hash 결정론) |
 
 - 적용 기록: EP26 `ep26-seungho` — `"sfx_policy": "doc"`, `"bgm_rel_db": -24` (나레이션 -17.9 LUFS 기준, BGM 볼륨 0.03~0.07). 기존 효과음 큐 28개(꽝·심장박동·hit 등) 삭제 → 막 전환 스윕 6·비행 스윕·먼 포성·바람·레이더 핑 4 등 28개 배치(쿨다운·금지로 14개 제외), TTS 재호출 없이 기존 `public/ep/ep26-seungho/tts` 재사용해 재렌더링 (2026-11-13)
+
+---
+
+## 5. 초반 후킹 표준 (2026-11-18 추가 · EP29부터)
+- 새 롱폼의 콜드 오프닝은 `docs/HOOK_STANDARD.md`(수치 HUD · 통념 X · 핵심 질문 카드 · 병력 대열)를 따른다. 부품은 `remotion/Hook.tsx` — 전부 frame 기반 결정론(이 문서 4번)
+- 후킹 부품에는 효과음을 붙이지 않는다 (이 문서 2번 '절제된 다큐 SFX' 그대로)
+- 썸네일 한국어 A안은 v2(`PAROHO_V2`) — 에피소드 고유 장면 Full-Bleed + 대형 2줄 카피
