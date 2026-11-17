@@ -1457,10 +1457,85 @@ export const ParohoThumb: React.FC<{ d: ThumbnailProps }> = ({ d }) => {
   );
 };
 
+
+/* =====================================================================================
+ * ★★★★ 썸네일 표준 PAROHO_STD v2 (2026-11-18 사용자 지시서 docs/HOOK_STANDARD.md B항 · EP29 ep29-daejeon부터 모든 신규 롱폼 한국어 A안)
+ *   - 고정 흑백 군인 얼굴 사진 전면 폐기 (반복 기시감·CTR 저하)
+ *   - 에피소드 고유 메인 비주얼을 배경 전체(Full-Bleed)로 — 결정적 전황 장면(AI 재연 그림 또는 3D 지형)
+ *   - 하단 다크 비네팅 위 대형 2줄 압축 카피(줄당 6~9자) — v5 대비 2.5~3배(최대 340px), 실측 폭으로 x 1720 안에 꽉 채움
+ *   - 카피 프레임: '열세를 뒤집은 통쾌한 역전·기습 승리'
+ * ===================================================================================== */
+export interface ThumbV2Props {
+  bg: string; // public 기준 메인 비주얼 경로 (Full-Bleed)
+  bgPos?: string; // object-position (기본 "50% 40%")
+  bgFilter?: string; // 기본: 살짝 대비 강조
+  line1: string; // 위 줄 (흰색)
+  line2: string; // 아래 줄 (강조색)
+  color2?: string; // 기본 #FFD400 (머스터드 옐로) — 붉은 화염 배경이면 노랑이 더 잘 보임
+  badge?: string; // 선택: 좌상단 작은 배지 (예: "1950. 7. 20 대전")
+  targets?: ThumbTarget[];
+  arrows?: ThumbArrow[];
+  alt?: { line1: string; line2: string; color2?: string }; // A2 카피 시안
+}
+export const PAROHO_V2: Record<string, ThumbV2Props> = {
+  // EP29 대전 전투 — 배경: 이층 창가에서 3.5인치 로켓포로 T-34를 잡는 재연 그림(thumb_bg, AI). 카피는 '무적 전차를 깬 역전' 프레임
+  "ep29-daejeon": {
+    bg: "ep/ep29-daejeon/ai/thumb_bg.jpg",
+    bgPos: "50% 38%",
+    line1: "무적 전차를",
+    line2: "장군이 부쉈다",
+    badge: "1950. 7. 20 대전",
+    alt: { line1: "바주카 첫 일격", line2: "T-34 10대 격파" }, // ALTS:ep29-daejeon
+  },
+};
+const V2 = { left: 60, safeRight: 200, bottom: 40, max: 340, min: 120, gap: -0.06 };
+export const ParohoV2Thumb: React.FC<{ d: ThumbV2Props }> = ({ d }) => {
+  const measure = useP5Measure([d.line1, d.line2, d.badge || ""]);
+  const W = CW - V2.left - V2.safeRight - 16;
+  const fit = (t: string, cap: number) => (measure ? Math.max(V2.min, Math.min(cap, Math.floor(W / Math.max(0.5, measure(t))))) : 200);
+  const s2 = fit(d.line2, V2.max);
+  const s1 = Math.min(fit(d.line1, V2.max), Math.round(s2 * 0.92));
+  const c2 = d.color2 || "#FFD400";
+  const txt = (t: string, size: number, color: string): React.ReactNode => (
+    <div
+      style={{
+        fontFamily: P5.font, fontWeight: 900, fontSize: size, lineHeight: 1.0, letterSpacing: "-0.02em", color, whiteSpace: "nowrap",
+        WebkitTextStroke: `${Math.round(size * 0.07)}px #000`, paintOrder: "stroke fill",
+        textShadow: `0 ${Math.round(size * 0.03)}px 0 #000, 0 ${Math.round(size * 0.06)}px 0 #000, 0 ${Math.round(size * 0.1)}px ${Math.round(size * 0.12)}px rgba(0,0,0,.9)`,
+      }}
+    >
+      {t}
+    </div>
+  );
+  return (
+    <AbsoluteFill style={{ background: "#000", overflow: "hidden" }}>
+      <style>{`@font-face{font-family:'Pretendard';font-weight:900;font-style:normal;src:url(${staticFile("fonts/Pretendard-Black.woff2")}) format('woff2');}`}</style>
+      <Img src={staticFile(d.bg)} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", objectPosition: d.bgPos || "50% 40%", filter: d.bgFilter || "contrast(1.12) saturate(1.08)" }} />
+      {/* 하단 다크 비네팅 + 가장자리 비네트 */}
+      <AbsoluteFill style={{ background: "linear-gradient(to top, rgba(0,0,0,.96) 0%, rgba(0,0,0,.9) 30%, rgba(0,0,0,.55) 52%, rgba(0,0,0,0) 70%)" }} />
+      <AbsoluteFill style={{ background: "radial-gradient(ellipse at 50% 40%, rgba(0,0,0,0) 55%, rgba(0,0,0,.55) 100%)" }} />
+      <svg width={CW} height={1080} style={{ position: "absolute", inset: 0 }}>
+        {(d.targets || []).map((t, i) => <P5Target key={i} t={t} />)}
+        {(d.arrows || []).map((a, i) => <P5Arrow key={i} a={a} />)}
+      </svg>
+      {d.badge && (
+        <div style={{ position: "absolute", left: 50, top: 44, padding: "10px 26px 12px", background: "#C9242C", border: "5px solid #fff", fontFamily: P5.font, fontWeight: 900, fontSize: 54, color: "#fff", boxShadow: "0 8px 24px rgba(0,0,0,.6)" }}>{d.badge}</div>
+      )}
+      <div style={{ position: "absolute", left: V2.left, bottom: V2.bottom, display: "flex", flexDirection: "column", gap: Math.round(s2 * V2.gap) }}>
+        {txt(d.line1, s1, "#FFFFFF")}
+        {txt(d.line2, s2, c2)}
+      </div>
+    </AbsoluteFill>
+  );
+};
+
 export const Thumbnail: React.FC<{ ep: string; variant: "A" | "A2" | "A3" | "B"; lang?: string }> = ({ ep, variant, lang }) => {
   setLang(lang);
   const refKey = ep.replace(/_en$/, "");
   const refD = (lang === "en" ? REF_EN : REF)[refKey];
+  // ★★★★ 썸네일 표준 v2 (2026-11-18~, 고정 인물 폐기·Full-Bleed·대형 2줄): PAROHO_V2 표에 있는 에피소드
+  if (variant === "A" && lang !== "en" && PAROHO_V2[refKey]) return <ParohoV2Thumb d={PAROHO_V2[refKey]} />;
+  if (variant === "A2" && lang !== "en" && PAROHO_V2[refKey]?.alt) return <ParohoV2Thumb d={{ ...PAROHO_V2[refKey], ...PAROHO_V2[refKey].alt! }} />;
   // ★★★ 썸네일 표준 v5 (파로호 공식, 2026-11-08~): PAROHO_STD 표에 있는 에피소드는 한국어 A안을 이 디자인으로
   if (variant === "A" && lang !== "en" && PAROHO_STD[refKey]) return <ParohoThumb d={PAROHO_STD[refKey]} />;
   // ★★ 썸네일 표준 v4 (스토리텔링 꼴라주 + 3D 몬스터 타이포, 2026-11-02~): COLLAGE 표에 있는 에피소드는 한국어 A안을 이 디자인으로

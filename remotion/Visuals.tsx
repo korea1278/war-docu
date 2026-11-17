@@ -3,6 +3,7 @@ import { AbsoluteFill, Img, staticFile } from "remotion";
 import { atSec, C, clamp, easeInOut, easeOut, F, fitFont, NOBREAK, popIn, S, Timeline } from "./theme";
 import { Bubble, CalloutBox, KenBurns, Slate, useScene, useSince, useT } from "./ui";
 import { MapView } from "./MapView";
+import { TroopsV } from "./Hook";
 import { ChecklistV, FlagGridV, FlatMapV, PhotoMarks, PhotoTag, Pops, ReasonsV, StageV } from "./Stage";
 
 /** 사진이 없을 때 대체 배경 */
@@ -916,6 +917,8 @@ export const Visual: React.FC<{ tl: Timeline }> = ({ tl }) => {
       return <ChecklistV />;
     case "reasons":
       return <ReasonsV />;
+    case "troops":
+      return <TroopsV />;
     default:
       return <Slate />;
   }

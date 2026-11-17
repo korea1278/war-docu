@@ -1,6 +1,7 @@
 import React from "react";
 import { AbsoluteFill, Audio, interpolate, Loop, Sequence, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { atSec, S, setLang, Timeline } from "./theme";
+import { HookOverlays } from "./Hook";
 import { Callouts, ChapterOverlay, GlobalSubtitleOverlay, Grain, HudCta, LabelBox, SceneCtx, Vignette, Z } from "./ui";
 import { Visual } from "./Visuals";
 
@@ -123,6 +124,7 @@ export const Documentary: React.FC<{ ep: string; tl: Timeline | null }> = ({ tl 
               <Callouts />
               <ChapterOverlay />
               {(sc as any).hudCta && <HudCta />}
+              {(sc as any).hook && <HookOverlays />}
               {(sc as any).flash && <Flash />}
               </AbsoluteFill>
               <SceneAudio tl={tl} i={i} />
