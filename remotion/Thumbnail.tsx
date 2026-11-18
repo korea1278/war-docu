@@ -1459,49 +1459,111 @@ export const ParohoThumb: React.FC<{ d: ThumbnailProps }> = ({ d }) => {
 
 
 /* =====================================================================================
- * ★★★★ 썸네일 표준 PAROHO_STD v2 (2026-11-18 사용자 지시서 docs/HOOK_STANDARD.md B항 · EP29 ep29-daejeon부터 모든 신규 롱폼 한국어 A안)
- *   - 고정 흑백 군인 얼굴 사진 전면 폐기 (반복 기시감·CTR 저하)
- *   - 에피소드 고유 메인 비주얼을 배경 전체(Full-Bleed)로 — 결정적 전황 장면(AI 재연 그림 또는 3D 지형)
- *   - 하단 다크 비네팅 위 대형 2줄 압축 카피(줄당 6~9자) — v5 대비 2.5~3배(최대 340px), 실측 폭으로 x 1720 안에 꽉 채움
- *   - 카피 프레임: '열세를 뒤집은 통쾌한 역전·기습 승리'
+ * ★★★★★ 썸네일 표준 v3 = 레퍼런스 '베트콩 시점' 공식 (2026-11-18 사용자 지시 · war-docu·map-of-war 공통 · 이후 모든 신규 롱폼 한국어 A안)
+ *   (PAROHO_V2 표 이름·필드는 그대로 두고 디자인만 교체 — 기존 등록분도 이 디자인으로 렌더)
+ *   ① 배경: 에피소드 대본 핵심 장면의 사료 사진(또는 재연 그림) Full-Bleed **흑백**(gray 기본 true) — 장면 사진 `ep/<ep>/photos/sNNN_photo_0.jpg` 그대로 지정 가능
+ *   ② 최상단 가운데: 검은 라운드 박스 한 줄 `top` — “ ” 안 문구는 노랑 강조 (예: “베트콩 시점”에서 보는 한국군의 전투력)
+ *   ③ 사진 위 흰 라벨 + 휘어진 흰 화살표 `note` {text, x, y(라벨 중심), to:[x,y](가리킬 곳)} (예: 당시 파병된 한국군)
+ *   ④ 하단: 사진이 솔리드 블랙 바닥판으로 녹아들고 그 위 2줄 카피 — Line 1 흰색 / Line 2 빨강 #FF2B2B (조금 더 크게)
+ *      글자 크기: 실측 글꼴 폭으로 좌우 56px 여백 안(1808px)을 꽉 채움, Line 2 상한 210px, Line 1은 Line 2의 94% 이하
+ *      줄당 9~13자 권장 — 120px 밑으로 내려가면 카피를 줄일 것
+ *   ⑤ 오른쪽 아래 재생시간 배지 여백 없음 (2026-11-18 사용자: 시간 표시는 넣지 않음 → 글자를 가로 끝까지)
+ *   카피 공식: top = “[적·상대] 시점”에서 본 [주인공]의 [무엇] / Line 1 = [강한 상대·불리한 전제] / Line 2 = [의외의 결과] + "~한 이유"
  * ===================================================================================== */
 export interface ThumbV2Props {
-  bg: string; // public 기준 메인 비주얼 경로 (Full-Bleed)
+  bg: string; // public 기준 배경 경로 (Full-Bleed) — 사료 사진 권장
   bgPos?: string; // object-position (기본 "50% 40%")
-  bgFilter?: string; // 기본: 살짝 대비 강조
+  bgFilter?: string; // 직접 지정하면 gray보다 우선
+  gray?: boolean; // 기본 true (흑백 다큐 사진 톤)
   line1: string; // 위 줄 (흰색)
-  line2: string; // 아래 줄 (강조색)
-  color2?: string; // 기본 #FFD400 (머스터드 옐로) — 붉은 화염 배경이면 노랑이 더 잘 보임
-  badge?: string; // 선택: 좌상단 작은 배지 (예: "1950. 7. 20 대전")
+  line2: string; // 아래 줄 (빨강)
+  color2?: string; // 기본 #FF2B2B
+  top?: string; // 최상단 검은 박스 한 줄 — “ ” 안은 노랑
+  note?: ThumbNote; // 사진 설명 라벨 + 화살표
+  badge?: string; // (이전 v2) 좌상단 붉은 배지 — 새 공식에서는 쓰지 않음
   targets?: ThumbTarget[];
   arrows?: ThumbArrow[];
-  alt?: { line1: string; line2: string; color2?: string }; // A2 카피 시안
+  alt?: { line1: string; line2: string; color2?: string; top?: string; note?: ThumbNote }; // A2 카피 시안
 }
+export type ThumbNote = { text: string; x: number; y: number; to: [number, number]; size?: number };
 export const PAROHO_V2: Record<string, ThumbV2Props> = {
-  // EP29 대전 전투 — 배경: 이층 창가에서 3.5인치 로켓포로 T-34를 잡는 재연 그림(thumb_bg, AI). 카피는 '무적 전차를 깬 역전' 프레임
+  // EP29 대전 전투 — 배경: 사료 사진 'General Dean's Kill!'(1950. 7. 20 딘 소장 지휘 아래 격파된 T-34, 미 육군, 퍼블릭 도메인) 흑백
+  //   카피: 오산에서 2.36인치 바주카가 튕겨 나간 T-34(사료 확인) → 대전에서 3.5인치 로켓포·사단장 직접 지휘로 격파
   "ep29-daejeon": {
-    bg: "ep/ep29-daejeon/ai/thumb_bg.jpg",
-    bgPos: "50% 38%",
-    line1: "무적 전차를",
-    line2: "장군이 부쉈다",
-    badge: "1950. 7. 20 대전",
-    alt: { line1: "바주카 첫 일격", line2: "T-34 10대 격파" }, // ALTS:ep29-daejeon
+    bg: "ep/ep29-daejeon/photos/s006_photo_0.jpg",
+    bgPos: "50% 30%",
+    top: "“T-34 전차병 시점”에서 본 대전 시가전",
+    line1: "바주카도 튕겨낸 T-34가",
+    line2: "장군 손에 사냥당한 이유",
+    note: { text: "딘 소장이 잡은 T-34", x: 1560, y: 215, to: [1150, 400] },
+    alt: { line1: "사단장이 직접 탱크를", line2: "잡으러 나간 이유" }, // ALTS:ep29-daejeon
   },
 };
-const V2 = { left: 60, safeRight: 200, bottom: 40, max: 340, min: 120, gap: -0.06 };
-export const ParohoV2Thumb: React.FC<{ d: ThumbV2Props }> = ({ d }) => {
-  const measure = useP5Measure([d.line1, d.line2, d.badge || ""]);
-  const W = CW - V2.left - V2.safeRight - 16;
-  const fit = (t: string, cap: number) => (measure ? Math.max(V2.min, Math.min(cap, Math.floor(W / Math.max(0.5, measure(t))))) : 200);
-  const s2 = fit(d.line2, V2.max);
-  const s1 = Math.min(fit(d.line1, V2.max), Math.round(s2 * 0.92));
-  const c2 = d.color2 || "#FFD400";
-  const txt = (t: string, size: number, color: string): React.ReactNode => (
+
+const V3 = { side: 56, bottom: 30, max2: 210, max1: 200, min: 110, ratio1: 0.94, gap: 0.02, red: "#FF2B2B", yellow: "#FFD83A" };
+const V3TopLine: React.FC<{ text: string; size: number; font: string }> = ({ text, size, font }) => {
+  // “…” 구간(따옴표 포함)은 노랑, 나머지는 흰색
+  const parts = text.split(/(“[^”]*”|"[^"]*")/).filter(Boolean);
+  return (
+    <div style={{ position: "absolute", top: 26, left: 0, right: 0, display: "flex", justifyContent: "center" }}>
+      <div style={{ background: "rgba(0,0,0,.9)", borderRadius: 16, padding: `${Math.round(size * 0.2)}px ${Math.round(size * 0.55)}px ${Math.round(size * 0.26)}px`, fontFamily: font, fontWeight: 900, fontSize: size, lineHeight: 1.1, letterSpacing: "-0.02em", whiteSpace: "nowrap", color: "#fff", boxShadow: "0 6px 20px rgba(0,0,0,.5)" }}>
+        {parts.map((p, i) => <span key={i} style={{ color: /^[“"]/.test(p) ? V3.yellow : "#fff" }}>{p}</span>)}
+      </div>
+    </div>
+  );
+};
+const V3Note: React.FC<{ n: ThumbNote; font: string; w: number }> = ({ n, font, w }) => {
+  const size = n.size ?? 48;
+  const bw = w * size + size * 0.9;
+  const bh = size * 1.5;
+  // 라벨 가장자리(가리킬 곳 쪽)에서 출발하는 휘어진 화살표
+  const [tx, ty] = n.to;
+  const sx = Math.max(n.x - bw / 2 + 20, Math.min(n.x + bw / 2 - 20, tx));
+  const sy = ty > n.y ? n.y + bh / 2 + 8 : n.y - bh / 2 - 8;
+  const dx = tx - sx, dy = ty - sy;
+  const cx = sx + dx * 0.15 + (dy > 0 ? -1 : 1) * Math.abs(dy) * 0.5 * Math.sign(dx || 1);
+  const cy = sy + dy * 0.85;
+  const ang = Math.atan2(ty - cy, tx - cx);
+  const L = 30;
+  const head = `M ${tx} ${ty} L ${tx - L * Math.cos(ang - 0.5)} ${ty - L * Math.sin(ang - 0.5)} M ${tx} ${ty} L ${tx - L * Math.cos(ang + 0.5)} ${ty - L * Math.sin(ang + 0.5)}`;
+  const path = `M ${sx} ${sy} Q ${cx} ${cy} ${tx} ${ty}`;
+  return (
+    <>
+      <svg width={CW} height={1080} style={{ position: "absolute", inset: 0 }}>
+        {[["#000", 13, 0.55], ["#fff", 7, 1]].map(([c, sw, op], i) => (
+          <g key={i} fill="none" stroke={c as string} strokeWidth={sw as number} strokeLinecap="round" strokeLinejoin="round" opacity={op as number}>
+            <path d={path} />
+            <path d={head} />
+          </g>
+        ))}
+      </svg>
+      <div style={{ position: "absolute", left: n.x - bw / 2, top: n.y - bh / 2, width: bw, height: bh, background: "#fff", borderRadius: 14, display: "flex", alignItems: "center", justifyContent: "center", fontFamily: font, fontWeight: 900, fontSize: size, color: "#111", letterSpacing: "-0.02em", whiteSpace: "nowrap", boxShadow: "0 6px 18px rgba(0,0,0,.55)" }}>{n.text}</div>
+    </>
+  );
+};
+export const ParohoV2Thumb: React.FC<{ d: ThumbV2Props; en?: boolean }> = ({ d, en }) => {
+  const font = en ? "\x27Montserrat\x27, \x27Anton\x27, sans-serif" : P5.font;
+  const measure = useP5Measure([d.line1, d.line2, d.top || "", d.note?.text || "", d.alt?.line1 || ""]);
+  const W = CW - V3.side * 2;
+  const fit = (t: string, cap: number) => (measure ? Math.max(V3.min, Math.min(cap, Math.floor(W / Math.max(0.5, measure(t))))) : 180);
+  const s2 = fit(d.line2, V3.max2);
+  const s1 = Math.min(fit(d.line1, V3.max1), Math.round(s2 * V3.ratio1));
+  const topSize = d.top && measure ? Math.max(44, Math.min(66, Math.floor(1640 / measure(d.top)))) : 60;
+  const c2 = d.color2 || V3.red;
+  const gap = Math.round(s2 * V3.gap);
+  // 글자 묶음 높이 → 블랙 바닥판(Line 1 중간부터 솔리드), 그 위로 사진이 녹아듦
+  const lh = 1.12;
+  const blockH = s1 * lh + gap + s2 * lh;
+  const textTop = 1080 - V3.bottom - blockH;
+  const solidTop = textTop + s1 * 0.5;
+  const fadeTop = textTop - 260;
+  const filter = d.bgFilter || (d.gray === false ? "contrast(1.12) saturate(1.05)" : "grayscale(1) contrast(1.18) brightness(0.96)");
+  const line = (t: string, size: number, color: string, stroke: boolean): React.ReactNode => (
     <div
       style={{
-        fontFamily: P5.font, fontWeight: 900, fontSize: size, lineHeight: 1.0, letterSpacing: "-0.02em", color, whiteSpace: "nowrap",
-        WebkitTextStroke: `${Math.round(size * 0.07)}px #000`, paintOrder: "stroke fill",
-        textShadow: `0 ${Math.round(size * 0.03)}px 0 #000, 0 ${Math.round(size * 0.06)}px 0 #000, 0 ${Math.round(size * 0.1)}px ${Math.round(size * 0.12)}px rgba(0,0,0,.9)`,
+        fontFamily: font, fontWeight: 900, fontSize: size, lineHeight: lh, letterSpacing: "-0.02em", color, whiteSpace: "nowrap",
+        ...(stroke ? { WebkitTextStroke: `${Math.round(size * 0.05)}px #000`, paintOrder: "stroke fill" } : {}),
+        textShadow: `0 ${Math.round(size * 0.04)}px ${Math.round(size * 0.08)}px rgba(0,0,0,.95)`,
       }}
     >
       {t}
@@ -1510,20 +1572,25 @@ export const ParohoV2Thumb: React.FC<{ d: ThumbV2Props }> = ({ d }) => {
   return (
     <AbsoluteFill style={{ background: "#000", overflow: "hidden" }}>
       <style>{`@font-face{font-family:'Pretendard';font-weight:900;font-style:normal;src:url(${staticFile("fonts/Pretendard-Black.woff2")}) format('woff2');}`}</style>
-      <Img src={staticFile(d.bg)} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", objectPosition: d.bgPos || "50% 40%", filter: d.bgFilter || "contrast(1.12) saturate(1.08)" }} />
-      {/* 하단 다크 비네팅 + 가장자리 비네트 */}
-      <AbsoluteFill style={{ background: "linear-gradient(to top, rgba(0,0,0,.96) 0%, rgba(0,0,0,.9) 30%, rgba(0,0,0,.55) 52%, rgba(0,0,0,0) 70%)" }} />
-      <AbsoluteFill style={{ background: "radial-gradient(ellipse at 50% 40%, rgba(0,0,0,0) 55%, rgba(0,0,0,.55) 100%)" }} />
+      <Img src={staticFile(d.bg)} style={{ position: "absolute", left: 0, top: 0, width: "100%", height: solidTop + 40, objectFit: "cover", objectPosition: d.bgPos || "50% 40%", filter }} />
+      {/* 가장자리 비네트 (상단 박스 가독성) */}
+      <AbsoluteFill style={{ background: "radial-gradient(ellipse at 50% 45%, rgba(0,0,0,0) 55%, rgba(0,0,0,.45) 100%)" }} />
+      <AbsoluteFill style={{ background: "linear-gradient(to bottom, rgba(0,0,0,.35) 0px, rgba(0,0,0,0) 170px)" }} />
+      {/* 하단 솔리드 블랙 바닥판 + 위쪽 페이드 */}
+      <div style={{ position: "absolute", left: 0, right: 0, top: fadeTop, height: solidTop - fadeTop, background: "linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,.55) 45%, rgba(0,0,0,.92) 85%, #000 100%)" }} />
+      <div style={{ position: "absolute", left: 0, right: 0, top: solidTop, bottom: 0, background: "#000" }} />
       <svg width={CW} height={1080} style={{ position: "absolute", inset: 0 }}>
         {(d.targets || []).map((t, i) => <P5Target key={i} t={t} />)}
         {(d.arrows || []).map((a, i) => <P5Arrow key={i} a={a} />)}
       </svg>
-      {d.badge && (
-        <div style={{ position: "absolute", left: 50, top: 44, padding: "10px 26px 12px", background: "#C9242C", border: "5px solid #fff", fontFamily: P5.font, fontWeight: 900, fontSize: 54, color: "#fff", boxShadow: "0 8px 24px rgba(0,0,0,.6)" }}>{d.badge}</div>
+      {d.note && <V3Note n={d.note} font={font} w={measure ? measure(d.note.text) : d.note.text.length * 0.9} />}
+      {d.top && <V3TopLine text={d.top} size={topSize} font={font} />}
+      {d.badge && !d.top && (
+        <div style={{ position: "absolute", left: 50, top: 44, padding: "10px 26px 12px", background: "#C9242C", border: "5px solid #fff", fontFamily: font, fontWeight: 900, fontSize: 54, color: "#fff", boxShadow: "0 8px 24px rgba(0,0,0,.6)" }}>{d.badge}</div>
       )}
-      <div style={{ position: "absolute", left: V2.left, bottom: V2.bottom, display: "flex", flexDirection: "column", gap: Math.round(s2 * V2.gap) }}>
-        {txt(d.line1, s1, "#FFFFFF")}
-        {txt(d.line2, s2, c2)}
+      <div style={{ position: "absolute", left: V3.side, top: textTop, display: "flex", flexDirection: "column", gap }}>
+        {line(d.line1, s1, "#FFFFFF", true)}
+        {line(d.line2, s2, c2, false)}
       </div>
     </AbsoluteFill>
   );
