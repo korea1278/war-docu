@@ -17,7 +17,7 @@ import { atSec, C, clamp, easeInOut, easeOut, F, fitFont, NOBREAK, popIn, Timeli
 import { Bubble, CalloutBox, Slate, useScene, useSince, useT } from "./ui";
 
 /* ================= 국기 (SVG) ================= */
-export type FlagKind = "kr" | "us" | "cn" | "nk" | "uk" | "su" | "un" | "et" | "jp" | "?";
+export type FlagKind = "kr" | "us" | "cn" | "nk" | "uk" | "su" | "un" | "et" | "jp" | "fr" | "nl" | "?";
 
 const star5 = (cx: number, cy: number, r: number, rot = 0, inner = 0.382) =>
   Array.from({ length: 10 }, (_, i) => {
@@ -141,6 +141,22 @@ const FlagBody: React.FC<{ kind: FlagKind; uid: string }> = ({ kind, uid }) => {
           <rect y={26.6} width={60} height={13.4} fill="#DA121A" />
           <circle cx={30} cy={20} r={8} fill="#0F47AF" />
           <polygon points={star5(30, 20, 6, 0, 0.42)} fill="none" stroke="#FCDD09" strokeWidth={1} />
+        </>
+      );
+    case "fr":
+      return (
+        <>
+          <rect width={20} height={40} fill="#0055A4" />
+          <rect x={20} width={20} height={40} fill="#FFFFFF" />
+          <rect x={40} width={20} height={40} fill="#EF4135" />
+        </>
+      );
+    case "nl":
+      return (
+        <>
+          <rect width={60} height={13.4} fill="#AE1C28" />
+          <rect y={13.3} width={60} height={13.4} fill="#FFFFFF" />
+          <rect y={26.6} width={60} height={13.4} fill="#21468B" />
         </>
       );
     case "jp":

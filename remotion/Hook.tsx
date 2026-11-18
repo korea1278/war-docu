@@ -191,6 +191,7 @@ const SIDE: Record<string, { body: string; helm: string; glow: string }> = {
   kr: { body: "#7b8452", helm: "#5b6440", glow: "#7fd3ff" },
   nk: { body: "#7d6a45", helm: "#5e4f31", glow: "#ff4a4a" },
   cn: { body: "#7a7a55", helm: "#5c5c3d", glow: "#ff4a4a" },
+  fr: { body: "#66724e", helm: "#4a5536", glow: "#7fd3ff" },
 };
 const hash = (i: number) => {
   const x = Math.sin(i * 127.1 + 311.7) * 43758.5453;

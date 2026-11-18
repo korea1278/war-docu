@@ -1487,6 +1487,17 @@ export interface ThumbV2Props {
 }
 export type ThumbNote = { text: string; x: number; y: number; to: [number, number]; size?: number };
 export const PAROHO_V2: Record<string, ThumbV2Props> = {
+  // EP30 원주·쌍터널 전투 — 배경: 사료 사진 SC 364040 (기관총 진지에서 적을 살피는 프랑스 대대, 1951. 4, NARA, 퍼블릭 도메인) 흑백
+  //   카피: 1951. 2. 1 중공군 제125사단 3개 연대(373·374·375) vs 미 제3대대 + 프랑스 대대 (모스먼 『밀물과 썰물』 확인)
+  "ep30-twintunnels": {
+    bg: "ep/ep30-twintunnels/photos/s013_photo_0.jpg",
+    bgPos: "50% 40%",
+    top: "“중공군 시점”에서 본 쌍터널의 프랑스 대대",
+    line1: "3개 연대로 덮쳤는데",
+    line2: "2개 대대를 못 뚫은 이유",
+    note: { text: "당시 프랑스 대대", x: 360, y: 300, to: [620, 420] },
+    alt: { top: "“미군 시점”에서 본 프랑스 대대장", line1: "별 3개를 떼고 온", line2: "중령 대대장의 정체" }, // ALTS:ep30-twintunnels
+  },
   // EP29 대전 전투 — 배경: 사료 사진 'General Dean's Kill!'(1950. 7. 20 딘 소장 지휘 아래 격파된 T-34, 미 육군, 퍼블릭 도메인) 흑백
   //   카피: 오산에서 2.36인치 바주카가 튕겨 나간 T-34(사료 확인) → 대전에서 3.5인치 로켓포·사단장 직접 지휘로 격파
   "ep29-daejeon": {
