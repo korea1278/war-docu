@@ -1487,6 +1487,17 @@ export interface ThumbV2Props {
 }
 export type ThumbNote = { text: string; x: number; y: number; to: [number, number]; size?: number };
 export const PAROHO_V2: Record<string, ThumbV2Props> = {
+  // EP31 화령장 전투 — 배경: 사료 사진 SC 343087 (전선으로 향하는 국군, 1950. 7. 5, NARA·국사편찬위원회, 퍼블릭 도메인) 흑백
+  //   카피: 1950. 7. 17~21 국군 제17연대 단독 매복 — 북한군 제15사단 제48·45연대 격멸(상주시 기념관·장삼열 논문), 동관리 사살 356 · 국군 전사 4
+  "ep31-hwaryeong": {
+    bg: "ep/ep31-hwaryeong/photos/s071_photo_0.jpg",
+    bgPos: "50% 40%",
+    top: "“북한군 사단장 시점”에서 본 화령장의 닷새",
+    line1: "정예 사단 2개 연대가",
+    line2: "1개 연대에 무너진 이유",
+    note: { text: "1950년 7월 전선으로 향하는 국군", x: 1500, y: 230, to: [1240, 360] },
+    alt: { top: "“북한군 시점”에서 본 동관리 계곡", line1: "전사 4명으로", line2: "356명을 쓰러뜨린 비밀" }, // ALTS:ep31-hwaryeong
+  },
   // EP30 원주·쌍터널 전투 — 배경: 사료 사진 SC 364040 (기관총 진지에서 적을 살피는 프랑스 대대, 1951. 4, NARA, 퍼블릭 도메인) 흑백
   //   카피: 1951. 2. 1 중공군 제125사단 3개 연대(373·374·375) vs 미 제3대대 + 프랑스 대대 (모스먼 『밀물과 썰물』 확인)
   "ep30-twintunnels": {
