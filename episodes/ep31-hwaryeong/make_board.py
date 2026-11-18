@@ -257,9 +257,10 @@ P = {
     "dk_n": [127.913, 36.437, "북쪽 능선"], "dk_s": [127.918, 36.423, "남쪽 능선"], "dk_op": [127.926, 36.434, "대대 관측소"],
 }
 V = {
-    "korea": {"center": [127.6, 36.7], "span": 5.5}, "ongjin": {"center": [126.0, 37.8], "span": 2.2}, "mid": {"center": [127.75, 37.0], "span": 2.4},
-    "sobaek": {"center": [127.95, 36.56], "span": 1.1}, "south": {"center": [128.35, 36.15], "span": 1.9}, "naktong": {"center": [128.7, 35.75], "span": 2.4},
-    "hwar": {"center": [127.95, 36.462], "span": 0.2}, "sanggok": {"center": [127.955, 36.476], "span": 0.12}, "dongkwan": {"center": [127.918, 36.432], "span": 0.11},
+    "korea": {"center": [127.4, 37.0], "span": 6.2}, "ongjin": {"center": [126.0, 37.8], "span": 2.2}, "r15": {"center": [127.75, 37.35], "span": 3.3},
+    "west": {"center": [127.2, 36.95], "span": 3.4}, "mid": {"center": [127.65, 36.6], "span": 1.9}, "sobaek": {"center": [127.95, 36.6], "span": 1.4},
+    "south": {"center": [128.35, 36.1], "span": 2.4}, "naktong": {"center": [128.75, 35.7], "span": 3.6},
+    "hwar": {"center": [127.955, 36.468], "span": 0.24}, "sanggok": {"center": [127.958, 36.474], "span": 0.2}, "dongkwan": {"center": [127.915, 36.434], "span": 0.11},
 }
 L38 = {"k": "line", "path": [[124.6, 38.0], [126.5, 38.0], [128.6, 38.3]], "color": "#ffffff", "at": 0, "dash": True}
 INVADE = [[[126.9, 38.2], [126.98, 37.62]], [[127.7, 38.1], [127.73, 37.88]], [[128.3, 38.1], [128.4, 37.6]]]
@@ -276,7 +277,7 @@ BOEUN_GWANGI = [[127.729, 36.489], [127.84, 36.44]]
 BOEUN_SANGJU = [[127.729, 36.489], [127.84, 36.44], [127.988, 36.443], [128.16, 36.41]]
 CHEONGJU_HW = [[127.49, 36.64], [127.729, 36.489], [127.988, 36.443]]
 GAL_ROAD = [[127.925, 36.505], [127.94, 36.49], [127.952, 36.478], [127.958, 36.47], [127.97, 36.457], [127.988, 36.443]]
-PASSED = [[127.988, 36.443], [128.06, 36.43], [128.13, 36.415]]
+PASSED = [[127.988, 36.443], [128.01, 36.438], [128.03, 36.433]]
 HW_SG = [[127.988, 36.443], [127.97, 36.457], [127.96, 36.468]]
 FLEE1 = [[127.958, 36.47], [127.945, 36.48], [127.935, 36.49]]
 FLEE2 = [[127.958, 36.47], [127.975, 36.48], [127.985, 36.492]]
@@ -350,7 +351,7 @@ sc(1, ph("han_bridge"), label=plabel("han_bridge"))
 sc(1, ph("tfs_station"), label=plabel("tfs_station"), callouts=top("1950. 7. 5 · 미군의 첫 전투"))
 sc(1, text("스미스 특수임무부대", "blue", "오산 죽미령"))
 sc(1, ai("t34_column"), label=DRAMA)
-sc(1, m("mid", "mid", [red_a(SOUTH_PUSH, 0.1, 1.1), mark("daejeon", "red", on="대전까지")], tilt=16), callouts=top("7월 중순 · 금강을 건너 대전까지"))
+sc(1, m("west", "west", [red_a(SOUTH_PUSH, 0.1, 1.1), mark("daejeon", "red", on="대전까지")], tilt=16), callouts=top("7월 중순 · 금강을 건너 대전까지"))
 sc(1, ai("trucks"), label=DRAMA)
 sc(1, text("육군본부 직할 독립 연대", "blue", "국군 제17연대"))
 sc(1, checklist("제17연대", [{"text": "사단 소속 없음", "on": "사단에"}, {"text": "홀로 움직이는 연대", "on": "홀로"}]))
@@ -362,9 +363,9 @@ sc(1, ai("nk_plan"), label=DRAMA)
 sc(2, doc("북한군 제2군단 작전 (요지)", ["소백산맥을 넘어", "남쪽 깊숙이 돌파"], "作戰", "북한군 제2군단", "1950. 7 · 재구성"))
 sc(1, m("mid", "mid", [mark("daejeon", "blue", 0), mark("cheongju", "blue", 0), red_a(CUT_BEHIND, 0.2, 1.1)], tilt=18), callouts=low("국군·미군의 뒤를 끊는다", "red"))
 sc(1, text("선봉 · 북한군 제15사단", "red"))
-sc(1, m("mid", "mid", [red_a(R15A, 0.1)], tilt=16), callouts=top("춘천 → 원주 → 서쪽으로"))
-sc(1, m("mid", "mid", [red_a(R15A, 0), red_a(R15B, 0.1), clash("janghowon", 0.5)], tilt=16), callouts=low("여주 → 장호원 격전"))
-sc(1, m("mid", "mid", [red_a(R15A, 0), red_a(R15B, 0), LOCK("goesan", 0.3, color=RED)], tilt=18, hud=True), callouts=top("1950. 7. 12 · 괴산"), sfx=PING(0.4))
+sc(1, m("r15", "r15", [red_a(R15A, 0.1)], tilt=16), callouts=top("춘천 → 원주 → 서쪽으로"))
+sc(1, m("r15", "r15", [red_a(R15A, 0), red_a(R15B, 0.1), clash("janghowon", 0.5)], tilt=16), callouts=low("여주 → 장호원 격전"))
+sc(1, m("r15", "r15", [red_a(R15A, 0), red_a(R15B, 0), LOCK("goesan", 0.3, color=RED)], tilt=18, hud=True), callouts=top("1950. 7. 12 · 괴산"), sfx=PING(0.4))
 sc(1, m("sobaek", "sobaek", [mark("goesan", "red", 0), line(R15C[:3], 0.2, "#ff6b5b"), badge("songni", "속리산", "#111", 0.4, -50)], tilt=26))
 sc(1, m("sobaek", "sobaek", [line(R15C, 0, "#ff6b5b"), LOCK("sangju", 0.3, color=RED)], tilt=24))
 sc(1, m("south", "south", [red_a(SANGJU_DAEGU, 0.1), mark("gimcheon", "red", on="김천"), mark("daegu", "red", on="대구였습니다")], tilt=14))
@@ -415,13 +416,13 @@ sc(1, stage([C("nk_plead", 0.5, 470, prop="nkcap", face="shock+sweat", anim="sha
 sc(1, ph("pow_19th"), label=plabel("pow_19th"))
 sc(1, doc("전령 심문 (요지)", ["소속 · 북한군 제15사단 제48연대"], "訊問", "국군 제17연대 제1대대", "1950. 7. 17 · 재구성"))
 sc(1, m("sobaek", "sobaek", [LOCK("sangju", 0.3, "임무 · 상주 점령", RED)], tilt=22), sfx=PING(0.4))
-sc(1, m("hwar", "hwar", [mark("hwaryeong", "blue", 0), red_a(PASSED, 0.2), badge([128.04, 36.43], "1개 대대 · 어젯밤 통과", RED, 0.4, -50)], tilt=28))
+sc(1, m("hwar", "hwar", [mark("hwaryeong", "blue", 0), red_a(PASSED, 0.2), badge([128.02, 36.436], "1개 대대 · 어젯밤 통과", RED, 0.4, -50)], tilt=28))
 sc(1, m("hwar", "hwar", [groad(0), swarm(GAL_ROAD[:3], 0.2, 70, 0.3), unit("galryeong", "제48연대 본대", "red", 0.4, True)], tilt=30))
 sc(1, black("전령을 놓쳤다면", "적의 한가운데로"))
 sc(1, stage([C("kr_plead", 0.5, 470, prop="officer+helmet", face="worried", anim="tilt", flip=True)], [pop("q", 0.25, 0.3, on="고민에")]))
-sc(1, m("hwar", "hwar", [mark("hwaryeong", "blue", 0), unit([128.04, 36.43], "적 대대", "red", on="앞에는")], tilt=28))
-sc(1, m("hwar", "hwar", [mark("hwaryeong", "blue", 0), unit([128.04, 36.43], "적 대대", "red", 0), unit("galryeong", "적 연대 본대", "red", on="뒤에서는", pulse=True)], tilt=28))
-sc(1, m("hwar", "hwar", [unit([128.04, 36.43], "적 대대", "red", 0), unit("galryeong", "적 연대 본대", "red", 0), blue_a([[127.988, 36.443], [128.03, 36.435]], 0.2)], tilt=28), callouts=low("적 사이에 끼인 행군", "red"))
+sc(1, m("hwar", "hwar", [mark("hwaryeong", "blue", 0), unit([128.02, 36.436], "적 대대", "red", on="앞에는")], tilt=28))
+sc(1, m("hwar", "hwar", [mark("hwaryeong", "blue", 0), unit([128.02, 36.436], "적 대대", "red", 0), unit("galryeong", "적 연대 본대", "red", on="뒤에서는", pulse=True)], tilt=28))
+sc(1, m("hwar", "hwar", [unit([128.02, 36.436], "적 대대", "red", 0), unit("galryeong", "적 연대 본대", "red", 0), blue_a([[127.988, 36.443], [128.03, 36.435]], 0.2)], tilt=28), callouts=low("적 사이에 끼인 행군", "red"))
 sc(1, black("대대장은", "다른 길을 골랐다"))
 sc(1, text("이 자리에 숨어 기다린다", "yellow"))
 sc(1, text("매복", "red", "숨어 기다렸다가 기습하는 싸움"))
@@ -627,9 +628,9 @@ sc(1, text("화령장에서 꺾인 그 사단", "red", "북한군 제15사단"))
 sc(1, ai("tide_dawn"), label=DRAMA, callouts=top("1950. 9. 15 · 인천"))
 sc(1, black("상륙 부대 속의", "낯익은 이름"))
 sc(1, ph("inchon_embark"), label=plabel("inchon_embark"), callouts=top("국군 제17연대"))
-sc(1, flat([127.6, 36.3], 5.5, [fpin([129.04, 35.12], "부산", at=0.1, flag="kr", side="right"), fpin([126.62, 37.47], "인천", on="인천으로", flag="kr", side="left")],
-           [route([129.04, 35.12], [126.62, 37.47], "바닷길", on="배를", bend=0.45)], [{"ll": [125.6, 35.6], "text": "서해", "style": "sea"}]))
-sc(1, m("korea", "korea", [mark("ongjin", "blue", 0.1), mark("incheon", "blue", 0.4)]), callouts=low("옹진 → 바다 → 인천"))
+sc(1, flat([127.2, 36.3], 4.6, [fpin([129.04, 35.12], "부산", at=0.1, flag="kr", side="right"), fpin([126.62, 37.47], "인천", on="인천으로", flag="kr", side="left")],
+           [route([129.04, 35.12], [126.62, 37.47], "바닷길", on="배를", bend=-0.35)], [{"ll": [125.6, 35.6], "text": "서해", "style": "sea"}]))
+sc(1, m("ongjin", "ongjin", [L38, mark("ongjin", "blue", 0.1), blue_a(ONGJIN_OUT, 0.2), mark("incheon", "blue", 0.5)]), callouts=low("옹진 → 바다 → 인천"))
 sc(1, ph("rok17_7th"), label=plabel("rok17_7th"))
 sc(1, text("석 달 전 쫓겨났던 연대", "dark", "옹진반도 → 서울 탈환"))
 sc(1, black("이제", "처음의 질문으로"))
