@@ -24,7 +24,7 @@ jobs:
       OPENAI_IMAGE_MODEL: ${{ vars.OPENAI_IMAGE_MODEL }}
       IMAGE_PROVIDER: ${{ vars.IMAGE_PROVIDER }}
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-      CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+      CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID || vars.CF_ACCOUNT_ID || '10a07c6944417a66ee6f67b4ad4fab0d' }}
       CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
       POLLINATIONS_TOKEN: ${{ secrets.POLLINATIONS_TOKEN }}
     steps:

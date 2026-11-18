@@ -1,0 +1,61 @@
+name: 그림 엔진 시험 (Cloudflare 1장)
+
+# 2026-11-18 추가: Cloudflare Workers AI 키(CF_ACCOUNT_ID·CF_API_TOKEN)가 제대로 들어갔는지 그림 1장으로 확인.
+# main에는 아무것도 커밋하지 않는다 — 결과 그림은 별도 브랜치 image-test(매번 덮어씀)와 Artifacts로 올림 (세션에서 git으로 받아 육안 확인용). 비용: 무료 한도 약 58뉴런
+on:
+  workflow_dispatch:
+    inputs:
+      prompt:
+        description: "시험용 프롬프트 (비우면 기본)"
+        default: ""
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID || vars.CF_ACCOUNT_ID || '10a07c6944417a66ee6f67b4ad4fab0d' }}
+      CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+      PROMPT: ${{ github.event.inputs.prompt }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: pipeline
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -q requests pillow
+      - name: Cloudflare 그림 1장
+        run: |
+          cd pipeline && python - <<'PY'
+          import os, sys, time
+          from ai_images import gen_cloudflare, fit
+          from common import session
+          for k in ("CF_ACCOUNT_ID", "CF_API_TOKEN"):
+              v = os.environ.get(k) or ""
+              print(f"{k}: {'있음' if v else '비어 있음'} (길이 {len(v)})")  # 값 자체는 출력하지 않음
+          if not os.environ.get("CF_API_TOKEN"):
+              sys.exit("CF_ACCOUNT_ID 또는 CF_API_TOKEN 비밀값이 비어 있음 — 저장소 Settings → Secrets and variables → Actions → 'Repository secrets'에 이 이름 그대로 넣어야 함")
+          p = os.environ.get("PROMPT") or ("Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: "
+              "ancient Athenian hoplites whose heads are round balls painted white with a small golden owl emblem, wearing bronze Corinthian helmets "
+              "with red horsehair crests, running across a plain at dawn toward a line of Persian soldiers, dust, golden light, no text, no letters.")
+          t = time.time()
+          img = gen_cloudflare(session(), p, 12345)
+          print("원본 크기:", img.size, f"{time.time() - t:.1f}초")
+          fit(img).save("../cf_test.jpg", quality=92)
+          print("성공: cf_test.jpg")
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: image-test
+          path: cf_test.jpg
+      - name: 별도 브랜치 image-test에 그림 올리기 (main은 건드리지 않음)
+        run: |
+          mkdir /tmp/it && cp cf_test.jpg /tmp/it/ && cd /tmp/it
+          git init -q -b image-test && git add cf_test.jpg
+          git -c user.name=github-actions -c user.email=actions@github.com commit -q -m "그림 엔진 시험 결과"
+          git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" image-test
