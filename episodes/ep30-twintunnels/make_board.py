@@ -257,8 +257,8 @@ P = {
     "pw": [127.627, 37.477, "프랑스 대대"], "hongcheon": [127.888, 37.697, "홍천"],
 }
 V = {
-    "nwide": {"center": [126.9, 38.4], "span": 6.0}, "kunuri": {"center": [125.95, 39.55], "span": 0.9}, "mid": {"center": [127.5, 37.35], "span": 1.8},
-    "wonju": {"center": [127.9, 37.33], "span": 0.5}, "wonju_wide": {"center": [127.85, 37.38], "span": 0.8}, "jp_wide": {"center": [127.65, 37.42], "span": 0.4},
+    "nwide": {"center": [126.9, 38.7], "span": 6.0}, "kunuri": {"center": [125.95, 39.55], "span": 0.9}, "mid": {"center": [127.58, 37.3], "span": 2.1},
+    "wonju": {"center": [127.9, 37.33], "span": 0.5}, "wonju_wide": {"center": [127.85, 37.38], "span": 0.8}, "jp_wide": {"center": [127.65, 37.405], "span": 0.4},
     "twin_jp": {"center": [127.656, 37.455], "span": 0.16}, "twin": {"center": [127.672, 37.444], "span": 0.1}, "jp_ring": {"center": [127.636, 37.472], "span": 0.13},
     "seom": {"center": [127.84, 37.38], "span": 0.45}, "korea": {"center": [127.6, 37.0], "span": 5.5},
 }
@@ -272,8 +272,8 @@ CN373A = [[127.632, 37.466], [127.646, 37.457], [127.658, 37.45]]
 CN373B = [[127.636, 37.42], [127.65, 37.43], [127.661, 37.438]]
 TO453 = [[127.648, 37.425], [127.658, 37.429], [127.665, 37.431]]
 CUT = [[127.664, 37.431], [127.667, 37.43]]
-RETREAT = [[125.94, 39.58], [125.75, 39.02], [126.3, 38.45], [126.98, 37.62], [127.2, 37.15]]
-CN_YALU = [[[125.2, 40.3], [125.7, 39.85]], [[126.0, 40.4], [126.0, 39.85]], [[126.9, 40.4], [126.5, 39.8]]]
+RETREAT = [[125.94, 39.58], [125.75, 39.02], [126.3, 38.45], [126.98, 37.62], [127.15, 37.5]]
+CN_YALU = [[[125.3, 39.95], [125.7, 39.68]], [[126.0, 39.95], [126.0, 39.68]], [[126.8, 39.95], [126.45, 39.65]]]
 L38 = {"k": "line", "path": [[124.6, 38.0], [126.5, 38.0], [128.6, 38.3]], "color": "#ffffff", "at": 0, "dash": True}
 NEWYEAR = [[[126.9, 38.2], [126.98, 37.62]], [[127.7, 38.1], [127.9, 37.4]], [[128.3, 38.1], [128.2, 37.5]]]
 NK_WONJU = [[127.93, 37.5], [127.925, 37.42], [127.92, 37.36]]
@@ -338,7 +338,7 @@ next_act()
 
 # ===== 제1막 도망치는 군대 =====
 sc(1, m("kunuri", "kunuri", [mark("kunuri", "blue", 0.2)], tilt=26), chapter={"num": "제1막", "title": "도망치는 군대"}, callouts=top("1950. 11월 말 · 군우리"), sfx=WIND(0.1))
-sc(1, m("nwide", "nwide", [red_a(CN_YALU[0], 0.1), red_a(CN_YALU[1], 0.25), red_a(CN_YALU[2], 0.4), swarm([[126.0, 40.4], [126.0, 39.7]], 0.2, 120)]), callouts=low("중공군 수십만 명", "red"))
+sc(1, m("nwide", "nwide", [red_a(CN_YALU[0], 0.1), red_a(CN_YALU[1], 0.25), red_a(CN_YALU[2], 0.4), swarm([[126.0, 39.95], [126.0, 39.7]], 0.2, 120)]), callouts=low("중공군 수십만 명", "red"))
 sc(1, ph("kunuri_map"), label=plabel("kunuri_map"))
 sc(1, black("퇴로를", "마지막까지 지킨 부대"))
 sc(1, ph("freeman", marks=[{"text": "폴 프리먼", "x": 0.5, "y": 0.18, "on": "프리먼", "color": "yellow"}]), label=plabel("freeman"))
@@ -444,7 +444,7 @@ sc(1, m("twin_jp", "twin_jp", [rail(0), line(ROAD[3:], 0.2, "#ffffff"), mark("ji
 sc(1, text("정찰 명령", "dark", "1951. 1. 29 새벽 · 제23연대"))
 sc(1, stage([C("us_point", 0.45, 470, prop="officer+notebook", face="determined", flip=True)], [pop("q", 0.75, 0.3, on="적이")]))
 sc(1, text("정찰대장 제임스 미첼 중위", "yellow", "C중대"))
-sc(1, m("jp_wide", "jp_wide", [mark("ihori", "blue", on="이호리에서"), badge("ihori", "제24사단 병사 합류", TC, 0.5, -60)], tilt=22), callouts=low("이호리 · 위치 개략"))
+sc(1, m("jp_wide", "jp_wide", [mark("ihori", "blue", on="이호리에서"), badge("ihori", "제24사단 병사 합류", TC, 0.5, -60)], tilt=22), callouts=top("이호리 · 위치 개략"))
 sc(1, checklist("정찰대 장비", [{"text": "지프 9대", "on": "지프"}, {"text": "무기 운반차 2대", "on": "무기"}, {"text": "기관총 · 무반동총", "on": "기관총과"}]))
 sc(1, troops(15, side="us", cols=5, title="쌍터널 정찰대", labels=[{"x": 0.5, "y": 0.74, "text": "45~60명 · 기록마다 다름", "on": "마흔다섯", "color": "blue"}]))
 sc(2, text("보충병 약 20명", "red", "보병 훈련도 제대로 못 받은 신병"))
@@ -688,12 +688,13 @@ REUSE = {
 AI = {}
 AIDIR = ROOT / "public" / "ep" / EP / "ai"
 AIDIR.mkdir(parents=True, exist_ok=True)
-man = json.loads((AIDIR / "ai.json").read_text()) if (AIDIR / "ai.json").exists() else {}
+MAN = AIDIR.parent / "ai.json"  # ai_images.py가 읽는 위치 (public/ep/<ep>/ai.json)
+man = json.loads(MAN.read_text()) if MAN.exists() else {}
 for k, src in REUSE.items():
     AI[k] = json.loads((ROOT / "episodes" / src / "storyboard.json").read_text(encoding="utf-8"))["ai_images"][k]
     shutil.copyfile(ROOT / "public" / "ep" / src / "ai" / f"{k}.jpg", AIDIR / f"{k}.jpg")
     man[k] = hashlib.sha1(f"gpt-image-1|high|{AI[k]}".encode()).hexdigest()[:12]
-(AIDIR / "ai.json").write_text(json.dumps(man, ensure_ascii=False, indent=1), encoding="utf-8")
+MAN.write_text(json.dumps(man, ensure_ascii=False, indent=1), encoding="utf-8")
 used = {s["visual"]["img"] for s in S if s["visual"]["type"] == "ai"}
 assert not used - set(AI), used - set(AI)
 assert not set(AI) - used, set(AI) - used
