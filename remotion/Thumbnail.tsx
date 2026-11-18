@@ -1495,7 +1495,7 @@ export const PAROHO_V2: Record<string, ThumbV2Props> = {
     top: "“T-34 전차병 시점”에서 본 대전 시가전",
     line1: "바주카도 튕겨낸 T-34가",
     line2: "장군 손에 사냥당한 이유",
-    note: { text: "딘 소장이 잡은 T-34", x: 1560, y: 215, to: [1150, 400] },
+    note: { text: "딘 소장이 잡은 T-34", x: 380, y: 250, to: [640, 390] },
     alt: { line1: "사단장이 직접 탱크를", line2: "잡으러 나간 이유" }, // ALTS:ep29-daejeon
   },
 };
