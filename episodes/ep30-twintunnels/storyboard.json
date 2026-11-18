@@ -11,8 +11,8 @@
  "voice": "U1cJYS4EdbaHmfR7YzHd",
  "midrolls": [
   "s106",
-  "s198",
-  "s279"
+  "s197",
+  "s278"
  ],
  "places": {
   "seoul": [
@@ -247,103 +247,63 @@
   {
    "id": "analysis",
    "from": "s106",
-   "to": "s158",
+   "to": "s157",
    "volume": 0.16
   },
   {
    "id": "march",
-   "from": "s159",
-   "to": "s236",
+   "from": "s158",
+   "to": "s235",
    "volume": 0.16
   },
   {
    "id": "tension",
-   "from": "s237",
-   "to": "s278",
+   "from": "s236",
+   "to": "s277",
    "volume": 0.17
   },
   {
    "id": "analysis",
-   "from": "s279",
-   "to": "s319",
+   "from": "s278",
+   "to": "s318",
    "volume": 0.16
   },
   {
    "id": "somber",
-   "from": "s320",
-   "to": "s328",
+   "from": "s319",
+   "to": "s327",
    "volume": 0.17
   }
  ],
  "ai_images": {
-  "twin_dawn": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a narrow snowy Korean mountain valley in winter 1951 with two black railway tunnel mouths cut into steep pine-covered ridges and a small iron railway bridge between them at dawn, American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1951 M1 steel helmets and olive drab winter parkas and French soldiers whose heads are round balls painted as the French tricolor flag (vertical blue, white and red stripes), wearing American-style M1 steel helmets and olive drab winter parkas crouching in shallow foxholes on the snowy ridges above the tunnels, red flares in the dark sky, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "bugle_night": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red flag of the People's Republic of China (red with yellow stars), wearing padded quilted khaki winter uniforms and fur-flapped caps charging down a snowy slope at night blowing brass bugles and whistles, muzzle flashes, red flares lighting the snow, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "monclar_portrait": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an old French general whose head is a round ball painted as the French tricolor flag (vertical blue, white and red stripes), wearing a French Foreign Legion white kepi and a 1951 winter field uniform with lieutenant colonel insignia, holding a walking cane standing calmly on a snowy hill among his soldiers, looking through binoculars, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "bugout_snow": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: exhausted American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1951 M1 steel helmets and olive drab winter parkas retreating south in a long column of trucks on a frozen road in December 1950, abandoned equipment by the roadside, fearful glances back, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "gi_whisper": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: frightened young American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1951 M1 steel helmets and olive drab winter parkas whispering to each other in a snowy foxhole at night, worried faces, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "cn_night_march": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a long column of Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red flag of the People's Republic of China (red with yellow stars), wearing padded quilted khaki winter uniforms and fur-flapped caps marching silently over a snowy mountain ridge at night under the moon, carrying rifles and bugles, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "cn_roadblock": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red flag of the People's Republic of China (red with yellow stars), wearing padded quilted khaki winter uniforms and fur-flapped caps ambushing an American truck convoy from both sides of a narrow snowy mountain road at night, a burning truck, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "ridgway_grenade": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an American three-star general whose head is a round ball painted as the United States flag (stars and stripes), wearing an M1 helmet and a winter field jacket with a hand grenade strapped to the chest harness of his jacket, stepping out of a jeep at a snowy command post, determined, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "gloomy_hq": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: gloomy American officers whose heads are round balls painted as the United States flag standing around a map table in a cold tent, the map covered with arrows pointing south, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "legion_ww1": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a young French soldier whose head is a round ball painted as the French tricolor flag, wearing a World War One Adrian helmet and horizon-blue greatcoat in a muddy trench, decorated with medals, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "stars_removed": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an old French general whose head is a round ball painted as the French tricolor flag, calmly removing three general's stars from his uniform and putting on lieutenant colonel insignia in front of a mirror, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "nk_disguise": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: North Korean soldiers whose heads are round balls painted as the North Korean flag (blue, red and white stripes with a red star in a white circle), wearing padded khaki winter uniforms disguised in white Korean civilian refugee clothes, hiding rifles under bundles, slipping behind American positions on a snowy road, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "frozen_gi": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1951 M1 steel helmets and olive drab winter parkas shivering in deep snow, blowing on frozen hands, icicles on their helmets, a bitter blizzard, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "grounded_planes": "American F-51 Mustang fighter planes parked under snow on a frozen Korean airfield in January 1951, low grey snow clouds, ground crew sweeping snow, painterly realistic digital illustration, cinematic, desaturated cold winter palette, film grain, no text, no letters.",
-  "blizzard_hill": "A snow-covered Korean hill in a heavy blizzard in January 1951, soldiers' silhouettes struggling uphill, white-out, painterly realistic digital illustration, cinematic, desaturated cold winter palette, film grain, no text, no letters.",
-  "nk_assault_snow": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: North Korean soldiers whose heads are round balls painted as the North Korean flag (blue, red and white stripes with a red star in a white circle), wearing padded khaki winter uniforms climbing a snowy hill in a blizzard, attacking again and again, rifles raised, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "french_firing_snow": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: French soldiers whose heads are round balls painted as the French tricolor flag (vertical blue, white and red stripes), wearing American-style M1 steel helmets and olive drab winter parkas firing rifles and a machine gun from snowy foxholes on a hilltop in a blizzard, empty ammunition boxes around them, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "bayonet_fix": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: close-up of French soldiers whose heads are round balls painted as the French tricolor flag (vertical blue, white and red stripes), wearing American-style M1 steel helmets and olive drab winter parkas fixing long bayonets onto their rifles in a snowy foxhole, grim determination, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "bayonet_charge": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: French soldiers whose heads are round balls painted as the French tricolor flag (vertical blue, white and red stripes), wearing American-style M1 steel helmets and olive drab winter parkas charging downhill with fixed bayonets through a blizzard, snow flying, the enemy fleeing below, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "frostbite_aid": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an army medic whose head is a round ball painted as the United States flag treating a soldier's frozen feet in a warm field tent, other soldiers wrapped in blankets, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "twin_tunnels": "a narrow snowy Korean mountain valley in winter 1951 with two black railway tunnel mouths cut into steep pine-covered ridges and a small iron railway bridge between them, seen from a snowy hillside, quiet and empty, cold blue light, painterly realistic digital illustration, cinematic, desaturated cold winter palette, film grain, no text, no letters.",
-  "patrol_jeeps": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a motorized patrol of nine jeeps and two weapons carriers with mounted machine guns driving along a snowy valley road toward railway tunnels, American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1951 M1 steel helmets and olive drab winter parkas, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "green_recruits": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: young nervous replacement American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1951 M1 steel helmets and olive drab winter parkas in brand-new clean parkas clutching rifles in the back of a jeep, looking around anxiously, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "stai_walks": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a lone an American soldier whose head is a round ball painted as the United States flag (stars and stripes), wearing a 1951 M1 steel helmet and an olive drab winter parka officer walking alone down a snowy road toward a small silent Korean village with thatched roofs, seen from behind, ominous, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "abandon_jeeps": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1951 M1 steel helmets and olive drab winter parkas jumping out of jeeps with engines running and scrambling up a snowy slope as mortar shells burst on the road, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "narrow_ridge": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a small group of American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1951 M1 steel helmets and olive drab winter parkas lying on a narrow snow-covered rocky ridge with no room to dig in, rifles pointed down the slope, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "stratton_bar": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a wounded an American soldier whose head is a round ball painted as the United States flag (stars and stripes), wearing a 1951 M1 steel helmet and an olive drab winter parka private with a bandaged right hand firing a Browning automatic rifle left-handed from a snowy ridge, encouraging his comrades, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "ammo_drop": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a small liaison plane dropping wooden ammunition boxes on parachutes over a snowy ridge, most of them landing outside the perimeter, American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1951 M1 steel helmets and olive drab winter parkas watching, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "night_assault_ridge": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red flag of the People's Republic of China (red with yellow stars), wearing padded quilted khaki winter uniforms and fur-flapped caps creeping up a snowy ridge at night toward a few American foxholes, red flares and tracer fire, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "martinson": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a badly wounded an American soldier whose head is a round ball painted as the United States flag (stars and stripes), wearing a 1951 M1 steel helmet and an olive drab winter parka sergeant with bandages, firmly shaking his head and refusing to surrender, clutching his rifle on a snowy ridge at night, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "medic_runs": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a lone an American soldier whose head is a round ball painted as the United States flag (stars and stripes), wearing a 1951 M1 steel helmet and an olive drab winter parka medic with a red cross armband running down a snowy hillside at night toward a group of soldiers with flashlights, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "dark_ridge_shout": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a an American soldier whose head is a round ball painted as the United States flag (stars and stripes), wearing a 1951 M1 steel helmet and an olive drab winter parka cupping his hands and shouting down a dark snowy ridge at night toward shadowy figures of rescuers below, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "rescue_cheer": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: wounded American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1951 M1 steel helmets and olive drab winter parkas cheering and hugging their rescuers on a snowy ridge at night, stretchers, flashlights, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "valley_ridges": "Aerial view of a narrow snowy Korean valley surrounded by high pine-covered ridges on all sides, a railway line running through two tunnels, winter 1951, painterly realistic digital illustration, cinematic, desaturated cold winter palette, film grain, no text, no letters.",
-  "cn_caves_day": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red flag of the People's Republic of China (red with yellow stars), wearing padded quilted khaki winter uniforms and fur-flapped caps hiding in a dark cave and inside a railway tunnel during the day, resting quietly, waiting for night, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "perimeter_dusk": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1951 M1 steel helmets and olive drab winter parkas and French soldiers whose heads are round balls painted as the French tricolor flag (vertical blue, white and red stripes), wearing American-style M1 steel helmets and olive drab winter parkas digging foxholes in a ring on snowy ridgetops at dusk, a tank guarding the valley road below, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "almond_visit": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an American three-star general whose head is a round ball painted as the United States flag (stars and stripes), wearing an M1 helmet and a winter field jacket stepping out of a jeep at a snowy hilltop command post, looking around impatiently, officers saluting, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "stewart_tank": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an American tank firing a short burst of machine gun fire over a distant silent snowy Korean village at dusk, an officer standing in the turret, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "probe_french": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: French soldiers whose heads are round balls painted as the French tricolor flag (vertical blue, white and red stripes), wearing American-style M1 steel helmets and olive drab winter parkas firing from foxholes on a snowy hilltop at night as Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red flag of the People's Republic of China (red with yellow stars), wearing padded quilted khaki winter uniforms and fur-flapped caps probe the slopes below, tracer fire, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "bugle_dawn": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red flag of the People's Republic of China (red with yellow stars), wearing padded quilted khaki winter uniforms and fur-flapped caps in their thousands rising from the snow at the first light of dawn, blowing bugles and whistles, charging toward ridges, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "dawn_attack": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red flag of the People's Republic of China (red with yellow stars), wearing padded quilted khaki winter uniforms and fur-flapped caps attacking a snowy ridge from the northwest at dawn, grey light, French soldiers whose heads are round balls painted as the French tricolor flag (vertical blue, white and red stripes), wearing American-style M1 steel helmets and olive drab winter parkas firing back from foxholes, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "artillery_fire": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American 105mm howitzers firing rapidly in a snowy valley, American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1951 M1 steel helmets and olive drab winter parkas artillerymen loading shells, muzzle blasts, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "shells_slope": "Artillery shells exploding on a snowy slope just in front of a line of foxholes, fountains of snow and earth, winter 1951, painterly realistic digital illustration, cinematic, desaturated cold winter palette, film grain, no text, no letters.",
-  "cn_climb": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red flag of the People's Republic of China (red with yellow stars), wearing padded quilted khaki winter uniforms and fur-flapped caps climbing a snowy slope under fire, stepping past fallen comrades, determined, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "cp_threat": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red flag of the People's Republic of China (red with yellow stars), wearing padded quilted khaki winter uniforms and fur-flapped caps pushing close to a sandbagged French battalion command post on a snowy hill, French soldiers whose heads are round balls painted as the French tricolor flag (vertical blue, white and red stripes), wearing American-style M1 steel helmets and olive drab winter parkas firing pistols and carbines, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "french_counter": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: French soldiers whose heads are round balls painted as the French tricolor flag (vertical blue, white and red stripes), wearing American-style M1 steel helmets and olive drab winter parkas counterattacking uphill through the snow to retake their lost foxholes, an old French general whose head is a round ball painted as the French tricolor flag (vertical blue, white and red stripes), wearing a French Foreign Legion white kepi and a 1951 winter field uniform with lieutenant colonel insignia, holding a walking cane pointing the way, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "low_clouds": "Low heavy grey winter clouds hanging over snowy Korean ridges, no aircraft in the sky, gloomy, winter 1951, painterly realistic digital illustration, cinematic, desaturated cold winter palette, film grain, no text, no letters.",
-  "afternoon_assault": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a massive afternoon attack of Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red flag of the People's Republic of China (red with yellow stars), wearing padded quilted khaki winter uniforms and fur-flapped caps pouring over snowy ridges toward a small defensive perimeter, smoke, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "overlook": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red flag of the People's Republic of China (red with yellow stars), wearing padded quilted khaki winter uniforms and fur-flapped caps on a high snowy ridge looking down into a small American perimeter in the valley below, setting up a machine gun, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "cloud_break": "Sunlight breaking through a gap in thick grey clouds over snowy Korean ridges, a flight of fighter planes diving through the gap, winter 1951, painterly realistic digital illustration, cinematic, desaturated cold winter palette, film grain, no text, no letters.",
-  "napalm_ridge": "American fighter planes dropping napalm along a snowy Korean ridgeline, a long wall of orange fire and black smoke, winter 1951, painterly realistic digital illustration, cinematic, desaturated cold winter palette, film grain, no text, no letters.",
-  "rockets_ridge": "American F-51 Mustang fighters firing rockets and machine guns at a snowy hilltop, explosions and smoke, winter 1951, painterly realistic digital illustration, cinematic, desaturated cold winter palette, film grain, no text, no letters.",
-  "cn_no_cover": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red flag of the People's Republic of China (red with yellow stars), wearing padded quilted khaki winter uniforms and fur-flapped caps scattering on an open snowy ridge under air attack with nowhere to hide, smoke and fire, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "retake_ridge": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1951 M1 steel helmets and olive drab winter parkas and French soldiers whose heads are round balls painted as the French tricolor flag (vertical blue, white and red stripes), wearing American-style M1 steel helmets and olive drab winter parkas climbing back up a smoking snowy ridge to retake their positions, late afternoon light, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "sunset_quiet": "A smoky snowy valley with railway tunnels at sunset after a battle, quiet, smoke drifting over the ridges, orange sky, painterly realistic digital illustration, cinematic, desaturated cold winter palette, film grain, no text, no letters.",
-  "night_wait": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: exhausted American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1951 M1 steel helmets and olive drab winter parkas and French soldiers whose heads are round balls painted as the French tricolor flag (vertical blue, white and red stripes), wearing American-style M1 steel helmets and olive drab winter parkas waiting in foxholes at night on a snowy ridge, sharing supplies, staring into the dark, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "dawn_patrol": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a small patrol of American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1951 M1 steel helmets and olive drab winter parkas carefully walking through a silent snowy valley at dawn, mist, no enemy in sight, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "aftermath_slope": "A snowy slope after a battle at dawn, abandoned rifles, bugles and padded caps scattered in the trampled snow, distant figures of soldiers, no gore, painterly realistic digital illustration, cinematic, desaturated cold winter palette, film grain, no text, no letters.",
-  "return_valley": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1951 M1 steel helmets and olive drab winter parkas standing in a snowy valley near a railway tunnel, remembering fallen comrades, helmets placed on rifles in the snow, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "jipyeong_dig": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1951 M1 steel helmets and olive drab winter parkas and French soldiers whose heads are round balls painted as the French tricolor flag (vertical blue, white and red stripes), wearing American-style M1 steel helmets and olive drab winter parkas digging foxholes in a ring on low snowy hills around a small Korean crossroads village with thatched roofs, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "jipyeong_night": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a fierce night battle around a small Korean crossroads village, Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red flag of the People's Republic of China (red with yellow stars), wearing padded quilted khaki winter uniforms and fur-flapped caps attacking from the hills, American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1951 M1 steel helmets and olive drab winter parkas firing from a ring of foxholes, flares and tracers, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "siren_charge": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: French soldiers whose heads are round balls painted as the French tricolor flag (vertical blue, white and red stripes), wearing American-style M1 steel helmets and olive drab winter parkas charging out of their foxholes with fixed bayonets at night, one soldier cranking a hand siren, Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red flag of the People's Republic of China (red with yellow stars), wearing padded quilted khaki winter uniforms and fur-flapped caps fleeing, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "advance_north": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a long column of American soldiers whose heads are round balls painted as the United States flag (stars and stripes), wearing 1951 M1 steel helmets and olive drab winter parkas and South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag advancing north on a muddy road in early spring 1951, confident, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "congress_speech": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an American general whose head is a round ball painted as the United States flag, in a dress uniform, speaking at a podium in front of a large audience in a grand hall in 1952, Korean winter 1951, snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
-  "invalides": "The golden dome of Les Invalides in Paris at dusk, quiet and solemn, autumn trees, painterly realistic digital illustration, cinematic, desaturated cold winter palette, film grain, no text, no letters.",
-  "train_tunnel": "A modern train entering a railway tunnel in snowy Korean hills in winter today, peaceful, soft light, painterly realistic digital illustration, cinematic, desaturated cold winter palette, film grain, no text, no letters.",
-  "winter_memory": "Faint ghostly silhouettes of 1951 soldiers in helmets standing on a snowy ridge above railway tunnels, fading into the morning mist, memorial mood, painterly realistic digital illustration, cinematic, desaturated cold winter palette, film grain, no text, no letters.",
-  "thumb_bg": "Cinematic photorealistic war film still, 16:9 wide shot: French soldiers of the UN French Battalion in 1951 M1 helmets and winter parkas charging uphill with fixed bayonets through a blizzard on a snowy Korean ridge, red flares in the sky, high contrast, dramatic, the lower third of the frame darker, no text, no letters, no logos."
+  "twin_wave": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: waves of Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red Chinese flag with yellow stars, wearing padded khaki winter uniforms and fur caps, charging up a snowy hill at grey dawn toward foxholes on the crest, a soldier blowing a bugle, smoke and explosions, cold blue-grey dawn light, a railway embankment in the valley below, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "monclar": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: an elderly, battle-hardened French commander in his late fifties whose head is a round ball painted as the French tricolour flag (blue, white, red vertical stripes), with a grey moustache and stern scarred look, wearing a 1951 winter parka, a beret and lieutenant colonel insignia, holding a walking cane, standing in a snowy trench line among his French soldiers at dusk, proud and fearless, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "twin_ambush": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a small American patrol whose heads are round balls painted as the United States flag, wearing 1951 M1 helmets and olive winter parkas, pinned down beside two stalled army trucks on a frozen dirt road in a narrow snowy valley near a railway embankment with two dark tunnel mouths, enemy fire coming from the surrounding hills, one soldier shouting into a field radio handset, late afternoon winter light, tense, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "gunner": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a lone young American soldier whose head is a round ball painted as the United States flag, wearing a 1951 M1 helmet and parka, firing a heavy machine gun from a snowy hilltop foxhole at night while his comrades withdraw behind him, empty ammunition belts, flares, tragic and brave, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "wave_snow": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a massive wave of Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red Chinese flag with yellow stars, wearing white snow-covered quilted uniforms and fur-flap caps charging across a snowy slope at night toward a ring of foxholes, blowing bugles and whistles, under parachute flares, tracer fire and explosions kicking up snow, dramatic low-angle shot, cold white light and orange fire, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "dig_in": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American soldiers whose heads are round balls painted as the United States flag, wearing 1951 M1 helmets and olive parkas, digging foxholes with pickaxes and shovels into frozen snowy ground on a low hill above a small Korean village, stringing barbed wire, a howitzer position in the village below, cold grey afternoon, breath steaming, determined, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "masan_clash": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American M46 Patton tanks firing their main guns and machine guns at enemy trenches on low snowy hills on both sides of a narrow road beside a small Korean thatched-roof village in late afternoon, Chinese soldiers whose heads are round balls painted as the red Chinese flag scattering, explosions and smoke, dramatic golden low sunlight, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "twin_bayonet": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: French soldiers whose heads are round balls painted as the French tricolour flag (blue, white, red vertical stripes), wearing 1951 American-style M1 helmets and winter parkas, counterattacking with fixed bayonets up a snowy hillside in daylight, smoke and explosions, Chinese soldiers whose heads are round red-flag balls falling back over the crest, fierce and heroic, dynamic low-angle shot, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "ranger_counter": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American Rangers whose heads are round balls painted as the United States flag, wearing 1951 M1 helmets and parkas, counterattacking up a steep snowy slope at grey dawn under heavy fire, throwing grenades, smoke and tracer fire, Chinese soldiers whose heads are round red-flag balls holding foxholes on the crest, desperate and grim, low-angle shot, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "pva_withdraw": "A desolate snowy hillside in Korea on a grey winter morning in February 1951, light snow falling, abandoned rifles, quilted caps, broken crates and scattered equipment half-buried in the snow, distant small columns of soldiers retreating north over the far ridge, empty foxholes in the foreground, mournful and quiet, painterly realistic digital illustration, desaturated cold palette, film grain, no visible faces, no gore, no text, no letters.",
+  "basin_night": "A small snow-covered Korean village in a valley basin at night in February 1951, completely ringed by dark snowy mountains, a single railway line and frozen road passing through, parachute flares hanging in the sky casting harsh white light on the snow, distant orange muzzle flashes on every surrounding ridge, cinematic wide aerial shot, cold blue and white palette with orange glow, painterly realistic digital illustration, film grain, no people visible, no text, no letters.",
+  "siren": "Dramatic close-up digital illustration of a gloved hand furiously cranking an old 1950s military hand-cranked siren mounted on a sandbag in a snowy trench at night, a French soldier whose head is a round ball painted as the French tricolour flag (blue, white, red vertical stripes) wearing an M1 helmet, flare light, motion lines of sound, cinematic, semi-realistic polished history-YouTube countryball style, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "french_charge": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: French Foreign soldiers whose heads are round balls painted as the French tricolour flag (blue, white, red vertical stripes), wearing 1951 American-style M1 helmets and winter parkas, fixing bayonets and charging out of snowy trenches at night, one soldier cranking a hand siren, others blowing whistles, under flare light, steam of breath in the cold air, heroic and furious, dynamic low-angle shot, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "basin_dawn": "A quiet snowy Korean valley basin at dawn, a small village and a single railway line, surrounded by gentle snow-covered hills, old rusted 1950s steel helmet resting on a wooden fence post in the foreground, soft golden sunrise light, mist, peaceful and mournful, painterly realistic digital illustration, film grain, no people, no text, no letters.",
+  "tank_run": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a column of American M46 Patton tanks racing along a narrow frozen road between steep snowy hills in late afternoon, American soldiers whose heads are round balls painted as the United States flag, wearing 1951 M1 helmets, olive drab winter parkas clinging to the tank hulls, enemy gunfire from both ridges kicking up snow, smoke, dramatic and chaotic, low-angle shot, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "night_walk": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: exhausted American soldiers whose heads are round balls painted as the United States flag, wearing 1950 M1 helmets and olive drab winter parkas walking on foot in a straggling line past burning wrecked trucks along a dark frozen gorge road at night, faces lit by orange fire, some limping and helping each other, snow on the ground, mournful and haunting, cinematic, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "gauntlet_fire": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a long column of 1950 US Army trucks, jeeps and towed howitzers trapped on a narrow frozen dirt road at the bottom of a steep gorge in North Korea in November 1950, American soldiers whose heads are round balls painted as the United States flag, wearing 1950 M1 helmets and olive drab winter parkas ducking beside the vehicles, a truck overturned and burning, mortar explosions on the road, streams of red tracer fire pouring down from both snowy ridges, smoke, cinematic wide shot, cold blue and orange palette, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "frozen_night": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American Marines whose heads are round balls painted as the United States flag, wearing 1950 M1 helmets with fur-lined parkas, frost on their gear, huddled in shallow snow foxholes on a frozen ridge at night, breath freezing in the air, icicles on their helmets, one Marine trying to thaw a frozen rifle under his parka, blizzard, extreme cold, tense waiting, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "carry_dead": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: American Marines whose heads are round balls painted as the United States flag, wearing 1950 M1 helmets with fur-lined parkas, frost on their gear walking in a long column down a frozen mountain road, carrying wounded comrades on stretchers and laying fallen comrades with covered faces on the hoods of trucks, snow falling, exhausted but unbroken, solemn and heroic, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "ridge_ambush": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red Chinese flag with yellow stars, wearing padded khaki winter uniforms and fur-flap caps lying in wait in snowy foxholes along a steep rocky ridgeline at grey dawn in November 1950, heavy machine guns and mortars aimed down at a narrow frozen dirt road winding through the gorge far below, the road empty and silent, cold blue-grey palette, tense and ominous, cinematic high-angle shot, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "snow_column": "A long column of trucks and soldiers moving through a narrow frozen mountain gorge in North Korea in December 1950, deep snow, blizzard, steep icy cliffs on both sides, distant orange muzzle flashes on the ridgelines, cold blue night with harsh white parachute flare light, cinematic wide shot, desaturated icy palette with orange glow, painterly realistic digital illustration, film grain, no text, no letters.",
+  "bugle_night": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red Chinese flag with yellow stars, wearing 1951 quilted khaki uniforms and caps blowing long brass bugles and striking gongs on a dark ridge at night, more soldiers behind them waiting to charge, eerie moonlight and mist, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "human_wave": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: waves of Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red Chinese flag with yellow stars, wearing 1951 quilted khaki uniforms and caps charging up a dark hillside at night through machine gun tracer fire, flares in the sky, smoke and explosions, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "bugle_gong": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red Chinese flag with yellow stars, wearing 1951 quilted khaki uniforms and caps blowing long brass bugles, striking gongs and blowing whistles on a dark ridge at night, more soldiers behind them waiting to charge, eerie moonlight and mist, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "night_march": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Chinese soldiers whose heads are round balls painted as the flag of the People's Republic of China, wearing padded mustard-khaki uniforms and soft caps, carrying rifles and rice bags marching fast along a dark mountain trail at night, carrying rifles and ammunition, exhausted but relentless, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "tunnel_inside": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red Chinese flag with yellow stars, wearing 1952 quilted khaki uniforms and soft caps crouching shoulder to shoulder inside a narrow tunnel cut through solid granite rock under a Korean mountain, dim oil lamps, dust falling from the ceiling as artillery shells explode on the surface above, wooden boxes of stick hand grenades stacked along the wall, tense waiting faces, claustrophobic, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "fox_hill": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a small company of American Marines whose heads are round balls painted as the United States flag, wearing 1950 M1 helmets with fur-lined parkas, frost on their gear holding a lonely snowy hilltop above a narrow mountain pass, surrounded on all sides, firing machine guns at night, a determined captain on crutches directing them, ammunition crates dropped by parachute lying in the snow, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "french_night": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: night in autumn 1951 on a steep Korean mountain ridge, French soldiers whose heads are round balls painted as the French tricolor flag (vertical blue, white and red stripes), wearing 1951 M1 steel helmets, olive drab US-pattern field uniforms and a small French tricolor shoulder patch charging uphill with fixed bayonets toward enemy log bunkers, flares and tracer fire lighting the smoke, an officer with a whistle in front, determined and fierce, no gore, leaving calm uncluttered dark background area in the upper left, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters."
  },
  "scenes": [
   {
@@ -356,7 +316,7 @@
    ],
    "visual": {
     "type": "ai",
-    "img": "twin_dawn",
+    "img": "twin_wave",
     "kb": "in"
    },
    "label": "재연 일러스트",
@@ -787,7 +747,7 @@
    ],
    "visual": {
     "type": "ai",
-    "img": "monclar_portrait",
+    "img": "monclar",
     "kb": "in"
    },
    "label": "재연 일러스트",
@@ -843,7 +803,7 @@
    ],
    "visual": {
     "type": "ai",
-    "img": "bugout_snow",
+    "img": "night_walk",
     "kb": "in"
    },
    "label": "재연 일러스트",
@@ -1334,11 +1294,11 @@
     "병사들 사이에는 이상한 말이 유행했습니다."
    ],
    "visual": {
-    "type": "ai",
-    "img": "gi_whisper",
-    "kb": "in"
+    "type": "black",
+    "text": "병사들 사이에 퍼진",
+    "accent": "이상한 말",
+    "accentAt": 0.5
    },
-   "label": "재연 일러스트",
    "act": 1
   },
   {
@@ -1394,7 +1354,7 @@
    ],
    "visual": {
     "type": "ai",
-    "img": "cn_night_march",
+    "img": "night_march",
     "kb": "in"
    },
    "label": "재연 일러스트",
@@ -1407,7 +1367,7 @@
    ],
    "visual": {
     "type": "ai",
-    "img": "cn_roadblock",
+    "img": "gauntlet_fire",
     "kb": "in"
    },
    "label": "재연 일러스트",
@@ -1502,11 +1462,12 @@
     "가슴에 수류탄을 매달고 다니던 공수부대 출신 장군이었죠."
    ],
    "visual": {
-    "type": "ai",
-    "img": "ridgway_grenade",
-    "kb": "in"
+    "type": "text",
+    "big": "가슴에 수류탄을 단 장군",
+    "style": "yellow",
+    "sub": "2차 세계 대전 공수부대 지휘관",
+    "subAt": 0.4
    },
-   "label": "재연 일러스트",
    "act": 1
   },
   {
@@ -1518,11 +1479,88 @@
     }
    ],
    "visual": {
-    "type": "ai",
-    "img": "gloomy_hq",
-    "kb": "in"
+    "type": "map",
+    "from": "nwide",
+    "to": "nwide",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        124.6,
+        38.0
+       ],
+       [
+        126.5,
+        38.0
+       ],
+       [
+        128.6,
+        38.3
+       ]
+      ],
+      "color": "#ffffff",
+      "at": 0,
+      "dash": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.98,
+        37.5
+       ],
+       [
+        127.3,
+        36.6
+       ]
+      ],
+      "color": "red",
+      "dash": true,
+      "at": 0.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.9,
+        37.3
+       ],
+       [
+        128.2,
+        36.5
+       ]
+      ],
+      "color": "red",
+      "dash": true,
+      "at": 0.3
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.6,
+        37.6
+       ],
+       [
+        128.9,
+        36.8
+       ]
+      ],
+      "color": "red",
+      "dash": true,
+      "at": 0.5
+     }
+    ]
    },
-   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "싸울 의지를 잃은 군대",
+     "style": "red",
+     "at": 0,
+     "pos": "lower"
+    }
+   ],
    "act": 1
   },
   {
@@ -1844,19 +1882,12 @@
     }
    ],
    "visual": {
-    "type": "ai",
-    "img": "legion_ww1",
-    "kb": "in"
+    "type": "text",
+    "big": "외인부대의 전설",
+    "style": "yellow",
+    "sub": "1차 세계 대전부터 싸워 온 군인",
+    "subAt": 0.4
    },
-   "label": "재연 일러스트",
-   "callouts": [
-    {
-     "text": "외인부대 · 1차 세계 대전부터",
-     "style": "yellow",
-     "at": 0,
-     "pos": "top"
-    }
-   ],
    "act": 1
   },
   {
@@ -1925,11 +1956,31 @@
     "몽클라르는 망설이지 않고 장군의 별을 내려놓았습니다."
    ],
    "visual": {
-    "type": "ai",
-    "img": "stars_removed",
-    "kb": "in"
+    "type": "stage",
+    "chars": [
+     {
+      "c": "fr_salute",
+      "x": 0.5,
+      "y": 0.9,
+      "h": 480,
+      "at": 0,
+      "flip": true,
+      "face": "smug",
+      "prop": "helmet",
+      "anim": "tilt"
+     }
+    ],
+    "pops": [
+     {
+      "kind": "label",
+      "x": 0.5,
+      "y": 0.15,
+      "text": "★★★ 내려놓다",
+      "on": "내려놓았습니다",
+      "color": "red"
+     }
+    ]
    },
-   "label": "재연 일러스트",
    "act": 1
   },
   {
@@ -2550,11 +2601,12 @@
     "일부는 피난민 옷을 입고 사단 뒤쪽으로 스며들었습니다."
    ],
    "visual": {
-    "type": "ai",
-    "img": "nk_disguise",
-    "kb": "in"
+    "type": "text",
+    "big": "피난민 옷차림의 침투병",
+    "style": "red",
+    "sub": "1951. 1. 7 · 원주",
+    "subAt": 0.4
    },
-   "label": "재연 일러스트",
    "act": 2
   },
   {
@@ -2954,11 +3006,12 @@
     "그러나 추위가 발목을 잡았습니다."
    ],
    "visual": {
-    "type": "ai",
-    "img": "frozen_gi",
-    "kb": "in"
+    "type": "text",
+    "big": "영하의 추위",
+    "style": "blue",
+    "sub": "얼어붙은 병사들",
+    "subAt": 0.4
    },
-   "label": "재연 일러스트",
    "act": 2
   },
   {
@@ -2967,11 +3020,10 @@
     "눈구름이 하늘을 덮어 비행기도 뜰 수 없었죠."
    ],
    "visual": {
-    "type": "ai",
-    "img": "grounded_planes",
-    "kb": "in"
+    "type": "text",
+    "big": "눈구름 · 공중 지원 없음",
+    "style": "dark"
    },
-   "label": "재연 일러스트",
    "act": 2
   },
   {
@@ -2984,7 +3036,7 @@
    ],
    "visual": {
     "type": "ai",
-    "img": "blizzard_hill",
+    "img": "snow_column",
     "kb": "in"
    },
    "label": "재연 일러스트",
@@ -3016,11 +3068,82 @@
     "북한군은 몇 번이고 고지를 되찾으려고 거세게 밀고 올라왔습니다."
    ],
    "visual": {
-    "type": "ai",
-    "img": "nk_assault_snow",
-    "kb": "in"
+    "type": "map",
+    "from": "wonju",
+    "to": "wonju",
+    "items": [
+     {
+      "k": "marker",
+      "p": "h247",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.95,
+        37.27
+       ],
+       [
+        127.938,
+        37.3
+       ]
+      ],
+      "color": "red",
+      "width": 1.0,
+      "at": 0.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.91,
+        37.28
+       ],
+       [
+        127.93,
+        37.3
+       ]
+      ],
+      "color": "red",
+      "width": 1.0,
+      "at": 0.3
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.96,
+        37.31
+       ],
+       [
+        127.94,
+        37.305
+       ]
+      ],
+      "color": "red",
+      "width": 1.0,
+      "at": 0.5
+     },
+     {
+      "k": "clash",
+      "p": "h247",
+      "at": 0.6,
+      "period": 0.9,
+      "size": 1.0
+     }
+    ],
+    "tilt": 30
    },
-   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "눈보라 속 북한군의 반복 공격",
+     "style": "red",
+     "at": 0,
+     "pos": "lower"
+    }
+   ],
    "act": 2
   },
   {
@@ -3029,11 +3152,12 @@
     "프랑스 병사들은 쏘고 또 쐈습니다."
    ],
    "visual": {
-    "type": "ai",
-    "img": "french_firing_snow",
-    "kb": "in"
+    "type": "photo",
+    "kb": "in",
+    "q": "s083-photo",
+    "tag": "NARA"
    },
-   "label": "재연 일러스트",
+   "label": "기관총 진지에서 적을 살피는 프랑스 대대 (1951. 4)",
    "act": 2
   },
   {
@@ -3094,7 +3218,7 @@
    ],
    "visual": {
     "type": "ai",
-    "img": "bayonet_fix",
+    "img": "french_charge",
     "kb": "in"
    },
    "label": "재연 일러스트",
@@ -3107,7 +3231,7 @@
    ],
    "visual": {
     "type": "ai",
-    "img": "bayonet_charge",
+    "img": "twin_bayonet",
     "kb": "in"
    },
    "label": "재연 일러스트",
@@ -3366,19 +3490,12 @@
     "발가락과 손가락이 얼어 떨어져 나가는 동상 환자가 끝없이 나왔죠."
    ],
    "visual": {
-    "type": "ai",
-    "img": "frostbite_aid",
-    "kb": "in"
+    "type": "text",
+    "big": "동상",
+    "style": "red",
+    "sub": "적보다 무서운 추위",
+    "subAt": 0.4
    },
-   "label": "재연 일러스트",
-   "callouts": [
-    {
-     "text": "적보다 무서운 동상",
-     "style": "yellow",
-     "at": 0,
-     "pos": "top"
-    }
-   ],
    "act": 2
   },
   {
@@ -3658,11 +3775,83 @@
     "나란히 붙은 두 터널과 그 사이를 잇는 철교."
    ],
    "visual": {
-    "type": "ai",
-    "img": "twin_tunnels",
-    "kb": "in"
+    "type": "map",
+    "from": "twin",
+    "to": "twin",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.6,
+        37.478
+       ],
+       [
+        127.63,
+        37.463
+       ],
+       [
+        127.655,
+        37.452
+       ],
+       [
+        127.672,
+        37.443
+       ],
+       [
+        127.69,
+        37.434
+       ],
+       [
+        127.72,
+        37.42
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": [
+       127.664,
+       37.4475
+      ],
+      "text": "터널",
+      "color": "#111",
+      "dy": -40,
+      "at": 0.1
+     },
+     {
+      "k": "badge",
+      "p": [
+       127.68,
+       37.439
+      ],
+      "text": "터널",
+      "color": "#111",
+      "dy": -40,
+      "at": 0.3
+     },
+     {
+      "k": "badge",
+      "p": "twin",
+      "text": "철교",
+      "color": "#2e66d8",
+      "dy": -40,
+      "at": 0.5
+     }
+    ],
+    "tilt": 34
    },
-   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "두 터널과 철교 · 위치 개략",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ],
    "act": 3
   },
   {
@@ -3885,11 +4074,23 @@
     }
    ],
    "visual": {
-    "type": "ai",
-    "img": "patrol_jeeps",
-    "kb": "in"
+    "type": "checklist",
+    "title": "정찰대 장비",
+    "items": [
+     {
+      "text": "지프 9대",
+      "on": "지프"
+     },
+     {
+      "text": "무기 운반차 2대",
+      "on": "무기"
+     },
+     {
+      "text": "기관총 · 무반동총",
+      "on": "기관총과"
+     }
+    ]
    },
-   "label": "재연 일러스트",
    "act": 3
   },
   {
@@ -3924,32 +4125,20 @@
     {
      "t": "그중 20명가량은 막 도착한 보충병이었죠.",
      "say": "그중 스무 명가량은 막 도착한 보충병이었죠."
-    }
+    },
+    "보병 훈련도 제대로 받지 못한 신병들이었습니다."
    ],
    "visual": {
     "type": "text",
     "big": "보충병 약 20명",
     "style": "red",
-    "sub": "막 도착한 신병",
+    "sub": "보병 훈련도 제대로 못 받은 신병",
     "subAt": 0.4
    },
    "act": 3
   },
   {
    "id": "s118",
-   "lines": [
-    "보병 훈련도 제대로 받지 못한 신병들이었습니다."
-   ],
-   "visual": {
-    "type": "ai",
-    "img": "green_recruits",
-    "kb": "in"
-   },
-   "label": "재연 일러스트",
-   "act": 3
-  },
-  {
-   "id": "s119",
    "lines": [
     "정오 무렵 정찰대는 신촌 마을 근처에 닿습니다."
    ],
@@ -4006,20 +4195,21 @@
    "act": 3
   },
   {
-   "id": "s120",
+   "id": "s119",
    "lines": [
     "대대 작전 보좌관 스타이 대위가 혼자 마을 쪽으로 걸어갔습니다."
    ],
    "visual": {
-    "type": "ai",
-    "img": "stai_walks",
-    "kb": "in"
+    "type": "text",
+    "big": "스타이 대위",
+    "style": "dark",
+    "sub": "홀로 신촌 쪽으로",
+    "subAt": 0.4
    },
-   "label": "재연 일러스트",
    "act": 3
   },
   {
-   "id": "s121",
+   "id": "s120",
    "lines": [
     "그리고 다시는 돌아오지 않았습니다."
    ],
@@ -4032,7 +4222,7 @@
    "act": 3
   },
   {
-   "id": "s122",
+   "id": "s121",
    "lines": [
     "얼마 뒤 박격포탄이 차량 옆에 떨어집니다."
    ],
@@ -4096,7 +4286,7 @@
    "act": 3
   },
   {
-   "id": "s123",
+   "id": "s122",
    "lines": [
     {
      "t": "남쪽의 453고지에서 중공군이 쏟아져 내려왔습니다.",
@@ -4180,7 +4370,7 @@
    "act": 3
   },
   {
-   "id": "s124",
+   "id": "s123",
    "lines": [
     "정찰대가 돌아갈 길이 끊긴 겁니다."
    ],
@@ -4250,20 +4440,20 @@
    "act": 3
   },
   {
-   "id": "s125",
+   "id": "s124",
    "lines": [
     "병사들은 시동이 걸린 차를 버리고 길 동쪽 능선으로 기어올랐습니다."
    ],
    "visual": {
     "type": "ai",
-    "img": "abandon_jeeps",
+    "img": "twin_ambush",
     "kb": "in"
    },
    "label": "재연 일러스트",
    "act": 3
   },
   {
-   "id": "s126",
+   "id": "s125",
    "lines": [
     "눈 덮인 좁은 능선이었습니다."
    ],
@@ -4293,13 +4483,13 @@
    "act": 3
   },
   {
-   "id": "s127",
+   "id": "s126",
    "lines": [
     "참호를 팔 자리조차 없었죠."
    ],
    "visual": {
     "type": "ai",
-    "img": "narrow_ridge",
+    "img": "fox_hill",
     "kb": "in"
    },
    "label": "재연 일러스트",
@@ -4312,7 +4502,7 @@
    "act": 3
   },
   {
-   "id": "s128",
+   "id": "s127",
    "lines": [
     "오후 내내 중공군은 대여섯 번이나 돌격해 옵니다."
    ],
@@ -4396,20 +4586,20 @@
    "act": 3
   },
   {
-   "id": "s129",
+   "id": "s128",
    "lines": [
     "손이 으스러진 스트래턴 일병은 왼손으로 자동소총을 쏘며 말했습니다."
    ],
    "visual": {
     "type": "ai",
-    "img": "stratton_bar",
+    "img": "gunner",
     "kb": "in"
    },
    "label": "재연 일러스트",
    "act": 3
   },
   {
-   "id": "s130",
+   "id": "s129",
    "lines": [
     "우리는 여기서 무사히 나갈 거야."
    ],
@@ -4423,7 +4613,7 @@
    "act": 3
   },
   {
-   "id": "s131",
+   "id": "s130",
    "lines": [
     "그 일병은 끝내 그 능선을 살아서 내려가지 못합니다."
    ],
@@ -4436,7 +4626,7 @@
    "act": 3
   },
   {
-   "id": "s132",
+   "id": "s131",
    "lines": [
     "그때 하늘 위의 작은 정찰기 한 대가 이 싸움을 발견합니다."
    ],
@@ -4487,7 +4677,7 @@
    "act": 3
   },
   {
-   "id": "s133",
+   "id": "s132",
    "lines": [
     {
      "t": "오후 5시 반 무렵 전투기들이 날아왔습니다.",
@@ -4547,27 +4737,81 @@
    "act": 3
   },
   {
-   "id": "s134",
+   "id": "s133",
    "lines": [
     "로켓과 네이팜탄이 능선 아래 중공군 위로 쏟아졌습니다."
    ],
    "visual": {
     "type": "photo",
     "kb": "in",
-    "q": "s134-photo",
+    "q": "s133-photo",
     "tag": "미 해병대"
    },
    "label": "네이팜탄을 떨어뜨리는 콜세어 전투기 (1952. 10)",
    "act": 3
   },
   {
-   "id": "s135",
+   "id": "s134",
    "lines": [
     "연락기 한 대가 탄약 상자를 떨어뜨렸지만 대부분 진지 밖으로 떨어졌죠."
    ],
    "visual": {
+    "type": "map",
+    "from": "twin",
+    "to": "twin",
+    "items": [
+     {
+      "k": "marker",
+      "p": "ridge_e",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "plane",
+      "path": [
+       [
+        127.65,
+        37.43
+       ],
+       [
+        127.679,
+        37.437
+       ],
+       [
+        127.7,
+        37.445
+       ]
+      ],
+      "at": 0.1,
+      "n": 1,
+      "dur": 3.5,
+      "hit": false,
+      "size": 0.6
+     },
+     {
+      "k": "badge",
+      "p": [
+       127.688,
+       37.432
+      ],
+      "text": "탄약 투하 · 대부분 진지 밖",
+      "color": "#2e66d8",
+      "dy": -50,
+      "at": 0.5
+     }
+    ],
+    "tilt": 30
+   },
+   "act": 3
+  },
+  {
+   "id": "s135",
+   "lines": [
+    "해가 지자 중공군은 다시 몰려옵니다."
+   ],
+   "visual": {
     "type": "ai",
-    "img": "ammo_drop",
+    "img": "wave_snow",
     "kb": "in"
    },
    "label": "재연 일러스트",
@@ -4576,42 +4820,22 @@
   {
    "id": "s136",
    "lines": [
-    "해가 지자 중공군은 다시 몰려옵니다."
-   ],
-   "visual": {
-    "type": "ai",
-    "img": "night_assault_ridge",
-    "kb": "in"
-   },
-   "label": "재연 일러스트",
-   "act": 3
-  },
-  {
-   "id": "s137",
-   "lines": [
     {
      "t": "5번이나 총에 맞은 마틴슨 상사에게 누군가 항복하자고 말합니다.",
      "say": "다섯 번이나 총에 맞은 마틴슨 상사에게 누군가 항복하자고 말합니다."
     }
    ],
    "visual": {
-    "type": "ai",
-    "img": "martinson",
-    "kb": "in"
+    "type": "text",
+    "big": "마틴슨 상사",
+    "style": "yellow",
+    "sub": "5번 총에 맞고도",
+    "subAt": 0.4
    },
-   "label": "재연 일러스트",
-   "callouts": [
-    {
-     "text": "마틴슨 상사 · 5번 부상",
-     "style": "yellow",
-     "at": 0,
-     "pos": "top"
-    }
-   ],
    "act": 3
   },
   {
-   "id": "s138",
+   "id": "s137",
    "lines": [
     "마틴슨은 단호하게 거절했습니다."
    ],
@@ -4642,7 +4866,7 @@
    "act": 3
   },
   {
-   "id": "s139",
+   "id": "s138",
    "lines": [
     "그 시각 아래쪽에서는 구조대가 오고 있었습니다."
    ],
@@ -4655,7 +4879,7 @@
    "act": 3
   },
   {
-   "id": "s140",
+   "id": "s139",
    "lines": [
     {
      "t": "티렐 대위가 이끄는 F중대 167명이었습니다.",
@@ -4672,7 +4896,7 @@
    "act": 3
   },
   {
-   "id": "s141",
+   "id": "s140",
    "lines": [
     {
      "t": "F중대는 먼저 453고지부터 빼앗았습니다.",
@@ -4718,7 +4942,7 @@
    "act": 3
   },
   {
-   "id": "s142",
+   "id": "s141",
    "lines": [
     "그런데 탈출한 병사 셋이 정찰대가 전멸했다고 전합니다."
    ],
@@ -4750,7 +4974,7 @@
    "act": 3
   },
   {
-   "id": "s143",
+   "id": "s142",
    "lines": [
     "구조대는 아침까지 기다리기로 합니다."
    ],
@@ -4764,20 +4988,19 @@
    "act": 3
   },
   {
-   "id": "s144",
+   "id": "s143",
    "lines": [
     "그때 진지를 빠져나온 위생병 하나가 달려왔습니다."
    ],
    "visual": {
-    "type": "ai",
-    "img": "medic_runs",
-    "kb": "in"
+    "type": "text",
+    "big": "위생병의 소식",
+    "style": "blue"
    },
-   "label": "재연 일러스트",
    "act": 3
   },
   {
-   "id": "s145",
+   "id": "s144",
    "lines": [
     "아직 버티고 있다는 소식이었죠."
    ],
@@ -4789,7 +5012,7 @@
    "act": 3
   },
   {
-   "id": "s146",
+   "id": "s145",
    "lines": [
     {
      "t": "밤 10시 반 F중대의 한 소대가 능선 아래에 닿습니다.",
@@ -4841,20 +5064,20 @@
    "act": 3
   },
   {
-   "id": "s147",
+   "id": "s146",
    "lines": [
     "어둠 속에서 위쪽의 한 병사가 외쳤습니다."
    ],
    "visual": {
-    "type": "ai",
-    "img": "dark_ridge_shout",
-    "kb": "in"
+    "type": "black",
+    "text": "어둠 속의",
+    "accent": "외침",
+    "accentAt": 0.5
    },
-   "label": "재연 일러스트",
    "act": 3
   },
   {
-   "id": "s148",
+   "id": "s147",
    "lines": [
     "로즈볼 경기는 누가 이겼지."
    ],
@@ -4868,7 +5091,7 @@
    "act": 3
   },
   {
-   "id": "s149",
+   "id": "s148",
    "lines": [
     "미국 대학 미식축구 결승전을 묻는 말이었습니다."
    ],
@@ -4882,7 +5105,7 @@
    "act": 3
   },
   {
-   "id": "s150",
+   "id": "s149",
    "lines": [
     "중공군이라면 대답할 수 없는 질문이었죠."
    ],
@@ -4912,20 +5135,21 @@
    "act": 3
   },
   {
-   "id": "s151",
+   "id": "s150",
    "lines": [
     "정답이 돌아오자 능선 위에서 환호가 터졌습니다."
    ],
    "visual": {
-    "type": "ai",
-    "img": "rescue_cheer",
-    "kb": "in"
+    "type": "text",
+    "big": "구조!",
+    "style": "yellow",
+    "sub": "능선 위의 환호",
+    "subAt": 0.4
    },
-   "label": "재연 일러스트",
    "act": 3
   },
   {
-   "id": "s152",
+   "id": "s151",
    "lines": [
     {
      "t": "새벽 3시 반 마지막 부상자까지 능선을 내려왔습니다.",
@@ -4933,16 +5157,23 @@
     }
    ],
    "visual": {
-    "type": "text",
-    "big": "새벽 3시 반",
-    "style": "dark",
-    "sub": "마지막 부상자까지 하산",
-    "subAt": 0.4
+    "type": "ai",
+    "img": "carry_dead",
+    "kb": "in"
    },
+   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "새벽 3시 반 · 마지막 부상자까지",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
    "act": 3
   },
   {
-   "id": "s153",
+   "id": "s152",
    "lines": [
     {
      "t": "정찰대의 10명 중 8명 넘게 죽거나 다치거나 사라졌습니다.",
@@ -4970,7 +5201,7 @@
    "act": 3
   },
   {
-   "id": "s154",
+   "id": "s153",
    "lines": [
     "그리고 이 정찰대는 중요한 사실 하나를 알아냈습니다."
    ],
@@ -4983,7 +5214,7 @@
    "act": 3
   },
   {
-   "id": "s155",
+   "id": "s154",
    "lines": [
     {
      "t": "쌍터널 뒤에 중공군 제125사단이 진을 치고 있었던 겁니다.",
@@ -5026,7 +5257,7 @@
    "act": 3
   },
   {
-   "id": "s156",
+   "id": "s155",
    "lines": [
     "군단장 알몬드는 곧바로 명령합니다."
    ],
@@ -5040,7 +5271,7 @@
    "act": 3
   },
   {
-   "id": "s157",
+   "id": "s156",
    "lines": [
     "쌍터널의 적을 찾아내 쳐부수라."
    ],
@@ -5071,7 +5302,7 @@
    "act": 3
   },
   {
-   "id": "s158",
+   "id": "s157",
    "lines": [
     {
      "t": "그 임무는 다시 제23연대에게 떨어졌습니다.",
@@ -5092,7 +5323,7 @@
    "act": 3
   },
   {
-   "id": "s159",
+   "id": "s158",
    "lines": [
     {
      "t": "1월 31일 아침 6시 반.",
@@ -5128,7 +5359,7 @@
    "act": 4
   },
   {
-   "id": "s160",
+   "id": "s159",
    "lines": [
     "프리먼 대령은 연대를 이끌고 쌍터널로 출발합니다."
    ],
@@ -5171,7 +5402,7 @@
    "act": 4
   },
   {
-   "id": "s161",
+   "id": "s160",
    "lines": [
     {
      "t": "제3대대와 프랑스 대대가 앞장섰습니다.",
@@ -5197,7 +5428,7 @@
    "act": 4
   },
   {
-   "id": "s162",
+   "id": "s161",
    "lines": [
     {
      "t": "뒤에는 제37야전포병대대가 따라왔죠.",
@@ -5207,7 +5438,7 @@
    "visual": {
     "type": "photo",
     "kb": "in",
-    "q": "s162-photo",
+    "q": "s161-photo",
     "tag": "미 육군"
    },
    "label": "155mm 곡사포를 쏘는 미군 포병 (1951)",
@@ -5222,7 +5453,7 @@
    "act": 4
   },
   {
-   "id": "s163",
+   "id": "s162",
    "lines": [
     {
      "t": "제2대대는 사단 예비로 남겨졌습니다.",
@@ -5237,7 +5468,7 @@
    "act": 4
   },
   {
-   "id": "s164",
+   "id": "s163",
    "lines": [
     "쌍터널의 지형은 지키기에 좋은 곳이 아니었습니다."
    ],
@@ -5302,13 +5533,100 @@
    "act": 4
   },
   {
-   "id": "s165",
+   "id": "s164",
    "lines": [
     "좁은 골짜기를 높은 능선들이 빙 둘러싸고 있었죠."
    ],
    "visual": {
+    "type": "map",
+    "from": "twin",
+    "to": "twin",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.6,
+        37.478
+       ],
+       [
+        127.63,
+        37.463
+       ],
+       [
+        127.655,
+        37.452
+       ],
+       [
+        127.672,
+        37.443
+       ],
+       [
+        127.69,
+        37.434
+       ],
+       [
+        127.72,
+        37.42
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "h333",
+      "text": "능선",
+      "color": "#111",
+      "dy": -40,
+      "at": 0.1
+     },
+     {
+      "k": "badge",
+      "p": "ridge_e",
+      "text": "능선",
+      "color": "#111",
+      "dy": -40,
+      "at": 0.25
+     },
+     {
+      "k": "badge",
+      "p": "nwr",
+      "text": "능선",
+      "color": "#111",
+      "dy": -40,
+      "at": 0.4
+     },
+     {
+      "k": "badge",
+      "p": "h453",
+      "text": "능선",
+      "color": "#111",
+      "dy": -40,
+      "at": 0.55
+     }
+    ],
+    "tilt": 40
+   },
+   "callouts": [
+    {
+     "text": "골짜기를 둘러싼 높은 능선",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ],
+   "act": 4
+  },
+  {
+   "id": "s165",
+   "lines": [
+    "중공군은 낮에는 마을과 동굴에 숨어 있다가 밤이 되면 공격했습니다."
+   ],
+   "visual": {
     "type": "ai",
-    "img": "valley_ridges",
+    "img": "tunnel_inside",
     "kb": "in"
    },
    "label": "재연 일러스트",
@@ -5316,19 +5634,6 @@
   },
   {
    "id": "s166",
-   "lines": [
-    "중공군은 낮에는 마을과 동굴에 숨어 있다가 밤이 되면 공격했습니다."
-   ],
-   "visual": {
-    "type": "ai",
-    "img": "cn_caves_day",
-    "kb": "in"
-   },
-   "label": "재연 일러스트",
-   "act": 4
-  },
-  {
-   "id": "s167",
    "lines": [
     "그래서 프리먼은 해가 지기 전에 높은 곳에 둥근 진지를 짓기로 합니다."
    ],
@@ -5427,7 +5732,7 @@
    "act": 4
   },
   {
-   "id": "s168",
+   "id": "s167",
    "lines": [
     {
      "t": "동쪽 능선은 제3대대가 맡았습니다.",
@@ -5496,7 +5801,7 @@
    "act": 4
   },
   {
-   "id": "s169",
+   "id": "s168",
    "lines": [
     "서쪽 능선은 프랑스 대대가 맡았죠."
    ],
@@ -5569,7 +5874,7 @@
    "act": 4
   },
   {
-   "id": "s170",
+   "id": "s169",
    "lines": [
     {
      "t": "그리고 남쪽의 453고지.",
@@ -5644,7 +5949,7 @@
    "act": 4
   },
   {
-   "id": "s171",
+   "id": "s170",
    "lines": [
     "이틀 전 정찰대의 퇴로를 끊었던 바로 그 고지였습니다."
    ],
@@ -5658,7 +5963,7 @@
    "act": 4
   },
   {
-   "id": "s172",
+   "id": "s171",
    "lines": [
     {
      "t": "이곳은 프랑스 제1중대가 홀로 지켰습니다.",
@@ -5728,7 +6033,7 @@
    "act": 4
   },
   {
-   "id": "s173",
+   "id": "s172",
    "lines": [
     "옆 부대와 이어지지 않은 외딴 진지였죠."
    ],
@@ -5742,7 +6047,7 @@
    "act": 4
   },
   {
-   "id": "s174",
+   "id": "s173",
    "lines": [
     "북쪽 골짜기의 빈틈은 전차로 막았습니다."
    ],
@@ -5815,7 +6120,7 @@
    "act": 4
   },
   {
-   "id": "s175",
+   "id": "s174",
    "lines": [
     {
      "t": "중대마다 지켜야 할 땅은 수백 m에서 1,000m가 넘었습니다.",
@@ -5838,7 +6143,7 @@
    "act": 4
   },
   {
-   "id": "s176",
+   "id": "s175",
    "lines": [
     "연대가 쓸 수 있는 예비대는 거의 없었습니다."
    ],
@@ -5857,7 +6162,7 @@
    "act": 4
   },
   {
-   "id": "s177",
+   "id": "s176",
    "lines": [
     "능선 하나만 내줘도 적이 진지 안으로 쏟아져 들어올 판이었죠."
    ],
@@ -5944,7 +6249,7 @@
    "act": 4
   },
   {
-   "id": "s178",
+   "id": "s177",
    "lines": [
     "그런데도 다른 방법이 없었습니다."
    ],
@@ -5977,20 +6282,80 @@
    "act": 4
   },
   {
-   "id": "s179",
+   "id": "s178",
    "lines": [
     "해가 기울 무렵 진지가 완성됩니다."
    ],
    "visual": {
-    "type": "ai",
-    "img": "perimeter_dusk",
-    "kb": "in"
+    "type": "map",
+    "from": "twin",
+    "to": "twin",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.659,
+        37.447
+       ],
+       [
+        127.664,
+        37.455
+       ],
+       [
+        127.676,
+        37.456
+       ],
+       [
+        127.686,
+        37.45
+       ],
+       [
+        127.686,
+        37.44
+       ],
+       [
+        127.678,
+        37.436
+       ],
+       [
+        127.67,
+        37.433
+       ],
+       [
+        127.662,
+        37.437
+       ],
+       [
+        127.659,
+        37.447
+       ]
+      ],
+      "color": "#7fd3ff",
+      "glow": true,
+      "at": 0.1
+     },
+     {
+      "k": "marker",
+      "p": "sinchon",
+      "color": "blue",
+      "at": 0.3
+     }
+    ],
+    "tilt": 26
    },
-   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "해 질 무렵 · 진지 완성",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
    "act": 4
   },
   {
-   "id": "s180",
+   "id": "s179",
    "lines": [
     "적의 흔적은 어디에도 없었습니다."
    ],
@@ -6004,20 +6369,21 @@
    "act": 4
   },
   {
-   "id": "s181",
+   "id": "s180",
    "lines": [
     "그때 군단장 알몬드가 진지를 찾아옵니다."
    ],
    "visual": {
-    "type": "ai",
-    "img": "almond_visit",
-    "kb": "in"
+    "type": "photo",
+    "kb": "in",
+    "q": "s180-photo",
+    "tag": "NARA"
    },
-   "label": "재연 일러스트",
+   "label": "제10군단장 알몬드 중장(왼쪽) (1951. 4)",
    "act": 4
   },
   {
-   "id": "s182",
+   "id": "s181",
    "lines": [
     "알몬드는 실망했습니다."
    ],
@@ -6049,7 +6415,7 @@
    "act": 4
   },
   {
-   "id": "s183",
+   "id": "s182",
    "lines": [
     "적도 못 찾고 지평리까지 나아가지도 못했기 때문이죠."
    ],
@@ -6142,14 +6508,14 @@
    "act": 4
   },
   {
-   "id": "s184",
+   "id": "s183",
    "lines": [
     "그는 부사단장 스튜어트 준장에게 이상한 명령을 내립니다."
    ],
    "visual": {
     "type": "photo",
     "kb": "in",
-    "q": "s184-photo",
+    "q": "s183-photo",
     "tag": "미 육군",
     "marks": [
      {
@@ -6165,7 +6531,7 @@
    "act": 4
   },
   {
-   "id": "s185",
+   "id": "s184",
    "lines": [
     "지평리에 사격을 가하라."
    ],
@@ -6182,20 +6548,20 @@
    "act": 4
   },
   {
-   "id": "s186",
+   "id": "s185",
    "lines": [
     "스튜어트는 전차 한 대를 몰고 나가 마을 위로 기관총을 한 차례 쏘고 돌아옵니다."
    ],
    "visual": {
     "type": "ai",
-    "img": "stewart_tank",
+    "img": "masan_clash",
     "kb": "in"
    },
    "label": "재연 일러스트",
    "act": 4
   },
   {
-   "id": "s187",
+   "id": "s186",
    "lines": [
     "그리고 지평리를 사격했다고 보고하죠."
    ],
@@ -6209,7 +6575,7 @@
    "act": 4
   },
   {
-   "id": "s188",
+   "id": "s187",
    "lines": [
     "스튜어트는 훗날 이 명령을 터무니없었다고 회고했습니다."
    ],
@@ -6226,7 +6592,7 @@
    "act": 4
   },
   {
-   "id": "s189",
+   "id": "s188",
    "lines": [
     "프리먼은 화가 났습니다."
    ],
@@ -6256,7 +6622,7 @@
    "act": 4
   },
   {
-   "id": "s190",
+   "id": "s189",
    "lines": [
     "괜한 총소리로 연대의 위치만 적에게 알려 준 셈이었으니까요."
    ],
@@ -6323,7 +6689,7 @@
    "act": 4
   },
   {
-   "id": "s191",
+   "id": "s190",
    "lines": [
     "그는 이렇게 중얼거렸다고 전해집니다."
    ],
@@ -6336,7 +6702,7 @@
    "act": 4
   },
   {
-   "id": "s192",
+   "id": "s191",
    "lines": [
     "저들이 내 연대를 죽이려 한다."
    ],
@@ -6350,7 +6716,7 @@
    "act": 4
   },
   {
-   "id": "s193",
+   "id": "s192",
    "lines": [
     "그 말은 생각보다 빨리 현실이 됩니다."
    ],
@@ -6363,7 +6729,7 @@
    "act": 4
   },
   {
-   "id": "s194",
+   "id": "s193",
    "lines": [
     {
      "t": "그날 밤 453고지에서 총성이 울립니다.",
@@ -6453,20 +6819,21 @@
    "act": 4
   },
   {
-   "id": "s195",
+   "id": "s194",
    "lines": [
     "중공군이 프랑스 중대를 떠보기 시작한 겁니다."
    ],
    "visual": {
-    "type": "ai",
-    "img": "probe_french",
-    "kb": "in"
+    "type": "text",
+    "big": "중공군의 탐색전",
+    "style": "red",
+    "sub": "453고지 · 신촌",
+    "subAt": 0.4
    },
-   "label": "재연 일러스트",
    "act": 4
   },
   {
-   "id": "s196",
+   "id": "s195",
    "lines": [
     "신촌 쪽에서도 미군 진지와 작은 충돌이 이어졌습니다."
    ],
@@ -6532,7 +6899,7 @@
    "act": 4
   },
   {
-   "id": "s197",
+   "id": "s196",
    "lines": [
     "북쪽의 어둠 속에서는 수천 명이 소리 없이 움직이고 있었습니다."
    ],
@@ -6606,7 +6973,7 @@
    "act": 4
   },
   {
-   "id": "s198",
+   "id": "s197",
    "lines": [
     {
      "t": "1951년 2월 1일 동트기 직전.",
@@ -6627,13 +6994,13 @@
    "act": 5
   },
   {
-   "id": "s199",
+   "id": "s198",
    "lines": [
     "나팔과 호루라기 소리가 골짜기를 채웁니다."
    ],
    "visual": {
     "type": "ai",
-    "img": "bugle_dawn",
+    "img": "bugle_gong",
     "kb": "in"
    },
    "label": "재연 일러스트",
@@ -6646,7 +7013,7 @@
    "act": 5
   },
   {
-   "id": "s200",
+   "id": "s199",
    "lines": [
     {
      "t": "중공군 제125사단의 공격이 시작됐습니다.",
@@ -6720,7 +7087,7 @@
    "act": 5
   },
   {
-   "id": "s201",
+   "id": "s200",
    "lines": [
     {
      "t": "제375연대는 북쪽에서 내려왔습니다.",
@@ -6812,7 +7179,7 @@
    "act": 5
   },
   {
-   "id": "s202",
+   "id": "s201",
    "lines": [
     {
      "t": "제374연대는 북동쪽 능선을 덮쳤습니다.",
@@ -6924,20 +7291,20 @@
    "act": 5
   },
   {
-   "id": "s203",
+   "id": "s202",
    "lines": [
     "날이 밝자 세 번째 연대가 움직입니다."
    ],
    "visual": {
     "type": "ai",
-    "img": "dawn_attack",
+    "img": "human_wave",
     "kb": "in"
    },
    "label": "재연 일러스트",
    "act": 5
   },
   {
-   "id": "s204",
+   "id": "s203",
    "lines": [
     {
      "t": "제373연대가 북서쪽과 남서쪽에서 프랑스 대대 쪽으로 달려들었습니다.",
@@ -7089,7 +7456,7 @@
    "act": 5
   },
   {
-   "id": "s205",
+   "id": "s204",
    "lines": [
     {
      "t": "3개 연대가 진지를 세 방향에서 조여 왔습니다.",
@@ -7305,7 +7672,7 @@
    "act": 5
   },
   {
-   "id": "s206",
+   "id": "s205",
    "lines": [
     {
      "t": "공격에 나선 중공군은 8,000명가량으로 추산됩니다.",
@@ -7331,7 +7698,7 @@
    "act": 5
   },
   {
-   "id": "s207",
+   "id": "s206",
    "lines": [
     {
      "t": "진지 안의 보병은 2개 대대뿐이었습니다.",
@@ -7353,20 +7720,21 @@
    "act": 5
   },
   {
-   "id": "s208",
+   "id": "s207",
    "lines": [
     "프리먼에게 남은 무기는 포병이었습니다."
    ],
    "visual": {
-    "type": "ai",
-    "img": "artillery_fire",
-    "kb": "in"
+    "type": "photo",
+    "kb": "in",
+    "q": "s207-photo",
+    "tag": "미 육군"
    },
-   "label": "재연 일러스트",
+   "label": "155mm 곡사포를 쏘는 미군 포병 (1951)",
    "act": 5
   },
   {
-   "id": "s209",
+   "id": "s208",
    "lines": [
     {
      "t": "제37야전포병대대의 곡사포들이 쉬지 않고 불을 뿜었습니다.",
@@ -7465,13 +7833,27 @@
    "act": 5
   },
   {
-   "id": "s210",
+   "id": "s209",
    "lines": [
     "포탄은 진지 바로 앞 비탈에 떨어졌습니다."
    ],
    "visual": {
+    "type": "text",
+    "big": "진지 바로 앞 비탈",
+    "style": "red",
+    "sub": "포탄이 떨어진 곳",
+    "subAt": 0.4
+   },
+   "act": 5
+  },
+  {
+   "id": "s210",
+   "lines": [
+    "중공군은 쓰러진 동료를 넘어 계속 올라왔습니다."
+   ],
+   "visual": {
     "type": "ai",
-    "img": "shells_slope",
+    "img": "ridge_ambush",
     "kb": "in"
    },
    "label": "재연 일러스트",
@@ -7479,19 +7861,6 @@
   },
   {
    "id": "s211",
-   "lines": [
-    "중공군은 쓰러진 동료를 넘어 계속 올라왔습니다."
-   ],
-   "visual": {
-    "type": "ai",
-    "img": "cn_climb",
-    "kb": "in"
-   },
-   "label": "재연 일러스트",
-   "act": 5
-  },
-  {
-   "id": "s212",
    "lines": [
     {
      "t": "453고지의 프랑스 중대는 고립된 채 싸웠습니다.",
@@ -7568,7 +7937,7 @@
    "act": 5
   },
   {
-   "id": "s213",
+   "id": "s212",
    "lines": [
     "그 중대의 진지 일부가 한때 중공군에게 넘어갔습니다."
    ],
@@ -7662,13 +8031,80 @@
    "act": 5
   },
   {
-   "id": "s214",
+   "id": "s213",
    "lines": [
     "중공군은 대대 지휘소 바로 앞까지 밀고 들어옵니다."
    ],
    "visual": {
+    "type": "map",
+    "from": "twin",
+    "to": "twin",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.659,
+        37.447
+       ],
+       [
+        127.664,
+        37.455
+       ],
+       [
+        127.676,
+        37.456
+       ],
+       [
+        127.686,
+        37.45
+       ],
+       [
+        127.686,
+        37.44
+       ],
+       [
+        127.678,
+        37.436
+       ],
+       [
+        127.67,
+        37.433
+       ],
+       [
+        127.662,
+        37.437
+       ],
+       [
+        127.659,
+        37.447
+       ]
+      ],
+      "color": "#7fd3ff",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "lock",
+      "p": "twin_w",
+      "text": "프랑스 대대 지휘소",
+      "at": 0.2,
+      "color": "#c9242c"
+     }
+    ],
+    "tilt": 34,
+    "hud": true
+   },
+   "act": 5
+  },
+  {
+   "id": "s214",
+   "lines": [
+    "프랑스 병사들은 물러서지 않고 다시 그 진지를 되찾았습니다."
+   ],
+   "visual": {
     "type": "ai",
-    "img": "cp_threat",
+    "img": "french_night",
     "kb": "in"
    },
    "label": "재연 일러스트",
@@ -7676,19 +8112,6 @@
   },
   {
    "id": "s215",
-   "lines": [
-    "프랑스 병사들은 물러서지 않고 다시 그 진지를 되찾았습니다."
-   ],
-   "visual": {
-    "type": "ai",
-    "img": "french_counter",
-    "kb": "in"
-   },
-   "label": "재연 일러스트",
-   "act": 5
-  },
-  {
-   "id": "s216",
    "lines": [
     "문제는 탄약이었습니다."
    ],
@@ -7701,7 +8124,7 @@
    "act": 5
   },
   {
-   "id": "s217",
+   "id": "s216",
    "lines": [
     "반나절 만에 탄약 상자가 빠르게 비어 갔습니다."
    ],
@@ -7721,20 +8144,21 @@
    "act": 5
   },
   {
-   "id": "s218",
+   "id": "s217",
    "lines": [
     "하늘은 낮은 구름으로 꽉 막혀 있었죠."
    ],
    "visual": {
-    "type": "ai",
-    "img": "low_clouds",
-    "kb": "in"
+    "type": "text",
+    "big": "낮은 구름",
+    "style": "dark",
+    "sub": "하늘이 막힌 날",
+    "subAt": 0.4
    },
-   "label": "재연 일러스트",
    "act": 5
   },
   {
-   "id": "s219",
+   "id": "s218",
    "lines": [
     "전투기도 수송기도 내려올 수 없는 날씨였습니다."
    ],
@@ -7759,7 +8183,7 @@
    "act": 5
   },
   {
-   "id": "s220",
+   "id": "s219",
    "lines": [
     "정오가 지나자 중공군은 다시 힘을 모읍니다."
    ],
@@ -7866,20 +8290,19 @@
    "act": 5
   },
   {
-   "id": "s221",
+   "id": "s220",
    "lines": [
     "오후 공격은 더 거셌습니다."
    ],
    "visual": {
-    "type": "ai",
-    "img": "afternoon_assault",
-    "kb": "in"
+    "type": "text",
+    "big": "더 거세진 오후 공격",
+    "style": "red"
    },
-   "label": "재연 일러스트",
    "act": 5
   },
   {
-   "id": "s222",
+   "id": "s221",
    "lines": [
     "북동쪽과 북서쪽의 높은 능선이 하나둘 중공군 손에 넘어갔습니다."
    ],
@@ -7958,20 +8381,118 @@
    "act": 5
   },
   {
-   "id": "s223",
+   "id": "s222",
    "lines": [
     "진지 안쪽이 내려다보이는 자리였습니다."
    ],
    "visual": {
-    "type": "ai",
-    "img": "overlook",
-    "kb": "in"
+    "type": "map",
+    "from": "twin",
+    "to": "twin",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.659,
+        37.447
+       ],
+       [
+        127.664,
+        37.455
+       ],
+       [
+        127.676,
+        37.456
+       ],
+       [
+        127.686,
+        37.45
+       ],
+       [
+        127.686,
+        37.44
+       ],
+       [
+        127.678,
+        37.436
+       ],
+       [
+        127.67,
+        37.433
+       ],
+       [
+        127.662,
+        37.437
+       ],
+       [
+        127.659,
+        37.447
+       ]
+      ],
+      "color": "#7fd3ff",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "h333",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "nwr",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.688,
+        37.457
+       ],
+       [
+        127.678,
+        37.448
+       ]
+      ],
+      "color": "red",
+      "width": 1.0,
+      "at": 0.2
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.655,
+        37.457
+       ],
+       [
+        127.665,
+        37.449
+       ]
+      ],
+      "color": "red",
+      "width": 1.0,
+      "at": 0.3
+     }
+    ],
+    "tilt": 40
    },
-   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "진지 안이 내려다보이는 자리",
+     "style": "red",
+     "at": 0,
+     "pos": "lower"
+    }
+   ],
    "act": 5
   },
   {
-   "id": "s224",
+   "id": "s223",
    "lines": [
     "진지는 금방이라도 뚫릴 것 같았습니다."
    ],
@@ -8001,7 +8522,7 @@
    "act": 5
   },
   {
-   "id": "s225",
+   "id": "s224",
    "lines": [
     "그때 하늘에 변화가 일어납니다."
    ],
@@ -8014,20 +8535,19 @@
    "act": 5
   },
   {
-   "id": "s226",
+   "id": "s225",
    "lines": [
     "구름 사이로 작은 틈이 열린 겁니다."
    ],
    "visual": {
-    "type": "ai",
-    "img": "cloud_break",
-    "kb": "in"
+    "type": "text",
+    "big": "구름 사이의 틈",
+    "style": "yellow"
    },
-   "label": "재연 일러스트",
    "act": 5
   },
   {
-   "id": "s227",
+   "id": "s226",
    "lines": [
     "그 틈으로 전투기들이 줄지어 내려왔습니다."
    ],
@@ -8114,33 +8634,35 @@
    "act": 5
   },
   {
-   "id": "s228",
+   "id": "s227",
    "lines": [
     "네이팜탄이 능선을 따라 불길을 그었습니다."
    ],
    "visual": {
-    "type": "ai",
-    "img": "napalm_ridge",
-    "kb": "in"
+    "type": "photo",
+    "kb": "in",
+    "q": "s227-photo",
+    "tag": "미 해병대"
    },
-   "label": "재연 일러스트",
+   "label": "네이팜탄을 떨어뜨리는 콜세어 전투기 (1952. 10)",
    "act": 5
   },
   {
-   "id": "s229",
+   "id": "s228",
    "lines": [
     "로켓과 기관총이 빼앗긴 고지를 두드렸습니다."
    ],
    "visual": {
-    "type": "ai",
-    "img": "rockets_ridge",
-    "kb": "in"
+    "type": "photo",
+    "kb": "in",
+    "q": "s228-photo",
+    "tag": "미 공군"
    },
-   "label": "재연 일러스트",
+   "label": "한국전쟁의 F-51 머스탱 전투기",
    "act": 5
   },
   {
-   "id": "s230",
+   "id": "s229",
    "lines": [
     "한 편대가 빠지면 다음 편대가 들어왔습니다."
    ],
@@ -8243,7 +8765,7 @@
    "act": 5
   },
   {
-   "id": "s231",
+   "id": "s230",
    "lines": [
     {
      "t": "이날 하루 쌍터널 하늘에서 이뤄진 공습은 80번이 넘습니다.",
@@ -8266,13 +8788,99 @@
    "act": 5
   },
   {
-   "id": "s232",
+   "id": "s231",
    "lines": [
     "능선 위의 중공군은 숨을 곳이 없었습니다."
    ],
    "visual": {
+    "type": "map",
+    "from": "twin",
+    "to": "twin",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.659,
+        37.447
+       ],
+       [
+        127.664,
+        37.455
+       ],
+       [
+        127.676,
+        37.456
+       ],
+       [
+        127.686,
+        37.45
+       ],
+       [
+        127.686,
+        37.44
+       ],
+       [
+        127.678,
+        37.436
+       ],
+       [
+        127.67,
+        37.433
+       ],
+       [
+        127.662,
+        37.437
+       ],
+       [
+        127.659,
+        37.447
+       ]
+      ],
+      "color": "#7fd3ff",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "shock",
+      "pts": [
+       [
+        127.688,
+        37.457
+       ],
+       [
+        127.655,
+        37.457
+       ],
+       [
+        127.673,
+        37.462
+       ]
+      ],
+      "at": 0.1,
+      "period": 0.6
+     }
+    ],
+    "tilt": 32
+   },
+   "callouts": [
+    {
+     "text": "숨을 곳 없는 능선",
+     "style": "red",
+     "at": 0,
+     "pos": "lower"
+    }
+   ],
+   "act": 5
+  },
+  {
+   "id": "s232",
+   "lines": [
+    "병사들은 그 틈을 타 빼앗긴 능선으로 다시 올라갑니다."
+   ],
+   "visual": {
     "type": "ai",
-    "img": "cn_no_cover",
+    "img": "ranger_counter",
     "kb": "in"
    },
    "label": "재연 일러스트",
@@ -8281,31 +8889,18 @@
   {
    "id": "s233",
    "lines": [
-    "병사들은 그 틈을 타 빼앗긴 능선으로 다시 올라갑니다."
+    "해가 기울면서 중공군의 나팔 소리가 잦아들었습니다."
    ],
    "visual": {
-    "type": "ai",
-    "img": "retake_ridge",
-    "kb": "in"
+    "type": "black",
+    "text": "해가 기울며",
+    "accent": "잦아든 나팔 소리",
+    "accentAt": 0.5
    },
-   "label": "재연 일러스트",
    "act": 5
   },
   {
    "id": "s234",
-   "lines": [
-    "해가 기울면서 중공군의 나팔 소리가 잦아들었습니다."
-   ],
-   "visual": {
-    "type": "ai",
-    "img": "sunset_quiet",
-    "kb": "in"
-   },
-   "label": "재연 일러스트",
-   "act": 5
-  },
-  {
-   "id": "s235",
    "lines": [
     "그리고 마침내 공격이 멈춥니다."
    ],
@@ -8319,7 +8914,7 @@
    "act": 5
   },
   {
-   "id": "s236",
+   "id": "s235",
    "lines": [
     {
      "t": "2개 대대가 중공군 3개 연대를 하루 종일 막아 낸 겁니다.",
@@ -8345,7 +8940,7 @@
    "act": 5
   },
   {
-   "id": "s237",
+   "id": "s236",
    "lines": [
     "해가 진 뒤 남쪽에서 반가운 발소리가 들려옵니다."
    ],
@@ -8398,7 +8993,7 @@
    "act": 6
   },
   {
-   "id": "s238",
+   "id": "s237",
    "lines": [
     {
      "t": "제1대대가 오후 내내 걸어서 진지에 도착한 겁니다.",
@@ -8415,7 +9010,7 @@
    "act": 6
   },
   {
-   "id": "s239",
+   "id": "s238",
    "lines": [
     {
      "t": "하늘에서는 대형 수송기 14대가 보급품을 떨어뜨렸습니다.",
@@ -8425,7 +9020,7 @@
    "visual": {
     "type": "photo",
     "kb": "in",
-    "q": "s239-photo",
+    "q": "s238-photo",
     "tag": "미 공군 · NASM"
    },
    "label": "하늘에서 떨어뜨린 보급품을 받는 국군 (1951. 9)",
@@ -8440,7 +9035,7 @@
    "act": 6
   },
   {
-   "id": "s240",
+   "id": "s239",
    "lines": [
     "탄약과 식량 그리고 의약품이었습니다."
    ],
@@ -8468,20 +9063,20 @@
    "act": 6
   },
   {
-   "id": "s241",
+   "id": "s240",
    "lines": [
     "병사들은 다시 밤을 기다렸습니다."
    ],
    "visual": {
     "type": "ai",
-    "img": "night_wait",
+    "img": "frozen_night",
     "kb": "in"
    },
    "label": "재연 일러스트",
    "act": 6
   },
   {
-   "id": "s242",
+   "id": "s241",
    "lines": [
     "중공군은 언제나 밤에 다시 왔으니까요."
    ],
@@ -8511,7 +9106,7 @@
    "act": 6
   },
   {
-   "id": "s243",
+   "id": "s242",
    "lines": [
     "그런데 그날 밤 공격은 오지 않았습니다."
    ],
@@ -8524,47 +9119,46 @@
    "act": 6
   },
   {
-   "id": "s244",
+   "id": "s243",
    "lines": [
     "새벽에 정찰대가 골짜기를 살폈습니다."
    ],
    "visual": {
-    "type": "ai",
-    "img": "dawn_patrol",
-    "kb": "in"
+    "type": "text",
+    "big": "새벽의 정찰",
+    "style": "dark",
+    "sub": "1951. 2. 2",
+    "subAt": 0.4
    },
-   "label": "재연 일러스트",
    "act": 6
   },
   {
-   "id": "s245",
+   "id": "s244",
    "lines": [
     "중공군은 사라지고 없었습니다."
    ],
    "visual": {
     "type": "text",
     "big": "중공군은 사라졌다",
-    "style": "yellow",
-    "sub": "1951. 2. 2 새벽",
-    "subAt": 0.4
+    "style": "yellow"
    },
    "act": 6
   },
   {
-   "id": "s246",
+   "id": "s245",
    "lines": [
     "그 대신 진지 둘레의 비탈에는 중공군 시신이 겹겹이 쌓여 있었습니다."
    ],
    "visual": {
     "type": "ai",
-    "img": "aftermath_slope",
+    "img": "pva_withdraw",
     "kb": "in"
    },
    "label": "재연 일러스트",
    "act": 6
   },
   {
-   "id": "s247",
+   "id": "s246",
    "lines": [
     {
      "t": "미군이 직접 센 숫자만 1,300구였습니다.",
@@ -8587,7 +9181,7 @@
    "act": 6
   },
   {
-   "id": "s248",
+   "id": "s247",
    "lines": [
     {
      "t": "죽거나 다친 중공군은 모두 3,600명쯤으로 추산됐죠.",
@@ -8617,21 +9211,21 @@
    "act": 6
   },
   {
-   "id": "s249",
+   "id": "s248",
    "lines": [
     "붙잡힌 부상병의 입에서 상대의 정체가 확인됩니다."
    ],
    "visual": {
     "type": "photo",
     "kb": "in",
-    "q": "s249-photo",
+    "q": "s248-photo",
     "tag": "미 해병대"
    },
    "label": "중부 전선에서 붙잡힌 중공군 (1951 · 횡성 부근)",
    "act": 6
   },
   {
-   "id": "s250",
+   "id": "s249",
    "lines": [
     {
      "t": "중공군 제42군 제125사단이었습니다.",
@@ -8646,7 +9240,7 @@
    "act": 6
   },
   {
-   "id": "s251",
+   "id": "s250",
    "lines": [
     "연대도 대가를 치렀습니다."
    ],
@@ -8659,7 +9253,7 @@
    "act": 6
   },
   {
-   "id": "s252",
+   "id": "s251",
    "lines": [
     {
      "t": "전사 45명 부상 207명 실종 4명.",
@@ -8696,7 +9290,7 @@
    "act": 6
   },
   {
-   "id": "s253",
+   "id": "s252",
    "lines": [
     {
      "t": "가장 큰 고비를 넘긴 곳은 453고지의 프랑스 중대였습니다.",
@@ -8773,7 +9367,7 @@
    "act": 6
   },
   {
-   "id": "s254",
+   "id": "s253",
    "lines": [
     "그래도 숫자가 말하는 것은 분명했습니다."
    ],
@@ -8786,7 +9380,7 @@
    "act": 6
   },
   {
-   "id": "s255",
+   "id": "s254",
    "lines": [
     "끝없이 밀려오는 중공군도 무너질 수 있다는 것이었죠."
    ],
@@ -8798,7 +9392,7 @@
    "act": 6
   },
   {
-   "id": "s256",
+   "id": "s255",
    "lines": [
     "이 싸움에는 세 가지 비밀이 있었습니다."
    ],
@@ -8811,7 +9405,7 @@
    "act": 6
   },
   {
-   "id": "s257",
+   "id": "s256",
    "lines": [
     "첫째 물러서지 않는 둥근 진지였습니다."
    ],
@@ -8828,7 +9422,7 @@
    "act": 6
   },
   {
-   "id": "s258",
+   "id": "s257",
    "lines": [
     "사방이 막혀도 등을 맞대고 버티면 길이 끊길 일이 없었죠."
    ],
@@ -8916,7 +9510,7 @@
    "act": 6
   },
   {
-   "id": "s259",
+   "id": "s258",
    "lines": [
     "둘째 포병과 공군이었습니다."
    ],
@@ -8937,7 +9531,7 @@
    "act": 6
   },
   {
-   "id": "s260",
+   "id": "s259",
    "lines": [
     "중공군이 숫자로 밀어붙이면 미군은 불의 양으로 맞섰습니다."
    ],
@@ -8960,7 +9554,7 @@
    "act": 6
   },
   {
-   "id": "s261",
+   "id": "s260",
    "lines": [
     "셋째 사람이었습니다."
    ],
@@ -8986,9 +9580,23 @@
    "act": 6
   },
   {
-   "id": "s262",
+   "id": "s261",
    "lines": [
     "프랑스 병사들은 고립된 고지에서도 끝까지 자리를 지켰습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s261-photo",
+    "tag": "NARA"
+   },
+   "label": "프랑스 대대 박격포 사수들 (1951. 4)",
+   "act": 6
+  },
+  {
+   "id": "s262",
+   "lines": [
+    "미국 병사들은 이틀 전 동료들이 쓰러진 바로 그 골짜기로 돌아와 싸웠습니다."
    ],
    "visual": {
     "type": "photo",
@@ -8996,38 +9604,25 @@
     "q": "s262-photo",
     "tag": "NARA"
    },
-   "label": "프랑스 대대 박격포 사수들 (1951. 4)",
+   "label": "낙동강 전선의 제23연대 병사들 (1950. 9)",
    "act": 6
   },
   {
    "id": "s263",
-   "lines": [
-    "미국 병사들은 이틀 전 동료들이 쓰러진 바로 그 골짜기로 돌아와 싸웠습니다."
-   ],
-   "visual": {
-    "type": "ai",
-    "img": "return_valley",
-    "kb": "in"
-   },
-   "label": "재연 일러스트",
-   "act": 6
-  },
-  {
-   "id": "s264",
    "lines": [
     "리지웨이가 원하던 싸움이 바로 이런 것이었습니다."
    ],
    "visual": {
     "type": "photo",
     "kb": "in",
-    "q": "s264-photo",
+    "q": "s263-photo",
     "tag": "Wikimedia Commons"
    },
    "label": "매슈 리지웨이 (1951)",
    "act": 6
   },
   {
-   "id": "s265",
+   "id": "s264",
    "lines": [
     "땅을 내주지 않으면서 적을 깎아 내는 싸움."
    ],
@@ -9041,7 +9636,7 @@
    "act": 6
   },
   {
-   "id": "s266",
+   "id": "s265",
    "lines": [
     "쌍터널은 그 첫 본보기가 됐습니다."
    ],
@@ -9055,7 +9650,7 @@
    "act": 6
   },
   {
-   "id": "s267",
+   "id": "s266",
    "lines": [
     "그러나 승리의 기쁨은 오래가지 않았습니다."
    ],
@@ -9068,7 +9663,7 @@
    "act": 6
   },
   {
-   "id": "s268",
+   "id": "s267",
    "lines": [
     {
      "t": "연대의 전력은 온전할 때의 75% 남짓으로 줄어 있었죠.",
@@ -9096,7 +9691,7 @@
    "act": 6
   },
   {
-   "id": "s269",
+   "id": "s268",
    "lines": [
     {
      "t": "2월 3일 연대는 북쪽으로 다시 걸음을 옮깁니다.",
@@ -9146,7 +9741,7 @@
    "act": 6
   },
   {
-   "id": "s270",
+   "id": "s269",
    "lines": [
     "목적지는 쌍터널에서 몇 킬로미터 떨어진 교차로 마을이었습니다."
    ],
@@ -9174,7 +9769,7 @@
    "act": 6
   },
   {
-   "id": "s271",
+   "id": "s270",
    "lines": [
     "중공군은 그 마을을 순순히 내줍니다."
    ],
@@ -9207,7 +9802,7 @@
    "act": 6
   },
   {
-   "id": "s272",
+   "id": "s271",
    "lines": [
     "너무 쉽게 내준 마을이었습니다."
    ],
@@ -9220,14 +9815,14 @@
    "act": 6
   },
   {
-   "id": "s273",
+   "id": "s272",
    "lines": [
     "그 마을의 이름이 지평리였습니다."
    ],
    "visual": {
     "type": "photo",
     "kb": "in",
-    "q": "s273-photo",
+    "q": "s272-photo",
     "tag": "미 육군"
    },
    "label": "지평리의 미군 장교 (1951. 2 무렵)",
@@ -9242,7 +9837,7 @@
    "act": 6
   },
   {
-   "id": "s274",
+   "id": "s273",
    "lines": [
     "연대가 들어간 곳은 중공군이 노리는 덫 한가운데였습니다."
    ],
@@ -9319,20 +9914,20 @@
    "act": 6
   },
   {
-   "id": "s275",
+   "id": "s274",
    "lines": [
     "병사들은 지평리를 둘러싼 낮은 고지들에 다시 둥근 진지를 짓기 시작합니다."
    ],
    "visual": {
     "type": "ai",
-    "img": "jipyeong_dig",
+    "img": "dig_in",
     "kb": "in"
    },
    "label": "재연 일러스트",
    "act": 6
   },
   {
-   "id": "s276",
+   "id": "s275",
    "lines": [
     "쌍터널에서 배운 그대로였죠."
    ],
@@ -9346,7 +9941,7 @@
    "act": 6
   },
   {
-   "id": "s277",
+   "id": "s276",
    "lines": [
     "프리먼은 알고 있었습니다."
    ],
@@ -9379,7 +9974,7 @@
    "act": 6
   },
   {
-   "id": "s278",
+   "id": "s277",
    "lines": [
     "중공군이 이번에는 사단이 아니라 군 전체를 끌고 올 것이라는 사실을요."
    ],
@@ -9437,7 +10032,7 @@
    "act": 6
   },
   {
-   "id": "s279",
+   "id": "s278",
    "lines": [
     {
      "t": "2월 11일 밤 중공군의 이월 공세가 시작됩니다.",
@@ -9515,7 +10110,7 @@
    "act": 7
   },
   {
-   "id": "s280",
+   "id": "s279",
    "lines": [
     {
      "t": "제4차 공세였습니다.",
@@ -9532,7 +10127,7 @@
    "act": 7
   },
   {
-   "id": "s281",
+   "id": "s280",
    "lines": [
     {
      "t": "중공군은 먼저 횡성 북쪽의 국군 제8사단을 덮쳤습니다.",
@@ -9542,14 +10137,14 @@
    "visual": {
     "type": "photo",
     "kb": "in",
-    "q": "s281-photo",
+    "q": "s280-photo",
     "tag": "미 육군 지도"
    },
    "label": "횡성 전투 상황도 (1951. 2. 11~13)",
    "act": 7
   },
   {
-   "id": "s282",
+   "id": "s281",
    "lines": [
     "국군과 미군 지원 부대는 큰 피해를 입고 원주 쪽으로 밀려납니다."
    ],
@@ -9604,7 +10199,7 @@
    "act": 7
   },
   {
-   "id": "s283",
+   "id": "s282",
    "lines": [
     {
      "t": "지평리의 제23연대는 순식간에 적진 한가운데 홀로 남게 됐습니다.",
@@ -9666,7 +10261,7 @@
    "act": 7
   },
   {
-   "id": "s284",
+   "id": "s283",
    "lines": [
     {
      "t": "2월 13일 지평리를 둘러싼 길이 모두 끊깁니다.",
@@ -9759,7 +10354,7 @@
    "act": 7
   },
   {
-   "id": "s285",
+   "id": "s284",
    "lines": [
     "알몬드는 철수를 건의했지만 리지웨이는 거부합니다."
    ],
@@ -9790,7 +10385,7 @@
    "act": 7
   },
   {
-   "id": "s286",
+   "id": "s285",
    "lines": [
     "지평리를 지켜라."
    ],
@@ -9807,14 +10402,14 @@
    "act": 7
   },
   {
-   "id": "s287",
+   "id": "s286",
    "lines": [
     "프리먼은 병사들에게 말했습니다."
    ],
    "visual": {
     "type": "photo",
     "kb": "in",
-    "q": "s287-photo",
+    "q": "s286-photo",
     "tag": "미 육군"
    },
    "label": "폴 프리먼 (훗날 대장 시절 사진)",
@@ -9829,7 +10424,7 @@
    "act": 7
   },
   {
-   "id": "s288",
+   "id": "s287",
    "lines": [
     "우리는 포위됐다 그러나 여기 남아 싸운다."
    ],
@@ -9843,7 +10438,7 @@
    "act": 7
   },
   {
-   "id": "s289",
+   "id": "s288",
    "lines": [
     {
      "t": "연대의 병력은 프랑스 대대를 합쳐 4,500명가량.",
@@ -9869,7 +10464,7 @@
    "act": 7
   },
   {
-   "id": "s290",
+   "id": "s289",
    "lines": [
     "그들을 둘러싼 중공군은 여러 개 사단이었습니다."
    ],
@@ -9897,13 +10492,13 @@
    "act": 7
   },
   {
-   "id": "s291",
+   "id": "s290",
    "lines": [
     "사흘 밤낮의 싸움이 이어집니다."
    ],
    "visual": {
     "type": "ai",
-    "img": "jipyeong_night",
+    "img": "basin_night",
     "kb": "in"
    },
    "label": "재연 일러스트",
@@ -9916,7 +10511,7 @@
    "act": 7
   },
   {
-   "id": "s292",
+   "id": "s291",
    "lines": [
     "프랑스 대대는 서쪽을 맡았습니다."
    ],
@@ -9978,13 +10573,13 @@
    "act": 7
   },
   {
-   "id": "s293",
+   "id": "s292",
    "lines": [
     "몽클라르의 병사들은 수동 사이렌을 울리며 총검을 꽂고 돌격했다고 전해집니다."
    ],
    "visual": {
     "type": "ai",
-    "img": "siren_charge",
+    "img": "siren",
     "kb": "in"
    },
    "label": "재연 일러스트",
@@ -9999,7 +10594,7 @@
    "act": 7
   },
   {
-   "id": "s294",
+   "id": "s293",
    "lines": [
     "프리먼은 박격포 파편에 다리를 다치고도 지휘를 놓지 않았습니다."
    ],
@@ -10031,7 +10626,7 @@
    "act": 7
   },
   {
-   "id": "s295",
+   "id": "s294",
    "lines": [
     {
      "t": "2월 15일 남쪽에서 크롬베즈 특수임무부대의 전차들이 포위망을 뚫고 들어옵니다.",
@@ -10039,43 +10634,11 @@
     }
    ],
    "visual": {
-    "type": "map",
-    "from": "jp_wide",
-    "to": "jp_wide",
-    "items": [
-     {
-      "k": "marker",
-      "p": "jipyeong",
-      "color": "blue",
-      "at": 0
-     },
-     {
-      "k": "arrow",
-      "path": [
-       [
-        127.598,
-        37.392
-       ],
-       [
-        127.615,
-        37.43
-       ],
-       [
-        127.63,
-        37.46
-       ],
-       [
-        127.636,
-        37.47
-       ]
-      ],
-      "color": "blue",
-      "width": 1.1,
-      "at": 0.2
-     }
-    ],
-    "tilt": 24
+    "type": "ai",
+    "img": "tank_run",
+    "kb": "in"
    },
+   "label": "재연 일러스트",
    "callouts": [
     {
      "text": "1951. 2. 15 · 크롬베즈 특수임무부대",
@@ -10087,7 +10650,7 @@
    "act": 7
   },
   {
-   "id": "s296",
+   "id": "s295",
    "lines": [
     "중공군은 물러났습니다."
    ],
@@ -10174,7 +10737,7 @@
    "act": 7
   },
   {
-   "id": "s297",
+   "id": "s296",
    "lines": [
     "한국에 들어온 뒤 중공군이 처음으로 당한 뚜렷한 패배였습니다."
    ],
@@ -10188,7 +10751,7 @@
    "act": 7
   },
   {
-   "id": "s298",
+   "id": "s297",
    "lines": [
     "같은 무렵 원주에서도 싸움이 벌어졌습니다."
    ],
@@ -10201,7 +10764,7 @@
    "act": 7
   },
   {
-   "id": "s299",
+   "id": "s298",
    "lines": [
     {
      "t": "2월 14일 원주 북서쪽 섬강.",
@@ -10240,7 +10803,7 @@
    "act": 7
   },
   {
-   "id": "s300",
+   "id": "s299",
    "lines": [
     "여러 줄로 강을 건너던 중공군 대열이 정찰기에 발견됩니다."
    ],
@@ -10337,7 +10900,7 @@
    "act": 7
   },
   {
-   "id": "s301",
+   "id": "s300",
    "lines": [
     "미군 포병과 전투기가 그 대열에 불을 쏟아부었습니다."
    ],
@@ -10439,7 +11002,7 @@
    "act": 7
   },
   {
-   "id": "s302",
+   "id": "s301",
    "lines": [
     "쓰러지는 병사가 늘자 중공군은 결국 방향을 틀고 맙니다."
    ],
@@ -10480,7 +11043,7 @@
    "act": 7
   },
   {
-   "id": "s303",
+   "id": "s302",
    "lines": [
     {
      "t": "그날 오후 3시 무렵 원주로 향하던 중공군의 움직임은 완전히 멈췄습니다.",
@@ -10497,7 +11060,7 @@
    "act": 7
   },
   {
-   "id": "s304",
+   "id": "s303",
    "lines": [
     "미군은 이 싸움을 원주 사격전이라고 불렀습니다."
    ],
@@ -10511,7 +11074,7 @@
    "act": 7
   },
   {
-   "id": "s305",
+   "id": "s304",
    "lines": [
     "지평리와 원주."
    ],
@@ -10534,7 +11097,7 @@
    "act": 7
   },
   {
-   "id": "s306",
+   "id": "s305",
    "lines": [
     "훗날 이 두 싸움은 한국전쟁의 게티즈버그라고 불립니다."
    ],
@@ -10546,7 +11109,7 @@
    "act": 7
   },
   {
-   "id": "s307",
+   "id": "s306",
    "lines": [
     "중공군의 공세가 가장 멀리 밀려온 지점이자 그 공세가 꺾인 곳이었죠."
    ],
@@ -10605,7 +11168,7 @@
    "act": 7
   },
   {
-   "id": "s308",
+   "id": "s307",
    "lines": [
     "이제 처음의 질문으로 돌아가 보겠습니다."
    ],
@@ -10618,7 +11181,7 @@
    "act": 7
   },
   {
-   "id": "s309",
+   "id": "s308",
    "lines": [
     "도망치던 군대는 어떻게 중공군을 막는 철벽이 됐을까요."
    ],
@@ -10636,7 +11199,7 @@
    "act": 7
   },
   {
-   "id": "s310",
+   "id": "s309",
    "lines": [
     "답은 한 번에 오지 않았습니다."
    ],
@@ -10648,13 +11211,13 @@
    "act": 7
   },
   {
-   "id": "s311",
+   "id": "s310",
    "lines": [
     "눈보라 속 원주의 고지에서 프랑스 병사들이 대검을 꽂았습니다."
    ],
    "visual": {
     "type": "ai",
-    "img": "bayonet_charge",
+    "img": "twin_bayonet",
     "kb": "in"
    },
    "label": "재연 일러스트",
@@ -10669,13 +11232,13 @@
    "act": 7
   },
   {
-   "id": "s312",
+   "id": "s311",
    "lines": [
     "쌍터널의 얼어붙은 능선에서 미군 신병들이 로즈볼 암호를 외치며 버텼습니다."
    ],
    "visual": {
     "type": "ai",
-    "img": "dark_ridge_shout",
+    "img": "twin_ambush",
     "kb": "in"
    },
    "label": "재연 일러스트",
@@ -10690,7 +11253,7 @@
    "act": 7
   },
   {
-   "id": "s313",
+   "id": "s312",
    "lines": [
     {
      "t": "그리고 2월 1일 2개 대대가 둥근 진지 안에서 3개 연대를 막아 냈습니다.",
@@ -10839,7 +11402,7 @@
    "act": 7
   },
   {
-   "id": "s314",
+   "id": "s313",
    "lines": [
     "그 작은 승리들이 차곡차곡 쌓여 지평리의 철벽이 된 겁니다."
    ],
@@ -10851,7 +11414,7 @@
    "act": 7
   },
   {
-   "id": "s315",
+   "id": "s314",
    "lines": [
     "중공군도 막을 수 있다."
    ],
@@ -10864,7 +11427,7 @@
    "act": 7
   },
   {
-   "id": "s316",
+   "id": "s315",
    "lines": [
     {
      "t": "이 믿음이 생기자 제8군은 더 이상 도망치는 군대가 아니었습니다.",
@@ -10872,27 +11435,15 @@
     }
    ],
    "visual": {
-    "type": "ai",
-    "img": "advance_north",
-    "kb": "in"
+    "type": "photo",
+    "kb": "in",
+    "q": "s315-photo",
+    "tag": "미 육군"
    },
-   "label": "재연 일러스트",
-   "act": 7
-  },
-  {
-   "id": "s317",
-   "lines": [
-    "리지웨이는 이듬해 미국 의회 연설에서 한 부대를 따로 언급합니다."
-   ],
-   "visual": {
-    "type": "ai",
-    "img": "congress_speech",
-    "kb": "in"
-   },
-   "label": "재연 일러스트",
+   "label": "이천 부근에서 진격하는 미 제1기병사단 (1951. 1. 29)",
    "callouts": [
     {
-     "text": "1952. 5 · 미국 의회",
+     "text": "다시 북쪽으로",
      "style": "yellow",
      "at": 0,
      "pos": "top"
@@ -10901,7 +11452,25 @@
    "act": 7
   },
   {
-   "id": "s318",
+   "id": "s316",
+   "lines": [
+    "리지웨이는 이듬해 미국 의회 연설에서 한 부대를 따로 언급합니다."
+   ],
+   "visual": {
+    "type": "document",
+    "org": "1952. 5 · 미국 의회 합동 회의",
+    "head": "리지웨이 미국 의회 연설 (요지)",
+    "rows": [
+     "프리먼 대령의 제23연대",
+     "그리고 프랑스 대대"
+    ],
+    "stamp": "演說",
+    "note": "요지"
+   },
+   "act": 7
+  },
+  {
+   "id": "s317",
    "lines": [
     {
      "t": "프리먼 대령의 제23연대와 프랑스 대대였습니다.",
@@ -10927,7 +11496,7 @@
    "act": 7
   },
   {
-   "id": "s319",
+   "id": "s318",
    "lines": [
     {
      "t": "제23연대와 프랑스 대대는 미국 대통령 부대 표창을 받았습니다.",
@@ -10948,14 +11517,14 @@
    "act": 7
   },
   {
-   "id": "s320",
+   "id": "s319",
    "lines": [
     "몽클라르는 전쟁이 끝난 뒤 다시 장군의 자리로 돌아갑니다."
    ],
    "visual": {
     "type": "photo",
     "kb": "in",
-    "q": "s320-photo",
+    "q": "s319-photo",
     "tag": "알베르 칸 박물관"
    },
    "label": "젊은 날의 마그랭베르느레 대위 (1921 · 레바논)",
@@ -10970,28 +11539,21 @@
    "act": 7
   },
   {
-   "id": "s321",
+   "id": "s320",
    "lines": [
     "훗날 그는 파리의 앵발리드에 잠듭니다."
    ],
    "visual": {
-    "type": "ai",
-    "img": "invalides",
-    "kb": "in"
+    "type": "text",
+    "big": "파리 앵발리드",
+    "style": "dark",
+    "sub": "몽클라르가 잠든 곳",
+    "subAt": 0.4
    },
-   "label": "재연 일러스트",
-   "callouts": [
-    {
-     "text": "파리 · 앵발리드",
-     "style": "yellow",
-     "at": 0,
-     "pos": "top"
-    }
-   ],
    "act": 7
   },
   {
-   "id": "s322",
+   "id": "s321",
    "lines": [
     {
      "t": "한국전쟁에는 모두 3,500명가량의 프랑스 병사가 다녀갔습니다.",
@@ -11008,34 +11570,76 @@
    "act": 7
   },
   {
-   "id": "s323",
+   "id": "s322",
    "lines": [
     "지금 지평리에는 프랑스 대대를 기리는 기념비가 서 있습니다."
    ],
    "visual": {
     "type": "photo",
     "kb": "in",
-    "q": "s323-photo",
+    "q": "s322-photo",
     "tag": "Wikimedia Commons"
    },
    "label": "지평리 전투 기념비 (지평 양조장 옆)",
    "act": 7
   },
   {
-   "id": "s324",
+   "id": "s323",
    "lines": [
     "쌍터널의 철길은 지금도 그 산을 지나갑니다."
    ],
    "visual": {
-    "type": "ai",
-    "img": "train_tunnel",
-    "kb": "in"
+    "type": "map",
+    "from": "twin",
+    "to": "twin",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        127.6,
+        37.478
+       ],
+       [
+        127.63,
+        37.463
+       ],
+       [
+        127.655,
+        37.452
+       ],
+       [
+        127.672,
+        37.443
+       ],
+       [
+        127.69,
+        37.434
+       ],
+       [
+        127.72,
+        37.42
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "at": 0.1
+     }
+    ],
+    "tilt": 26
    },
-   "label": "재연 일러스트",
+   "callouts": [
+    {
+     "text": "오늘도 달리는 중앙선 · 개략",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ],
    "act": 7
   },
   {
-   "id": "s325",
+   "id": "s324",
    "lines": [
     {
      "t": "그 위를 달리는 열차 소리 아래 75년 전 겨울의 사투가 잠들어 있습니다.",
@@ -11044,28 +11648,28 @@
    ],
    "visual": {
     "type": "ai",
-    "img": "winter_memory",
+    "img": "basin_dawn",
     "kb": "in"
    },
    "label": "재연 일러스트",
    "act": 7
   },
   {
-   "id": "s326",
+   "id": "s325",
    "lines": [
     "별을 내려놓은 장군과 은발의 연대장 그리고 이름 없이 쓰러진 병사들."
    ],
    "visual": {
     "type": "photo",
     "kb": "in",
-    "q": "s326-photo",
+    "q": "s325-photo",
     "tag": "대한민국 정부 사진 기록"
    },
    "label": "프랑스어 방송을 듣는 프랑스 대대 병사들",
    "act": 7
   },
   {
-   "id": "s327",
+   "id": "s326",
    "lines": [
     "그들이 쌓은 철벽 위에서 전쟁의 흐름이 바뀌었습니다."
    ],
@@ -11077,7 +11681,7 @@
    "act": 7
   },
   {
-   "id": "s328",
+   "id": "s327",
    "lines": [
     "오늘 이야기가 마음에 남으셨다면 구독과 좋아요 그리고 주변 분들께 공유 부탁드립니다.",
     "격전의 지도는 다음 이야기에서 또 다른 전장을 찾아가겠습니다."
@@ -11085,7 +11689,7 @@
    "visual": {
     "type": "endcard",
     "title": "쌍터널과 원주의 철벽을 쌓은\n모든 이들을 기억하며",
-    "q": "s328-photo"
+    "q": "s327-photo"
    },
    "tail": 1.0,
    "act": 7
