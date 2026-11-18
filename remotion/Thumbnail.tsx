@@ -1495,7 +1495,7 @@ export const PAROHO_V2: Record<string, ThumbV2Props> = {
     top: "“중공군 시점”에서 본 쌍터널의 프랑스 대대",
     line1: "3개 연대로 덮쳤는데",
     line2: "2개 대대를 못 뚫은 이유",
-    note: { text: "당시 프랑스 대대", x: 360, y: 300, to: [620, 420] },
+    note: { text: "당시 프랑스 대대 기관총조", x: 1560, y: 215, to: [1235, 300] },
     alt: { top: "“미군 시점”에서 본 프랑스 대대장", line1: "별 3개를 떼고 온", line2: "중령 대대장의 정체" }, // ALTS:ep30-twintunnels
   },
   // EP29 대전 전투 — 배경: 사료 사진 'General Dean's Kill!'(1950. 7. 20 딘 소장 지휘 아래 격파된 T-34, 미 육군, 퍼블릭 도메인) 흑백
