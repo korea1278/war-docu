@@ -1302,15 +1302,15 @@ const useP5Water = (mapImage: string) => {
   return data;
 };
 
-const useP5Measure = (texts: string[]) => {
+const useP5Measure = (texts: string[], font: string = P5.font) => {
   const [fn, setFn] = useState<((t: string) => number) | null>(null);
   const [hd] = useState(() => delayRender("p5-measure"));
   useEffect(() => {
-    document.fonts.load(`900 100px 'Pretendard'`, texts.join(""))
+    document.fonts.load(`900 100px ${font.split(",")[0]}`, texts.join(""))
       .then(() => document.fonts.ready)
       .then(() => {
         const ctx = document.createElement("canvas").getContext("2d")!;
-        ctx.font = `900 100px ${P5.font}`;
+        ctx.font = `900 100px ${font}`;
         setFn(() => (t: string) => (ctx.measureText(t).width - 2 * Math.max(0, [...t].length - 1)) / 100);
       })
       .finally(() => continueRender(hd));
@@ -1522,6 +1522,20 @@ export const PAROHO_V2: Record<string, ThumbV2Props> = {
   },
 };
 
+// 영문판(_en) A안 — 같은 디자인(v3 '베트콩 시점' 공식), 영어 카피. 키는 한국어 에피소드 이름 (2026-11-23 영어권 채널)
+export const PAROHO_V2_EN: Record<string, ThumbV2Props> = {
+  // EN-20 임진강 전투 — 배경: 사료 사진 (센추리온 전차와 진격하는 글로스터 대대, 1951. 3, 퍼블릭 도메인) 흑백
+  "ep20-imjin-river": {
+    bg: "ep/ep20-imjin-river/photos/s25_photo_0.jpg",
+    bgPos: "50% 40%",
+    top: "“Chinese Commander's View” of the Glosters at the Imjin",
+    line1: "40,000 AGAINST 700",
+    line2: "WHY THEY HELD 3 DAYS",
+    note: { text: "The Glosters, 1951", x: 760, y: 215, to: [560, 400] },
+    alt: { top: "Hill 235 · April 1951", line1: "NO WATER, NO AMMO", line2: "THE 700 WHO SAVED SEOUL" }, // ALTS:ep20-imjin-river_en
+  },
+};
+
 const V3 = { side: 56, bottom: 30, max2: 210, max1: 200, min: 110, ratio1: 0.94, gap: 0.02, red: "#FF2B2B", yellow: "#FFD83A" };
 const V3TopLine: React.FC<{ text: string; size: number; font: string }> = ({ text, size, font }) => {
   // “…” 구간(따옴표 포함)은 노랑, 나머지는 흰색
@@ -1565,7 +1579,7 @@ const V3Note: React.FC<{ n: ThumbNote; font: string; w: number }> = ({ n, font, 
 };
 export const ParohoV2Thumb: React.FC<{ d: ThumbV2Props; en?: boolean }> = ({ d, en }) => {
   const font = en ? "\x27Montserrat\x27, \x27Anton\x27, sans-serif" : P5.font;
-  const measure = useP5Measure([d.line1, d.line2, d.top || "", d.note?.text || "", d.alt?.line1 || ""]);
+  const measure = useP5Measure([d.line1, d.line2, d.top || "", d.note?.text || "", d.alt?.line1 || ""], font);
   const W = CW - V3.side * 2;
   const fit = (t: string, cap: number) => (measure ? Math.max(V3.min, Math.min(cap, Math.floor(W / Math.max(0.5, measure(t))))) : 180);
   const s2 = fit(d.line2, V3.max2);
@@ -1623,6 +1637,8 @@ export const Thumbnail: React.FC<{ ep: string; variant: "A" | "A2" | "A3" | "B";
   const refKey = ep.replace(/_en$/, "");
   const refD = (lang === "en" ? REF_EN : REF)[refKey];
   // ★★★★ 썸네일 표준 v2 (2026-11-18~, 고정 인물 폐기·Full-Bleed·대형 2줄): PAROHO_V2 표에 있는 에피소드
+  if (variant === "A" && lang === "en" && PAROHO_V2_EN[refKey]) return <ParohoV2Thumb d={PAROHO_V2_EN[refKey]} en />;
+  if (variant === "A2" && lang === "en" && PAROHO_V2_EN[refKey]?.alt) return <ParohoV2Thumb d={{ ...PAROHO_V2_EN[refKey], ...PAROHO_V2_EN[refKey].alt! }} en />;
   if (variant === "A" && lang !== "en" && PAROHO_V2[refKey]) return <ParohoV2Thumb d={PAROHO_V2[refKey]} />;
   if (variant === "A2" && lang !== "en" && PAROHO_V2[refKey]?.alt) return <ParohoV2Thumb d={{ ...PAROHO_V2[refKey], ...PAROHO_V2[refKey].alt! }} />;
   // ★★★ 썸네일 표준 v5 (파로호 공식, 2026-11-08~): PAROHO_STD 표에 있는 에피소드는 한국어 A안을 이 디자인으로
