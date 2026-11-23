@@ -1487,6 +1487,17 @@ export interface ThumbV2Props {
 }
 export type ThumbNote = { text: string; x: number; y: number; to: [number, number]; size?: number };
 export const PAROHO_V2: Record<string, ThumbV2Props> = {
+  // EP32 동락리 전투 — 배경: 사료 사진 전선으로 행군하는 국군(1950. 8, 장면 s061 사진) 흑백 — 동락리 현장 사진 아님(라벨에 날짜 명시)
+  //   카피: 1950. 7. 7 국군 제6사단 제7연대 — 북한군 제15사단 제48연대·포병대 기습(개전 13일 만의 첫 승전 소식), 김재옥 교사(19세) 제보
+  "ep32-dongnak": {
+    bg: "ep/ep32-dongnak/photos/s061_photo_0.jpg",
+    bgPos: "50% 30%",
+    top: "“북한군 연대장 시점”에서 본 동락리 운동장의 저녁",
+    line1: "13일 내내 지던 국군이",
+    line2: "적 연대를 무너뜨린 이유",
+    note: { text: "1950년 8월 전선으로 행군하는 국군", x: 400, y: 215, to: [680, 410] },
+    alt: { top: "“북한군 시점”에서 본 열아홉 살 선생님", line1: "부임 한 달 된 선생님이", line2: "적 연대를 무너뜨린 사연" }, // ALTS:ep32-dongnak
+  },
   // EP31 화령장 전투 — 배경: 사료 사진 SC 343087 (전선으로 향하는 국군, 1950. 7. 5, NARA·국사편찬위원회, 퍼블릭 도메인) 흑백
   //   카피: 1950. 7. 17~21 국군 제17연대 단독 매복 — 북한군 제15사단 제48·45연대 격멸(상주시 기념관·장삼열 논문), 동관리 사살 356 · 국군 전사 4
   "ep31-hwaryeong": {
