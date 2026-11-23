@@ -69,3 +69,6 @@
 2026-11-18 02:52:52 image abandon_jeeps: 402 {   "error": {     "code": 402,     "message": "Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ",     "status": "RESOURCE_EXHAUSTED"   } } 
 2026-11-18 03:38:37 ep30-twintunnels: 새 그림 28장 (cloudflare) · 약 1624뉴런 사용 (하루 무료 1만, 두 저장소 공용)
 2026-11-18 17:39:38 ep31-hwaryeong: 새 그림 12장 (cloudflare) · 약 696뉴런 사용 (하루 무료 1만, 두 저장소 공용)
+2026-11-23 06:55:54 ep32-dongnak: 새 그림 22장 (cloudflare) · 약 1276뉴런 사용 (하루 무료 1만, 두 저장소 공용)
+2026-11-23 06:58:47 ep32-dongnak: 러닝타임 20분 6초 — 목표 20분 30초와 10초 이상 차이 (대본 분량 조정 필요)
+2026-11-23 06:59:05 ep32-dongnak: 러닝타임 20분 6초 — 목표 20분 30초와 10초 이상 차이 (대본 분량 조정 필요)
