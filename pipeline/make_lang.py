@@ -23,6 +23,9 @@ def main(src, dst, lang):
         b["voice"] = tr["voice"]
     if tr.get("tempo"):
         b["tempo"] = tr["tempo"]
+    # 2026-11-23: 번역판 전용 보드 설정 (voice_settings·bgm_rel_db·sfx_policy 등)
+    for k, val in tr.get("board", {}).items():
+        b[k] = val
     for k, name in tr.get("places", {}).items():
         if k in b["places"]:
             b["places"][k][2] = name
@@ -53,6 +56,8 @@ def main(src, dst, lang):
                 c["until"] = tr["callout_until"][sc["id"]]
         if sc.get("chapter"):
             sc["chapter"]["num"], sc["chapter"]["title"] = t["chapter"]
+        if "hook" in t:  # 2026-11-23: 번역판에서 초반 후킹(HOOK_STANDARD) 추가·교체
+            sc["hook"] = t["hook"]
         for v in [sc["visual"], *sc.get("visuals", [])]:
             ty = v["type"]
             for i, bub in enumerate(v.get("bubbles", [])):
@@ -117,6 +122,8 @@ def main(src, dst, lang):
                 if v.get("tide") and t.get("tide"):  # EP11 조수 단면 라벨
                     v["tide"]["hiText"], v["tide"]["loText"] = t["tide"]
             elif ty == "endcard":
+                v["title"] = t["title"]
+            elif ty == "cta" and "title" in v:
                 v["title"] = t["title"]
     if missing:
         raise SystemExit(f"text 매핑 누락: {sorted(set(missing))}")

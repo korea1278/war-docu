@@ -1,0 +1,4680 @@
+{
+ "title": "Battle of the Imjin River",
+ "subtitle": "April 22 – 25, 1951",
+ "target_sec": 1230,
+ "voice": "Srd5jY77m6kKijR9vy6R",
+ "midrolls": [
+  "s37",
+  "s70",
+  "s107"
+ ],
+ "places": {
+  "seoul": [
+   126.978,
+   37.566,
+   "Seoul"
+  ],
+  "uijeongbu": [
+   127.047,
+   37.738,
+   "Uijeongbu"
+  ],
+  "munsan": [
+   126.78,
+   37.86,
+   "Munsan"
+  ],
+  "jeokseong": [
+   126.915,
+   37.958,
+   "Choksong"
+  ],
+  "ford": [
+   126.925,
+   37.984,
+   "Gloster Crossing"
+  ],
+  "castle": [
+   126.921,
+   37.966,
+   "Castle Hill"
+  ],
+  "dcoy": [
+   126.938,
+   37.963,
+   "D Company"
+  ],
+  "bcoy": [
+   126.953,
+   37.966,
+   "B Company"
+  ],
+  "h235": [
+   126.955,
+   37.934,
+   "Hill 235"
+  ],
+  "gamak": [
+   126.973,
+   37.944,
+   "Mt. Kamak"
+  ],
+  "seolmari": [
+   126.962,
+   37.918,
+   "Solma-ri"
+  ],
+  "nf": [
+   127.0,
+   37.99,
+   "Northumberland Fusiliers"
+  ],
+  "rur": [
+   127.02,
+   37.95,
+   "Royal Ulster Rifles"
+  ],
+  "belg": [
+   127.035,
+   38.02,
+   "Belgian Battalion"
+  ],
+  "rok1": [
+   126.86,
+   37.93,
+   "ROK 1st Division"
+  ],
+  "yeoncheon": [
+   127.074,
+   38.096,
+   "Yonchon"
+  ],
+  "kaesong": [
+   126.55,
+   37.97,
+   "Kaesong"
+  ],
+  "chorwon": [
+   127.21,
+   38.245,
+   "Chorwon"
+  ]
+ },
+ "views": {
+  "korea": {
+   "center": [
+    127.4,
+    37.9
+   ],
+   "span": 6.0
+  },
+  "central": {
+   "center": [
+    127.0,
+    37.85
+   ],
+   "span": 1.6
+  },
+  "axis": {
+   "center": [
+    126.98,
+    37.78
+   ],
+   "span": 0.6
+  },
+  "imjin": {
+   "center": [
+    126.95,
+    37.95
+   ],
+   "span": 0.36
+  },
+  "glos": {
+   "center": [
+    126.935,
+    37.962
+   ],
+   "span": 0.16
+  },
+  "front": {
+   "center": [
+    126.925,
+    37.975
+   ],
+   "span": 0.1
+  },
+  "hill": {
+   "center": [
+    126.955,
+    37.936
+   ],
+   "span": 0.12
+  },
+  "valley": {
+   "center": [
+    126.96,
+    37.922
+   ],
+   "span": 0.14
+  }
+ },
+ "music": [
+  {
+   "id": "drone",
+   "from": "s01",
+   "to": "s07",
+   "volume": 0.2
+  },
+  {
+   "id": "theme",
+   "from": "s09",
+   "to": "s36",
+   "volume": 0.16
+  },
+  {
+   "id": "tension",
+   "from": "s37",
+   "to": "s52",
+   "volume": 0.17
+  },
+  {
+   "id": "march",
+   "from": "s53",
+   "to": "s69",
+   "volume": 0.15
+  },
+  {
+   "id": "tension",
+   "from": "s70",
+   "to": "s89",
+   "volume": 0.17
+  },
+  {
+   "id": "march",
+   "from": "s90",
+   "to": "s106",
+   "volume": 0.15
+  },
+  {
+   "id": "somber",
+   "from": "s107",
+   "to": "s124",
+   "volume": 0.17
+  }
+ ],
+ "ai_images": {
+  "ford_night": "A shallow wide river ford in Korea at night in April 1951, moonlight on the water, dark low hills on the far bank, faint torch lights and silhouettes of countless figures entering the water in the distance, mist on the river, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no text, no letters.",
+  "hill_dawn": "A low rocky hill in Gyeonggi Korea at dawn in April 1951, shattered trees, smoke drifting over shallow trenches on the crest, pale cold light, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no people visible, no text, no letters.",
+  "door_key": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a single small group of British soldiers whose heads are round balls painted as the British Union Jack flag, wearing 1951 Brodie steel helmets or berets and khaki battledress standing in a narrow mountain pass gate holding a giant old iron door key, a long road behind them leading to a distant city skyline, dusk light, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "back_badge": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: close view from behind of British soldiers whose heads are round balls painted as the British Union Jack flag, wearing 1951 Brodie steel helmets or berets and khaki battledress berets showing a small regimental badge on the back of the beret, soldiers standing back to back in a trench, dusk, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "carne_map": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a calm British battalion commander, head a round ball painted as the British Union Jack flag, wearing a 1951 khaki battledress and beret, smoking a pipe while studying a large paper map spread on ammunition boxes in a dugout lit by a lantern, radio set nearby, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "shallow_ford": "A wide shallow river crossing in spring with exposed sand bars and gravel, water only waist deep, low hills on both sides, overcast Korean sky in April 1951, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no people visible, no text, no letters.",
+  "quiet_river": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: British soldiers whose heads are round balls painted as the British Union Jack flag, wearing 1951 Brodie steel helmets or berets and khaki battledress sitting quietly in a hillside trench overlooking a calm river at sunset in spring, one writing a letter, one cleaning a Bren gun, peaceful but tense mood, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "chinese_crossing": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a long column of Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red Chinese flag with yellow stars, wearing 1951 quilted khaki uniforms and caps wading across a waist-deep river at night under moonlight, rifles held above their heads, endless line disappearing into the dark far bank, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "human_wave": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: waves of Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red Chinese flag with yellow stars, wearing 1951 quilted khaki uniforms and caps charging up a dark hillside at night through machine gun tracer fire, flares in the sky, smoke and explosions, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "bugle_night": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red Chinese flag with yellow stars, wearing 1951 quilted khaki uniforms and caps blowing long brass bugles and striking gongs on a dark ridge at night, more soldiers behind them waiting to charge, eerie moonlight and mist, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "castle_hill_dawn": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: exhausted British soldiers whose heads are round balls painted as the British Union Jack flag, wearing 1951 Brodie steel helmets or berets and khaki battledress in a battered hilltop trench at dawn after a night battle, smoke, spent cartridges, broken sandbags, cold blue light, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "officer_falls": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: British soldiers whose heads are round balls painted as the British Union Jack flag, wearing 1951 Brodie steel helmets or berets and khaki battledress in a hilltop trench under heavy fire at morning, a fallen officer being pulled into cover by his men, smoke and dust, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "curtis_charge": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a wounded young British lieutenant, head a round ball painted as the British Union Jack flag, khaki battledress, charging alone up a rocky slope toward an enemy machine gun bunker with a hand grenade raised, his comrades behind him reaching out, dramatic low angle, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "radio_operator": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a British radio operator, head a round ball painted as the British Union Jack flag, crouching in a trench with a heavy field radio set and headphones, an officer beside him listening, smoke in the valley below, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "climb_night": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: British soldiers whose heads are round balls painted as the British Union Jack flag, wearing 1951 Brodie steel helmets or berets and khaki battledress climbing a steep rocky ridge at night carrying stretchers with wounded comrades, mortar tubes and machine guns on their backs, flares in the sky, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "trench_wounded": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: wounded British soldiers whose heads are round balls painted as the British Union Jack flag, wearing 1951 Brodie steel helmets or berets and khaki battledress lying in the bottom of a hilltop trench with bandages, empty water bottles beside them, a comrade sharing the last drops of water, harsh daylight, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "count_ammo": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: British soldiers whose heads are round balls painted as the British Union Jack flag, wearing 1951 Brodie steel helmets or berets and khaki battledress in a trench carefully counting the last rifle bullets into small piles on an empty ammunition box, a machine gun belt with few rounds left, tense faces, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "brigade_hq": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a British brigadier, head a round ball painted as the British Union Jack flag, calmly speaking into a field telephone in a tent headquarters, an American officer, head a round ball painted as the USA flag, listening without alarm, map on the table, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "melee_night": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: British soldiers whose heads are round balls painted as the British Union Jack flag, wearing 1951 Brodie steel helmets or berets and khaki battledress fighting hand to hand with Chinese People's Volunteer Army soldiers whose heads are round balls painted as the red Chinese flag with yellow stars, wearing 1951 quilted khaki uniforms and caps in a hilltop trench at night, bayonets and rifle butts, explosions lighting the scene, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "bugler": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a British drum major, head a round ball painted as the British Union Jack flag, standing up on a smoky hilltop at dawn blowing a brass bugle defiantly, soldiers in trenches around him looking up, first light of dawn, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "hill_cheer": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: British soldiers whose heads are round balls painted as the British Union Jack flag, wearing 1951 Brodie steel helmets or berets and khaki battledress cheering and raising rifles from their trenches on a smoky hilltop at dawn, defiant, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "radio_operator2": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a British officer, head a round ball painted as the British Union Jack flag, listening grimly to a field radio handset on a ruined hilltop in morning light, smoke rising from the valley, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "carne_orders": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a calm British battalion commander, head a round ball painted as the British Union Jack flag, beret and pipe, giving final orders to a small circle of company officers kneeling around him on a hilltop, smoke in the background, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "doctor_chaplain": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a British army doctor with a red cross armband and a chaplain with a white collar, both heads round balls painted as the British Union Jack flag, kneeling beside rows of wounded soldiers on stretchers on a hilltop, calm and resolute, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "last_mg": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: two British soldiers whose heads are round balls painted as the British Union Jack flag, wearing 1951 Brodie steel helmets or berets and khaki battledress firing a Vickers machine gun from a hilltop position covering comrades running down the slope behind them, empty ammunition boxes around, smoke, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "tank_valley": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a tired small group of British soldiers whose heads are round balls painted as the British Union Jack flag, wearing 1951 Brodie steel helmets or berets and khaki battledress stumbling out of a mountain valley toward a column of tanks, raising their hands and waving, dust and smoke, afternoon light, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "stone_cross": "A small hand-carved grey stone cross resting on a rough wooden table in a dim prison camp hut, a single shaft of light from a window, simple carving tools beside it, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no people visible, no text, no letters.",
+  "memorial_poppy": "A stone war memorial in a quiet Korean mountain valley in spring with wreaths of red poppies laid at its base, soft morning light, pine trees, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no people visible, no text, no letters.",
+  "valley_today": "A peaceful Korean mountain valley in spring today, green hills, a small road and a stream, cherry blossoms, soft golden light, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no people visible, no text, no letters.",
+  "azalea_trench": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: British soldiers whose heads are round balls painted as the British Union Jack flag, wearing 1951 Brodie steel helmets or berets and khaki battledress digging trenches on a spring hillside covered with pink azalea flowers, a calm river visible below, soft afternoon light, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "mortar_crew": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: British soldiers whose heads are round balls painted as the British Union Jack flag, wearing 1951 Brodie steel helmets or berets and khaki battledress firing a 4.2 inch mortar from a pit on a hilltop, empty shell cases around, smoke, determined, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "ambush_patrol": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a small ambush patrol of British soldiers whose heads are round balls painted as the British Union Jack flag, wearing 1951 Brodie steel helmets or berets and khaki battledress lying prone in reeds on a river bank at night firing a Bren gun at figures wading across the moonlit river, muzzle flashes, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "night_trench_fight": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: British soldiers whose heads are round balls painted as the British Union Jack flag, wearing 1951 Brodie steel helmets or berets and khaki battledress defending a ridge trench at night throwing hand grenades down the slope, tracer fire and flares, empty spaces in the trench where comrades fell, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "dead_radio": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a British signaller, head a round ball painted as the British Union Jack flag, shaking a field radio with a dying battery light in a dark trench, worried face, dawn, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "carne_walks": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a calm British battalion commander, head a round ball painted as the British Union Jack flag, beret and pipe, walking upright between trenches under falling shells, patting a soldier on the shoulder, soldiers looking up at him, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "breakout_slope": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: small groups of British soldiers whose heads are round balls painted as the British Union Jack flag, wearing 1951 Brodie steel helmets or berets and khaki battledress running and sliding down a steep rocky hillside in the morning, enemy machine gun fire kicking up dust around them, smoke, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "veteran_return": "An elderly British war veteran with a beret and medals, seen from behind, standing with a walking stick in a quiet Korean mountain valley in spring, looking at a stone memorial, soft light, painterly realistic digital illustration, no text, no letters.",
+  "beret_smoke": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a single British soldier, head a round ball painted as the British Union Jack flag, wearing a khaki beret with a badge on the back, standing alone on a smoky hill at dusk seen from behind, looking at a river below, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "hill_last_stand": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: British soldiers whose heads are round balls painted as the British Union Jack flag, wearing 1951 Brodie steel helmets or berets and khaki battledress crouching shoulder to shoulder in shallow trenches ringing a small rocky hilltop at dusk, looking outward in every direction, smoke rising from the valleys all around, no way out, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "filipino_tanks": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: Filipino soldiers whose heads are round balls painted as the Philippine flag, wearing 1951 M1 helmets and olive drab uniforms, advancing beside British Centurion tanks into a narrow rocky mountain gorge, dust and smoke ahead, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "recon_plane": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a small single-engine UN spotter plane circling low over a Korean mountain valley, dropping a message streamer toward a column of tanks, tired British soldiers waving below, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "thumb_subject": "Photorealistic black-and-white 1951 Korean War documentary portrait of a weary but defiant British infantry soldier of the Gloucestershire Regiment, khaki beret with a regimental badge, dirt- and smoke-streaked face, mouth open as if shouting an order, determined eyes, battledress with webbing, holding a Lee-Enfield rifle, waist-up, face clearly visible and turned slightly toward the right of the frame, sharp detail, high contrast monochrome, isolated on a plain pure white background, no shadows on the background, no text.",
+  "winter_march": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a long column of British soldiers whose heads are round balls painted as the British Union Jack flag, wearing 1951 Brodie steel helmets or berets and khaki battledress in heavy greatcoats marching through deep snow on a frozen Korean mountain road in January 1951, icy wind, grey sky, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
+  "pow_march": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a weary column of captured British soldiers whose heads are round balls painted as the British Union Jack flag, wearing 1951 Brodie steel helmets or berets and khaki battledress without helmets, hands tied, marching north along a dusty mountain road under guard of Chinese soldiers whose heads are round balls painted as the red Chinese flag with yellow stars, bleak sky, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters."
+ },
+ "scenes": [
+  {
+   "id": "s01",
+   "lines": [
+    "The night of April 22nd, 1951.",
+    "Over the shallow fords of the Imjin River, a strange sound begins to spread.",
+    "Gongs. Whistles. And bugles."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "ford_night",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "callouts": [
+    {
+     "text": "NIGHT OF APR. 22, 1951 · IMJIN RIVER",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "lines": [
+    "Behind that sound, the footsteps of tens of thousands of men start to cut through the water.",
+    "On the hills south of the river stood a British battalion of barely seven hundred men."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "glos",
+    "to": "front",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.851,
+        37.988
+       ],
+       [
+        126.873,
+        37.971
+       ],
+       [
+        126.89,
+        37.966
+       ],
+       [
+        126.905,
+        37.994
+       ],
+       [
+        126.924,
+        37.985
+       ],
+       [
+        126.941,
+        37.982
+       ],
+       [
+        126.953,
+        37.989
+       ],
+       [
+        126.967,
+        38.015
+       ],
+       [
+        126.981,
+        38.025
+       ],
+       [
+        126.99,
+        38.01
+       ],
+       [
+        127.008,
+        38.005
+       ],
+       [
+        127.025,
+        38.035
+       ]
+      ],
+      "color": "#00E5FF",
+      "at": 0,
+      "glow": true
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.92,
+        38.02
+       ],
+       [
+        126.923,
+        38.0
+       ],
+       [
+        126.925,
+        37.984
+       ],
+       [
+        126.922,
+        37.97
+       ]
+      ],
+      "color": "red",
+      "at": 0.4,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.935,
+        38.02
+       ],
+       [
+        126.932,
+        38.0
+       ],
+       [
+        126.93,
+        37.985
+       ],
+       [
+        126.935,
+        37.968
+       ]
+      ],
+      "color": "red",
+      "at": 0.8,
+      "width": 0.9
+     },
+     {
+      "k": "unit",
+      "p": "castle",
+      "color": "blue",
+      "text": "1st Glosters",
+      "at": 1.6,
+      "pulse": true
+     }
+    ],
+    "tilt": 18
+   },
+   "callouts": [
+    {
+     "text": "IMJIN RIVER FORDS (APPROX.)",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ],
+   "hook": {
+    "hud": [
+     {
+      "big": "700",
+      "sub": "British soldiers",
+      "sub2": "1st Bn, Gloucestershire Regiment",
+      "on": "seven hundred",
+      "color": "#FFD400",
+      "count": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "s03",
+   "lines": [
+    "Coming at them: forty thousand.",
+    "On paper, this was never supposed to be a fight at all."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "1st GLOSTERS",
+     "big": "700",
+     "icon": "none",
+     "color": "blue"
+    },
+    "right": {
+     "title": "PVA 63rd ARMY",
+     "big": "40,000",
+     "icon": "none",
+     "color": "red",
+     "at": 0.4
+    }
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0.4,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "lines": [
+    "And yet these seven hundred men held out for three days.",
+    "And those three days would change the fate of Seoul."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "ONLY THREE DAYS",
+    "accent": "The Time That Saved Seoul",
+    "accentAt": 0.5
+   },
+   "pauseBefore": 0.3,
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ],
+   "hook": {
+    "hud": [
+     {
+      "big": "3 DAYS",
+      "sub": "Held without relief",
+      "sub2": "April 22 – 25, 1951",
+      "on": "three days",
+      "color": "#FF3B3B",
+      "count": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "s05",
+   "lines": [
+    "So what kept these seven hundred men standing?",
+    "No water, almost no ammunition, and every road back cut off behind them."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "hill_dawn",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "hook": {
+    "neg": {
+     "text": "HOPELESS",
+     "at": 0.1,
+     "xOn": "standing"
+    },
+    "question": {
+     "text": "Cut off and outnumbered more than ten to one,\nhow did one British battalion\nhold off an entire Chinese army for three days?",
+     "at": 1.0,
+     "kicker": "■ TODAY'S QUESTION ■"
+    }
+   }
+  },
+  {
+   "id": "s06",
+   "lines": [
+    "The answer lies in a tradition one regiment had guarded for a hundred and fifty years,",
+    "and in the quiet decision of one battalion commander."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "beret_smoke",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s07",
+   "lines": [
+    "The Battle of the Imjin River, and the Gloster Battalion at Solma-ri.",
+    "Today, we follow those three days and nights, one move at a time, across the map."
+   ],
+   "visual": {
+    "type": "titlecard",
+    "title": "Battle of the Imjin River",
+    "sub": "The Last Stand of the Glosters at Solma-ri · 1951",
+    "at": 0,
+    "q": "s07-photo"
+   },
+   "flash": true,
+   "sfx": [
+    {
+     "id": "boom",
+     "at": 0,
+     "volume": 0.5
+    }
+   ]
+  },
+  {
+   "id": "s08",
+   "lines": [
+    "Before we begin,",
+    "if you want stories like this one to keep being told, please subscribe and hit the like button."
+   ],
+   "visual": {
+    "type": "cta",
+    "title": "Help Us Keep These Battles Remembered",
+    "at": 0
+   },
+   "pauseBefore": 0.3,
+   "sfx": [
+    {
+     "id": "pop",
+     "at": 0.3,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s09",
+   "lines": [
+    "Let's turn the clock back a little.",
+    "That spring, the Chinese army was preparing a massive offensive meant to flip the entire war."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s09-photo"
+   },
+   "label": "Chinese soldiers (Mar. 1951)",
+   "chapter": {
+    "num": "PART 1",
+    "title": "The Spring Offensive Aimed at Seoul"
+   }
+  },
+  {
+   "id": "s10",
+   "lines": [
+    "It would become known as the Chinese Spring Offensive of April 1951.",
+    "More than three hundred thousand troops were committed.",
+    "And the objective was one city. Seoul."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "central",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.1,
+        37.8
+       ],
+       [
+        126.6,
+        37.95
+       ],
+       [
+        126.95,
+        38.02
+       ],
+       [
+        127.2,
+        38.2
+       ],
+       [
+        127.6,
+        38.2
+       ],
+       [
+        128.0,
+        38.15
+       ],
+       [
+        128.6,
+        38.3
+       ]
+      ],
+      "at": 0.2
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.7,
+        38.3
+       ],
+       [
+        126.85,
+        38.05
+       ],
+       [
+        126.95,
+        37.75
+       ]
+      ],
+      "color": "red",
+      "at": 0.8,
+      "width": 1.2
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.15,
+        38.45
+       ],
+       [
+        127.1,
+        38.15
+       ],
+       [
+        127.03,
+        37.8
+       ]
+      ],
+      "color": "red",
+      "at": 1.1,
+      "width": 1.2
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.6,
+        38.5
+       ],
+       [
+        127.5,
+        38.2
+       ],
+       [
+        127.35,
+        37.9
+       ]
+      ],
+      "color": "red",
+      "at": 1.4,
+      "width": 1.0
+     },
+     {
+      "k": "marker",
+      "p": "seoul",
+      "color": "blue",
+      "at": 2.0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "APR. 1951 · CHINESE SPRING OFFENSIVE (APPROX.)",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "lines": [
+    "There was even word that they meant to retake Seoul in time for May Day, the first of May.",
+    "Only three months earlier, Seoul had already fallen to the enemy once more, before being won back."
+   ],
+   "visual": {
+    "type": "timeline",
+    "items": [
+     {
+      "date": "JUN. 1950",
+      "text": "Seoul Falls",
+      "at": 0
+     },
+     {
+      "date": "SEP. 1950",
+      "text": "Seoul Retaken",
+      "at": 0.3
+     },
+     {
+      "date": "JAN. 1951",
+      "text": "Falls Again",
+      "at": 0.9
+     },
+     {
+      "date": "MAR. 1951",
+      "text": "Retaken Again",
+      "at": 1.3
+     },
+     {
+      "date": "APR. 1951",
+      "text": "Spring Offensive",
+      "at": 1.7
+     }
+    ]
+   }
+  },
+  {
+   "id": "s12",
+   "lines": [
+    "The man directing this offensive was the Chinese commander in Korea, Peng Dehuai.",
+    "He massed his main strength on the western front, choosing to cross the Imjin and drive straight down on Seoul.",
+    "That road ran through Kaesong, Munsan, and Choksong."
+   ],
+   "visual": {
+    "type": "person",
+    "q": "s12-photo",
+    "name": "Peng Dehuai",
+    "years": "1898 - 1974",
+    "role": "Commander, Chinese People's Volunteers"
+   }
+  },
+  {
+   "id": "s13",
+   "lines": [
+    "South of the Imjin, the UN forces held a defensive line called Line Kansas.",
+    "But the troops on that line were spread thin,",
+    "and no one knew exactly when, or where, the blow would land."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "central",
+    "to": "central",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.1,
+        37.8
+       ],
+       [
+        126.6,
+        37.95
+       ],
+       [
+        126.95,
+        38.0
+       ],
+       [
+        127.2,
+        38.15
+       ],
+       [
+        127.6,
+        38.2
+       ],
+       [
+        128.0,
+        38.15
+       ],
+       [
+        128.6,
+        38.3
+       ]
+      ],
+      "at": 0.2
+     },
+     {
+      "k": "badge",
+      "p": [
+       127.3,
+       38.18
+      ],
+      "text": "Line Kansas",
+      "color": "blue",
+      "at": 0.8,
+      "dy": -60
+     },
+     {
+      "k": "radar",
+      "p": [
+       126.95,
+       38.1
+      ],
+      "at": 1.6,
+      "size": 0.9,
+      "color": "red",
+      "text": "Main Thrust Unknown"
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "APR. 1951 · UN LINE KANSAS (APPROX.)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "lines": [
+    "If Seoul fell for a third time, the course of the war, and any hope of a ceasefire, could change completely.",
+    "And squarely across that invasion route lay the Imjin River."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "central",
+    "to": "axis",
+    "items": [
+     {
+      "k": "marker",
+      "p": "seoul",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "uijeongbu",
+      "color": "blue",
+      "at": 0.4
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        126.851,
+        37.988
+       ],
+       [
+        126.873,
+        37.971
+       ],
+       [
+        126.89,
+        37.966
+       ],
+       [
+        126.905,
+        37.994
+       ],
+       [
+        126.924,
+        37.985
+       ],
+       [
+        126.941,
+        37.982
+       ],
+       [
+        126.953,
+        37.989
+       ],
+       [
+        126.967,
+        38.015
+       ],
+       [
+        126.981,
+        38.025
+       ],
+       [
+        126.99,
+        38.01
+       ],
+       [
+        127.008,
+        38.005
+       ],
+       [
+        127.025,
+        38.035
+       ]
+      ],
+      "color": "#00E5FF",
+      "at": 1.4,
+      "glow": true
+     },
+     {
+      "k": "badge",
+      "p": [
+       126.95,
+       38.0
+      ],
+      "text": "Imjin River",
+      "color": "blue",
+      "at": 1.8,
+      "dy": -60
+     }
+    ]
+   }
+  },
+  {
+   "id": "s15",
+   "lines": [
+    "The unit holding more than nineteen kilometers of that riverbank was the British 29th Infantry Brigade.",
+    "It was an absurdly wide front for a single brigade.",
+    "Normally, a distance like that would call for two or three times as many men."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "axis",
+    "to": "imjin",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.88,
+        37.975
+       ],
+       [
+        126.91,
+        37.982
+       ],
+       [
+        126.94,
+        37.983
+       ],
+       [
+        126.97,
+        37.99
+       ],
+       [
+        127.0,
+        38.0
+       ],
+       [
+        127.03,
+        38.01
+       ]
+      ],
+      "at": 0.3
+     },
+     {
+      "k": "unit",
+      "p": "castle",
+      "color": "blue",
+      "text": "Glosters",
+      "at": 1.0
+     },
+     {
+      "k": "unit",
+      "p": "nf",
+      "color": "blue",
+      "text": "Fusiliers",
+      "at": 1.3
+     },
+     {
+      "k": "unit",
+      "p": "belg",
+      "color": "blue",
+      "text": "Belgians",
+      "at": 1.6
+     },
+     {
+      "k": "unit",
+      "p": "rur",
+      "color": "blue",
+      "text": "Ulsters (Reserve)",
+      "at": 1.9
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "BRITISH 29th BRIGADE FRONT · ~19 KM (APPROX.)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s16",
+   "lines": [
+    "The brigade had three British battalions, the Glosters, the Northumberland Fusiliers and the Royal Ulster Rifles, plus a Belgian battalion,",
+    "backed by artillery and Centurion tanks."
+   ],
+   "visual": {
+    "type": "quotes",
+    "title": "British 29th Infantry Brigade",
+    "items": [
+     {
+      "text": "3 British Infantry Battalions · Belgian Battalion",
+      "at": 0
+     },
+     {
+      "text": "Artillery · Centurion Tanks",
+      "at": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "s17",
+   "lines": [
+    "The problem was the space in between.",
+    "Between one battalion and the next, there were gaps several kilometers wide."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "imjin",
+    "to": "imjin",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.88,
+        37.975
+       ],
+       [
+        126.91,
+        37.982
+       ],
+       [
+        126.94,
+        37.983
+       ],
+       [
+        126.97,
+        37.99
+       ],
+       [
+        127.0,
+        38.0
+       ],
+       [
+        127.03,
+        38.01
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "castle",
+      "color": "blue",
+      "text": "Glosters",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "nf",
+      "color": "blue",
+      "text": "Fusiliers",
+      "at": 0
+     },
+     {
+      "k": "lock",
+      "p": [
+       126.97,
+       37.97
+      ],
+      "at": 0.6,
+      "text": "Gap"
+     },
+     {
+      "k": "lock",
+      "p": [
+       126.88,
+       37.95
+      ],
+      "at": 1.0,
+      "text": "Gap"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s18",
+   "lines": [
+    "At the far left end of that line, guarding the road down to Seoul, stood one unit.",
+    "The 1st Battalion, the Gloucestershire Regiment. The Glosters."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "THE GLOSTERS",
+    "style": "yellow",
+    "sub": "1st Battalion, The Gloucestershire Regiment",
+    "subAt": 0.6
+   },
+   "sfx": [
+    {
+     "id": "hit",
+     "at": 0.2,
+     "volume": 0.45
+    }
+   ]
+  },
+  {
+   "id": "s19",
+   "lines": [
+    "So what happens if this battalion breaks?",
+    "The enemy pours straight down toward Uijeongbu and Seoul."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "imjin",
+    "to": "axis",
+    "items": [
+     {
+      "k": "unit",
+      "p": "castle",
+      "color": "blue",
+      "text": "Glosters",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.93,
+        38.0
+       ],
+       [
+        126.95,
+        37.9
+       ],
+       [
+        127.0,
+        37.8
+       ],
+       [
+        127.03,
+        37.65
+       ],
+       [
+        126.99,
+        37.58
+       ]
+      ],
+      "color": "red",
+      "at": 0.6,
+      "width": 1.2
+     },
+     {
+      "k": "marker",
+      "p": "uijeongbu",
+      "color": "yellow",
+      "at": 1.6
+     },
+     {
+      "k": "marker",
+      "p": "seoul",
+      "color": "yellow",
+      "at": 2.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "s20",
+   "lines": [
+    "And the flank of every other British battalion to their right is laid wide open.",
+    "One battalion, in effect, was holding the door handle of the entire front."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "door_key",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s21",
+   "lines": [
+    "The Glosters carry one very unusual tradition.",
+    "Their soldiers wear the regimental badge not only on the front of their caps, but on the back as well."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "back_badge",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "chapter": {
+    "num": "PART 2",
+    "title": "Watch on the Shallow Fords"
+   }
+  },
+  {
+   "id": "s22",
+   "lines": [
+    "It honors a battle in Egypt a hundred and fifty years earlier, when the regiment was attacked from front and rear at once, and fought back to back, and won.",
+    "Enemy in front. Enemy behind.",
+    "No one could have imagined that badge would become reality again on the Imjin."
+   ],
+   "visual": {
+    "type": "quotes",
+    "title": "The Glosters' Back Badge",
+    "items": [
+     {
+      "text": "Egypt, 1801 · Attacked Front and Rear",
+      "at": 0
+     },
+     {
+      "text": "The Regiment That Fought Back to Back",
+      "at": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "s23",
+   "lines": [
+    "Keep that badge in mind for a moment.",
+    "Because in this battle, it stops being just a decoration."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "ENEMY IN FRONT, ENEMY BEHIND",
+    "accent": "The Back Badge",
+    "accentAt": 0.5
+   }
+  },
+  {
+   "id": "s24",
+   "lines": [
+    "The battalion commander was Lieutenant Colonel James Carne.",
+    "A man of few words, he was known for the pipe he always seemed to have clenched in his teeth."
+   ],
+   "visual": {
+    "type": "person",
+    "q": "s24-photo",
+    "name": "James Carne",
+    "years": "1906 - 1986",
+    "role": "Lt. Col. · CO, 1st Glosters"
+   }
+  },
+  {
+   "id": "s25",
+   "lines": [
+    "The battalion had arrived in Korea the previous autumn, and had already been through a brutal winter of fighting.",
+    "Under his command were roughly seven hundred and fifty men."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s25-photo"
+   },
+   "label": "Glosters advancing with Centurion tanks (Mar. 1951)"
+  },
+  {
+   "id": "s25b",
+   "lines": [
+    "They had set foot in Korea as the winter of 1950 was closing in.",
+    "In temperatures that swung around twenty below zero, they had already fallen back once to south of Seoul, and then fought their way north again."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "winter_march",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s26",
+   "lines": [
+    "The battalion dug in company by company across the hills around Choksong in Paju, on the slopes of Mount Kamak.",
+    "A Company took the hill jutting out toward the river, known as Castle Hill."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "imjin",
+    "to": "glos",
+    "items": [
+     {
+      "k": "obj",
+      "p": "castle",
+      "n": "A",
+      "at": 0.6,
+      "text": "Castle Hill"
+     },
+     {
+      "k": "obj",
+      "p": "dcoy",
+      "n": "D",
+      "at": 1.0,
+      "text": "D Coy"
+     },
+     {
+      "k": "obj",
+      "p": "bcoy",
+      "n": "B",
+      "at": 1.3,
+      "text": "B Coy"
+     },
+     {
+      "k": "marker",
+      "p": "gamak",
+      "color": "yellow",
+      "at": 1.6
+     }
+    ],
+    "tilt": 18
+   },
+   "callouts": [
+    {
+     "text": "GLOSTERS COMPANY POSITIONS (APPROX.)",
+     "style": "dark",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s27",
+   "lines": [
+    "And behind battalion headquarters rose one small peak.",
+    "Two hundred and thirty-five meters high.",
+    "It would later be known as Gloster Hill."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "glos",
+    "to": "hill",
+    "items": [
+     {
+      "k": "obj",
+      "p": "h235",
+      "n": "235",
+      "at": 0.3,
+      "text": "Hill 235"
+     },
+     {
+      "k": "badge",
+      "p": "h235",
+      "text": "Gloster Hill",
+      "color": "blue",
+      "at": 1.6
+     }
+    ],
+    "tilt": 18
+   }
+  },
+  {
+   "id": "s28",
+   "lines": [
+    "Cut a cross-section through the Imjin valley that April, and you can see why this ground was so dangerous.",
+    "The river is low, and the hills are not very high."
+   ],
+   "visual": {
+    "type": "profile",
+    "pts": [
+     [
+      0,
+      15
+     ],
+     [
+      0.1,
+      12
+     ],
+     [
+      0.18,
+      10
+     ],
+     [
+      0.24,
+      40
+     ],
+     [
+      0.32,
+      120
+     ],
+     [
+      0.38,
+      148
+     ],
+     [
+      0.46,
+      110
+     ],
+     [
+      0.55,
+      140
+     ],
+     [
+      0.62,
+      182
+     ],
+     [
+      0.7,
+      150
+     ],
+     [
+      0.8,
+      200
+     ],
+     [
+      0.88,
+      235
+     ],
+     [
+      1,
+      180
+     ]
+    ],
+    "grid": [
+     50,
+     150,
+     250
+    ],
+    "yMin": 0,
+    "yMax": 320,
+    "title": "Imjin River → Hill 235 · North–South Profile",
+    "note": "Schematic (height exaggerated)",
+    "left": "N · Imjin Ford",
+    "right": "S · Solma-ri",
+    "marks": [
+     {
+      "x": 0.12,
+      "text": "Ford",
+      "style": "blue",
+      "at": 0.3,
+      "lift": 70,
+      "size": 38
+     },
+     {
+      "x": 0.38,
+      "text": "Castle Hill",
+      "style": "yellow",
+      "at": 0.6,
+      "lift": 70,
+      "size": 38
+     },
+     {
+      "x": 0.88,
+      "text": "Hill 235",
+      "style": "red",
+      "at": 1.0,
+      "lift": 70,
+      "size": 40
+     }
+    ]
+   }
+  },
+  {
+   "id": "s29",
+   "lines": [
+    "But this layout had a fatal weakness.",
+    "The companies were simply too far apart.",
+    "In places, they were too far apart to cover one another with fire."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "glos",
+    "to": "glos",
+    "items": [
+     {
+      "k": "obj",
+      "p": "castle",
+      "n": "A",
+      "at": 0,
+      "text": "Castle Hill"
+     },
+     {
+      "k": "obj",
+      "p": "dcoy",
+      "n": "D",
+      "at": 0,
+      "text": "D Coy"
+     },
+     {
+      "k": "obj",
+      "p": "bcoy",
+      "n": "B",
+      "at": 0,
+      "text": "B Coy"
+     },
+     {
+      "k": "obj",
+      "p": "h235",
+      "n": "235",
+      "at": 0,
+      "text": "Hill 235"
+     },
+     {
+      "k": "radar",
+      "p": [
+       126.945,
+       37.952
+      ],
+      "at": 1.0,
+      "size": 0.6,
+      "color": "red",
+      "text": "No Mutual Support"
+     }
+    ],
+    "tilt": 18
+   }
+  },
+  {
+   "id": "s30",
+   "lines": [
+    "With so few men, there was no other choice.",
+    "Colonel Carne knew about the gaps, but he had no one left to fill them."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "carne_map",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s31",
+   "lines": [
+    "Beyond the battalion's left flank stood the South Korean 1st Division.",
+    "But between those two units, too, lay a wide gap of hills and valleys.",
+    "Each held its own ground, without ever quite joining hands."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "imjin",
+    "to": "imjin",
+    "items": [
+     {
+      "k": "unit",
+      "p": "rok1",
+      "color": "blue",
+      "text": "ROK 1st Div.",
+      "at": 0.2
+     },
+     {
+      "k": "unit",
+      "p": "castle",
+      "color": "blue",
+      "text": "Glosters",
+      "at": 0.5
+     },
+     {
+      "k": "lock",
+      "p": [
+       126.885,
+       37.95
+      ],
+      "at": 1.2,
+      "text": "Gap"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s32",
+   "lines": [
+    "And then there was the river running in front of the battalion.",
+    "In April, the Imjin runs shallow.",
+    "At the fords, the water came up no higher than a man's waist."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "glos",
+    "to": "front",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.851,
+        37.988
+       ],
+       [
+        126.873,
+        37.971
+       ],
+       [
+        126.89,
+        37.966
+       ],
+       [
+        126.905,
+        37.994
+       ],
+       [
+        126.924,
+        37.985
+       ],
+       [
+        126.941,
+        37.982
+       ],
+       [
+        126.953,
+        37.989
+       ],
+       [
+        126.967,
+        38.015
+       ],
+       [
+        126.981,
+        38.025
+       ],
+       [
+        126.99,
+        38.01
+       ],
+       [
+        127.008,
+        38.005
+       ],
+       [
+        127.025,
+        38.035
+       ]
+      ],
+      "color": "#00E5FF",
+      "at": 0,
+      "glow": true
+     },
+     {
+      "k": "lock",
+      "p": "ford",
+      "at": 0.8,
+      "text": "Ford · Waist-Deep"
+     }
+    ],
+    "tilt": 18
+   }
+  },
+  {
+   "id": "s33",
+   "lines": [
+    "The river was no obstacle at all. It was simply a road you could walk across.",
+    "The soldiers called that spot Gloster Crossing."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "shallow_ford",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s34",
+   "lines": [
+    "Among the men were hardened veterans of the Second World War,",
+    "but many were young conscripts of about twenty, freshly shipped across the sea.",
+    "These rocky, unfamiliar mountains were nothing like the green fields of home in Gloucestershire."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s34-photo"
+   },
+   "label": "British troops on the march in Korea"
+  },
+  {
+   "id": "s35",
+   "lines": [
+    "That April, azaleas were blooming on the slopes of Mount Kamak.",
+    "By day the men dug trenches, and by night they sent patrols across toward the far bank.",
+    "For days, the patrols found not so much as a shadow of the enemy."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "azalea_trench",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s36",
+   "lines": [
+    "For days, the front was strangely quiet.",
+    "The darkness across the river already knew that this calm was the silence before the storm."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "quiet_river",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s37",
+   "lines": [
+    "The night of April 22nd. Moonlight was shining on the river."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "PART 3",
+    "accent": "The Night of Blood",
+    "accentAt": 0.4
+   },
+   "pauseBefore": 0.5,
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s38",
+   "lines": [
+    "Near the ford lay a platoon-sized ambush patrol led by Lieutenant Guy Temple.",
+    "As midnight drew near, dark shapes appeared on the water."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "front",
+    "to": "front",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.851,
+        37.988
+       ],
+       [
+        126.873,
+        37.971
+       ],
+       [
+        126.89,
+        37.966
+       ],
+       [
+        126.905,
+        37.994
+       ],
+       [
+        126.924,
+        37.985
+       ],
+       [
+        126.941,
+        37.982
+       ],
+       [
+        126.953,
+        37.989
+       ],
+       [
+        126.967,
+        38.015
+       ],
+       [
+        126.981,
+        38.025
+       ],
+       [
+        126.99,
+        38.01
+       ],
+       [
+        127.008,
+        38.005
+       ],
+       [
+        127.025,
+        38.035
+       ]
+      ],
+      "color": "#00E5FF",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": [
+       126.924,
+       37.979
+      ],
+      "color": "blue",
+      "text": "Ambush Patrol",
+      "at": 0.3,
+      "pulse": true
+     },
+     {
+      "k": "radar",
+      "p": "ford",
+      "at": 1.2,
+      "size": 0.5,
+      "color": "red",
+      "text": "Crossing"
+     }
+    ],
+    "tilt": 18
+   },
+   "chapter": {
+    "num": "PART 3",
+    "title": "The Night of Blood"
+   }
+  },
+  {
+   "id": "s39",
+   "lines": [
+    "Temple's patrol is said to have stopped the enemy crossing in midstream several times that night.",
+    "But this was not an enemy one platoon could hold back."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "ambush_patrol",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s40",
+   "lines": [
+    "It wasn't one or two men.",
+    "They came in lines, wading across without end."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "chinese_crossing",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s41",
+   "lines": [
+    "The patrol opened fire all at once.",
+    "The leading ranks fell into the river."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "front",
+    "to": "front",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.851,
+        37.988
+       ],
+       [
+        126.873,
+        37.971
+       ],
+       [
+        126.89,
+        37.966
+       ],
+       [
+        126.905,
+        37.994
+       ],
+       [
+        126.924,
+        37.985
+       ],
+       [
+        126.941,
+        37.982
+       ],
+       [
+        126.953,
+        37.989
+       ],
+       [
+        126.967,
+        38.015
+       ],
+       [
+        126.981,
+        38.025
+       ],
+       [
+        126.99,
+        38.01
+       ],
+       [
+        127.008,
+        38.005
+       ],
+       [
+        127.025,
+        38.035
+       ]
+      ],
+      "color": "#00E5FF",
+      "at": 0
+     },
+     {
+      "k": "shock",
+      "pts": [
+       [
+        126.922,
+        37.986
+       ],
+       [
+        126.926,
+        37.987
+       ],
+       [
+        126.929,
+        37.985
+       ],
+       [
+        126.924,
+        37.989
+       ]
+      ],
+      "at": 0.2,
+      "size": 0.6,
+      "period": 0.5
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.926,
+        38.0
+       ],
+       [
+        126.925,
+        37.99
+       ],
+       [
+        126.925,
+        37.985
+       ]
+      ],
+      "color": "red",
+      "at": 0,
+      "width": 0.9
+     }
+    ],
+    "tilt": 18
+   }
+  },
+  {
+   "id": "s42",
+   "lines": [
+    "And then something strange.",
+    "The next rank walked straight over the spot where the first had fallen.",
+    "They fell, and still more came."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "human_wave",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s43",
+   "lines": [
+    "Temple's platoon only pulled back after firing until its ammunition ran out.",
+    "The enemy who crossed the river that night was the Chinese 63rd Army.",
+    "Three divisions. Tens of thousands of men."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "imjin",
+    "to": "imjin",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.851,
+        37.988
+       ],
+       [
+        126.873,
+        37.971
+       ],
+       [
+        126.89,
+        37.966
+       ],
+       [
+        126.905,
+        37.994
+       ],
+       [
+        126.924,
+        37.985
+       ],
+       [
+        126.941,
+        37.982
+       ],
+       [
+        126.953,
+        37.989
+       ],
+       [
+        126.967,
+        38.015
+       ],
+       [
+        126.981,
+        38.025
+       ],
+       [
+        126.99,
+        38.01
+       ],
+       [
+        127.008,
+        38.005
+       ],
+       [
+        127.025,
+        38.035
+       ]
+      ],
+      "color": "#00E5FF",
+      "at": 0
+     },
+     {
+      "k": "front",
+      "path": [
+       [
+        126.88,
+        37.975
+       ],
+       [
+        126.91,
+        37.982
+       ],
+       [
+        126.94,
+        37.983
+       ],
+       [
+        126.97,
+        37.99
+       ],
+       [
+        127.0,
+        38.0
+       ],
+       [
+        127.03,
+        38.01
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.89,
+        38.07
+       ],
+       [
+        126.905,
+        38.0
+       ],
+       [
+        126.915,
+        37.97
+       ]
+      ],
+      "color": "red",
+      "at": 0.8,
+      "width": 1.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.94,
+        38.08
+       ],
+       [
+        126.93,
+        38.01
+       ],
+       [
+        126.935,
+        37.97
+       ]
+      ],
+      "color": "red",
+      "at": 1.1,
+      "width": 1.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.0,
+        38.09
+       ],
+       [
+        126.985,
+        38.03
+       ],
+       [
+        126.97,
+        37.97
+       ]
+      ],
+      "color": "red",
+      "at": 1.4,
+      "width": 1.1
+     },
+     {
+      "k": "badge",
+      "p": [
+       126.94,
+       38.06
+      ],
+      "text": "PVA 63rd Army · 3 Divisions",
+      "color": "red",
+      "at": 2.0,
+      "dy": 0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "NIGHT OF APR. 22–23 · CHINESE CROSSING (APPROX.)",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s44",
+   "lines": [
+    "The 63rd Army's orders were clear.",
+    "Cross the Imjin, smash through the British positions in one blow, and throw open the road to Uijeongbu.",
+    "By their calculations, the whole job would take a single night."
+   ],
+   "visual": {
+    "type": "document",
+    "org": "PVA 63rd Army",
+    "head": "Imjin Breakthrough · Mission Summary",
+    "stamp": "DECLASSIFIED",
+    "rows": [
+     "Cross the Imjin River",
+     "Break the British positions",
+     "Advance toward Uijeongbu"
+    ],
+    "note": "Summary · Reconstruction"
+   },
+   "sfx": [
+    {
+     "id": "typewriter",
+     "at": 0.2,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s45",
+   "lines": [
+    "And that is when the sound begins.",
+    "Gongs and cymbals, shrill whistles, and long, wailing bugles."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "bugle_night",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0,
+     "volume": 0.3
+    }
+   ]
+  },
+  {
+   "id": "s46",
+   "lines": [
+    "The Chinese used these sounds to signal the direction of attack, and at the same time to grind down the nerves of the enemy.",
+    "Noise echoing from every side, below a pitch-black ridge.",
+    "The terror of not knowing where they were coming from, or how many."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "GONGS · CYMBALS · BUGLES",
+    "accent": "An Unseen Terror",
+    "accentAt": 0.6
+   }
+  },
+  {
+   "id": "s47",
+   "lines": [
+    "And the attack that night was not aimed at the Glosters alone.",
+    "The Belgian battalion, posted north of the river, was cut off, and the Fusiliers on the right were hit all night long.",
+    "The whole brigade was engulfed in flames at the same time."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "imjin",
+    "to": "imjin",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.88,
+        37.975
+       ],
+       [
+        126.91,
+        37.982
+       ],
+       [
+        126.94,
+        37.983
+       ],
+       [
+        126.97,
+        37.99
+       ],
+       [
+        127.0,
+        38.0
+       ],
+       [
+        127.03,
+        38.01
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "clash",
+      "p": "castle",
+      "at": 0.2,
+      "size": 0.7
+     },
+     {
+      "k": "clash",
+      "p": "nf",
+      "at": 0.8,
+      "size": 0.7
+     },
+     {
+      "k": "clash",
+      "p": "belg",
+      "at": 0.5,
+      "size": 0.7
+     },
+     {
+      "k": "badge",
+      "p": [
+       126.97,
+       38.05
+      ],
+      "text": "Attack Across the Brigade Front",
+      "color": "red",
+      "at": 1.4,
+      "dy": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "s48",
+   "lines": [
+    "The British artillery poured shells out all night without a pause.",
+    "It's said the gun barrels glowed red-hot."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s48-photo"
+   },
+   "label": "UN artillery firing in defense of a position (1951)"
+  },
+  {
+   "id": "s49",
+   "lines": [
+    "Still the waves did not shrink.",
+    "Cut down one battalion, and another battalion stood right behind it.",
+    "This was the Chinese human-wave attack."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "glos",
+    "to": "glos",
+    "items": [
+     {
+      "k": "obj",
+      "p": "castle",
+      "n": "A",
+      "at": 0,
+      "text": "Castle Hill"
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.915,
+        38.0
+       ],
+       [
+        126.918,
+        37.985
+       ],
+       [
+        126.92,
+        37.97
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 0.8
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.905,
+        37.995
+       ],
+       [
+        126.912,
+        37.98
+       ],
+       [
+        126.918,
+        37.968
+       ]
+      ],
+      "color": "red",
+      "at": 0.7,
+      "width": 0.8
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.935,
+        37.998
+       ],
+       [
+        126.93,
+        37.982
+       ],
+       [
+        126.924,
+        37.969
+       ]
+      ],
+      "color": "red",
+      "at": 1.2,
+      "width": 0.8
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.945,
+        37.995
+       ],
+       [
+        126.94,
+        37.978
+       ],
+       [
+        126.938,
+        37.966
+       ]
+      ],
+      "color": "red",
+      "at": 1.7,
+      "width": 0.8
+     }
+    ],
+    "tilt": 18
+   }
+  },
+  {
+   "id": "s50",
+   "lines": [
+    "The first Chinese blade struck the most exposed position, A Company on Castle Hill.",
+    "Grenades fell like rain, and bayonets clashed between the trenches."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "front",
+    "to": "front",
+    "items": [
+     {
+      "k": "obj",
+      "p": "castle",
+      "n": "A",
+      "at": 0,
+      "text": "Castle Hill"
+     },
+     {
+      "k": "clash",
+      "p": "castle",
+      "at": 0.5,
+      "size": 0.9
+     }
+    ],
+    "tilt": 18
+   }
+  },
+  {
+   "id": "s51",
+   "lines": [
+    "Through that long night, the positions on the hill changed hands again and again.",
+    "By daybreak, A Company had lost nearly half its men."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "castle_hill_dawn",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s52",
+   "lines": [
+    "And this was only the beginning.",
+    "The real ordeal would come after sunrise."
+   ],
+   "visual": {
+    "type": "gauges",
+    "big": "APR. 23 DAWN · A COMPANY",
+    "items": [
+     {
+      "label": "Men",
+      "at": 0
+     },
+     {
+      "label": "Ammunition",
+      "at": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "id": "s53",
+   "lines": [
+    "The morning of April 23rd.",
+    "A Company's commander, Major Pat Angier, is killed on the hill.",
+    "With its commander gone, the company was on the verge of collapse."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "officer_falls",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "chapter": {
+    "num": "PART 4",
+    "title": "Trapped in the Solma-ri Valley"
+   }
+  },
+  {
+   "id": "s54",
+   "lines": [
+    "By a cruel coincidence, it was Saint George's Day, the feast of England's patron saint.",
+    "At home, it was a day for wearing a rose on your chest,",
+    "but up on that hill, no one had a moment to mark it."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "APRIL 23",
+    "style": "red",
+    "sub": "England's National Day · Saint George's Day",
+    "subAt": 0.6
+   }
+  },
+  {
+   "id": "s55",
+   "lines": [
+    "Then a young officer pulls himself to his feet.",
+    "Lieutenant Philip Curtis."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s55-photo"
+   },
+   "label": "Grave of Lt. Curtis, UN Memorial Cemetery, Busan · aged 24"
+  },
+  {
+   "id": "s56",
+   "lines": [
+    "At the top of Castle Hill, the Chinese had seized a machine-gun post.",
+    "That one position was pinning down the entire company."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "front",
+    "to": "front",
+    "items": [
+     {
+      "k": "obj",
+      "p": "castle",
+      "n": "A",
+      "color": "red",
+      "at": 0,
+      "text": "Castle Hill"
+     },
+     {
+      "k": "lock",
+      "p": [
+       126.9215,
+       37.9675
+      ],
+      "at": 0.6,
+      "text": "Chinese MG Post"
+     }
+    ],
+    "tilt": 18
+   }
+  },
+  {
+   "id": "s57",
+   "lines": [
+    "Curtis had already been shot.",
+    "His men tried to hold him back, but he shook them off and charged up the slope alone, grenades in hand."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "curtis_charge",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s58",
+   "lines": [
+    "Hit again, he went down, then got up and crawled on.",
+    "And at the moment he threw his last grenade into the post, he died on the spot."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "THE LAST GRENADE",
+    "accent": "Lieutenant Curtis",
+    "accentAt": 0.6
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s59",
+   "lines": [
+    "He would be awarded Britain's highest decoration for valor, the Victoria Cross.",
+    "It was the final charge of a twenty-four-year-old officer.",
+    "And his sacrifice bought A Company the time it needed to get off the hill."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "THE VICTORIA CROSS",
+    "style": "yellow",
+    "sub": "Lt. Philip Curtis · Posthumous",
+    "subAt": 0.8
+   }
+  },
+  {
+   "id": "s60",
+   "lines": [
+    "When daylight came, the Chinese attacks paused for breath.",
+    "British guns and UN fighter-bombers owned the daytime sky.",
+    "But even then, the enemy never stopped moving through the hills and valleys."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s60-photo"
+   },
+   "label": "UN fighter-bomber dropping napalm (1952)"
+  },
+  {
+   "id": "s61",
+   "lines": [
+    "But the real danger was not in front of the hill. It was behind it.",
+    "The Chinese weren't only hammering the front."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "imjin",
+    "to": "imjin",
+    "items": [
+     {
+      "k": "front",
+      "path": [
+       [
+        126.88,
+        37.975
+       ],
+       [
+        126.91,
+        37.982
+       ],
+       [
+        126.94,
+        37.983
+       ],
+       [
+        126.97,
+        37.99
+       ],
+       [
+        127.0,
+        38.0
+       ],
+       [
+        127.03,
+        38.01
+       ]
+      ],
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "castle",
+      "color": "blue",
+      "text": "Glosters",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "nf",
+      "color": "blue",
+      "text": "Fusiliers",
+      "at": 0
+     },
+     {
+      "k": "lock",
+      "p": [
+       126.97,
+       37.97
+      ],
+      "at": 0.6,
+      "text": "Gap"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s62",
+   "lines": [
+    "Thousands of them had slipped through those wide gaps between the battalions,",
+    "and come all the way down into the Solma-ri valley, behind the Glosters."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "imjin",
+    "to": "glos",
+    "items": [
+     {
+      "k": "unit",
+      "p": "castle",
+      "color": "blue",
+      "text": "Glosters",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.985,
+        38.02
+       ],
+       [
+        126.975,
+        37.98
+       ],
+       [
+        126.972,
+        37.95
+       ],
+       [
+        126.962,
+        37.92
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 1.0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.9,
+        38.0
+       ],
+       [
+        126.89,
+        37.96
+       ],
+       [
+        126.91,
+        37.93
+       ],
+       [
+        126.94,
+        37.915
+       ]
+      ],
+      "color": "red",
+      "at": 0.8,
+      "width": 0.9
+     },
+     {
+      "k": "marker",
+      "p": "seolmari",
+      "color": "red",
+      "at": 1.8
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "CHINESE INFILTRATION · ESCAPE ROUTE CUT (APPROX.)",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s63",
+   "lines": [
+    "The supply route was cut. The way out was blocked.",
+    "Enemy in front. Enemy behind.",
+    "The legend of the badge on the back of their caps had come to life."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "glos",
+    "to": "glos",
+    "items": [
+     {
+      "k": "obj",
+      "p": "h235",
+      "n": "235",
+      "at": 0,
+      "text": "Hill 235"
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        126.92,
+        37.97
+       ],
+       [
+        126.935,
+        37.95
+       ],
+       [
+        126.95,
+        37.93
+       ],
+       [
+        126.962,
+        37.918
+       ],
+       [
+        126.97,
+        37.9
+       ]
+      ],
+      "color": "red",
+      "at": 0.2
+     },
+     {
+      "k": "lock",
+      "p": [
+       126.958,
+       37.922
+      ],
+      "at": 0.6,
+      "text": "Supply Route Cut"
+     }
+    ],
+    "tilt": 18
+   }
+  },
+  {
+   "id": "s64",
+   "lines": [
+    "The only link left between brigade headquarters and the battalion was a thin thread of radio.",
+    "And over that radio, the battalion's situation grew worse by the hour."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "radio_operator",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s65",
+   "lines": [
+    "That night, the remaining companies were attacked one after another.",
+    "On the ridges held by D and B Companies, grenades and machine guns never fell silent all night.",
+    "And with every dawn, the empty places in the trenches grew more obvious."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "night_trench_fight",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s66",
+   "lines": [
+    "Colonel Carne made his decision.",
+    "He would pull in all his scattered companies and gather them in one place.",
+    "That place was Hill 235."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "glos",
+    "to": "hill",
+    "items": [
+     {
+      "k": "obj",
+      "p": "h235",
+      "n": "235",
+      "at": 0,
+      "text": "Hill 235"
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.921,
+        37.966
+       ],
+       [
+        126.932,
+        37.955
+       ],
+       [
+        126.95,
+        37.938
+       ]
+      ],
+      "color": "blue",
+      "at": 0.6,
+      "width": 0.8
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.938,
+        37.963
+       ],
+       [
+        126.945,
+        37.95
+       ],
+       [
+        126.953,
+        37.94
+       ]
+      ],
+      "color": "blue",
+      "at": 0.9,
+      "width": 0.8
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.953,
+        37.966
+       ],
+       [
+        126.957,
+        37.952
+       ],
+       [
+        126.956,
+        37.94
+       ]
+      ],
+      "color": "blue",
+      "at": 1.2,
+      "width": 0.8
+     }
+    ],
+    "tilt": 18
+   }
+  },
+  {
+   "id": "s67",
+   "lines": [
+    "Just getting the companies up to the hill was a battle in itself.",
+    "They carried their wounded on stretchers and crawled up the ridges, loaded with heavy mortars and machine guns."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "climb_night",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s68",
+   "lines": [
+    "Men who fell behind in the darkness never came back.",
+    "And the battalion that gathered there now had nowhere left to retreat, not a single step."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "hill_last_stand",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s69",
+   "lines": [
+    "The Glosters had become an island, surrounded by the enemy on all sides, a full three hundred and sixty degrees."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "hill",
+    "to": "hill",
+    "items": [
+     {
+      "k": "obj",
+      "p": "h235",
+      "n": "235",
+      "at": 0,
+      "text": "Hill 235"
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        126.94,
+        37.948
+       ],
+       [
+        126.966,
+        37.944
+       ],
+       [
+        126.972,
+        37.93
+       ],
+       [
+        126.962,
+        37.918
+       ],
+       [
+        126.944,
+        37.919
+       ],
+       [
+        126.936,
+        37.932
+       ],
+       [
+        126.94,
+        37.948
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "glow": true
+     },
+     {
+      "k": "radar",
+      "p": "h235",
+      "at": 0.6,
+      "size": 0.9,
+      "color": "red",
+      "text": "Surrounded · 360°"
+     }
+    ],
+    "tilt": 18
+   },
+   "callouts": [
+    {
+     "text": "HILL 235 SURROUNDED (APPROX.)",
+     "style": "red",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s70",
+   "lines": [
+    "April 24th.",
+    "The men gathered on the hill numbered barely four hundred."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "PART 5",
+    "accent": "Alone on Hill 235",
+    "accentAt": 0.4
+   },
+   "pauseBefore": 0.5,
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s71",
+   "lines": [
+    "After two straight nights of fighting, their canteens were empty.",
+    "The ammunition boxes were starting to show their bottoms."
+   ],
+   "visual": {
+    "type": "gauges",
+    "big": "HILL 235 · WHAT WAS LEFT",
+    "items": [
+     {
+      "label": "Water",
+      "at": 0
+     },
+     {
+      "label": "Ammunition",
+      "at": 0.3
+     },
+     {
+      "label": "Batteries",
+      "at": 0.6
+     }
+    ]
+   },
+   "chapter": {
+    "num": "PART 5",
+    "title": "Alone on Hill 235"
+   }
+  },
+  {
+   "id": "s72",
+   "lines": [
+    "Even the radio batteries were running down.",
+    "Once that last link to brigade went dead, the battalion would be truly cut off from the world."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "dead_radio",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s73",
+   "lines": [
+    "The wounded lay on the floors of the trenches, waiting for a single mouthful of water.",
+    "And the path down to the valley to fetch that water was already inside the enemy's field of fire."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "trench_wounded",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s74",
+   "lines": [
+    "The men counted out what ammunition was left and shared it, round by round.",
+    "So many rounds per rifle, so many belts per machine gun.",
+    "Not one shot could be wasted."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "count_ammo",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s75",
+   "lines": [
+    "They had to wait until the enemy was right on top of them, and pull the trigger only when they could not miss.",
+    "Hunger and thirst, and a third night without sleep."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "hill",
+    "to": "hill",
+    "items": [
+     {
+      "k": "obj",
+      "p": "h235",
+      "n": "235",
+      "at": 0,
+      "text": "Hill 235"
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        126.94,
+        37.948
+       ],
+       [
+        126.966,
+        37.944
+       ],
+       [
+        126.972,
+        37.93
+       ],
+       [
+        126.962,
+        37.918
+       ],
+       [
+        126.944,
+        37.919
+       ],
+       [
+        126.936,
+        37.932
+       ],
+       [
+        126.94,
+        37.948
+       ]
+      ],
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.94,
+        37.948
+       ],
+       [
+        126.948,
+        37.941
+       ],
+       [
+        126.952,
+        37.937
+       ]
+      ],
+      "color": "red",
+      "at": 0.4,
+      "width": 0.7
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.972,
+        37.93
+       ],
+       [
+        126.963,
+        37.932
+       ],
+       [
+        126.958,
+        37.934
+       ]
+      ],
+      "color": "red",
+      "at": 0.8,
+      "width": 0.7
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.955,
+        37.918
+       ],
+       [
+        126.956,
+        37.926
+       ],
+       [
+        126.955,
+        37.931
+       ]
+      ],
+      "color": "red",
+      "at": 1.2,
+      "width": 0.7
+     }
+    ],
+    "tilt": 18
+   }
+  },
+  {
+   "id": "s76",
+   "lines": [
+    "Their eyes were already hollow and sunken.",
+    "And yet not one of them left his trench."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s76-photo"
+   },
+   "label": "UN soldiers catching their breath on a hilltop (Korea)"
+  },
+  {
+   "id": "s77",
+   "lines": [
+    "Some companies never made it up to the hill.",
+    "B Company, holding a separate ridge, beat off several attacks through the night, but in the end its ammunition ran out and its position was overrun.",
+    "It is said that only a handful of its men made it up to Hill 235 alive."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "glos",
+    "to": "glos",
+    "items": [
+     {
+      "k": "obj",
+      "p": "bcoy",
+      "n": "B",
+      "color": "red",
+      "at": 0,
+      "text": "B Coy"
+     },
+     {
+      "k": "clash",
+      "p": "bcoy",
+      "at": 0.4,
+      "size": 0.8
+     },
+     {
+      "k": "obj",
+      "p": "h235",
+      "n": "235",
+      "at": 0,
+      "text": "Hill 235"
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.953,
+        37.966
+       ],
+       [
+        126.957,
+        37.952
+       ],
+       [
+        126.956,
+        37.94
+       ]
+      ],
+      "color": "blue",
+      "at": 2.0,
+      "width": 0.5
+     }
+    ],
+    "tilt": 18
+   }
+  },
+  {
+   "id": "s78",
+   "lines": [
+    "With the battalion was a troop of British mortars as well.",
+    "They too kept firing to the very end, and shared the Glosters' fate."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "mortar_crew",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s79",
+   "lines": [
+    "From the rear, there was an attempt to save them.",
+    "A Filipino battalion pushed into the Solma-ri valley together with British tanks."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "valley",
+    "to": "valley",
+    "items": [
+     {
+      "k": "obj",
+      "p": "h235",
+      "n": "235",
+      "at": 0,
+      "text": "Hill 235"
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.975,
+        37.885
+       ],
+       [
+        126.968,
+        37.9
+       ],
+       [
+        126.963,
+        37.912
+       ]
+      ],
+      "color": "blue",
+      "at": 0.6,
+      "width": 1.0
+     },
+     {
+      "k": "badge",
+      "p": [
+       126.975,
+       37.89
+      ],
+      "text": "Filipino Bn · British Tanks",
+      "color": "blue",
+      "at": 1.0,
+      "dy": 40
+     }
+    ],
+    "tilt": 18
+   }
+  },
+  {
+   "id": "s80",
+   "lines": [
+    "The Filipinos had come from a distant island nation far to the south.",
+    "They too threw themselves into that gorge to rescue British soldiers in a foreign land."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "filipino_tanks",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s81",
+   "lines": [
+    "But the narrow gorge road was a Chinese killing ground.",
+    "When the lead tank was knocked out and blocked the road,",
+    "the relief force never reached the hill, and had to turn back."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "valley",
+    "to": "valley",
+    "items": [
+     {
+      "k": "obj",
+      "p": "h235",
+      "n": "235",
+      "at": 0,
+      "text": "Hill 235"
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.975,
+        37.885
+       ],
+       [
+        126.968,
+        37.9
+       ],
+       [
+        126.963,
+        37.912
+       ]
+      ],
+      "color": "blue",
+      "at": 0,
+      "width": 1.0
+     },
+     {
+      "k": "clash",
+      "p": [
+       126.964,
+       37.91
+      ],
+      "at": 0.4,
+      "size": 0.8
+     },
+     {
+      "k": "lock",
+      "p": [
+       126.964,
+       37.91
+      ],
+      "at": 1.2,
+      "text": "Relief Fails"
+     }
+    ],
+    "tilt": 18
+   }
+  },
+  {
+   "id": "s82",
+   "lines": [
+    "There is a painful story told about this moment.",
+    "Brigadier Tom Brodie, in classic British understatement, is said to have told his American superior that things were, quote, a bit sticky."
+   ],
+   "visual": {
+    "type": "quotes",
+    "title": "As the Story Goes",
+    "items": [
+     {
+      "text": "\"A bit sticky\"",
+      "at": 0
+     },
+     {
+      "text": "Understated report · A crisis that never got through",
+      "at": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "s83",
+   "lines": [
+    "That restrained phrase, the story goes, never conveyed how serious the crisis really was.",
+    "Meanwhile, up on the hill, an entire battalion was on the edge of disappearing."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "brigade_hq",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s84",
+   "lines": [
+    "Still, Colonel Carne did not waver.",
+    "He is said to have strolled calmly between the trenches as shells fell, patting his men on the shoulder.",
+    "As long as their commander was on his feet, his men could not fall either."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "carne_walks",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s85",
+   "lines": [
+    "That night, the Chinese came again.",
+    "Mortar rounds plowed up the ridgeline,"
+   ],
+   "visual": {
+    "type": "map",
+    "from": "hill",
+    "to": "hill",
+    "items": [
+     {
+      "k": "obj",
+      "p": "h235",
+      "n": "235",
+      "at": 0,
+      "text": "Hill 235"
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        126.94,
+        37.948
+       ],
+       [
+        126.966,
+        37.944
+       ],
+       [
+        126.972,
+        37.93
+       ],
+       [
+        126.962,
+        37.918
+       ],
+       [
+        126.944,
+        37.919
+       ],
+       [
+        126.936,
+        37.932
+       ],
+       [
+        126.94,
+        37.948
+       ]
+      ],
+      "color": "red",
+      "at": 0,
+      "glow": true
+     },
+     {
+      "k": "shock",
+      "pts": [
+       [
+        126.953,
+        37.936
+       ],
+       [
+        126.957,
+        37.933
+       ],
+       [
+        126.955,
+        37.938
+       ],
+       [
+        126.951,
+        37.932
+       ],
+       [
+        126.959,
+        37.937
+       ]
+      ],
+      "at": 0.2,
+      "size": 0.7,
+      "period": 0.6
+     }
+    ],
+    "tilt": 18
+   }
+  },
+  {
+   "id": "s86",
+   "lines": [
+    "and the men fought with bayonets, rifle butts, and even rocks."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "melee_night",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s87",
+   "lines": [
+    "Then, at dawn on April 25th,",
+    "the battalion adjutant, Captain Anthony Farrar-Hockley, called for Drum Major Philip Buss and gave him an order.",
+    "Sound the bugle. Every call you know, except the retreat."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "bugler",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s88",
+   "lines": [
+    "Over the smoke-covered hill, a British bugle rang out.",
+    "A bugle, answering the gongs."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "A BUGLE AGAINST THE GONGS",
+    "accent": "Dawn, April 25, 1951",
+    "accentAt": 0.6
+   }
+  },
+  {
+   "id": "s89",
+   "lines": [
+    "A cheer burst out among the men.",
+    "It was their answer: we are still here."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "hill_cheer",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s90",
+   "lines": [
+    "The morning of April 25th.",
+    "Over the radio, the final message came through."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "radio_operator2",
+    "kb": "in"
+   },
+   "label": "Dramatization",
+   "chapter": {
+    "num": "PART 6",
+    "title": "The Final Decision"
+   }
+  },
+  {
+   "id": "s91",
+   "lines": [
+    "There would be no more relief.",
+    "Artillery support would soon end.",
+    "Find your own way out."
+   ],
+   "visual": {
+    "type": "document",
+    "org": "British 29th Infantry Brigade",
+    "head": "Final Instructions to the Glosters · Summary",
+    "stamp": "DECLASSIFIED",
+    "rows": [
+     "Relief force · No longer possible",
+     "Artillery support · Ending soon",
+     "Break out independently"
+    ],
+    "note": "Summary · Reconstruction"
+   },
+   "sfx": [
+    {
+     "id": "typewriter",
+     "at": 0.2,
+     "volume": 0.35
+    }
+   ]
+  },
+  {
+   "id": "s92",
+   "lines": [
+    "In effect, it was the last order the battalion would ever receive."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "THE LAST ORDER",
+    "accent": "Get Out on Your Own",
+    "accentAt": 0.4
+   }
+  },
+  {
+   "id": "s93",
+   "lines": [
+    "That morning, UN fighter-bombers swept in around the hill with machine guns and napalm.",
+    "It was cover, meant to open even the smallest gap for one last escape."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "hill",
+    "to": "hill",
+    "items": [
+     {
+      "k": "obj",
+      "p": "h235",
+      "n": "235",
+      "at": 0,
+      "text": "Hill 235"
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        126.94,
+        37.948
+       ],
+       [
+        126.966,
+        37.944
+       ],
+       [
+        126.972,
+        37.93
+       ],
+       [
+        126.962,
+        37.918
+       ],
+       [
+        126.944,
+        37.919
+       ],
+       [
+        126.936,
+        37.932
+       ],
+       [
+        126.94,
+        37.948
+       ]
+      ],
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "shock",
+      "pts": [
+       [
+        126.942,
+        37.946
+       ],
+       [
+        126.968,
+        37.94
+       ],
+       [
+        126.965,
+        37.921
+       ],
+       [
+        126.94,
+        37.925
+       ]
+      ],
+      "at": 0.3,
+      "size": 0.9,
+      "period": 0.8
+     }
+    ],
+    "tilt": 18
+   }
+  },
+  {
+   "id": "s94",
+   "lines": [
+    "Colonel Carne called his company commanders together.",
+    "And he told them, calmly,",
+    "from here on, each of you use your own judgment, break through, and make for our lines."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "carne_orders",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s95",
+   "lines": [
+    "If the battalion moved as one body, it could be wiped out all at once.",
+    "Only by splitting up could anyone hope to make it home.",
+    "Men who had held out together for three days now had to stake their lives on different paths."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "hill",
+    "to": "glos",
+    "items": [
+     {
+      "k": "obj",
+      "p": "h235",
+      "n": "235",
+      "at": 0,
+      "text": "Hill 235"
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        126.94,
+        37.948
+       ],
+       [
+        126.966,
+        37.944
+       ],
+       [
+        126.972,
+        37.93
+       ],
+       [
+        126.962,
+        37.918
+       ],
+       [
+        126.944,
+        37.919
+       ],
+       [
+        126.936,
+        37.932
+       ],
+       [
+        126.94,
+        37.948
+       ]
+      ],
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.955,
+        37.934
+       ],
+       [
+        126.958,
+        37.92
+       ],
+       [
+        126.963,
+        37.905
+       ]
+      ],
+      "color": "blue",
+      "at": 0.6,
+      "width": 0.7
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.955,
+        37.934
+       ],
+       [
+        126.94,
+        37.93
+       ],
+       [
+        126.925,
+        37.92
+       ]
+      ],
+      "color": "blue",
+      "at": 1.0,
+      "width": 0.7
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.955,
+        37.934
+       ],
+       [
+        126.95,
+        37.95
+       ],
+       [
+        126.935,
+        37.955
+       ]
+      ],
+      "color": "blue",
+      "at": 1.4,
+      "width": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "id": "s96",
+   "lines": [
+    "But not everyone could leave.",
+    "There were men too badly wounded to move."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s96-photo"
+   },
+   "label": "Evacuating the wounded (1951)"
+  },
+  {
+   "id": "s97",
+   "lines": [
+    "The medical officer, Captain Bob Hickey, and the chaplain, the Reverend Sam Davies, chose to stay on the hill.",
+    "They would remain beside the wounded."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "doctor_chaplain",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s98",
+   "lines": [
+    "Even though it meant certain capture.",
+    "A doctor and a priest gave up their own chance to escape."
+   ],
+   "visual": {
+    "type": "quotes",
+    "title": "The Two Who Stayed Behind",
+    "items": [
+     {
+      "text": "Capt. Bob Hickey · Medical Officer",
+      "at": 0
+     },
+     {
+      "text": "Rev. Sam Davies · Chaplain",
+      "at": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "id": "s99",
+   "lines": [
+    "And to guard the backs of the comrades who were leaving,",
+    "some men stayed on the ridge, gripping their machine guns, to the very end."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "last_mg",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s100",
+   "lines": [
+    "Shortly after ten in the morning, the men began going down the hill in small groups.",
+    "As they half ran, half slid down the steep slopes, Chinese machine guns opened up behind them."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "breakout_slope",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s101",
+   "lines": [
+    "The breakout was desperate.",
+    "Most of the men headed south, and were captured by the Chinese.",
+    "Colonel Carne, too, was taken prisoner."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "glos",
+    "to": "valley",
+    "items": [
+     {
+      "k": "obj",
+      "p": "h235",
+      "n": "235",
+      "at": 0,
+      "text": "Hill 235"
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.955,
+        37.934
+       ],
+       [
+        126.958,
+        37.92
+       ],
+       [
+        126.962,
+        37.905
+       ]
+      ],
+      "color": "blue",
+      "at": 0,
+      "width": 0.7
+     },
+     {
+      "k": "lock",
+      "p": [
+       126.961,
+       37.908
+      ],
+      "at": 0.6,
+      "text": "Encirclement"
+     },
+     {
+      "k": "clash",
+      "p": [
+       126.961,
+       37.908
+      ],
+      "at": 1.0,
+      "size": 0.7
+     }
+    ],
+    "tilt": 18
+   }
+  },
+  {
+   "id": "s102",
+   "lines": [
+    "So was the adjutant, Captain Farrar-Hockley.",
+    "In the prison camps, he tried to escape again and again,",
+    "and he later rose to become a British Army general, and wrote the record of this battle."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "CAPT. FARRAR-HOCKLEY",
+    "style": "yellow",
+    "sub": "Adjutant, 1st Glosters · Later a British Army General",
+    "subAt": 0.6
+   }
+  },
+  {
+   "id": "s103",
+   "lines": [
+    "Only one group, led by D Company's commander, Major Mike Harvey, chose a different path.",
+    "Instead of going south, where the enemy expected, they first turned north, swinging in a wide arc over the mountains."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "glos",
+    "to": "glos",
+    "items": [
+     {
+      "k": "obj",
+      "p": "h235",
+      "n": "235",
+      "at": 0,
+      "text": "Hill 235"
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.955,
+        37.934
+       ],
+       [
+        126.945,
+        37.948
+       ],
+       [
+        126.93,
+        37.95
+       ],
+       [
+        126.915,
+        37.935
+       ],
+       [
+        126.915,
+        37.915
+       ],
+       [
+        126.93,
+        37.9
+       ]
+      ],
+      "color": "#00E5FF",
+      "at": 0.6,
+      "width": 0.9,
+      "dur": 2.5
+     },
+     {
+      "k": "badge",
+      "p": [
+       126.912,
+       37.94
+      ],
+      "text": "Maj. Harvey's Escape (Approx.)",
+      "color": "blue",
+      "at": 1.6,
+      "dy": 0
+     }
+    ],
+    "tilt": 18
+   }
+  },
+  {
+   "id": "s104",
+   "lines": [
+    "Even that final stretch was not easy.",
+    "When the exhausted men came down into a valley, friendly tanks mistook them for the enemy and opened fire."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "tank_valley",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s105",
+   "lines": [
+    "Some fell on the very threshold of safety.",
+    "Only after a friendly spotter plane circling overhead recognized them and signaled the tanks,",
+    "were they able to come home alive."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "recon_plane",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s106",
+   "lines": [
+    "Of that group, only about forty men finally reached friendly lines."
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "1st Glosters · Approximate (Records Vary)",
+    "items": [
+     {
+      "label": "Start of Battle",
+      "value": 750,
+      "display": "~750",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "label": "Maj. Harvey's Group Returned",
+      "value": 40,
+      "display": "~40",
+      "color": "red",
+      "at": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "id": "s107",
+   "lines": [
+    "A battalion that began with seven hundred and fifty men.",
+    "Those who broke through and made it back numbered only a few dozen."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "PART 7",
+    "accent": "The Immortal 700",
+    "accentAt": 0.4
+   },
+   "pauseBefore": 0.5,
+   "sfx": [
+    {
+     "id": "heartbeat",
+     "at": 0,
+     "volume": 0.4
+    }
+   ]
+  },
+  {
+   "id": "s108",
+   "lines": [
+    "More than five hundred men were taken prisoner,",
+    "and many of them would spend more than two years in prison camps, until the war was over."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s108-photo"
+   },
+   "label": "British prisoners captured by Chinese forces",
+   "chapter": {
+    "num": "PART 7",
+    "title": "The Three Days That Saved Seoul"
+   }
+  },
+  {
+   "id": "s108b",
+   "lines": [
+    "The prisoners were marched hundreds of kilometers north, to camps near the Yalu River.",
+    "Through hunger and cold, more than a few never came home."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "pow_march",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s109",
+   "lines": [
+    "So were these three days a defeat?",
+    "Judged by the numbers alone, it might look that way."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "A DEFEAT?",
+    "accent": "The Miracle of Three Days",
+    "accentAt": 0.7
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s110",
+   "lines": [
+    "But in those three days, the Chinese 63rd Army's timetable fell completely apart.",
+    "The fastest road to Seoul had been blocked by one small hill."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "imjin",
+    "to": "imjin",
+    "items": [
+     {
+      "k": "obj",
+      "p": "h235",
+      "n": "235",
+      "at": 0,
+      "text": "Hill 235"
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.93,
+        38.0
+       ],
+       [
+        126.95,
+        37.94
+       ]
+      ],
+      "color": "red",
+      "at": 0.2,
+      "width": 1.1
+     },
+     {
+      "k": "lock",
+      "p": "h235",
+      "at": 0.8,
+      "text": "Advance Held · 3 Days"
+     },
+     {
+      "k": "marker",
+      "p": "seoul",
+      "color": "blue",
+      "at": 1.4
+     }
+    ]
+   }
+  },
+  {
+   "id": "s111",
+   "lines": [
+    "The whole British 29th Brigade had faced tens of thousands of men,",
+    "and some estimates put Chinese losses as high as ten thousand."
+   ],
+   "visual": {
+    "type": "bars",
+    "note": "Chinese losses · British estimate (Records Vary)",
+    "items": [
+     {
+      "label": "British 29th Brigade",
+      "value": 4000,
+      "display": "~4,000",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "label": "Est. Chinese Losses",
+      "value": 10000,
+      "display": "~10,000",
+      "color": "red",
+      "at": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "s112",
+   "lines": [
+    "And the Glosters were not the only ones who bled.",
+    "That same day, the Fusiliers and the Ulsters also had to fight their way back down narrow valleys.",
+    "Over those three days, the brigade's killed, wounded and missing came to more than a thousand."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "imjin",
+    "to": "imjin",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.0,
+        37.99
+       ],
+       [
+        127.01,
+        37.95
+       ],
+       [
+        127.02,
+        37.9
+       ]
+      ],
+      "color": "blue",
+      "at": 0.4,
+      "width": 0.8
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.02,
+        37.95
+       ],
+       [
+        127.025,
+        37.91
+       ],
+       [
+        127.03,
+        37.87
+       ]
+      ],
+      "color": "blue",
+      "at": 0.7,
+      "width": 0.8
+     },
+     {
+      "k": "obj",
+      "p": "h235",
+      "n": "235",
+      "color": "red",
+      "at": 0,
+      "text": "Hill 235"
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "APR. 25, 1951 · 29th BRIGADE WITHDRAWS (APPROX.)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s113",
+   "lines": [
+    "But the weight of those three days cannot be measured in numbers alone.",
+    "Had this line broken on the very first night, the Chinese might have reached the gates of Uijeongbu within a day or two."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "axis",
+    "to": "axis",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.93,
+        38.0
+       ],
+       [
+        126.97,
+        37.9
+       ],
+       [
+        127.02,
+        37.8
+       ],
+       [
+        127.04,
+        37.74
+       ]
+      ],
+      "color": "red",
+      "at": 0.3,
+      "width": 1.1
+     },
+     {
+      "k": "marker",
+      "p": "uijeongbu",
+      "color": "yellow",
+      "at": 1.2
+     },
+     {
+      "k": "marker",
+      "p": "seoul",
+      "color": "blue",
+      "at": 0
+     }
+    ]
+   },
+   "hook": {
+    "question": {
+     "text": "Cut off and outnumbered more than ten to one,\nhow did one British battalion\nhold off an entire Chinese army for three days?",
+     "at": 0.05,
+     "until": 1.0,
+     "kicker": "■ THE OPENING QUESTION ■"
+    }
+   }
+  },
+  {
+   "id": "s114",
+   "lines": [
+    "In the time they bought, UN forces were able to build a solid new defensive line north of Seoul.",
+    "And the Chinese Spring Offensive finally ground to a halt at Seoul's doorstep."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "axis",
+    "to": "axis",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.7,
+        37.68
+       ],
+       [
+        126.85,
+        37.7
+       ],
+       [
+        127.0,
+        37.72
+       ],
+       [
+        127.15,
+        37.72
+       ],
+       [
+        127.3,
+        37.75
+       ]
+      ],
+      "color": "blue",
+      "at": 0.3,
+      "glow": true
+     },
+     {
+      "k": "badge",
+      "p": [
+       127.05,
+       37.7
+      ],
+      "text": "New Line North of Seoul",
+      "color": "blue",
+      "at": 0.8,
+      "dy": 60
+     },
+     {
+      "k": "marker",
+      "p": "seoul",
+      "color": "blue",
+      "at": 0
+     }
+    ]
+   },
+   "callouts": [
+    {
+     "text": "LATE APR. 1951 · NEW LINE NORTH OF SEOUL (APPROX.)",
+     "style": "blue",
+     "at": 0,
+     "pos": "top"
+    }
+   ]
+  },
+  {
+   "id": "s115",
+   "lines": [
+    "In captivity, Colonel Carne is said to have carved a small cross out of stone.",
+    "That cross rests today in Gloucester Cathedral, in England."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "stone_cross",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s116",
+   "lines": [
+    "He reportedly spent much of his captivity in solitary confinement.",
+    "Only after the armistice in 1953 was he finally able to go home."
+   ],
+   "visual": {
+    "type": "timeline",
+    "items": [
+     {
+      "date": "APR. 1951",
+      "text": "Taken Prisoner",
+      "at": 0
+     },
+     {
+      "date": "JUL. 1953",
+      "text": "Armistice",
+      "at": 0.6
+     },
+     {
+      "date": "1953",
+      "text": "Returns Home",
+      "at": 1.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "s117",
+   "lines": [
+    "He was awarded the Victoria Cross,",
+    "and the whole battalion received the U.S. Presidential Unit Citation.",
+    "To this day, the regiment's successors wear that citation on their sleeves."
+   ],
+   "visual": {
+    "type": "quotes",
+    "title": "The Honors the Glosters Earned",
+    "items": [
+     {
+      "text": "Lt. Col. Carne · Victoria Cross",
+      "at": 0
+     },
+     {
+      "text": "Whole Battalion · U.S. Presidential Unit Citation",
+      "at": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "id": "s118",
+   "lines": [
+    "In Solma-ri, Paju, a British battle memorial still stands in that valley today.",
+    "Every April, white-haired veterans and their families gathered before it and bowed their heads."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s118-photo"
+   },
+   "label": "British battle memorial, Solma-ri, Paju"
+  },
+  {
+   "id": "s119",
+   "lines": [
+    "Decades after the war, the old soldiers still came back to this valley, leaning on their canes.",
+    "For them, this was the ground where they had buried their friends and left them behind."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "veteran_return",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s120",
+   "lines": [
+    "Paju, too, has held a memorial ceremony here year after year.",
+    "Korean soldiers and citizens have laid flowers in the same place, side by side with the British veterans."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s120-photo"
+   },
+   "label": "75th Anniversary Memorial, Battle of the Imjin (Apr. 2026 · Solma-ri)"
+  },
+  {
+   "id": "s121",
+   "lines": [
+    "Today, nearly all the survivors of those days are gone.",
+    "But their names are still carved into the stone."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "memorial_poppy",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s122",
+   "lines": [
+    "Seven hundred men who fought back to back on the bank of a strange river in a faraway country, for people whose names they never knew.",
+    "What they saved was not just one hill. It was a nation's capital."
+   ],
+   "visual": {
+    "type": "quotes",
+    "title": "What Solma-ri Left Behind",
+    "items": [
+     {
+      "text": "700 Men Against 40,000",
+      "at": 0
+     },
+     {
+      "text": "Not Just One Hill, But a Nation's Capital",
+      "at": 1.0
+     }
+    ]
+   },
+   "pauseBefore": 0.3
+  },
+  {
+   "id": "s123",
+   "lines": [
+    "And in that capital, millions of people live their lives today.",
+    "If you ever find yourself near Mount Kamak in Paju, take a moment to remember the valley of Solma-ri."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "valley_today",
+    "kb": "in"
+   },
+   "label": "Dramatization"
+  },
+  {
+   "id": "s124",
+   "lines": [
+    "That's all for today's battle.",
+    "If this story meant something to you, please subscribe, like, and share it with someone who should hear it.",
+    "We'll see you on the next battlefield."
+   ],
+   "visual": {
+    "type": "endcard",
+    "title": "April 1951 · Solma-ri, Paju\nThe 700 who held for three days.",
+    "q": "s124-photo"
+   },
+   "tail": 1.0
+  }
+ ],
+ "lang": "en",
+ "assets_ep": "ep20-imjin-river",
+ "tempo": 1.02,
+ "voice_settings": {
+  "stability": 0.55,
+  "similarity_boost": 0.78,
+  "style": 0.0
+ },
+ "bgm_rel_db": -24,
+ "sfx_policy": "doc"
+}

@@ -1,0 +1,1014 @@
+{
+ "title": "Battle of the Imjin River",
+ "subtitle": "April 22 – 25, 1951",
+ "voice": "Srd5jY77m6kKijR9vy6R",
+ "tempo": 1.02,
+ "board": {
+  "voice_settings": {"stability": 0.55, "similarity_boost": 0.78, "style": 0.0},
+  "bgm_rel_db": -24,
+  "sfx_policy": "doc"
+ },
+ "places": {
+  "seoul": "Seoul",
+  "uijeongbu": "Uijeongbu",
+  "munsan": "Munsan",
+  "jeokseong": "Choksong",
+  "ford": "Gloster Crossing",
+  "castle": "Castle Hill",
+  "dcoy": "D Company",
+  "bcoy": "B Company",
+  "h235": "Hill 235",
+  "gamak": "Mt. Kamak",
+  "seolmari": "Solma-ri",
+  "nf": "Northumberland Fusiliers",
+  "rur": "Royal Ulster Rifles",
+  "belg": "Belgian Battalion",
+  "rok1": "ROK 1st Division",
+  "yeoncheon": "Yonchon",
+  "kaesong": "Kaesong",
+  "chorwon": "Chorwon"
+ },
+ "text": {
+  "235고지": "Hill 235",
+  "360도 포위": "Surrounded · 360°",
+  "공세 방향 미상": "Main Thrust Unknown",
+  "구출 실패": "Relief Fails",
+  "국군 제1사단": "ROK 1st Div.",
+  "글로스터": "Glosters",
+  "글로스터 고지": "Gloster Hill",
+  "글로스터 대대": "1st Glosters",
+  "노섬벌랜드": "Fusiliers",
+  "도하 접근": "Crossing",
+  "디 중대": "D Coy",
+  "매복조": "Ambush Patrol",
+  "벨기에": "Belgians",
+  "보급로 차단": "Supply Route Cut",
+  "비 중대": "B Coy",
+  "빈틈": "Gap",
+  "서울 북방 새 방어선": "New Line North of Seoul",
+  "성채 고지": "Castle Hill",
+  "얼스터 예비": "Ulsters (Reserve)",
+  "엄호 불가 구간": "No Mutual Support",
+  "여단 전 정면 공격": "Attack Across the Brigade Front",
+  "여울목 · 수심 허리춤": "Ford · Waist-Deep",
+  "임진강": "Imjin River",
+  "중공군 기관총 진지": "Chinese MG Post",
+  "중공군 제63군 · 3개 사단": "PVA 63rd Army · 3 Divisions",
+  "진격 지연 · 사흘": "Advance Held · 3 Days",
+  "캔자스선": "Line Kansas",
+  "포위망": "Encirclement",
+  "필리핀 대대 · 영국 전차": "Filipino Bn · British Tanks",
+  "하비 소령의 탈출로 (개략)": "Maj. Harvey's Escape (Approx.)"
+ },
+ "callout_pos": {"s02": "lower"},
+ "scenes": {
+  "s01": {
+   "lines": [
+    "The night of April 22nd, 1951.",
+    "Over the shallow fords of the Imjin River, a strange sound begins to spread.",
+    "Gongs. Whistles. And bugles."
+   ],
+   "label": "Dramatization",
+   "callouts": ["NIGHT OF APR. 22, 1951 · IMJIN RIVER"]
+  },
+  "s02": {
+   "lines": [
+    "Behind that sound, the footsteps of tens of thousands of men start to cut through the water.",
+    "On the hills south of the river stood a British battalion of barely seven hundred men."
+   ],
+   "callouts": ["IMJIN RIVER FORDS (APPROX.)"],
+   "hook": {
+    "hud": [{"big": "700", "sub": "British soldiers", "sub2": "1st Bn, Gloucestershire Regiment", "on": "seven hundred", "color": "#FFD400", "count": true}]
+   }
+  },
+  "s03": {
+   "lines": [
+    "Coming at them: forty thousand.",
+    "On paper, this was never supposed to be a fight at all."
+   ],
+   "left": ["1st GLOSTERS", "700"],
+   "right": ["PVA 63rd ARMY", "40,000"]
+  },
+  "s04": {
+   "lines": [
+    "And yet these seven hundred men held out for three days.",
+    "And those three days would change the fate of Seoul."
+   ],
+   "text": "ONLY THREE DAYS",
+   "accent": "The Time That Saved Seoul",
+   "hook": {
+    "hud": [{"big": "3 DAYS", "sub": "Held without relief", "sub2": "April 22 – 25, 1951", "on": "three days", "color": "#FF3B3B", "count": false}]
+   }
+  },
+  "s05": {
+   "lines": [
+    "So what kept these seven hundred men standing?",
+    "No water, almost no ammunition, and every road back cut off behind them."
+   ],
+   "label": "Dramatization",
+   "hook": {
+    "neg": {"text": "HOPELESS", "at": 0.1, "xOn": "standing"},
+    "question": {"text": "Cut off and outnumbered more than ten to one,\nhow did one British battalion\nhold off an entire Chinese army for three days?", "at": 1.0, "kicker": "■ TODAY'S QUESTION ■"}
+   }
+  },
+  "s06": {
+   "lines": [
+    "The answer lies in a tradition one regiment had guarded for a hundred and fifty years,",
+    "and in the quiet decision of one battalion commander."
+   ],
+   "label": "Dramatization"
+  },
+  "s07": {
+   "lines": [
+    "The Battle of the Imjin River, and the Gloster Battalion at Solma-ri.",
+    "Today, we follow those three days and nights, one move at a time, across the map."
+   ],
+   "title": "Battle of the Imjin River",
+   "sub": "The Last Stand of the Glosters at Solma-ri · 1951"
+  },
+  "s08": {
+   "lines": [
+    "Before we begin,",
+    "if you want stories like this one to keep being told, please subscribe and hit the like button."
+   ],
+   "title": "Help Us Keep These Battles Remembered"
+  },
+  "s09": {
+   "lines": [
+    "Let's turn the clock back a little.",
+    "That spring, the Chinese army was preparing a massive offensive meant to flip the entire war."
+   ],
+   "label": "Chinese soldiers (Mar. 1951)",
+   "chapter": ["PART 1", "The Spring Offensive Aimed at Seoul"]
+  },
+  "s10": {
+   "lines": [
+    "It would become known as the Chinese Spring Offensive of April 1951.",
+    "More than three hundred thousand troops were committed.",
+    "And the objective was one city. Seoul."
+   ],
+   "callouts": ["APR. 1951 · CHINESE SPRING OFFENSIVE (APPROX.)"]
+  },
+  "s11": {
+   "lines": [
+    "There was even word that they meant to retake Seoul in time for May Day, the first of May.",
+    "Only three months earlier, Seoul had already fallen to the enemy once more, before being won back."
+   ],
+   "items": [["JUN. 1950", "Seoul Falls"], ["SEP. 1950", "Seoul Retaken"], ["JAN. 1951", "Falls Again"], ["MAR. 1951", "Retaken Again"], ["APR. 1951", "Spring Offensive"]]
+  },
+  "s12": {
+   "lines": [
+    "The man directing this offensive was the Chinese commander in Korea, Peng Dehuai.",
+    "He massed his main strength on the western front, choosing to cross the Imjin and drive straight down on Seoul.",
+    "That road ran through Kaesong, Munsan, and Choksong."
+   ],
+   "name": "Peng Dehuai",
+   "role": "Commander, Chinese People's Volunteers"
+  },
+  "s13": {
+   "lines": [
+    "South of the Imjin, the UN forces held a defensive line called Line Kansas.",
+    "But the troops on that line were spread thin,",
+    "and no one knew exactly when, or where, the blow would land."
+   ],
+   "callouts": ["APR. 1951 · UN LINE KANSAS (APPROX.)"]
+  },
+  "s14": {
+   "lines": [
+    "If Seoul fell for a third time, the course of the war, and any hope of a ceasefire, could change completely.",
+    "And squarely across that invasion route lay the Imjin River."
+   ]
+  },
+  "s15": {
+   "lines": [
+    "The unit holding more than nineteen kilometers of that riverbank was the British 29th Infantry Brigade.",
+    "It was an absurdly wide front for a single brigade.",
+    "Normally, a distance like that would call for two or three times as many men."
+   ],
+   "callouts": ["BRITISH 29th BRIGADE FRONT · ~19 KM (APPROX.)"]
+  },
+  "s16": {
+   "lines": [
+    "The brigade had three British battalions, the Glosters, the Northumberland Fusiliers and the Royal Ulster Rifles, plus a Belgian battalion,",
+    "backed by artillery and Centurion tanks."
+   ],
+   "quoteTitle": "British 29th Infantry Brigade",
+   "quotes": ["3 British Infantry Battalions · Belgian Battalion", "Artillery · Centurion Tanks"]
+  },
+  "s17": {
+   "lines": [
+    "The problem was the space in between.",
+    "Between one battalion and the next, there were gaps several kilometers wide."
+   ]
+  },
+  "s18": {
+   "lines": [
+    "At the far left end of that line, guarding the road down to Seoul, stood one unit.",
+    "The 1st Battalion, the Gloucestershire Regiment. The Glosters."
+   ],
+   "big": "THE GLOSTERS",
+   "sub": "1st Battalion, The Gloucestershire Regiment"
+  },
+  "s19": {
+   "lines": [
+    "So what happens if this battalion breaks?",
+    "The enemy pours straight down toward Uijeongbu and Seoul."
+   ]
+  },
+  "s20": {
+   "lines": [
+    "And the flank of every other British battalion to their right is laid wide open.",
+    "One battalion, in effect, was holding the door handle of the entire front."
+   ],
+   "label": "Dramatization"
+  },
+  "s21": {
+   "lines": [
+    "The Glosters carry one very unusual tradition.",
+    "Their soldiers wear the regimental badge not only on the front of their caps, but on the back as well."
+   ],
+   "label": "Dramatization",
+   "chapter": ["PART 2", "Watch on the Shallow Fords"]
+  },
+  "s22": {
+   "lines": [
+    "It honors a battle in Egypt a hundred and fifty years earlier, when the regiment was attacked from front and rear at once, and fought back to back, and won.",
+    "Enemy in front. Enemy behind.",
+    "No one could have imagined that badge would become reality again on the Imjin."
+   ],
+   "quoteTitle": "The Glosters' Back Badge",
+   "quotes": ["Egypt, 1801 · Attacked Front and Rear", "The Regiment That Fought Back to Back"]
+  },
+  "s23": {
+   "lines": [
+    "Keep that badge in mind for a moment.",
+    "Because in this battle, it stops being just a decoration."
+   ],
+   "text": "ENEMY IN FRONT, ENEMY BEHIND",
+   "accent": "The Back Badge"
+  },
+  "s24": {
+   "lines": [
+    "The battalion commander was Lieutenant Colonel James Carne.",
+    "A man of few words, he was known for the pipe he always seemed to have clenched in his teeth."
+   ],
+   "name": "James Carne",
+   "role": "Lt. Col. · CO, 1st Glosters"
+  },
+  "s25": {
+   "lines": [
+    "The battalion had arrived in Korea the previous autumn, and had already been through a brutal winter of fighting.",
+    "Under his command were roughly seven hundred and fifty men."
+   ],
+   "label": "Glosters advancing with Centurion tanks (Mar. 1951)"
+  },
+  "s25b": {
+   "lines": [
+    "They had set foot in Korea as the winter of 1950 was closing in.",
+    "In temperatures that swung around twenty below zero, they had already fallen back once to south of Seoul, and then fought their way north again."
+   ],
+   "label": "Dramatization"
+  },
+  "s26": {
+   "lines": [
+    "The battalion dug in company by company across the hills around Choksong in Paju, on the slopes of Mount Kamak.",
+    "A Company took the hill jutting out toward the river, known as Castle Hill."
+   ],
+   "callouts": ["GLOSTERS COMPANY POSITIONS (APPROX.)"]
+  },
+  "s27": {
+   "lines": [
+    "And behind battalion headquarters rose one small peak.",
+    "Two hundred and thirty-five meters high.",
+    "It would later be known as Gloster Hill."
+   ]
+  },
+  "s28": {
+   "lines": [
+    "Cut a cross-section through the Imjin valley that April, and you can see why this ground was so dangerous.",
+    "The river is low, and the hills are not very high."
+   ],
+   "title": "Imjin River → Hill 235 · North–South Profile",
+   "note": "Schematic (height exaggerated)",
+   "left": "N · Imjin Ford",
+   "right": "S · Solma-ri",
+   "marks": ["Ford", "Castle Hill", "Hill 235"]
+  },
+  "s29": {
+   "lines": [
+    "But this layout had a fatal weakness.",
+    "The companies were simply too far apart.",
+    "In places, they were too far apart to cover one another with fire."
+   ]
+  },
+  "s30": {
+   "lines": [
+    "With so few men, there was no other choice.",
+    "Colonel Carne knew about the gaps, but he had no one left to fill them."
+   ],
+   "label": "Dramatization"
+  },
+  "s31": {
+   "lines": [
+    "Beyond the battalion's left flank stood the South Korean 1st Division.",
+    "But between those two units, too, lay a wide gap of hills and valleys.",
+    "Each held its own ground, without ever quite joining hands."
+   ]
+  },
+  "s32": {
+   "lines": [
+    "And then there was the river running in front of the battalion.",
+    "In April, the Imjin runs shallow.",
+    "At the fords, the water came up no higher than a man's waist."
+   ]
+  },
+  "s33": {
+   "lines": [
+    "The river was no obstacle at all. It was simply a road you could walk across.",
+    "The soldiers called that spot Gloster Crossing."
+   ],
+   "label": "Dramatization"
+  },
+  "s34": {
+   "lines": [
+    "Among the men were hardened veterans of the Second World War,",
+    "but many were young conscripts of about twenty, freshly shipped across the sea.",
+    "These rocky, unfamiliar mountains were nothing like the green fields of home in Gloucestershire."
+   ],
+   "label": "British troops on the march in Korea"
+  },
+  "s35": {
+   "lines": [
+    "That April, azaleas were blooming on the slopes of Mount Kamak.",
+    "By day the men dug trenches, and by night they sent patrols across toward the far bank.",
+    "For days, the patrols found not so much as a shadow of the enemy."
+   ],
+   "label": "Dramatization"
+  },
+  "s36": {
+   "lines": [
+    "For days, the front was strangely quiet.",
+    "The darkness across the river already knew that this calm was the silence before the storm."
+   ],
+   "label": "Dramatization"
+  },
+  "s37": {
+   "lines": [
+    "The night of April 22nd. Moonlight was shining on the river."
+   ],
+   "text": "PART 3",
+   "accent": "The Night of Blood"
+  },
+  "s38": {
+   "lines": [
+    "Near the ford lay a platoon-sized ambush patrol led by Lieutenant Guy Temple.",
+    "As midnight drew near, dark shapes appeared on the water."
+   ],
+   "chapter": ["PART 3", "The Night of Blood"]
+  },
+  "s39": {
+   "lines": [
+    "Temple's patrol is said to have stopped the enemy crossing in midstream several times that night.",
+    "But this was not an enemy one platoon could hold back."
+   ],
+   "label": "Dramatization"
+  },
+  "s40": {
+   "lines": [
+    "It wasn't one or two men.",
+    "They came in lines, wading across without end."
+   ],
+   "label": "Dramatization"
+  },
+  "s41": {
+   "lines": [
+    "The patrol opened fire all at once.",
+    "The leading ranks fell into the river."
+   ]
+  },
+  "s42": {
+   "lines": [
+    "And then something strange.",
+    "The next rank walked straight over the spot where the first had fallen.",
+    "They fell, and still more came."
+   ],
+   "label": "Dramatization"
+  },
+  "s43": {
+   "lines": [
+    "Temple's platoon only pulled back after firing until its ammunition ran out.",
+    "The enemy who crossed the river that night was the Chinese 63rd Army.",
+    "Three divisions. Tens of thousands of men."
+   ],
+   "callouts": ["NIGHT OF APR. 22–23 · CHINESE CROSSING (APPROX.)"]
+  },
+  "s44": {
+   "lines": [
+    "The 63rd Army's orders were clear.",
+    "Cross the Imjin, smash through the British positions in one blow, and throw open the road to Uijeongbu.",
+    "By their calculations, the whole job would take a single night."
+   ],
+   "org": "PVA 63rd Army",
+   "head": "Imjin Breakthrough · Mission Summary",
+   "rows": ["Cross the Imjin River", "Break the British positions", "Advance toward Uijeongbu"],
+   "note": "Summary · Reconstruction"
+  },
+  "s45": {
+   "lines": [
+    "And that is when the sound begins.",
+    "Gongs and cymbals, shrill whistles, and long, wailing bugles."
+   ],
+   "label": "Dramatization"
+  },
+  "s46": {
+   "lines": [
+    "The Chinese used these sounds to signal the direction of attack, and at the same time to grind down the nerves of the enemy.",
+    "Noise echoing from every side, below a pitch-black ridge.",
+    "The terror of not knowing where they were coming from, or how many."
+   ],
+   "text": "GONGS · CYMBALS · BUGLES",
+   "accent": "An Unseen Terror"
+  },
+  "s47": {
+   "lines": [
+    "And the attack that night was not aimed at the Glosters alone.",
+    "The Belgian battalion, posted north of the river, was cut off, and the Fusiliers on the right were hit all night long.",
+    "The whole brigade was engulfed in flames at the same time."
+   ]
+  },
+  "s48": {
+   "lines": [
+    "The British artillery poured shells out all night without a pause.",
+    "It's said the gun barrels glowed red-hot."
+   ],
+   "label": "UN artillery firing in defense of a position (1951)"
+  },
+  "s49": {
+   "lines": [
+    "Still the waves did not shrink.",
+    "Cut down one battalion, and another battalion stood right behind it.",
+    "This was the Chinese human-wave attack."
+   ]
+  },
+  "s50": {
+   "lines": [
+    "The first Chinese blade struck the most exposed position, A Company on Castle Hill.",
+    "Grenades fell like rain, and bayonets clashed between the trenches."
+   ]
+  },
+  "s51": {
+   "lines": [
+    "Through that long night, the positions on the hill changed hands again and again.",
+    "By daybreak, A Company had lost nearly half its men."
+   ],
+   "label": "Dramatization"
+  },
+  "s52": {
+   "lines": [
+    "And this was only the beginning.",
+    "The real ordeal would come after sunrise."
+   ],
+   "big": "APR. 23 DAWN · A COMPANY",
+   "items": ["Men", "Ammunition"]
+  },
+  "s53": {
+   "lines": [
+    "The morning of April 23rd.",
+    "A Company's commander, Major Pat Angier, is killed on the hill.",
+    "With its commander gone, the company was on the verge of collapse."
+   ],
+   "label": "Dramatization",
+   "chapter": ["PART 4", "Trapped in the Solma-ri Valley"]
+  },
+  "s54": {
+   "lines": [
+    "By a cruel coincidence, it was Saint George's Day, the feast of England's patron saint.",
+    "At home, it was a day for wearing a rose on your chest,",
+    "but up on that hill, no one had a moment to mark it."
+   ],
+   "big": "APRIL 23",
+   "sub": "England's National Day · Saint George's Day"
+  },
+  "s55": {
+   "lines": [
+    "Then a young officer pulls himself to his feet.",
+    "Lieutenant Philip Curtis."
+   ],
+   "label": "Grave of Lt. Curtis, UN Memorial Cemetery, Busan · aged 24"
+  },
+  "s56": {
+   "lines": [
+    "At the top of Castle Hill, the Chinese had seized a machine-gun post.",
+    "That one position was pinning down the entire company."
+   ]
+  },
+  "s57": {
+   "lines": [
+    "Curtis had already been shot.",
+    "His men tried to hold him back, but he shook them off and charged up the slope alone, grenades in hand."
+   ],
+   "label": "Dramatization"
+  },
+  "s58": {
+   "lines": [
+    "Hit again, he went down, then got up and crawled on.",
+    "And at the moment he threw his last grenade into the post, he died on the spot."
+   ],
+   "text": "THE LAST GRENADE",
+   "accent": "Lieutenant Curtis"
+  },
+  "s59": {
+   "lines": [
+    "He would be awarded Britain's highest decoration for valor, the Victoria Cross.",
+    "It was the final charge of a twenty-four-year-old officer.",
+    "And his sacrifice bought A Company the time it needed to get off the hill."
+   ],
+   "big": "THE VICTORIA CROSS",
+   "sub": "Lt. Philip Curtis · Posthumous"
+  },
+  "s60": {
+   "lines": [
+    "When daylight came, the Chinese attacks paused for breath.",
+    "British guns and UN fighter-bombers owned the daytime sky.",
+    "But even then, the enemy never stopped moving through the hills and valleys."
+   ],
+   "label": "UN fighter-bomber dropping napalm (1952)"
+  },
+  "s61": {
+   "lines": [
+    "But the real danger was not in front of the hill. It was behind it.",
+    "The Chinese weren't only hammering the front."
+   ]
+  },
+  "s62": {
+   "lines": [
+    "Thousands of them had slipped through those wide gaps between the battalions,",
+    "and come all the way down into the Solma-ri valley, behind the Glosters."
+   ],
+   "callouts": ["CHINESE INFILTRATION · ESCAPE ROUTE CUT (APPROX.)"]
+  },
+  "s63": {
+   "lines": [
+    "The supply route was cut. The way out was blocked.",
+    "Enemy in front. Enemy behind.",
+    "The legend of the badge on the back of their caps had come to life."
+   ]
+  },
+  "s64": {
+   "lines": [
+    "The only link left between brigade headquarters and the battalion was a thin thread of radio.",
+    "And over that radio, the battalion's situation grew worse by the hour."
+   ],
+   "label": "Dramatization"
+  },
+  "s65": {
+   "lines": [
+    "That night, the remaining companies were attacked one after another.",
+    "On the ridges held by D and B Companies, grenades and machine guns never fell silent all night.",
+    "And with every dawn, the empty places in the trenches grew more obvious."
+   ],
+   "label": "Dramatization"
+  },
+  "s66": {
+   "lines": [
+    "Colonel Carne made his decision.",
+    "He would pull in all his scattered companies and gather them in one place.",
+    "That place was Hill 235."
+   ]
+  },
+  "s67": {
+   "lines": [
+    "Just getting the companies up to the hill was a battle in itself.",
+    "They carried their wounded on stretchers and crawled up the ridges, loaded with heavy mortars and machine guns."
+   ],
+   "label": "Dramatization"
+  },
+  "s68": {
+   "lines": [
+    "Men who fell behind in the darkness never came back.",
+    "And the battalion that gathered there now had nowhere left to retreat, not a single step."
+   ],
+   "label": "Dramatization"
+  },
+  "s69": {
+   "lines": [
+    "The Glosters had become an island, surrounded by the enemy on all sides, a full three hundred and sixty degrees."
+   ],
+   "callouts": ["HILL 235 SURROUNDED (APPROX.)"]
+  },
+  "s70": {
+   "lines": [
+    "April 24th.",
+    "The men gathered on the hill numbered barely four hundred."
+   ],
+   "text": "PART 5",
+   "accent": "Alone on Hill 235"
+  },
+  "s71": {
+   "lines": [
+    "After two straight nights of fighting, their canteens were empty.",
+    "The ammunition boxes were starting to show their bottoms."
+   ],
+   "chapter": ["PART 5", "Alone on Hill 235"],
+   "big": "HILL 235 · WHAT WAS LEFT",
+   "items": ["Water", "Ammunition", "Batteries"]
+  },
+  "s72": {
+   "lines": [
+    "Even the radio batteries were running down.",
+    "Once that last link to brigade went dead, the battalion would be truly cut off from the world."
+   ],
+   "label": "Dramatization"
+  },
+  "s73": {
+   "lines": [
+    "The wounded lay on the floors of the trenches, waiting for a single mouthful of water.",
+    "And the path down to the valley to fetch that water was already inside the enemy's field of fire."
+   ],
+   "label": "Dramatization"
+  },
+  "s74": {
+   "lines": [
+    "The men counted out what ammunition was left and shared it, round by round.",
+    "So many rounds per rifle, so many belts per machine gun.",
+    "Not one shot could be wasted."
+   ],
+   "label": "Dramatization"
+  },
+  "s75": {
+   "lines": [
+    "They had to wait until the enemy was right on top of them, and pull the trigger only when they could not miss.",
+    "Hunger and thirst, and a third night without sleep."
+   ]
+  },
+  "s76": {
+   "lines": [
+    "Their eyes were already hollow and sunken.",
+    "And yet not one of them left his trench."
+   ],
+   "label": "UN soldiers catching their breath on a hilltop (Korea)"
+  },
+  "s77": {
+   "lines": [
+    "Some companies never made it up to the hill.",
+    "B Company, holding a separate ridge, beat off several attacks through the night, but in the end its ammunition ran out and its position was overrun.",
+    "It is said that only a handful of its men made it up to Hill 235 alive."
+   ]
+  },
+  "s78": {
+   "lines": [
+    "With the battalion was a troop of British mortars as well.",
+    "They too kept firing to the very end, and shared the Glosters' fate."
+   ],
+   "label": "Dramatization"
+  },
+  "s79": {
+   "lines": [
+    "From the rear, there was an attempt to save them.",
+    "A Filipino battalion pushed into the Solma-ri valley together with British tanks."
+   ]
+  },
+  "s80": {
+   "lines": [
+    "The Filipinos had come from a distant island nation far to the south.",
+    "They too threw themselves into that gorge to rescue British soldiers in a foreign land."
+   ],
+   "label": "Dramatization"
+  },
+  "s81": {
+   "lines": [
+    "But the narrow gorge road was a Chinese killing ground.",
+    "When the lead tank was knocked out and blocked the road,",
+    "the relief force never reached the hill, and had to turn back."
+   ]
+  },
+  "s82": {
+   "lines": [
+    "There is a painful story told about this moment.",
+    "Brigadier Tom Brodie, in classic British understatement, is said to have told his American superior that things were, quote, a bit sticky."
+   ],
+   "quoteTitle": "As the Story Goes",
+   "quotes": ["\"A bit sticky\"", "Understated report · A crisis that never got through"]
+  },
+  "s83": {
+   "lines": [
+    "That restrained phrase, the story goes, never conveyed how serious the crisis really was.",
+    "Meanwhile, up on the hill, an entire battalion was on the edge of disappearing."
+   ],
+   "label": "Dramatization"
+  },
+  "s84": {
+   "lines": [
+    "Still, Colonel Carne did not waver.",
+    "He is said to have strolled calmly between the trenches as shells fell, patting his men on the shoulder.",
+    "As long as their commander was on his feet, his men could not fall either."
+   ],
+   "label": "Dramatization"
+  },
+  "s85": {
+   "lines": [
+    "That night, the Chinese came again.",
+    "Mortar rounds plowed up the ridgeline,"
+   ]
+  },
+  "s86": {
+   "lines": [
+    "and the men fought with bayonets, rifle butts, and even rocks."
+   ],
+   "label": "Dramatization"
+  },
+  "s87": {
+   "lines": [
+    "Then, at dawn on April 25th,",
+    "the battalion adjutant, Captain Anthony Farrar-Hockley, called for Drum Major Philip Buss and gave him an order.",
+    "Sound the bugle. Every call you know, except the retreat."
+   ],
+   "label": "Dramatization"
+  },
+  "s88": {
+   "lines": [
+    "Over the smoke-covered hill, a British bugle rang out.",
+    "A bugle, answering the gongs."
+   ],
+   "text": "A BUGLE AGAINST THE GONGS",
+   "accent": "Dawn, April 25, 1951"
+  },
+  "s89": {
+   "lines": [
+    "A cheer burst out among the men.",
+    "It was their answer: we are still here."
+   ],
+   "label": "Dramatization"
+  },
+  "s90": {
+   "lines": [
+    "The morning of April 25th.",
+    "Over the radio, the final message came through."
+   ],
+   "label": "Dramatization",
+   "chapter": ["PART 6", "The Final Decision"]
+  },
+  "s91": {
+   "lines": [
+    "There would be no more relief.",
+    "Artillery support would soon end.",
+    "Find your own way out."
+   ],
+   "org": "British 29th Infantry Brigade",
+   "head": "Final Instructions to the Glosters · Summary",
+   "rows": ["Relief force · No longer possible", "Artillery support · Ending soon", "Break out independently"],
+   "note": "Summary · Reconstruction"
+  },
+  "s92": {
+   "lines": [
+    "In effect, it was the last order the battalion would ever receive."
+   ],
+   "text": "THE LAST ORDER",
+   "accent": "Get Out on Your Own"
+  },
+  "s93": {
+   "lines": [
+    "That morning, UN fighter-bombers swept in around the hill with machine guns and napalm.",
+    "It was cover, meant to open even the smallest gap for one last escape."
+   ]
+  },
+  "s94": {
+   "lines": [
+    "Colonel Carne called his company commanders together.",
+    "And he told them, calmly,",
+    "from here on, each of you use your own judgment, break through, and make for our lines."
+   ],
+   "label": "Dramatization"
+  },
+  "s95": {
+   "lines": [
+    "If the battalion moved as one body, it could be wiped out all at once.",
+    "Only by splitting up could anyone hope to make it home.",
+    "Men who had held out together for three days now had to stake their lives on different paths."
+   ]
+  },
+  "s96": {
+   "lines": [
+    "But not everyone could leave.",
+    "There were men too badly wounded to move."
+   ],
+   "label": "Evacuating the wounded (1951)"
+  },
+  "s97": {
+   "lines": [
+    "The medical officer, Captain Bob Hickey, and the chaplain, the Reverend Sam Davies, chose to stay on the hill.",
+    "They would remain beside the wounded."
+   ],
+   "label": "Dramatization"
+  },
+  "s98": {
+   "lines": [
+    "Even though it meant certain capture.",
+    "A doctor and a priest gave up their own chance to escape."
+   ],
+   "quoteTitle": "The Two Who Stayed Behind",
+   "quotes": ["Capt. Bob Hickey · Medical Officer", "Rev. Sam Davies · Chaplain"]
+  },
+  "s99": {
+   "lines": [
+    "And to guard the backs of the comrades who were leaving,",
+    "some men stayed on the ridge, gripping their machine guns, to the very end."
+   ],
+   "label": "Dramatization"
+  },
+  "s100": {
+   "lines": [
+    "Shortly after ten in the morning, the men began going down the hill in small groups.",
+    "As they half ran, half slid down the steep slopes, Chinese machine guns opened up behind them."
+   ],
+   "label": "Dramatization"
+  },
+  "s101": {
+   "lines": [
+    "The breakout was desperate.",
+    "Most of the men headed south, and were captured by the Chinese.",
+    "Colonel Carne, too, was taken prisoner."
+   ]
+  },
+  "s102": {
+   "lines": [
+    "So was the adjutant, Captain Farrar-Hockley.",
+    "In the prison camps, he tried to escape again and again,",
+    "and he later rose to become a British Army general, and wrote the record of this battle."
+   ],
+   "big": "CAPT. FARRAR-HOCKLEY",
+   "sub": "Adjutant, 1st Glosters · Later a British Army General"
+  },
+  "s103": {
+   "lines": [
+    "Only one group, led by D Company's commander, Major Mike Harvey, chose a different path.",
+    "Instead of going south, where the enemy expected, they first turned north, swinging in a wide arc over the mountains."
+   ]
+  },
+  "s104": {
+   "lines": [
+    "Even that final stretch was not easy.",
+    "When the exhausted men came down into a valley, friendly tanks mistook them for the enemy and opened fire."
+   ],
+   "label": "Dramatization"
+  },
+  "s105": {
+   "lines": [
+    "Some fell on the very threshold of safety.",
+    "Only after a friendly spotter plane circling overhead recognized them and signaled the tanks,",
+    "were they able to come home alive."
+   ],
+   "label": "Dramatization"
+  },
+  "s106": {
+   "lines": [
+    "Of that group, only about forty men finally reached friendly lines."
+   ],
+   "note": "1st Glosters · Approximate (Records Vary)",
+   "bars": [["Start of Battle", "~750"], ["Maj. Harvey's Group Returned", "~40"]]
+  },
+  "s107": {
+   "lines": [
+    "A battalion that began with seven hundred and fifty men.",
+    "Those who broke through and made it back numbered only a few dozen."
+   ],
+   "text": "PART 7",
+   "accent": "The Immortal 700"
+  },
+  "s108": {
+   "lines": [
+    "More than five hundred men were taken prisoner,",
+    "and many of them would spend more than two years in prison camps, until the war was over."
+   ],
+   "label": "British prisoners captured by Chinese forces",
+   "chapter": ["PART 7", "The Three Days That Saved Seoul"]
+  },
+  "s108b": {
+   "lines": [
+    "The prisoners were marched hundreds of kilometers north, to camps near the Yalu River.",
+    "Through hunger and cold, more than a few never came home."
+   ],
+   "label": "Dramatization"
+  },
+  "s109": {
+   "lines": [
+    "So were these three days a defeat?",
+    "Judged by the numbers alone, it might look that way."
+   ],
+   "text": "A DEFEAT?",
+   "accent": "The Miracle of Three Days"
+  },
+  "s110": {
+   "lines": [
+    "But in those three days, the Chinese 63rd Army's timetable fell completely apart.",
+    "The fastest road to Seoul had been blocked by one small hill."
+   ]
+  },
+  "s111": {
+   "lines": [
+    "The whole British 29th Brigade had faced tens of thousands of men,",
+    "and some estimates put Chinese losses as high as ten thousand."
+   ],
+   "note": "Chinese losses · British estimate (Records Vary)",
+   "bars": [["British 29th Brigade", "~4,000"], ["Est. Chinese Losses", "~10,000"]]
+  },
+  "s112": {
+   "lines": [
+    "And the Glosters were not the only ones who bled.",
+    "That same day, the Fusiliers and the Ulsters also had to fight their way back down narrow valleys.",
+    "Over those three days, the brigade's killed, wounded and missing came to more than a thousand."
+   ],
+   "callouts": ["APR. 25, 1951 · 29th BRIGADE WITHDRAWS (APPROX.)"]
+  },
+  "s113": {
+   "lines": [
+    "But the weight of those three days cannot be measured in numbers alone.",
+    "Had this line broken on the very first night, the Chinese might have reached the gates of Uijeongbu within a day or two."
+   ],
+   "hook": {
+    "question": {"text": "Cut off and outnumbered more than ten to one,\nhow did one British battalion\nhold off an entire Chinese army for three days?", "at": 0.05, "until": 1.0, "kicker": "■ THE OPENING QUESTION ■"}
+   }
+  },
+  "s114": {
+   "lines": [
+    "In the time they bought, UN forces were able to build a solid new defensive line north of Seoul.",
+    "And the Chinese Spring Offensive finally ground to a halt at Seoul's doorstep."
+   ],
+   "callouts": ["LATE APR. 1951 · NEW LINE NORTH OF SEOUL (APPROX.)"]
+  },
+  "s115": {
+   "lines": [
+    "In captivity, Colonel Carne is said to have carved a small cross out of stone.",
+    "That cross rests today in Gloucester Cathedral, in England."
+   ],
+   "label": "Dramatization"
+  },
+  "s116": {
+   "lines": [
+    "He reportedly spent much of his captivity in solitary confinement.",
+    "Only after the armistice in 1953 was he finally able to go home."
+   ],
+   "items": [["APR. 1951", "Taken Prisoner"], ["JUL. 1953", "Armistice"], ["1953", "Returns Home"]]
+  },
+  "s117": {
+   "lines": [
+    "He was awarded the Victoria Cross,",
+    "and the whole battalion received the U.S. Presidential Unit Citation.",
+    "To this day, the regiment's successors wear that citation on their sleeves."
+   ],
+   "quoteTitle": "The Honors the Glosters Earned",
+   "quotes": ["Lt. Col. Carne · Victoria Cross", "Whole Battalion · U.S. Presidential Unit Citation"]
+  },
+  "s118": {
+   "lines": [
+    "In Solma-ri, Paju, a British battle memorial still stands in that valley today.",
+    "Every April, white-haired veterans and their families gathered before it and bowed their heads."
+   ],
+   "label": "British battle memorial, Solma-ri, Paju"
+  },
+  "s119": {
+   "lines": [
+    "Decades after the war, the old soldiers still came back to this valley, leaning on their canes.",
+    "For them, this was the ground where they had buried their friends and left them behind."
+   ],
+   "label": "Dramatization"
+  },
+  "s120": {
+   "lines": [
+    "Paju, too, has held a memorial ceremony here year after year.",
+    "Korean soldiers and citizens have laid flowers in the same place, side by side with the British veterans."
+   ],
+   "label": "75th Anniversary Memorial, Battle of the Imjin (Apr. 2026 · Solma-ri)"
+  },
+  "s121": {
+   "lines": [
+    "Today, nearly all the survivors of those days are gone.",
+    "But their names are still carved into the stone."
+   ],
+   "label": "Dramatization"
+  },
+  "s122": {
+   "lines": [
+    "Seven hundred men who fought back to back on the bank of a strange river in a faraway country, for people whose names they never knew.",
+    "What they saved was not just one hill. It was a nation's capital."
+   ],
+   "quoteTitle": "What Solma-ri Left Behind",
+   "quotes": ["700 Men Against 40,000", "Not Just One Hill, But a Nation's Capital"]
+  },
+  "s123": {
+   "lines": [
+    "And in that capital, millions of people live their lives today.",
+    "If you ever find yourself near Mount Kamak in Paju, take a moment to remember the valley of Solma-ri."
+   ],
+   "label": "Dramatization"
+  },
+  "s124": {
+   "lines": [
+    "That's all for today's battle.",
+    "If this story meant something to you, please subscribe, like, and share it with someone who should hear it.",
+    "We'll see you on the next battlefield."
+   ],
+   "title": "April 1951 · Solma-ri, Paju\nThe 700 who held for three days."
+  }
+ }
+}

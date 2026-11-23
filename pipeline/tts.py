@@ -120,6 +120,7 @@ def main(ep):
         "use_speaker_boost": True,
         "speed": float(env("TTS_SPEED", "1.0")),
     }
+    settings.update(board.get("voice_settings") or {})  # 2026-11-23: 보드별 목소리 세부값 (영문 채널 표준)
     _, out = ep_dirs(ep)
     adir = out / "tts"
     adir.mkdir(exist_ok=True)
