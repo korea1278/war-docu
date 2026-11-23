@@ -12,7 +12,7 @@
  "midrolls": [
   "s108",
   "s189",
-  "s266"
+  "s272"
  ],
  "places": {
   "seoul": [
@@ -197,8 +197,8 @@
   },
   "dn": {
    "center": [
-    127.71,
-    36.99
+    127.708,
+    36.986
    ],
    "span": 0.14
   },
@@ -258,19 +258,19 @@
   {
    "id": "tension",
    "from": "s227",
-   "to": "s265",
+   "to": "s271",
    "volume": 0.17
   },
   {
    "id": "analysis",
-   "from": "s266",
-   "to": "s298",
+   "from": "s272",
+   "to": "s304",
    "volume": 0.16
   },
   {
    "id": "somber",
-   "from": "s299",
-   "to": "s311",
+   "from": "s305",
+   "to": "s317",
    "volume": 0.17
   }
  ],
@@ -285,6 +285,7 @@
   "trench_wait": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean marines whose heads are round balls painted as the South Korean taegukgi flag (white with the red and blue taegeuk circle and black trigrams), wearing 1950 M1 steel helmets and plain olive drab herringbone field uniforms with absolutely NO collar tabs, NO patches, NO red insignia crouching in a dug-in trench on a mountain pass, holding fire and waiting with grim faces as enemy soldiers creep closer up the slope below, a few grenades lined up on the parapet, dusk, August 1950 summer, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "dawn_victory": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean flag (white with the red and blue taegeuk circle and black trigrams), wearing 1950 M1 steel helmets and olive drab summer field uniforms standing on a hilltop at dawn looking down on a small Korean town beside a river with wisps of smoke rising, tired but relieved, golden morning light, September 1950, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "dabu_night": "A narrow mountain valley road in Korea at night in August 1950, steep forested ridges on both sides, orange artillery flashes on the distant ridgeline, flares hanging in a smoky sky, silhouette of a lone road leading south, cinematic wide shot, dark desaturated palette with orange glow, painterly realistic digital illustration, film grain, no people visible, no text.",
+  "valley_today": "A peaceful Korean mountain valley in summer today with green rice paddies, a small village of modern farmhouses and a quiet two-lane road along a stream, soft golden evening light, no people visible, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no flags, no text, no letters.",
   "valley_quiet": "A quiet narrow Korean mountain valley in late morning after a battle, drifting gunsmoke over the dirt road, abandoned small wheeled machine guns, scattered backpacks and overturned wooden carts, no bodies, no people visible, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no flags, no text, no letters.",
   "direct_fire": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: South Korean soldiers whose heads are round balls painted as the South Korean taegukgi flag, wearing 1950 M1 helmets and olive drab uniforms manning an American 105mm M3 howitzer with its barrel lowered almost flat, firing point-blank across a rainy field at approaching enemy armored vehicles, huge muzzle blast, empty shell casings, gritted determination, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
   "su76_advance": "Semi-realistic dramatic digital illustration in the style of polished history-YouTube countryball cartoons: a column of Soviet-made SU-76 self-propelled guns with North Korean People's Army soldiers whose heads are round balls painted as the North Korean flag (red with blue stripes and a white circle with a red star), wearing 1950 khaki uniforms and side caps riding on top, rolling through flooded rice paddies toward a river town at dawn in the rain, explosions in the fields, mud splashing, dramatic low-angle shot, ominous, leaving calm uncluttered dark background area in the upper right, absolutely no speech bubbles, no balloons, no text boxes, no captions, no text, no letters.",
@@ -293,7 +294,7 @@
   "cook_smoke": "Thin cooking smoke rising from black iron pots over small fires in a rural Korean schoolyard in the late afternoon of July 1950, rifles stacked in tripods, military trucks parked beside a wooden school building, small relaxed distant soldiers in plain khaki 1950 uniforms and soft field caps sitting on the ground, seen from far away on a hillside, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no flags, no text, no letters.",
   "teacher_gate": "A young Korean woman in 1950 plain rural work clothes and a headscarf seen from behind slipping quietly out through the small back gate of a wooden rural school fence toward green rice paddies and a forested mountain, hot July afternoon, tense, her face not visible, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no flags, no text, no letters.",
   "mountain_path": "A lone young Korean woman in plain 1950 rural work clothes and a headscarf seen from behind climbing a steep narrow forest path up a green Korean mountain under a hot hazy July sun, cicada summer heat, small figure among pine trees, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no flags, no text, no letters.",
-  "schoolyard_blast": "Mortar shells exploding in a rural Korean schoolyard at dusk in July 1950, a towed field gun position and stacked wooden ammunition crates erupting in a fireball, burning military trucks, a small wooden school building lit by orange flames, seen from a distant hilltop, no visible people, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no flags, no text, no letters.",
+  "schoolyard_blast": "Mortar shells exploding in a rural Korean schoolyard at dusk in July 1950, a towed field gun position and stacked wooden ammunition crates erupting in a fireball, burning military trucks, a small wooden school building lit by orange flames, seen from a distant hilltop, no visible people, absolutely no flags, no banners, no poles, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no flags, no text, no letters.",
   "misty_ridge": "Low morning fog over green rolling hills and a dirt road in rural central Korea in July 1950, a small mountain pass with a few pine trees, eerie and quiet, no people visible, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no flags, no text, no letters.",
   "market_village": "A small 1950 rural Korean market village with thatched and tiled roofs along a dusty crossroads, empty market stalls, abandoned A-frame carriers, green hills behind, hot July day, no people visible, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no flags, no text, no letters.",
   "teacher_portrait": "A young Korean woman teacher in a 1950 white jeogori blouse and long black skirt standing by the window of an old wooden classroom, seen from the side in silhouette with her face in shadow, warm afternoon light through the window, a blackboard and wooden desks behind, quiet and resolute, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no flags, no text, no letters.",
@@ -308,8 +309,6 @@
   "abandoned_guns": "Abandoned towed field guns, burnt-out military trucks loaded with mortars and machine guns, and scattered wooden ammunition boxes in a smoky rural Korean schoolyard at twilight in July 1950, a small wooden school building behind, no people visible, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no flags, no text, no letters.",
   "night_march_proud": "A column of soldiers in olive drab M1 steel helmets marching at night along a Korean country road carrying captured machine guns and mortar tubes on their shoulders, moonlight, seen from behind, small figures, a sense of quiet pride, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no flags, no text, no letters.",
   "night_count": "A dark Korean hillside at night after a battle, scattered abandoned equipment in the grass under moonlight, a lantern on a rock beside an open notebook, smoke drifting, no people visible, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no flags, no text, no letters.",
-  "school_today": "A small modern rural elementary school in Korea today with a green playground and a low two-story building, surrounded by rice paddies and green hills on a bright summer morning, a granite memorial stone at the edge of the playground, no people visible, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no flags, no text, no letters.",
-  "memorial_stone": "A tall granite war memorial stone monument standing in a quiet rural Korean schoolyard today, flower wreaths at its base, summer greenery, soft morning light, the engraving blurred and unreadable, no people visible, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no flags, no text, no letters.",
   "kids_playground": "Small Korean schoolchildren in colorful summer clothes running and playing on the dirt playground of a small rural school today, seen from far away and from behind, bright summer day, green hills, joyful, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no flags, no text, no letters."
  },
  "scenes": [
@@ -6933,6 +6932,67 @@
   {
    "id": "s244",
    "lines": [
+    "전쟁 초기의 기록에서는 이런 일이 드물지 않았습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "전쟁 초기 기록 · 드물지 않은 일",
+    "style": "dark"
+   },
+   "act": 6
+  },
+  {
+   "id": "s245",
+   "lines": [
+    "같은 전투를 두고 국군과 미군의 숫자가 서로 다른 경우도 많았죠."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "국군 기록",
+     "big": "?",
+     "icon": "none",
+     "color": "blue"
+    },
+    "right": {
+     "title": "미군 기록",
+     "big": "?",
+     "icon": "none",
+     "color": "blue",
+     "at": 0.6
+    }
+   },
+   "act": 6
+  },
+  {
+   "id": "s246",
+   "lines": [
+    "그래서 역사학자들은 여러 기록을 나란히 놓고 비교합니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "여러 기록을 나란히 놓고 비교",
+    "style": "yellow",
+    "sub": "역사학자들의 방법",
+    "subAt": 0.4
+   },
+   "act": 6
+  },
+  {
+   "id": "s247",
+   "lines": [
+    "숫자 하나만 보고 전투를 판단하기 어려운 이유입니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "숫자 하나로는 판단하기 어렵다",
+    "style": "dark"
+   },
+   "act": 6
+  },
+  {
+   "id": "s248",
+   "lines": [
     "그래서 격전의 지도는 두 기록을 모두 보여 드립니다."
    ],
    "visual": {
@@ -6945,7 +7005,7 @@
    "act": 6
   },
   {
-   "id": "s245",
+   "id": "s249",
    "lines": [
     "분명한 것은 하나입니다."
    ],
@@ -6958,7 +7018,7 @@
    "act": 6
   },
   {
-   "id": "s246",
+   "id": "s250",
    "lines": [
     {
      "t": "그날 밤 제48연대는 싸울 수 있는 연대로 남지 못했습니다.",
@@ -6973,7 +7033,7 @@
    "act": 6
   },
   {
-   "id": "s247",
+   "id": "s251",
    "lines": [
     "대포와 트럭과 탄약을 한꺼번에 잃었기 때문입니다."
    ],
@@ -6998,7 +7058,7 @@
    "act": 6
   },
   {
-   "id": "s248",
+   "id": "s252",
    "lines": [
     "정부는 이 승리에 크게 답했습니다."
    ],
@@ -7010,7 +7070,7 @@
    "act": 6
   },
   {
-   "id": "s249",
+   "id": "s253",
    "lines": [
     {
      "t": "제7연대는 대통령 부대 표창을 받았습니다.",
@@ -7031,7 +7091,7 @@
    "act": 6
   },
   {
-   "id": "s250",
+   "id": "s254",
    "lines": [
     {
      "t": "그리고 연대 전 장병이 1계급씩 특진했습니다.",
@@ -7053,7 +7113,7 @@
    "act": 6
   },
   {
-   "id": "s251",
+   "id": "s255",
    "lines": [
     "연대 전체가 한꺼번에 진급한 것은 매우 드문 일이었습니다."
    ],
@@ -7067,7 +7127,7 @@
    "act": 6
   },
   {
-   "id": "s252",
+   "id": "s256",
    "lines": [
     "그만큼 국군에게 이 승리가 절실했다는 뜻이었죠."
    ],
@@ -7079,7 +7139,36 @@
    "act": 6
   },
   {
-   "id": "s253",
+   "id": "s257",
+   "lines": [
+    {
+     "t": "제7연대 병사들에게 그 진급은 단순1계급장이 아니었습니다.",
+     "say": "제칠연대 병사들에게 그 진급은 단순한 계급장이 아니었습니다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s257-photo",
+    "tag": "NARA · 국사편찬위원회"
+   },
+   "label": "부상한 전우를 돕는 국군 병사 (1950. 7. 1)",
+   "act": 6
+  },
+  {
+   "id": "s258",
+   "lines": [
+    "쫓기기만 하던 자신들도 이길 수 있다는 증거였죠."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "“우리도 이길 수 있다”는 증거",
+    "style": "yellow"
+   },
+   "act": 6
+  },
+  {
+   "id": "s259",
    "lines": [
     "사단장 김종오 대령도 곧 준장으로 진급합니다."
    ],
@@ -7101,7 +7190,7 @@
    "act": 6
   },
   {
-   "id": "s254",
+   "id": "s260",
    "lines": [
     {
      "t": "제6사단은 이후에도 충주와 수안보와 이화령에서 적을 늦추며 남쪽으로 물러섰습니다.",
@@ -7161,7 +7250,7 @@
    "act": 6
   },
   {
-   "id": "s255",
+   "id": "s261",
    "lines": [
     {
      "t": "그렇다면 무너진 제48연대는 어떻게 됐을까요.",
@@ -7177,7 +7266,7 @@
    "act": 6
   },
   {
-   "id": "s256",
+   "id": "s262",
    "lines": [
     "북한군은 이 연대를 다시 채워 넣었습니다."
    ],
@@ -7191,7 +7280,7 @@
    "act": 6
   },
   {
-   "id": "s257",
+   "id": "s263",
    "lines": [
     "그리고 열흘 뒤 이 연대는 상주를 향해 내려갑니다."
    ],
@@ -7248,7 +7337,7 @@
    "act": 6
   },
   {
-   "id": "s258",
+   "id": "s264",
    "lines": [
     "보은과 상주 사이의 좁은 골짜기 화령장이었습니다."
    ],
@@ -7312,7 +7401,7 @@
    "act": 6
   },
   {
-   "id": "s259",
+   "id": "s265",
    "lines": [
     {
      "t": "그곳에서 제48연대는 또 한 번 국군의 매복에 걸립니다.",
@@ -7365,7 +7454,7 @@
    "act": 6
   },
   {
-   "id": "s260",
+   "id": "s266",
    "lines": [
     {
      "t": "이번에는 국군 제17연대였습니다.",
@@ -7382,7 +7471,7 @@
    "act": 6
   },
   {
-   "id": "s261",
+   "id": "s267",
    "lines": [
     "지난 이야기 화령장 전투에서 협곡에 갇혔던 바로 그 연대입니다."
    ],
@@ -7396,7 +7485,7 @@
    "act": 6
   },
   {
-   "id": "s262",
+   "id": "s268",
    "lines": [
     "한 연대가 한 달도 안 돼 두 번이나 국군의 함정에 빠진 겁니다."
    ],
@@ -7419,7 +7508,7 @@
    "act": 6
   },
   {
-   "id": "s263",
+   "id": "s269",
    "lines": [
     "두 번 모두 공통점이 있었습니다."
    ],
@@ -7431,7 +7520,7 @@
    "act": 6
   },
   {
-   "id": "s264",
+   "id": "s270",
    "lines": [
     "적은 국군이 없다고 믿었습니다."
    ],
@@ -7448,7 +7537,7 @@
    "act": 6
   },
   {
-   "id": "s265",
+   "id": "s271",
    "lines": [
     "그리고 두 번 모두 그 믿음을 깨뜨린 것은 마을 사람의 신고였습니다."
    ],
@@ -7475,7 +7564,7 @@
    "act": 6
   },
   {
-   "id": "s266",
+   "id": "s272",
    "lines": [
     "전투가 끝난 뒤 김재옥 선생님의 삶은 어떻게 됐을까요."
    ],
@@ -7494,7 +7583,7 @@
    "act": 7
   },
   {
-   "id": "s267",
+   "id": "s273",
    "lines": [
     {
      "t": "그녀는 그날 산 위에서 만난 제2대대의 소대장 이득주 소위와 인연을 맺습니다.",
@@ -7511,7 +7600,7 @@
    "act": 7
   },
   {
-   "id": "s268",
+   "id": "s274",
    "lines": [
     "두 사람은 결혼해 가정을 꾸렸습니다."
    ],
@@ -7523,7 +7612,7 @@
    "act": 7
   },
   {
-   "id": "s269",
+   "id": "s275",
    "lines": [
     "전쟁터에서 만난 선생님과 군인의 이야기였습니다."
    ],
@@ -7535,7 +7624,7 @@
    "act": 7
   },
   {
-   "id": "s270",
+   "id": "s276",
    "lines": [
     "대대장이었던 김종수 소령은 훗날 그녀의 이야기를 책으로 남겼습니다."
    ],
@@ -7547,7 +7636,7 @@
    "act": 7
   },
   {
-   "id": "s271",
+   "id": "s277",
    "lines": [
     "제목은 전쟁과 여교사였습니다."
    ],
@@ -7559,7 +7648,7 @@
    "act": 7
   },
   {
-   "id": "s272",
+   "id": "s278",
    "lines": [
     "하지만 그녀의 이야기는 행복하게 끝나지 않습니다."
    ],
@@ -7572,7 +7661,7 @@
    "act": 7
   },
   {
-   "id": "s273",
+   "id": "s279",
    "lines": [
     {
      "t": "1963년 12월 그녀는 남편과 함께 끔찍한 사건으로 세상을 떠났습니다.",
@@ -7589,7 +7678,7 @@
    "act": 7
   },
   {
-   "id": "s274",
+   "id": "s280",
    "lines": [
     {
      "t": "32살이었습니다.",
@@ -7604,7 +7693,7 @@
    "act": 7
   },
   {
-   "id": "s275",
+   "id": "s281",
    "lines": [
     {
      "t": "목숨을 걸고 4km 산길을 걸었던 그 사람이었습니다.",
@@ -7621,7 +7710,7 @@
    "act": 7
   },
   {
-   "id": "s276",
+   "id": "s282",
    "lines": [
     "그녀의 이름은 오랫동안 잊혀 있었습니다."
    ],
@@ -7633,7 +7722,7 @@
    "act": 7
   },
   {
-   "id": "s277",
+   "id": "s283",
    "lines": [
     {
      "t": "그러다 2012년 국군의 날 정부는 그녀에게 보국훈장을 추서했습니다.",
@@ -7654,7 +7743,7 @@
    "act": 7
   },
   {
-   "id": "s278",
+   "id": "s284",
    "lines": [
     {
      "t": "이듬해 국가보훈처는 그녀를 이달의 6·25 전쟁영웅으로 선정합니다.",
@@ -7675,7 +7764,7 @@
    "act": 7
   },
   {
-   "id": "s279",
+   "id": "s285",
    "lines": [
     "군인이 아닌 민간인이 이 명단에 오른 것은 그녀가 처음이었습니다."
    ],
@@ -7687,19 +7776,19 @@
    "act": 7
   },
   {
-   "id": "s280",
+   "id": "s286",
    "lines": [
     "지금 충주시 신니면 동락초등학교에는 그녀의 기념관이 있습니다."
    ],
    "visual": {
     "type": "ai",
-    "img": "school_today",
+    "img": "valley_today",
     "kb": "in"
    },
    "label": "재연 일러스트",
    "callouts": [
     {
-     "text": "충주시 신니면 · 동락초등학교",
+     "text": "충주시 신니면 · 동락초등학교 일대",
      "style": "yellow",
      "at": 0,
      "pos": "top"
@@ -7708,28 +7797,21 @@
    "act": 7
   },
   {
-   "id": "s281",
+   "id": "s287",
    "lines": [
     "교정 한쪽에는 이곳이 첫 전승지라는 전승비가 서 있습니다."
    ],
    "visual": {
-    "type": "ai",
-    "img": "memorial_stone",
-    "kb": "in"
+    "type": "text",
+    "big": "첫 전승지 전승비",
+    "style": "yellow",
+    "sub": "동락초등학교 교정 · 김재옥 교사 기념관",
+    "subAt": 0.4
    },
-   "label": "재연 일러스트",
-   "callouts": [
-    {
-     "text": "첫 전승지 전승비",
-     "style": "dark",
-     "at": 0,
-     "pos": "lower"
-    }
-   ],
    "act": 7
   },
   {
-   "id": "s282",
+   "id": "s288",
    "lines": [
     {
      "t": "해마다 7월 7일이면 이 운동장에서 첫 승리를 기리는 행사가 열립니다.",
@@ -7746,7 +7828,7 @@
    "act": 7
   },
   {
-   "id": "s283",
+   "id": "s289",
    "lines": [
     "한때 적의 대포가 서 있던 자리에서 이제는 아이들이 뛰어놉니다."
    ],
@@ -7759,7 +7841,7 @@
    "act": 7
   },
   {
-   "id": "s284",
+   "id": "s290",
    "lines": [
     "이제 처음의 질문으로 돌아가 보겠습니다."
    ],
@@ -7772,7 +7854,7 @@
    "act": 7
   },
   {
-   "id": "s285",
+   "id": "s291",
    "lines": [
     {
      "t": "연전연패하던 국군은 어떻게 운동장에 모인 적 1개 연대를 단 하룻밤에 무너뜨렸을까요.",
@@ -7793,7 +7875,7 @@
    "act": 7
   },
   {
-   "id": "s286",
+   "id": "s292",
    "lines": [
     "답은 더 많은 병력도 더 좋은 무기도 아니었습니다."
    ],
@@ -7805,7 +7887,7 @@
    "act": 7
   },
   {
-   "id": "s287",
+   "id": "s293",
    "lines": [
     "첫째는 정보였습니다."
    ],
@@ -7834,7 +7916,7 @@
    "act": 7
   },
   {
-   "id": "s288",
+   "id": "s294",
    "lines": [
     "적이 어디에 얼마나 모여 있는지 국군은 정확히 알았습니다."
    ],
@@ -7869,7 +7951,7 @@
    "act": 7
   },
   {
-   "id": "s289",
+   "id": "s295",
    "lines": [
     "둘째는 기만이었습니다."
    ],
@@ -7898,7 +7980,7 @@
    "act": 7
   },
   {
-   "id": "s290",
+   "id": "s296",
    "lines": [
     "국군은 다 도망갔다는 거짓말 한마디가 적의 경계를 무너뜨렸습니다."
    ],
@@ -7910,7 +7992,7 @@
    "act": 7
   },
   {
-   "id": "s291",
+   "id": "s297",
    "lines": [
     "셋째는 인내였습니다."
    ],
@@ -7939,7 +8021,7 @@
    "act": 7
   },
   {
-   "id": "s292",
+   "id": "s298",
    "lines": [
     "대대는 공격할 때를 기다렸고 퇴로부터 막았습니다."
    ],
@@ -7983,7 +8065,7 @@
    "act": 7
   },
   {
-   "id": "s293",
+   "id": "s299",
    "lines": [
     "넷째는 표적이었습니다."
    ],
@@ -8012,7 +8094,7 @@
    "act": 7
   },
   {
-   "id": "s294",
+   "id": "s300",
    "lines": [
     "첫 포탄은 병사가 아니라 대포와 탄약을 노렸습니다."
    ],
@@ -8075,7 +8157,7 @@
    "act": 7
   },
   {
-   "id": "s295",
+   "id": "s301",
    "lines": [
     "그리고 이 네 가지를 이어 준 것은 한 사람의 용기였습니다."
    ],
@@ -8087,7 +8169,7 @@
    "act": 7
   },
   {
-   "id": "s296",
+   "id": "s302",
    "lines": [
     "적은 우리를 모른다고 믿었습니다."
    ],
@@ -8099,7 +8181,7 @@
    "act": 7
   },
   {
-   "id": "s297",
+   "id": "s303",
    "lines": [
     "하지만 우리는 적을 손바닥 보듯 알고 있었습니다."
    ],
@@ -8111,7 +8193,7 @@
    "act": 7
   },
   {
-   "id": "s298",
+   "id": "s304",
    "lines": [
     {
      "t": "그 차이를 만든 것이 19살 선생님이 걸은 4km였습니다.",
@@ -8126,7 +8208,7 @@
    "act": 7
   },
   {
-   "id": "s299",
+   "id": "s305",
    "lines": [
     "동락리 전투로 전쟁의 흐름이 바뀌지는 않았습니다."
    ],
@@ -8139,7 +8221,7 @@
    "act": 7
   },
   {
-   "id": "s300",
+   "id": "s306",
    "lines": [
     "국군은 이후로도 낙동강까지 밀려 내려갑니다."
    ],
@@ -8190,7 +8272,7 @@
    "act": 7
   },
   {
-   "id": "s301",
+   "id": "s307",
    "lines": [
     "하지만 동락리는 병사들에게 한 가지를 가르쳐 주었습니다."
    ],
@@ -8203,7 +8285,7 @@
    "act": 7
   },
   {
-   "id": "s302",
+   "id": "s308",
    "lines": [
     "우리도 이길 수 있다는 것이었습니다."
    ],
@@ -8215,7 +8297,7 @@
    "act": 7
   },
   {
-   "id": "s303",
+   "id": "s309",
    "lines": [
     "그 믿음이 없었다면 낙동강의 여름을 버티기는 더 어려웠을 겁니다."
    ],
@@ -8236,7 +8318,7 @@
    "act": 7
   },
   {
-   "id": "s304",
+   "id": "s310",
    "lines": [
     "그리고 이 이야기에는 뒷이야기가 하나 남아 있습니다."
    ],
@@ -8249,7 +8331,7 @@
    "act": 7
   },
   {
-   "id": "s305",
+   "id": "s311",
    "lines": [
     "그해 가을 국군이 북쪽으로 반격에 나섰을 때였습니다."
    ],
@@ -8292,7 +8374,7 @@
    "act": 7
   },
   {
-   "id": "s306",
+   "id": "s312",
    "lines": [
     "유엔군과 국군을 통틀어 가장 먼저 압록강에 닿은 부대가 있었습니다."
    ],
@@ -8344,7 +8426,7 @@
    "act": 7
   },
   {
-   "id": "s307",
+   "id": "s313",
    "lines": [
     {
      "t": "그 부대가 바로 동락리의 제7연대였습니다.",
@@ -8359,7 +8441,7 @@
    "act": 7
   },
   {
-   "id": "s308",
+   "id": "s314",
    "lines": [
     "운동장에서 첫 승리를 거둔 연대가 석 달 뒤 압록강 물을 수통에 담은 겁니다."
    ],
@@ -8371,7 +8453,7 @@
    "act": 7
   },
   {
-   "id": "s309",
+   "id": "s315",
    "lines": [
     "그 이야기는 격전의 지도가 다른 편에서 따로 들려 드리겠습니다."
    ],
@@ -8385,13 +8467,13 @@
    "act": 7
   },
   {
-   "id": "s310",
+   "id": "s316",
    "lines": [
     "오늘 이야기가 마음에 남으셨다면 구독과 좋아요 그리고 주변 분들께 공유 부탁드립니다."
    ],
    "visual": {
     "type": "ai",
-    "img": "school_today",
+    "img": "village_school",
     "kb": "in"
    },
    "label": "재연 일러스트",
@@ -8399,14 +8481,14 @@
    "act": 7
   },
   {
-   "id": "s311",
+   "id": "s317",
    "lines": [
     "격전의 지도는 다음 이야기에서 또 다른 전장을 찾아가겠습니다."
    ],
    "visual": {
     "type": "endcard",
     "title": "운동장의 첫 승리를 만든\n모든 이들을 기억하며",
-    "q": "s311-photo"
+    "q": "s317-photo"
    },
    "tail": 1.0,
    "act": 7

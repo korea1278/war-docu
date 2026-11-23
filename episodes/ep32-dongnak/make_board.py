@@ -257,7 +257,7 @@ P = {
 }
 V = {
     "korea": {"center": [127.4, 37.0], "span": 6.2}, "r6": {"center": [127.8, 37.45], "span": 2.4}, "corps": {"center": [127.65, 36.95], "span": 1.5},
-    "front": {"center": [127.665, 36.995], "span": 0.42}, "dn": {"center": [127.71, 36.99], "span": 0.14},
+    "front": {"center": [127.665, 36.995], "span": 0.42}, "dn": {"center": [127.708, 36.986], "span": 0.14},
     "sobaek": {"center": [127.85, 36.72], "span": 1.4}, "south": {"center": [128.35, 36.1], "span": 2.4}, "north": {"center": [126.6, 39.3], "span": 5.6},
 }
 L38 = {"k": "line", "path": [[124.6, 38.0], [126.5, 38.0], [128.6, 38.3]], "color": "#ffffff", "at": 0, "dash": True}
@@ -576,6 +576,10 @@ sc(1, text("너무나 간절했던 승리", "yellow"))
 sc(1, text("13일 만의 첫 승리", "blue"))
 sc(1, text("부풀려졌을 수도", "red"))
 sc(1, text("빠진 숫자가 있을 수도", "blue"))
+sc(1, text("전쟁 초기 기록 · 드물지 않은 일", "dark"))
+sc(1, cmp("국군 기록", "?", "미군 기록", "?", "blue", "blue"))
+sc(1, text("여러 기록을 나란히 놓고 비교", "yellow", "역사학자들의 방법"))
+sc(1, text("숫자 하나로는 판단하기 어렵다", "dark"))
 sc(1, text("두 기록을 모두 보여 드립니다", "yellow", "격전의 지도"))
 sc(1, black("분명한 것은", "하나"))
 sc(1, text("제48연대 · 싸울 수 없는 연대로", "red"))
@@ -585,6 +589,8 @@ sc(1, doc("포상 (요지)", ["국군 제7연대", "대통령 부대 표창"], "
 sc(1, doc("포상 (요지)", ["국군 제7연대", "대통령 부대 표창", "전 장병 1계급 특진"], "特進", "대한민국 정부", "1950. 7 · 요약"))
 sc(1, text("연대 전체가 한꺼번에 진급", "yellow", "매우 드문 일"))
 sc(1, text("그만큼 절실했던 승리", "dark"))
+sc(1, ph("rok_kp"), label=plabel("rok_kp"))
+sc(1, text("“우리도 이길 수 있다”는 증거", "yellow"))
 sc(1, ai("kim_alert"), label=DRAMA, kb="out", callouts=low("김종오 · 곧 준장 진급"))
 sc(1, m("sobaek", "sobaek", [blue_a(SIX_SOUTH, 0.1), mark("chungju", "blue", on="충주와"), mark("suanbo", "blue", on="수안보와"), mark("iwha", "blue", on="이화령에서")], tilt=18))
 sc(1, black("그렇다면 무너진", "제48연대는?"))
@@ -616,8 +622,8 @@ sc(1, text("오랫동안 잊혔던 이름", "dark"))
 sc(1, doc("서훈 (요지)", ["2012. 10. 1 국군의 날", "보국훈장 추서"], "敍勳", "대한민국 정부", "2012 · 요약"))
 sc(1, doc("서훈 (요지)", ["2013 · 이달의 6·25 전쟁영웅", "국가보훈처 선정"], "英雄", "국가보훈처", "2013 · 요약"))
 sc(1, text("민간인 첫 이달의 6·25 전쟁영웅", "yellow"))
-sc(1, ai("school_today"), label=DRAMA, callouts=top("충주시 신니면 · 동락초등학교"))
-sc(1, ai("memorial_stone"), label=DRAMA, callouts=low("첫 전승지 전승비"))
+sc(1, ai("valley_today"), label=DRAMA, callouts=top("충주시 신니면 · 동락초등학교 일대"))
+sc(1, text("첫 전승지 전승비", "yellow", "동락초등학교 교정 · 김재옥 교사 기념관"))
 sc(1, text("해마다 7월 7일", "blue", "첫 승리를 기리는 행사"))
 sc(1, ai("kids_playground"), label=DRAMA)
 sc(1, black("이제", "처음의 질문으로"))
@@ -647,7 +653,7 @@ sc(1, m("north", "north", [blue_a(CHOSAN, 0.1), LOCK("chosan", 0.5, "압록강 �
 sc(1, text("동락리의 제7연대", "blue"))
 sc(1, text("운동장의 첫 승리 → 석 달 뒤 압록강", "yellow"))
 sc(1, text("그 이야기는 다른 편에서", "dark", "격전의 지도"))
-sc(1, ai("school_today"), label=DRAMA, kb="out"),
+sc(1, ai("village_school"), label=DRAMA, kb="out")
 sc(1, {"type": "endcard", "title": "운동장의 첫 승리를 만든\n모든 이들을 기억하며", "q": pin("rok_july")}, tail=1.0)
 assert CUR["i"] == len(ACTS[7]), (CUR, len(ACTS[7]))
 
@@ -656,7 +662,7 @@ assert CUR["i"] == len(ACTS[7]), (CUR, len(ACTS[7]))
 REUSE = {
     "village_school": "ep31-hwaryeong", "op_post": "ep31-hwaryeong", "kim_alert": "ep31-hwaryeong", "dawn_rain": "ep31-hwaryeong", "t34_column": "ep31-hwaryeong",
     "withdraw": "ep31-hwaryeong", "crest_wait": "ep31-hwaryeong", "trench_wait": "ep31-hwaryeong", "dawn_victory": "ep31-hwaryeong",
-    "dabu_night": "ep31-hwaryeong", "valley_quiet": "ep31-hwaryeong",
+    "dabu_night": "ep31-hwaryeong", "valley_today": "ep31-hwaryeong", "valley_quiet": "ep31-hwaryeong",
     "direct_fire": "chuncheon", "su76_advance": "chuncheon", "classroom_1950": "ep28-pohang",
 }
 # 새 그림 (Cloudflare Workers AI 무료 · 사람은 작은 실루엣·뒷모습 위주, 국기·글자 없음)
@@ -667,7 +673,7 @@ NEW = {
     "cook_smoke": "Thin cooking smoke rising from black iron pots over small fires in a rural Korean schoolyard in the late afternoon of July 1950, rifles stacked in tripods, military trucks parked beside a wooden school building, small relaxed distant " + NK + " sitting on the ground, seen from far away on a hillside",
     "teacher_gate": "A young Korean woman in 1950 plain rural work clothes and a headscarf seen from behind slipping quietly out through the small back gate of a wooden rural school fence toward green rice paddies and a forested mountain, hot July afternoon, tense, her face not visible",
     "mountain_path": "A lone young Korean woman in plain 1950 rural work clothes and a headscarf seen from behind climbing a steep narrow forest path up a green Korean mountain under a hot hazy July sun, cicada summer heat, small figure among pine trees",
-    "schoolyard_blast": "Mortar shells exploding in a rural Korean schoolyard at dusk in July 1950, a towed field gun position and stacked wooden ammunition crates erupting in a fireball, burning military trucks, a small wooden school building lit by orange flames, seen from a distant hilltop, no visible people",
+    "schoolyard_blast": "Mortar shells exploding in a rural Korean schoolyard at dusk in July 1950, a towed field gun position and stacked wooden ammunition crates erupting in a fireball, burning military trucks, a small wooden school building lit by orange flames, seen from a distant hilltop, no visible people, absolutely no flags, no banners, no poles",
     "misty_ridge": "Low morning fog over green rolling hills and a dirt road in rural central Korea in July 1950, a small mountain pass with a few pine trees, eerie and quiet, no people visible",
     "market_village": "A small 1950 rural Korean market village with thatched and tiled roofs along a dusty crossroads, empty market stalls, abandoned A-frame carriers, green hills behind, hot July day, no people visible",
     "teacher_portrait": "A young Korean woman teacher in a 1950 white jeogori blouse and long black skirt standing by the window of an old wooden classroom, seen from the side in silhouette with her face in shadow, warm afternoon light through the window, a blackboard and wooden desks behind, quiet and resolute",
@@ -682,8 +688,6 @@ NEW = {
     "abandoned_guns": "Abandoned towed field guns, burnt-out military trucks loaded with mortars and machine guns, and scattered wooden ammunition boxes in a smoky rural Korean schoolyard at twilight in July 1950, a small wooden school building behind, no people visible",
     "night_march_proud": "A column of soldiers in olive drab M1 steel helmets marching at night along a Korean country road carrying captured machine guns and mortar tubes on their shoulders, moonlight, seen from behind, small figures, a sense of quiet pride",
     "night_count": "A dark Korean hillside at night after a battle, scattered abandoned equipment in the grass under moonlight, a lantern on a rock beside an open notebook, smoke drifting, no people visible",
-    "school_today": "A small modern rural elementary school in Korea today with a green playground and a low two-story building, surrounded by rice paddies and green hills on a bright summer morning, a granite memorial stone at the edge of the playground, no people visible",
-    "memorial_stone": "A tall granite war memorial stone monument standing in a quiet rural Korean schoolyard today, flower wreaths at its base, summer greenery, soft morning light, the engraving blurred and unreadable, no people visible",
     "kids_playground": "Small Korean schoolchildren in colorful summer clothes running and playing on the dirt playground of a small rural school today, seen from far away and from behind, bright summer day, green hills, joyful",
 }
 NEW = {k: v + TAIL for k, v in NEW.items()}
