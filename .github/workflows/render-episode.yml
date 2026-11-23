@@ -154,8 +154,11 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add -A
           git commit -m "재료 생성: $EP" || echo "변경 없음"
-          git pull --rebase -X theirs -q || (git rebase --abort; git pull --no-rebase -X ours -q --no-edit) || true
-          git push
+          for i in 1 2 3 4 5; do
+            git pull --rebase -X theirs -q || (git rebase --abort; git pull --no-rebase -X ours -q --no-edit) || true
+            git push && break
+            echo "push 실패 (다른 실행과 동시 커밋) — $i번째 재시도"; sleep $((i*7))
+          done
 
       - name: 미리보기 시트
         if: inputs.mode != 'thumb'
@@ -169,8 +172,11 @@ jobs:
         run: |
           git add -A
           git commit -m "미리보기: $EP" || echo "변경 없음"
-          git pull --rebase -X theirs -q || (git rebase --abort; git pull --no-rebase -X ours -q --no-edit) || true
-          git push
+          for i in 1 2 3 4 5; do
+            git pull --rebase -X theirs -q || (git rebase --abort; git pull --no-rebase -X ours -q --no-edit) || true
+            git push && break
+            echo "push 실패 (다른 실행과 동시 커밋) — $i번째 재시도"; sleep $((i*7))
+          done
 
       # [자막 렌더링 무결성 원칙] 모든 장면·모든 줄에서 자막이 실제 화면에 보이는지 스틸로 확인 — 실패하면 MP4 렌더 중단
       - name: 자막 노출 검사
