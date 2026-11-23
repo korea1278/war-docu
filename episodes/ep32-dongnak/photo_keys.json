@@ -1,0 +1,19 @@
+{
+ "rok_july": {"file": "File:SC 343087 FEC-50-3744 - 5 July 1950 (52576611119).jpg", "label": "전선으로 향하는 국군 (1950. 7. 5)", "tag": "NARA · 국사편찬위원회"},
+ "rok_kp": {"file": "File:SC 343168 FEC-50-3525 - 1 July 1950 (52562477059).jpg", "label": "부상한 전우를 돕는 국군 병사 (1950. 7. 1)", "tag": "NARA · 국사편찬위원회"},
+ "rok_cook": {"file": "File:1950.7.14 국군 취사병-가마솥 (7445951682).jpg", "label": "전선의 국군 취사병 (1950. 7. 14)", "tag": "국방화보"},
+ "rok_mortar": {"file": "File:1950.8.13 박격포 사격훈련 (7445952066).jpg", "label": "박격포를 쏘는 국군 장병 (1950. 8)", "tag": "국방화보"},
+ "captured_equip": {"file": "File:SC 346817 FEC-50-6759 - 21 August 1950 (52566700936).jpg", "label": "노획한 북한군 장비를 살펴보는 국군 (1950. 8. 21)", "tag": "NARA · 국사편찬위원회"},
+ "pow_interrog": {"file": "File:SC 348635 - An ROK interrogator questions two N. Korean prisoners who voluntarily surrendered to troops of the 11th Regt., 1st ROK Div. north of Taegu, Korea. 18 September, 1950. (52514487091).jpg", "label": "북한군 포로를 심문하는 국군 (1950. 9. 18 · 대구 북쪽)", "tag": "미 육군 통신대"},
+ "pow_19th": {"file": "File:SC 348779 - Two North Koreans captured by men of \"F\" Co., 19th Inf. Regt., 24th Inf. Div. south of Chinju, Korea, being searched and interrogated by S. Korean G-2 officer. 29 July, 1950. (52524516961).jpg", "label": "붙잡힌 북한군 두 명을 조사하는 국군 정보 장교 (1950. 7. 29)", "tag": "미 육군 통신대"},
+ "rok_march_aug": {"file": "File:SC 345022 50-16198 - August 1950 (52567230758).jpg", "label": "전선으로 행군하는 국군 (1950. 8)", "tag": "NARA · 국사편찬위원회"},
+ "rok_m1": {"file": "File:SC 345344 FEC-50-5046 - 29 July 1950 (52568421695).jpg", "label": "M1 소총을 든 국군 병사 (1950. 7. 29)", "tag": "NARA · 국사편찬위원회"},
+ "us24_sangju": {"file": "File:Pfc. Clarence Whitmore, voice radio operator, 24th Infantry Regiment, reads the latest news while enjoying chow during lull in battle, near Sangju, Korea HD-SN-99-03055.jpg", "label": "상주 부근의 미 제24연대 통신병 (1950. 8. 9)", "tag": "미 육군"},
+ "naktong_map": {"file": "File:Naktong Defense (ko).jpg", "label": "낙동강 방어선 (1950. 8~9월)", "tag": "미 육군 군사사 연구소"},
+ "rok17_7th": {"file": "File:2010.8.11 한국전쟁-미군 제7보병사단 17연대의 도보행군 (7445953316).jpg", "label": "미 제7사단과 국군 제17연대의 행군 (1950)", "tag": "국방화보"},
+ "inchon_embark": {"file": "File:USMC HQ No. A 2911- September 1950 (52564953168).jpg", "label": "인천상륙작전에 나서는 국군의 승선 (1950. 9)", "tag": "NARA · 미 해병대"},
+ "han_bridge": {"file": "File:Han River Bridge at Seoul.jpg", "label": "끊어진 한강 다리 (1950)", "tag": "Wikimedia Commons"},
+ "tfs_station": {"file": "File:Tash Force Smith of the 24th Infantry Division arriving at the railway station in Taejon, Korea (Flicke id 1635548474).jpg", "label": "대전역에 도착한 스미스 특수임무부대 (1950. 7)", "tag": "미 육군 군사사 연구소"},
+ "dshk": {"file": "File:The Korean War 1950 - 1953 MH33267.jpg", "label": "노획된 소련제 12.7mm 기관총 (1950 · 전주 부근)", "tag": "영국 제국전쟁박물관"},
+ "walker_dean": {"file": "File:Walton Walker & William Dean in Korea army.mil-2007-07-06-084606.jpg", "label": "워커 중장(왼쪽)과 딘 소장 (1950)", "tag": "미 육군"}
+}
