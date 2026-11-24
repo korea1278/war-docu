@@ -7,10 +7,10 @@ import { TroopsV } from "./Hook";
 import { ChecklistV, FlagGridV, FlatMapV, PhotoMarks, PhotoTag, Pops, ReasonsV, StageV } from "./Stage";
 
 /** 사진이 없을 때 대체 배경 */
-const PhotoOrSlate: React.FC<{ src?: string | null; kb?: string; bw?: boolean; dim?: number; pos?: string }> = ({ src, kb, bw = true, dim = 0, pos }) =>
+const PhotoOrSlate: React.FC<{ src?: string | null; kb?: string; bw?: boolean; dim?: number; pos?: string; depth?: string | null }> = ({ src, kb, bw = true, dim = 0, pos, depth }) =>
   src ? (
     <AbsoluteFill>
-      <KenBurns src={src} kb={kb} bw={bw} pos={pos} />
+      <KenBurns src={src} kb={kb} bw={bw} pos={pos} depth={depth} />
       {dim > 0 && <AbsoluteFill style={{ background: `rgba(0,0,0,${dim})` }} />}
     </AbsoluteFill>
   ) : (
@@ -53,7 +53,7 @@ const PhotoV: React.FC = () => {
   }
   return (
     <AbsoluteFill>
-      <PhotoOrSlate src={v.src} kb={v.kb} bw={v.bw !== false} pos={v.pos} />
+      <PhotoOrSlate src={v.src} kb={v.kb} bw={v.bw !== false} pos={v.pos} depth={v.depth} />
       {/* 화면 업그레이드 2단계: 좌상단 출처·연도 tag + on 강조 라벨 marks */}
       <PhotoTag text={v.tag} />
       <PhotoMarks marks={v.marks} />
@@ -65,7 +65,7 @@ const AiV: React.FC = () => {
   const v = useScene().visual;
   return (
     <AbsoluteFill>
-      <PhotoOrSlate src={v.src} kb={v.kb} bw={false} pos="50% 22%" />
+      <PhotoOrSlate src={v.src} kb={v.kb} bw={false} pos="50% 22%" depth={v.depth} />
       {(v.bubbles || []).map((b: any, i: number) => (
         <Bubble key={i} {...b} />
       ))}

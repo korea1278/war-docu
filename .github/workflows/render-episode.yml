@@ -44,6 +44,7 @@ jobs:
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-cjk ffmpeg > /dev/null
           pip install -q requests numpy pillow
+          pip install -q kiwipiepy || echo "kiwipiepy 설치 실패 — 자막은 예전 규칙으로 끊음"   # 2026-11-24 한국어 자막 줄바꿈
           npm ci
 
       - name: API 점검
@@ -122,6 +123,37 @@ jobs:
       - name: 재연 일러스트 (OpenAI)
         if: inputs.mode != 'free' && inputs.mode != 'thumb'
         run: cd pipeline && python ai_images.py $EP
+
+      # ── 2026-11-24: 무료 오픈소스 화질·입체 업그레이드 (pipeline/enhance.py) ──
+      #   Real-ESRGAN(작고 흐린 사료 사진 선명하게) + Depth Anything V2 Small(사진이 입체로 움직이는 깊이 지도)
+      #   결과(public/fx)는 저장소에 커밋하지 않고 Actions 캐시로 재사용. 실패해도 렌더는 예전 방식으로 계속됨
+      - name: 화질·입체 캐시 복원
+        if: inputs.mode != 'thumb'
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            public/fx
+            .cache/models
+          key: fx-v1-${{ github.run_id }}
+          restore-keys: fx-v1-
+
+      - name: 사진 화질 개선 + 2.5D 깊이 지도 (무료)
+        if: inputs.mode != 'thumb'
+        continue-on-error: true
+        timeout-minutes: 60
+        run: |
+          pip install -q onnxruntime onnx opencv-python-headless
+          cd pipeline && python enhance.py $EP
+
+      - name: 화질·입체 캐시 저장
+        if: always() && inputs.mode != 'thumb'
+        continue-on-error: true
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            public/fx
+            .cache/models
+          key: fx-v1-${{ github.run_id }}
 
       - name: 나레이션 (일레븐랩스)
         if: inputs.mode != 'free' && inputs.mode != 'thumb'

@@ -103,15 +103,73 @@ EN_CONJ = {"and", "but", "which", "who", "when", "while", "because", "so", "as",
 EN_PREP = {"in", "on", "at", "of", "from", "with", "for", "by", "across", "over", "into", "toward", "towards", "through", "under", "against", "to", "that"}
 
 
-def _brk_cost(w, nxt, lang):
-    """단어 w 뒤(다음 단어 nxt 앞)에서 끊을 때의 비용 — 낮을수록 자연스러운 끊김."""
+_KIWI = None
+
+
+_CLAUSE_EC = {"고", "며", "으며", "는데", "은데", "ㄴ데", "데", "지만", "면서", "으면서", "니까", "으니까", "어서", "아서", "여서",
+              "면", "으면", "다가", "려고", "으려고", "도록", "자", "자마자", "거나", "든지"}
+
+
+def _kiwi_tags(t):
+    """kiwipiepy(한국어 형태소 분석, LGPL) — 어절마다 (마지막 형태소 (품사, 형태), 다음 어절 첫 품사).
+    설치 안 돼 있거나 실패하면 None → 예전 글자 규칙만 사용."""
+    global _KIWI
+    if _KIWI is False:
+        return None
+    try:
+        if _KIWI is None:
+            from kiwipiepy import Kiwi
+            _KIWI = Kiwi()
+        toks = _KIWI.tokenize(t)
+    except Exception:  # noqa: BLE001
+        _KIWI = False
+        return None
+    words = [(m.start(), m.end()) for m in re.finditer(r"\S+", t)]
+    last, first = [None] * len(words), [None] * len(words)
+    wi = 0
+    for tk in toks:
+        while wi < len(words) and tk.start >= words[wi][1]:
+            wi += 1
+        if wi >= len(words):
+            break
+        if first[wi] is None:
+            first[wi] = tk.tag
+        if not tk.tag.startswith("S"):  # 문장 부호는 건너뜀
+            last[wi] = (tk.tag, tk.form)
+    return last, first
+
+
+def _kiwi_adjust(base, last, nxt_first):
+    """글자 규칙 비용(base)을 형태소 분석으로 확실한 경우만 고친다 (2026-11-24 · kiwipiepy)."""
+    if not last:
+        return base
+    tag, form = last
+    if tag in ("ETM", "MM", "XPN"):  # 꾸미는 말(작은·지친·모인·그·두) 뒤 — 꾸밈 받는 말과 떼지 않음
+        return max(base, 9.0)
+    if tag == "EC" and nxt_first != "VX":
+        return min(base, 1.5) if form in _CLAUSE_EC else max(base, 6.0)  # 이음말 뒤는 자연스러움 · '줄지어 들어옵니다'는 붙임
+    if tag in ("JC", "JKB") and form in ("과", "와", "하고", "랑", "이랑") and nxt_first and nxt_first.startswith("NN"):
+        return max(base, 7.0)  # 'A와 B' 나열은 붙임
+    if tag.startswith("NN") and nxt_first and nxt_first.startswith(("NN", "SN")):
+        return max(base, 8.0)  # 명사+명사 (부대·지명·기관 이름)
+    return base
+
+
+def _brk_cost(w, nxt, lang, ktag=None):
+    c = _brk_cost0(w, nxt, lang, ktag)
+    return _kiwi_adjust(c, *ktag) if (ktag and lang == "ko" and c > 0) else c
+
+
+def _brk_cost0(w, nxt, lang, ktag=None):
+    """단어 w 뒤(다음 단어 nxt 앞)에서 끊을 때의 비용 — 낮을수록 자연스러운 끊김.
+    ktag: (이 어절의 마지막 품사, 다음 어절의 첫 품사) — kiwipiepy 분석 결과 (2026-11-24)"""
     core = w.rstrip("\"'”’)")
     if core and core[-1] in ",.?!…;:":
         return 0.0
     if any(ch.isdigit() for ch in w) and nxt and not any(ch.isdigit() for ch in nxt):
         return 8.0  # 숫자 + 단위/명사
     if lang == "ko":
-        if nxt and nxt.startswith(KO_AUX) and core.endswith(("고", "어", "아", "지", "게", "해")):
+        if (nxt and nxt.startswith(KO_AUX) and core.endswith(("고", "어", "아", "지", "게", "해"))) or (ktag and ktag[1] == "VX"):
             return 10.0  # 보조 용언 (~고 있다, ~지 않다, ~어 버리다)
         if core.endswith("의"):
             return 7.0
@@ -140,6 +198,7 @@ def split_phrase(t, lang):
     words = [(m.group(), m.start(), m.end()) for m in re.finditer(r"\S+", t)]
     W = len(words)
     short = 6 if lang == "ko" else 12
+    kt = _kiwi_tags(t) if lang == "ko" else None
     INF = 1e18
     best = [INF] * (W + 1)
     prev = [0] * (W + 1)
@@ -151,7 +210,7 @@ def split_phrase(t, lang):
                 break
             c = best[i] + 2.0 + max(0, ln - MAX_SUB) * 3.0 + ((ln - 0.62 * MAX_SUB) / MAX_SUB) ** 2 * 3.0
             if j < W:
-                c += _brk_cost(words[j - 1][0], words[j][0], lang)
+                c += _brk_cost(words[j - 1][0], words[j][0], lang, (kt[0][j - 1], kt[1][j]) if kt else None)
             if ln < short and W > 1:
                 c += 4.0
             if c < best[j]:
@@ -221,12 +280,52 @@ def time_at(meta, idx, end=False):
     return arr[idx]
 
 
+def load_fx(aep, board):
+    """pipeline/enhance.py 결과(public/fx/<ep>/fx.json). 파일이 실제로 있는 것만 씀 — 없으면 예전 방식."""
+    if board.get("fx") is False:
+        return {}
+    p = ROOT / "public" / "fx" / aep / "fx.json"
+    if not p.exists():
+        return {}
+    try:
+        man = json.loads(p.read_text(encoding="utf-8"))
+    except Exception:  # noqa: BLE001
+        return {}
+    out = {}
+    for src, e in man.items():
+        if not isinstance(e, dict):
+            continue
+        o = {}
+        if e.get("hd") and (ROOT / "public" / e["hd"]).exists():
+            o["hd"] = e["hd"]
+        if e.get("depth") and (ROOT / "public" / e["depth"]).exists() and board.get("parallax") is not False:
+            o["depth"] = e["depth"]
+        if o:
+            out[src] = o
+    if out:
+        print(f"fx: 화질 개선 {sum(1 for v in out.values() if 'hd' in v)}장 · 깊이 지도 {sum(1 for v in out.values() if 'depth' in v)}장 적용")
+    return out
+
+
+def apply_fx(vis, fx):
+    src = vis.get("src")
+    if not src or src not in fx or vis.get("type") not in ("photo", "ai"):
+        return vis
+    e = fx[src]
+    if e.get("hd"):
+        vis["src"] = e["hd"]
+    if e.get("depth") and vis.get("parallax") is not False and not vis.get("frame"):
+        vis["depth"] = e["depth"]
+    return vis
+
+
 def build(ep, mock=False, gap=None):
     GAP_ = GAP if gap is None else gap
     board = load_board(ep)
     _, out = ep_dirs(ep)
     lang = board.get("lang", "ko")
     aep = board.get("assets_ep") or ep          # 사진·그림·음악 출처 에피소드
+    fx = load_fx(aep, board)                     # 2026-11-24: 화질 개선·깊이 지도 (pipeline/enhance.py)
     aout = ROOT / "public" / "ep" / aep
     photos = read_json(aout / "photos.json", {})
     ai = read_json(aout / "ai.json", {})
@@ -291,7 +390,7 @@ def build(ep, mock=False, gap=None):
             if vis["type"] == "ai":
                 vis["src"] = f"ep/{aep}/ai/{vis['img']}.jpg" if vis["img"] in ai else None
                 vis["credit"] = None
-            return vis
+            return apply_fx(vis, fx)
 
         # "on": "단어" → 그 단어를 말하는 시각을 atSec 형식(줄 번호 + 줄 안 비율)의 at 값으로 바꿈
         say_full = (meta.get("text") if isinstance(meta, dict) and meta.get("text") else tts_text) or ""
@@ -360,6 +459,7 @@ def build(ep, mock=False, gap=None):
         if vis["type"] == "ai":
             vis["src"] = f"ep/{aep}/ai/{vis['img']}.jpg" if vis["img"] in ai else None
             vis["credit"] = None
+        vis = apply_fx(vis, fx)
         scenes_out.append({
             "id": sc["id"], "start": round(t, 3), "dur": round(dur, 3), "audio": audio, "audioAt": pre, "tempo": 1,
             "lines": lines, "visual": vis, "label": sc.get("label"), "callouts": sc.get("callouts", []),

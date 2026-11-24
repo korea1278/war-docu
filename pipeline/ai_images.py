@@ -242,12 +242,28 @@ def cutout(src, dst):
     """썸네일 표준 Layer 3: 인물 누끼(배경 제거) PNG. rembg가 있으면 사용, 없거나 실패하면 흰 배경 기준 알파로 대체."""
     from PIL import ImageFilter, ImageOps
     img = Image.open(src).convert("RGB")
-    try:
-        from rembg import remove
-        out = remove(img)
-        print("  누끼: rembg")
-    except Exception as e:  # noqa: BLE001
-        print(f"  누끼: rembg 사용 불가({e}) → 흰 배경 알파로 대체")
+    out = None
+    # 2026-11-24: BiRefNet(MIT, 머리카락·군모 테두리까지 깔끔) 우선 → 실패하면 예전 isnet → 흰 배경 알파
+    # BiRefNet은 메모리를 6GB 넘게 씀(Actions 러너 16GB는 충분) — 메모리 부족으로 강제 종료돼도
+    # 이 스크립트가 같이 죽지 않게 별도 프로세스에서 돌린다
+    import subprocess
+    import tempfile
+    from pathlib import Path
+    for model in ("birefnet-general-lite", "isnet-general-use", "u2net"):
+        tmp = Path(tempfile.mkdtemp()) / "cut.png"
+        code = ("import sys; from PIL import Image; from rembg import remove, new_session; "
+                "remove(Image.open(sys.argv[1]).convert('RGB'), session=new_session(sys.argv[2])).save(sys.argv[3])")
+        try:
+            r = subprocess.run([sys.executable, "-c", code, str(src), model, str(tmp)], capture_output=True, text=True, timeout=900)
+            if r.returncode == 0 and tmp.exists():
+                out = Image.open(tmp).convert("RGBA")
+                print(f"  누끼: rembg {model}")
+                break
+            print(f"  누끼: {model} 실패(코드 {r.returncode}) {r.stderr.strip()[-160:]}")
+        except Exception as e:  # noqa: BLE001
+            print(f"  누끼: {model} 실패({str(e)[:120]})")
+    if out is None:
+        print("  누끼: rembg 사용 불가 → 흰 배경 알파로 대체")
         g = ImageOps.grayscale(img)
         a = g.point(lambda v: 255 if v < 225 else int((255 - v) * 255 / 30))
         a = a.filter(ImageFilter.MaxFilter(3)).filter(ImageFilter.GaussianBlur(2))

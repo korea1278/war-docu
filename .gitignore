@@ -3,3 +3,5 @@ out/
 __pycache__/
 *.pyc
 public/ep/*/timeline.json
+public/fx/
+.cache/

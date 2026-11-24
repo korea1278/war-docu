@@ -1,5 +1,6 @@
 import React, { createContext, useContext } from "react";
-import { AbsoluteFill, Img, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
+import { AbsoluteFill, continueRender, delayRender, Img, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
+import { noise2D } from "@remotion/noise";
 import { atSec, C, clamp, easeOut, F, fitFont, LANG, NOBREAK, popIn, Scene } from "./theme";
 
 export const SceneCtx = createContext<Scene | null>(null);
@@ -274,19 +275,173 @@ export const Bubble: React.FC<{ text: string; x: number; y: number; at: number }
 };
 
 /* ---------------- 켄 번스 이미지 ---------------- */
-export const KenBurns: React.FC<{ src: string; kb?: string; bw?: boolean; fit?: "cover" | "contain"; pos?: string }> = ({ src, kb = "in", bw = true, fit = "cover", pos = "50% 50%" }) => {
+/* ---------- 켄번즈 + 2.5D 깊이 와핑 + 핸드헬드 미세 흔들림 (2026-11-24) ----------
+   - depth(깊이 지도 PNG, pipeline/enhance.py · Depth Anything V2 Small)가 있으면 캔버스에서 픽셀마다
+     깊이만큼 다르게 밀어 가까운 사람·물체가 배경보다 더 움직이는 입체 카메라 효과를 만든다
+     (잘라 붙이는 레이어 방식이 아니라 와핑이라 빈 구멍·번진 자국이 없음)
+   - @remotion/noise로 아주 느린 손떨림(최대 ±0.35%)을 더해 기계적인 직선 이동감을 줄임 — frame 기반 결정론
+   - depth가 없거나 불러오기에 실패하면 예전 Img 켄번즈 그대로 */
+const kbParams = (kb: string, p: number) => {
+  let s = 1.04,
+    x = 0,
+    y = 0,
+    ox = 0, // 깊이 패럴랙스: 가로 이동량(이미지 폭 대비)
+    oy = 0,
+    dol = 0; // 깊이 돌리(가까운 것일수록 더 커짐)
+  if (kb === "in") (s = 1.04 + 0.12 * p), (dol = 0.045 * p);
+  else if (kb === "in2") (s = 1.12 + 0.08 * p), (dol = 0.035 * p);
+  else if (kb === "out") (s = 1.18 - 0.12 * p), (dol = 0.045 * (1 - p));
+  else if (kb === "left") (s = 1.14), (x = 3.5 - 7 * p), (ox = -0.022 * (p - 0.5));
+  else if (kb === "right") (s = 1.14), (x = -3.5 + 7 * p), (ox = 0.022 * (p - 0.5));
+  else if (kb === "up") (s = 1.14), (y = 3 - 6 * p), (oy = -0.02 * (p - 0.5));
+  return { s, x, y, ox, oy, dol };
+};
+
+const useHandheld = (src: string) => {
+  const t = useT();
+  const seed = "hh-" + src;
+  return { hx: noise2D(seed, t * 0.18, 0) * 0.35, hy: noise2D(seed, 0, t * 0.15) * 0.3 };
+};
+
+type Pix = { w: number; h: number; d: Uint8ClampedArray };
+const PIX = new Map<string, Promise<Pix>>();
+const loadPix = (src: string, gray = false): Promise<Pix> => {
+  const key = src + (gray ? "#g" : "");
+  if (!PIX.has(key)) {
+    if (PIX.size > 6) PIX.delete(PIX.keys().next().value as string); // 메모리 보호
+    PIX.set(
+      key,
+      new Promise<Pix>((res, rej) => {
+        const im = new Image();
+        im.crossOrigin = "anonymous";
+        im.onload = () => {
+          const c = document.createElement("canvas");
+          c.width = im.naturalWidth;
+          c.height = im.naturalHeight;
+          const g = c.getContext("2d", { willReadFrequently: true })!;
+          g.drawImage(im, 0, 0);
+          res({ w: c.width, h: c.height, d: g.getImageData(0, 0, c.width, c.height).data });
+        };
+        im.onerror = () => rej(new Error("load " + src));
+        im.src = staticFile(src);
+      }),
+    );
+  }
+  return PIX.get(key)!;
+};
+
+const OW = 1920,
+  OH = 1080;
+
+const DepthCanvas: React.FC<{ src: string; depth: string; kb: string; pos: string; filter: string; onFail: () => void }> = ({ src, depth, kb, pos, filter, onFail }) => {
   const sc = useScene();
   const t = useT();
   const p = clamp(t / sc.dur);
-  let s = 1.04,
-    x = 0,
-    y = 0;
-  if (kb === "in") s = 1.04 + 0.12 * p;
-  else if (kb === "in2") s = 1.12 + 0.08 * p;
-  else if (kb === "out") s = 1.18 - 0.12 * p;
-  else if (kb === "left") (s = 1.14), (x = 3.5 - 7 * p);
-  else if (kb === "right") (s = 1.14), (x = -3.5 + 7 * p);
-  else if (kb === "up") (s = 1.14), (y = 3 - 6 * p);
+  const ref = React.useRef<HTMLCanvasElement>(null);
+  const [px, setPx] = React.useState<[Pix, Pix] | null>(null);
+  const { hx, hy } = useHandheld(src);
+  const [handle] = React.useState(() => delayRender("depth " + src, { timeoutInMilliseconds: 60000 }));
+  React.useEffect(() => {
+    let ok = true;
+    Promise.all([loadPix(src), loadPix(depth)])
+      .then((v) => ok && setPx(v as [Pix, Pix]))
+      .catch(() => ok && onFail())
+      .finally(() => continueRender(handle));
+    return () => {
+      ok = false;
+    };
+  }, [src, depth]);
+  React.useLayoutEffect(() => {
+    const cv = ref.current;
+    if (!cv || !px) return;
+    const [im, dm] = px;
+    const k = kbParams(kb, p);
+    const [pxp, pyp] = pos.split(" ").map((v) => parseFloat(v) / 100);
+    const c = Math.max(OW / im.w, OH / im.h); // object-fit: cover
+    const offX = (OW - im.w * c) * pxp,
+      offY = (OH - im.h * c) * pyp;
+    const oX = OW * pxp,
+      oY = OH * pyp; // transform-origin
+    const tX = ((k.x + hx) / 100) * OW,
+      tY = ((k.y + hy) / 100) * OH;
+    const OX = k.ox * im.w,
+      OYv = k.oy * im.h,
+      D = k.dol,
+      cx = im.w / 2,
+      cy = im.h / 2;
+    const g = cv.getContext("2d")!;
+    const out = g.createImageData(OW, OH);
+    const o = out.data,
+      sd = im.d,
+      dd = dm.d;
+    const iw = im.w,
+      ih = im.h,
+      dw = dm.w,
+      dh = dm.h;
+    const ds = dw / iw;
+    const inv = 1 / k.s / c;
+    for (let Y = 0; Y < OH; Y++) {
+      const qy = oY + (Y - oY) / k.s - tY;
+      const uy0 = (qy - offY) / c;
+      let qi = Y * OW * 4;
+      // 한 줄 안에서 u는 X에 대해 선형 → 증분으로 계산
+      let ux0 = ((oX + (0 - oX) / k.s - tX) - offX) / c;
+      for (let X = 0; X < OW; X++, qi += 4, ux0 += inv) {
+        // 깊이 (최근접 · 작은 지도라 충분히 부드러움)
+        const dyy = (uy0 * ds) | 0,
+          dxx = (ux0 * ds) | 0;
+        const di = (dyy < 0 ? 0 : dyy >= dh ? dh - 1 : dyy) * dw + (dxx < 0 ? 0 : dxx >= dw ? dw - 1 : dxx);
+        const z = dd[di * 4] / 255;
+        let ux = ux0 - (z - 0.5) * OX - z * D * (ux0 - cx);
+        let uy = uy0 - (z - 0.5) * OYv - z * D * (uy0 - cy);
+        if (ux < 0) ux = 0;
+        else if (ux > iw - 1.001) ux = iw - 1.001;
+        if (uy < 0) uy = 0;
+        else if (uy > ih - 1.001) uy = ih - 1.001;
+        const x0 = ux | 0,
+          y0 = uy | 0,
+          fx = ux - x0,
+          fy = uy - y0;
+        const a = (y0 * iw + x0) * 4,
+          b = a + iw * 4;
+        const w00 = (1 - fx) * (1 - fy),
+          w10 = fx * (1 - fy),
+          w01 = (1 - fx) * fy,
+          w11 = fx * fy;
+        o[qi] = sd[a] * w00 + sd[a + 4] * w10 + sd[b] * w01 + sd[b + 4] * w11;
+        o[qi + 1] = sd[a + 1] * w00 + sd[a + 5] * w10 + sd[b + 1] * w01 + sd[b + 5] * w11;
+        o[qi + 2] = sd[a + 2] * w00 + sd[a + 6] * w10 + sd[b + 2] * w01 + sd[b + 6] * w11;
+        o[qi + 3] = 255;
+      }
+    }
+    g.putImageData(out, 0, 0);
+  });
+  return <canvas ref={ref} width={OW} height={OH} style={{ width: "100%", height: "100%", filter }} />;
+};
+
+export const KenBurns: React.FC<{ src: string; kb?: string; bw?: boolean; fit?: "cover" | "contain"; pos?: string; depth?: string | null }> = ({
+  src,
+  kb = "in",
+  bw = true,
+  fit = "cover",
+  pos = "50% 50%",
+  depth,
+}) => {
+  const sc = useScene();
+  const t = useT();
+  const p = clamp(t / sc.dur);
+  const [fail, setFail] = React.useState(false);
+  const { hx, hy } = useHandheld(src);
+  const filter = bw ? "grayscale(1) contrast(1.12) brightness(.96)" : "saturate(.8) contrast(1.05)";
+  const posN = /^\d+(\.\d+)?% \d+(\.\d+)?%$/.test(pos) ? pos : "50% 50%";
+  if (depth && !fail && fit === "cover" && (sc as any).visual?.parallax !== false) {
+    return (
+      <AbsoluteFill style={{ overflow: "hidden", background: "#111" }}>
+        <DepthCanvas src={src} depth={depth} kb={kb} pos={posN} filter={filter} onFail={() => setFail(true)} />
+      </AbsoluteFill>
+    );
+  }
+  const k = kbParams(kb, p);
   return (
     <AbsoluteFill style={{ overflow: "hidden", background: "#111" }}>
       <Img
@@ -297,8 +452,8 @@ export const KenBurns: React.FC<{ src: string; kb?: string; bw?: boolean; fit?: 
           objectFit: fit,
           objectPosition: pos,
           transformOrigin: pos,
-          transform: `scale(${s}) translate(${x}%, ${y}%)`,
-          filter: bw ? "grayscale(1) contrast(1.12) brightness(.96)" : "saturate(.8) contrast(1.05)",
+          transform: `scale(${k.s}) translate(${k.x + hx}%, ${k.y + hy}%)`,
+          filter,
         }}
       />
     </AbsoluteFill>

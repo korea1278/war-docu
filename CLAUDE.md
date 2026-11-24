@@ -10,6 +10,19 @@
 
 > 📌 **필수 참조 — `docs/LONGFORM_STANDARD.md` (2026-11-13 사용자 지시 · 롱폼 영구 표준)**: 새 롱폼은 대본·스토리보드를 만들기 전에 이 문서를 먼저 읽고 따른다 — 막 단위 통파일 TTS(`"tts_mode": "act"`), **절제된 다큐 효과음(`"sfx_policy": "doc"` · '꽝' 타격음·UI pop 금지, 같은 소리 15초 쿨다운, 막 전환·3D 비행 스윕·클라이맥스 먼 포성/바람 앰비언스·핵심 록온 레이더 핑만 나레이션 대비 -24~-32dB)**, BGM은 나레이션 대비 -22~-26dB(`"bgm_rel_db": -24`), 자막 싱크 ±0.5초·한 줄 25~35자, frame 기반 결정론 렌더. 이 문서의 아래 규칙과 부딪히면 LONGFORM_STANDARD.md가 우선한다 (예: 아래 '효과음' 행, 스토리보드 `sfx` 사용 예시)
 
+## ★ 무료 오픈소스 화질·입체 업그레이드 (2026-11-24 사용자 지시 · war-docu·map-of-war 공통 · 추가 비용 0원)
+> 모두 자동이라 새 편에서 따로 켤 필요 없음. 어느 단계가 실패해도 렌더는 예전 방식으로 계속된다
+1. **사진 화질 개선 — Real-ESRGAN `realesr-general-x4v3`(BSD-3)**: `pipeline/enhance.py`가 긴 변 1600px 미만 사료 사진(`photos/`)만 4배로 키워 `public/fx/<ep>/photos_<이름>.hd.jpg`로 저장(원본은 그대로, 흑백 사진은 흑백 유지). torch 없이 onnxruntime — 공식 .pth를 스크립트가 직접 ONNX로 바꿈
+2. **2.5D 입체 사진 — Depth Anything V2 Small(Apache-2.0)**: 사진·재연 그림마다 깊이 지도 `public/fx/<ep>/<폴더>_<이름>.depth.png`를 만들고, `remotion/ui.tsx` `KenBurns`(→ `DepthCanvas`)가 캔버스에서 픽셀마다 깊이만큼 다르게 밀어 가까운 사람·물체가 배경보다 더 움직이게 함(켄번즈 in/out = 깊이 돌리, left/right/up = 깊이 패럴랙스). 잘라 붙이는 레이어 방식은 배경에 번진 자국이 생겨 폐기 — 와핑 방식이라 구멍 없음
+   - ⚠️ **Base/Large/Giant 모델은 CC-BY-NC(비상업)라 절대 쓰지 말 것** — Small만
+   - 렌더 비용: 깊이 장면 1프레임당 약 0.2초 추가(20분 편 전체 약 5~10분)
+   - 끄기: 보드 `"fx": false`(전부) · `"parallax": false`(입체만) · `"upscale": false`(화질만) · 장면 `visual.parallax: false`(그 장면만 — 글자 많은 문서 사진 등 휘면 어색한 장면)
+3. **핸드헬드 미세 흔들림 — `@remotion/noise`(MIT)**: 모든 사진·그림 켄번즈에 최대 ±0.35%의 아주 느린 손떨림(frame 기반 결정론)
+4. **한국어 자막 줄바꿈 — kiwipiepy(형태소 분석)**: `timeline.py` `split_phrase`가 글자 규칙 위에 형태소로 확실한 경우만 보정 — 꾸미는 말(지친·모인·그·두) 뒤·'A와 B' 나열·명사+명사(부대·지명) 사이는 끊지 않고, 이음말(~고·~며·~는데·~아서) 뒤에서 끊음. 설치 실패 시 예전 규칙 그대로
+5. **썸네일 누끼 — BiRefNet(`birefnet-general-lite`, MIT)** 우선 → 실패하면 isnet → u2net → 흰 배경 알파 (`ai_images.py cutout`, 별도 프로세스라 메모리 부족으로 죽어도 다음 모델로). ⚠️ BRIA RMBG는 비상업 라이선스라 쓰지 말 것. 캐릭터(`chars.py`)는 예전대로 rembg 금지
+- 결과 `public/fx/`·모델 `.cache/models/`는 `.gitignore`(저장소 용량 보호) → Actions 캐시(`fx-v1-`)로 재사용, 캐시가 없으면 다시 계산(무료). Actions 단계 "사진 화질 개선 + 2.5D 깊이 지도"는 사진·그림 단계 바로 뒤, 나레이션 앞
+- 세션에서 확인: `cd pipeline && python3 enhance.py <ep> && python3 timeline.py <ep>` → 번들 → `remotion still`(Hugging Face·pytorch 서버는 세션에서 막혀 있고 모델은 GitHub 릴리스에서 받음)
+
 ## 제작 이력 (기준 실측값)
 
 | EP | id | 나레이션 | 한국어판 | 영문판 |
