@@ -139,7 +139,7 @@ export const SubtitleBox: React.FC<{ text: string }> = ({ text }) => {
 const LegendIcon: React.FC<{ k: string; color?: string }> = ({ k, color }) => {
   const box = (bg: string, inner: React.ReactNode) => (
     <svg width={34} height={22} viewBox="0 0 34 22">
-      <rect x={1} y={1} width={32} height={20} rx={2} fill={bg} stroke="#222" strokeWidth={1.5} />
+      <rect x={1} y={1} width={32} height={20} rx={2} fill={bg} stroke="#fff" strokeWidth={1.5} />
       {inner}
     </svg>
   );
@@ -175,43 +175,35 @@ export const ContextOverlay: React.FC = () => {
   return (
     <AbsoluteFill style={{ pointerEvents: "none" }}>
       {ctx.date && (
-        <div style={{ position: "absolute", top: 26, left: 52, opacity: o }}>
-          <div
-            style={{
-              fontFamily: F.serif,
-              fontWeight: 900,
-              fontSize: 74,
-              lineHeight: 1,
-              color: "#1b1712",
-              letterSpacing: -1,
-              WebkitTextStroke: "0px",
-              textShadow: "0 0 2px rgba(255,255,255,.9), 0 0 14px rgba(255,255,255,.55), 0 0 30px rgba(255,255,255,.35)",
-              whiteSpace: "nowrap",
-              ...(type === "photo" || type === "ai" || type === "person" || (isMap && (((sc.visual as any)?.tone || LOOK.mapTone) === "night"))
-                ? { color: "#fff", textShadow: "0 2px 6px rgba(0,0,0,.85), 0 0 22px rgba(0,0,0,.5)" }
-                : {}),
-            }}
-          >
-            {ctx.date}
-          </div>
+        // 우리 채널 고유 '작전 시계' 판 (레퍼런스의 큰 명조 날짜+빨간 칩을 따라 하지 않음):
+        // 짙은 반투명 판 한 줄 — 노란 세로 막대 · 흰 고딕 날짜 · 가는 구분선 · 노란 고정폭 시각
+        <div
+          style={{
+            position: "absolute",
+            top: 34,
+            left: 40,
+            opacity: o,
+            transform: `translateX(${(1 - o) * -16}px)`,
+            display: "flex",
+            alignItems: "center",
+            gap: 16,
+            background: "rgba(12,14,18,.72)",
+            borderLeft: `7px solid ${C.yellow}`,
+            borderRadius: 4,
+            padding: "9px 22px 9px 16px",
+            boxShadow: "0 4px 14px rgba(0,0,0,.35)",
+            fontFamily: F.body,
+            whiteSpace: "nowrap",
+          }}
+        >
+          <span style={{ fontWeight: 900, fontSize: 40, color: "#fff", letterSpacing: 0.5 }}>{ctx.date}</span>
           {ctx.clock && (
-            <div
-              style={{
-                display: "inline-block",
-                marginTop: 10,
-                background: C.red,
-                color: "#fff",
-                fontFamily: F.body,
-                fontWeight: 900,
-                fontSize: 30,
-                padding: "3px 12px 2px",
-                borderRadius: 4,
-                letterSpacing: 1,
-                boxShadow: "0 3px 8px rgba(0,0,0,.4)",
-              }}
-            >
-              {ctx.clock}
-            </div>
+            <>
+              <span style={{ width: 2, height: 30, background: "rgba(255,255,255,.35)" }} />
+              <span style={{ fontWeight: 700, fontSize: 34, color: C.yellow, fontFamily: "'Roboto Condensed', 'Noto Sans KR', sans-serif", letterSpacing: 1 }}>
+                {ctx.clock}
+              </span>
+            </>
           )}
         </div>
       )}
@@ -223,13 +215,13 @@ export const ContextOverlay: React.FC = () => {
             right: 34,
             minWidth: 300,
             maxWidth: 430,
-            background: "rgba(244,238,224,.96)",
-            border: "1px solid rgba(0,0,0,.25)",
+            background: "rgba(12,14,18,.7)",
+            borderTop: `4px solid ${C.yellow}`,
             borderRadius: 4,
             boxShadow: "0 6px 18px rgba(0,0,0,.35)",
-            padding: "14px 18px 12px",
+            padding: "12px 18px 10px",
             fontFamily: F.body,
-            color: "#1b1712",
+            color: "#fff",
             opacity: o,
           }}
         >
@@ -240,19 +232,19 @@ export const ContextOverlay: React.FC = () => {
             </div>
           ))}
           {ctx.scale && (
-            <div style={{ marginTop: 8, fontSize: 17, fontFamily: "monospace", color: "#333" }}>
+            <div style={{ marginTop: 8, fontSize: 17, fontFamily: "monospace", color: "rgba(255,255,255,.8)" }}>
               0 – {ctx.scale}
-              <div style={{ width: 90, height: 4, background: "#1b1712", marginTop: 3 }} />
+              <div style={{ width: 90, height: 4, background: "#fff", marginTop: 3 }} />
             </div>
           )}
-          <div style={{ marginTop: 8, fontSize: 15, color: "#555", lineHeight: 1.3 }}>{LANG === "ko" ? "지형 SRTM · 물 © OpenStreetMap" : "Terrain SRTM · Water © OpenStreetMap"}</div>
+          <div style={{ marginTop: 8, fontSize: 15, color: "rgba(255,255,255,.6)", lineHeight: 1.3 }}>{LANG === "ko" ? "지형 SRTM · 물 © OpenStreetMap" : "Terrain SRTM · Water © OpenStreetMap"}</div>
         </div>
       )}
     </AbsoluteFill>
   );
 };
 
-/* 사진·재연 그림 하단 제목 (레퍼런스: 노란 날짜 칩 + 큰 명조 제목 + 회색 한 줄 설명, 오른쪽 아래 작은 출처)
+/* 사진·재연 그림 하단 제목 (채널 고유: 노란 세로 막대 + 노란 날짜 글자 + 굵은 고딕 제목 + 한 줄 설명, 오른쪽 아래 작은 출처)
  * visual.lower = {date, title, sub} — 자막(아래 60px) 위에 놓인다 */
 export const LowerThird: React.FC = () => {
   const sc = useScene();
@@ -264,14 +256,10 @@ export const LowerThird: React.FC = () => {
   return (
     <AbsoluteFill style={{ pointerEvents: "none" }}>
       <div style={{ position: "absolute", left: 0, right: 0, bottom: 0, height: 470, background: "linear-gradient(to top, rgba(0,0,0,.78) 0%, rgba(0,0,0,.45) 55%, rgba(0,0,0,0) 100%)", opacity: o }} />
-      <div style={{ position: "absolute", left: 70, bottom: 172, opacity: o, transform: `translateY(${(1 - o) * 14}px)` }}>
-        {L.date && (
-          <div style={{ display: "inline-block", background: "#f2c53d", color: "#111", fontFamily: F.body, fontWeight: 900, fontSize: 26, padding: "3px 12px 2px", marginBottom: 10 }}>
-            {L.date}
-          </div>
-        )}
+      <div style={{ position: "absolute", left: 64, bottom: 176, opacity: o, transform: `translateX(${(1 - o) * -20}px)`, borderLeft: `8px solid ${C.yellow}`, paddingLeft: 22 }}>
+        {L.date && <div style={{ fontFamily: F.body, fontWeight: 700, fontSize: 28, color: C.yellow, letterSpacing: 1, marginBottom: 4 }}>{L.date}</div>}
         {L.title && (
-          <div style={{ fontFamily: F.serif, fontWeight: 900, fontSize: fitFont(L.title, 1500, 92, 56), color: "#fff", lineHeight: 1.08, textShadow: "0 3px 10px rgba(0,0,0,.7)", whiteSpace: "nowrap" }}>
+          <div style={{ fontFamily: F.body, fontWeight: 900, fontSize: fitFont(L.title, 1500, 84, 52), color: "#fff", lineHeight: 1.1, textShadow: "0 3px 10px rgba(0,0,0,.7)", whiteSpace: "nowrap" }}>
             {L.title}
           </div>
         )}
@@ -335,7 +323,7 @@ export const CalloutBox: React.FC<{ text: string; style: "red" | "yellow" | "dar
   const fs = fitFont(text, Math.max(120, maxW / Math.max(scale, 0.01) - 60), size, Math.min(size, 34));
   const bg = style === "red" ? C.red : style === "yellow" ? C.yellow : style === "blue" ? C.blue : LOOK.archive ? "rgba(34,30,27,.9)" : "#0f0f0f";
   const fg = style === "yellow" ? "#111" : "#fff";
-  // archive(지도사 방식) 검정 카드: 반투명 짙은 갈색 + 위쪽 빨간 선, 흰 테두리 없음
+  // archive 검정 카드: 반투명 짙은 갈색 + 왼쪽 노란 막대(채널 공통 강조색), 흰 테두리 없음
   const archDark = LOOK.archive && style === "dark";
   return (
     <div
@@ -349,7 +337,7 @@ export const CalloutBox: React.FC<{ text: string; style: "red" | "yellow" | "dar
         padding: "10px 30px 6px",
         ...NOBREAK,
         border: style === "dark" && !archDark ? "4px solid #fff" : "none",
-        borderTop: archDark ? `6px solid ${C.red}` : undefined,
+        borderLeft: archDark ? `8px solid ${C.yellow}` : undefined,
         boxShadow: "0 8px 26px rgba(0,0,0,.45)",
         transform: `scale(${scale})`,
         whiteSpace: "pre",
@@ -378,7 +366,7 @@ export const Callouts: React.FC = () => {
       {[...byPos.values()].map((c) => {
         const k = (t - c.s) / 0.35;
         const pos = lowerOn ? "top" : c.pos || defPos;
-        const top = pos === "lower" ? 690 : pos === "top" ? ((sc as any).ctx?.date ? 190 : 120) : 430;
+        const top = pos === "lower" ? 690 : pos === "top" ? ((sc as any).ctx?.date ? 140 : 120) : 430;
         return (
           <div key={c.i} style={{ position: "absolute", left: 0, right: 0, top, display: "flex", justifyContent: "center", opacity: clamp(k * 3) }}>
             <CalloutBox text={c.text} style={c.style} scale={0.6 + 0.4 * popIn(k)} size={pos === "lower" ? 60 : pos === "top" ? 66 : 74} />
