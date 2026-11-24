@@ -59,5 +59,5 @@
 3. **시간 표시** — 첫 지도 장면에 `date`·`legend`, 날짜·시각이 바뀌는 문장에서만 다시 지정. 밤 장면은 `visual.tone: "night"`
 4. **장 제목을 시간·숫자로** (예: '45일', '마지막 사흘', '열아홉 번')
 5. **재연 그림은 실사풍 시네마틱 재연이 기본** — 프롬프트 예: "cinematic photorealistic reenactment, 1950 Korean War, muted desaturated film color, soldiers seen from behind or at distance, faces not identifiable, dusk haze, 35mm documentary still, no text, no flags with readable symbols". 국기 볼 캐릭터는 `stage`(종이 무대) 장면에만. (사용자가 볼 캐릭터를 유지하라고 하면 이 줄은 무시)
-6. **목소리** — `tts_model: eleven_v3` · `tempo: 1.0` · `max_pause: 0.65`. 대본은 짧은 문장 + 쉼표로 호흡을 표시(쉼표는 문장당 1개 이하). 숫자는 지금처럼 한글 발음
+6. **목소리** — `tempo: 1.0` · `max_pause: 0.65`, `tts_model`은 목소리마다 비교 샘플로 정함 (민호는 v3에서 오히려 평평해짐 — 2026-11-24 샘플 22개 실측). 대본은 짧은 문장 + 쉼표로 호흡을 표시(쉼표는 문장당 1개 이하). 숫자는 지금처럼 한글 발음
 7. 도입 50초는 2번 8항 구조 그대로, 질문 회수 장면 표시

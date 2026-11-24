@@ -12,11 +12,11 @@
 
 ## ★★★★ '지도사' 방식 화면·목소리 표준 (2026-11-24 사용자 지시 · war-docu·map-of-war 공통 · 다음 신규 편부터 · 필수 참조 `docs/REFERENCE_JIDOSA_121.md`)
 > 사용자가 레퍼런스 영상(지도사 「김신조 일행은 왜 못 잡았을까? 지도로 보는 1·21 사태」)을 주며 "무엇이 다른지 분석해서 고쳐 달라", "일레븐랩스 목소리가 너무 부자연스럽다"고 함. 실측 비교: 레퍼런스 지도 약 65~70%·글자 카드 약 5% / 우리 EP33 지도 32%·글자 카드 37%
-- 보드 최상단 기본값: `"look": "archive"`, `"sub_style": "dark"`, `"map_tone": "day"`, `"tts_model": "eleven_v3"`, `"tempo": 1.0`, `"max_pause": 0.65`, `"card_max": 0.25`
+- 보드 최상단 기본값: `"look": "archive"`, `"sub_style": "dark"`, `"map_tone": "day"`, `"tts_model"`(비교 샘플로 고른 모델), `"tempo": 1.0`, `"max_pause": 0.65`, `"card_max": 0.25`
 - 장면: `date`·`clock`(왼쪽 위 날짜·빨간 시각 칩, 다음 장면으로 이어짐) · `legend`·`scale`(오른쪽 위 종이 범례, 지도만) · `visual.tone: "night"` · `visual.lower`(사진·그림 하단 제목) · `clip`(지도 위 사료 인용 카드, `[[형광펜]]`, `orig` 원문)
 - **지도 60% 이상 · 글자 카드 25% 이하** (timeline.py가 비율 출력·초과 경고), 숫자·이유·인용은 지도 위에 얹고 같은 지도를 이어 쓴다. 장 제목은 시간·숫자로
 - 재연 그림은 실사풍 시네마틱 재연이 기본(볼 캐릭터는 stage에만) — 프롬프트 예시는 docs 4-5항
-- 목소리: v3 + 배속 끔 + 쉼 0.65초. 목소리를 바꿀 때는 map-of-war Actions '목소리 비교 샘플'(`voice-test.yml`, 입력 `extra`=이름:ID 목록, `models`=eleven_v3,eleven_multilingual_v2)로 귀로 고른 뒤 보드 `voice`만 바꾼다 (비교용으로 추가한 공유 목소리는 끝나면 자동 삭제)
+- 목소리: 배속 끔 + 쉼 0.65초, 모델은 **비교 샘플에서 귀로 고른 쪽**(`tts_model`). ⚠️ v3가 늘 낫지는 않다 — 2026-11-24 샘플 22개 실측에서 민호는 v3가 오히려 높낮이 폭이 12→4반음으로 평평해졌고, 창욱·수현·승현·훈민은 v3에서 쉼이 자연스러워짐. 샘플 기록: map-of-war 브랜치 `voice-test`. 목소리를 바꿀 때는 map-of-war Actions '목소리 비교 샘플'(`voice-test.yml`, 입력 `extra`=이름:ID 목록, `models`=eleven_v3,eleven_multilingual_v2)로 귀로 고른 뒤 보드 `voice`만 바꾼다 (비교용으로 추가한 공유 목소리는 끝나면 자동 삭제)
 - 켜지 않은 예전 편은 렌더 결과가 바뀌지 않는다 (TTS 서명도 그대로라 재생성 없음)
 
 ## ★ 무료 오픈소스 화질·입체 업그레이드 (2026-11-24 사용자 지시 · war-docu·map-of-war 공통 · 추가 비용 0원)
