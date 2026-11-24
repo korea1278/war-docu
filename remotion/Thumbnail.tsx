@@ -1495,6 +1495,17 @@ export interface ThumbV2Props {
 }
 export type ThumbNote = { text: string; x: number; y: number; to: [number, number]; size?: number };
 export const PAROHO_V2: Record<string, ThumbV2Props> = {
+  // EP34 해병대 진동리 지구 기습전 — 배경: 재연 그림 ambush_fire(능선에서 길 위 대열로 사격하는 해병대, Cloudflare 무료) 흑백
+  //   카피: 1950. 8. 3 고사리 — 해병대 전투일지 적 사살 87·포로 4·전차 2·차량 6 / 아군 부상 6(매일신문 2022), 창설 1949. 4. 15
+  "ep34-jindong": {
+    bg: "ep/ep34-jindong/ai/ambush_fire.jpg",
+    bgPos: "50% 40%",
+    tag: "진동리 고사리 | 1950.8",
+    tagStyle: "red",
+    line1: "창설 [1년] 해병대가",
+    line2: "전차를 {멈춰 세운} 새벽",
+    alt: { tag: "사살 87 | 부상 6", tagStyle: "black", line1: "[87 대 6]으로 끝난", line2: "새벽 길목의 비밀", box2: true }, // ALTS:ep34-jindong
+  },
   // EP33 진동리·마산 서북산 혈전 — 배경: 사료 사진 마산 일대에서 응사하는 미 제5연대전투단 4.2인치 박격포반(1950, 미 육군, 장면 s061 사진) 흑백
   //   카피: 1950. 8~9 서북산(해발 739m, 한국 기록) — 주인 19번(한국 기록·미군 정보 부사관 집계), 마산→부산 직선 40~50km, 북한군 제6사단
   "ep33-seobuksan": {
