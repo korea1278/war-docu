@@ -23,8 +23,11 @@ def decode(p):
     return np.frombuffer(raw, np.float32).copy()
 
 
-def silent_runs(x, min_len):
-    """10ms 창 RMS 기준 무음 구간 [(시작초, 끝초)]."""
+def silent_runs(x, min_len, trail_tol=0):
+    """10ms 창 RMS 기준 무음 구간 [(시작초, 끝초)].
+    trail_tol(창 개수): 끝에서 이만큼 안쪽까지 이어진 무음도 '끝 무음'으로 본다 (2026-11-24 EP34 — 막 단위 TTS를 장면으로 자를 때
+    잘린 끝에 다음 숨소리·mp3 잔향이 몇 ms 남으면 끝 무음이 '문장 사이 쉼'으로 잘못 잡혀 max_pause(0.65초)만큼 남았고,
+    자막이 목소리보다 0.65초 늦게 끝나 싱크 검사(±0.5초)에 걸림)"""
     win = int(SR * 0.01)
     n = len(x) // win
     if n == 0:
@@ -40,7 +43,7 @@ def silent_runs(x, min_len):
             while j < n and quiet[j]:
                 j += 1
             if (j - i) * 0.01 >= min_len or i == 0 or j == n:
-                runs.append((i * 0.01, j * 0.01, i == 0, j == n))
+                runs.append((i * 0.01, j * 0.01, i == 0, j >= n - trail_tol))
             i = j
         else:
             i += 1
@@ -55,13 +58,15 @@ def main(ep):
     # 0.42초로 다 깎으면 쉼 없이 몰아치는 기계음처럼 들린다. 새 표준 0.65 · tempo 1.0 (보드에 없으면 예전 값)
     max_pause = float(load_board(ep).get("max_pause") or env("MAX_PAUSE", "0.42"))
     pause_min = float(env("PAUSE_MIN", "0.45"))
+    # 새 표준(보드 max_pause가 있는 편)만: 끝 0.2초 안쪽까지 이어진 무음은 끝 무음으로 보고 그 뒤를 통째로 잘라냄 (예전 편은 결과 그대로)
+    trail_tol = 20 if load_board(ep).get("max_pause") else 0
     _, out = ep_dirs(ep)
     src, dst = out / "tts", out / "tts_fast"
     dst.mkdir(exist_ok=True)
     for meta_p in sorted(src.glob("*.json")):
         meta = read_json(meta_p)
         sid = meta_p.stem
-        sig = hashlib.sha1(f"{meta['sig']}|{tempo}|{max_pause}|{pause_min}|v2".encode()).hexdigest()[:12]
+        sig = hashlib.sha1(f"{meta['sig']}|{tempo}|{max_pause}|{pause_min}|v2{'|t2' if trail_tol else ''}".encode()).hexdigest()[:12]
         old = read_json(dst / f"{sid}.json", {})
         if old.get("sig") == sig and (dst / f"{sid}.mp3").exists():
             continue
@@ -69,15 +74,16 @@ def main(ep):
         total = len(x) / SR
         # 잘라낼 구간 목록 (원본 시간축)
         cuts = []
-        for a, b, lead, trail in silent_runs(x, pause_min):
+        for a, b, lead, trail in silent_runs(x, pause_min, trail_tol):
             if lead:
                 keep = 0.04
                 if b - a > keep:
                     cuts.append((a, b - keep))
             elif trail:
                 keep = 0.08
-                if b - a > keep:
-                    cuts.append((a + keep, b))
+                end = total if trail_tol else b
+                if end - a > keep:
+                    cuts.append((a + keep, end))
             elif b - a > max_pause:
                 half = max_pause / 2
                 cuts.append((a + half, b - half))
