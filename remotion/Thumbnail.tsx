@@ -5,6 +5,7 @@ import "@fontsource/bebas-neue/400.css";
 import { C, F, setLang } from "./theme";
 import { MAPT, MapThumb } from "./MapThumb";
 import { FRONT, FrontThumb, NAKTONG_FRONT } from "./FrontThumb";
+import { HitThumb, HitBubble, HitTagStyle } from "./HitThumb";
 
 /* =====================================================================================
  * ★ 썸네일 표준 v4 — '스토리텔링 꼴라주 + 3D 몬스터 타이포' (2026-11-02 사용자 지시서, EP15 낙동강·EP16 도솔산부터)
@@ -1483,20 +1484,28 @@ export interface ThumbV2Props {
   badge?: string; // (이전 v2) 좌상단 붉은 배지 — 새 공식에서는 쓰지 않음
   targets?: ThumbTarget[];
   arrows?: ThumbArrow[];
-  alt?: { line1: string; line2: string; color2?: string; top?: string; note?: ThumbNote }; // A2 카피 시안
+  // ★ v4 '조회수 레퍼런스' 공식 (2026-11-24~ · remotion/HitThumb.tsx) — tag가 있으면 v4 디자인으로 렌더 (top·badge는 무시)
+  tag?: string; // 왼쪽 위 태그 박스 (대본에 맞게 창작, "장소 | 연월" 등)
+  tagStyle?: HitTagStyle; // red · cream · black · yellow · white
+  box2?: boolean | string; // 2줄째를 빨간(또는 지정색) 박스 위 흰 글자로
+  align?: "left" | "center" | "right";
+  size?: number; // 글자 크기 직접 지정
+  bubble?: HitBubble; // 말풍선
+  alt?: { line1: string; line2: string; color2?: string; top?: string; note?: ThumbNote; tag?: string; tagStyle?: HitTagStyle; box2?: boolean | string; align?: "left" | "center" | "right"; bubble?: HitBubble; size?: number }; // A2 카피 시안
 }
 export type ThumbNote = { text: string; x: number; y: number; to: [number, number]; size?: number };
 export const PAROHO_V2: Record<string, ThumbV2Props> = {
   // EP33 진동리·마산 서북산 혈전 — 배경: 사료 사진 마산 일대에서 응사하는 미 제5연대전투단 4.2인치 박격포반(1950, 미 육군, 장면 s061 사진) 흑백
   //   카피: 1950. 8~9 서북산(해발 739m, 한국 기록) — 주인 19번(한국 기록·미군 정보 부사관 집계), 마산→부산 직선 40~50km, 북한군 제6사단
   "ep33-seobuksan": {
-    bg: "ep/ep33-seobuksan/photos/s061_photo_0.jpg",
-    bgPos: "50% 40%",
-    top: "“북한군 제6사단 시점”에서 본 서북산의 45일",
-    line1: "부산 코앞까지 와서",
-    line2: "산 하나 못 넘은 이유",
-    note: { text: "1950년 마산 일대의 미군 박격포반", x: 420, y: 215, to: [700, 420] },
-    alt: { top: "“북한군 시점”에서 본 전투산", line1: "주인이 19번 바뀐", line2: "바위산의 비밀" }, // ALTS:ep33-seobuksan
+    bg: "ep/ep33-seobuksan/photos/s123_photo_0.jpg", // v4: 1950. 8 미 육군 105mm 곡사포반 사격(SC 347107) — 사람이 화면 위쪽이라 글자에 안 가림
+    bgPos: "50% 62%", // 맨 위 사진 캡션 글자 잘라냄
+    // v4 '조회수 레퍼런스' 공식 (2026-11-24) — 태그·강조색은 대본에서 (부산 턱밑·19번·45일)
+    tag: "마산 서북산 | 1950.8",
+    tagStyle: "red",
+    line1: "부산 [턱밑]까지 와서",
+    line2: "산 하나 {못 넘은} 이유",
+    alt: { tag: "서북산 혈전 | 45일", tagStyle: "cream", line1: "주인이 [19번] 바뀐", line2: "바위산의 비밀", box2: true }, // ALTS:ep33-seobuksan
   },
   // EP32 동락리 전투 — 배경: 사료 사진 전선으로 행군하는 국군(1950. 8, 장면 s061 사진) 흑백 — 동락리 현장 사진 아님(라벨에 날짜 명시)
   //   카피: 1950. 7. 7 국군 제6사단 제7연대 — 북한군 제15사단 제48연대·포병대 기습(개전 13일 만의 첫 승전 소식), 김재옥 교사(19세) 제보
@@ -1600,6 +1609,8 @@ const V3Note: React.FC<{ n: ThumbNote; font: string; w: number }> = ({ n, font, 
   );
 };
 export const ParohoV2Thumb: React.FC<{ d: ThumbV2Props; en?: boolean }> = ({ d, en }) => {
+  // v4 '조회수 레퍼런스' 공식: tag가 있으면 새 디자인 (d는 컴포지션마다 고정이라 훅 순서 문제 없음)
+  if (d.tag) return <HitThumb d={{ bg: d.bg, bgPos: d.bgPos, filter: d.bgFilter || (d.gray === false ? "contrast(1.12) saturate(1.05)" : "grayscale(1) contrast(1.18) brightness(0.96)"), line1: d.line1, line2: d.line2, tag: d.tag, tagStyle: d.tagStyle, box2: d.box2, align: d.align, size: d.size, bubble: d.bubble, note: d.note, en }} />;
   const font = en ? "\x27Montserrat\x27, \x27Anton\x27, sans-serif" : P5.font;
   const measure = useP5Measure([d.line1, d.line2, d.top || "", d.note?.text || "", d.alt?.line1 || ""], font);
   const W = CW - V3.side * 2;
