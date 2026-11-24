@@ -1487,6 +1487,17 @@ export interface ThumbV2Props {
 }
 export type ThumbNote = { text: string; x: number; y: number; to: [number, number]; size?: number };
 export const PAROHO_V2: Record<string, ThumbV2Props> = {
+  // EP33 진동리·마산 서북산 혈전 — 배경: 사료 사진 마산 일대에서 응사하는 미 제5연대전투단 4.2인치 박격포반(1950, 미 육군, 장면 s061 사진) 흑백
+  //   카피: 1950. 8~9 서북산(해발 739m, 한국 기록) — 주인 19번(한국 기록·미군 정보 부사관 집계), 마산→부산 직선 40~50km, 북한군 제6사단
+  "ep33-seobuksan": {
+    bg: "ep/ep33-seobuksan/photos/s061_photo_0.jpg",
+    bgPos: "50% 40%",
+    top: "“북한군 제6사단 시점”에서 본 서북산의 45일",
+    line1: "부산 코앞까지 와서",
+    line2: "산 하나 못 넘은 이유",
+    note: { text: "1950년 마산 일대의 미군 박격포반", x: 420, y: 215, to: [700, 420] },
+    alt: { top: "“북한군 시점”에서 본 전투산", line1: "주인이 19번 바뀐", line2: "바위산의 비밀" }, // ALTS:ep33-seobuksan
+  },
   // EP32 동락리 전투 — 배경: 사료 사진 전선으로 행군하는 국군(1950. 8, 장면 s061 사진) 흑백 — 동락리 현장 사진 아님(라벨에 날짜 명시)
   //   카피: 1950. 7. 7 국군 제6사단 제7연대 — 북한군 제15사단 제48연대·포병대 기습(개전 13일 만의 첫 승전 소식), 김재옥 교사(19세) 제보
   "ep32-dongnak": {
