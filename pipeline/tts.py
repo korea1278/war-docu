@@ -13,6 +13,32 @@ from common import ep_dirs, env, line_say, load_board, read_json, retry, session
 DEFAULT_VOICE = "pNInz6obpgDQGcFmaJgB"  # Adam (multilingual). 원하는 목소리 ID로 교체 권장
 
 
+def v3_settings(model, settings):
+    """eleven_v3는 stability를 0.0(창의)·0.5(자연)·1.0(안정) 세 값만 받고 style·speed는 쓰지 않는다 → 가장 가까운 값으로 맞춤"""
+    if not model.startswith("eleven_v3"):
+        return settings
+    st = float(settings.get("stability", 0.5))
+    st = min((0.0, 0.5, 1.0), key=lambda x: abs(x - st))
+    return {"stability": st, "similarity_boost": settings.get("similarity_boost", 0.78), "use_speaker_boost": True}
+
+
+def split_text(text, limit):
+    """한 요청 글자 수 한도(v3 5,000자) 안으로 문장 끝에서 나눔"""
+    if len(text) <= limit:
+        return [text]
+    parts, cur = [], ""
+    import re
+    for sent in re.split(r"(?<=[.?!다요죠])\s+", text):
+        if cur and len(cur) + 1 + len(sent) > limit:
+            parts.append(cur)
+            cur = sent
+        else:
+            cur = f"{cur} {sent}" if cur else sent
+    if cur:
+        parts.append(cur)
+    return parts
+
+
 def scene_tts_text(sc):
     if sc.get("tts"):
         return sc["tts"]
@@ -25,6 +51,72 @@ def cut_mp3(src, dst, a, b):
     if b is not None:
         cmd += ["-to", f"{b:.3f}"]
     subprocess.run(cmd + ["-c:a", "libmp3lame", "-b:a", "192k", str(dst)], check=True)
+
+
+def gen_act(n, text, group, order, acts, voice, model, settings, s, key, mp3_p, ddir):
+    """막 하나 생성. v3는 앞뒤 문맥(previous_text) 이어 붙이기를 받지 않고 한 요청 5,000자 한도라 나눠 부른 뒤 이어 붙인다.
+    v3가 실패하면(권한·한도 등) multilingual_v2로 자동 대체하고 logs/errors.txt에 남긴다."""
+    import subprocess
+    from common import log_error
+    v3 = model.startswith("eleven_v3")
+    parts = split_text(text, 4800 if v3 else 9500)
+
+    def call(body):
+        def go():
+            r = s.post(
+                f"https://api.elevenlabs.io/v1/text-to-speech/{voice}/with-timestamps",
+                params={"output_format": "mp3_44100_128"},
+                headers={"xi-api-key": key, "Content-Type": "application/json"},
+                json=body,
+                timeout=600,
+            )
+            if r.status_code >= 400:
+                raise RuntimeError(f"{r.status_code} {r.text[:300]}")
+            return r.json()
+        return go
+
+    def run(mdl, sett):
+        chars, st, en, mp3s, off = [], [], [], [], 0.0
+        for k, part in enumerate(parts):
+            body = {"text": part, "model_id": mdl, "voice_settings": sett}
+            if not mdl.startswith("eleven_v3") and len(parts) == 1:
+                i = order.index(n)
+                if i > 0:
+                    body["previous_text"] = " ".join(scene_tts_text(x) for x in acts[order[i - 1]])[-1000:]
+                if i + 1 < len(order):
+                    body["next_text"] = " ".join(scene_tts_text(x) for x in acts[order[i + 1]])[:1000]
+            print(f"TTS act{n}{f'-{k + 1}' if len(parts) > 1 else ''}: {len(group)}장면 · {len(part)}자 · {mdl}")
+            data = retry(call(body), label=f"tts act{n}")
+            pm = ddir / f"act{n}_part{k}.mp3"
+            pm.write_bytes(base64.b64decode(data["audio_base64"]))
+            al = data.get("alignment") or data.get("normalized_alignment")
+            if k > 0:  # 나눈 조각 사이 띄어쓰기 한 칸
+                chars.append(" "); st.append(off); en.append(off)
+            chars += al["characters"]
+            st += [x + off for x in al["character_start_times_seconds"]]
+            en += [x + off for x in al["character_end_times_seconds"]]
+            dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(pm)],
+                                       capture_output=True, text=True).stdout.strip() or 0)
+            off += dur
+            mp3s.append(pm)
+        if len(mp3s) == 1:
+            mp3s[0].replace(mp3_p)
+        else:
+            lst = ddir / f"act{n}_parts.txt"
+            lst.write_text("".join(f"file '{p.name}'\n" for p in mp3s))
+            subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", str(lst), "-c", "copy", str(mp3_p)], check=True)
+            for p in mp3s:
+                p.unlink()
+            lst.unlink()
+        return {"text": text, "model": mdl, "chars": chars, "starts": st, "ends": en}
+
+    try:
+        return run(model, settings)
+    except Exception as e:
+        if not v3:
+            raise
+        log_error(f"act{n}: {model} 실패 → eleven_multilingual_v2로 대체 ({str(e)[:160]})")
+        return run("eleven_multilingual_v2", {"stability": 0.55, "similarity_boost": 0.78, "style": 0.0, "use_speaker_boost": True})
 
 
 def main_acts(ep, board, key, voice, model, settings, s, adir):
@@ -47,31 +139,8 @@ def main_acts(ep, board, key, voice, model, settings, s, adir):
         mp3_p, meta_p = ddir / f"act{n}.mp3", ddir / f"act{n}.json"
         meta = read_json(meta_p, {})
         if not (meta.get("sig") == sig and mp3_p.exists()):
-            body = {"text": text, "model_id": model, "voice_settings": settings}
-            i = order.index(n)
-            if i > 0:
-                body["previous_text"] = " ".join(scene_tts_text(x) for x in acts[order[i - 1]])[-1000:]
-            if i + 1 < len(order):
-                body["next_text"] = " ".join(scene_tts_text(x) for x in acts[order[i + 1]])[:1000]
-
-            def call():
-                r = s.post(
-                    f"https://api.elevenlabs.io/v1/text-to-speech/{voice}/with-timestamps",
-                    params={"output_format": "mp3_44100_128"},
-                    headers={"xi-api-key": key, "Content-Type": "application/json"},
-                    json=body,
-                    timeout=600,
-                )
-                if r.status_code >= 400:
-                    raise RuntimeError(f"{r.status_code} {r.text[:300]}")
-                return r.json()
-
-            print(f"TTS act{n}: {len(group)}장면 · {len(text)}자 (1회 호출)")
-            data = retry(call, label=f"tts act{n}")
-            mp3_p.write_bytes(base64.b64decode(data["audio_base64"]))
-            al = data.get("alignment") or data.get("normalized_alignment")
-            meta = {"sig": sig, "text": text, "chars": al["characters"],
-                    "starts": al["character_start_times_seconds"], "ends": al["character_end_times_seconds"]}
+            meta = gen_act(n, text, group, order, acts, voice, model, settings, s, key, mp3_p, ddir)
+            meta["sig"] = sig
             write_json(meta_p, meta)
         chars, st, en = meta["chars"], meta["starts"], meta["ends"]
         joined = "".join(chars)
@@ -111,7 +180,9 @@ def main(ep):
     key = env("ELEVENLABS_API_KEY", required=True)
     board = load_board(ep)
     voice = board.get("voice") or env("ELEVENLABS_VOICE_ID") or DEFAULT_VOICE
-    model = env("ELEVENLABS_MODEL") or "eleven_multilingual_v2"
+    # 2026-11-24: 보드 "tts_model"로 모델 지정 (예: "eleven_v3" — 한국어 억양이 v2보다 자연스러움). 없으면 예전 v2 그대로라
+    # 이미 만든 편은 서명이 안 바뀌어 다시 생성되지 않는다
+    model = env("ELEVENLABS_MODEL") or load_board(ep).get("tts_model") or "eleven_multilingual_v2"
     print(f"목소리: {voice} / 모델: {model}")
     settings = {
         "stability": float(env("TTS_STABILITY", "0.55")),
@@ -120,7 +191,8 @@ def main(ep):
         "use_speaker_boost": True,
         "speed": float(env("TTS_SPEED", "1.0")),
     }
-    settings.update(board.get("voice_settings") or {})  # 2026-11-23: 보드별 목소리 세부값 (영문 채널 표준)
+    settings.update(board.get("voice_settings") or {})
+    settings = v3_settings(model, settings)  # 2026-11-23: 보드별 목소리 세부값 (영문 채널 표준)
     _, out = ep_dirs(ep)
     adir = out / "tts"
     adir.mkdir(exist_ok=True)

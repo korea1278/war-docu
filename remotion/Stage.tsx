@@ -749,9 +749,13 @@ export const ReasonsV: React.FC = () => {
 /** 좌상단 작은 출처·연도 라벨 */
 export const PhotoTag: React.FC<{ text?: string }> = ({ text }) => {
   const t = useT();
+  const sc = useScene();
   if (!text) return null;
+  // 2026-11-24: 왼쪽 위 날짜 표시(ctx.date)가 있으면 그 아래로 내림 · 하단 제목(lower)이 있으면 출처가 거기 있으니 숨김
+  if ((sc as any).visual?.lower) return null;
+  const top = (sc as any).ctx?.date ? 172 : 26;
   return (
-    <div style={{ position: "absolute", left: 30, top: 26, opacity: easeOut((t - 0.2) / 0.4), background: "rgba(10,10,10,.78)", color: "#eee", fontFamily: F.body, fontWeight: 700, fontSize: 26, padding: "6px 16px", borderLeft: `6px solid ${C.yellow}` }}>{text}</div>
+    <div style={{ position: "absolute", left: 30, top, opacity: easeOut((t - 0.2) / 0.4), background: "rgba(10,10,10,.78)", color: "#eee", fontFamily: F.body, fontWeight: 700, fontSize: 26, padding: "6px 16px", borderLeft: `6px solid ${C.yellow}` }}>{text}</div>
   );
 };
 

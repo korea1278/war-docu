@@ -3,6 +3,8 @@ import "@fontsource/do-hyeon/400.css";
 import "@fontsource/noto-sans-kr/500.css";
 import "@fontsource/noto-sans-kr/700.css";
 import "@fontsource/noto-sans-kr/900.css";
+import "@fontsource/noto-serif-kr/700.css";
+import "@fontsource/noto-serif-kr/900.css";
 import "@fontsource/oswald/600.css";
 import "@fontsource/oswald/700.css";
 import "@fontsource/roboto-condensed/600.css";
@@ -30,6 +32,17 @@ export const F = {
   head: "'Black Han Sans', 'Noto Sans KR', sans-serif",
   sub: "'Do Hyeon', 'Noto Sans KR', sans-serif",
   body: "'Noto Sans KR', sans-serif",
+  serif: "'Noto Serif KR', serif",
+};
+
+/** 2026-11-24 '지도사' 레퍼런스 분석으로 추가한 화면 톤 (보드 look · sub_style · map_tone). 없으면 예전 그대로 */
+export const LOOK = { archive: false, sub: "classic" as "classic" | "dark", mapTone: "" as string };
+export const setLook = (tl: any) => {
+  LOOK.archive = tl?.look === "archive";
+  LOOK.sub = tl?.subStyle === "dark" ? "dark" : "classic";
+  LOOK.mapTone = tl?.mapTone || "";
+  // archive: 제목·큰 숫자·카드 글꼴을 명조(Noto Serif KR)로 — 예능 자막 느낌 대신 기록물 느낌
+  if (LOOK.archive && LANG === "ko") F.head = "'Noto Serif KR', 'Noto Sans KR', serif";
 };
 
 /** 언어별 글꼴·고정 문구 (렌더 시작 시 setLang 호출) */

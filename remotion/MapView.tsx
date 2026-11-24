@@ -4,7 +4,7 @@ import { geoMercator, geoPath, GeoProjection } from "d3-geo";
 import { feature } from "topojson-client";
 // @ts-ignore
 import countries10m from "world-atlas/countries-10m.json";
-import { atSec, C, clamp, easeInOut, easeOut, F, popIn, S, Timeline } from "./theme";
+import { atSec, C, clamp, easeInOut, easeOut, F, LOOK, popIn, S, Timeline } from "./theme";
 import { useScene, useT } from "./ui";
 
 type LonLat = [number, number];
@@ -222,6 +222,8 @@ export const MapView: React.FC<{ tl: Timeline }> = ({ tl }) => {
   const sc = useScene();
   const t = useT();
   const v = sc.visual;
+  const tone: string = v.tone || LOOK.mapTone || ""; // 장면 visual.tone이 보드 map_tone보다 우선
+  const ctxOn = !!((sc as any).ctx?.legend || (sc as any).ctx?.date); // 상황 표시가 있으면 모서리 GRID 글씨·출처는 범례로 대체
   const water = useWater(tl.hasWater);
   const from = tl.views[v.from] || tl.views.korea;
   const to = tl.views[v.to || v.from] || from;
@@ -662,6 +664,11 @@ export const MapView: React.FC<{ tl: Timeline }> = ({ tl }) => {
           />
         ))}
 
+        {/* 2026-11-24 지도 톤 ('지도사' 레퍼런스): day = 미색 종이 지형, night = 짙은 청색 지형. 래스터와 벡터 사이에만 깔아 표식 색은 그대로 */}
+        {tone === "day" && <div style={{ position: "absolute", inset: 0, background: "#d8bd86", mixBlendMode: "multiply", opacity: 0.62 }} />}
+        {tone === "night" && <div style={{ position: "absolute", inset: 0, background: "#23378f", mixBlendMode: "multiply", opacity: 0.9 }} />}
+        {tone === "night" && <div style={{ position: "absolute", inset: 0, background: "#0b1440", mixBlendMode: "screen", opacity: 0.35 }} />}
+
         {/* SVG 벡터 및 전술 렌더링 */}
         <svg width={2160} height={1320} style={{ position: "absolute", left: 0, top: 0 }}>
           <defs>
@@ -682,7 +689,7 @@ export const MapView: React.FC<{ tl: Timeline }> = ({ tl }) => {
 
           <g transform="translate(120, 120)">
             {/* demSea(EP11 인천): 확대될수록 Natural Earth 바다 마스크를 걷어 DEM 래스터의 바다·갯벌이 보이게 */}
-            <path d={`M-400,-400H2320V1480H-400Z ${landD}`} fill={C.sea} fillRule="evenodd" opacity={v.demSea ? clamp((span - 0.8) / 0.8) : 1} />
+            <path d={`M-400,-400H2320V1480H-400Z ${landD}`} fill={tone === "day" ? "#8299a3" : tone === "night" ? "#141d47" : C.sea} fillRule="evenodd" opacity={v.demSea ? clamp((span - 0.8) / 0.8) : 1} />
             <path d={foreignD} fill={C.foreign} opacity={0.88} />
             <path d={landD} fill="none" stroke="rgba(40,40,40,.4)" strokeWidth={1.5} opacity={v.demSea ? clamp((span - 0.8) / 0.8) : 1} />
             {waterEls}
@@ -711,14 +718,18 @@ export const MapView: React.FC<{ tl: Timeline }> = ({ tl }) => {
       {v.hud && <TacticalHud t={t} center={center} span={span} heading={heading} temp={v.temp} />}
 
       {/* 군용 전술 HUD 모서리 표식 */}
+      {!ctxOn && (
       <div style={{ position: "absolute", top: 20, left: 24, fontFamily: F.body, fontSize: 13, color: "rgba(255,255,255,0.4)", letterSpacing: 2 }}>
         GRID: 38°N 127°E // TACTICAL MAP
       </div>
+      )}
 
       {/* 우측 상단 지역명 */}
+      {!(sc as any).ctx?.legend && (
       <div style={{ position: "absolute", top: 16, right: 24, fontFamily: F.head, fontWeight: 700, fontSize: 22, color: "#fff", textShadow: "0 2px 8px rgba(0,0,0,0.8)" }}>
         {S("map")}
       </div>
+      )}
     </AbsoluteFill>
   );
 };

@@ -337,7 +337,15 @@ def build(ep, mock=False, gap=None):
     rasters = read_json(ROOT / "public" / "geo" / "rasters.json", [])
     scenes_out = []
     t = 0.0
+    # 2026-11-24 '지도사' 레퍼런스 분석: 상황 표시(왼쪽 위 날짜·시각 칩, 오른쪽 위 범례)는 바뀔 때까지 다음 장면에 이어진다
+    # 장면 필드 date("1950. 8. 7") · clock("13:30"/"밤") · legend([{icon, text}]) — 빈 문자열/빈 목록이면 지움
+    ctx_now = {"date": None, "clock": None, "legend": None, "scale": None}
     for sc in board["scenes"]:
+        for k in ctx_now:
+            if k in sc:
+                ctx_now[k] = sc[k] or None
+            elif k == "clock" and "date" in sc:
+                ctx_now["clock"] = None  # 날짜가 바뀌면 시각 칩은 새로 지정할 때까지 숨김
         says = [line_say(l) for l in sc["lines"]]
         texts = [line_text(l) for l in sc["lines"]]
         tts_text = sc.get("tts") or " ".join(s.strip() for s in says)
@@ -464,7 +472,9 @@ def build(ep, mock=False, gap=None):
             "id": sc["id"], "start": round(t, 3), "dur": round(dur, 3), "audio": audio, "audioAt": pre, "tempo": 1,
             "lines": lines, "visual": vis, "label": sc.get("label"), "callouts": sc.get("callouts", []),
             "sfx": sc.get("sfx", []), "chapter": sc.get("chapter"), "flash": sc.get("flash", False), "hudCta": sc.get("hudCta"), "hook": sc.get("hook"),
+            "clip": sc.get("clip"),
             "visuals": extra,
+            **({"ctx": dict(ctx_now)} if any(ctx_now.values()) else {}),
         })
         t += dur
     idx = {s["id"]: s for s in scenes_out}
@@ -500,13 +510,38 @@ def build(ep, mock=False, gap=None):
     tl = {"lang": lang, "fps": FPS, "duration": round(t, 3), "title": board["title"], "places": board["places"],
           "views": board["views"], "scenes": scenes_out, "music": music, "rasters": rasters, "sfx": sfx_avail,
           "sfxPolicy": policy,
+          # 2026-11-24 화면 톤: look "archive"(명조 제목·종이 질감 카드) · sub_style "dark"(반투명 검정 자막) · map_tone "day"/"night"
+          "look": board.get("look"), "subStyle": board.get("sub_style"), "mapTone": board.get("map_tone"),
           "hasWater": (ROOT / "public" / "geo" / "water.json").exists(),
           # 화면 업그레이드 2단계: 캐릭터 라이브러리에 있는 그림 목록 (없으면 stage 화면이 SVG 볼 캐릭터로 대체)
           "chars": sorted(p.stem for p in (ROOT / "public" / "chars").glob("*.png"))}
     write_json(out / "timeline.json", tl)
+    card_check(ep, board, scenes_out)
     write_srt(scenes_out, out / f"{ep}.srt")
     print(f"timeline: {len(scenes_out)}장면, {int(t // 60)}분 {t % 60:.1f}초 (장면 간격 {GAP_:.3f}초)")
     return t, sum(1 for x in scenes_out if x["lines"]), board.get("target_sec", TARGET_SEC)
+
+
+CARD_TYPES = {"text", "black", "checklist", "reasons", "bars", "compare", "versus", "factors", "gauges", "weekbar", "hanja"}
+
+
+def card_check(ep, board, scenes):
+    """2026-11-24 레퍼런스('지도사' 1·21 사태) 비교: 그쪽은 화면의 약 65~70%가 지도이고 정보는 지도 위 카드로 얹는다.
+    빈 배경 글자 카드(text·black·checklist 등)가 많으면 'PPT처럼' 보인다 → 시간 기준 비율을 재서 경고만 남긴다.
+    기준: 카드 25% 이하, 같은 카드 화면 3장면 연속 금지 (board "card_max": 0.25로 조정)"""
+    tot = sum(s["dur"] for s in scenes) or 1
+    card = sum(s["dur"] for s in scenes if s["visual"].get("type") in CARD_TYPES)
+    mp = sum(s["dur"] for s in scenes if s["visual"].get("type") == "map")
+    lim = float(board.get("card_max", 0.25))
+    print(f"화면 비율: 지도 {mp / tot:.0%} · 글자 카드 {card / tot:.0%} (기준 {lim:.0%} 이하)")
+    from common import log_error
+    if board.get("style", 1) >= 2 and card / tot > lim:
+        log_error(f"{ep}: 글자 카드 화면 {card / tot:.0%} — 기준 {lim:.0%} 초과 (지도 위 콜아웃·HUD로 옮길 것)")
+    run = 0
+    for a, b in zip(scenes, scenes[1:]):
+        run = run + 1 if a["visual"].get("type") in CARD_TYPES and b["visual"].get("type") in CARD_TYPES else 0
+        if run == 2:
+            log_error(f"{ep} {b['id']}: 글자 카드 3장면 연속 — 사이에 지도·사진을 넣을 것")
 
 
 # ===== 절제된 다큐멘터리 SFX 기준 (docs/LONGFORM_STANDARD.md 2번, 2026-11-13 사용자 수정 지시) =====

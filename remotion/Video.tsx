@@ -1,8 +1,8 @@
 import React from "react";
 import { AbsoluteFill, Audio, interpolate, Loop, Sequence, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
-import { atSec, S, setLang, Timeline } from "./theme";
+import { atSec, S, setLang, setLook, Timeline } from "./theme";
 import { HookOverlays } from "./Hook";
-import { Callouts, ChapterOverlay, GlobalSubtitleOverlay, Grain, HudCta, LabelBox, SceneCtx, Vignette, Z } from "./ui";
+import { Callouts, ChapterOverlay, ContextOverlay, GlobalSubtitleOverlay, Grain, HudCta, ClipCard, LabelBox, LowerThird, SceneCtx, Vignette, Z } from "./ui";
 import { Visual } from "./Visuals";
 
 const SceneAudio: React.FC<{ tl: Timeline; i: number }> = ({ tl, i }) => {
@@ -75,6 +75,7 @@ export const Documentary: React.FC<{ ep: string; tl: Timeline | null }> = ({ tl 
   const { durationInFrames } = useVideoConfig();
   if (!tl) return <AbsoluteFill style={{ background: "#000" }} />;
   setLang(tl.lang);
+  setLook(tl);
   const fps = tl.fps;
   const fadeOut = interpolate(frame, [durationInFrames - fps * 1.2, durationInFrames - 1], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   return (
@@ -113,7 +114,11 @@ export const Documentary: React.FC<{ ep: string; tl: Timeline | null }> = ({ tl 
               </AbsoluteFill>
               {/* 오버레이 레이어: 라벨·콜아웃·챕터·플래시 (자막은 루트의 GlobalSubtitleOverlay가 맡음) */}
               <AbsoluteFill style={{ zIndex: Z.overlay, pointerEvents: "none" }}>
-              {v.type !== "map" && (
+              {/* 2026-11-24 지도사 방식: 왼쪽 위 날짜·시각 칩 + 오른쪽 위 범례(지도), 사진·그림 하단 제목(lower) */}
+              {(sc as any).ctx && <ContextOverlay />}
+              {v.lower && <LowerThird />}
+              {(sc as any).clip && <ClipCard />}
+              {v.type !== "map" && !v.lower && (
                 <Sequence
                   durationInFrames={Math.max(1, Math.round((((sc as any).visuals || [])[0]?.start ?? sc.dur + 5) * fps))}
                   layout="absolute-fill"

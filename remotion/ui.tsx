@@ -1,7 +1,7 @@
 import React, { createContext, useContext } from "react";
 import { AbsoluteFill, continueRender, delayRender, Img, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { noise2D } from "@remotion/noise";
-import { atSec, C, clamp, easeOut, F, fitFont, LANG, NOBREAK, popIn, Scene } from "./theme";
+import { atSec, C, clamp, easeOut, F, fitFont, LANG, LOOK, NOBREAK, popIn, Scene } from "./theme";
 
 export const SceneCtx = createContext<Scene | null>(null);
 export const useScene = () => useContext(SceneCtx)!;
@@ -83,30 +83,204 @@ export const GlobalSubtitleOverlay: React.FC<{ scenes: Scene[] }> = ({ scenes })
 };
 
 export const SubtitleBox: React.FC<{ text: string }> = ({ text }) => {
+  // 2026-11-24 sub_style "dark" (레퍼런스 '지도사' 방식): 반투명 검정 박스 + 흰 고딕 글자. 예능 자막 같은 흰 박스 대신 다큐 톤.
+  // check_subs.py가 테두리 색(#22594a)으로 자막을 찾으므로 아래쪽에 같은 색 3px 선을 남긴다 (화면에선 거의 안 보임)
+  const dark = LOOK.sub === "dark";
   return (
     <div
       data-subtitle="1"
-      style={{ position: "absolute", bottom: 60, left: 0, right: 0, zIndex: Z.subtitle, pointerEvents: "none", display: "flex", justifyContent: "center" }}
+      style={{ position: "absolute", bottom: dark ? 54 : 60, left: 0, right: 0, zIndex: Z.subtitle, pointerEvents: "none", display: "flex", justifyContent: "center" }}
     >
       <div
-        style={{
-          position: "relative",
-          background: "#fff",
-          border: `5px solid ${C.subBorder}`,
-          borderRadius: 12,
-          boxShadow: "0 6px 18px rgba(0,0,0,.45)",
-          padding: "12px 46px 10px",
-          fontFamily: F.sub,
-          fontSize: 64,
-          color: "#111",
-          lineHeight: 1.15,
-          letterSpacing: 0.5,
-          whiteSpace: "nowrap",
-        }}
+        style={
+          dark
+            ? {
+                position: "relative",
+                background: "rgba(14,14,16,.74)",
+                border: `3px solid ${C.subBorder}`,
+                borderRadius: 6,
+                padding: "10px 34px 9px",
+                fontFamily: F.body,
+                fontWeight: 700,
+                fontSize: 56,
+                color: "#fff",
+                lineHeight: 1.2,
+                letterSpacing: 0.3,
+                whiteSpace: "nowrap",
+                textShadow: "0 2px 4px rgba(0,0,0,.6)",
+              }
+            : {
+                position: "relative",
+                background: "#fff",
+                border: `5px solid ${C.subBorder}`,
+                borderRadius: 12,
+                boxShadow: "0 6px 18px rgba(0,0,0,.45)",
+                padding: "12px 46px 10px",
+                fontFamily: F.sub,
+                fontSize: 64,
+                color: "#111",
+                lineHeight: 1.15,
+                letterSpacing: 0.5,
+                whiteSpace: "nowrap",
+              }
+        }
       >
         {text}
       </div>
     </div>
+  );
+};
+
+/* ---------------- 상황 표시 (2026-11-24 '지도사' 1·21 사태 레퍼런스) ----------------
+ * 왼쪽 위: 명조 날짜 "1950. 8. 7" + 빨간 시각 칩("13:30"·"밤") — 보는 사람이 '지금이 언제인지' 늘 안다
+ * 오른쪽 위(지도 장면만): 종이 범례 — 이 장면에 나오는 세력·선 기호 + 축척 + 지도 출처
+ * 장면 필드 date·clock·legend·scale은 timeline.py가 바뀔 때까지 다음 장면으로 이어 붙인다 (sc.ctx)
+ */
+const LegendIcon: React.FC<{ k: string; color?: string }> = ({ k, color }) => {
+  const box = (bg: string, inner: React.ReactNode) => (
+    <svg width={34} height={22} viewBox="0 0 34 22">
+      <rect x={1} y={1} width={32} height={20} rx={2} fill={bg} stroke="#222" strokeWidth={1.5} />
+      {inner}
+    </svg>
+  );
+  if (k === "kr" || k === "rok") return box("#2e66d8", <path d="M1,1L33,21M33,1L1,21" stroke="#fff" strokeWidth={2} />);
+  if (k === "us" || k === "un" || k === "ally") return box(color || "#3b7bd4", <path d="M1,1L33,21M33,1L1,21" stroke="#fff" strokeWidth={2} />);
+  if (k === "nk" || k === "enemy" || k === "cn") return box(color || "#c9242c", <path d="M1,1L33,21M33,1L1,21" stroke="#fff" strokeWidth={2} />);
+  if (k === "police") return box("#6b3fa0", <circle cx={17} cy={11} r={5} fill="#fff" />);
+  if (k === "civil" || k === "people") return box("#e0a526", <g fill="#fff"><circle cx={12} cy={8} r={3} /><circle cx={22} cy={8} r={3} /><rect x={8} y={12} width={8} height={7} rx={2} /><rect x={18} y={12} width={8} height={7} rx={2} /></g>);
+  if (k === "art" || k === "arty") return box(color || "#c9242c", <circle cx={17} cy={11} r={4} fill="#fff" />);
+  const lineK = k === "dash" || k === "route" || k === "front" || k === "road" || k === "line";
+  if (lineK) {
+    const c = color || (k === "front" ? "#c9242c" : k === "road" ? "#9fb3c8" : "#c9242c");
+    return (
+      <svg width={34} height={22} viewBox="0 0 34 22">
+        <path d="M2,11H32" stroke={c} strokeWidth={k === "line" ? 5 : 4} strokeDasharray={k === "line" ? undefined : k === "road" ? "5 3" : "3 4"} strokeLinecap="round" />
+      </svg>
+    );
+  }
+  return box(color || "#555", null);
+};
+
+export const ContextOverlay: React.FC = () => {
+  const sc = useScene();
+  const t = useT();
+  const ctx: any = (sc as any).ctx || {};
+  const type = sc.visual?.type;
+  // 표지·막 제목·암전·엔드카드·글자 카드에서는 숨김 (레퍼런스도 사료 원문 카드에선 날짜를 뺌)
+  const HIDE = new Set(["titlecard", "chapterbig", "endcard", "black", "text", "document", "quotes", "hanja", "cta"]);
+  if (HIDE.has(type)) return null;
+  const o = clamp(t / 0.35);
+  const isMap = type === "map" || type === "flatmap";
+  const legend: { icon: string; text: string; color?: string }[] = isMap ? ctx.legend || [] : [];
+  return (
+    <AbsoluteFill style={{ pointerEvents: "none" }}>
+      {ctx.date && (
+        <div style={{ position: "absolute", top: 26, left: 52, opacity: o }}>
+          <div
+            style={{
+              fontFamily: F.serif,
+              fontWeight: 900,
+              fontSize: 74,
+              lineHeight: 1,
+              color: "#1b1712",
+              letterSpacing: -1,
+              WebkitTextStroke: "0px",
+              textShadow: "0 0 2px rgba(255,255,255,.9), 0 0 14px rgba(255,255,255,.55), 0 0 30px rgba(255,255,255,.35)",
+              whiteSpace: "nowrap",
+              ...(type === "photo" || type === "ai" || type === "person" || (isMap && (((sc.visual as any)?.tone || LOOK.mapTone) === "night"))
+                ? { color: "#fff", textShadow: "0 2px 6px rgba(0,0,0,.85), 0 0 22px rgba(0,0,0,.5)" }
+                : {}),
+            }}
+          >
+            {ctx.date}
+          </div>
+          {ctx.clock && (
+            <div
+              style={{
+                display: "inline-block",
+                marginTop: 10,
+                background: C.red,
+                color: "#fff",
+                fontFamily: F.body,
+                fontWeight: 900,
+                fontSize: 30,
+                padding: "3px 12px 2px",
+                borderRadius: 4,
+                letterSpacing: 1,
+                boxShadow: "0 3px 8px rgba(0,0,0,.4)",
+              }}
+            >
+              {ctx.clock}
+            </div>
+          )}
+        </div>
+      )}
+      {isMap && (legend.length > 0 || ctx.scale) && (
+        <div
+          style={{
+            position: "absolute",
+            top: 30,
+            right: 34,
+            minWidth: 300,
+            maxWidth: 430,
+            background: "rgba(244,238,224,.96)",
+            border: "1px solid rgba(0,0,0,.25)",
+            borderRadius: 4,
+            boxShadow: "0 6px 18px rgba(0,0,0,.35)",
+            padding: "14px 18px 12px",
+            fontFamily: F.body,
+            color: "#1b1712",
+            opacity: o,
+          }}
+        >
+          {legend.map((l, i) => (
+            <div key={i} style={{ display: "flex", alignItems: "center", gap: 12, fontSize: 25, fontWeight: 700, lineHeight: 1.55, whiteSpace: "nowrap" }}>
+              <LegendIcon k={l.icon} color={l.color} />
+              <span>{l.text}</span>
+            </div>
+          ))}
+          {ctx.scale && (
+            <div style={{ marginTop: 8, fontSize: 17, fontFamily: "monospace", color: "#333" }}>
+              0 – {ctx.scale}
+              <div style={{ width: 90, height: 4, background: "#1b1712", marginTop: 3 }} />
+            </div>
+          )}
+          <div style={{ marginTop: 8, fontSize: 15, color: "#555", lineHeight: 1.3 }}>{LANG === "ko" ? "지형 SRTM · 물 © OpenStreetMap" : "Terrain SRTM · Water © OpenStreetMap"}</div>
+        </div>
+      )}
+    </AbsoluteFill>
+  );
+};
+
+/* 사진·재연 그림 하단 제목 (레퍼런스: 노란 날짜 칩 + 큰 명조 제목 + 회색 한 줄 설명, 오른쪽 아래 작은 출처)
+ * visual.lower = {date, title, sub} — 자막(아래 60px) 위에 놓인다 */
+export const LowerThird: React.FC = () => {
+  const sc = useScene();
+  const t = useT();
+  const v: any = sc.visual;
+  const L = v.lower || {};
+  const o = clamp((t - 0.3) / 0.45);
+  const credit = v.type === "ai" ? (LANG === "ko" ? "재연 일러스트 · AI 생성" : "Dramatization · AI-generated") : v.credit;
+  return (
+    <AbsoluteFill style={{ pointerEvents: "none" }}>
+      <div style={{ position: "absolute", left: 0, right: 0, bottom: 0, height: 470, background: "linear-gradient(to top, rgba(0,0,0,.78) 0%, rgba(0,0,0,.45) 55%, rgba(0,0,0,0) 100%)", opacity: o }} />
+      <div style={{ position: "absolute", left: 70, bottom: 172, opacity: o, transform: `translateY(${(1 - o) * 14}px)` }}>
+        {L.date && (
+          <div style={{ display: "inline-block", background: "#f2c53d", color: "#111", fontFamily: F.body, fontWeight: 900, fontSize: 26, padding: "3px 12px 2px", marginBottom: 10 }}>
+            {L.date}
+          </div>
+        )}
+        {L.title && (
+          <div style={{ fontFamily: F.serif, fontWeight: 900, fontSize: fitFont(L.title, 1500, 92, 56), color: "#fff", lineHeight: 1.08, textShadow: "0 3px 10px rgba(0,0,0,.7)", whiteSpace: "nowrap" }}>
+            {L.title}
+          </div>
+        )}
+        {L.sub && <div style={{ marginTop: 8, fontFamily: F.body, fontWeight: 500, fontSize: 30, color: "rgba(255,255,255,.82)", whiteSpace: "nowrap" }}>{L.sub}</div>}
+      </div>
+      {credit && (
+        <div style={{ position: "absolute", right: 40, bottom: 176, fontFamily: F.body, fontSize: 19, color: "rgba(255,255,255,.7)", opacity: o }}>{credit}</div>
+      )}
+    </AbsoluteFill>
   );
 };
 
@@ -159,8 +333,10 @@ export const CalloutBox: React.FC<{ text: string; style: "red" | "yellow" | "dar
 }) => {
   // 2026-11-01 줄바꿈 패치 보강: 박스(pre)가 화면 밖으로 넘치지 않게 한 줄 폭에 맞춰 글자 크기 자동 축소 (좌우 패딩 60px 제외)
   const fs = fitFont(text, Math.max(120, maxW / Math.max(scale, 0.01) - 60), size, Math.min(size, 34));
-  const bg = style === "red" ? C.red : style === "yellow" ? C.yellow : style === "blue" ? C.blue : "#0f0f0f";
+  const bg = style === "red" ? C.red : style === "yellow" ? C.yellow : style === "blue" ? C.blue : LOOK.archive ? "rgba(34,30,27,.9)" : "#0f0f0f";
   const fg = style === "yellow" ? "#111" : "#fff";
+  // archive(지도사 방식) 검정 카드: 반투명 짙은 갈색 + 위쪽 빨간 선, 흰 테두리 없음
+  const archDark = LOOK.archive && style === "dark";
   return (
     <div
       style={{
@@ -172,7 +348,8 @@ export const CalloutBox: React.FC<{ text: string; style: "red" | "yellow" | "dar
         lineHeight: 1.12,
         padding: "10px 30px 6px",
         ...NOBREAK,
-        border: style === "dark" ? "4px solid #fff" : "none",
+        border: style === "dark" && !archDark ? "4px solid #fff" : "none",
+        borderTop: archDark ? `6px solid ${C.red}` : undefined,
         boxShadow: "0 8px 26px rgba(0,0,0,.45)",
         transform: `scale(${scale})`,
         whiteSpace: "pre",
@@ -192,14 +369,16 @@ export const Callouts: React.FC = () => {
     .filter((c) => t >= c.s && ((c as any).until === undefined || t < atSec(sc, (c as any).until)));
   // 같은 위치는 마지막 것만
   const byPos = new Map<string, (typeof shown)[number]>();
-  const defPos = sc.visual?.type === "map" ? "top" : "center";
-  for (const c of shown) byPos.set(c.pos || defPos, c);
+  // 하단 제목(lower)이 있는 사진·그림은 가운데 콜아웃이 제목과 겹치므로 위로
+  const defPos = sc.visual?.type === "map" || (sc.visual as any)?.lower ? "top" : "center";
+  const lowerOn = !!(sc.visual as any)?.lower;
+  for (const c of shown) byPos.set(lowerOn ? "top" : c.pos || defPos, c);
   return (
     <>
       {[...byPos.values()].map((c) => {
         const k = (t - c.s) / 0.35;
-        const pos = c.pos || defPos;
-        const top = pos === "lower" ? 690 : pos === "top" ? 120 : 430;
+        const pos = lowerOn ? "top" : c.pos || defPos;
+        const top = pos === "lower" ? 690 : pos === "top" ? ((sc as any).ctx?.date ? 190 : 120) : 430;
         return (
           <div key={c.i} style={{ position: "absolute", left: 0, right: 0, top, display: "flex", justifyContent: "center", opacity: clamp(k * 3) }}>
             <CalloutBox text={c.text} style={c.style} scale={0.6 + 0.4 * popIn(k)} size={pos === "lower" ? 60 : pos === "top" ? 66 : 74} />
@@ -516,5 +695,71 @@ export const HudCta: React.FC = () => {
         {LANG === "en" ? "▶ TURN ON ALERTS FOR THE NEXT MISSION" : "▶ 알림 설정으로 다음 작전에 합류"}
       </div>
     </div>
+  );
+};
+
+/* ---------------- 사료 인용 카드 (2026-11-24 '지도사' 레퍼런스) ----------------
+ * 지도·사진 위에 미색 종이 카드: 맨 위 작은 출처("동아일보 1968. 1. 22 3면") + 명조 인용문, [[ ]] 안은 노란 형광펜.
+ * orig를 주면 위에 원문(영문 사료)을 작게, 아래에 번역을 크게 — 장면 필드 clip: {source, text, orig, at|on, until, pos: "left"|"center"|"right"}
+ * 따로 '글자 카드' 장면을 만들지 말고 지도 장면 위에 얹어 쓰는 것이 원칙 */
+const HL: React.FC<{ text: string; k: number }> = ({ text, k }) => {
+  const parts = text.split(/(\[\[[^\]]+\]\])/g);
+  return (
+    <>
+      {parts.map((p, i) =>
+        p.startsWith("[[") ? (
+          <span key={i} style={{ background: `linear-gradient(transparent 52%, rgba(255,214,0,.85) 52%)`, backgroundSize: `${Math.round(clamp(k) * 100)}% 100%`, backgroundRepeat: "no-repeat", fontWeight: 900 }}>
+            {p.slice(2, -2)}
+          </span>
+        ) : (
+          <span key={i}>{p}</span>
+        ),
+      )}
+    </>
+  );
+};
+
+export const ClipCard: React.FC = () => {
+  const sc = useScene();
+  const t = useT();
+  const c: any = (sc as any).clip;
+  if (!c) return null;
+  const s0 = atSec(sc, c.at ?? 0);
+  if (t < s0) return null;
+  if (c.until !== undefined && t > atSec(sc, c.until)) return null;
+  const k = easeOut((t - s0) / 0.45);
+  const pos = c.pos || ((sc as any).hook?.hud ? "right" : "left"); // 왼쪽 위 숫자 HUD와 겹치지 않게
+  const w = c.orig ? 1020 : 760;
+  const left = pos === "center" ? (1920 - w) / 2 : pos === "right" ? 1920 - w - 70 : 70;
+  const lines = String(c.text || "").split("\n");
+  return (
+    <AbsoluteFill style={{ pointerEvents: "none" }}>
+      <div
+        style={{
+          position: "absolute",
+          left,
+          top: c.top ?? 300,
+          width: w,
+          background: "linear-gradient(180deg,#f4ecd8,#e9dfc4)",
+          boxShadow: "0 14px 40px rgba(0,0,0,.45)",
+          padding: "22px 34px 26px",
+          transform: `translateY(${(1 - k) * 30}px) rotate(${pos === "right" ? 0.8 : -0.8}deg)`,
+          opacity: k,
+          color: "#231d14",
+        }}
+      >
+        {c.source && <div style={{ fontFamily: F.serif, fontWeight: 700, fontSize: 24, color: "#5b4f3c", marginBottom: 12 }}>{c.source}</div>}
+        {c.orig && (
+          <div style={{ fontFamily: "Georgia, 'Times New Roman', serif", fontSize: 24, lineHeight: 1.45, color: "#3b3326", marginBottom: 16, borderBottom: "1px solid rgba(0,0,0,.2)", paddingBottom: 14 }}>
+            <HL text={c.orig} k={(t - s0 - 0.6) / 0.8} />
+          </div>
+        )}
+        {lines.map((l: string, i: number) => (
+          <div key={i} style={{ fontFamily: F.serif, fontWeight: 700, fontSize: c.size || 44, lineHeight: 1.42, whiteSpace: "nowrap" }}>
+            <HL text={l} k={(t - s0 - 0.5 - i * 0.25) / 0.7} />
+          </div>
+        ))}
+      </div>
+    </AbsoluteFill>
   );
 };

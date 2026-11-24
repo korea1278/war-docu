@@ -62,7 +62,7 @@ export const LeftStatHud: React.FC = () => {
       style={{
         position: "absolute",
         left: 64,
-        top: 64,
+        top: (sc as any).ctx?.date ? 210 : 64, // 2026-11-24: 왼쪽 위 날짜 표시가 있으면 그 아래로
         minWidth: 420,
         maxWidth: 680,
         padding: "26px 36px 28px 40px",
@@ -103,7 +103,7 @@ export const NegationOverlay: React.FC = () => {
   const shake = xk > 0 && xk < 0.35 ? Math.sin(xk * 90) * 10 * (1 - xk / 0.35) : 0;
   const size = fitFont(n.text, 560, 150, 80);
   return (
-    <div style={{ position: "absolute", left: 64, top: 64, opacity: op, transform: `translateX(${shake}px)` }}>
+    <div style={{ position: "absolute", left: 64, top: (sc as any).ctx?.date ? 210 : 64, opacity: op, transform: `translateX(${shake}px)` }}>
       <div
         style={{
           position: "relative",

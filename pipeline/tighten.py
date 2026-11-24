@@ -51,7 +51,9 @@ def main(ep):
     from common import load_board
     tempo = float(load_board(ep).get("tempo") or env("NARRATION_TEMPO", "1.05"))
     print(f"배속: {tempo}")
-    max_pause = float(env("MAX_PAUSE", "0.42"))
+    # 2026-11-24: 보드 "max_pause"(초). 레퍼런스('지도사')는 문장 사이 0.5~0.8초 숨을 그대로 두어 사람 말처럼 들림 —
+    # 0.42초로 다 깎으면 쉼 없이 몰아치는 기계음처럼 들린다. 새 표준 0.65 · tempo 1.0 (보드에 없으면 예전 값)
+    max_pause = float(load_board(ep).get("max_pause") or env("MAX_PAUSE", "0.42"))
     pause_min = float(env("PAUSE_MIN", "0.45"))
     _, out = ep_dirs(ep)
     src, dst = out / "tts", out / "tts_fast"
