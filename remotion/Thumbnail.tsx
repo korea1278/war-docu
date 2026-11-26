@@ -1502,17 +1502,31 @@ export interface ThumbV2Props {
 }
 export type ThumbNote = { text: string; x: number; y: number; to: [number, number]; size?: number };
 export const PAROHO_V2: Record<string, ThumbV2Props> = {
-  // EP34 해병대 진동리 지구 기습전 — 배경: 재연 그림 ambush_fire(능선에서 길 위 대열로 사격하는 해병대, Cloudflare 무료) 흑백
-  //   카피: 1950. 8. 3 고사리 — 해병대 전투일지 적 사살 87·포로 4·전차 2·차량 6 / 아군 부상 6(매일신문 2022), 창설 1949. 4. 15
+  // EP34 해병대 진동리 지구 기습전 — 썸네일 v5 'TV 우선 · 질문과 감정' (2026-11-26 재작업 · episodes/ep34-jindong/thumb_plan.md)
+  //   배경: 재연 그림(Cloudflare 무료) 흑백 — A·A2 ambush_fire(능선의 해병대와 멈춘 대열) · A3 burning_tank(멈춰 선 전차) · A4 gosari_road(전차·사이드카 대열)
+  //   숫자 출처: 1950. 8. 3 고사리 — 해병대 진동리 전투일지 적 사살 87·전차 2·차량 6 / 아군 부상 6(매일신문 2022) · 창설 1949. 4. 15 · 진주 함락 7. 31 → 사흘
   "ep34-jindong": {
     bg: "ep/ep34-jindong/ai/ambush_fire.jpg",
-    bgPos: "50% 40%",
+    bgPos: "50% 100%",
+    tv: true,
     tag: "진동리 고사리 | 1950.8",
     tagStyle: "red",
     line1: "창설 [1년] 해병대가",
     line2: "전차를 {멈춰 세운} 새벽",
-    alt: { tag: "사살 87 | 부상 6", tagStyle: "black", line1: "[87 대 6]으로 끝난", line2: "새벽 길목의 비밀", box2: true }, // ALTS:ep34-jindong
-  },
+    focus: { x: 760, y: 760, rx: 760, ry: 330 },
+    label: { text: "한국 해병대", x: 330, y: 560, style: "yellow" },
+    why: { q: "갓 만든 부대가 어떻게 전차를?", e: "통쾌함" },
+    alts: [
+      // A2 숫자 대비형 — 87 대 6
+      { tag: "사살 87 | 부상 6", tagStyle: "black", line1: "[87 대 6]으로 끝난", line2: "새벽 길목의 비밀", box2: true, why: { q: "어떻게 그 차이가?", e: "놀라움" } },
+      // A3 질문형(반전) — 밀리기만 하던 부대, 사흘 만에
+      { bg: "ep/ep34-jindong/ai/burning_tank.jpg", bgPos: "50% 0%", tag: "진주 함락 | 사흘 뒤", tagStyle: "cream", line1: "밀리기만 하던 해병대", line2: "사흘 만에 {달라진} 이유",
+        focus: { x: 900, y: 760, rx: 820, ry: 330 }, label: { text: "멈춰 선 전차", x: 1500, y: 560, style: "red" }, why: { q: "사흘 사이 무엇이?", e: "의아함·통쾌함" } },
+      // A4 미스터리형(적의 시선) — 앞에 적이 없다고 믿은 정찰대대
+      { bg: "ep/ep34-jindong/ai/gosari_road.jpg", bgPos: "50% 100%", tag: "북한군 제6사단 | 정찰대대", tagStyle: "black", line1: "적이 없다고 믿은", line2: "정찰대대의 [마지막 새벽]",
+        focus: { x: 760, y: 860, rx: 760, ry: 260 }, label: { text: "전차 · 사이드카 대열", x: 760, y: 600, style: "red" }, why: { q: "그 길목에 무엇이?", e: "긴장·불안" } },
+    ],
+  }, // ALTS:ep34-jindong n=3
   // EP33 진동리·마산 서북산 혈전 — 배경: 사료 사진 마산 일대에서 응사하는 미 제5연대전투단 4.2인치 박격포반(1950, 미 육군, 장면 s061 사진) 흑백
   //   카피: 1950. 8~9 서북산(해발 739m, 한국 기록) — 주인 19번(한국 기록·미군 정보 부사관 집계), 마산→부산 직선 40~50km, 북한군 제6사단
   "ep33-seobuksan": {
