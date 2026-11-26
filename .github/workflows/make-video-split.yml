@@ -1,7 +1,7 @@
 name: 영상 만들기 (나눠 렌더)
 
 # 2026-11-26 EP35: 한 job 340분 제한 안에 MP4 렌더가 끝나지 않는 긴 편용.
-# 전체 프레임을 3등분해 3개 러너가 동시에 무음 영상으로 렌더 → 1번이 오디오(wav)도 렌더 → merge가 이어 붙이고 음량(-15 LUFS)·Releases 업로드.
+# 전체 프레임을 3등분해 3개 러너가 동시에 (소리 포함) 렌더 → merge가 영상은 그대로, 소리는 PCM으로 풀어 이어 붙이고 음량(-15 LUFS)·Releases 업로드.
 # 재료(TTS·그림·사진·지형)는 이미 커밋돼 있어야 함 (preview 먼저). 영상 내용은 한 번에 렌더한 것과 같다.
 on:
   workflow_dispatch:
@@ -57,6 +57,13 @@ jobs:
           cat out/list.txt
           ffmpeg -y -v error -f concat -safe 0 -i out/list.txt -c copy out/video.mp4
           WAV=$(find parts -name audio.wav | head -1)
+          if [ -z "$WAV" ]; then
+            # 토막마다 소리가 들어 있으면 PCM으로 풀어 이어 붙임 (AAC 그대로 이으면 이음매에서 끊김)
+            : > out/alist.txt
+            for k in 1 2 3; do f=$(find parts -name "part_$k.mp4" | head -1); ffmpeg -y -v error -i "$f" -vn -ac 2 -ar 48000 -c:a pcm_s16le out/a_$k.wav; echo "file '$PWD/out/a_$k.wav'" >> out/alist.txt; done
+            ffmpeg -y -v error -f concat -safe 0 -i out/alist.txt -c copy out/audio.wav
+            WAV=out/audio.wav
+          fi
           ffmpeg -y -v error -i out/video.mp4 -i "$WAV" -map 0:v:0 -map 1:a:0 -c:v copy \
             -af loudnorm=I=-15:TP=-1.5:LRA=11 -c:a aac -b:a 192k -shortest -movflags +faststart out/$EP.mp4
           ffprobe -v error -show_entries format=duration,size -of default=nw=1 out/$EP.mp4

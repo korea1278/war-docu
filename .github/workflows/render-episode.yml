@@ -265,11 +265,9 @@ jobs:
           A=$(( (K-1)*TOTAL/N )); B=$(( K*TOTAL/N - 1 ))
           echo "전체 $TOTAL 프레임 중 $K/$N: $A-$B"
           set -o pipefail
-          npx remotion render out/bundle Documentary out/part_$K.mp4 --props="{\"ep\":\"$EP\"}" --frames=$A-$B --muted \
-            --concurrency=4 --codec=h264 --video-bitrate=8M --x264-preset=veryfast --timeout=120000 --log=info 2>&1 | tail -40
-          if [ "$K" = "1" ]; then
-            npx remotion render out/bundle Documentary out/audio.wav --props="{\"ep\":\"$EP\"}" --codec=wav --log=info 2>&1 | tail -5
-          fi
+          # 소리도 같이 렌더 (2026-11-26: 1번 토막에서 전체 오디오만 따로 wav로 렌더하니 프레임 계산을 한 번 더 해서 너무 느렸음)
+          npx remotion render out/bundle Documentary out/part_$K.mp4 --props="{\"ep\":\"$EP\"}" --frames=$A-$B \
+            --concurrency=4 --codec=h264 --video-bitrate=8M --x264-preset=veryfast --audio-codec=aac --audio-bitrate=320k --timeout=120000 --log=info 2>&1 | tail -40
           ls -la out/*.mp4 out/*.wav 2>/dev/null || true
         env:
           PART: ${{ inputs.part }}
