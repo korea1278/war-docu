@@ -69,6 +69,8 @@ jobs:
         run: |
           pip install -q "rembg[cpu]" || echo "rembg 설치 실패 — 대체 누끼 사용"
           cd pipeline && python ai_images.py $EP --thumb && cd ..
+          # 2026-11-26 v5: PAROHO_V2 항목에 cut이 있으면 배경과 같은 크기의 주인공 누끼 (pipeline/thumb_cut.py)
+          (cd pipeline && python thumb_cut.py $EP) || echo "누끼 건너뜀"
           npx remotion browser ensure
           npx remotion bundle remotion/index.ts --out-dir=out/bundle --log=error
           npx remotion still out/bundle Thumbnail thumbnails/${EP}_ko_A.png --props="{\"ep\":\"$EP\",\"variant\":\"A\",\"lang\":\"ko\"}" --log=error
@@ -80,9 +82,14 @@ jobs:
           # EP16~: MAPT에 카피 시안(alts)이 있으면 A2·A3도 렌더 (같은 배경·인물, 문구만 교체)
           ALTV=""
           if grep -q "ALTS:${EP}\b" remotion/MapThumb.tsx; then ALTV="A2 A3"; elif grep -q "ALTS:${EP}\b" remotion/Thumbnail.tsx; then ALTV="A2"; fi  # EP19~: COLLAGE alt → A2만
+          # 2026-11-26 v5: PAROHO_V2 alts 배열 — 줄 끝 "// ALTS:<ep> n=5" → A2 … A6
+          NALT=$(grep -oE "ALTS:${EP} n=[0-9]+" remotion/Thumbnail.tsx | grep -oE "[0-9]+$" | head -1)
+          if [ -n "$NALT" ]; then ALTV=""; for k in $(seq 2 $((NALT+1))); do ALTV="$ALTV A$k"; done; fi
           for V in $ALTV; do
             npx remotion still out/bundle Thumbnail thumbnails/${EP}_ko_${V}.png --props="{\"ep\":\"$EP\",\"variant\":\"$V\",\"lang\":\"ko\"}" --log=error
           done
+          # 2026-11-26 v5: 시안 점검 시트 (원본 · TV 50% 테스트 · 휴대폰 크기) → thumbnails/<ep>_check.jpg
+          (cd pipeline && python thumb_check.py $EP) || echo "점검 시트 건너뜀"
           # 유튜브 썸네일 한도 2MB: 1.9MB 넘는 PNG는 업로드용 JPG를 함께 만든다
           python3 -c "import glob,os; from PIL import Image; [Image.open(p).convert('RGB').save(p[:-4]+'.jpg', quality=90, optimize=True) for p in glob.glob('thumbnails/${EP}_*_A*.png') if os.path.getsize(p) > 1900000]"
           git config user.name "war-docu-bot" && git config user.email "actions@users.noreply.github.com"

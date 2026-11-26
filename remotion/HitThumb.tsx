@@ -15,6 +15,14 @@ import { AbsoluteFill, continueRender, delayRender, Img, staticFile } from "remo
  *            사진 설명 라벨 `note` (v3과 같음)
  *   ⑤ 오른쪽 아래 재생시간 표시 없음 · 위 가운데 검은 박스(v3 top) 없음
  *   카피 공식: Line 1 = [구체적 숫자·상황] / Line 2 = [충격적 결과 또는 질문] — 숫자는 대본에서 확인된 것만, 줄당 5~10자
+ *
+ * ★★★★ v5 'TV 우선' (2026-11-26 사용자 지시 · 레퍼런스 「give me 9 minutes, I'll make your thumbnails 81% better」 분석)
+ *   `tv: true`면 v5: 미국은 TV가 모바일을 넘어 유튜브 1위 기기 — TV 홈·추천 화면은 썸네일 **위쪽 절반만** 보여 준다(50% 테스트)
+ *   ① 글자 2줄(+태그)을 **위쪽**으로 (화면 높이 46% 안) · 어둡게 깔리는 그라데이션도 위에서 아래로
+ *   ② 주인공 한눈에: `focus` {x,y,rx,ry} = 주인공 둘레만 원래 색, 나머지는 어둡고 흐리게 (스포트라이트)
+ *      `cut` = 배경과 같은 크기의 누끼 PNG(pipeline/thumb_cut.py) — 흰 테두리 빛으로 주인공을 배경에서 떼어 냄
+ *      `label` {text, x, y, style} = 주인공 옆 작은 이름표 (예: "한니발", "강뉴 대대") — 화살표 없이
+ *   ③ 군더더기 빼기: note·bubble은 그 자체가 질문·감정을 만들 때만 (기본은 넣지 않음)
  * ===================================================================================== */
 
 export type HitTagStyle = "red" | "cream" | "black" | "yellow" | "white";
@@ -34,7 +42,13 @@ export interface HitProps {
   bubble?: HitBubble;
   note?: HitNote;
   en?: boolean;
+  tv?: boolean; // v5 TV 우선: 글자를 위쪽 절반에
+  focus?: HitFocus; // 주인공 스포트라이트 (픽셀)
+  cut?: string; // 배경과 같은 크기의 주인공 누끼 PNG (public 경로)
+  label?: HitLabel; // 주인공 이름표
 }
+export type HitFocus = { x: number; y: number; rx: number; ry: number; dim?: number };
+export type HitLabel = { text: string; x: number; y: number; style?: HitTagStyle; size?: number };
 
 const W = 1920, H = 1080;
 const HIT = { side: 54, bottom: 34, max: 210, min: 120, fill: 0.96, red: "#FF2B2B", yellow: "#FFD83A", boxRed: "#E3221C" };
@@ -73,12 +87,11 @@ const useMeasure = (texts: string[], font: string) => {
   return fn;
 };
 
-const Tag: React.FC<{ text: string; style: HitTagStyle; font: string }> = ({ text, style, font }) => {
+const Tag: React.FC<{ text: string; style: HitTagStyle; font: string; inline?: boolean; size?: number }> = ({ text, style, font, inline, size = 60 }) => {
   const c = TAG[style] || TAG.red;
   const parts = text.split("|").map((s) => s.trim());
-  const size = 60;
   return (
-    <div style={{ position: "absolute", left: 40, top: 36, display: "flex", alignItems: "center", background: c.bg, borderRadius: 10, padding: `${size * 0.14}px ${size * 0.42}px ${size * 0.2}px`, boxShadow: "0 6px 18px rgba(0,0,0,.55)", fontFamily: font, fontWeight: 900, fontSize: size, lineHeight: 1.1, letterSpacing: "-0.02em", whiteSpace: "nowrap", color: c.fg }}>
+    <div style={{ ...(inline ? { position: "relative", alignSelf: "auto" } : { position: "absolute", left: 40, top: 36 }), display: "flex", alignItems: "center", background: c.bg, borderRadius: 10, padding: `${size * 0.14}px ${size * 0.42}px ${size * 0.2}px`, boxShadow: "0 6px 18px rgba(0,0,0,.55)", fontFamily: font, fontWeight: 900, fontSize: size, lineHeight: 1.1, letterSpacing: "-0.02em", whiteSpace: "nowrap", color: c.fg }}>
       {parts.map((p, i) => (
         <React.Fragment key={i}>
           {i > 0 && <span style={{ display: "inline-block", width: 4, height: size * 0.8, background: c.fg, opacity: 0.55, margin: `0 ${size * 0.3}px`, borderRadius: 2 }} />}
@@ -142,6 +155,15 @@ const Note: React.FC<{ n: HitNote; font: string; w: number }> = ({ n, font, w })
   );
 };
 
+/** v5: 주인공 옆 작은 이름표 — 화살표 없이, 테두리 굵게 (레퍼런스 'OLYMPIAN' 라벨 아이디어) */
+const Label: React.FC<{ l: HitLabel; font: string }> = ({ l, font }) => {
+  const c = TAG[l.style || "yellow"] || TAG.yellow;
+  const size = l.size ?? 54;
+  return (
+    <div style={{ position: "absolute", left: l.x, top: l.y, transform: "translate(-50%,-50%)", background: c.bg, color: c.fg, border: "5px solid #111", borderRadius: 8, padding: `${size * 0.08}px ${size * 0.34}px ${size * 0.14}px`, fontFamily: font, fontWeight: 900, fontSize: size, letterSpacing: "-0.02em", whiteSpace: "nowrap", boxShadow: "0 8px 20px rgba(0,0,0,.6)" }}>{l.text}</div>
+  );
+};
+
 export const HitThumb: React.FC<{ d: HitProps }> = ({ d }) => {
   const font = d.en ? FONT_EN : FONT_KO;
   const measure = useMeasure([plain(d.line1), plain(d.line2), d.tag || "", d.bubble?.text || "", d.note?.text || ""], font);
@@ -151,11 +173,14 @@ export const HitThumb: React.FC<{ d: HitProps }> = ({ d }) => {
   const m2 = measure ? measure(plain(d.line2)) : plain(d.line2).length * 0.92;
   const boxPad = box ? 0.5 : 0; // 박스 좌우 여백 (글자 크기 배수)
   const auto = Math.floor(Math.min(avail / Math.max(0.5, m1), avail / Math.max(0.5, m2 + boxPad)));
-  const size = d.size ?? Math.max(HIT.min, Math.min(HIT.max, auto));
   const lh = 1.08;
+  // v5 TV 우선: 태그 + 2줄이 화면 높이 46% 안에 들어가게 상한 (TV 홈·추천은 위쪽 절반만 보임)
+  const tagH = d.tv && d.tag ? 96 : 0;
+  const tvMax = Math.floor((H * 0.46 - 34 - tagH) / (lh * 2 + (box ? 0.26 : 0)));
+  const size = d.size ?? Math.max(HIT.min, Math.min(d.tv ? Math.min(HIT.max, tvMax) : HIT.max, auto));
   const gap = Math.round(size * (box ? 0.1 : 0.0));
   const blockH = size * lh * 2 + gap + (box ? size * 0.16 : 0);
-  const textTop = H - HIT.bottom - blockH;
+  const textTop = d.tv ? 34 : H - HIT.bottom - blockH;
   const justify = d.align === "right" ? "flex-end" : d.align === "center" ? "center" : "flex-start";
   const stroke = Math.round(size * 0.075);
   const lineEl = (s: string, onBox: boolean) => (
@@ -168,16 +193,44 @@ export const HitThumb: React.FC<{ d: HitProps }> = ({ d }) => {
   return (
     <AbsoluteFill style={{ background: "#000", overflow: "hidden" }}>
       <style>{`@font-face{font-family:'Pretendard';font-weight:900;font-style:normal;src:url(${staticFile("fonts/Pretendard-Black.woff2")}) format('woff2');}`}</style>
-      <Img src={staticFile(d.bg)} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", objectPosition: d.bgPos || "50% 40%", filter: d.filter }} />
-      {/* 가장자리 비네트 + 왼쪽 위(태그) 살짝 어둡게 */}
+      {(() => {
+        // v5: focus·cut이 있으면 배경을 한 단계 어둡고 흐리게 → 주인공만 원래 색 (주인공이 먼저 눈에 들어오게)
+        const pop = !!(d.focus || d.cut);
+        const dim = d.focus?.dim ?? 0.55;
+        const base = { position: "absolute" as const, inset: 0, width: "100%", height: "100%", objectFit: "cover" as const, objectPosition: d.bgPos || "50% 40%" };
+        return (
+          <>
+            <Img src={staticFile(d.bg)} style={{ ...base, filter: pop ? `${d.filter} brightness(${dim}) saturate(0.55)` : d.filter }} />
+            {d.focus && (
+              <Img src={staticFile(d.bg)} style={{ ...base, filter: d.filter, WebkitMaskImage: `radial-gradient(ellipse ${d.focus.rx}px ${d.focus.ry}px at ${d.focus.x}px ${d.focus.y}px, #000 62%, transparent 100%)`, maskImage: `radial-gradient(ellipse ${d.focus.rx}px ${d.focus.ry}px at ${d.focus.x}px ${d.focus.y}px, #000 62%, transparent 100%)` }} />
+            )}
+            {d.cut && (
+              <Img src={staticFile(d.cut)} style={{ ...base, filter: `${d.filter} drop-shadow(0 0 2px #fff) drop-shadow(0 0 3px #fff) drop-shadow(0 0 2px #fff) drop-shadow(0 14px 26px rgba(0,0,0,.65))` }} />
+            )}
+          </>
+        );
+      })()}
+      {/* 가장자리 비네트 */}
       <AbsoluteFill style={{ background: "radial-gradient(ellipse at 55% 40%, rgba(0,0,0,0) 55%, rgba(0,0,0,.42) 100%)" }} />
-      <AbsoluteFill style={{ background: "radial-gradient(ellipse 700px 260px at 0% 0%, rgba(0,0,0,.45), rgba(0,0,0,0))" }} />
-      {/* 아래쪽 글자 뒤만 어둡게 — 솔리드 바닥판 없이 사진 위에 글자 */}
-      <div style={{ position: "absolute", left: 0, right: 0, top: textTop - 240, bottom: 0, background: "linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,.45) 40%, rgba(0,0,0,.78) 75%, rgba(0,0,0,.88) 100%)" }} />
+      {d.tv ? (
+        // v5: 위쪽 글자 뒤만 어둡게 (위에서 아래로)
+        <div style={{ position: "absolute", left: 0, right: 0, top: 0, height: textTop + tagH + blockH + 220, background: "linear-gradient(to top, rgba(0,0,0,0) 0%, rgba(0,0,0,.45) 35%, rgba(0,0,0,.78) 70%, rgba(0,0,0,.86) 100%)" }} />
+      ) : (
+        <>
+          <AbsoluteFill style={{ background: "radial-gradient(ellipse 700px 260px at 0% 0%, rgba(0,0,0,.45), rgba(0,0,0,0))" }} />
+          {/* 아래쪽 글자 뒤만 어둡게 — 솔리드 바닥판 없이 사진 위에 글자 */}
+          <div style={{ position: "absolute", left: 0, right: 0, top: textTop - 240, bottom: 0, background: "linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,.45) 40%, rgba(0,0,0,.78) 75%, rgba(0,0,0,.88) 100%)" }} />
+        </>
+      )}
       {d.note && <Note n={d.note} font={font} w={measure ? measure(d.note.text) : d.note.text.length * 0.9} />}
       {d.bubble && <Bubble b={d.bubble} font={font} w={measure ? measure(d.bubble.text) : d.bubble.text.length * 0.9} />}
-      {d.tag && <Tag text={d.tag} style={d.tagStyle || "red"} font={font} />}
+      {d.tag && !d.tv && <Tag text={d.tag} style={d.tagStyle || "red"} font={font} />}
       <div style={{ position: "absolute", left: HIT.side, right: HIT.side, top: textTop, display: "flex", flexDirection: "column", alignItems: justify, gap }}>
+        {d.tag && d.tv && (
+          <div style={{ marginBottom: 14 }}>
+            <Tag text={d.tag} style={d.tagStyle || "red"} font={font} inline size={56} />
+          </div>
+        )}
         {lineEl(d.line1, false)}
         {box ? (
           <div style={{ background: box, padding: `${size * 0.02}px ${size * 0.25}px ${size * 0.14}px`, borderRadius: 6, boxShadow: "0 8px 22px rgba(0,0,0,.6)" }}>{lineEl(d.line2, true)}</div>
@@ -185,6 +238,7 @@ export const HitThumb: React.FC<{ d: HitProps }> = ({ d }) => {
           lineEl(d.line2, false)
         )}
       </div>
+      {d.label && <Label l={d.label} font={font} />}
     </AbsoluteFill>
   );
 };
