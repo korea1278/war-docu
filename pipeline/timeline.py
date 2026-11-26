@@ -522,7 +522,7 @@ def build(ep, mock=False, gap=None):
     return t, sum(1 for x in scenes_out if x["lines"]), board.get("target_sec", TARGET_SEC)
 
 
-CARD_TYPES = {"text", "black", "checklist", "reasons", "bars", "compare", "versus", "factors", "gauges", "weekbar", "hanja"}
+CARD_TYPES = {"text", "black", "punch", "checklist", "reasons", "bars", "compare", "versus", "factors", "gauges", "weekbar", "hanja"}
 
 
 def card_check(ep, board, scenes):

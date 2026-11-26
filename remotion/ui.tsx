@@ -688,7 +688,7 @@ export const HudCta: React.FC = () => {
 
 /* ---------------- 사료 인용 카드 (2026-11-24 '지도사' 레퍼런스) ----------------
  * 지도·사진 위에 미색 종이 카드: 맨 위 작은 출처("동아일보 1968. 1. 22 3면") + 명조 인용문, [[ ]] 안은 노란 형광펜.
- * orig를 주면 위에 원문(영문 사료)을 작게, 아래에 번역을 크게 — 장면 필드 clip: {source, text, orig, at|on, until, pos: "left"|"center"|"right"}
+ * orig를 주면 위에 원문(영문 사료)을 작게, 아래에 번역을 크게 — 장면 필드 clip: {source, text, orig, at|on, until, pos: "left"|"center"|"right", recreated: true|"문구"}
  * 따로 '글자 카드' 장면을 만들지 말고 지도 장면 위에 얹어 쓰는 것이 원칙 */
 const HL: React.FC<{ text: string; k: number }> = ({ text, k }) => {
   const parts = text.split(/(\[\[[^\]]+\]\])/g);
@@ -747,6 +747,8 @@ export const ClipCard: React.FC = () => {
             <HL text={l} k={(t - s0 - 0.5 - i * 0.25) / 0.7} />
           </div>
         ))}
+        {/* 2026-11-26 DocuKit: 사료 문장을 우리말로 옮기거나 다시 짠 카드는 정직하게 표시 */}
+        {c.recreated && <div style={{ fontFamily: F.body, fontWeight: 700, fontSize: 20, color: "#6b5f4c", marginTop: 10, textAlign: "right" }}>{typeof c.recreated === "string" ? c.recreated : "※ 원문을 옮겨 다시 구성"}</div>}
       </div>
     </AbsoluteFill>
   );

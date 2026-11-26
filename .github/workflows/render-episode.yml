@@ -161,6 +161,24 @@ jobs:
           cd pipeline && python tts.py $EP
           python tighten.py $EP
 
+      # 2026-11-26 DocuKit: 목소리 ↔ 대본 대조 — 일레븐랩스가 빼먹거나 되풀이한 말을 받아쓰기로 찾아 logs/asr_check_<ep>.txt (경고만, 렌더는 계속)
+      # 미리보기 때만 (본 렌더는 시간 한도 340분에 가까워서) · 모델 약 1GB는 GitHub 릴리스에서 받아 캐시
+      - name: 목소리 대조 모델 캐시
+        if: inputs.mode == 'preview'
+        continue-on-error: true
+        uses: actions/cache@v4
+        with:
+          path: .cache/models/whisper-turbo
+          key: asr-whisper-turbo-v1
+
+      - name: 목소리 ↔ 대본 대조 (무료 받아쓰기)
+        if: inputs.mode == 'preview'
+        continue-on-error: true
+        timeout-minutes: 25
+        run: |
+          pip install -q sherpa-onnx
+          cd pipeline && python asr_check.py $EP
+
       - name: 효과음 + 배경음악 (일레븐랩스)
         if: inputs.mode != 'free' && inputs.mode != 'thumb'
         run: |

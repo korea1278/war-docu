@@ -433,6 +433,21 @@ export const MapView: React.FC<{ tl: Timeline }> = ({ tl }) => {
         </g>
       );
       if (it.text) html.push(<Pill key={"h" + i} x={x} y={y + R * s + 34} text={it.text} bg={c} s={s} anchor="center" size={30} />);
+    } else if (it.k === "ring") {
+      // 2026-11-26 DocuKit: 구역·사거리 원 (예: 200해리 배제 구역, 성벽에서 투석기 사거리) — km 반지름, 점선이 천천히 돈다
+      // {k:"ring", p, km, color(기본 노랑), text, at|on}. 원 안팎의 결과(격침 X 등)는 marker·badge로, 논쟁 도장은 visual.stamp로
+      const p0 = resolveP(tl, it.p);
+      const [x, y] = P(p0);
+      const [, y2] = P([p0[0], p0[1] + (it.km || 100) / 111.32] as LonLat);
+      const R = Math.abs(y - y2) * easeOut(since / 0.9);
+      const c = colorOf(it.color || C.yellow);
+      svgItems.push(
+        <g key={i} transform={`translate(${x},${y})`}>
+          <circle r={R} fill={c} fillOpacity={0.07} stroke="#000" strokeOpacity={0.45} strokeWidth={10} />
+          <circle r={R} fill="none" stroke={c} strokeWidth={5} strokeDasharray="20 12" strokeDashoffset={-since * 24} />
+        </g>
+      );
+      if (it.text) html.push(<Pill key={"h" + i} x={x} y={y - R - 34} text={it.text} bg="#111" s={clamp(since / 0.5)} anchor="center" size={30} />);
     } else if (it.k === "shock") {
       // EP17 금성: 연속 탄착 충격파 (Lottie hud_shockwave 대체) — 여러 점에서 엇갈려 반복
       const pts: LonLat[] = (it.pts || [it.p]).map((p: any) => resolveP(tl, p));

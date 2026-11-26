@@ -5,6 +5,7 @@ import { Bubble, CalloutBox, KenBurns, Slate, useScene, useSince, useT } from ".
 import { MapView } from "./MapView";
 import { TroopsV } from "./Hook";
 import { ChecklistV, FlagGridV, FlatMapV, PhotoMarks, PhotoTag, Pops, ReasonsV, StageV } from "./Stage";
+import { DocOverlays, GlobeV, PunchV, WeaponV } from "./DocuKit";
 
 /** 사진이 없을 때 대체 배경 */
 const PhotoOrSlate: React.FC<{ src?: string | null; kb?: string; bw?: boolean; dim?: number; pos?: string; depth?: string | null }> = ({ src, kb, bw = true, dim = 0, pos, depth }) =>
@@ -860,9 +861,23 @@ const TeaserV: React.FC = () => {
   );
 };
 
-export const Visual: React.FC<{ tl: Timeline }> = ({ tl }) => {
+/** 2026-11-26 DocuKit: 어느 화면이든 visual.counter(s)·stamp(객체)가 있으면 위에 얹는다 */
+export const Visual: React.FC<{ tl: Timeline }> = ({ tl }) => (
+  <>
+    <VisualInner tl={tl} />
+    <DocOverlays />
+  </>
+);
+
+const VisualInner: React.FC<{ tl: Timeline }> = ({ tl }) => {
   const v = useScene().visual;
   switch (v.type) {
+    case "globe":
+      return <GlobeV />;
+    case "weapon":
+      return <WeaponV />;
+    case "punch":
+      return <PunchV />;
     case "map":
       return <MapView tl={tl} />;
     case "teaser":
