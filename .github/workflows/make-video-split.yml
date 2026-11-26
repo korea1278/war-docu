@@ -1,0 +1,88 @@
+name: 영상 만들기 (나눠 렌더)
+
+# 2026-11-26 EP35: 한 job 340분 제한 안에 MP4 렌더가 끝나지 않는 긴 편용.
+# 전체 프레임을 3등분해 3개 러너가 동시에 무음 영상으로 렌더 → 1번이 오디오(wav)도 렌더 → merge가 이어 붙이고 음량(-15 LUFS)·Releases 업로드.
+# 재료(TTS·그림·사진·지형)는 이미 커밋돼 있어야 함 (preview 먼저). 영상 내용은 한 번에 렌더한 것과 같다.
+on:
+  workflow_dispatch:
+    inputs:
+      episode:
+        description: "에피소드 폴더 이름 (episodes/ 아래)"
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: make-video-${{ github.event.inputs.episode }}
+  cancel-in-progress: false
+
+jobs:
+  part:
+    strategy:
+      fail-fast: false
+      matrix:
+        k: [1, 2, 3]
+    uses: ./.github/workflows/render-episode.yml
+    with:
+      episode: ${{ github.event.inputs.episode }}
+      mode: full
+      part: "${{ matrix.k }}/3"
+    secrets: inherit
+
+  merge:
+    needs: part
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      EP: ${{ github.event.inputs.episode }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            previews
+            logs
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: ${{ github.event.inputs.episode }}-part-*
+          path: parts
+          merge-multiple: true
+      - name: 이어 붙이기 + 음량
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
+          find parts -type f | sort
+          mkdir -p out
+          : > out/list.txt
+          for k in 1 2 3; do f=$(find parts -name "part_$k.mp4" | head -1); echo "file '$PWD/$f'" >> out/list.txt; done
+          cat out/list.txt
+          ffmpeg -y -v error -f concat -safe 0 -i out/list.txt -c copy out/video.mp4
+          WAV=$(find parts -name audio.wav | head -1)
+          ffmpeg -y -v error -i out/video.mp4 -i "$WAV" -map 0:v:0 -map 1:a:0 -c:v copy \
+            -af loudnorm=I=-15:TP=-1.5:LRA=11 -c:a aac -b:a 192k -shortest -movflags +faststart out/$EP.mp4
+          ffprobe -v error -show_entries format=duration,size -of default=nw=1 out/$EP.mp4
+          SIZE=$(stat -c %s out/$EP.mp4)
+          if [ "$SIZE" -gt 1900000000 ]; then
+            DUR=$(ffprobe -v error -show_entries format=duration -of csv=p=0 out/$EP.mp4)
+            VB=$(python3 -c "print(int(1500*8*1024/float('$DUR') - 200))")
+            ffmpeg -y -v error -i out/$EP.mp4 -c:v libx264 -preset veryfast -b:v ${VB}k -maxrate $((VB*3/2))k -bufsize $((VB*2))k -c:a copy -movflags +faststart out/small.mp4
+            mv out/small.mp4 out/$EP.mp4
+          fi
+          cp "$(find parts -name "$EP.srt" | head -1)" out/$EP.srt
+      - name: 결과물 올리기 (Releases)
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="$EP-$(date +%Y%m%d-%H%M)"
+          gh release create "$TAG" "out/$EP.mp4" "out/$EP.srt" previews/$EP/*.jpg \
+            --title "$EP 완성 영상 ($(date +%m/%d\ %H:%M))" --notes "Actions에서 자동 생성된 영상입니다. (나눠 렌더 3등분)"
+      - name: 결과물 올리기 (Artifacts 백업)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ github.event.inputs.episode }}-video
+          path: |
+            out/${{ github.event.inputs.episode }}.mp4
+            out/${{ github.event.inputs.episode }}.srt
+          if-no-files-found: warn
+          retention-days: 3

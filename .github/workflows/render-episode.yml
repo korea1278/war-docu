@@ -6,6 +6,7 @@ on:
       episode: { type: string, required: true }
       mode: { type: string, default: full }
       redo: { type: string, default: "" }
+      part: { type: string, default: "" }   # 나눠 렌더(2026-11-26, EP35 340분 초과): "k/n" = 전체 프레임을 n등분한 k번째만 무음으로 렌더 → make-video-split.yml이 합침
 
 permissions:
   contents: write
@@ -218,7 +219,7 @@ jobs:
           done
 
       - name: 미리보기 시트
-        if: inputs.mode != 'thumb'
+        if: inputs.mode != 'thumb' && (inputs.part == '' || startsWith(inputs.part, '1/'))
         continue-on-error: true
         run: |
           npx remotion browser ensure
@@ -237,7 +238,7 @@ jobs:
 
       # [자막 렌더링 무결성 원칙] 모든 장면·모든 줄에서 자막이 실제 화면에 보이는지 스틸로 확인 — 실패하면 MP4 렌더 중단
       - name: 자막 노출 검사
-        if: inputs.mode != 'thumb'
+        if: inputs.mode != 'thumb' && (inputs.part == '' || startsWith(inputs.part, '1/'))
         run: |
           npx remotion browser ensure
           cd pipeline && python check_subs.py $EP ../out/bundle
@@ -252,8 +253,41 @@ jobs:
             exit 1
           fi
 
+      - name: 나눠 렌더 (part)
+        id: pk
+        if: inputs.mode == 'full' && inputs.part != ''
+        run: |
+          echo "k=${PART%%/*}" >> $GITHUB_OUTPUT
+          export TMPDIR=$PWD/out/tmp && mkdir -p $TMPDIR
+          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL || true
+          K=${PART%%/*}; N=${PART##*/}
+          TOTAL=$(python3 -c "import json,math;t=json.load(open('public/ep/$EP/timeline.json'));print(math.ceil(t['duration']*t['fps']))")
+          A=$(( (K-1)*TOTAL/N )); B=$(( K*TOTAL/N - 1 ))
+          echo "전체 $TOTAL 프레임 중 $K/$N: $A-$B"
+          set -o pipefail
+          npx remotion render out/bundle Documentary out/part_$K.mp4 --props="{\"ep\":\"$EP\"}" --frames=$A-$B --muted \
+            --concurrency=4 --codec=h264 --video-bitrate=8M --x264-preset=veryfast --timeout=120000 --log=info 2>&1 | tail -40
+          if [ "$K" = "1" ]; then
+            npx remotion render out/bundle Documentary out/audio.wav --props="{\"ep\":\"$EP\"}" --codec=wav --log=info 2>&1 | tail -5
+          fi
+          ls -la out/*.mp4 out/*.wav 2>/dev/null || true
+        env:
+          PART: ${{ inputs.part }}
+
+      - name: 나눠 렌더 결과 올리기
+        if: inputs.mode == 'full' && inputs.part != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ inputs.episode }}-part-${{ steps.pk.outputs.k }}
+          path: |
+            out/part_*.mp4
+            out/audio.wav
+            public/ep/${{ inputs.episode }}/${{ inputs.episode }}.srt
+          if-no-files-found: error
+          retention-days: 2
+
       - name: 최종 렌더링 (MP4)
-        if: inputs.mode == 'full'
+        if: inputs.mode == 'full' && inputs.part == ''
         run: |
           # 20분 장편 대비: 디스크 확보 + 실패 원인을 저장소(logs/)에 남김 (세션에서 Actions 로그 직접 열람 불가)
           sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL || true
@@ -284,7 +318,7 @@ jobs:
           fi
 
       - name: 결과물 올리기 (Releases)
-        if: inputs.mode == 'full'
+        if: inputs.mode == 'full' && inputs.part == ''
         continue-on-error: true   # 릴리스가 실패해도(용량 제한 등) 아래 Artifacts 백업은 진행
         env:
           GH_TOKEN: ${{ github.token }}
@@ -294,7 +328,7 @@ jobs:
             --title "$EP 완성 영상 ($(date +%m/%d\ %H:%M))" --notes "Actions에서 자동 생성된 영상입니다."
 
       - name: 결과물 올리기 (Artifacts 백업)
-        if: always() && inputs.mode == 'full'   # 앞 단계 성공·실패와 상관없이 항상 백업 (Artifacts는 5GB까지)
+        if: always() && inputs.mode == 'full' && inputs.part == ''   # 앞 단계 성공·실패와 상관없이 항상 백업 (Artifacts는 5GB까지)
         uses: actions/upload-artifact@v4
         with:
           name: ${{ inputs.episode }}-video
