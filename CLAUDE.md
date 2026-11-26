@@ -250,6 +250,7 @@
    - 확인 항목: **지도 장면에도 하단 자막·콜아웃이 보이는지** (EP10까지 놓친 항목 — 아래 [자막 렌더링 무결성 원칙]), 지도 라벨이 자막에 가리는지(뷰 center 조정), 콜아웃·라벨 겹침, 콜아웃이 얼굴 가림, 사진 중복·라벨 오류, 영문 넘침
    - Actions가 MP4 렌더 직전에 `pipeline/check_subs.py`(자막 노출 검사)를 돌린다. 실패하면 렌더가 멈추고 `logs/errors.txt`에 "자막 안 보임 — <장면> <줄>"이 남는다 → 원인 고친 뒤 재실행
    - 고친 뒤 `mode=full`, `english=true` (한 번 실행으로 한국어판 → 영문판 순서대로, 약 70분)
+   - ★ **나눠 렌더 (2026-11-26 · EP35가 340분 job 제한 안에 MP4를 못 끝내 추가)**: 긴 편은 Actions "영상 만들기 (나눠 렌더)"(`make-video-split.yml`, 입력 episode만) — 전체 프레임을 3등분해 러너 3대가 동시에 무음 렌더(`render-episode.yml` 입력 `part: "k/3"`), 1번이 오디오 wav도 렌더 → merge job이 이어 붙이고 -15 LUFS·Releases 업로드. preview로 재료가 커밋된 뒤에만 쓸 것. REST: `gh api -X POST repos/korea1278/war-docu/actions/workflows/make-video-split.yml/dispatches -f ref=main -f 'inputs[episode]=<ep>'`
    - 이 세션에서는 GraphQL이 막혀 `gh workflow run` 불가 → REST로 실행:
      `gh api -X POST repos/korea1278/war-docu/actions/workflows/make-video.yml/dispatches -f ref=main -f 'inputs[episode]=<ep>' -f 'inputs[mode]=full' -f 'inputs[english]=true'`
    - ★ **렌더 완료 후 자동 정리 (2026-11-06 사용자 지시 — "무조건 기억")**: 본 렌더 dispatch 직후 `send_later`(예상 소요 + 여유, 보통 2시간 10분)로 이 세션에 확인 메시지를 예약해 둔다. "끝나면 말씀해 주세요"로 미루지 말 것. 렌더가 끝나면 사용자가 다시 묻지 않아도 8번 검증(길이·LUFS·싱크·지도 프레임)과 10번 전달 패키지(Releases 링크·SRT·썸네일·제목 3개·목차 넣은 설명글·태그·확인 덜 된 항목)를 한 번에 보낸다
