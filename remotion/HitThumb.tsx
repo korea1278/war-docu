@@ -182,6 +182,50 @@ export const HitThumb: React.FC<{ d: HitProps }> = ({ d }) => {
   const blockH = size * lh * 2 + gap + (box ? size * 0.16 : 0);
   const textTop = d.tv ? 34 : H - HIT.bottom - blockH;
   const justify = d.align === "right" ? "flex-end" : d.align === "center" ? "center" : "flex-start";
+  // 2026-11-26 사용자 지시 "이름표·라벨이 썸네일 큰 글자와 겹치면 불편 — 앞으로 저렇게 안 나오게":
+  // 큰 글자 영역(태그 포함)을 계산해, 이름표(label)·사진 설명(note)·말풍선(bubble)이 닿으면 자동으로 글자 영역 밖(위쪽 글자면 아래, 아래쪽 글자면 위)으로 옮긴다
+  const textW = Math.max(m1, m2 + boxPad) * size;
+  const tx0 = d.align === "right" ? W - HIT.side - textW : d.align === "center" ? (W - textW) / 2 : HIT.side;
+  const tagW = d.tag ? (measure ? measure(d.tag) : d.tag.length * 0.9) * (d.tv ? 56 : 60) + 140 : 0;
+  const tBox = { x0: Math.min(tx0, d.tv ? tx0 : 40), x1: Math.max(tx0 + textW, (d.tv ? tx0 : 40) + tagW), y0: d.tv ? 0 : textTop, y1: d.tv ? textTop + tagH + blockH : H };
+  const tagBox = !d.tv && d.tag ? { x0: 40, x1: 40 + tagW, y0: 36, y1: 36 + 84 } : null;
+  const M = 28; // 글자와 띄울 최소 간격
+  const hit = (b: { x0: number; x1: number; y0: number; y1: number }, cx: number, cy: number, w: number, h: number) =>
+    cx + w / 2 > b.x0 - M && cx - w / 2 < b.x1 + M && cy + h / 2 > b.y0 - M && cy - h / 2 < b.y1 + M;
+  // 이미 놓인 이름표·라벨끼리도 서로 겹치지 않게 (놓는 순서: label → note → bubble)
+  const placed: { x0: number; x1: number; y0: number; y1: number }[] = [];
+  const avoid = (cx: number, cy: number, w: number, h: number): number => {
+    let y = cy;
+    if (hit(tBox, cx, y, w, h)) y = d.tv ? tBox.y1 + M + h / 2 : tBox.y0 - M - h / 2;
+    if (tagBox && hit(tagBox, cx, y, w, h)) y = tagBox.y1 + M + h / 2;
+    for (let k = 0; k < 6; k++) {
+      const b = placed.find((p) => hit(p, cx, y, w, h));
+      if (!b) break;
+      // 글자에서 멀어지는 쪽으로 비켜 감 (위 글자면 아래로, 아래 글자면 위로)
+      y = d.tv ? b.y1 + M + h / 2 : b.y0 - M - h / 2;
+    }
+    // TV 보기 경계(화면 가운데 선)에 걸쳐 반쯤 잘려 보이지 않게 — 걸치면 경계 아래로 완전히 내림
+    if (d.tv && y - h / 2 < H / 2 && y + h / 2 > H / 2) y = H / 2 + 12 + h / 2;
+    y = Math.max(h / 2 + 10, Math.min(H - h / 2 - 10, y));
+    placed.push({ x0: cx - w / 2, x1: cx + w / 2, y0: y - h / 2, y1: y + h / 2 });
+    return y;
+  };
+  const label = d.label ? (() => {
+    const ls = d.label.size ?? 54;
+    const lw = (measure ? measure(d.label.text) : d.label.text.length * 0.9) * ls + ls * 0.68 + 10;
+    return { ...d.label, y: avoid(d.label.x, d.label.y, lw, ls * 1.22 + 10) };
+  })() : undefined;
+  const note = d.note ? (() => {
+    const ns = d.note.size ?? 46;
+    const nw = (measure ? measure(d.note.text) : d.note.text.length * 0.9) * ns + ns * 0.9;
+    return { ...d.note, y: avoid(d.note.x, d.note.y, nw, ns * 1.5) };
+  })() : undefined;
+  const bubble = d.bubble ? (() => {
+    const bs = d.bubble.size ?? 66;
+    const bw = ((measure ? measure(d.bubble.text) : d.bubble.text.length * 0.9) * bs) + bs * 1.7;
+    const ny = avoid(d.bubble.x, d.bubble.y, bw, bs * 2.1);
+    return { ...d.bubble, y: ny }; // 꼬리 끝(to)은 말하는 사람을 가리키므로 그대로
+  })() : undefined;
   const stroke = Math.round(size * 0.075);
   const lineEl = (s: string, onBox: boolean) => (
     <div style={{ fontFamily: font, fontWeight: 900, fontSize: size, lineHeight: lh, letterSpacing: "-0.03em", whiteSpace: "nowrap", color: "#fff",
@@ -222,8 +266,8 @@ export const HitThumb: React.FC<{ d: HitProps }> = ({ d }) => {
           <div style={{ position: "absolute", left: 0, right: 0, top: textTop - 240, bottom: 0, background: "linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,.45) 40%, rgba(0,0,0,.78) 75%, rgba(0,0,0,.88) 100%)" }} />
         </>
       )}
-      {d.note && <Note n={d.note} font={font} w={measure ? measure(d.note.text) : d.note.text.length * 0.9} />}
-      {d.bubble && <Bubble b={d.bubble} font={font} w={measure ? measure(d.bubble.text) : d.bubble.text.length * 0.9} />}
+      {note && <Note n={note} font={font} w={measure ? measure(note.text) : note.text.length * 0.9} />}
+      {bubble && <Bubble b={bubble} font={font} w={measure ? measure(bubble.text) : bubble.text.length * 0.9} />}
       {d.tag && !d.tv && <Tag text={d.tag} style={d.tagStyle || "red"} font={font} />}
       <div style={{ position: "absolute", left: HIT.side, right: HIT.side, top: textTop, display: "flex", flexDirection: "column", alignItems: justify, gap }}>
         {d.tag && d.tv && (
@@ -238,7 +282,7 @@ export const HitThumb: React.FC<{ d: HitProps }> = ({ d }) => {
           lineEl(d.line2, false)
         )}
       </div>
-      {d.label && <Label l={d.label} font={font} />}
+      {label && <Label l={label} font={font} />}
     </AbsoluteFill>
   );
 };
