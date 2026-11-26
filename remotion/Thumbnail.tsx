@@ -1502,6 +1502,23 @@ export interface ThumbV2Props {
 }
 export type ThumbNote = { text: string; x: number; y: number; to: [number, number]; size?: number };
 export const PAROHO_V2: Record<string, ThumbV2Props> = {
+  // EP35 평양 최초 입성 작전 — 배경: 사료 사진 태극기를 흔들며 평양에 들어가는 장병들(1950. 10. 19, 국방화보, 장면 s003) 흑백 · v5 TV 우선
+  //   카피: 1사단 10. 11 출발(기병사단 10. 9보다 이틀 늦음) · 10. 19 10:50 선교리 로터리(국방일보) · 10. 18 밤 8마일 대 30마일(애플먼) · 백선엽 만 29세
+  "ep35-pyongyang": {
+    bg: "ep/ep35-pyongyang/photos/s003_photo_0.jpg",
+    bgPos: "50% 60%",
+    tv: true,
+    tag: "평양 | 1950.10.19",
+    tagStyle: "red",
+    line1: "[이틀] 늦게 출발한 사단이",
+    line2: "{먼저} 도착한 이유",
+    why: { q: "트럭도 모자란 국군이 어떻게 먼저?", e: "통쾌함 · 의아함" },
+    alts: [
+      { tag: "대동강 | 오전 10:50", tagStyle: "black", line1: "다리가 [끊긴] 강을", line2: "먼저 건넌 비밀", box2: true },
+      { tag: "백선엽 | 만 29세", tagStyle: "cream", line1: "고향 평양으로", line2: "{먼저} 돌아간 사단장" },
+      { tag: "1950.10.18 밤", tagStyle: "yellow", line1: "[8마일] 대 30마일", line2: "뒤집힌 평양 경주" },
+    ],
+  }, // ALTS:ep35-pyongyang n=3
   // EP34 해병대 진동리 지구 기습전 — 썸네일 v5 'TV 우선 · 질문과 감정' (2026-11-26 재작업 · episodes/ep34-jindong/thumb_plan.md)
   //   배경: 재연 그림(Cloudflare 무료) 흑백 — A·A2 ambush_fire(능선의 해병대와 멈춘 대열) · A3 burning_tank(멈춰 선 전차) · A4 gosari_road(전차·사이드카 대열)
   //   숫자 출처: 1950. 8. 3 고사리 — 해병대 진동리 전투일지 적 사살 87·전차 2·차량 6 / 아군 부상 6(매일신문 2022) · 창설 1949. 4. 15 · 진주 함락 7. 31 → 사흘

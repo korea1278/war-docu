@@ -1,0 +1,12481 @@
+{
+ "title": "열하루의 경주",
+ "subtitle": "평양 최초 입성 작전 · 1950",
+ "style": 2,
+ "tts_mode": "act",
+ "sfx_policy": "doc",
+ "bgm_rel_db": -24,
+ "sub_max": 28,
+ "sync_limit": 0.5,
+ "look": "archive",
+ "sub_style": "dark",
+ "map_tone": "day",
+ "tts_model": "eleven_v3",
+ "tempo": 1.0,
+ "max_pause": 0.65,
+ "card_max": 0.25,
+ "voice": "0mlAtfsvMzFpppUuNWkV",
+ "voice_settings": {
+  "stability": 0.5,
+  "similarity_boost": 0.78
+ },
+ "target_sec": 1230,
+ "midrolls": [
+  "s097",
+  "s162",
+  "s222"
+ ],
+ "places": {
+  "seoul": [
+   126.978,
+   37.566,
+   "서울"
+  ],
+  "kaesong": [
+   126.555,
+   37.971,
+   "개성"
+  ],
+  "korangpo": [
+   126.88,
+   38.0,
+   "고랑포"
+  ],
+  "munsan": [
+   126.78,
+   37.86,
+   "문산"
+  ],
+  "kumchon": [
+   126.48,
+   38.15,
+   "금천"
+  ],
+  "hanpo": [
+   126.43,
+   38.25,
+   "한포리"
+  ],
+  "namchon": [
+   126.39,
+   38.33,
+   "남천점"
+  ],
+  "sohung": [
+   126.1,
+   38.43,
+   "서흥"
+  ],
+  "sariwon": [
+   125.756,
+   38.507,
+   "사리원"
+  ],
+  "hwangju": [
+   125.776,
+   38.66,
+   "황주"
+  ],
+  "haeju": [
+   125.71,
+   38.04,
+   "해주"
+  ],
+  "jinnampo": [
+   125.4,
+   38.73,
+   "진남포"
+  ],
+  "sibyon": [
+   126.73,
+   38.3,
+   "시변리"
+  ],
+  "singye": [
+   126.53,
+   38.5,
+   "신계"
+  ],
+  "miudong": [
+   126.6,
+   38.42,
+   "미우동"
+  ],
+  "suan": [
+   126.36,
+   38.73,
+   "수안"
+  ],
+  "sangwon": [
+   126.09,
+   38.85,
+   "상원"
+  ],
+  "yulli": [
+   126.0,
+   38.9,
+   "율리"
+  ],
+  "jidong": [
+   125.88,
+   38.95,
+   "지동리"
+  ],
+  "kangdong": [
+   126.1,
+   39.14,
+   "강동"
+  ],
+  "pyongyang": [
+   125.755,
+   39.025,
+   "평양"
+  ],
+  "seongyo": [
+   125.772,
+   39.012,
+   "선교리 로터리"
+  ],
+  "bridge": [
+   125.758,
+   39.019,
+   "대동교"
+  ],
+  "rail": [
+   125.748,
+   39.012,
+   "대동강 철교"
+  ],
+  "bon": [
+   125.745,
+   39.033,
+   "본평양"
+  ],
+  "east": [
+   125.79,
+   39.012,
+   "동평양"
+  ],
+  "mirim": [
+   125.83,
+   39.03,
+   "미림 비행장"
+  ],
+  "moran": [
+   125.762,
+   39.048,
+   "모란봉"
+  ],
+  "kimuniv": [
+   125.77,
+   39.058,
+   "김일성대학"
+  ],
+  "ford": [
+   125.86,
+   39.07,
+   "얕은 여울"
+  ],
+  "neungra": [
+   125.773,
+   39.04,
+   "능라도"
+  ],
+  "river": [
+   125.765,
+   39.022,
+   "대동강"
+  ],
+  "dmun": [
+   125.757,
+   39.026,
+   "대동문"
+  ],
+  "ulmil": [
+   125.759,
+   39.044,
+   "을밀대"
+  ],
+  "yeongwang": [
+   125.754,
+   39.022,
+   "연광정"
+  ],
+  "birth": [
+   125.5,
+   38.93,
+   "평남 강서군 덕흥리"
+  ],
+  "kanggye": [
+   126.6,
+   40.97,
+   "강계"
+  ],
+  "yalu": [
+   124.45,
+   40.1,
+   "압록강"
+  ],
+  "sinuiju": [
+   124.4,
+   40.1,
+   "신의주"
+  ],
+  "chosan": [
+   125.8,
+   40.83,
+   "초산"
+  ],
+  "sunchon": [
+   125.93,
+   39.43,
+   "순천"
+  ],
+  "sukchon": [
+   125.66,
+   39.41,
+   "숙천"
+  ],
+  "unsan": [
+   125.8,
+   40.0,
+   "운산"
+  ],
+  "yangyang": [
+   128.62,
+   38.07,
+   "양양"
+  ],
+  "wonsan": [
+   127.44,
+   39.15,
+   "원산"
+  ],
+  "dabudong": [
+   128.5,
+   36.05,
+   "다부동"
+  ],
+  "daegu": [
+   128.6,
+   35.87,
+   "대구"
+  ],
+  "inchon": [
+   126.62,
+   37.47,
+   "인천"
+  ],
+  "naktong": [
+   128.4,
+   35.95,
+   "낙동강"
+  ]
+ },
+ "views": {
+  "korea": {
+   "center": [
+    127.4,
+    38.0
+   ],
+   "span": 8.6
+  },
+  "nk": {
+   "center": [
+    126.0,
+    39.6
+   ],
+   "span": 6.2
+  },
+  "south": {
+   "center": [
+    128.0,
+    36.6
+   ],
+   "span": 3.6
+  },
+  "front": {
+   "center": [
+    126.62,
+    38.2
+   ],
+   "span": 1.9
+  },
+  "route": {
+   "center": [
+    126.22,
+    38.52
+   ],
+   "span": 3.3
+  },
+  "kumchon": {
+   "center": [
+    126.5,
+    38.18
+   ],
+   "span": 0.85
+  },
+  "mid": {
+   "center": [
+    126.48,
+    38.55
+   ],
+   "span": 1.6
+  },
+  "outer": {
+   "center": [
+    125.9,
+    38.84
+   ],
+   "span": 1.25
+  },
+  "yulli": {
+   "center": [
+    125.95,
+    38.98
+   ],
+   "span": 0.9
+  },
+  "pyong": {
+   "center": [
+    125.83,
+    39.0
+   ],
+   "span": 0.55
+  },
+  "jidong": {
+   "center": [
+    125.86,
+    38.97
+   ],
+   "span": 0.32
+  },
+  "city": {
+   "center": [
+    125.775,
+    39.032
+   ],
+   "span": 0.2
+  },
+  "ford": {
+   "center": [
+    125.81,
+    39.05
+   ],
+   "span": 0.26
+  },
+  "pyongw": {
+   "center": [
+    125.62,
+    38.98
+   ],
+   "span": 0.75
+  },
+  "north": {
+   "center": [
+    125.85,
+    39.25
+   ],
+   "span": 1.4
+  },
+  "yalu": {
+   "center": [
+    125.2,
+    40.35
+   ],
+   "span": 2.6
+  }
+ },
+ "music": [
+  {
+   "id": "drone",
+   "from": "s001",
+   "to": "s025",
+   "volume": 0.2
+  },
+  {
+   "id": "theme",
+   "from": "s026",
+   "to": "s096",
+   "volume": 0.16
+  },
+  {
+   "id": "tension",
+   "from": "s097",
+   "to": "s126",
+   "volume": 0.17
+  },
+  {
+   "id": "march",
+   "from": "s127",
+   "to": "s191",
+   "volume": 0.16
+  },
+  {
+   "id": "analysis",
+   "from": "s192",
+   "to": "s259",
+   "volume": 0.16
+  },
+  {
+   "id": "somber",
+   "from": "s260",
+   "to": "s263",
+   "volume": 0.17
+  }
+ ],
+ "ai_images": {
+  "letters_table": "Two folded handwritten military letters on faded yellowish paper with a round red ink stamp, lying on a rough wooden field table beside a folded paper map, a compass and an oil lamp, July 1950, close-up, the handwriting blurred and unreadable, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no flags, no text, no letters.",
+  "helmets_row": "A row of steel helmets resting on rifles planted in the ground on a Korean hillside at sunset in spring, wild flowers, solemn, painterly realistic digital illustration, cinematic wide shot, dark desaturated palette, film grain, no people visible, no text, no letters.",
+  "taedong_blast": "A long steel truss bridge over a wide river exploding in the middle in October 1950, huge plume of black smoke and dust, an old Korean city with tiled roofs on the far bank, autumn haze, tiny distant silhouettes of soldiers on the near riverbank seen from behind, cinematic photorealistic reenactment, 1950 Korean War, muted desaturated film color, 35mm documentary still, film grain, faces not identifiable, absolutely no flags, no banners, no text, no letters, no numbers.",
+  "tank_riders": "South Korean soldiers in 1950 olive drab US-style fatigues and M1 steel helmets, absolutely no collar tabs, no patches, no red, no stars, many infantrymen riding on top of plain olive drab M4 Sherman tanks with no markings, no stars and no numbers, driving along a dusty winding mountain dirt road through autumn hills in North Korea in October 1950, seen from behind and above, small figures, cinematic photorealistic reenactment, 1950 Korean War, muted desaturated film color, 35mm documentary still, film grain, faces not identifiable, absolutely no flags, no banners, no text, no letters, no numbers.",
+  "acetate_map": "Close view of a 1950 military operations map on a wooden field table inside a canvas tent, a clear transparent acetate overlay sheet on top with hand-drawn grease pencil arrows and lines only, a kerosene lantern, a compass and a pencil, the map shows only blank terrain contours and rivers without any writing, no people, cinematic photorealistic reenactment, 1950 Korean War, muted desaturated film color, 35mm documentary still, film grain, faces not identifiable, absolutely no flags, no banners, no text, no letters, no numbers.",
+  "dust_column": "From a hilltop, a long column of olive drab army trucks and tanks with no markings driving north on a wide dusty dirt road through golden autumn rice fields in North Korea in October 1950, clouds of dust, small distant vehicles, no people close, cinematic photorealistic reenactment, 1950 Korean War, muted desaturated film color, 35mm documentary still, film grain, faces not identifiable, absolutely no flags, no banners, no text, no letters, no numbers.",
+  "mined_road": "A destroyed old 1940s army jeep with no markings lying tilted beside a crater on a narrow autumn dirt road near a river in North Korea in October 1950, thin smoke, scattered debris, wet ground, no people visible, cinematic photorealistic reenactment, 1950 Korean War, muted desaturated film color, 35mm documentary still, film grain, faces not identifiable, absolutely no flags, no banners, no text, no letters, no numbers.",
+  "rain_barrage": "Night in heavy rain in October 1950, a row of artillery guns and dark tanks with no markings firing toward low hills, bright muzzle flashes reflected in puddles, smoke and rain streaks, gun crews as dark silhouettes seen from behind, cinematic photorealistic reenactment, 1950 Korean War, muted desaturated film color, 35mm documentary still, film grain, faces not identifiable, absolutely no flags, no banners, no text, no letters, no numbers.",
+  "field_phone": "An abandoned muddy trench on a hill at grey dawn after rain in October 1950, an old hand-crank military field telephone in a wooden case with a long black wire running along the trench, spent shell casings, no people, cinematic photorealistic reenactment, 1950 Korean War, muted desaturated film color, 35mm documentary still, film grain, faces not identifiable, absolutely no flags, no banners, no text, no letters, no numbers.",
+  "pyongyang_1950": "A hazy autumn morning view across a wide calm river toward an old Korean city in 1950, a traditional Korean gate pavilion with curved tiled roof on the riverbank, low tiled roofs, a wooded hill with an old pavilion behind, smoke rising in the distance, no flags anywhere, no people, cinematic photorealistic reenactment, 1950 Korean War, muted desaturated film color, 35mm documentary still, film grain, faces not identifiable, absolutely no flags, no banners, no text, no letters, no numbers.",
+  "ford_crossing": "Dusk in October 1950, a long line of South Korean soldiers in 1950 olive drab US-style fatigues and M1 steel helmets, absolutely no collar tabs, no patches, no red, no stars wading across a wide shallow river holding rifles above their heads, cold mist on the water, low hills on the far bank, seen from far behind as dark silhouettes, cinematic photorealistic reenactment, 1950 Korean War, muted desaturated film color, 35mm documentary still, film grain, faces not identifiable, absolutely no flags, no banners, no text, no letters, no numbers."
+ },
+ "scenes": [
+  {
+   "id": "s001",
+   "lines": [
+    {
+     "t": "1950년 10월 19일 오전 11시 무렵입니다.",
+     "say": "천구백오십년 시월 십구일 오전 열한 시 무렵입니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "city",
+    "to": "city",
+    "items": [
+     {
+      "k": "lock",
+      "p": "river",
+      "text": "대동강 · 평양",
+      "at": 0.3
+     },
+     {
+      "k": "marker",
+      "p": "seongyo",
+      "color": "blue",
+      "at": 0.5
+     }
+    ],
+    "tilt": 34
+   },
+   "date": "1950. 10. 19",
+   "clock": "11:00",
+   "legend": [
+    {
+     "icon": "kr",
+     "text": "국군"
+    },
+    {
+     "icon": "us",
+     "text": "미군"
+    },
+    {
+     "icon": "nk",
+     "text": "북한군"
+    }
+   ],
+   "src": [
+    1
+   ],
+   "hook": {
+    "hud": [
+     {
+      "big": "1950. 10. 19",
+      "sub": "평양 대동강",
+      "sub2": "오전 11시 무렵",
+      "at": 0.0,
+      "count": false
+     }
+    ]
+   },
+   "act": 0
+  },
+  {
+   "id": "s002",
+   "lines": [
+    "평양 남쪽을 흐르는 대동강 강가입니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "pyong",
+    "to": "pyong",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "lock",
+      "p": "river",
+      "text": "평양 남쪽 · 대동강",
+      "at": 0.2
+     }
+    ],
+    "tilt": 26
+   },
+   "act": 0
+  },
+  {
+   "id": "s003",
+   "lines": [
+    "흙먼지를 뒤집어쓴 국군 병사들이 다리 입구 로터리로 쏟아져 들어옵니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s003-photo",
+    "tag": "국방화보 · 1950. 10. 19",
+    "lower": {
+     "title": "평양으로 들어가는 장병들",
+     "date": "1950. 10. 19"
+    }
+   },
+   "sfx": [
+    {
+     "id": "tank",
+     "at": 0.2
+    }
+   ],
+   "act": 0
+  },
+  {
+   "id": "s004",
+   "lines": [
+    {
+     "t": "국군 제1사단 제12연대였습니다.",
+     "say": "국군 제일사단 제십이연대였습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "city",
+    "to": "city",
+    "items": [
+     {
+      "k": "unit",
+      "p": "seongyo",
+      "text": "국군 제1사단 제12연대",
+      "color": "blue",
+      "at": 0.2,
+      "pulse": true
+     }
+    ],
+    "tilt": 34
+   },
+   "src": [
+    1
+   ],
+   "act": 0
+  },
+  {
+   "id": "s005",
+   "lines": [
+    "바로 그때 강 위에서 거대한 폭음이 울렸습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "taedong_blast",
+    "kb": "in",
+    "lower": {
+     "title": "대동강 다리 폭파",
+     "date": "1950. 10. 19",
+     "sub": "재연"
+    }
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.1
+    }
+   ],
+   "act": 0
+  },
+  {
+   "id": "s006",
+   "lines": [
+    "북한군이 대동강의 다리 두 개를 한꺼번에 끊어 버린 것입니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "city",
+    "to": "city",
+    "items": [
+     {
+      "k": "clash",
+      "p": "bridge",
+      "period": 0.9,
+      "size": 1.0,
+      "at": 0.1
+     },
+     {
+      "k": "clash",
+      "p": "rail",
+      "period": 0.9,
+      "size": 1.0,
+      "at": 0.3
+     },
+     {
+      "k": "badge",
+      "p": "bridge",
+      "text": "대동교 · 철교 폭파",
+      "color": "#c9242c",
+      "dy": -80,
+      "at": 0.5
+     }
+    ],
+    "tilt": 34
+   },
+   "stamp": {
+    "text": "폭파",
+    "on": "끊어",
+    "x": 0.5,
+    "y": 0.42
+   },
+   "src": [
+    1
+   ],
+   "act": 0
+  },
+  {
+   "id": "s007",
+   "lines": [
+    "강 건너편에는 북한의 심장인 본평양이 있었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "city",
+    "to": "city",
+    "items": [
+     {
+      "k": "lock",
+      "p": "bon",
+      "text": "본평양 · 북한의 심장",
+      "at": 0.3,
+      "color": "#c9242c"
+     }
+    ],
+    "tilt": 34
+   },
+   "act": 0
+  },
+  {
+   "id": "s008",
+   "lines": [
+    {
+     "t": "같은 시각 남쪽 큰길에서는 미군 제1기병사단이 달려오고 있었습니다.",
+     "say": "같은 시각 남쪽 큰길에서는 미군 제일기병사단이 달려오고 있었습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "route",
+    "to": "route",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.555,
+        37.971
+       ],
+       [
+        126.48,
+        38.15
+       ],
+       [
+        126.39,
+        38.33
+       ],
+       [
+        126.1,
+        38.43
+       ],
+       [
+        125.86,
+        38.48
+       ],
+       [
+        125.776,
+        38.66
+       ],
+       [
+        125.74,
+        38.86
+       ],
+       [
+        125.75,
+        38.99
+       ]
+      ],
+      "color": "#7fd3ff",
+      "glow": true,
+      "at": 0.1
+     },
+     {
+      "k": "unit",
+      "p": "hwangju",
+      "text": "미 제1기병사단",
+      "color": "blue",
+      "at": 0.4,
+      "pulse": true
+     }
+    ],
+    "tilt": 14
+   },
+   "legend": [
+    {
+     "icon": "kr",
+     "text": "국군 제1사단"
+    },
+    {
+     "icon": "us",
+     "text": "미 제1기병사단"
+    },
+    {
+     "icon": "nk",
+     "text": "북한군"
+    },
+    {
+     "icon": "route",
+     "text": "진격로"
+    }
+   ],
+   "src": [
+    1,
+    2
+   ],
+   "act": 0
+  },
+  {
+   "id": "s009",
+   "lines": [
+    "미군은 평양으로 가는 가장 짧고 가장 넓은 길을 받았습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "route",
+    "to": "route",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.555,
+        37.971
+       ],
+       [
+        126.48,
+        38.15
+       ],
+       [
+        126.39,
+        38.33
+       ],
+       [
+        126.1,
+        38.43
+       ],
+       [
+        125.86,
+        38.48
+       ],
+       [
+        125.776,
+        38.66
+       ],
+       [
+        125.74,
+        38.86
+       ],
+       [
+        125.75,
+        38.99
+       ]
+      ],
+      "color": "#7fd3ff",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "sariwon",
+      "text": "가장 짧고 넓은 길",
+      "color": "#111",
+      "dy": -60,
+      "at": 0.3
+     }
+    ],
+    "tilt": 14
+   },
+   "act": 0
+  },
+  {
+   "id": "s010",
+   "lines": [
+    {
+     "t": "국군 제1사단은 산을 몇 겹이나 넘는 먼 길을 받았습니다.",
+     "say": "국군 제일사단은 산을 몇 겹이나 넘는 먼 길을 받았습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "route",
+    "to": "route",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.555,
+        37.971
+       ],
+       [
+        126.48,
+        38.15
+       ],
+       [
+        126.39,
+        38.33
+       ],
+       [
+        126.1,
+        38.43
+       ],
+       [
+        125.86,
+        38.48
+       ],
+       [
+        125.776,
+        38.66
+       ],
+       [
+        125.74,
+        38.86
+       ],
+       [
+        125.75,
+        38.99
+       ]
+      ],
+      "color": "#7fd3ff",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        126.88,
+        38.0
+       ],
+       [
+        126.73,
+        38.3
+       ],
+       [
+        126.53,
+        38.5
+       ],
+       [
+        126.36,
+        38.73
+       ],
+       [
+        126.09,
+        38.85
+       ],
+       [
+        126.0,
+        38.9
+       ],
+       [
+        125.88,
+        38.95
+       ],
+       [
+        125.772,
+        39.012
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "at": 0.1
+     },
+     {
+      "k": "badge",
+      "p": "suan",
+      "text": "산을 넘는 먼 길",
+      "color": "#111",
+      "dy": -60,
+      "at": 0.4
+     }
+    ],
+    "tilt": 14
+   },
+   "src": [
+    1,
+    2
+   ],
+   "act": 0
+  },
+  {
+   "id": "s011",
+   "lines": [
+    "미군에게는 트럭과 전차가 넘쳤습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s011-photo",
+    "tag": "미 육군 통신대 사진",
+    "lower": {
+     "title": "미 제1기병사단의 전차",
+     "date": "1950. 9. 19"
+    }
+   },
+   "act": 0
+  },
+  {
+   "id": "s012",
+   "lines": [
+    {
+     "t": "국군 제1사단은 트럭이 모자라 출발부터 이틀이나 늦었습니다.",
+     "say": "국군 제일사단은 트럭이 모자라 출발부터 이틀이나 늦었습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "route",
+    "to": "route",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.555,
+        37.971
+       ],
+       [
+        126.48,
+        38.15
+       ],
+       [
+        126.39,
+        38.33
+       ],
+       [
+        126.1,
+        38.43
+       ],
+       [
+        125.86,
+        38.48
+       ],
+       [
+        125.776,
+        38.66
+       ],
+       [
+        125.74,
+        38.86
+       ],
+       [
+        125.75,
+        38.99
+       ]
+      ],
+      "color": "#7fd3ff",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        126.88,
+        38.0
+       ],
+       [
+        126.73,
+        38.3
+       ],
+       [
+        126.53,
+        38.5
+       ],
+       [
+        126.36,
+        38.73
+       ],
+       [
+        126.09,
+        38.85
+       ],
+       [
+        126.0,
+        38.9
+       ],
+       [
+        125.88,
+        38.95
+       ],
+       [
+        125.772,
+        39.012
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "korangpo",
+      "text": "국군 제1사단",
+      "color": "blue",
+      "at": 0.2
+     }
+    ],
+    "tilt": 14
+   },
+   "hook": {
+    "hud": [
+     {
+      "big": "+2일",
+      "sub": "국군 제1사단 늦은 출발",
+      "sub2": "10. 9 → 10. 11",
+      "on": "이틀이나"
+     }
+    ]
+   },
+   "src": [
+    1
+   ],
+   "act": 0
+  },
+  {
+   "id": "s013",
+   "lines": [
+    "누가 봐도 결과가 정해진 경주였습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "누가 봐도",
+    "accent": "정해진 경주",
+    "accentAt": 0.5
+   },
+   "act": 0
+  },
+  {
+   "id": "s014",
+   "lines": [
+    "그런데 한국 측 기록은 이렇게 남아 있습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "city",
+    "to": "city",
+    "items": [
+     {
+      "k": "lock",
+      "p": "seongyo",
+      "text": "?",
+      "at": 0.3,
+      "color": "#c9242c"
+     }
+    ],
+    "tilt": 34
+   },
+   "act": 0
+  },
+  {
+   "id": "s015",
+   "lines": [
+    {
+     "t": "대동강 다리 입구에 가장 먼저 닿은 부대는 국군 제1사단이었다.",
+     "say": "대동강 다리 입구에 가장 먼저 닿은 부대는 국군 제일사단이었다."
+    },
+    {
+     "t": "시각은 오전 10시 50분이었습니다.",
+     "say": "시각은 오전 열 시 오십 분이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "city",
+    "to": "city",
+    "items": [
+     {
+      "k": "marker",
+      "p": "seongyo",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "lock",
+      "p": "seongyo",
+      "text": "선교리 로터리 · 대동교 입구",
+      "at": 0.2
+     }
+    ],
+    "tilt": 34
+   },
+   "clock": "10:50",
+   "clip": {
+    "source": "국방일보 「평양탈환작전」 · 군사편찬연구소 (요지)",
+    "text": "대동교 입구 선교리 로터리에\n[[제일 먼저]] 도착한 부대 — 국군 제1사단",
+    "on": "가장 먼저",
+    "recreated": true
+   },
+   "hook": {
+    "hud": [
+     {
+      "big": "10:50",
+      "sub": "선교리 로터리 도착",
+      "sub2": "한국 측 기록",
+      "on": "오십 분",
+      "count": false
+     }
+    ]
+   },
+   "src": [
+    1
+   ],
+   "act": 0
+  },
+  {
+   "id": "s016",
+   "lines": [
+    {
+     "t": "이 사단을 이끈 사람은 만 29살의 백선엽 준장이었습니다.",
+     "say": "이 사단을 이끈 사람은 만 스물아홉 살의 백선엽 준장이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s016-photo",
+    "tag": "1950. 10",
+    "lower": {
+     "title": "국군 제1사단장 백선엽 준장",
+     "date": "1950. 10"
+    }
+   },
+   "hook": {
+    "hud": [
+     {
+      "big": "만 29세",
+      "sub": "사단장 나이",
+      "sub2": "1920. 11. 23생",
+      "on": "스물아홉",
+      "count": false
+     }
+    ]
+   },
+   "src": [
+    4
+   ],
+   "act": 0
+  },
+  {
+   "id": "s017",
+   "lines": [
+    "그가 태어나 자란 곳이 바로 이 평양 근처였습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "pyongw",
+    "to": "pyongw",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "lock",
+      "p": "birth",
+      "text": "고향 · 평남 강서군 (현 남포)",
+      "at": 0.3
+     }
+    ],
+    "tilt": 20
+   },
+   "src": [
+    4
+   ],
+   "act": 0
+  },
+  {
+   "id": "s018",
+   "lines": [
+    "흔히 미군이 길을 다 열어 주어서 국군이 쉽게 따라 들어갔다고 말합니다.",
+    "정말 그랬을까요?"
+   ],
+   "visual": {
+    "type": "black",
+    "text": "“미군이 길을 다 열어 줬다”"
+   },
+   "hook": {
+    "neg": {
+     "text": "미군이 열어 준 길을 따라갔다",
+     "at": 0.3,
+     "xOn": "그랬을까요"
+    }
+   },
+   "act": 0
+  },
+  {
+   "id": "s019",
+   "lines": [
+    {
+     "t": "국군 제1사단이 걸은 길에는 지뢰와 토치카가 기다리고 있었습니다.",
+     "say": "국군 제일사단이 걸은 길에는 지뢰와 토치카가 기다리고 있었습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "jidong",
+    "to": "jidong",
+    "items": [
+     {
+      "k": "marker",
+      "p": [
+       125.87,
+       38.95
+      ],
+      "color": "red",
+      "at": 0.2
+     },
+     {
+      "k": "marker",
+      "p": [
+       125.885,
+       38.958
+      ],
+      "color": "red",
+      "at": 0.3
+     },
+     {
+      "k": "marker",
+      "p": [
+       125.875,
+       38.94
+      ],
+      "color": "red",
+      "at": 0.4
+     },
+     {
+      "k": "badge",
+      "p": "jidong",
+      "text": "지뢰 · 토치카",
+      "color": "#c9242c",
+      "dy": -70,
+      "at": 0.5
+     }
+    ],
+    "tilt": 36,
+    "tone": "night"
+   },
+   "src": [
+    1,
+    2
+   ],
+   "act": 0
+  },
+  {
+   "id": "s020",
+   "lines": [
+    "병사들은 트럭 대신 전차 위에 올라타고 밤낮으로 달렸습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "tank_riders",
+    "kb": "in",
+    "lower": {
+     "title": "전차 위에 오른 보병",
+     "date": "1950. 10",
+     "sub": "재연"
+    }
+   },
+   "label": "재연 일러스트",
+   "act": 0
+  },
+  {
+   "id": "s021",
+   "lines": [
+    "그렇다면 무엇이 이 경주를 뒤집었을까요?"
+   ],
+   "visual": {
+    "type": "map",
+    "from": "route",
+    "to": "route",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.555,
+        37.971
+       ],
+       [
+        126.48,
+        38.15
+       ],
+       [
+        126.39,
+        38.33
+       ],
+       [
+        126.1,
+        38.43
+       ],
+       [
+        125.86,
+        38.48
+       ],
+       [
+        125.776,
+        38.66
+       ],
+       [
+        125.74,
+        38.86
+       ],
+       [
+        125.75,
+        38.99
+       ]
+      ],
+      "color": "#7fd3ff",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        126.88,
+        38.0
+       ],
+       [
+        126.73,
+        38.3
+       ],
+       [
+        126.53,
+        38.5
+       ],
+       [
+        126.36,
+        38.73
+       ],
+       [
+        126.09,
+        38.85
+       ],
+       [
+        126.0,
+        38.9
+       ],
+       [
+        125.88,
+        38.95
+       ],
+       [
+        125.772,
+        39.012
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "lock",
+      "p": "pyongyang",
+      "text": "?",
+      "at": 0.3,
+      "color": "#c9242c"
+     }
+    ],
+    "tilt": 14
+   },
+   "sfx": [
+    {
+     "id": "ping",
+     "at": 0.4
+    }
+   ],
+   "act": 0
+  },
+  {
+   "id": "s022",
+   "lines": [
+    {
+     "t": "이틀 늦게 출발한 국군 제1사단은 어떻게 미군보다 먼저 평양에 닿았을까요?",
+     "say": "이틀 늦게 출발한 국군 제일사단은 어떻게 미군보다 먼저 평양에 닿았을까요?"
+    }
+   ],
+   "visual": {
+    "type": "black",
+    "text": " "
+   },
+   "hook": {
+    "question": {
+     "text": "이틀 늦게 출발한 국군 1사단은\n어떻게 미군보다 먼저 평양에 닿았나",
+     "at": 0.05
+    }
+   },
+   "src": [
+    1,
+    2
+   ],
+   "act": 0
+  },
+  {
+   "id": "s023",
+   "lines": [
+    "그 답은 지도 위 세 곳에 숨어 있습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "yulli",
+    "to": "yulli",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "yulli",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "yulli",
+      "color": "blue",
+      "at": 0.3
+     },
+     {
+      "k": "marker",
+      "p": "jidong",
+      "color": "blue",
+      "at": 0.5
+     },
+     {
+      "k": "marker",
+      "p": "ford",
+      "color": "blue",
+      "at": 0.7
+     },
+     {
+      "k": "badge",
+      "p": "pyongyang",
+      "text": "세 곳",
+      "color": "#111",
+      "dy": -60,
+      "at": 0.3
+     }
+    ],
+    "tilt": 24
+   },
+   "act": 0
+  },
+  {
+   "id": "s024",
+   "lines": [
+    "갈림길 하나와 비 내리던 밤 하나 그리고 강물 속의 얕은 여울 하나입니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "yulli",
+    "to": "yulli",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "yulli",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "yulli",
+      "text": "갈림길",
+      "color": "#111",
+      "dy": -70,
+      "on": "갈림길"
+     },
+     {
+      "k": "badge",
+      "p": "jidong",
+      "text": "비 내리던 밤",
+      "color": "#111",
+      "dy": -90,
+      "on": "밤"
+     },
+     {
+      "k": "badge",
+      "p": "ford",
+      "text": "얕은 여울",
+      "color": "#111",
+      "dy": -70,
+      "on": "여울"
+     }
+    ],
+    "tilt": 24
+   },
+   "act": 0
+  },
+  {
+   "id": "s025",
+   "lines": [
+    "이제 그 열하루의 경주를 따라가 보겠습니다."
+   ],
+   "visual": {
+    "type": "titlecard",
+    "title": "열하루의 경주",
+    "sub": "평양 최초 입성 작전 · 1950",
+    "at": 0,
+    "q": "s025-photo"
+   },
+   "flash": true,
+   "act": 0
+  },
+  {
+   "id": "s026",
+   "lines": [
+    "이야기는 한 달 전으로 거슬러 올라갑니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "korea",
+    "items": [
+     {
+      "k": "marker",
+      "p": "inchon",
+      "color": "blue",
+      "at": 0.3
+     },
+     {
+      "k": "marker",
+      "p": "naktong",
+      "color": "red",
+      "at": 0.4
+     }
+    ],
+    "tilt": 10
+   },
+   "chapter": {
+    "num": "제1막",
+    "title": "삼팔선 앞의 열흘"
+   },
+   "date": "1950. 9",
+   "legend": [
+    {
+     "icon": "kr",
+     "text": "국군 제1사단"
+    },
+    {
+     "icon": "us",
+     "text": "미 제1기병사단"
+    },
+    {
+     "icon": "nk",
+     "text": "북한군"
+    },
+    {
+     "icon": "route",
+     "text": "진격로"
+    }
+   ],
+   "act": 1
+  },
+  {
+   "id": "s027",
+   "lines": [
+    {
+     "t": "1950년 9월 15일 유엔군이 인천에 상륙했습니다.",
+     "say": "천구백오십년 구월 십오일 유엔군이 인천에 상륙했습니다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s027-photo",
+    "tag": "미 해군 사진",
+    "lower": {
+     "title": "인천으로 향하는 상륙정",
+     "date": "1950. 9. 15"
+    }
+   },
+   "src": [
+    1,
+    2
+   ],
+   "act": 1
+  },
+  {
+   "id": "s028",
+   "lines": [
+    "낙동강에 매달려 있던 북한군은 순식간에 앞뒤로 갇혔습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "korea",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.62,
+        37.47
+       ],
+       [
+        127.3,
+        37.05
+       ],
+       [
+        127.9,
+        36.6
+       ]
+      ],
+      "color": "blue",
+      "width": 1.2,
+      "at": 0.1
+     },
+     {
+      "k": "marker",
+      "p": "naktong",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "naktong",
+      "text": "앞뒤로 갇힌 북한군",
+      "color": "#c9242c",
+      "dy": -60,
+      "at": 0.5
+     }
+    ],
+    "tilt": 10
+   },
+   "act": 1
+  },
+  {
+   "id": "s029",
+   "lines": [
+    {
+     "t": "9월 28일 서울이 다시 대한민국의 손에 들어왔습니다.",
+     "say": "구월 이십팔일 서울이 다시 대한민국의 손에 들어왔습니다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s029-photo",
+    "tag": "미 육군 사진",
+    "lower": {
+     "title": "서울 환도식",
+     "date": "1950. 9. 29"
+    }
+   },
+   "date": "1950. 9. 28",
+   "src": [
+    1,
+    2
+   ],
+   "act": 1
+  },
+  {
+   "id": "s030",
+   "lines": [
+    {
+     "t": "이제 눈앞에 38선이 있었습니다.",
+     "say": "이제 눈앞에 삼팔선이 있었습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "korea",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        124.6,
+        38.0
+       ],
+       [
+        125.5,
+        38.0
+       ],
+       [
+        126.5,
+        38.0
+       ],
+       [
+        127.5,
+        38.0
+       ],
+       [
+        128.7,
+        38.0
+       ]
+      ],
+      "color": "#ff6a5a",
+      "glow": true,
+      "at": 0.1
+     },
+     {
+      "k": "lock",
+      "p": [
+       126.9,
+       38.0
+      ],
+      "text": "38선",
+      "at": 0.4
+     }
+    ],
+    "tilt": 10
+   },
+   "src": [
+    1,
+    2
+   ],
+   "act": 1
+  },
+  {
+   "id": "s031",
+   "lines": [
+    "이 선을 넘을 것인가 여기서 멈출 것인가."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "넘을 것인가",
+    "accent": "멈출 것인가",
+    "accentAt": 0.5
+   },
+   "act": 1
+  },
+  {
+   "id": "s032",
+   "lines": [
+    "먼저 움직인 것은 국군이었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "korea",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        124.6,
+        38.0
+       ],
+       [
+        125.5,
+        38.0
+       ],
+       [
+        126.5,
+        38.0
+       ],
+       [
+        127.5,
+        38.0
+       ],
+       [
+        128.7,
+        38.0
+       ]
+      ],
+      "color": "#ff6a5a",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "yangyang",
+      "text": "국군 제1군단",
+      "color": "blue",
+      "at": 0.3,
+      "pulse": true
+     }
+    ],
+    "tilt": 10
+   },
+   "act": 1
+  },
+  {
+   "id": "s033",
+   "lines": [
+    {
+     "t": "10월 1일 동해안의 국군 제1군단이 38선을 넘었습니다.",
+     "say": "시월 일일 동해안의 국군 제일군단이 삼팔선을 넘었습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "korea",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        124.6,
+        38.0
+       ],
+       [
+        125.5,
+        38.0
+       ],
+       [
+        126.5,
+        38.0
+       ],
+       [
+        127.5,
+        38.0
+       ],
+       [
+        128.7,
+        38.0
+       ]
+      ],
+      "color": "#ff6a5a",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.62,
+        38.07
+       ],
+       [
+        128.3,
+        38.6
+       ],
+       [
+        127.8,
+        39.0
+       ],
+       [
+        127.44,
+        39.15
+       ]
+      ],
+      "color": "blue",
+      "width": 1.2,
+      "at": 0.1
+     },
+     {
+      "k": "lock",
+      "p": "yangyang",
+      "text": "동해안 38선 돌파",
+      "at": 0.4
+     }
+    ],
+    "tilt": 10
+   },
+   "date": "1950. 10. 1",
+   "src": [
+    1
+   ],
+   "act": 1
+  },
+  {
+   "id": "s034",
+   "lines": [
+    "오늘 우리가 국군의 날로 기억하는 바로 그날입니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s034-photo",
+    "tag": "미 육군 통신대 사진",
+    "lower": {
+     "title": "38선 돌파를 알리는 국군 제3사단",
+     "date": "1950. 9월 말"
+    }
+   },
+   "act": 1
+  },
+  {
+   "id": "s035",
+   "lines": [
+    {
+     "t": "유엔은 10월 7일에야 북진을 결의했습니다.",
+     "say": "유엔은 시월 칠일에야 북진을 결의했습니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "유엔 총회 북진 결의",
+    "style": "blue",
+    "sub": "1950. 10. 7",
+    "subAt": 0.4
+   },
+   "src": [
+    1
+   ],
+   "act": 1
+  },
+  {
+   "id": "s036",
+   "lines": [
+    {
+     "t": "그동안 서쪽의 미군과 국군은 38선 앞에서 기다려야 했습니다.",
+     "say": "그동안 서쪽의 미군과 국군은 삼팔선 앞에서 기다려야 했습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "front",
+    "to": "front",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        124.6,
+        38.0
+       ],
+       [
+        125.5,
+        38.0
+       ],
+       [
+        126.5,
+        38.0
+       ],
+       [
+        127.5,
+        38.0
+       ],
+       [
+        128.7,
+        38.0
+       ]
+      ],
+      "color": "#ff6a5a",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "kaesong",
+      "text": "미군 · 국군 대기",
+      "color": "blue",
+      "at": 0.2
+     }
+    ],
+    "tilt": 18
+   },
+   "clock": "열흘",
+   "src": [
+    1,
+    2
+   ],
+   "act": 1
+  },
+  {
+   "id": "s037",
+   "lines": [
+    {
+     "t": "낙동강에서 38선까지 300여 km를 쉬지 않고 달려온 뒤였습니다.",
+     "say": "낙동강에서 삼팔선까지 삼백여 킬로미터를 쉬지 않고 달려온 뒤였습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "korea",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        128.5,
+        35.95
+       ],
+       [
+        128.2,
+        36.6
+       ],
+       [
+        127.6,
+        37.3
+       ],
+       [
+        126.9,
+        37.9
+       ]
+      ],
+      "color": "blue",
+      "dash": true,
+      "at": 0.1
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        124.6,
+        38.0
+       ],
+       [
+        125.5,
+        38.0
+       ],
+       [
+        126.5,
+        38.0
+       ],
+       [
+        127.5,
+        38.0
+       ],
+       [
+        128.7,
+        38.0
+       ]
+      ],
+      "color": "#ff6a5a",
+      "glow": true,
+      "at": 0
+     }
+    ],
+    "tilt": 10
+   },
+   "hook": {
+    "hud": [
+     {
+      "big": "300여 km",
+      "sub": "낙동강 → 38선",
+      "on": "삼백여"
+     }
+    ]
+   },
+   "src": [
+    1
+   ],
+   "act": 1
+  },
+  {
+   "id": "s038",
+   "lines": [
+    "그런데 그 열흘 동안 북한군도 놀고 있지 않았습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "front",
+    "to": "front",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        124.6,
+        38.0
+       ],
+       [
+        125.5,
+        38.0
+       ],
+       [
+        126.5,
+        38.0
+       ],
+       [
+        127.5,
+        38.0
+       ],
+       [
+        128.7,
+        38.0
+       ]
+      ],
+      "color": "#ff6a5a",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "kaesong",
+      "text": "미군 · 국군",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "radar",
+      "p": "kumchon",
+      "at": 0.3,
+      "size": 0.8,
+      "color": "red"
+     }
+    ],
+    "tilt": 18
+   },
+   "act": 1
+  },
+  {
+   "id": "s039",
+   "lines": [
+    {
+     "t": "후방의 사람들을 끌어모아 3개 사단을 새로 만들었습니다.",
+     "say": "후방의 사람들을 끌어모아 세 개 사단을 새로 만들었습니다."
+    }
+   ],
+   "visual": {
+    "type": "troops",
+    "n": 30,
+    "cols": 10,
+    "side": "nk",
+    "title": "새로 만든 북한군 3개 사단",
+    "labels": [
+     {
+      "x": 0.5,
+      "y": 0.76,
+      "text": "3개 사단",
+      "on": "세 개",
+      "color": "red"
+     }
+    ]
+   },
+   "src": [
+    1
+   ],
+   "act": 1
+  },
+  {
+   "id": "s040",
+   "lines": [
+    {
+     "t": "그중 2개 사단을 평양으로 가는 길목 금천에 세웠습니다.",
+     "say": "그중 두 개 사단을 평양으로 가는 길목 금천에 세웠습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "kumchon",
+    "to": "kumchon",
+    "items": [
+     {
+      "k": "marker",
+      "p": "kumchon",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "kumchon",
+      "text": "북한군 2개 사단",
+      "color": "red",
+      "at": 0.2,
+      "pulse": true
+     }
+    ],
+    "tilt": 26
+   },
+   "src": [
+    1
+   ],
+   "act": 1
+  },
+  {
+   "id": "s041",
+   "lines": [
+    {
+     "t": "10월 9일 아침 9시 서부 전선의 북진이 시작됐습니다.",
+     "say": "시월 구일 아침 아홉 시 서부 전선의 북진이 시작됐습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "front",
+    "to": "front",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        124.6,
+        38.0
+       ],
+       [
+        125.5,
+        38.0
+       ],
+       [
+        126.5,
+        38.0
+       ],
+       [
+        127.5,
+        38.0
+       ],
+       [
+        128.7,
+        38.0
+       ]
+      ],
+      "color": "#ff6a5a",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.555,
+        37.971
+       ],
+       [
+        126.5,
+        38.1
+       ]
+      ],
+      "color": "blue",
+      "width": 1.2,
+      "at": 0.2
+     },
+     {
+      "k": "marker",
+      "p": "kumchon",
+      "color": "red",
+      "at": 0
+     }
+    ],
+    "tilt": 18
+   },
+   "date": "1950. 10. 9",
+   "clock": "09:00",
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.3
+    }
+   ],
+   "src": [
+    1
+   ],
+   "act": 1
+  },
+  {
+   "id": "s042",
+   "lines": [
+    "목표는 단 하나 적의 수도 평양이었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "route",
+    "to": "route",
+    "items": [
+     {
+      "k": "lock",
+      "p": "pyongyang",
+      "text": "목표 · 적의 수도 평양",
+      "at": 0.3,
+      "color": "#c9242c"
+     }
+    ],
+    "tilt": 14
+   },
+   "clock": "",
+   "act": 1
+  },
+  {
+   "id": "s043",
+   "lines": [
+    {
+     "t": "작전을 맡은 미 제1군단의 군단장은 프랭크 밀번 소장이었습니다.",
+     "say": "작전을 맡은 미 제일군단의 군단장은 프랭크 밀번 소장이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s043-photo",
+    "tag": "미 육군 사진",
+    "lower": {
+     "title": "미 제1군단장 밀번",
+     "date": "1950"
+    }
+   },
+   "src": [
+    1,
+    2
+   ],
+   "act": 1
+  },
+  {
+   "id": "s044",
+   "lines": [
+    {
+     "t": "군단의 주력 부대는 미 제1기병사단이었습니다.",
+     "say": "군단의 주력 부대는 미 제일기병사단이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s044-photo",
+    "tag": "미 육군 사진",
+    "lower": {
+     "title": "미 제1기병사단 기관총반",
+     "date": "1950"
+    }
+   },
+   "src": [
+    1,
+    2
+   ],
+   "act": 1
+  },
+  {
+   "id": "s045",
+   "lines": [
+    "이름은 기병이지만 말 대신 트럭과 전차로 달리는 사단이었습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "dust_column",
+    "kb": "in",
+    "lower": {
+     "title": "큰길을 달리는 기병사단",
+     "date": "1950. 10",
+     "sub": "재연"
+    }
+   },
+   "label": "재연 일러스트",
+   "act": 1
+  },
+  {
+   "id": "s046",
+   "lines": [
+    "이 사단은 개성에서 금천과 사리원 황주를 지나 평양으로 가는 큰길을 받았습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "route",
+    "to": "route",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.555,
+        37.971
+       ],
+       [
+        126.48,
+        38.15
+       ],
+       [
+        126.39,
+        38.33
+       ],
+       [
+        126.1,
+        38.43
+       ],
+       [
+        125.86,
+        38.48
+       ],
+       [
+        125.776,
+        38.66
+       ],
+       [
+        125.74,
+        38.86
+       ],
+       [
+        125.75,
+        38.99
+       ]
+      ],
+      "color": "#7fd3ff",
+      "glow": true,
+      "at": 0.1
+     },
+     {
+      "k": "marker",
+      "p": "kaesong",
+      "color": "blue",
+      "on": "개성에서"
+     },
+     {
+      "k": "marker",
+      "p": "kumchon",
+      "color": "blue",
+      "on": "금천과"
+     },
+     {
+      "k": "marker",
+      "p": "sariwon",
+      "color": "blue",
+      "on": "사리원"
+     },
+     {
+      "k": "marker",
+      "p": "hwangju",
+      "color": "blue",
+      "on": "황주를"
+     }
+    ],
+    "tilt": 14
+   },
+   "act": 1
+  },
+  {
+   "id": "s047",
+   "lines": [
+    {
+     "t": "1번 도로라 불린 평양까지 가장 짧고 가장 넓은 길이었습니다.",
+     "say": "일번 도로라 불린 평양까지 가장 짧고 가장 넓은 길이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "route",
+    "to": "route",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.555,
+        37.971
+       ],
+       [
+        126.48,
+        38.15
+       ],
+       [
+        126.39,
+        38.33
+       ],
+       [
+        126.1,
+        38.43
+       ],
+       [
+        125.86,
+        38.48
+       ],
+       [
+        125.776,
+        38.66
+       ],
+       [
+        125.74,
+        38.86
+       ],
+       [
+        125.75,
+        38.99
+       ]
+      ],
+      "color": "#7fd3ff",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "sohung",
+      "text": "1번 도로",
+      "color": "#111",
+      "dy": -60,
+      "at": 0.3
+     }
+    ],
+    "tilt": 14
+   },
+   "src": [
+    1,
+    2
+   ],
+   "act": 1
+  },
+  {
+   "id": "s048",
+   "lines": [
+    {
+     "t": "국군 제1사단은 그 오른쪽 산악 지대를 맡았습니다.",
+     "say": "국군 제일사단은 그 오른쪽 산악 지대를 맡았습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "route",
+    "to": "route",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.555,
+        37.971
+       ],
+       [
+        126.48,
+        38.15
+       ],
+       [
+        126.39,
+        38.33
+       ],
+       [
+        126.1,
+        38.43
+       ],
+       [
+        125.86,
+        38.48
+       ],
+       [
+        125.776,
+        38.66
+       ],
+       [
+        125.74,
+        38.86
+       ],
+       [
+        125.75,
+        38.99
+       ]
+      ],
+      "color": "#7fd3ff",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        126.88,
+        38.0
+       ],
+       [
+        126.73,
+        38.3
+       ],
+       [
+        126.53,
+        38.5
+       ],
+       [
+        126.36,
+        38.73
+       ],
+       [
+        126.09,
+        38.85
+       ],
+       [
+        126.0,
+        38.9
+       ],
+       [
+        125.88,
+        38.95
+       ],
+       [
+        125.772,
+        39.012
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "at": 0.2
+     },
+     {
+      "k": "unit",
+      "p": "korangpo",
+      "text": "국군 제1사단",
+      "color": "blue",
+      "at": 0.4
+     }
+    ],
+    "tilt": 14
+   },
+   "src": [
+    1,
+    2
+   ],
+   "act": 1
+  },
+  {
+   "id": "s049",
+   "lines": [
+    "임진강의 고랑포에서 출발해 산골 마을들을 지나 평양 동쪽으로 들어가는 길이었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "mid",
+    "to": "mid",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.88,
+        38.0
+       ],
+       [
+        126.73,
+        38.3
+       ],
+       [
+        126.53,
+        38.5
+       ],
+       [
+        126.36,
+        38.73
+       ],
+       [
+        126.09,
+        38.85
+       ],
+       [
+        126.0,
+        38.9
+       ],
+       [
+        125.88,
+        38.95
+       ],
+       [
+        125.772,
+        39.012
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "korangpo",
+      "color": "blue",
+      "on": "고랑포에서"
+     },
+     {
+      "k": "marker",
+      "p": "sibyon",
+      "color": "blue",
+      "at": 0.5
+     },
+     {
+      "k": "marker",
+      "p": "singye",
+      "color": "blue",
+      "at": 0.6
+     },
+     {
+      "k": "marker",
+      "p": "suan",
+      "color": "blue",
+      "at": 0.7
+     }
+    ],
+    "tilt": 20
+   },
+   "act": 1
+  },
+  {
+   "id": "s050",
+   "lines": [
+    {
+     "t": "고랑포에서 평양까지는 직선으로만 재도 150km가 넘었습니다.",
+     "say": "고랑포에서 평양까지는 직선으로만 재도 백오십 킬로미터가 넘었습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "route",
+    "to": "route",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.88,
+        38.0
+       ],
+       [
+        126.73,
+        38.3
+       ],
+       [
+        126.53,
+        38.5
+       ],
+       [
+        126.36,
+        38.73
+       ],
+       [
+        126.09,
+        38.85
+       ],
+       [
+        126.0,
+        38.9
+       ],
+       [
+        125.88,
+        38.95
+       ],
+       [
+        125.772,
+        39.012
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.88,
+        38.0
+       ],
+       [
+        125.755,
+        39.025
+       ]
+      ],
+      "color": "blue",
+      "dash": true,
+      "at": 0.2
+     }
+    ],
+    "tilt": 14
+   },
+   "hook": {
+    "hud": [
+     {
+      "big": "150km+",
+      "sub": "고랑포 → 평양 직선",
+      "sub2": "지도 계산",
+      "on": "백오십"
+     }
+    ]
+   },
+   "src": [
+    7
+   ],
+   "act": 1
+  },
+  {
+   "id": "s051",
+   "lines": [
+    {
+     "t": "하지만 국군 제1사단의 가장 큰 문제는 길이 아니었습니다.",
+     "say": "하지만 국군 제일사단의 가장 큰 문제는 길이 아니었습니다."
+    }
+   ],
+   "visual": {
+    "type": "punch",
+    "text": "문제는 길이 아니었다"
+   },
+   "src": [
+    1,
+    2
+   ],
+   "act": 1
+  },
+  {
+   "id": "s052",
+   "lines": [
+    "병사들을 실어 나를 트럭이 턱없이 모자랐습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s052-photo",
+    "tag": "미 육군 통신대 사진",
+    "lower": {
+     "title": "걸어서 이동하는 국군",
+     "date": "1950. 8"
+    }
+   },
+   "act": 1
+  },
+  {
+   "id": "s053",
+   "lines": [
+    {
+     "t": "국군 제1사단이 고랑포 앞 38선 진지를 뚫은 것은 10월 11일 아침이었습니다.",
+     "say": "국군 제일사단이 고랑포 앞 삼팔선 진지를 뚫은 것은 시월 십일일 아침이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "front",
+    "to": "front",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        124.6,
+        38.0
+       ],
+       [
+        125.5,
+        38.0
+       ],
+       [
+        126.5,
+        38.0
+       ],
+       [
+        127.5,
+        38.0
+       ],
+       [
+        128.7,
+        38.0
+       ]
+      ],
+      "color": "#ff6a5a",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "lock",
+      "p": "korangpo",
+      "text": "고랑포 · 38선 돌파",
+      "at": 0.2
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.88,
+        38.0
+       ],
+       [
+        126.8,
+        38.15
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0.4
+     }
+    ],
+    "tilt": 18
+   },
+   "date": "1950. 10. 11",
+   "src": [
+    1
+   ],
+   "act": 1
+  },
+  {
+   "id": "s054",
+   "lines": [
+    "미군보다 이틀 늦은 출발이었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "front",
+    "to": "front",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        124.6,
+        38.0
+       ],
+       [
+        125.5,
+        38.0
+       ],
+       [
+        126.5,
+        38.0
+       ],
+       [
+        127.5,
+        38.0
+       ],
+       [
+        128.7,
+        38.0
+       ]
+      ],
+      "color": "#ff6a5a",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "korangpo",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "kumchon",
+      "color": "red",
+      "at": 0
+     }
+    ],
+    "tilt": 18
+   },
+   "hook": {
+    "hud": [
+     {
+      "big": "+2일",
+      "sub": "미군보다 늦은 출발",
+      "sub2": "10. 9 → 10. 11",
+      "on": "이틀"
+     }
+    ]
+   },
+   "src": [
+    1
+   ],
+   "act": 1
+  },
+  {
+   "id": "s055",
+   "lines": [
+    {
+     "t": "그 무렵 미군은 금천에서 북한군 2개 사단과 맞붙어 있었습니다.",
+     "say": "그 무렵 미군은 금천에서 북한군 두 개 사단과 맞붙어 있었습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "kumchon",
+    "to": "kumchon",
+    "items": [
+     {
+      "k": "marker",
+      "p": "kumchon",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "clash",
+      "p": "kumchon",
+      "period": 0.9,
+      "size": 1.0,
+      "at": 0.1
+     },
+     {
+      "k": "unit",
+      "p": [
+       126.53,
+       38.06
+      ],
+      "text": "미 제1기병사단",
+      "color": "blue",
+      "at": 0.3
+     }
+    ],
+    "tilt": 26
+   },
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.2
+    }
+   ],
+   "src": [
+    1,
+    2
+   ],
+   "act": 1
+  },
+  {
+   "id": "s056",
+   "lines": [
+    "금천 들판 곳곳에는 지뢰가 깔려 있었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "kumchon",
+    "to": "kumchon",
+    "items": [
+     {
+      "k": "marker",
+      "p": "kumchon",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": [
+       126.46,
+       38.12
+      ],
+      "text": "지뢰",
+      "color": "#c9242c",
+      "dy": -50,
+      "at": 0.2
+     },
+     {
+      "k": "badge",
+      "p": [
+       126.52,
+       38.13
+      ],
+      "text": "지뢰",
+      "color": "#c9242c",
+      "dy": -50,
+      "at": 0.4
+     },
+     {
+      "k": "badge",
+      "p": [
+       126.5,
+       38.1
+      ],
+      "text": "지뢰",
+      "color": "#c9242c",
+      "dy": -50,
+      "at": 0.6
+     }
+    ],
+    "tilt": 26
+   },
+   "src": [
+    1
+   ],
+   "act": 1
+  },
+  {
+   "id": "s057",
+   "lines": [
+    {
+     "t": "그러자 기병사단은 2개 연대를 적의 좌우로 크게 돌렸습니다.",
+     "say": "그러자 기병사단은 두 개 연대를 적의 좌우로 크게 돌렸습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "kumchon",
+    "to": "kumchon",
+    "items": [
+     {
+      "k": "marker",
+      "p": "kumchon",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.5,
+        38.02
+       ],
+       [
+        126.36,
+        38.12
+       ],
+       [
+        126.43,
+        38.25
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.6,
+        38.02
+       ],
+       [
+        126.58,
+        38.17
+       ],
+       [
+        126.43,
+        38.25
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0.3
+     }
+    ],
+    "tilt": 26
+   },
+   "src": [
+    1,
+    2
+   ],
+   "act": 1
+  },
+  {
+   "id": "s058",
+   "lines": [
+    {
+     "t": "10월 12일 아침 두 연대가 적의 등 뒤 한포리를 차지했습니다.",
+     "say": "시월 십이일 아침 두 연대가 적의 등 뒤 한포리를 차지했습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "kumchon",
+    "to": "kumchon",
+    "items": [
+     {
+      "k": "marker",
+      "p": "kumchon",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.5,
+        38.02
+       ],
+       [
+        126.36,
+        38.12
+       ],
+       [
+        126.43,
+        38.25
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.6,
+        38.02
+       ],
+       [
+        126.58,
+        38.17
+       ],
+       [
+        126.43,
+        38.25
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0
+     },
+     {
+      "k": "lock",
+      "p": "hanpo",
+      "text": "한포리 · 적의 등 뒤",
+      "at": 0.3
+     }
+    ],
+    "tilt": 26
+   },
+   "date": "1950. 10. 12",
+   "src": [
+    1
+   ],
+   "act": 1
+  },
+  {
+   "id": "s059",
+   "lines": [
+    {
+     "t": "퇴로가 막힌 북한군 2개 사단은 14일까지 무너졌습니다.",
+     "say": "퇴로가 막힌 북한군 두 개 사단은 십사일까지 무너졌습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "kumchon",
+    "to": "kumchon",
+    "items": [
+     {
+      "k": "marker",
+      "p": "kumchon",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "clash",
+      "p": "kumchon",
+      "period": 0.9,
+      "size": 1.0,
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "kumchon",
+      "text": "북한군 2개 사단 붕괴",
+      "color": "#c9242c",
+      "dy": -70,
+      "at": 0.3
+     }
+    ],
+    "tilt": 26
+   },
+   "date": "1950. 10. 14",
+   "src": [
+    1
+   ],
+   "act": 1
+  },
+  {
+   "id": "s060",
+   "lines": [
+    "평양으로 가는 큰길이 활짝 열렸습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "route",
+    "to": "route",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.555,
+        37.971
+       ],
+       [
+        126.48,
+        38.15
+       ],
+       [
+        126.39,
+        38.33
+       ],
+       [
+        126.1,
+        38.43
+       ],
+       [
+        125.86,
+        38.48
+       ],
+       [
+        125.776,
+        38.66
+       ],
+       [
+        125.74,
+        38.86
+       ],
+       [
+        125.75,
+        38.99
+       ]
+      ],
+      "color": "#ffffff",
+      "glow": true,
+      "at": 0.1
+     }
+    ],
+    "tilt": 14
+   },
+   "callouts": [
+    {
+     "text": "평양으로 가는 큰길",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ],
+   "act": 1
+  },
+  {
+   "id": "s061",
+   "lines": [
+    "이제 누가 봐도 미군이 한참 앞서 있었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "route",
+    "to": "route",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.555,
+        37.971
+       ],
+       [
+        126.48,
+        38.15
+       ],
+       [
+        126.39,
+        38.33
+       ],
+       [
+        126.1,
+        38.43
+       ],
+       [
+        125.86,
+        38.48
+       ],
+       [
+        125.776,
+        38.66
+       ],
+       [
+        125.74,
+        38.86
+       ],
+       [
+        125.75,
+        38.99
+       ]
+      ],
+      "color": "#7fd3ff",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "kumchon",
+      "text": "미 제1기병사단",
+      "color": "blue",
+      "at": 0.2
+     },
+     {
+      "k": "unit",
+      "p": "korangpo",
+      "text": "국군 제1사단",
+      "color": "blue",
+      "at": 0.4
+     },
+     {
+      "k": "badge",
+      "p": "kumchon",
+      "text": "한참 앞선 미군",
+      "color": "#111",
+      "dy": -90,
+      "at": 0.6
+     }
+    ],
+    "tilt": 14
+   },
+   "act": 1
+  },
+  {
+   "id": "s062",
+   "lines": [
+    {
+     "t": "그런데 원래 계획에는 국군 제1사단의 이름이 평양 곁에 없었습니다.",
+     "say": "그런데 원래 계획에는 국군 제일사단의 이름이 평양 곁에 없었습니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "acetate_map",
+    "kb": "in",
+    "lower": {
+     "title": "군단 작전 지도",
+     "date": "1950. 10",
+     "sub": "재연"
+    }
+   },
+   "label": "재연 일러스트",
+   "chapter": {
+    "num": "제2막",
+    "title": "투명지 지도 한 장"
+   },
+   "src": [
+    1,
+    2
+   ],
+   "act": 2
+  },
+  {
+   "id": "s063",
+   "lines": [
+    "이 이야기를 하려면 먼저 한 사람을 알아야 합니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s063-photo",
+    "tag": "1950",
+    "lower": {
+     "title": "백선엽",
+     "date": "1950"
+    }
+   },
+   "act": 2
+  },
+  {
+   "id": "s064",
+   "lines": [
+    "사단장 백선엽 준장입니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "사단장 백선엽 준장",
+    "style": "blue",
+    "sub": "국군 제1사단 · 1950",
+    "subAt": 0.4
+   },
+   "act": 2
+  },
+  {
+   "id": "s065",
+   "lines": [
+    {
+     "t": "그는 1920년 11월 평안남도 강서군 덕흥리에서 태어났습니다.",
+     "say": "그는 천구백이십년 십일월 평안남도 강서군 덕흥리에서 태어났습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "pyongw",
+    "to": "pyongw",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "lock",
+      "p": "birth",
+      "text": "평남 강서군 덕흥리",
+      "at": 0.3
+     }
+    ],
+    "tilt": 20
+   },
+   "date": "1920. 11",
+   "src": [
+    4
+   ],
+   "act": 2
+  },
+  {
+   "id": "s066",
+   "lines": [
+    "지금의 남포시로 평양에서 멀지 않은 곳입니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "pyongw",
+    "to": "pyongw",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "birth",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        125.5,
+        38.93
+       ],
+       [
+        125.755,
+        39.025
+       ]
+      ],
+      "color": "blue",
+      "dash": true,
+      "at": 0.3
+     },
+     {
+      "k": "badge",
+      "p": "birth",
+      "text": "지금의 남포시",
+      "color": "#111",
+      "dy": -60,
+      "at": 0.4
+     }
+    ],
+    "tilt": 20
+   },
+   "act": 2
+  },
+  {
+   "id": "s067",
+   "lines": [
+    "그는 평양사범학교를 졸업하고 잠시 교사로 일했습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s067-photo",
+    "tag": "옛 엽서",
+    "lower": {
+     "title": "평양 을밀대 (옛 엽서)"
+    }
+   },
+   "src": [
+    4
+   ],
+   "act": 2
+  },
+  {
+   "id": "s068",
+   "lines": [
+    "그 뒤 만주국의 군관학교를 나와 만주국군 장교가 됐습니다."
+   ],
+   "visual": {
+    "type": "flatmap",
+    "center": [
+     125.5,
+     42.0
+    ],
+    "span": 12,
+    "fill": {
+     "410": "#f1e4c6",
+     "408": "#e8b6a5",
+     "392": "#e6d9bd",
+     "156": "#dcc9a3"
+    },
+    "pins": [
+     {
+      "ll": [
+       123.43,
+       41.8
+      ],
+      "text": "봉천(선양) · 군관학교",
+      "side": "below",
+      "at": 0.3
+     }
+    ],
+    "routes": [],
+    "labels": [],
+    "zoomTo": 0.92,
+    "title": "만주국 · 1940년대"
+   },
+   "src": [
+    4
+   ],
+   "act": 2
+  },
+  {
+   "id": "s069",
+   "lines": [
+    "그가 복무한 간도특설대는 독립군을 토벌한 부대로 악명이 높았습니다."
+   ],
+   "visual": {
+    "type": "flatmap",
+    "center": [
+     125.5,
+     42.0
+    ],
+    "span": 12,
+    "fill": {
+     "410": "#f1e4c6",
+     "408": "#e8b6a5",
+     "392": "#e6d9bd",
+     "156": "#dcc9a3"
+    },
+    "pins": [
+     {
+      "ll": [
+       123.43,
+       41.8
+      ],
+      "text": "봉천(선양)",
+      "side": "below",
+      "at": 0
+     },
+     {
+      "ll": [
+       129.5,
+       42.9
+      ],
+      "text": "간도특설대",
+      "side": "below",
+      "at": 0.3,
+      "color": "#c9242c"
+     }
+    ],
+    "routes": [],
+    "labels": [],
+    "zoomTo": 0.92,
+    "title": "만주국 · 1940년대"
+   },
+   "src": [
+    4
+   ],
+   "act": 2
+  },
+  {
+   "id": "s070",
+   "lines": [
+    "그래서 그의 이름에는 지금도 전쟁 영웅이라는 평가와 친일 경력에 대한 비판이 함께 따라다닙니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "전쟁 영웅 · 친일 경력 비판",
+    "style": "dark",
+    "sub": "두 평가가 함께",
+    "subAt": 0.4
+   },
+   "src": [
+    4
+   ],
+   "act": 2
+  },
+  {
+   "id": "s071",
+   "lines": [
+    "해방 뒤 그는 고향 평양에서 조만식 선생의 비서로 일했습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "pyongw",
+    "to": "pyongw",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "lock",
+      "p": "pyongyang",
+      "text": "해방 뒤 · 평양",
+      "at": 0.3
+     }
+    ],
+    "tilt": 20
+   },
+   "date": "1945",
+   "src": [
+    4
+   ],
+   "act": 2
+  },
+  {
+   "id": "s072",
+   "lines": [
+    {
+     "t": "그리고 1945년 12월 남쪽으로 내려왔습니다.",
+     "say": "그리고 천구백사십오년 십이월 남쪽으로 내려왔습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "korea",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        125.755,
+        39.025
+       ],
+       [
+        126.978,
+        37.566
+       ]
+      ],
+      "color": "blue",
+      "dash": true,
+      "at": 0.2
+     },
+     {
+      "k": "marker",
+      "p": "seoul",
+      "color": "blue",
+      "at": 0.6
+     }
+    ],
+    "tilt": 10
+   },
+   "date": "1945. 12",
+   "src": [
+    4
+   ],
+   "act": 2
+  },
+  {
+   "id": "s073",
+   "lines": [
+    {
+     "t": "1950년 4월 그는 만 29살에 국군 제1사단장이 됐습니다.",
+     "say": "천구백오십년 사월 그는 만 스물아홉 살에 국군 제일사단장이 됐습니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "국군 제1사단장 · 만 29세",
+    "style": "blue",
+    "sub": "1950. 4",
+    "subAt": 0.4
+   },
+   "src": [
+    4
+   ],
+   "act": 2
+  },
+  {
+   "id": "s074",
+   "lines": [
+    {
+     "t": "제1사단은 개전 첫날 바로 그 개성 앞에서 무너졌습니다.",
+     "say": "제일사단은 개전 첫날 바로 그 개성 앞에서 무너졌습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "front",
+    "to": "front",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        124.6,
+        38.0
+       ],
+       [
+        125.5,
+        38.0
+       ],
+       [
+        126.5,
+        38.0
+       ],
+       [
+        127.5,
+        38.0
+       ],
+       [
+        128.7,
+        38.0
+       ]
+      ],
+      "color": "#ff6a5a",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "clash",
+      "p": "kaesong",
+      "period": 0.9,
+      "size": 1.0,
+      "at": 0.2
+     },
+     {
+      "k": "lock",
+      "p": "kaesong",
+      "text": "개성 · 개전 첫날",
+      "at": 0.4,
+      "color": "#c9242c"
+     }
+    ],
+    "tilt": 18
+   },
+   "date": "1950. 6. 25",
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.2
+    }
+   ],
+   "src": [
+    1,
+    2
+   ],
+   "act": 2
+  },
+  {
+   "id": "s075",
+   "lines": [
+    "여름에는 대구 북쪽 다부동에서 두 달 가까이 낙동강 방어선을 지켰습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "south",
+    "to": "south",
+    "items": [
+     {
+      "k": "lock",
+      "p": "dabudong",
+      "text": "다부동 · 낙동강 방어선",
+      "at": 0.3
+     }
+    ],
+    "tilt": 14
+   },
+   "date": "1950. 8 ~ 9",
+   "act": 2
+  },
+  {
+   "id": "s076",
+   "lines": [
+    "어느 날 백선엽은 군단 작전 지도를 들여다보다 얼굴이 굳었습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "letters_table",
+    "kb": "in",
+    "lower": {
+     "title": "작전 지도 앞의 사단장",
+     "sub": "재연"
+    }
+   },
+   "label": "재연 일러스트",
+   "act": 2
+  },
+  {
+   "id": "s077",
+   "lines": [
+    "지도 위에 덮인 투명지에 화살표들이 그려져 있었습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "acetate_map",
+    "kb": "out",
+    "lower": {
+     "title": "투명지 위의 화살표",
+     "sub": "재연"
+    }
+   },
+   "label": "재연 일러스트",
+   "act": 2
+  },
+  {
+   "id": "s078",
+   "lines": [
+    {
+     "t": "평양을 향한 화살표 옆에 국군 제1사단의 이름은 없었습니다.",
+     "say": "평양을 향한 화살표 옆에 국군 제일사단의 이름은 없었습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "route",
+    "to": "route",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.555,
+        37.971
+       ],
+       [
+        126.48,
+        38.15
+       ],
+       [
+        126.39,
+        38.33
+       ],
+       [
+        126.1,
+        38.43
+       ],
+       [
+        125.86,
+        38.48
+       ],
+       [
+        125.776,
+        38.66
+       ],
+       [
+        125.74,
+        38.86
+       ],
+       [
+        125.75,
+        38.99
+       ]
+      ],
+      "color": "blue",
+      "width": 1.2,
+      "at": 0.1
+     },
+     {
+      "k": "badge",
+      "p": "pyongyang",
+      "text": "국군 제1사단 없음",
+      "color": "#c9242c",
+      "dy": -60,
+      "at": 0.5
+     }
+    ],
+    "tilt": 14
+   },
+   "src": [
+    1
+   ],
+   "act": 2
+  },
+  {
+   "id": "s079",
+   "lines": [
+    {
+     "t": "제1사단의 화살표는 서쪽 해안 해주와 진남포 쪽을 가리키고 있었습니다.",
+     "say": "제일사단의 화살표는 서쪽 해안 해주와 진남포 쪽을 가리키고 있었습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "route",
+    "to": "route",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.45,
+        37.95
+       ],
+       [
+        126.0,
+        37.98
+       ],
+       [
+        125.71,
+        38.04
+       ],
+       [
+        125.45,
+        38.62
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0.1
+     },
+     {
+      "k": "marker",
+      "p": "haeju",
+      "color": "blue",
+      "on": "해주와"
+     },
+     {
+      "k": "marker",
+      "p": "jinnampo",
+      "color": "blue",
+      "on": "진남포"
+     }
+    ],
+    "tilt": 14
+   },
+   "src": [
+    1
+   ],
+   "act": 2
+  },
+  {
+   "id": "s080",
+   "lines": [
+    "백선엽은 곧장 군단장 밀번 소장을 찾아가 이렇게 말했습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s080-photo",
+    "tag": "미 육군 통신대 사진",
+    "lower": {
+     "title": "대구 부근 지휘소의 백선엽 준장",
+     "date": "1950. 9. 18"
+    }
+   },
+   "act": 2
+  },
+  {
+   "id": "s081",
+   "lines": [
+    "한국 군대와 국민의 마음을 생각하면 적의 수도를 치는 데 한국군이 빠져서는 안 됩니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "route",
+    "to": "route",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.555,
+        37.971
+       ],
+       [
+        126.48,
+        38.15
+       ],
+       [
+        126.39,
+        38.33
+       ],
+       [
+        126.1,
+        38.43
+       ],
+       [
+        125.86,
+        38.48
+       ],
+       [
+        125.776,
+        38.66
+       ],
+       [
+        125.74,
+        38.86
+       ],
+       [
+        125.75,
+        38.99
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     }
+    ],
+    "tilt": 14
+   },
+   "clip": {
+    "source": "백선엽의 건의 (요지) · 국방일보",
+    "text": "적의 수도 공격에\n[[한국군이 빠져서는 안 된다]]",
+    "on": "빠져서는",
+    "recreated": true
+   },
+   "src": [
+    1
+   ],
+   "act": 2
+  },
+  {
+   "id": "s082",
+   "lines": [
+    "그는 옛 싸움 하나도 꺼내 들었습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "청일전쟁 · 1894",
+    "style": "dark",
+    "sub": "일본군의 평양 공격",
+    "subAt": 0.4
+   },
+   "src": [
+    1
+   ],
+   "act": 2
+  },
+  {
+   "id": "s083",
+   "lines": [
+    "청일전쟁 때 일본군이 평양을 공격한 길이었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "yulli",
+    "to": "yulli",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "yulli",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.3,
+        38.96
+       ],
+       [
+        126.0,
+        38.95
+       ],
+       [
+        125.79,
+        39.012
+       ]
+      ],
+      "color": "blue",
+      "dash": true,
+      "at": 0.2
+     },
+     {
+      "k": "badge",
+      "p": [
+       126.3,
+       38.96
+      ],
+      "text": "옛 싸움의 길",
+      "color": "#111",
+      "dy": -60,
+      "at": 0.4
+     }
+    ],
+    "tilt": 24
+   },
+   "act": 2
+  },
+  {
+   "id": "s084",
+   "lines": [
+    "그 길을 따라 평양의 동쪽을 치겠다는 것이었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "yulli",
+    "to": "yulli",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "yulli",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.3,
+        38.96
+       ],
+       [
+        126.0,
+        38.95
+       ],
+       [
+        125.79,
+        39.012
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0.1
+     },
+     {
+      "k": "lock",
+      "p": "east",
+      "text": "평양의 동쪽",
+      "at": 0.4
+     }
+    ],
+    "tilt": 24
+   },
+   "act": 2
+  },
+  {
+   "id": "s085",
+   "lines": [
+    "그곳은 그가 자란 고향의 땅이었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "pyongw",
+    "to": "pyongw",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "birth",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "birth",
+      "text": "자란 땅",
+      "color": "#111",
+      "dy": -60,
+      "at": 0.3
+     }
+    ],
+    "tilt": 20
+   },
+   "act": 2
+  },
+  {
+   "id": "s086",
+   "lines": [
+    "밀번 소장은 참모장을 불러 지시했습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s086-photo",
+    "tag": "미 육군 사진",
+    "lower": {
+     "title": "미 제1군단장 밀번",
+     "date": "1950"
+    }
+   },
+   "src": [
+    1
+   ],
+   "act": 2
+  },
+  {
+   "id": "s087",
+   "lines": [
+    {
+     "t": "국군 제1사단과 미 제24사단의 임무를 서로 바꾸라는 것이었습니다.",
+     "say": "국군 제일사단과 미 제이십사사단의 임무를 서로 바꾸라는 것이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "route",
+    "to": "route",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.88,
+        38.0
+       ],
+       [
+        126.73,
+        38.3
+       ],
+       [
+        126.53,
+        38.5
+       ],
+       [
+        126.36,
+        38.73
+       ],
+       [
+        126.09,
+        38.85
+       ],
+       [
+        126.0,
+        38.9
+       ],
+       [
+        125.88,
+        38.95
+       ],
+       [
+        125.772,
+        39.012
+       ]
+      ],
+      "color": "blue",
+      "width": 1.1,
+      "on": "제일사단과"
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.45,
+        37.95
+       ],
+       [
+        126.0,
+        37.98
+       ],
+       [
+        125.71,
+        38.04
+       ],
+       [
+        125.45,
+        38.62
+       ]
+      ],
+      "color": "blue",
+      "dash": true,
+      "on": "이십사사단의"
+     }
+    ],
+    "tilt": 14
+   },
+   "src": [
+    1
+   ],
+   "act": 2
+  },
+  {
+   "id": "s088",
+   "lines": [
+    {
+     "t": "미 제24사단이 서쪽 해안으로 가고 국군 제1사단이 평양 동쪽을 맡게 됐습니다.",
+     "say": "미 제이십사사단이 서쪽 해안으로 가고 국군 제일사단이 평양 동쪽을 맡게 됐습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "route",
+    "to": "route",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.88,
+        38.0
+       ],
+       [
+        126.73,
+        38.3
+       ],
+       [
+        126.53,
+        38.5
+       ],
+       [
+        126.36,
+        38.73
+       ],
+       [
+        126.09,
+        38.85
+       ],
+       [
+        126.0,
+        38.9
+       ],
+       [
+        125.88,
+        38.95
+       ],
+       [
+        125.772,
+        39.012
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.45,
+        37.95
+       ],
+       [
+        126.0,
+        37.98
+       ],
+       [
+        125.71,
+        38.04
+       ],
+       [
+        125.45,
+        38.62
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "jinnampo",
+      "text": "미 제24사단",
+      "color": "#111",
+      "dy": -60,
+      "at": 0.2
+     },
+     {
+      "k": "badge",
+      "p": "yulli",
+      "text": "국군 제1사단",
+      "color": "#111",
+      "dy": -60,
+      "at": 0.4
+     }
+    ],
+    "tilt": 14
+   },
+   "src": [
+    1,
+    2
+   ],
+   "act": 2
+  },
+  {
+   "id": "s089",
+   "lines": [
+    "투명지 위의 화살표 하나가 그렇게 바뀌었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "route",
+    "to": "route",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.88,
+        38.0
+       ],
+       [
+        126.73,
+        38.3
+       ],
+       [
+        126.53,
+        38.5
+       ],
+       [
+        126.36,
+        38.73
+       ],
+       [
+        126.09,
+        38.85
+       ],
+       [
+        126.0,
+        38.9
+       ],
+       [
+        125.88,
+        38.95
+       ],
+       [
+        125.772,
+        39.012
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "at": 0.1
+     },
+     {
+      "k": "lock",
+      "p": "pyongyang",
+      "text": "국군 제1사단 → 평양 동쪽",
+      "at": 0.4
+     }
+    ],
+    "tilt": 14
+   },
+   "act": 2
+  },
+  {
+   "id": "s090",
+   "lines": [
+    "하지만 화살표만 바뀌었을 뿐 사정은 그대로였습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "화살표만",
+    "accent": "바뀌었다",
+    "accentAt": 0.5
+   },
+   "act": 2
+  },
+  {
+   "id": "s091",
+   "lines": [
+    "트럭은 여전히 모자랐고 대포도 미군에 비하면 한참 적었습니다."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "미 제1기병사단",
+     "big": "트럭·대포 넉넉",
+     "icon": "none",
+     "color": "blue"
+    },
+    "right": {
+     "title": "국군 제1사단",
+     "big": "트럭·대포 부족",
+     "icon": "none",
+     "color": "blue",
+     "at": 0.6
+    }
+   },
+   "act": 2
+  },
+  {
+   "id": "s092",
+   "lines": [
+    {
+     "t": "출발 첫날부터 제1사단은 적의 진지 앞에서 막혔습니다.",
+     "say": "출발 첫날부터 제일사단은 적의 진지 앞에서 막혔습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "front",
+    "to": "front",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        124.6,
+        38.0
+       ],
+       [
+        125.5,
+        38.0
+       ],
+       [
+        126.5,
+        38.0
+       ],
+       [
+        127.5,
+        38.0
+       ],
+       [
+        128.7,
+        38.0
+       ]
+      ],
+      "color": "#ff6a5a",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "clash",
+      "p": [
+       126.86,
+       38.06
+      ],
+      "period": 0.9,
+      "size": 1.0,
+      "at": 0.2
+     },
+     {
+      "k": "badge",
+      "p": [
+       126.86,
+       38.06
+      ],
+      "text": "첫날부터 막힘",
+      "color": "#c9242c",
+      "dy": -60,
+      "at": 0.4
+     }
+    ],
+    "tilt": 18
+   },
+   "date": "1950. 10. 11",
+   "src": [
+    1
+   ],
+   "act": 2
+  },
+  {
+   "id": "s093",
+   "lines": [
+    "백선엽은 다시 밀번에게 전차를 보내 달라고 요청했습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s093-photo",
+    "tag": "미 육군 통신대 사진",
+    "lower": {
+     "title": "미군 전차",
+     "date": "1950. 9. 19"
+    }
+   },
+   "act": 2
+  },
+  {
+   "id": "s094",
+   "lines": [
+    {
+     "t": "밀번은 미군 전차 1개 중대를 제1사단에 붙여 주었습니다.",
+     "say": "밀번은 미군 전차 한 개 중대를 제일사단에 붙여 주었습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "front",
+    "to": "front",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        124.6,
+        38.0
+       ],
+       [
+        125.5,
+        38.0
+       ],
+       [
+        126.5,
+        38.0
+       ],
+       [
+        127.5,
+        38.0
+       ],
+       [
+        128.7,
+        38.0
+       ]
+      ],
+      "color": "#ff6a5a",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "korangpo",
+      "text": "미 전차 1개 중대 배속",
+      "color": "blue",
+      "on": "한 개 중대",
+      "pulse": true
+     }
+    ],
+    "tilt": 18
+   },
+   "src": [
+    1
+   ],
+   "act": 2
+  },
+  {
+   "id": "s095",
+   "lines": [
+    "미군 사단과 대등하게 겨뤄 보라는 뜻이었습니다."
+   ],
+   "visual": {
+    "type": "weapon",
+    "bg": "blueprint",
+    "units": [
+     {
+      "kind": "tank",
+      "x": 0.5,
+      "y": 0.64,
+      "w": 760,
+      "label": "미군 전차 중대",
+      "sub": "국군 제1사단에 배속"
+     }
+    ],
+    "title": "대등한 경쟁"
+   },
+   "src": [
+    1
+   ],
+   "act": 2
+  },
+  {
+   "id": "s096",
+   "lines": [
+    "이제 경주의 조건이 겨우 갖춰졌습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "route",
+    "to": "route",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.555,
+        37.971
+       ],
+       [
+        126.48,
+        38.15
+       ],
+       [
+        126.39,
+        38.33
+       ],
+       [
+        126.1,
+        38.43
+       ],
+       [
+        125.86,
+        38.48
+       ],
+       [
+        125.776,
+        38.66
+       ],
+       [
+        125.74,
+        38.86
+       ],
+       [
+        125.75,
+        38.99
+       ]
+      ],
+      "color": "#7fd3ff",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        126.88,
+        38.0
+       ],
+       [
+        126.73,
+        38.3
+       ],
+       [
+        126.53,
+        38.5
+       ],
+       [
+        126.36,
+        38.73
+       ],
+       [
+        126.09,
+        38.85
+       ],
+       [
+        126.0,
+        38.9
+       ],
+       [
+        125.88,
+        38.95
+       ],
+       [
+        125.772,
+        39.012
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "korangpo",
+      "text": "국군 제1사단",
+      "color": "blue",
+      "at": 0.2
+     },
+     {
+      "k": "unit",
+      "p": "kumchon",
+      "text": "미 제1기병사단",
+      "color": "blue",
+      "at": 0.3
+     }
+    ],
+    "tilt": 14
+   },
+   "callouts": [
+    {
+     "text": "경주 시작",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "act": 2
+  },
+  {
+   "id": "s097",
+   "lines": [
+    {
+     "t": "10월 13일 국군 제1사단은 시변리에 들어갔습니다.",
+     "say": "시월 십삼일 국군 제일사단은 시변리에 들어갔습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "mid",
+    "to": "mid",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.88,
+        38.0
+       ],
+       [
+        126.73,
+        38.3
+       ],
+       [
+        126.53,
+        38.5
+       ],
+       [
+        126.36,
+        38.73
+       ],
+       [
+        126.09,
+        38.85
+       ],
+       [
+        126.0,
+        38.9
+       ],
+       [
+        125.88,
+        38.95
+       ],
+       [
+        125.772,
+        39.012
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "lock",
+      "p": "sibyon",
+      "text": "시변리",
+      "at": 0.3
+     }
+    ],
+    "tilt": 18
+   },
+   "chapter": {
+    "num": "제3막",
+    "title": "멈추지 않는 사단"
+   },
+   "date": "1950. 10. 13",
+   "legend": [
+    {
+     "icon": "kr",
+     "text": "국군 제1사단"
+    },
+    {
+     "icon": "us",
+     "text": "미 제1기병사단"
+    },
+    {
+     "icon": "nk",
+     "text": "북한군"
+    },
+    {
+     "icon": "route",
+     "text": "진격로"
+    }
+   ],
+   "src": [
+    1
+   ],
+   "act": 3,
+   "pauseBefore": 0.5
+  },
+  {
+   "id": "s098",
+   "lines": [
+    "개성 동북쪽 산골의 중요한 갈림길이었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "mid",
+    "to": "mid",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.88,
+        38.0
+       ],
+       [
+        126.73,
+        38.3
+       ],
+       [
+        126.53,
+        38.5
+       ],
+       [
+        126.36,
+        38.73
+       ],
+       [
+        126.09,
+        38.85
+       ],
+       [
+        126.0,
+        38.9
+       ],
+       [
+        125.88,
+        38.95
+       ],
+       [
+        125.772,
+        39.012
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "sibyon",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "sibyon",
+      "text": "산골의 갈림길",
+      "color": "#111",
+      "dy": -60,
+      "at": 0.3
+     }
+    ],
+    "tilt": 18
+   },
+   "act": 3
+  },
+  {
+   "id": "s099",
+   "lines": [
+    "바로 그날 평양에서는 조용한 탈출이 벌어지고 있었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "pyong",
+    "to": "pyong",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "lock",
+      "p": "bon",
+      "text": "평양",
+      "at": 0.3,
+      "color": "#c9242c"
+     }
+    ],
+    "tilt": 26,
+    "tone": "night"
+   },
+   "act": 3
+  },
+  {
+   "id": "s100",
+   "lines": [
+    "김일성을 비롯한 북한 지도부가 평양을 버리고 북쪽 강계로 떠난 것입니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "nk",
+    "to": "nk",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        125.755,
+        39.03
+       ],
+       [
+        126.0,
+        39.6
+       ],
+       [
+        126.3,
+        40.3
+       ],
+       [
+        126.6,
+        40.97
+       ]
+      ],
+      "color": "red",
+      "dash": true,
+      "at": 0.1
+     },
+     {
+      "k": "lock",
+      "p": "kanggye",
+      "text": "강계로 · 북한 지도부",
+      "at": 0.5,
+      "color": "#c9242c"
+     }
+    ],
+    "tilt": 10
+   },
+   "src": [
+    1
+   ],
+   "act": 3
+  },
+  {
+   "id": "s101",
+   "lines": [
+    "금천이 무너지기 하루 전이었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "front",
+    "to": "front",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        124.6,
+        38.0
+       ],
+       [
+        125.5,
+        38.0
+       ],
+       [
+        126.5,
+        38.0
+       ],
+       [
+        127.5,
+        38.0
+       ],
+       [
+        128.7,
+        38.0
+       ]
+      ],
+      "color": "#ff6a5a",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "kumchon",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "kumchon",
+      "text": "금천 붕괴 하루 전",
+      "color": "#c9242c",
+      "dy": -60,
+      "at": 0.3
+     }
+    ],
+    "tilt": 18
+   },
+   "act": 3
+  },
+  {
+   "id": "s102",
+   "lines": [
+    {
+     "t": "10월 14일 제1사단은 신계에 닿았습니다.",
+     "say": "시월 십사일 제일사단은 신계에 닿았습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "mid",
+    "to": "mid",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.88,
+        38.0
+       ],
+       [
+        126.73,
+        38.3
+       ],
+       [
+        126.53,
+        38.5
+       ],
+       [
+        126.36,
+        38.73
+       ],
+       [
+        126.09,
+        38.85
+       ],
+       [
+        126.0,
+        38.9
+       ],
+       [
+        125.88,
+        38.95
+       ],
+       [
+        125.772,
+        39.012
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "lock",
+      "p": "singye",
+      "text": "신계",
+      "at": 0.3
+     }
+    ],
+    "tilt": 18
+   },
+   "date": "1950. 10. 14",
+   "src": [
+    1
+   ],
+   "act": 3
+  },
+  {
+   "id": "s103",
+   "lines": [
+    {
+     "t": "같은 날 미군은 금천에서 북한군 2개 사단을 무너뜨렸습니다.",
+     "say": "같은 날 미군은 금천에서 북한군 두 개 사단을 무너뜨렸습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "kumchon",
+    "to": "kumchon",
+    "items": [
+     {
+      "k": "marker",
+      "p": "kumchon",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "clash",
+      "p": "kumchon",
+      "period": 0.9,
+      "size": 1.0,
+      "at": 0.1
+     },
+     {
+      "k": "badge",
+      "p": "kumchon",
+      "text": "북한군 2개 사단 섬멸",
+      "color": "#c9242c",
+      "dy": -70,
+      "at": 0.4
+     }
+    ],
+    "tilt": 26
+   },
+   "src": [
+    1,
+    2
+   ],
+   "act": 3
+  },
+  {
+   "id": "s104",
+   "lines": [
+    {
+     "t": "10월 15일 제1사단 앞에 다시 적이 나타났습니다.",
+     "say": "시월 십오일 제일사단 앞에 다시 적이 나타났습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "mid",
+    "to": "mid",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.88,
+        38.0
+       ],
+       [
+        126.73,
+        38.3
+       ],
+       [
+        126.53,
+        38.5
+       ],
+       [
+        126.36,
+        38.73
+       ],
+       [
+        126.09,
+        38.85
+       ],
+       [
+        126.0,
+        38.9
+       ],
+       [
+        125.88,
+        38.95
+       ],
+       [
+        125.772,
+        39.012
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "miudong",
+      "text": "북한군 연대 규모",
+      "color": "red",
+      "at": 0.2,
+      "pulse": true
+     }
+    ],
+    "tilt": 18
+   },
+   "date": "1950. 10. 15",
+   "src": [
+    2
+   ],
+   "act": 3
+  },
+  {
+   "id": "s105",
+   "lines": [
+    {
+     "t": "전차 6대와 대포를 갖춘 연대 규모의 북한군이었습니다.",
+     "say": "전차 여섯 대와 대포를 갖춘 연대 규모의 북한군이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "mid",
+    "to": "mid",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.88,
+        38.0
+       ],
+       [
+        126.73,
+        38.3
+       ],
+       [
+        126.53,
+        38.5
+       ],
+       [
+        126.36,
+        38.73
+       ],
+       [
+        126.09,
+        38.85
+       ],
+       [
+        126.0,
+        38.9
+       ],
+       [
+        125.88,
+        38.95
+       ],
+       [
+        125.772,
+        39.012
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "miudong",
+      "text": "북한군",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "clash",
+      "p": "miudong",
+      "period": 0.9,
+      "size": 1.0,
+      "at": 0.2
+     }
+    ],
+    "tilt": 18
+   },
+   "hook": {
+    "hud": [
+     {
+      "big": "6대",
+      "sub": "북한군 전차",
+      "sub2": "미군 기록",
+      "on": "여섯",
+      "color": "#FF3B3B"
+     }
+    ]
+   },
+   "src": [
+    2
+   ],
+   "act": 3
+  },
+  {
+   "id": "s106",
+   "lines": [
+    "미군 전투기들이 날아와 적의 진지를 두드렸습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s106-photo",
+    "tag": "미 공군 사진",
+    "lower": {
+     "title": "미 공군 F-51 전투기",
+     "date": "1950"
+    }
+   },
+   "act": 3
+  },
+  {
+   "id": "s107",
+   "lines": [
+    {
+     "t": "제1사단은 그 길을 뚫고 다시 북쪽으로 나아갔습니다.",
+     "say": "제일사단은 그 길을 뚫고 다시 북쪽으로 나아갔습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "mid",
+    "to": "mid",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.88,
+        38.0
+       ],
+       [
+        126.73,
+        38.3
+       ],
+       [
+        126.53,
+        38.5
+       ],
+       [
+        126.36,
+        38.73
+       ],
+       [
+        126.09,
+        38.85
+       ],
+       [
+        126.0,
+        38.9
+       ],
+       [
+        125.88,
+        38.95
+       ],
+       [
+        125.772,
+        39.012
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.53,
+        38.5
+       ],
+       [
+        126.36,
+        38.73
+       ]
+      ],
+      "color": "blue",
+      "width": 1.1,
+      "at": 0.1
+     },
+     {
+      "k": "marker",
+      "p": "miudong",
+      "color": "red",
+      "at": 0
+     }
+    ],
+    "tilt": 18
+   },
+   "src": [
+    1,
+    2
+   ],
+   "act": 3
+  },
+  {
+   "id": "s108",
+   "lines": [
+    {
+     "t": "10월 16일 선두 부대가 수안에 들어갔습니다.",
+     "say": "시월 십육일 선두 부대가 수안에 들어갔습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "mid",
+    "to": "mid",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.88,
+        38.0
+       ],
+       [
+        126.73,
+        38.3
+       ],
+       [
+        126.53,
+        38.5
+       ],
+       [
+        126.36,
+        38.73
+       ],
+       [
+        126.09,
+        38.85
+       ],
+       [
+        126.0,
+        38.9
+       ],
+       [
+        125.88,
+        38.95
+       ],
+       [
+        125.772,
+        39.012
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "lock",
+      "p": "suan",
+      "text": "수안",
+      "at": 0.3
+     }
+    ],
+    "tilt": 18
+   },
+   "date": "1950. 10. 16",
+   "src": [
+    1,
+    2
+   ],
+   "act": 3
+  },
+  {
+   "id": "s109",
+   "lines": [
+    {
+     "t": "수안에서 평양까지는 직선으로 60여 km였습니다.",
+     "say": "수안에서 평양까지는 직선으로 육십여 킬로미터였습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "route",
+    "to": "route",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.88,
+        38.0
+       ],
+       [
+        126.73,
+        38.3
+       ],
+       [
+        126.53,
+        38.5
+       ],
+       [
+        126.36,
+        38.73
+       ],
+       [
+        126.09,
+        38.85
+       ],
+       [
+        126.0,
+        38.9
+       ],
+       [
+        125.88,
+        38.95
+       ],
+       [
+        125.772,
+        39.012
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.36,
+        38.73
+       ],
+       [
+        125.755,
+        39.025
+       ]
+      ],
+      "color": "blue",
+      "dash": true,
+      "at": 0.2
+     }
+    ],
+    "tilt": 14
+   },
+   "hook": {
+    "hud": [
+     {
+      "big": "60여 km",
+      "sub": "수안 → 평양 직선",
+      "sub2": "미군 기록 40마일",
+      "on": "육십여"
+     }
+    ]
+   },
+   "src": [
+    2
+   ],
+   "act": 3
+  },
+  {
+   "id": "s110",
+   "lines": [
+    "미군 기록에 백선엽이 밝힌 전술이 짧게 남아 있습니다.",
+    "멈추지 않는다는 것이었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "mid",
+    "to": "mid",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.88,
+        38.0
+       ],
+       [
+        126.73,
+        38.3
+       ],
+       [
+        126.53,
+        38.5
+       ],
+       [
+        126.36,
+        38.73
+       ],
+       [
+        126.09,
+        38.85
+       ],
+       [
+        126.0,
+        38.9
+       ],
+       [
+        125.88,
+        38.95
+       ],
+       [
+        125.772,
+        39.012
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.73,
+        38.3
+       ],
+       [
+        126.53,
+        38.5
+       ],
+       [
+        126.36,
+        38.73
+       ],
+       [
+        126.09,
+        38.85
+       ]
+      ],
+      "color": "blue",
+      "width": 1.1,
+      "at": 0.1
+     }
+    ],
+    "tilt": 18
+   },
+   "clip": {
+    "source": "애플먼 『낙동강에서 압록강으로』 (요지)",
+    "text": "백선엽이 밝힌 전술은\n[[멈추지 않는다]]",
+    "on": "멈추지",
+    "recreated": true
+   },
+   "src": [
+    2
+   ],
+   "act": 3
+  },
+  {
+   "id": "s111",
+   "lines": [
+    "트럭이 모자란 병사들은 미군 전차 위에 올라탔습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "tank_riders",
+    "kb": "out",
+    "lower": {
+     "title": "전차 위의 보병",
+     "sub": "재연"
+    }
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "tank",
+     "at": 0.2
+    }
+   ],
+   "act": 3
+  },
+  {
+   "id": "s112",
+   "lines": [
+    "전차 한 대 위에 보병 여러 명이 매달려 함께 달렸습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s112-photo",
+    "tag": "미 육군 사진",
+    "lower": {
+     "title": "전차에 오른 보병 (미 제2사단 제9연대)",
+     "date": "1950. 9"
+    }
+   },
+   "act": 3
+  },
+  {
+   "id": "s113",
+   "lines": [
+    "같은 시각 미군 기병사단도 큰길을 따라 거침없이 달렸습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "route",
+    "to": "route",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.555,
+        37.971
+       ],
+       [
+        126.48,
+        38.15
+       ],
+       [
+        126.39,
+        38.33
+       ],
+       [
+        126.1,
+        38.43
+       ],
+       [
+        125.86,
+        38.48
+       ],
+       [
+        125.776,
+        38.66
+       ],
+       [
+        125.74,
+        38.86
+       ],
+       [
+        125.75,
+        38.99
+       ]
+      ],
+      "color": "#7fd3ff",
+      "glow": true,
+      "at": 0.1
+     },
+     {
+      "k": "unit",
+      "p": "sohung",
+      "text": "미 제1기병사단",
+      "color": "blue",
+      "at": 0.3,
+      "pulse": true
+     }
+    ],
+    "tilt": 14
+   },
+   "act": 3
+  },
+  {
+   "id": "s114",
+   "lines": [
+    {
+     "t": "10월 16일에는 서흥에 닿았습니다.",
+     "say": "시월 십육일에는 서흥에 닿았습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "route",
+    "to": "route",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.555,
+        37.971
+       ],
+       [
+        126.48,
+        38.15
+       ],
+       [
+        126.39,
+        38.33
+       ],
+       [
+        126.1,
+        38.43
+       ],
+       [
+        125.86,
+        38.48
+       ],
+       [
+        125.776,
+        38.66
+       ],
+       [
+        125.74,
+        38.86
+       ],
+       [
+        125.75,
+        38.99
+       ]
+      ],
+      "color": "#7fd3ff",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "lock",
+      "p": "sohung",
+      "text": "서흥",
+      "at": 0.3
+     }
+    ],
+    "tilt": 14
+   },
+   "date": "1950. 10. 16",
+   "src": [
+    1
+   ],
+   "act": 3
+  },
+  {
+   "id": "s115",
+   "lines": [
+    {
+     "t": "기병사단은 사리원을 옆으로 비켜 지나 17일 황주에 들어갔습니다.",
+     "say": "기병사단은 사리원을 옆으로 비켜 지나 십칠일 황주에 들어갔습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "route",
+    "to": "route",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.555,
+        37.971
+       ],
+       [
+        126.48,
+        38.15
+       ],
+       [
+        126.39,
+        38.33
+       ],
+       [
+        126.1,
+        38.43
+       ],
+       [
+        125.86,
+        38.48
+       ],
+       [
+        125.776,
+        38.66
+       ],
+       [
+        125.74,
+        38.86
+       ],
+       [
+        125.75,
+        38.99
+       ]
+      ],
+      "color": "#7fd3ff",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "sariwon",
+      "text": "사리원 우회",
+      "color": "#111",
+      "dy": -60,
+      "at": 0.2
+     },
+     {
+      "k": "lock",
+      "p": "hwangju",
+      "text": "황주",
+      "at": 0.5
+     }
+    ],
+    "tilt": 14
+   },
+   "date": "1950. 10. 17",
+   "src": [
+    1
+   ],
+   "act": 3
+  },
+  {
+   "id": "s116",
+   "lines": [
+    {
+     "t": "황주에서 평양까지는 50km 남짓이었습니다.",
+     "say": "황주에서 평양까지는 오십 킬로미터 남짓이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "route",
+    "to": "route",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.555,
+        37.971
+       ],
+       [
+        126.48,
+        38.15
+       ],
+       [
+        126.39,
+        38.33
+       ],
+       [
+        126.1,
+        38.43
+       ],
+       [
+        125.86,
+        38.48
+       ],
+       [
+        125.776,
+        38.66
+       ],
+       [
+        125.74,
+        38.86
+       ],
+       [
+        125.75,
+        38.99
+       ]
+      ],
+      "color": "#7fd3ff",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        125.776,
+        38.66
+       ],
+       [
+        125.755,
+        39.025
+       ]
+      ],
+      "color": "blue",
+      "dash": true,
+      "at": 0.2
+     }
+    ],
+    "tilt": 14
+   },
+   "hook": {
+    "hud": [
+     {
+      "big": "50여 km",
+      "sub": "황주 → 평양",
+      "sub2": "지도 계산",
+      "on": "오십"
+     }
+    ]
+   },
+   "src": [
+    7
+   ],
+   "act": 3
+  },
+  {
+   "id": "s117",
+   "lines": [
+    "두 사단은 서로 다른 길에서 같은 도시를 향해 달리고 있었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "route",
+    "to": "route",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.555,
+        37.971
+       ],
+       [
+        126.48,
+        38.15
+       ],
+       [
+        126.39,
+        38.33
+       ],
+       [
+        126.1,
+        38.43
+       ],
+       [
+        125.86,
+        38.48
+       ],
+       [
+        125.776,
+        38.66
+       ],
+       [
+        125.74,
+        38.86
+       ],
+       [
+        125.75,
+        38.99
+       ]
+      ],
+      "color": "#7fd3ff",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        126.88,
+        38.0
+       ],
+       [
+        126.73,
+        38.3
+       ],
+       [
+        126.53,
+        38.5
+       ],
+       [
+        126.36,
+        38.73
+       ],
+       [
+        126.09,
+        38.85
+       ],
+       [
+        126.0,
+        38.9
+       ],
+       [
+        125.88,
+        38.95
+       ],
+       [
+        125.772,
+        39.012
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "hwangju",
+      "text": "미 제1기병사단",
+      "color": "blue",
+      "at": 0.2
+     },
+     {
+      "k": "unit",
+      "p": "suan",
+      "text": "국군 제1사단",
+      "color": "blue",
+      "at": 0.3
+     }
+    ],
+    "tilt": 14
+   },
+   "act": 3
+  },
+  {
+   "id": "s118",
+   "lines": [
+    "미군 기병사단에게는 남다른 자부심이 있었습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s118-photo",
+    "tag": "미 육군 통신대 사진",
+    "lower": {
+     "title": "미 제1기병사단장 게이 소장",
+     "date": "1950. 8. 25"
+    }
+   },
+   "act": 3
+  },
+  {
+   "id": "s119",
+   "lines": [
+    {
+     "t": "2차 대전 때 마닐라와 도쿄에 가장 먼저 들어간 부대가 바로 이들이었습니다.",
+     "say": "이차 대전 때 마닐라와 도쿄에 가장 먼저 들어간 부대가 바로 이들이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "flatmap",
+    "center": [
+     130.0,
+     25.0
+    ],
+    "span": 34,
+    "fill": {
+     "410": "#f1e4c6",
+     "408": "#e8b6a5",
+     "392": "#e6d9bd",
+     "156": "#dcc9a3"
+    },
+    "pins": [
+     {
+      "ll": [
+       120.98,
+       14.6
+      ],
+      "text": "마닐라",
+      "side": "below",
+      "on": "마닐라"
+     },
+     {
+      "ll": [
+       139.69,
+       35.69
+      ],
+      "text": "도쿄",
+      "side": "below",
+      "on": "도쿄에"
+     }
+    ],
+    "routes": [],
+    "labels": [],
+    "zoomTo": 0.92,
+    "title": "미 제1기병사단 · 2차 대전"
+   },
+   "src": [
+    6
+   ],
+   "act": 3
+  },
+  {
+   "id": "s120",
+   "lines": [
+    "이번에는 평양에도 가장 먼저 들어가겠다는 것이었습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "평양에도 가장 먼저",
+    "style": "blue",
+    "sub": "미 제1기병사단의 목표",
+    "subAt": 0.4
+   },
+   "src": [
+    6
+   ],
+   "act": 3
+  },
+  {
+   "id": "s121",
+   "lines": [
+    {
+     "t": "국군 제1사단에게도 물러설 수 없는 이유가 있었습니다.",
+     "say": "국군 제일사단에게도 물러설 수 없는 이유가 있었습니다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s121-photo",
+    "tag": "미 육군 통신대 사진",
+    "lower": {
+     "title": "고지로 오르는 국군",
+     "date": "1950. 8"
+    }
+   },
+   "src": [
+    1,
+    2
+   ],
+   "act": 3
+  },
+  {
+   "id": "s122",
+   "lines": [
+    "적의 수도에 태극기를 먼저 꽂는 일은 나라의 자존심이었습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "태극기를 먼저",
+    "style": "yellow",
+    "sub": "나라의 자존심",
+    "subAt": 0.4
+   },
+   "act": 3
+  },
+  {
+   "id": "s123",
+   "lines": [
+    "그리고 사단장에게는 고향으로 돌아가는 길이기도 했습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "pyongw",
+    "to": "pyongw",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "birth",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "lock",
+      "p": "birth",
+      "text": "사단장의 고향",
+      "at": 0.3
+     }
+    ],
+    "tilt": 20
+   },
+   "act": 3
+  },
+  {
+   "id": "s124",
+   "lines": [
+    "경쟁은 사단 사이에서만 벌어지지 않았습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "route",
+    "to": "route",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.555,
+        37.971
+       ],
+       [
+        126.48,
+        38.15
+       ],
+       [
+        126.39,
+        38.33
+       ],
+       [
+        126.1,
+        38.43
+       ],
+       [
+        125.86,
+        38.48
+       ],
+       [
+        125.776,
+        38.66
+       ],
+       [
+        125.74,
+        38.86
+       ],
+       [
+        125.75,
+        38.99
+       ]
+      ],
+      "color": "#7fd3ff",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        126.88,
+        38.0
+       ],
+       [
+        126.73,
+        38.3
+       ],
+       [
+        126.53,
+        38.5
+       ],
+       [
+        126.36,
+        38.73
+       ],
+       [
+        126.09,
+        38.85
+       ],
+       [
+        126.0,
+        38.9
+       ],
+       [
+        125.88,
+        38.95
+       ],
+       [
+        125.772,
+        39.012
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "hwangju",
+      "text": "미 기병사단",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "suan",
+      "text": "국군 제1사단",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "yulli",
+      "text": "경쟁",
+      "color": "#111",
+      "dy": -60,
+      "at": 0.3
+     }
+    ],
+    "tilt": 14
+   },
+   "act": 3
+  },
+  {
+   "id": "s125",
+   "lines": [
+    "같은 사단 안의 연대들끼리도 서로 먼저 가겠다고 다퉜습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "mid",
+    "to": "mid",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.88,
+        38.0
+       ],
+       [
+        126.73,
+        38.3
+       ],
+       [
+        126.53,
+        38.5
+       ],
+       [
+        126.36,
+        38.73
+       ],
+       [
+        126.09,
+        38.85
+       ],
+       [
+        126.0,
+        38.9
+       ],
+       [
+        125.88,
+        38.95
+       ],
+       [
+        125.772,
+        39.012
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": [
+       126.4,
+       38.76
+      ],
+      "text": "제11연대",
+      "color": "blue",
+      "at": 0.2
+     },
+     {
+      "k": "unit",
+      "p": [
+       126.32,
+       38.7
+      ],
+      "text": "제12연대",
+      "color": "blue",
+      "at": 0.35
+     },
+     {
+      "k": "unit",
+      "p": [
+       126.42,
+       38.68
+      ],
+      "text": "제15연대",
+      "color": "blue",
+      "at": 0.5
+     }
+    ],
+    "tilt": 18
+   },
+   "src": [
+    1
+   ],
+   "act": 3
+  },
+  {
+   "id": "s126",
+   "lines": [
+    "그렇게 열하루 경주의 절반이 지나갔습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "route",
+    "to": "route",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.555,
+        37.971
+       ],
+       [
+        126.48,
+        38.15
+       ],
+       [
+        126.39,
+        38.33
+       ],
+       [
+        126.1,
+        38.43
+       ],
+       [
+        125.86,
+        38.48
+       ],
+       [
+        125.776,
+        38.66
+       ],
+       [
+        125.74,
+        38.86
+       ],
+       [
+        125.75,
+        38.99
+       ]
+      ],
+      "color": "#7fd3ff",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        126.88,
+        38.0
+       ],
+       [
+        126.73,
+        38.3
+       ],
+       [
+        126.53,
+        38.5
+       ],
+       [
+        126.36,
+        38.73
+       ],
+       [
+        126.09,
+        38.85
+       ],
+       [
+        126.0,
+        38.9
+       ],
+       [
+        125.88,
+        38.95
+       ],
+       [
+        125.772,
+        39.012
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "radar",
+      "p": "pyongyang",
+      "at": 0.2,
+      "size": 0.8,
+      "color": "red"
+     }
+    ],
+    "tilt": 14
+   },
+   "callouts": [
+    {
+     "text": "열하루 경주의 절반",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ],
+   "act": 3
+  },
+  {
+   "id": "s127",
+   "lines": [
+    {
+     "t": "10월 17일 제1사단은 상원을 지나 율리에 닿았습니다.",
+     "say": "시월 십칠일 제일사단은 상원을 지나 율리에 닿았습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "yulli",
+    "to": "yulli",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "yulli",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "lock",
+      "p": "yulli",
+      "text": "율리 · 위치 개략",
+      "at": 0.3
+     },
+     {
+      "k": "marker",
+      "p": "sangwon",
+      "color": "blue",
+      "on": "상원을"
+     }
+    ],
+    "tilt": 24
+   },
+   "chapter": {
+    "num": "제4막",
+    "title": "율리 갈림길"
+   },
+   "date": "1950. 10. 17",
+   "legend": [
+    {
+     "icon": "kr",
+     "text": "국군 제1사단"
+    },
+    {
+     "icon": "us",
+     "text": "미 제1기병사단"
+    },
+    {
+     "icon": "nk",
+     "text": "북한군"
+    },
+    {
+     "icon": "route",
+     "text": "진격로"
+    }
+   ],
+   "src": [
+    1
+   ],
+   "act": 4
+  },
+  {
+   "id": "s128",
+   "lines": [
+    "평양을 코앞에 둔 산골의 갈림길이었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "yulli",
+    "to": "yulli",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "yulli",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "yulli",
+      "text": "평양 코앞의 갈림길",
+      "color": "#111",
+      "dy": -60,
+      "at": 0.3
+     }
+    ],
+    "tilt": 24
+   },
+   "act": 4
+  },
+  {
+   "id": "s129",
+   "lines": [
+    "다급해진 북한군은 평양 방위 사령부를 세웠습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "pyong",
+    "to": "pyong",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "bon",
+      "text": "평양 방위 사령부",
+      "color": "red",
+      "at": 0.3,
+      "pulse": true
+     }
+    ],
+    "tilt": 26
+   },
+   "src": [
+    1
+   ],
+   "act": 4
+  },
+  {
+   "id": "s130",
+   "lines": [
+    "그리고 평양 둘레에 두 겹의 방어선을 그었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "outer",
+    "to": "outer",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "radar",
+      "p": "pyongyang",
+      "at": 0.2,
+      "size": 1.0,
+      "color": "red"
+     }
+    ],
+    "tilt": 22
+   },
+   "act": 4
+  },
+  {
+   "id": "s131",
+   "lines": [
+    "바깥 선은 황주와 율리를 잇는 선이었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "outer",
+    "to": "outer",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        125.776,
+        38.66
+       ],
+       [
+        125.88,
+        38.78
+       ],
+       [
+        126.0,
+        38.9
+       ]
+      ],
+      "color": "#ff6a5a",
+      "glow": true,
+      "on": "바깥"
+     },
+     {
+      "k": "marker",
+      "p": "hwangju",
+      "color": "red",
+      "at": 0.3
+     },
+     {
+      "k": "marker",
+      "p": "yulli",
+      "color": "red",
+      "at": 0.4
+     }
+    ],
+    "tilt": 22
+   },
+   "src": [
+    1
+   ],
+   "act": 4
+  },
+  {
+   "id": "s132",
+   "lines": [
+    "안쪽 선은 대동강과 동평양을 잇는 선이었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "outer",
+    "to": "outer",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        125.776,
+        38.66
+       ],
+       [
+        125.88,
+        38.78
+       ],
+       [
+        126.0,
+        38.9
+       ]
+      ],
+      "color": "#ff6a5a",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        125.7,
+        38.985
+       ],
+       [
+        125.77,
+        39.005
+       ],
+       [
+        125.83,
+        39.02
+       ]
+      ],
+      "color": "#ff6a5a",
+      "glow": true,
+      "on": "안쪽"
+     }
+    ],
+    "tilt": 22
+   },
+   "src": [
+    1
+   ],
+   "act": 4
+  },
+  {
+   "id": "s133",
+   "lines": [
+    {
+     "t": "미군 정보 부서는 평양을 지키는 북한군을 8,000명 이하로 보았습니다.",
+     "say": "미군 정보 부서는 평양을 지키는 북한군을 팔천 명 이하로 보았습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "pyong",
+    "to": "pyong",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        125.7,
+        38.985
+       ],
+       [
+        125.77,
+        39.005
+       ],
+       [
+        125.83,
+        39.02
+       ]
+      ],
+      "color": "#ff6a5a",
+      "glow": true,
+      "at": 0
+     }
+    ],
+    "tilt": 26
+   },
+   "hook": {
+    "hud": [
+     {
+      "big": "8,000명 이하",
+      "sub": "평양 방어 북한군",
+      "sub2": "미 8군 정보 판단",
+      "on": "팔천",
+      "color": "#FF3B3B"
+     }
+    ]
+   },
+   "src": [
+    1,
+    2
+   ],
+   "act": 4
+  },
+  {
+   "id": "s134",
+   "lines": [
+    "같은 날 서울에서는 또 다른 명령이 떨어졌습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "korea",
+    "to": "korea",
+    "items": [
+     {
+      "k": "lock",
+      "p": "seoul",
+      "text": "서울",
+      "at": 0.3
+     }
+    ],
+    "tilt": 10
+   },
+   "date": "1950. 10. 17",
+   "act": 4
+  },
+  {
+   "id": "s135",
+   "lines": [
+    "이승만 대통령이 정일권 총사령관을 불러 은밀히 지시했습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "이승만 대통령 → 정일권 총사령관",
+    "style": "dark",
+    "sub": "1950. 10. 17 · 밀명",
+    "subAt": 0.4
+   },
+   "src": [
+    1
+   ],
+   "act": 4
+  },
+  {
+   "id": "s136",
+   "lines": [
+    "무슨 일이 있더라도 평양만큼은 국군이 먼저 점령하라는 것이었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "route",
+    "to": "route",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.555,
+        37.971
+       ],
+       [
+        126.48,
+        38.15
+       ],
+       [
+        126.39,
+        38.33
+       ],
+       [
+        126.1,
+        38.43
+       ],
+       [
+        125.86,
+        38.48
+       ],
+       [
+        125.776,
+        38.66
+       ],
+       [
+        125.74,
+        38.86
+       ],
+       [
+        125.75,
+        38.99
+       ]
+      ],
+      "color": "#7fd3ff",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        126.88,
+        38.0
+       ],
+       [
+        126.73,
+        38.3
+       ],
+       [
+        126.53,
+        38.5
+       ],
+       [
+        126.36,
+        38.73
+       ],
+       [
+        126.09,
+        38.85
+       ],
+       [
+        126.0,
+        38.9
+       ],
+       [
+        125.88,
+        38.95
+       ],
+       [
+        125.772,
+        39.012
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     }
+    ],
+    "tilt": 14
+   },
+   "clip": {
+    "source": "이승만 대통령의 밀명 (요지) · 국방일보",
+    "text": "무슨 일이 있더라도\n[[평양만큼은 국군이 먼저]]",
+    "on": "평양만큼은",
+    "recreated": true
+   },
+   "src": [
+    1
+   ],
+   "act": 4
+  },
+  {
+   "id": "s137",
+   "lines": [
+    {
+     "t": "그러자 동쪽의 국군 제2군단도 평양을 향해 방향을 틀었습니다.",
+     "say": "그러자 동쪽의 국군 제이군단도 평양을 향해 방향을 틀었습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "route",
+    "to": "route",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        127.35,
+        38.95
+       ],
+       [
+        126.85,
+        39.02
+       ],
+       [
+        126.4,
+        39.08
+       ]
+      ],
+      "color": "blue",
+      "width": 1.1,
+      "at": 0.2
+     },
+     {
+      "k": "unit",
+      "p": [
+       127.35,
+       38.95
+      ],
+      "text": "국군 제2군단",
+      "color": "blue",
+      "at": 0.4
+     }
+    ],
+    "tilt": 14
+   },
+   "src": [
+    1
+   ],
+   "act": 4
+  },
+  {
+   "id": "s138",
+   "lines": [
+    {
+     "t": "제7사단과 제8사단이 산을 넘어 평양 동쪽으로 달려왔습니다.",
+     "say": "제칠사단과 제팔사단이 산을 넘어 평양 동쪽으로 달려왔습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "yulli",
+    "to": "yulli",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "yulli",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.28,
+        39.1
+       ],
+       [
+        126.08,
+        39.11
+       ],
+       [
+        125.9,
+        39.09
+       ],
+       [
+        125.775,
+        39.058
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0.1
+     },
+     {
+      "k": "unit",
+      "p": [
+       126.28,
+       39.1
+      ],
+      "text": "제7사단",
+      "color": "blue",
+      "on": "제칠사단과"
+     },
+     {
+      "k": "unit",
+      "p": [
+       126.25,
+       39.0
+      ],
+      "text": "제8사단",
+      "color": "blue",
+      "on": "제팔사단이"
+     }
+    ],
+    "tilt": 24
+   },
+   "src": [
+    1
+   ],
+   "act": 4
+  },
+  {
+   "id": "s139",
+   "lines": [
+    "그 한가운데 율리 갈림길에 선 사람이 백선엽이었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "yulli",
+    "to": "yulli",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "yulli",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "lock",
+      "p": "yulli",
+      "text": "백선엽 · 율리",
+      "at": 0.3
+     }
+    ],
+    "tilt": 24
+   },
+   "act": 4
+  },
+  {
+   "id": "s140",
+   "lines": [
+    "모든 연대를 한 길로만 보내는 것이 옳은가."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "yulli",
+    "to": "yulli",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "yulli",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.0,
+        38.9
+       ],
+       [
+        125.88,
+        38.95
+       ],
+       [
+        125.772,
+        39.012
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0.1
+     },
+     {
+      "k": "badge",
+      "p": "yulli",
+      "text": "한 길로만?",
+      "color": "#111",
+      "dy": -60,
+      "at": 0.4
+     }
+    ],
+    "tilt": 24
+   },
+   "act": 4
+  },
+  {
+   "id": "s141",
+   "lines": [
+    "한 길로 몰려가면 길이 막히는 순간 사단 전체가 멈춥니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "yulli",
+    "to": "yulli",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "yulli",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "swarm",
+      "path": [
+       [
+        126.0,
+        38.9
+       ],
+       [
+        125.88,
+        38.95
+       ],
+       [
+        125.772,
+        39.012
+       ]
+      ],
+      "at": 0.1,
+      "n": 90,
+      "width": 0.05
+     },
+     {
+      "k": "badge",
+      "p": "jidong",
+      "text": "막히면 전체가 멈춘다",
+      "color": "#c9242c",
+      "dy": -70,
+      "at": 0.4
+     }
+    ],
+    "tilt": 24
+   },
+   "act": 4
+  },
+  {
+   "id": "s142",
+   "lines": [
+    {
+     "t": "그는 제15연대를 떼어 냈습니다.",
+     "say": "그는 제십오연대를 떼어 냈습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "yulli",
+    "to": "yulli",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "yulli",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "yulli",
+      "text": "제15연대",
+      "color": "blue",
+      "on": "제십오연대를",
+      "pulse": true
+     }
+    ],
+    "tilt": 24
+   },
+   "src": [
+    1
+   ],
+   "act": 4
+  },
+  {
+   "id": "s143",
+   "lines": [
+    {
+     "t": "제15연대는 동북쪽 강동 쪽으로 크게 돌아가게 했습니다.",
+     "say": "제십오연대는 동북쪽 강동 쪽으로 크게 돌아가게 했습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "yulli",
+    "to": "yulli",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "yulli",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.0,
+        38.9
+       ],
+       [
+        126.07,
+        39.0
+       ],
+       [
+        126.08,
+        39.1
+       ],
+       [
+        125.96,
+        39.1
+       ],
+       [
+        125.86,
+        39.07
+       ]
+      ],
+      "color": "blue",
+      "width": 1.1,
+      "at": 0.1
+     },
+     {
+      "k": "marker",
+      "p": "kangdong",
+      "color": "blue",
+      "on": "강동"
+     }
+    ],
+    "tilt": 24
+   },
+   "src": [
+    1
+   ],
+   "act": 4
+  },
+  {
+   "id": "s144",
+   "lines": [
+    "그리고 대동강 북쪽 모란봉 쪽을 치게 했습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "yulli",
+    "to": "yulli",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "yulli",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.0,
+        38.9
+       ],
+       [
+        126.07,
+        39.0
+       ],
+       [
+        126.08,
+        39.1
+       ],
+       [
+        125.96,
+        39.1
+       ],
+       [
+        125.86,
+        39.07
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        125.86,
+        39.07
+       ],
+       [
+        125.81,
+        39.06
+       ],
+       [
+        125.765,
+        39.048
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0.1
+     },
+     {
+      "k": "lock",
+      "p": "moran",
+      "text": "대동강 북쪽 · 모란봉",
+      "at": 0.5
+     }
+    ],
+    "tilt": 24
+   },
+   "src": [
+    1
+   ],
+   "act": 4
+  },
+  {
+   "id": "s145",
+   "lines": [
+    "나머지 두 연대는 곧장 동평양으로 향했습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "yulli",
+    "to": "yulli",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "yulli",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.0,
+        38.9
+       ],
+       [
+        126.07,
+        39.0
+       ],
+       [
+        126.08,
+        39.1
+       ],
+       [
+        125.96,
+        39.1
+       ],
+       [
+        125.86,
+        39.07
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.0,
+        38.9
+       ],
+       [
+        125.88,
+        38.95
+       ],
+       [
+        125.772,
+        39.012
+       ]
+      ],
+      "color": "blue",
+      "width": 1.1,
+      "at": 0.2
+     },
+     {
+      "k": "badge",
+      "p": "east",
+      "text": "제11·12연대 → 동평양",
+      "color": "#111",
+      "dy": -60,
+      "at": 0.5
+     }
+    ],
+    "tilt": 24
+   },
+   "act": 4
+  },
+  {
+   "id": "s146",
+   "lines": [
+    "왜 굳이 길을 둘로 나눴을까요?"
+   ],
+   "visual": {
+    "type": "map",
+    "from": "yulli",
+    "to": "yulli",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "yulli",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.0,
+        38.9
+       ],
+       [
+        126.07,
+        39.0
+       ],
+       [
+        126.08,
+        39.1
+       ],
+       [
+        125.96,
+        39.1
+       ],
+       [
+        125.86,
+        39.07
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.0,
+        38.9
+       ],
+       [
+        125.88,
+        38.95
+       ],
+       [
+        125.772,
+        39.012
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0
+     }
+    ],
+    "tilt": 24
+   },
+   "sfx": [
+    {
+     "id": "ping",
+     "at": 0.4
+    }
+   ],
+   "callouts": [
+    {
+     "text": "왜 둘로?",
+     "style": "yellow",
+     "at": 0,
+     "pos": "top"
+    }
+   ],
+   "act": 4
+  },
+  {
+   "id": "s147",
+   "lines": [
+    "평양을 가로지르는 대동강 때문이었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "city",
+    "to": "city",
+    "items": [
+     {
+      "k": "lock",
+      "p": "river",
+      "text": "평양을 가로지르는 대동강",
+      "at": 0.3
+     }
+    ],
+    "tilt": 34
+   },
+   "legend": [
+    {
+     "icon": "kr",
+     "text": "국군"
+    },
+    {
+     "icon": "us",
+     "text": "미군"
+    },
+    {
+     "icon": "nk",
+     "text": "북한군"
+    }
+   ],
+   "act": 4
+  },
+  {
+   "id": "s148",
+   "lines": [
+    {
+     "t": "대동강은 평양에서 강폭이 400~500m에 이르렀습니다.",
+     "say": "대동강은 평양에서 강폭이 사오백 미터에 이르렀습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "city",
+    "to": "city",
+    "items": [
+     {
+      "k": "badge",
+      "p": "river",
+      "text": "강폭 400~500m",
+      "color": "#111",
+      "dy": -70,
+      "at": 0.3
+     }
+    ],
+    "tilt": 34
+   },
+   "hook": {
+    "hud": [
+     {
+      "big": "400~500m",
+      "sub": "대동강 강폭",
+      "sub2": "평양 구간",
+      "on": "사오백"
+     }
+    ]
+   },
+   "src": [
+    1
+   ],
+   "act": 4
+  },
+  {
+   "id": "s149",
+   "lines": [
+    "물살이 빠르고 깊어 사람이 걸어서 건널 수 없었습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "pyongyang_1950",
+    "kb": "in",
+    "lower": {
+     "title": "대동강 건너 평양",
+     "date": "1950",
+     "sub": "재연"
+    }
+   },
+   "label": "재연 일러스트",
+   "act": 4
+  },
+  {
+   "id": "s150",
+   "lines": [
+    "평양은 이 강을 사이에 두고 둘로 나뉘었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "city",
+    "to": "city",
+    "items": [
+     {
+      "k": "marker",
+      "p": "east",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "bon",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "river",
+      "text": "대동강",
+      "color": "#111",
+      "dy": -50,
+      "at": 0.3
+     }
+    ],
+    "tilt": 34
+   },
+   "callouts": [
+    {
+     "text": "강을 사이에 둔 두 도시",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ],
+   "act": 4
+  },
+  {
+   "id": "s151",
+   "lines": [
+    "강 남동쪽이 동평양이고 북서쪽이 본평양이었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "city",
+    "to": "city",
+    "items": [
+     {
+      "k": "badge",
+      "p": "east",
+      "text": "동평양",
+      "color": "#111",
+      "dy": -70,
+      "on": "동평양이고"
+     },
+     {
+      "k": "badge",
+      "p": "bon",
+      "text": "본평양",
+      "color": "#c9242c",
+      "dy": -70,
+      "on": "본평양이었습니다"
+     }
+    ],
+    "tilt": 34
+   },
+   "src": [
+    1
+   ],
+   "act": 4
+  },
+  {
+   "id": "s152",
+   "lines": [
+    "서울이 한강을 사이에 두고 강북과 강남으로 나뉜 것과 비슷합니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s152-photo",
+    "tag": "1950",
+    "lower": {
+     "title": "서울 한강",
+     "date": "1950"
+    }
+   },
+   "act": 4
+  },
+  {
+   "id": "s153",
+   "lines": [
+    "북한 정부의 주요 기관은 거의 다 본평양에 있었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "city",
+    "to": "city",
+    "items": [
+     {
+      "k": "lock",
+      "p": "bon",
+      "text": "북한 정부 주요 기관",
+      "at": 0.3,
+      "color": "#c9242c"
+     }
+    ],
+    "tilt": 34
+   },
+   "src": [
+    1
+   ],
+   "act": 4
+  },
+  {
+   "id": "s154",
+   "lines": [
+    "두 곳을 잇는 다리는 대동교와 대동강 철교 둘뿐이었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "city",
+    "to": "city",
+    "items": [
+     {
+      "k": "lock",
+      "p": "bridge",
+      "text": "대동교",
+      "on": "대동교와"
+     },
+     {
+      "k": "marker",
+      "p": "rail",
+      "color": "blue",
+      "on": "철교"
+     }
+    ],
+    "tilt": 34
+   },
+   "src": [
+    1
+   ],
+   "act": 4
+  },
+  {
+   "id": "s155",
+   "lines": [
+    "적이 이 다리를 끊으면 동평양에 먼저 닿아도 강가에서 멈출 수밖에 없습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "city",
+    "to": "city",
+    "items": [
+     {
+      "k": "marker",
+      "p": "bridge",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "rail",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "bridge",
+      "text": "끊기면?",
+      "color": "#c9242c",
+      "dy": -80,
+      "at": 0.3
+     }
+    ],
+    "tilt": 34
+   },
+   "act": 4
+  },
+  {
+   "id": "s156",
+   "lines": [
+    "그런데 백선엽은 평양에서 자란 사람이었습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s156-photo",
+    "tag": "1950. 10",
+    "lower": {
+     "title": "평양에서 자란 사단장",
+     "date": "1950. 10"
+    }
+   },
+   "act": 4
+  },
+  {
+   "id": "s157",
+   "lines": [
+    "그는 대동강 상류 어딘가에 물이 얕아지는 여울이 있다는 것을 알고 있었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "ford",
+    "to": "ford",
+    "items": [
+     {
+      "k": "lock",
+      "p": "ford",
+      "text": "얕은 여울 · 위치 개략",
+      "at": 0.3
+     }
+    ],
+    "tilt": 32
+   },
+   "src": [
+    1,
+    2
+   ],
+   "act": 4
+  },
+  {
+   "id": "s158",
+   "lines": [
+    {
+     "t": "그 여울로 가는 길을 제15연대에게 맡긴 것입니다.",
+     "say": "그 여울로 가는 길을 제십오연대에게 맡긴 것입니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "yulli",
+    "to": "yulli",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "yulli",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.0,
+        38.9
+       ],
+       [
+        126.07,
+        39.0
+       ],
+       [
+        126.08,
+        39.1
+       ],
+       [
+        125.96,
+        39.1
+       ],
+       [
+        125.86,
+        39.07
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0.1
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        126.0,
+        38.9
+       ],
+       [
+        126.07,
+        39.0
+       ],
+       [
+        126.08,
+        39.1
+       ],
+       [
+        125.96,
+        39.1
+       ],
+       [
+        125.86,
+        39.07
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "at": 0.1
+     },
+     {
+      "k": "marker",
+      "p": "ford",
+      "color": "blue",
+      "at": 0.5
+     }
+    ],
+    "tilt": 24
+   },
+   "src": [
+    1,
+    2
+   ],
+   "act": 4
+  },
+  {
+   "id": "s159",
+   "lines": [
+    "다리를 잃어도 강을 건널 길 하나를 미리 마련해 둔 셈이었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "ford",
+    "to": "ford",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        125.86,
+        39.07
+       ],
+       [
+        125.81,
+        39.06
+       ],
+       [
+        125.765,
+        39.048
+       ]
+      ],
+      "color": "blue",
+      "dash": true,
+      "at": 0.2
+     },
+     {
+      "k": "marker",
+      "p": "ford",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "ford",
+      "text": "다리 없이 건널 길",
+      "color": "#111",
+      "dy": -60,
+      "at": 0.4
+     }
+    ],
+    "tilt": 32
+   },
+   "act": 4
+  },
+  {
+   "id": "s160",
+   "lines": [
+    "그 사이 미군 기병사단은 황주를 지나 평양 남쪽으로 다가오고 있었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "route",
+    "to": "route",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.555,
+        37.971
+       ],
+       [
+        126.48,
+        38.15
+       ],
+       [
+        126.39,
+        38.33
+       ],
+       [
+        126.1,
+        38.43
+       ],
+       [
+        125.86,
+        38.48
+       ],
+       [
+        125.776,
+        38.66
+       ],
+       [
+        125.74,
+        38.86
+       ],
+       [
+        125.75,
+        38.99
+       ]
+      ],
+      "color": "#7fd3ff",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": [
+       125.75,
+       38.8
+      ],
+      "text": "미 제1기병사단",
+      "color": "blue",
+      "at": 0.2,
+      "pulse": true
+     }
+    ],
+    "tilt": 14
+   },
+   "act": 4
+  },
+  {
+   "id": "s161",
+   "lines": [
+    "남은 것은 마지막 하룻밤이었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "pyong",
+    "to": "pyong",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "jidong",
+      "color": "blue",
+      "at": 0.2
+     }
+    ],
+    "tilt": 26,
+    "tone": "night"
+   },
+   "callouts": [
+    {
+     "text": "마지막 하룻밤",
+     "style": "dark",
+     "at": 0,
+     "pos": "lower"
+    }
+   ],
+   "act": 4
+  },
+  {
+   "id": "s162",
+   "lines": [
+    {
+     "t": "10월 18일 제1사단 앞을 지동리의 언덕들이 막아섰습니다.",
+     "say": "시월 십팔일 제일사단 앞을 지동리의 언덕들이 막아섰습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "jidong",
+    "to": "jidong",
+    "items": [
+     {
+      "k": "lock",
+      "p": "jidong",
+      "text": "지동리 · 위치 개략",
+      "at": 0.3
+     }
+    ],
+    "tilt": 36
+   },
+   "chapter": {
+    "num": "제5막",
+    "title": "지동리의 밤"
+   },
+   "date": "1950. 10. 18",
+   "legend": [
+    {
+     "icon": "kr",
+     "text": "국군 제1사단"
+    },
+    {
+     "icon": "us",
+     "text": "미 제1기병사단"
+    },
+    {
+     "icon": "nk",
+     "text": "북한군"
+    },
+    {
+     "icon": "route",
+     "text": "진격로"
+    }
+   ],
+   "src": [
+    1
+   ],
+   "act": 5,
+   "pauseBefore": 0.5
+  },
+  {
+   "id": "s163",
+   "lines": [
+    "평양 동남쪽으로 들어가는 마지막 관문이었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "pyong",
+    "to": "pyong",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "jidong",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "jidong",
+      "text": "평양 동남쪽 마지막 관문",
+      "color": "#c9242c",
+      "dy": -70,
+      "at": 0.3
+     }
+    ],
+    "tilt": 26
+   },
+   "act": 5
+  },
+  {
+   "id": "s164",
+   "lines": [
+    "북한군은 언덕마다 토치카를 쌓고 깊은 방어선을 만들어 두었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "jidong",
+    "to": "jidong",
+    "items": [
+     {
+      "k": "marker",
+      "p": [
+       125.87,
+       38.95
+      ],
+      "color": "red",
+      "at": 0.2
+     },
+     {
+      "k": "marker",
+      "p": [
+       125.885,
+       38.958
+      ],
+      "color": "red",
+      "at": 0.32
+     },
+     {
+      "k": "marker",
+      "p": [
+       125.875,
+       38.94
+      ],
+      "color": "red",
+      "at": 0.44
+     },
+     {
+      "k": "marker",
+      "p": [
+       125.892,
+       38.948
+      ],
+      "color": "red",
+      "at": 0.56
+     },
+     {
+      "k": "badge",
+      "p": [
+       125.885,
+       38.958
+      ],
+      "text": "토치카",
+      "color": "#c9242c",
+      "dy": -60,
+      "at": 0.6
+     }
+    ],
+    "tilt": 36
+   },
+   "src": [
+    1
+   ],
+   "act": 5
+  },
+  {
+   "id": "s165",
+   "lines": [
+    "도로에는 장애물을 놓고 지뢰를 촘촘히 묻었습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "mined_road",
+    "kb": "in",
+    "lower": {
+     "title": "지뢰가 묻힌 길",
+     "date": "1950. 10",
+     "sub": "재연"
+    }
+   },
+   "label": "재연 일러스트",
+   "act": 5
+  },
+  {
+   "id": "s166",
+   "lines": [
+    "평양을 지키려는 싸움이라기보다 지도부와 부대가 빠져나갈 시간을 버는 싸움이었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "pyong",
+    "to": "pyong",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        125.755,
+        39.03
+       ],
+       [
+        125.72,
+        39.3
+       ]
+      ],
+      "color": "red",
+      "dash": true,
+      "at": 0.2
+     },
+     {
+      "k": "badge",
+      "p": "pyongyang",
+      "text": "빠져나갈 시간 벌기",
+      "color": "#c9242c",
+      "dy": -60,
+      "at": 0.4
+     }
+    ],
+    "tilt": 26
+   },
+   "src": [
+    1
+   ],
+   "act": 5
+  },
+  {
+   "id": "s167",
+   "lines": [
+    "정면으로 부딪힌 연대들이 좀처럼 나아가지 못했습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "jidong",
+    "to": "jidong",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        125.92,
+        38.92
+       ],
+       [
+        125.885,
+        38.945
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0.1
+     },
+     {
+      "k": "clash",
+      "p": "jidong",
+      "period": 0.9,
+      "size": 1.0,
+      "at": 0.4
+     }
+    ],
+    "tilt": 36
+   },
+   "act": 5
+  },
+  {
+   "id": "s168",
+   "lines": [
+    "날이 저물었고 비까지 내리기 시작했습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "jidong",
+    "to": "jidong",
+    "items": [
+     {
+      "k": "marker",
+      "p": [
+       125.87,
+       38.95
+      ],
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": [
+       125.885,
+       38.958
+      ],
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": [
+       125.875,
+       38.94
+      ],
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": [
+       125.892,
+       38.948
+      ],
+      "color": "red",
+      "at": 0
+     }
+    ],
+    "tilt": 36,
+    "tone": "night"
+   },
+   "clock": "밤 · 비",
+   "sfx": [
+    {
+     "id": "wind",
+     "at": 0.1
+    }
+   ],
+   "src": [
+    2
+   ],
+   "act": 5
+  },
+  {
+   "id": "s169",
+   "lines": [
+    "백선엽은 밤새 포격을 퍼부으라고 명령했습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "rain_barrage",
+    "kb": "in",
+    "lower": {
+     "title": "빗속의 포격",
+     "date": "1950. 10. 18",
+     "sub": "재연"
+    }
+   },
+   "label": "재연 일러스트",
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.1
+    }
+   ],
+   "src": [
+    1
+   ],
+   "act": 5
+  },
+  {
+   "id": "s170",
+   "lines": [
+    "미군 고사포와 전차포까지 모두 적의 언덕을 향했습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "jidong",
+    "to": "jidong",
+    "items": [
+     {
+      "k": "marker",
+      "p": [
+       125.87,
+       38.95
+      ],
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": [
+       125.885,
+       38.958
+      ],
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": [
+       125.875,
+       38.94
+      ],
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": [
+       125.892,
+       38.948
+      ],
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "shock",
+      "pts": [
+       [
+        125.87,
+        38.95
+       ],
+       [
+        125.885,
+        38.958
+       ],
+       [
+        125.875,
+        38.94
+       ],
+       [
+        125.892,
+        38.948
+       ]
+      ],
+      "at": 0.1,
+      "period": 0.6
+     }
+    ],
+    "tilt": 36,
+    "tone": "night"
+   },
+   "src": [
+    1
+   ],
+   "act": 5
+  },
+  {
+   "id": "s171",
+   "lines": [
+    "그날 밤 백선엽은 또 하나의 명령을 내렸습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "city",
+    "to": "city",
+    "items": [
+     {
+      "k": "lock",
+      "p": "bon",
+      "text": "평양 시내",
+      "at": 0.3
+     }
+    ],
+    "tilt": 34,
+    "tone": "night"
+   },
+   "act": 5
+  },
+  {
+   "id": "s172",
+   "lines": [
+    "평양 안의 대동문과 을밀대 연광정 쪽으로는 포를 쏘지 말라는 것이었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "city",
+    "to": "city",
+    "items": [
+     {
+      "k": "marker",
+      "p": "dmun",
+      "color": "blue",
+      "on": "대동문과"
+     },
+     {
+      "k": "marker",
+      "p": "ulmil",
+      "color": "blue",
+      "on": "을밀대"
+     },
+     {
+      "k": "marker",
+      "p": "yeongwang",
+      "color": "blue",
+      "on": "연광정"
+     },
+     {
+      "k": "badge",
+      "p": "ulmil",
+      "text": "포격 금지",
+      "color": "#111",
+      "dy": -60,
+      "at": 0.7
+     }
+    ],
+    "tilt": 34,
+    "tone": "night"
+   },
+   "src": [
+    1
+   ],
+   "act": 5
+  },
+  {
+   "id": "s173",
+   "lines": [
+    {
+     "t": "그는 2차 대전 때 미국이 교토를 폭격하지 않은 일을 떠올렸다고 회고했습니다.",
+     "say": "그는 이차 대전 때 미국이 교토를 폭격하지 않은 일을 떠올렸다고 회고했습니다."
+    }
+   ],
+   "visual": {
+    "type": "flatmap",
+    "center": [
+     137.0,
+     35.5
+    ],
+    "span": 9,
+    "fill": {
+     "410": "#f1e4c6",
+     "408": "#e8b6a5",
+     "392": "#e6d9bd",
+     "156": "#dcc9a3"
+    },
+    "pins": [
+     {
+      "ll": [
+       135.77,
+       35.01
+      ],
+      "text": "교토",
+      "side": "below",
+      "on": "교토를"
+     }
+    ],
+    "routes": [],
+    "labels": [],
+    "zoomTo": 0.92,
+    "title": "2차 대전 · 일본"
+   },
+   "src": [
+    1
+   ],
+   "act": 5
+  },
+  {
+   "id": "s174",
+   "lines": [
+    "미군 지휘관들도 이 요청을 따랐습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "city",
+    "to": "city",
+    "items": [
+     {
+      "k": "marker",
+      "p": "dmun",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "ulmil",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "yeongwang",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "dmun",
+      "text": "미군도 동의",
+      "color": "#111",
+      "dy": -60,
+      "at": 0.3
+     }
+    ],
+    "tilt": 34,
+    "tone": "night"
+   },
+   "src": [
+    1
+   ],
+   "act": 5
+  },
+  {
+   "id": "s175",
+   "lines": [
+    "새벽 무렵 적의 진지가 갑자기 조용해졌습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "jidong",
+    "to": "jidong",
+    "items": [
+     {
+      "k": "marker",
+      "p": [
+       125.87,
+       38.95
+      ],
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": [
+       125.885,
+       38.958
+      ],
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": [
+       125.875,
+       38.94
+      ],
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": [
+       125.892,
+       38.948
+      ],
+      "color": "red",
+      "at": 0
+     }
+    ],
+    "tilt": 36,
+    "tone": "night"
+   },
+   "clock": "새벽",
+   "act": 5
+  },
+  {
+   "id": "s176",
+   "lines": [
+    {
+     "t": "날이 밝고 한두 시간 뒤 제1사단은 지동리를 뚫었습니다.",
+     "say": "날이 밝고 한두 시간 뒤 제일사단은 지동리를 뚫었습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "jidong",
+    "to": "jidong",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        125.92,
+        38.92
+       ],
+       [
+        125.86,
+        38.97
+       ]
+      ],
+      "color": "blue",
+      "width": 1.2,
+      "at": 0.1
+     }
+    ],
+    "tilt": 36
+   },
+   "clock": "아침",
+   "src": [
+    2
+   ],
+   "act": 5
+  },
+  {
+   "id": "s177",
+   "lines": [
+    "그 돌파의 앞에는 미군 전차들이 있었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "jidong",
+    "to": "jidong",
+    "items": [
+     {
+      "k": "unit",
+      "p": [
+       125.92,
+       38.92
+      ],
+      "text": "미 전차 중대",
+      "color": "blue",
+      "at": 0.2,
+      "pulse": true
+     }
+    ],
+    "tilt": 36
+   },
+   "src": [
+    2
+   ],
+   "act": 5
+  },
+  {
+   "id": "s178",
+   "lines": [
+    "전차 중대가 적 진지의 양옆으로 돌아 들어가 자주포를 부수고 참호를 짓밟았습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "jidong",
+    "to": "jidong",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        125.92,
+        38.925
+       ],
+       [
+        125.9,
+        38.96
+       ],
+       [
+        125.87,
+        38.965
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        125.92,
+        38.925
+       ],
+       [
+        125.88,
+        38.93
+       ],
+       [
+        125.86,
+        38.95
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0.2
+     },
+     {
+      "k": "clash",
+      "p": "jidong",
+      "period": 0.9,
+      "size": 1.0,
+      "at": 0.4
+     },
+     {
+      "k": "shock",
+      "pts": [
+       [
+        125.87,
+        38.95
+       ],
+       [
+        125.885,
+        38.958
+       ]
+      ],
+      "at": 0.5,
+      "period": 0.7
+     }
+    ],
+    "tilt": 36
+   },
+   "sfx": [
+    {
+     "id": "tank",
+     "at": 0.1
+    }
+   ],
+   "src": [
+    2
+   ],
+   "act": 5
+  },
+  {
+   "id": "s179",
+   "lines": [
+    {
+     "t": "미군 기록은 이 싸움에서 북한군 약 300명이 쓰러졌다고 추정합니다.",
+     "say": "미군 기록은 이 싸움에서 북한군 약 삼백 명이 쓰러졌다고 추정합니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "jidong",
+    "to": "jidong",
+    "items": [
+     {
+      "k": "clash",
+      "p": "jidong",
+      "period": 0.9,
+      "size": 1.0,
+      "at": 0
+     }
+    ],
+    "tilt": 36
+   },
+   "hook": {
+    "hud": [
+     {
+      "big": "약 300명",
+      "sub": "북한군 사살 (추정)",
+      "sub2": "미군 기록",
+      "on": "삼백",
+      "color": "#FF3B3B"
+     }
+    ]
+   },
+   "src": [
+    2
+   ],
+   "act": 5
+  },
+  {
+   "id": "s180",
+   "lines": [
+    "버려진 적의 진지에는 아직 살아 있는 전화선이 남아 있었습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "field_phone",
+    "kb": "in",
+    "lower": {
+     "title": "버려진 진지의 전화선",
+     "sub": "재연"
+    }
+   },
+   "label": "재연 일러스트",
+   "src": [
+    1
+   ],
+   "act": 5
+  },
+  {
+   "id": "s181",
+   "lines": [
+    "사단 통신 참모 윤혁표 대위가 그 선에 전화기를 이었습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "통신 참모 윤혁표 대위",
+    "style": "blue",
+    "sub": "국군 제1사단",
+    "subAt": 0.4
+   },
+   "src": [
+    1
+   ],
+   "act": 5
+  },
+  {
+   "id": "s182",
+   "lines": [
+    "그러자 북한군 총사령부 쪽 통신이 들려왔습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "pyong",
+    "to": "pyong",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "radar",
+      "p": "bon",
+      "at": 0.2,
+      "size": 0.9,
+      "color": "red",
+      "text": "북한군 총사령부 통신"
+     }
+    ],
+    "tilt": 26
+   },
+   "sfx": [
+    {
+     "id": "ping",
+     "at": 0.5
+    }
+   ],
+   "src": [
+    1
+   ],
+   "act": 5
+  },
+  {
+   "id": "s183",
+   "lines": [
+    "백선엽이 직접 수화기를 들었습니다.",
+    "그는 상대에게 김일성이 지금 어디 있느냐고 물었습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s183-photo",
+    "tag": "미 육군 통신대 사진",
+    "lower": {
+     "title": "백선엽 준장",
+     "date": "1950"
+    }
+   },
+   "src": [
+    1
+   ],
+   "act": 5
+  },
+  {
+   "id": "s184",
+   "lines": [
+    "북한군 통신병은 모른다고 답했습니다.",
+    "그리고 미군 전차가 수백 대나 몰려오고 있으니 도망쳐야 살겠다고 말했습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "pyong",
+    "to": "pyong",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "radar",
+      "p": "bon",
+      "at": 0,
+      "size": 0.9,
+      "color": "red"
+     }
+    ],
+    "tilt": 26
+   },
+   "clip": {
+    "source": "백선엽 회고 · 감청된 북한군 통신병 (요지)",
+    "text": "미군 전차 수백 대가 몰려온다\n[[도망쳐야갔시요]]",
+    "on": "도망쳐야",
+    "recreated": true
+   },
+   "src": [
+    1
+   ],
+   "act": 5
+  },
+  {
+   "id": "s185",
+   "lines": [
+    "백선엽은 그 한마디에서 적이 무너지고 있다는 것을 느꼈습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "pyong",
+    "to": "pyong",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "swarm",
+      "path": [
+       [
+        125.755,
+        39.03
+       ],
+       [
+        125.73,
+        39.2
+       ]
+      ],
+      "at": 0.1,
+      "n": 80,
+      "width": 0.06
+     },
+     {
+      "k": "badge",
+      "p": "bon",
+      "text": "흔들리는 적",
+      "color": "#c9242c",
+      "dy": -60,
+      "at": 0.4
+     }
+    ],
+    "tilt": 26
+   },
+   "act": 5
+  },
+  {
+   "id": "s186",
+   "lines": [
+    {
+     "t": "돌파를 앞둔 18일 밤 두 사단의 위치를 미군 기록은 이렇게 남겼습니다.",
+     "say": "돌파를 앞둔 십팔일 밤 두 사단의 위치를 미군 기록은 이렇게 남겼습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "route",
+    "to": "route",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.555,
+        37.971
+       ],
+       [
+        126.48,
+        38.15
+       ],
+       [
+        126.39,
+        38.33
+       ],
+       [
+        126.1,
+        38.43
+       ],
+       [
+        125.86,
+        38.48
+       ],
+       [
+        125.776,
+        38.66
+       ],
+       [
+        125.74,
+        38.86
+       ],
+       [
+        125.75,
+        38.99
+       ]
+      ],
+      "color": "#7fd3ff",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        126.88,
+        38.0
+       ],
+       [
+        126.73,
+        38.3
+       ],
+       [
+        126.53,
+        38.5
+       ],
+       [
+        126.36,
+        38.73
+       ],
+       [
+        126.09,
+        38.85
+       ],
+       [
+        126.0,
+        38.9
+       ],
+       [
+        125.88,
+        38.95
+       ],
+       [
+        125.772,
+        39.012
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "jidong",
+      "text": "국군 제1사단",
+      "color": "blue",
+      "at": 0.2
+     },
+     {
+      "k": "unit",
+      "p": [
+       125.75,
+       38.62
+      ],
+      "text": "미 기병사단 선두",
+      "color": "blue",
+      "at": 0.3
+     }
+    ],
+    "tilt": 14,
+    "tone": "night"
+   },
+   "src": [
+    2
+   ],
+   "act": 5
+  },
+  {
+   "id": "s187",
+   "lines": [
+    {
+     "t": "국군 제1사단은 평양까지 8마일(약 13km)였습니다.",
+     "say": "국군 제일사단은 평양까지 팔 마일 약 십삼 킬로미터였습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "route",
+    "to": "route",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.555,
+        37.971
+       ],
+       [
+        126.48,
+        38.15
+       ],
+       [
+        126.39,
+        38.33
+       ],
+       [
+        126.1,
+        38.43
+       ],
+       [
+        125.86,
+        38.48
+       ],
+       [
+        125.776,
+        38.66
+       ],
+       [
+        125.74,
+        38.86
+       ],
+       [
+        125.75,
+        38.99
+       ]
+      ],
+      "color": "#7fd3ff",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        126.88,
+        38.0
+       ],
+       [
+        126.73,
+        38.3
+       ],
+       [
+        126.53,
+        38.5
+       ],
+       [
+        126.36,
+        38.73
+       ],
+       [
+        126.09,
+        38.85
+       ],
+       [
+        126.0,
+        38.9
+       ],
+       [
+        125.88,
+        38.95
+       ],
+       [
+        125.772,
+        39.012
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "jidong",
+      "text": "국군 제1사단",
+      "color": "blue",
+      "at": 0
+     }
+    ],
+    "tilt": 14,
+    "tone": "night"
+   },
+   "hook": {
+    "hud": [
+     {
+      "big": "8마일",
+      "sub": "국군 제1사단 → 평양",
+      "sub2": "약 13km · 10. 18 밤",
+      "on": "팔 마일",
+      "color": "#FFD400"
+     }
+    ]
+   },
+   "src": [
+    2
+   ],
+   "act": 5
+  },
+  {
+   "id": "s188",
+   "lines": [
+    {
+     "t": "미군 기병사단의 선두는 아직 30마일(약 48km) 밖에 있었습니다.",
+     "say": "미군 기병사단의 선두는 아직 삼십 마일 약 사십팔 킬로미터 밖에 있었습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "route",
+    "to": "route",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.555,
+        37.971
+       ],
+       [
+        126.48,
+        38.15
+       ],
+       [
+        126.39,
+        38.33
+       ],
+       [
+        126.1,
+        38.43
+       ],
+       [
+        125.86,
+        38.48
+       ],
+       [
+        125.776,
+        38.66
+       ],
+       [
+        125.74,
+        38.86
+       ],
+       [
+        125.75,
+        38.99
+       ]
+      ],
+      "color": "#7fd3ff",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        126.88,
+        38.0
+       ],
+       [
+        126.73,
+        38.3
+       ],
+       [
+        126.53,
+        38.5
+       ],
+       [
+        126.36,
+        38.73
+       ],
+       [
+        126.09,
+        38.85
+       ],
+       [
+        126.0,
+        38.9
+       ],
+       [
+        125.88,
+        38.95
+       ],
+       [
+        125.772,
+        39.012
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": [
+       125.75,
+       38.62
+      ],
+      "text": "미 기병사단 선두",
+      "color": "blue",
+      "at": 0
+     }
+    ],
+    "tilt": 14,
+    "tone": "night"
+   },
+   "hook": {
+    "hud": [
+     {
+      "big": "8마일",
+      "sub": "국군 제1사단",
+      "sub2": "약 13km",
+      "at": 0.0,
+      "color": "#FFD400",
+      "count": false
+     },
+     {
+      "big": "30마일",
+      "sub": "미 기병사단 선두",
+      "sub2": "약 48km",
+      "on": "삼십 마일",
+      "color": "#4FA3FF"
+     }
+    ]
+   },
+   "src": [
+    2
+   ],
+   "act": 5
+  },
+  {
+   "id": "s189",
+   "lines": [
+    {
+     "t": "이틀 늦게 출발한 사단이 어느새 3배 넘게 가까이 와 있었던 것입니다.",
+     "say": "이틀 늦게 출발한 사단이 어느새 세 배 넘게 가까이 와 있었던 것입니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "route",
+    "to": "route",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.555,
+        37.971
+       ],
+       [
+        126.48,
+        38.15
+       ],
+       [
+        126.39,
+        38.33
+       ],
+       [
+        126.1,
+        38.43
+       ],
+       [
+        125.86,
+        38.48
+       ],
+       [
+        125.776,
+        38.66
+       ],
+       [
+        125.74,
+        38.86
+       ],
+       [
+        125.75,
+        38.99
+       ]
+      ],
+      "color": "#7fd3ff",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        126.88,
+        38.0
+       ],
+       [
+        126.73,
+        38.3
+       ],
+       [
+        126.53,
+        38.5
+       ],
+       [
+        126.36,
+        38.73
+       ],
+       [
+        126.09,
+        38.85
+       ],
+       [
+        126.0,
+        38.9
+       ],
+       [
+        125.88,
+        38.95
+       ],
+       [
+        125.772,
+        39.012
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": "jidong",
+      "text": "국군 제1사단",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": [
+       125.75,
+       38.62
+      ],
+      "text": "미 기병사단",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "jidong",
+      "text": "3배 넘게 가까이",
+      "color": "#111",
+      "dy": -70,
+      "at": 0.3
+     }
+    ],
+    "tilt": 14,
+    "tone": "night"
+   },
+   "src": [
+    1,
+    2
+   ],
+   "act": 5
+  },
+  {
+   "id": "s190",
+   "lines": [
+    "하지만 아직 끝난 것은 아니었습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "아직",
+    "accent": "끝나지 않았다",
+    "accentAt": 0.5
+   },
+   "act": 5
+  },
+  {
+   "id": "s191",
+   "lines": [
+    "평양 앞에는 대동강이 흐르고 있었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "city",
+    "to": "city",
+    "items": [
+     {
+      "k": "lock",
+      "p": "river",
+      "text": "대동강",
+      "at": 0.3
+     }
+    ],
+    "tilt": 34,
+    "tone": "night"
+   },
+   "act": 5
+  },
+  {
+   "id": "s192",
+   "lines": [
+    {
+     "t": "1950년 10월 19일 아침입니다.",
+     "say": "천구백오십년 시월 십구일 아침입니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "pyong",
+    "to": "pyong",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "jidong",
+      "color": "blue",
+      "at": 0
+     }
+    ],
+    "tilt": 26
+   },
+   "chapter": {
+    "num": "제6막",
+    "title": "대동강"
+   },
+   "date": "1950. 10. 19",
+   "clock": "아침",
+   "legend": [
+    {
+     "icon": "kr",
+     "text": "국군"
+    },
+    {
+     "icon": "us",
+     "text": "미군"
+    },
+    {
+     "icon": "nk",
+     "text": "북한군"
+    }
+   ],
+   "src": [
+    1,
+    2
+   ],
+   "act": 6
+  },
+  {
+   "id": "s193",
+   "lines": [
+    {
+     "t": "제1사단의 2개 연대가 옆으로 나란히 펼쳐 동평양으로 밀고 들어갔습니다.",
+     "say": "제일사단의 두 개 연대가 옆으로 나란히 펼쳐 동평양으로 밀고 들어갔습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "pyong",
+    "to": "pyong",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        125.88,
+        38.95
+       ],
+       [
+        125.79,
+        39.0
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        125.9,
+        38.97
+       ],
+       [
+        125.81,
+        39.015
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0.2
+     }
+    ],
+    "tilt": 26
+   },
+   "src": [
+    1
+   ],
+   "act": 6
+  },
+  {
+   "id": "s194",
+   "lines": [
+    "길 곳곳에 지뢰가 남아 있었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "pyong",
+    "to": "pyong",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": [
+       125.84,
+       38.98
+      ],
+      "text": "지뢰",
+      "color": "#c9242c",
+      "dy": -50,
+      "at": 0.2
+     },
+     {
+      "k": "badge",
+      "p": [
+       125.81,
+       39.0
+      ],
+      "text": "지뢰",
+      "color": "#c9242c",
+      "dy": -50,
+      "at": 0.4
+     }
+    ],
+    "tilt": 26
+   },
+   "src": [
+    6
+   ],
+   "act": 6
+  },
+  {
+   "id": "s195",
+   "lines": [
+    "대동교 근처에서는 지프 한 대가 지뢰를 밟고 부서졌습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "mined_road",
+    "kb": "out",
+    "lower": {
+     "title": "지뢰에 부서진 지프",
+     "date": "1950. 10. 19",
+     "sub": "재연"
+    }
+   },
+   "label": "재연 일러스트",
+   "src": [
+    6
+   ],
+   "act": 6
+  },
+  {
+   "id": "s196",
+   "lines": [
+    {
+     "t": "오전 10시 50분 제1사단 병사들이 대동교 입구 선교리 로터리에 닿았습니다.",
+     "say": "오전 열 시 오십 분 제일사단 병사들이 대동교 입구 선교리 로터리에 닿았습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "city",
+    "to": "city",
+    "items": [
+     {
+      "k": "lock",
+      "p": "seongyo",
+      "text": "선교리 로터리",
+      "at": 0.3
+     }
+    ],
+    "tilt": 34
+   },
+   "clock": "10:50",
+   "hook": {
+    "hud": [
+     {
+      "big": "10:50",
+      "sub": "선교리 로터리 도착",
+      "sub2": "한국 측 기록",
+      "at": 0.0,
+      "count": false
+     }
+    ]
+   },
+   "src": [
+    1
+   ],
+   "act": 6
+  },
+  {
+   "id": "s197",
+   "lines": [
+    {
+     "t": "오전 11시 무렵 제12연대 제2대대가 대동강 강가에 섰습니다.",
+     "say": "오전 열한 시 무렵 제십이연대 제이대대가 대동강 강가에 섰습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "city",
+    "to": "city",
+    "items": [
+     {
+      "k": "unit",
+      "p": "seongyo",
+      "text": "제12연대 제2대대",
+      "color": "blue",
+      "at": 0.2,
+      "pulse": true
+     }
+    ],
+    "tilt": 34
+   },
+   "clock": "11:00",
+   "src": [
+    1,
+    2
+   ],
+   "act": 6
+  },
+  {
+   "id": "s198",
+   "lines": [
+    "그 순간 북한군이 대동교와 대동강 철교를 폭파했습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "city",
+    "to": "city",
+    "items": [
+     {
+      "k": "clash",
+      "p": "bridge",
+      "period": 0.9,
+      "size": 1.3,
+      "at": 0.1
+     },
+     {
+      "k": "clash",
+      "p": "rail",
+      "period": 0.9,
+      "size": 1.3,
+      "at": 0.2
+     }
+    ],
+    "tilt": 34
+   },
+   "stamp": {
+    "text": "폭파",
+    "on": "폭파했습니다",
+    "x": 0.5,
+    "y": 0.42
+   },
+   "sfx": [
+    {
+     "id": "artillery_far",
+     "at": 0.1
+    }
+   ],
+   "src": [
+    1,
+    2
+   ],
+   "act": 6
+  },
+  {
+   "id": "s199",
+   "lines": [
+    {
+     "t": "미군 1개 대대가 다리에 들어서기 직전이었습니다.",
+     "say": "미군 한 개 대대가 다리에 들어서기 직전이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "city",
+    "to": "city",
+    "items": [
+     {
+      "k": "clash",
+      "p": "bridge",
+      "period": 0.9,
+      "size": 1.0,
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "bridge",
+      "text": "미군 1개 대대 진입 직전",
+      "color": "#c9242c",
+      "dy": -80,
+      "at": 0.3
+     }
+    ],
+    "tilt": 34
+   },
+   "src": [
+    1
+   ],
+   "act": 6
+  },
+  {
+   "id": "s200",
+   "lines": [
+    "다리가 사라지자 강을 건너려면 배나 부교가 있어야 했습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "city",
+    "to": "city",
+    "items": [
+     {
+      "k": "badge",
+      "p": "river",
+      "text": "배 · 부교가 필요",
+      "color": "#111",
+      "dy": -60,
+      "at": 0.3
+     }
+    ],
+    "tilt": 34
+   },
+   "act": 6
+  },
+  {
+   "id": "s201",
+   "lines": [
+    "그런데 미군 기록에도 비슷한 시각이 남아 있습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s201-photo",
+    "tag": "미 육군 사진",
+    "lower": {
+     "title": "미 제1기병사단 병사들",
+     "date": "1950"
+    }
+   },
+   "act": 6
+  },
+  {
+   "id": "s202",
+   "lines": [
+    {
+     "t": "미 제5기병연대의 한 중대가 평양에 들어간 시각을 오전 11시 2분으로 적었습니다.",
+     "say": "미 제오기병연대의 한 중대가 평양에 들어간 시각을 오전 열한 시 이 분으로 적었습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "pyong",
+    "to": "pyong",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "unit",
+      "p": [
+       125.75,
+       38.99
+      ],
+      "text": "미 제5기병연대 F중대",
+      "color": "blue",
+      "at": 0.2,
+      "pulse": true
+     }
+    ],
+    "tilt": 26
+   },
+   "clock": "11:02",
+   "hook": {
+    "hud": [
+     {
+      "big": "11:02",
+      "sub": "미군 공식 기록",
+      "sub2": "제5기병연대 F중대",
+      "on": "이 분",
+      "color": "#4FA3FF",
+      "count": false
+     }
+    ]
+   },
+   "src": [
+    2
+   ],
+   "act": 6
+  },
+  {
+   "id": "s203",
+   "lines": [
+    "미군 공간사를 쓴 역사가는 두 부대가 거의 동시에 들어왔다고 정리했습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "city",
+    "to": "city",
+    "items": [
+     {
+      "k": "marker",
+      "p": "seongyo",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": [
+       125.752,
+       39.0
+      ],
+      "color": "blue",
+      "at": 0
+     }
+    ],
+    "tilt": 34
+   },
+   "clip": {
+    "source": "애플먼 『낙동강에서 압록강으로』 (요지)",
+    "text": "두 부대는\n[[거의 동시에]] 평양에 들어왔다",
+    "on": "거의 동시에",
+    "recreated": true
+   },
+   "src": [
+    2
+   ],
+   "act": 6
+  },
+  {
+   "id": "s204",
+   "lines": [
+    "누가 몇 분 먼저였는지는 기록마다 조금씩 다릅니다."
+   ],
+   "visual": {
+    "type": "compare",
+    "left": {
+     "title": "한국 측 기록",
+     "big": "10:50",
+     "icon": "none",
+     "color": "blue"
+    },
+    "right": {
+     "title": "미군 공식 기록",
+     "big": "11:02",
+     "icon": "none",
+     "color": "blue",
+     "at": 0.6
+    }
+   },
+   "src": [
+    1,
+    2
+   ],
+   "act": 6
+  },
+  {
+   "id": "s205",
+   "lines": [
+    "그러나 강을 건너는 싸움에서는 차이가 분명했습니다."
+   ],
+   "visual": {
+    "type": "punch",
+    "text": "강은 달랐다",
+    "sub": "다리 없이 건너는 싸움"
+   },
+   "act": 6
+  },
+  {
+   "id": "s206",
+   "lines": [
+    {
+     "t": "오후 2시 40분 제11연대는 미군 전차와 함께 평양 동쪽 미림 비행장을 차지했습니다.",
+     "say": "오후 두 시 사십 분 제십일연대는 미군 전차와 함께 평양 동쪽 미림 비행장을 차지했습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "city",
+    "to": "city",
+    "items": [
+     {
+      "k": "lock",
+      "p": "mirim",
+      "text": "미림 비행장",
+      "at": 0.3
+     },
+     {
+      "k": "unit",
+      "p": "mirim",
+      "text": "제11연대 + 미 전차",
+      "color": "blue",
+      "at": 0.5
+     }
+    ],
+    "tilt": 34
+   },
+   "clock": "14:40",
+   "src": [
+    1,
+    2
+   ],
+   "act": 6
+  },
+  {
+   "id": "s207",
+   "lines": [
+    {
+     "t": "그리고 율리에서 갈라졌던 제15연대가 대동강 상류에 닿았습니다.",
+     "say": "그리고 율리에서 갈라졌던 제십오연대가 대동강 상류에 닿았습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "ford",
+    "to": "ford",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.08,
+        39.1
+       ],
+       [
+        125.96,
+        39.1
+       ],
+       [
+        125.86,
+        39.07
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0.1
+     },
+     {
+      "k": "unit",
+      "p": "ford",
+      "text": "제15연대",
+      "color": "blue",
+      "at": 0.4,
+      "pulse": true
+     }
+    ],
+    "tilt": 32
+   },
+   "src": [
+    1,
+    2
+   ],
+   "act": 6
+  },
+  {
+   "id": "s208",
+   "lines": [
+    "백선엽이 기억하던 얕은 여울이었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "ford",
+    "to": "ford",
+    "items": [
+     {
+      "k": "lock",
+      "p": "ford",
+      "text": "기억 속의 얕은 여울",
+      "at": 0.3
+     }
+    ],
+    "tilt": 32
+   },
+   "act": 6
+  },
+  {
+   "id": "s209",
+   "lines": [
+    "그는 미군 장교에게 이렇게 말했다고 기록돼 있습니다.",
+    "나는 평양 사람이다 여울이 어디 있는지 안다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "ford",
+    "to": "ford",
+    "items": [
+     {
+      "k": "marker",
+      "p": "ford",
+      "color": "blue",
+      "at": 0
+     }
+    ],
+    "tilt": 32
+   },
+   "clip": {
+    "source": "애플먼 · 백선엽의 말 (요지)",
+    "text": "나는 평양 사람이다\n[[여울을 안다]]",
+    "on": "여울이",
+    "recreated": true
+   },
+   "src": [
+    2
+   ],
+   "act": 6
+  },
+  {
+   "id": "s210",
+   "lines": [
+    {
+     "t": "날이 저물 무렵 제1사단의 대부분은 이미 대동강 북쪽에 있었습니다.",
+     "say": "날이 저물 무렵 제일사단의 대부분은 이미 대동강 북쪽에 있었습니다."
+    }
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "ford_crossing",
+    "kb": "in",
+    "lower": {
+     "title": "해 질 녘 · 대동강 북쪽으로",
+     "date": "1950. 10. 19",
+     "sub": "재연"
+    }
+   },
+   "label": "재연 일러스트",
+   "clock": "해 질 녘",
+   "sfx": [
+    {
+     "id": "water",
+     "at": 0.2
+    }
+   ],
+   "src": [
+    2
+   ],
+   "act": 6
+  },
+  {
+   "id": "s211",
+   "lines": [
+    "미군이 부교를 놓고 본격적으로 강을 건넌 것은 이튿날 새벽이었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "city",
+    "to": "city",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        125.765,
+        39.01
+       ],
+       [
+        125.757,
+        39.026
+       ]
+      ],
+      "color": "blue",
+      "dash": true,
+      "at": 0.2
+     },
+     {
+      "k": "badge",
+      "p": "river",
+      "text": "미군 부교 · 10. 20 새벽",
+      "color": "#111",
+      "dy": -60,
+      "at": 0.4
+     }
+    ],
+    "tilt": 34
+   },
+   "clock": "",
+   "src": [
+    1
+   ],
+   "act": 6
+  },
+  {
+   "id": "s212",
+   "lines": [
+    {
+     "t": "같은 날 동쪽에서 달려온 국군 제7사단 제8연대도 상류에서 강을 건넜습니다.",
+     "say": "같은 날 동쪽에서 달려온 국군 제칠사단 제팔연대도 상류에서 강을 건넜습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "yulli",
+    "to": "yulli",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "yulli",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.28,
+        39.1
+       ],
+       [
+        126.08,
+        39.11
+       ],
+       [
+        125.9,
+        39.09
+       ],
+       [
+        125.775,
+        39.058
+       ]
+      ],
+      "color": "blue",
+      "width": 1.1,
+      "at": 0.1
+     },
+     {
+      "k": "unit",
+      "p": [
+       126.28,
+       39.1
+      ],
+      "text": "제7사단 제8연대",
+      "color": "blue",
+      "at": 0.3
+     }
+    ],
+    "tilt": 24
+   },
+   "src": [
+    1,
+    2
+   ],
+   "act": 6
+  },
+  {
+   "id": "s213",
+   "lines": [
+    {
+     "t": "제8연대는 그날 오후 5시 무렵 김일성대학을 차지했습니다.",
+     "say": "제팔연대는 그날 오후 다섯 시 무렵 김일성대학을 차지했습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "city",
+    "to": "city",
+    "items": [
+     {
+      "k": "lock",
+      "p": "kimuniv",
+      "text": "김일성대학",
+      "at": 0.3
+     }
+    ],
+    "tilt": 34
+   },
+   "clock": "17:00",
+   "src": [
+    2
+   ],
+   "act": 6
+  },
+  {
+   "id": "s214",
+   "lines": [
+    {
+     "t": "제7사단 쪽 기록은 하루 전인 18일 밤 이미 대학 옥상에 태극기를 올렸다고 말합니다.",
+     "say": "제칠사단 쪽 기록은 하루 전인 십팔일 밤 이미 대학 옥상에 태극기를 올렸다고 말합니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "7사단 측 기록 · 10. 18 밤",
+    "style": "dark",
+    "sub": "대학 옥상에 태극기",
+    "subAt": 0.4
+   },
+   "src": [
+    1,
+    2,
+    3
+   ],
+   "act": 6
+  },
+  {
+   "id": "s215",
+   "lines": [
+    "그래서 평양 최초 입성을 두고는 지금도 서로 다른 증언이 남아 있습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "city",
+    "to": "city",
+    "items": [
+     {
+      "k": "badge",
+      "p": "seongyo",
+      "text": "1사단 10:50",
+      "color": "#111",
+      "dy": -60,
+      "at": 0.1
+     },
+     {
+      "k": "badge",
+      "p": [
+       125.752,
+       39.0
+      ],
+      "text": "5기병 11:02",
+      "color": "#111",
+      "dy": -60,
+      "at": 0.3
+     },
+     {
+      "k": "badge",
+      "p": "kimuniv",
+      "text": "7사단 10. 18?",
+      "color": "#111",
+      "dy": -60,
+      "at": 0.5
+     }
+    ],
+    "tilt": 34
+   },
+   "src": [
+    1,
+    2,
+    3
+   ],
+   "act": 6
+  },
+  {
+   "id": "s216",
+   "lines": [
+    "국방부 군사편찬연구소의 공식 전사는 이렇게 정리합니다.",
+    {
+     "t": "동평양은 국군 제1사단의 두 연대와 미 제5기병연대가 차지했습니다.",
+     "say": "동평양은 국군 제일사단의 두 연대와 미 제오기병연대가 차지했습니다."
+    },
+    {
+     "t": "본평양은 국군 제1사단 제15연대와 제7사단 제8연대가 차지했습니다.",
+     "say": "본평양은 국군 제일사단 제십오연대와 제칠사단 제팔연대가 차지했습니다."
+    }
+   ],
+   "visual": {
+    "type": "document",
+    "org": "국방부 군사편찬연구소",
+    "head": "『6·25전쟁사』 6권 (2009) 정리",
+    "rows": [
+     "동평양 — 국군 제1사단 제11·12연대 + 미 제5기병연대",
+     "본평양 — 국군 제1사단 제15연대 + 제7사단 제8연대"
+    ],
+    "stamp": "戰史",
+    "note": "요약"
+   },
+   "src": [
+    1
+   ],
+   "act": 6
+  },
+  {
+   "id": "s217",
+   "lines": [
+    {
+     "t": "10월 20일 오전 10시 제1사단은 평양 전체를 손에 넣었다고 보고했습니다.",
+     "say": "시월 이십일 오전 열 시 제일사단은 평양 전체를 손에 넣었다고 보고했습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "city",
+    "to": "city",
+    "items": [
+     {
+      "k": "lock",
+      "p": "bon",
+      "text": "평양 전역 확보",
+      "at": 0.3
+     }
+    ],
+    "tilt": 34
+   },
+   "date": "1950. 10. 20",
+   "clock": "10:00",
+   "src": [
+    2
+   ],
+   "act": 6
+  },
+  {
+   "id": "s218",
+   "lines": [
+    "도시의 교회들에서 종소리가 울렸습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "pyongyang_1950",
+    "kb": "out",
+    "lower": {
+     "title": "종소리가 울린 도시",
+     "date": "1950. 10. 20",
+     "sub": "재연"
+    }
+   },
+   "label": "재연 일러스트",
+   "src": [
+    2
+   ],
+   "act": 6
+  },
+  {
+   "id": "s219",
+   "lines": [
+    "그날 군단장 밀번이 평양에 들어왔습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s219-photo",
+    "tag": "미 육군 사진",
+    "lower": {
+     "title": "미 제1군단장 밀번",
+     "date": "1950"
+    }
+   },
+   "clock": "",
+   "act": 6
+  },
+  {
+   "id": "s220",
+   "lines": [
+    "그는 백선엽과 기병사단장 게이 소장을 사진기자들 앞에 세우고 악수를 시켰습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s220-photo",
+    "tag": "미 육군 통신대 사진",
+    "lower": {
+     "title": "미 제1기병사단장 게이 소장",
+     "date": "1950"
+    }
+   },
+   "src": [
+    6
+   ],
+   "act": 6
+  },
+  {
+   "id": "s221",
+   "lines": [
+    "백선엽은 그때 게이 소장이 아무 말 없이 언짢은 얼굴이었다고 회고했습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "out",
+    "q": "s221-photo",
+    "tag": "국방화보 · 1950. 10. 19",
+    "lower": {
+     "title": "평양에 들어간 장병들",
+     "date": "1950. 10. 19"
+    }
+   },
+   "src": [
+    6
+   ],
+   "act": 6
+  },
+  {
+   "id": "s222",
+   "lines": [
+    "이제 처음의 질문으로 돌아가 보겠습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "route",
+    "to": "route",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.555,
+        37.971
+       ],
+       [
+        126.48,
+        38.15
+       ],
+       [
+        126.39,
+        38.33
+       ],
+       [
+        126.1,
+        38.43
+       ],
+       [
+        125.86,
+        38.48
+       ],
+       [
+        125.776,
+        38.66
+       ],
+       [
+        125.74,
+        38.86
+       ],
+       [
+        125.75,
+        38.99
+       ]
+      ],
+      "color": "#7fd3ff",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "line",
+      "path": [
+       [
+        126.88,
+        38.0
+       ],
+       [
+        126.73,
+        38.3
+       ],
+       [
+        126.53,
+        38.5
+       ],
+       [
+        126.36,
+        38.73
+       ],
+       [
+        126.09,
+        38.85
+       ],
+       [
+        126.0,
+        38.9
+       ],
+       [
+        125.88,
+        38.95
+       ],
+       [
+        125.772,
+        39.012
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "lock",
+      "p": "pyongyang",
+      "text": "평양",
+      "at": 0.3
+     }
+    ],
+    "tilt": 14
+   },
+   "chapter": {
+    "num": "제7막",
+    "title": "열하루의 답"
+   },
+   "legend": [
+    {
+     "icon": "kr",
+     "text": "국군 제1사단"
+    },
+    {
+     "icon": "us",
+     "text": "미 제1기병사단"
+    },
+    {
+     "icon": "nk",
+     "text": "북한군"
+    },
+    {
+     "icon": "route",
+     "text": "진격로"
+    }
+   ],
+   "act": 7,
+   "pauseBefore": 0.5
+  },
+  {
+   "id": "s223",
+   "lines": [
+    {
+     "t": "이틀 늦게 출발한 국군 제1사단은 어떻게 미군보다 먼저 평양에 닿았을까요?",
+     "say": "이틀 늦게 출발한 국군 제일사단은 어떻게 미군보다 먼저 평양에 닿았을까요?"
+    }
+   ],
+   "visual": {
+    "type": "black",
+    "text": " "
+   },
+   "hook": {
+    "question": {
+     "text": "이틀 늦게 출발한 국군 1사단은\n어떻게 미군보다 먼저 평양에 닿았나",
+     "at": 0.05
+    }
+   },
+   "src": [
+    1,
+    2
+   ],
+   "act": 7
+  },
+  {
+   "id": "s224",
+   "lines": [
+    {
+     "t": "기록을 따라가 보면 4가지가 보입니다.",
+     "say": "기록을 따라가 보면 네 가지가 보입니다."
+    }
+   ],
+   "visual": {
+    "type": "reasons",
+    "title": "열하루의 4가지",
+    "items": [
+     {
+      "text": "멈추지 않음",
+      "later": true
+     },
+     {
+      "text": "빌려 온 전차",
+      "later": true
+     },
+     {
+      "text": "율리 갈림길",
+      "later": true
+     },
+     {
+      "text": "고향의 여울",
+      "later": true
+     }
+    ]
+   },
+   "src": [
+    1,
+    2
+   ],
+   "act": 7
+  },
+  {
+   "id": "s225",
+   "lines": [
+    "첫 번째는 멈추지 않은 것이었습니다."
+   ],
+   "visual": {
+    "type": "reasons",
+    "title": "열하루의 4가지",
+    "items": [
+     {
+      "text": "멈추지 않음",
+      "on": "멈추지"
+     },
+     {
+      "text": "빌려 온 전차",
+      "later": true
+     },
+     {
+      "text": "율리 갈림길",
+      "later": true
+     },
+     {
+      "text": "고향의 여울",
+      "later": true
+     }
+    ]
+   },
+   "act": 7
+  },
+  {
+   "id": "s226",
+   "lines": [
+    {
+     "t": "제1사단은 열하루 동안 거의 쉬지 않고 산길을 달렸습니다.",
+     "say": "제일사단은 열하루 동안 거의 쉬지 않고 산길을 달렸습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "route",
+    "to": "route",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.88,
+        38.0
+       ],
+       [
+        126.73,
+        38.3
+       ],
+       [
+        126.53,
+        38.5
+       ],
+       [
+        126.36,
+        38.73
+       ],
+       [
+        126.09,
+        38.85
+       ],
+       [
+        126.0,
+        38.9
+       ],
+       [
+        125.88,
+        38.95
+       ],
+       [
+        125.772,
+        39.012
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "at": 0.1
+     },
+     {
+      "k": "marker",
+      "p": "sibyon",
+      "color": "blue",
+      "at": 0.2
+     },
+     {
+      "k": "marker",
+      "p": "singye",
+      "color": "blue",
+      "at": 0.30000000000000004
+     },
+     {
+      "k": "marker",
+      "p": "suan",
+      "color": "blue",
+      "at": 0.4
+     },
+     {
+      "k": "marker",
+      "p": "yulli",
+      "color": "blue",
+      "at": 0.5
+     },
+     {
+      "k": "marker",
+      "p": "jidong",
+      "color": "blue",
+      "at": 0.6000000000000001
+     }
+    ],
+    "tilt": 14
+   },
+   "src": [
+    1,
+    2
+   ],
+   "act": 7
+  },
+  {
+   "id": "s227",
+   "lines": [
+    "막히면 밤새 포를 쏘고 날이 밝으면 다시 걸었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "jidong",
+    "to": "jidong",
+    "items": [
+     {
+      "k": "shock",
+      "pts": [
+       [
+        125.87,
+        38.95
+       ],
+       [
+        125.885,
+        38.958
+       ],
+       [
+        125.875,
+        38.94
+       ],
+       [
+        125.892,
+        38.948
+       ]
+      ],
+      "at": 0.1,
+      "period": 0.6
+     }
+    ],
+    "tilt": 36,
+    "tone": "night"
+   },
+   "act": 7
+  },
+  {
+   "id": "s228",
+   "lines": [
+    "두 번째는 빌려 온 전차였습니다."
+   ],
+   "visual": {
+    "type": "reasons",
+    "title": "열하루의 4가지",
+    "items": [
+     {
+      "text": "멈추지 않음",
+      "at": 0
+     },
+     {
+      "text": "빌려 온 전차",
+      "on": "빌려"
+     },
+     {
+      "text": "율리 갈림길",
+      "later": true
+     },
+     {
+      "text": "고향의 여울",
+      "later": true
+     }
+    ]
+   },
+   "act": 7
+  },
+  {
+   "id": "s229",
+   "lines": [
+    "트럭이 모자란 사단에 미군 전차 중대는 다리이자 방패였습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s229-photo",
+    "tag": "미 육군 사진",
+    "lower": {
+     "title": "전차 위의 보병",
+     "date": "1950. 9"
+    }
+   },
+   "act": 7
+  },
+  {
+   "id": "s230",
+   "lines": [
+    "보병은 전차 위에 올라타 달렸고 전차는 지동리의 토치카를 부쉈습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "jidong",
+    "to": "jidong",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        125.92,
+        38.925
+       ],
+       [
+        125.9,
+        38.96
+       ],
+       [
+        125.87,
+        38.965
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        125.92,
+        38.925
+       ],
+       [
+        125.88,
+        38.93
+       ],
+       [
+        125.86,
+        38.95
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0.2
+     },
+     {
+      "k": "clash",
+      "p": "jidong",
+      "period": 0.9,
+      "size": 1.0,
+      "at": 0.4
+     }
+    ],
+    "tilt": 36
+   },
+   "act": 7
+  },
+  {
+   "id": "s231",
+   "lines": [
+    "세 번째는 율리 갈림길이었습니다."
+   ],
+   "visual": {
+    "type": "reasons",
+    "title": "열하루의 4가지",
+    "items": [
+     {
+      "text": "멈추지 않음",
+      "at": 0
+     },
+     {
+      "text": "빌려 온 전차",
+      "at": 0
+     },
+     {
+      "text": "율리 갈림길",
+      "on": "율리"
+     },
+     {
+      "text": "고향의 여울",
+      "later": true
+     }
+    ]
+   },
+   "act": 7
+  },
+  {
+   "id": "s232",
+   "lines": [
+    "한 길로 몰려가지 않고 연대 하나를 강 상류로 돌린 것입니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "yulli",
+    "to": "yulli",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "yulli",
+      "color": "blue",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.0,
+        38.9
+       ],
+       [
+        126.07,
+        39.0
+       ],
+       [
+        126.08,
+        39.1
+       ],
+       [
+        125.96,
+        39.1
+       ],
+       [
+        125.86,
+        39.07
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.0,
+        38.9
+       ],
+       [
+        125.88,
+        38.95
+       ],
+       [
+        125.772,
+        39.012
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0.2
+     }
+    ],
+    "tilt": 24
+   },
+   "act": 7
+  },
+  {
+   "id": "s233",
+   "lines": [
+    "다리가 끊어진 순간 그 결정이 빛을 발했습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "city",
+    "to": "city",
+    "items": [
+     {
+      "k": "clash",
+      "p": "bridge",
+      "period": 0.9,
+      "size": 1.0,
+      "at": 0.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        125.86,
+        39.07
+       ],
+       [
+        125.81,
+        39.06
+       ],
+       [
+        125.765,
+        39.048
+       ]
+      ],
+      "color": "blue",
+      "dash": true,
+      "at": 0.3
+     }
+    ],
+    "tilt": 34
+   },
+   "act": 7
+  },
+  {
+   "id": "s234",
+   "lines": [
+    "네 번째는 고향의 여울이었습니다."
+   ],
+   "visual": {
+    "type": "reasons",
+    "title": "열하루의 4가지",
+    "items": [
+     {
+      "text": "멈추지 않음",
+      "at": 0
+     },
+     {
+      "text": "빌려 온 전차",
+      "at": 0
+     },
+     {
+      "text": "율리 갈림길",
+      "at": 0
+     },
+     {
+      "text": "고향의 여울",
+      "on": "여울"
+     }
+    ]
+   },
+   "act": 7
+  },
+  {
+   "id": "s235",
+   "lines": [
+    "지도에도 잘 나오지 않는 얕은 물길을 사단장은 기억하고 있었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "ford",
+    "to": "ford",
+    "items": [
+     {
+      "k": "lock",
+      "p": "ford",
+      "text": "얕은 물길",
+      "at": 0.3
+     }
+    ],
+    "tilt": 32
+   },
+   "act": 7
+  },
+  {
+   "id": "s236",
+   "lines": [
+    "땅을 아는 지휘관이 강 하나를 길로 바꾼 것입니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "ford_crossing",
+    "kb": "out",
+    "lower": {
+     "title": "강을 길로 바꾼 지휘관",
+     "sub": "재연"
+    }
+   },
+   "label": "재연 일러스트",
+   "act": 7
+  },
+  {
+   "id": "s237",
+   "lines": [
+    "그리고 한 가지를 더 기억해야 합니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "그리고",
+    "accent": "하나 더",
+    "accentAt": 0.5
+   },
+   "act": 7
+  },
+  {
+   "id": "s238",
+   "lines": [
+    "평양의 북한군은 이미 지도부를 떠나보내고 시간을 버는 중이었습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "nk",
+    "to": "nk",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        125.755,
+        39.03
+       ],
+       [
+        126.0,
+        39.6
+       ],
+       [
+        126.3,
+        40.3
+       ],
+       [
+        126.6,
+        40.97
+       ]
+      ],
+      "color": "red",
+      "dash": true,
+      "at": 0.1
+     },
+     {
+      "k": "marker",
+      "p": "kanggye",
+      "color": "red",
+      "at": 0.5
+     }
+    ],
+    "tilt": 10
+   },
+   "src": [
+    1
+   ],
+   "act": 7
+  },
+  {
+   "id": "s239",
+   "lines": [
+    "그래서 평양은 생각보다 빨리 열렸습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "pyong",
+    "to": "pyong",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "badge",
+      "p": "pyongyang",
+      "text": "생각보다 빨리 열린 평양",
+      "color": "#111",
+      "dy": -60,
+      "at": 0.3
+     }
+    ],
+    "tilt": 26
+   },
+   "act": 7
+  },
+  {
+   "id": "s240",
+   "lines": [
+    "백선엽은 훗날 이날을 이렇게 말했습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s240-photo",
+    "tag": "1951",
+    "lower": {
+     "title": "백선엽",
+     "date": "1951"
+    }
+   },
+   "act": 7
+  },
+  {
+   "id": "s241",
+   "lines": [
+    "평양에 들어간 날이 내 생애 최고의 날이었다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "“평양에 들어간 날이\n내 생애 최고의 날”",
+    "style": "yellow",
+    "sub": "백선엽 회고",
+    "subAt": 0.4
+   },
+   "src": [
+    4
+   ],
+   "act": 7
+  },
+  {
+   "id": "s242",
+   "lines": [
+    {
+     "t": "그는 한국과 미국 장병 1만 5천여 명을 이끌고 고향을 되찾았다고 회고했습니다.",
+     "say": "그는 한국과 미국 장병 만오천여 명을 이끌고 고향을 되찾았다고 회고했습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "pyongw",
+    "to": "pyongw",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "marker",
+      "p": "birth",
+      "color": "blue",
+      "at": 0
+     }
+    ],
+    "tilt": 20
+   },
+   "hook": {
+    "hud": [
+     {
+      "big": "1만 5천여 명",
+      "sub": "지휘한 한·미 장병",
+      "sub2": "백선엽 회고",
+      "on": "만오천"
+     }
+    ]
+   },
+   "src": [
+    4
+   ],
+   "act": 7
+  },
+  {
+   "id": "s243",
+   "lines": [
+    {
+     "t": "10월 21일 맥아더 원수가 평양 비행장에 내렸습니다.",
+     "say": "시월 이십일일 맥아더 원수가 평양 비행장에 내렸습니다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s243-photo",
+    "tag": "미 육군 사진",
+    "lower": {
+     "title": "맥아더 원수",
+     "date": "1950"
+    }
+   },
+   "date": "1950. 10. 21",
+   "src": [
+    2
+   ],
+   "act": 7
+  },
+  {
+   "id": "s244",
+   "lines": [
+    "그는 평양에 처음 들어간 미군 중대를 사열했습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "city",
+    "to": "city",
+    "items": [
+     {
+      "k": "unit",
+      "p": [
+       125.745,
+       39.0
+      ],
+      "text": "제5기병연대 F중대 사열",
+      "color": "blue",
+      "at": 0.2
+     }
+    ],
+    "tilt": 34
+   },
+   "src": [
+    2
+   ],
+   "act": 7
+  },
+  {
+   "id": "s245",
+   "lines": [
+    {
+     "t": "96일 전 이 중대와 함께 한국에 온 병사는 앞으로 나오라고 했습니다.",
+     "say": "구십육 일 전 이 중대와 함께 한국에 온 병사는 앞으로 나오라고 했습니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "96일 전 함께 온 병사",
+    "style": "dark",
+    "sub": "앞으로 나오라",
+    "subAt": 0.4
+   },
+   "src": [
+    2
+   ],
+   "act": 7
+  },
+  {
+   "id": "s246",
+   "lines": [
+    {
+     "t": "앞으로 나온 사람은 5명뿐이었습니다.",
+     "say": "앞으로 나온 사람은 다섯 명뿐이었습니다."
+    }
+   ],
+   "visual": {
+    "type": "troops",
+    "n": 5,
+    "cols": 5,
+    "side": "us",
+    "title": "앞으로 나온 병사",
+    "labels": [
+     {
+      "x": 0.5,
+      "y": 0.76,
+      "text": "5명",
+      "on": "다섯",
+      "color": "blue"
+     }
+    ]
+   },
+   "src": [
+    2
+   ],
+   "act": 7
+  },
+  {
+   "id": "s247",
+   "lines": [
+    {
+     "t": "10월 29일 오전 9시 30분 이승만 대통령이 평양 능라도 비행장에 내렸습니다.",
+     "say": "시월 이십구일 오전 아홉 시 삼십 분 이승만 대통령이 평양 능라도 비행장에 내렸습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "city",
+    "to": "city",
+    "items": [
+     {
+      "k": "lock",
+      "p": "neungra",
+      "text": "능라도 비행장",
+      "at": 0.3
+     }
+    ],
+    "tilt": 34
+   },
+   "date": "1950. 10. 29",
+   "clock": "09:30",
+   "src": [
+    1
+   ],
+   "act": 7
+  },
+  {
+   "id": "s248",
+   "lines": [
+    {
+     "t": "평양 시청 앞에는 5만여 명의 시민이 모였습니다.",
+     "say": "평양 시청 앞에는 오만여 명의 시민이 모였습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "city",
+    "to": "city",
+    "items": [
+     {
+      "k": "lock",
+      "p": "bon",
+      "text": "평양 시청",
+      "at": 0.2
+     }
+    ],
+    "tilt": 34
+   },
+   "hook": {
+    "hud": [
+     {
+      "big": "5만여 명",
+      "sub": "평양 시청 앞 군중",
+      "on": "오만"
+     }
+    ]
+   },
+   "src": [
+    1
+   ],
+   "act": 7
+  },
+  {
+   "id": "s249",
+   "lines": [
+    {
+     "t": "대통령은 39년 만에 평양 땅을 밟는다고 말했습니다.",
+     "say": "대통령은 삼십구 년 만에 평양 땅을 밟는다고 말했습니다."
+    }
+   ],
+   "visual": {
+    "type": "text",
+    "big": "39년 만의 평양",
+    "style": "yellow",
+    "sub": "이승만 대통령",
+    "subAt": 0.4
+   },
+   "src": [
+    1
+   ],
+   "act": 7
+  },
+  {
+   "id": "s250",
+   "lines": [
+    "그런데 아무도 몰랐던 일이 있었습니다."
+   ],
+   "visual": {
+    "type": "black",
+    "text": "아무도",
+    "accent": "몰랐던 일",
+    "accentAt": 0.5
+   },
+   "clock": "",
+   "act": 7
+  },
+  {
+   "id": "s251",
+   "lines": [
+    {
+     "t": "평양이 열린 바로 그 10월 19일 중공군이 압록강을 건너고 있었습니다.",
+     "say": "평양이 열린 바로 그 시월 십구일 중공군이 압록강을 건너고 있었습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "yalu",
+    "to": "yalu",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        124.5,
+        40.6
+       ],
+       [
+        124.8,
+        40.2
+       ],
+       [
+        125.2,
+        39.9
+       ],
+       [
+        125.6,
+        39.6
+       ]
+      ],
+      "color": "red",
+      "width": 1.3,
+      "at": 0.2
+     },
+     {
+      "k": "swarm",
+      "path": [
+       [
+        124.5,
+        40.6
+       ],
+       [
+        124.8,
+        40.2
+       ],
+       [
+        125.2,
+        39.9
+       ],
+       [
+        125.6,
+        39.6
+       ]
+      ],
+      "at": 0.1,
+      "n": 160,
+      "width": 0.12
+     },
+     {
+      "k": "lock",
+      "p": "yalu",
+      "text": "압록강",
+      "at": 0.5,
+      "color": "#c9242c"
+     }
+    ],
+    "tilt": 14
+   },
+   "date": "1950. 10. 19",
+   "src": [
+    1,
+    2,
+    5
+   ],
+   "act": 7
+  },
+  {
+   "id": "s252",
+   "lines": [
+    "엿새 뒤 그들은 북쪽 산골에서 국군을 덮쳤습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s252-photo",
+    "tag": "공개 사진",
+    "lower": {
+     "title": "중국 인민지원군 사령관 펑더화이"
+    }
+   },
+   "date": "1950. 10. 25",
+   "src": [
+    1,
+    2,
+    5
+   ],
+   "act": 7
+  },
+  {
+   "id": "s253",
+   "lines": [
+    {
+     "t": "그리고 1950년 12월 5일 평양은 다시 공산군의 손에 넘어갔습니다.",
+     "say": "그리고 천구백오십년 십이월 오일 평양은 다시 공산군의 손에 넘어갔습니다."
+    }
+   ],
+   "visual": {
+    "type": "map",
+    "from": "nk",
+    "to": "nk",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        125.4,
+        40.4
+       ],
+       [
+        125.6,
+        39.8
+       ],
+       [
+        125.75,
+        39.1
+       ]
+      ],
+      "color": "red",
+      "width": 1.2,
+      "at": 0.2
+     },
+     {
+      "k": "lock",
+      "p": "pyongyang",
+      "text": "평양 다시 함락",
+      "at": 0.5,
+      "color": "#c9242c"
+     }
+    ],
+    "tilt": 10
+   },
+   "date": "1950. 12. 5",
+   "src": [
+    1,
+    2,
+    5
+   ],
+   "act": 7
+  },
+  {
+   "id": "s254",
+   "lines": [
+    "대동강 철교의 끊어진 철골 위로 수많은 피란민이 남쪽으로 기어 내려왔습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s254-photo",
+    "tag": "AP · 퓰리처상",
+    "lower": {
+     "title": "끊어진 대동강 철교 위의 피란민",
+     "date": "1950. 12"
+    }
+   },
+   "act": 7
+  },
+  {
+   "id": "s255",
+   "lines": [
+    "국군이 평양을 지킨 시간은 두 달이 채 되지 않았습니다."
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s255-photo",
+    "tag": "미 육군 사진",
+    "lower": {
+     "title": "대동강을 걸어서 건너는 피란민",
+     "date": "1950. 12. 3"
+    }
+   },
+   "hook": {
+    "hud": [
+     {
+      "big": "두 달 미만",
+      "sub": "국군의 평양 확보",
+      "sub2": "10. 19 → 12. 5",
+      "on": "두 달",
+      "count": false
+     }
+    ]
+   },
+   "act": 7
+  },
+  {
+   "id": "s256",
+   "lines": [
+    "그래서 이 경주를 두고는 다른 평가도 있습니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "다른 평가도 있다",
+    "style": "dark",
+    "sub": "군사편찬연구소 연구원의 분석",
+    "subAt": 0.4
+   },
+   "src": [
+    1
+   ],
+   "act": 7
+  },
+  {
+   "id": "s257",
+   "lines": [
+    "평양을 정면으로 치는 대신 동쪽으로 돌아 순천과 숙천으로 나갔다면 북한 지도부의 퇴로를 막을 수 있었으리라는 것입니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "north",
+    "to": "north",
+    "items": [
+     {
+      "k": "marker",
+      "p": "pyongyang",
+      "color": "red",
+      "at": 0
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.0,
+        38.9
+       ],
+       [
+        126.05,
+        39.2
+       ],
+       [
+        125.93,
+        39.43
+       ]
+      ],
+      "color": "blue",
+      "dash": true,
+      "at": 0.1
+     },
+     {
+      "k": "arrow",
+      "path": [
+       [
+        126.0,
+        38.9
+       ],
+       [
+        125.9,
+        39.2
+       ],
+       [
+        125.66,
+        39.41
+       ]
+      ],
+      "color": "blue",
+      "dash": true,
+      "at": 0.3
+     },
+     {
+      "k": "lock",
+      "p": "sunchon",
+      "text": "순천",
+      "at": 0.5
+     },
+     {
+      "k": "marker",
+      "p": "sukchon",
+      "color": "blue",
+      "on": "숙천"
+     }
+    ],
+    "tilt": 20
+   },
+   "src": [
+    1
+   ],
+   "act": 7
+  },
+  {
+   "id": "s258",
+   "lines": [
+    "이틀 늦게 출발한 사단이 산길과 지뢰밭과 비 내리는 밤을 지나 먼저 강가에 닿았습니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "route",
+    "to": "route",
+    "items": [
+     {
+      "k": "line",
+      "path": [
+       [
+        126.88,
+        38.0
+       ],
+       [
+        126.73,
+        38.3
+       ],
+       [
+        126.53,
+        38.5
+       ],
+       [
+        126.36,
+        38.73
+       ],
+       [
+        126.09,
+        38.85
+       ],
+       [
+        126.0,
+        38.9
+       ],
+       [
+        125.88,
+        38.95
+       ],
+       [
+        125.772,
+        39.012
+       ]
+      ],
+      "color": "#ffd400",
+      "glow": true,
+      "at": 0.1
+     },
+     {
+      "k": "lock",
+      "p": "seongyo",
+      "text": "대동강 강가",
+      "at": 0.5
+     }
+    ],
+    "tilt": 14
+   },
+   "act": 7
+  },
+  {
+   "id": "s259",
+   "lines": [
+    {
+     "t": "2020년 세상을 떠난 백선엽의 이름에는 지금도 영웅이라는 평가와 비판이 함께 남아 있습니다.",
+     "say": "이천이십년 세상을 떠난 백선엽의 이름에는 지금도 영웅이라는 평가와 비판이 함께 남아 있습니다."
+    }
+   ],
+   "visual": {
+    "type": "photo",
+    "kb": "in",
+    "q": "s259-photo",
+    "tag": "미 육군 사진 · 2011",
+    "lower": {
+     "title": "백선엽 장군 (정전 58주년)",
+     "date": "2011. 7. 27"
+    }
+   },
+   "src": [
+    4
+   ],
+   "act": 7
+  },
+  {
+   "id": "s260",
+   "lines": [
+    "그리고 그해 시월 평양으로 가는 길 위에는 이름 없이 쓰러진 병사들이 있었습니다."
+   ],
+   "visual": {
+    "type": "ai",
+    "img": "helmets_row",
+    "kb": "out",
+    "lower": {
+     "title": "이름 없이 쓰러진 병사들",
+     "sub": "재연"
+    }
+   },
+   "label": "재연 일러스트",
+   "act": 7
+  },
+  {
+   "id": "s261",
+   "lines": [
+    "다음 편에서는 이 북진의 가장 끝을 따라갑니다."
+   ],
+   "visual": {
+    "type": "map",
+    "from": "nk",
+    "to": "nk",
+    "items": [
+     {
+      "k": "arrow",
+      "path": [
+       [
+        125.93,
+        39.43
+       ],
+       [
+        125.9,
+        40.1
+       ],
+       [
+        125.8,
+        40.83
+       ]
+      ],
+      "color": "blue",
+      "width": 1.0,
+      "at": 0.2
+     },
+     {
+      "k": "lock",
+      "p": "chosan",
+      "text": "초산 · 압록강",
+      "at": 0.5
+     }
+    ],
+    "tilt": 10
+   },
+   "act": 7
+  },
+  {
+   "id": "s262",
+   "lines": [
+    "압록강 물을 수통에 담은 단 하나의 연대 초산 진격전입니다."
+   ],
+   "visual": {
+    "type": "text",
+    "big": "다음 편 · 초산·압록강 진격전",
+    "style": "yellow",
+    "sub": "격전의 지도 EP36",
+    "subAt": 0.4
+   },
+   "act": 7
+  },
+  {
+   "id": "s263",
+   "lines": [
+    "오늘 영상이 도움이 되셨다면 구독과 좋아요로 격전의 지도를 응원해 주십시오."
+   ],
+   "visual": {
+    "type": "endcard",
+    "title": "평양으로 가는 길 위의\n모든 병사를 기억하며",
+    "q": "s263-photo"
+   },
+   "tail": 1.0,
+   "act": 7
+  }
+ ]
+}
