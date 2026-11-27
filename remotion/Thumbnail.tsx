@@ -1502,6 +1502,23 @@ export interface ThumbV2Props {
 }
 export type ThumbNote = { text: string; x: number; y: number; to: [number, number]; size?: number };
 export const PAROHO_V2: Record<string, ThumbV2Props> = {
+  // EP36 초산·압록강 진격전 — 배경: 재연 그림(Cloudflare 무료) yalu_bank(압록강 강둑을 내려가는 병사들) 흑백 · v5 TV 우선 (episodes/ep36-chosan/thumb_plan.md)
+  //   숫자 출처: 10. 26 14:15 초산 압록강변(한국민족문화대백과) · 3,552명 중 약 875명 군우리 복귀(애플먼 33장) · 풍장 계곡 폭 50~150m(이대용 회고)
+  "ep36-chosan": {
+    bg: "ep/ep36-chosan/ai/yalu_bank.jpg",
+    bgPos: "50% 60%",
+    tv: true,
+    tag: "초산 | 1950.10.26",
+    tagStyle: "red",
+    line1: "압록강 물을 [떠 담은] 연대",
+    line2: "{사흘} 만에 사라진 이유",
+    why: { q: "가장 먼저 압록강에 닿은 연대가 왜 사라졌나?", e: "안타까움 · 의아함" },
+    alts: [
+      { tag: "3,552명 | 약 875명", tagStyle: "black", line1: "[3,552명] 중 875명", line2: "압록강에서 생긴 일", box2: true },
+      { tag: "1950.10.26 | 압록강", tagStyle: "cream", line1: "통일을 담은 {수통}", line2: "사흘 뒤 [포위]됐다" },
+      { tag: "풍장 계곡 | 폭 50m", tagStyle: "yellow", line1: "트럭 수백 대가", line2: "[빠져나오지 못한] 계곡" },
+    ],
+  }, // ALTS:ep36-chosan n=3
   // EP35 평양 최초 입성 작전 — 배경: 사료 사진 태극기를 흔들며 평양에 들어가는 장병들(1950. 10. 19, 국방화보, 장면 s003) 흑백 · v5 TV 우선
   //   카피: 1사단 10. 11 출발(기병사단 10. 9보다 이틀 늦음) · 10. 19 10:50 선교리 로터리(국방일보) · 10. 18 밤 8마일 대 30마일(애플먼) · 백선엽 만 29세
   "ep35-pyongyang": {
