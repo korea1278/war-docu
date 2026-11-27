@@ -9,6 +9,10 @@ on:
       episode:
         description: "에피소드 폴더 이름 (episodes/ 아래)"
         required: true
+      preview_first:
+        description: "미리보기부터 먼저 돌리고 끝나면 바로 나눠 렌더 (2026-11-27)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -18,7 +22,18 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  pre:
+    if: github.event.inputs.preview_first == 'true'
+    uses: ./.github/workflows/render-episode.yml
+    with:
+      episode: ${{ github.event.inputs.episode }}
+      mode: preview
+    secrets: inherit
+
   part:
+    needs: pre
+    # 미리보기를 안 돌렸으면(skipped) 바로, 돌렸으면 성공했을 때만
+    if: ${{ !failure() && !cancelled() }}
     strategy:
       fail-fast: false
       matrix:

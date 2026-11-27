@@ -9,9 +9,9 @@ on:
         default: "yongmunsan"
         required: true
       mode:
-        description: "full = 최종 MP4 / preview = 재료+미리보기만 / free = 무료 점검 / check = API 점검 / scout = 사진 후보 수집 / thumb = 썸네일 그림 생성+렌더링만"
+        description: "auto = 미리보기 끝나면 바로 본 렌더(한 번에) / full = 최종 MP4 / preview = 재료+미리보기만 / free = 무료 점검 / check = API 점검 / scout = 사진 후보 수집 / thumb = 썸네일 그림 생성+렌더링만"
         type: choice
-        options: [full, preview, free, check, scout, thumb]
+        options: [auto, full, preview, free, check, scout, thumb]
         default: full
       english:
         description: "영문판(_en)도 이어서 렌더링"
@@ -34,8 +34,20 @@ jobs:
     uses: ./.github/workflows/render-episode.yml
     with:
       episode: ${{ github.event.inputs.episode }}
-      mode: ${{ github.event.inputs.mode }}
+      # auto = 이 작업은 미리보기로 돌리고, 성공하면 아래 final 작업이 이어서 본 렌더
+      mode: ${{ github.event.inputs.mode == 'auto' && 'preview' || github.event.inputs.mode }}
       redo: ${{ github.event.inputs.redo }}
+    secrets: inherit
+
+  # 2026-11-27 사용자 요청: 미리보기 뒤 예약 없이 바로 본 렌더 — 미리보기(싱크·자막 검사 포함)가 실패하면 본 렌더는 자동으로 건너뜀
+  final:
+    needs: ko
+    if: github.event.inputs.mode == 'auto'
+    uses: ./.github/workflows/render-episode.yml
+    with:
+      episode: ${{ github.event.inputs.episode }}
+      mode: full
+      redo: ""   # 다시 만들기는 미리보기에서 이미 함 — 두 번 만들면 비용이 두 번 듦
     secrets: inherit
 
   check-en:
