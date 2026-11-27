@@ -1,0 +1,37 @@
+name: 완성 영상 릴리스 다시 올리기
+# 나눠 렌더 merge의 Releases 단계가 실패했을 때, 그 실행의 Artifacts 백업(<ep>-video)을 받아 Releases에 다시 올린다 (2026-11-27 · EP36)
+on:
+  workflow_dispatch:
+    inputs:
+      episode:
+        description: "에피소드 폴더 이름"
+        required: true
+      run_id:
+        description: "영상 Artifacts가 있는 실행 번호 (run id)"
+        required: true
+permissions:
+  contents: write
+  actions: read
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    env:
+      EP: ${{ github.event.inputs.episode }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: ${{ github.event.inputs.episode }}-video
+          path: out
+          run-id: ${{ github.event.inputs.run_id }}
+          github-token: ${{ github.token }}
+      - name: Releases 올리기
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          ls -la out
+          ffprobe -v error -show_entries format=duration,size -of default=nw=1 "out/$EP.mp4"
+          TAG="$EP-$(date +%Y%m%d-%H%M)"
+          shopt -s nullglob; SHEETS=(previews/$EP/*.jpg)
+          gh release create "$TAG" "out/$EP.mp4" "out/$EP.srt" "${SHEETS[@]}" \
+            --title "$EP 완성 영상 ($(date +%m/%d\ %H:%M))" --notes "Actions에서 자동 생성된 영상입니다. (나눠 렌더 3등분 · 릴리스 재업로드)"

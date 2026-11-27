@@ -96,7 +96,10 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           TAG="$EP-$(date +%Y%m%d-%H%M)"
-          gh release create "$TAG" "out/$EP.mp4" "out/$EP.srt" previews/$EP/*.jpg \
+          # preview_first면 미리보기 시트는 이 job이 체크아웃한 커밋보다 뒤에 커밋됨 → 최신 main에서 가져옴 (EP36: 시트가 없어 업로드 실패)
+          git fetch -q --depth 1 origin main && git checkout origin/main -- "previews/$EP" 2>/dev/null || true
+          shopt -s nullglob; SHEETS=(previews/$EP/*.jpg)
+          gh release create "$TAG" "out/$EP.mp4" "out/$EP.srt" "${SHEETS[@]}" \
             --title "$EP 완성 영상 ($(date +%m/%d\ %H:%M))" --notes "Actions에서 자동 생성된 영상입니다. (나눠 렌더 3등분)"
       - name: 결과물 올리기 (Artifacts 백업)
         if: always()
