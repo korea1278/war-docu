@@ -30,7 +30,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           ls -la out
-          ffprobe -v error -show_entries format=duration,size -of default=nw=1 "out/$EP.mp4"
+          ls -la "out/$EP.mp4"
           TAG="$EP-$(date +%Y%m%d-%H%M)"
           shopt -s nullglob; SHEETS=(previews/$EP/*.jpg)
           gh release create "$TAG" "out/$EP.mp4" "out/$EP.srt" "${SHEETS[@]}" \
