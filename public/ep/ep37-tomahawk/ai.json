@@ -1,3 +1,23 @@
 {
- "helmets_row": "d2895dc3eb8f"
+ "helmets_row": "d2895dc3eb8f",
+ "anvil": "0b5d89b5bc18",
+ "bayonet_hill": "cb17bcbca6d9",
+ "cans_dug": "7bd578c2e8dc",
+ "creek_tanks": "7871e34b2faf",
+ "door_jump": "cd33589cb7aa",
+ "dz_landing": "ba19409f2222",
+ "hill228_rain": "6101e5a27649",
+ "l19_field": "521bb4c793d6",
+ "linkup_dusk": "dfeac1887ae8",
+ "medics_chutes": "b660093a4cbc",
+ "mg_hold": "a6bfc3003659",
+ "mine_probe": "178b3d3fdce4",
+ "night_crossing": "2659ff1887d0",
+ "rain_mud": "8196c96d422c",
+ "sand_table": "24f3dde2e77a",
+ "sky_chutes": "cc6132e5f346",
+ "stuck_truck": "4eafe2ee2a13",
+ "taegu_dawn": "a3b81a89fae0",
+ "tank_blast": "412fc4c1f6db",
+ "yellow_chutes": "9a26c2cacd52"
 }
