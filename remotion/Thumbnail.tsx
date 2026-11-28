@@ -1502,11 +1502,11 @@ export interface ThumbV2Props {
 }
 export type ThumbNote = { text: string; x: number; y: number; to: [number, number]; size?: number };
 export const PAROHO_V2: Record<string, ThumbV2Props> = {
-  // EP37 토마호크 작전 — 배경: 재연 그림(Cloudflare 무료) sky_chutes(문산 하늘을 덮은 낙하산) 흑백 · v5 TV 우선 (episodes/ep37-tomahawk/thumb_plan.md)
+  // EP37 토마호크 작전 — 배경: 재연 그림(Cloudflare 무료) dz_landing(낙하산만 흩어진 텅 빈 논 — '적이 없었다') 흑백 · v5 TV 우선 (episodes/ep37-tomahawk/thumb_plan.md)
   //   숫자 출처: 3,437명·약 120대(위키 Operation Tomahawk) · 1951. 3. 23 09:00 강하(USARPAC) · 지뢰 150여 개·가짜 깡통·약 24km 남쪽 정지(모스먼 요약)
   "ep37-tomahawk": {
-    bg: "ep/ep37-tomahawk/ai/sky_chutes.jpg",
-    bgPos: "50% 62%",
+    bg: "ep/ep37-tomahawk/ai/dz_landing.jpg",
+    bgPos: "50% 70%",
     tv: true,
     tag: "문산 | 1951.3.23",
     tagStyle: "red",
